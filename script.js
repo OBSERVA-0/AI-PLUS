@@ -239,20 +239,22 @@ document.addEventListener('DOMContentLoaded', function() {
     // Set initial language
     setLanguage(currentLanguage);
     
-    // Language dropdown toggle
-    languageToggle.addEventListener('click', function(e) {
-        e.stopPropagation();
-        languageDropdown.classList.toggle('active');
-    });
-    
-    // Language dropdown buttons
-    const languageButtons = languageDropdown.querySelectorAll('button[data-lang]');
-    languageButtons.forEach(button => {
-        button.addEventListener('click', function() {
-            const lang = this.getAttribute('data-lang');
-            changeLanguage(lang);
+    // Language dropdown functionality
+    if (languageToggle && languageDropdown) {
+        languageToggle.addEventListener('click', function(e) {
+            e.stopPropagation();
+            languageDropdown.classList.toggle('active');
         });
-    });
+        
+        // Language dropdown buttons
+        const languageButtons = languageDropdown.querySelectorAll('button[data-lang]');
+        languageButtons.forEach(button => {
+            button.addEventListener('click', function() {
+                const lang = this.getAttribute('data-lang');
+                changeLanguage(lang);
+            });
+        });
+    }
     
     // Start Practice button
     const startPracticeBtn = document.getElementById('start-practice-btn');
@@ -263,28 +265,24 @@ document.addEventListener('DOMContentLoaded', function() {
     }
     
     // Close dropdown when clicking outside
-    document.addEventListener('click', function() {
-        languageDropdown.classList.remove('active');
-    });
+    if (languageDropdown) {
+        document.addEventListener('click', function() {
+            languageDropdown.classList.remove('active');
+        });
+    }
     
-    // Smooth scrolling for navigation links
+    // Setup various page functionalities
     setupSmoothScrolling();
-    
-    // Add scroll effect to header
     setupHeaderScrollEffect();
-    
-    // Add intersection observer for animations
     setupScrollAnimations();
-    
-    // Add button click handlers for hero buttons
     setupHeroButtonHandlers();
-    
-    // Handle contact form submission
     setupContactForm();
 });
 
 // Language change function
 function changeLanguage(lang) {
+    if (!languageDropdown || !currentLangSpan) return;
+    
     currentLanguage = lang;
     setLanguage(lang);
     languageDropdown.classList.remove('active');
