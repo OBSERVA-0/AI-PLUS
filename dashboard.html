@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practice Tests - AI Plus Education</title>
+    <link rel="stylesheet" href="dashboard-styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <div class="nav-brand">
+                <h1>AI Plus Education</h1>
+            </div>
+            <nav class="nav">
+                <div class="user-info">
+                    <span class="welcome-text">Welcome, <span id="user-name">Student</span></span>
+                    <button id="logout-btn" class="btn btn-outline">Logout</button>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main class="main-content">
+        <div class="container">
+            <!-- Test Selection View -->
+            <section id="test-selection" class="test-selection">
+                <div class="section-header">
+                    <h1>Choose Your Practice Test</h1>
+                    <p>Select a test to begin your practice session</p>
+                </div>
+
+                <div class="user-stats">
+                    <div class="stat-card">
+                        <h3>Tests Completed</h3>
+                        <span class="stat-number" id="total-tests">0</span>
+                    </div>
+                    <div class="stat-card">
+                        <h3>Average Score</h3>
+                        <span class="stat-number" id="avg-score">0%</span>
+                    </div>
+                    <div class="stat-card">
+                        <h3>Study Time</h3>
+                        <span class="stat-number" id="study-time">0h</span>
+                    </div>
+                </div>
+
+                <div class="tests-grid">
+                    <div class="test-card" data-test="shsat">
+                        <div class="test-icon">📚</div>
+                        <h2>SHSAT</h2>
+                        <p>Specialized High School Admissions Test</p>
+                        <div class="test-details">
+                            <div class="detail-item">
+                                <span class="label">Sections:</span>
+                                <span class="value">ELA & Math</span>
+                            </div>
+                            <div class="detail-item">
+                                <span class="label">Questions:</span>
+                                <span class="value">114 total</span>
+                            </div>
+                            <div class="detail-item">
+                                <span class="label">Time:</span>
+                                <span class="value">180 minutes</span>
+                            </div>
+                        </div>
+                        <div class="test-progress">
+                            <div class="progress-info">
+                                <span>Tests taken: <span class="test-count">0</span></span>
+                                <span>Best score: <span class="best-score">N/A</span></span>
+                            </div>
+                        </div>
+                        <button class="btn btn-primary start-test-btn">Start Practice</button>
+                    </div>
+
+                    <div class="test-card" data-test="sat">
+                        <div class="test-icon">🎓</div>
+                        <h2>SAT</h2>
+                        <p>College Admission Test</p>
+                        <div class="test-details">
+                            <div class="detail-item">
+                                <span class="label">Sections:</span>
+                                <span class="value">Reading, Writing & Math</span>
+                            </div>
+                            <div class="detail-item">
+                                <span class="label">Questions:</span>
+                                <span class="value">154 total</span>
+                            </div>
+                            <div class="detail-item">
+                                <span class="label">Time:</span>
+                                <span class="value">180 minutes</span>
+                            </div>
+                        </div>
+                        <div class="test-progress">
+                            <div class="progress-info">
+                                <span>Tests taken: <span class="test-count">0</span></span>
+                                <span>Best score: <span class="best-score">N/A</span></span>
+                            </div>
+                        </div>
+                        <button class="btn btn-secondary start-test-btn" disabled>Coming Soon</button>
+                    </div>
+
+                    <div class="test-card" data-test="state">
+                        <div class="test-icon">🏛️</div>
+                        <h2>State Tests</h2>
+                        <p>State Standardized Assessments</p>
+                        <div class="test-details">
+                            <div class="detail-item">
+                                <span class="label">Sections:</span>
+                                <span class="value">ELA & Math</span>
+                            </div>
+                            <div class="detail-item">
+                                <span class="label">Questions:</span>
+                                <span class="value">Varies by grade</span>
+                            </div>
+                            <div class="detail-item">
+                                <span class="label">Time:</span>
+                                <span class="value">90-180 minutes</span>
+                            </div>
+                        </div>
+                        <div class="test-progress">
+                            <div class="progress-info">
+                                <span>Tests taken: <span class="test-count">0</span></span>
+                                <span>Best score: <span class="best-score">N/A</span></span>
+                            </div>
+                        </div>
+                        <button class="btn btn-secondary start-test-btn" disabled>Coming Soon</button>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Practice Test View -->
+            <section id="practice-test" class="practice-test" style="display: none;">
+                <div class="test-header">
+                    <div class="test-info">
+                        <h1 id="current-test-title">SHSAT Practice Test</h1>
+                        <div class="test-meta">
+                            <span class="question-counter">Question <span id="current-question">1</span> of <span id="total-questions">0</span></span>
+                            <span class="current-section">Section: <span id="current-section">English Language Arts</span></span>
+                        </div>
+                    </div>
+                    <div class="test-controls">
+                        <div class="timer">
+                            <span class="timer-label">Time Remaining:</span>
+                            <span class="timer-display" id="timer">60:00</span>
+                        </div>
+                        <button id="end-test-btn" class="btn btn-outline">End Test</button>
+                    </div>
+                </div>
+
+                <div class="question-container">
+                    <div class="question-content">
+                        <div class="question-text" id="question-text">
+                            <!-- Question will be loaded here -->
+                        </div>
+                        <div class="question-options" id="question-options">
+                            <!-- Answer options will be loaded here -->
+                        </div>
+                    </div>
+                </div>
+
+                <div class="test-navigation">
+                    <div class="nav-buttons">
+                        <button id="prev-question" class="btn btn-outline" disabled>Previous</button>
+                        <div class="question-grid">
+                            <!-- Question numbers will be generated here -->
+                        </div>
+                        <button id="next-question" class="btn btn-primary">Next</button>
+                    </div>
+                    <!-- Test summary will be added here dynamically -->
+                </div>
+            </section>
+
+            <!-- Test Results View -->
+            <section id="test-results" class="test-results" style="display: none;">
+                <div class="results-header">
+                    <h1>Test Complete!</h1>
+                    <p>Here are your results for this practice session</p>
+                </div>
+
+                <div class="score-summary">
+                    <div class="score-main">
+                        <div class="score-circle">
+                            <span class="score-percentage" id="final-score">85%</span>
+                        </div>
+                        <div class="score-details">
+                            <div class="score-item">
+                                <span class="label">Correct Answers:</span>
+                                <span class="value" id="correct-count">17/20</span>
+                            </div>
+                            <div class="score-item">
+                                <span class="label">Time Taken:</span>
+                                <span class="value" id="time-taken">25:30</span>
+                            </div>
+                            <div class="score-item">
+                                <!-- <span class="label">Section:</span> -->
+                                <!-- <span class="value" id="section-name">English Language Arts</span> -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="results-actions">
+                    <!-- <button id="review-answers" class="btn btn-outline">Review Answers</button> -->
+                    <button id="retake-test" class="btn btn-primary">Take Another Test</button>
+                    <button id="back-to-dashboard" class="btn btn-secondary">Back to Dashboard</button>
+                </div>
+
+                <div class="performance-breakdown">
+                    <h3>Performance Breakdown</h3>
+                    <div class="topic-scores" id="topic-scores">
+                        <!-- Topic-wise scores will be loaded here -->
+                    </div>
+                </div>
+
+                <div class="detailed-review-section">
+                    <h3>Question Review</h3>
+                    <div class="detailed-review" id="detailed-review">
+                        <!-- Detailed question review will be loaded here -->
+                    </div>
+                </div>
+            </section>
+        </div>
+    </main>
+
+    <script src="dashboard-script.js"></script>
+</body>
+</html> 

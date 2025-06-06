@@ -1,0 +1,67 @@
+<svg width="500" height="120" xmlns="http://www.w3.org/2000/svg">
+  <!-- Number line -->
+  <line x1="40" y1="60" x2="460" y2="60" stroke="black" stroke-width="3"/>
+  
+  <!-- Arrow heads -->
+  <polygon points="40,60 50,55 50,65" fill="black"/>
+  <polygon points="460,60 450,55 450,65" fill="black"/>
+  
+  <!-- Tick marks and numbers -->
+  <!-- -2 -->
+  <line x1="60" y1="55" x2="60" y2="65" stroke="black" stroke-width="2"/>
+  <text x="60" y="80" text-anchor="middle" font-family="Arial, sans-serif" font-size="14">-2</text>
+  
+  <!-- -1 -->
+  <line x1="90" y1="55" x2="90" y2="65" stroke="black" stroke-width="2"/>
+  <text x="90" y="80" text-anchor="middle" font-family="Arial, sans-serif" font-size="14">-1</text>
+  
+  <!-- 0 -->
+  <line x1="120" y1="55" x2="120" y2="65" stroke="black" stroke-width="2"/>
+  <text x="120" y="80" text-anchor="middle" font-family="Arial, sans-serif" font-size="14">0</text>
+  
+    <!-- 1 (Point A) -->
+  <line x1="150" y1="55" x2="150" y2="65" stroke="black" stroke-width="2"/>
+  <text x="150" y="80" text-anchor="middle" font-family="Arial, sans-serif" font-size="14">1</text>
+  <circle cx="150" cy="60" r="5" fill="red" stroke="black" stroke-width="2"/>
+  <text x="150" y="40" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" font-weight="bold">A</text>
+  
+  <!-- 2 -->
+  <line x1="180" y1="55" x2="180" y2="65" stroke="black" stroke-width="2"/>
+  <text x="180" y="80" text-anchor="middle" font-family="Arial, sans-serif" font-size="14">2</text>
+  
+  <!-- 3 (Point B) -->
+  <line x1="210" y1="55" x2="210" y2="65" stroke="black" stroke-width="2"/>
+  <text x="210" y="80" text-anchor="middle" font-family="Arial, sans-serif" font-size="14">3</text>
+  <circle cx="210" cy="60" r="5" fill="blue" stroke="black" stroke-width="2"/>
+  <text x="210" y="40" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" font-weight="bold">B</text>
+  
+  <!-- 4 -->
+  <line x1="240" y1="55" x2="240" y2="65" stroke="black" stroke-width="2"/>
+  <text x="240" y="80" text-anchor="middle" font-family="Arial, sans-serif" font-size="14">4</text>
+  
+  <!-- 5 -->
+  <line x1="270" y1="55" x2="270" y2="65" stroke="black" stroke-width="2"/>
+  <text x="270" y="80" text-anchor="middle" font-family="Arial, sans-serif" font-size="14">5</text>
+  
+  <!-- 6 -->
+  <line x1="300" y1="55" x2="300" y2="65" stroke="black" stroke-width="2"/>
+  <text x="300" y="80" text-anchor="middle" font-family="Arial, sans-serif" font-size="14">6</text>
+  
+    <!-- 7 (Point C) -->
+  <line x1="330" y1="55" x2="330" y2="65" stroke="black" stroke-width="2"/>
+  <text x="330" y="80" text-anchor="middle" font-family="Arial, sans-serif" font-size="14">7</text>
+  <circle cx="330" cy="60" r="5" fill="green" stroke="black" stroke-width="2"/>
+  <text x="330" y="40" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" font-weight="bold">C</text>
+  
+  <!-- 8 -->
+  <line x1="360" y1="55" x2="360" y2="65" stroke="black" stroke-width="2"/>
+  <text x="360" y="80" text-anchor="middle" font-family="Arial, sans-serif" font-size="14">8</text>
+  
+  <!-- 9 -->
+  <line x1="390" y1="55" x2="390" y2="65" stroke="black" stroke-width="2"/>
+  <text x="390" y="80" text-anchor="middle" font-family="Arial, sans-serif" font-size="14">9</text>
+  
+  <!-- 10 -->
+  <line x1="420" y1="55" x2="420" y2="65" stroke="black" stroke-width="2"/>
+  <text x="420" y="80" text-anchor="middle" font-family="Arial, sans-serif" font-size="14">10</text>
+</svg> 

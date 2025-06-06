@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Plus Education - Practice Tests & Test Prep</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <div class="nav-brand">
+                <h1>AI Plus Education</h1>
+            </div>
+            <nav class="nav">
+                <ul class="nav-links">
+                    <li><a href="#home" data-translate="nav_home">Home</a></li>
+                    <li><a href="#about" data-translate="nav_about">About</a></li>
+                    <li><a href="#why-ai-plus" data-translate="nav_why">Why AI Plus</a></li>
+                    <li><a href="#practice-tests" data-translate="nav_tests">Practice Tests</a></li>
+                    <li><a href="#contact" data-translate="nav_contact">Contact</a></li>
+                </ul>
+                <div class="language-selector">
+                    <button id="language-toggle" class="language-btn">
+                        <span id="current-lang">EN</span>
+                        <span class="lang-arrow">▼</span>
+                    </button>
+                    <div id="language-dropdown" class="language-dropdown">
+                        <button data-lang="en">English</button>
+                        <button data-lang="zh">中文</button>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h1 class="hero-title" data-translate="hero_title">Master Your Test Prep Journey</h1>
+                <p class="hero-subtitle" data-translate="hero_subtitle">Comprehensive practice tests for SHSAT, SAT, and State exams to help you achieve your academic goals</p>
+                <div class="hero-buttons">
+                    <button class="btn btn-primary" data-translate="hero_start">Start Practicing</button>
+                    <button class="btn btn-secondary" data-translate="hero_learn">Learn More</button>
+                </div>
+            </div>
+            <div class="hero-image">
+                <div class="hero-graphic">
+                    <div class="study-icon">📚</div>
+                    <div class="chart-icon">📊</div>
+                    <div class="trophy-icon">🏆</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Us Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="section-header">
+                <h2 data-translate="about_title">About AI Plus Education</h2>
+                <p data-translate="about_subtitle">Empowering students to reach their full potential through comprehensive test preparation</p>
+            </div>
+            <div class="about-content">
+                <div class="about-text">
+                    <h3 data-translate="about_mission_title">Our Mission</h3>
+                    <p data-translate="about_mission_text">
+                        At AI Plus Education, we believe every student deserves access to high-quality test preparation resources. 
+                        Our platform provides comprehensive practice tests and study materials designed to help students excel 
+                        in standardized tests including SHSAT, SAT, and various state examinations.
+                    </p>
+                    
+                    <h3 data-translate="about_commitment_title">Our Commitment</h3>
+                    <p data-translate="about_commitment_text">
+                        We are committed to making test preparation accessible, effective, and engaging. Our team of educators 
+                        and test prep specialists work tirelessly to create authentic practice experiences that mirror real exam conditions.
+                    </p>
+                </div>
+                <div class="about-stats">
+                    <div class="stat-item">
+                        <div class="stat-number">500+</div>
+                        <div class="stat-label" data-translate="stat_students">Students Helped</div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-number">100+</div>
+                        <div class="stat-label" data-translate="stat_questions">Practice Questions</div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-number">90%</div>
+                        <div class="stat-label" data-translate="stat_improvement">Score Improvement</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Why AI Plus Section -->
+    <section id="why-ai-plus" class="why-ai-plus">
+        <div class="container">
+            <div class="section-header">
+                <h2 data-translate="why_title">Why Choose AI Plus Education?</h2>
+                <p data-translate="why_subtitle">Discover what makes our test preparation platform unique and effective</p>
+            </div>
+            <div class="features-grid">
+                <div class="feature-card">
+                    <div class="feature-icon">🎯</div>
+                    <h3 data-translate="feature_targeted_title">Targeted Practice</h3>
+                    <p data-translate="feature_targeted_text">
+                        Our practice tests are carefully designed to match the format, difficulty, and content of actual exams, 
+                        ensuring you're fully prepared for test day.
+                    </p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">📈</div>
+                    <h3 data-translate="feature_tracking_title">Progress Tracking</h3>
+                    <p data-translate="feature_tracking_text">
+                        Monitor your improvement with detailed analytics and performance insights that help identify 
+                        strengths and areas for improvement.
+                    </p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">💡</div>
+                    <h3 data-translate="feature_explanations_title">Detailed Explanations</h3>
+                    <p data-translate="feature_explanations_text">
+                        Every question comes with comprehensive explanations to help you understand concepts and 
+                        learn from your mistakes.
+                    </p>
+                </div>
+                <!-- <div class="feature-card">
+                    <div class="feature-icon">🌐</div>
+                    <h3 data-translate="feature_accessibility_title">Multilingual Support</h3>
+                    <p data-translate="feature_accessibility_text">
+                        Our platform supports multiple languages, making quality test preparation accessible to 
+                        students from diverse backgrounds.
+                    </p>
+                </div> -->
+                <div class="feature-card">
+                    <div class="feature-icon">⏰</div>
+                    <h3 data-translate="feature_flexible_title">Flexible Learning</h3>
+                    <p data-translate="feature_flexible_text">
+                        Study at your own pace with 24/7 access to practice tests and materials that fit your schedule.
+                    </p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">🏅</div>
+                    <h3 data-translate="feature_proven_title">Proven Results</h3>
+                    <p data-translate="feature_proven_text">
+                        Our students consistently achieve higher scores and gain admission to their target schools 
+                        and programs.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Practice Tests Section -->
+    <section id="practice-tests" class="practice-tests">
+        <div class="container">
+            <div class="section-header">
+                <h2 data-translate="tests_title">Practice Tests Available</h2>
+                <p data-translate="tests_subtitle">Choose from our comprehensive collection of practice exams</p>
+            </div>
+            <div class="tests-grid">
+                <div class="test-card">
+                    <div class="test-header">
+                        <h3>SHSAT</h3>
+                        <div class="test-badge" data-translate="badge_specialized">Specialized High School</div>
+                    </div>
+                    <div class="test-content">
+                        <p data-translate="shsat_description">
+                            Prepare for the Specialized High School Admissions Test with our comprehensive practice exams 
+                            covering English Language Arts and Mathematics.
+                        </p>
+                        <ul class="test-features">
+                            <li data-translate="shsat_feature1">Full-length practice tests</li>
+                            <li data-translate="shsat_feature2">Timed sections</li>
+                            <li data-translate="shsat_feature3">Detailed score reports</li>
+                        </ul>
+                    </div>
+                    <div class="test-footer">
+                        <button id="start-practice-btn" class="btn btn-primary" data-translate="btn_start_practice">Start Practice</button>
+                    </div>
+                </div>
+
+                <div class="test-card">
+                    <div class="test-header">
+                        <h3>SAT</h3>
+                        <div class="test-badge" data-translate="badge_college">College Admission</div>
+                    </div>
+                    <div class="test-content">
+                        <p data-translate="sat_description">
+                            Master the SAT with our practice tests covering Reading, Writing and Language, 
+                            and Mathematics sections.
+                        </p>
+                        <ul class="test-features">
+                            <li data-translate="sat_feature1">Section-by-section practice</li>
+                            <li data-translate="sat_feature2">Full practice exams</li>
+                            <li data-translate="sat_feature3">Performance analytics</li>
+                        </ul>
+                    </div>
+                    <div class="test-footer">
+                        <button class="btn btn-outline" data-translate="btn_coming_soon">Coming Soon</button>
+                    </div>
+                </div>
+
+                <div class="test-card">
+                    <div class="test-header">
+                        <h3 data-translate="state_test_title">State Tests</h3>
+                        <div class="test-badge" data-translate="badge_state">State Standards</div>
+                    </div>
+                    <div class="test-content">
+                        <p data-translate="state_description">
+                            Practice for your state's standardized tests with materials aligned to state standards 
+                            and testing formats.
+                        </p>
+                        <ul class="test-features">
+                            <li data-translate="state_feature1">State-specific content</li>
+                            <li data-translate="state_feature2">Grade-level appropriate</li>
+                            <li data-translate="state_feature3">Standards alignment</li>
+                        </ul>
+                    </div>
+                    <div class="test-footer">
+                        <button class="btn btn-outline" data-translate="btn_coming_soon">Coming Soon</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="section-header">
+                <h2 data-translate="contact_title">Get in Touch</h2>
+                <p data-translate="contact_subtitle">Have questions or need assistance? We're here to help you succeed.</p>
+            </div>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <div class="contact-icon">📧</div>
+                        <div class="contact-details">
+                            <h3 data-translate="contact_email_title">Email Us</h3>
+                            <p>aiplustutor@gmail.com</p>
+                            <span data-translate="contact_email_desc">We'll respond within 24 hours</span>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">📞</div>
+                        <div class="contact-details">
+                            <h3 data-translate="contact_phone_title">Call Us</h3>
+                            <p>(555) 555-5555</p>
+                            <span data-translate="contact_phone_desc">Monday - Friday, 9 AM - 6 PM EST</span>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">🏢</div>
+                        <div class="contact-details">
+                            <h3 data-translate="contact_office_title">Visit Us</h3>
+                            <p data-translate="contact_address"> 4123 150TH ST, Flushing New York, 11355 </p>
+                            <!-- <span data-translate="contact_office_desc">By appointment only</span> -->
+                        </div>
+                    </div>
+                </div>
+                <div class="contact-form">
+                    <h3 data-translate="contact_form_title">Send us a Message</h3>
+                    <form class="contact-form-container">
+                        <div class="form-group">
+                            <input type="text" id="name" name="name" required>
+                            <label for="name" data-translate="form_name">Your Name</label>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" id="email" name="email" required>
+                            <label for="email" data-translate="form_email">Email Address</label>
+                        </div>
+                        <div class="form-group">
+                            <input type="text" id="subject" name="subject" required>
+                            <label for="subject" data-translate="form_subject">Subject</label>
+                        </div>
+                        <div class="form-group">
+                            <textarea id="message" name="message" rows="5" required></textarea>
+                            <label for="message" data-translate="form_message">Your Message</label>
+                        </div>
+                        <button type="submit" class="btn btn-primary" data-translate="form_submit">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <h3>AI Plus Education</h3>
+                    <p data-translate="footer_tagline">Empowering students through comprehensive test preparation</p>
+                </div>
+                <div class="footer-links">
+                    <div class="footer-column">
+                        <h4 data-translate="footer_company">Company</h4>
+                        <ul>
+                            <li><a href="#about" data-translate="footer_about">About Us</a></li>
+                            <li><a href="#contact" data-translate="footer_contact">Contact</a></li>
+                            <!-- <li><a href="#" data-translate="footer_careers">Careers</a></li> -->
+                        </ul>
+                    </div>
+                    <div class="footer-column">
+                        <h4 data-translate="footer_tests">Tests</h4>
+                        <ul>
+                            <li><a href="#practice-tests">SHSAT</a></li>
+                            <li><a href="#practice-tests">SAT</a></li>
+                            <li><a href="#practice-tests" data-translate="footer_state">State Tests</a></li>
+                        </ul>
+                    </div>
+                    <!-- <div class="footer-column">
+                        <h4 data-translate="footer_support">Support</h4>
+                        <ul>
+                            <li><a href="#" data-translate="footer_help">Help Center</a></li>
+                            <li><a href="#" data-translate="footer_privacy">Privacy Policy</a></li>
+                            <li><a href="#" data-translate="footer_terms">Terms of Service</a></li>
+                        </ul>
+                    </div> -->
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 AI Plus Education. <span data-translate="footer_rights">All rights reserved.</span></p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html> 

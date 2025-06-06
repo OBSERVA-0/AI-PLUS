@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login - AI Plus Education</title>
+    <link rel="stylesheet" href="login-styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <div class="nav-brand">
+                <h1 id="home-link">AI Plus Education</h1>
+            </div>
+            <nav class="nav">
+                <div class="language-selector">
+                    <button id="language-toggle" class="language-btn">
+                        <span id="current-lang">EN</span>
+                        <span class="lang-arrow">▼</span>
+                    </button>
+                    <div id="language-dropdown" class="language-dropdown">
+                        <button data-lang="en">English</button>
+                        <button data-lang="zh">中文</button>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Login/Signup Section -->
+    <section class="auth-section">
+        <div class="container">
+            <div class="auth-container">
+                <!-- Left Side - Welcome Content -->
+                <div class="auth-welcome">
+                    <div class="welcome-content">
+                        <h2 data-translate="welcome_title">Welcome to AI Plus Education</h2>
+                        <p data-translate="welcome_subtitle">Join thousands of students who have improved their test scores with our comprehensive practice tests.</p>
+                        
+                        <div class="features-list">
+                            <div class="feature-item">
+                                <div class="feature-icon">🎯</div>
+                                <span data-translate="feature_personalized">Personalized practice tests</span>
+                            </div>
+                            <div class="feature-item">
+                                <div class="feature-icon">📊</div>
+                                <span data-translate="feature_tracking">Detailed progress tracking</span>
+                            </div>
+                            <div class="feature-item">
+                                <div class="feature-icon">🏆</div>
+                                <span data-translate="feature_results">Proven score improvements</span>
+                            </div>
+                        </div>
+                        
+                        <div class="back-link">
+                            <a href="index.html" data-translate="back_to_home">← Back to Home</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Right Side - Forms -->
+                <div class="auth-forms">
+                    <!-- Login Form -->
+                    <div id="login-form" class="form-container active">
+                        <div class="form-header">
+                            <h2 data-translate="login_title">Sign In</h2>
+                            <p data-translate="login_subtitle">Welcome back! Please sign in to your account.</p>
+                        </div>
+                        
+                        <form class="auth-form" id="loginForm">
+                            <div class="form-group">
+                                <input type="email" id="login-email" name="email" required>
+                                <label for="login-email" data-translate="form_email">Email Address</label>
+                            </div>
+                            
+                            <div class="form-group">
+                                <input type="password" id="login-password" name="password" required>
+                                <label for="login-password" data-translate="form_password">Password</label>
+                                <button type="button" class="password-toggle" data-target="login-password">
+                                    <span class="eye-icon">👁️</span>
+                                </button>
+                            </div>
+                            
+                            <div class="form-options">
+                                <label class="checkbox-container">
+                                    <input type="checkbox" id="remember-me">
+                                    <span class="checkmark"></span>
+                                    <span data-translate="remember_me">Remember me</span>
+                                </label>
+                                <!-- <a href="#" class="forgot-link" id="forgot-password-link" data-translate="forgot_password">Forgot password?</a> -->
+                            </div>
+                            
+                            <button type="submit" class="btn btn-primary" data-translate="btn_sign_in">Sign In</button>
+                            
+                            <div class="form-switch">
+                                <span data-translate="no_account">Don't have an account?</span>
+                                <button type="button" class="switch-btn" id="switch-to-signup" data-translate="btn_sign_up">Sign Up</button>
+                            </div>
+                        </form>
+                    </div>
+
+                    <!-- Signup Form -->
+                    <div id="signup-form" class="form-container">
+                        <div class="form-header">
+                            <h2 data-translate="signup_title">Create Account</h2>
+                            <p data-translate="signup_subtitle">Join AI Plus Education and start improving your test scores today!</p>
+                        </div>
+                        
+                        <form class="auth-form" id="signupForm">
+                            <div class="form-row">
+                                <div class="form-group">
+                                    <input type="text" id="signup-firstname" name="firstname" required>
+                                    <label for="signup-firstname" data-translate="form_firstname">First Name</label>
+                                </div>
+                                <div class="form-group">
+                                    <input type="text" id="signup-lastname" name="lastname" required>
+                                    <label for="signup-lastname" data-translate="form_lastname">Last Name</label>
+                                </div>
+                            </div>
+                            
+                            <div class="form-group">
+                                <input type="email" id="signup-email" name="email" required>
+                                <label for="signup-email" data-translate="form_email">Email Address</label>
+                            </div>
+                            
+                            <div class="form-group">
+                                <input type="password" id="signup-password" name="password" required>
+                                <label for="signup-password" data-translate="form_password">Password</label>
+                                <button type="button" class="password-toggle" data-target="signup-password">
+                                    <span class="eye-icon">👁️</span>
+                                </button>
+                            </div>
+                            
+                            <div class="form-group">
+                                <input type="password" id="confirm-password" name="confirmPassword" required>
+                                <label for="confirm-password" data-translate="form_confirm_password">Confirm Password</label>
+                                <button type="button" class="password-toggle" data-target="confirm-password">
+                                    <span class="eye-icon">👁️</span>
+                                </button>
+                            </div>
+                            
+                            <div class="form-group">
+                                <select id="grade-level" name="grade" required>
+                                    <option value="" disabled selected></option>
+                                    <option value="6" data-translate="grade_6">6th Grade</option>
+                                    <option value="7" data-translate="grade_7">7th Grade</option>
+                                    <option value="8" data-translate="grade_8">8th Grade</option>
+                                    <option value="9" data-translate="grade_9">9th Grade</option>
+                                    <option value="10" data-translate="grade_10">10th Grade</option>
+                                    <option value="11" data-translate="grade_11">11th Grade</option>
+                                    <option value="12" data-translate="grade_12">12th Grade</option>
+                                </select>
+                                <label for="grade-level" data-translate="form_grade">Grade Level</label>
+                            </div>
+                            
+                            <div class="form-options">
+                                <label class="checkbox-container">
+                                    <input type="checkbox" id="terms-agreement" required>
+                                    <span class="checkmark"></span>
+                                    <span data-translate="agree_terms">I agree to the <a href="#" class="terms-link">Terms of Service</a> and <a href="#" class="privacy-link">Privacy Policy</a></span>
+                                </label>
+                            </div>
+                            
+                            <button type="submit" class="btn btn-primary" data-translate="btn_create_account">Create Account</button>
+                            
+                            <div class="form-switch">
+                                <span data-translate="have_account">Already have an account?</span>
+                                <button type="button" class="switch-btn" id="switch-to-login" data-translate="btn_sign_in">Sign In</button>
+                            </div>
+                        </form>
+                    </div>
+
+                    <!-- Forgot Password Form -->
+                    <div id="forgot-password-form" class="form-container">
+                        <div class="form-header">
+                            <h2 data-translate="forgot_password_title">Reset Password</h2>
+                            <p data-translate="forgot_password_subtitle">Enter your email address and we'll send you a link to reset your password.</p>
+                        </div>
+                        
+                        <form class="auth-form" id="forgotPasswordForm">
+                            <div class="form-group">
+                                <input type="email" id="forgot-email" name="email" required>
+                                <label for="forgot-email" data-translate="form_email">Email Address</label>
+                            </div>
+                            
+                            <button type="submit" class="btn btn-primary" data-translate="btn_send_reset">Send Reset Link</button>
+                            
+                            <div class="form-switch">
+                                <button type="button" class="switch-btn" id="back-to-login" data-translate="btn_back_to_login">← Back to Sign In</button>
+                            </div>
+                        </form>
+                    </div>
+
+                    <!-- Reset Password Form -->
+                    <div id="reset-password-form" class="form-container">
+                        <div class="form-header">
+                            <h2 data-translate="reset_password_title">Set New Password</h2>
+                            <p data-translate="reset_password_subtitle">Enter your new password below.</p>
+                        </div>
+                        
+                        <form class="auth-form" id="resetPasswordForm">
+                            <div class="form-group">
+                                <input type="password" id="new-password" name="password" required>
+                                <label for="new-password" data-translate="form_new_password">New Password</label>
+                                <button type="button" class="password-toggle" data-target="new-password">
+                                    <span class="eye-icon">👁️</span>
+                                </button>
+                            </div>
+                            
+                            <div class="form-group">
+                                <input type="password" id="confirm-new-password" name="confirmPassword" required>
+                                <label for="confirm-new-password" data-translate="form_confirm_password">Confirm New Password</label>
+                                <button type="button" class="password-toggle" data-target="confirm-new-password">
+                                    <span class="eye-icon">👁️</span>
+                                </button>
+                            </div>
+                            
+                            <button type="submit" class="btn btn-primary" data-translate="btn_reset_password">Reset Password</button>
+                            
+                            <div class="form-switch">
+                                <button type="button" class="switch-btn" id="back-to-login-from-reset" data-translate="btn_back_to_login">← Back to Sign In</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script src="login-script.js"></script>
+</body>
+</html> 
