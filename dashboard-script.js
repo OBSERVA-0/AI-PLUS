@@ -1,5 +1,5 @@
-// API Configuration
-const API_BASE_URL = 'http://localhost:3000/api';
+// Import API configuration
+import { API_BASE_URL } from './config.js';
 
 // Add at the top of the file after the API_BASE_URL declaration
 // Application State

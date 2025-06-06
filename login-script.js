@@ -1,4 +1,6 @@
 // Translation data for login page
+import { API_BASE_URL } from './config.js';
+
 const loginTranslations = {
     en: {
         // Welcome Section
@@ -161,9 +163,6 @@ const loginTranslations = {
         reset_token_expired: "重置令牌已过期。请重新请求密码重置。"
     }
 };
-
-// API Configuration
-const API_BASE_URL = 'http://localhost:3000/api';
 
 // Current language state
 let currentLanguage = 'en';
