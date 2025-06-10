@@ -455,13 +455,24 @@ function setupQuestionGrid() {
     const grid = document.querySelector('.question-grid');
     grid.innerHTML = '';
     
-    testQuestions.forEach((_, index) => {
-        const questionBtn = document.createElement('button');
-        questionBtn.className = 'question-number';
-        questionBtn.textContent = index + 1;
-        questionBtn.addEventListener('click', () => loadQuestion(index));
-        grid.appendChild(questionBtn);
+    // Create dropdown instead of buttons
+    const select = document.createElement('select');
+    select.className = 'question-dropdown';
+    select.addEventListener('change', (e) => {
+        const selectedIndex = parseInt(e.target.value);
+        if (!isNaN(selectedIndex)) {
+            loadQuestion(selectedIndex);
+        }
     });
+    
+    testQuestions.forEach((_, index) => {
+        const option = document.createElement('option');
+        option.value = index;
+        option.textContent = `Question ${index + 1}`;
+        select.appendChild(option);
+    });
+    
+    grid.appendChild(select);
 }
 
 function loadQuestion(index) {
@@ -488,9 +499,6 @@ function loadQuestion(index) {
         // Update question content with split layout
         questionContainer.innerHTML = `
             <div class="passage-side">
-                <div class="passage-header">
-                    <h3>Reading Passage</h3>
-                </div>
                 <div class="passage-content">
                     ${renderPassageContent(question.passage)}
                 </div>
@@ -587,7 +595,7 @@ function loadQuestion(index) {
             // Update question grid and UI
             updateQuestionGrid();
             updateQuestionActions();
-            updateTestSummary();
+            // updateTestSummary();
         });
         
         optionsContainer.appendChild(optionDiv);
@@ -606,7 +614,7 @@ function loadQuestion(index) {
     
     // Update question grid and summary
     updateQuestionGrid();
-    updateTestSummary();
+    // updateTestSummary();
 }
 
 function getQuestionStatus(questionId) {
@@ -663,7 +671,7 @@ function skipCurrentQuestion() {
     
     updateQuestionGrid();
     updateQuestionActions();
-    updateTestSummary();
+    // updateTestSummary();
     
     // Move to next question if not the last one
     if (currentQuestionIndex < testQuestions.length - 1) {
@@ -688,26 +696,34 @@ function clearCurrentAnswer() {
     
     updateQuestionGrid();
     updateQuestionActions();
-    updateTestSummary();
+    // updateTestSummary();
 }
 
 function updateQuestionGrid() {
-    const questionBtns = document.querySelectorAll('.question-number');
-    questionBtns.forEach((btn, index) => {
-        btn.classList.remove('current', 'answered', 'skipped', 'unanswered');
-        
+    const dropdown = document.querySelector('.question-dropdown');
+    if (!dropdown) return;
+    
+    // Update dropdown value to current question
+    dropdown.value = currentQuestionIndex;
+    
+    // Update option text and class for status (visual cues only, no text indicators)
+    dropdown.querySelectorAll('option').forEach((option, index) => {
         const questionId = testQuestions[index].id;
-        
-        if (index === currentQuestionIndex) {
-            btn.classList.add('current');
-        }
+        let statusClass = '';
         
         if (userAnswers[questionId] !== undefined) {
-            btn.classList.add('answered');
+            statusClass = 'answered';
         } else if (skippedQuestions.has(questionId)) {
-            btn.classList.add('skipped');
+            statusClass = 'skipped';
         } else {
-            btn.classList.add('unanswered');
+            statusClass = 'unanswered';
+        }
+        
+        option.textContent = `Question ${index + 1}`;
+        option.className = statusClass;
+        
+        if (index === currentQuestionIndex) {
+            option.classList.add('current');
         }
     });
 }
@@ -899,7 +915,6 @@ function displayDetailedReview(detailedResults) {
         // Include passage if it exists
         const passageHtml = result.passage ? `
             <div class="review-passage">
-                <h4>Reading Passage:</h4>
                 <div class="passage-text">${result.passage.replace(/\n/g, '<br>')}</div>
             </div>
         ` : '';
@@ -1107,7 +1122,230 @@ function getTestSummary() {
 // Add new function to update test summary
 function updateTestSummary() {
     const summary = getTestSummary();
+    // Update or create summary panel at the top
+    /*
+    let summaryPanel = document.querySelector('.test-summary');
+    if (!summaryPanel) {
+        summaryPanel = document.createElement('div');
+        summaryPanel.className = 'test-summary';
+        
+        // Insert after test-header but before question-container
+        const testHeader = document.querySelector('.test-header');
+        const questionContainer = document.querySelector('.question-container');
+        if (testHeader && questionContainer) {
+            questionContainer.parentNode.insertBefore(summaryPanel, questionContainer);
+        }
+    }
     
+    summaryPanel.innerHTML = `
+        <div class="summary-header">
+            <h4>Progress Summary</h4>
+        </div>
+        <div class="summary-stats">
+            <div class="stat-item answered">
+                <span class="stat-number">${summary.answered}</span>
+                <span class="stat-label">Answered</span>
+            </div>
+            <div class="stat-item skipped">
+                <span class="stat-number">${summary.skipped}</span>
+                <span class="stat-label">Skipped</span>
+            </div>
+            <div class="stat-item unanswered">
+                <span class="stat-number">${summary.unanswered}</span>
+                <span class="stat-label">Unanswered</span>
+            </div>
+        </div>
+        <div class="summary-actions">
+            <button id="jump-to-unanswered" class="btn btn-sm btn-outline" ${summary.unanswered === 0 && summary.skipped === 0 ? 'disabled' : ''}>
+                ${summary.unanswered > 0 ? 'Next Unanswered' : summary.skipped > 0 ? 'Next Skipped' : 'All Complete'}
+            </button>
+            <button id="review-skipped" class="btn btn-sm btn-outline" ${summary.skipped === 0 ? 'disabled' : ''}>
+                Review Skipped (${summary.skipped})
+            </button>
+        </div>
+    `;
+    */
+    
+    // Add event listeners for new buttons
+    const jumpBtn = document.getElementById('jump-to-unanswered');
+    const reviewBtn = document.getElementById('review-skipped');
+    
+    if (jumpBtn && !jumpBtn.disabled) {
+        jumpBtn.addEventListener('click', jumpToNextUnanswered);
+    }
+    
+    if (reviewBtn && !reviewBtn.disabled) {
+        reviewBtn.addEventListener('click', jumpToFirstSkipped);
+    }
+}
+
+
+
+// UI components
+const testSelectionSection = document.getElementById('test-selection');
+
+function injectTestStyles() {
+    const style = document.createElement('style');
+    style.textContent = `
+        .question-nav-container {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            margin-bottom: 1rem;
+        }
+        .question-grid {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 5px;
+            justify-content: center;
+        }
+        .question-number {
+            width: 30px;
+            height: 30px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            cursor: pointer;
+            position: relative;
+        }
+        .question-number.answered {
+            background-color: #c8e6c9;
+            border-color: #4caf50;
+        }
+        .question-number.answered::before {
+            content: '●';
+            position: absolute;
+            top: -5px;
+            right: -5px;
+            font-size: 12px;
+            color: #4caf50;
+        }
+        .question-number.current {
+            border-color: #2196f3;
+            font-weight: bold;
+        }
+        .progress-summary-panel {
+            border: 1px solid #e0e0e0;
+            border-radius: 8px;
+            padding: 1rem;
+            margin-bottom: 1rem;
+        }
+        .progress-summary-panel .summary-stats {
+            display: flex;
+            justify-content: space-around;
+            margin-bottom: 1rem;
+        }
+        .stat-item {
+            padding: 1rem;
+            border-radius: 8px;
+            text-align: center;
+            flex-grow: 1;
+            margin: 0 5px;
+        }
+        .stat-item .stat-number {
+            font-size: 1.5rem;
+            font-weight: bold;
+        }
+        .stat-item.answered { background-color: #e7f5e7; border: 1px solid #c8e6c9; }
+        .stat-item.skipped { background-color: #fffde7; border: 1px solid #fff59d; }
+        .stat-item.unanswered { background-color: #f5f5f5; border: 1px solid #e0e0e0; }
+        .summary-actions {
+            display: flex;
+            justify-content: center;
+            gap: 10px;
+        }
+    `;
+    document.head.appendChild(style);
+}
+
+document.addEventListener('DOMContentLoaded', () => {
+    updateUIStats();
+    injectTestStyles();
+});
+
+function renderQuestionNavigation() {
+    const grid = document.querySelector('.question-grid');
+    if (!grid) return;
+    grid.innerHTML = ''; // Clear existing grid buttons
+
+    const navWrapper = document.createElement('div');
+    navWrapper.className = 'question-nav-container';
+
+    // Previous Button
+    const prevBtn = document.createElement('button');
+    prevBtn.className = 'nav-arrow';
+    prevBtn.innerHTML = '←';
+    prevBtn.addEventListener('click', () => {
+        if (currentQuestionIndex > 0) {
+            loadQuestion(currentQuestionIndex - 1);
+        }
+    });
+
+    // Dropdown
+    const select = document.createElement('select');
+    select.className = 'question-dropdown';
+    select.addEventListener('change', (e) => {
+        const selectedIndex = parseInt(e.target.value, 10);
+        if (!isNaN(selectedIndex)) {
+            loadQuestion(selectedIndex);
+        }
+    });
+
+    testQuestions.forEach((_, index) => {
+        const option = document.createElement('option');
+        option.value = index;
+        option.textContent = `Question ${index + 1}`;
+        select.appendChild(option);
+    });
+
+    // Next Button
+    const nextBtn = document.createElement('button');
+    nextBtn.className = 'nav-arrow';
+    nextBtn.addEventListener('click', () => {
+        if (currentQuestionIndex < testQuestions.length - 1) {
+            loadQuestion(currentQuestionIndex + 1);
+        } else {
+            endTest();
+        }
+    });
+
+    navWrapper.appendChild(prevBtn);
+    navWrapper.appendChild(select);
+    navWrapper.appendChild(nextBtn);
+    grid.appendChild(navWrapper);
+}
+
+function updateQuestionNavigation() {
+    const prevBtn = document.querySelector('.question-nav-container .nav-arrow:first-child');
+    const nextBtn = document.querySelector('.question-nav-container .nav-arrow:last-child');
+    const dropdown = document.querySelector('.question-dropdown');
+
+    if (!prevBtn || !nextBtn || !dropdown) return;
+
+    // Update buttons state
+    prevBtn.disabled = currentQuestionIndex === 0;
+    nextBtn.innerHTML = currentQuestionIndex === testQuestions.length - 1 ? '✓' : '→';
+    
+    // Update dropdown
+    dropdown.value = currentQuestionIndex;
+
+    // Update option styles
+    dropdown.querySelectorAll('option').forEach((option, index) => {
+        option.className = ''; // Reset classes
+        const questionId = testQuestions[index].id;
+        
+        if (userAnswers[questionId] !== undefined) {
+            option.classList.add('answered');
+        } else if (skippedQuestions.has(questionId)) {
+            option.classList.add('skipped');
+        } else {
+            option.classList.add('unanswered');
+        }
+    });
+}
+
+function updateSummaryPanel() {
+    const summary = getTestSummary();
+    /*
     // Update or create summary panel in navigation
     let summaryPanel = document.querySelector('.test-summary');
     if (!summaryPanel) {
@@ -1147,7 +1385,7 @@ function updateTestSummary() {
             </button>
         </div>
     `;
-    
+    */
     // Add event listeners for new buttons
     const jumpBtn = document.getElementById('jump-to-unanswered');
     const reviewBtn = document.getElementById('review-skipped');
@@ -1160,13 +1398,3 @@ function updateTestSummary() {
         reviewBtn.addEventListener('click', jumpToFirstSkipped);
     }
 }
-
-function jumpToFirstSkipped() {
-    for (let i = 0; i < testQuestions.length; i++) {
-        const question = testQuestions[i];
-        if (skippedQuestions.has(question.id)) {
-            loadQuestion(i);
-            return;
-        }
-    }
-} 
