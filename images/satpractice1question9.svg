@@ -1,0 +1,72 @@
+<svg width="550" height="260" xmlns="http://www.w3.org/2000/svg">
+  <!-- Title -->
+  <text x="275" y="25" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" font-weight="bold">
+    Video Game Availability by Initial Release Years
+  </text>
+  
+  <!-- Table border (header + 5 data rows = 32px × 6 = 192px high) -->
+  <rect x="50" y="40" width="450" height="192" fill="none" stroke="black" stroke-width="2"/>
+  
+  <!-- Header row -->
+  <rect x="50" y="40" width="450" height="32" fill="none" stroke="black" stroke-width="1"/>
+  <line x1="275" y1="40" x2="275" y2="232" stroke="black" stroke-width="1"/>
+  
+  <!-- Header text -->
+  <text x="162.5" y="61" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold">
+    Initial release years
+  </text>
+  <text x="362.5" y="61" text-anchor="middle" font-family="Arial, sans-serif" font-size="13" font-weight="bold">
+    Percentage of games still available
+  </text>
+  
+  <!-- Row dividers (after header and after each of the 5 data rows) -->
+  <line x1="50" y1="72"  x2="500" y2="72"  stroke="black" stroke-width="1"/>
+  <line x1="50" y1="104" x2="500" y2="104" stroke="black" stroke-width="1"/>
+  <line x1="50" y1="136" x2="500" y2="136" stroke="black" stroke-width="1"/>
+  <line x1="50" y1="168" x2="500" y2="168" stroke="black" stroke-width="1"/>
+  <line x1="50" y1="200" x2="500" y2="200" stroke="black" stroke-width="1"/>
+  <line x1="50" y1="232" x2="500" y2="232" stroke="black" stroke-width="1"/>
+  
+  <!-- Column divider -->
+  <line x1="275" y1="40" x2="275" y2="232" stroke="black" stroke-width="1"/>
+  
+  <!-- Row 1: 1975–1979 -->
+  <text x="162.5" y="93"  text-anchor="middle" font-family="Arial, sans-serif" font-size="12">
+    1975 – 1979
+  </text>
+  <text x="362.5" y="93"  text-anchor="middle" font-family="Arial, sans-serif" font-size="12">
+    0.89
+  </text>
+  
+  <!-- Row 2: 1980–1984 -->
+  <text x="162.5" y="125" text-anchor="middle" font-family="Arial, sans-serif" font-size="12">
+    1980 – 1984
+  </text>
+  <text x="362.5" y="125" text-anchor="middle" font-family="Arial, sans-serif" font-size="12">
+    3.65
+  </text>
+  
+  <!-- Row 3: 1985–1989 -->
+  <text x="162.5" y="157" text-anchor="middle" font-family="Arial, sans-serif" font-size="12">
+    1985 – 1989
+  </text>
+  <text x="362.5" y="157" text-anchor="middle" font-family="Arial, sans-serif" font-size="12">
+    15.38
+  </text>
+  
+  <!-- Row 4: 1990–1994 -->
+  <text x="162.5" y="189" text-anchor="middle" font-family="Arial, sans-serif" font-size="12">
+    1990 – 1994
+  </text>
+  <text x="362.5" y="189" text-anchor="middle" font-family="Arial, sans-serif" font-size="12">
+    19.33
+  </text>
+  
+  <!-- Row 5: 1995–1999 -->
+  <text x="162.5" y="221" text-anchor="middle" font-family="Arial, sans-serif" font-size="12">
+    1995 – 1999
+  </text>
+  <text x="362.5" y="221" text-anchor="middle" font-family="Arial, sans-serif" font-size="12">
+    14.22
+  </text>
+</svg>

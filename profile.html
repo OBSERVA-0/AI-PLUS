@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover">
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; connect-src 'self' http://localhost:3000 https://ai-plus-education.onrender.com; script-src 'self' 'unsafe-inline'; style-src 'self' https://fonts.googleapis.com 'unsafe-inline'; font-src 'self' https://fonts.gstatic.com; img-src 'self' data: https:;">
+    <title>Profile - AI Plus Education</title>
+    <link rel="stylesheet" href="dashboard-styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        /* Additional overscroll prevention */
+        html, body {
+            overscroll-behavior: none !important;
+            overscroll-behavior-y: none !important;
+            overscroll-behavior-x: none !important;
+            touch-action: pan-y;
+            -webkit-overflow-scrolling: touch;
+        }
+        
+        /* Prevent pull-to-refresh */
+        body {
+            position: relative;
+            overflow-x: hidden;
+        }
+        
+        @media (max-width: 768px) {
+            html {
+                position: fixed;
+                height: 100%;
+                width: 100%;
+                overflow: hidden;
+            }
+            
+            body {
+                position: fixed;
+                height: 100%;
+                width: 100%;
+                overflow-y: auto;
+                overflow-x: hidden;
+                -webkit-overflow-scrolling: touch;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <div class="nav-brand">
+                <h1>AI Plus Education</h1>
+            </div>
+            <nav class="nav">
+                <div class="nav-links">
+                    <a href="dashboard.html" class="nav-link">Dashboard</a>
+                    <a href="profile.html" class="nav-link active">Profile</a>
+                </div>
+                <div class="user-info">
+                    <span class="welcome-text">Welcome, <span id="user-name">Student</span></span>
+                    <button id="logout-btn" class="btn btn-outline">Logout</button>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main class="main-content">
+        <div class="container">
+            <!-- Profile Header -->
+            <section class="profile-header">
+                <div class="profile-info">
+                    <div class="profile-avatar">
+                        <div class="avatar-circle">
+                            <span id="user-initials">ST</span>
+                        </div>
+                    </div>
+                    <div class="profile-details">
+                        <h1 id="profile-name">Student Name</h1>
+                        <p id="profile-email">student@example.com</p>
+                        <div class="profile-meta">
+                            <span class="meta-item">Grade: <span id="profile-grade">9</span></span>
+                            <span class="meta-item">Member since: <span id="profile-join-date">Jan 2024</span></span>
+                        </div>
+                    </div>
+                </div>
+                <div class="profile-actions">
+                    <button id="edit-profile-btn" class="btn btn-outline">Edit Profile</button>
+                </div>
+            </section>
+
+            <!-- Profile Stats -->
+            <section class="profile-stats">
+                <div class="stats-grid">
+                    <div class="stat-card">
+                        <div class="stat-icon">📊</div>
+                        <div class="stat-content">
+                            <h3>Tests Completed</h3>
+                            <span class="stat-number" id="profile-total-tests">0</span>
+                        </div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-icon">🎯</div>
+                        <div class="stat-content">
+                            <h3>Average Score</h3>
+                            <span class="stat-number" id="profile-avg-score">0%</span>
+                        </div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-icon">⏱️</div>
+                        <div class="stat-content">
+                            <h3>Study Time</h3>
+                            <span class="stat-number" id="profile-study-time">0h</span>
+                        </div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-icon">🏆</div>
+                        <div class="stat-content">
+                            <h3>Best Score</h3>
+                            <span class="stat-number" id="profile-best-score">0%</span>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Mastery Overview -->
+            <section class="mastery-section">
+                <div class="section-header">
+                    <h2>Subject Mastery</h2>
+                    <p>Track your progress and mastery levels across different subject areas</p>
+                </div>
+                <div class="mastery-grid" id="mastery-grid">
+                    <!-- Mastery levels will be loaded here -->
+                </div>
+            </section>
+
+            <!-- Test Progress -->
+            <section class="test-progress-section">
+                <div class="section-header">
+                    <h2>Test Progress</h2>
+                    <p>Your performance across different test types</p>
+                </div>
+                <div class="test-progress-grid">
+                    <div class="progress-card" data-test="shsat">
+                        <div class="progress-header">
+                            <h3>SHSAT</h3>
+                            <span class="test-badge">Active</span>
+                        </div>
+                        <div class="progress-stats">
+                            <div class="progress-stat">
+                                <span class="stat-label">Tests Taken</span>
+                                <span class="stat-value" id="shsat-tests">0</span>
+                            </div>
+                            <div class="progress-stat">
+                                <span class="stat-label">Average Score</span>
+                                <span class="stat-value" id="shsat-avg">0%</span>
+                            </div>
+                            <div class="progress-stat">
+                                <span class="stat-label">Best Score</span>
+                                <span class="stat-value" id="shsat-best">0%</span>
+                            </div>
+                        </div>
+                        <div class="progress-actions">
+                            <a href="dashboard.html" class="btn btn-primary btn-sm">Take Test</a>
+                        </div>
+                    </div>
+
+                    <div class="progress-card" data-test="sat">
+                        <div class="progress-header">
+                            <h3>SAT</h3>
+                            <span class="test-badge">Active</span>
+                        </div>
+                        <div class="progress-stats">
+                            <div class="progress-stat">
+                                <span class="stat-label">Tests Taken</span>
+                                <span class="stat-value" id="sat-tests">0</span>
+                            </div>
+                            <div class="progress-stat">
+                                <span class="stat-label">Average Score</span>
+                                <span class="stat-value" id="sat-avg">0%</span>
+                            </div>
+                            <div class="progress-stat">
+                                <span class="stat-label">Best Score</span>
+                                <span class="stat-value" id="sat-best">0%</span>
+                            </div>
+                        </div>
+                        <div class="progress-actions">
+                            <a href="dashboard.html" class="btn btn-primary btn-sm">Take Test</a>
+                        </div>
+                    </div>
+
+                    <div class="progress-card" data-test="state">
+                        <div class="progress-header">
+                            <h3>State Tests</h3>
+                            <span class="test-badge coming-soon">Coming Soon</span>
+                        </div>
+                        <div class="progress-stats">
+                            <div class="progress-stat">
+                                <span class="stat-label">Tests Taken</span>
+                                <span class="stat-value" id="state-tests">0</span>
+                            </div>
+                            <div class="progress-stat">
+                                <span class="stat-label">Average Score</span>
+                                <span class="stat-value" id="state-avg">0%</span>
+                            </div>
+                            <div class="progress-stat">
+                                <span class="stat-label">Best Score</span>
+                                <span class="stat-value" id="state-best">0%</span>
+                            </div>
+                        </div>
+                        <div class="progress-actions">
+                            <button class="btn btn-secondary btn-sm" disabled>Coming Soon</button>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </main>
+    <script src="/js/profile-script.js" type="module"></script>
+</body>
+</html> 

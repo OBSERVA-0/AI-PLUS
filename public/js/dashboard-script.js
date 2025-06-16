@@ -169,9 +169,9 @@ async function getTestStats() {
     return null;
 }
 
-async function updateTestStats(testType, score, timeSpent) {
+async function updateTestStats(testType, score, timeSpent, categoryScores = null) {
     try {
-        console.log('Updating test stats:', { testType, score, timeSpent });
+        console.log('Updating test stats:', { testType, score, timeSpent, categoryScores });
         
         // Send test results to server
         const response = await AuthService.makeRequest('/user/update-stats', {
@@ -179,7 +179,8 @@ async function updateTestStats(testType, score, timeSpent) {
             body: JSON.stringify({
                 testType,
                 score,
-                timeSpent
+                timeSpent,
+                categoryScores
             })
         });
 
@@ -383,7 +384,7 @@ function updateTestCardStats(testType, progress) {
 }
 
 async function startTest(testType) {
-    if (testType !== 'shsat') {
+    if (testType !== 'shsat' && testType !== 'sat') {
         alert('This test is coming soon!');
         return;
     }
@@ -427,7 +428,8 @@ async function startTest(testType) {
         timeLimit = Math.max(totalEstimatedTime, 10 * 60); // At least 10 minutes
         
         // Update test info
-        document.getElementById('current-test-title').textContent = 'SHSAT Practice Test';
+        const testTitle = testType === 'shsat' ? 'SHSAT Practice Test' : 'SAT Practice Test';
+        document.getElementById('current-test-title').textContent = testTitle;
         document.getElementById('current-section').textContent = 'Practice Test';
         document.getElementById('total-questions').textContent = testQuestions.length;
         
@@ -797,7 +799,7 @@ async function endTest() {
         }
         
         // Update test statistics
-        await updateTestStats(currentTest, response.data.results.percentage, timeSpent);
+        await updateTestStats(currentTest, response.data.results.percentage, timeSpent, response.data.results.categoryScores);
         
         // Display results
         displayResults(response.data);
@@ -814,7 +816,7 @@ async function endTest() {
         
         // Update test statistics with local results
         const timeSpent = Math.round((new Date() - testStartTime) / 1000);
-        await updateTestStats(currentTest, localResults.percentage, timeSpent);
+        await updateTestStats(currentTest, localResults.percentage, timeSpent, localResults.categoryScores);
         
         displayResults({ results: localResults });
         showSection('test-results');
@@ -1179,8 +1181,6 @@ function updateTestSummary() {
     }
 }
 
-
-
 // UI components
 const testSelectionSection = document.getElementById('test-selection');
 
@@ -1398,3 +1398,224 @@ function updateSummaryPanel() {
         reviewBtn.addEventListener('click', jumpToFirstSkipped);
     }
 }
+
+// Scroll Lock Utility
+class ScrollLock {
+    constructor() {
+        this.isLocked = false;
+        this.scrollPosition = 0;
+        this.init();
+    }
+
+    init() {
+        // Apply CSS overscroll prevention
+        this.applyCSSOverscrollPrevention();
+        
+        // Prevent overscroll on touch devices
+        this.preventOverscroll();
+        
+        // Handle scroll boundaries
+        this.handleScrollBoundaries();
+        
+        // Prevent elastic scrolling on iOS
+        this.preventElasticScrolling();
+        
+        // Prevent overscroll on all scroll events
+        this.preventAllOverscroll();
+    }
+
+    applyCSSOverscrollPrevention() {
+        // Apply overscroll prevention to document elements
+        document.documentElement.style.overscrollBehavior = 'none';
+        document.documentElement.style.overscrollBehaviorY = 'none';
+        document.documentElement.style.overscrollBehaviorX = 'none';
+        
+        document.body.style.overscrollBehavior = 'none';
+        document.body.style.overscrollBehaviorY = 'none';
+        document.body.style.overscrollBehaviorX = 'none';
+    }
+
+    preventAllOverscroll() {
+        // Prevent overscroll on window scroll
+        let isScrolling = false;
+        
+        window.addEventListener('scroll', (e) => {
+            if (window.scrollY <= 0) {
+                window.scrollTo(0, 0);
+            }
+            
+            const maxScroll = document.body.scrollHeight - window.innerHeight;
+            if (window.scrollY >= maxScroll) {
+                window.scrollTo(0, maxScroll);
+            }
+        }, { passive: false });
+
+        // Prevent overscroll on touchmove
+        document.addEventListener('touchmove', (e) => {
+            const target = e.target;
+            const scrollableParent = this.getScrollableParent(target);
+            
+            if (!scrollableParent || scrollableParent === document.body) {
+                // Prevent overscroll on body
+                if (window.scrollY <= 0 || window.scrollY >= document.body.scrollHeight - window.innerHeight) {
+                    e.preventDefault();
+                    e.stopPropagation();
+                    return false;
+                }
+            }
+        }, { passive: false });
+
+        // Prevent overscroll on wheel events
+        document.addEventListener('wheel', (e) => {
+            const target = e.target;
+            const scrollableParent = this.getScrollableParent(target);
+            
+            if (!scrollableParent || scrollableParent === document.body) {
+                const delta = e.deltaY;
+                
+                // Prevent scroll at boundaries
+                if ((delta < 0 && window.scrollY <= 0) || 
+                    (delta > 0 && window.scrollY >= document.body.scrollHeight - window.innerHeight)) {
+                    e.preventDefault();
+                    e.stopPropagation();
+                    return false;
+                }
+            }
+        }, { passive: false });
+    }
+
+    preventOverscroll() {
+        // Prevent overscroll behavior on the main document
+        document.addEventListener('touchmove', (e) => {
+            if (this.isAtScrollBoundary(e.target)) {
+                e.preventDefault();
+                e.stopPropagation();
+            }
+        }, { passive: false });
+
+        // Prevent overscroll on wheel events
+        document.addEventListener('wheel', (e) => {
+            if (this.isAtScrollBoundary(e.target)) {
+                const delta = e.deltaY;
+                const element = this.getScrollableParent(e.target);
+                
+                if (element) {
+                    const { scrollTop, scrollHeight, clientHeight } = element;
+                    
+                    // Prevent scroll at top boundary
+                    if (delta < 0 && scrollTop <= 0) {
+                        e.preventDefault();
+                        e.stopPropagation();
+                        return false;
+                    }
+                    
+                    // Prevent scroll at bottom boundary
+                    if (delta > 0 && scrollTop + clientHeight >= scrollHeight) {
+                        e.preventDefault();
+                        e.stopPropagation();
+                        return false;
+                    }
+                }
+            }
+        }, { passive: false });
+    }
+
+    handleScrollBoundaries() {
+        // Handle scroll boundaries for specific elements
+        const scrollableElements = document.querySelectorAll('.passage-side, .question-container, .detailed-review');
+        
+        scrollableElements.forEach(element => {
+            element.addEventListener('scroll', (e) => {
+                const { scrollTop, scrollHeight, clientHeight } = e.target;
+                
+                // Add visual feedback at boundaries
+                if (scrollTop <= 0) {
+                    e.target.classList.add('at-top');
+                    e.target.classList.remove('at-bottom');
+                } else if (scrollTop + clientHeight >= scrollHeight - 1) {
+                    e.target.classList.add('at-bottom');
+                    e.target.classList.remove('at-top');
+                } else {
+                    e.target.classList.remove('at-top', 'at-bottom');
+                }
+            });
+        });
+    }
+
+    preventElasticScrolling() {
+        // Prevent elastic scrolling on iOS Safari
+        let startY = 0;
+        let startX = 0;
+        
+        document.addEventListener('touchstart', (e) => {
+            startY = e.touches[0].clientY;
+            startX = e.touches[0].clientX;
+        }, { passive: true });
+        
+        document.addEventListener('touchmove', (e) => {
+            const currentY = e.touches[0].clientY;
+            const currentX = e.touches[0].clientX;
+            const element = this.getScrollableParent(e.target);
+            
+            if (!element || element === document.body) {
+                const isScrollingUp = currentY > startY;
+                const isScrollingDown = currentY < startY;
+                
+                // Prevent overscroll at document boundaries
+                if ((isScrollingUp && window.scrollY <= 0) || 
+                    (isScrollingDown && window.scrollY + window.innerHeight >= document.body.scrollHeight)) {
+                    e.preventDefault();
+                    e.stopPropagation();
+                    return false;
+                }
+            }
+        }, { passive: false });
+    }
+
+    isAtScrollBoundary(element) {
+        const scrollableParent = this.getScrollableParent(element);
+        if (!scrollableParent) return false;
+        
+        const { scrollTop, scrollHeight, clientHeight } = scrollableParent;
+        return scrollTop <= 0 || scrollTop + clientHeight >= scrollHeight;
+    }
+
+    getScrollableParent(element) {
+        if (!element || element === document.body) return null;
+        
+        const { overflow, overflowY } = window.getComputedStyle(element);
+        const isScrollable = overflow === 'auto' || overflow === 'scroll' || 
+                           overflowY === 'auto' || overflowY === 'scroll';
+        
+        if (isScrollable && element.scrollHeight > element.clientHeight) {
+            return element;
+        }
+        
+        return this.getScrollableParent(element.parentElement);
+    }
+
+    lock() {
+        if (this.isLocked) return;
+        
+        this.scrollPosition = window.pageYOffset;
+        document.body.style.position = 'fixed';
+        document.body.style.top = `-${this.scrollPosition}px`;
+        document.body.style.width = '100%';
+        document.body.style.overscrollBehavior = 'none';
+        this.isLocked = true;
+    }
+
+    unlock() {
+        if (!this.isLocked) return;
+        
+        document.body.style.position = '';
+        document.body.style.top = '';
+        document.body.style.width = '';
+        document.body.style.overscrollBehavior = 'none';
+        window.scrollTo(0, this.scrollPosition);
+        this.isLocked = false;
+    }
+}
+
+// Initialize scroll lock
+const scrollLock = new ScrollLock();

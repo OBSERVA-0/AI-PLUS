@@ -1,0 +1,47 @@
+<svg width="400" height="250" xmlns="http://www.w3.org/2000/svg">
+  <!-- Title -->
+  <text x="200" y="25" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" font-weight="bold">Sample of Food Items from Gemini Mission</text>
+  <text x="200" y="45" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" font-weight="bold">Menus</text>
+  
+  <!-- Table border -->
+  <rect x="50" y="60" width="300" height="160" fill="none" stroke="black" stroke-width="2"/>
+  
+  <!-- Header row -->
+  <rect x="50" y="60" width="300" height="32" fill="none" stroke="black" stroke-width="1"/>
+  <line x1="200" y1="60" x2="200" y2="92" stroke="black" stroke-width="1"/>
+  <line x1="275" y1="60" x2="275" y2="92" stroke="black" stroke-width="1"/>
+  
+  <!-- Header text -->
+  <text x="125" y="81" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold">Food item</text>
+  <text x="237.5" y="81" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold">Day</text>
+  <text x="312.5" y="81" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold">Meal</text>
+  
+  <!-- Row dividers -->
+  <line x1="50" y1="124" x2="350" y2="124" stroke="black" stroke-width="1"/>
+  <line x1="50" y1="156" x2="350" y2="156" stroke="black" stroke-width="1"/>
+  <line x1="50" y1="188" x2="350" y2="188" stroke="black" stroke-width="1"/>
+  
+  <!-- Column dividers -->
+  <line x1="200" y1="92" x2="200" y2="220" stroke="black" stroke-width="1"/>
+  <line x1="275" y1="92" x2="275" y2="220" stroke="black" stroke-width="1"/>
+  
+  <!-- Row 1: Sugar cookie cubes -->
+  <text x="125" y="113" text-anchor="middle" font-family="Arial, sans-serif" font-size="12">Sugar cookie cubes</text>
+  <text x="237.5" y="113" text-anchor="middle" font-family="Arial, sans-serif" font-size="12">1</text>
+  <text x="312.5" y="113" text-anchor="middle" font-family="Arial, sans-serif" font-size="12">B</text>
+  
+  <!-- Row 2: Chicken and vegetables -->
+  <text x="125" y="145" text-anchor="middle" font-family="Arial, sans-serif" font-size="12">Chicken and vegetables</text>
+  <text x="237.5" y="145" text-anchor="middle" font-family="Arial, sans-serif" font-size="12">2</text>
+  <text x="312.5" y="145" text-anchor="middle" font-family="Arial, sans-serif" font-size="12">B</text>
+  
+  <!-- Row 3: Shrimp cocktail -->
+  <text x="125" y="177" text-anchor="middle" font-family="Arial, sans-serif" font-size="12">Shrimp cocktail</text>
+  <text x="237.5" y="177" text-anchor="middle" font-family="Arial, sans-serif" font-size="12">4</text>
+  <text x="312.5" y="177" text-anchor="middle" font-family="Arial, sans-serif" font-size="12">C</text>
+  
+  <!-- Row 4: Hot cocoa -->
+  <text x="125" y="209" text-anchor="middle" font-family="Arial, sans-serif" font-size="12">Hot cocoa</text>
+  <text x="237.5" y="209" text-anchor="middle" font-family="Arial, sans-serif" font-size="12">3</text>
+  <text x="312.5" y="209" text-anchor="middle" font-family="Arial, sans-serif" font-size="12">A</text>
+</svg>

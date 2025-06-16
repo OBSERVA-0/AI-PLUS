@@ -264,7 +264,7 @@ router.get('/stats', auth, async (req, res) => {
 // @access  Private
 router.post('/update-stats', auth, async (req, res) => {
   try {
-    const { testType, score, timeSpent } = req.body;
+    const { testType, score, timeSpent, categoryScores } = req.body;
     
     // Get user
     const user = await User.findById(req.user._id);
@@ -320,12 +320,18 @@ router.post('/update-stats', auth, async (req, res) => {
     testProgress.timeSpent = testProgress.timeSpent + timeSpent;
     testProgress.lastAttempt = new Date();
     
+    // Update category performance if provided
+    if (categoryScores) {
+      user.updateCategoryPerformance(testType, categoryScores);
+    }
+    
     console.log(`✅ Updated test progress for ${user.email}:`, {
         testType: dbTestType,
         testsCompleted: testProgress.testsCompleted,
         averageScore: testProgress.averageScore,
         bestScore: testProgress.bestScore,
-        timeSpent: testProgress.timeSpent
+        timeSpent: testProgress.timeSpent,
+        categoriesUpdated: categoryScores ? Object.keys(categoryScores).length : 0
     });
     
     await user.save();
@@ -347,6 +353,88 @@ router.post('/update-stats', auth, async (req, res) => {
     res.status(500).json({
       success: false,
       message: 'Error updating test statistics'
+    });
+  }
+});
+
+// @route   GET /api/user/mastery
+// @desc    Get user mastery levels for all categories
+// @access  Private
+router.get('/mastery', auth, async (req, res) => {
+  try {
+    console.log('🎯 Fetching mastery data for user:', req.user._id);
+    const user = await User.findById(req.user._id);
+    if (!user) {
+      return res.status(404).json({
+        success: false,
+        message: 'User not found'
+      });
+    }
+
+    console.log('👤 User found, getting category performance...');
+    const categoryPerformance = user.getCategoryPerformance();
+    const masterySummary = user.getMasterySummary();
+    
+    console.log('📊 Sending mastery response:', {
+      categoryPerformance,
+      masterySummary
+    });
+    
+    res.json({
+      success: true,
+      data: {
+        categoryPerformance,
+        masterySummary
+      }
+    });
+    
+  } catch (error) {
+    console.error('❌ Error fetching user mastery:', error);
+    res.status(500).json({
+      success: false,
+      message: 'Error fetching mastery data'
+    });
+  }
+});
+
+// @route   POST /api/user/seed-mastery
+// @desc    Seed sample mastery data for testing (temporary)
+// @access  Private
+router.post('/seed-mastery', auth, async (req, res) => {
+  try {
+    console.log('🌱 Seeding mastery data for user:', req.user._id);
+    const user = await User.findById(req.user._id);
+    if (!user) {
+      return res.status(404).json({
+        success: false,
+        message: 'User not found'
+      });
+    }
+
+    // Sample category scores for testing
+    const sampleCategoryScores = {
+      'Reading Comprehension': { correct: 8, total: 10 },
+      'Grammar': { correct: 6, total: 8 },
+      'Algebra': { correct: 7, total: 9 },
+      'Geometry': { correct: 5, total: 7 }
+    };
+
+    // Update category performance
+    user.updateCategoryPerformance('shsat', sampleCategoryScores);
+    await user.save();
+
+    console.log('✅ Sample mastery data seeded successfully');
+    
+    res.json({
+      success: true,
+      message: 'Sample mastery data seeded successfully'
+    });
+    
+  } catch (error) {
+    console.error('❌ Error seeding mastery data:', error);
+    res.status(500).json({
+      success: false,
+      message: 'Error seeding mastery data'
     });
   }
 });

@@ -256,10 +256,18 @@ document.addEventListener('DOMContentLoaded', function() {
         });
     }
     
-    // Start Practice button
-    const startPracticeBtn = document.getElementById('start-practice-btn');
-    if (startPracticeBtn) {
-        startPracticeBtn.addEventListener('click', function() {
+    // Start Practice buttons
+    const startShsatPracticeBtn = document.getElementById('start-shsat-practice');
+    const startSatPracticeBtn = document.getElementById('start-sat-practice');
+    
+    if (startShsatPracticeBtn) {
+        startShsatPracticeBtn.addEventListener('click', function() {
+            window.location.href = 'login.html';
+        });
+    }
+    
+    if (startSatPracticeBtn) {
+        startSatPracticeBtn.addEventListener('click', function() {
             window.location.href = 'login.html';
         });
     }

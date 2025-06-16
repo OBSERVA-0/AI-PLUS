@@ -73,21 +73,54 @@ const userSchema = new mongoose.Schema({
       averageScore: { type: Number, default: 0 },
       bestScore: { type: Number, default: 0 },
       timeSpent: { type: Number, default: 0 }, // in minutes
-      lastAttempt: { type: Date, default: null }
+      lastAttempt: { type: Date, default: null },
+      categoryPerformance: {
+        type: Map,
+        of: {
+          totalQuestions: { type: Number, default: 0 },
+          correctAnswers: { type: Number, default: 0 },
+          averageScore: { type: Number, default: 0 },
+          masteryLevel: { type: Number, default: 0, min: 0, max: 5 }, // 0-5 scale
+          lastUpdated: { type: Date, default: Date.now }
+        },
+        default: new Map()
+      }
     },
     sat: {
       testsCompleted: { type: Number, default: 0 },
       averageScore: { type: Number, default: 0 },
       bestScore: { type: Number, default: 0 },
       timeSpent: { type: Number, default: 0 },
-      lastAttempt: { type: Date, default: null }
+      lastAttempt: { type: Date, default: null },
+      categoryPerformance: {
+        type: Map,
+        of: {
+          totalQuestions: { type: Number, default: 0 },
+          correctAnswers: { type: Number, default: 0 },
+          averageScore: { type: Number, default: 0 },
+          masteryLevel: { type: Number, default: 0, min: 0, max: 5 },
+          lastUpdated: { type: Date, default: Date.now }
+        },
+        default: new Map()
+      }
     },
     stateTest: {
       testsCompleted: { type: Number, default: 0 },
       averageScore: { type: Number, default: 0 },
       bestScore: { type: Number, default: 0 },
       timeSpent: { type: Number, default: 0 },
-      lastAttempt: { type: Date, default: null }
+      lastAttempt: { type: Date, default: null },
+      categoryPerformance: {
+        type: Map,
+        of: {
+          totalQuestions: { type: Number, default: 0 },
+          correctAnswers: { type: Number, default: 0 },
+          averageScore: { type: Number, default: 0 },
+          masteryLevel: { type: Number, default: 0, min: 0, max: 5 },
+          lastUpdated: { type: Date, default: Date.now }
+        },
+        default: new Map()
+      }
     }
   },
   preferences: {
@@ -248,6 +281,136 @@ userSchema.methods.getFavoriteTest = function() {
   return tests.reduce((max, test) => 
     test.completed > max.completed ? test : max
   ).name;
+};
+
+// Method to calculate mastery level based on performance
+userSchema.methods.calculateMasteryLevel = function(averageScore, totalQuestions) {
+  // Mastery level calculation:
+  // 0: No data (0 questions)
+  // 1: Beginner (0-40% accuracy or < 5 questions)
+  // 2: Developing (40-60% accuracy)
+  // 3: Proficient (60-75% accuracy)
+  // 4: Advanced (75-90% accuracy)
+  // 5: Expert (90%+ accuracy with at least 10 questions)
+  
+  if (totalQuestions === 0) return 0;
+  if (totalQuestions < 5) return 1;
+  
+  if (averageScore >= 90 && totalQuestions >= 10) return 5;
+  if (averageScore >= 75) return 4;
+  if (averageScore >= 60) return 3;
+  if (averageScore >= 40) return 2;
+  return 1;
+};
+
+// Method to update category performance
+userSchema.methods.updateCategoryPerformance = function(testType, categoryScores) {
+  const testTypeMap = {
+    'shsat': 'shsat',
+    'sat': 'sat',
+    'state': 'stateTest',
+    'stateTest': 'stateTest'
+  };
+  
+  const dbTestType = testTypeMap[testType];
+  if (!dbTestType || !this.testProgress[dbTestType]) return;
+  
+  const testProgress = this.testProgress[dbTestType];
+  
+  // Initialize categoryPerformance if it doesn't exist
+  if (!testProgress.categoryPerformance) {
+    testProgress.categoryPerformance = new Map();
+  }
+  
+  // Update each category
+  Object.entries(categoryScores).forEach(([category, scores]) => {
+    const currentData = testProgress.categoryPerformance.get(category) || {
+      totalQuestions: 0,
+      correctAnswers: 0,
+      averageScore: 0,
+      masteryLevel: 0,
+      lastUpdated: new Date()
+    };
+    
+    // Update totals
+    const newTotalQuestions = currentData.totalQuestions + scores.total;
+    const newCorrectAnswers = currentData.correctAnswers + scores.correct;
+    const newAverageScore = Math.round((newCorrectAnswers / newTotalQuestions) * 100);
+    const newMasteryLevel = this.calculateMasteryLevel(newAverageScore, newTotalQuestions);
+    
+    // Update the category data
+    testProgress.categoryPerformance.set(category, {
+      totalQuestions: newTotalQuestions,
+      correctAnswers: newCorrectAnswers,
+      averageScore: newAverageScore,
+      masteryLevel: newMasteryLevel,
+      lastUpdated: new Date()
+    });
+  });
+};
+
+// Method to get category performance for all test types
+userSchema.methods.getCategoryPerformance = function() {
+  const performance = {
+    shsat: {},
+    sat: {},
+    stateTest: {}
+  };
+  
+  ['shsat', 'sat', 'stateTest'].forEach(testType => {
+    const testProgress = this.testProgress[testType];
+    if (testProgress && testProgress.categoryPerformance) {
+      // Convert Map to Object for JSON serialization
+      performance[testType] = Object.fromEntries(testProgress.categoryPerformance);
+      console.log(`📋 ${testType} category performance:`, performance[testType]);
+    } else {
+      console.log(`📋 No category performance data for ${testType}`);
+    }
+  });
+  
+  console.log('📊 Full category performance:', performance);
+  return performance;
+};
+
+// Method to get overall mastery summary
+userSchema.methods.getMasterySummary = function() {
+  const categoryPerformance = this.getCategoryPerformance();
+  const summary = {};
+  
+  console.log('📊 Getting mastery summary from category performance:', categoryPerformance);
+  
+  // Aggregate all categories across test types
+  Object.entries(categoryPerformance).forEach(([testType, testCategories]) => {
+    Object.entries(testCategories).forEach(([category, data]) => {
+      if (!summary[category]) {
+        summary[category] = {
+          totalQuestions: 0,
+          correctAnswers: 0,
+          averageScore: 0,
+          masteryLevel: 0,
+          testTypes: []
+        };
+      }
+      
+      summary[category].totalQuestions += data.totalQuestions;
+      summary[category].correctAnswers += data.correctAnswers;
+      summary[category].testTypes.push({
+        testType,
+        ...data
+      });
+    });
+  });
+  
+  // Calculate overall averages for each category
+  Object.keys(summary).forEach(category => {
+    const data = summary[category];
+    data.averageScore = data.totalQuestions > 0 ? 
+      Math.round((data.correctAnswers / data.totalQuestions) * 100) : 0;
+    data.masteryLevel = this.calculateMasteryLevel(data.averageScore, data.totalQuestions);
+  });
+  
+  console.log('📈 Generated mastery summary:', summary);
+  return summary;
 };
 
 module.exports = mongoose.model('User', userSchema); 

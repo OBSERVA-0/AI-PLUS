@@ -2,11 +2,45 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover">
     <meta http-equiv="Content-Security-Policy" content="default-src 'self'; connect-src 'self' http://localhost:3000 https://ai-plus-education.onrender.com; script-src 'self' 'unsafe-inline'; style-src 'self' https://fonts.googleapis.com 'unsafe-inline'; font-src 'self' https://fonts.gstatic.com; img-src 'self' data: https:;">
     <title>Practice Tests - AI Plus Education</title>
     <link rel="stylesheet" href="dashboard-styles.css">
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        /* Additional overscroll prevention */
+        html, body {
+            overscroll-behavior: none !important;
+            overscroll-behavior-y: none !important;
+            overscroll-behavior-x: none !important;
+            touch-action: pan-y;
+            -webkit-overflow-scrolling: touch;
+        }
+        
+        /* Prevent pull-to-refresh */
+        body {
+            position: relative;
+            overflow-x: hidden;
+        }
+        
+        @media (max-width: 768px) {
+            html {
+                position: fixed;
+                height: 100%;
+                width: 100%;
+                overflow: hidden;
+            }
+            
+            body {
+                position: fixed;
+                height: 100%;
+                width: 100%;
+                overflow-y: auto;
+                overflow-x: hidden;
+                -webkit-overflow-scrolling: touch;
+            }
+        }
+    </style>
 </head>
 <body>
     <!-- Header -->
@@ -16,6 +50,10 @@
                 <h1>AI Plus Education</h1>
             </div>
             <nav class="nav">
+                <div class="nav-links">
+                    <a href="dashboard.html" class="nav-link active">Dashboard</a>
+                    <a href="profile.html" class="nav-link">Profile</a>
+                </div>
                 <div class="user-info">
                     <span class="welcome-text">Welcome, <span id="user-name">Student</span></span>
                     <button id="logout-btn" class="btn btn-outline">Logout</button>
@@ -49,6 +87,8 @@
                     </div>
                 </div>
 
+
+
                 <div class="tests-grid">
                     <div class="test-card" data-test="shsat">
                         <div class="test-icon">📚</div>
@@ -78,21 +118,21 @@
                     </div>
 
                     <div class="test-card" data-test="sat">
-                        <div class="test-icon">🎓</div>
+                        <div class="test-icon">🎯</div>
                         <h2>SAT</h2>
-                        <p>College Admission Test</p>
+                        <p>College Admissions Test Practice</p>
                         <div class="test-details">
                             <div class="detail-item">
                                 <span class="label">Sections:</span>
-                                <span class="value">Reading, Writing & Math</span>
+                                <span class="value">Reading & Writing</span>
                             </div>
                             <div class="detail-item">
                                 <span class="label">Questions:</span>
-                                <span class="value">154 total</span>
+                                <span class="value">10 practice</span>
                             </div>
                             <div class="detail-item">
                                 <span class="label">Time:</span>
-                                <span class="value">180 minutes</span>
+                                <span class="value">10 minutes</span>
                             </div>
                         </div>
                         <div class="test-progress">
@@ -101,7 +141,7 @@
                                 <span>Best score: <span class="best-score">N/A</span></span>
                             </div>
                         </div>
-                        <button class="btn btn-secondary start-test-btn" disabled>Coming Soon</button>
+                        <button class="btn btn-primary start-test-btn">Start Practice</button>
                     </div>
 
                     <div class="test-card" data-test="state">
@@ -152,17 +192,6 @@
                     </div>
                 </div>
 
-                <div class="question-container">
-                    <div class="question-content">
-                        <div class="question-text" id="question-text">
-                            <!-- Question will be loaded here -->
-                        </div>
-                        <div class="question-options" id="question-options">
-                            <!-- Answer options will be loaded here -->
-                        </div>
-                    </div>
-                </div>
-
                 <div class="test-navigation">
                     <div class="nav-buttons">
                         <button id="prev-question" class="btn btn-outline" disabled>Previous</button>
@@ -172,6 +201,17 @@
                         <button id="next-question" class="btn btn-primary">Next</button>
                     </div>
                     <!-- Test summary will be added here dynamically -->
+                </div>
+
+                <div class="question-container">
+                    <div class="question-content">
+                        <div class="question-text" id="question-text">
+                            <!-- Question will be loaded here -->
+                        </div>
+                        <div class="question-options" id="question-options">
+                            <!-- Answer options will be loaded here -->
+                        </div>
+                    </div>
                 </div>
             </section>
 

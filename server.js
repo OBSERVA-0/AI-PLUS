@@ -133,6 +133,8 @@ app.get('*', (req, res) => {
         res.sendFile(path.join(__dirname, 'login.html'));
     } else if (req.path === '/dashboard' || req.path === '/dashboard.html') {
         res.sendFile(path.join(__dirname, 'dashboard.html'));
+    } else if (req.path === '/profile' || req.path === '/profile.html') {
+        res.sendFile(path.join(__dirname, 'profile.html'));
     } else {
         res.sendFile(path.join(__dirname, 'index.html'));
     }

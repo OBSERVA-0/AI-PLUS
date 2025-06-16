@@ -1,0 +1,65 @@
+<svg width="500" height="400" xmlns="http://www.w3.org/2000/svg">
+  <!-- Title -->
+  <text x="250" y="25" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" font-weight="bold">Amount of Additional Electricity Wind</text>
+  <text x="250" y="45" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" font-weight="bold">Turbines Could Generate When</text>
+  <text x="250" y="65" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" font-weight="bold">Winds Were Stronger Than Forecast</text>
+  
+  <!-- Y-axis -->
+  <line x1="80" y1="90" x2="80" y2="320" stroke="black" stroke-width="2"/>
+  
+  <!-- X-axis -->
+  <line x1="80" y1="320" x2="420" y2="320" stroke="black" stroke-width="2"/>
+  
+  <!-- Y-axis label -->
+  <text x="25" y="205" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" transform="rotate(-90 25 205)">Electricity (in thousands of MWh)</text>
+  
+  <!-- Y-axis tick marks and labels -->
+  <line x1="75" y1="320" x2="85" y2="320" stroke="black" stroke-width="1"/>
+  <text x="70" y="325" text-anchor="end" font-family="Arial, sans-serif" font-size="11">0</text>
+  
+  <line x1="75" y1="297" x2="85" y2="297" stroke="black" stroke-width="1"/>
+  <text x="70" y="302" text-anchor="end" font-family="Arial, sans-serif" font-size="11">25</text>
+  
+  <line x1="75" y1="274" x2="85" y2="274" stroke="black" stroke-width="1"/>
+  <text x="70" y="279" text-anchor="end" font-family="Arial, sans-serif" font-size="11">50</text>
+  
+  <line x1="75" y1="251" x2="85" y2="251" stroke="black" stroke-width="1"/>
+  <text x="70" y="256" text-anchor="end" font-family="Arial, sans-serif" font-size="11">75</text>
+  
+  <line x1="75" y1="228" x2="85" y2="228" stroke="black" stroke-width="1"/>
+  <text x="70" y="233" text-anchor="end" font-family="Arial, sans-serif" font-size="11">100</text>
+  
+  <line x1="75" y1="205" x2="85" y2="205" stroke="black" stroke-width="1"/>
+  <text x="70" y="210" text-anchor="end" font-family="Arial, sans-serif" font-size="11">125</text>
+  
+  <line x1="75" y1="182" x2="85" y2="182" stroke="black" stroke-width="1"/>
+  <text x="70" y="187" text-anchor="end" font-family="Arial, sans-serif" font-size="11">150</text>
+  
+  <line x1="75" y1="159" x2="85" y2="159" stroke="black" stroke-width="1"/>
+  <text x="70" y="164" text-anchor="end" font-family="Arial, sans-serif" font-size="11">175</text>
+  
+  <line x1="75" y1="136" x2="85" y2="136" stroke="black" stroke-width="1"/>
+  <text x="70" y="141" text-anchor="end" font-family="Arial, sans-serif" font-size="11">200</text>
+  
+  <!-- Grid lines -->
+  <line x1="80" y1="297" x2="420" y2="297" stroke="#cccccc" stroke-width="1"/>
+  <line x1="80" y1="274" x2="420" y2="274" stroke="#cccccc" stroke-width="1"/>
+  <line x1="80" y1="251" x2="420" y2="251" stroke="#cccccc" stroke-width="1"/>
+  <line x1="80" y1="228" x2="420" y2="228" stroke="#cccccc" stroke-width="1"/>
+  <line x1="80" y1="205" x2="420" y2="205" stroke="#cccccc" stroke-width="1"/>
+  <line x1="80" y1="182" x2="420" y2="182" stroke="#cccccc" stroke-width="1"/>
+  <line x1="80" y1="159" x2="420" y2="159" stroke="#cccccc" stroke-width="1"/>
+  
+  <!-- West bar (approximately 150 thousand MWh) -->
+  <rect x="150" y="186" width="80" height="134" fill="#999999" stroke="black" stroke-width="1"/>
+  
+  <!-- Midwest bar (approximately 185 thousand MWh) -->
+  <rect x="270" y="148" width="80" height="172" fill="#333333" stroke="black" stroke-width="1"/>
+  
+  <!-- Legend -->
+  <rect x="180" y="350" width="140" height="35" fill="white" stroke="black" stroke-width="1"/>
+  <rect x="190" y="360" width="15" height="10" fill="#999999" stroke="black" stroke-width="1"/>
+  <text x="210" y="369" font-family="Arial, sans-serif" font-size="12">West</text>
+  <rect x="240" y="360" width="15" height="10" fill="#333333" stroke="black" stroke-width="1"/>
+  <text x="260" y="369" font-family="Arial, sans-serif" font-size="12">Midwest</text>
+</svg>
