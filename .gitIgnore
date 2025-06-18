@@ -25,5 +25,10 @@ coverage/
 build/
 dist/
 
+# Admin scripts (contain credentials - DO NOT COMMIT)
+scripts/create-admin.js
+scripts/create-multiple-admins.js
+scripts/promote-to-admin.js
+scripts/create-admin-secure.js
 
 ADMIN_SETUP.md
