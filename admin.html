@@ -1,0 +1,440 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover">
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; connect-src 'self' http://localhost:3000 https://ai-plus-education.onrender.com; script-src 'self' 'unsafe-inline'; style-src 'self' https://fonts.googleapis.com 'unsafe-inline'; font-src 'self' https://fonts.gstatic.com; img-src 'self' data: https:;">
+    <title>Admin Dashboard - AI Plus Education</title>
+    <link rel="stylesheet" href="dashboard-styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        /* Admin-specific styles */
+        .admin-header {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 1rem 0;
+        }
+        
+        .admin-header h1 {
+            color: white;
+        }
+        
+        .admin-badge {
+            background: rgba(255, 255, 255, 0.2);
+            padding: 0.25rem 0.75rem;
+            border-radius: 20px;
+            font-size: 0.8rem;
+            font-weight: 500;
+            margin-left: 1rem;
+        }
+        
+        .admin-stats {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 1.5rem;
+            margin-bottom: 2rem;
+        }
+        
+        .admin-stat-card {
+            background: white;
+            border-radius: 12px;
+            padding: 1.5rem;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+            border-left: 4px solid #667eea;
+        }
+        
+        .admin-stat-card h3 {
+            color: #6b7280;
+            font-size: 0.875rem;
+            font-weight: 500;
+            margin: 0 0 0.5rem 0;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }
+        
+        .admin-stat-card .stat-number {
+            color: #1f2937;
+            font-size: 2rem;
+            font-weight: 700;
+            margin: 0;
+        }
+        
+        .search-filters {
+            background: white;
+            border-radius: 12px;
+            padding: 1.5rem;
+            margin-bottom: 1.5rem;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+        }
+        
+        .filters-row {
+            display: flex;
+            gap: 1rem;
+            align-items: flex-end;
+        }
+        
+        .search-group {
+            flex: 1;
+        }
+        
+        .filter-group {
+            min-width: 150px;
+        }
+        
+        .search-input {
+            width: 100%;
+            padding: 0.75rem;
+            border: 2px solid #e5e7eb;
+            border-radius: 8px;
+            font-size: 1rem;
+            transition: border-color 0.2s;
+        }
+        
+        .search-input:focus {
+            outline: none;
+            border-color: #667eea;
+        }
+        
+        .grade-filter {
+            width: 100%;
+            padding: 0.75rem;
+            border: 2px solid #e5e7eb;
+            border-radius: 8px;
+            font-size: 1rem;
+            background: white;
+            cursor: pointer;
+            transition: border-color 0.2s;
+        }
+        
+        .grade-filter:focus {
+            outline: none;
+            border-color: #667eea;
+        }
+        
+        .students-table {
+            background: white;
+            border-radius: 12px;
+            overflow: hidden;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+        }
+        
+        .table-header {
+            background: #f9fafb;
+            padding: 1rem;
+            border-bottom: 1px solid #e5e7eb;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        
+        .table-header h2 {
+            margin: 0;
+            color: #1f2937;
+        }
+        
+        .table-content {
+            overflow-x: auto;
+        }
+        
+        .students-grid {
+            display: grid;
+            gap: 1rem;
+            padding: 1rem;
+        }
+        
+        .student-card {
+            border: 1px solid #e5e7eb;
+            border-radius: 8px;
+            padding: 1.5rem;
+            transition: all 0.2s;
+            cursor: pointer;
+        }
+        
+        .student-card:hover {
+            border-color: #667eea;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+        }
+        
+        .student-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start;
+            margin-bottom: 1rem;
+        }
+        
+        .student-info h3 {
+            margin: 0 0 0.25rem 0;
+            color: #1f2937;
+            font-size: 1.1rem;
+        }
+        
+        .student-info p {
+            margin: 0;
+            color: #6b7280;
+            font-size: 0.875rem;
+        }
+        
+        .student-meta {
+            display: flex;
+            gap: 1rem;
+            flex-wrap: wrap;
+            margin-bottom: 1rem;
+        }
+        
+        .meta-item {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 0.5rem;
+            background: #f9fafb;
+            border-radius: 6px;
+            min-width: 80px;
+        }
+        
+        .meta-label {
+            font-size: 0.75rem;
+            color: #6b7280;
+            margin-bottom: 0.25rem;
+        }
+        
+        .meta-value {
+            font-weight: 600;
+            color: #1f2937;
+        }
+        
+        .mastery-levels {
+            margin-top: 1rem;
+        }
+        
+        .mastery-levels h4 {
+            margin: 0 0 0.5rem 0;
+            font-size: 0.875rem;
+            color: #6b7280;
+            font-weight: 500;
+        }
+        
+        .mastery-grid {
+            display: flex;
+            gap: 0.5rem;
+            flex-wrap: wrap;
+        }
+        
+        .mastery-item {
+            background: #f3f4f6;
+            padding: 0.25rem 0.5rem;
+            border-radius: 4px;
+            font-size: 0.75rem;
+            color: #4b5563;
+        }
+        
+        .mastery-level-0 { background: #fee2e2; color: #dc2626; }
+        .mastery-level-1 { background: #fef3c7; color: #d97706; }
+        .mastery-level-2 { background: #ddd6fe; color: #7c3aed; }
+        .mastery-level-3 { background: #bfdbfe; color: #2563eb; }
+        .mastery-level-4 { background: #bbf7d0; color: #059669; }
+        .mastery-level-5 { background: #d1fae5; color: #065f46; }
+        
+        .pagination {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 0.5rem;
+            padding: 1rem;
+            border-top: 1px solid #e5e7eb;
+        }
+        
+        .pagination button {
+            padding: 0.5rem 1rem;
+            border: 1px solid #e5e7eb;
+            background: white;
+            border-radius: 6px;
+            cursor: pointer;
+            transition: all 0.2s;
+        }
+        
+        .pagination button:hover:not(:disabled) {
+            background: #f9fafb;
+            border-color: #667eea;
+        }
+        
+        .pagination button.active {
+            background: #667eea;
+            color: white;
+            border-color: #667eea;
+        }
+        
+        .pagination button:disabled {
+            opacity: 0.5;
+            cursor: not-allowed;
+        }
+        
+        .loading {
+            text-align: center;
+            padding: 2rem;
+            color: #6b7280;
+        }
+        
+        .error {
+            background: #fee2e2;
+            color: #dc2626;
+            padding: 1rem;
+            border-radius: 8px;
+            margin: 1rem;
+        }
+        
+        .student-badge {
+            padding: 0.25rem 0.75rem;
+            border-radius: 12px;
+            font-size: 0.75rem;
+            font-weight: 500;
+        }
+        
+        .student-badge.active {
+            background: #d1fae5;
+            color: #065f46;
+        }
+        
+        .student-badge.inactive {
+            background: #fee2e2;
+            color: #dc2626;
+        }
+        
+        .grade-badge {
+            background: #ede9fe;
+            color: #7c3aed;
+            padding: 0.25rem 0.5rem;
+            border-radius: 4px;
+            font-size: 0.75rem;
+            font-weight: 500;
+        }
+        
+        @media (max-width: 768px) {
+            .admin-stats {
+                grid-template-columns: 1fr;
+            }
+            
+            .filters-row {
+                flex-direction: column;
+                gap: 1rem;
+            }
+            
+            .filter-group {
+                min-width: unset;
+            }
+            
+            .student-header {
+                flex-direction: column;
+                gap: 0.5rem;
+            }
+            
+            .student-meta {
+                gap: 0.5rem;
+            }
+            
+            .meta-item {
+                min-width: 60px;
+                padding: 0.25rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Header -->
+    <header class="header admin-header">
+        <div class="container">
+            <div class="nav-brand">
+                <h1>AI Plus Education<span class="admin-badge">Admin</span></h1>
+            </div>
+            <nav class="nav">
+                <div class="nav-links">
+                    <a href="admin.html" class="nav-link active">Admin Dashboard</a>
+                    <a href="dashboard.html" class="nav-link">Student View</a>
+                </div>
+                <div class="user-info">
+                    <span class="welcome-text">Admin: <span id="user-name">Admin</span></span>
+                    <button id="logout-btn" class="btn btn-outline">Logout</button>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main class="main-content">
+        <div class="container">
+            <!-- Admin Stats -->
+            <section class="admin-stats" id="admin-stats">
+                <div class="admin-stat-card">
+                    <h3>Total Students</h3>
+                    <div class="stat-number" id="total-students">0</div>
+                </div>
+                <div class="admin-stat-card">
+                    <h3>Active Students</h3>
+                    <div class="stat-number" id="active-students">0</div>
+                </div>
+                <div class="admin-stat-card">
+                    <h3>New This Month</h3>
+                    <div class="stat-number" id="new-students">0</div>
+                </div>
+                <div class="admin-stat-card">
+                    <h3>Recent Activity</h3>
+                    <div class="stat-number" id="recent-activity">0</div>
+                </div>
+            </section>
+
+            <!-- Search and Filters -->
+            <section class="search-filters">
+                <div class="filters-row">
+                    <div class="form-group search-group">
+                        <input 
+                            type="text" 
+                            id="search-input" 
+                            class="search-input" 
+                            placeholder="Search students by name or email..."
+                        >
+                    </div>
+                    <div class="form-group filter-group">
+                        <select id="grade-filter" class="grade-filter">
+                            <option value="all">All Grades</option>
+                            <option value="6">6th Grade</option>
+                            <option value="7">7th Grade</option>
+                            <option value="8">8th Grade</option>
+                            <option value="9">9th Grade</option>
+                            <option value="10">10th Grade</option>
+                            <option value="11">11th Grade</option>
+                            <option value="12">12th Grade</option>
+                        </select>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Students Table -->
+            <section class="students-table">
+                <div class="table-header">
+                    <h2>Students</h2>
+                    <div id="students-count">Loading...</div>
+                </div>
+                
+                <div class="table-content">
+                    <div id="students-loading" class="loading">
+                        Loading students...
+                    </div>
+                    
+                    <div id="students-error" class="error" style="display: none;">
+                        Failed to load students. Please try again.
+                    </div>
+                    
+                    <div id="students-grid" class="students-grid" style="display: none;">
+                        <!-- Students will be loaded here -->
+                    </div>
+                </div>
+                
+                <div id="pagination" class="pagination" style="display: none;">
+                    <!-- Pagination will be loaded here -->
+                </div>
+            </section>
+        </div>
+    </main>
+
+    <script src="/js/admin-script.js" type="module"></script>
+</body>
+</html> 

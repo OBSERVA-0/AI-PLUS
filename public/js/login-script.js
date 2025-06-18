@@ -38,6 +38,7 @@ const loginTranslations = {
         
         // Form Options
         remember_me: "Remember me",
+        admin_login: "Admin Login",
         forgot_password: "Forgot password?",
         agree_terms: "I agree to the <a href='#' class='terms-link'>Terms of Service</a> and <a href='#' class='privacy-link'>Privacy Policy</a>",
         
@@ -118,6 +119,7 @@ const loginTranslations = {
         
         // Form Options
         remember_me: "记住我",
+        admin_login: "管理员登录",
         forgot_password: "忘记密码？",
         agree_terms: "我同意<a href='#' class='terms-link'>服务条款</a>和<a href='#' class='privacy-link'>隐私政策</a>",
         
@@ -582,6 +584,7 @@ function setupFormHandlers() {
         const email = document.getElementById('login-email').value.trim();
         const password = document.getElementById('login-password').value;
         const rememberMe = document.getElementById('remember-me').checked;
+        const isAdminLogin = document.getElementById('admin-login').checked;
         
         // Validation
         if (!email || !password) {
@@ -603,6 +606,14 @@ function setupFormHandlers() {
         try {
             const response = await AuthService.login(email, password);
             
+            // Check if admin login was requested but user is not admin
+            if (isAdminLogin && response.data.user.role !== 'admin') {
+                showFormMessage(this, 'Access denied. Admin privileges required.', 'error');
+                submitBtn.disabled = false;
+                submitBtn.textContent = originalText;
+                return;
+            }
+            
             // Store authentication data
             AuthService.setToken(response.data.token);
             AuthService.setUser(response.data.user);
@@ -610,9 +621,13 @@ function setupFormHandlers() {
             // Show success message
             showFormMessage(this, getTranslation('login_success'), 'success');
             
-            // Redirect to dashboard or home page
+            // Redirect based on role and admin login checkbox
             setTimeout(() => {
-                window.location.href = 'dashboard.html';
+                if (response.data.user.role === 'admin' && isAdminLogin) {
+                    window.location.href = 'admin.html';
+                } else {
+                    window.location.href = 'dashboard.html';
+                }
             }, 1500);
             
         } catch (error) {

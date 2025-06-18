@@ -102,11 +102,13 @@ mongoose.connection.on('reconnected', () => {
 const authRoutes = require('./routes/auth');
 const userRoutes = require('./routes/user');
 const questionRoutes = require('./routes/questions');
+const adminRoutes = require('./routes/admin');
 
 // API routes
 app.use('/api/auth', authLimiter, authRoutes);
 app.use('/api/user', userRoutes);
 app.use('/api/questions', questionRoutes);
+app.use('/api/admin', adminRoutes);
 
 // Health check endpoint
 app.get('/api/health', (req, res) => {
@@ -135,6 +137,8 @@ app.get('*', (req, res) => {
         res.sendFile(path.join(__dirname, 'dashboard.html'));
     } else if (req.path === '/profile' || req.path === '/profile.html') {
         res.sendFile(path.join(__dirname, 'profile.html'));
+    } else if (req.path === '/admin' || req.path === '/admin.html') {
+        res.sendFile(path.join(__dirname, 'admin.html'));
     } else {
         res.sendFile(path.join(__dirname, 'index.html'));
     }
