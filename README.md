@@ -55,6 +55,38 @@ A complete full-stack authentication system for the AI Plus Education platform, 
 - **Fetch API** - HTTP requests
 - **Local Storage** - Client-side storage
 
+    
+## 📡 API Endpoints
+
+### Authentication Endpoints
+```
+POST   /api/auth/signup          - Register new user
+POST   /api/auth/login           - User login
+POST   /api/auth/logout          - User logout
+GET    /api/auth/me              - Get current user
+POST   /api/auth/refresh-token   - Refresh JWT token
+POST   /api/auth/forgot-password - Request password reset
+GET    /api/auth/check-email/:email - Check email availability
+```
+
+### User Management Endpoints
+```
+GET    /api/user/profile         - Get user profile
+PUT    /api/user/profile         - Update user profile
+PUT    /api/user/password        - Update password
+PUT    /api/user/preferences     - Update preferences
+GET    /api/user/stats           - Get user statistics
+POST   /api/user/test-result     - Record test result
+DELETE /api/user/account         - Deactivate account
+```
+
+### Admin Endpoints
+```
+GET    /api/user/admin/users     - Get all users (admin only)
+GET    /api/user/admin/stats     - Get platform stats (admin only)
+```
+
+### User Model
 
 ## 🔒 Security Features
 
@@ -98,3 +130,4 @@ A complete full-stack authentication system for the AI Plus Education platform, 
 - Remember me functionality
 - Terms of service agreement
 - Grade level selection
+

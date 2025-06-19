@@ -1,173 +1,939 @@
 [
-    {
-      "_id": "1",
-      "question_text": "According to the text, what is true about Elinor?",
-      "passage": "Elinor, this eldest daughter, whose advice was so effectual, possessed a strength of understanding, and coolness of judgment, which qualified her, though only nineteen, to be the counsellor of her mother, and enabled her frequently to counteract, to the advantage of them all, that eagerness of mind in Mrs. Dashwood which must generally have led to imprudence. She had an excellent heart;—her disposition was affectionate, and her feelings were strong; but she knew how to govern them: it was a knowledge which her mother had yet to learn; and which one of her sisters had resolved never to be taught.",
-      "options": [
-        "Elinor often argues with her mother but fails to change her mind.",
-        "Elinor can be overly sensitive with regard to family matters.",
-        "Elinor thinks her mother is a bad role model.",
-        "Elinor is remarkably mature for her age."
-      ],
-      "correct_answer": 3,
-      "difficulty": "Easy",
-      "category": "Reading and Writing: Information and Ideas",
-      "time_estimate": 60,
-      "question_number": 1,
-      "practice_set": "1"
-    },
-    {
-      "_id": "2",
-      "question_text": "Looking at the sample of food items from these menus, a student notes that on day 1, the menu included ______",
-      "passage": "image:images/satpractice1question2.svg",
-      "options": [
-        "shrimp cocktail for meal B.",
-        "hot cocoa for meal C.",
-        "sugar cookie cubes for meal B.",
-        "chicken and vegetables for meal A."
-      ],
-      "correct_answer": 2,
-      "difficulty": "Easy",
-      "category": "Reading and Writing: Information and Ideas",
-      "time_estimate": 60,
-      "question_number": 2,
-      "practice_set": "1"
-    },
-    {
-      "_id": "3",
-      "question_text": "Based on the text, what would have been the most likely consequence if New had not begun using sewing machines?",
-      "passage": "When fashion designer Lloyd Henri Kiva New opened his store in Scottsdale, Arizona, in 1945, he quickly became known for creating delicately crafted leather goods, like belts and hats. He was perhaps most renowned for his colorful handbags, which he made by hand using a long and painstaking process. As he gained more customers, New began using sewing machines and other tools to help him produce bags more efficiently, though he continued to handcraft the crucial details that made each bag unique.",
-      "options": [
-        "He would have been unable to ensure that each bag included unique, handcrafted details.",
-        "He would have struggled to meet the increasing demand for his bags.",
-        "He would have had to individually design each bag he produced.",
-        "He would not have been able to generate as much interest in his bags."
-      ],
-      "correct_answer": 1,
-      "difficulty": "Easy",
-      "category": "Reading and Writing: Information and Ideas",
-      "time_estimate": 60,
-      "question_number": 3,
-      "practice_set": "1"
-    },
-    {
-      "_id": "4",
-      "question_text": "Which finding from the experiment, if true, would most directly support Garza and Robles's hypothesis?",
-      "passage": "Ochre sea stars live in tidal pools along the shoreline of the Pacific Ocean. At night, they move to higher shore levels in search of prey. But scientists Corey Garza and Carlos Robles noticed that ochre sea stars stayed at lower levels at night after heavy rains. Garza and Robles hypothesized that a layer of fresh water formed by rainfall was a barrier to the sea stars. To test their hypothesis, the scientists did an experiment. They placed some sea stars in a climbable tank of seawater and other sea stars in a similar tank of seawater with a layer of fresh water on top. Then, the scientists watched the sea stars' behavior at night.",
-      "options": [
-        "None of the sea stars climbed to the tops of the tanks, but sea stars in the tank with only seawater moved around the bottom of the tank more than sea stars in the other tank did.",
-        "Sea stars in the tank with only seawater climbed to the top of the tank, but sea stars in the other tank stopped climbing just below the layer of fresh water.",
-        "Both groups of sea stars climbed to the tops of the tanks, but sea stars in the tank with only seawater climbed more slowly than sea stars in the other tank did.",
-        "Sea stars in the tank with only seawater mostly stayed near the bottom of the tank, but sea stars in the other tank climbed into the layer of fresh water."
-      ],
-      "correct_answer": 1,
-      "difficulty": "Easy",
-      "category": "Reading and Writing: Information and Ideas",
-      "time_estimate": 60,
-      "question_number": 4,
-      "practice_set": "1"
-    },
-    {
-      "_id": "5",
-      "question_text": "Which choice best states the main idea of the text?",
-      "passage": "Heidi had come and was looking with wondering eyes at the splendid pictures in the large books, that Grandmama was showing her. Suddenly she screamed aloud, for there on the picture she saw a peaceful flock grazing on a green pasture. In the middle a shepherd was standing, leaning on his crook. The setting sun was shedding a golden light over everything. With glowing eyes Heidi devoured the scene.",
-      "options": [
-        "Heidi is upset until she sees a serene image of a pasture in one of Grandmama's books.",
-        "Heidi is delighted and fascinated by an image she sees in one of Grandmama's books.",
-        "Heidi is initially frightened by an image in one of Grandmama's books but quickly comes to appreciate its beauty.",
-        "Heidi is inspecting an image in one of Grandmama's books because she has never seen a shepherd with his sheep before."
-      ],
-      "correct_answer": 1,
-      "difficulty": "Easy",
-      "category": "Reading and Writing: Information and Ideas",
-      "time_estimate": 60,
-      "question_number": 5,
-      "practice_set": "1"
-    },
-    {
-      "_id": "6",
-      "question_text": "Which quotation from O Pioneers! most effectively illustrates the claim?",
-      "passage": "O Pioneers! is a 1913 novel by Willa Cather. In the novel, Cather portrays Alexandra Bergson as having a deep emotional connection to her natural surroundings:",
-      "options": [
-        "“She had never known before how much the country meant to her. The chirping of the insects down in the long grass had been like the sweetest music. She had felt as if her heart were hiding down there, somewhere, with the quail and the plover and all the little wild things that crooned or buzzed in the sun. Under the long shaggy ridges, she felt the future stirring.”",
-        "“Alexandra talked to the men about their crops and to the women about their poultry. She spent a whole day with one young farmer who had been away at school, and who was experimenting with a new kind of clover hay. She learned a great deal.”",
-        "“Alexandra drove off alone. The rattle of her wagon was lost in the howling of the wind, but her lantern, held firmly between her feet, made a moving point of light along the highway, going deeper and deeper into the dark country.”",
-        "“It was Alexandra who read the papers and followed the markets, and who learned by the mistakes of their neighbors. It was Alexandra who could always tell about what it had cost to fatten each steer, and who could guess the weight of a hog before it went on the scales closer than John Bergson [her father] himself.”"
-      ],
-      "correct_answer": 0,
-      "difficulty": "Easy",
-      "category": "Reading and Writing: Command of Evidence",
-      "time_estimate": 60,
-      "question_number": 6,
-      "practice_set": "1"
-    },
+  {
+    "_id": "",
+    "question_text": "Section 1 Module 1:\n\nClick I acknowledge to Proceed",
+    "passage": "DIRECTIONS:\n\nYou will be tested on a variety of important reading and writing skills. Each question has one or more passages, possibly including a graph or table. Carefully read each passage and question and choose the best answer to the question based on the passage(s).Every question in this section is multiple-choice, with four possible answers. Each question has only one best answer.",
+    "options": [
+      "I acknowledge"
+    ],
+    "correct_answer": 0,
+    "difficulty": "",
+    "category": "Reading: Words in Context",
+    "time_estimate": 71,
+    "question_number": 1,
+    "practice_set": "1"
+  },
+  {
+    "_id": "1",
+    "question_text": "Which choice completes the text with the most logical and precise word or phrase?",
+    "passage": "One of the most common ways that people can amass wealth is through _________ equity in their homes.",
+    "options": [
+      "assembling",
+      "manufacturing",
+      "building",
+      "fabricating"
+    ],
+    "correct_answer": 2,
+    "difficulty": "",
+    "category": "Reading: Words in Context",
+    "time_estimate": 71,
+    "question_number": 1,
+    "practice_set": "1"
+  },
+  {
+    "_id": "2",
+    "question_text": "Which choice completes the text with the most logical and precise word or phrase?",
+    "passage": "Modern day graffiti creates the same questions. Most people would agree that a quickly spray-painted tag is not art, but some graffiti is very elaborate, well planned, and objectively beautiful. Some graffiti _________ the value of an area by making it appear abandoned and unkempt.",
+    "options": [
+      "quiets",
+      "recedes",
+      "lowers",
+      "muffles"
+    ],
+    "correct_answer": 2,
+    "difficulty": "",
+    "category": "Reading: Words in Context",
+    "time_estimate": 71,
+    "question_number": 2,
+    "practice_set": "1"
+  },
+  {
+    "_id": "3",
+    "question_text": "Which choice completes the text with the most logical and precise word or phrase?",
+    "passage": "While there certainly are many potential careers that students may find rewarding, students with a math and science _________ should give engineering serious consideration.",
+    "options": [
+      "aptitude",
+      "warmth",
+      "hankering",
+      "frenzy"
+    ],
+    "correct_answer": 0,
+    "difficulty": "",
+    "category": "Reading: Words in Context",
+    "time_estimate": 71,
+    "question_number": 3,
+    "practice_set": "1"
+  },
+  {
+    "_id": "4",
+    "question_text": "Which choice completes the text with the most logical and precise word or phrase?",
+    "passage": "Making something that is truly delicious for one’s friends and family can be a formative experience that leads one to pursue a career as a chef. While not everybody can be a celebrity chef with millions of television fans, there are many _________ to a fulfilling career in the food services industry.",
+    "options": [
+      "boulevards",
+      "promenades",
+      "thoroughfares",
+      "avenues"
+    ],
+    "correct_answer": 3,
+    "difficulty": "",
+    "category": "Reading: Words in Context",
+    "time_estimate": 71,
+    "question_number": 4,
+    "practice_set": "1"
+  },
+  {
+    "_id": "5",
+    "question_text": "Which choice completes the text with the most logical and precise word or phrase?",
+    "passage": "One key reason C. lectularius (bedbugs) can be so difficult to remove is their physical properties. They are tiny brown bugs that live solely on the blood of other animals, so edible poison traps won’t work the way they do for ants. In addition, they can live months without food, which makes starving them out nearly impossible, and they lay eggs that are _________ to regular pest control methods and stick in unreachable nooks and crannies.",
+    "options": [
+      "susceptible",
+      "prone",
+      "impervious",
+      "vulnerable"
+    ],
+    "correct_answer": 2,
+    "difficulty": "",
+    "category": "Reading: Words in Context",
+    "time_estimate": 71,
+    "question_number": 5,
+    "practice_set": "1"
+  },
+  {
+    "_id": "6",
+    "question_text": "Which choice best states the main purpose of the text?",
+    "passage": "The following text is from Georgia Douglas Johnson’s 1920 poem \"Calling Dreams.\"\n\nThe right to make my dreams come true,\nI ask, nay, I demand of life;\nNor shall fate’s deadly contraband\nImpede my steps, nor countermand;\nToo long my heart against the ground\nHas beat the dusty years around;\n\nAnd now at length I rise! I wake!\nAnd stride into the morning break!",
+    "options": [
+      "To express the inevitable frustration that comes when you cannot accomplish a goal",
+      "To show a more contemplative attitude towards acceptance of your fate",
+      "To present a personal narrative about the importance of travel to a richer life",
+      "To emphasize the need to not let anything stand in the way of achieving your dreams"
+    ],
+    "correct_answer": 3,
+    "difficulty": "",
+    "category": "Reading: Structure and Purpose",
+    "time_estimate": 71,
+    "question_number": 6,
+    "practice_set": "1"
+  },
     {
       "_id": "7",
-      "question_text": "Which quotation from \"To You\" most effectively illustrates the claim?",
-      "passage": "“To You” is an 1856 poem by Walt Whitman. In the poem, Whitman suggests that readers, whom he addresses directly, have not fully understood themselves, writing:",
+      "question_text": "Which choice best describes the function of the underlined sentence in the text as a whole?",
+      "passage": "The following is a portion of an address given by Senator Herbert H. Lehman at the annual membership meeting of the Urban League of Greater New York in June of 1956, as reported in the Arizona Sun:\n\nThe Urban League has furnished a framework within which men of good will of all races could work together to achieve steady advances toward the goal of adjustment, focusing their efforts on the neighborhood and the community. This organization has helped to show how vast are the ramifications of inter-group and inter-racial adjustment, what concrete and specific evils flow from discrimination and segregation, and what must and can be done about it. Some people, including some of the leaders of our government, act as though civil rights were a brand-new problem, which has just arisen and needs nothing so much as to be studied. And they indicate that just as soon as they finish studying it, they will probably do something about it. <u>And, of course, that may take a long time.</u>",
       "options": [
-        "“You have not known what you are, you have slumber'd upon yourself / all your life, / Your eyelids have been the same as closed most of the time.”",
-        "“These immense meadows, these interminable rivers, you are immense / and interminable as they.”",
-        "“I should have made my way straight to you long ago, / I should have blabb'd nothing but you, I should have chanted nothing / but you.”",
-        "“I will leave all and come and make the hymns of you, / None has understood you, but I understand you.”"
+        "To show how those who oppose the advancement of civil rights will inevitably resort to personal attacks",
+        "To emphasize the need for increased funding for socially active causes",
+        "To assert that opponents of civil rights progress will likely use excessive delay to achieve their aims",
+        "To argue that the goal of public policy is to promote social justice"
       ],
-      "correct_answer": 0,
-      "difficulty": "Easy",
-      "category": "Reading and Writing: Command of Evidence",
-      "time_estimate": 60,
+      "correct_answer": 2,
+      "difficulty": "",
+      "category": "Reading: Structure and Purpose",
+      "time_estimate": 71,
       "question_number": 7,
       "practice_set": "1"
     },
     {
-      "_id": "8",
-      "question_text": "Which finding, if true, would most directly support Armijo's hypothesis?",
-      "passage": "Roasted green chiles are a popular ingredient in Southwestern cuisine, but the traditional roasting method of burning propane is not environmentally friendly. To see if solar power could provide a better alternative, engineer Kenneth Armijo and his team roasted batches of green chiles using between 38 and 42 heliostats, which are devices that concentrate sunlight. The team was successful in reaching the same roasting temperature used in traditional propane roasting, but they found that propane yielded faster results. While the fastest solar-roasted green chiles took six minutes, batches using propane took only four. Armijo hypothesizes that they can reduce the roasting time for solar-roasted green chiles by using more heliostats.",
-      "options": [
-        "The temperature inside the roasting drum is distributed more evenly when roasting green chiles with solar power than with propane.",
-        "Attempts to roast green chiles using 50 heliostats yields results in fewer than six minutes.",
-        "Green chile connoisseurs prefer the flavor of solar-roasted green chiles over the flavor of propane-roasted green chiles.",
-        "The skins of solar-roasted green chiles are easier to peel than the skins of propane-roasted green chiles."
-      ],
-      "correct_answer": 1,
-      "difficulty": "Easy",
-      "category": "Reading and Writing: Command of Evidence",
-      "time_estimate": 60,
-      "question_number": 8,
-      "practice_set": "1"
-    },
+        "_id": "8",
+        "question_text": "According to the text, Marija most likely has what level of proficiency in the English language?",
+        "passage": "The following text is from Upton Sinclair’s 1906 novel The Jungle.\n\nAnd then there was Marija Berczynskas, who, fired with jealousy by the success of Jurgis, had set out upon her own responsibility to get a place. Marija had nothing to take with her save her two brawny arms and the word ‘job,’ laboriously learned; but with these she had marched about Packingtown all day, entering every door where there were signs of activity. Out of some she had been ordered with curses; but Marija was not afraid of man or devil, and asked everyone she saw— visitors and strangers, or work-people like herself, and once or twice even high and lofty office personages, who stared at her as if they thought she was crazy. In the end, however, she had reaped her reward.",
+        "options": [
+          "Totally fluent",
+          "Mostly fluent",
+          "Somewhat proficient",
+          "Very limited"
+        ],
+        "correct_answer": 3,
+        "difficulty": "",
+        "category": "Reading: Central Ideas and Details",
+        "time_estimate": 71,
+        "question_number": 8,
+        "practice_set": "1"
+      },
+      
     {
       "_id": "9",
-      "question_text": "In a recent study, researchers found that relatively few video games released over the decades remain available today. For example, only 14.22 percent of games are still available that were initially released in ______",
-      "passage": "image:images/satpractice1question9.svg",
+      "question_text": "According to the text, how would the narrator most likely characterize how most priests in this story would handle their emotions?",
+      "passage": "The following passage is from A Portrait of the Artist as a Young Man by James Joyce, published in 1916. Stephen Dedalus, Joyce’s protagonist, yearns to be an artist but was raised and educated to join the clergy. Below he contemplates the diverging paths before him after a priest warns him of the permanence of his intended holy position.\nThe Reverend Stephen Dedalus, S.J.\nHis name in that new life leaped into characters before his eyes and to it there followed a mental sensation of an undefined face or colour of a face. The colour faded and became strong like a changing glow of pallid brick red. Was it the raw reddish glow he had so often seen on wintry mornings on the shaven gills of the priests? The face was eyeless and sour-favoured and devout, shot with pink tinges of suffocated anger. Was it not a mental spectre of the face of one of the Jesuits whom some of the boys called Lantern Jaws and others Foxy Campbell?",
       "options": [
-        "2000–2004.",
-        "1995–1999.",
-        "1970–1974.",
-        "1985–1989."
+        "By repressing them",
+        "By celebrating them",
+        "By eliminating them",
+        "By expressing them"
       ],
-      "correct_answer": 1,
-      "difficulty": "Easy",
-      "category": "Reading and Writing: Information and Ideas",
-      "time_estimate": 60,
+      "correct_answer": 0,
+      "difficulty": "",
+      "category": "Reading: Central Ideas and Details",
+      "time_estimate": 71,
       "question_number": 9,
       "practice_set": "1"
     },
+    
     {
       "_id": "10",
-      "question_text": "Electric companies that use wind turbines rely on weather forecasts to predict the maximum amount of power, in megawatt-hours (MWh), they can generate using wind so that they can determine how much they'll need to generate from other sources. When winds are stronger than they were forecast to be, however, the predicted maximum amount of electricity wind turbines could generate will be too low. For example, the graph shows that for the West region, the winds were ______",
-      "passage": "image:images/satpractice1question10.svg",
+      "question_text": "How does the analysis of the love process in Text 2 differ from the one in Text 1?",
+      "passage": "Text 1:\nIn her essay, “The Realities of Love at First Sight,” Fisher explains how we\nevaluate an individual within three minutes of meeting them based on their\nphysical attributes, voice, and words. First, we decide if they are attractive,\nthen we evaluate their clothing and stature, before moving on to the sound\nand tone of their voice. Lastly, we consider what they actually say. She\nconcludes that we choose partners whose biological chemicals complement\nour own.\n\nText 2:\nPsychology Today renders love a three-step scientific process. First, a\nrelease of the hormone dopamine causes “feel good” emotions. In this stage,\nwe feel attracted to an individual and associate them with feelings of intense\njoy. Next, our neurotransmitters—norepinephrine and phenylethylamine—\nlead to focused attention on the object of our attraction. Lastly, our brain\nreward system is activated, sending chemical messages that elevate mood\nand make an addiction-like urge to be with that person.",
       "options": [
-        "strong enough to generate about 150 thousand more MWh of electricity from wind turbines.",
-        "so weak that the electricity from wind turbines was about 175 thousand MWh less than predicted.",
-        "so weak that the electricity from wind turbines was about 150 thousand MWh less than predicted.",
-        "strong enough to generate about 175 thousand more MWh of electricity from wind turbines."
+        "It cites the role that chemicals might play.",
+        "It focuses on the actual chemistry of the process.",
+        "It has just two concrete steps.",
+        "It emphasizes the essential importance of human decision making."
       ],
-      "correct_answer": 0,
-      "difficulty": "Easy",
-      "category": "Reading and Writing: Information and Ideas",
-      "time_estimate": 60,
+      "correct_answer": 1,
+      "difficulty": "",
+      "category": "Reading: Cross-Text Connections",
+      "time_estimate": 71,
       "question_number": 10,
       "practice_set": "1"
-    }
-  ]
+    },
+    
+    {
+      "_id": "11",
+      "question_text": "Which insertion at the end of the text, if true, would best support the author’s claim?",
+      "passage": "Microplastics are microscopic particles of plastic that tend to accumulate toxins and are in some cases toxic themselves. Unfortunately, microplastics tend to end up being eaten by various organisms. The primary reason for this problem is that in recent years, approximately 380 million tons of plastic are produced annually. Plastic is not biodegradable, which means that once it enters the environment it can take several hundred years to degrade. In fact, if all the plastic that was produced between 1950 and 1960 had been disposed of in the ocean, _________",
+      "options": [
+        "nearly all of it would remain.",
+        "about half of it would remain.",
+        "about one-third of it would remain.",
+        "almost none of it would remain."
+      ],
+      "correct_answer": 0,
+      "difficulty": "",
+      "category": "Reading: Textual Evidence",
+      "time_estimate": 71,
+      "question_number": 11,
+      "practice_set": "1"
+    },
+    
+    {
+      "_id": "12",
+      "question_text": "Which quotation from The Souls of Black Folk most effectively illustrates the claim?",
+      "passage": "The Souls of Black Folk is a 1903 literary work by American author W. E. B. Du Bois. One cultural aspect on which Du Bois focuses in this work is the prevalence of “sorrow songs” in African American culture, i.e., musical compositions that evoke the suffering of slaves. In this work, Du Bois strongly suggests that American creativity is focused on energetic inventiveness: __________________",
+      "options": [
+        "“Out of [the slave songs] rose for me morning, noon, and night,\nbursts of wonderful melody, full of the voices of my brothers and\nsisters, full of the voices of the past.”",
+        "“Little of beauty has America given the world save the rude\ngrandeur God himself stamped on her bosom; the human spirit in\nthis new world has expressed itself in vigor and ingenuity rather\nthan in beauty.”",
+        "“Some [slave songs], like “Near the lake where drooped the\nwillow,” passed into current airs and their source was forgotten;\nothers were caricatured on the ‘minstrel’ stage and their memory\ndied away.”",
+        "“[Slave songs] are the music of an unhappy people, of the children\nof disappointment; they tell of death and suffering and unvoiced\nlonging toward a truer world, of misty wanderings and hidden\nways.”"
+      ],
+      "correct_answer": 1,
+      "difficulty": "",
+      "category": "Reading: Textual Evidence",
+      "time_estimate": 71,
+      "question_number": 12,
+      "practice_set": "1"
+    },
+    
+    {
+      "_id": "13",
+      "question_text": "Through the improvement of technology and microscopy techniques, the differences between prokaryotes and eukaryotes were discovered. Protists previously fell under the category of prokaryotes, which were originally classified as anucleate organisms and unicellular. Technological advances led to the understanding that protists are eukaryotic organisms even though most protists do remain unicellular. Since 1675, scientists_________:\n\nWhich choice most effectively uses data from the graph to complete the example?",
+      "passage": "image:images/satpractice1question13.png",
+      "options": [
+        "have found far more species of protists than other animal species.",
+        "conducted experiments on over 100,000 species of protists in laboratory environments.",
+        "have discovered approximately 200,000 new species of protists.",
+        "analyzed a total of 900,000 plant and protist species in their quest to find new life forms."
+      ],
+      "correct_answer": 2,
+      "difficulty": "",
+      "category": "Reading: Quantitative Evidence",
+      "time_estimate": 71,
+      "question_number": 13,
+      "practice_set": "1"
+    },
+    
+  {
+    "_id": "14",
+    "question_text": "Which choice most logically completes the text?",
+    "passage": "Ernst Haeckel was a German zoologist, naturalist, philosopher, physician, and about every about other type of scientist. He lived from 1834–1919. He was a contemporary of Charles Darwin and helped popularize On the Origin of Species in Germany. Contrary to Darwin and what we know now, Haeckel believed humans originated in Asia, not Africa. An accomplished artist, he created illustrations of animals and sea creatures with the same color and detail as the ornithological illustrations of James Audubon. Even though Americans aren’t as familiar with Haeckel as they are with Darwin or Audubon, Haeckel ___________",
+    "options": [
+      "is a historical figure who is worth studying.",
+      "continues to write intriguing articles in the present day.",
+      "should be consigned to the dustbin of history.",
+      "was truly a literary pioneer and poetic innovator."
+    ],
+    "correct_answer": 0,
+    "difficulty": "",
+    "category": "Reading: Inferences",
+    "time_estimate": 71,
+    "question_number": 14,
+    "practice_set": "1"
+  },
+  {
+    "_id": "15",
+    "question_text": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+    "passage": "In considering the following ___________ be well to bear in mind that records of the bird migration in this locality have been made each year for the past thirty-one years.",
+    "options": [
+      "remarks: it may",
+      "remarks; it may",
+      "remarks, it may",
+      "remarks it may"
+    ],
+    "correct_answer": 2,
+    "difficulty": "",
+    "category": "Writing: Punctuation",
+    "time_estimate": 71,
+    "question_number": 15,
+    "practice_set": "1"
+  },
+  {
+    "_id": "16",
+    "question_text": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+    "passage": "We hear about water every day. More than 70% of ___________ surface is covered with water. Water is a requirement for terrestrial life. Water makes up most of our bodies.",
+    "options": [
+      "our planets",
+      "their planets",
+      "our planet’s",
+      "their planets’"
+    ],
+    "correct_answer": 2,
+    "difficulty": "",
+    "category": "Writing: Punctuation",
+    "time_estimate": 71,
+    "question_number": 16,
+    "practice_set": "1"
+  },
+  {
+    "_id": "17",
+    "question_text": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+    "passage": "It is believed that _________ on as near the actual date of their arrival as it would ordinarily be possible to obtain them.",
+    "options": [
+      "the great majority of species: were recorded",
+      "the great majority of species were recorded",
+      "the great majority of species, were recorded",
+      "the great majority of species; were recorded"
+    ],
+    "correct_answer": 1,
+    "difficulty": "",
+    "category": "Writing: Punctuation",
+    "time_estimate": 71,
+    "question_number": 17,
+    "practice_set": "1"
+  },
+  {
+    "_id": "18",
+    "question_text": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+    "passage": "Schrödinger, a father of quantum mechanics himself, surely understood the uses of quantum superposition but also sought to bring attention to ___________ shortcomings.",
+    "options": [
+      "its",
+      "it’s",
+      "their",
+      "there"
+    ],
+    "correct_answer": 0,
+    "difficulty": "",
+    "category": "Writing: Number and Tense",
+    "time_estimate": 71,
+    "question_number": 18,
+    "practice_set": "1"
+  },
+  {
+    "_id": "19",
+    "question_text": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+    "passage": "General Douglas MacArthur and President Harry ___________ both American leaders in the late 1940s and early 1950s in the aftermath of the Allied victory during World War II.",
+    "options": [
+      "Truman; Great Men, by all accounts—were",
+      "Truman—Great Men, by all accounts, were",
+      "Truman: Great Men, by all accounts—were",
+      "Truman—Great Men, by all accounts—were"
+    ],
+    "correct_answer": 3,
+    "difficulty": "",
+    "category": "Writing: Punctuation",
+    "time_estimate": 71,
+    "question_number": 19,
+    "practice_set": "1"
+  },
+  {
+    "_id": "20",
+    "question_text": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+    "passage": "Two of the primary positions “between” nurse and doctor ___________ those of nurse practitioner and physician assistant. You can think of a nurse practitioner as a more advanced nurse and a physician assistant as a more restricted doctor.",
+    "options": [
+      "are",
+      "is",
+      "has",
+      "was"
+    ],
+    "correct_answer": 0,
+    "difficulty": "",
+    "category": "Writing: Number and Tense",
+    "time_estimate": 71,
+    "question_number": 20,
+    "practice_set": "1"
+  },
+  {
+    "_id": "21",
+    "question_text": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+    "passage": "Over time, when the town began to adopt more mainstream customs with respect to family dynamics, the rate of cardiovascular disease ___________.",
+    "options": [
+      "rise",
+      "risen",
+      "rose",
+      "rised"
+    ],
+    "correct_answer": 2,
+    "difficulty": "",
+    "category": "Writing: Number and Tense",
+    "time_estimate": 71,
+    "question_number": 21,
+    "practice_set": "1"
+  },
+  {
+    "_id": "22",
+    "question_text": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+    "passage": "Henrik Ibsen and August Strindberg are truly giants of playwriting. The hallmarks of modern theater in their present incarnation—from stark realism to surreal expressionism—___________",
+    "options": [
+      "from the two mens’ works directly derive.",
+      "from the works of these two men directly derive.",
+      "derive directly from the works of these two men.",
+      "come directly from this."
+    ],
+    "correct_answer": 2,
+    "difficulty": "",
+    "category": "Writing: Sentence Structure and Organization",
+    "time_estimate": 71,
+    "question_number": 22,
+    "practice_set": "1"
+  },
+  {
+    "_id": "23",
+    "question_text": "Which choice completes the text with the most logical transition?",
+    "passage": "Music is a combination of specific sound waves started and stopped at specific times. Some waves align nicely with one another or contrast nicely with one another, ___________ others are neither regularly contrasting nor matching.",
+    "options": [
+      "while",
+      "because",
+      "since",
+      "so"
+    ],
+    "correct_answer": 0,
+    "difficulty": "",
+    "category": "Writing: Transitions",
+    "time_estimate": 71,
+    "question_number": 23,
+    "practice_set": "1"
+  },
+  {
+    "_id": "24",
+    "question_text": "Which choice completes the text with the most logical transition?",
+    "passage": "Specific engineering disciplines focus on particular types of physical problems. ___________ aerospace engineering is mostly concerned with optimizing the performance of airplanes, while civil engineering is mostly concerned with improving physical structures and public works.",
+    "options": [
+      "However",
+      "In Addition",
+      "For Instance",
+      "Surprisingly"
+    ],
+    "correct_answer": 3,
+    "difficulty": "",
+    "category": "Writing: Transitions",
+    "time_estimate": 71,
+    "question_number": 24,
+    "practice_set": "1"
+  },
+  {
+    "_id": "25",
+    "question_text": "Which choice completes the text with the most logical transition?",
+    "passage": "In the past few years, more than one horribly botched painting has made the news when it was delivered back to the owner looking nothing like the original. ___________ the art restorer working on the painting is not both topnotch and very well trained in artistic techniques from the time-period of the piece, the results of a restoration attempt can be disastrous.",
+    "options": [
+     "If",
+     "While",
+     "Because",
+     "Since"
+    ],
+    "correct_answer": 0,
+    "difficulty": "",
+    "category": "Writing: Transitions",
+    "time_estimate": 71,
+    "question_number": 25,
+    "practice_set": "1"
+  },
+  {
+    "_id": "26",
+    "question_text": "The student wants to introduce Robert Frost to an audience unfamiliar with his work. Which choice most effectively uses relevant informtion from the notes to accomplish this goal?",
+    "passage": "While researching a topic, a student has taken the following notes:\n\nRobert Frost is one of the most popular poets in modern day:\n\nHis poems centered around philosophical and social issues:\n\nquestioning common assumptions with ironic writing:\n\nOne of his most famous poems is “The Road Not Taken.”It encourages readers to take the path less traveled by the world or by peers:\n\nAnother one of Frost’s poems is “Nothing Gold Can Stay.:\n\nThis poem reflects on the fleeting nature of beauty and life.",
+    "options": [
+      "“The Road Not Taken” considers taking the path less traveled by others.",
+      "Robert Frost is a famous modern poet whose work encourages critical thinking.",
+      "Analysis of beauty and life are common themes in many modern-day poems by Robert Frost and others.",
+      "Irony is a useful poetic device to convey one’s skepticism about worldly assumptions."
+    ],
+    "correct_answer": 1,
+    "difficulty": "",
+    "category": "Writing: Rhetorical Synthesis",
+    "time_estimate": 71,
+    "question_number": 26,
+    "practice_set": "1"
+  },
   
+    {
+      "_id": "27",
+      "question_text": "The student wants to correct a likely misconception about flying squirrels. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+      "passage": "While researching a topic, a student has taken the following notes:\nFlying squirrels are the most numerous squirrels in Ohio, yet they are the least frequently observed.\nFlying squirrels are nocturnal.\nFlying squirrels do not actually fly; loose skin extends from wrist to ankle and allows them to glide between trees.\nFlying squirrels prefer to live in forests and not in suburbs.\nHabitat loss is one of the greatest threats facing flying squirrels.",
+      "options": [
+        "Flying squirrels can usually be observed at night as opposed to the day.",
+        "Despite their name, flying squirrels glide rather than fly.",
+        "While hunting poses a threat to flying squirrels, habitat loss is ultimately the greater danger.",
+        "Even though flying squirrels are scarce in Ohio, they can still be easily seen."
+      ],
+      "correct_answer": 1,
+      "difficulty": "",
+      "category": "Writing: Rhetorical Synthesis",
+      "time_estimate": 71,
+      "question_number": 27,
+      "practice_set": "1"
+    },
+    {
+     "_id": "",
+    "question_text": "Section 2 Module 2:\n\nClick I acknowledge to Proceed",
+    "passage": "DIRECTIONS:\n\nYou will be tested on a variety of important reading and writing skills. Each question has one or more passages, possibly including a graph or table. Carefully read each passage and question and choose the best answer to the question based on the passage(s).Every question in this section is multiple-choice, with four possible answers. Each question has only one best answer.",
+    "options": [
+      "I acknowledge"
+    ],
+    "correct_answer": 0,
+    "difficulty": "",
+    "category": "Reading: Words in Context",
+    "time_estimate": 71,
+    "question_number": 1,
+    "practice_set": "1"
+  },
+      {
+        "_id": "1",
+        "question_text": "Which choice completes the text with the most logical and precise word or phrase?",
+        "passage": "The vacation had the opposite effect on Jim. He despised the upcoming days and was depressed at the thought of his recent break-up. Although he marched into work 15 minutes early on Monday morning, he was feeling very___________.",
+        "options": [
+          "energetic",
+          "dispirited",
+          "invigorated",
+          "rejuvenated"
+        ],
+        "correct_answer": 1,
+        "difficulty": "",
+        "category": "Reading: Words in Context",
+        "time_estimate": 71,
+        "question_number": 1,
+        "practice_set": "2"
+      },
+      {
+        "_id": "2",
+        "question_text": "Which choice completes the text with the most logical and precise word or phrase?",
+        "passage": "An education is usually thought to have intrinsic ___________ rather than extrinsic. That is, its worth comes from the love of knowledge rather than something monetary. However, with the rising cost of tuition, one could maybe argue that there is a fiscal price related to education.",
+        "options": [
+          "value",
+          "price",
+          "principles",
+          "standard"
+        ],
+        "correct_answer": 0,
+        "difficulty": "",
+        "category": "Reading: Words in Context",
+        "time_estimate": 71,
+        "question_number": 2,
+        "practice_set": "2"
+      },
+      {
+        "_id": "3",
+        "question_text": "Which choice completes the text with the most logical and precise word or phrase?",
+        "passage": "The night sky erupted with great displays of sound and light. Every couple of minutes, from dusk till late, the loud, explosive sounds would shake the sky and some unsuspecting and innocent below. It is not lightning or anything___________; rather, it is meant to be a symbol of patriotism. It was a week before the Fourth of July, a day meant to celebrate the United States and those who defend it, and the fireworks had already begun.",
+        "options": [
+          "considerate",
+          "nefarious",
+          "congenial",
+          "duplicitous"
+        ],
+        "correct_answer": 1,
+        "difficulty": "",
+        "category": "Reading: Words in Context",
+        "time_estimate": 71,
+        "question_number": 3,
+        "practice_set": "2"
+      },
+      {
+        "_id": "4",
+        "question_text": "Which choice completes the text with the most logical and precise word or phrase?",
+        "passage": "Though Friedel and Crafts discovered a new chemical reaction, this reaction technique was virtually useless to the scientific community because it lacked selectivity. Selectivity causes a reaction to favor one product over another potential product of the reaction. Without selectivity, it is impossible for chemists to ___________ the products of their reaction. Not being able to separate one product from another makes a reaction useless because even a small alteration in a molecule can result in adverse effects.",
+        "options": [
+          "create",
+          "demonstrate",
+          "reciprocate",
+          "isolate"
+        ],
+        "correct_answer": 3,
+        "difficulty": "",
+        "category": "Reading: Words in Context",
+        "time_estimate": 71,
+        "question_number": 4,
+        "practice_set": "2"
+      },
+      {
+        "_id": "5",
+        "question_text": "As used in the text, what does the word “evolving” most nearly mean?",
+        "passage": "As anyone who has watched a bag of instant popcorn expand knows, the tray inside of a microwave oven rotates as the food cooks. This rotation has the interesting effect of increasing the kinetic energy of the food’s polar molecules, as they too must constantly rotate to remain aligned with the field. As they do so, these molecules rub and grind against their neighbors, converting their kinetic energy into intermolecular friction, and thus <u>evolving heat</u>. In fact, the motion of molecules is so directly related to internal heat that one can calculate a material’s exact temperature by averaging the kinetic energy of the atoms and molecules that comprise it.",
+        "options": [
+          "Advancing",
+          "Reproducing",
+          "Selecting",
+          "Generating"
+        ],
+        "correct_answer": 3,
+        "difficulty": "",
+        "category": "Reading: Words in Context",
+        "time_estimate": 71,
+        "question_number": 5,
+        "practice_set": "2"
+      },
+      {
+        "_id": "6",
+        "question_text": "Which choice best states the main purpose of the text?",
+        "passage": "Advocates of the presidential model posit that it is more democratic than the parliamentary system because the people themselves choose their executive.They contend that the fixed terms even allow for some stability that the parliamentary organization does not allow. Likewise, a further benefit lies in the separation of powers subject to checks and balances, in which the executive and legislative bodies can monitor one another and assure that power is not centralized. Yet, critics of the system assert that the president’s national status affords tendencies toward authoritarianism. Furthermore, as a rule, deadlocks or stalemates are much more common within a system that often has executive and legislative bodies under the control of different parties. Cynics therefore suggest that the presidential model is privy to discord and inefficiency—not to mention, presidents are difficult to remove when thought to be unfit.",
+        "options": [
+          "It explores the pros and cons of the presidential model.",
+          "It compares the presidential and parliamentary models.",
+          "It highlights the superior aspects of the presidential model.",
+          "It gives specific examples of countries that practice presidential politics."
+        ],
+        "correct_answer": 0,
+        "difficulty": "",
+        "category": "Reading: Structure and Purpose",
+        "time_estimate": 71,
+        "question_number": 6,
+        "practice_set": "2"
+      },
+      {
+        "_id": "7",
+        "question_text": "Which choice best describes the function of the final sentence in the overall structure of the text?",
+        "passage": "Some people simply believe that few, if any, other civilizations outside those on Earth exist. The Rare Earth Hypothesis suggests that Earth is unique, and so, therefore, is intelligent life. Others theorize that intelligent life has a tendency of destroying itself quickly; they hypothesize that self-annihilation occurs before contact can be made. On the other hand, many postulate that extraterrestrial intelligence (ETI) does exist, but we see no evidence for a variety of reasons. Perhaps we are too far apart in space or time; perhaps humans, a relatively new species, haven’t searched long enough or maybe we aren’t listening properly; what if our distant neighbors are using different frequencies?",
+        "options": [
+          "It explains why the author is quite pessimistic about the possibility of finding ETI.",
+          "It offers suggestions that have not likely been considered by scientists.",
+          "It gives a recommended course of action to solve a scientific problem.",
+          "It elaborates on possible reasons why we have not found evidence of ETI."
+        ],
+        "correct_answer": 3,
+        "difficulty": "",
+        "category": "Reading: Structure and Purpose",
+        "time_estimate": 71,
+        "question_number": 7,
+        "practice_set": "2"
+      },
+      {
+        "_id": "8",
+        "question_text": "The narrator of the poem is best described as which of the following?",
+        "passage": "The following text is from Carl Sandburg’s 1916 poem “Theme in Yellow.”\n\nI spot the hills With yellow balls in autumn.\n\nI light the prairie cornfields\n\nOrange and tawny gold clusters\n\nAnd I am called pumpkins.\n\nOn the last of October\n\nWhen dusk is fallen\n\nChildren join hands\n\nAnd circle round me\n\nSinging ghost songs\n\nAnd love to the harvest moon;\n\nI am a jack-o’-lantern\n\nWith terrible teeth\n\nAnd the children know\n\nI am fooling.",
+        "options": [
+          "A child",
+          "A pumpkin",
+          "A ghost",
+          "A season"
+        ],
+        "correct_answer": 1,
+        "difficulty": "",
+        "category": "Reading: Central Ideas and Details",
+        "time_estimate": 71,
+        "question_number": 8,
+        "practice_set": "2"
+      },
+      {
+        "_id": "9",
+        "question_text": "Which quotation from the article would best illustrate this claim?",
+        "passage": "A historian writes an article suggesting that a shortcoming of the Iroquois Great League governmental structure was a decision-making process that led to paralysis.",
+        "options": [
+          "“The Great League of Peace and Power maintained Iroquois peace from the 15th century until the American Revolution.”",
+          "“The Iroquois council could not decide unanimously which side to choose. With no consensus, each nation made its own decision. The League split.”",
+          "“Despite being scattered, the Iroquois survived. Today in New York State, a strong Iroquois Reservation remains.”",
+          "“These Iroquois are strongly independent and demand sovereignty. Despite this, they are also American citizens. On the reservations, traditions live on, as does the spirit of the Great League.”"
+        ],
+        "correct_answer": 1,
+        "difficulty": "",
+        "category": "Reading: Textual Evidence",
+        "time_estimate": 71,
+        "question_number": 9,
+        "practice_set": "2"
+      },
+      {
+        "_id": "10",
+        "question_text": "Which of the following situations would most resemble the relationship discussed in the text?",
+        "passage": "A biologist analyzes the relationship between Midwestern bird species and the honeysuckle fruit. They find that the organisms have developed a mutualist relationship: native species of birds throughout the Midwest rely on honeysuckle fruit as a staple food source in the fall, while honeysuckle benefits in being spread to new regions when its seeds are eaten and subsequently dispersed by the birds.",
+        "options": [
+          "Large whale species consume krill at higher latitudes.",
+          "The male gorilla does not help with infants but does help defend against predators.",
+          "Oxpecker birds eat predatory insects off the backs of zebras.",
+          "Humans consume the eggs of organically raised chickens."
+        ],
+        "correct_answer": 2,
+        "difficulty": "",
+        "category": "Reading: Textual Evidence",
+        "time_estimate": 71,
+        "question_number": 10,
+        "practice_set": "2"
+      },
+      {
+        "_id": "11",
+        "question_text": "Which of the following, if true, would most directly support the therapist’s hypothesis?",
+        "passage": "Occupational therapists work with clients to help them better perform their daily tasks. An occupational therapist examines what aspect of occupational therapy will most likely lead to positive client outcomes, replacing dysfunctional occupations (activities) and replacing them with functional ones. The therapist hypothesizes that a collaborative relationship between the occupational therapist and patient will minimize occupational dysfunction.",
+        "options": [
+          "Other occupations, like substance abuse, lead to occupational dysfunction. These dysfunctional occupations are not productive and can be detrimental to health and wellness.",
+          "Behaviors, habits, and performance patterns are changed when dysfunctional occupation is reduced or extinguished and replaced with meaningful, psychologically rewarding functional occupation.",
+          "Changing dysfunctional occupation and replacing it with functional occupation is challenging for the client; through therapeutic use of self, the occupational therapist can establish the necessary trust and rapport.",
+          "Self-regulation strategies include personal awareness of stressors, stress management, and using occupation to reduce stress."
+        ],
+        "correct_answer": 1,
+        "difficulty": "",
+        "category": "Reading: Textual Evidence",
+        "time_estimate": 71,
+        "question_number": 11,
+        "practice_set": "2"
+      },
+      {
+        "_id": "12",
+        "question_text": "Which of the viruses in the table would most effectively be used to support the virologist’s hypothesis?:\n\nEpidemic illnesses can cause significant loss of human life. A virologist attempts to determine what characteristics of flu viruses will result in the greatest human mortality. The virologist hypothesizes that if a flu virus has too high a fatality rate, its victims will die off before they can transmit the virus to other humans, ultimately resulting in relatively few cases.",
+        "passage": "image:images/satpractice1question12module2.png",
+        "options": [
+          "H5N1 and H7N9",
+          "H1N1 and H2N2",
+          "H3N2 and H1N1",
+          "H3N2 and H2N2"
+        ],
+        "correct_answer": 0,
+        "difficulty": "",
+        "category": "Reading: Quantitative Evidence",
+        "time_estimate": 71,
+        "question_number": 12,
+        "practice_set": "2"
+      },
+      {
+        "_id": "13",
+        "question_text": "Which statement would best utilize the information in the table to provide an argument against the researcher’s position?:\n\nA researcher who specializes in analyzing the aftermath of car wrecks determines that car crash dummies are almost always designed to represent the male skeletal and muscular anatomy. The researcher thinks that car manufacturers as well as consumers should demand that the National Highway Traffic Safety Administration develop dummies that represent not just men and women, but a variety of sizes of men and women as well as a variety of sizes of children. The researcher argues that the government should prioritize diverse demographic representation among crash test dummies to gather the most helpful information for consumers.",
+        "passage": "image:images/satpractice1question13module2.png",
+        "options": [
+          "Given the higher crash rate of male drivers as compared to female drivers, it is understandable that car manufacturers may prioritize male crash test dummies.",
+          "Since drivers over 70 years of age are over twice as likely to get in vehicle crashes as those in their 60s, increased regulations about the maximum driver age should be implemented.",
+          "Teenage drivers are far more likely to get in car accidents than those in other age groups, so the age to earn a driver’s license should be increased.",
+          "Female drivers represent the majority of miles driven in a given year, so it is critical that there be a higher priority on their safety."
+        ],
+        "correct_answer": 0,
+        "difficulty": "",
+        "category": "Reading: Quantitative Evidence",
+        "time_estimate": 71,
+        "question_number": 13,
+        "practice_set": "2"
+      },
+      {
+        "_id": "14",
+        "question_text": "Which choice most logically completes the text?",
+        "passage": "English chemist John Newlands proposed a “law of octaves” that was based, shockingly, on the standard musical scale, and which suggested that the periodicity of the elements follows a similar eight “note” pattern. Though his contemporaries heavily criticized Newlands, the idea was eventually vindicated by the octet theory of chemical bonding, which ___________",
+        "options": [
+          "demonstrated the need for additional research to confirm his hypothesis.",
+          "confirmed the significance of the eight-element series in chemical behavior.",
+          "approached the problem of chemical classification differently from Newlands.",
+          "served to disprove his interesting yet ultimately inaccurate theory."
+        ],
+        "correct_answer": 1,
+        "difficulty": "",
+        "category": "Reading: Inferences",
+        "time_estimate": 71,
+        "question_number": 14,
+        "practice_set": "2"
+      },
+      {
+        "_id": "15",
+        "question_text": "Which choice most logically completes the text?",
+        "passage": "Bacteria is adapting and changing in response to our attempts to quash it and is consequently becoming more of a threat than ever before. Doctors and patients should be cautious and should ensure that antibiotics are truly necessary before contributing to this issue. Fewer antibiotics prescribed will mean less of a chance for C. dif for each individual patient and a greater chance that antibiotics will ___________",
+        "options": [
+          "remain effective for the people who genuinely need them.",
+          "remain effective for the people who genuinely need them.",
+          "remain effective for the people who genuinely need them.",
+          "remain effective for the people who genuinely need them."
+        ],
+        "correct_answer": 0,
+        "difficulty": "",
+        "category": "Reading: Inferences",
+        "time_estimate": 71,
+        "question_number": 15,
+        "practice_set": "2"
+      },
+      {
+        "_id": "16",
+        "question_text": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+        "passage": "___________ that live in the eastern region of Australia and in Tasmania. Platypuses typically live in bodies of freshwater like rivers, wetlands, billabongs, and estuaries; however, they have been known to live in brackish —a combination of fresh and salt water—estuaries as well.",
+        "options": [
+          "Ornithorhynchus anatinus also known as platypuses are semi-aquatic mammals.",
+          "Ornithorhynchus anatinus, also known as platypuses are semi-aquatic mammals.",
+          "Ornithorhynchus anatinus - also known as platypuses are semi-aquatic mammals",
+          "Ornithorhynchus anatinus, also known as platypuses, are semi-aquatic mammals"
+        ],
+        "correct_answer": 3,
+        "difficulty": "",
+        "category": "Writing: Punctuation",
+        "time_estimate": 71,
+        "question_number": 16,
+        "practice_set": "2"
+      },
+  {
+    "_id": "17",
+    "question_text": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+    "passage": "The bystander effect is a psychological phenomenon that prevents people from helping those in need. The psychology behind this phenomenon is actually fairly simple. ___________ In a crowded place such as a stadium, people may think “I couldn’t get there in time,” or, “there are so many people who are closer to the scene of distress.”",
+    "options": [
+      "When several people observe a situation that calls for intervention,the responsibility to help feels less pressing since it is diffused among all the observers.",
+      "When several people observe a situation that calls for intervention:the responsibility to help feels less pressing since it is diffused among all the observers.",
+      "When several people observe a situation that calls for intervention:the responsibility to help feels less pressing, since it is diffused among all the observers.",
+      "When several people observe a situation that calls for intervention—the responsibility to help feels—less pressing since it is diffused among all the observers."
+    ],
+    "correct_answer": 1,
+    "difficulty": "",
+    "category": "Writing: Punctuation",
+    "time_estimate": 94,
+    "question_number": 17,
+    "practice_set": "1"
+  },
+  {
+    "_id": "18",
+    "question_text": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+    "passage": "Scientists speculate that even though the evolutionary purpose of the toxins in ergot fungus was to discourage animals from eating it, humans were unable to prevent its consumption. ___________ harvested en masse and was only rarely sorted to remove ergot fungus.",
+    "options": [
+      "Rye, like other grains, was",
+      "Rye, like other grains was",
+      "Rye—like other grains—were",
+      "Rye—like other grains, was"
+    ],
+    "correct_answer": 0,
+    "difficulty": "",
+    "category": "Writing: Punctuation",
+    "time_estimate": 94,
+    "question_number": 18,
+    "practice_set": "1"
+  },
+  {
+    "_id": "19",
+    "question_text": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+    "passage": "States can best be characterized by their natural idiosyncrasies. Florida has its powdered sugar beaches; Nebraska, its butterscotch ___________",
+    "options": [
+      "cornfields; and Arizona it’s majestic Grand Canyon.",
+      "cornfields: Arizona its majestic Grand Canyon.",
+      "cornfields; and Arizona, its majestic Grand Canyon.",
+      "cornfields, and Arizona, it’s majestic Grand Canyon."
+    ],
+    "correct_answer": 3,
+    "difficulty": "",
+    "category": "Writing: Punctuation",
+    "time_estimate": 94,
+    "question_number": 19,
+    "practice_set": "1"
+  },
+  {
+    "_id": "20",
+    "question_text": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+    "passage": "While hiking has always been known to be a good form of exercise, current research ___________ that its added mental benefits have a significant impact on the physical health of those who hike.",
+    "options": [
+      "suggest",
+      "suggests",
+      "had suggested",
+      "has suggesting"
+    ],
+    "correct_answer": 0,
+    "difficulty": "",
+    "category": "Writing: Number and Tense",
+    "time_estimate": 94,
+    "question_number": 20,
+    "practice_set": "1"
+  },
+  {
+    "_id": "21",
+    "question_text": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+    "passage": "When visiting museums, most people take for granted the rooms upon rooms of historic paintings, often hundreds of years old, that ___________ carefully preserved for the public’s view.",
+    "options": [
+      "is",
+      "are",
+      "has",
+      "was"
+    ],
+    "correct_answer": 2,
+    "difficulty": "",
+    "category": "Writing: Number and Tense",
+    "time_estimate": 94,
+    "question_number": 21,
+    "practice_set": "1"
+  },
+  {
+    "_id": "22",
+    "question_text": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+    "passage": "Servals are medium-sized, gold-colored cats covered in darker patterns of\nstripes and spots. Having a lighter-colored coat with a darker pattern\n___________ more difficult to spot them.",
+    "options": [
+      "make them",
+      "makes them",
+      "makes it",
+      "make it"
+    ],
+    "correct_answer": 2,
+    "difficulty": "",
+    "category": "Writing: Number and Tense",
+    "time_estimate": 94,
+    "question_number": 22,
+    "practice_set": "1"
+  },
+  {
+    "_id": "23",
+    "question_text": "Which choice completes the text with the most logical transition?",
+    "passage": "The Y-Bridge (named for its distinctive Y-shape) was designed to span the\nconfluence of the Muskingum and Licking rivers. ___________ it crosses\nboth rivers, Ripley’s Believe It Or Not once claimed that the Y-Bridge was\nthe only bridge in the world where it was possible to cross and still end up\non the same side of the river, and Amelia Earhart once called Zanesville “the\nmost recognizable city in the country” because of the bridge.",
+    "options": [
+      "For",
+      "Because",
+      "While",
+      "When"
+    ],
+    "correct_answer": 0,
+    "difficulty": "",
+    "category": "Writing: Transitions",
+    "time_estimate": 94,
+    "question_number": 23,
+    "practice_set": "1"
+  },
+  {
+    "_id": "24",
+    "question_text": "Which choice completes the text with the most logical transition?",
+    "passage": "Chronic traumatic encephalopathy (CTE) is a progressive neurodegenerative\nbrain disease that is largely difficult to diagnose and treat. Indeed,\n___________ accurate diagnosis can only be done by looking at portions of\nthe brain under a microscope, a true CTE diagnosis can’t be made until an\nautopsy is done on a deceased sufferer.",
+    "options": [
+      "since",
+      "and",
+      "also",
+      "in fact"
+    ],
+    "correct_answer": 2,
+    "difficulty": "",
+    "category": "Writing: Transitions",
+    "time_estimate": 94,
+    "question_number": 24,
+    "practice_set": "1"
+  },
+      {
+        "_id": "25",
+        "question_text": "The student wants to make a generalization about the early sponsors of ballet. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+        "passage": "While researching a topic, a student has taken the following notes:Ballet traces its history to the Italian Renaissance in the 15th century.Catherine de Medici, a native Italian, was queen consort of France in the mid-1500s.Catherine de Medici enjoyed ballet, introduced it to the French court,and sponsored large and detailed performances.The French court continued to value ballet and King Louis XIV even performed in ballets.The world’s first ballet school, Académie Royale de Danse, was founded in France in 1661 with the support of King Louis XIV.The ballet school introduced the five positions all ballet students still learn today.",
+        "options": [
+          "Catherine de Medici was one of the greatest ballet enthusiasts of all time.",
+          "Some of the same ballet moves that originated in the 1600s are still used today.",
+          "French and Italian royals were significant backers of ballet dance performance.",
+          "Both male and female dancers have been skilled ballet dancers throughout history."
+        ],
+        "correct_answer": 2,
+        "difficulty": "",
+        "category": "Writing: Rhetorical Synthesis",
+        "time_estimate": 72,
+        "question_number": 26,
+        "practice_set": "2"
+      },
+      {
+        "_id": "26",
+        "question_text": "The student wants to recommend specific measures that people can take to avoid hearing loss. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+        "passage": "While researching a topic, a student has taken the following notes:\nThere are two types of hearing loss: conductive and sensorineural.\nConductive hearing loss happens when sounds cannot get through, or conduct, to the inner ear.\nConductive hearing loss can have many causes and sometimes it’s a simple cause, such a blockage in the ear canal.\nSensorineural hearing loss happens when structures in the inner ear are damaged.\nSensorineural hearing loss also has many causes—two common causes are aging and exposure to loud noises.",
+        "options": [
+          "Conductive hearing loss can result from the blockage of sound in the inner ear.",
+          "To prevent hearing loss, avoid putting objects inside your ear, and cover your ears at loud rock concerts.",
+          "Older people are more susceptible to sensorineural hearing loss since this sort of loss becomes exacerbated with the passage of time.",
+          "Much like with blindness, hearing loss can often be prevented by taking precautionary steps."
+        ],
+        "correct_answer": 1,
+        "difficulty": "",
+        "category": "Writing: Rhetorical Synthesis",
+        "time_estimate": 72,
+        "question_number": 27,
+        "practice_set": "2"
+      }
+    ]    
+    
