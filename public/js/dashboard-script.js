@@ -415,7 +415,8 @@ async function startTest(testType) {
             difficulty: q.difficulty,
             timeEstimate: q.time_estimate || 60,
             questionNumber: q.question_number,
-            practiceSet: q.practice_set
+            practiceSet: q.practice_set,
+            answer_type: q.answer_type
         }));
         
         currentQuestionIndex = 0;
@@ -550,58 +551,120 @@ function loadQuestion(index) {
     // Update current question counter in header
     document.getElementById('current-question').textContent = index + 1;
     
-    // Populate options
+    // Populate options or input field based on question type
     const optionsContainer = document.getElementById('question-options');
     let hasSelectedAnswer = false;
     
-    question.options.forEach((option, optionIndex) => {
-        const optionDiv = document.createElement('div');
-        optionDiv.className = 'option';
+    // Check if this is a fill-in-the-blank question
+    console.log('Question data:', question);
+    console.log('Question answer_type:', question.answer_type);
+    console.log('Is fill-in-the-blank?', question.answer_type === 'fill_in_the_blank');
+    
+    if (question.answer_type === 'fill_in_the_blank') {
+        console.log('Creating fill-in-the-blank input field');
+        // Create input field for fill-in-the-blank
+        const inputDiv = document.createElement('div');
+        inputDiv.className = 'fill-blank-container';
         
-        const radio = document.createElement('input');
-        radio.type = 'radio';
-        radio.name = 'answer';
-        radio.value = optionIndex;
-        radio.id = `option-${optionIndex}`;
+        const inputField = document.createElement('input');
+        inputField.type = 'text';
+        inputField.className = 'fill-blank-input';
+        inputField.placeholder = 'Enter your answer here...';
+        inputField.id = 'fill-blank-answer';
         
-        // Check if this option was previously selected
-        if (userAnswers[question.id] === optionIndex) {
-            radio.checked = true;
-            optionDiv.classList.add('selected');
+        // Set previous answer if exists
+        if (userAnswers[question.id] !== undefined) {
+            inputField.value = userAnswers[question.id];
             hasSelectedAnswer = true;
         }
         
-        const label = document.createElement('label');
-        label.htmlFor = `option-${optionIndex}`;
-        label.className = 'option-text';
-        label.textContent = option;
-        
-        optionDiv.appendChild(radio);
-        optionDiv.appendChild(label);
-        
-        // Add click handler
-        optionDiv.addEventListener('click', function() {
-            // Remove previous selection
-            optionsContainer.querySelectorAll('.option').forEach(opt => 
-                opt.classList.remove('selected')
-            );
+        // Add input handler
+        inputField.addEventListener('input', function() {
+            const answer = this.value.trim();
             
-            // Select this option
-            radio.checked = true;
-            optionDiv.classList.add('selected');
-            
-            // Save answer and remove from skipped
-            userAnswers[question.id] = optionIndex;
-            skippedQuestions.delete(question.id);
+            if (answer) {
+                // Save answer and remove from skipped
+                userAnswers[question.id] = answer;
+                skippedQuestions.delete(question.id);
+            } else {
+                // Remove answer if input is empty
+                delete userAnswers[question.id];
+                skippedQuestions.add(question.id);
+            }
             
             // Update question grid and UI
             updateQuestionGrid();
             updateQuestionActions();
-            // updateTestSummary();
         });
         
-        optionsContainer.appendChild(optionDiv);
-    });
+        // Add blur handler to ensure final save
+        inputField.addEventListener('blur', function() {
+            const answer = this.value.trim();
+            if (answer) {
+                userAnswers[question.id] = answer;
+                skippedQuestions.delete(question.id);
+            }
+            updateQuestionGrid();
+            updateQuestionActions();
+        });
+        
+        inputDiv.appendChild(inputField);
+        optionsContainer.appendChild(inputDiv);
+        
+        // Focus the input field for better UX
+        setTimeout(() => inputField.focus(), 100);
+        
+    } else {
+        // Regular multiple choice options
+        question.options.forEach((option, optionIndex) => {
+            const optionDiv = document.createElement('div');
+            optionDiv.className = 'option';
+            
+            const radio = document.createElement('input');
+            radio.type = 'radio';
+            radio.name = 'answer';
+            radio.value = optionIndex;
+            radio.id = `option-${optionIndex}`;
+            
+            // Check if this option was previously selected
+            if (userAnswers[question.id] === optionIndex) {
+                radio.checked = true;
+                optionDiv.classList.add('selected');
+                hasSelectedAnswer = true;
+            }
+            
+            const label = document.createElement('label');
+            label.htmlFor = `option-${optionIndex}`;
+            label.className = 'option-text';
+            label.textContent = option;
+            
+            optionDiv.appendChild(radio);
+            optionDiv.appendChild(label);
+            
+            // Add click handler
+            optionDiv.addEventListener('click', function() {
+                // Remove previous selection
+                optionsContainer.querySelectorAll('.option').forEach(opt => 
+                    opt.classList.remove('selected')
+                );
+                
+                // Select this option
+                radio.checked = true;
+                optionDiv.classList.add('selected');
+                
+                // Save answer and remove from skipped
+                userAnswers[question.id] = optionIndex;
+                skippedQuestions.delete(question.id);
+                
+                // Update question grid and UI
+                updateQuestionGrid();
+                updateQuestionActions();
+                // updateTestSummary();
+            });
+            
+            optionsContainer.appendChild(optionDiv);
+        });
+    }
     
     // Setup question action buttons
     setupQuestionActions();
@@ -663,13 +726,22 @@ function skipCurrentQuestion() {
     // Remove any existing answer
     delete userAnswers[question.id];
     
-    // Clear selected options
-    document.querySelectorAll('.option').forEach(opt => 
-        opt.classList.remove('selected')
-    );
-    document.querySelectorAll('input[name="answer"]').forEach(input => 
-        input.checked = false
-    );
+    // Clear based on question type
+    if (question.answer_type === 'fill_in_the_blank') {
+        // Clear fill-in-the-blank input
+        const inputField = document.getElementById('fill-blank-answer');
+        if (inputField) {
+            inputField.value = '';
+        }
+    } else {
+        // Clear selected options for multiple choice
+        document.querySelectorAll('.option').forEach(opt => 
+            opt.classList.remove('selected')
+        );
+        document.querySelectorAll('input[name="answer"]').forEach(input => 
+            input.checked = false
+        );
+    }
     
     updateQuestionGrid();
     updateQuestionActions();
@@ -688,13 +760,22 @@ function clearCurrentAnswer() {
     delete userAnswers[question.id];
     skippedQuestions.add(question.id);
     
-    // Clear selected options
-    document.querySelectorAll('.option').forEach(opt => 
-        opt.classList.remove('selected')
-    );
-    document.querySelectorAll('input[name="answer"]').forEach(input => 
-        input.checked = false
-    );
+    // Clear based on question type
+    if (question.answer_type === 'fill_in_the_blank') {
+        // Clear fill-in-the-blank input
+        const inputField = document.getElementById('fill-blank-answer');
+        if (inputField) {
+            inputField.value = '';
+        }
+    } else {
+        // Clear selected options for multiple choice
+        document.querySelectorAll('.option').forEach(opt => 
+            opt.classList.remove('selected')
+        );
+        document.querySelectorAll('input[name="answer"]').forEach(input => 
+            input.checked = false
+        );
+    }
     
     updateQuestionGrid();
     updateQuestionActions();
@@ -921,6 +1002,38 @@ function displayDetailedReview(detailedResults) {
             </div>
         ` : '';
         
+        // Handle different question types for review display
+        let answersHtml = '';
+        if (result.answer_type === 'fill_in_the_blank') {
+            // Display fill-in-the-blank answers
+            answersHtml = `
+                <div class="review-answers">
+                    <p><strong>Your Answer:</strong> <span class="${result.isCorrect ? 'user-correct-answer' : 'user-wrong-answer'}">${result.userAnswer || 'No answer provided'}</span></p>
+                    <p><strong>Correct Answer:</strong> <span class="correct-answer">${result.correct_answer || 'Not available'}</span></p>
+                </div>
+            `;
+        } else {
+            // Display multiple choice options
+            answersHtml = `
+                <div class="review-options">
+                    ${result.options.map((option, optIndex) => {
+                        let className = 'option';
+                        if (optIndex === result.correct_answer) {
+                            className += ' correct-answer';
+                        }
+                        if (optIndex === result.userAnswer && !result.isCorrect) {
+                            className += ' user-wrong-answer';
+                        }
+                        if (optIndex === result.userAnswer && result.isCorrect) {
+                            className += ' user-correct-answer';
+                        }
+                        
+                        return `<div class="${className}">${String.fromCharCode(65 + optIndex)}. ${option}</div>`;
+                    }).join('')}
+                </div>
+            `;
+        }
+
         reviewItem.innerHTML = `
             <div class="review-header">
                 <span class="question-num">Question ${index + 1}</span>
@@ -932,22 +1045,7 @@ function displayDetailedReview(detailedResults) {
             <div class="review-question">
                 <p><strong>Question:</strong> ${result.question_text}</p>
             </div>
-            <div class="review-options">
-                ${result.options.map((option, optIndex) => {
-                    let className = 'option';
-                    if (optIndex === result.correct_answer) {
-                        className += ' correct-answer';
-                    }
-                    if (optIndex === result.userAnswer && !result.isCorrect) {
-                        className += ' user-wrong-answer';
-                    }
-                    if (optIndex === result.userAnswer && result.isCorrect) {
-                        className += ' user-correct-answer';
-                    }
-                    
-                    return `<div class="${className}">${String.fromCharCode(65 + optIndex)}. ${option}</div>`;
-                }).join('')}
-            </div>
+            ${answersHtml}
             ${result.explanation ? `
                 <div class="review-explanation">
                     <p><strong>Explanation:</strong> ${result.explanation}</p>

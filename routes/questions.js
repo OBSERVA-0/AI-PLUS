@@ -64,6 +64,17 @@ router.get('/test', validateGetQuestions, handleValidationErrors, async (req, re
     
     // Read questions from JSON file
     const questions = await readQuestionsFromJSON(testType);
+    
+    // Debug: count fill-in-the-blank questions
+    const fillInBlankCount = questions.filter(q => q.answer_type === 'fill_in_the_blank').length;
+    console.log(`📝 Found ${fillInBlankCount} fill-in-the-blank questions out of ${questions.length} total`);
+    
+    // Debug: log first few questions to verify structure
+    console.log('First question sample:', JSON.stringify(questions[0], null, 2));
+    if (fillInBlankCount > 0) {
+      const firstFillInBlank = questions.find(q => q.answer_type === 'fill_in_the_blank');
+      console.log('First fill-in-the-blank question:', JSON.stringify(firstFillInBlank, null, 2));
+    }
 
     if (!questions || questions.length === 0) {
       return res.status(404).json({
@@ -82,8 +93,17 @@ router.get('/test', validateGetQuestions, handleValidationErrors, async (req, re
       difficulty: q.difficulty,
       time_estimate: q.time_estimate,
       question_number: q.question_number,
-      practice_set: q.practice_set
+      practice_set: q.practice_set,
+      answer_type: q.answer_type
     }));
+    
+    // Debug: check what's being sent to frontend
+    const sentFillInBlankCount = questionsWithoutAnswers.filter(q => q.answer_type === 'fill_in_the_blank').length;
+    console.log(`📤 Sending ${sentFillInBlankCount} fill-in-the-blank questions to frontend`);
+    if (sentFillInBlankCount > 0) {
+      const firstSentFillInBlank = questionsWithoutAnswers.find(q => q.answer_type === 'fill_in_the_blank');
+      console.log('First sent fill-in-the-blank question:', JSON.stringify(firstSentFillInBlank, null, 2));
+    }
     
     res.json({
       success: true,
@@ -130,7 +150,17 @@ router.post('/submit', validateSubmitAnswers, handleValidationErrors, async (req
         continue;
       }
       
-      const isCorrect = answer.selectedAnswer === question.correct_answer;
+      // Handle different question types
+      let isCorrect = false;
+      if (question.answer_type === 'fill_in_the_blank') {
+        // For fill-in-the-blank, compare with correct_answer
+        const userAnswer = String(answer.selectedAnswer).trim().toLowerCase();
+        const correctAnswer = String(question.correct_answer).trim().toLowerCase();
+        isCorrect = userAnswer === correctAnswer;
+      } else {
+        // For multiple choice, compare with correct_answer index
+        isCorrect = answer.selectedAnswer === question.correct_answer;
+      }
       
       if (isCorrect) {
         correctCount++;
@@ -152,6 +182,7 @@ router.post('/submit', validateSubmitAnswers, handleValidationErrors, async (req
         passage: question.passage,
         options: question.options,
         correct_answer: question.correct_answer,
+        answer_type: question.answer_type,
         userAnswer: answer.selectedAnswer,
         isCorrect,
         category: question.category,

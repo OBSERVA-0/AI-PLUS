@@ -638,6 +638,79 @@ body {
     font-weight: 500;
 }
 
+/* Fill-in-the-blank styles */
+.fill-blank-container {
+    margin-top: 1rem;
+}
+
+.fill-blank-input {
+    width: 100%;
+    padding: 1rem;
+    font-size: 1rem;
+    border: 2px solid #e5e7eb;
+    border-radius: 0.5rem;
+    background: white;
+    font-family: inherit;
+    transition: all 0.2s ease;
+}
+
+.fill-blank-input:focus {
+    outline: none;
+    border-color: #6366f1;
+    box-shadow: 0 0 0 3px rgba(99, 102, 241, 0.1);
+}
+
+.fill-blank-input:hover {
+    border-color: #d1d5db;
+}
+
+.fill-blank-input::placeholder {
+    color: #9ca3af;
+    font-style: italic;
+}
+
+/* Review answers styles for fill-in-the-blank */
+.review-answers {
+    margin: 1rem 0;
+    padding: 1rem;
+    background: #f9fafb;
+    border-radius: 0.5rem;
+    border-left: 4px solid #e5e7eb;
+}
+
+.review-answers p {
+    margin-bottom: 0.75rem;
+    font-size: 0.95rem;
+}
+
+.review-answers p:last-child {
+    margin-bottom: 0;
+}
+
+.review-answers .user-correct-answer {
+    color: #16a34a;
+    font-weight: 600;
+    background-color: #dcfce7;
+    padding: 0.25rem 0.5rem;
+    border-radius: 0.25rem;
+}
+
+.review-answers .user-wrong-answer {
+    color: #dc2626;
+    font-weight: 600;
+    background-color: #fecaca;
+    padding: 0.25rem 0.5rem;
+    border-radius: 0.25rem;
+}
+
+.review-answers .correct-answer {
+    color: #16a34a;
+    font-weight: 600;
+    background-color: #dcfce7;
+    padding: 0.25rem 0.5rem;
+    border-radius: 0.25rem;
+}
+
 /* Scrollbar Styling for Passage */
 .passage-side::-webkit-scrollbar {
     width: 8px;
