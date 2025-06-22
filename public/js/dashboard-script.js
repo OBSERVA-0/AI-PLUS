@@ -5,6 +5,7 @@ import { API_BASE_URL } from './config.js';
 // Application State
 let currentUser = null;
 let currentTest = null;
+let currentPracticeSet = '1';
 let testQuestions = [];
 let currentQuestionIndex = 0;
 let userAnswers = {};
@@ -72,9 +73,9 @@ class AuthService {
 
 // Questions Service
 class QuestionsService {
-    static async getQuestions(testType) {
+    static async getQuestions(testType, practiceSet = '1') {
         try {
-            const response = await fetch(`${API_BASE_URL}/questions/test?testType=${testType}`);
+            const response = await fetch(`${API_BASE_URL}/questions/test?testType=${testType}&practiceSet=${practiceSet}`);
             const data = await response.json();
             
             if (!response.ok) {
@@ -88,12 +89,13 @@ class QuestionsService {
         }
     }
     
-    static async submitAnswers(testType, answers, timeSpent) {
+    static async submitAnswers(testType, answers, timeSpent, practiceSet = '1') {
         try {
             const response = await AuthService.makeRequest('/questions/submit', {
                 method: 'POST',
                 body: JSON.stringify({
                     testType,
+                    practiceSet,
                     answers,
                     timeSpent
                 })
@@ -305,9 +307,10 @@ function setupEventListeners() {
         button.addEventListener('click', function(e) {
             const testCard = e.target.closest('.test-card');
             const testType = testCard.dataset.test;
+            const practiceSet = e.target.dataset.practiceSet || '1';
             
             if (!button.disabled) {
-                startTest(testType);
+                startTest(testType, practiceSet);
             }
         });
     });
@@ -383,7 +386,7 @@ function updateTestCardStats(testType, progress) {
     }
 }
 
-async function startTest(testType) {
+async function startTest(testType, practiceSet = '1') {
     if (testType !== 'shsat' && testType !== 'sat') {
         alert('This test is coming soon!');
         return;
@@ -391,13 +394,14 @@ async function startTest(testType) {
 
     try {
         currentTest = testType;
+        currentPracticeSet = practiceSet;
         
         // Show loading state
         showLoadingState('Loading questions...');
         
         // Fetch questions from API
-        console.log(`🎯 Fetching questions for ${testType}`);
-        const response = await QuestionsService.getQuestions(testType);
+        console.log(`🎯 Fetching questions for ${testType} practice set ${practiceSet}`);
+        const response = await QuestionsService.getQuestions(testType, practiceSet);
         
         if (!response.success || !response.data.questions.length) {
             throw new Error('No questions available');
@@ -429,7 +433,7 @@ async function startTest(testType) {
         timeLimit = Math.max(totalEstimatedTime, 10 * 60); // At least 10 minutes
         
         // Update test info
-        const testTitle = testType === 'shsat' ? 'SHSAT Practice Test' : 'SAT Practice Test';
+        const testTitle = testType === 'shsat' ? `SHSAT Practice Test ${practiceSet}` : 'SAT Practice Test';
         document.getElementById('current-test-title').textContent = testTitle;
         document.getElementById('current-section').textContent = 'Practice Test';
         document.getElementById('total-questions').textContent = testQuestions.length;
@@ -556,12 +560,7 @@ function loadQuestion(index) {
     let hasSelectedAnswer = false;
     
     // Check if this is a fill-in-the-blank question
-    console.log('Question data:', question);
-    console.log('Question answer_type:', question.answer_type);
-    console.log('Is fill-in-the-blank?', question.answer_type === 'fill_in_the_blank');
-    
     if (question.answer_type === 'fill_in_the_blank') {
-        console.log('Creating fill-in-the-blank input field');
         // Create input field for fill-in-the-blank
         const inputDiv = document.createElement('div');
         inputDiv.className = 'fill-blank-container';
@@ -872,7 +871,8 @@ async function endTest() {
         const response = await QuestionsService.submitAnswers(
             currentTest,
             answers,
-            timeSpent
+            timeSpent,
+            currentPracticeSet
         );
         
         if (!response.success) {

@@ -9,13 +9,21 @@ const router = express.Router();
 const validateGetQuestions = [
   query('testType')
     .isIn(['shsat', 'sat', 'state'])
-    .withMessage('Invalid test type')
+    .withMessage('Invalid test type'),
+  query('practiceSet')
+    .optional()
+    .isIn(['1', '2'])
+    .withMessage('Practice set must be 1 or 2')
 ];
 
 const validateSubmitAnswers = [
   body('testType')
     .isIn(['shsat', 'sat', 'state'])
     .withMessage('Invalid test type'),
+  body('practiceSet')
+    .optional()
+    .isIn(['1', '2'])
+    .withMessage('Practice set must be 1 or 2'),
   body('answers')
     .isArray()
     .withMessage('Answers must be an array'),
@@ -23,8 +31,8 @@ const validateSubmitAnswers = [
     .exists()
     .withMessage('Question ID is required'),
   body('answers.*.selectedAnswer')
-    .isInt({ min: 0 })
-    .withMessage('Selected answer must be a valid index')
+    .exists()
+    .withMessage('Selected answer is required')
 ];
 
 // Helper function to handle validation errors
@@ -42,9 +50,9 @@ const handleValidationErrors = (req, res, next) => {
 };
 
 // Helper function to read questions from JSON file
-async function readQuestionsFromJSON(testType) {
+async function readQuestionsFromJSON(testType, practiceSet = '1') {
   try {
-    const filePath = path.join(__dirname, '..', 'data', `${testType}practice1questions.json`);
+    const filePath = path.join(__dirname, '..', 'data', `${testType}practice${practiceSet}questions.json`);
     const data = await fs.readFile(filePath, 'utf8');
     return JSON.parse(data);
   } catch (error) {
@@ -58,12 +66,12 @@ async function readQuestionsFromJSON(testType) {
 // @access  Public (temporarily)
 router.get('/test', validateGetQuestions, handleValidationErrors, async (req, res) => {
   try {
-    const { testType } = req.query;
+    const { testType, practiceSet = '1' } = req.query;
     
-    console.log(`🎯 Fetching questions from JSON: ${testType}`);
+    console.log(`🎯 Fetching questions from JSON: ${testType} practice set ${practiceSet}`);
     
     // Read questions from JSON file
-    const questions = await readQuestionsFromJSON(testType);
+    const questions = await readQuestionsFromJSON(testType, practiceSet);
     
     // Debug: count fill-in-the-blank questions
     const fillInBlankCount = questions.filter(q => q.answer_type === 'fill_in_the_blank').length;
@@ -111,6 +119,7 @@ router.get('/test', validateGetQuestions, handleValidationErrors, async (req, re
         questions: questionsWithoutAnswers,
         testInfo: {
           testType,
+          practiceSet,
           totalQuestions: questionsWithoutAnswers.length,
           estimatedTime: questionsWithoutAnswers.reduce((total, q) => total + (q.time_estimate || 60), 0)
         }
@@ -131,12 +140,12 @@ router.get('/test', validateGetQuestions, handleValidationErrors, async (req, re
 // @access  Public (temporarily)
 router.post('/submit', validateSubmitAnswers, handleValidationErrors, async (req, res) => {
   try {
-    const { testType, answers, timeSpent } = req.body;
+    const { testType, practiceSet = '1', answers, timeSpent } = req.body;
     
-    console.log(`📝 Checking answers for test: ${testType}`);
+    console.log(`📝 Checking answers for test: ${testType} practice set ${practiceSet}`);
     
     // Get questions from JSON to check answers
-    const questions = await readQuestionsFromJSON(testType);
+    const questions = await readQuestionsFromJSON(testType, practiceSet);
     
     // Calculate results
     let correctCount = 0;
