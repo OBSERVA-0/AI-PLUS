@@ -329,6 +329,17 @@ async function loadUserProfile() {
             });
             document.getElementById('profile-join-date').textContent = joinDate;
             
+            // Update category averages
+            if (user.categoryAverages) {
+                document.getElementById('profile-math-avg').textContent = `${user.categoryAverages.math}%`;
+                document.getElementById('profile-english-avg').textContent = `${user.categoryAverages.english}%`;
+            }
+
+            // Update mastery areas count
+            if (user.totalMasteryAreas !== undefined) {
+                document.getElementById('mastery-areas-count').textContent = user.totalMasteryAreas;
+            }
+            
         } else {
             console.error('Failed to load user profile');
         }
@@ -349,8 +360,12 @@ async function loadUserStats() {
             
             // Update overall stats
             document.getElementById('profile-total-tests').textContent = stats.totalTests;
-            document.getElementById('profile-avg-score').textContent = `${Math.round(stats.averageScore)}%`;
-            document.getElementById('profile-study-time').textContent = `${Math.round(stats.totalTimeSpent / 60)}h`;
+
+            // Format and update study time
+            const totalMinutes = Math.round(stats.totalTimeSpent / 60);
+            const hours = Math.floor(totalMinutes / 60);
+            const minutes = totalMinutes % 60;
+            document.getElementById('profile-study-time').textContent = `${hours}h ${minutes}m`;
             
             // Calculate best score across all tests
             const bestScore = Math.max(

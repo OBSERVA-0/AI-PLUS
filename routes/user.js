@@ -69,6 +69,69 @@ const handleValidationErrors = (req, res, next) => {
   next();
 };
 
+// Helper function to aggregate category scores for any test type
+const getAggregatedCategoryScores = (testProgress) => {
+  if (!testProgress || !testProgress.categoryPerformance) {
+    return {
+      math: { averageScore: 0, totalCorrect: 0, totalQuestions: 0 },
+      english: { averageScore: 0, totalCorrect: 0, totalQuestions: 0 }
+    };
+  }
+  const aggregated = {
+    math: { totalCorrect: 0, totalQuestions: 0 },
+    english: { totalCorrect: 0, totalQuestions: 0 }
+  };
+  for (const [category, data] of testProgress.categoryPerformance.entries()) {
+    const categoryLower = category.toLowerCase();
+    let mainCategory;
+    if (categoryLower.includes('math')) {
+      mainCategory = 'math';
+    } else if (categoryLower.includes('english')) {
+      mainCategory = 'english';
+    } else {
+      continue;
+    }
+    aggregated[mainCategory].totalQuestions += data.totalQuestions;
+    aggregated[mainCategory].totalCorrect += data.correctAnswers;
+  }
+  const calculateAverage = (subject) => {
+    if (subject.totalQuestions === 0) return 0;
+    return Math.round((subject.totalCorrect / subject.totalQuestions) * 100);
+  };
+  return {
+    math: {
+      averageScore: calculateAverage(aggregated.math),
+      totalCorrect: aggregated.math.totalCorrect,
+      totalQuestions: aggregated.math.totalQuestions
+    },
+    english: {
+      averageScore: calculateAverage(aggregated.english),
+      totalCorrect: aggregated.english.totalCorrect,
+      totalQuestions: aggregated.english.totalQuestions
+    }
+  };
+};
+
+// Helper function to get overall Math and English averages across all tests
+const getOverallCategoryAverages = (testProgress) => {
+  const shsatAverages = getAggregatedCategoryScores(testProgress.shsat);
+  const satAverages = getAggregatedCategoryScores(testProgress.sat);
+  const overallMath = {
+    totalCorrect: shsatAverages.math.totalCorrect + satAverages.math.totalCorrect,
+    totalQuestions: shsatAverages.math.totalQuestions + satAverages.math.totalQuestions
+  };
+  const overallEnglish = {
+    totalCorrect: shsatAverages.english.totalCorrect + satAverages.english.totalCorrect,
+    totalQuestions: shsatAverages.english.totalQuestions + satAverages.english.totalQuestions
+  };
+  const overallMathAverage = overallMath.totalQuestions > 0 ? Math.round((overallMath.totalCorrect / overallMath.totalQuestions) * 100) : 0;
+  const overallEnglishAverage = overallEnglish.totalQuestions > 0 ? Math.round((overallEnglish.totalCorrect / overallEnglish.totalQuestions) * 100) : 0;
+  return {
+    math: overallMathAverage,
+    english: overallEnglishAverage
+  };
+};
+
 // @route   GET /api/user/profile
 // @desc    Get user profile
 // @access  Private
@@ -76,6 +139,10 @@ router.get('/profile', auth, async (req, res) => {
   try {
     const user = await User.findById(req.user._id);
     
+    // Aggregate SHSAT and SAT scores
+    const categoryAverages = getOverallCategoryAverages(user.testProgress);
+    const masterySummary = user.getMasterySummary();
+    const totalMasteryAreas = Object.keys(masterySummary).length;
     res.json({
       success: true,
       data: {
@@ -91,6 +158,8 @@ router.get('/profile', auth, async (req, res) => {
           preferences: user.preferences,
           testProgress: user.testProgress,
           stats: user.getStats(),
+          categoryAverages,
+          totalMasteryAreas,
           createdAt: user.createdAt,
           lastLogin: user.lastLogin
         }
@@ -299,19 +368,10 @@ router.post('/update-stats', auth, async (req, res) => {
     testProgress.averageScore = testProgress.averageScore || 0;
     testProgress.bestScore = testProgress.bestScore || 0;
     testProgress.timeSpent = testProgress.timeSpent || 0;
-
     // Calculate new stats
     const newTestsCompleted = testProgress.testsCompleted + 1;
     const totalScorePoints = (testProgress.averageScore * testProgress.testsCompleted) + score;
     const newAverageScore = Math.round((totalScorePoints / newTestsCompleted) * 100) / 100;
-
-    console.log('Calculating new average score:', {
-        previousAverage: testProgress.averageScore,
-        previousTests: testProgress.testsCompleted,
-        newScore: score,
-        totalPoints: totalScorePoints,
-        newAverage: newAverageScore
-    });
     
     // Update test progress
     testProgress.testsCompleted = newTestsCompleted;
@@ -324,15 +384,6 @@ router.post('/update-stats', auth, async (req, res) => {
     if (categoryScores) {
       user.updateCategoryPerformance(testType, categoryScores);
     }
-    
-    console.log(`✅ Updated test progress for ${user.email}:`, {
-        testType: dbTestType,
-        testsCompleted: testProgress.testsCompleted,
-        averageScore: testProgress.averageScore,
-        bestScore: testProgress.bestScore,
-        timeSpent: testProgress.timeSpent,
-        categoriesUpdated: categoryScores ? Object.keys(categoryScores).length : 0
-    });
     
     await user.save();
     

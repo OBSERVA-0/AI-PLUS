@@ -2,13 +2,13 @@
   {
     "_id": "",
     "question_text": "Section 1 Module 1:\n\nClick I acknowledge to Proceed",
-    "passage": "DIRECTIONS:\n\nYou will be tested on a variety of important reading and writing skills. Each question has one or more passages, possibly including a graph or table. Carefully read each passage and question and choose the best answer to the question based on the passage(s).Every question in this section is multiple-choice, with four possible answers. Each question has only one best answer.",
+    "passage": "DIRECTIONS:\n\nYou will be tested on a variety of important English and writing skills. Each question has one or more passages, possibly including a graph or table. Carefully read each passage and question and choose the best answer to the question based on the passage(s).Every question in this section is multiple-choice, with four possible answers. Each question has only one best answer.",
     "options": [
       "I acknowledge"
     ],
     "correct_answer": 0,
     "difficulty": "",
-    "category": "Reading: Words in Context",
+    "category": "English: Words in Context",
     "time_estimate": 71,
     "question_number": 1,
     "practice_set": "1"
@@ -25,7 +25,7 @@
     ],
     "correct_answer": 2,
     "difficulty": "",
-    "category": "Reading: Words in Context",
+    "category": "English: Words in Context",
     "time_estimate": 71,
     "question_number": 1,
     "practice_set": "1"
@@ -42,7 +42,7 @@
     ],
     "correct_answer": 2,
     "difficulty": "",
-    "category": "Reading: Words in Context",
+    "category": "English: Words in Context",
     "time_estimate": 71,
     "question_number": 2,
     "practice_set": "1"
@@ -59,7 +59,7 @@
     ],
     "correct_answer": 0,
     "difficulty": "",
-    "category": "Reading: Words in Context",
+    "category": "English: Words in Context",
     "time_estimate": 71,
     "question_number": 3,
     "practice_set": "1"
@@ -76,7 +76,7 @@
     ],
     "correct_answer": 3,
     "difficulty": "",
-    "category": "Reading: Words in Context",
+    "category": "English: Words in Context",
     "time_estimate": 71,
     "question_number": 4,
     "practice_set": "1"
@@ -93,7 +93,7 @@
     ],
     "correct_answer": 2,
     "difficulty": "",
-    "category": "Reading: Words in Context",
+    "category": "English: Words in Context",
     "time_estimate": 71,
     "question_number": 5,
     "practice_set": "1"
@@ -110,7 +110,7 @@
     ],
     "correct_answer": 3,
     "difficulty": "",
-    "category": "Reading: Structure and Purpose",
+    "category": "English: Structure and Purpose",
     "time_estimate": 71,
     "question_number": 6,
     "practice_set": "1"
@@ -127,7 +127,7 @@
       ],
       "correct_answer": 2,
       "difficulty": "",
-      "category": "Reading: Structure and Purpose",
+      "category": "English: Structure and Purpose",
       "time_estimate": 71,
       "question_number": 7,
       "practice_set": "1"
@@ -144,7 +144,7 @@
         ],
         "correct_answer": 3,
         "difficulty": "",
-        "category": "Reading: Central Ideas and Details",
+        "category": "English: Central Ideas and Details",
         "time_estimate": 71,
         "question_number": 8,
         "practice_set": "1"
@@ -162,7 +162,7 @@
       ],
       "correct_answer": 0,
       "difficulty": "",
-      "category": "Reading: Central Ideas and Details",
+      "category": "English: Central Ideas and Details",
       "time_estimate": 71,
       "question_number": 9,
       "practice_set": "1"
@@ -180,7 +180,7 @@
       ],
       "correct_answer": 1,
       "difficulty": "",
-      "category": "Reading: Cross-Text Connections",
+      "category": "English: Cross-Text Connections",
       "time_estimate": 71,
       "question_number": 10,
       "practice_set": "1"
@@ -198,7 +198,7 @@
       ],
       "correct_answer": 0,
       "difficulty": "",
-      "category": "Reading: Textual Evidence",
+      "category": "English: Textual Evidence",
       "time_estimate": 71,
       "question_number": 11,
       "practice_set": "1"
@@ -216,7 +216,7 @@
       ],
       "correct_answer": 1,
       "difficulty": "",
-      "category": "Reading: Textual Evidence",
+      "category": "English: Textual Evidence",
       "time_estimate": 71,
       "question_number": 12,
       "practice_set": "1"
@@ -234,7 +234,7 @@
       ],
       "correct_answer": 2,
       "difficulty": "",
-      "category": "Reading: Quantitative Evidence",
+      "category": "English: Quantitative Evidence",
       "time_estimate": 71,
       "question_number": 13,
       "practice_set": "1"
@@ -252,7 +252,7 @@
     ],
     "correct_answer": 0,
     "difficulty": "",
-    "category": "Reading: Inferences",
+    "category": "English: Inferences",
     "time_estimate": 71,
     "question_number": 14,
     "practice_set": "1"
@@ -482,13 +482,13 @@
     {
      "_id": "",
     "question_text": "Section 2 Module 2:\n\nClick I acknowledge to Proceed",
-    "passage": "DIRECTIONS:\n\nYou will be tested on a variety of important reading and writing skills. Each question has one or more passages, possibly including a graph or table. Carefully read each passage and question and choose the best answer to the question based on the passage(s).Every question in this section is multiple-choice, with four possible answers. Each question has only one best answer.",
+    "passage": "DIRECTIONS:\n\nYou will be tested on a variety of important English and writing skills. Each question has one or more passages, possibly including a graph or table. Carefully read each passage and question and choose the best answer to the question based on the passage(s).Every question in this section is multiple-choice, with four possible answers. Each question has only one best answer.",
     "options": [
       "I acknowledge"
     ],
     "correct_answer": 0,
     "difficulty": "",
-    "category": "Reading: Words in Context",
+    "category": "English: Words in Context",
     "time_estimate": 71,
     "question_number": 1,
     "practice_set": "1"
@@ -505,7 +505,7 @@
         ],
         "correct_answer": 1,
         "difficulty": "",
-        "category": "Reading: Words in Context",
+        "category": "English: Words in Context",
         "time_estimate": 71,
         "question_number": 1,
         "practice_set": "2"
@@ -522,7 +522,7 @@
         ],
         "correct_answer": 0,
         "difficulty": "",
-        "category": "Reading: Words in Context",
+        "category": "English: Words in Context",
         "time_estimate": 71,
         "question_number": 2,
         "practice_set": "2"
@@ -539,7 +539,7 @@
         ],
         "correct_answer": 1,
         "difficulty": "",
-        "category": "Reading: Words in Context",
+        "category": "English: Words in Context",
         "time_estimate": 71,
         "question_number": 3,
         "practice_set": "2"
@@ -556,7 +556,7 @@
         ],
         "correct_answer": 3,
         "difficulty": "",
-        "category": "Reading: Words in Context",
+        "category": "English: Words in Context",
         "time_estimate": 71,
         "question_number": 4,
         "practice_set": "2"
@@ -573,7 +573,7 @@
         ],
         "correct_answer": 3,
         "difficulty": "",
-        "category": "Reading: Words in Context",
+        "category": "English: Words in Context",
         "time_estimate": 71,
         "question_number": 5,
         "practice_set": "2"
@@ -590,7 +590,7 @@
         ],
         "correct_answer": 0,
         "difficulty": "",
-        "category": "Reading: Structure and Purpose",
+        "category": "English: Structure and Purpose",
         "time_estimate": 71,
         "question_number": 6,
         "practice_set": "2"
@@ -607,7 +607,7 @@
         ],
         "correct_answer": 3,
         "difficulty": "",
-        "category": "Reading: Structure and Purpose",
+        "category": "English: Structure and Purpose",
         "time_estimate": 71,
         "question_number": 7,
         "practice_set": "2"
@@ -624,7 +624,7 @@
         ],
         "correct_answer": 1,
         "difficulty": "",
-        "category": "Reading: Central Ideas and Details",
+        "category": "English: Central Ideas and Details",
         "time_estimate": 71,
         "question_number": 8,
         "practice_set": "2"
@@ -641,7 +641,7 @@
         ],
         "correct_answer": 1,
         "difficulty": "",
-        "category": "Reading: Textual Evidence",
+        "category": "English: Textual Evidence",
         "time_estimate": 71,
         "question_number": 9,
         "practice_set": "2"
@@ -658,7 +658,7 @@
         ],
         "correct_answer": 2,
         "difficulty": "",
-        "category": "Reading: Textual Evidence",
+        "category": "English: Textual Evidence",
         "time_estimate": 71,
         "question_number": 10,
         "practice_set": "2"
@@ -675,7 +675,7 @@
         ],
         "correct_answer": 1,
         "difficulty": "",
-        "category": "Reading: Textual Evidence",
+        "category": "English: Textual Evidence",
         "time_estimate": 71,
         "question_number": 11,
         "practice_set": "2"
@@ -692,7 +692,7 @@
         ],
         "correct_answer": 0,
         "difficulty": "",
-        "category": "Reading: Quantitative Evidence",
+        "category": "English: Quantitative Evidence",
         "time_estimate": 71,
         "question_number": 12,
         "practice_set": "2"
@@ -709,7 +709,7 @@
         ],
         "correct_answer": 0,
         "difficulty": "",
-        "category": "Reading: Quantitative Evidence",
+        "category": "English: Quantitative Evidence",
         "time_estimate": 71,
         "question_number": 13,
         "practice_set": "2"
@@ -726,7 +726,7 @@
         ],
         "correct_answer": 1,
         "difficulty": "",
-        "category": "Reading: Inferences",
+        "category": "English: Inferences",
         "time_estimate": 71,
         "question_number": 14,
         "practice_set": "2"
@@ -743,7 +743,7 @@
         ],
         "correct_answer": 0,
         "difficulty": "",
-        "category": "Reading: Inferences",
+        "category": "English: Inferences",
         "time_estimate": 71,
         "question_number": 15,
         "practice_set": "2"
