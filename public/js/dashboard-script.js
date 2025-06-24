@@ -318,7 +318,7 @@ function setupEventListeners() {
     // Test navigation buttons
     document.getElementById('prev-question').addEventListener('click', previousQuestion);
     document.getElementById('next-question').addEventListener('click', nextQuestion);
-    document.getElementById('end-test-btn').addEventListener('click', endTest);
+    document.getElementById('end-test-btn').addEventListener('click', showEndTestConfirmation);
 
     // Results buttons
     document.getElementById('retake-test').addEventListener('click', function() {
@@ -846,6 +846,12 @@ function startTimer() {
             endTest();
         }
     }, 1000);
+}
+
+function showEndTestConfirmation() {
+    if (confirm('Are you sure you want to end the test?')) {
+        endTest();
+    }
 }
 
 async function endTest() {
@@ -1402,7 +1408,7 @@ function renderQuestionNavigation() {
         if (currentQuestionIndex < testQuestions.length - 1) {
             loadQuestion(currentQuestionIndex + 1);
         } else {
-            endTest();
+            showEndTestConfirmation();
         }
     });
 
