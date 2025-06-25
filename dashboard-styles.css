@@ -70,10 +70,42 @@ body {
     align-items: center;
 }
 
+.nav-brand {
+    display: flex;
+    align-items: center;
+    gap: 1.5rem; /* Add space between brand and toggle */
+}
+
 .nav-brand h1 {
-    font-size: 1.5rem;
-    font-weight: 700;
-    color: #4f46e5;
+    margin: 0;
+}
+
+.admin-toggle {
+    background: #4a5568; /* Darker background for contrast */
+    color: white;
+    padding: 0.5rem 1rem;
+    border-radius: 20px;
+    font-size: 0.9rem;
+    font-weight: 600;
+    text-decoration: none;
+    transition: all 0.2s ease-in-out;
+    border: 2px solid transparent;
+}
+
+.admin-toggle:hover {
+    background: #2d3748; /* Even darker on hover */
+    transform: translateY(-1px);
+    box-shadow: 0 4px 10px rgba(0,0,0,0.15);
+}
+
+/* Style for admin header to make toggle fit in */
+.admin-header .admin-toggle {
+    background: rgba(255, 255, 255, 0.2);
+    border: 2px solid rgba(255, 255, 255, 0.5);
+}
+
+.admin-header .admin-toggle:hover {
+    background: rgba(255, 255, 255, 0.3);
 }
 
 .user-info {

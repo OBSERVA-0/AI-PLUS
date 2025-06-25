@@ -274,6 +274,14 @@ function loadUserInfo() {
             if (userNameElement) {
                 userNameElement.textContent = userName;
             }
+
+            // Show Admin toggle if user is an admin
+            if (user.role === 'admin') {
+                const adminToggle = document.querySelector('.admin-toggle');
+                if (adminToggle) {
+                    adminToggle.style.display = 'block';
+                }
+            }
             
             console.log('✅ User name loaded:', userName);
         } else {

@@ -306,10 +306,15 @@ async function checkAuth() {
         return;
     }
 
-    // Also check if the user is an admin
     if (user.role !== 'admin') {
         alert('Access denied. You must be an admin to view this page.');
         window.location.href = 'dashboard.html';
+    } else {
+        // Show Admin toggle
+        const adminToggle = document.querySelector('.admin-toggle');
+        if (adminToggle) {
+            adminToggle.style.display = 'block';
+        }
     }
 }
 

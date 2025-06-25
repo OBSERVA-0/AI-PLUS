@@ -318,6 +318,14 @@ async function loadUserProfile() {
             document.getElementById('profile-email').textContent = user.email;
             document.getElementById('profile-grade').textContent = user.grade;
             
+            // Show Admin toggle if user is an admin
+            if (user.role === 'admin') {
+                const adminToggle = document.querySelector('.admin-toggle');
+                if (adminToggle) {
+                    adminToggle.style.display = 'block';
+                }
+            }
+
             // Update user initials
             const initials = getInitials(user.firstName, user.lastName);
             document.getElementById('user-initials').textContent = initials;
