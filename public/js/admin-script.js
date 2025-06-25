@@ -378,8 +378,7 @@ function handleStudentClick(event) {
     const studentCard = event.target.closest('.student-card');
     if (studentCard) {
         const studentId = studentCard.dataset.studentId;
-        console.log('Student clicked:', studentId);
-        // TODO: Open detailed student view modal or navigate to student detail page
+        window.location.href = `profile-view.html?userId=${studentId}`;
     }
 }
 

@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover">
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; connect-src 'self' http://localhost:3000 https://ai-plus-education.onrender.com; script-src 'self' 'unsafe-inline'; style-src 'self' https://fonts.googleapis.com 'unsafe-inline'; font-src 'self' https://fonts.gstatic.com; img-src 'self' data: https:;">
+    <title>Profile - AI Plus Education</title>
+    <link rel="stylesheet" href="dashboard-styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        /* Additional overscroll prevention */
+        html, body {
+            overscroll-behavior: none !important;
+            overscroll-behavior-y: none !important;
+            overscroll-behavior-x: none !important;
+            touch-action: pan-y;
+            -webkit-overflow-scrolling: touch;
+        }
+        
+        /* Prevent pull-to-refresh */
+        body {
+            position: relative;
+            overflow-x: hidden;
+        }
+        
+        @media (max-width: 768px) {
+            html {
+                position: fixed;
+                height: 100%;
+                width: 100%;
+                overflow: hidden;
+            }
+            
+            body {
+                position: fixed;
+                height: 100%;
+                width: 100%;
+                overflow-y: auto;
+                overflow-x: hidden;
+                -webkit-overflow-scrolling: touch;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <div class="nav-brand">
+                <h1>AI Plus Education</h1>
+            </div>
+            <nav class="nav">
+                <div class="nav-links">
+                    <a href="dashboard.html" class="nav-link">Dashboard</a>
+                    <a href="profile.html" class="nav-link active">Profile</a>
+                </div>
+                <div class="user-info">
+                    <span class="welcome-text">Welcome, <span id="user-name">Student</span></span>
+                    <button id="logout-btn" class="btn btn-outline">Logout</button>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main class="main-content">
+        <div class="container">
+            <!-- Profile Header Card -->
+            <section class="profile-header-card">
+                <div class="profile-info">
+                    <div class="profile-avatar">
+                        <div class="avatar-circle">
+                            <span id="user-initials">JD</span>
+                        </div>
+                    </div>
+                    <div class="profile-details">
+                        <h1 id="profile-name">John Doe</h1>
+                        <p id="profile-email">admin123@aiplus.com</p>
+                        <div class="profile-meta">
+                            <span class="meta-item">Grade: <span id="profile-grade">8</span></span>
+                            <span class="meta-item">Member since: <span id="profile-join-date">Jun 2025</span></span>
+                        </div>
+                    </div>
+                </div>
+                <div class="profile-actions">
+                    <button id="edit-profile-btn" class="btn btn-outline">Edit Profile</button>
+                </div>
+            </section>
+
+            <!-- Profile Stats Grid -->
+            <section class="profile-stats-grid">
+                <div class="stat-card">
+                    <div class="stat-icon">📊</div>
+                    <div class="stat-content">
+                        <h3>Tests Completed</h3>
+                        <span class="stat-number" id="profile-total-tests">7</span>
+                    </div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-icon">🧮</div>
+                    <div class="stat-content">
+                        <h3>Math Average</h3>
+                        <span class="stat-number" id="profile-math-avg">35%</span>
+                    </div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-icon">📚</div>
+                    <div class="stat-content">
+                        <h3>English Average</h3>
+                        <span class="stat-number" id="profile-english-avg">20%</span>
+                    </div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-icon">⏱️</div>
+                    <div class="stat-content">
+                        <h3>Study Time</h3>
+                        <span class="stat-number" id="profile-study-time">0h 27m</span>
+                    </div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-icon">🏆</div>
+                    <div class="stat-content">
+                        <h3>Best Score</h3>
+                        <span class="stat-number" id="profile-best-score">100%</span>
+                    </div>
+                </div>
+            </section>
+            
+            <!-- SHSAT Scores Section -->
+            <section class="shsat-scores-section" style="display: none;">
+                <div class="section-header">
+                    <h2>SHSAT Performance</h2>
+                </div>
+                <div class="shsat-scores-grid">
+                    <div class="shsat-score-card">
+                        <h4>Latest Score</h4>
+                        <div class="total-score" id="shsat-latest-total">0</div>
+                        <div class="score-breakdown">
+                            <span id="shsat-latest-math">Math: 0</span> | <span id="shsat-latest-english">ELA: 0</span>
+                        </div>
+                    </div>
+                    <div class="shsat-score-card">
+                        <h4>Best Score</h4>
+                        <div class="total-score" id="shsat-best-total">0</div>
+                        <div class="score-breakdown">
+                            <span id="shsat-best-math">Math: 0</span> | <span id="shsat-best-english">ELA: 0</span>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- SAT Scores Section -->
+            <section class="sat-scores-section" style="display: none;">
+                <div class="section-header">
+                    <h2>SAT Performance</h2>
+                </div>
+                <div class="sat-scores-grid">
+                    <div class="sat-score-card">
+                        <h4>Latest Score</h4>
+                        <div class="total-score" id="sat-latest-total">0</div>
+                        <div class="score-breakdown">
+                            <span id="sat-latest-math">Math: 0</span> | <span id="sat-latest-rw">R&W: 0</span>
+                        </div>
+                    </div>
+                    <div class="sat-score-card">
+                        <h4>Best Score</h4>
+                        <div class="total-score" id="sat-best-total">0</div>
+                        <div class="score-breakdown">
+                            <span id="sat-best-math">Math: 0</span> | <span id="sat-best-rw">R&W: 0</span>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Mastery Overview -->
+            <section class="mastery-section">
+                <div class="section-header">
+                    <h2>Subject Mastery (<span id="mastery-areas-count">0</span> areas)</h2>
+                    <p>Track your progress and mastery levels across different subject areas</p>
+                </div>
+                <div class="mastery-grid" id="mastery-grid">
+                    <!-- Mastery levels will be loaded here -->
+                </div>
+            </section>
+        </div>
+    </main>
+    <script src="/js/profile-view-script.js" type="module"></script>
+</body>
+</html> 

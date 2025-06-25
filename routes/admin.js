@@ -145,21 +145,21 @@ router.get('/student/:id', auth, requireAdmin, async (req, res) => {
     res.json({
       success: true,
       data: {
-        student: {
-          id: student._id,
-          firstName: student.firstName,
-          lastName: student.lastName,
-          fullName: student.fullName,
-          email: student.email,
-          grade: student.grade,
-          joinDate: student.createdAt,
-          lastLogin: student.lastLogin,
-          isActive: student.isActive,
-          stats: stats,
-          testProgress: student.testProgress,
-          masteryLevels: masterySummary,
-          categoryPerformance: categoryPerformance
-        }
+        user: {
+            id: student._id,
+            firstName: student.firstName,
+            lastName: student.lastName,
+            fullName: student.fullName,
+            email: student.email,
+            grade: student.grade,
+            createdAt: student.createdAt,
+            lastLogin: student.lastLogin,
+            isActive: student.isActive,
+            categoryAverages: categoryPerformance.categoryAverages
+        },
+        stats: stats,
+        testProgress: student.testProgress,
+        masterySummary: masterySummary
       }
     });
     
