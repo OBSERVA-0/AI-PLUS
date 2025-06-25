@@ -951,7 +951,7 @@ function calculateLocalResults() {
         correctCount: 0, // Can't calculate without correct answers
         totalQuestions: testQuestions.length,
         percentage: 0,
-        timeTaken: Math.round(timeTaken / 1000),
+        timeTaken: Math.round(timeTaken),
         categoryScores
     };
 }
@@ -996,7 +996,7 @@ function displayResults(resultData) {
     
     const timeTakenElement = document.querySelector('#time-taken');
     if (timeTakenElement) {
-        timeTakenElement.textContent = formatTime(Math.round(results.timeSpent / 1000));
+        timeTakenElement.textContent = formatTime(results.timeSpent);
     }
     
     // Update score color based on performance

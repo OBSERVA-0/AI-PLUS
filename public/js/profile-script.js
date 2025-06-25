@@ -392,9 +392,9 @@ async function loadUserStats() {
             document.getElementById('profile-total-tests').textContent = stats.totalTests;
 
             // Format and update study time
-            const totalMinutes = stats.totalTimeSpent > 0 ? Math.round(stats.totalTimeSpent / 60) : 0;
-            const hours = Math.floor(totalMinutes / 60);
-            const minutes = totalMinutes % 60;
+            const totalSeconds = stats.totalTimeSpent || 0;
+            const hours = Math.floor(totalSeconds / 3600);
+            const minutes = Math.floor((totalSeconds % 3600) / 60);
             document.getElementById('profile-study-time').textContent = `${hours}h ${minutes}m`;
             
             // Calculate best score across all tests, preferring scaled scores
