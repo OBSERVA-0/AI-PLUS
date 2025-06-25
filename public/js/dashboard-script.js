@@ -972,8 +972,8 @@ function displayResults(resultData) {
     if (results.shsatScores && shsatScoreContainer) {
       shsatScoreContainer.style.display = 'block';
       document.getElementById('shsat-total-score').textContent = results.shsatScores.totalScaledScore;
-      document.getElementById('shsat-math-score').textContent = `${results.shsatScores.math.scaledScore} (${results.shsatScores.math.percentage}%)`;
-      document.getElementById('shsat-english-score').textContent = `${results.shsatScores.english.scaledScore} (${results.shsatScores.english.percentage}%)`;
+      document.getElementById('shsat-math-score').textContent = `Math: ${results.shsatScores.math.scaledScore} (${results.shsatScores.math.percentage}%)`;
+      document.getElementById('shsat-english-score').textContent = `ELA: ${results.shsatScores.english.scaledScore} (${results.shsatScores.english.percentage}%)`;
     } else if (shsatScoreContainer) {
       shsatScoreContainer.style.display = 'none';
     }
@@ -983,8 +983,8 @@ function displayResults(resultData) {
     if (results.satScores && satScoreContainer) {
       satScoreContainer.style.display = 'block';
       document.getElementById('sat-total-score').textContent = results.satScores.totalScaledScore;
-      document.getElementById('sat-math-score').textContent = `${results.satScores.math.scaledScore} (${results.satScores.math.percentage}%)`;
-      document.getElementById('sat-rw-score').textContent = `${results.satScores.reading_writing.scaledScore} (${results.satScores.reading_writing.percentage}%)`;
+      document.getElementById('sat-math-score').textContent = `Math: ${results.satScores.math.scaledScore} (${results.satScores.math.percentage}%)`;
+      document.getElementById('sat-rw-score').textContent = `R&W: ${results.satScores.reading_writing.scaledScore} (${results.satScores.reading_writing.percentage}%)`;
     } else if (satScoreContainer) {
       satScoreContainer.style.display = 'none';
     }
