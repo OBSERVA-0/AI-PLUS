@@ -65,20 +65,20 @@
     <!-- Main Content -->
     <main class="main-content">
         <div class="container">
-            <!-- Profile Header -->
-            <section class="profile-header">
+            <!-- Profile Header Card -->
+            <section class="profile-header-card">
                 <div class="profile-info">
                     <div class="profile-avatar">
                         <div class="avatar-circle">
-                            <span id="user-initials">ST</span>
+                            <span id="user-initials">JD</span>
                         </div>
                     </div>
                     <div class="profile-details">
-                        <h1 id="profile-name">Student Name</h1>
-                        <p id="profile-email">student@example.com</p>
+                        <h1 id="profile-name">John Doe</h1>
+                        <p id="profile-email">admin123@aiplus.com</p>
                         <div class="profile-meta">
-                            <span class="meta-item">Grade: <span id="profile-grade">9</span></span>
-                            <span class="meta-item">Member since: <span id="profile-join-date">Jan 2024</span></span>
+                            <span class="meta-item">Grade: <span id="profile-grade">8</span></span>
+                            <span class="meta-item">Member since: <span id="profile-join-date">Jun 2025</span></span>
                         </div>
                     </div>
                 </div>
@@ -87,42 +87,86 @@
                 </div>
             </section>
 
-            <!-- Profile Stats -->
-            <section class="profile-stats">
-                <div class="stats-grid">
-                    <div class="stat-card">
-                        <div class="stat-icon">📊</div>
-                        <div class="stat-content">
-                            <h3>Tests Completed</h3>
-                            <span class="stat-number" id="profile-total-tests">0</span>
+            <!-- Profile Stats Grid -->
+            <section class="profile-stats-grid">
+                <div class="stat-card">
+                    <div class="stat-icon">📊</div>
+                    <div class="stat-content">
+                        <h3>Tests Completed</h3>
+                        <span class="stat-number" id="profile-total-tests">7</span>
+                    </div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-icon">🧮</div>
+                    <div class="stat-content">
+                        <h3>Math Average</h3>
+                        <span class="stat-number" id="profile-math-avg">35%</span>
+                    </div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-icon">📚</div>
+                    <div class="stat-content">
+                        <h3>English Average</h3>
+                        <span class="stat-number" id="profile-english-avg">20%</span>
+                    </div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-icon">⏱️</div>
+                    <div class="stat-content">
+                        <h3>Study Time</h3>
+                        <span class="stat-number" id="profile-study-time">0h 27m</span>
+                    </div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-icon">🏆</div>
+                    <div class="stat-content">
+                        <h3>Best Score</h3>
+                        <span class="stat-number" id="profile-best-score">100%</span>
+                    </div>
+                </div>
+            </section>
+            
+            <!-- SHSAT Scores Section -->
+            <section class="shsat-scores-section" style="display: none;">
+                <div class="section-header">
+                    <h2>SHSAT Performance</h2>
+                </div>
+                <div class="shsat-scores-grid">
+                    <div class="shsat-score-card">
+                        <h4>Latest Score</h4>
+                        <div class="total-score" id="shsat-latest-total">0</div>
+                        <div class="score-breakdown">
+                            <span id="shsat-latest-math">Math: 0</span> | <span id="shsat-latest-english">ELA: 0</span>
                         </div>
                     </div>
-                    <div class="stat-card">
-                        <div class="stat-icon">🧮</div>
-                        <div class="stat-content">
-                            <h3>Math Average</h3>
-                            <span class="stat-number green" id="profile-math-avg">0%</span>
+                    <div class="shsat-score-card">
+                        <h4>Best Score</h4>
+                        <div class="total-score" id="shsat-best-total">0</div>
+                        <div class="score-breakdown">
+                            <span id="shsat-best-math">Math: 0</span> | <span id="shsat-best-english">ELA: 0</span>
                         </div>
                     </div>
-                    <div class="stat-card">
-                        <div class="stat-icon">📚</div>
-                        <div class="stat-content">
-                            <h3>English Average</h3>
-                            <span class="stat-number red" id="profile-english-avg">0%</span>
+                </div>
+            </section>
+
+            <!-- SAT Scores Section -->
+            <section class="sat-scores-section" style="display: none;">
+                <div class="section-header">
+                    <h2>SAT Performance</h2>
+                </div>
+                <div class="sat-scores-grid">
+                    <div class="sat-score-card">
+                        <h4>Latest Score</h4>
+                        <div class="total-score" id="sat-latest-total">0</div>
+                        <div class="score-breakdown">
+                            <span id="sat-latest-math">Math: 0</span> | <span id="sat-latest-rw">R&W: 0</span>
                         </div>
                     </div>
-                    <div class="stat-card">
-                        <div class="stat-icon">⏱️</div>
-                        <div class="stat-content">
-                            <h3>Study Time</h3>
-                            <span class="stat-number" id="profile-study-time">0h 0m</span>
-                        </div>
-                    </div>
-                    <div class="stat-card">
-                        <div class="stat-icon">🏆</div>
-                        <div class="stat-content">
-                            <h3>Best Score</h3>
-                            <span class="stat-number" id="profile-best-score">0%</span>
+                    <div class="sat-score-card">
+                        <h4>Best Score</h4>
+                        <div class="total-score" id="sat-best-total">0</div>
+                        <div class="score-breakdown">
+                            <span id="sat-best-math">Math: 0</span> | <span id="sat-best-rw">R&W: 0</span>
                         </div>
                     </div>
                 </div>
@@ -136,87 +180,6 @@
                 </div>
                 <div class="mastery-grid" id="mastery-grid">
                     <!-- Mastery levels will be loaded here -->
-                </div>
-            </section>
-
-            <!-- Test Progress -->
-            <section class="test-progress-section">
-                <div class="section-header">
-                    <h2>Test Progress</h2>
-                    <p>Your performance across different test types</p>
-                </div>
-                <div class="test-progress-grid">
-                    <div class="progress-card" data-test="shsat">
-                        <div class="progress-header">
-                            <h3>SHSAT</h3>
-                            <span class="test-badge">Active</span>
-                        </div>
-                        <div class="progress-stats">
-                            <div class="progress-stat">
-                                <span class="stat-label">Tests Taken</span>
-                                <span class="stat-value" id="shsat-tests">0</span>
-                            </div>
-                            <div class="progress-stat">
-                                <span class="stat-label">Average Score</span>
-                                <span class="stat-value" id="shsat-avg">0%</span>
-                            </div>
-                            <div class="progress-stat">
-                                <span class="stat-label">Best Score</span>
-                                <span class="stat-value" id="shsat-best">0%</span>
-                            </div>
-                        </div>
-                        <div class="progress-actions">
-                            <a href="dashboard.html" class="btn btn-primary btn-sm">Take Test</a>
-                        </div>
-                    </div>
-
-                    <div class="progress-card" data-test="sat">
-                        <div class="progress-header">
-                            <h3>SAT</h3>
-                            <span class="test-badge">Active</span>
-                        </div>
-                        <div class="progress-stats">
-                            <div class="progress-stat">
-                                <span class="stat-label">Tests Taken</span>
-                                <span class="stat-value" id="sat-tests">0</span>
-                            </div>
-                            <div class="progress-stat">
-                                <span class="stat-label">Average Score</span>
-                                <span class="stat-value" id="sat-avg">0%</span>
-                            </div>
-                            <div class="progress-stat">
-                                <span class="stat-label">Best Score</span>
-                                <span class="stat-value" id="sat-best">0%</span>
-                            </div>
-                        </div>
-                        <div class="progress-actions">
-                            <a href="dashboard.html" class="btn btn-primary btn-sm">Take Test</a>
-                        </div>
-                    </div>
-
-                    <div class="progress-card" data-test="state">
-                        <div class="progress-header">
-                            <h3>State Tests</h3>
-                            <span class="test-badge coming-soon">Coming Soon</span>
-                        </div>
-                        <div class="progress-stats">
-                            <div class="progress-stat">
-                                <span class="stat-label">Tests Taken</span>
-                                <span class="stat-value" id="state-tests">0</span>
-                            </div>
-                            <div class="progress-stat">
-                                <span class="stat-label">Average Score</span>
-                                <span class="stat-value" id="state-avg">0%</span>
-                            </div>
-                            <div class="progress-stat">
-                                <span class="stat-label">Best Score</span>
-                                <span class="stat-value" id="state-best">0%</span>
-                            </div>
-                        </div>
-                        <div class="progress-actions">
-                            <button class="btn btn-secondary btn-sm" disabled>Coming Soon</button>
-                        </div>
-                    </div>
                 </div>
             </section>
         </div>

@@ -12,6 +12,7 @@ html {
     scroll-behavior: smooth;
     height: 100%;
     overflow-x: hidden;
+    background-color: #f0f2f5; /* A light grey for the main background */
 }
 
 body {
@@ -26,6 +27,7 @@ body {
     scroll-behavior: smooth;
     overflow-x: hidden;
     position: relative;
+    background-color: #f0f2f5; /* A light grey for the main background */
 }
 
 /* Prevent overscroll on all elements */
@@ -154,13 +156,13 @@ body {
 .section-header h1 {
     font-size: 2.5rem;
     font-weight: 700;
-    color: #1f2937;
+    color: #000000;
     margin-bottom: 0.5rem;
 }
 
 .section-header p {
     font-size: 1.125rem;
-    color: #6b7280;
+    color: #101520;
 }
 
 /* User Stats */
@@ -1167,408 +1169,207 @@ body {
     box-shadow: 0 4px 15px rgba(99, 102, 241, 0.4);
 }
 
-.profile-header {
+/* New Profile Header Card */
+.profile-header-card {
     background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-    border-radius: 20px;
+    color: white;
     padding: 2rem;
-    margin-bottom: 1.5rem;
-    box-shadow: 0 10px 30px rgba(102, 126, 234, 0.3);
+    border-radius: 20px;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    color: white;
-    position: relative;
-    overflow: hidden;
+    margin-bottom: 2rem;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.15);
 }
 
-.profile-header::before {
-    content: '';
-    position: absolute;
-    top: -50%;
-    right: -50%;
-    width: 100%;
-    height: 100%;
-    background: radial-gradient(circle, rgba(255,255,255,0.1) 0%, transparent 70%);
-    animation: float 6s ease-in-out infinite;
-}
-
-@keyframes float {
-    0%, 100% { transform: translateY(0px) rotate(0deg); }
-    50% { transform: translateY(-10px) rotate(180deg); }
-}
-
-.profile-info {
+.profile-header-card .profile-info {
     display: flex;
     align-items: center;
     gap: 1.5rem;
-    z-index: 1;
 }
 
-.profile-avatar {
-    flex-shrink: 0;
-    position: relative;
-}
-
-.avatar-circle {
-    width: 90px;
-    height: 90px;
+.profile-header-card .avatar-circle {
+    width: 80px;
+    height: 80px;
     border-radius: 50%;
-    background: linear-gradient(135deg, #ff6b6b, #feca57);
+    background: linear-gradient(135deg, #f7ce68 0%, #fbab7e 100%);
     display: flex;
     align-items: center;
     justify-content: center;
+    font-size: 2rem;
+    font-weight: 600;
     color: white;
-    font-size: 1.75rem;
-    font-weight: 700;
-    box-shadow: 0 8px 25px rgba(255, 107, 107, 0.4);
-    border: 4px solid rgba(255, 255, 255, 0.2);
-    position: relative;
-    overflow: hidden;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.2);
 }
 
-.avatar-circle::before {
-    content: '';
-    position: absolute;
-    top: -50%;
-    left: -50%;
-    width: 200%;
-    height: 200%;
-    background: linear-gradient(45deg, transparent, rgba(255,255,255,0.1), transparent);
-    animation: shimmer 3s linear infinite;
-}
-
-@keyframes shimmer {
-    0% { transform: translateX(-100%) translateY(-100%) rotate(45deg); }
-    100% { transform: translateX(100%) translateY(100%) rotate(45deg); }
-}
-
-.profile-details h1 {
+.profile-header-card .profile-details h1 {
     font-size: 2rem;
     font-weight: 700;
-    color: white;
-    margin: 0 0 0.25rem 0;
-    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-}
-
-.profile-details p {
-    color: rgba(255, 255, 255, 0.9);
-    margin: 0 0 0.75rem 0;
-    font-size: 1.1rem;
-}
-
-.profile-meta {
-    display: flex;
-    gap: 2rem;
-    flex-wrap: wrap;
-}
-
-.meta-item {
-    color: rgba(255, 255, 255, 0.8);
-    font-size: 0.9rem;
-    background: rgba(255, 255, 255, 0.1);
-    padding: 0.5rem 1rem;
-    border-radius: 15px;
-    backdrop-filter: blur(10px);
-}
-
-.meta-item span {
-    color: white;
-    font-weight: 600;
-}
-
-.profile-actions {
-    z-index: 1;
-}
-
-.profile-actions .btn {
-    background: rgba(255, 255, 255, 0.2);
-    color: white;
-    border: 2px solid rgba(255, 255, 255, 0.3);
-    backdrop-filter: blur(10px);
-    transition: all 0.3s ease;
-}
-
-.profile-actions .btn:hover {
-    background: rgba(255, 255, 255, 0.3);
-    transform: translateY(-2px);
-    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.2);
-}
-
-.profile-stats {
-    margin-bottom: 1.5rem;
-}
-
-.stats-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
-    gap: 1rem;
-}
-
-.profile-stats .stat-card {
-    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-    border-radius: 16px;
-    padding: 1.5rem;
-    box-shadow: 0 8px 25px rgba(102, 126, 234, 0.2);
-    display: flex;
-    align-items: center;
-    gap: 1rem;
-    color: white;
-    position: relative;
-    overflow: hidden;
-    transition: all 0.3s ease;
-}
-
-.profile-stats .stat-card:hover {
-    transform: translateY(-5px);
-    box-shadow: 0 15px 35px rgba(102, 126, 234, 0.3);
-}
-
-.profile-stats .stat-card::before {
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    background: linear-gradient(135deg, rgba(255,255,255,0.1), transparent);
-    opacity: 0;
-    transition: opacity 0.3s ease;
-}
-
-.profile-stats .stat-card:hover::before {
-    opacity: 1;
-}
-
-.stat-icon {
-    font-size: 2.5rem;
-    flex-shrink: 0;
-    filter: drop-shadow(0 2px 4px rgba(0, 0, 0, 0.2));
-}
-
-.stat-content h3 {
-    font-size: 0.8rem;
-    font-weight: 600;
-    color: rgba(255, 255, 255, 0.9);
-    margin: 0 0 0.25rem 0;
-    text-transform: uppercase;
-    letter-spacing: 0.1em;
-}
-
-.stat-content .stat-number {
-    font-size: 1.75rem;
-    font-weight: 700;
-    color: white;
-    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
-}
-
-.mastery-section {
-    margin-bottom: 1.5rem;
-    background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);
-    border-radius: 20px;
-    padding: 2rem;
-    position: relative;
-    overflow: hidden;
-}
-
-.mastery-section::before {
-    content: '';
-    position: absolute;
-    top: -50%;
-    left: -50%;
-    width: 200%;
-    height: 200%;
-    background: radial-gradient(circle, rgba(255,255,255,0.1) 0%, transparent 70%);
-    animation: rotate 20s linear infinite;
-}
-
-@keyframes rotate {
-    0% { transform: rotate(0deg); }
-    100% { transform: rotate(360deg); }
-}
-
-.mastery-section .section-header {
-    text-align: left;
-    margin-bottom: 1.5rem;
-    position: relative;
-    z-index: 1;
-}
-
-.mastery-section .section-header h2 {
-    font-size: 1.75rem;
-    font-weight: 700;
-    color: white;
-    margin-bottom: 0.5rem;
-    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
-}
-
-.mastery-section .section-header p {
-    color: rgba(255, 255, 255, 0.9);
-    font-size: 1.1rem;
-}
-
-.test-progress-section {
-    margin-bottom: 1.5rem;
-    background: linear-gradient(135deg, #a8edea 0%, #fed6e3 100%);
-    border-radius: 20px;
-    padding: 2rem;
-    position: relative;
-    overflow: hidden;
-}
-
-.test-progress-section::before {
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    background: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><defs><pattern id="grain" width="100" height="100" patternUnits="userSpaceOnUse"><circle cx="25" cy="25" r="1" fill="rgba(255,255,255,0.1)"/><circle cx="75" cy="75" r="1" fill="rgba(255,255,255,0.1)"/><circle cx="50" cy="10" r="0.5" fill="rgba(255,255,255,0.05)"/></pattern></defs><rect width="100" height="100" fill="url(%23grain)"/></svg>');
-    opacity: 0.3;
-}
-
-.test-progress-section .section-header {
-    text-align: left;
-    margin-bottom: 1.5rem;
-    position: relative;
-    z-index: 1;
-}
-
-.test-progress-section .section-header h2 {
-    font-size: 1.75rem;
-    font-weight: 700;
-    color: #2d3748;
-    margin-bottom: 0.5rem;
-    text-shadow: 0 2px 4px rgba(255, 255, 255, 0.5);
-}
-
-.test-progress-section .section-header p {
-    color: #4a5568;
-    font-size: 1.1rem;
-}
-
-.test-progress-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-    gap: 1.5rem;
-}
-
-.progress-card {
-    background: rgba(255, 255, 255, 0.9);
-    border-radius: 16px;
-    padding: 1.5rem;
-    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.1);
-    border: 1px solid rgba(255, 255, 255, 0.3);
-    transition: all 0.3s ease;
-    backdrop-filter: blur(10px);
-    position: relative;
-    z-index: 1;
-    overflow: hidden;
-}
-
-.progress-card::after {
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    height: 4px;
-    background: linear-gradient(90deg, #ff6b6b, #feca57, #48dbfb, #ff9ff3);
-    border-radius: 16px 16px 0 0;
-}
-
-.progress-card:hover {
-    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.15);
-    transform: translateY(-8px) scale(1.02);
-    background: rgba(255, 255, 255, 1);
-}
-
-.progress-header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin-bottom: 1rem;
-}
-
-.progress-header h3 {
-    font-size: 1.25rem;
-    font-weight: 600;
-    color: #1f2937;
     margin: 0;
 }
 
-.test-badge {
-    padding: 0.5rem 1rem;
-    border-radius: 20px;
-    font-size: 0.75rem;
-    font-weight: 600;
-    text-transform: uppercase;
-    letter-spacing: 0.1em;
-    position: relative;
-    overflow: hidden;
-    transition: all 0.3s ease;
+.profile-header-card .profile-details p {
+    font-size: 1rem;
+    margin: 0.25rem 0 1rem;
+    opacity: 0.9;
 }
 
-.test-badge::before {
-    content: '';
-    position: absolute;
-    top: 0;
-    left: -100%;
-    width: 100%;
-    height: 100%;
-    background: linear-gradient(90deg, transparent, rgba(255,255,255,0.3), transparent);
-    transition: left 0.5s;
-}
-
-.test-badge:hover::before {
-    left: 100%;
-}
-
-.test-badge:not(.coming-soon) {
-    background: linear-gradient(135deg, #10b981, #34d399);
-    color: white;
-    box-shadow: 0 4px 15px rgba(16, 185, 129, 0.3);
-}
-
-.test-badge.coming-soon {
-    background: linear-gradient(135deg, #f59e0b, #fbbf24);
-    color: white;
-    box-shadow: 0 4px 15px rgba(245, 158, 11, 0.3);
-}
-
-.progress-stats {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
+.profile-header-card .profile-meta {
+    display: flex;
     gap: 1rem;
-    margin-bottom: 1.5rem;
 }
 
-.progress-stat {
-    text-align: center;
-}
-
-.progress-stat .stat-label {
-    display: block;
-    font-size: 0.75rem;
-    color: #6b7280;
-    text-transform: uppercase;
-    letter-spacing: 0.05em;
-    margin-bottom: 0.25rem;
-}
-
-.progress-stat .stat-value {
-    display: block;
-    font-size: 1.25rem;
-    font-weight: 600;
-    color: #1f2937;
-}
-
-.progress-actions {
-    text-align: center;
-}
-
-.btn-sm {
+.profile-header-card .meta-item {
+    background: rgba(255, 255, 255, 0.15);
     padding: 0.5rem 1rem;
+    border-radius: 50px;
     font-size: 0.875rem;
+}
+
+.profile-header-card .profile-actions .btn {
+    background: rgba(255, 255, 255, 0.2);
+    border: 1px solid rgba(255, 255, 255, 0.4);
+    color: white;
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+}
+
+/* New Profile Stats Grid */
+.profile-stats-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 1.5rem;
+}
+
+.profile-stats-grid .stat-card {
+    background: rgba(255, 255, 255, 0.6);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: 16px;
+    padding: 1.5rem;
+    box-shadow: 0 4px 20px rgba(0,0,0,0.08);
+}
+
+.profile-stats-grid .stat-icon {
+    font-size: 1.5rem;
+    width: 44px;
+    height: 44px;
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 1rem;
+    background-color: white;
+}
+
+.profile-stats-grid .stat-content h3 {
+    font-size: 0.8rem;
+    font-weight: 600;
+    color: #4a5568;
+    margin: 0 0 0.25rem;
+    text-transform: uppercase;
+}
+
+.profile-stats-grid .stat-number {
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: #1a202c;
+}
+
+/* New SHSAT Scores Section */
+.shsat-scores-section {
+    margin-top: 2rem;
+}
+
+.shsat-scores-section .section-header {
+    margin-bottom: 1.5rem;
+    text-align: left;
+}
+
+.shsat-scores-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 1.5rem;
+}
+
+.shsat-score-card {
+    background: white;
+    border-radius: 16px;
+    padding: 1.5rem;
+    text-align: center;
+    box-shadow: 0 4px 20px rgba(0,0,0,0.05);
+    border: 1px solid #e5e7eb;
+}
+
+.shsat-score-card h4 {
+    font-size: 0.9rem;
+    font-weight: 600;
+    color: #4a5568;
+    margin: 0 0 0.5rem;
+    text-transform: uppercase;
+}
+
+.shsat-score-card .total-score {
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: #667eea;
+    margin-bottom: 0.5rem;
+}
+
+.shsat-score-card .score-breakdown {
+    font-size: 1rem;
+    color: #6b7280;
+}
+
+/* SAT Scores Section */
+.sat-scores-section {
+    margin-top: 2rem;
+}
+
+.sat-scores-section .section-header {
+    margin-bottom: 1.5rem;
+    text-align: left;
+}
+
+.sat-scores-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 1.5rem;
+}
+
+.sat-score-card {
+    background: white;
+    border-radius: 16px;
+    padding: 1.5rem;
+    text-align: center;
+    box-shadow: 0 4px 20px rgba(0,0,0,0.05);
+    border: 1px solid #e5e7eb;
+}
+
+.sat-score-card h4 {
+    font-size: 0.9rem;
+    font-weight: 600;
+    color: #4a5568;
+    margin: 0 0 0.5rem;
+    text-transform: uppercase;
+}
+
+.sat-score-card .total-score {
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: #0d6efd; /* SAT Blue */
+    margin-bottom: 0.5rem;
+}
+
+.sat-score-card .score-breakdown {
+    font-size: 1rem;
+    color: #6b7280;
+}
+
+/* Hide old sections */
+.profile-header, .profile-stats {
+    display: none;
 }
 
 /* Responsive Design */
@@ -2307,4 +2108,53 @@ body {
 /* Smooth scroll behavior for all elements */
 * {
     scroll-behavior: smooth;
+}
+
+.progress-card .progress-stats.shsat-scores {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: auto auto;
+  gap: 0.5rem 1rem;
+  align-items: center;
+  text-align: center;
+}
+
+.shsat-latest-score, .shsat-best-score {
+  padding: 0.5rem;
+}
+
+.shsat-latest-score .stat-label, .shsat-best-score .stat-label {
+  font-size: 0.8rem;
+  color: #6b7280;
+  margin-bottom: 0.25rem;
+  display: block;
+}
+
+.shsat-latest-score .stat-value, .shsat-best-score .stat-value {
+  font-size: 1.75rem;
+  font-weight: 700;
+  color: #1f2937;
+}
+
+.shsat-breakdown {
+  grid-column: 1 / -1;
+  font-size: 0.9rem;
+  color: #4b5563;
+  padding-top: 0.5rem;
+  border-top: 1px solid #e5e7eb;
+}
+
+/* Responsive adjustments if needed */
+@media (max-width: 480px) {
+  .progress-card .progress-stats.shsat-scores {
+    grid-template-columns: 1fr;
+    text-align: left;
+    align-items: flex-start;
+  }
+  .shsat-breakdown {
+    text-align: left;
+  }
+}
+.progress-actions {
+  margin-top: 1.5rem;
 } 

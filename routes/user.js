@@ -333,7 +333,7 @@ router.get('/stats', auth, async (req, res) => {
 // @access  Private
 router.post('/update-stats', auth, async (req, res) => {
   try {
-    const { testType, score, timeSpent, categoryScores } = req.body;
+    const { testType, score, timeSpent, categoryScores, shsatScores, satScores } = req.body;
     
     // Get user
     const user = await User.findById(req.user._id);
@@ -380,6 +380,42 @@ router.post('/update-stats', auth, async (req, res) => {
     testProgress.timeSpent = testProgress.timeSpent + timeSpent;
     testProgress.lastAttempt = new Date();
     
+    // Update SHSAT scaled scores if provided
+    if (testType === 'shsat' && shsatScores) {
+      testProgress.latestScaledScore = {
+        math: shsatScores.math.scaledScore,
+        english: shsatScores.english.scaledScore,
+        total: shsatScores.totalScaledScore
+      };
+      
+      // Update best score if the new score is higher
+      if (shsatScores.totalScaledScore > (testProgress.bestScaledScore.total || 0)) {
+        testProgress.bestScaledScore = {
+          math: shsatScores.math.scaledScore,
+          english: shsatScores.english.scaledScore,
+          total: shsatScores.totalScaledScore
+        };
+      }
+    }
+
+    // Update SAT scaled scores if provided
+    if (testType === 'sat' && satScores) {
+      testProgress.latestScaledScore = {
+        math: satScores.math.scaledScore,
+        reading_writing: satScores.reading_writing.scaledScore,
+        total: satScores.totalScaledScore
+      };
+      
+      // Update best score if the new score is higher
+      if (satScores.totalScaledScore > (testProgress.bestScaledScore.total || 0)) {
+        testProgress.bestScaledScore = {
+          math: satScores.math.scaledScore,
+          reading_writing: satScores.reading_writing.scaledScore,
+          total: satScores.totalScaledScore
+        };
+      }
+    }
+
     // Update category performance if provided
     if (categoryScores) {
       user.updateCategoryPerformance(testType, categoryScores);

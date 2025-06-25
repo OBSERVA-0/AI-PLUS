@@ -171,19 +171,28 @@ async function getTestStats() {
     return null;
 }
 
-async function updateTestStats(testType, score, timeSpent, categoryScores = null) {
+async function updateTestStats(testType, score, timeSpent, categoryScores = null, shsatScores = null, satScores = null) {
     try {
         console.log('Updating test stats:', { testType, score, timeSpent, categoryScores });
         
         // Send test results to server
+        const requestBody = {
+            testType,
+            score,
+            timeSpent,
+            categoryScores
+        };
+
+        if (shsatScores) {
+            requestBody.shsatScores = shsatScores;
+        }
+        if (satScores) {
+            requestBody.satScores = satScores;
+        }
+
         const response = await AuthService.makeRequest('/user/update-stats', {
             method: 'POST',
-            body: JSON.stringify({
-                testType,
-                score,
-                timeSpent,
-                categoryScores
-            })
+            body: JSON.stringify(requestBody)
         });
 
         if (response.success) {
@@ -886,7 +895,14 @@ async function endTest() {
         }
         
         // Update test statistics
-        await updateTestStats(currentTest, response.data.results.percentage, timeSpent, response.data.results.categoryScores);
+        await updateTestStats(
+          currentTest, 
+          response.data.results.percentage, 
+          timeSpent, 
+          response.data.results.categoryScores,
+          response.data.results.shsatScores, // Pass SHSAT scores
+          response.data.results.satScores // Pass SAT scores
+        );
         
         // Display results
         displayResults(response.data);
@@ -901,7 +917,7 @@ async function endTest() {
         // Fallback: calculate results locally
         const localResults = calculateLocalResults();
         
-        // Update test statistics with local results
+        // Update test statistics with local results (no scaled scores available)
         const timeSpent = Math.round((new Date() - testStartTime) / 1000);
         await updateTestStats(currentTest, localResults.percentage, timeSpent, localResults.categoryScores);
         
@@ -949,6 +965,28 @@ function displayResults(resultData) {
     const finalScoreElement = document.querySelector('.score-percentage');
     if (finalScoreElement) {
         finalScoreElement.textContent = `${results.percentage}%`;
+    }
+    
+    // Update SHSAT scores if available
+    const shsatScoreContainer = document.getElementById('shsat-score-breakdown');
+    if (results.shsatScores && shsatScoreContainer) {
+      shsatScoreContainer.style.display = 'block';
+      document.getElementById('shsat-total-score').textContent = results.shsatScores.totalScaledScore;
+      document.getElementById('shsat-math-score').textContent = `${results.shsatScores.math.scaledScore} (${results.shsatScores.math.percentage}%)`;
+      document.getElementById('shsat-english-score').textContent = `${results.shsatScores.english.scaledScore} (${results.shsatScores.english.percentage}%)`;
+    } else if (shsatScoreContainer) {
+      shsatScoreContainer.style.display = 'none';
+    }
+    
+    // Update SAT scores if available
+    const satScoreContainer = document.getElementById('sat-score-breakdown');
+    if (results.satScores && satScoreContainer) {
+      satScoreContainer.style.display = 'block';
+      document.getElementById('sat-total-score').textContent = results.satScores.totalScaledScore;
+      document.getElementById('sat-math-score').textContent = `${results.satScores.math.scaledScore} (${results.satScores.math.percentage}%)`;
+      document.getElementById('sat-rw-score').textContent = `${results.satScores.reading_writing.scaledScore} (${results.satScores.reading_writing.percentage}%)`;
+    } else if (satScoreContainer) {
+      satScoreContainer.style.display = 'none';
     }
     
     const correctCountElement = document.querySelector('#correct-count');

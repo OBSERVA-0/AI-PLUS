@@ -339,6 +339,36 @@ async function loadUserProfile() {
             if (user.totalMasteryAreas !== undefined) {
                 document.getElementById('mastery-areas-count').textContent = user.totalMasteryAreas;
             }
+
+            // Populate SHSAT Scores section
+            const shsatProgress = user.testProgress.shsat;
+            if (shsatProgress && shsatProgress.testsCompleted > 0) {
+                const shsatSection = document.querySelector('.shsat-scores-section');
+                if (shsatSection) shsatSection.style.display = 'block';
+
+                document.getElementById('shsat-latest-total').textContent = shsatProgress.latestScaledScore.total || 0;
+                document.getElementById('shsat-latest-math').textContent = `Math: ${shsatProgress.latestScaledScore.math || 0}`;
+                document.getElementById('shsat-latest-english').textContent = `ELA: ${shsatProgress.latestScaledScore.english || 0}`;
+
+                document.getElementById('shsat-best-total').textContent = shsatProgress.bestScaledScore.total || 0;
+                document.getElementById('shsat-best-math').textContent = `Math: ${shsatProgress.bestScaledScore.math || 0}`;
+                document.getElementById('shsat-best-english').textContent = `ELA: ${shsatProgress.bestScaledScore.english || 0}`;
+            }
+
+            // Populate SAT Scores section
+            const satProgress = user.testProgress.sat;
+            if (satProgress && satProgress.testsCompleted > 0) {
+                const satSection = document.querySelector('.sat-scores-section');
+                if (satSection) satSection.style.display = 'block';
+
+                document.getElementById('sat-latest-total').textContent = satProgress.latestScaledScore.total || 0;
+                document.getElementById('sat-latest-math').textContent = `Math: ${satProgress.latestScaledScore.math || 0}`;
+                document.getElementById('sat-latest-rw').textContent = `R&W: ${satProgress.latestScaledScore.reading_writing || 0}`;
+
+                document.getElementById('sat-best-total').textContent = satProgress.bestScaledScore.total || 0;
+                document.getElementById('sat-best-math').textContent = `Math: ${satProgress.bestScaledScore.math || 0}`;
+                document.getElementById('sat-best-rw').textContent = `R&W: ${satProgress.bestScaledScore.reading_writing || 0}`;
+            }
             
         } else {
             console.error('Failed to load user profile');
@@ -362,47 +392,38 @@ async function loadUserStats() {
             document.getElementById('profile-total-tests').textContent = stats.totalTests;
 
             // Format and update study time
-            const totalMinutes = Math.round(stats.totalTimeSpent / 60);
+            const totalMinutes = stats.totalTimeSpent > 0 ? Math.round(stats.totalTimeSpent / 60) : 0;
             const hours = Math.floor(totalMinutes / 60);
             const minutes = totalMinutes % 60;
             document.getElementById('profile-study-time').textContent = `${hours}h ${minutes}m`;
             
-            // Calculate best score across all tests
-            const bestScore = Math.max(
-                testProgress.shsat.bestScore || 0,
-                testProgress.sat.bestScore || 0,
-                testProgress.stateTest.bestScore || 0
-            );
-            document.getElementById('profile-best-score').textContent = bestScore > 0 ? `${bestScore}%` : '0%';
+            // Calculate best score across all tests, preferring scaled scores
+            const bestShsat = (testProgress.shsat && testProgress.shsat.bestScaledScore && testProgress.shsat.bestScaledScore.total) || 0;
+            const bestSat = (testProgress.sat && testProgress.sat.bestScaledScore && testProgress.sat.bestScaledScore.total) || 0;
+
+            let bestScoreToDisplay = '0%';
+            if (bestShsat > 0 || bestSat > 0) {
+                bestScoreToDisplay = Math.max(bestShsat, bestSat);
+            } else {
+                // Fallback to percentage if no scaled scores exist
+                const bestPercentage = Math.max(
+                    (testProgress.shsat && testProgress.shsat.bestScore) || 0,
+                    (testProgress.sat && testProgress.sat.bestScore) || 0,
+                    (testProgress.stateTest && testProgress.stateTest.bestScore) || 0
+                );
+                if (bestPercentage > 0) {
+                    bestScoreToDisplay = `${bestPercentage}%`;
+                }
+            }
             
-            // Update individual test progress
-            updateTestProgress('shsat', testProgress.shsat);
-            updateTestProgress('sat', testProgress.sat);
-            updateTestProgress('state', testProgress.stateTest);
-            
+            document.getElementById('profile-best-score').textContent = bestScoreToDisplay;
+
         } else {
             console.error('Failed to load user stats');
         }
     } catch (error) {
         console.error('❌ Error loading user stats:', error);
     }
-}
-
-function updateTestProgress(testType, progress) {
-    const testMap = {
-        'shsat': 'shsat',
-        'sat': 'sat',
-        'state': 'state'
-    };
-    
-    const mappedType = testMap[testType];
-    if (!mappedType) return;
-    
-    document.getElementById(`${mappedType}-tests`).textContent = progress.testsCompleted || 0;
-    document.getElementById(`${mappedType}-avg`).textContent = 
-        progress.averageScore > 0 ? `${Math.round(progress.averageScore)}%` : '0%';
-    document.getElementById(`${mappedType}-best`).textContent = 
-        progress.bestScore > 0 ? `${Math.round(progress.bestScore)}%` : '0%';
 }
 
 async function loadMasteryData() {

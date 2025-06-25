@@ -2,6 +2,9 @@ const express = require('express');
 const { body, validationResult, query } = require('express-validator');
 const fs = require('fs').promises;
 const path = require('path');
+const { readQuestionsFromJSON } = require('../utils/questionReader');
+const { convertRawToScaled: convertShsatRawToScaled } = require('../utils/shsatScoring');
+const { convertSatRawToScaled } = require('../utils/satScoring');
 
 const router = express.Router();
 
@@ -48,18 +51,6 @@ const handleValidationErrors = (req, res, next) => {
   }
   next();
 };
-
-// Helper function to read questions from JSON file
-async function readQuestionsFromJSON(testType, practiceSet = '1') {
-  try {
-    const filePath = path.join(__dirname, '..', 'data', `${testType}practice${practiceSet}questions.json`);
-    const data = await fs.readFile(filePath, 'utf8');
-    return JSON.parse(data);
-  } catch (error) {
-    console.error('Error reading questions file:', error);
-    throw new Error('Failed to load questions');
-  }
-}
 
 // @route   GET /api/questions/test
 // @desc    Get questions for a specific test
@@ -151,6 +142,14 @@ router.post('/submit', validateSubmitAnswers, handleValidationErrors, async (req
     let correctCount = 0;
     const categoryScores = {};
     const detailedResults = [];
+    const shsatSectionScores = {
+      math: { correct: 0, total: 0 },
+      english: { correct: 0, total: 0 }
+    };
+    const satSectionScores = {
+      math: { correct: 0, total: 0 },
+      english: { correct: 0, total: 0 } // english here means reading & writing
+    };
     
     for (const answer of answers) {
       const question = questions.find(q => q._id === answer.questionId);
@@ -183,6 +182,30 @@ router.post('/submit', validateSubmitAnswers, handleValidationErrors, async (req
       if (isCorrect) {
         categoryScores[question.category].correct++;
       }
+
+      const categoryLower = question.category.toLowerCase();
+      
+      // Track SHSAT section scores
+      if (testType === 'shsat') {
+        if (categoryLower.includes('math')) {
+          shsatSectionScores.math.total++;
+          if (isCorrect) shsatSectionScores.math.correct++;
+        } else if (categoryLower.includes('english')) {
+          shsatSectionScores.english.total++;
+          if (isCorrect) shsatSectionScores.english.correct++;
+        }
+      }
+
+      // Track SAT section scores
+      if (testType === 'sat') {
+        if (categoryLower.includes('math')) {
+          satSectionScores.math.total++;
+          if (isCorrect) satSectionScores.math.correct++;
+        } else if (categoryLower.includes('english') || categoryLower.includes('reading') || categoryLower.includes('writing')) {
+          satSectionScores.english.total++;
+          if (isCorrect) satSectionScores.english.correct++;
+        }
+      }
       
       // Record detailed result for review
       detailedResults.push({
@@ -199,20 +222,66 @@ router.post('/submit', validateSubmitAnswers, handleValidationErrors, async (req
       });
     }
     
-    const percentage = Math.round((correctCount / answers.length) * 100);
+    const percentage = answers.length > 0 ? Math.round((correctCount / answers.length) * 100) : 0;
     
+    const responseData = {
+      results: {
+        correctCount,
+        totalQuestions: answers.length,
+        percentage,
+        timeSpent,
+        categoryScores
+      },
+      detailedResults
+    };
+
+    // Add SHSAT scaled scores if applicable
+    if (testType === 'shsat') {
+      const scaledMath = convertShsatRawToScaled(shsatSectionScores.math.correct);
+      const scaledEnglish = convertShsatRawToScaled(shsatSectionScores.english.correct);
+      
+      responseData.results.shsatScores = {
+        math: {
+          rawScore: shsatSectionScores.math.correct,
+          totalQuestions: shsatSectionScores.math.total,
+          percentage: shsatSectionScores.math.total > 0 ? Math.round((shsatSectionScores.math.correct / shsatSectionScores.math.total) * 100) : 0,
+          scaledScore: scaledMath
+        },
+        english: {
+          rawScore: shsatSectionScores.english.correct,
+          totalQuestions: shsatSectionScores.english.total,
+          percentage: shsatSectionScores.english.total > 0 ? Math.round((shsatSectionScores.english.correct / shsatSectionScores.english.total) * 100) : 0,
+          scaledScore: scaledEnglish
+        },
+        totalScaledScore: scaledMath + scaledEnglish
+      };
+    }
+
+    // Add SAT scaled scores if applicable
+    if (testType === 'sat') {
+      const scaledMath = convertSatRawToScaled(satSectionScores.math.correct, 'math');
+      const scaledEnglish = convertSatRawToScaled(satSectionScores.english.correct, 'reading_writing');
+      
+      responseData.results.satScores = {
+        math: {
+          rawScore: satSectionScores.math.correct,
+          totalQuestions: satSectionScores.math.total,
+          percentage: satSectionScores.math.total > 0 ? Math.round((satSectionScores.math.correct / satSectionScores.math.total) * 100) : 0,
+          scaledScore: scaledMath
+        },
+        reading_writing: { // Changed from 'english' to be more specific
+          rawScore: satSectionScores.english.correct,
+          totalQuestions: satSectionScores.english.total,
+          percentage: satSectionScores.english.total > 0 ? Math.round((satSectionScores.english.correct / satSectionScores.english.total) * 100) : 0,
+          scaledScore: scaledEnglish
+        },
+        totalScaledScore: scaledMath + scaledEnglish
+      };
+    }
+
     res.json({
       success: true,
-      data: {
-        results: {
-          correctCount,
-          totalQuestions: answers.length,
-          percentage,
-          timeSpent,
-          categoryScores
-        },
-        detailedResults
-      }
+      data: responseData
     });
     
   } catch (error) {

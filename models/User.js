@@ -74,6 +74,16 @@ const userSchema = new mongoose.Schema({
       bestScore: { type: Number, default: 0 },
       timeSpent: { type: Number, default: 0 }, // in minutes
       lastAttempt: { type: Date, default: null },
+      latestScaledScore: {
+        math: { type: Number, default: 0 },
+        english: { type: Number, default: 0 },
+        total: { type: Number, default: 0 }
+      },
+      bestScaledScore: {
+        math: { type: Number, default: 0 },
+        english: { type: Number, default: 0 },
+        total: { type: Number, default: 0 }
+      },
       categoryPerformance: {
         type: Map,
         of: {
@@ -92,6 +102,16 @@ const userSchema = new mongoose.Schema({
       bestScore: { type: Number, default: 0 },
       timeSpent: { type: Number, default: 0 },
       lastAttempt: { type: Date, default: null },
+      latestScaledScore: {
+        math: { type: Number, default: 0 },
+        reading_writing: { type: Number, default: 0 },
+        total: { type: Number, default: 0 }
+      },
+      bestScaledScore: {
+        math: { type: Number, default: 0 },
+        reading_writing: { type: Number, default: 0 },
+        total: { type: Number, default: 0 }
+      },
       categoryPerformance: {
         type: Map,
         of: {
