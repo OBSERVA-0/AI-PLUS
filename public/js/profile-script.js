@@ -342,7 +342,7 @@ async function loadUserProfile() {
 
             // Populate SHSAT Scores section
             const shsatProgress = user.testProgress.shsat;
-            if (shsatProgress && shsatProgress.testsCompleted > 0) {
+            if (shsatProgress && shsatProgress.testsCompleted > 0 && shsatProgress.bestScaledScore && shsatProgress.bestScaledScore.total > 0) {
                 const shsatSection = document.querySelector('.shsat-scores-section');
                 if (shsatSection) shsatSection.style.display = 'block';
 
@@ -357,7 +357,7 @@ async function loadUserProfile() {
 
             // Populate SAT Scores section
             const satProgress = user.testProgress.sat;
-            if (satProgress && satProgress.testsCompleted > 0) {
+            if (satProgress && satProgress.testsCompleted > 0 && satProgress.bestScaledScore && satProgress.bestScaledScore.total > 0) {
                 const satSection = document.querySelector('.sat-scores-section');
                 if (satSection) satSection.style.display = 'block';
 
