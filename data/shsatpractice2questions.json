@@ -1,19 +1,5 @@
 [
-    {
-        "_id": "0",
-        "question_number": 0,
-        "practice_set": "2",
-        "category": "English: Sentence Structure",
-        "difficulty": "",
-        "time_estimate": 60,
-        "passage": "English Part A Directions: Read and answer each of the following questions. You must recognize and correct errors in Conventions of standard written English in sentences or short paragraphs. Mark the best answer for each question on the answer sheet. ",
-        "question_text": "Click I understand to begin the practice set.",
-        "options": [
-           "I Understand"
-        ],
-        "correct_answer": 0
-    },
-    {
+        {
         "_id": "1",
         "question_number": 1,
         "practice_set": "2",
@@ -63,20 +49,6 @@
             "sentence 4"
         ],
         "correct_answer": 0
-    },
-    {
-        "_id": "",
-        "question_number": 4,
-        "practice_set": "2",
-        "category": "English: Sentence Structure",
-        "difficulty": "easy",
-        "time_estimate": 60,
-        "passage":"English Part B:\n\nDirections: Read the passage below and answer the questions following it. Each question asks how best to improve the writing quality of the passage and to correct errors so that the passage follows the conventions of standard written English. You may reread the passage if you need to. Mark the best answer for each question. ",
-        "question_text": "Click I understand to continue.",
-        "options": [
-            "I Understand"
-        ],
-        "correct_answer": null
     },
     {
         "_id": "4",
