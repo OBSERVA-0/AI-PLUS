@@ -1,5 +1,6 @@
 const express = require('express');
 const User = require('../models/User');
+const TestCode = require('../models/TestCode');
 const { auth } = require('../middleware/auth');
 
 const router = express.Router();
@@ -251,6 +252,36 @@ router.get('/dashboard-stats', auth, requireAdmin, async (req, res) => {
       message: 'Error retrieving dashboard statistics'
     });
   }
+});
+
+// @route   POST /api/admin/generate-test-code
+// @desc    Generate a new global test code
+// @access  Private (Admin only)
+router.post('/generate-test-code', auth, requireAdmin, async (req, res) => {
+    try {
+        const newCode = Math.floor(100 + Math.random() * 900).toString();
+
+        const updatedCode = await TestCode.findOneAndUpdate(
+            { name: 'global' },
+            { code: newCode },
+            { new: true, upsert: true }
+        );
+
+        res.json({
+            success: true,
+            message: 'New test code generated successfully.',
+            data: {
+                code: updatedCode.code
+            }
+        });
+
+    } catch (error) {
+        console.error('❌ Generate test code error:', error);
+        res.status(500).json({
+            success: false,
+            message: 'Error generating new test code.'
+        });
+    }
 });
 
 module.exports = router; 

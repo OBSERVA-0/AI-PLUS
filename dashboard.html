@@ -309,6 +309,19 @@
             </section>
         </div>
     </main>
+
+    <!-- Test Code Modal -->
+    <div id="test-code-modal" class="modal" style="display: none;">
+        <div class="modal-content">
+            <span class="close-button">&times;</span>
+            <h2>Enter Test Code</h2>
+            <p>Please enter the 3-digit code to start the test.</p>
+            <input type="text" id="test-code-input" class="test-code-input" maxlength="3" placeholder="_ _ _">
+            <button id="submit-test-code" class="btn btn-primary">Start Test</button>
+            <p id="test-code-error" class="error-message" style="display: none;"></p>
+        </div>
+    </div>
+
     <script src="/js/dashboard-script.js" type="module"></script>
 </body>
 </html> 

@@ -308,6 +308,48 @@
             font-weight: 500;
         }
         
+        .admin-tools {
+            margin-top: 2rem;
+            padding: 1.5rem;
+            background: white;
+            border-radius: 12px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+        }
+        
+        .tool-card {
+            background: #f9fafb;
+            border-radius: 8px;
+            padding: 1.5rem;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+            margin-bottom: 1.5rem;
+        }
+        
+        .tool-card h3 {
+            color: #1f2937;
+            font-size: 1.1rem;
+            font-weight: 500;
+            margin: 0 0 0.5rem 0;
+        }
+        
+        .tool-card p {
+            color: #6b7280;
+            font-size: 0.875rem;
+        }
+        
+        .btn-secondary {
+            background: #f9fafb;
+            color: #6b7280;
+            border: 1px solid #e5e7eb;
+            padding: 0.75rem 1rem;
+            border-radius: 6px;
+            cursor: pointer;
+            transition: all 0.2s;
+        }
+        
+        .btn-secondary:hover {
+            background: #f3f4f6;
+        }
+        
         @media (max-width: 768px) {
             .admin-stats {
                 grid-template-columns: 1fr;
@@ -404,6 +446,15 @@
                             <option value="12">12th Grade</option>
                         </select>
                     </div>
+                </div>
+            </section>
+
+            <!-- Admin Tools -->
+            <section class="admin-tools">
+                <div class="tool-card">
+                    <h3>Admin Tools</h3>
+                    <p>Use these tools for site management.</p>
+                    <button id="generate-code-btn" class="btn btn-secondary">Generate New Test Code</button>
                 </div>
             </section>
 

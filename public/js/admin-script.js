@@ -72,6 +72,12 @@ class AdminService {
     static async getStudent(id) {
         return this.makeRequest(`/admin/student/${id}`);
     }
+
+    static async generateTestCode() {
+        return this.makeRequest('/admin/generate-test-code', {
+            method: 'POST'
+        });
+    }
 }
 
 // State management
@@ -98,7 +104,8 @@ const elements = {
     studentsCount: document.getElementById('students-count'),
     pagination: document.getElementById('pagination'),
     userName: document.getElementById('user-name'),
-    logoutBtn: document.getElementById('logout-btn')
+    logoutBtn: document.getElementById('logout-btn'),
+    generateCodeBtn: document.getElementById('generate-code-btn')
 };
 
 // Utility functions
@@ -382,6 +389,24 @@ function handleStudentClick(event) {
     }
 }
 
+// Handle generate test code button click
+async function handleGenerateCodeClick() {
+    if (!confirm('Are you sure you want to generate a new test code? This will invalidate the old one.')) {
+        return;
+    }
+
+    try {
+        const response = await AdminService.generateTestCode();
+        if (response.success) {
+            alert(`New test code generated: ${response.data.code}`);
+        } else {
+            throw new Error(response.message || 'Failed to generate code');
+        }
+    } catch (error) {
+        alert(`Error: ${error.message}`);
+    }
+}
+
 // Handle logout
 function handleLogout() {
     localStorage.removeItem('authToken');
@@ -427,6 +452,7 @@ async function init() {
     elements.pagination.addEventListener('click', handlePaginationClick);
     elements.studentsGrid.addEventListener('click', handleStudentClick);
     elements.logoutBtn.addEventListener('click', handleLogout);
+    elements.generateCodeBtn.addEventListener('click', handleGenerateCodeClick);
     
     // Load initial data
     await Promise.all([

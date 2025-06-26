@@ -2189,4 +2189,63 @@ body {
 }
 .progress-actions {
   margin-top: 1.5rem;
+}
+
+/* Modal styles */
+.modal {
+    position: fixed;
+    z-index: 1000;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0,0,0,0.5);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.modal-content {
+    background-color: #fefefe;
+    margin: auto;
+    padding: 2rem;
+    border: 1px solid #888;
+    width: 90%;
+    max-width: 400px;
+    border-radius: 12px;
+    text-align: center;
+    position: relative;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+}
+
+.close-button {
+    color: #aaa;
+    position: absolute;
+    top: 10px;
+    right: 20px;
+    font-size: 28px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.close-button:hover,
+.close-button:focus {
+    color: black;
+}
+
+.test-code-input {
+    width: 100px;
+    padding: 0.75rem;
+    font-size: 1.5rem;
+    text-align: center;
+    letter-spacing: 10px;
+    border: 2px solid #e5e7eb;
+    border-radius: 8px;
+    margin: 1rem 0;
+}
+
+.error-message {
+    color: #dc2626;
+    margin-top: 1rem;
 } 

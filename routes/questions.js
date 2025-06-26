@@ -5,6 +5,7 @@ const path = require('path');
 const { readQuestionsFromJSON } = require('../utils/questionReader');
 const { convertRawToScaled: convertShsatRawToScaled } = require('../utils/shsatScoring');
 const { convertSatRawToScaled } = require('../utils/satScoring');
+const TestCode = require('../models/TestCode');
 
 const router = express.Router();
 
@@ -295,6 +296,30 @@ router.post('/submit', validateSubmitAnswers, handleValidationErrors, async (req
       message: 'Error processing test submission'
     });
   }
+});
+
+// @route   POST /api/questions/validate-code
+// @desc    Validate a test code
+// @access  Public (for now)
+router.post('/validate-code', async (req, res) => {
+    const { testCode } = req.body;
+
+    try {
+        const storedCode = await TestCode.findOne({ name: 'global' });
+
+        if (!storedCode) {
+            return res.status(500).json({ success: false, message: 'Test code not configured.' });
+        }
+    
+        if (testCode === storedCode.code) {
+            res.json({ success: true, message: 'Test code is valid.' });
+        } else {
+            res.status(400).json({ success: false, message: 'Invalid test code.' });
+        }
+    } catch (error) {
+        console.error('Error validating test code:', error);
+        res.status(500).json({ success: false, message: 'Server error during code validation.' });
+    }
 });
 
 module.exports = router; 

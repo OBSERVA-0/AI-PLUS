@@ -147,6 +147,13 @@ class QuestionsService {
         }
         return await response.json();
     }
+
+    static async validateTestCode(testCode) {
+        return await AuthService.makeRequest('/questions/validate-code', {
+            method: 'POST',
+            body: JSON.stringify({ testCode })
+        });
+    }
 }
 
 // Stats management functions
@@ -327,7 +334,7 @@ function setupEventListeners() {
             const practiceSet = e.target.dataset.practiceSet || '1';
             
             if (!button.disabled) {
-                startTest(testType, practiceSet);
+                showTestCodeModal(testType, practiceSet);
             }
         });
     });
@@ -1769,3 +1776,49 @@ class ScrollLock {
 
 // Initialize scroll lock
 const scrollLock = new ScrollLock();
+
+function showTestCodeModal(testType, practiceSet) {
+    const modal = document.getElementById('test-code-modal');
+    const closeButton = modal.querySelector('.close-button');
+    const submitButton = modal.querySelector('#submit-test-code');
+    const codeInput = modal.querySelector('#test-code-input');
+    const errorMessage = modal.querySelector('#test-code-error');
+
+    modal.style.display = 'flex';
+    errorMessage.style.display = 'none';
+    codeInput.value = '';
+
+    const clickEventHandler = async () => {
+        const testCode = codeInput.value;
+        if (testCode.length !== 3) {
+            errorMessage.textContent = 'Please enter a 3-digit code.';
+            errorMessage.style.display = 'block';
+            return;
+        }
+
+        try {
+            const response = await QuestionsService.validateTestCode(testCode);
+            if (response.success) {
+                modal.style.display = 'none';
+                startTest(testType, practiceSet);
+            } else {
+                errorMessage.textContent = response.message || 'Invalid code.';
+                errorMessage.style.display = 'block';
+            }
+        } catch (error) {
+            errorMessage.textContent = 'Error validating code. Please try again.';
+            errorMessage.style.display = 'block';
+        }
+    };
+
+    submitButton.onclick = clickEventHandler;
+    closeButton.onclick = () => {
+        modal.style.display = 'none';
+    };
+
+    window.onclick = (event) => {
+        if (event.target === modal) {
+            modal.style.display = 'none';
+        }
+    };
+}
