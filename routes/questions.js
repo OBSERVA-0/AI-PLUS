@@ -237,9 +237,13 @@ router.post('/submit', validateSubmitAnswers, handleValidationErrors, async (req
 
     // Add SHSAT scaled scores if applicable
     if (testType === 'shsat') {
-      const scaledMath = convertShsatRawToScaled(shsatSectionScores.math.correct);
-      const scaledEnglish = convertShsatRawToScaled(shsatSectionScores.english.correct);
+      const totalRawScore = shsatSectionScores.math.correct + shsatSectionScores.english.correct;
+      const totalScaledScore = convertShsatRawToScaled(totalRawScore);
       
+      // Approximate section scaled scores as we don't have separate tables
+      const scaledMath = Math.round(totalScaledScore / 2);
+      const scaledEnglish = Math.round(totalScaledScore / 2);
+
       responseData.results.shsatScores = {
         math: {
           rawScore: shsatSectionScores.math.correct,
@@ -253,7 +257,7 @@ router.post('/submit', validateSubmitAnswers, handleValidationErrors, async (req
           percentage: shsatSectionScores.english.total > 0 ? Math.round((shsatSectionScores.english.correct / shsatSectionScores.english.total) * 100) : 0,
           scaledScore: scaledEnglish
         },
-        totalScaledScore: scaledMath + scaledEnglish
+        totalScaledScore: totalScaledScore
       };
     }
 
