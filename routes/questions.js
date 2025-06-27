@@ -3,7 +3,7 @@ const { body, validationResult, query } = require('express-validator');
 const fs = require('fs').promises;
 const path = require('path');
 const { readQuestionsFromJSON } = require('../utils/questionReader');
-const { convertRawToScaled: convertShsatRawToScaled } = require('../utils/shsatScoring');
+const { convertRawToScaled: convertShsatRawToScaled, calculateShsatScores } = require('../utils/shsatScoring');
 const { convertSatRawToScaled } = require('../utils/satScoring');
 const TestCode = require('../models/TestCode');
 
@@ -238,27 +238,26 @@ router.post('/submit', validateSubmitAnswers, handleValidationErrors, async (req
 
     // Add SHSAT scaled scores if applicable
     if (testType === 'shsat') {
-      const totalRawScore = shsatSectionScores.math.correct + shsatSectionScores.english.correct;
-      const totalScaledScore = convertShsatRawToScaled(totalRawScore);
-      
-      // Approximate section scaled scores as we don't have separate tables
-      const scaledMath = Math.round(totalScaledScore / 2);
-      const scaledEnglish = Math.round(totalScaledScore / 2);
+      // Use the new accurate SHSAT scoring system
+      const shsatScoreResults = calculateShsatScores(
+        shsatSectionScores.math.correct,
+        shsatSectionScores.english.correct
+      );
 
       responseData.results.shsatScores = {
         math: {
           rawScore: shsatSectionScores.math.correct,
           totalQuestions: shsatSectionScores.math.total,
           percentage: shsatSectionScores.math.total > 0 ? Math.round((shsatSectionScores.math.correct / shsatSectionScores.math.total) * 100) : 0,
-          scaledScore: scaledMath
+          scaledScore: shsatScoreResults.math.scaledScore
         },
         english: {
           rawScore: shsatSectionScores.english.correct,
           totalQuestions: shsatSectionScores.english.total,
           percentage: shsatSectionScores.english.total > 0 ? Math.round((shsatSectionScores.english.correct / shsatSectionScores.english.total) * 100) : 0,
-          scaledScore: scaledEnglish
+          scaledScore: shsatScoreResults.english.scaledScore
         },
-        totalScaledScore: totalScaledScore
+        totalScaledScore: shsatScoreResults.totalScaledScore
       };
     }
 

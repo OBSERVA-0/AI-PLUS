@@ -1,24 +1,78 @@
-const shsatScoringTable = {
-    0: 200, 1: 210, 2: 220, 3: 230, 4: 240, 5: 250, 6: 260, 7: 270, 8: 280, 9: 290,
-    10: 300, 11: 310, 12: 320, 13: 330, 14: 340, 15: 350, 16: 360, 17: 370, 18: 380, 19: 390,
-    20: 400, 21: 405, 22: 410, 23: 415, 24: 420, 25: 425, 26: 430, 27: 435, 28: 440, 29: 445,
-    30: 450, 31: 455, 32: 460, 33: 465, 34: 470, 35: 475, 36: 480, 37: 485, 38: 490, 39: 495,
-    40: 500, 41: 505, 42: 510, 43: 515, 44: 520, 45: 525, 46: 530, 47: 535, 48: 540, 49: 545,
-    50: 550, 51: 555, 52: 560, 53: 565, 54: 570, 55: 575, 56: 580, 57: 585, 58: 590, 59: 595,
-    60: 600, 61: 605, 62: 610, 63: 615, 64: 620, 65: 625, 66: 630, 67: 635, 68: 640, 69: 645,
-    70: 650, 71: 655, 72: 660, 73: 665, 74: 670, 75: 675, 76: 680, 77: 685, 78: 690, 79: 695,
-    80: 700, 81: 705, 82: 710, 83: 715, 84: 720, 85: 725, 86: 730, 87: 735, 88: 740, 89: 745,
-    90: 750, 91: 755, 92: 760, 93: 765, 94: 770, 95: 775, 96: 780, 97: 785, 98: 790, 99: 795,
-    100: 800, 101: 800, 102: 800, 103: 800, 104: 800, 105: 800, 106: 800, 107: 800, 108: 800, 109: 800,
-    110: 800, 111: 800, 112: 800, 113: 800, 114: 800
+// SHSAT Scoring Table - Based on official NYC DOE methodology
+// Each section (ELA and Math) is scored separately out of ~350 points
+// Total maximum score is ~700 (350 + 350)
+// Raw scores are based on 57 questions per section, but only 47 count (10 are field questions)
+
+// Per-section scoring table (0-57 raw score -> scaled score per section)
+// Based on official prep materials and established conversion patterns
+const shsatSectionScoringTable = {
+    0: 0, 1: 16, 2: 26, 3: 37, 4: 51, 5: 65, 6: 74, 7: 83, 8: 90, 9: 98,
+    10: 105, 11: 130, 12: 134, 13: 141, 14: 146, 15: 152, 16: 158, 17: 163, 18: 168, 19: 172,
+    20: 177, 21: 181, 22: 186, 23: 190, 24: 194, 25: 201, 26: 204, 27: 208, 28: 211, 29: 215,
+    30: 218, 31: 222, 32: 226, 33: 229, 34: 233, 35: 236, 36: 240, 37: 243, 38: 247, 39: 250,
+    40: 254, 41: 257, 42: 261, 43: 266, 44: 266, 45: 270, 46: 274, 47: 279, 48: 285, 49: 291,
+    50: 297, 51: 306, 52: 315, 53: 323, 54: 333, 55: 344, 56: 355, 57: 365
 };
 
-const convertRawToScaled = (rawScore) => {
-    if (rawScore < 0) return 200;
-    if (rawScore > 114) return 800;
-    return shsatScoringTable[rawScore] || 200;
+/**
+ * Convert raw score to scaled score for a single SHSAT section
+ * @param {number} rawScore - Raw score (0-57)
+ * @returns {number} Scaled score for the section (0-365)
+ */
+const convertRawToScaledSection = (rawScore) => {
+    if (rawScore < 0) return 0;
+    if (rawScore > 57) return 365;
+    return shsatSectionScoringTable[rawScore] || 0;
+};
+
+/**
+ * Calculate SHSAT scores for both sections
+ * @param {number} mathRawScore - Raw math score (0-57)
+ * @param {number} elaRawScore - Raw ELA score (0-57)
+ * @returns {Object} Object containing section scores and total
+ */
+const calculateShsatScores = (mathRawScore, elaRawScore) => {
+    const mathScaledScore = convertRawToScaledSection(mathRawScore);
+    const elaScaledScore = convertRawToScaledSection(elaRawScore);
+    const totalScaledScore = mathScaledScore + elaScaledScore;
+    
+    return {
+        math: {
+            rawScore: mathRawScore,
+            scaledScore: mathScaledScore
+        },
+        english: {
+            rawScore: elaRawScore,
+            scaledScore: elaScaledScore
+        },
+        totalRawScore: mathRawScore + elaRawScore,
+        totalScaledScore: totalScaledScore
+    };
+};
+
+/**
+ * Legacy function for backward compatibility
+ * Converts total raw score (0-114) to total scaled score
+ * This assumes equal performance on both sections
+ * @param {number} totalRawScore - Total raw score (0-114)
+ * @returns {number} Total scaled score
+ */
+const convertRawToScaled = (totalRawScore) => {
+    if (totalRawScore < 0) return 0;
+    if (totalRawScore > 114) return 730;
+    
+    // Split the raw score evenly between sections for legacy compatibility
+    const mathRaw = Math.floor(totalRawScore / 2);
+    const elaRaw = Math.ceil(totalRawScore / 2);
+    
+    const mathScaled = convertRawToScaledSection(mathRaw);
+    const elaScaled = convertRawToScaledSection(elaRaw);
+    
+    return mathScaled + elaScaled;
 };
 
 module.exports = {
-    convertRawToScaled
+    convertRawToScaled,
+    convertRawToScaledSection,
+    calculateShsatScores
 };
