@@ -125,6 +125,69 @@ router.get('/students', auth, requireAdmin, async (req, res) => {
   }
 });
 
+// Helper function to aggregate category scores for any test type
+const getAggregatedCategoryScores = (testProgress) => {
+  if (!testProgress || !testProgress.categoryPerformance) {
+    return {
+      math: { averageScore: 0, totalCorrect: 0, totalQuestions: 0 },
+      english: { averageScore: 0, totalCorrect: 0, totalQuestions: 0 }
+    };
+  }
+  const aggregated = {
+    math: { totalCorrect: 0, totalQuestions: 0 },
+    english: { totalCorrect: 0, totalQuestions: 0 }
+  };
+  for (const [category, data] of testProgress.categoryPerformance.entries()) {
+    const categoryLower = category.toLowerCase();
+    let mainCategory;
+    if (categoryLower.includes('math')) {
+      mainCategory = 'math';
+    } else if (categoryLower.includes('english')) {
+      mainCategory = 'english';
+    } else {
+      continue;
+    }
+    aggregated[mainCategory].totalQuestions += data.totalQuestions;
+    aggregated[mainCategory].totalCorrect += data.correctAnswers;
+  }
+  const calculateAverage = (subject) => {
+    if (subject.totalQuestions === 0) return 0;
+    return Math.round((subject.totalCorrect / subject.totalQuestions) * 100);
+  };
+  return {
+    math: {
+      averageScore: calculateAverage(aggregated.math),
+      totalCorrect: aggregated.math.totalCorrect,
+      totalQuestions: aggregated.math.totalQuestions
+    },
+    english: {
+      averageScore: calculateAverage(aggregated.english),
+      totalCorrect: aggregated.english.totalCorrect,
+      totalQuestions: aggregated.english.totalQuestions
+    }
+  };
+};
+
+// Helper function to get overall Math and English averages across all tests
+const getOverallCategoryAverages = (testProgress) => {
+  const shsatAverages = getAggregatedCategoryScores(testProgress.shsat);
+  const satAverages = getAggregatedCategoryScores(testProgress.sat);
+  const overallMath = {
+    totalCorrect: shsatAverages.math.totalCorrect + satAverages.math.totalCorrect,
+    totalQuestions: shsatAverages.math.totalQuestions + satAverages.math.totalQuestions
+  };
+  const overallEnglish = {
+    totalCorrect: shsatAverages.english.totalCorrect + satAverages.english.totalCorrect,
+    totalQuestions: shsatAverages.english.totalQuestions + satAverages.english.totalQuestions
+  };
+  const overallMathAverage = overallMath.totalQuestions > 0 ? Math.round((overallMath.totalCorrect / overallMath.totalQuestions) * 100) : 0;
+  const overallEnglishAverage = overallEnglish.totalQuestions > 0 ? Math.round((overallEnglish.totalCorrect / overallEnglish.totalQuestions) * 100) : 0;
+  return {
+    math: overallMathAverage,
+    english: overallEnglishAverage
+  };
+};
+
 // @route   GET /api/admin/student/:id
 // @desc    Get detailed student data
 // @access  Private (Admin only)
@@ -141,7 +204,7 @@ router.get('/student/:id', auth, requireAdmin, async (req, res) => {
     
     const stats = student.getStats();
     const masterySummary = student.getMasterySummary();
-    const categoryPerformance = student.getCategoryPerformance();
+    const categoryAverages = getOverallCategoryAverages(student.testProgress);
     
     res.json({
       success: true,
@@ -156,7 +219,7 @@ router.get('/student/:id', auth, requireAdmin, async (req, res) => {
             createdAt: student.createdAt,
             lastLogin: student.lastLogin,
             isActive: student.isActive,
-            categoryAverages: categoryPerformance.categoryAverages
+            categoryAverages: categoryAverages
         },
         stats: stats,
         testProgress: student.testProgress,
