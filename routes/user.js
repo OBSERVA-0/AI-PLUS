@@ -139,30 +139,31 @@ router.get('/profile', auth, async (req, res) => {
   try {
     const user = await User.findById(req.user._id);
     
-    // Aggregate SHSAT and SAT scores
     const categoryAverages = getOverallCategoryAverages(user.testProgress);
-    const masterySummary = user.getMasterySummary();
-    const totalMasteryAreas = Object.keys(masterySummary).length;
+    const totalMasteryAreas = Object.keys(user.getMasterySummary()).length;
+
+    const userData = {
+        id: user._id,
+        firstName: user.firstName,
+        lastName: user.lastName,
+        fullName: user.fullName,
+        email: user.email,
+        grade: user.grade,
+        role: user.role,
+        emailVerified: user.emailVerified,
+        preferences: user.preferences,
+        testProgress: user.testProgress,
+        stats: user.getStats(),
+        categoryAverages: categoryAverages,
+        totalMasteryAreas: totalMasteryAreas,
+        createdAt: user.createdAt,
+        lastLogin: user.lastLogin
+    };
+
     res.json({
       success: true,
       data: {
-        user: {
-          id: user._id,
-          firstName: user.firstName,
-          lastName: user.lastName,
-          fullName: user.fullName,
-          email: user.email,
-          grade: user.grade,
-          role: user.role,
-          emailVerified: user.emailVerified,
-          preferences: user.preferences,
-          testProgress: user.testProgress,
-          stats: user.getStats(),
-          categoryAverages,
-          totalMasteryAreas,
-          createdAt: user.createdAt,
-          lastLogin: user.lastLogin
-        }
+        user: userData
       }
     });
   } catch (error) {
