@@ -29,7 +29,7 @@ app.use('/api/', limiter);
 // Auth rate limiting (more restrictive)
 const authLimiter = rateLimit({
     windowMs: 15 * 60 * 1000, // 15 minutes
-    max: 1000, // limit each IP to 50 requests per windowMs for auth endpoints
+    max: 1000000, // limit each IP to 50 requests per windowMs for auth endpoints
     handler: function (req, res) {
         res.status(429).json({
             success: false,
