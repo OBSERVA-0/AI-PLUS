@@ -146,12 +146,13 @@ body {
 }
 
 .btn-secondary {
-    background: #6b7280;
-    color: white;
+    background: #f3f4f6;
+    color: #4b5563;
+    border: 1px solid #d1d5db;
 }
 
-.btn-secondary:hover:not(:disabled) {
-    background: #4b5563;
+.btn-secondary:hover {
+    background: #e5e7eb;
 }
 
 .btn-outline {
@@ -168,6 +169,18 @@ body {
 .btn:disabled {
     opacity: 0.5;
     cursor: not-allowed;
+}
+
+.btn-diagnostic {
+    background: #dbeafe;
+    color: #1e40af;
+    border: 1px solid #93c5fd;
+    margin-top: 0.5rem;
+    width: 100%;
+}
+
+.btn-diagnostic:hover {
+    background: #bfdbfe;
 }
 
 /* Test Selection Section */

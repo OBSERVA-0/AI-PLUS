@@ -1,0 +1,1022 @@
+[
+    {
+        "_id": "1",
+        "question_number": 1,
+        "practice_set": "Diagnostic_Test",
+        "category": "English:Editing/Revising",
+        "difficulty": "easy",
+        "time_estimate": 60,
+        "passage": "Read this sentence:\n\nWhenever we hear of a natural disaster, even in a distant part of the world, you feel compassion for the people affected.",
+        "question_text": "Which edit should be made to correct this sentence?",
+        "options": [
+            "change we hear to you heard",
+            "change you feel to we feel",
+            "change compassion to sorry",
+            "change affected to effected"
+        ],
+        "correct_answer": 1
+    },
+    {
+        "_id": "2",
+        "question_number": 2,
+        "practice_set": "Diagnostic_Test",
+        "category": "English:Editing/Revising",
+        "difficulty": "easy",
+        "time_estimate": 60,
+        "passage": "Read this sentence:\n\nAlthough I enjoyed the movie about the teenage wizard I must admit that I found the acting unconvincing.",
+        "question_text": "Which edit should be made to correct this sentence?",
+        "options": [
+            "add a comma after movie",
+            "add a comma after wizard",
+            "add a comma after admit",
+            "add a comma after acting"
+        ],
+        "correct_answer": 1
+    },
+    {
+        "_id": "3",
+        "question_number": 3,
+        "practice_set": "Diagnostic_Test",
+        "category": "English:Editing/Revising",
+        "difficulty": "medium",
+        "time_estimate": 90,
+        "passage": "Read this paragraph:\n\n(1) On his way back to his car, Mitchell suddenly realized that his keys were not in his pocket. (2) He panicked at first, but quickly told himself to calm down and think about where he had last seen them. (3) He remembered fumbling around in his pocket for money to pay for food at Fontana's cheesesteak stand and raced back to the beach. (4) Mitchell was relieved to find his keys searching along the boardwalk in front of Fontana's.",
+        "question_text": "Which sentence should be revised to correct a misplaced modifier?",
+        "options": [
+            "sentence 1",
+            "sentence 2",
+            "sentence 3",
+            "sentence 4"
+        ],
+        "correct_answer": 3
+    },
+    {
+        "_id": "4",
+        "question_number": 4,
+        "practice_set": "Diagnostic_Test",
+        "category": "English:Editing/Revising",
+        "difficulty": "easy",
+        "time_estimate": 60,
+        "passage": "(1) On the evening of September 10, 1945, eighteen days after he received the Congressional Medal of Honor from President Harry Truman, a war hero looking for a meal enters a dining establishment in Richmond, Texas. (2) Named after Richmond, England, the town is situated within the Houston-Sugar Land metropolitan area. (3) The violence that ensued that night proved a pivotal moment in the modern civil rights movement. (4) It happened a decade before Rosa Parks took her historic Montgomery City bus ride. (5) Occurring in a little-known corner of Jim Crow country, the event centers on Macario Garcia, a twenty-five-year-old Mexican national, who had earned the United States's highest award for valor in action in Germany's Hürtgen Forest.\n\n(6) Garcia's story is one of the dozens touched upon in a sweeping new PBS documentary, Latino Americans, a chronicle of the lives and experiences of Hispanics in the United States from the 1500s to the twenty-first century. (7) The series covers the earliest settlers in California and Texas, telling the stories of immigrants-coming in waves from Puerto Rico, Cuba, and the Dominican Republic-as well as civil rights heroes such as Dolores Huerta and César Chávez. (8) This Hispanic Moment reflects a timely story of how Latinos have long been part of the United States.\n\n(9) Macario Garcia's contribution is detailed in the third episode, \"War and Peace,\" which is about the estimated half-million Latinos from all over the country and Puerto Rico who served in World War II-often side by side with whites, instead of being segregated into separate companies as the million-plus African-American service men and women were. (10) Never before had such a diversity of soldiers marched into battle together and sacrificed so much. (11) Indeed, Latino Americans were deeply disappointed in the results from the sacrifices that they had made. (12) The Latino community would forge a new future with Macario Garcia as a symbol of their contributions as Americans. (13) The war hastened vast societal changes-like desegregating many workplaces to support the war effort-Hispanics, even after their service and sacrifice, had to endure the same second-class citizenship they lived with before the war.",
+        "question_text": "Which edit is needed to correct sentence 1?",
+        "options": [
+            "change looking to looked",
+            "change enters to have entered",
+            "change enters to entered",
+            "change received to having received"
+        ],
+        "correct_answer": 2
+    },
+    {
+        "_id": "5",
+        "question_number": 5,
+        "practice_set": "Diagnostic_Test",
+        "category": "English:Editing/Revising",
+        "difficulty": "easy",
+        "time_estimate": 90,
+        "passage": "(1) On the evening of September 10, 1945, eighteen days after he received the Congressional Medal of Honor from President Harry Truman, a war hero looking for a meal enters a dining establishment in Richmond, Texas. (2) Named after Richmond, England, the town is situated within the Houston-Sugar Land metropolitan area. (3) The violence that ensued that night proved a pivotal moment in the modern civil rights movement. (4) It happened a decade before Rosa Parks took her historic Montgomery City bus ride. (5) Occurring in a little-known corner of Jim Crow country, the event centers on Macario Garcia, a twenty-five-year-old Mexican national, who had earned the United States's highest award for valor in action in Germany's Hürtgen Forest.\n\n(6) Garcia's story is one of the dozens touched upon in a sweeping new PBS documentary, Latino Americans, a chronicle of the lives and experiences of Hispanics in the United States from the 1500s to the twenty-first century. (7) The series covers the earliest settlers in California and Texas, telling the stories of immigrants-coming in waves from Puerto Rico, Cuba, and the Dominican Republic-as well as civil rights heroes such as Dolores Huerta and César Chávez. (8) This Hispanic Moment reflects a timely story of how Latinos have long been part of the United States.\n\n(9) Macario Garcia's contribution is detailed in the third episode, \"War and Peace,\" which is about the estimated half-million Latinos from all over the country and Puerto Rico who served in World War II-often side by side with whites, instead of being segregated into separate companies as the million-plus African-American service men and women were. (10) Never before had such a diversity of soldiers marched into battle together and sacrificed so much. (11) Indeed, Latino Americans were deeply disappointed in the results from the sacrifices that they had made. (12) The Latino community would forge a new future with Macario Garcia as a symbol of their contributions as Americans. (13) The war hastened vast societal changes-like desegregating many workplaces to support the war effort-Hispanics, even after their service and sacrifice, had to endure the same second-class citizenship they lived with before the war.",
+        "question_text": "What is the best way to combine sentences 3 and 4 to clarify the relationship between ideas?",
+        "options": [
+            "The violence that ensued that night proved a pivotal moment in the modern civil rights movement, moreover it happened a decade before Rosa Parks took her historic Montgomery City bus ride.",
+            "The violence that ensued that night proved a pivotal moment in the modern civil rights movement, yet it happened a decade before Rosa Parks took her historic Montgomery City bus ride.",
+            "The violence that ensued that night proved a pivotal moment in the modern civil rights movement, because it happened a decade before Rosa Parks took her historic Montgomery City bus ride.",
+            "The violence that ensued that night proved a pivotal moment in the modern civil rights movement, although it happened a decade before Rosa Parks took her historic Montgomery City bus ride."
+        ],
+        "correct_answer": 2
+    },
+    {
+        "_id": "6",
+        "question_number": 6,
+        "practice_set": "Diagnostic_Test",
+        "category": "English:Editing/Revising",
+        "difficulty": "easy",
+        "time_estimate": 60,
+        "passage": "(1) On the evening of September 10, 1945, eighteen days after he received the Congressional Medal of Honor from President Harry Truman, a war hero looking for a meal enters a dining establishment in Richmond, Texas. (2) Named after Richmond, England, the town is situated within the Houston-Sugar Land metropolitan area. (3) The violence that ensued that night proved a pivotal moment in the modern civil rights movement. (4) It happened a decade before Rosa Parks took her historic Montgomery City bus ride. (5) Occurring in a little-known corner of Jim Crow country, the event centers on Macario Garcia, a twenty-five-year-old Mexican national, who had earned the United States's highest award for valor in action in Germany's Hürtgen Forest.\n\n(6) Garcia's story is one of the dozens touched upon in a sweeping new PBS documentary, Latino Americans, a chronicle of the lives and experiences of Hispanics in the United States from the 1500s to the twenty-first century. (7) The series covers the earliest settlers in California and Texas, telling the stories of immigrants-coming in waves from Puerto Rico, Cuba, and the Dominican Republic-as well as civil rights heroes such as Dolores Huerta and César Chávez. (8) This Hispanic Moment reflects a timely story of how Latinos have long been part of the United States.\n\n(9) Macario Garcia's contribution is detailed in the third episode, \"War and Peace,\" which is about the estimated half-million Latinos from all over the country and Puerto Rico who served in World War II-often side by side with whites, instead of being segregated into separate companies as the million-plus African-American service men and women were. (10) Never before had such a diversity of soldiers marched into battle together and sacrificed so much. (11) Indeed, Latino Americans were deeply disappointed in the results from the sacrifices that they had made. (12) The Latino community would forge a new future with Macario Garcia as a symbol of their contributions as Americans. (13) The war hastened vast societal changes-like desegregating many workplaces to support the war effort-Hispanics, even after their service and sacrifice, had to endure the same second-class citizenship they lived with before the war.",
+        "question_text": "Which sentence is irrelevant to the argument presented in the passage and should be deleted?",
+        "options": [
+            "sentence 2",
+            "sentence 3",
+            "sentence 4",
+            "sentence 5"
+        ],
+        "correct_answer": 0
+    },
+    {
+        "_id": "7",
+        "question_number": 7,
+        "practice_set": "Diagnostic_Test",
+        "category": "English:Editing/Revising",
+        "difficulty": "medium",
+        "time_estimate": 90,
+        "passage": "(1) On the evening of September 10, 1945, eighteen days after he received the Congressional Medal of Honor from President Harry Truman, a war hero looking for a meal enters a dining establishment in Richmond, Texas. (2) Named after Richmond, England, the town is situated within the Houston-Sugar Land metropolitan area. (3) The violence that ensued that night proved a pivotal moment in the modern civil rights movement. (4) It happened a decade before Rosa Parks took her historic Montgomery City bus ride. (5) Occurring in a little-known corner of Jim Crow country, the event centers on Macario Garcia, a twenty-five-year-old Mexican national, who had earned the United States's highest award for valor in action in Germany's Hürtgen Forest.\n\n(6) Garcia's story is one of the dozens touched upon in a sweeping new PBS documentary, Latino Americans, a chronicle of the lives and experiences of Hispanics in the United States from the 1500s to the twenty-first century. (7) The series covers the earliest settlers in California and Texas, telling the stories of immigrants-coming in waves from Puerto Rico, Cuba, and the Dominican Republic-as well as civil rights heroes such as Dolores Huerta and César Chávez. (8) This Hispanic Moment reflects a timely story of how Latinos have long been part of the United States.\n\n(9) Macario Garcia's contribution is detailed in the third episode, \"War and Peace,\" which is about the estimated half-million Latinos from all over the country and Puerto Rico who served in World War II-often side by side with whites, instead of being segregated into separate companies as the million-plus African-American service men and women were. (10) Never before had such a diversity of soldiers marched into battle together and sacrificed so much. (11) Indeed, Latino Americans were deeply disappointed in the results from the sacrifices that they had made. (12) The Latino community would forge a new future with Macario Garcia as a symbol of their contributions as Americans. (13) The war hastened vast societal changes-like desegregating many workplaces to support the war effort-Hispanics, even after their service and sacrifice, had to endure the same second-class citizenship they lived with before the war.",
+        "question_text": "Which sentence would best follow sentence 6 to support the topic presented in the passage?",
+        "options": [
+            "It also touches on the importance of roots and family traditions that further challenge ideas about what it means to be American.",
+            "It also addresses the roots of the challenges today's Latinos face in navigating an exciting, yet politically perilous, \"Hispanic Moment.\"",
+            "It also counters many of the assumptions that American culture has not been able to understand well.",
+            "The series is interesting in that it challenges today's assumptions about how Latinos became part of the fabric of American culture."
+        ],
+        "correct_answer": 1
+    },
+    {
+        "_id": "8",
+        "question_number": 8,
+        "practice_set": "Diagnostic_Test",
+        "category": "English:Editing/Revising",
+        "difficulty": "medium",
+        "time_estimate": 90,
+        "passage": "(1) On the evening of September 10, 1945, eighteen days after he received the Congressional Medal of Honor from President Harry Truman, a war hero looking for a meal enters a dining establishment in Richmond, Texas. (2) Named after Richmond, England, the town is situated within the Houston-Sugar Land metropolitan area. (3) The violence that ensued that night proved a pivotal moment in the modern civil rights movement. (4) It happened a decade before Rosa Parks took her historic Montgomery City bus ride. (5) Occurring in a little-known corner of Jim Crow country, the event centers on Macario Garcia, a twenty-five-year-old Mexican national, who had earned the United States's highest award for valor in action in Germany's Hürtgen Forest.\n\n(6) Garcia's story is one of the dozens touched upon in a sweeping new PBS documentary, Latino Americans, a chronicle of the lives and experiences of Hispanics in the United States from the 1500s to the twenty-first century. (7) The series covers the earliest settlers in California and Texas, telling the stories of immigrants-coming in waves from Puerto Rico, Cuba, and the Dominican Republic-as well as civil rights heroes such as Dolores Huerta and César Chávez. (8) This Hispanic Moment reflects a timely story of how Latinos have long been part of the United States.\n\n(9) Macario Garcia's contribution is detailed in the third episode, \"War and Peace,\" which is about the estimated half-million Latinos from all over the country and Puerto Rico who served in World War II-often side by side with whites, instead of being segregated into separate companies as the million-plus African-American service men and women were. (10) Never before had such a diversity of soldiers marched into battle together and sacrificed so much. (11) Indeed, Latino Americans were deeply disappointed in the results from the sacrifices that they had made. (12) The Latino community would forge a new future with Macario Garcia as a symbol of their contributions as Americans. (13) The war hastened vast societal changes-like desegregating many workplaces to support the war effort-Hispanics, even after their service and sacrifice, had to endure the same second-class citizenship they lived with before the war.",
+        "question_text": "Which sentence would best follow and support sentence 8?",
+        "options": [
+            "But Latino Americans of the Greatest Generation did not win the respect they had hoped for.",
+            "As you know, Latino Americans were not happy about this.",
+            "Latino Americans of the Greatest Generation had hoped for much more.",
+            "Latino Americans of the Greatest Generation did win the respect they had hoped for."
+        ],
+        "correct_answer": 0
+    },
+    {
+        "_id": "9",
+        "question_number": 9,
+        "practice_set": "Diagnostic_Test",
+        "category": "English:Editing/Revising",
+        "difficulty": "easy",
+        "time_estimate": 60,
+        "passage": "(1) On the evening of September 10, 1945, eighteen days after he received the Congressional Medal of Honor from President Harry Truman, a war hero looking for a meal enters a dining establishment in Richmond, Texas. (2) Named after Richmond, England, the town is situated within the Houston-Sugar Land metropolitan area. (3) The violence that ensued that night proved a pivotal moment in the modern civil rights movement. (4) It happened a decade before Rosa Parks took her historic Montgomery City bus ride. (5) Occurring in a little-known corner of Jim Crow country, the event centers on Macario Garcia, a twenty-five-year-old Mexican national, who had earned the United States's highest award for valor in action in Germany's Hürtgen Forest.\n\n(6) Garcia's story is one of the dozens touched upon in a sweeping new PBS documentary, Latino Americans, a chronicle of the lives and experiences of Hispanics in the United States from the 1500s to the twenty-first century. (7) The series covers the earliest settlers in California and Texas, telling the stories of immigrants-coming in waves from Puerto Rico, Cuba, and the Dominican Republic-as well as civil rights heroes such as Dolores Huerta and César Chávez. (8) This Hispanic Moment reflects a timely story of how Latinos have long been part of the United States.\n\n(9) Macario Garcia's contribution is detailed in the third episode, \"War and Peace,\" which is about the estimated half-million Latinos from all over the country and Puerto Rico who served in World War II-often side by side with whites, instead of being segregated into separate companies as the million-plus African-American service men and women were. (10) Never before had such a diversity of soldiers marched into battle together and sacrificed so much. (11) Indeed, Latino Americans were deeply disappointed in the results from the sacrifices that they had made. (12) The Latino community would forge a new future with Macario Garcia as a symbol of their contributions as Americans. (13) The war hastened vast societal changes-like desegregating many workplaces to support the war effort-Hispanics, even after their service and sacrifice, had to endure the same second-class citizenship they lived with before the war.",
+        "question_text": "Which revision of sentence 10 uses the most precise language?",
+        "options": [
+            "Never before had such soldiers marched together for so little.",
+            "There been never before such sacrifice for so little gained.",
+            "Never before had a diversity of soldiers marched into battle together and sacrificed so much.",
+            "Never before such soldiers have marched together for so much and received so little from the world."
+        ],
+        "correct_answer": 2
+    },
+    {
+        "_id": "10",
+        "question_number": 10,
+        "practice_set": "Diagnostic_Test",
+        "category": "English:Reading Comprehension",
+        "difficulty": "easy",
+        "time_estimate": 90,
+        "passage": "Biologists have advanced two theories to explain why schooling of fish occurs in so many fish species. Because schooling is particularly widespread among (5) species of small fish, both theories assume that schooling offers the advantage of some protection from predators.\n\nProponents of theory A dispute the assumption that a school of thousands of fish is highly visible. Experiments have shown that any fish can be seen, (10) even in very clear water, only within a sphere of 200 meters in diameter. When fish are in a compact group, their spheres of visibility overlap. Thus the chance of a predator finding the school is only slightly greater than the chance of the predator (15) finding a single fish swimming alone. Schooling is advantageous to the individual fish because a predator's chance of finding any particular fish swimming in the school is much smaller than its chance of finding at least one of the same group of (20) fish if the fish were dispersed throughout an area.\n\nHowever, opponents of theory A point out that some fish form schools even in areas where predators are abundant and thus little possibility of escaping detection exists. They argue that the school continues (25) to be of value to its members even after detection. They advocate theory B, the \"confusion effect,\" which can be explained in two different ways.\n\nSometimes, proponents argue, predators simply cannot decide which fish to attack. This indecision (30) supposedly results from a predator's preference for striking prey that is distinct from the rest of the school in appearance. In many schools the fish are almost identical in appearance, making it difficult for a predator to select one. The second explanation for (35) the \"confusion effect\" has to do with the sensory confusion caused by a large number of prey moving around the predator. Even if the predator makes the decision to attack a particular fish, the movement of other prey in the school can be distracting. The (40) predator's difficulty can be compared to that of a tennis player trying to hit a tennis ball when two are approaching simultaneously.",
+        "question_text": "Which of the following best tells what this passage is about?",
+        "options": [
+            "competing explanations for a type of behavior",
+            "two different tactics fish use to evade predators",
+            "how fish in a school help each other survive",
+            "two theories on why predators of fish are sometimes indecisive"
+        ],
+        "correct_answer": 0
+    },
+    {
+        "_id": "11",
+        "question_number": 11,
+        "practice_set": "Diagnostic_Test",
+        "category": "English:Reading Comprehension:Detail",
+        "difficulty": "easy",
+        "time_estimate": 60,
+        "passage": "Biologists have advanced two theories to explain why schooling of fish occurs in so many fish species. Because schooling is particularly widespread among (5) species of small fish, both theories assume that schooling offers the advantage of some protection from predators.\n\nProponents of theory A dispute the assumption that a school of thousands of fish is highly visible. Experiments have shown that any fish can be seen, (10) even in very clear water, only within a sphere of 200 meters in diameter. When fish are in a compact group, their spheres of visibility overlap. Thus the chance of a predator finding the school is only slightly greater than the chance of the predator (15) finding a single fish swimming alone. Schooling is advantageous to the individual fish because a predator's chance of finding any particular fish swimming in the school is much smaller than its chance of finding at least one of the same group of (20) fish if the fish were dispersed throughout an area.\n\nHowever, opponents of theory A point out that some fish form schools even in areas where predators are abundant and thus little possibility of escaping detection exists. They argue that the school continues (25) to be of value to its members even after detection. They advocate theory B, the \"confusion effect,\" which can be explained in two different ways.\n\nSometimes, proponents argue, predators simply cannot decide which fish to attack. This indecision (30) supposedly results from a predator's preference for striking prey that is distinct from the rest of the school in appearance. In many schools the fish are almost identical in appearance, making it difficult for a predator to select one. The second explanation for (35) the \"confusion effect\" has to do with the sensory confusion caused by a large number of prey moving around the predator. Even if the predator makes the decision to attack a particular fish, the movement of other prey in the school can be distracting. The (40) predator's difficulty can be compared to that of a tennis player trying to hit a tennis ball when two are approaching simultaneously.",
+        "question_text": "According to theory A, fish swim in schools",
+        "options": [
+            "to detect predators hiding in the surroundings.",
+            "only in areas where predators are plentiful.",
+            "only if they have not been detected by predators.",
+            "to avoid being detected by potential predators."
+        ],
+        "correct_answer": 3
+    },
+    {
+        "_id": "12",
+        "question_number": 12,
+        "practice_set": "Diagnostic_Test",
+        "category": "English:Reading Comprehension:Vocabulary",
+        "difficulty": "easy",
+        "time_estimate": 60,
+        "passage": "Biologists have advanced two theories to explain why schooling of fish occurs in so many fish species. Because schooling is particularly widespread among (5) species of small fish, both theories assume that schooling offers the advantage of some protection from predators.\n\nProponents of theory A dispute the assumption that a school of thousands of fish is highly visible. Experiments have shown that any fish can be seen, (10) even in very clear water, only within a sphere of 200 meters in diameter. When fish are in a compact group, their spheres of visibility overlap. Thus the chance of a predator finding the school is only slightly greater than the chance of the predator (15) finding a single fish swimming alone. Schooling is advantageous to the individual fish because a predator's chance of finding any particular fish swimming in the school is much smaller than its chance of finding at least one of the same group of (20) fish if the fish were dispersed throughout an area.\n\nHowever, opponents of theory A point out that some fish form schools even in areas where predators are abundant and thus little possibility of escaping detection exists. They argue that the school continues (25) to be of value to its members even after detection. They advocate theory B, the \"confusion effect,\" which can be explained in two different ways.\n\nSometimes, proponents argue, predators simply cannot decide which fish to attack. This indecision (30) supposedly results from a predator's preference for striking prey that is distinct from the rest of the school in appearance. In many schools the fish are almost identical in appearance, making it difficult for a predator to select one. The second explanation for (35) the \"confusion effect\" has to do with the sensory confusion caused by a large number of prey moving around the predator. Even if the predator makes the decision to attack a particular fish, the movement of other prey in the school can be distracting. The (40) predator's difficulty can be compared to that of a tennis player trying to hit a tennis ball when two are approaching simultaneously.",
+        "question_text": "Which of the following conveys the same or most nearly the same meaning as the word \"schooling\" in line 15?",
+        "options": [
+            "hiding",
+            "educating",
+            "swimming",
+            "gathering"
+        ],
+        "correct_answer": 3
+    },
+    {
+        "_id": "13",
+        "question_number": 13,
+        "practice_set": "Diagnostic_Test",
+        "category": "English:Reading Comprehension:Detail",
+        "difficulty": "medium",
+        "time_estimate": 90,
+        "passage": "Biologists have advanced two theories to explain why schooling of fish occurs in so many fish species. Because schooling is particularly widespread among (5) species of small fish, both theories assume that schooling offers the advantage of some protection from predators.\n\nProponents of theory A dispute the assumption that a school of thousands of fish is highly visible. Experiments have shown that any fish can be seen, (10) even in very clear water, only within a sphere of 200 meters in diameter. When fish are in a compact group, their spheres of visibility overlap. Thus the chance of a predator finding the school is only slightly greater than the chance of the predator (15) finding a single fish swimming alone. Schooling is advantageous to the individual fish because a predator's chance of finding any particular fish swimming in the school is much smaller than its chance of finding at least one of the same group of (20) fish if the fish were dispersed throughout an area.\n\nHowever, opponents of theory A point out that some fish form schools even in areas where predators are abundant and thus little possibility of escaping detection exists. They argue that the school continues (25) to be of value to its members even after detection. They advocate theory B, the \"confusion effect,\" which can be explained in two different ways.\n\nSometimes, proponents argue, predators simply cannot decide which fish to attack. This indecision (30) supposedly results from a predator's preference for striking prey that is distinct from the rest of the school in appearance. In many schools the fish are almost identical in appearance, making it difficult for a predator to select one. The second explanation for (35) the \"confusion effect\" has to do with the sensory confusion caused by a large number of prey moving around the predator. Even if the predator makes the decision to attack a particular fish, the movement of other prey in the school can be distracting. The (40) predator's difficulty can be compared to that of a tennis player trying to hit a tennis ball when two are approaching simultaneously.",
+        "question_text": "Which of the following best describes what the passage means by the \"confusion effect\" (line 26) ?",
+        "options": [
+            "predators unable to decide which fish to attack",
+            "predators creating confusion by attacking a school of fish simultaneously",
+            "fish in a school being more difficult to attack than fish swimming alone",
+            "fish in a school unsure of which way to swim when attacked by a predator"
+        ],
+        "correct_answer": 2
+    },
+    {
+        "_id": "14",
+        "question_number": 14,
+        "practice_set": "Diagnostic_Test",
+        "category": "English:Reading Comprehension:Inference",
+        "difficulty": "medium",
+        "time_estimate": 90,
+        "passage": "Biologists have advanced two theories to explain why schooling of fish occurs in so many fish species. Because schooling is particularly widespread among (5) species of small fish, both theories assume that schooling offers the advantage of some protection from predators.\n\nProponents of theory A dispute the assumption that a school of thousands of fish is highly visible. Experiments have shown that any fish can be seen, (10) even in very clear water, only within a sphere of 200 meters in diameter. When fish are in a compact group, their spheres of visibility overlap. Thus the chance of a predator finding the school is only slightly greater than the chance of the predator (15) finding a single fish swimming alone. Schooling is advantageous to the individual fish because a predator's chance of finding any particular fish swimming in the school is much smaller than its chance of finding at least one of the same group of (20) fish if the fish were dispersed throughout an area.\n\nHowever, opponents of theory A point out that some fish form schools even in areas where predators are abundant and thus little possibility of escaping detection exists. They argue that the school continues (25) to be of value to its members even after detection. They advocate theory B, the \"confusion effect,\" which can be explained in two different ways.\n\nSometimes, proponents argue, predators simply cannot decide which fish to attack. This indecision (30) supposedly results from a predator's preference for striking prey that is distinct from the rest of the school in appearance. In many schools the fish are almost identical in appearance, making it difficult for a predator to select one. The second explanation for (35) the \"confusion effect\" has to do with the sensory confusion caused by a large number of prey moving around the predator. Even if the predator makes the decision to attack a particular fish, the movement of other prey in the school can be distracting. The (40) predator's difficulty can be compared to that of a tennis player trying to hit a tennis ball when two are approaching simultaneously.",
+        "question_text": "According to the passage, some critics of theory A are skeptical whether",
+        "options": [
+            "the spheres of visibility actually overlap when fish swim in compact groups.",
+            "a large school of fish can be harder for predators to detect than a small school of fish.",
+            "the main reason fish swim in schools is to avoid being detected by predators.",
+            "swimming in schools provides any protection value to fish after detection by predators."
+        ],
+        "correct_answer": 2
+    },
+    {
+        "_id": "15",
+        "question_number": 15,
+        "practice_set": "Diagnostic_Test",
+        "category": "English:Reading Comprehension:Inference",
+        "difficulty": "medium",
+        "time_estimate": 90,
+        "passage": "Biologists have advanced two theories to explain why schooling of fish occurs in so many fish species. Because schooling is particularly widespread among (5) species of small fish, both theories assume that schooling offers the advantage of some protection from predators.\n\nProponents of theory A dispute the assumption that a school of thousands of fish is highly visible. Experiments have shown that any fish can be seen, (10) even in very clear water, only within a sphere of 200 meters in diameter. When fish are in a compact group, their spheres of visibility overlap. Thus the chance of a predator finding the school is only slightly greater than the chance of the predator (15) finding a single fish swimming alone. Schooling is advantageous to the individual fish because a predator's chance of finding any particular fish swimming in the school is much smaller than its chance of finding at least one of the same group of (20) fish if the fish were dispersed throughout an area.\n\nHowever, opponents of theory A point out that some fish form schools even in areas where predators are abundant and thus little possibility of escaping detection exists. They argue that the school continues (25) to be of value to its members even after detection. They advocate theory B, the \"confusion effect,\" which can be explained in two different ways.\n\nSometimes, proponents argue, predators simply cannot decide which fish to attack. This indecision (30) supposedly results from a predator's preference for striking prey that is distinct from the rest of the school in appearance. In many schools the fish are almost identical in appearance, making it difficult for a predator to select one. The second explanation for (35) the \"confusion effect\" has to do with the sensory confusion caused by a large number of prey moving around the predator. Even if the predator makes the decision to attack a particular fish, the movement of other prey in the school can be distracting. The (40) predator's difficulty can be compared to that of a tennis player trying to hit a tennis ball when two are approaching simultaneously.",
+        "question_text": "Based on theory B, a school of fish generates the greatest \"confusion effect\" when all the fish",
+        "options": [
+            "swim in the same direction",
+            "are similar in shape and size",
+            "disperse evenly throughout an area",
+            "approach the predator simultaneously"
+        ],
+        "correct_answer": 1
+    },
+    {
+        "_id": "16",
+        "question_number": 16,
+        "practice_set": "Diagnostic_Test",
+        "category": "English:Reading Comprehension:Detail",
+        "difficulty": "medium",
+        "time_estimate": 90,
+        "passage": "Biologists have advanced two theories to explain why schooling of fish occurs in so many fish species. Because schooling is particularly widespread among (5) species of small fish, both theories assume that schooling offers the advantage of some protection from predators.\n\nProponents of theory A dispute the assumption that a school of thousands of fish is highly visible. Experiments have shown that any fish can be seen, (10) even in very clear water, only within a sphere of 200 meters in diameter. When fish are in a compact group, their spheres of visibility overlap. Thus the chance of a predator finding the school is only slightly greater than the chance of the predator (15) finding a single fish swimming alone. Schooling is advantageous to the individual fish because a predator's chance of finding any particular fish swimming in the school is much smaller than its chance of finding at least one of the same group of (20) fish if the fish were dispersed throughout an area.\n\nHowever, opponents of theory A point out that some fish form schools even in areas where predators are abundant and thus little possibility of escaping detection exists. They argue that the school continues (25) to be of value to its members even after detection. They advocate theory B, the \"confusion effect,\" which can be explained in two different ways.\n\nSometimes, proponents argue, predators simply cannot decide which fish to attack. This indecision (30) supposedly results from a predator's preference for striking prey that is distinct from the rest of the school in appearance. In many schools the fish are almost identical in appearance, making it difficult for a predator to select one. The second explanation for (35) the \"confusion effect\" has to do with the sensory confusion caused by a large number of prey moving around the predator. Even if the predator makes the decision to attack a particular fish, the movement of other prey in the school can be distracting. The (40) predator's difficulty can be compared to that of a tennis player trying to hit a tennis ball when two are approaching simultaneously.",
+        "question_text": "According to the passage, which of the following undermines the theory that fish swim in schools to avoid detection by predators?",
+        "options": [
+            "fish being detected by predators even though they are part of a school",
+            "schools of fish in waters where detection by predators is unavoidable",
+            "tennis players find it difficult to hit two tennis balls approaching them simultaneously",
+            "predators attacking a specific fish in a school being distracted by the movements of other fish"
+        ],
+        "correct_answer": 1
+    },
+    {
+        "_id": "17",
+        "question_number": 17,
+        "practice_set": "Diagnostic_Test",
+        "category": "English:Reading Comprehension:Main Idea",
+        "difficulty": "easy",
+        "time_estimate": 90,
+        "passage": "When parchment, which was extraordinarily costly, was replaced by papyrus, it became feasible to establish libraries. At the onset, they began as (5) archives for record keeping and document storage. According to second-hand reports, the most renowned papyrus library was the Alexandrian, founded by Alexander the Great around 330 B.C. in Alexandria, Egypt. His successors as rulers of Egypt, Ptolemy I and Ptolemy II, expanded the library into (10) the greatest collection of scrolls in the ancient world.\n\nTo develop this collection, the rulers borrowed scrolls and manuscripts from libraries in Greece, Rome, and other localities and ordered them duplicated. At times, the library employed more than 100 scribes (15) and illustrators. Some historians claim that the Alexandrian library at times even purchased entire lesser libraries to contribute to and enrich the quality of its possessions. Legend has it that Ptolemy III once asked to \"borrow\" the original manuscripts of (20) Aeschylus, Sophocles, and Euripides from the Athenians who demanded an outrageous deposit of 1,000 pounds of precious metal to guarantee the manuscripts' return. Ptolemy gladly paid the deposit, however, and kept the originals in his library.\n\n(25) The library owned a copy of every contemporary scroll known to its administrators and contained more than 400,000 items, all of which were classified and organized. The contents of the papyrus rolls were edited, and a bibliography of Greek literature (30) was compiled and cross-referenced, reflecting the emergence and dissemination of a highly developed Greek culture. Over time, a succession of leading scholars directed this library, which was acclaimed for the scholarly undertakings it supported as well as for (35) the size of its collection. At one time, 72 scholars were engaged to translate religious testaments, historical annals, and mercantile accounts.\n\nAlthough the library flourished, it was accessible to only a minority of the population because in (40) ancient times the vast majority of urban dwellers were illiterate. Because papyrus was extremely perishable, not a trace of the Alexandrian library remains today. The library is arguably most famous for having perished in a fire but sources differ as to (45) when the fire happened or who was responsible. Most likely there was not one but several fires over the course of several hundred years that resulted in partial or complete destructions of the library. Thankfully, by time of the library's demise, other (50) centers of academia had already cropped up in different parts of the world. In fact, most of the important material may have survived as copies at the Imperial Library of Constantinople, the Academy of Gondishapur, and the House of Wisdom.",
+        "question_text": "The passage mainly discuses",
+        "options": [
+            "the origin and history of a library",
+            "the use of papyrus to replace parchment",
+            "the importance of libraries in ancient times",
+            "the accomplishments of Alexander the Great"
+        ],
+        "correct_answer": 0
+    },
+    {
+        "_id": "18",
+        "question_number": 18,
+        "practice_set": "Diagnostic_Test",
+        "category": "English:Reading Comprehension:Detail",
+        "difficulty": "easy",
+        "time_estimate": 60,
+        "passage": "When parchment, which was extraordinarily costly, was replaced by papyrus, it became feasible to establish libraries. At the onset, they began as (5) archives for record keeping and document storage. According to second-hand reports, the most renowned papyrus library was the Alexandrian, founded by Alexander the Great around 330 B.C. in Alexandria, Egypt. His successors as rulers of Egypt, Ptolemy I and Ptolemy II, expanded the library into (10) the greatest collection of scrolls in the ancient world.\n\nTo develop this collection, the rulers borrowed scrolls and manuscripts from libraries in Greece, Rome, and other localities and ordered them duplicated. At times, the library employed more than 100 scribes (15) and illustrators. Some historians claim that the Alexandrian library at times even purchased entire lesser libraries to contribute to and enrich the quality of its possessions. Legend has it that Ptolemy III once asked to \"borrow\" the original manuscripts of (20) Aeschylus, Sophocles, and Euripides from the Athenians who demanded an outrageous deposit of 1,000 pounds of precious metal to guarantee the manuscripts' return. Ptolemy gladly paid the deposit, however, and kept the originals in his library.\n\n(25) The library owned a copy of every contemporary scroll known to its administrators and contained more than 400,000 items, all of which were classified and organized. The contents of the papyrus rolls were edited, and a bibliography of Greek literature (30) was compiled and cross-referenced, reflecting the emergence and dissemination of a highly developed Greek culture. Over time, a succession of leading scholars directed this library, which was acclaimed for the scholarly undertakings it supported as well as for (35) the size of its collection. At one time, 72 scholars were engaged to translate religious testaments, historical annals, and mercantile accounts.\n\nAlthough the library flourished, it was accessible to only a minority of the population because in (40) ancient times the vast majority of urban dwellers were illiterate. Because papyrus was extremely perishable, not a trace of the Alexandrian library remains today. The library is arguably most famous for having perished in a fire but sources differ as to (45) when the fire happened or who was responsible. Most likely there was not one but several fires over the course of several hundred years that resulted in partial or complete destructions of the library. Thankfully, by time of the library's demise, other (50) centers of academia had already cropped up in different parts of the world. In fact, most of the important material may have survived as copies at the Imperial Library of Constantinople, the Academy of Gondishapur, and the House of Wisdom.",
+        "question_text": "The author mentions Ptolemy I, Ptolemy II, and Ptolemy III as",
+        "options": [
+            "Egyptian rulers who oversaw the expansion of the Alexandrian library",
+            "librarians who sought to make the library's collection the biggest in the world",
+            "wealthy patrons who devoted funds and other resources to maintain the Alexandrian library",
+            "renowned scholars who contributed to the Alexandrian library's collections"
+        ],
+        "correct_answer": 0
+    },
+    {
+        "_id": "19",
+        "question_number": 19,
+        "practice_set": "Diagnostic_Test",
+        "category": "English:Reading Comprehension:Detail",
+        "difficulty": "easy",
+        "time_estimate": 60,
+        "passage": "When parchment, which was extraordinarily costly, was replaced by papyrus, it became feasible to establish libraries. At the onset, they began as (5) archives for record keeping and document storage. According to second-hand reports, the most renowned papyrus library was the Alexandrian, founded by Alexander the Great around 330 B.C. in Alexandria, Egypt. His successors as rulers of Egypt, Ptolemy I and Ptolemy II, expanded the library into (10) the greatest collection of scrolls in the ancient world.\n\nTo develop this collection, the rulers borrowed scrolls and manuscripts from libraries in Greece, Rome, and other localities and ordered them duplicated. At times, the library employed more than 100 scribes (15) and illustrators. Some historians claim that the Alexandrian library at times even purchased entire lesser libraries to contribute to and enrich the quality of its possessions. Legend has it that Ptolemy III once asked to \"borrow\" the original manuscripts of (20) Aeschylus, Sophocles, and Euripides from the Athenians who demanded an outrageous deposit of 1,000 pounds of precious metal to guarantee the manuscripts' return. Ptolemy gladly paid the deposit, however, and kept the originals in his library.\n\n(25) The library owned a copy of every contemporary scroll known to its administrators and contained more than 400,000 items, all of which were classified and organized. The contents of the papyrus rolls were edited, and a bibliography of Greek literature (30) was compiled and cross-referenced, reflecting the emergence and dissemination of a highly developed Greek culture. Over time, a succession of leading scholars directed this library, which was acclaimed for the scholarly undertakings it supported as well as for (35) the size of its collection. At one time, 72 scholars were engaged to translate religious testaments, historical annals, and mercantile accounts.\n\nAlthough the library flourished, it was accessible to only a minority of the population because in (40) ancient times the vast majority of urban dwellers were illiterate. Because papyrus was extremely perishable, not a trace of the Alexandrian library remains today. The library is arguably most famous for having perished in a fire but sources differ as to (45) when the fire happened or who was responsible. Most likely there was not one but several fires over the course of several hundred years that resulted in partial or complete destructions of the library. Thankfully, by time of the library's demise, other (50) centers of academia had already cropped up in different parts of the world. In fact, most of the important material may have survived as copies at the Imperial Library of Constantinople, the Academy of Gondishapur, and the House of Wisdom.",
+        "question_text": "According to the passage, the library in Alexandria expanded and enhanced its holdings primarily by",
+        "options": [
+            "producing original works on subjects such as religion, history, and economics.",
+            "gradually replacing parchment documents in its collections with papyrus copies",
+            "borrowing and not returning materials from other major libraries",
+            "translating and copying originals of existing written texts"
+        ],
+        "correct_answer": 3
+    },
+    {
+        "_id": "20",
+        "question_number": 20,
+        "practice_set": "Diagnostic_Test",
+        "category": "English:Reading Comprehension:Main Idea",
+        "difficulty": "easy",
+        "time_estimate": 90,
+        "passage": "When parchment, which was extraordinarily costly, was replaced by papyrus, it became feasible to establish libraries. At the onset, they began as (5) archives for record keeping and document storage. According to second-hand reports, the most renowned papyrus library was the Alexandrian, founded by Alexander the Great around 330 B.C. in Alexandria, Egypt. His successors as rulers of Egypt, Ptolemy I and Ptolemy II, expanded the library into (10) the greatest collection of scrolls in the ancient world.\n\nTo develop this collection, the rulers borrowed scrolls and manuscripts from libraries in Greece, Rome, and other localities and ordered them duplicated. At times, the library employed more than 100 scribes (15) and illustrators. Some historians claim that the Alexandrian library at times even purchased entire lesser libraries to contribute to and enrich the quality of its possessions. Legend has it that Ptolemy III once asked to \"borrow\" the original manuscripts of (20) Aeschylus, Sophocles, and Euripides from the Athenians who demanded an outrageous deposit of 1,000 pounds of precious metal to guarantee the manuscripts' return. Ptolemy gladly paid the deposit, however, and kept the originals in his library.\n\n(25) The library owned a copy of every contemporary scroll known to its administrators and contained more than 400,000 items, all of which were classified and organized. The contents of the papyrus rolls were edited, and a bibliography of Greek literature (30) was compiled and cross-referenced, reflecting the emergence and dissemination of a highly developed Greek culture. Over time, a succession of leading scholars directed this library, which was acclaimed for the scholarly undertakings it supported as well as for (35) the size of its collection. At one time, 72 scholars were engaged to translate religious testaments, historical annals, and mercantile accounts.\n\nAlthough the library flourished, it was accessible to only a minority of the population because in (40) ancient times the vast majority of urban dwellers were illiterate. Because papyrus was extremely perishable, not a trace of the Alexandrian library remains today. The library is arguably most famous for having perished in a fire but sources differ as to (45) when the fire happened or who was responsible. Most likely there was not one but several fires over the course of several hundred years that resulted in partial or complete destructions of the library. Thankfully, by time of the library's demise, other (50) centers of academia had already cropped up in different parts of the world. In fact, most of the important material may have survived as copies at the Imperial Library of Constantinople, the Academy of Gondishapur, and the House of Wisdom.",
+        "question_text": "The main point of Paragraph 2 is that",
+        "options": [
+            "the library's collection was vast.",
+            "parchment was more durable than books.",
+            "researchers are unsure exactly where the library was original located.",
+            "few other libraries at the time rivaled the Alexandrian library in size."
+        ],
+        "correct_answer": 0
+    },
+    {
+        "_id": "21",
+        "question_number": 21,
+        "practice_set": "Diagnostic_Test",
+        "category": "English:Reading Comprehension:Vocabulary",
+        "difficulty": "medium",
+        "time_estimate": 90,
+        "passage": "When parchment, which was extraordinarily costly, was replaced by papyrus, it became feasible to establish libraries. At the onset, they began as (5) archives for record keeping and document storage. According to second-hand reports, the most renowned papyrus library was the Alexandrian, founded by Alexander the Great around 330 B.C. in Alexandria, Egypt. His successors as rulers of Egypt, Ptolemy I and Ptolemy II, expanded the library into (10) the greatest collection of scrolls in the ancient world.\n\nTo develop this collection, the rulers borrowed scrolls and manuscripts from libraries in Greece, Rome, and other localities and ordered them duplicated. At times, the library employed more than 100 scribes (15) and illustrators. Some historians claim that the Alexandrian library at times even purchased entire lesser libraries to contribute to and enrich the quality of its possessions. Legend has it that Ptolemy III once asked to \"borrow\" the original manuscripts of (20) Aeschylus, Sophocles, and Euripides from the Athenians who demanded an outrageous deposit of 1,000 pounds of precious metal to guarantee the manuscripts' return. Ptolemy gladly paid the deposit, however, and kept the originals in his library.\n\n(25) The library owned a copy of every contemporary scroll known to its administrators and contained more than 400,000 items, all of which were classified and organized. The contents of the papyrus rolls were edited, and a bibliography of Greek literature (30) was compiled and cross-referenced, reflecting the emergence and dissemination of a highly developed Greek culture. Over time, a succession of leading scholars directed this library, which was acclaimed for the scholarly undertakings it supported as well as for (35) the size of its collection. At one time, 72 scholars were engaged to translate religious testaments, historical annals, and mercantile accounts.\n\nAlthough the library flourished, it was accessible to only a minority of the population because in (40) ancient times the vast majority of urban dwellers were illiterate. Because papyrus was extremely perishable, not a trace of the Alexandrian library remains today. The library is arguably most famous for having perished in a fire but sources differ as to (45) when the fire happened or who was responsible. Most likely there was not one but several fires over the course of several hundred years that resulted in partial or complete destructions of the library. Thankfully, by time of the library's demise, other (50) centers of academia had already cropped up in different parts of the world. In fact, most of the important material may have survived as copies at the Imperial Library of Constantinople, the Academy of Gondishapur, and the House of Wisdom.",
+        "question_text": "The author most likely put the word \"borrow\" (line 19) in quotation marks because",
+        "options": [
+            "Ptolemy had never intended to return the manuscripts.",
+            "Ptolemy had never read Greek plays in their original language.",
+            "Ptolemy was prepared to take the manuscripts by military force if necessary.",
+            "Ptolemy had planned to copy the manuscripts in secret before returning them to the Athenians."
+        ],
+        "correct_answer": 0
+    },
+    {
+        "_id": "22",
+        "question_number": 22,
+        "practice_set": "Diagnostic_Test",
+        "category": "English:Reading Comprehension:Inference",
+        "difficulty": "easy",
+        "time_estimate": 90,
+        "passage": "When parchment, which was extraordinarily costly, was replaced by papyrus, it became feasible to establish libraries. At the onset, they began as (5) archives for record keeping and document storage. According to second-hand reports, the most renowned papyrus library was the Alexandrian, founded by Alexander the Great around 330 B.C. in Alexandria, Egypt. His successors as rulers of Egypt, Ptolemy I and Ptolemy II, expanded the library into (10) the greatest collection of scrolls in the ancient world.\n\nTo develop this collection, the rulers borrowed scrolls and manuscripts from libraries in Greece, Rome, and other localities and ordered them duplicated. At times, the library employed more than 100 scribes (15) and illustrators. Some historians claim that the Alexandrian library at times even purchased entire lesser libraries to contribute to and enrich the quality of its possessions. Legend has it that Ptolemy III once asked to \"borrow\" the original manuscripts of (20) Aeschylus, Sophocles, and Euripides from the Athenians who demanded an outrageous deposit of 1,000 pounds of precious metal to guarantee the manuscripts' return. Ptolemy gladly paid the deposit, however, and kept the originals in his library.\n\n(25) The library owned a copy of every contemporary scroll known to its administrators and contained more than 400,000 items, all of which were classified and organized. The contents of the papyrus rolls were edited, and a bibliography of Greek literature (30) was compiled and cross-referenced, reflecting the emergence and dissemination of a highly developed Greek culture. Over time, a succession of leading scholars directed this library, which was acclaimed for the scholarly undertakings it supported as well as for (35) the size of its collection. At one time, 72 scholars were engaged to translate religious testaments, historical annals, and mercantile accounts.\n\nAlthough the library flourished, it was accessible to only a minority of the population because in (40) ancient times the vast majority of urban dwellers were illiterate. Because papyrus was extremely perishable, not a trace of the Alexandrian library remains today. The library is arguably most famous for having perished in a fire but sources differ as to (45) when the fire happened or who was responsible. Most likely there was not one but several fires over the course of several hundred years that resulted in partial or complete destructions of the library. Thankfully, by time of the library's demise, other (50) centers of academia had already cropped up in different parts of the world. In fact, most of the important material may have survived as copies at the Imperial Library of Constantinople, the Academy of Gondishapur, and the House of Wisdom.",
+        "question_text": "It can be inferred that while the Alexandrian library was open,",
+        "options": [
+            "other libraries still used parchment to copy manuscripts.",
+            "only a small part of the population benefited from its vast holdings.",
+            "fires were common problems for libraries relying on perishable media such as papyrus.",
+            "Most Egyptians preferred classical Greek literature over local Egyptian literature."
+        ],
+        "correct_answer": 1
+    },
+    {
+        "_id": "23",
+        "question_number": 23,
+        "practice_set": "Diagnostic_Test",
+        "category": "English:Reading Comprehension:Inference",
+        "difficulty": "easy",
+        "time_estimate": 60,
+        "passage": "When parchment, which was extraordinarily costly, was replaced by papyrus, it became feasible to establish libraries. At the onset, they began as (5) archives for record keeping and document storage. According to second-hand reports, the most renowned papyrus library was the Alexandrian, founded by Alexander the Great around 330 B.C. in Alexandria, Egypt. His successors as rulers of Egypt, Ptolemy I and Ptolemy II, expanded the library into (10) the greatest collection of scrolls in the ancient world.\n\nTo develop this collection, the rulers borrowed scrolls and manuscripts from libraries in Greece, Rome, and other localities and ordered them duplicated. At times, the library employed more than 100 scribes (15) and illustrators. Some historians claim that the Alexandrian library at times even purchased entire lesser libraries to contribute to and enrich the quality of its possessions. Legend has it that Ptolemy III once asked to \"borrow\" the original manuscripts of (20) Aeschylus, Sophocles, and Euripides from the Athenians who demanded an outrageous deposit of 1,000 pounds of precious metal to guarantee the manuscripts' return. Ptolemy gladly paid the deposit, however, and kept the originals in his library.\n\n(25) The library owned a copy of every contemporary scroll known to its administrators and contained more than 400,000 items, all of which were classified and organized. The contents of the papyrus rolls were edited, and a bibliography of Greek literature (30) was compiled and cross-referenced, reflecting the emergence and dissemination of a highly developed Greek culture. Over time, a succession of leading scholars directed this library, which was acclaimed for the scholarly undertakings it supported as well as for (35) the size of its collection. At one time, 72 scholars were engaged to translate religious testaments, historical annals, and mercantile accounts.\n\nAlthough the library flourished, it was accessible to only a minority of the population because in (40) ancient times the vast majority of urban dwellers were illiterate. Because papyrus was extremely perishable, not a trace of the Alexandrian library remains today. The library is arguably most famous for having perished in a fire but sources differ as to (45) when the fire happened or who was responsible. Most likely there was not one but several fires over the course of several hundred years that resulted in partial or complete destructions of the library. Thankfully, by time of the library's demise, other (50) centers of academia had already cropped up in different parts of the world. In fact, most of the important material may have survived as copies at the Imperial Library of Constantinople, the Academy of Gondishapur, and the House of Wisdom.",
+        "question_text": "It can be inferred from the passage that \"Aeschylus, Sophocles, and Euripides\" (line 20) were most likely",
+        "options": [
+            "wealthy merchants",
+            "powerful politicians",
+            "well-known writers",
+            "important librarians"
+        ],
+        "correct_answer": 2
+    },
+    {
+        "_id": "24",
+        "question_number": 24,
+        "practice_set": "Diagnostic_Test",
+        "category": "English:Reading Comprehension:Inference",
+        "difficulty": "medium",
+        "time_estimate": 90,
+        "passage": "When parchment, which was extraordinarily costly, was replaced by papyrus, it became feasible to establish libraries. At the onset, they began as (5) archives for record keeping and document storage. According to second-hand reports, the most renowned papyrus library was the Alexandrian, founded by Alexander the Great around 330 B.C. in Alexandria, Egypt. His successors as rulers of Egypt, Ptolemy I and Ptolemy II, expanded the library into (10) the greatest collection of scrolls in the ancient world.\n\nTo develop this collection, the rulers borrowed scrolls and manuscripts from libraries in Greece, Rome, and other localities and ordered them duplicated. At times, the library employed more than 100 scribes (15) and illustrators. Some historians claim that the Alexandrian library at times even purchased entire lesser libraries to contribute to and enrich the quality of its possessions. Legend has it that Ptolemy III once asked to \"borrow\" the original manuscripts of (20) Aeschylus, Sophocles, and Euripides from the Athenians who demanded an outrageous deposit of 1,000 pounds of precious metal to guarantee the manuscripts' return. Ptolemy gladly paid the deposit, however, and kept the originals in his library.\n\n(25) The library owned a copy of every contemporary scroll known to its administrators and contained more than 400,000 items, all of which were classified and organized. The contents of the papyrus rolls were edited, and a bibliography of Greek literature (30) was compiled and cross-referenced, reflecting the emergence and dissemination of a highly developed Greek culture. Over time, a succession of leading scholars directed this library, which was acclaimed for the scholarly undertakings it supported as well as for (35) the size of its collection. At one time, 72 scholars were engaged to translate religious testaments, historical annals, and mercantile accounts.\n\nAlthough the library flourished, it was accessible to only a minority of the population because in (40) ancient times the vast majority of urban dwellers were illiterate. Because papyrus was extremely perishable, not a trace of the Alexandrian library remains today. The library is arguably most famous for having perished in a fire but sources differ as to (45) when the fire happened or who was responsible. Most likely there was not one but several fires over the course of several hundred years that resulted in partial or complete destructions of the library. Thankfully, by time of the library's demise, other (50) centers of academia had already cropped up in different parts of the world. In fact, most of the important material may have survived as copies at the Imperial Library of Constantinople, the Academy of Gondishapur, and the House of Wisdom.",
+        "question_text": "What might be an example of the items most likely sought by the directors of the Alexandrian library?",
+        "options": [
+            "a successful Greek merchant's portrait",
+            "an autobiography of a Roman architect.",
+            "a guide to effective fire prevention and safety.",
+            "a suit of armor that belonged to an accomplished general"
+        ],
+        "correct_answer": 1
+    },
+    {
+        "_id": "25",
+        "question_number": 25,
+        "practice_set": "Diagnostic_Test",
+        "category": "English:Reading Comprehension:Main Idea",
+        "difficulty": "easy",
+        "time_estimate": 90,
+        "passage": "Is a College Education Worth It?\n\nAccording to the National Center for Education Statistics, in 2004 the unemployment rate for adults (5) aged 25 years and older who had not completed high school was 8.5 percent. For those who had completed high school, the rate was 5.0 percent. But for those with bachelor's degrees, the number was just 2.7 percent. In other words, those without a college degree were nearly twice as likely to (10) experience unemployment.\n\nAccording to the U.S. Census Bureau, college degree holders earn on average double the annual salary of someone with just a high school diploma. And if the size of your monthly paycheck isn't (15) enough to motivate you to get your degree, consider this: Over an adult's working life, high school graduates earn an average of $1.2 million; associate's degree holders earn about $1.6 million; and bachelor's degree holders earn about $2.1 million. (20) Those are some serious differences.\n\nThe Institute's 1998 report lists encouraging demographic statistics for college graduates. For example, many with college degrees have priceless health benefits such as longer life expectancy. People (25) with four-year degrees smoke less and tend to make better consumer choices to benefit their health and lifestyle. Even more important to many parents who are considering going back to school, kids raised by parents with college degrees are more likely to (30) graduate high school and go on to college. And teenage daughters of college grads are less likely to become unwed mothers.\n\nThe salary, employment, and fringe benefits that college graduates enjoy allow the unexpected benefit (35) of the fun factor. Because college graduates have a higher disposable income and get more vacation time, they're more likely to visit amusement parks and art museums, attend sporting events, and go hiking and camping. They also tend to read more, (40) and for many people that is fun in and of itself.\n\nWhile having better benefits, more money, and more leisure time are surely very valuable reasons to get your college degree, there are many intangible reasons why pursuing a degree is worthwhile. For (45) example, you will have the satisfaction of learning more about things that interest you and expanding your knowledge and skills. It's unlikely that most college students think about the rewards of their studies in these terms, but these perks are greatly (50) appreciated after graduation. When graduates were asked, several years after college, to list the benefits of their college education, most name higher pay and a rich intellectual life. What most people do not realize until much later, however, is that higher education (55) means living a longer and healthier life.\n\nMortality rates for Americans ages 25 to 64 who have attended college are less than half the rates for those who stopped education after completing high school. In 1999, the most recent year for which final (60) mortality rates have been published, there were 219 deaths per 100,000 people per year for those with 13 or more years of education, compared with 474 per 100,000 for those with 12 years, and 585 per 100,000 for those with fewer than 12 years of education. These (65) differences are somewhat greater for men than for women.\n\nThe mortality advantage for Americans with higher education has been growing in recent decades, according to several studies that used census and (70) survey data. And there is an added advantage for educated people in rates of illness and disability, so that those with some college education enjoy extra years of healthy life. Two factors that partly explain the education advantage are lifestyle (educated people (75) are less likely to smoke or engage in other risky behaviors) and health insurance (people with more education tend to have better coverage than those with less education).",
+        "question_text": "The passage mainly discusses",
+        "options": [
+            "the rising costs of going to college.",
+            "the effects of attending college on health.",
+            "the long-term benefits of a college education.",
+            "the opportunities available to college graduates."
+        ],
+        "correct_answer": 2
+    },
+    {
+        "_id": "26",
+        "question_number": 26,
+        "practice_set": "Diagnostic_Test",
+        "category": "English:Reading Comprehension:Detail",
+        "difficulty": "easy",
+        "time_estimate": 60,
+        "passage": "Is a College Education Worth It?\n\nAccording to the National Center for Education Statistics, in 2004 the unemployment rate for adults (5) aged 25 years and older who had not completed high school was 8.5 percent. For those who had completed high school, the rate was 5.0 percent. But for those with bachelor's degrees, the number was just 2.7 percent. In other words, those without a college degree were nearly twice as likely to (10) experience unemployment.\n\nAccording to the U.S. Census Bureau, college degree holders earn on average double the annual salary of someone with just a high school diploma. And if the size of your monthly paycheck isn't (15) enough to motivate you to get your degree, consider this: Over an adult's working life, high school graduates earn an average of $1.2 million; associate's degree holders earn about $1.6 million; and bachelor's degree holders earn about $2.1 million. (20) Those are some serious differences.\n\nThe Institute's 1998 report lists encouraging demographic statistics for college graduates. For example, many with college degrees have priceless health benefits such as longer life expectancy. People (25) with four-year degrees smoke less and tend to make better consumer choices to benefit their health and lifestyle. Even more important to many parents who are considering going back to school, kids raised by parents with college degrees are more likely to (30) graduate high school and go on to college. And teenage daughters of college grads are less likely to become unwed mothers.\n\nThe salary, employment, and fringe benefits that college graduates enjoy allow the unexpected benefit (35) of the fun factor. Because college graduates have a higher disposable income and get more vacation time, they're more likely to visit amusement parks and art museums, attend sporting events, and go hiking and camping. They also tend to read more, (40) and for many people that is fun in and of itself.\n\nWhile having better benefits, more money, and more leisure time are surely very valuable reasons to get your college degree, there are many intangible reasons why pursuing a degree is worthwhile. For (45) example, you will have the satisfaction of learning more about things that interest you and expanding your knowledge and skills. It's unlikely that most college students think about the rewards of their studies in these terms, but these perks are greatly (50) appreciated after graduation. When graduates were asked, several years after college, to list the benefits of their college education, most name higher pay and a rich intellectual life. What most people do not realize until much later, however, is that higher education (55) means living a longer and healthier life.\n\nMortality rates for Americans ages 25 to 64 who have attended college are less than half the rates for those who stopped education after completing high school. In 1999, the most recent year for which final (60) mortality rates have been published, there were 219 deaths per 100,000 people per year for those with 13 or more years of education, compared with 474 per 100,000 for those with 12 years, and 585 per 100,000 for those with fewer than 12 years of education. These (65) differences are somewhat greater for men than for women.\n\nThe mortality advantage for Americans with higher education has been growing in recent decades, according to several studies that used census and (70) survey data. And there is an added advantage for educated people in rates of illness and disability, so that those with some college education enjoy extra years of healthy life. Two factors that partly explain the education advantage are lifestyle (educated people (75) are less likely to smoke or engage in other risky behaviors) and health insurance (people with more education tend to have better coverage than those with less education).",
+        "question_text": "The author cites census statistics mainly to make the point that, on average,",
+        "options": [
+            "college graduates hold higher-paying jobs.",
+            "college graduates enjoy greater amounts of leisure time.",
+            "children of college graduates are more likely to go on to college after high school.",
+            "children of college graduates are less likely to participate in dangerous activities."
+        ],
+        "correct_answer": 0
+    },
+    {
+        "_id": "27",
+        "question_number": 27,
+        "practice_set": "Diagnostic_Test",
+        "category": "English:Reading Comprehension:Detail",
+        "difficulty": "easy",
+        "time_estimate": 60,
+        "passage": "Is a College Education Worth It?\n\nAccording to the National Center for Education Statistics, in 2004 the unemployment rate for adults (5) aged 25 years and older who had not completed high school was 8.5 percent. For those who had completed high school, the rate was 5.0 percent. But for those with bachelor's degrees, the number was just 2.7 percent. In other words, those without a college degree were nearly twice as likely to (10) experience unemployment.\n\nAccording to the U.S. Census Bureau, college degree holders earn on average double the annual salary of someone with just a high school diploma. And if the size of your monthly paycheck isn't (15) enough to motivate you to get your degree, consider this: Over an adult's working life, high school graduates earn an average of $1.2 million; associate's degree holders earn about $1.6 million; and bachelor's degree holders earn about $2.1 million. (20) Those are some serious differences.\n\nThe Institute's 1998 report lists encouraging demographic statistics for college graduates. For example, many with college degrees have priceless health benefits such as longer life expectancy. People (25) with four-year degrees smoke less and tend to make better consumer choices to benefit their health and lifestyle. Even more important to many parents who are considering going back to school, kids raised by parents with college degrees are more likely to (30) graduate high school and go on to college. And teenage daughters of college grads are less likely to become unwed mothers.\n\nThe salary, employment, and fringe benefits that college graduates enjoy allow the unexpected benefit (35) of the fun factor. Because college graduates have a higher disposable income and get more vacation time, they're more likely to visit amusement parks and art museums, attend sporting events, and go hiking and camping. They also tend to read more, (40) and for many people that is fun in and of itself.\n\nWhile having better benefits, more money, and more leisure time are surely very valuable reasons to get your college degree, there are many intangible reasons why pursuing a degree is worthwhile. For (45) example, you will have the satisfaction of learning more about things that interest you and expanding your knowledge and skills. It's unlikely that most college students think about the rewards of their studies in these terms, but these perks are greatly (50) appreciated after graduation. When graduates were asked, several years after college, to list the benefits of their college education, most name higher pay and a rich intellectual life. What most people do not realize until much later, however, is that higher education (55) means living a longer and healthier life.\n\nMortality rates for Americans ages 25 to 64 who have attended college are less than half the rates for those who stopped education after completing high school. In 1999, the most recent year for which final (60) mortality rates have been published, there were 219 deaths per 100,000 people per year for those with 13 or more years of education, compared with 474 per 100,000 for those with 12 years, and 585 per 100,000 for those with fewer than 12 years of education. These (65) differences are somewhat greater for men than for women.\n\nThe mortality advantage for Americans with higher education has been growing in recent decades, according to several studies that used census and (70) survey data. And there is an added advantage for educated people in rates of illness and disability, so that those with some college education enjoy extra years of healthy life. Two factors that partly explain the education advantage are lifestyle (educated people (75) are less likely to smoke or engage in other risky behaviors) and health insurance (people with more education tend to have better coverage than those with less education).",
+        "question_text": "The passage mentions which of the following as an intangible benefit of going to college?",
+        "options": [
+            "earning higher wages",
+            "having more free time",
+            "enjoying better benefits",
+            "pursuing more interests"
+        ],
+        "correct_answer": 3
+    },
+    {
+        "_id": "28",
+        "question_number": 28,
+        "practice_set": "Diagnostic_Test",
+        "category": "English:Reading Comprehension:Detail",
+        "difficulty": "easy",
+        "time_estimate": 60,
+        "passage": "Is a College Education Worth It?\n\nAccording to the National Center for Education Statistics, in 2004 the unemployment rate for adults (5) aged 25 years and older who had not completed high school was 8.5 percent. For those who had completed high school, the rate was 5.0 percent. But for those with bachelor's degrees, the number was just 2.7 percent. In other words, those without a college degree were nearly twice as likely to (10) experience unemployment.\n\nAccording to the U.S. Census Bureau, college degree holders earn on average double the annual salary of someone with just a high school diploma. And if the size of your monthly paycheck isn't (15) enough to motivate you to get your degree, consider this: Over an adult's working life, high school graduates earn an average of $1.2 million; associate's degree holders earn about $1.6 million; and bachelor's degree holders earn about $2.1 million. (20) Those are some serious differences.\n\nThe Institute's 1998 report lists encouraging demographic statistics for college graduates. For example, many with college degrees have priceless health benefits such as longer life expectancy. People (25) with four-year degrees smoke less and tend to make better consumer choices to benefit their health and lifestyle. Even more important to many parents who are considering going back to school, kids raised by parents with college degrees are more likely to (30) graduate high school and go on to college. And teenage daughters of college grads are less likely to become unwed mothers.\n\nThe salary, employment, and fringe benefits that college graduates enjoy allow the unexpected benefit (35) of the fun factor. Because college graduates have a higher disposable income and get more vacation time, they're more likely to visit amusement parks and art museums, attend sporting events, and go hiking and camping. They also tend to read more, (40) and for many people that is fun in and of itself.\n\nWhile having better benefits, more money, and more leisure time are surely very valuable reasons to get your college degree, there are many intangible reasons why pursuing a degree is worthwhile. For (45) example, you will have the satisfaction of learning more about things that interest you and expanding your knowledge and skills. It's unlikely that most college students think about the rewards of their studies in these terms, but these perks are greatly (50) appreciated after graduation. When graduates were asked, several years after college, to list the benefits of their college education, most name higher pay and a rich intellectual life. What most people do not realize until much later, however, is that higher education (55) means living a longer and healthier life.\n\nMortality rates for Americans ages 25 to 64 who have attended college are less than half the rates for those who stopped education after completing high school. In 1999, the most recent year for which final (60) mortality rates have been published, there were 219 deaths per 100,000 people per year for those with 13 or more years of education, compared with 474 per 100,000 for those with 12 years, and 585 per 100,000 for those with fewer than 12 years of education. These (65) differences are somewhat greater for men than for women.\n\nThe mortality advantage for Americans with higher education has been growing in recent decades, according to several studies that used census and (70) survey data. And there is an added advantage for educated people in rates of illness and disability, so that those with some college education enjoy extra years of healthy life. Two factors that partly explain the education advantage are lifestyle (educated people (75) are less likely to smoke or engage in other risky behaviors) and health insurance (people with more education tend to have better coverage than those with less education).",
+        "question_text": "According to the passage, Americans today are most likely to associate a college education with which of the following?",
+        "options": [
+            "better manners and wiser decisions",
+            "expanded intellectual horizons and earning better wages",
+            "finding jobs that require less physical labor and fewer working hours",
+            "lowering the likelihood of participating in risky behavior and dangerous activities"
+        ],
+        "correct_answer": 1
+    },
+    {
+        "_id": "29",
+        "question_number": 29,
+        "practice_set": "Diagnostic_Test",
+        "category": "English:Reading Comprehension:Inference",
+        "difficulty": "medium",
+        "time_estimate": 90,
+        "passage": "Is a College Education Worth It?\n\nAccording to the National Center for Education Statistics, in 2004 the unemployment rate for adults (5) aged 25 years and older who had not completed high school was 8.5 percent. For those who had completed high school, the rate was 5.0 percent. But for those with bachelor's degrees, the number was just 2.7 percent. In other words, those without a college degree were nearly twice as likely to (10) experience unemployment.\n\nAccording to the U.S. Census Bureau, college degree holders earn on average double the annual salary of someone with just a high school diploma. And if the size of your monthly paycheck isn't (15) enough to motivate you to get your degree, consider this: Over an adult's working life, high school graduates earn an average of $1.2 million; associate's degree holders earn about $1.6 million; and bachelor's degree holders earn about $2.1 million. (20) Those are some serious differences.\n\nThe Institute's 1998 report lists encouraging demographic statistics for college graduates. For example, many with college degrees have priceless health benefits such as longer life expectancy. People (25) with four-year degrees smoke less and tend to make better consumer choices to benefit their health and lifestyle. Even more important to many parents who are considering going back to school, kids raised by parents with college degrees are more likely to (30) graduate high school and go on to college. And teenage daughters of college grads are less likely to become unwed mothers.\n\nThe salary, employment, and fringe benefits that college graduates enjoy allow the unexpected benefit (35) of the fun factor. Because college graduates have a higher disposable income and get more vacation time, they're more likely to visit amusement parks and art museums, attend sporting events, and go hiking and camping. They also tend to read more, (40) and for many people that is fun in and of itself.\n\nWhile having better benefits, more money, and more leisure time are surely very valuable reasons to get your college degree, there are many intangible reasons why pursuing a degree is worthwhile. For (45) example, you will have the satisfaction of learning more about things that interest you and expanding your knowledge and skills. It's unlikely that most college students think about the rewards of their studies in these terms, but these perks are greatly (50) appreciated after graduation. When graduates were asked, several years after college, to list the benefits of their college education, most name higher pay and a rich intellectual life. What most people do not realize until much later, however, is that higher education (55) means living a longer and healthier life.\n\nMortality rates for Americans ages 25 to 64 who have attended college are less than half the rates for those who stopped education after completing high school. In 1999, the most recent year for which final (60) mortality rates have been published, there were 219 deaths per 100,000 people per year for those with 13 or more years of education, compared with 474 per 100,000 for those with 12 years, and 585 per 100,000 for those with fewer than 12 years of education. These (65) differences are somewhat greater for men than for women.\n\nThe mortality advantage for Americans with higher education has been growing in recent decades, according to several studies that used census and (70) survey data. And there is an added advantage for educated people in rates of illness and disability, so that those with some college education enjoy extra years of healthy life. Two factors that partly explain the education advantage are lifestyle (educated people (75) are less likely to smoke or engage in other risky behaviors) and health insurance (people with more education tend to have better coverage than those with less education).",
+        "question_text": "Most people currently do not sufficiently appreciate what benefit of a college education?",
+        "options": [
+            "higher income and greater intelligence",
+            "less time at work and more time for play",
+            "low interest rates on mortgages and loans",
+            "lower risks of serious illness and disability"
+        ],
+        "correct_answer": 3
+    },
+    {
+        "_id": "30",
+        "question_number": 30,
+        "practice_set": "Diagnostic_Test",
+        "category": "English:Reading Comprehension:Detail",
+        "difficulty": "easy",
+        "time_estimate": 60,
+        "passage": "Is a College Education Worth It?\n\nAccording to the National Center for Education Statistics, in 2004 the unemployment rate for adults (5) aged 25 years and older who had not completed high school was 8.5 percent. For those who had completed high school, the rate was 5.0 percent. But for those with bachelor's degrees, the number was just 2.7 percent. In other words, those without a college degree were nearly twice as likely to (10) experience unemployment.\n\nAccording to the U.S. Census Bureau, college degree holders earn on average double the annual salary of someone with just a high school diploma. And if the size of your monthly paycheck isn't (15) enough to motivate you to get your degree, consider this: Over an adult's working life, high school graduates earn an average of $1.2 million; associate's degree holders earn about $1.6 million; and bachelor's degree holders earn about $2.1 million. (20) Those are some serious differences.\n\nThe Institute's 1998 report lists encouraging demographic statistics for college graduates. For example, many with college degrees have priceless health benefits such as longer life expectancy. People (25) with four-year degrees smoke less and tend to make better consumer choices to benefit their health and lifestyle. Even more important to many parents who are considering going back to school, kids raised by parents with college degrees are more likely to (30) graduate high school and go on to college. And teenage daughters of college grads are less likely to become unwed mothers.\n\nThe salary, employment, and fringe benefits that college graduates enjoy allow the unexpected benefit (35) of the fun factor. Because college graduates have a higher disposable income and get more vacation time, they're more likely to visit amusement parks and art museums, attend sporting events, and go hiking and camping. They also tend to read more, (40) and for many people that is fun in and of itself.\n\nWhile having better benefits, more money, and more leisure time are surely very valuable reasons to get your college degree, there are many intangible reasons why pursuing a degree is worthwhile. For (45) example, you will have the satisfaction of learning more about things that interest you and expanding your knowledge and skills. It's unlikely that most college students think about the rewards of their studies in these terms, but these perks are greatly (50) appreciated after graduation. When graduates were asked, several years after college, to list the benefits of their college education, most name higher pay and a rich intellectual life. What most people do not realize until much later, however, is that higher education (55) means living a longer and healthier life.\n\nMortality rates for Americans ages 25 to 64 who have attended college are less than half the rates for those who stopped education after completing high school. In 1999, the most recent year for which final (60) mortality rates have been published, there were 219 deaths per 100,000 people per year for those with 13 or more years of education, compared with 474 per 100,000 for those with 12 years, and 585 per 100,000 for those with fewer than 12 years of education. These (65) differences are somewhat greater for men than for women.\n\nThe mortality advantage for Americans with higher education has been growing in recent decades, according to several studies that used census and (70) survey data. And there is an added advantage for educated people in rates of illness and disability, so that those with some college education enjoy extra years of healthy life. Two factors that partly explain the education advantage are lifestyle (educated people (75) are less likely to smoke or engage in other risky behaviors) and health insurance (people with more education tend to have better coverage than those with less education).",
+        "question_text": "The author states that Americans with college degrees live longer and healthier lives because of",
+        "options": [
+            "more available leisure time.",
+            "better health insurance coverage.",
+            "having more money and material possessions.",
+            "a greater appreciation of the \"fun factor\" of life."
+        ],
+        "correct_answer": 1
+    },
+    {
+        "_id": "31",
+        "question_number": 31,
+        "practice_set": "Diagnostic_Test",
+        "category": "Math:Arithmetic",
+        "difficulty": "easy",
+        "time_estimate": 60,
+        "passage": "",
+        "question_text": "Which of the following is the largest?",
+        "options": [
+            "867 + .5309",
+            "867 - .5309",
+            "867 × .5309",
+            "867 ÷ .5309"
+        ],
+        "correct_answer": 3
+    },
+    {
+        "_id": "32",
+        "question_number": 32,
+        "practice_set": "Diagnostic_Test",
+        "category": "Math: Algebra",
+        "difficulty": "easy",
+        "time_estimate": 60,
+        "passage": "",
+        "question_text": "(4 + 12) ÷ 4(|-1| + 3) =",
+        "options": [
+            "1",
+            "2",
+            "4",
+            "8"
+        ],
+        "correct_answer": 0
+    },
+    {
+        "_id": "33",
+        "question_number": 33,
+        "practice_set": "Diagnostic_Test",
+        "category": "Math: Arithmetic",
+        "difficulty": "easy",
+        "time_estimate": 60,
+        "passage": "",
+        "question_text": "What is the least common multiple of 27 and 36?",
+        "options": [
+            "72",
+            "108",
+            "486",
+            "972"
+        ],
+        "correct_answer": 1
+    },
+    {
+        "_id": "34",
+        "question_number": 34,
+        "practice_set": "Diagnostic_Test",
+        "category": "Math: Arithmetic",
+        "difficulty": "medium",
+        "time_estimate": 90,
+        "passage": "",
+        "question_text": "If for a certain year Thanksgiving falls on Thursday, November 23rd, on what day of the week will Christmas Day (December 25th) fall? (Note: November has 30 calendar days)",
+        "options": [
+            "Saturday",
+            "Sunday",
+            "Monday",
+            "Tuesday"
+        ],
+        "correct_answer": 2
+    },
+    {
+        "_id": "35",
+        "question_number": 35,
+        "practice_set": "Diagnostic_Test",
+        "category": "Math: Probability",
+        "difficulty": "easy",
+        "time_estimate": 90,
+        "passage": "",
+        "question_text": "A very large drawer contains 70 striped socks, 42 polka-dot socks, and 28 plain white socks. If Lin removes 10 socks from this drawer randomly and without replacement, which of the following is the most likely outcome?",
+        "options": [
+            "7 striped, 4 polka-dot, and 3 plain white",
+            "6 striped, 2 polka-dot, and 2 plain white",
+            "5 striped, 3 polka-dot, and 2 plain white",
+            "4 striped, 3 polka-dot, and 3 plain white"
+        ],
+        "correct_answer": 2
+    },
+    {
+        "_id": "36",
+        "question_number": 36,
+        "practice_set": "Diagnostic_Test",
+        "category": "Math: Algebra",
+        "difficulty": "easy",
+        "time_estimate": 60,
+        "passage": "",
+        "question_text": "If a/2 = b and b + 3 = a, then a/2 - a =",
+        "options": [
+            "-3",
+            "-3/2",
+            "3",
+            "6"
+        ],
+        "correct_answer": 0
+    },
+    {
+        "_id": "37",
+        "question_number": 37,
+        "practice_set": "Diagnostic_Test",
+        "category": "Math: Geometry",
+        "difficulty": "medium",
+        "time_estimate": 120,
+        "passage": "image:images/shsatdiagnosticquestion37.png",
+        "question_text": "In the figure above, ABCD is a rectangle and E is a point on AB such that EB = 2AE. If the area of the shaded region is 36, what is the area of the region that is not shaded?",
+        "options": [
+            "72",
+            "108",
+            "130",
+            "132"
+        ],
+        "correct_answer": 0
+    },
+    {
+        "_id": "38",
+        "question_number": 38,
+        "practice_set": "Diagnostic_Test",
+        "category": "Math: Probability",
+        "difficulty": "easy",
+        "time_estimate": 90,
+        "passage": "image:images/shsatdiagnosticquestion38.png",
+        "question_text": "Two hundred people were asked about their favorite flavor of ice cream. The graph above summarizes the results of the survey. How many more people picked strawberry than pecan? ",
+        "options": [
+            "10",
+            "20",
+            "30",
+            "40"
+        ],
+        "correct_answer": 1
+    },
+    {
+        "_id": "39",
+        "question_number": 39,
+        "practice_set": "Diagnostic_Test",
+        "category": "Math: Algebra",
+        "difficulty": "medium",
+        "time_estimate": 120,
+        "passage": "",
+        "question_text": "Before 8 A.M., there were 64 trucks and 24 cars in a parking lot. Between 8 A.M. and 9 A.M., more cars entered the parking lot and no trucks entered or exited the lot. At 9:00 A.M., the number of trucks represented 1/5 of the parking lot's vehicles. How many cars entered between 8 A.M. and 9 A.M.?",
+        "options": [
+            "56",
+            "112",
+            "148",
+            "192"
+        ],
+        "correct_answer": 3
+    },
+    {
+        "_id": "40",
+        "question_number": 40,
+        "practice_set": "Diagnostic_Test",
+        "category": "Math: Algebra",
+        "difficulty": "easy",
+        "time_estimate": 60,
+        "passage": "",
+        "question_text": "If 0.08206 is equivalent to 8.206 x 10ⁿ what is the value of n?",
+        "options": [
+            "-2",
+            "-1",
+            "1",
+            "2"
+        ],
+        "correct_answer": 0
+    },
+    {
+        "_id": "41",
+        "question_number": 41,
+        "practice_set": "Diagnostic_Test",
+        "category": "Math: Algebra",
+        "difficulty": "medium",
+        "time_estimate": 90,
+        "passage": "",
+        "question_text": "Roger is now twice as old as Mickey. In two years, Roger will be eight years older than Mickey. How old is Roger right now?",
+        "options": [
+            "8",
+            "12",
+            "14",
+            "16"
+        ],
+        "correct_answer": 3
+    },
+    {
+        "_id": "42",
+        "question_number": 42,
+        "practice_set": "Diagnostic_Test",
+        "category": "Math: Algebra",
+        "difficulty": "easy",
+        "time_estimate": 60,
+        "passage": "",
+        "question_text": "3√2 + 5√8 =",
+        "options": [
+            "8√10",
+            "8√16",
+            "13√2",
+            "30√2"
+        ],
+        "correct_answer": 2
+    },
+    {
+        "_id": "43",
+        "question_number": 43,
+        "practice_set": "Diagnostic_Test",
+        "category": "Math: Algebra",
+        "difficulty": "medium",
+        "time_estimate": 90,
+        "passage": "",
+        "question_text": "If -3(x + 2) - x = ax - 6 and x ≠ 0 what is the value of a?",
+        "options": [
+            "-4",
+            "-1",
+            "4",
+            "6"
+        ],
+        "correct_answer": 0
+    },
+    {
+        "_id": "44",
+        "question_number": 44,
+        "practice_set": "Diagnostic_Test",
+        "category": "Math: Algebra",
+        "difficulty": "medium",
+        "time_estimate": 120,
+        "passage": "1 gallon = 3.8 liters\n1 mile = 1.6 kilometers",
+        "question_text": "Using the conversions above, a bus that uses 10 liters of gasoline to travel 100 kilometers would have an efficiency rating closest to",
+        "options": [
+            "15 miles per gallon",
+            "24 miles per gallon",
+            "38 miles per gallon",
+            "60 miles per gallon"
+        ],
+        "correct_answer": 1
+    },
+    {
+        "_id": "45",
+        "question_number": 45,
+        "practice_set": "Diagnostic_Test",
+        "category": "Math: Algebra",
+        "difficulty": "easy",
+        "time_estimate": 60,
+        "passage": "",
+        "question_text": "What is the greatest integer that satisfies the inequality 4 - 3x > -5?",
+        "options": [
+            "-4",
+            "-2",
+            "2",
+            "4"
+        ],
+        "correct_answer": 2
+    },
+    {
+        "_id": "46",
+        "question_number": 46,
+        "practice_set": "Diagnostic_Test",
+        "category": "Math: Geometry",
+        "difficulty": "easy",
+        "time_estimate": 60,
+        "passage": "image:images/shsatdiagnosticquestion46.png",
+        "question_text": "In the above diagram, lines l, m, and n intersect at point X. What is the value of a?",
+        "options": [
+            "35",
+            "55",
+            "70",
+            "cannot be determined from the information given"
+        ],
+        "correct_answer": 1
+    },
+    {
+        "_id": "47",
+        "question_number": 47,
+        "practice_set": "Diagnostic_Test",
+        "category": "Math: Algebra",
+        "difficulty": "easy",
+        "time_estimate": 60,
+        "passage": "(m - 8) / (12 + m) = 1/3",
+        "question_text": "For what value of m is the above equation true?",
+        "options": [
+            "9",
+            "10",
+            "12",
+            "18"
+        ],
+        "correct_answer": 3
+    },
+    {
+        "_id": "48",
+        "question_number": 48,
+        "practice_set": "Diagnostic_Test",
+        "category": "Math: Algebra",
+        "difficulty": "medium",
+        "time_estimate": 90,
+        "passage": "",
+        "question_text": "If a = 20 - 2b and b - k = 5 for k = 1, 2, or 3, what is the least possible value of a?",
+        "options": [
+            "2",
+            "4",
+            "8",
+            "16"
+        ],
+        "correct_answer": 1
+    },
+    {
+        "_id": "49",
+        "question_number": 49,
+        "practice_set": "Diagnostic_Test",
+        "category": "Math: Arithmetic",
+        "difficulty": "medium",
+        "time_estimate": 120,
+        "passage": "The following table:\n\"fuel type \",\"percent of sales \"\n\"87-octane \",\"50% \"\n\"89-octane \",\"35% \"\n\"92-octane \",\"10% \"\n\"99-octane \",\"5% \"",
+        "question_text": "The table above summarizes the distribution of the four types of fuels sold by a gas station last weekend. If the gas station sold 180 more gallons of 87-octane fuel than 89-octane fuel, how many gallons of fuel in total did the gas station sell last weekend?",
+        "options": [
+            "140",
+            "515",
+            "800",
+            "1,200"
+        ],
+        "correct_answer": 3
+    },
+    {
+        "_id": "50",
+        "question_number": 50,
+        "practice_set": "Diagnostic_Test",
+        "category": "Math: Geometry",
+        "difficulty": "easy",
+        "time_estimate": 90,
+        "passage": "",
+        "question_text": "There are 1,000 cubic centimeters in 1 liter and 10 centimeters in 1 decimeter. How many cubic decimeters are there in 1 liter? ",
+        "options": [
+            "1",
+            "10",
+            "100",
+            "10,000"
+        ],
+        "correct_answer": 0
+    },
+    {
+        "_id": "51",
+        "question_number": 51,
+        "practice_set": "Diagnostic_Test",
+        "category": "Math: Arithmetic",
+        "difficulty": "medium",
+        "time_estimate": 120,
+        "passage": "",
+        "question_text": "In Country X, citizens elect a new president every four years.  Only citizens over the age of 18 can vote in any election. Chad was 3 years old in the year 2016 when Country X elected its 45th president. In the first election when Chad is old enough to vote, Country X will be electing the",
+        "options": [
+            "47th president",
+            "48th president",
+            "49th president",
+            "50th president"
+        ],
+        "correct_answer": 3
+    },
+    {
+        "_id": "52",
+        "question_number": 52,
+        "practice_set": "Diagnostic_Test",
+        "category": "Math: Arithmetic",
+        "difficulty": "easy",
+        "time_estimate": 60,
+        "passage": "",
+        "question_text": "Among the 10 million people who live in New York City, there are exactly 664,579 people who are left-handed. Approximately what percent of the people who live in New York City are left-handed?",
+        "options": [
+            "0.0066%",
+            "0.066%",
+            "0.66%",
+            "6.6%"
+        ],
+        "correct_answer": 3
+    },
+    {
+        "_id": "53",
+        "question_number": 53,
+        "practice_set": "Diagnostic_Test",
+        "category": "Math: Algebra",
+        "difficulty": "medium",
+        "time_estimate": 120,
+        "passage": "",
+        "question_text": "If x, y, and z represent integers such that xy³z⁴ < 0, which of the following must be true? ",
+        "options": [
+            "xy < 0",
+            "y³ < 0",
+            "y³z⁴ > 0",
+            "None of the above must be true."
+        ],
+        "correct_answer": 0
+    },
+    {
+        "_id": "54",
+        "question_number": 54,
+        "practice_set": "Diagnostic_Test",
+        "category": "Math: Algebra",
+        "difficulty": "hard",
+        "time_estimate": 180,
+        "passage": "The following table:\n\"IvyBook Pro Computer \",\"$1,200.00 \"\n\"10% DISCOUNT \",\"-$120.00 \"\n\"SALEE PRICE \",\"$1,080.00 \"\n\"6.25% SALES TAX \",\" $67.50 \"\n\"TOTAL \",\"$1,147.50 \"",
+        "question_text": "Nicki purchased a computer with a 10% discount. She paid $1,147.50 and her receipt is shown above. Kayla purchased the same computer at the same store at the same time, but with a 20% discount. If the tax rates were the same and there were no other costs or discounts, how much did Kayla pay?",
+        "options": [
+            "$1,008.54",
+            "$1,020.00",
+            "$1,027.50",
+            "$1,032.75"
+        ],
+        "correct_answer": 1
+    },
+    {
+        "_id": "55",
+        "question_number": 55,
+        "practice_set": "Diagnostic_Test",
+        "category": "Math: Geometry",
+        "difficulty": "medium",
+        "time_estimate": 120,
+        "passage": "image:images/shsatdiagnosticquestion55.png",
+        "question_text": "In the number line above, point J (not shown) is the midpoint of AC and point K (not shown) is the midpoint of BD. What is the length of JK?",
+        "options": [
+            "1.5 units",
+            "2 units",
+            "3 units",
+            "4 units"
+        ],
+        "correct_answer": 2
+    },
+    {
+        "_id": "56",
+        "question_number": 56,
+        "practice_set": "Diagnostic_Test",
+        "category": "Math: Algebra",
+        "difficulty": "medium",
+        "time_estimate": 90,
+        "passage": "",
+        "question_text": "If a is a positive integer and b + 2 = 3ª, which of the following CANNOT be the value of b? ",
+        "options": [
+            "-1",
+            "4",
+            "25",
+            "79"
+        ],
+        "correct_answer": 1
+    },
+    {
+        "_id": "57",
+        "question_number": 57,
+        "practice_set": "Diagnostic_Test",
+        "category": "Math: Arithmetic",
+        "difficulty": "easy",
+        "time_estimate": 90,
+        "passage": "",
+        "question_text": "Donna can fold 400 shirts in an hour. At this rate, how many seconds will she take to fold 120 shirts?",
+        "options": [
+            "180",
+            "200",
+            "720",
+            "1,080"
+        ],
+        "correct_answer": 3
+    },
+    {
+        "_id": "58",
+        "question_number": 58,
+        "practice_set": "Diagnostic_Test",
+        "category": "Math: Arithmetic",
+        "difficulty": "hard",
+        "time_estimate": 180,
+        "passage": "",
+        "question_text": "To train for a marathon, Hussain begins to increase the distance of his daily run on January 1st. Every day since, he has run 0.2 miles more than the day before and on January 31st, he ran 7.5 miles. On how many days in January did Hussain run more than 4 miles? ",
+        "options": [
+            "12 days",
+            "13 days",
+            "14 days",
+            "15 days"
+        ],
+        "correct_answer": 1
+    },
+    {
+        "_id": "59",
+        "question_number": 59,
+        "practice_set": "Diagnostic_Test",
+        "category": "Math: Geometry",
+        "difficulty": "medium",
+        "time_estimate": 120,
+        "passage": "",
+        "question_text": "The diameter of each wheel of a bicycle is 2 feet. When the bicycle is traveling at 11 feet per second, how many revolutions is each tire making per minute? (use the approximation π = 22/7)",
+        "options": [
+            "105",
+            "210",
+            "420",
+            "660"
+        ],
+        "correct_answer": 0
+    },
+    {
+        "_id": "60",
+        "question_number": 60,
+        "practice_set": "Diagnostic_Test",
+        "category": "Math: Arithmetic",
+        "difficulty": "easy",
+        "time_estimate": 90,
+        "passage": "",
+        "question_text": "How many positive three-digit numbers are evenly divisible by 33? ",
+        "options": [
+            "25",
+            "26",
+            "27",
+            "28"
+        ],
+        "correct_answer": 2
+    }
+]

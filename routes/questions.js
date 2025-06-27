@@ -16,8 +16,8 @@ const validateGetQuestions = [
     .withMessage('Invalid test type'),
   query('practiceSet')
     .optional()
-    .isIn(['1', '2'])
-    .withMessage('Practice set must be 1 or 2')
+    .isIn(['1', '2', 'diagnostic'])
+    .withMessage('Practice set must be 1, 2, or diagnostic')
 ];
 
 const validateSubmitAnswers = [
@@ -26,7 +26,7 @@ const validateSubmitAnswers = [
     .withMessage('Invalid test type'),
   body('practiceSet')
     .optional()
-    .isIn(['1', '2'])
+    .isIn(['1', '2', 'diagnostic'])
     .withMessage('Practice set must be 1 or 2'),
   body('answers')
     .isArray()
