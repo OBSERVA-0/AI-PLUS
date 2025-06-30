@@ -527,6 +527,44 @@ router.post('/seed-mastery', auth, async (req, res) => {
   }
 });
 
+// @route   GET /api/user/test-history
+// @desc    Get user test history
+// @access  Private
+router.get('/test-history', auth, async (req, res) => {
+  try {
+    const user = await User.findById(req.user._id);
+    if (!user) {
+      return res.status(404).json({
+        success: false,
+        message: 'User not found'
+      });
+    }
+
+    // Sort test history by completion date (most recent first)
+    const testHistory = (user.testHistory || []).sort((a, b) => 
+      new Date(b.completedAt) - new Date(a.completedAt)
+    );
+
+    console.log(`📊 Retrieved ${testHistory.length} test history entries for user ${user.email}`);
+    testHistory.forEach((test, index) => {
+      console.log(`📋 Test ${index + 1}: ${test.testName}, detailed results: ${test.detailedResults ? test.detailedResults.length : 'undefined'}`);
+    });
+
+    res.json({
+      success: true,
+      data: {
+        testHistory
+      }
+    });
+  } catch (error) {
+    console.error('❌ Error fetching test history:', error);
+    res.status(500).json({
+      success: false,
+      message: 'Error fetching test history'
+    });
+  }
+});
+
 // @route   DELETE /api/user/account
 // @desc    Deactivate user account
 // @access  Private

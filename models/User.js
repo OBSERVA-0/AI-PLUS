@@ -143,6 +143,55 @@ const userSchema = new mongoose.Schema({
       }
     }
   },
+  // Test history - stores individual test attempts
+  testHistory: [{
+    testType: {
+      type: String,
+      required: true,
+      enum: ['shsat', 'sat', 'state']
+    },
+    practiceSet: {
+      type: String,
+      required: true
+    },
+    testName: {
+      type: String,
+      required: true
+    },
+    completedAt: {
+      type: Date,
+      default: Date.now
+    },
+    results: {
+      percentage: { type: Number, required: true },
+      correctCount: { type: Number, required: true },
+      totalQuestions: { type: Number, required: true },
+      timeSpent: { type: Number, required: true }, // in seconds
+      categoryScores: {
+        type: Map,
+        of: {
+          correct: { type: Number, required: true },
+          total: { type: Number, required: true }
+        }
+      }
+    },
+    // Scaled scores for SHSAT and SAT
+    scaledScores: {
+      math: { type: Number, default: null },
+      english: { type: Number, default: null }, // SHSAT
+      reading_writing: { type: Number, default: null }, // SAT
+      total: { type: Number, default: null }
+    },
+    // Detailed question-by-question results
+    detailedResults: [{
+      questionId: { type: String },
+      questionNumber: { type: Number },
+      isCorrect: { type: Boolean },
+      userAnswer: { type: mongoose.Schema.Types.Mixed },
+      category: { type: String },
+      hasAnswer: { type: Boolean }
+    }]
+  }],
   preferences: {
     language: {
       type: String,

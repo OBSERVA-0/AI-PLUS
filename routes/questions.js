@@ -6,6 +6,8 @@ const { readQuestionsFromJSON } = require('../utils/questionReader');
 const { convertRawToScaled: convertShsatRawToScaled, calculateShsatScores } = require('../utils/shsatScoring');
 const { convertSatRawToScaled } = require('../utils/satScoring');
 const TestCode = require('../models/TestCode');
+const User = require('../models/User');
+const { auth } = require('../middleware/auth');
 
 const router = express.Router();
 
@@ -129,8 +131,8 @@ router.get('/test', validateGetQuestions, handleValidationErrors, async (req, re
 
 // @route   POST /api/questions/submit
 // @desc    Submit test answers and get results
-// @access  Public (temporarily)
-router.post('/submit', validateSubmitAnswers, handleValidationErrors, async (req, res) => {
+// @access  Private
+router.post('/submit', auth, validateSubmitAnswers, handleValidationErrors, async (req, res) => {
   try {
     const { testType, practiceSet = '1', answers, timeSpent } = req.body;
     
@@ -219,7 +221,8 @@ router.post('/submit', validateSubmitAnswers, handleValidationErrors, async (req
         userAnswer: answer.selectedAnswer,
         isCorrect,
         category: question.category,
-        explanation: question.explanation
+        explanation: question.explanation,
+        question_number: question.question_number
       });
     }
     
@@ -281,6 +284,77 @@ router.post('/submit', validateSubmitAnswers, handleValidationErrors, async (req
         },
         totalScaledScore: scaledMath + scaledEnglish
       };
+    }
+
+    // Save test attempt to user's test history
+    try {
+      const user = await User.findById(req.user._id);
+      if (user) {
+        // Generate test name based on type and practice set
+        let testName = '';
+        if (testType === 'shsat') {
+          testName = practiceSet === 'diagnostic' 
+            ? 'SHSAT Diagnostic Test' 
+            : `SHSAT Practice Test ${practiceSet}`;
+        } else if (testType === 'sat') {
+          testName = `SAT Practice Test ${practiceSet}`;
+        } else if (testType === 'state') {
+          testName = `State Test Practice ${practiceSet}`;
+        }
+
+        // Create test history entry
+        const testHistoryEntry = {
+          testType,
+          practiceSet,
+          testName,
+          completedAt: new Date(),
+          results: {
+            percentage,
+            correctCount,
+            totalQuestions: answers.length,
+            timeSpent,
+            categoryScores: new Map(Object.entries(categoryScores))
+          },
+          // Store detailed question results for the visual breakdown
+          detailedResults: detailedResults.map((result, index) => {
+            const questionNum = result.question_number || (index + 1);
+            console.log(`📝 Processing question ${questionNum}: ${result.category}, correct: ${result.isCorrect}`);
+            return {
+              questionId: result.questionId,
+              questionNumber: questionNum,
+              isCorrect: result.isCorrect,
+              userAnswer: result.userAnswer,
+              category: result.category,
+              hasAnswer: result.userAnswer !== undefined && result.userAnswer !== null && result.userAnswer !== ''
+            };
+          })
+        };
+
+        // Add scaled scores if available
+        if (testType === 'shsat' && responseData.results.shsatScores) {
+          testHistoryEntry.scaledScores = {
+            math: responseData.results.shsatScores.math.scaledScore,
+            english: responseData.results.shsatScores.english.scaledScore,
+            total: responseData.results.shsatScores.totalScaledScore
+          };
+        } else if (testType === 'sat' && responseData.results.satScores) {
+          testHistoryEntry.scaledScores = {
+            math: responseData.results.satScores.math.scaledScore,
+            reading_writing: responseData.results.satScores.reading_writing.scaledScore,
+            total: responseData.results.satScores.totalScaledScore
+          };
+        }
+
+        // Add to user's test history
+        user.testHistory.push(testHistoryEntry);
+        await user.save();
+        
+        console.log(`✅ Test history saved for user ${user.email}: ${testName}`);
+        console.log(`📊 Detailed results count: ${testHistoryEntry.detailedResults.length}`);
+      }
+    } catch (historyError) {
+      console.error('❌ Error saving test history:', historyError);
+      // Don't fail the whole request if history saving fails
     }
 
     res.json({

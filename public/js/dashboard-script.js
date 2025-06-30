@@ -844,7 +844,8 @@ function nextQuestion() {
     if (currentQuestionIndex < testQuestions.length - 1) {
         loadQuestion(currentQuestionIndex + 1);
     } else {
-        endTest();
+        // Show confirmation modal when finishing test
+        showEndTestConfirmation();
     }
 }
 
@@ -873,9 +874,88 @@ function startTimer() {
 }
 
 function showEndTestConfirmation() {
-    if (confirm('Are you sure you want to end the test?')) {
+    // Get test summary for the confirmation
+    const summary = getTestSummary();
+    
+    // Create custom confirmation modal
+    const modal = document.createElement('div');
+    modal.className = 'confirmation-modal-overlay';
+    modal.innerHTML = `
+        <div class="confirmation-modal">
+            <div class="modal-header">
+                <h3>⚠️ Finish Test Confirmation</h3>
+            </div>
+            <div class="modal-body">
+                <p><strong>Are you sure you want to finish and submit your test?</strong></p>
+                <div class="test-summary-confirmation">
+                    <div class="summary-row">
+                        <span>✅ Answered:</span>
+                        <span><strong>${summary.answered} questions</strong></span>
+                    </div>
+                    <div class="summary-row">
+                        <span>⏭️ Skipped:</span>
+                        <span><strong>${summary.skipped} questions</strong></span>
+                    </div>
+                    <div class="summary-row">
+                        <span>❓ Unanswered:</span>
+                        <span><strong>${summary.unanswered} questions</strong></span>
+                    </div>
+                    <div class="summary-row total">
+                        <span>📝 Total:</span>
+                        <span><strong>${summary.total} questions</strong></span>
+                    </div>
+                </div>
+                ${summary.unanswered > 0 || summary.skipped > 0 ? 
+                    `<div class="warning-message">
+                        <strong>⚠️ Note:</strong> You still have ${summary.unanswered + summary.skipped} unanswered/skipped questions. 
+                        You can continue working on them or submit now.
+                    </div>` : 
+                    `<div class="success-message">
+                        <strong>✅ Great job!</strong> You've answered all questions!
+                    </div>`
+                }
+                <p class="final-warning"><strong>Once submitted, you cannot change your answers.</strong></p>
+            </div>
+            <div class="modal-actions">
+                <button class="btn btn-secondary" id="cancel-finish">
+                    Continue Test
+                </button>
+                <button class="btn btn-danger" id="confirm-finish">
+                    Submit Test
+                </button>
+            </div>
+        </div>
+    `;
+    
+    // Add modal to page
+    document.body.appendChild(modal);
+    
+    // Add event listeners
+    document.getElementById('cancel-finish').addEventListener('click', () => {
+        document.body.removeChild(modal);
+    });
+    
+    document.getElementById('confirm-finish').addEventListener('click', () => {
+        document.body.removeChild(modal);
         endTest();
-    }
+    });
+    
+    // Close on backdrop click
+    modal.addEventListener('click', (e) => {
+        if (e.target === modal) {
+            document.body.removeChild(modal);
+        }
+    });
+    
+    // Close on Escape key
+    document.addEventListener('keydown', function escapeHandler(e) {
+        if (e.key === 'Escape') {
+            if (document.body.contains(modal)) {
+                document.body.removeChild(modal);
+            }
+            document.removeEventListener('keydown', escapeHandler);
+        }
+    });
 }
 
 async function endTest() {

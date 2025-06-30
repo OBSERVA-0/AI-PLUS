@@ -1,21 +1,7 @@
 [
   {
-    "_id": "",
-    "question_text": "Section 1 Module 1:\n\nClick I acknowledge to Proceed",
-    "passage": "DIRECTIONS:\n\nYou will be tested on a variety of important English and writing skills. Each question has one or more passages, possibly including a graph or table. Carefully read each passage and question and choose the best answer to the question based on the passage(s).Every question in this section is multiple-choice, with four possible answers. Each question has only one best answer.",
-    "options": [
-      "I acknowledge"
-    ],
-    "correct_answer": 0,
-    "difficulty": "",
-    "category": "English: Words in Context",
-    "time_estimate": 71,
-    "question_number": 1,
-    "practice_set": "1"
-  },
-  {
     "_id": "1",
-    "question_text": "Which choice completes the text with the most logical and precise word or phrase?",
+    "question_text": "Section 1 Module 1:\n\nWhich choice completes the text with the most logical and precise word or phrase?",
     "passage": "One of the most common ways that people can amass wealth is through _________ equity in their homes.",
     "options": [
       "assembling",
@@ -269,7 +255,7 @@
     ],
     "correct_answer": 2,
     "difficulty": "",
-    "category": "Writing: Punctuation",
+    "category": "English: Punctuation",
     "time_estimate": 71,
     "question_number": 15,
     "practice_set": "1"
@@ -286,7 +272,7 @@
     ],
     "correct_answer": 2,
     "difficulty": "",
-    "category": "Writing: Punctuation",
+    "category": "English: Punctuation",
     "time_estimate": 71,
     "question_number": 16,
     "practice_set": "1"
@@ -303,7 +289,7 @@
     ],
     "correct_answer": 1,
     "difficulty": "",
-    "category": "Writing: Punctuation",
+    "category": "English: Punctuation",
     "time_estimate": 71,
     "question_number": 17,
     "practice_set": "1"
@@ -320,7 +306,7 @@
     ],
     "correct_answer": 0,
     "difficulty": "",
-    "category": "Writing: Number and Tense",
+    "category": "English: Number and Tense",
     "time_estimate": 71,
     "question_number": 18,
     "practice_set": "1"
@@ -337,7 +323,7 @@
     ],
     "correct_answer": 3,
     "difficulty": "",
-    "category": "Writing: Punctuation",
+    "category": "English: Punctuation",
     "time_estimate": 71,
     "question_number": 19,
     "practice_set": "1"
@@ -354,7 +340,7 @@
     ],
     "correct_answer": 0,
     "difficulty": "",
-    "category": "Writing: Number and Tense",
+    "category": "English: Number and Tense",
     "time_estimate": 71,
     "question_number": 20,
     "practice_set": "1"
@@ -371,7 +357,7 @@
     ],
     "correct_answer": 2,
     "difficulty": "",
-    "category": "Writing: Number and Tense",
+    "category": "English: Number and Tense",
     "time_estimate": 71,
     "question_number": 21,
     "practice_set": "1"
@@ -379,7 +365,7 @@
   {
     "_id": "22",
     "question_text": "Which choice completes the text so that it conforms to the conventions of Standard English?",
-    "passage": "Henrik Ibsen and August Strindberg are truly giants of playwriting. The hallmarks of modern theater in their present incarnation—from stark realism to surreal expressionism—___________",
+    "passage": "Henrik Ibsen and August Strindberg are truly giants of playEnglish. The hallmarks of modern theater in their present incarnation—from stark realism to surreal expressionism—___________",
     "options": [
       "from the two mens’ works directly derive.",
       "from the works of these two men directly derive.",
@@ -388,7 +374,7 @@
     ],
     "correct_answer": 2,
     "difficulty": "",
-    "category": "Writing: Sentence Structure and Organization",
+    "category": "English: Sentence Structure and Organization",
     "time_estimate": 71,
     "question_number": 22,
     "practice_set": "1"
@@ -405,7 +391,7 @@
     ],
     "correct_answer": 0,
     "difficulty": "",
-    "category": "Writing: Transitions",
+    "category": "English: Transitions",
     "time_estimate": 71,
     "question_number": 23,
     "practice_set": "1"
@@ -422,7 +408,7 @@
     ],
     "correct_answer": 3,
     "difficulty": "",
-    "category": "Writing: Transitions",
+    "category": "English: Transitions",
     "time_estimate": 71,
     "question_number": 24,
     "practice_set": "1"
@@ -439,7 +425,7 @@
     ],
     "correct_answer": 0,
     "difficulty": "",
-    "category": "Writing: Transitions",
+    "category": "English: Transitions",
     "time_estimate": 71,
     "question_number": 25,
     "practice_set": "1"
@@ -447,7 +433,7 @@
   {
     "_id": "26",
     "question_text": "The student wants to introduce Robert Frost to an audience unfamiliar with his work. Which choice most effectively uses relevant informtion from the notes to accomplish this goal?",
-    "passage": "While researching a topic, a student has taken the following notes:\n\nRobert Frost is one of the most popular poets in modern day:\n\nHis poems centered around philosophical and social issues:\n\nquestioning common assumptions with ironic writing:\n\nOne of his most famous poems is “The Road Not Taken.”It encourages readers to take the path less traveled by the world or by peers:\n\nAnother one of Frost’s poems is “Nothing Gold Can Stay.:\n\nThis poem reflects on the fleeting nature of beauty and life.",
+    "passage": "While researching a topic, a student has taken the following notes:\n\nRobert Frost is one of the most popular poets in modern day:\n\nHis poems centered around philosophical and social issues:\n\nquestioning common assumptions with ironic English:\n\nOne of his most famous poems is “The Road Not Taken.”It encourages readers to take the path less traveled by the world or by peers:\n\nAnother one of Frost’s poems is “Nothing Gold Can Stay.:\n\nThis poem reflects on the fleeting nature of beauty and life.",
     "options": [
       "“The Road Not Taken” considers taking the path less traveled by others.",
       "Robert Frost is a famous modern poet whose work encourages critical thinking.",
@@ -456,7 +442,7 @@
     ],
     "correct_answer": 1,
     "difficulty": "",
-    "category": "Writing: Rhetorical Synthesis",
+    "category": "English: Rhetorical Synthesis",
     "time_estimate": 71,
     "question_number": 26,
     "practice_set": "1"
@@ -474,28 +460,14 @@
       ],
       "correct_answer": 1,
       "difficulty": "",
-      "category": "Writing: Rhetorical Synthesis",
+      "category": "English: Rhetorical Synthesis",
       "time_estimate": 71,
       "question_number": 27,
       "practice_set": "1"
     },
-    {
-     "_id": "",
-    "question_text": "Section 2 Module 2:\n\nClick I acknowledge to Proceed",
-    "passage": "DIRECTIONS:\n\nYou will be tested on a variety of important English and writing skills. Each question has one or more passages, possibly including a graph or table. Carefully read each passage and question and choose the best answer to the question based on the passage(s).Every question in this section is multiple-choice, with four possible answers. Each question has only one best answer.",
-    "options": [
-      "I acknowledge"
-    ],
-    "correct_answer": 0,
-    "difficulty": "",
-    "category": "English: Words in Context",
-    "time_estimate": 71,
-    "question_number": 1,
-    "practice_set": "1"
-  },
       {
-        "_id": "1",
-        "question_text": "Which choice completes the text with the most logical and precise word or phrase?",
+        "_id": "28",
+        "question_text": "Section 1 Module 2:\n\nWhich choice completes the text with the most logical and precise word or phrase?",
         "passage": "The vacation had the opposite effect on Jim. He despised the upcoming days and was depressed at the thought of his recent break-up. Although he marched into work 15 minutes early on Monday morning, he was feeling very___________.",
         "options": [
           "energetic",
@@ -507,11 +479,11 @@
         "difficulty": "",
         "category": "English: Words in Context",
         "time_estimate": 71,
-        "question_number": 1,
+        "question_number": 28,
         "practice_set": "2"
       },
       {
-        "_id": "2",
+        "_id": "29",
         "question_text": "Which choice completes the text with the most logical and precise word or phrase?",
         "passage": "An education is usually thought to have intrinsic ___________ rather than extrinsic. That is, its worth comes from the love of knowledge rather than something monetary. However, with the rising cost of tuition, one could maybe argue that there is a fiscal price related to education.",
         "options": [
@@ -524,11 +496,11 @@
         "difficulty": "",
         "category": "English: Words in Context",
         "time_estimate": 71,
-        "question_number": 2,
+        "question_number": 29,
         "practice_set": "2"
       },
       {
-        "_id": "3",
+        "_id": "30",
         "question_text": "Which choice completes the text with the most logical and precise word or phrase?",
         "passage": "The night sky erupted with great displays of sound and light. Every couple of minutes, from dusk till late, the loud, explosive sounds would shake the sky and some unsuspecting and innocent below. It is not lightning or anything___________; rather, it is meant to be a symbol of patriotism. It was a week before the Fourth of July, a day meant to celebrate the United States and those who defend it, and the fireworks had already begun.",
         "options": [
@@ -541,11 +513,11 @@
         "difficulty": "",
         "category": "English: Words in Context",
         "time_estimate": 71,
-        "question_number": 3,
+        "question_number": 30,
         "practice_set": "2"
       },
       {
-        "_id": "4",
+        "_id": "31",
         "question_text": "Which choice completes the text with the most logical and precise word or phrase?",
         "passage": "Though Friedel and Crafts discovered a new chemical reaction, this reaction technique was virtually useless to the scientific community because it lacked selectivity. Selectivity causes a reaction to favor one product over another potential product of the reaction. Without selectivity, it is impossible for chemists to ___________ the products of their reaction. Not being able to separate one product from another makes a reaction useless because even a small alteration in a molecule can result in adverse effects.",
         "options": [
@@ -558,11 +530,11 @@
         "difficulty": "",
         "category": "English: Words in Context",
         "time_estimate": 71,
-        "question_number": 4,
+        "question_number": 31,
         "practice_set": "2"
       },
       {
-        "_id": "5",
+        "_id": "32",
         "question_text": "As used in the text, what does the word “evolving” most nearly mean?",
         "passage": "As anyone who has watched a bag of instant popcorn expand knows, the tray inside of a microwave oven rotates as the food cooks. This rotation has the interesting effect of increasing the kinetic energy of the food’s polar molecules, as they too must constantly rotate to remain aligned with the field. As they do so, these molecules rub and grind against their neighbors, converting their kinetic energy into intermolecular friction, and thus <u>evolving heat</u>. In fact, the motion of molecules is so directly related to internal heat that one can calculate a material’s exact temperature by averaging the kinetic energy of the atoms and molecules that comprise it.",
         "options": [
@@ -575,11 +547,11 @@
         "difficulty": "",
         "category": "English: Words in Context",
         "time_estimate": 71,
-        "question_number": 5,
+        "question_number": 32,
         "practice_set": "2"
       },
       {
-        "_id": "6",
+        "_id": "33",
         "question_text": "Which choice best states the main purpose of the text?",
         "passage": "Advocates of the presidential model posit that it is more democratic than the parliamentary system because the people themselves choose their executive.They contend that the fixed terms even allow for some stability that the parliamentary organization does not allow. Likewise, a further benefit lies in the separation of powers subject to checks and balances, in which the executive and legislative bodies can monitor one another and assure that power is not centralized. Yet, critics of the system assert that the president’s national status affords tendencies toward authoritarianism. Furthermore, as a rule, deadlocks or stalemates are much more common within a system that often has executive and legislative bodies under the control of different parties. Cynics therefore suggest that the presidential model is privy to discord and inefficiency—not to mention, presidents are difficult to remove when thought to be unfit.",
         "options": [
@@ -592,11 +564,11 @@
         "difficulty": "",
         "category": "English: Structure and Purpose",
         "time_estimate": 71,
-        "question_number": 6,
+        "question_number": 33,
         "practice_set": "2"
       },
       {
-        "_id": "7",
+        "_id": "34",
         "question_text": "Which choice best describes the function of the final sentence in the overall structure of the text?",
         "passage": "Some people simply believe that few, if any, other civilizations outside those on Earth exist. The Rare Earth Hypothesis suggests that Earth is unique, and so, therefore, is intelligent life. Others theorize that intelligent life has a tendency of destroying itself quickly; they hypothesize that self-annihilation occurs before contact can be made. On the other hand, many postulate that extraterrestrial intelligence (ETI) does exist, but we see no evidence for a variety of reasons. Perhaps we are too far apart in space or time; perhaps humans, a relatively new species, haven’t searched long enough or maybe we aren’t listening properly; what if our distant neighbors are using different frequencies?",
         "options": [
@@ -609,11 +581,11 @@
         "difficulty": "",
         "category": "English: Structure and Purpose",
         "time_estimate": 71,
-        "question_number": 7,
+        "question_number": 34,
         "practice_set": "2"
       },
       {
-        "_id": "8",
+        "_id": "35",
         "question_text": "The narrator of the poem is best described as which of the following?",
         "passage": "The following text is from Carl Sandburg’s 1916 poem “Theme in Yellow.”\n\nI spot the hills With yellow balls in autumn.\n\nI light the prairie cornfields\n\nOrange and tawny gold clusters\n\nAnd I am called pumpkins.\n\nOn the last of October\n\nWhen dusk is fallen\n\nChildren join hands\n\nAnd circle round me\n\nSinging ghost songs\n\nAnd love to the harvest moon;\n\nI am a jack-o’-lantern\n\nWith terrible teeth\n\nAnd the children know\n\nI am fooling.",
         "options": [
@@ -626,11 +598,11 @@
         "difficulty": "",
         "category": "English: Central Ideas and Details",
         "time_estimate": 71,
-        "question_number": 8,
+        "question_number": 35,
         "practice_set": "2"
       },
       {
-        "_id": "9",
+        "_id": "36",
         "question_text": "Which quotation from the article would best illustrate this claim?",
         "passage": "A historian writes an article suggesting that a shortcoming of the Iroquois Great League governmental structure was a decision-making process that led to paralysis.",
         "options": [
@@ -643,11 +615,11 @@
         "difficulty": "",
         "category": "English: Textual Evidence",
         "time_estimate": 71,
-        "question_number": 9,
+        "question_number": 36,
         "practice_set": "2"
       },
       {
-        "_id": "10",
+        "_id": "37",
         "question_text": "Which of the following situations would most resemble the relationship discussed in the text?",
         "passage": "A biologist analyzes the relationship between Midwestern bird species and the honeysuckle fruit. They find that the organisms have developed a mutualist relationship: native species of birds throughout the Midwest rely on honeysuckle fruit as a staple food source in the fall, while honeysuckle benefits in being spread to new regions when its seeds are eaten and subsequently dispersed by the birds.",
         "options": [
@@ -660,11 +632,11 @@
         "difficulty": "",
         "category": "English: Textual Evidence",
         "time_estimate": 71,
-        "question_number": 10,
+        "question_number": 37,
         "practice_set": "2"
       },
       {
-        "_id": "11",
+        "_id": "38",
         "question_text": "Which of the following, if true, would most directly support the therapist’s hypothesis?",
         "passage": "Occupational therapists work with clients to help them better perform their daily tasks. An occupational therapist examines what aspect of occupational therapy will most likely lead to positive client outcomes, replacing dysfunctional occupations (activities) and replacing them with functional ones. The therapist hypothesizes that a collaborative relationship between the occupational therapist and patient will minimize occupational dysfunction.",
         "options": [
@@ -677,11 +649,11 @@
         "difficulty": "",
         "category": "English: Textual Evidence",
         "time_estimate": 71,
-        "question_number": 11,
+        "question_number": 38,
         "practice_set": "2"
       },
       {
-        "_id": "12",
+        "_id": "39",
         "question_text": "Which of the viruses in the table would most effectively be used to support the virologist’s hypothesis?:\n\nEpidemic illnesses can cause significant loss of human life. A virologist attempts to determine what characteristics of flu viruses will result in the greatest human mortality. The virologist hypothesizes that if a flu virus has too high a fatality rate, its victims will die off before they can transmit the virus to other humans, ultimately resulting in relatively few cases.",
         "passage": "image:images/satpractice1question12module2.png",
         "options": [
@@ -694,11 +666,11 @@
         "difficulty": "",
         "category": "English: Quantitative Evidence",
         "time_estimate": 71,
-        "question_number": 12,
+        "question_number": 39,
         "practice_set": "2"
       },
       {
-        "_id": "13",
+        "_id": "40",
         "question_text": "Which statement would best utilize the information in the table to provide an argument against the researcher’s position?:\n\nA researcher who specializes in analyzing the aftermath of car wrecks determines that car crash dummies are almost always designed to represent the male skeletal and muscular anatomy. The researcher thinks that car manufacturers as well as consumers should demand that the National Highway Traffic Safety Administration develop dummies that represent not just men and women, but a variety of sizes of men and women as well as a variety of sizes of children. The researcher argues that the government should prioritize diverse demographic representation among crash test dummies to gather the most helpful information for consumers.",
         "passage": "image:images/satpractice1question13module2.png",
         "options": [
@@ -711,11 +683,11 @@
         "difficulty": "",
         "category": "English: Quantitative Evidence",
         "time_estimate": 71,
-        "question_number": 13,
+            "question_number": 40,
         "practice_set": "2"
       },
       {
-        "_id": "14",
+        "_id": "41",
         "question_text": "Which choice most logically completes the text?",
         "passage": "English chemist John Newlands proposed a “law of octaves” that was based, shockingly, on the standard musical scale, and which suggested that the periodicity of the elements follows a similar eight “note” pattern. Though his contemporaries heavily criticized Newlands, the idea was eventually vindicated by the octet theory of chemical bonding, which ___________",
         "options": [
@@ -728,11 +700,11 @@
         "difficulty": "",
         "category": "English: Inferences",
         "time_estimate": 71,
-        "question_number": 14,
+        "question_number": 41,
         "practice_set": "2"
       },
       {
-        "_id": "15",
+        "_id": "42",
         "question_text": "Which choice most logically completes the text?",
         "passage": "Bacteria is adapting and changing in response to our attempts to quash it and is consequently becoming more of a threat than ever before. Doctors and patients should be cautious and should ensure that antibiotics are truly necessary before contributing to this issue. Fewer antibiotics prescribed will mean less of a chance for C. dif for each individual patient and a greater chance that antibiotics will ___________",
         "options": [
@@ -745,11 +717,11 @@
         "difficulty": "",
         "category": "English: Inferences",
         "time_estimate": 71,
-        "question_number": 15,
+        "question_number": 42,
         "practice_set": "2"
       },
       {
-        "_id": "16",
+        "_id": "43",
         "question_text": "Which choice completes the text so that it conforms to the conventions of Standard English?",
         "passage": "___________ that live in the eastern region of Australia and in Tasmania. Platypuses typically live in bodies of freshwater like rivers, wetlands, billabongs, and estuaries; however, they have been known to live in brackish —a combination of fresh and salt water—estuaries as well.",
         "options": [
@@ -760,13 +732,13 @@
         ],
         "correct_answer": 3,
         "difficulty": "",
-        "category": "Writing: Punctuation",
+        "category": "English: Punctuation",
         "time_estimate": 71,
-        "question_number": 16,
+          "question_number": 43,
         "practice_set": "2"
       },
   {
-    "_id": "17",
+    "_id": "44",
     "question_text": "Which choice completes the text so that it conforms to the conventions of Standard English?",
     "passage": "The bystander effect is a psychological phenomenon that prevents people from helping those in need. The psychology behind this phenomenon is actually fairly simple. ___________ In a crowded place such as a stadium, people may think “I couldn’t get there in time,” or, “there are so many people who are closer to the scene of distress.”",
     "options": [
@@ -777,13 +749,13 @@
     ],
     "correct_answer": 1,
     "difficulty": "",
-    "category": "Writing: Punctuation",
+    "category": "English: Punctuation",
     "time_estimate": 94,
-    "question_number": 17,
+    "question_number": 44,
     "practice_set": "1"
   },
   {
-    "_id": "18",
+    "_id": "45",
     "question_text": "Which choice completes the text so that it conforms to the conventions of Standard English?",
     "passage": "Scientists speculate that even though the evolutionary purpose of the toxins in ergot fungus was to discourage animals from eating it, humans were unable to prevent its consumption. ___________ harvested en masse and was only rarely sorted to remove ergot fungus.",
     "options": [
@@ -794,13 +766,13 @@
     ],
     "correct_answer": 0,
     "difficulty": "",
-    "category": "Writing: Punctuation",
+    "category": "English: Punctuation",
     "time_estimate": 94,
-    "question_number": 18,
+    "question_number": 45,
     "practice_set": "1"
   },
   {
-    "_id": "19",
+    "_id": "46",
     "question_text": "Which choice completes the text so that it conforms to the conventions of Standard English?",
     "passage": "States can best be characterized by their natural idiosyncrasies. Florida has its powdered sugar beaches; Nebraska, its butterscotch ___________",
     "options": [
@@ -811,13 +783,13 @@
     ],
     "correct_answer": 3,
     "difficulty": "",
-    "category": "Writing: Punctuation",
+    "category": "English: Punctuation",
     "time_estimate": 94,
-    "question_number": 19,
+    "question_number": 46,
     "practice_set": "1"
   },
   {
-    "_id": "20",
+    "_id": "47",
     "question_text": "Which choice completes the text so that it conforms to the conventions of Standard English?",
     "passage": "While hiking has always been known to be a good form of exercise, current research ___________ that its added mental benefits have a significant impact on the physical health of those who hike.",
     "options": [
@@ -828,13 +800,13 @@
     ],
     "correct_answer": 0,
     "difficulty": "",
-    "category": "Writing: Number and Tense",
+    "category": "English: Number and Tense",
     "time_estimate": 94,
-    "question_number": 20,
+    "question_number": 47,
     "practice_set": "1"
   },
   {
-    "_id": "21",
+    "_id": "48",
     "question_text": "Which choice completes the text so that it conforms to the conventions of Standard English?",
     "passage": "When visiting museums, most people take for granted the rooms upon rooms of historic paintings, often hundreds of years old, that ___________ carefully preserved for the public’s view.",
     "options": [
@@ -845,13 +817,13 @@
     ],
     "correct_answer": 2,
     "difficulty": "",
-    "category": "Writing: Number and Tense",
+    "category": "English: Number and Tense",
     "time_estimate": 94,
-    "question_number": 21,
+    "question_number": 48,
     "practice_set": "1"
   },
   {
-    "_id": "22",
+    "_id": "49",
     "question_text": "Which choice completes the text so that it conforms to the conventions of Standard English?",
     "passage": "Servals are medium-sized, gold-colored cats covered in darker patterns of\nstripes and spots. Having a lighter-colored coat with a darker pattern\n___________ more difficult to spot them.",
     "options": [
@@ -862,13 +834,13 @@
     ],
     "correct_answer": 2,
     "difficulty": "",
-    "category": "Writing: Number and Tense",
+    "category": "English: Number and Tense",
     "time_estimate": 94,
-    "question_number": 22,
+    "question_number": 49,
     "practice_set": "1"
   },
   {
-    "_id": "23",
+    "_id": "50",
     "question_text": "Which choice completes the text with the most logical transition?",
     "passage": "The Y-Bridge (named for its distinctive Y-shape) was designed to span the\nconfluence of the Muskingum and Licking rivers. ___________ it crosses\nboth rivers, Ripley’s Believe It Or Not once claimed that the Y-Bridge was\nthe only bridge in the world where it was possible to cross and still end up\non the same side of the river, and Amelia Earhart once called Zanesville “the\nmost recognizable city in the country” because of the bridge.",
     "options": [
@@ -879,13 +851,13 @@
     ],
     "correct_answer": 0,
     "difficulty": "",
-    "category": "Writing: Transitions",
+    "category": "English: Transitions",
     "time_estimate": 94,
-    "question_number": 23,
+    "question_number": 50,
     "practice_set": "1"
   },
   {
-    "_id": "24",
+    "_id": "51",
     "question_text": "Which choice completes the text with the most logical transition?",
     "passage": "Chronic traumatic encephalopathy (CTE) is a progressive neurodegenerative\nbrain disease that is largely difficult to diagnose and treat. Indeed,\n___________ accurate diagnosis can only be done by looking at portions of\nthe brain under a microscope, a true CTE diagnosis can’t be made until an\nautopsy is done on a deceased sufferer.",
     "options": [
@@ -896,13 +868,13 @@
     ],
     "correct_answer": 2,
     "difficulty": "",
-    "category": "Writing: Transitions",
+    "category": "English: Transitions",
     "time_estimate": 94,
-    "question_number": 24,
+    "question_number": 51,
     "practice_set": "1"
   },
       {
-        "_id": "25",
+        "_id": "52",
         "question_text": "The student wants to make a generalization about the early sponsors of ballet. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
         "passage": "While researching a topic, a student has taken the following notes:Ballet traces its history to the Italian Renaissance in the 15th century.Catherine de Medici, a native Italian, was queen consort of France in the mid-1500s.Catherine de Medici enjoyed ballet, introduced it to the French court,and sponsored large and detailed performances.The French court continued to value ballet and King Louis XIV even performed in ballets.The world’s first ballet school, Académie Royale de Danse, was founded in France in 1661 with the support of King Louis XIV.The ballet school introduced the five positions all ballet students still learn today.",
         "options": [
@@ -913,13 +885,13 @@
         ],
         "correct_answer": 2,
         "difficulty": "",
-        "category": "Writing: Rhetorical Synthesis",
+        "category": "English: Rhetorical Synthesis",
         "time_estimate": 72,
-        "question_number": 26,
+        "question_number": 52,
         "practice_set": "2"
       },
       {
-        "_id": "26",
+        "_id": "53",
         "question_text": "The student wants to recommend specific measures that people can take to avoid hearing loss. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
         "passage": "While researching a topic, a student has taken the following notes:\nThere are two types of hearing loss: conductive and sensorineural.\nConductive hearing loss happens when sounds cannot get through, or conduct, to the inner ear.\nConductive hearing loss can have many causes and sometimes it’s a simple cause, such a blockage in the ear canal.\nSensorineural hearing loss happens when structures in the inner ear are damaged.\nSensorineural hearing loss also has many causes—two common causes are aging and exposure to loud noises.",
         "options": [
@@ -930,9 +902,26 @@
         ],
         "correct_answer": 1,
         "difficulty": "",
-        "category": "Writing: Rhetorical Synthesis",
+        "category": "English: Rhetorical Synthesis",
         "time_estimate": 72,
-        "question_number": 27,
+          "question_number": 53,
+        "practice_set": "2"
+      },
+      {
+        "_id": "54",
+        "question_text": "The student wants to recommend practical ways individuals can reduce microplastic exposure. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+        "passage": "While researching a topic, a student has taken the following notes:\nMicroplastics are small plastic particles less than 5mm in diameter.\nThey are commonly found in water sources, including oceans, lakes, and drinking water.\nMicroplastics can enter the body through ingestion or inhalation.\nAlthough the long-term health effects are still being studied, microplastics have been detected in human organs.\nReducing single-use plastic consumption can help limit environmental microplastic pollution.",
+        "options": [
+          "Microplastics are a major pollutant in global water systems and have even been found in remote areas like the Arctic.",
+          "Scientists are still uncertain about the exact health consequences of ingesting or inhaling microplastics.",
+          "Limiting single-use plastics, such as straws and plastic bags, may reduce the chances of microplastics entering the environment and body.",
+          "Because they are small in size, microplastics can be found in both ocean water and freshwater lakes."
+        ],
+        "correct_answer": 2,
+        "difficulty": "",
+        "category": "English: Rhetorical Synthesis",
+        "time_estimate": 72,
+        "question_number": 54,
         "practice_set": "2"
       }
     ]    
