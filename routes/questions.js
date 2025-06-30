@@ -4,7 +4,7 @@ const fs = require('fs').promises;
 const path = require('path');
 const { readQuestionsFromJSON } = require('../utils/questionReader');
 const { convertRawToScaled: convertShsatRawToScaled, calculateShsatScores } = require('../utils/shsatScoring');
-const { convertSatRawToScaled } = require('../utils/satScoring');
+const { convertSatRawToScaled, calculateSatResults } = require('../utils/satScoring');
 const TestCode = require('../models/TestCode');
 const User = require('../models/User');
 const { auth } = require('../middleware/auth');
@@ -266,23 +266,28 @@ router.post('/submit', auth, validateSubmitAnswers, handleValidationErrors, asyn
 
     // Add SAT scaled scores if applicable
     if (testType === 'sat') {
-      const scaledMath = convertSatRawToScaled(satSectionScores.math.correct, 'math');
-      const scaledEnglish = convertSatRawToScaled(satSectionScores.english.correct, 'reading_writing');
+      // Use the new comprehensive SAT scoring system
+      const satScoreResults = calculateSatResults(
+        satSectionScores.math.correct,
+        satSectionScores.english.correct
+      );
       
       responseData.results.satScores = {
         math: {
           rawScore: satSectionScores.math.correct,
           totalQuestions: satSectionScores.math.total,
           percentage: satSectionScores.math.total > 0 ? Math.round((satSectionScores.math.correct / satSectionScores.math.total) * 100) : 0,
-          scaledScore: scaledMath
+          scaledScore: satScoreResults.math.scaledScore
         },
-        reading_writing: { // Changed from 'english' to be more specific
+        reading_writing: {
           rawScore: satSectionScores.english.correct,
           totalQuestions: satSectionScores.english.total,
           percentage: satSectionScores.english.total > 0 ? Math.round((satSectionScores.english.correct / satSectionScores.english.total) * 100) : 0,
-          scaledScore: scaledEnglish
+          scaledScore: satScoreResults.readingWriting.scaledScore
         },
-        totalScaledScore: scaledMath + scaledEnglish
+        totalScaledScore: satScoreResults.total.score,
+        percentile: satScoreResults.total.percentile,
+        performanceLevel: satScoreResults.total.performanceLevel
       };
     }
 
