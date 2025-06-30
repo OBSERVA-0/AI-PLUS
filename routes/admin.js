@@ -347,4 +347,106 @@ router.post('/generate-test-code', auth, requireAdmin, async (req, res) => {
     }
 });
 
+// @route   GET /api/admin/user/:id/test-history
+// @desc    Get test history for a specific user (admin only)
+// @access  Private (Admin only)
+router.get('/user/:id/test-history', auth, requireAdmin, async (req, res) => {
+  try {
+    const user = await User.findById(req.params.id);
+    
+    if (!user || user.role !== 'student') {
+      return res.status(404).json({
+        success: false,
+        message: 'Student not found'
+      });
+    }
+    
+    // Sort test history by completion date (most recent first)
+    const testHistory = (user.testHistory || []).sort((a, b) => 
+      new Date(b.completedAt) - new Date(a.completedAt)
+    );
+    
+    console.log(`📊 Admin retrieved ${testHistory.length} test history entries for user ${user.email}`);
+    
+    res.json({
+      success: true,
+      data: {
+        student: {
+          id: user._id,
+          name: `${user.firstName} ${user.lastName}`,
+          email: user.email,
+          grade: user.grade
+        },
+        testHistory
+      }
+    });
+    
+  } catch (error) {
+    console.error('❌ Get user test history error:', error);
+    res.status(500).json({
+      success: false,
+      message: 'Error retrieving user test history'
+    });
+  }
+});
+
+// @route   DELETE /api/admin/user/:id
+// @desc    Delete a user (admin only)
+// @access  Private (Admin only)
+router.delete('/user/:id', auth, requireAdmin, async (req, res) => {
+  try {
+    const userId = req.params.id;
+    
+    // Find the user to delete
+    const userToDelete = await User.findById(userId);
+    
+    if (!userToDelete) {
+      return res.status(404).json({
+        success: false,
+        message: 'User not found'
+      });
+    }
+    
+    // Prevent admin from deleting themselves
+    if (userToDelete._id.toString() === req.user._id.toString()) {
+      return res.status(400).json({
+        success: false,
+        message: 'You cannot delete your own account'
+      });
+    }
+    
+    // Prevent deletion of other admin accounts (optional security measure)
+    if (userToDelete.role === 'admin') {
+      return res.status(400).json({
+        success: false,
+        message: 'Cannot delete admin accounts'
+      });
+    }
+    
+    // Delete the user
+    await User.findByIdAndDelete(userId);
+    
+    console.log(`🗑️ Admin ${req.user.email} deleted user: ${userToDelete.email}`);
+    
+    res.json({
+      success: true,
+      message: `User ${userToDelete.firstName} ${userToDelete.lastName} has been deleted successfully`,
+      data: {
+        deletedUser: {
+          id: userToDelete._id,
+          name: `${userToDelete.firstName} ${userToDelete.lastName}`,
+          email: userToDelete.email
+        }
+      }
+    });
+    
+  } catch (error) {
+    console.error('❌ Delete user error:', error);
+    res.status(500).json({
+      success: false,
+      message: 'Error deleting user'
+    });
+  }
+});
+
 module.exports = router; 
