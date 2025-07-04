@@ -1,0 +1,52 @@
+<svg width="400" height="180" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="400" height="180" fill="white"/>
+  
+  <!-- Problem number -->
+  <text x="20" y="25" font-family="Arial, sans-serif" font-size="14" font-weight="bold">93.</text>
+  
+  <!-- Table -->
+  <g transform="translate(50, 40)">
+    <!-- Table border -->
+    <rect x="0" y="0" width="320" height="120" fill="none" stroke="black" stroke-width="2"/>
+    
+    <!-- Header row separator -->
+    <line x1="0" y1="30" x2="320" y2="30" stroke="black" stroke-width="1"/>
+    
+    <!-- Column separator -->
+    <line x1="160" y1="0" x2="160" y2="120" stroke="black" stroke-width="1"/>
+    
+    <!-- Row separators -->
+    <line x1="0" y1="54" x2="320" y2="54" stroke="black" stroke-width="1"/>
+    <line x1="0" y1="78" x2="320" y2="78" stroke="black" stroke-width="1"/>
+    <line x1="0" y1="102" x2="320" y2="102" stroke="black" stroke-width="1"/>
+    
+    <!-- Header text -->
+    <text x="80" y="20" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold">
+      Brand of Orange Juice
+    </text>
+    <text x="240" y="12" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold">
+      Number of Respondents
+    </text>
+    <text x="240" y="25" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold">
+      who Chose as Favorite
+    </text>
+    
+    <!-- Data rows -->
+    <!-- Row A -->
+    <text x="80" y="45" text-anchor="middle" font-family="Arial, sans-serif" font-size="12">A</text>
+    <text x="240" y="45" text-anchor="middle" font-family="Arial, sans-serif" font-size="12">61</text>
+    
+    <!-- Row B -->
+    <text x="80" y="69" text-anchor="middle" font-family="Arial, sans-serif" font-size="12">B</text>
+    <text x="240" y="69" text-anchor="middle" font-family="Arial, sans-serif" font-size="12">24</text>
+    
+    <!-- Row C -->
+    <text x="80" y="93" text-anchor="middle" font-family="Arial, sans-serif" font-size="12">C</text>
+    <text x="240" y="93" text-anchor="middle" font-family="Arial, sans-serif" font-size="12">x</text>
+    
+    <!-- Row D -->
+    <text x="80" y="117" text-anchor="middle" font-family="Arial, sans-serif" font-size="12">D</text>
+    <text x="240" y="117" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-style="italic">y</text>
+  </g>
+</svg>

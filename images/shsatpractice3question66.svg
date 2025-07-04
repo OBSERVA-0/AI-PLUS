@@ -1,0 +1,83 @@
+<svg width="500" height="100" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="500" height="100" fill="white"/>
+  
+
+  
+  <!-- Number line -->
+  <g transform="translate(50, 50)">
+    <!-- Main horizontal line -->
+    <line x1="0" y1="0" x2="360" y2="0" stroke="black" stroke-width="2"/>
+    
+    <!-- Arrows at both ends -->
+    <polygon points="0,0 8,-3 8,3" fill="black"/>
+    <polygon points="360,0 352,-3 352,3" fill="black"/>
+    
+    <!-- Tick marks and numbers -->
+    <g stroke="black" stroke-width="1" font-family="Arial, sans-serif" font-size="12">
+      <!-- -2 -->
+      <line x1="0" y1="-5" x2="0" y2="5"/>
+      <text x="0" y="20" text-anchor="middle">-2</text>
+      
+      <!-- -1 -->
+      <line x1="30" y1="-5" x2="30" y2="5"/>
+      <text x="30" y="20" text-anchor="middle">-1</text>
+      
+      <!-- 0 -->
+      <line x1="60" y1="-5" x2="60" y2="5"/>
+      <text x="60" y="20" text-anchor="middle">0</text>
+      
+      <!-- 1 -->
+      <line x1="90" y1="-5" x2="90" y2="5"/>
+      <text x="90" y="20" text-anchor="middle">1</text>
+      
+      <!-- 2 -->
+      <line x1="120" y1="-5" x2="120" y2="5"/>
+      <text x="120" y="20" text-anchor="middle">2</text>
+      
+      <!-- 3 -->
+      <line x1="150" y1="-5" x2="150" y2="5"/>
+      <text x="150" y="20" text-anchor="middle">3</text>
+      
+      <!-- 4 -->
+      <line x1="180" y1="-5" x2="180" y2="5"/>
+      <text x="180" y="20" text-anchor="middle">4</text>
+      
+      <!-- 5 -->
+      <line x1="210" y1="-5" x2="210" y2="5"/>
+      <text x="210" y="20" text-anchor="middle">5</text>
+      
+      <!-- 6 -->
+      <line x1="240" y1="-5" x2="240" y2="5"/>
+      <text x="240" y="20" text-anchor="middle">6</text>
+      
+      <!-- 7 -->
+      <line x1="270" y1="-5" x2="270" y2="5"/>
+      <text x="270" y="20" text-anchor="middle">7</text>
+      
+      <!-- 8 -->
+      <line x1="300" y1="-5" x2="300" y2="5"/>
+      <text x="300" y="20" text-anchor="middle">8</text>
+      
+      <!-- 9 -->
+      <line x1="330" y1="-5" x2="330" y2="5"/>
+      <text x="330" y="20" text-anchor="middle">9</text>
+      
+      <!-- 10 -->
+      <line x1="360" y1="-5" x2="360" y2="5"/>
+      <text x="360" y="20" text-anchor="middle">10</text>
+    </g>
+    
+    <!-- Point labels -->
+    <g font-family="Arial, sans-serif" font-size="14" font-style="italic">
+      <!-- Point A at 1 -->
+      <text x="90" y="-15" text-anchor="middle">A</text>
+      
+      <!-- Point B at 3 -->
+      <text x="150" y="-15" text-anchor="middle">B</text>
+      
+      <!-- Point C at 7 -->
+      <text x="270" y="-15" text-anchor="middle">C</text>
+    </g>
+  </g>
+</svg>

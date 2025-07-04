@@ -1,0 +1,34 @@
+<svg width="300" height="250" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="300" height="250" fill="white"/>
+  
+  <!-- Problem number -->
+  <text x="20" y="25" font-family="Arial, sans-serif" font-size="14" font-weight="bold">101.</text>
+  
+  <!-- Circle and points -->
+  <g transform="translate(150, 125)">
+    <!-- Circle -->
+    <circle cx="0" cy="0" r="80" fill="none" stroke="black" stroke-width="2"/>
+    
+    <!-- Points on circle -->
+    <!-- Point A (bottom left) -->
+    <circle cx="-56" cy="56" r="2" fill="black"/>
+    <text x="-66" y="61" font-family="Arial, sans-serif" font-size="14" font-style="italic">A</text>
+    
+    <!-- Point B (upper left) -->
+    <circle cx="-56" cy="-56" r="2" fill="black"/>
+    <text x="-66" y="-51" font-family="Arial, sans-serif" font-size="14" font-style="italic">B</text>
+    
+    <!-- Point C (top) -->
+    <circle cx="0" cy="-80" r="2" fill="black"/>
+    <text x="-5" y="-90" font-family="Arial, sans-serif" font-size="14" font-style="italic">C</text>
+    
+    <!-- Point D (upper right) -->
+    <circle cx="56" cy="-56" r="2" fill="black"/>
+    <text x="61" y="-51" font-family="Arial, sans-serif" font-size="14" font-style="italic">D</text>
+    
+    <!-- Point E (bottom right) -->
+    <circle cx="56" cy="56" r="2" fill="black"/>
+    <text x="61" y="61" font-family="Arial, sans-serif" font-size="14" font-style="italic">E</text>
+  </g>
+</svg>

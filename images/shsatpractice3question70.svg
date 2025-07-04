@@ -1,0 +1,30 @@
+<svg width="400" height="200" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="400" height="200" fill="white"/>
+  
+  <!-- Problem number -->
+  <text x="20" y="25" font-family="Arial, sans-serif" font-size="14" font-weight="bold">70.</text>
+  
+  <!-- Triangle -->
+  <g transform="translate(50, 50)">
+    <!-- Triangle lines -->
+    <line x1="0" y1="100" x2="300" y2="100" stroke="black" stroke-width="2"/>
+    <line x1="0" y1="100" x2="150" y2="20" stroke="black" stroke-width="2"/>
+    <line x1="150" y1="20" x2="300" y2="100" stroke="black" stroke-width="2"/>
+    
+    <!-- Vertices -->
+    <text x="-15" y="105" font-family="Arial, sans-serif" font-size="14" font-style="italic">A</text>
+    <text x="145" y="15" font-family="Arial, sans-serif" font-size="14" font-style="italic">B</text>
+    <text x="305" y="105" font-family="Arial, sans-serif" font-size="14" font-style="italic">C</text>
+    
+    <!-- Angle labels -->
+    <!-- Angle at A: (3x)° -->
+    <text x="25" y="90" font-family="Arial, sans-serif" font-size="12">(3x)°</text>
+    
+    <!-- Angle at B: (2x - 4)° -->
+    <text x="120" y="40" font-family="Arial, sans-serif" font-size="12">(2x - 4)°</text>
+    
+    <!-- Angle at C: y° -->
+    <text x="270" y="90" font-family="Arial, sans-serif" font-size="12">y°</text>
+  </g>
+</svg>

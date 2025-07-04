@@ -1,0 +1,66 @@
+<svg width="450" height="300" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="450" height="300" fill="white"/>
+  
+  <!-- Problem number -->
+  <text x="20" y="25" font-family="Arial, sans-serif" font-size="14" font-weight="bold">68.</text>
+  
+  <!-- Title -->
+  <text x="270" y="25" font-family="Arial, sans-serif" font-size="16" font-weight="bold">Second Quarter Sales</text>
+  
+  <!-- Chart area -->
+  <g transform="translate(90, 50)">
+    <!-- Y-axis -->
+    <line x1="0" y1="0" x2="0" y2="200" stroke="black" stroke-width="2"/>
+    
+    <!-- X-axis -->
+    <line x1="0" y1="200" x2="280" y2="200" stroke="black" stroke-width="2"/>
+    
+    <!-- Y-axis label -->
+    <text x="-70" y="100" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" transform="rotate(-90, -70, 100)">
+      Sales (in Millions of Dollars)
+    </text>
+    
+    <!-- Y-axis labels and tick marks -->
+    <g font-family="Arial, sans-serif" font-size="12">
+      <text x="-10" y="205" text-anchor="end">0</text>
+      <line x1="-3" y1="200" x2="3" y2="200" stroke="black" stroke-width="1"/>
+      
+      <text x="-10" y="165" text-anchor="end">10</text>
+      <line x1="-3" y1="160" x2="3" y2="160" stroke="black" stroke-width="1"/>
+      
+      <text x="-10" y="125" text-anchor="end">20</text>
+      <line x1="-3" y1="120" x2="3" y2="120" stroke="black" stroke-width="1"/>
+      
+      <text x="-10" y="85" text-anchor="end">30</text>
+      <line x1="-3" y1="80" x2="3" y2="80" stroke="black" stroke-width="1"/>
+      
+      <text x="-10" y="45" text-anchor="end">40</text>
+      <line x1="-3" y1="40" x2="3" y2="40" stroke="black" stroke-width="1"/>
+    </g>
+    
+    <!-- Bars -->
+    <!-- April: 40 million -->
+    <rect x="20" y="40" width="60" height="160" fill="none" stroke="black" stroke-width="1"/>
+    
+    <!-- May: 10 million -->
+    <rect x="110" y="160" width="60" height="40" fill="none" stroke="black" stroke-width="1"/>
+    
+    <!-- June: 30 million -->
+    <rect x="200" y="80" width="60" height="120" fill="none" stroke="black" stroke-width="1"/>
+    
+    <!-- X-axis labels -->
+    <g font-family="Arial, sans-serif" font-size="12">
+      <text x="50" y="220" text-anchor="middle">April</text>
+      <text x="140" y="220" text-anchor="middle">May</text>
+      <text x="230" y="220" text-anchor="middle">June</text>
+    </g>
+    
+    <!-- X-axis tick marks -->
+    <g stroke="black" stroke-width="1">
+      <line x1="50" y1="197" x2="50" y2="203"/>
+      <line x1="140" y1="197" x2="140" y2="203"/>
+      <line x1="230" y1="197" x2="230" y2="203"/>
+    </g>
+  </g>
+</svg>
