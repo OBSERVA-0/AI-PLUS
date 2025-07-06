@@ -18,8 +18,8 @@ const validateGetQuestions = [
     .withMessage('Invalid test type'),
   query('practiceSet')
     .optional()
-    .isIn(['1', '2', '3', 'diagnostic'])
-    .withMessage('Practice set must be 1, 2, 3, or diagnostic')
+    .isIn(['1', '2', '3','4', 'diagnostic'])
+    .withMessage('Practice set must be 1, 2, 3, 4, or diagnostic')
 ];
 
 const validateSubmitAnswers = [
@@ -28,8 +28,8 @@ const validateSubmitAnswers = [
     .withMessage('Invalid test type'),
   body('practiceSet')
     .optional()
-    .isIn(['1', '2', '3', 'diagnostic'])
-    .withMessage('Practice set must be 1, 2, 3, or diagnostic'),
+    .isIn(['1', '2', '3','4', 'diagnostic'])
+    .withMessage('Practice set must be 1, 2, 3, 4, or diagnostic'),
   body('answers')
     .isArray()
     .withMessage('Answers must be an array'),
@@ -164,9 +164,9 @@ router.post('/submit', auth, validateSubmitAnswers, handleValidationErrors, asyn
       // Handle different question types
       let isCorrect = false;
       if (question.answer_type === 'fill_in_the_blank') {
-        // For fill-in-the-blank, compare with correct_answer
+        // For fill-in-the-blank, compare with correct_answer_value
         const userAnswer = String(answer.selectedAnswer).trim().toLowerCase();
-        const correctAnswer = String(question.correct_answer).trim().toLowerCase();
+        const correctAnswer = String(question.correct_answer_value || question.correct_answer).trim().toLowerCase();
         isCorrect = userAnswer === correctAnswer;
       } else {
         // For multiple choice, compare with correct_answer index

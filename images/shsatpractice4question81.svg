@@ -1,0 +1,19 @@
+<svg width="300" height="150" viewBox="0 0 300 150" xmlns="http://www.w3.org/2000/svg">
+  <!-- Rectangle outline -->
+  <rect x="50" y="40" width="200" height="80" fill="none" stroke="#000000" stroke-width="2"/>
+  
+  <!-- Internal lines forming triangular pattern -->
+  <!-- Line from bottom-left to top-center -->
+  <line x1="50" y1="120" x2="150" y2="40" stroke="#000000" stroke-width="2"/>
+  
+  <!-- Line from top-center to bottom-right -->
+  <line x1="150" y1="40" x2="250" y2="120" stroke="#000000" stroke-width="2"/>
+  
+  <!-- Labels -->
+  <text x="15" y="35" font-family="Arial, sans-serif" font-size="14" fill="#000000">81.</text>
+  <text x="45" y="35" font-family="Arial, sans-serif" font-size="14" fill="#000000">W</text>
+  <text x="145" y="35" font-family="Arial, sans-serif" font-size="14" fill="#000000">T</text>
+  <text x="255" y="35" font-family="Arial, sans-serif" font-size="14" fill="#000000">X</text>
+  <text x="45" y="135" font-family="Arial, sans-serif" font-size="14" fill="#000000">Z</text>
+  <text x="255" y="135" font-family="Arial, sans-serif" font-size="14" fill="#000000">Y</text>
+</svg>

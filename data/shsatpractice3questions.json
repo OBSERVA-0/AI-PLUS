@@ -1533,7 +1533,7 @@
         "practice_set": "3",
         "category": "Math:Number Theory",
         "difficulty": "medium",
-        "time_estimate": 120,
+        "time_estimate": 90,
         "passage": "",
         "question_text": "A is the sum of the first 50 consecutive multiples of 3, and B is the sum of the first 50 consecutive multiples of 6. What percent of A is B?",
         "options": [
@@ -1550,7 +1550,7 @@
         "practice_set": "3",
         "category": "Math:Logic",
         "difficulty": "hard",
-        "time_estimate": 180,
+        "time_estimate": 90,
         "passage": "image:images/shsatpractice3question93.svg",
         "question_text": "The table above depicts the results of a survey of 180 people, each of whom tried orange juice from each of brands A, B, C, and D. Each person was asked to select his or her favorite of the four brands and could not select more than one brand. If no brand was the favorite of more than 40 percent of all people, what is the smallest possible value of x?",
         "options": [
@@ -1584,7 +1584,7 @@
         "practice_set": "3",
         "category": "Math:Sequences",
         "difficulty": "medium",
-        "time_estimate": 120,
+        "time_estimate": 90,
         "passage": "3, 8, 13, 18, 23, 28, 33, 38",
         "question_text": "From the sequence of numbers above, if a new sequence is created by increasing each odd-valued term by 3 and decreasing each even-valued term by 2, the sum of the terms of this new sequence is how much greater than the sum of the terms of the original sequence?",
         "options": [

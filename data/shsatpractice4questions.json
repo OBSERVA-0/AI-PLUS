@@ -1,0 +1,1920 @@
+[
+    {
+        "_id": "1",
+        "question_number": 1,
+        "practice_set": "4",
+        "category": "English:Editing/Revising",
+        "difficulty": "easy",
+        "time_estimate": 95,
+        "passage": "Read this sentence.\n\nThat the Superbowl was the most highly rated television show last week came as no surprise to the sponsor's whose commercials aired during the broadcast.",
+        "question_text": "Which edit should be made to correct this sentence?",
+        "options": [
+            "change most to more",
+            "insert a comma after week",
+            "change sponsor's to sponsors",
+            "insert a comma after aired"
+        ],
+        "correct_answer": 2
+    },
+    {
+        "_id": "2",
+        "question_number": 2,
+        "practice_set": "4",
+        "category": "English:Editing/Revising",
+        "difficulty": "medium",
+        "time_estimate": 95,
+        "passage": "Read this sentence.\n\nThe rock group attracts a multifarious audience; a surprisingly diverse group of people flock to their sold-out concerts.",
+        "question_text": "Which edit should be made to correct this sentence?",
+        "options": [
+            "change group attracts to group attract",
+            "change people flock to people flocks",
+            "change to their to to there",
+            "change concerts to concert"
+        ],
+        "correct_answer": 1
+    },
+    {
+        "_id": "3",
+        "question_number": 3,
+        "practice_set": "4",
+        "category": "English:Editing/Revising",
+        "difficulty": "medium",
+        "time_estimate": 95,
+        "passage": "Read this paragraph.\n\n(1) James D. Watson studied biology as a graduate student at Indiana University, but the scientists there inspired him to pursue the fields of genetics and biochemistry instead. (2) In Copenhagen, he conducted research on DNA for his postdoctoral studies, but became discouraged due to his lack of success. (3) After hearing a speech by Maurice Wilkins, Watson renewed his interest in DNA and then collaborated in England with a biologist named Francis Crick to research and study the structure of the DNA molecule. (4) Rosalind Franklin's X-ray images of DNA helped Watson, Crick, and Wilkins earn the Nobel Prize in 1962.",
+        "question_text": "Which sentence should be revised to correct a wordiness issue?",
+        "options": [
+            "sentence 1",
+            "sentence 2",
+            "sentence 3",
+            "sentence 4"
+        ],
+        "correct_answer": 2
+    },
+    {
+        "_id": "4",
+        "question_number": 4,
+        "practice_set": "4",
+        "category": "English:Editing/Revising",
+        "difficulty": "easy",
+        "time_estimate": 95,
+        "passage": "Read this paragraph.\n\n(1) The Siberian husky's good temperament, speed, and eagerness to cooperate make it a valuable dog in the Arctic regions. (2) Besides running for hundreds of miles in dogsled competitions the outgoing huskies have readily helped people in need. (3) For example, through the efforts of 20 heroic, courageous mushers, a life-saving serum was relayed by dogsled teams across the 674 miles of frigid Alaskan wilderness from Nenana to Nome in 1925 to save a town stricken with diphtheria. (4) In addition, during World War II, Siberian huskies served in the Army's Arctic Search and Rescue Unit.",
+        "question_text": "Which sentence should be revised to correct a punctuation issue?",
+        "options": [
+            "sentence 1",
+            "sentence 2",
+            "sentence 3",
+            "sentence 4"
+        ],
+        "correct_answer": 1
+    },
+    {
+        "_id": "5",
+        "question_number": 5,
+        "practice_set": "4",
+        "category": "English:Editing/Revising",
+        "difficulty": "easy",
+        "time_estimate": 95,
+        "passage": "(1) Pierre-Jules César Janssen first obtained evidence for the existence of the new element helium when studying a total solar eclipse in 1868. (2) He detected a yellow line on his spectroscope while observing the sun, and realized that, because of its wavelength, it could not be attributed to any element known at the time. (3) It was repeated by Norman Lockyer, who also concluded that no known element produced such a line. (4) However, other scientists were dubious, finding it unlikely that an element existed only on the sun. (5) In 1895, William Ramsay discovered helium on Earth after treating cleveite, a uranium mineral, with mineral acids. (6) After isolating the resulting gas, Ramsay sent samples to William Crookes and Norman Lockyer. (7) He identified it conclusively as the missing element helium. (8) It was Lockyer who named the element \"helium,\" from the Greek word \"helios,\" meaning \"sun.\" (9) The controversy concerning this new element is ironic, considering that helium is the second most abundant element in the universe (hydrogen is the first). (10) However, helium does not bind to Earth by gravitation, thus mostly appears in space. (11) On earth, it is created by the decay of radioactive elements, such as uranium and thorium. (12) Helium became trapped in natural gas and can be extracted for commercial use. (13) Helium is a nonrenewable resource. (14) Once extracted, it quickly returns to space. (15) The most common application for liquid helium is in cryogenics, a branch of physics dealing with very low temperatures. (16) Among other uses, helium is employed to cool superconducting magnets in devices such as MRI scanners. (17) It is also used to grow crystals for silicon wafers. (18) In non-scientific endeavors, helium is the gas that makes balloons and blimps rise. (19) Inhaling helium changes the sound of one's voice to a flat, high-pitched one. (20) Rare though helium is on Earth, several large gas fields with helium have been found in the United States. (21) Until recently, scientists had been concerned that helium is in very short supply.",
+        "question_text": "Which revision of sentence 3 uses the most precise language?",
+        "options": [
+            "Norman Lockyer did another of the same, which also concluded that no known element produced such a line.",
+            "Janssen's experiment was repeated by Norman Lockyer, who also concluded that no known element produced such a line.",
+            "The fact that no known element produced it was concluded by Norman Lockyer.",
+            "Norman Lockyer did it and again concluded that no known element produced such a line."
+        ],
+        "correct_answer": 1
+    },
+    {
+        "_id": "6",
+        "question_number": 6,
+        "practice_set": "4",
+        "category": "English:Editing/Revising",
+        "difficulty": "medium",
+        "time_estimate": 95,
+        "passage": "(1) Pierre-Jules César Janssen first obtained evidence for the existence of the new element helium when studying a total solar eclipse in 1868. (2) He detected a yellow line on his spectroscope while observing the sun, and realized that, because of its wavelength, it could not be attributed to any element known at the time. (3) It was repeated by Norman Lockyer, who also concluded that no known element produced such a line. (4) However, other scientists were dubious, finding it unlikely that an element existed only on the sun. (5) In 1895, William Ramsay discovered helium on Earth after treating cleveite, a uranium mineral, with mineral acids. (6) After isolating the resulting gas, Ramsay sent samples to William Crookes and Norman Lockyer. (7) He identified it conclusively as the missing element helium. (8) It was Lockyer who named the element \"helium,\" from the Greek word \"helios,\" meaning \"sun.\" (9) The controversy concerning this new element is ironic, considering that helium is the second most abundant element in the universe (hydrogen is the first). (10) However, helium does not bind to Earth by gravitation, thus mostly appears in space. (11) On earth, it is created by the decay of radioactive elements, such as uranium and thorium. (12) Helium became trapped in natural gas and can be extracted for commercial use. (13) Helium is a nonrenewable resource. (14) Once extracted, it quickly returns to space. (15) The most common application for liquid helium is in cryogenics, a branch of physics dealing with very low temperatures. (16) Among other uses, helium is employed to cool superconducting magnets in devices such as MRI scanners. (17) It is also used to grow crystals for silicon wafers. (18) In non-scientific endeavors, helium is the gas that makes balloons and blimps rise. (19) Inhaling helium changes the sound of one's voice to a flat, high-pitched one. (20) Rare though helium is on Earth, several large gas fields with helium have been found in the United States. (21) Until recently, scientists had been concerned that helium is in very short supply.",
+        "question_text": "What edit is needed to correct sentence 7?",
+        "options": [
+            "change He to Lockyer",
+            "change He to Janssen",
+            "change it to them",
+            "change it to those"
+        ],
+        "correct_answer": 0
+    },
+    {
+        "_id": "7",
+        "question_number": 7,
+        "practice_set": "4",
+        "category": "English:Editing/Revising",
+        "difficulty": "easy",
+        "time_estimate": 95,
+        "passage": "(1) Pierre-Jules César Janssen first obtained evidence for the existence of the new element helium when studying a total solar eclipse in 1868. (2) He detected a yellow line on his spectroscope while observing the sun, and realized that, because of its wavelength, it could not be attributed to any element known at the time. (3) It was repeated by Norman Lockyer, who also concluded that no known element produced such a line. (4) However, other scientists were dubious, finding it unlikely that an element existed only on the sun. (5) In 1895, William Ramsay discovered helium on Earth after treating cleveite, a uranium mineral, with mineral acids. (6) After isolating the resulting gas, Ramsay sent samples to William Crookes and Norman Lockyer. (7) He identified it conclusively as the missing element helium. (8) It was Lockyer who named the element \"helium,\" from the Greek word \"helios,\" meaning \"sun.\" (9) The controversy concerning this new element is ironic, considering that helium is the second most abundant element in the universe (hydrogen is the first). (10) However, helium does not bind to Earth by gravitation, thus mostly appears in space. (11) On earth, it is created by the decay of radioactive elements, such as uranium and thorium. (12) Helium became trapped in natural gas and can be extracted for commercial use. (13) Helium is a nonrenewable resource. (14) Once extracted, it quickly returns to space. (15) The most common application for liquid helium is in cryogenics, a branch of physics dealing with very low temperatures. (16) Among other uses, helium is employed to cool superconducting magnets in devices such as MRI scanners. (17) It is also used to grow crystals for silicon wafers. (18) In non-scientific endeavors, helium is the gas that makes balloons and blimps rise. (19) Inhaling helium changes the sound of one's voice to a flat, high-pitched one. (20) Rare though helium is on Earth, several large gas fields with helium have been found in the United States. (21) Until recently, scientists had been concerned that helium is in very short supply.",
+        "question_text": "What edit is needed to correct sentence 12?",
+        "options": [
+            "change became to becomes",
+            "change trapped to released",
+            "change can be to will be",
+            "change commercial use to used for commercial reasons"
+        ],
+        "correct_answer": 0
+    },
+    {
+        "_id": "8",
+        "question_number": 8,
+        "practice_set": "4",
+        "category": "English:Editing/Revising",
+        "difficulty": "medium",
+        "time_estimate": 95,
+        "passage": "(1) Pierre-Jules César Janssen first obtained evidence for the existence of the new element helium when studying a total solar eclipse in 1868. (2) He detected a yellow line on his spectroscope while observing the sun, and realized that, because of its wavelength, it could not be attributed to any element known at the time. (3) It was repeated by Norman Lockyer, who also concluded that no known element produced such a line. (4) However, other scientists were dubious, finding it unlikely that an element existed only on the sun. (5) In 1895, William Ramsay discovered helium on Earth after treating cleveite, a uranium mineral, with mineral acids. (6) After isolating the resulting gas, Ramsay sent samples to William Crookes and Norman Lockyer. (7) He identified it conclusively as the missing element helium. (8) It was Lockyer who named the element \"helium,\" from the Greek word \"helios,\" meaning \"sun.\" (9) The controversy concerning this new element is ironic, considering that helium is the second most abundant element in the universe (hydrogen is the first). (10) However, helium does not bind to Earth by gravitation, thus mostly appears in space. (11) On earth, it is created by the decay of radioactive elements, such as uranium and thorium. (12) Helium became trapped in natural gas and can be extracted for commercial use. (13) Helium is a nonrenewable resource. (14) Once extracted, it quickly returns to space. (15) The most common application for liquid helium is in cryogenics, a branch of physics dealing with very low temperatures. (16) Among other uses, helium is employed to cool superconducting magnets in devices such as MRI scanners. (17) It is also used to grow crystals for silicon wafers. (18) In non-scientific endeavors, helium is the gas that makes balloons and blimps rise. (19) Inhaling helium changes the sound of one's voice to a flat, high-pitched one. (20) Rare though helium is on Earth, several large gas fields with helium have been found in the United States. (21) Until recently, scientists had been concerned that helium is in very short supply.",
+        "question_text": "What is the best way to combine sentences 13 and 14 to clarify the relationship between ideas?",
+        "options": [
+            "Helium is a nonrenewable resource, once extracted, it quickly returns to space.",
+            "Helium quickly returns to space after having been extracted and because of this is a nonrenewable resource.",
+            "Helium is a nonrenewable resource; once extracted, it quickly returns to space.",
+            "Helium is a nonrenewable resource; quickly returning to space after extraction."
+        ],
+        "correct_answer": 2
+    },
+    {
+        "_id": "9",
+        "question_number": 9,
+        "practice_set": "4",
+        "category": "English:Editing/Revising",
+        "difficulty": "easy",
+        "time_estimate": 95,
+        "passage": "(1) Pierre-Jules César Janssen first obtained evidence for the existence of the new element helium when studying a total solar eclipse in 1868. (2) He detected a yellow line on his spectroscope while observing the sun, and realized that, because of its wavelength, it could not be attributed to any element known at the time. (3) It was repeated by Norman Lockyer, who also concluded that no known element produced such a line. (4) However, other scientists were dubious, finding it unlikely that an element existed only on the sun. (5) In 1895, William Ramsay discovered helium on Earth after treating cleveite, a uranium mineral, with mineral acids. (6) After isolating the resulting gas, Ramsay sent samples to William Crookes and Norman Lockyer. (7) He identified it conclusively as the missing element helium. (8) It was Lockyer who named the element \"helium,\" from the Greek word \"helios,\" meaning \"sun.\" (9) The controversy concerning this new element is ironic, considering that helium is the second most abundant element in the universe (hydrogen is the first). (10) However, helium does not bind to Earth by gravitation, thus mostly appears in space. (11) On earth, it is created by the decay of radioactive elements, such as uranium and thorium. (12) Helium became trapped in natural gas and can be extracted for commercial use. (13) Helium is a nonrenewable resource. (14) Once extracted, it quickly returns to space. (15) The most common application for liquid helium is in cryogenics, a branch of physics dealing with very low temperatures. (16) Among other uses, helium is employed to cool superconducting magnets in devices such as MRI scanners. (17) It is also used to grow crystals for silicon wafers. (18) In non-scientific endeavors, helium is the gas that makes balloons and blimps rise. (19) Inhaling helium changes the sound of one's voice to a flat, high-pitched one. (20) Rare though helium is on Earth, several large gas fields with helium have been found in the United States. (21) Until recently, scientists had been concerned that helium is in very short supply.",
+        "question_text": "What transition should be added to the beginning of sentence 19?",
+        "options": [
+            "Similarly",
+            "In contrast",
+            "It has also been known that",
+            "In addition"
+        ],
+        "correct_answer": 3
+    },
+    {
+        "_id": "10",
+        "question_number": 10,
+        "practice_set": "4",
+        "category": "English:Editing/Revising",
+        "difficulty": "easy",
+        "time_estimate": 95,
+        "passage": "(1) Pierre-Jules César Janssen first obtained evidence for the existence of the new element helium when studying a total solar eclipse in 1868. (2) He detected a yellow line on his spectroscope while observing the sun, and realized that, because of its wavelength, it could not be attributed to any element known at the time. (3) It was repeated by Norman Lockyer, who also concluded that no known element produced such a line. (4) However, other scientists were dubious, finding it unlikely that an element existed only on the sun. (5) In 1895, William Ramsay discovered helium on Earth after treating cleveite, a uranium mineral, with mineral acids. (6) After isolating the resulting gas, Ramsay sent samples to William Crookes and Norman Lockyer. (7) He identified it conclusively as the missing element helium. (8) It was Lockyer who named the element \"helium,\" from the Greek word \"helios,\" meaning \"sun.\" (9) The controversy concerning this new element is ironic, considering that helium is the second most abundant element in the universe (hydrogen is the first). (10) However, helium does not bind to Earth by gravitation, thus mostly appears in space. (11) On earth, it is created by the decay of radioactive elements, such as uranium and thorium. (12) Helium became trapped in natural gas and can be extracted for commercial use. (13) Helium is a nonrenewable resource. (14) Once extracted, it quickly returns to space. (15) The most common application for liquid helium is in cryogenics, a branch of physics dealing with very low temperatures. (16) Among other uses, helium is employed to cool superconducting magnets in devices such as MRI scanners. (17) It is also used to grow crystals for silicon wafers. (18) In non-scientific endeavors, helium is the gas that makes balloons and blimps rise. (19) Inhaling helium changes the sound of one's voice to a flat, high-pitched one. (20) Rare though helium is on Earth, several large gas fields with helium have been found in the United States. (21) Until recently, scientists had been concerned that helium is in very short supply.",
+        "question_text": "What edit is necessary to correct sentence 21?",
+        "options": [
+            "change Until to Before",
+            "change scientist's to scientists",
+            "change had been to has been",
+            "change concerned to unconcerned"
+        ],
+        "correct_answer": 1
+    },
+    {
+        "_id": "11",
+        "question_number": 11,
+        "practice_set": "4",
+        "category": "English:Editing/Revising",
+        "difficulty": "medium",
+        "time_estimate": 95,
+        "passage": "(1) Pierre-Jules César Janssen first obtained evidence for the existence of the new element helium when studying a total solar eclipse in 1868. (2) He detected a yellow line on his spectroscope while observing the sun, and realized that, because of its wavelength, it could not be attributed to any element known at the time. (3) It was repeated by Norman Lockyer, who also concluded that no known element produced such a line. (4) However, other scientists were dubious, finding it unlikely that an element existed only on the sun. (5) In 1895, William Ramsay discovered helium on Earth after treating cleveite, a uranium mineral, with mineral acids. (6) After isolating the resulting gas, Ramsay sent samples to William Crookes and Norman Lockyer. (7) He identified it conclusively as the missing element helium. (8) It was Lockyer who named the element \"helium,\" from the Greek word \"helios,\" meaning \"sun.\" (9) The controversy concerning this new element is ironic, considering that helium is the second most abundant element in the universe (hydrogen is the first). (10) However, helium does not bind to Earth by gravitation, thus mostly appears in space. (11) On earth, it is created by the decay of radioactive elements, such as uranium and thorium. (12) Helium became trapped in natural gas and can be extracted for commercial use. (13) Helium is a nonrenewable resource. (14) Once extracted, it quickly returns to space. (15) The most common application for liquid helium is in cryogenics, a branch of physics dealing with very low temperatures. (16) Among other uses, helium is employed to cool superconducting magnets in devices such as MRI scanners. (17) It is also used to grow crystals for silicon wafers. (18) In non-scientific endeavors, helium is the gas that makes balloons and blimps rise. (19) Inhaling helium changes the sound of one's voice to a flat, high-pitched one. (20) Rare though helium is on Earth, several large gas fields with helium have been found in the United States. (21) Until recently, scientists had been concerned that helium is in very short supply.",
+        "question_text": "Which concluding sentence should be added after sentence 21 to support the argument presented in the passage?",
+        "options": [
+            "New research indicates that it can collect in large quantities in gas fields and can also be released by volcanic eruptions.",
+            "There have been frequent scientific discussions about this concern.",
+            "The concern is unwarranted.",
+            "In reality, there is enough helium on the sun to fill Earth's needs."
+        ],
+        "correct_answer": 0
+    },
+    {
+        "_id": "12",
+        "question_number": 12,
+        "practice_set": "4",
+        "category": "English:Reading Comprehension:Main Idea",
+        "difficulty": "easy",
+        "time_estimate": 95,
+        "passage": "It was a particularly cold winter in Springfield, Massachusetts. Luther Gulick, head of the Physical Education department at the School for Christian Workers, faced with a rowdy class, called James (5) Naismith to his office. The conversation that followed would change the future of sports. Gulick ordered Naismith to invent an indoor game that would provide \"athletic distraction\" for the eighteen members of an especially rambunctious (10) group of students. Naismith initially responded by trying to bring outdoor games, like soccer, indoors. However, as his two-week deadline drew closer, he remembered a game from his childhood that required skill and precision: just the kind of activity (15) this situation called for. This game became the inspiration for an entirely new sport. He gathered his students in the YMCA gymnasium. His equipment consisted of two peach baskets and a soccer ball. The date was Dec. 21, 1891. Basketball was born. (20) Although the first basketball game was played by a group of men, women quickly became interested in this new sport. A few weeks later, the first women's basketball team was created by a nearby school's teachers who saw Dr. Naismith's students playing. By the next year, the (25) first women's college team was formed at Smith College in Northampton, Massachusetts. In general, basketball was played solely for recreation until 1946, when the owners of the United States' biggest arenas began to consider (30) the idea of professional basketball. The Basketball Association of America was formed in part to fill seats on days when there were no professional hockey or college basketball matches. Basketball continued to change throughout the (35) twentieth century, and with it, many of James Naismith's rules. For example, in 1980, following a rule change, the first three-point shot was scored by Western Carolina's Ronnie Carr. Additionally, basketball is now played five-on-five, whereas (40) the first game was played with nine to a side. However, at its core, the game has stayed close to the one envisioned by its creator over one hundred years ago.",
+        "question_text": "What is this passage primarily about?",
+        "options": [
+            "the history of women's basketball",
+            "sports in the twentieth century",
+            "the life of Dr. James Naismith",
+            "the evolution of basketball"
+        ],
+        "correct_answer": 3
+    },
+    {
+        "_id": "13",
+        "question_number": 13,
+        "practice_set": "4",
+        "category": "English:Reading Comprehension:Inference",
+        "difficulty": "medium",
+        "time_estimate": 95,
+        "passage": "It was a particularly cold winter in Springfield, Massachusetts. Luther Gulick, head of the Physical Education department at the School for Christian Workers, faced with a rowdy class, called James (5) Naismith to his office. The conversation that followed would change the future of sports. Gulick ordered Naismith to invent an indoor game that would provide \"athletic distraction\" for the eighteen members of an especially rambunctious (10) group of students. Naismith initially responded by trying to bring outdoor games, like soccer, indoors. However, as his two-week deadline drew closer, he remembered a game from his childhood that required skill and precision: just the kind of activity (15) this situation called for. This game became the inspiration for an entirely new sport. He gathered his students in the YMCA gymnasium. His equipment consisted of two peach baskets and a soccer ball. The date was Dec. 21, 1891. Basketball was born. (20) Although the first basketball game was played by a group of men, women quickly became interested in this new sport. A few weeks later, the first women's basketball team was created by a nearby school's teachers who saw Dr. Naismith's students playing. By the next year, the (25) first women's college team was formed at Smith College in Northampton, Massachusetts. In general, basketball was played solely for recreation until 1946, when the owners of the United States' biggest arenas began to consider (30) the idea of professional basketball. The Basketball Association of America was formed in part to fill seats on days when there were no professional hockey or college basketball matches. Basketball continued to change throughout the (35) twentieth century, and with it, many of James Naismith's rules. For example, in 1980, following a rule change, the first three-point shot was scored by Western Carolina's Ronnie Carr. Additionally, basketball is now played five-on-five, whereas (40) the first game was played with nine to a side. However, at its core, the game has stayed close to the one envisioned by its creator over one hundred years ago.",
+        "question_text": "It can be inferred that prior to the formation of the Basketball Association of America, basketball was played in arenas",
+        "options": [
+            "by women's teams only.",
+            "by college teams only.",
+            "by professional teams only.",
+            "only when there were no professional hockey matches."
+        ],
+        "correct_answer": 1
+    },
+    {
+        "_id": "14",
+        "question_number": 14,
+        "practice_set": "4",
+        "category": "English:Reading Comprehension:Detail",
+        "difficulty": "easy",
+        "time_estimate": 95,
+        "passage": "It was a particularly cold winter in Springfield, Massachusetts. Luther Gulick, head of the Physical Education department at the School for Christian Workers, faced with a rowdy class, called James (5) Naismith to his office. The conversation that followed would change the future of sports. Gulick ordered Naismith to invent an indoor game that would provide \"athletic distraction\" for the eighteen members of an especially rambunctious (10) group of students. Naismith initially responded by trying to bring outdoor games, like soccer, indoors. However, as his two-week deadline drew closer, he remembered a game from his childhood that required skill and precision: just the kind of activity (15) this situation called for. This game became the inspiration for an entirely new sport. He gathered his students in the YMCA gymnasium. His equipment consisted of two peach baskets and a soccer ball. The date was Dec. 21, 1891. Basketball was born. (20) Although the first basketball game was played by a group of men, women quickly became interested in this new sport. A few weeks later, the first women's basketball team was created by a nearby school's teachers who saw Dr. Naismith's students playing. By the next year, the (25) first women's college team was formed at Smith College in Northampton, Massachusetts. In general, basketball was played solely for recreation until 1946, when the owners of the United States' biggest arenas began to consider (30) the idea of professional basketball. The Basketball Association of America was formed in part to fill seats on days when there were no professional hockey or college basketball matches. Basketball continued to change throughout the (35) twentieth century, and with it, many of James Naismith's rules. For example, in 1980, following a rule change, the first three-point shot was scored by Western Carolina's Ronnie Carr. Additionally, basketball is now played five-on-five, whereas (40) the first game was played with nine to a side. However, at its core, the game has stayed close to the one envisioned by its creator over one hundred years ago.",
+        "question_text": "Which of the following is not mentioned in the passage as an example of a way in which basketball has changed since its inception?",
+        "options": [
+            "There are fewer players on a side now.",
+            "There has been a change in scoring procedures.",
+            "The slam dunk is now a common practice.",
+            "Initially, basketball was played only by men, but now anyone can play."
+        ],
+        "correct_answer": 2
+    },
+    {
+        "_id": "15",
+        "question_number": 15,
+        "practice_set": "4",
+        "category": "English:Reading Comprehension:Inference",
+        "difficulty": "medium",
+        "time_estimate": 95,
+        "passage": "It was a particularly cold winter in Springfield, Massachusetts. Luther Gulick, head of the Physical Education department at the School for Christian Workers, faced with a rowdy class, called James (5) Naismith to his office. The conversation that followed would change the future of sports. Gulick ordered Naismith to invent an indoor game that would provide \"athletic distraction\" for the eighteen members of an especially rambunctious (10) group of students. Naismith initially responded by trying to bring outdoor games, like soccer, indoors. However, as his two-week deadline drew closer, he remembered a game from his childhood that required skill and precision: just the kind of activity (15) this situation called for. This game became the inspiration for an entirely new sport. He gathered his students in the YMCA gymnasium. His equipment consisted of two peach baskets and a soccer ball. The date was Dec. 21, 1891. Basketball was born. (20) Although the first basketball game was played by a group of men, women quickly became interested in this new sport. A few weeks later, the first women's basketball team was created by a nearby school's teachers who saw Dr. Naismith's students playing. By the next year, the (25) first women's college team was formed at Smith College in Northampton, Massachusetts. In general, basketball was played solely for recreation until 1946, when the owners of the United States' biggest arenas began to consider (30) the idea of professional basketball. The Basketball Association of America was formed in part to fill seats on days when there were no professional hockey or college basketball matches. Basketball continued to change throughout the (35) twentieth century, and with it, many of James Naismith's rules. For example, in 1980, following a rule change, the first three-point shot was scored by Western Carolina's Ronnie Carr. Additionally, basketball is now played five-on-five, whereas (40) the first game was played with nine to a side. However, at its core, the game has stayed close to the one envisioned by its creator over one hundred years ago.",
+        "question_text": "The passage implies that Luther Gulick wanted Dr. Naismith to create a new game because",
+        "options": [
+            "he wanted a game that spectators would come to watch in his arena.",
+            "outdoor games like soccer had become too commonplace.",
+            "he had been inspired by a childhood game.",
+            "he wanted his students to channel their energy in a healthy direction."
+        ],
+        "correct_answer": 3
+    },
+    {
+        "_id": "16",
+        "question_number": 16,
+        "practice_set": "4",
+        "category": "English:Reading Comprehension:Inference",
+        "difficulty": "medium",
+        "time_estimate": 95,
+        "passage": "It was a particularly cold winter in Springfield, Massachusetts. Luther Gulick, head of the Physical Education department at the School for Christian Workers, faced with a rowdy class, called James (5) Naismith to his office. The conversation that followed would change the future of sports. Gulick ordered Naismith to invent an indoor game that would provide \"athletic distraction\" for the eighteen members of an especially rambunctious (10) group of students. Naismith initially responded by trying to bring outdoor games, like soccer, indoors. However, as his two-week deadline drew closer, he remembered a game from his childhood that required skill and precision: just the kind of activity (15) this situation called for. This game became the inspiration for an entirely new sport. He gathered his students in the YMCA gymnasium. His equipment consisted of two peach baskets and a soccer ball. The date was Dec. 21, 1891. Basketball was born. (20) Although the first basketball game was played by a group of men, women quickly became interested in this new sport. A few weeks later, the first women's basketball team was created by a nearby school's teachers who saw Dr. Naismith's students playing. By the next year, the (25) first women's college team was formed at Smith College in Northampton, Massachusetts. In general, basketball was played solely for recreation until 1946, when the owners of the United States' biggest arenas began to consider (30) the idea of professional basketball. The Basketball Association of America was formed in part to fill seats on days when there were no professional hockey or college basketball matches. Basketball continued to change throughout the (35) twentieth century, and with it, many of James Naismith's rules. For example, in 1980, following a rule change, the first three-point shot was scored by Western Carolina's Ronnie Carr. Additionally, basketball is now played five-on-five, whereas (40) the first game was played with nine to a side. However, at its core, the game has stayed close to the one envisioned by its creator over one hundred years ago.",
+        "question_text": "From the passage, it is reasonable to assume that the owners of the largest U.S. arenas formed a professional league",
+        "options": [
+            "in order to increase their profits.",
+            "because they realized that basketball could easily be converted from an outdoor into an indoor game.",
+            "because professional hockey and college basketball games rarely filled these arenas.",
+            "to capitalize on the popularity of the three-point shot."
+        ],
+        "correct_answer": 0
+    },
+    {
+        "_id": "17",
+        "question_number": 17,
+        "practice_set": "4",
+        "category": "English:Reading Comprehension:Detail",
+        "difficulty": "easy",
+        "time_estimate": 95,
+        "passage": "It was a particularly cold winter in Springfield, Massachusetts. Luther Gulick, head of the Physical Education department at the School for Christian Workers, faced with a rowdy class, called James (5) Naismith to his office. The conversation that followed would change the future of sports. Gulick ordered Naismith to invent an indoor game that would provide \"athletic distraction\" for the eighteen members of an especially rambunctious (10) group of students. Naismith initially responded by trying to bring outdoor games, like soccer, indoors. However, as his two-week deadline drew closer, he remembered a game from his childhood that required skill and precision: just the kind of activity (15) this situation called for. This game became the inspiration for an entirely new sport. He gathered his students in the YMCA gymnasium. His equipment consisted of two peach baskets and a soccer ball. The date was Dec. 21, 1891. Basketball was born. (20) Although the first basketball game was played by a group of men, women quickly became interested in this new sport. A few weeks later, the first women's basketball team was created by a nearby school's teachers who saw Dr. Naismith's students playing. By the next year, the (25) first women's college team was formed at Smith College in Northampton, Massachusetts. In general, basketball was played solely for recreation until 1946, when the owners of the United States' biggest arenas began to consider (30) the idea of professional basketball. The Basketball Association of America was formed in part to fill seats on days when there were no professional hockey or college basketball matches. Basketball continued to change throughout the (35) twentieth century, and with it, many of James Naismith's rules. For example, in 1980, following a rule change, the first three-point shot was scored by Western Carolina's Ronnie Carr. Additionally, basketball is now played five-on-five, whereas (40) the first game was played with nine to a side. However, at its core, the game has stayed close to the one envisioned by its creator over one hundred years ago.",
+        "question_text": "Ronnie Carr is responsible for which important moment?",
+        "options": [
+            "He ordered a subordinate to invent basketball.",
+            "He scored the first three-point shot in a basketball game.",
+            "He formed the Basketball Association of America.",
+            "He invented the game of basketball."
+        ],
+        "correct_answer": 1
+    },
+    {
+        "_id": "18",
+        "question_number": 18,
+        "practice_set": "4",
+        "category": "English:Reading Comprehension:Detail",
+        "difficulty": "easy",
+        "time_estimate": 95,
+        "passage": "It was a particularly cold winter in Springfield, Massachusetts. Luther Gulick, head of the Physical Education department at the School for Christian Workers, faced with a rowdy class, called James (5) Naismith to his office. The conversation that followed would change the future of sports. Gulick ordered Naismith to invent an indoor game that would provide \"athletic distraction\" for the eighteen members of an especially rambunctious (10) group of students. Naismith initially responded by trying to bring outdoor games, like soccer, indoors. However, as his two-week deadline drew closer, he remembered a game from his childhood that required skill and precision: just the kind of activity (15) this situation called for. This game became the inspiration for an entirely new sport. He gathered his students in the YMCA gymnasium. His equipment consisted of two peach baskets and a soccer ball. The date was Dec. 21, 1891. Basketball was born. (20) Although the first basketball game was played by a group of men, women quickly became interested in this new sport. A few weeks later, the first women's basketball team was created by a nearby school's teachers who saw Dr. Naismith's students playing. By the next year, the (25) first women's college team was formed at Smith College in Northampton, Massachusetts. In general, basketball was played solely for recreation until 1946, when the owners of the United States' biggest arenas began to consider (30) the idea of professional basketball. The Basketball Association of America was formed in part to fill seats on days when there were no professional hockey or college basketball matches. Basketball continued to change throughout the (35) twentieth century, and with it, many of James Naismith's rules. For example, in 1980, following a rule change, the first three-point shot was scored by Western Carolina's Ronnie Carr. Additionally, basketball is now played five-on-five, whereas (40) the first game was played with nine to a side. However, at its core, the game has stayed close to the one envisioned by its creator over one hundred years ago.",
+        "question_text": "All of the following describe the game that Dr. Naismith invented except",
+        "options": [
+            "it involved elaborate and expensive equipment.",
+            "it involved skill.",
+            "it could be played indoors.",
+            "precision was required."
+        ],
+        "correct_answer": 0
+    },
+    {
+        "_id": "19",
+        "question_number": 19,
+        "practice_set": "4",
+        "category": "English:Reading Comprehension:Main Idea",
+        "difficulty": "easy",
+        "time_estimate": 95,
+        "passage": "Most of human prehistory has left behind no convincing trace of art at all. Perhaps our remote ancestors painted their bodies, but if that was the first art, it wouldn't have survived for us to know (5) about. The oldest known artworks were created more or less simultaneously in Europe, Africa, and Australia, with some further recent discoveries of old art in Asia and the Americas as well. Early art itself assumed many forms, ranging from wood (10) and bone carving, engraving, bas relief, and three-dimensional sculpture to painting and music. Best known to modern Europeans are the cave paintings of so-called Cro-Magnon people from France and Spain, who lived in the era termed the Paleolithic (15) (from about 40,000 to 10,000 years ago).\n\nWe think of cave art as made by \"cavemen,\" a term that immediately evokes images of hairy brutes, partly draped in animal furs. In fact, the Cro-Magnons lived far from caves, as well as (20) within them; we think of them as cavemen only because the garbage they left in caves is more likely to have been preserved than other artifacts. From their garbage, burials, and art, we know that they had needles, buttons, sewn clothing, (25) and parkas, and were probably as warmly dressed as modern Eskimos. They marked their caves with trail signs called claviforms, which warned Cro-Magnon tourists to stay on the right-hand side of wide passages, to look for art in concealed (30) niches, and to avoid bumping their heads in places with low ceilings. Their footprints are still on the cave floors, their handprints and marks of their scaffolding still on the cave walls. Visiting some of the sites, you get the vivid sense that the artists (35) walked off the job only yesterday.\n\nBut why did the Cro-Magnons create cave art in the first place? Archaeologists used to debate various interpretations: that the paintings represented mindless copies of nature by savage people, or (40) magical rites to ensure success at hunting, or depictions of myths, and so on. Such theories became less popular when anthropologists began to ask present-day tribal Australian aborigines and African Bushmen why they create their own rock (45) art. The reasons turned out to be ones that any future art historian would be very unlikely to guess. The same image-for example, a fish painted by aboriginal Australians have been painted for different reasons on different occasions. Some (50) fish paintings serve to mark a tribal territory, others tell a story (\"I caught this big fish\"), and still others have religious significance. It shouldn't surprise us that the Cro-Magnons' motives may have been equally varied, given all the evidence for their (55) modern mentality.",
+        "question_text": "Which of the following best describes what this passage is about?",
+        "options": [
+            "Research on present-day tribal people can tell us about humans in the prehistoric era.",
+            "Early humans were not all that different in their lifestyle and technology from present-day Eskimos.",
+            "The art and artifacts left behind by early humans suggest that they were not as primitive as popular images portray them.",
+            "The artistic creations of the cave dwellers included not only paintings, but also crafts, tools, sculpture, and music."
+        ],
+        "correct_answer": 2
+    },
+    {
+        "_id": "20",
+        "question_number": 20,
+        "practice_set": "4",
+        "category": "English:Reading Comprehension:Detail",
+        "difficulty": "easy",
+        "time_estimate": 95,
+        "passage": "Most of human prehistory has left behind no convincing trace of art at all. Perhaps our remote ancestors painted their bodies, but if that was the first art, it wouldn't have survived for us to know (5) about. The oldest known artworks were created more or less simultaneously in Europe, Africa, and Australia, with some further recent discoveries of old art in Asia and the Americas as well. Early art itself assumed many forms, ranging from wood (10) and bone carving, engraving, bas relief, and three-dimensional sculpture to painting and music. Best known to modern Europeans are the cave paintings of so-called Cro-Magnon people from France and Spain, who lived in the era termed the Paleolithic (15) (from about 40,000 to 10,000 years ago).\n\nWe think of cave art as made by \"cavemen,\" a term that immediately evokes images of hairy brutes, partly draped in animal furs. In fact, the Cro-Magnons lived far from caves, as well as (20) within them; we think of them as cavemen only because the garbage they left in caves is more likely to have been preserved than other artifacts. From their garbage, burials, and art, we know that they had needles, buttons, sewn clothing, (25) and parkas, and were probably as warmly dressed as modern Eskimos. They marked their caves with trail signs called claviforms, which warned Cro-Magnon tourists to stay on the right-hand side of wide passages, to look for art in concealed (30) niches, and to avoid bumping their heads in places with low ceilings. Their footprints are still on the cave floors, their handprints and marks of their scaffolding still on the cave walls. Visiting some of the sites, you get the vivid sense that the artists (35) walked off the job only yesterday.\n\nBut why did the Cro-Magnons create cave art in the first place? Archaeologists used to debate various interpretations: that the paintings represented mindless copies of nature by savage people, or (40) magical rites to ensure success at hunting, or depictions of myths, and so on. Such theories became less popular when anthropologists began to ask present-day tribal Australian aborigines and African Bushmen why they create their own rock (45) art. The reasons turned out to be ones that any future art historian would be very unlikely to guess. The same image-for example, a fish painted by aboriginal Australians have been painted for different reasons on different occasions. Some (50) fish paintings serve to mark a tribal territory, others tell a story (\"I caught this big fish\"), and still others have religious significance. It shouldn't surprise us that the Cro-Magnons' motives may have been equally varied, given all the evidence for their (55) modern mentality.",
+        "question_text": "According to the author, the term \"cavemen\" (line 16) evokes a misleading image of Cro-Magnon people as",
+        "options": [
+            "less advanced than prehistoric people who did not live in caves.",
+            "more dependent on animals than is normally assumed.",
+            "incapable of building their own dwellings.",
+            "more primitive than they actually were."
+        ],
+        "correct_answer": 3
+    },
+    {
+        "_id": "21",
+        "question_number": 21,
+        "practice_set": "4",
+        "category": "English:Reading Comprehension:Inference",
+        "difficulty": "easy",
+        "time_estimate": 95,
+        "passage": "Most of human prehistory has left behind no convincing trace of art at all. Perhaps our remote ancestors painted their bodies, but if that was the first art, it wouldn't have survived for us to know (5) about. The oldest known artworks were created more or less simultaneously in Europe, Africa, and Australia, with some further recent discoveries of old art in Asia and the Americas as well. Early art itself assumed many forms, ranging from wood (10) and bone carving, engraving, bas relief, and three-dimensional sculpture to painting and music. Best known to modern Europeans are the cave paintings of so-called Cro-Magnon people from France and Spain, who lived in the era termed the Paleolithic (15) (from about 40,000 to 10,000 years ago).\n\nWe think of cave art as made by \"cavemen,\" a term that immediately evokes images of hairy brutes, partly draped in animal furs. In fact, the Cro-Magnons lived far from caves, as well as (20) within them; we think of them as cavemen only because the garbage they left in caves is more likely to have been preserved than other artifacts. From their garbage, burials, and art, we know that they had needles, buttons, sewn clothing, (25) and parkas, and were probably as warmly dressed as modern Eskimos. They marked their caves with trail signs called claviforms, which warned Cro-Magnon tourists to stay on the right-hand side of wide passages, to look for art in concealed (30) niches, and to avoid bumping their heads in places with low ceilings. Their footprints are still on the cave floors, their handprints and marks of their scaffolding still on the cave walls. Visiting some of the sites, you get the vivid sense that the artists (35) walked off the job only yesterday.\n\nBut why did the Cro-Magnons create cave art in the first place? Archaeologists used to debate various interpretations: that the paintings represented mindless copies of nature by savage people, or (40) magical rites to ensure success at hunting, or depictions of myths, and so on. Such theories became less popular when anthropologists began to ask present-day tribal Australian aborigines and African Bushmen why they create their own rock (45) art. The reasons turned out to be ones that any future art historian would be very unlikely to guess. The same image-for example, a fish painted by aboriginal Australians have been painted for different reasons on different occasions. Some (50) fish paintings serve to mark a tribal territory, others tell a story (\"I caught this big fish\"), and still others have religious significance. It shouldn't surprise us that the Cro-Magnons' motives may have been equally varied, given all the evidence for their (55) modern mentality.",
+        "question_text": "It can be inferred that more Cro-Magnon artifacts have been found in caves than elsewhere primarily because the majority of",
+        "options": [
+            "Cro-Magnon people lived in caves.",
+            "artifacts in other locations are more likely to have decayed.",
+            "trail signs led archaeologists to many cave sites.",
+            "archaeologists are more likely to prefer cave sites."
+        ],
+        "correct_answer": 1
+    },
+    {
+        "_id": "22",
+        "question_number": 22,
+        "practice_set": "4",
+        "category": "English:Reading Comprehension:Detail",
+        "difficulty": "medium",
+        "time_estimate": 95,
+        "passage": "Most of human prehistory has left behind no convincing trace of art at all. Perhaps our remote ancestors painted their bodies, but if that was the first art, it wouldn't have survived for us to know (5) about. The oldest known artworks were created more or less simultaneously in Europe, Africa, and Australia, with some further recent discoveries of old art in Asia and the Americas as well. Early art itself assumed many forms, ranging from wood (10) and bone carving, engraving, bas relief, and three-dimensional sculpture to painting and music. Best known to modern Europeans are the cave paintings of so-called Cro-Magnon people from France and Spain, who lived in the era termed the Paleolithic (15) (from about 40,000 to 10,000 years ago).\n\nWe think of cave art as made by \"cavemen,\" a term that immediately evokes images of hairy brutes, partly draped in animal furs. In fact, the Cro-Magnons lived far from caves, as well as (20) within them; we think of them as cavemen only because the garbage they left in caves is more likely to have been preserved than other artifacts. From their garbage, burials, and art, we know that they had needles, buttons, sewn clothing, (25) and parkas, and were probably as warmly dressed as modern Eskimos. They marked their caves with trail signs called claviforms, which warned Cro-Magnon tourists to stay on the right-hand side of wide passages, to look for art in concealed (30) niches, and to avoid bumping their heads in places with low ceilings. Their footprints are still on the cave floors, their handprints and marks of their scaffolding still on the cave walls. Visiting some of the sites, you get the vivid sense that the artists (35) walked off the job only yesterday.\n\nBut why did the Cro-Magnons create cave art in the first place? Archaeologists used to debate various interpretations: that the paintings represented mindless copies of nature by savage people, or (40) magical rites to ensure success at hunting, or depictions of myths, and so on. Such theories became less popular when anthropologists began to ask present-day tribal Australian aborigines and African Bushmen why they create their own rock (45) art. The reasons turned out to be ones that any future art historian would be very unlikely to guess. The same image-for example, a fish painted by aboriginal Australians have been painted for different reasons on different occasions. Some (50) fish paintings serve to mark a tribal territory, others tell a story (\"I caught this big fish\"), and still others have religious significance. It shouldn't surprise us that the Cro-Magnons' motives may have been equally varied, given all the evidence for their (55) modern mentality.",
+        "question_text": "According to paragraph 3, the theories mentioned \"became less popular\" when scientists discovered that",
+        "options": [
+            "the Cro-Magnons were more advanced than the Neanderthals.",
+            "the rock art produced today serves several different functions.",
+            "many painted images were used by the Cro-Magnons as trail signs.",
+            "Cro-Magnon paintings were not as important as was once believed."
+        ],
+        "correct_answer": 1
+    },
+    {
+        "_id": "23",
+        "question_number": 23,
+        "practice_set": "4",
+        "category": "English:Reading Comprehension:Inference",
+        "difficulty": "medium",
+        "time_estimate": 95,
+        "passage": "Most of human prehistory has left behind no convincing trace of art at all. Perhaps our remote ancestors painted their bodies, but if that was the first art, it wouldn't have survived for us to know (5) about. The oldest known artworks were created more or less simultaneously in Europe, Africa, and Australia, with some further recent discoveries of old art in Asia and the Americas as well. Early art itself assumed many forms, ranging from wood (10) and bone carving, engraving, bas relief, and three-dimensional sculpture to painting and music. Best known to modern Europeans are the cave paintings of so-called Cro-Magnon people from France and Spain, who lived in the era termed the Paleolithic (15) (from about 40,000 to 10,000 years ago).\n\nWe think of cave art as made by \"cavemen,\" a term that immediately evokes images of hairy brutes, partly draped in animal furs. In fact, the Cro-Magnons lived far from caves, as well as (20) within them; we think of them as cavemen only because the garbage they left in caves is more likely to have been preserved than other artifacts. From their garbage, burials, and art, we know that they had needles, buttons, sewn clothing, (25) and parkas, and were probably as warmly dressed as modern Eskimos. They marked their caves with trail signs called claviforms, which warned Cro-Magnon tourists to stay on the right-hand side of wide passages, to look for art in concealed (30) niches, and to avoid bumping their heads in places with low ceilings. Their footprints are still on the cave floors, their handprints and marks of their scaffolding still on the cave walls. Visiting some of the sites, you get the vivid sense that the artists (35) walked off the job only yesterday.\n\nBut why did the Cro-Magnons create cave art in the first place? Archaeologists used to debate various interpretations: that the paintings represented mindless copies of nature by savage people, or (40) magical rites to ensure success at hunting, or depictions of myths, and so on. Such theories became less popular when anthropologists began to ask present-day tribal Australian aborigines and African Bushmen why they create their own rock (45) art. The reasons turned out to be ones that any future art historian would be very unlikely to guess. The same image-for example, a fish painted by aboriginal Australians have been painted for different reasons on different occasions. Some (50) fish paintings serve to mark a tribal territory, others tell a story (\"I caught this big fish\"), and still others have religious significance. It shouldn't surprise us that the Cro-Magnons' motives may have been equally varied, given all the evidence for their (55) modern mentality.",
+        "question_text": "The description of the fish painted by aboriginal Australians in the last paragraph suggests that",
+        "options": [
+            "most rock paintings were used to mark tribal boundaries.",
+            "animals are depicted more often than people in early rock art.",
+            "it is difficult to generalize about the motivations of prehistoric artists.",
+            "the images used by Cro-Magnon and Australian aboriginal artists served the same functions."
+        ],
+        "correct_answer": 2
+    },
+    {
+        "_id": "24",
+        "question_number": 24,
+        "practice_set": "4",
+        "category": "English:Reading Comprehension:Inference",
+        "difficulty": "medium",
+        "time_estimate": 95,
+        "passage": "Most of human prehistory has left behind no convincing trace of art at all. Perhaps our remote ancestors painted their bodies, but if that was the first art, it wouldn't have survived for us to know (5) about. The oldest known artworks were created more or less simultaneously in Europe, Africa, and Australia, with some further recent discoveries of old art in Asia and the Americas as well. Early art itself assumed many forms, ranging from wood (10) and bone carving, engraving, bas relief, and three-dimensional sculpture to painting and music. Best known to modern Europeans are the cave paintings of so-called Cro-Magnon people from France and Spain, who lived in the era termed the Paleolithic (15) (from about 40,000 to 10,000 years ago).\n\nWe think of cave art as made by \"cavemen,\" a term that immediately evokes images of hairy brutes, partly draped in animal furs. In fact, the Cro-Magnons lived far from caves, as well as (20) within them; we think of them as cavemen only because the garbage they left in caves is more likely to have been preserved than other artifacts. From their garbage, burials, and art, we know that they had needles, buttons, sewn clothing, (25) and parkas, and were probably as warmly dressed as modern Eskimos. They marked their caves with trail signs called claviforms, which warned Cro-Magnon tourists to stay on the right-hand side of wide passages, to look for art in concealed (30) niches, and to avoid bumping their heads in places with low ceilings. Their footprints are still on the cave floors, their handprints and marks of their scaffolding still on the cave walls. Visiting some of the sites, you get the vivid sense that the artists (35) walked off the job only yesterday.\n\nBut why did the Cro-Magnons create cave art in the first place? Archaeologists used to debate various interpretations: that the paintings represented mindless copies of nature by savage people, or (40) magical rites to ensure success at hunting, or depictions of myths, and so on. Such theories became less popular when anthropologists began to ask present-day tribal Australian aborigines and African Bushmen why they create their own rock (45) art. The reasons turned out to be ones that any future art historian would be very unlikely to guess. The same image-for example, a fish painted by aboriginal Australians have been painted for different reasons on different occasions. Some (50) fish paintings serve to mark a tribal territory, others tell a story (\"I caught this big fish\"), and still others have religious significance. It shouldn't surprise us that the Cro-Magnons' motives may have been equally varied, given all the evidence for their (55) modern mentality.",
+        "question_text": "The Cro-Magnon's use of claviforms implies that the Cro-Magnon people of France and Spain were",
+        "options": [
+            "surprisingly similar in many ways to modern humans.",
+            "dependent on hunting far more than on agriculture.",
+            "not the same people who are commonly called \"cavemen.\"",
+            "artistically more sophisticated than many later civilizations."
+        ],
+        "correct_answer": 0
+    },
+    {
+        "_id": "25",
+        "question_number": 25,
+        "practice_set": "4",
+        "category": "English:Reading Comprehension:Vocabulary",
+        "difficulty": "easy",
+        "time_estimate": 95,
+        "passage": "Most of human prehistory has left behind no convincing trace of art at all. Perhaps our remote ancestors painted their bodies, but if that was the first art, it wouldn't have survived for us to know (5) about. The oldest known artworks were created more or less simultaneously in Europe, Africa, and Australia, with some further recent discoveries of old art in Asia and the Americas as well. Early art itself assumed many forms, ranging from wood (10) and bone carving, engraving, bas relief, and three-dimensional sculpture to painting and music. Best known to modern Europeans are the cave paintings of so-called Cro-Magnon people from France and Spain, who lived in the era termed the Paleolithic (15) (from about 40,000 to 10,000 years ago).\n\nWe think of cave art as made by \"cavemen,\" a term that immediately evokes images of hairy brutes, partly draped in animal furs. In fact, the Cro-Magnons lived far from caves, as well as (20) within them; we think of them as cavemen only because the garbage they left in caves is more likely to have been preserved than other artifacts. From their garbage, burials, and art, we know that they had needles, buttons, sewn clothing, (25) and parkas, and were probably as warmly dressed as modern Eskimos. They marked their caves with trail signs called claviforms, which warned Cro-Magnon tourists to stay on the right-hand side of wide passages, to look for art in concealed (30) niches, and to avoid bumping their heads in places with low ceilings. Their footprints are still on the cave floors, their handprints and marks of their scaffolding still on the cave walls. Visiting some of the sites, you get the vivid sense that the artists (35) walked off the job only yesterday.\n\nBut why did the Cro-Magnons create cave art in the first place? Archaeologists used to debate various interpretations: that the paintings represented mindless copies of nature by savage people, or (40) magical rites to ensure success at hunting, or depictions of myths, and so on. Such theories became less popular when anthropologists began to ask present-day tribal Australian aborigines and African Bushmen why they create their own rock (45) art. The reasons turned out to be ones that any future art historian would be very unlikely to guess. The same image-for example, a fish painted by aboriginal Australians have been painted for different reasons on different occasions. Some (50) fish paintings serve to mark a tribal territory, others tell a story (\"I caught this big fish\"), and still others have religious significance. It shouldn't surprise us that the Cro-Magnons' motives may have been equally varied, given all the evidence for their (55) modern mentality.",
+        "question_text": "As it is used in line 2, the word \"convincing\" most nearly means",
+        "options": [
+            "undependable.",
+            "irresistible.",
+            "truthful.",
+            "credible."
+        ],
+        "correct_answer": 3
+    },
+    {
+        "_id": "26",
+        "question_number": 26,
+        "practice_set": "4",
+        "category": "English:Reading Comprehension:Inference",
+        "difficulty": "medium",
+        "time_estimate": 95,
+        "passage": "Most of human prehistory has left behind no convincing trace of art at all. Perhaps our remote ancestors painted their bodies, but if that was the first art, it wouldn't have survived for us to know (5) about. The oldest known artworks were created more or less simultaneously in Europe, Africa, and Australia, with some further recent discoveries of old art in Asia and the Americas as well. Early art itself assumed many forms, ranging from wood (10) and bone carving, engraving, bas relief, and three-dimensional sculpture to painting and music. Best known to modern Europeans are the cave paintings of so-called Cro-Magnon people from France and Spain, who lived in the era termed the Paleolithic (15) (from about 40,000 to 10,000 years ago).\n\nWe think of cave art as made by \"cavemen,\" a term that immediately evokes images of hairy brutes, partly draped in animal furs. In fact, the Cro-Magnons lived far from caves, as well as (20) within them; we think of them as cavemen only because the garbage they left in caves is more likely to have been preserved than other artifacts. From their garbage, burials, and art, we know that they had needles, buttons, sewn clothing, (25) and parkas, and were probably as warmly dressed as modern Eskimos. They marked their caves with trail signs called claviforms, which warned Cro-Magnon tourists to stay on the right-hand side of wide passages, to look for art in concealed (30) niches, and to avoid bumping their heads in places with low ceilings. Their footprints are still on the cave floors, their handprints and marks of their scaffolding still on the cave walls. Visiting some of the sites, you get the vivid sense that the artists (35) walked off the job only yesterday.\n\nBut why did the Cro-Magnons create cave art in the first place? Archaeologists used to debate various interpretations: that the paintings represented mindless copies of nature by savage people, or (40) magical rites to ensure success at hunting, or depictions of myths, and so on. Such theories became less popular when anthropologists began to ask present-day tribal Australian aborigines and African Bushmen why they create their own rock (45) art. The reasons turned out to be ones that any future art historian would be very unlikely to guess. The same image-for example, a fish painted by aboriginal Australians have been painted for different reasons on different occasions. Some (50) fish paintings serve to mark a tribal territory, others tell a story (\"I caught this big fish\"), and still others have religious significance. It shouldn't surprise us that the Cro-Magnons' motives may have been equally varied, given all the evidence for their (55) modern mentality.",
+        "question_text": "From the passage it can be inferred that the impetus to create art was",
+        "options": [
+            "localized to caves.",
+            "dependent on a modern mentality.",
+            "essentially universal.",
+            "a development of the Paleolithic era."
+        ],
+        "correct_answer": 2
+    },
+    {
+        "_id": "27",
+        "question_number": 27,
+        "practice_set": "4",
+        "category": "English:Reading Comprehension:Main Idea",
+        "difficulty": "easy",
+        "time_estimate": 95,
+        "passage": "For many years, the observation that certain intensely bright young stars are concentrated along the spiral arms of disk-shaped galaxies was unexplained. These stars, commonly referred to as (5) \"O-stars,\" are a million times brighter than the sun. Recent research suggests both a solution to the puzzle of why O-stars occur in such abundance and a theory about star formation in general.\n\nAstronomers had long been aware that stars were (10) made up of interstellar gas and dust, but the specific chain of events that led to their birth had not been discovered. Today, however, the stars in spiral arms of disk-shaped galaxies are thought to result from density waves caused by gravitational fluctuations (15) at the center of a galaxy. Scientists have observed that scattered clouds of interstellar gas and dust collect into much larger clouds, or \"nebulas,\" along the lines formed by these density waves. It is thought that these nebulas coalesce into clumps (20) of high concentration, out of which different types of stars, including O-stars, eventually emerge.\n\nExtensive mapping of these cloud complexes has established that they have a consistent relationship with the positions of O-stars-a connection too (25) striking, in view of the expanse of empty space within galaxies, to be the result of chance. Since they emit light waves in the red part of the light spectrum, O-stars are usually found in glowing nebulas that astronomers have labeled (30) H II regions. O-stars cannot migrate out of these regions because their life spans are too short. Therefore, astronomers have studied H II regions to determine how clouds and O-stars interact. Their observations suggest that the interaction between (35) clouds and O-stars is a self-perpetuating cycle in which stars will continue to be produced until the cloud material is used up. O-stars consume their fuel rapidly and release huge amounts of energy. Moreover, O-star radiation contributes to driving a (40) shock wave into these clouds, compressing gas and dust there. This tremendous compression of gas and dust causes a second generation of young stars-among them new O-stars.",
+        "question_text": "Which of the following best describes what the passage is about?",
+        "options": [
+            "O-stars exist in great abundance in the arms of spiral galaxies.",
+            "O-stars consist of scattered clouds of interstellar gas and dust.",
+            "The arms of spiral galaxies result from gravitational fluctuations at the galactic center.",
+            "O-stars help scientists better understand how stars are formed."
+        ],
+        "correct_answer": 3
+    },
+    {
+        "_id": "28",
+        "question_number": 28,
+        "practice_set": "4",
+        "category": "English:Reading Comprehension:Detail",
+        "difficulty": "easy",
+        "time_estimate": 95,
+        "passage": "For many years, the observation that certain intensely bright young stars are concentrated along the spiral arms of disk-shaped galaxies was unexplained. These stars, commonly referred to as (5) \"O-stars,\" are a million times brighter than the sun. Recent research suggests both a solution to the puzzle of why O-stars occur in such abundance and a theory about star formation in general.\n\nAstronomers had long been aware that stars were (10) made up of interstellar gas and dust, but the specific chain of events that led to their birth had not been discovered. Today, however, the stars in spiral arms of disk-shaped galaxies are thought to result from density waves caused by gravitational fluctuations (15) at the center of a galaxy. Scientists have observed that scattered clouds of interstellar gas and dust collect into much larger clouds, or \"nebulas,\" along the lines formed by these density waves. It is thought that these nebulas coalesce into clumps (20) of high concentration, out of which different types of stars, including O-stars, eventually emerge.\n\nExtensive mapping of these cloud complexes has established that they have a consistent relationship with the positions of O-stars-a connection too (25) striking, in view of the expanse of empty space within galaxies, to be the result of chance. Since they emit light waves in the red part of the light spectrum, O-stars are usually found in glowing nebulas that astronomers have labeled (30) H II regions. O-stars cannot migrate out of these regions because their life spans are too short. Therefore, astronomers have studied H II regions to determine how clouds and O-stars interact. Their observations suggest that the interaction between (35) clouds and O-stars is a self-perpetuating cycle in which stars will continue to be produced until the cloud material is used up. O-stars consume their fuel rapidly and release huge amounts of energy. Moreover, O-star radiation contributes to driving a (40) shock wave into these clouds, compressing gas and dust there. This tremendous compression of gas and dust causes a second generation of young stars-among them new O-stars.",
+        "question_text": "The passage states all of the following about O-stars except",
+        "options": [
+            "they consume their fuel quickly.",
+            "they are found in glowing nebulas.",
+            "they are much bigger than the sun.",
+            "they emit large amounts of radiation."
+        ],
+        "correct_answer": 2
+    },
+    {
+        "_id": "29",
+        "question_number": 29,
+        "practice_set": "4",
+        "category": "English:Reading Comprehension:Detail",
+        "difficulty": "easy",
+        "time_estimate": 95,
+        "passage": "For many years, the observation that certain intensely bright young stars are concentrated along the spiral arms of disk-shaped galaxies was unexplained. These stars, commonly referred to as (5) \"O-stars,\" are a million times brighter than the sun. Recent research suggests both a solution to the puzzle of why O-stars occur in such abundance and a theory about star formation in general.\n\nAstronomers had long been aware that stars were (10) made up of interstellar gas and dust, but the specific chain of events that led to their birth had not been discovered. Today, however, the stars in spiral arms of disk-shaped galaxies are thought to result from density waves caused by gravitational fluctuations (15) at the center of a galaxy. Scientists have observed that scattered clouds of interstellar gas and dust collect into much larger clouds, or \"nebulas,\" along the lines formed by these density waves. It is thought that these nebulas coalesce into clumps (20) of high concentration, out of which different types of stars, including O-stars, eventually emerge.\n\nExtensive mapping of these cloud complexes has established that they have a consistent relationship with the positions of O-stars-a connection too (25) striking, in view of the expanse of empty space within galaxies, to be the result of chance. Since they emit light waves in the red part of the light spectrum, O-stars are usually found in glowing nebulas that astronomers have labeled (30) H II regions. O-stars cannot migrate out of these regions because their life spans are too short. Therefore, astronomers have studied H II regions to determine how clouds and O-stars interact. Their observations suggest that the interaction between (35) clouds and O-stars is a self-perpetuating cycle in which stars will continue to be produced until the cloud material is used up. O-stars consume their fuel rapidly and release huge amounts of energy. Moreover, O-star radiation contributes to driving a (40) shock wave into these clouds, compressing gas and dust there. This tremendous compression of gas and dust causes a second generation of young stars-among them new O-stars.",
+        "question_text": "According to the passage, interstellar gas and dust coalesce into \"clumps of high concentration\" (lines 19-20)",
+        "options": [
+            "only in H II regions of space.",
+            "because of gravitational fluctuations in galactic arms.",
+            "when O-stars migrate out of H II regions.",
+            "before new stars are formed."
+        ],
+        "correct_answer": 3
+    },
+    {
+        "_id": "30",
+        "question_number": 30,
+        "practice_set": "4",
+        "category": "English:Reading Comprehension:Inference",
+        "difficulty": "medium",
+        "time_estimate": 95,
+        "passage": "For many years, the observation that certain intensely bright young stars are concentrated along the spiral arms of disk-shaped galaxies was unexplained. These stars, commonly referred to as (5) \"O-stars,\" are a million times brighter than the sun. Recent research suggests both a solution to the puzzle of why O-stars occur in such abundance and a theory about star formation in general.\n\nAstronomers had long been aware that stars were (10) made up of interstellar gas and dust, but the specific chain of events that led to their birth had not been discovered. Today, however, the stars in spiral arms of disk-shaped galaxies are thought to result from density waves caused by gravitational fluctuations (15) at the center of a galaxy. Scientists have observed that scattered clouds of interstellar gas and dust collect into much larger clouds, or \"nebulas,\" along the lines formed by these density waves. It is thought that these nebulas coalesce into clumps (20) of high concentration, out of which different types of stars, including O-stars, eventually emerge.\n\nExtensive mapping of these cloud complexes has established that they have a consistent relationship with the positions of O-stars-a connection too (25) striking, in view of the expanse of empty space within galaxies, to be the result of chance. Since they emit light waves in the red part of the light spectrum, O-stars are usually found in glowing nebulas that astronomers have labeled (30) H II regions. O-stars cannot migrate out of these regions because their life spans are too short. Therefore, astronomers have studied H II regions to determine how clouds and O-stars interact. Their observations suggest that the interaction between (35) clouds and O-stars is a self-perpetuating cycle in which stars will continue to be produced until the cloud material is used up. O-stars consume their fuel rapidly and release huge amounts of energy. Moreover, O-star radiation contributes to driving a (40) shock wave into these clouds, compressing gas and dust there. This tremendous compression of gas and dust causes a second generation of young stars-among them new O-stars.",
+        "question_text": "According to the passage, which of the following suggests a relationship between interstellar dust clouds and O-stars?",
+        "options": [
+            "They both emit light in the red part of the visible spectrum.",
+            "They are frequently found in the same place.",
+            "They are both classified as part of the H II regions of space.",
+            "They are a million times brighter than the sun."
+        ],
+        "correct_answer": 1
+    },
+    {
+        "_id": "31",
+        "question_number": 31,
+        "practice_set": "4",
+        "category": "English:Reading Comprehension:Author's Purpose",
+        "difficulty": "medium",
+        "time_estimate": 95,
+        "passage": "For many years, the observation that certain intensely bright young stars are concentrated along the spiral arms of disk-shaped galaxies was unexplained. These stars, commonly referred to as (5) \"O-stars,\" are a million times brighter than the sun. Recent research suggests both a solution to the puzzle of why O-stars occur in such abundance and a theory about star formation in general.\n\nAstronomers had long been aware that stars were (10) made up of interstellar gas and dust, but the specific chain of events that led to their birth had not been discovered. Today, however, the stars in spiral arms of disk-shaped galaxies are thought to result from density waves caused by gravitational fluctuations (15) at the center of a galaxy. Scientists have observed that scattered clouds of interstellar gas and dust collect into much larger clouds, or \"nebulas,\" along the lines formed by these density waves. It is thought that these nebulas coalesce into clumps (20) of high concentration, out of which different types of stars, including O-stars, eventually emerge.\n\nExtensive mapping of these cloud complexes has established that they have a consistent relationship with the positions of O-stars-a connection too (25) striking, in view of the expanse of empty space within galaxies, to be the result of chance. Since they emit light waves in the red part of the light spectrum, O-stars are usually found in glowing nebulas that astronomers have labeled (30) H II regions. O-stars cannot migrate out of these regions because their life spans are too short. Therefore, astronomers have studied H II regions to determine how clouds and O-stars interact. Their observations suggest that the interaction between (35) clouds and O-stars is a self-perpetuating cycle in which stars will continue to be produced until the cloud material is used up. O-stars consume their fuel rapidly and release huge amounts of energy. Moreover, O-star radiation contributes to driving a (40) shock wave into these clouds, compressing gas and dust there. This tremendous compression of gas and dust causes a second generation of young stars-among them new O-stars.",
+        "question_text": "The \"expanse of empty space within galaxies\" is mentioned in lines 25-26 as evidence that explains why",
+        "options": [
+            "the presence of nebulas and O-stars in the same regions is probably not a coincidence.",
+            "the interaction between O-stars and the surrounding dust clouds is self-perpetuating.",
+            "O-stars are especially difficult to locate, particularly when concealed by interstellar dust clouds.",
+            "extensive mapping of H II regions is impossible."
+        ],
+        "correct_answer": 0
+    },
+    {
+        "_id": "32",
+        "question_number": 32,
+        "practice_set": "4",
+        "category": "English:Reading Comprehension:Detail",
+        "difficulty": "medium",
+        "time_estimate": 95,
+        "passage": "For many years, the observation that certain intensely bright young stars are concentrated along the spiral arms of disk-shaped galaxies was unexplained. These stars, commonly referred to as (5) \"O-stars,\" are a million times brighter than the sun. Recent research suggests both a solution to the puzzle of why O-stars occur in such abundance and a theory about star formation in general.\n\nAstronomers had long been aware that stars were (10) made up of interstellar gas and dust, but the specific chain of events that led to their birth had not been discovered. Today, however, the stars in spiral arms of disk-shaped galaxies are thought to result from density waves caused by gravitational fluctuations (15) at the center of a galaxy. Scientists have observed that scattered clouds of interstellar gas and dust collect into much larger clouds, or \"nebulas,\" along the lines formed by these density waves. It is thought that these nebulas coalesce into clumps (20) of high concentration, out of which different types of stars, including O-stars, eventually emerge.\n\nExtensive mapping of these cloud complexes has established that they have a consistent relationship with the positions of O-stars-a connection too (25) striking, in view of the expanse of empty space within galaxies, to be the result of chance. Since they emit light waves in the red part of the light spectrum, O-stars are usually found in glowing nebulas that astronomers have labeled (30) H II regions. O-stars cannot migrate out of these regions because their life spans are too short. Therefore, astronomers have studied H II regions to determine how clouds and O-stars interact. Their observations suggest that the interaction between (35) clouds and O-stars is a self-perpetuating cycle in which stars will continue to be produced until the cloud material is used up. O-stars consume their fuel rapidly and release huge amounts of energy. Moreover, O-star radiation contributes to driving a (40) shock wave into these clouds, compressing gas and dust there. This tremendous compression of gas and dust causes a second generation of young stars-among them new O-stars.",
+        "question_text": "The passage suggests that O-stars participate in the process of star formation in which of the following ways?",
+        "options": [
+            "They produce a red fluorescence.",
+            "Gas and dust are condensed by the energy they emit.",
+            "They cause gravitational fluctuations at the galactic center.",
+            "They tend to accumulate in the arms of spiral galaxies."
+        ],
+        "correct_answer": 1
+    },
+    {
+        "_id": "33",
+        "question_number": 33,
+        "practice_set": "4",
+        "category": "English:Reading Comprehension:Detail",
+        "difficulty": "easy",
+        "time_estimate": 95,
+        "passage": "For many years, the observation that certain intensely bright young stars are concentrated along the spiral arms of disk-shaped galaxies was unexplained. These stars, commonly referred to as (5) \"O-stars,\" are a million times brighter than the sun. Recent research suggests both a solution to the puzzle of why O-stars occur in such abundance and a theory about star formation in general.\n\nAstronomers had long been aware that stars were (10) made up of interstellar gas and dust, but the specific chain of events that led to their birth had not been discovered. Today, however, the stars in spiral arms of disk-shaped galaxies are thought to result from density waves caused by gravitational fluctuations (15) at the center of a galaxy. Scientists have observed that scattered clouds of interstellar gas and dust collect into much larger clouds, or \"nebulas,\" along the lines formed by these density waves. It is thought that these nebulas coalesce into clumps (20) of high concentration, out of which different types of stars, including O-stars, eventually emerge.\n\nExtensive mapping of these cloud complexes has established that they have a consistent relationship with the positions of O-stars-a connection too (25) striking, in view of the expanse of empty space within galaxies, to be the result of chance. Since they emit light waves in the red part of the light spectrum, O-stars are usually found in glowing nebulas that astronomers have labeled (30) H II regions. O-stars cannot migrate out of these regions because their life spans are too short. Therefore, astronomers have studied H II regions to determine how clouds and O-stars interact. Their observations suggest that the interaction between (35) clouds and O-stars is a self-perpetuating cycle in which stars will continue to be produced until the cloud material is used up. O-stars consume their fuel rapidly and release huge amounts of energy. Moreover, O-star radiation contributes to driving a (40) shock wave into these clouds, compressing gas and dust there. This tremendous compression of gas and dust causes a second generation of young stars-among them new O-stars.",
+        "question_text": "According to the passage, it can be expected that O-stars will continue to be formed until",
+        "options": [
+            "they no longer emit light waves.",
+            "interstellar gas no longer collects into nebulae.",
+            "the compression of gas and dust is not strong enough to produce new stars.",
+            "all cloud material is used up."
+        ],
+        "correct_answer": 3
+    },
+    {
+        "_id": "34",
+        "question_number": 34,
+        "practice_set": "4",
+        "category": "English:Reading Comprehension:Detail",
+        "difficulty": "easy",
+        "time_estimate": 95,
+        "passage": "For many years, the observation that certain intensely bright young stars are concentrated along the spiral arms of disk-shaped galaxies was unexplained. These stars, commonly referred to as (5) \"O-stars,\" are a million times brighter than the sun. Recent research suggests both a solution to the puzzle of why O-stars occur in such abundance and a theory about star formation in general.\n\nAstronomers had long been aware that stars were (10) made up of interstellar gas and dust, but the specific chain of events that led to their birth had not been discovered. Today, however, the stars in spiral arms of disk-shaped galaxies are thought to result from density waves caused by gravitational fluctuations (15) at the center of a galaxy. Scientists have observed that scattered clouds of interstellar gas and dust collect into much larger clouds, or \"nebulas,\" along the lines formed by these density waves. It is thought that these nebulas coalesce into clumps (20) of high concentration, out of which different types of stars, including O-stars, eventually emerge.\n\nExtensive mapping of these cloud complexes has established that they have a consistent relationship with the positions of O-stars-a connection too (25) striking, in view of the expanse of empty space within galaxies, to be the result of chance. Since they emit light waves in the red part of the light spectrum, O-stars are usually found in glowing nebulas that astronomers have labeled (30) H II regions. O-stars cannot migrate out of these regions because their life spans are too short. Therefore, astronomers have studied H II regions to determine how clouds and O-stars interact. Their observations suggest that the interaction between (35) clouds and O-stars is a self-perpetuating cycle in which stars will continue to be produced until the cloud material is used up. O-stars consume their fuel rapidly and release huge amounts of energy. Moreover, O-star radiation contributes to driving a (40) shock wave into these clouds, compressing gas and dust there. This tremendous compression of gas and dust causes a second generation of young stars-among them new O-stars.",
+        "question_text": "As mentioned in the passage, O-stars are",
+        "options": [
+            "easy to locate.",
+            "numerous in spiral galaxies.",
+            "older than other stars in H II regions.",
+            "outside of density waves."
+        ],
+        "correct_answer": 1
+    },
+    {
+        "_id": "35",
+        "question_number": 35,
+        "practice_set": "4",
+        "category": "English:Reading Comprehension:Main Idea",
+        "difficulty": "easy",
+        "time_estimate": 95,
+        "passage": "Most scholars agree that, due to the political climate in Europe in the period prior to the First World War, a conflict of some kind was inevitable. Several circumstances contributed in the (5) long-term to the breakout of war. However, these circumstances only served to set the stage for war. The missing ingredient was a spark that would ignite the volatile situation. It came in the form of an assassin's bullet on June 28, 1914.\n\n(10) At that time, Bosnia-Herzegovina was a province of Austria-Hungary. Many Bosnians resented Austrian rule, and there was a widespread desire for independence. When Archduke Franz Ferdinand, the heir to the Austro-Hungarian throne, announced (15) plans to visit Bosnia, a terrorist organization known as the \"Black Hand\" made plans to assassinate him. The Archduke's decision to visit Bosnia was, by all accounts, foolhardy, since everyone knew that he would quite possibly become an assassin's target. (20) However, the visit went as planned. As Ferdinand's entourage arrived in the Sarajevo train station, members of the \"Black Hand\" were already lining the path to City Hall, his destination.\n\nAs the motorcade passed the central police station, (25) \"Black Hand\" member Nedeljko Cabrinovic tossed a grenade at the Archduke's vehicle. When the driver saw the object coming toward him, he accelerated. The grenade exploded under the next car. The Archduke's driver drove so quickly the (30) rest of the way that none of the terrorists were able to attack his car. Ferdinand then attended the official reception at City Hall. Afterward, when he found out that the passengers in the second car had been badly injured, the Archduke insisted on (35) visiting the hospital where they were being cared for. When one of his staff argued that this might be dangerous, he was quickly overruled. On the way to the hospital, the driver took a wrong turn. Realizing his mistake, he stopped and began reversing. Just (40) then, one of the conspirators, Gavrilo Princip, happened to be walking down the same road. The car moved slowly in reverse and came within five feet of the waiting Princip, who fired several times into the car, killing the Archduke. This was (45) the spark needed to inflame the tense situation in Europe. Within months, the entire continent would be engulfed in war.",
+        "question_text": "Which of the following best describes what the passage is about?",
+        "options": [
+            "Europe in the early twentieth century",
+            "Archduke Ferdinand's assassination",
+            "long-term circumstances that contributed to the outbreak of World War I",
+            "the Bosnian drive for independence"
+        ],
+        "correct_answer": 1
+    },
+    {
+        "_id": "36",
+        "question_number": 36,
+        "practice_set": "4",
+        "category": "English:Reading Comprehension:Detail",
+        "difficulty": "easy",
+        "time_estimate": 95,
+        "passage": "Most scholars agree that, due to the political climate in Europe in the period prior to the First World War, a conflict of some kind was inevitable. Several circumstances contributed in the (5) long-term to the breakout of war. However, these circumstances only served to set the stage for war. The missing ingredient was a spark that would ignite the volatile situation. It came in the form of an assassin's bullet on June 28, 1914.\n\n(10) At that time, Bosnia-Herzegovina was a province of Austria-Hungary. Many Bosnians resented Austrian rule, and there was a widespread desire for independence. When Archduke Franz Ferdinand, the heir to the Austro-Hungarian throne, announced (15) plans to visit Bosnia, a terrorist organization known as the \"Black Hand\" made plans to assassinate him. The Archduke's decision to visit Bosnia was, by all accounts, foolhardy, since everyone knew that he would quite possibly become an assassin's target. (20) However, the visit went as planned. As Ferdinand's entourage arrived in the Sarajevo train station, members of the \"Black Hand\" were already lining the path to City Hall, his destination.\n\nAs the motorcade passed the central police station, (25) \"Black Hand\" member Nedeljko Cabrinovic tossed a grenade at the Archduke's vehicle. When the driver saw the object coming toward him, he accelerated. The grenade exploded under the next car. The Archduke's driver drove so quickly the (30) rest of the way that none of the terrorists were able to attack his car. Ferdinand then attended the official reception at City Hall. Afterward, when he found out that the passengers in the second car had been badly injured, the Archduke insisted on (35) visiting the hospital where they were being cared for. When one of his staff argued that this might be dangerous, he was quickly overruled. On the way to the hospital, the driver took a wrong turn. Realizing his mistake, he stopped and began reversing. Just (40) then, one of the conspirators, Gavrilo Princip, happened to be walking down the same road. The car moved slowly in reverse and came within five feet of the waiting Princip, who fired several times into the car, killing the Archduke. This was (45) the spark needed to inflame the tense situation in Europe. Within months, the entire continent would be engulfed in war.",
+        "question_text": "According to the passage, which of the following is a correct statement concerning the \"Black Hand\"?",
+        "options": [
+            "It was dedicated to securing the freedom of Austria from the Bosnians.",
+            "Its members included Princip, Cabrinovic, and Ferdinand.",
+            "Members of the \"Black Hand\" killed the Austrian heir with a hand grenade.",
+            "It was a group that used assassination to achieve its goals."
+        ],
+        "correct_answer": 3
+    },
+    {
+        "_id": "37",
+        "question_number": 37,
+        "practice_set": "4",
+        "category": "English:Reading Comprehension:Detail",
+        "difficulty": "medium",
+        "time_estimate": 95,
+        "passage": "Most scholars agree that, due to the political climate in Europe in the period prior to the First World War, a conflict of some kind was inevitable. Several circumstances contributed in the (5) long-term to the breakout of war. However, these circumstances only served to set the stage for war. The missing ingredient was a spark that would ignite the volatile situation. It came in the form of an assassin's bullet on June 28, 1914.\n\n(10) At that time, Bosnia-Herzegovina was a province of Austria-Hungary. Many Bosnians resented Austrian rule, and there was a widespread desire for independence. When Archduke Franz Ferdinand, the heir to the Austro-Hungarian throne, announced (15) plans to visit Bosnia, a terrorist organization known as the \"Black Hand\" made plans to assassinate him. The Archduke's decision to visit Bosnia was, by all accounts, foolhardy, since everyone knew that he would quite possibly become an assassin's target. (20) However, the visit went as planned. As Ferdinand's entourage arrived in the Sarajevo train station, members of the \"Black Hand\" were already lining the path to City Hall, his destination.\n\nAs the motorcade passed the central police station, (25) \"Black Hand\" member Nedeljko Cabrinovic tossed a grenade at the Archduke's vehicle. When the driver saw the object coming toward him, he accelerated. The grenade exploded under the next car. The Archduke's driver drove so quickly the (30) rest of the way that none of the terrorists were able to attack his car. Ferdinand then attended the official reception at City Hall. Afterward, when he found out that the passengers in the second car had been badly injured, the Archduke insisted on (35) visiting the hospital where they were being cared for. When one of his staff argued that this might be dangerous, he was quickly overruled. On the way to the hospital, the driver took a wrong turn. Realizing his mistake, he stopped and began reversing. Just (40) then, one of the conspirators, Gavrilo Princip, happened to be walking down the same road. The car moved slowly in reverse and came within five feet of the waiting Princip, who fired several times into the car, killing the Archduke. This was (45) the spark needed to inflame the tense situation in Europe. Within months, the entire continent would be engulfed in war.",
+        "question_text": "According to the passage, each of the following mistakes led to Archduke Franz Ferdinand's death except",
+        "options": [
+            "visiting Bosnia.",
+            "taking a wrong turn.",
+            "allowing Nedeljko Cabrinovic to ride in the Archduke's car.",
+            "visiting injured members of the Archduke's entourage."
+        ],
+        "correct_answer": 2
+    },
+    {
+        "_id": "38",
+        "question_number": 38,
+        "practice_set": "4",
+        "category": "English:Reading Comprehension:Detail",
+        "difficulty": "easy",
+        "time_estimate": 95,
+        "passage": "Most scholars agree that, due to the political climate in Europe in the period prior to the First World War, a conflict of some kind was inevitable. Several circumstances contributed in the (5) long-term to the breakout of war. However, these circumstances only served to set the stage for war. The missing ingredient was a spark that would ignite the volatile situation. It came in the form of an assassin's bullet on June 28, 1914.\n\n(10) At that time, Bosnia-Herzegovina was a province of Austria-Hungary. Many Bosnians resented Austrian rule, and there was a widespread desire for independence. When Archduke Franz Ferdinand, the heir to the Austro-Hungarian throne, announced (15) plans to visit Bosnia, a terrorist organization known as the \"Black Hand\" made plans to assassinate him. The Archduke's decision to visit Bosnia was, by all accounts, foolhardy, since everyone knew that he would quite possibly become an assassin's target. (20) However, the visit went as planned. As Ferdinand's entourage arrived in the Sarajevo train station, members of the \"Black Hand\" were already lining the path to City Hall, his destination.\n\nAs the motorcade passed the central police station, (25) \"Black Hand\" member Nedeljko Cabrinovic tossed a grenade at the Archduke's vehicle. When the driver saw the object coming toward him, he accelerated. The grenade exploded under the next car. The Archduke's driver drove so quickly the (30) rest of the way that none of the terrorists were able to attack his car. Ferdinand then attended the official reception at City Hall. Afterward, when he found out that the passengers in the second car had been badly injured, the Archduke insisted on (35) visiting the hospital where they were being cared for. When one of his staff argued that this might be dangerous, he was quickly overruled. On the way to the hospital, the driver took a wrong turn. Realizing his mistake, he stopped and began reversing. Just (40) then, one of the conspirators, Gavrilo Princip, happened to be walking down the same road. The car moved slowly in reverse and came within five feet of the waiting Princip, who fired several times into the car, killing the Archduke. This was (45) the spark needed to inflame the tense situation in Europe. Within months, the entire continent would be engulfed in war.",
+        "question_text": "After passing the central police station, why did Ferdinand's driver start driving faster?",
+        "options": [
+            "He saw an object thrown at the vehicle.",
+            "There was a change in the posted speed limit just after the station.",
+            "The Archduke was running late for his reception at City Hall.",
+            "He was attempting to make up for time he had lost by taking a wrong turn."
+        ],
+        "correct_answer": 0
+    },
+    {
+        "_id": "39",
+        "question_number": 39,
+        "practice_set": "4",
+        "category": "English:Reading Comprehension:Inference",
+        "difficulty": "medium",
+        "time_estimate": 95,
+        "passage": "Most scholars agree that, due to the political climate in Europe in the period prior to the First World War, a conflict of some kind was inevitable. Several circumstances contributed in the (5) long-term to the breakout of war. However, these circumstances only served to set the stage for war. The missing ingredient was a spark that would ignite the volatile situation. It came in the form of an assassin's bullet on June 28, 1914.\n\n(10) At that time, Bosnia-Herzegovina was a province of Austria-Hungary. Many Bosnians resented Austrian rule, and there was a widespread desire for independence. When Archduke Franz Ferdinand, the heir to the Austro-Hungarian throne, announced (15) plans to visit Bosnia, a terrorist organization known as the \"Black Hand\" made plans to assassinate him. The Archduke's decision to visit Bosnia was, by all accounts, foolhardy, since everyone knew that he would quite possibly become an assassin's target. (20) However, the visit went as planned. As Ferdinand's entourage arrived in the Sarajevo train station, members of the \"Black Hand\" were already lining the path to City Hall, his destination.\n\nAs the motorcade passed the central police station, (25) \"Black Hand\" member Nedeljko Cabrinovic tossed a grenade at the Archduke's vehicle. When the driver saw the object coming toward him, he accelerated. The grenade exploded under the next car. The Archduke's driver drove so quickly the (30) rest of the way that none of the terrorists were able to attack his car. Ferdinand then attended the official reception at City Hall. Afterward, when he found out that the passengers in the second car had been badly injured, the Archduke insisted on (35) visiting the hospital where they were being cared for. When one of his staff argued that this might be dangerous, he was quickly overruled. On the way to the hospital, the driver took a wrong turn. Realizing his mistake, he stopped and began reversing. Just (40) then, one of the conspirators, Gavrilo Princip, happened to be walking down the same road. The car moved slowly in reverse and came within five feet of the waiting Princip, who fired several times into the car, killing the Archduke. This was (45) the spark needed to inflame the tense situation in Europe. Within months, the entire continent would be engulfed in war.",
+        "question_text": "The passage suggests that",
+        "options": [
+            "Princip and Ferdinand had confronted one another in the past.",
+            "only one member of the \"Black Hand\" was in Sarajevo on June 28, 1914.",
+            "the driver of Ferdinand's vehicle was a \"Black Hand\" operative.",
+            "the \"Black Hand\" wanted Ferdinand dead because he was from the Austrian royal family."
+        ],
+        "correct_answer": 3
+    },
+    {
+        "_id": "40",
+        "question_number": 40,
+        "practice_set": "4",
+        "category": "English:Reading Comprehension:Inference",
+        "difficulty": "easy",
+        "time_estimate": 95,
+        "passage": "Most scholars agree that, due to the political climate in Europe in the period prior to the First World War, a conflict of some kind was inevitable. Several circumstances contributed in the (5) long-term to the breakout of war. However, these circumstances only served to set the stage for war. The missing ingredient was a spark that would ignite the volatile situation. It came in the form of an assassin's bullet on June 28, 1914.\n\n(10) At that time, Bosnia-Herzegovina was a province of Austria-Hungary. Many Bosnians resented Austrian rule, and there was a widespread desire for independence. When Archduke Franz Ferdinand, the heir to the Austro-Hungarian throne, announced (15) plans to visit Bosnia, a terrorist organization known as the \"Black Hand\" made plans to assassinate him. The Archduke's decision to visit Bosnia was, by all accounts, foolhardy, since everyone knew that he would quite possibly become an assassin's target. (20) However, the visit went as planned. As Ferdinand's entourage arrived in the Sarajevo train station, members of the \"Black Hand\" were already lining the path to City Hall, his destination.\n\nAs the motorcade passed the central police station, (25) \"Black Hand\" member Nedeljko Cabrinovic tossed a grenade at the Archduke's vehicle. When the driver saw the object coming toward him, he accelerated. The grenade exploded under the next car. The Archduke's driver drove so quickly the (30) rest of the way that none of the terrorists were able to attack his car. Ferdinand then attended the official reception at City Hall. Afterward, when he found out that the passengers in the second car had been badly injured, the Archduke insisted on (35) visiting the hospital where they were being cared for. When one of his staff argued that this might be dangerous, he was quickly overruled. On the way to the hospital, the driver took a wrong turn. Realizing his mistake, he stopped and began reversing. Just (40) then, one of the conspirators, Gavrilo Princip, happened to be walking down the same road. The car moved slowly in reverse and came within five feet of the waiting Princip, who fired several times into the car, killing the Archduke. This was (45) the spark needed to inflame the tense situation in Europe. Within months, the entire continent would be engulfed in war.",
+        "question_text": "Which of the following is a reasonable assumption about World War I based on the passage?",
+        "options": [
+            "When war erupted, Bosnia and Austria were on the same side.",
+            "The war's only cause was the assassination of Franz Ferdinand.",
+            "World War I was completely avoidable.",
+            "The death of Archduke Ferdinand was an important contributing factor to the outbreak of war."
+        ],
+        "correct_answer": 3
+    },
+    {
+        "_id": "41",
+        "question_number": 41,
+        "practice_set": "4",
+        "category": "English:Reading Comprehension:Detail",
+        "difficulty": "easy",
+        "time_estimate": 95,
+        "passage": "Most scholars agree that, due to the political climate in Europe in the period prior to the First World War, a conflict of some kind was inevitable. Several circumstances contributed in the (5) long-term to the breakout of war. However, these circumstances only served to set the stage for war. The missing ingredient was a spark that would ignite the volatile situation. It came in the form of an assassin's bullet on June 28, 1914.\n\n(10) At that time, Bosnia-Herzegovina was a province of Austria-Hungary. Many Bosnians resented Austrian rule, and there was a widespread desire for independence. When Archduke Franz Ferdinand, the heir to the Austro-Hungarian throne, announced (15) plans to visit Bosnia, a terrorist organization known as the \"Black Hand\" made plans to assassinate him. The Archduke's decision to visit Bosnia was, by all accounts, foolhardy, since everyone knew that he would quite possibly become an assassin's target. (20) However, the visit went as planned. As Ferdinand's entourage arrived in the Sarajevo train station, members of the \"Black Hand\" were already lining the path to City Hall, his destination.\n\nAs the motorcade passed the central police station, (25) \"Black Hand\" member Nedeljko Cabrinovic tossed a grenade at the Archduke's vehicle. When the driver saw the object coming toward him, he accelerated. The grenade exploded under the next car. The Archduke's driver drove so quickly the (30) rest of the way that none of the terrorists were able to attack his car. Ferdinand then attended the official reception at City Hall. Afterward, when he found out that the passengers in the second car had been badly injured, the Archduke insisted on (35) visiting the hospital where they were being cared for. When one of his staff argued that this might be dangerous, he was quickly overruled. On the way to the hospital, the driver took a wrong turn. Realizing his mistake, he stopped and began reversing. Just (40) then, one of the conspirators, Gavrilo Princip, happened to be walking down the same road. The car moved slowly in reverse and came within five feet of the waiting Princip, who fired several times into the car, killing the Archduke. This was (45) the spark needed to inflame the tense situation in Europe. Within months, the entire continent would be engulfed in war.",
+        "question_text": "According to the passage, the assassination of Archduke Ferdinand was the result of",
+        "options": [
+            "a carefully planned strategy.",
+            "an unforeseen coincidence.",
+            "a confrontation with a group of Black Hand activists.",
+            "a bomb thrown into his car."
+        ],
+        "correct_answer": 1
+    },
+    {
+        "_id": "42",
+        "question_number": 42,
+        "practice_set": "4",
+        "category": "English:Reading Comprehension:Detail",
+        "difficulty": "easy",
+        "time_estimate": 95,
+        "passage": "Most scholars agree that, due to the political climate in Europe in the period prior to the First World War, a conflict of some kind was inevitable. Several circumstances contributed in the (5) long-term to the breakout of war. However, these circumstances only served to set the stage for war. The missing ingredient was a spark that would ignite the volatile situation. It came in the form of an assassin's bullet on June 28, 1914.\n\n(10) At that time, Bosnia-Herzegovina was a province of Austria-Hungary. Many Bosnians resented Austrian rule, and there was a widespread desire for independence. When Archduke Franz Ferdinand, the heir to the Austro-Hungarian throne, announced (15) plans to visit Bosnia, a terrorist organization known as the \"Black Hand\" made plans to assassinate him. The Archduke's decision to visit Bosnia was, by all accounts, foolhardy, since everyone knew that he would quite possibly become an assassin's target. (20) However, the visit went as planned. As Ferdinand's entourage arrived in the Sarajevo train station, members of the \"Black Hand\" were already lining the path to City Hall, his destination.\n\nAs the motorcade passed the central police station, (25) \"Black Hand\" member Nedeljko Cabrinovic tossed a grenade at the Archduke's vehicle. When the driver saw the object coming toward him, he accelerated. The grenade exploded under the next car. The Archduke's driver drove so quickly the (30) rest of the way that none of the terrorists were able to attack his car. Ferdinand then attended the official reception at City Hall. Afterward, when he found out that the passengers in the second car had been badly injured, the Archduke insisted on (35) visiting the hospital where they were being cared for. When one of his staff argued that this might be dangerous, he was quickly overruled. On the way to the hospital, the driver took a wrong turn. Realizing his mistake, he stopped and began reversing. Just (40) then, one of the conspirators, Gavrilo Princip, happened to be walking down the same road. The car moved slowly in reverse and came within five feet of the waiting Princip, who fired several times into the car, killing the Archduke. This was (45) the spark needed to inflame the tense situation in Europe. Within months, the entire continent would be engulfed in war.",
+        "question_text": "Based on the information in the passage, Archduke Ferdinand's decision to visit Bosnia was",
+        "options": [
+            "ill-conceived.",
+            "important to maintaining Austrian control.",
+            "a friendly, good-will gesture.",
+            "welcomed by the majority of Bosnians."
+        ],
+        "correct_answer": 0
+    },
+    {
+        "_id": "43",
+        "question_number": 43,
+        "practice_set": "4",
+        "category": "English:Reading Comprehension:Author's Purpose",
+        "difficulty": "medium",
+        "time_estimate": 95,
+        "passage": "This passage is from the short story \"The Masque of Red Death\" by Edgar Allan Poe, which was originally published in 1842.\n\nThe \"Red Death\" had long devastated the country. No pestilence had ever been so fatal, or so hideous. Blood was its Avatar and its seal-the madness and the horror of blood. There were sharp pains, and (5) sudden dizziness, and then profuse bleeding at the pores, with dissolution. The scarlet stains upon the body and especially upon the face of the victim, were the pest ban which shut him out from the aid and from the sympathy of his fellow-men. And the whole (10) seizure, progress, and termination of the disease, were incidents of half an hour.\n\nBut Prince Prospero was happy and dauntless and sagacious. When his dominions were half depopulated, he summoned to his presence a thousand hale (15) and light-hearted friends from among the knights and dames of his court, and with these retired to the deep seclusion of one of his castellated abbeys. This was an extensive and magnificent structure, the creation of the prince's own eccentric yet august taste. (20) A strong and lofty wall girdled it in. This wall had gates of iron. The courtiers, having entered, brought furnaces and massy hammers and welded the bolts. They resolved to leave means neither of ingress nor egress to the sudden impulses of despair or of frenzy (25) from within. The abbey was amply provisioned. With such precautions the courtiers might bid defiance to contagion. The external world could take care of itself. In the meantime it was folly to grieve or to think. The prince had provided all the appliances of (30) pleasure. There were buffoons, there were improvisatori, there were ballet-dancers, there were musicians, there was Beauty, there was wine. All these and security were within. Without was the \"Red Death.\"\n\nIt was toward the close of the fifth or sixth month of (35) his seclusion that the Prince Prospero entertained his thousand friends at a masked ball of the most unusual magnificence.\n\n[...]\n\nAnd the revel went whirlingly on, until at length there commenced the sounding of midnight upon the (40) clock. And then the music ceased, as I have told; and the evolutions of the waltzers were quieted; and there was an uneasy cessation of all things as before. But now there were twelve strokes to be sounded by the bell of the clock; and thus it happened, perhaps, that (45) more of thought crept, with more of time, into the meditations of the thoughtful among those who reveled. And thus too, it happened, that before the last echoes of the last chime had utterly sunk into silence, there were many individuals in the crowd (50) who had found leisure to become aware of the presence of a masked figure which had arrested the attention of no single individual before. And the rumor of this new presence having spread itself whisperingly around, there arose at length from the (55) whole company a buzz, or murmur, of horror, and of disgust.",
+        "question_text": "According to some critics, the author's purpose in writing this story is to",
+        "options": [
+            "condemn those who try to protect themselves against a fatal disease.",
+            "discuss the medical symptoms of the Red Death.",
+            "highlight the inevitability of death.",
+            "emphasize the foolishness of revelry."
+        ],
+        "correct_answer": 2
+    },
+    {
+        "_id": "44",
+        "question_number": 44,
+        "practice_set": "4",
+        "category": "English:Reading Comprehension:Detail",
+        "difficulty": "easy",
+        "time_estimate": 95,
+        "passage": "This passage is from the short story \"The Masque of Red Death\" by Edgar Allan Poe, which was originally published in 1842.\n\nThe \"Red Death\" had long devastated the country. No pestilence had ever been so fatal, or so hideous. Blood was its Avatar and its seal-the madness and the horror of blood. There were sharp pains, and (5) sudden dizziness, and then profuse bleeding at the pores, with dissolution. The scarlet stains upon the body and especially upon the face of the victim, were the pest ban which shut him out from the aid and from the sympathy of his fellow-men. And the whole (10) seizure, progress, and termination of the disease, were incidents of half an hour.\n\nBut Prince Prospero was happy and dauntless and sagacious. When his dominions were half depopulated, he summoned to his presence a thousand hale (15) and light-hearted friends from among the knights and dames of his court, and with these retired to the deep seclusion of one of his castellated abbeys. This was an extensive and magnificent structure, the creation of the prince's own eccentric yet august taste. (20) A strong and lofty wall girdled it in. This wall had gates of iron. The courtiers, having entered, brought furnaces and massy hammers and welded the bolts. They resolved to leave means neither of ingress nor egress to the sudden impulses of despair or of frenzy (25) from within. The abbey was amply provisioned. With such precautions the courtiers might bid defiance to contagion. The external world could take care of itself. In the meantime it was folly to grieve or to think. The prince had provided all the appliances of (30) pleasure. There were buffoons, there were improvisatori, there were ballet-dancers, there were musicians, there was Beauty, there was wine. All these and security were within. Without was the \"Red Death.\"\n\nIt was toward the close of the fifth or sixth month of (35) his seclusion that the Prince Prospero entertained his thousand friends at a masked ball of the most unusual magnificence.\n\n[...]\n\nAnd the revel went whirlingly on, until at length there commenced the sounding of midnight upon the (40) clock. And then the music ceased, as I have told; and the evolutions of the waltzers were quieted; and there was an uneasy cessation of all things as before. But now there were twelve strokes to be sounded by the bell of the clock; and thus it happened, perhaps, that (45) more of thought crept, with more of time, into the meditations of the thoughtful among those who reveled. And thus too, it happened, that before the last echoes of the last chime had utterly sunk into silence, there were many individuals in the crowd (50) who had found leisure to become aware of the presence of a masked figure which had arrested the attention of no single individual before. And the rumor of this new presence having spread itself whisperingly around, there arose at length from the (55) whole company a buzz, or murmur, of horror, and of disgust.",
+        "question_text": "According to the passage, the country over which Prince Prospero reigns is",
+        "options": [
+            "decimated.",
+            "thriving.",
+            "untouched by the Red Death.",
+            "in rebellion against the prince."
+        ],
+        "correct_answer": 0
+    },
+    {
+        "_id": "45",
+        "question_number": 45,
+        "practice_set": "4",
+        "category": "English:Reading Comprehension:Inference",
+        "difficulty": "easy",
+        "time_estimate": 95,
+        "passage": "This passage is from the short story \"The Masque of Red Death\" by Edgar Allan Poe, which was originally published in 1842.\n\nThe \"Red Death\" had long devastated the country. No pestilence had ever been so fatal, or so hideous. Blood was its Avatar and its seal-the madness and the horror of blood. There were sharp pains, and (5) sudden dizziness, and then profuse bleeding at the pores, with dissolution. The scarlet stains upon the body and especially upon the face of the victim, were the pest ban which shut him out from the aid and from the sympathy of his fellow-men. And the whole (10) seizure, progress, and termination of the disease, were incidents of half an hour.\n\nBut Prince Prospero was happy and dauntless and sagacious. When his dominions were half depopulated, he summoned to his presence a thousand hale (15) and light-hearted friends from among the knights and dames of his court, and with these retired to the deep seclusion of one of his castellated abbeys. This was an extensive and magnificent structure, the creation of the prince's own eccentric yet august taste. (20) A strong and lofty wall girdled it in. This wall had gates of iron. The courtiers, having entered, brought furnaces and massy hammers and welded the bolts. They resolved to leave means neither of ingress nor egress to the sudden impulses of despair or of frenzy (25) from within. The abbey was amply provisioned. With such precautions the courtiers might bid defiance to contagion. The external world could take care of itself. In the meantime it was folly to grieve or to think. The prince had provided all the appliances of (30) pleasure. There were buffoons, there were improvisatori, there were ballet-dancers, there were musicians, there was Beauty, there was wine. All these and security were within. Without was the \"Red Death.\"\n\nIt was toward the close of the fifth or sixth month of (35) his seclusion that the Prince Prospero entertained his thousand friends at a masked ball of the most unusual magnificence.\n\n[...]\n\nAnd the revel went whirlingly on, until at length there commenced the sounding of midnight upon the (40) clock. And then the music ceased, as I have told; and the evolutions of the waltzers were quieted; and there was an uneasy cessation of all things as before. But now there were twelve strokes to be sounded by the bell of the clock; and thus it happened, perhaps, that (45) more of thought crept, with more of time, into the meditations of the thoughtful among those who reveled. And thus too, it happened, that before the last echoes of the last chime had utterly sunk into silence, there were many individuals in the crowd (50) who had found leisure to become aware of the presence of a masked figure which had arrested the attention of no single individual before. And the rumor of this new presence having spread itself whisperingly around, there arose at length from the (55) whole company a buzz, or murmur, of horror, and of disgust.",
+        "question_text": "It can be inferred that when a person shows symptoms of the red death, he or she is",
+        "options": [
+            "carefully tended by loved ones.",
+            "gravely ill but likely to recover.",
+            "shunned by all.",
+            "sick for a long time."
+        ],
+        "correct_answer": 2
+    },
+    {
+        "_id": "46",
+        "question_number": 46,
+        "practice_set": "4",
+        "category": "English:Reading Comprehension:Inference",
+        "difficulty": "medium",
+        "time_estimate": 95,
+        "passage": "This passage is from the short story \"The Masque of Red Death\" by Edgar Allan Poe, which was originally published in 1842.\n\nThe \"Red Death\" had long devastated the country. No pestilence had ever been so fatal, or so hideous. Blood was its Avatar and its seal-the madness and the horror of blood. There were sharp pains, and (5) sudden dizziness, and then profuse bleeding at the pores, with dissolution. The scarlet stains upon the body and especially upon the face of the victim, were the pest ban which shut him out from the aid and from the sympathy of his fellow-men. And the whole (10) seizure, progress, and termination of the disease, were incidents of half an hour.\n\nBut Prince Prospero was happy and dauntless and sagacious. When his dominions were half depopulated, he summoned to his presence a thousand hale (15) and light-hearted friends from among the knights and dames of his court, and with these retired to the deep seclusion of one of his castellated abbeys. This was an extensive and magnificent structure, the creation of the prince's own eccentric yet august taste. (20) A strong and lofty wall girdled it in. This wall had gates of iron. The courtiers, having entered, brought furnaces and massy hammers and welded the bolts. They resolved to leave means neither of ingress nor egress to the sudden impulses of despair or of frenzy (25) from within. The abbey was amply provisioned. With such precautions the courtiers might bid defiance to contagion. The external world could take care of itself. In the meantime it was folly to grieve or to think. The prince had provided all the appliances of (30) pleasure. There were buffoons, there were improvisatori, there were ballet-dancers, there were musicians, there was Beauty, there was wine. All these and security were within. Without was the \"Red Death.\"\n\nIt was toward the close of the fifth or sixth month of (35) his seclusion that the Prince Prospero entertained his thousand friends at a masked ball of the most unusual magnificence.\n\n[...]\n\nAnd the revel went whirlingly on, until at length there commenced the sounding of midnight upon the (40) clock. And then the music ceased, as I have told; and the evolutions of the waltzers were quieted; and there was an uneasy cessation of all things as before. But now there were twelve strokes to be sounded by the bell of the clock; and thus it happened, perhaps, that (45) more of thought crept, with more of time, into the meditations of the thoughtful among those who reveled. And thus too, it happened, that before the last echoes of the last chime had utterly sunk into silence, there were many individuals in the crowd (50) who had found leisure to become aware of the presence of a masked figure which had arrested the attention of no single individual before. And the rumor of this new presence having spread itself whisperingly around, there arose at length from the (55) whole company a buzz, or murmur, of horror, and of disgust.",
+        "question_text": "It can be inferred that \"The courtiers, having entered, brought furnaces and massy hammers and welded the bolts\" (lines 21-22) in order to",
+        "options": [
+            "secure the abbey from attack.",
+            "keep out any rival princes.",
+            "separate themselves from the common people.",
+            "ensure that no one entered or left, thus remaining healthy."
+        ],
+        "correct_answer": 3
+    },
+    {
+        "_id": "47",
+        "question_number": 47,
+        "practice_set": "4",
+        "category": "English:Reading Comprehension:Detail",
+        "difficulty": "medium",
+        "time_estimate": 95,
+        "passage": "This passage is from the short story \"The Masque of Red Death\" by Edgar Allan Poe, which was originally published in 1842.\n\nThe \"Red Death\" had long devastated the country. No pestilence had ever been so fatal, or so hideous. Blood was its Avatar and its seal-the madness and the horror of blood. There were sharp pains, and (5) sudden dizziness, and then profuse bleeding at the pores, with dissolution. The scarlet stains upon the body and especially upon the face of the victim, were the pest ban which shut him out from the aid and from the sympathy of his fellow-men. And the whole (10) seizure, progress, and termination of the disease, were incidents of half an hour.\n\nBut Prince Prospero was happy and dauntless and sagacious. When his dominions were half depopulated, he summoned to his presence a thousand hale (15) and light-hearted friends from among the knights and dames of his court, and with these retired to the deep seclusion of one of his castellated abbeys. This was an extensive and magnificent structure, the creation of the prince's own eccentric yet august taste. (20) A strong and lofty wall girdled it in. This wall had gates of iron. The courtiers, having entered, brought furnaces and massy hammers and welded the bolts. They resolved to leave means neither of ingress nor egress to the sudden impulses of despair or of frenzy (25) from within. The abbey was amply provisioned. With such precautions the courtiers might bid defiance to contagion. The external world could take care of itself. In the meantime it was folly to grieve or to think. The prince had provided all the appliances of (30) pleasure. There were buffoons, there were improvisatori, there were ballet-dancers, there were musicians, there was Beauty, there was wine. All these and security were within. Without was the \"Red Death.\"\n\nIt was toward the close of the fifth or sixth month of (35) his seclusion that the Prince Prospero entertained his thousand friends at a masked ball of the most unusual magnificence.\n\n[...]\n\nAnd the revel went whirlingly on, until at length there commenced the sounding of midnight upon the (40) clock. And then the music ceased, as I have told; and the evolutions of the waltzers were quieted; and there was an uneasy cessation of all things as before. But now there were twelve strokes to be sounded by the bell of the clock; and thus it happened, perhaps, that (45) more of thought crept, with more of time, into the meditations of the thoughtful among those who reveled. And thus too, it happened, that before the last echoes of the last chime had utterly sunk into silence, there were many individuals in the crowd (50) who had found leisure to become aware of the presence of a masked figure which had arrested the attention of no single individual before. And the rumor of this new presence having spread itself whisperingly around, there arose at length from the (55) whole company a buzz, or murmur, of horror, and of disgust.",
+        "question_text": "Based on his actions, Prince Prospero was everything except",
+        "options": [
+            "concerned for his people's welfare.",
+            "wealthy and frivolous.",
+            "pleasure-seeking.",
+            "secure in his invulnerability."
+        ],
+        "correct_answer": 0
+    },
+    {
+        "_id": "48",
+        "question_number": 48,
+        "practice_set": "4",
+        "category": "English:Reading Comprehension:Vocabulary",
+        "difficulty": "medium",
+        "time_estimate": 95,
+        "passage": "This passage is from the short story \"The Masque of Red Death\" by Edgar Allan Poe, which was originally published in 1842.\n\nThe \"Red Death\" had long devastated the country. No pestilence had ever been so fatal, or so hideous. Blood was its Avatar and its seal-the madness and the horror of blood. There were sharp pains, and (5) sudden dizziness, and then profuse bleeding at the pores, with dissolution. The scarlet stains upon the body and especially upon the face of the victim, were the pest ban which shut him out from the aid and from the sympathy of his fellow-men. And the whole (10) seizure, progress, and termination of the disease, were incidents of half an hour.\n\nBut Prince Prospero was happy and dauntless and sagacious. When his dominions were half depopulated, he summoned to his presence a thousand hale (15) and light-hearted friends from among the knights and dames of his court, and with these retired to the deep seclusion of one of his castellated abbeys. This was an extensive and magnificent structure, the creation of the prince's own eccentric yet august taste. (20) A strong and lofty wall girdled it in. This wall had gates of iron. The courtiers, having entered, brought furnaces and massy hammers and welded the bolts. They resolved to leave means neither of ingress nor egress to the sudden impulses of despair or of frenzy (25) from within. The abbey was amply provisioned. With such precautions the courtiers might bid defiance to contagion. The external world could take care of itself. In the meantime it was folly to grieve or to think. The prince had provided all the appliances of (30) pleasure. There were buffoons, there were improvisatori, there were ballet-dancers, there were musicians, there was Beauty, there was wine. All these and security were within. Without was the \"Red Death.\"\n\nIt was toward the close of the fifth or sixth month of (35) his seclusion that the Prince Prospero entertained his thousand friends at a masked ball of the most unusual magnificence.\n\n[...]\n\nAnd the revel went whirlingly on, until at length there commenced the sounding of midnight upon the (40) clock. And then the music ceased, as I have told; and the evolutions of the waltzers were quieted; and there was an uneasy cessation of all things as before. But now there were twelve strokes to be sounded by the bell of the clock; and thus it happened, perhaps, that (45) more of thought crept, with more of time, into the meditations of the thoughtful among those who reveled. And thus too, it happened, that before the last echoes of the last chime had utterly sunk into silence, there were many individuals in the crowd (50) who had found leisure to become aware of the presence of a masked figure which had arrested the attention of no single individual before. And the rumor of this new presence having spread itself whisperingly around, there arose at length from the (55) whole company a buzz, or murmur, of horror, and of disgust.",
+        "question_text": "As it is used in line 29, the word \"appliances\" mostly nearly means",
+        "options": [
+            "equipment.",
+            "devices.",
+            "types.",
+            "mechanisms."
+        ],
+        "correct_answer": 2
+    },
+    {
+        "_id": "49",
+        "question_number": 49,
+        "practice_set": "4",
+        "category": "English:Reading Comprehension:Author's Craft",
+        "difficulty": "medium",
+        "time_estimate": 95,
+        "passage": "This passage is from the short story \"The Masque of Red Death\" by Edgar Allan Poe, which was originally published in 1842.\n\nThe \"Red Death\" had long devastated the country. No pestilence had ever been so fatal, or so hideous. Blood was its Avatar and its seal-the madness and the horror of blood. There were sharp pains, and (5) sudden dizziness, and then profuse bleeding at the pores, with dissolution. The scarlet stains upon the body and especially upon the face of the victim, were the pest ban which shut him out from the aid and from the sympathy of his fellow-men. And the whole (10) seizure, progress, and termination of the disease, were incidents of half an hour.\n\nBut Prince Prospero was happy and dauntless and sagacious. When his dominions were half depopulated, he summoned to his presence a thousand hale (15) and light-hearted friends from among the knights and dames of his court, and with these retired to the deep seclusion of one of his castellated abbeys. This was an extensive and magnificent structure, the creation of the prince's own eccentric yet august taste. (20) A strong and lofty wall girdled it in. This wall had gates of iron. The courtiers, having entered, brought furnaces and massy hammers and welded the bolts. They resolved to leave means neither of ingress nor egress to the sudden impulses of despair or of frenzy (25) from within. The abbey was amply provisioned. With such precautions the courtiers might bid defiance to contagion. The external world could take care of itself. In the meantime it was folly to grieve or to think. The prince had provided all the appliances of (30) pleasure. There were buffoons, there were improvisatori, there were ballet-dancers, there were musicians, there was Beauty, there was wine. All these and security were within. Without was the \"Red Death.\"\n\nIt was toward the close of the fifth or sixth month of (35) his seclusion that the Prince Prospero entertained his thousand friends at a masked ball of the most unusual magnificence.\n\n[...]\n\nAnd the revel went whirlingly on, until at length there commenced the sounding of midnight upon the (40) clock. And then the music ceased, as I have told; and the evolutions of the waltzers were quieted; and there was an uneasy cessation of all things as before. But now there were twelve strokes to be sounded by the bell of the clock; and thus it happened, perhaps, that (45) more of thought crept, with more of time, into the meditations of the thoughtful among those who reveled. And thus too, it happened, that before the last echoes of the last chime had utterly sunk into silence, there were many individuals in the crowd (50) who had found leisure to become aware of the presence of a masked figure which had arrested the attention of no single individual before. And the rumor of this new presence having spread itself whisperingly around, there arose at length from the (55) whole company a buzz, or murmur, of horror, and of disgust.",
+        "question_text": "Poe's choice of words to describe the Red Death, the abbey, ball, and clock all combine to give a sense of",
+        "options": [
+            "anger.",
+            "foreboding.",
+            "revelry.",
+            "disdain."
+        ],
+        "correct_answer": 1
+    },
+    {
+        "_id": "50",
+        "question_number": 50,
+        "practice_set": "4",
+        "category": "English:Reading Comprehension:Detail",
+        "difficulty": "medium",
+        "time_estimate": 95,
+        "passage": "This passage is from the short story \"The Masque of Red Death\" by Edgar Allan Poe, which was originally published in 1842.\n\nThe \"Red Death\" had long devastated the country. No pestilence had ever been so fatal, or so hideous. Blood was its Avatar and its seal-the madness and the horror of blood. There were sharp pains, and (5) sudden dizziness, and then profuse bleeding at the pores, with dissolution. The scarlet stains upon the body and especially upon the face of the victim, were the pest ban which shut him out from the aid and from the sympathy of his fellow-men. And the whole (10) seizure, progress, and termination of the disease, were incidents of half an hour.\n\nBut Prince Prospero was happy and dauntless and sagacious. When his dominions were half depopulated, he summoned to his presence a thousand hale (15) and light-hearted friends from among the knights and dames of his court, and with these retired to the deep seclusion of one of his castellated abbeys. This was an extensive and magnificent structure, the creation of the prince's own eccentric yet august taste. (20) A strong and lofty wall girdled it in. This wall had gates of iron. The courtiers, having entered, brought furnaces and massy hammers and welded the bolts. They resolved to leave means neither of ingress nor egress to the sudden impulses of despair or of frenzy (25) from within. The abbey was amply provisioned. With such precautions the courtiers might bid defiance to contagion. The external world could take care of itself. In the meantime it was folly to grieve or to think. The prince had provided all the appliances of (30) pleasure. There were buffoons, there were improvisatori, there were ballet-dancers, there were musicians, there was Beauty, there was wine. All these and security were within. Without was the \"Red Death.\"\n\nIt was toward the close of the fifth or sixth month of (35) his seclusion that the Prince Prospero entertained his thousand friends at a masked ball of the most unusual magnificence.\n\n[...]\n\nAnd the revel went whirlingly on, until at length there commenced the sounding of midnight upon the (40) clock. And then the music ceased, as I have told; and the evolutions of the waltzers were quieted; and there was an uneasy cessation of all things as before. But now there were twelve strokes to be sounded by the bell of the clock; and thus it happened, perhaps, that (45) more of thought crept, with more of time, into the meditations of the thoughtful among those who reveled. And thus too, it happened, that before the last echoes of the last chime had utterly sunk into silence, there were many individuals in the crowd (50) who had found leisure to become aware of the presence of a masked figure which had arrested the attention of no single individual before. And the rumor of this new presence having spread itself whisperingly around, there arose at length from the (55) whole company a buzz, or murmur, of horror, and of disgust.",
+        "question_text": "At the ball, the masked figure is noticed because",
+        "options": [
+            "there is a great furor when he appears.",
+            "his face is hideous.",
+            "he is the best dancer.",
+            "the room is suddenly quiet and guests see him."
+        ],
+        "correct_answer": 3
+    },
+    {
+        "_id": "51",
+        "question_number": 51,
+        "practice_set": "4",
+        "category": "English:Reading Comprehension:Main Idea",
+        "difficulty": "easy",
+        "time_estimate": 95,
+        "passage": "Although it took the publication of his now-famous novel Animal Farm in 1945 to finally establish British writer George Orwell's reputation for shrewd political commentary, this well-known satire did (5) not mark the beginning of Orwell's writing career. Indeed, by the time Orwell achieved any fame, he had been writing seriously for nearly fifteen years. In the decade preceding his completion of Animal Farm, for example, Orwell struggled mightily to (10) make ends meet as a writer, and he was forced to settle for commissions that paid his bills but lacked the creative possibilities he sought. In fact, right up to his final bedridden days, much of Orwell's life was marked by struggle of one kind or another.\n\n(15) Born in 1903, Orwell grew up in England and was educated at Eton College, where he first began to write, expressing his dissatisfaction with his schooling experiences in various essays published in the college periodicals. Once free of his academic (20) responsibilities in 1922, Orwell chose to go abroad as an administrator for the Indian Imperial Police in Burma. Again, Orwell struggled, this time with the clash resulting from his job responsibilities as a bureaucrat of the British government and (25) his growing disillusionment with the concept of imperialism. In fact, it was during these conflicted years that Orwell first began to experience the intense feelings of disenchantment with large state bureaucracies that fill the pages of his later, and most (30) popular, literary works, as well as a series of essays he published upon his return to England in 1928.\n\nIn 1930, Orwell began his literary career in earnest, and he soon became a regular contributor to a number of lesser-known periodicals. In late (35) 1936, already a committed socialist, Orwell was sent to Spain to report on the civil war. Once in Spain, however, Orwell quickly abandoned his responsibilities as a journalist and decided to join the communist Republican Army in its struggle (40) against the Nationalists. After more than 100 days on the frontlines, Orwell was promoted to second lieutenant, given command of more than 30 men, and wounded by a sniper. In these years abroad, seemingly constantly thrust into violent clashes, (45) Orwell found his political sensibilities changing. By the time he returned to England in 1938, he had grown cynical about communism, a change that alienated his left-wing publishers but inspired his crowning literary achievement, the wholly (50) pessimistic and satirical novel Nineteen Eighty-Four, which depicts the threat of political tyranny in the future. Orwell, however, would not live to experience the tremendous impact of this final work, as one last struggle, tuberculosis, claimed his life (55) just months after the novel's release in 1949.",
+        "question_text": "Which of the following best tells what this passage is about?",
+        "options": [
+            "how Orwell struggled during his experiences abroad",
+            "how Orwell finally became an enormously successful writer",
+            "why Orwell found little success as a writer early in his career",
+            "how Orwell's literary career was consistently marked by struggle"
+        ],
+        "correct_answer": 3
+    },
+    {
+        "_id": "52",
+        "question_number": 52,
+        "practice_set": "4",
+        "category": "English:Reading Comprehension:Detail",
+        "difficulty": "medium",
+        "time_estimate": 95,
+        "passage": "Although it took the publication of his now-famous novel Animal Farm in 1945 to finally establish British writer George Orwell's reputation for shrewd political commentary, this well-known satire did (5) not mark the beginning of Orwell's writing career. Indeed, by the time Orwell achieved any fame, he had been writing seriously for nearly fifteen years. In the decade preceding his completion of Animal Farm, for example, Orwell struggled mightily to (10) make ends meet as a writer, and he was forced to settle for commissions that paid his bills but lacked the creative possibilities he sought. In fact, right up to his final bedridden days, much of Orwell's life was marked by struggle of one kind or another.\n\n(15) Born in 1903, Orwell grew up in England and was educated at Eton College, where he first began to write, expressing his dissatisfaction with his schooling experiences in various essays published in the college periodicals. Once free of his academic (20) responsibilities in 1922, Orwell chose to go abroad as an administrator for the Indian Imperial Police in Burma. Again, Orwell struggled, this time with the clash resulting from his job responsibilities as a bureaucrat of the British government and (25) his growing disillusionment with the concept of imperialism. In fact, it was during these conflicted years that Orwell first began to experience the intense feelings of disenchantment with large state bureaucracies that fill the pages of his later, and most (30) popular, literary works, as well as a series of essays he published upon his return to England in 1928.\n\nIn 1930, Orwell began his literary career in earnest, and he soon became a regular contributor to a number of lesser-known periodicals. In late (35) 1936, already a committed socialist, Orwell was sent to Spain to report on the civil war. Once in Spain, however, Orwell quickly abandoned his responsibilities as a journalist and decided to join the communist Republican Army in its struggle (40) against the Nationalists. After more than 100 days on the frontlines, Orwell was promoted to second lieutenant, given command of more than 30 men, and wounded by a sniper. In these years abroad, seemingly constantly thrust into violent clashes, (45) Orwell found his political sensibilities changing. By the time he returned to England in 1938, he had grown cynical about communism, a change that alienated his left-wing publishers but inspired his crowning literary achievement, the wholly (50) pessimistic and satirical novel Nineteen Eighty-Four, which depicts the threat of political tyranny in the future. Orwell, however, would not live to experience the tremendous impact of this final work, as one last struggle, tuberculosis, claimed his life (55) just months after the novel's release in 1949.",
+        "question_text": "All of the following are given as characteristics of Orwell's writing except",
+        "options": [
+            "satirical.",
+            "politically shrewd.",
+            "creative.",
+            "cynical."
+        ],
+        "correct_answer": 2
+    },
+    {
+        "_id": "53",
+        "question_number": 53,
+        "practice_set": "4",
+        "category": "English:Reading Comprehension:Inference",
+        "difficulty": "medium",
+        "time_estimate": 95,
+        "passage": "Although it took the publication of his now-famous novel Animal Farm in 1945 to finally establish British writer George Orwell's reputation for shrewd political commentary, this well-known satire did (5) not mark the beginning of Orwell's writing career. Indeed, by the time Orwell achieved any fame, he had been writing seriously for nearly fifteen years. In the decade preceding his completion of Animal Farm, for example, Orwell struggled mightily to (10) make ends meet as a writer, and he was forced to settle for commissions that paid his bills but lacked the creative possibilities he sought. In fact, right up to his final bedridden days, much of Orwell's life was marked by struggle of one kind or another.\n\n(15) Born in 1903, Orwell grew up in England and was educated at Eton College, where he first began to write, expressing his dissatisfaction with his schooling experiences in various essays published in the college periodicals. Once free of his academic (20) responsibilities in 1922, Orwell chose to go abroad as an administrator for the Indian Imperial Police in Burma. Again, Orwell struggled, this time with the clash resulting from his job responsibilities as a bureaucrat of the British government and (25) his growing disillusionment with the concept of imperialism. In fact, it was during these conflicted years that Orwell first began to experience the intense feelings of disenchantment with large state bureaucracies that fill the pages of his later, and most (30) popular, literary works, as well as a series of essays he published upon his return to England in 1928.\n\nIn 1930, Orwell began his literary career in earnest, and he soon became a regular contributor to a number of lesser-known periodicals. In late (35) 1936, already a committed socialist, Orwell was sent to Spain to report on the civil war. Once in Spain, however, Orwell quickly abandoned his responsibilities as a journalist and decided to join the communist Republican Army in its struggle (40) against the Nationalists. After more than 100 days on the frontlines, Orwell was promoted to second lieutenant, given command of more than 30 men, and wounded by a sniper. In these years abroad, seemingly constantly thrust into violent clashes, (45) Orwell found his political sensibilities changing. By the time he returned to England in 1938, he had grown cynical about communism, a change that alienated his left-wing publishers but inspired his crowning literary achievement, the wholly (50) pessimistic and satirical novel Nineteen Eighty-Four, which depicts the threat of political tyranny in the future. Orwell, however, would not live to experience the tremendous impact of this final work, as one last struggle, tuberculosis, claimed his life (55) just months after the novel's release in 1949.",
+        "question_text": "What does the passage imply about Orwell's political sentiments before he went to Burma?",
+        "options": [
+            "He was already a firmly established socialist.",
+            "He was not opposed to British imperialism.",
+            "He sympathized with his left-wing publishers.",
+            "He was an ardent supporter of democracy."
+        ],
+        "correct_answer": 1
+    },
+    {
+        "_id": "54",
+        "question_number": 54,
+        "practice_set": "4",
+        "category": "English:Reading Comprehension:Inference",
+        "difficulty": "easy",
+        "time_estimate": 95,
+        "passage": "Although it took the publication of his now-famous novel Animal Farm in 1945 to finally establish British writer George Orwell's reputation for shrewd political commentary, this well-known satire did (5) not mark the beginning of Orwell's writing career. Indeed, by the time Orwell achieved any fame, he had been writing seriously for nearly fifteen years. In the decade preceding his completion of Animal Farm, for example, Orwell struggled mightily to (10) make ends meet as a writer, and he was forced to settle for commissions that paid his bills but lacked the creative possibilities he sought. In fact, right up to his final bedridden days, much of Orwell's life was marked by struggle of one kind or another.\n\n(15) Born in 1903, Orwell grew up in England and was educated at Eton College, where he first began to write, expressing his dissatisfaction with his schooling experiences in various essays published in the college periodicals. Once free of his academic (20) responsibilities in 1922, Orwell chose to go abroad as an administrator for the Indian Imperial Police in Burma. Again, Orwell struggled, this time with the clash resulting from his job responsibilities as a bureaucrat of the British government and (25) his growing disillusionment with the concept of imperialism. In fact, it was during these conflicted years that Orwell first began to experience the intense feelings of disenchantment with large state bureaucracies that fill the pages of his later, and most (30) popular, literary works, as well as a series of essays he published upon his return to England in 1928.\n\nIn 1930, Orwell began his literary career in earnest, and he soon became a regular contributor to a number of lesser-known periodicals. In late (35) 1936, already a committed socialist, Orwell was sent to Spain to report on the civil war. Once in Spain, however, Orwell quickly abandoned his responsibilities as a journalist and decided to join the communist Republican Army in its struggle (40) against the Nationalists. After more than 100 days on the frontlines, Orwell was promoted to second lieutenant, given command of more than 30 men, and wounded by a sniper. In these years abroad, seemingly constantly thrust into violent clashes, (45) Orwell found his political sensibilities changing. By the time he returned to England in 1938, he had grown cynical about communism, a change that alienated his left-wing publishers but inspired his crowning literary achievement, the wholly (50) pessimistic and satirical novel Nineteen Eighty-Four, which depicts the threat of political tyranny in the future. Orwell, however, would not live to experience the tremendous impact of this final work, as one last struggle, tuberculosis, claimed his life (55) just months after the novel's release in 1949.",
+        "question_text": "Which of the following best describes what is suggested by the author's statement that \"Orwell found his political sensibilities changing\" (line 45)?",
+        "options": [
+            "Orwell found the Spanish Civil War difficult to understand.",
+            "Orwell no longer believed in British imperialism.",
+            "Orwell lost the support of his left-wing publishers.",
+            "Orwell was no longer committed to the communist party."
+        ],
+        "correct_answer": 3
+    },
+    {
+        "_id": "55",
+        "question_number": 55,
+        "practice_set": "4",
+        "category": "English:Reading Comprehension:Vocabulary",
+        "difficulty": "easy",
+        "time_estimate": 95,
+        "passage": "Although it took the publication of his now-famous novel Animal Farm in 1945 to finally establish British writer George Orwell's reputation for shrewd political commentary, this well-known satire did (5) not mark the beginning of Orwell's writing career. Indeed, by the time Orwell achieved any fame, he had been writing seriously for nearly fifteen years. In the decade preceding his completion of Animal Farm, for example, Orwell struggled mightily to (10) make ends meet as a writer, and he was forced to settle for commissions that paid his bills but lacked the creative possibilities he sought. In fact, right up to his final bedridden days, much of Orwell's life was marked by struggle of one kind or another.\n\n(15) Born in 1903, Orwell grew up in England and was educated at Eton College, where he first began to write, expressing his dissatisfaction with his schooling experiences in various essays published in the college periodicals. Once free of his academic (20) responsibilities in 1922, Orwell chose to go abroad as an administrator for the Indian Imperial Police in Burma. Again, Orwell struggled, this time with the clash resulting from his job responsibilities as a bureaucrat of the British government and (25) his growing disillusionment with the concept of imperialism. In fact, it was during these conflicted years that Orwell first began to experience the intense feelings of disenchantment with large state bureaucracies that fill the pages of his later, and most (30) popular, literary works, as well as a series of essays he published upon his return to England in 1928.\n\nIn 1930, Orwell began his literary career in earnest, and he soon became a regular contributor to a number of lesser-known periodicals. In late (35) 1936, already a committed socialist, Orwell was sent to Spain to report on the civil war. Once in Spain, however, Orwell quickly abandoned his responsibilities as a journalist and decided to join the communist Republican Army in its struggle (40) against the Nationalists. After more than 100 days on the frontlines, Orwell was promoted to second lieutenant, given command of more than 30 men, and wounded by a sniper. In these years abroad, seemingly constantly thrust into violent clashes, (45) Orwell found his political sensibilities changing. By the time he returned to England in 1938, he had grown cynical about communism, a change that alienated his left-wing publishers but inspired his crowning literary achievement, the wholly (50) pessimistic and satirical novel Nineteen Eighty-Four, which depicts the threat of political tyranny in the future. Orwell, however, would not live to experience the tremendous impact of this final work, as one last struggle, tuberculosis, claimed his life (55) just months after the novel's release in 1949.",
+        "question_text": "The word \"commissions\" used by the author in line 11 of the passage most nearly means",
+        "options": [
+            "administrative organizations.",
+            "groups of people.",
+            "small payments.",
+            "writing tasks."
+        ],
+        "correct_answer": 3
+    },
+    {
+        "_id": "56",
+        "question_number": 56,
+        "practice_set": "4",
+        "category": "English:Reading Comprehension:Detail",
+        "difficulty": "easy",
+        "time_estimate": 95,
+        "passage": "Although it took the publication of his now-famous novel Animal Farm in 1945 to finally establish British writer George Orwell's reputation for shrewd political commentary, this well-known satire did (5) not mark the beginning of Orwell's writing career. Indeed, by the time Orwell achieved any fame, he had been writing seriously for nearly fifteen years. In the decade preceding his completion of Animal Farm, for example, Orwell struggled mightily to (10) make ends meet as a writer, and he was forced to settle for commissions that paid his bills but lacked the creative possibilities he sought. In fact, right up to his final bedridden days, much of Orwell's life was marked by struggle of one kind or another.\n\n(15) Born in 1903, Orwell grew up in England and was educated at Eton College, where he first began to write, expressing his dissatisfaction with his schooling experiences in various essays published in the college periodicals. Once free of his academic (20) responsibilities in 1922, Orwell chose to go abroad as an administrator for the Indian Imperial Police in Burma. Again, Orwell struggled, this time with the clash resulting from his job responsibilities as a bureaucrat of the British government and (25) his growing disillusionment with the concept of imperialism. In fact, it was during these conflicted years that Orwell first began to experience the intense feelings of disenchantment with large state bureaucracies that fill the pages of his later, and most (30) popular, literary works, as well as a series of essays he published upon his return to England in 1928.\n\nIn 1930, Orwell began his literary career in earnest, and he soon became a regular contributor to a number of lesser-known periodicals. In late (35) 1936, already a committed socialist, Orwell was sent to Spain to report on the civil war. Once in Spain, however, Orwell quickly abandoned his responsibilities as a journalist and decided to join the communist Republican Army in its struggle (40) against the Nationalists. After more than 100 days on the frontlines, Orwell was promoted to second lieutenant, given command of more than 30 men, and wounded by a sniper. In these years abroad, seemingly constantly thrust into violent clashes, (45) Orwell found his political sensibilities changing. By the time he returned to England in 1938, he had grown cynical about communism, a change that alienated his left-wing publishers but inspired his crowning literary achievement, the wholly (50) pessimistic and satirical novel Nineteen Eighty-Four, which depicts the threat of political tyranny in the future. Orwell, however, would not live to experience the tremendous impact of this final work, as one last struggle, tuberculosis, claimed his life (55) just months after the novel's release in 1949.",
+        "question_text": "According to the passage, Orwell's novel Animal Farm can best be described as",
+        "options": [
+            "a crowning literary achievement.",
+            "a mocking commentary.",
+            "influenced by Orwell's experiences abroad.",
+            "depicting political tyranny."
+        ],
+        "correct_answer": 1
+    },
+    {
+        "_id": "57",
+        "question_number": 57,
+        "practice_set": "4",
+        "category": "English:Reading Comprehension:Detail",
+        "difficulty": "medium",
+        "time_estimate": 95,
+        "passage": "Although it took the publication of his now-famous novel Animal Farm in 1945 to finally establish British writer George Orwell's reputation for shrewd political commentary, this well-known satire did (5) not mark the beginning of Orwell's writing career. Indeed, by the time Orwell achieved any fame, he had been writing seriously for nearly fifteen years. In the decade preceding his completion of Animal Farm, for example, Orwell struggled mightily to (10) make ends meet as a writer, and he was forced to settle for commissions that paid his bills but lacked the creative possibilities he sought. In fact, right up to his final bedridden days, much of Orwell's life was marked by struggle of one kind or another.\n\n(15) Born in 1903, Orwell grew up in England and was educated at Eton College, where he first began to write, expressing his dissatisfaction with his schooling experiences in various essays published in the college periodicals. Once free of his academic (20) responsibilities in 1922, Orwell chose to go abroad as an administrator for the Indian Imperial Police in Burma. Again, Orwell struggled, this time with the clash resulting from his job responsibilities as a bureaucrat of the British government and (25) his growing disillusionment with the concept of imperialism. In fact, it was during these conflicted years that Orwell first began to experience the intense feelings of disenchantment with large state bureaucracies that fill the pages of his later, and most (30) popular, literary works, as well as a series of essays he published upon his return to England in 1928.\n\nIn 1930, Orwell began his literary career in earnest, and he soon became a regular contributor to a number of lesser-known periodicals. In late (35) 1936, already a committed socialist, Orwell was sent to Spain to report on the civil war. Once in Spain, however, Orwell quickly abandoned his responsibilities as a journalist and decided to join the communist Republican Army in its struggle (40) against the Nationalists. After more than 100 days on the frontlines, Orwell was promoted to second lieutenant, given command of more than 30 men, and wounded by a sniper. In these years abroad, seemingly constantly thrust into violent clashes, (45) Orwell found his political sensibilities changing. By the time he returned to England in 1938, he had grown cynical about communism, a change that alienated his left-wing publishers but inspired his crowning literary achievement, the wholly (50) pessimistic and satirical novel Nineteen Eighty-Four, which depicts the threat of political tyranny in the future. Orwell, however, would not live to experience the tremendous impact of this final work, as one last struggle, tuberculosis, claimed his life (55) just months after the novel's release in 1949.",
+        "question_text": "The passage states that Orwell's cynicism about communism",
+        "options": [
+            "motivated him to write his best, and final, novel.",
+            "endeared him to left-wing publishers.",
+            "was unfortunate, given his previous achievements.",
+            "led to a greater appreciation of the global political system."
+        ],
+        "correct_answer": 0
+    },
+    {
+        "_id": "58",
+        "question_number": 58,
+        "practice_set": "4",
+        "category": "Math:Algebra",
+        "difficulty": "easy",
+        "time_estimate": 95,
+        "passage": "",
+        "question_text": "If (2x + 1) / 4 = 12 / 20, what is the value of x?",
+        "options": [],
+        "correct_answer": 0.7,
+        "answer_type": "fill_in_the_blank"
+    },
+    {
+        "_id": "59",
+        "question_number": 59,
+        "practice_set": "4",
+        "category": "Math:Algebra",
+        "difficulty": "easy",
+        "time_estimate": 95,
+        "passage": "",
+        "question_text": "What value of f makes the equation 5f + 25 = 450 true?",
+        "options": [],
+        "correct_answer": 85,
+        "answer_type": "fill_in_the_blank"
+        },
+    {
+        "_id": "60",
+        "question_number": 60,
+        "practice_set": "4",
+        "category": "Math:Algebra",
+        "difficulty": "easy",
+        "time_estimate": 95,
+        "passage": "",
+        "question_text": "If n is a positive integer, what is the largest value of n that satisfies the inequality -3n + 5 ≥ -1?",
+        "options": [],
+        "correct_answer": 2,
+        "answer_type": "fill_in_the_blank"
+        },
+    {
+        "_id": "61",
+        "question_number": 61,
+        "practice_set": "4",
+        "category": "Math:Ratios",
+        "difficulty": "easy",
+        "time_estimate": 95,
+        "passage": "",
+        "question_text": "If 2/5 = d/115, what is the value of d?",
+        "options": [],
+        "correct_answer": 46,
+        "answer_type": "fill_in_the_blank"
+    },
+    {
+        "_id": "62",
+        "question_number": 62,
+        "practice_set": "4",
+        "category": "Math:Word Problems",
+        "difficulty": "medium",
+        "time_estimate": 95,
+        "passage": "",
+        "question_text": "Samantha grows carrots, peppers, and onions in her garden. She has twice as many carrots as peppers, and she has three times as many onions as carrots. If Samantha grew 36 onions, how many total vegetables did Samantha grow?",
+        "options": [],
+        "correct_answer": 54,
+        "answer_type": "fill_in_the_blank"
+    },
+    {
+        "_id": "63",
+        "question_number": 63,
+        "practice_set": "4",
+        "category": "Math:Algebra",
+        "difficulty": "easy",
+        "time_estimate": 95,
+        "passage": "",
+        "question_text": "If 4x = (3y)² and x = 36, where y is a positive number, what is the value of y?",
+        "options": [
+            "2",
+            "4",
+            "4√3",
+            "27"
+        ],
+        "correct_answer": 1
+    },
+    {
+        "_id": "64",
+        "question_number": 64,
+        "practice_set": "4",
+        "category": "Math:Algebra",
+        "difficulty": "easy",
+        "time_estimate": 95,
+        "passage": "",
+        "question_text": "If √(m + 9) - 1 = 3, what is the value of m?",
+        "options": [
+            "5",
+            "7",
+            "12",
+            "15"
+        ],
+        "correct_answer": 1
+    },
+    {
+        "_id": "65",
+        "question_number": 65,
+        "practice_set": "4",
+        "category": "Math:Functions",
+        "difficulty": "medium",
+        "time_estimate": 95,
+        "passage": "",
+        "question_text": "If x ♦ y is defined by the expression (x - y)ˣ + (x + y)ʸ, what is the value of 4 ♦ 2?",
+        "options": [
+            "52",
+            "44",
+            "28",
+            "20"
+        ],
+        "correct_answer": 0
+    },
+    {
+        "_id": "66",
+        "question_number": 66,
+        "practice_set": "4",
+        "category": "Math:Algebra",
+        "difficulty": "easy",
+        "time_estimate": 95,
+        "passage": "",
+        "question_text": "A college class is made up of f freshmen and s sophomores. If 5 freshmen drop this class, the number of sophomores in the class is 3 times the number of freshmen. Which of the following equations represents s in terms of f?",
+        "options": [
+            "s = (f - 5) / 3",
+            "s = (f + 5) / 3",
+            "s = 3(f - 5)",
+            "s = 3(f + 5)"
+        ],
+        "correct_answer": 2
+    },
+    {
+        "_id": "67",
+        "question_number": 67,
+        "practice_set": "4",
+        "category": "Math:Geometry",
+        "difficulty": "easy",
+        "time_estimate": 95,
+        "passage": "image:images/shsatpractice4question67.svg",
+        "question_text": "In pentagon ABCDE shown above, each side is 1 centimeter. If a particle starts at point A and travels clockwise 723 centimeters along ABCDE, at which point will the particle stop?",
+        "options": [
+            "A",
+            "B",
+            "C",
+            "D"
+        ],
+        "correct_answer": 3
+    },
+    {
+        "_id": "68",
+        "question_number": 68,
+        "practice_set": "4",
+        "category": "Math:Coordinate Geometry",
+        "difficulty": "medium",
+        "time_estimate": 95,
+        "passage": "",
+        "question_text": "In a coordinate plane, if points A(p, 3) and B(6, p) lie on a line with a slope of 2, what is the value of p?",
+        "options": [
+            "2",
+            "3",
+            "4",
+            "5"
+        ],
+        "correct_answer": 3
+    },
+    {
+        "_id": "69",
+        "question_number": 69,
+        "practice_set": "4",
+        "category": "Math:Algebra",
+        "difficulty": "medium",
+        "time_estimate": 95,
+        "passage": "",
+        "question_text": "Sixty cookies were to be equally distributed to x campers. When 8 campers did not want the cookies, the other campers each received 2 more cookies. Which of the following equations could be used to find the number of campers, x?",
+        "options": [
+            "x² - 8x - 240 = 0",
+            "x² - 8x + 240 = 0",
+            "x² + 8x - 240 = 0",
+            "x² + 8x + 240 = 0"
+        ],
+        "correct_answer": 0
+    },
+    {
+        "_id": "70",
+        "question_number": 70,
+        "practice_set": "4",
+        "category": "Math:Algebra",
+        "difficulty": "medium",
+        "time_estimate": 95,
+        "passage": "",
+        "question_text": "Which of the following values of s would yield the smallest value for 4 + 1/s?",
+        "options": [
+            "1/4",
+            "1/2",
+            "1",
+            "4"
+        ],
+        "correct_answer": 3
+    },
+    {
+        "_id": "71",
+        "question_number": 71,
+        "practice_set": "4",
+        "category": "Math:Probability",
+        "difficulty": "medium",
+        "time_estimate": 95,
+        "passage": "",
+        "question_text": "If an integer is randomly chosen from the first 50 positive integers, what is the probability that an integer with a digit of 3 is selected?",
+        "options": [
+            "7/25",
+            "3/10",
+            "8/25",
+            "2/5"
+        ],
+        "correct_answer": 0
+    },
+    {
+        "_id": "72",
+        "question_number": 72,
+        "practice_set": "4",
+        "category": "Math:Algebra",
+        "difficulty": "easy",
+        "time_estimate": 95,
+        "passage": "",
+        "question_text": "If 4x + 2 = 26, then 4x + 8 =",
+        "options": [
+            "32",
+            "34",
+            "36",
+            "38"
+        ],
+        "correct_answer": 0
+    },
+    {
+        "_id": "73",
+        "question_number": 73,
+        "practice_set": "4",
+        "category": "Math:Word Problems",
+        "difficulty": "medium",
+        "time_estimate": 95,
+        "passage": "",
+        "question_text": "If a certain train fare costs $5.00 for the first 10 miles of service, $0.25 per mile for the next 40 miles, and $0.10 per mile for each additional mile, what would the train fare be to travel a total distance of 100 miles?",
+        "options": [
+            "$15.00",
+            "$17.50",
+            "$20.00",
+            "$25.00"
+        ],
+        "correct_answer": 2
+    },
+    {
+        "_id": "74",
+        "question_number": 74,
+        "practice_set": "4",
+        "category": "Math:Geometry",
+        "difficulty": "easy",
+        "time_estimate": 95,
+        "passage": "image:images/shsatpractice4question74.png",
+        "question_text": "In the figure above, triangle ADC has an area of 24, and the lengths of AB and BC are x and x + 2, respectively. If the length of BD is 6, what is the value of x?",
+        "options": [
+            "1",
+            "2",
+            "3",
+            "4"
+        ],
+        "correct_answer": 2
+    },
+    {
+        "_id": "75",
+        "question_number": 75,
+        "practice_set": "4",
+        "category": "Math:Algebra",
+        "difficulty": "medium",
+        "time_estimate": 95,
+        "passage": "",
+        "question_text": "If -1 < y < 0, which of the following is the greatest?",
+        "options": [
+            "y²",
+            "1 - y",
+            "1 + y",
+            "2y"
+        ],
+        "correct_answer": 1
+    },
+    {
+        "_id": "76",
+        "question_number": 76,
+        "practice_set": "4",
+        "category": "Math:Word Problems",
+        "difficulty": "easy",
+        "time_estimate": 95,
+        "passage": "",
+        "question_text": "Tariq has $10 and wants to buy 21 oranges at $0.30 each and 12 apples at $0.50 each. If there is no sales tax, how much more money does he need?",
+        "options": [
+            "$2.00",
+            "$2.30",
+            "$2.60",
+            "$12.00"
+        ],
+        "correct_answer": 1
+    },
+    {
+        "_id": "77",
+        "question_number": 77,
+        "practice_set": "4",
+        "category": "Math:Word Problems",
+        "difficulty": "easy",
+        "time_estimate": 95,
+        "passage": "",
+        "question_text": "If Thomas went shopping with $15 and ended up with a debt of $5, how much money did he spend?",
+        "options": [
+            "$5",
+            "$10",
+            "$15",
+            "$20"
+        ],
+        "correct_answer": 3
+    },
+    {
+        "_id": "78",
+        "question_number": 78,
+        "practice_set": "4",
+        "category": "Math:Algebra",
+        "difficulty": "easy",
+        "time_estimate": 95,
+        "passage": "",
+        "question_text": "If 2x + 2x + 14 = 2x + 2x + 2x + 6 then what is the value of x?",
+        "options": [
+            "3",
+            "4",
+            "5",
+            "7"
+        ],
+        "correct_answer": 1
+    },
+    {
+        "_id": "79",
+        "question_number": 79,
+        "practice_set": "4",
+        "category": "Math:Data Interpretation",
+        "difficulty": "easy",
+        "time_estimate": 95,
+        "passage": "image:images/shsatpractice4question79.png",
+        "question_text": "Which estimate is the closest to the percent of the area of the rectangle above that is shaded?",
+        "options": [
+            "40%",
+            "50%",
+            "55%",
+            "60%"
+        ],
+        "correct_answer": 3
+    },
+    {
+        "_id": "80",
+        "question_number": 80,
+        "practice_set": "4",
+        "category": "Math:Word Problems",
+        "difficulty": "medium",
+        "time_estimate": 95,
+        "passage": "",
+        "question_text": "A booklet contains 116 pages, which were supposed to be numbered beginning with page 1. Because of a printing error, only pages 1 through 87, inclusive, were numbered. If someone wants to number the remaining pages of a single booklet by hand, how many digits will that person have to write?",
+        "options": [
+            "46",
+            "58",
+            "64",
+            "75"
+        ],
+        "correct_answer": 3
+    },
+    {
+        "_id": "81",
+        "question_number": 81,
+        "practice_set": "4",
+        "category": "Math:Geometry",
+        "difficulty": "hard",
+        "time_estimate": 180,
+        "passage": "image:images/shsatpractice4question81.svg",
+        "question_text": "In rectangle WXYZ in the figure above, the length of WZ is 6 and the rectangle has an area of 96. Point T is the midpoint of WX. What is the perimeter of triangle TYZ?",
+        "options": [
+            "28",
+            "30",
+            "36",
+            "48"
+        ],
+        "correct_answer": 2
+    },
+    {
+        "_id": "82",
+        "question_number": 82,
+        "practice_set": "4",
+        "category": "Math:Number Theory",
+        "difficulty": "medium",
+        "time_estimate": 95,
+        "passage": "",
+        "question_text": "When 368 is divided by 7, the remainder is x. What is the remainder when 368 is divided by 3x?",
+        "options": [
+            "0",
+            "3",
+            "5",
+            "8"
+        ],
+        "correct_answer": 3 
+    },
+    {
+        "_id": "83",
+        "question_number": 83,
+        "practice_set": "4",
+        "category": "Math:Sets",
+        "difficulty": "easy",
+        "time_estimate": 95,
+        "passage": "",
+        "question_text": "In a room of 33 students, 12 are taking geography, 14 are taking history, and 5 are taking both geography and history. How many of these students are not taking either geography or history?",
+        "options": [
+            "7",
+            "10",
+            "12",
+            "14"
+        ],
+        "correct_answer": 2
+    },
+    {
+        "_id": "84",
+        "question_number": 84,
+        "practice_set": "4",
+        "category": "Math:Ratios",
+        "difficulty": "medium",
+        "time_estimate": 95,
+        "passage": "",
+        "question_text": "The ratio of the positive integer x to the positive integer y is 7 to 5. Which of the following statements MUST be true?",
+        "options": [
+            "x + y cannot be a multiple of 18.",
+            "x + y is a multiple of 6.",
+            "xy is a multiple of 70.",
+            "x - y can be an odd integer."
+        ],
+        "correct_answer": 1
+    },
+    {
+        "_id": "85",
+        "question_number": 85,
+        "practice_set": "4",
+        "category": "Math:Geometry",
+        "difficulty": "medium",
+        "time_estimate": 95,
+        "passage": "image:images/shsatpractice4question85.png",
+        "question_text": "In the figure above, VWYZ is a square. What is the perimeter of the entire figure?",
+        "options": [
+            "5a",
+            "(3 + √2)a",
+            "5a + √2",
+            "(4 + √2)a"
+        ],
+        "correct_answer": 3
+    },
+    {
+        "_id": "86",
+        "question_number": 86,
+        "practice_set": "4",
+        "category": "Math:Algebra",
+        "difficulty": "easy",
+        "time_estimate": 95,
+        "passage": "",
+        "question_text": "As long as x ≠ 3, what do you get when you divide x² - 9 by x - 3?",
+        "options": [
+            "x - 6",
+            "x - 3",
+            "x",
+            "x + 3"
+        ],
+        "correct_answer": 3
+    },
+    {
+        "_id": "87",
+        "question_number": 87,
+        "practice_set": "4",
+        "category": "Math:Word Problems",
+        "difficulty": "medium",
+        "time_estimate": 95,
+        "passage": "",
+        "question_text": "There are a total of 256 people at a party. If, after every 5 minutes, half of the people present leave, how many people will still remain after 20 minutes?",
+        "options": [
+            "80",
+            "64",
+            "32",
+            "16"
+        ],
+        "correct_answer": 3
+    },
+    {
+        "_id": "88",
+        "question_number": 88,
+        "practice_set": "4",
+        "category": "Math:Geometry",
+        "difficulty": "medium",
+        "time_estimate": 95,
+        "passage": "image:images/shsatpractice4question88.png",
+        "question_text": "In the figure above, what is the value of x?",
+        "options": [
+            "24",
+            "28",
+            "36",
+            "44"
+        ],
+        "correct_answer": 3
+    },
+    {
+        "_id": "89",
+        "question_number": 89,
+        "practice_set": "4",
+        "category": "Math:Statistics",
+        "difficulty": "easy",
+        "time_estimate": 95,
+        "passage": "",
+        "question_text": "The average (arithmetic mean) of 16 numbers is 3. The average of these 16 numbers and a seventeenth number is 4. What is the seventeenth number?",
+        "options": [
+            "12",
+            "17",
+            "18",
+            "20"
+        ],
+        "correct_answer": 3
+    },
+    {
+        "_id": "90",
+        "question_number": 90,
+        "practice_set": "4",
+        "category": "Math:Probability",
+        "difficulty": "easy",
+        "time_estimate": 95,
+        "passage": "",
+        "question_text": "One box contains 3 balls, one of which is red. A second box contains 4 balls, one of which is red. If Pilar draws one ball at random from each box, what is the probability that both balls are red?",
+        "options": [
+            "1/14",
+            "1/12",
+            "1/7",
+            "2/7"
+        ],
+        "correct_answer": 1
+    },
+    {
+        "_id": "91",
+        "question_number": 91,
+        "practice_set": "4",
+        "category": "Math:Algebra",
+        "difficulty": "easy",
+        "time_estimate": 95,
+        "passage": "",
+        "question_text": "If a, b, and c are positive numbers and abc = b², which of the following must equal b?",
+        "options": [
+            "ac",
+            "ab",
+            "bc",
+            "a/c"
+        ],
+        "correct_answer": 0
+    },
+    {
+        "_id": "92",
+        "question_number": 92,
+        "practice_set": "4",
+        "category": "Math:Ratios",
+        "difficulty": "medium",
+        "time_estimate": 95,
+        "passage": "",
+        "question_text": "The spare change on a dresser is composed of pennies, nickels, and dimes. If the ratio of pennies to nickels is 2:3 and the ratio of pennies to dimes is 3:4, what is the ratio of nickels to dimes?",
+        "options": [
+            "9:8",
+            "5:7",
+            "4:5",
+            "3:4"
+        ],
+        "correct_answer": 0
+    },
+    {
+        "_id": "93",
+        "question_number": 93,
+        "practice_set": "4",
+        "category": "Math:Algebra",
+        "difficulty": "easy",
+        "time_estimate": 95,
+        "passage": "",
+        "question_text": "If 5a - b = 9 and 3a + b = 15, then a + b =",
+        "options": [
+            "3",
+            "5",
+            "7",
+            "9"
+        ],
+        "correct_answer": 3
+    },
+    {
+        "_id": "94",
+        "question_number": 94,
+        "practice_set": "4",
+        "category": "Math:Algebra",
+        "difficulty": "medium",
+        "time_estimate": 95,
+        "passage": "",
+        "question_text": "If x is a positive integer, then 5x - x² must be",
+        "options": [
+            "positive.",
+            "negative.",
+            "even.",
+            "a perfect square."
+        ],
+        "correct_answer": 2
+    },
+    {
+        "_id": "95",
+        "question_number": 95,
+        "practice_set": "4",
+        "category": "Math:Geometry",
+        "difficulty": "medium",
+        "time_estimate": 95,
+        "passage": "image:images/shsatpractice4question95.png",
+        "question_text": "If the area of the shaded region in the circle above is 2π, what is the diameter of circle O?",
+        "options": [
+            "4",
+            "8",
+            "16",
+            "4π"
+        ],
+        "correct_answer": 1
+    },
+    {
+        "_id": "96",
+        "question_number": 96,
+        "practice_set": "4",
+        "category": "Math:Algebra",
+        "difficulty": "easy",
+        "time_estimate": 95,
+        "passage": "",
+        "question_text": "A certain deck of cards contains r cards. After the cards are distributed evenly among s people, 8 cards are left over. In terms of r and s, how many cards did each person receive?",
+        "options": [
+            "s / (8 - r)",
+            "(r - 8) / s",
+            "r/s - 8",
+            "s - 8r"
+        ],
+        "correct_answer": 1
+    },
+    {
+        "_id": "97",
+        "question_number": 97,
+        "practice_set": "4",
+        "category": "Math:Coordinate Geometry",
+        "difficulty": "medium",
+        "time_estimate": 95,
+        "passage": "",
+        "question_text": "Which of the following points lies on the same line as the points with coordinates (2, 6) and (4, 3)?",
+        "options": [
+            "(1, 7)",
+            "(2, 8)",
+            "(3, 5)",
+            "(6, 0)"
+        ],
+        "correct_answer": 3
+    },
+    {
+        "_id": "98",
+        "question_number": 98,
+        "practice_set": "4",
+        "category": "Math:Algebra",
+        "difficulty": "easy",
+        "time_estimate": 95,
+        "passage": "",
+        "question_text": "If 3√x = 15, what is x?",
+        "options": [
+            "0",
+            "√5",
+            "9",
+            "25"
+        ],
+        "correct_answer": 3
+    },
+    {
+        "_id": "99",
+        "question_number": 99,
+        "practice_set": "4",
+        "category": "Math:Algebra",
+        "difficulty": "easy",
+        "time_estimate": 95,
+        "passage": "",
+        "question_text": "If |7 + r| = 3, then what is one possible value of r?",
+        "options": [
+            "-10",
+            "-7",
+            "-3",
+            "4"
+        ],
+        "correct_answer": 0
+    },
+    {
+        "_id": "100",
+        "question_number": 100,
+        "practice_set": "4",
+        "category": "Math:Algebra",
+        "difficulty": "easy",
+        "time_estimate": 95,
+        "passage": "",
+        "question_text": "If 1/y = x/3 and y = 1/5, what is the value of x?",
+        "options": [
+            "1/15",
+            "3/5",
+            "5/3",
+            "15"
+        ],
+        "correct_answer": 3
+    },
+    {
+        "_id": "101",
+        "question_number": 101,
+        "practice_set": "4",
+        "category": "Math:Algebra",
+        "difficulty": "easy",
+        "time_estimate": 95,
+        "passage": "",
+        "question_text": "If x - 7/10 = y and y = 2, what is the value of x?",
+        "options": [
+            "-3/10",
+            "9/10",
+            "13/10",
+            "27/10"
+        ],
+        "correct_answer": 3
+    },
+    {
+        "_id": "102",
+        "question_number": 102,
+        "practice_set": "4",
+        "category": "Math:Algebra",
+        "difficulty": "easy",
+        "time_estimate": 95,
+        "passage": "",
+        "question_text": "If 20 - (y - x) = 30 - (x - y), and x = 4, what is the value of y?",
+        "options": [
+            "-9",
+            "-1",
+            "1",
+            "Cannot be determined from the information given."
+        ],
+        "correct_answer": 1
+    },
+    {
+        "_id": "103",
+        "question_number": 103,
+        "practice_set": "4",
+        "category": "Math:Algebra",
+        "difficulty": "medium",
+        "time_estimate": 95,
+        "passage": "",
+        "question_text": "If x/10 - y/5 + 1/6 = 1/15 and y = 1, then what does x equal?",
+        "options": [
+            "2/3",
+            "5/7",
+            "1",
+            "3"
+        ],
+        "correct_answer": 2
+    },
+    {
+        "_id": "104",
+        "question_number": 104,
+        "practice_set": "4",
+        "category": "Math:Algebra",
+        "difficulty": "medium",
+        "time_estimate": 95,
+        "passage": "",
+        "question_text": "If y ÷ 7 = x - 3 × 5 and y = 21, what is the value of x?",
+        "options": [
+            "6/5",
+            "18/5",
+            "16",
+            "18"
+        ],
+        "correct_answer": 3
+    },
+    {
+        "_id": "105",
+        "question_number": 105,
+        "practice_set": "4",
+        "category": "Math:Algebra",
+        "difficulty": "easy",
+        "time_estimate": 95,
+        "passage": "",
+        "question_text": "If -x - 9 = -y² and y = 4, what is the value of x?",
+        "options": [
+            "-25",
+            "-7",
+            "√13",
+            "7"
+        ],
+        "correct_answer": 3
+    },
+    {
+        "_id": "106",
+        "question_number": 106,
+        "practice_set": "4",
+        "category": "Math:Algebra",
+        "difficulty": "medium",
+        "time_estimate": 95,
+        "passage": "",
+        "question_text": "If x = 4y² + |-5|, what is the value of y in terms of x?",
+        "options": [
+            "(x - 5) / 4",
+            "√((x - 5) / 4)",
+            "√((x + 5) / 4)",
+            "(x + 5) / 4"
+        ],
+        "correct_answer": 1
+    },
+    {
+        "_id": "107",
+        "question_number": 107,
+        "practice_set": "4",
+        "category": "Math:Algebra",
+        "difficulty": "medium",
+        "time_estimate": 95,
+        "passage": "",
+        "question_text": "If x = 4(3 - y)(2² - 1), what is the value of y in terms of x?",
+        "options": [
+            "(x - 6) / 4",
+            "x/4 - 3",
+            "4 - x/3",
+            "3 - x/12"
+        ],
+        "correct_answer": 3
+    },
+    {
+        "_id": "108",
+        "question_number": 108,
+        "practice_set": "4",
+        "category": "Math:Algebra",
+        "difficulty": "medium",
+        "time_estimate": 95,
+        "passage": "",
+        "question_text": "If x = 3y(2 - |-4|) + y(3 - |-2|), what is the value of y in terms of x?",
+        "options": [
+            "-x/5",
+            "-5x",
+            "-x",
+            "x/23"
+        ],
+        "correct_answer": 0
+    },
+    {
+        "_id": "109",
+        "question_number": 109,
+        "practice_set": "4",
+        "category": "Math:Algebra",
+        "difficulty": "easy",
+        "time_estimate": 95,
+        "passage": "",
+        "question_text": "If 1/x = x - 3/x and x ≥ 0, what is the value of x?",
+        "options": [
+            "0",
+            "1",
+            "2",
+            "3"
+        ],
+        "correct_answer": 2
+    },
+    {
+        "_id": "110",
+        "question_number": 110,
+        "practice_set": "4",
+        "category": "Math:Algebra",
+        "difficulty": "medium",
+        "time_estimate": 95,
+        "passage": "",
+        "question_text": "If |r + 7| = 6 and |2r - 2| = 4, what is the value of r?",
+        "options": [
+            "-13",
+            "-10",
+            "-1",
+            "1"
+        ],
+        "correct_answer": 2
+    },
+    {
+        "_id": "111",
+        "question_number": 111,
+        "practice_set": "4",
+        "category": "Math:Number Theory",
+        "difficulty": "easy",
+        "time_estimate": 95,
+        "passage": "",
+        "question_text": "For how many positive integers x is 130/x an integer?",
+        "options": [
+            "8",
+            "7",
+            "6",
+            "5"
+        ],
+        "correct_answer": 0
+    },
+    {
+        "_id": "112",
+        "question_number": 112,
+        "practice_set": "4",
+        "category": "Math:Algebra",
+        "difficulty": "easy",
+        "time_estimate": 95,
+        "passage": "",
+        "question_text": "If x + 3/4 = 2y, and y = 1/6, what is the value of x?",
+        "options": [
+            "-5/12",
+            "1/4",
+            "13/12",
+            "27/12"
+        ],
+        "correct_answer": 0
+    },
+    {
+        "_id": "113",
+        "question_number": 113,
+        "practice_set": "4",
+        "category": "Math:Algebra",
+        "difficulty": "easy",
+        "time_estimate": 95,
+        "passage": "",
+        "question_text": "If x = √y + 2, what is the value of y in terms of x?",
+        "options": [
+            "√(x - 2)",
+            "√x - 2",
+            "x - 2",
+            "(x - 2)²"
+        ],
+        "correct_answer": 3
+    },
+    {
+        "_id": "114",
+        "question_number": 114,
+        "practice_set": "4",
+        "category": "Math:Geometry",
+        "difficulty": "medium",
+        "time_estimate": 95,
+        "passage": "image:images/shsatpractice4question114.png",
+        "question_text": "In the figure above, circle O is inscribed in square ABCD. If the circumference of circle O is 4π, what is the area of the shaded region?",
+        "options": [
+            "π - 2",
+            "4 - π",
+            "4 + π",
+            "16 - 4π"
+        ],
+        "correct_answer": 1
+    }
+]

@@ -320,12 +320,35 @@ body {
 
 .test-buttons {
     display: flex;
-    gap: 0.5rem;
-    flex-direction: column;
+    gap: 0.75rem;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
 }
 
 .test-buttons .btn {
     flex: 1;
+    min-width: 120px;
+    max-width: 180px;
+    padding: 0.875rem 1rem;
+    font-size: 0.875rem;
+    font-weight: 500;
+    text-align: center;
+    white-space: nowrap;
+}
+
+/* Responsive design for test buttons */
+@media (max-width: 768px) {
+    .test-buttons {
+        flex-direction: column;
+        gap: 0.5rem;
+    }
+    
+    .test-buttons .btn {
+        width: 100%;
+        max-width: none;
+        min-width: auto;
+    }
 }
 
 /* Practice Test Section */
