@@ -1,0 +1,971 @@
+[
+    {
+        "_id": "1",
+        "question_number": 1,
+        "practice_set": "2",
+        "category": "English:Information and Ideas:Inferences",
+        "difficulty": "Medium",
+        "time_estimate": 71,
+        "passage": "Marta Coll and colleagues' 2010 Mediterranean Sea biodiversity census reported approximately 17,000 species, nearly double the number reported in Carlo Bianchi and Carla Morri's 2000 census-a difference only partly attributable to the description of new invertebrate species in the interim. Another factor is that the morphological variability of microorganisms is poorly understood compared to that of vertebrates, invertebrates, plants, and algae, creating uncertainty about how to evaluate microorganisms as species. Researchers' decisions on such matters therefore can be highly consequential. Indeed, the two censuses reported similar counts of vertebrate, plant, and algal species, suggesting that______",
+        "question_text": "Which choice most logically completes the text?",
+        "options": [
+            "Coll and colleagues reported a much higher number of species than Bianchi and Morri did largely due to the inclusion of invertebrate species that had not been described at the time of Bianchi and Morri's census.",
+            "some differences observed in microorganisms may have been treated as variations within species by Bianchi and Morri but treated as indicative of distinct species by Coll and colleagues.",
+            "Bianchi and Morri may have been less sensitive to the degree of morphological variation displayed within a typical species of microorganism than Coll and colleagues were.",
+            "the absence of clarity regarding how to differentiate among species of microorganisms may have resulted in Coll and colleagues underestimating the number of microorganism species."
+        ],
+        "correct_answer": 1
+    },
+    {
+        "_id": "2",
+        "question_number": 2,
+        "practice_set": "2",
+        "category": "English:Information and Ideas:Central Ideas and Details",
+        "difficulty": "Medium",
+        "time_estimate": 71,
+        "passage": "The most recent iteration of the immersive theater experience Sleep No More, which premiered in New York City in 2011, transforms its performance space-a five-story warehouse-into a 1930s-era hotel. Audience members, who wander through the labyrinthine venue at their own pace and follow the actors as they play out simultaneous, interweaving narrative loops, confront the impossibility of experiencing the production in its entirety. The play's refusal of narrative coherence thus hinges on the sense of spatial fragmentation that the venue's immense and intricate layout generates.",
+        "question_text": "What does the text most strongly suggest about Sleep No More's use of its performance space?",
+        "options": [
+            "The choice of a New York City venue likely enabled the play's creators to experiment with the use of theatrical space in a way that venues from earlier productions could not.",
+            "Audience members likely find the experience of the play disappointing because they generally cannot make their way through the entire venue.",
+            "The production's dependence on a particular performance environment would likely make it difficult to reproduce exactly in a different theatrical space.",
+            "Audience members who navigate the space according to a recommended itinerary will likely have a better grasp of the play's narrative than audience members who depart from that itinerary."
+        ],
+        "correct_answer": 2
+    },
+    {
+        "_id": "3",
+        "question_number": 3,
+        "practice_set": "2",
+        "category": "English:Information and Ideas:Central Ideas and Details",
+        "difficulty": "Hard",
+        "time_estimate": 71,
+        "passage": "To understand how temperature change affects microorganism-mediated cycling of soil nutrients in alpine ecosystems, Eva Kaštovská et al. collected plant-soil cores in the Tatra Mountains at elevations around 2,100 meters and transplanted them to elevations of 1,700-1,800 meters, where the mean air temperature was warmer by 2°C. Microorganism-mediated nutrient cycling was accelerated in the transplanted cores; crucially, microorganism community composition was unchanged, allowing Kaštovská et al. to attribute the acceleration to temperature-induced increases in microorganism activity.",
+        "question_text": "It can most reasonably be inferred from the text that the finding about the microorganism community composition was important for which reason?",
+        "options": [
+            "It provided preliminary evidence that microorganism-mediated nutrient cycling was accelerated in the transplanted cores.",
+            "It suggested that temperature-induced changes in microorganism activity may be occurring at increasingly high elevations.",
+            "It ruled out a potential alternative explanation for the acceleration in microorganism-mediated nutrient cycling.",
+            "It clarified that microorganism activity levels in the plant-soil cores varied depending on which microorganisms comprised the community."
+        ],
+        "correct_answer": 2
+    },
+    {
+        "_id": "4",
+        "question_number": 4,
+        "practice_set": "2",
+        "category": "English:Information and Ideas:Central Ideas and Details",
+        "difficulty": "Medium",
+        "time_estimate": 71,
+        "passage": "Many literary theorists distinguish between fabula, a narrative's content, and syuzhet, a narrative's arrangement and presentation of events. In the film The Godfather Part II, the fabula is the story of the Corleone family, and the syuzhet is the presentation of the story as it alternates between two timelines in 1901 and 1958. But literary theorist Mikhail Bakhtin maintained that fabula and syuzhet are insufficient to completely describe a narrative-he held that systematic categorizations of artistic phenomena discount the subtle way in which meaning is created by interactions between the artist, the work, and the audience.",
+        "question_text": "Which choice best states the main idea of the text?",
+        "options": [
+            "Literary theorist Mikhail Bakhtin argued that there are important characteristics of narratives that are not fully encompassed by two concepts that other theorists have used to analyze narratives.",
+            "Literary theorist Mikhail Bakhtin claimed that meaning is not inherent in a narrative but is created when an audience encounters a narrative so that narratives are interpreted differently by different people.",
+            "The storytelling methods used in The Godfather Part II may seem unusually complicated, but they can be easily understood when two concepts from literary theory are utilized.",
+            "Narratives that are told out of chronological order are more difficult for audiences to understand than are narratives presented chronologically."
+        ],
+        "correct_answer": 0
+    },
+    {
+        "_id": "5",
+        "question_number": 5,
+        "practice_set": "2",
+        "category": "English:Information and Ideas:Command of Evidence",
+        "difficulty": "Medium",
+        "time_estimate": 71,
+        "passage": "image:images/satpractice2question5.png",
+        "question_text": "High levels of public uncertainty about which economic policies a country will adopt can make planning difficult for businesses, but measures of such uncertainty have not tended to be very detailed. Recently, however, economist Sandile Hlatshwayo analyzed trends in news reports to derive measures not only for general economic policy uncertainty but also for uncertainty related to specific areas of economic policy, like tax or trade policy. One revelation of her work is that a general measure may not fully reflect uncertainty about specific areas of policy, as in the case of the United Kingdom, where general economic policy uncertainty\n\nWhich choice most effectively uses data from the graph to illustrate the claim?",
+        "options": [
+            "aligned closely with uncertainty about tax and public spending policy in 2005 but differed from uncertainty about tax and public spending policy by a large amount in 2009.",
+            "was substantially lower than uncertainty about tax and public spending policy each year from 2005 to 2010.",
+            "reached its highest level between 2005 and 2010 in the same year that uncertainty about trade policy and tax and public spending policy reached their lowest levels.",
+            "was substantially lower than uncertainty about trade policy in 2005 and substantially higher than uncertainty about trade policy in 2010."
+        ],
+        "correct_answer": 3
+    },
+    {
+        "_id": "6",
+        "question_number": 6,
+        "practice_set": "2",
+        "category": "English:Information and Ideas:Command of Evidence",
+        "difficulty": "Medium",
+        "time_estimate": 71,
+        "passage": "image:images/satpracrice2question6.png",
+        "question_text": "It may seem that the optimal strategy for an animal pursuing prey or escaping predators is to move at maximal speed, but the energy expense of exploiting full speed capacity can disfavor such a strategy even in escape contexts, as evidenced by the fact that\n\nWhich choice most effectively uses data from the graph to complete the text?",
+        "options": [
+            "most lizard species use about the same percentage of their maximal speed when escaping predation as they do when pursuing prey.",
+            "multiple lizard species move at an average of less than 90% of their maximal speed while escaping predation.",
+            "more lizard species use, on average, 90%-100% of their maximal speed while escaping predation than use any other percentage of their maximal speed.",
+            "at least 4 lizard species use, on average, less than 100% of their maximal speed while pursuing prey."
+        ],
+        "correct_answer": 1
+    },
+    {
+        "_id": "7",
+        "question_number": 7,
+        "practice_set": "2",
+        "category": "English:Information and Ideas:Command of Evidence",
+        "difficulty": "Medium",
+        "time_estimate": 71,
+        "passage": "Almost all works of fiction contain references to the progression of time, including the time of day when events in a story take place. In a 2020 study, Allen Kim, Charuta Pethe, and Steven Skiena claim that an observable pattern in such references reflects a shift in human behavior prompted by the spread of electric lighting in the late nineteenth century. The researchers drew this conclusion from an analysis of more than 50,000 novels spanning many centuries and cultures, using software to recognize and tally both specific time references-that is, clock phrases, such as 7 a.m. or 2:30 p.m.-and implied ones, such as mentions of meals typically associated with a particular time of day.",
+        "question_text": "Which finding from the study, if true, would most directly support the researchers' conclusion?",
+        "options": [
+            "Novels published after the year 1800 include the clock phrase 10 a.m. less often than novels published before the year 1800 do.",
+            "Novels published after 1880 contain significantly more references to activities occurring after 10 p.m. than do novels from earlier periods.",
+            "Among novels published in the nineteenth century, implied time references become steadily more common than clock phrases as publication dates approach 1900.",
+            "The time references of noon (12 p.m.) and midnight (12 a.m.) are used with roughly the same frequency in the novels."
+        ],
+        "correct_answer": 1
+    },
+    {
+        "_id": "8",
+        "question_number": 8,
+        "practice_set": "2",
+        "category": "English:Information and Ideas:Command of Evidence",
+        "difficulty": "Medium",
+        "time_estimate": 71,
+        "passage": "image:images/satpractice2question8.png",
+        "question_text": "\n\nGeographer Adebayo Oluwole Eludoyin and his colleagues surveyed small-scale farmers in three locations in Ondo State, Nigeria-which has mountainous terrain in the north, an urbanized center, and coastal terrain in the south-to learn more about their practices, like the types of crops they mainly cultivated. In some regions, female farmers were found to be especially prominent in the cultivation of specific types of crops and even constituted the majority of farmers who cultivated those crops; for instance,___________\n\nWhich choice most effectively uses data from the graph to complete the example?",
+        "options": [
+            "most of the farmers who mainly cultivated cereals and most of the farmers who mainly cultivated non-root vegetables in south Ondo were women.",
+            "more women in central Ondo mainly cultivated root crops than mainly cultivated cereals.",
+            "most of the farmers who mainly cultivated non-root vegetables in north and south Ondo were women.",
+            "a relatively equal proportion of women across the three regions of Ondo mainly cultivated cereals."
+        ],
+        "correct_answer": 2
+    },
+    {
+        "_id": "9",
+        "question_number": 9,
+        "practice_set": "2",
+        "category": "English:Information and Ideas:Command of Evidence",
+        "difficulty": "Easy",
+        "time_estimate": 71,
+        "passage": "While attending school in New York City in the 1980s, Okwui Enwezor encountered few works by African artists in exhibitions, despite New York's reputation as one of the best places to view contemporary art from around the world. According to an arts journalist, later in his career as a renowned curator and art historian, Enwezor sought to remedy this deficiency, not by focusing solely on modern African artists, but by showing how their work fits into the larger context of global modern art and art history.",
+        "question_text": "Which finding, if true, would most directly support the journalist's claim?",
+        "options": [
+            "As curator of the Haus der Kunst in Munich, Germany, Enwezor organized a retrospective of Ghanaian sculptor El Anatsui's work entitled El Anatsui: Triumphant Scale, one of the largest art exhibitions devoted to a Black artist in Europe's history.",
+            "In the exhibition Postwar: Art Between the Pacific and the Atlantic, 1945-1965, Enwezor and cocurator Katy Siegel brought works by African artists such as Malangatana Ngwenya together with pieces by major figures from other countries, like US artist Andy Warhol and Mexico's David Siqueiros.",
+            "Enwezor's work as curator of the 2001 exhibition The Short Century: Independence and Liberation Movements in Africa, 1945-1994 showed how African movements for independence from European colonial powers following the Second World War profoundly influenced work by African artists of the period, such as Kamala Ibrahim Ishaq and Thomas Mukarobgwa.",
+            "Enwezor organized the exhibition In/sight: African Photographers, 1940 to the Present not to emphasize a particular aesthetic trend but to demonstrate the broad range of ways in which African artists have approached the medium of photography."
+        ],
+        "correct_answer": 1
+    },
+    {
+        "_id": "10",
+        "question_number": 10,
+        "practice_set": "2",
+        "category": "English:Information and Ideas:Inferences",
+        "difficulty": "Easy",
+        "time_estimate": 71,
+        "passage": "Researchers recently found that disruptions to an enjoyable experience, like a short series of advertisements during a television show, often increase viewers' reported enjoyment. Suspecting that disruptions to an unpleasant experience would have the opposite effect, the researchers had participants listen to construction noise for 30 minutes and anticipated that those whose listening experience was frequently interrupted with short breaks of silence would thus___________",
+        "question_text": "Which choice most logically completes the text?",
+        "options": [
+            "find the disruptions more irritating as time went on.",
+            "rate the listening experience as more negative than those whose listening experience was uninterrupted.",
+            "rate the experience of listening to construction noise as lasting for less time than it actually lasted.",
+            "perceive the volume of the construction noise as growing softer over time."
+        ],
+        "correct_answer": 1
+    },
+    {
+        "_id": "11",
+        "question_number": 11,
+        "practice_set": "2",
+        "category": "English:Information and Ideas:Command of Evidence",
+        "difficulty": "Medium",
+        "time_estimate": 71,
+        "passage": "image:images/satpractice2question11.png",
+        "question_text": "Nucleobase Concentrations from Murchison Meteorite and Soil Samples in Parts per Billion\n\n\nEmploying high-performance liquid chromatography-a process that uses pressurized water to separate material into its component molecules-astrochemist Yashiro Oba and colleagues analyzed two samples of the Murchison meteorite that landed in Australia as well as soil from the landing zone of the meteorite to determine the concentrations of various organic molecules. By comparing the relative concentrations of types of molecules known as nucleobases in the Murchison meteorite with those in the soil, the team concluded that there is evidence that the nucleobases in the Murchison meteorite formed in space and are not the result of contamination on Earth.\n\nWhich choice best describes data from the table that support the team's conclusion?",
+        "options": [
+            "Isoguanine and purine were detected in both meteorite samples but not in the soil sample.",
+            "Adenine and xanthine were detected in both of the meteorite samples and in the soil sample.",
+            "Hypoxanthine and purine were detected in both the Murchison meteorite sample 2 and in the soil sample.",
+            "Isoguanine and hypoxanthine were detected in the Murchison meteorite sample 1 but not in sample 2."
+        ],
+        "correct_answer": 0
+    },
+    {
+        "_id": "12",
+        "question_number": 12,
+        "practice_set": "2",
+        "category": "English:Information and Ideas:Inferences",
+        "difficulty": "Easy",
+        "time_estimate": 71,
+        "passage": "Many of William Shakespeare's tragedies address broad themes that still appeal to today's audiences. For instance, Romeo and Juliet, which is set in the Italy of Shakespeare's time, tackles the themes of parents versus children and love versus hate, and the play continues to be read and produced widely around the world. But understanding Shakespeare's so-called history plays can require a knowledge of several centuries of English history. Consequently____________,",
+        "question_text": "Which choice most logically completes the text?",
+        "options": [
+            "many theatergoers and readers today are likely to find Shakespeare's history plays less engaging than the tragedies.",
+            "some of Shakespeare's tragedies are more relevant to today's audiences than twentieth-century plays.",
+            "Romeo and Juliet is the most thematically accessible of all Shakespeare's tragedies.",
+            "experts in English history tend to prefer Shakespeare's history plays to his other works."
+        ],
+        "correct_answer": 0
+    },
+    {
+        "_id": "13",
+        "question_number": 13,
+        "practice_set": "2",
+        "category": "English:Information and Ideas:Command of Evidence",
+        "difficulty": "Medium",
+        "time_estimate": 71,
+        "passage": "Three Studies' Estimated Average Velocity of LMC\n\n| Researchers | Study year | Estimated average velocity |\n|---|---|---|\n| Murai and Fujimoto | 1980 | 344 km/s |\n| Kallivayalil and colleagues | 2006 | 378 km/s |\n| Gardiner and colleagues | 1994 | 297 km/s |\n\nIn 2006, Nitya Kallivayalil and colleagues calculated the most accurate estimate yet of the average velocity (in kilometers per second) of the Large Magellanic Cloud (LMC) galaxy. Before the 2006 study, estimates of the average velocity were low enough for the LMC to maintain an orbit around the Milky Way galaxy, but according to an analysis by Gurtina Besla and colleagues, the estimated velocity from the 2006 study is too high for the LMC to maintain such an orbit. Therefore, if Besla and colleagues are correct, the maximum average velocity for the LMC that would allow it to maintain orbit around the Milky Way is likely",
+        "question_text": "Which choice most effectively uses data from the table to complete the statement?",
+        "options": [
+            "above 344 km/s but below 378 km/s.",
+            "above 297 km/s but below 344 km/s.",
+            "above 378 km/s.",
+            "below 297 km/s."
+        ],
+        "correct_answer": 0
+    },
+    {
+        "_id": "14",
+        "question_number": 14,
+        "practice_set": "2",
+        "category": "English:Information and Ideas:Command of Evidence",
+        "difficulty": "Medium",
+        "time_estimate": 71,
+        "passage": "Mosasaurs were large marine reptiles that lived in the Late Cretaceous period, approximately 100 million to 66 million years ago. Celina Suarez, Alberto Pérez-Huerta, and T. Lynn Harrell Jr. examined oxygen-18 isotopes in mosasaur tooth enamel in order to calculate likely mosasaur body temperatures and determined that mosasaurs were endothermic-that is, they used internal metabolic processes to maintain a stable body temperature in a variety of ambient temperatures. Suarez, Pérez-Huerta, and Harrell claim that endothermy would have enabled mosasaurs to include relatively cold polar waters in their range.",
+        "question_text": "Which finding, if true, would most directly support Suarez, Pérez-Huerta, and Harrell's claim?",
+        "options": [
+            "Mosasaurs' likely body temperatures are easier to determine from tooth enamel oxygen-18 isotope data than the body temperatures of nonendothermic Late Cretaceous marine reptiles are.",
+            "Fossils of both mosasaurs and nonendothermic marine reptiles have been found in roughly equal numbers in regions known to be near the poles during the Late Cretaceous, though in lower concentrations than elsewhere.",
+            "Several mosasaur fossils have been found in regions known to be near the poles during the Late Cretaceous, while relatively few fossils of nonendothermic marine reptiles have been found in those locations.",
+            "During the Late Cretaceous, seawater temperatures were likely higher throughout mosasaurs' range, including near the poles, than seawater temperatures at those same latitudes are today."
+        ],
+        "correct_answer": 2
+    },
+    {
+        "_id": "15",
+        "question_number": 15,
+        "practice_set": "2",
+        "category": "English:Information and Ideas:Inferences",
+        "difficulty": "Medium",
+        "time_estimate": 71,
+        "passage": "In the early nineteenth century, some Euro-American farmers in the northeastern United States used agricultural techniques developed by the Haudenosaunee (Iroquois) people centuries earlier, but it seems that few of those farmers had actually seen Haudenosaunee farms firsthand. Barring the possibility of several farmers of the same era independently developing techniques that the Haudenosaunee people had already invented, these facts most strongly suggest that",
+        "question_text": "Which choice most logically completes the text?",
+        "options": [
+            "those farmers learned the techniques from other people who were more directly influenced by Haudenosaunee practices.",
+            "the crops typically cultivated by Euro-American farmers in the northeastern United States were not well suited to Haudenosaunee farming techniques.",
+            "Haudenosaunee farming techniques were widely used in regions outside the northeastern United States.",
+            "Euro-American farmers only began to recognize the benefits of Haudenosaunee farming techniques late in the nineteenth century."
+        ],
+        "correct_answer": 0
+    },
+    {
+        "_id": "16",
+        "question_number": 16,
+        "practice_set": "2",
+        "category": "English:Information and Ideas:Central Ideas and Details",
+        "difficulty": "Easy",
+        "time_estimate": 71,
+        "passage": "The following text is adapted from María Cristina Mena's 1914 short story \"The Vine-Leaf.\"\n\nIt is a saying in the capital of Mexico that Dr. Malsufrido carries more family secrets under his hat than any archbishop. The doctor's hat is, appropriately enough, uncommonly capacious, rising very high, and sinking so low that it seems to be supported by his ears and eyebrows, and it has a furry look, as if it had been brushed the wrong way, which is perhaps what happens to it if it is ever brushed at all. When the doctor takes it off, the family secrets do not fly out like a flock of parrots, but remain nicely bottled up beneath a dome of old and highly polished ivory.",
+        "question_text": "Based on the text, how do people in the capital of Mexico most likely regard Dr. Malsufrido?",
+        "options": [
+            "Many have come to tolerate him despite his disheveled appearance.",
+            "Few feel concerned that he will divulge their confidences.",
+            "Some dislike how freely he discusses his own family.",
+            "Most would be unimpressed by him were it not for his professional expertise."
+        ],
+        "correct_answer": 1
+    },
+    {
+        "_id": "17",
+        "question_number": 17,
+        "practice_set": "2",
+        "category": "English:Information and Ideas:Command of Evidence",
+        "difficulty": "Medium",
+        "time_estimate": 71,
+        "passage": "Linguist Deborah Tannen has cautioned against framing contentious issues in terms of two highly competitive perspectives, such as pro versus con. According to Tannen, this debate-driven approach can strip issues of their complexity and, when used in front of an audience, can be less informative than the presentation of multiple perspectives in a noncompetitive format. To test Tannen's hypothesis, students conducted a study in which they showed participants one of three different versions of local news commentary about the same issue. Each version featured a debate between two commentators with opposing views, a panel of three commentators with various views, or a single commentator.",
+        "question_text": "Which finding from the students' study, if true, would most strongly support Tannen's hypothesis?",
+        "options": [
+            "On average, participants perceived commentators in the debate as more knowledgeable about the issue than commentators in the panel.",
+            "On average, participants perceived commentators in the panel as more knowledgeable about the issue than the single commentator.",
+            "On average, participants who watched the panel correctly answered more questions about the issue than those who watched the debate or the single commentator did.",
+            "On average, participants who watched the single commentator correctly answered more questions about the issue than those who watched the debate did."
+        ],
+        "correct_answer": 2
+    },
+    {
+        "_id": "18",
+        "question_number": 18,
+        "practice_set": "2",
+        "category": "English:Information and Ideas:Command of Evidence",
+        "difficulty": "Hard",
+        "time_estimate": 71,
+        "passage": "In 1534 CE, King Henry VIII of England split with the Catholic Church and declared himself head of the Church of England, in part because Pope Clement VII refused to annul his marriage to Catherine of Aragon. Two years later, Henry VIII introduced a policy titled the Dissolution of the Monasteries that by 1540 had resulted in the closure of all Catholic monasteries in England and the confiscation of their estates. Some historians assert that the enactment of the policy was primarily motivated by perceived financial opportunities.",
+        "question_text": "Which quotation from a scholarly article best supports the assertion of the historians mentioned in the text?",
+        "options": [
+            "\"At the time of the Dissolution of the Monasteries, about 2 percent of the adult male population of England were monks; by 1690, the proportion of the adult male population who were monks was less than 1 percent.\"",
+            "\"A contemporary description of the Dissolution of the Monasteries, Michael Sherbrook's Falle of the Religious Howses, recounts witness testimony that monks were allowed to keep the contents of their cells and that the monastery timber was purchased by local yeomen.\"",
+            "\"In 1535, the year before enacting the Dissolution of the Monasteries, Henry commissioned a survey of the value of church holdings in England-the work, performed by sheriffs, bishops, and magistrates, began that January and was swiftly completed by the summer.\"",
+            "\"The October 1536 revolt known as the Pilgrimage of Grace had several economic motives: high food prices due to a poor harvest the prior year; the Dissolution of the Monasteries, which closed reliable sources of food and shelter for many; and rents and taxes throughout Northern England that were not merely high but predatory.\""
+        ],
+        "correct_answer": 2
+    },
+    {
+        "_id": "19",
+        "question_number": 19,
+        "practice_set": "2",
+        "category": "English:Information and Ideas:Central Ideas and Details",
+        "difficulty": "Medium",
+        "time_estimate": 71,
+        "passage": "The following text is adapted from Countee Cullen's 1926 poem \"Thoughts in a Zoo.\"\n\nThey in their cruel traps, and we in ours,\nSurvey each other's rage, and pass the hours\nCommiserating each the other's woe,\nTo mitigate his own pain's fiery glow.\nMan could but little proffer in exchange\nSave that his cages have a larger range.\nThat lion with his lordly, untamed heart\nHas in some man his human counterpart,\nSome lofty soul in dreams and visions wrapped,\nBut in the stifling flesh securely trapped.",
+        "question_text": "Based on the text, what challenge do humans sometimes experience?",
+        "options": [
+            "They cannot effectively tame certain wild animals because of a lack of compassion.",
+            "They cannot focus on setting attainable goals because of a lack of motivation.",
+            "They quickly become frustrated when faced with difficult tasks because of a lack of self-control.",
+            "They have aspirations that cannot be fulfilled because of certain limitations."
+        ],
+        "correct_answer": 3
+    },
+    {
+        "_id": "20",
+        "question_number": 20,
+        "practice_set": "2",
+        "category": "English:Information and Ideas:Inferences",
+        "difficulty": "Hard",
+        "time_estimate": 71,
+        "passage": "The domestic sweet potato (Ipomoea batatas) descends from a wild plant native to South America. It also populates the Polynesian Islands, where evidence confirms that Native Hawaiians and other Indigenous peoples were cultivating the plant centuries before seafaring first occurred over the thousands of miles of ocean separating them from South America. To explain how the sweet potato was first introduced in Polynesia, botanist Pablo Muñoz-Rodríguez and colleagues analyzed the DNA of numerous varieties of the plant, concluding that Polynesian varieties diverged from South American ones over 100,000 years ago. Given that Polynesia was peopled only in the last three thousand years, the team concluded that",
+        "question_text": "Which choice most logically completes the text?",
+        "options": [
+            "the cultivation of the sweet potato in Polynesia likely predates its cultivation in South America.",
+            "Polynesian peoples likely acquired the sweet potato from South American peoples only within the last three thousand years.",
+            "human activity likely played no role in the introduction of the sweet potato in Polynesia.",
+            "Polynesian sweet potato varieties likely descend from a single South American variety that was domesticated, not wild."
+        ],
+        "correct_answer": 2
+    },
+    {
+        "_id": "21",
+        "question_number": 21,
+        "practice_set": "2",
+        "category": "English:Information and Ideas:Inferences",
+        "difficulty": "Hard",
+        "time_estimate": 71,
+        "passage": "The morphological novelty of echinoderms-marine invertebrates with radial symmetry, usually starlike, around a central point-impedes comparisons with most other animals, in which bilateral symmetry on an anterior-posterior (head to tail) axis through a trunk is typical. Particularly puzzling are sea stars, thought to have evolved a headless layout from a known bilateral origin. Applying genomic knowledge of Saccoglossus kowalevskii acorn worms (close relatives of sea stars, and thus expected to have similar markers for corresponding anatomical regions) to the body patterning genes of Patiria miniata sea stars, Laurent Formery et al. observed activity only in anterior genes across P. miniata's entire body and some posterior genes limited to the edges, suggesting that__________",
+        "question_text": "Which choice most logically completes the text?",
+        "options": [
+            "despite the greater prevalence of anterior genes in sea stars' genetic makeup, posterior genes active at the body's perimeter are primarily responsible for the starlike layout that distinguishes sea stars' radial symmetry from that of other echinoderms.",
+            "contrary to the belief that they evolved from early ancestors with the bilateral form typical of many other animals, sea stars instead originated with an atypical body layout that was neither bilaterally nor radially symmetrical.",
+            "although the two species are closely related, there is only minimal correspondence in the genetic markers for head, tail, and trunk region development in P. miniata sea stars and S. kowalevskii acorn worms.",
+            "rather than undergoing changes resulting in the eventual elimination of a head region in their radial body plan, as previously assumed, sea stars' morphology evolved to completely lack a trunk and consist primarily of a head region."
+        ],
+        "correct_answer": 3
+    },
+    {
+        "_id": "22",
+        "question_number": 22,
+        "practice_set": "2",
+        "category": "English:Information and Ideas:Inferences",
+        "difficulty": "Medium",
+        "time_estimate": 71,
+        "passage": "One theory behind human bipedalism speculates that it originated in a mostly ground-based ancestor that practiced four-legged \"knuckle-walking,\" like chimpanzees and gorillas do today, and eventually evolved into moving upright on two legs. But recently, researchers observed orangutans, another relative of humans, standing on two legs on tree branches and using their arms for balance while they reached for fruits. These observations may suggest that___________",
+        "question_text": "Which choice most logically completes the text?",
+        "options": [
+            "bipedalism evolved because it was advantageous to a tree-dwelling ancestor of humans.",
+            "bipedalism must have evolved simultaneously with knuckle-walking and tree-climbing.",
+            "moving between the ground and the trees would have been difficult without bipedalism.",
+            "a knuckle-walking human ancestor could have easily moved bipedally in trees."
+        ],
+        "correct_answer": 0
+    },
+    {
+        "_id": "23",
+        "question_number": 23,
+        "practice_set": "2",
+        "category": "English:Information and Ideas:Command of Evidence",
+        "difficulty": "Medium",
+        "time_estimate": 71,
+        "passage": "In the 1980s, many musicians and journalists in the English-speaking world began to draw attention to music from around the globe-such as mbaqanga from South Africa and quan họ from Vietnam-that can't be easily categorized according to British or North American popular music genres, typically referring to such music as \"world music.\" While some scholars have welcomed this development for bringing diverse musical forms to prominence in countries where they'd previously been overlooked, musicologist Su Zheng claims that the concept of world music homogenizes highly distinct traditions by reducing them all to a single category.",
+        "question_text": "Which finding about mbaqanga and quan họ, if true, would most directly support Zheng's claim?",
+        "options": [
+            "Mbaqanga and quan họ developed independently of each other and have little in common musically.",
+            "Mbaqanga is significantly more popular in the English-speaking world than quan họ is.",
+            "Mbaqanga and quan họ are now performed by a diverse array of musicians with no direct connections to South Africa or Vietnam.",
+            "Mbaqanga and quan họ are highly distinct from British and North American popular music genres but similar to each other."
+        ],
+        "correct_answer": 0
+    },
+    {
+        "_id": "24",
+        "question_number": 24,
+        "practice_set": "2",
+        "category": "English:Information and Ideas:Inferences",
+        "difficulty": "Easy",
+        "time_estimate": 71,
+        "passage": "One challenge when researching whether holding elected office changes a person's behavior is the problem of ensuring that the experiment has an appropriate control group. To reveal the effect of holding office, researchers must compare people who hold elected office with people who do not hold office but who are otherwise similar to the office-holders. Since researchers are unable to control which politicians win elections, they therefore",
+        "question_text": "Which choice most logically completes the text?",
+        "options": [
+            "struggle to find valid data about the behavior of politicians who do not currently hold office.",
+            "can only conduct valid studies with people who have previously held office rather than people who presently hold office.",
+            "should select a control group of people who differ from office-holders in several significant ways.",
+            "will find it difficult to identify a group of people who can function as an appropriate control group for their studies."
+        ],
+        "correct_answer": 3
+    },
+    {
+        "_id": "25",
+        "question_number": 25,
+        "practice_set": "2",
+        "category": "English:Information and Ideas:Central Ideas and Details",
+        "difficulty": "Hard",
+        "time_estimate": 71,
+        "passage": "Elizabeth Asiedu has identified a negative correlation between the share of developing countries' economies derived from natural-resource extraction and those countries' receipts of foreign investment. This may appear counterintuitive-resource extraction requires initial investments (in extractive technology, for instance) at scales best met by multinational corporations-but Asiedu notes that natural-resource industries' boom-bust cycle can destabilize local currencies and increase developing countries' vulnerability to external shocks, creating levels of uncertainty to which foreign investors are typically averse.",
+        "question_text": "Which choice best states the main idea of the text?",
+        "options": [
+            "Although it may seem surprising that foreign investment declines in developing countries as natural-resource extraction makes up a larger share of those countries' economies, that decline happens because resource extraction requires initial investments too large for foreign investors to supply.",
+            "Although developing countries tend to become less dependent on foreign investment as natural-resource industries make up a larger share of their economies, this change may not occur if the boom-bust cycle of those industries destabilizes local currencies or increases countries' vulnerability to external shocks.",
+            "Although one might expect that foreign investment would increase as natural-resource extraction makes up a larger share of developing countries' economies, the opposite happens because heavy reliance on natural resources can lead to unattractive conditions for investors.",
+            "Although foreign investors tend to avoid initial investments in natural-resource industries in developing countries, foreign investment may increase significantly as those industries stabilize and the risks associated with them decline."
+        ],
+        "correct_answer": 2
+    },
+    {
+        "_id": "26",
+        "question_number": 26,
+        "practice_set": "2",
+        "category": "English:Information and Ideas:Inferences",
+        "difficulty": "Medium",
+        "time_estimate": 71,
+        "passage": "German theater practitioner Bertolt Brecht (1898-1956) believed that theater should elicit an intellectual rather than an emotional response from audiences, provoking them to consider social and political realities that extend beyond the characters and events depicted onstage. Brecht's influence can be seen in English playwright Caryl Churchill's 1979 play Cloud 9: although the play sometimes invites empathetic reactions, it primarily works to engage audiences in an interrogation of patriarchy and colonialism, which it does by placing audiences at a distance, thereby encouraging them to",
+        "question_text": "Which choice most logically completes the text?",
+        "options": [
+            "focus on the characters' beliefs about social and political issues as revealed by the characters' actions.",
+            "reflect on social and political phenomena not directly related to patriarchy and colonialism.",
+            "recognize pertinent social and political parallels between Germany during Brecht's time and England at the time when Churchill was writing Cloud 9.",
+            "be dispassionate as they think critically about the social and political questions raised by the play."
+        ],
+        "correct_answer": 3
+    },
+    {
+        "_id": "27",
+        "question_number": 27,
+        "practice_set": "2",
+        "category": "English:Information and Ideas:Central Ideas and Details",
+        "difficulty": "Hard",
+        "time_estimate": 71,
+        "passage": "Several scholars have argued that conditions in England in the late ninth through early eleventh centuries-namely, burgeoning literacy amid running conflicts between England's Anglo-Saxon kingdoms and Danish invaders-were especially conducive to the production of the Old English epic poem Beowulf, and they have dated the poem's composition accordingly. It is not inconceivable that Beowulf emerged from such a context, but privileging contextual fit over the linguistic evidence of an eighth- or even seventh-century composition requires a level of justification that thus far has not been presented.",
+        "question_text": "Which choice best states the main idea of the text?",
+        "options": [
+            "Although there are some grounds for believing that Beowulf was composed between the late ninth and early eleventh centuries, advocates for that view tend to rely on evidence that has been called into question by advocates for an earlier date.",
+            "Although several scholars have dated Beowulf to the late ninth through early eleventh centuries, others have argued that doing so privileges a controversial interpretation of the social conditions of the period.",
+            "Although Beowulf fits well with the historical context of England in the late ninth through early eleventh centuries, it fits equally well with the historical context of England in the seventh and eighth centuries.",
+            "Although the claim of a late ninth- through early eleventh-century composition date for Beowulf has some plausibility, advocates for the claim have not compellingly addressed evidence suggesting an earlier date."
+        ],
+        "correct_answer": 3
+    },
+    {
+        "_id": "28",
+        "question_number": 28,
+        "practice_set": "2",
+        "category": "English:Information and Ideas:Inferences",
+        "difficulty": "Medium",
+        "time_estimate": 71,
+        "passage": "Scientists studying Mars long thought the history of its crust was relatively simple. One reason for this is that geologic and climate data collected by a spacecraft showed that the crust was largely composed of basalt, likely as a result of intense volcanic activity that brought about a magma ocean, which then cooled to form the planet's surface. A study led by Valerie Payré focused on additional information-further analysis of data collected by the spacecraft and infrared wavelengths detected from Mars's surface-that revealed the presence of surprisingly high concentrations of silica in certain regions on Mars. Since a planetary surface that formed in a mostly basaltic environment would be unlikely to contain large amounts of silica, Payré concluded that________",
+        "question_text": "Which choice most logically completes the text?",
+        "options": [
+            "the information about silica concentrations collected by the spacecraft is likely more reliable than the silica information gleaned from infrared wavelengths detected from Mars's surface.",
+            "high silica concentrations on Mars likely formed from a different process than that which formed the crusts of other planets.",
+            "having a clearer understanding of the composition of Mars's crust and the processes by which it formed will provide more insight into how Earth's crust formed.",
+            "Mars's crust likely formed as a result of other major geological events in addition to the cooling of a magma ocean."
+        ],
+        "correct_answer": 3
+    },
+    {
+        "_id": "29",
+        "question_number": 29,
+        "practice_set": "2",
+        "category": "English:Information and Ideas:Command of Evidence",
+        "difficulty": "Easy",
+        "time_estimate": 71,
+        "passage": "Archaeologist Petra Vaiglova, anthropologist Xinyi Liu, and their colleagues investigated the domestication of farm animals in China during the Bronze Age (approximately 2000 to 1000 BCE). By analyzing the chemical composition of the bones of sheep, goats, and cattle from this era, the team determined that wild plants made up the bulk of sheep's and goats' diets, while the cattle's diet consisted largely of millet, a crop cultivated by humans. The team concluded that cattle were likely raised closer to human settlements, whereas sheep and goats were allowed to roam farther away.",
+        "question_text": "Which finding, if true, would most strongly support the team's conclusion?",
+        "options": [
+            "Analysis of the animal bones showed that the cattle's diet also consisted of wheat, which humans widely cultivated in China during the Bronze Age.",
+            "Further investigation of sheep and goat bones revealed that their diets consisted of small portions of millet as well.",
+            "Cattle's diets generally require larger amounts of food and a greater variety of nutrients than do sheep's and goats' diets.",
+            "The diets of sheep, goats, and cattle were found to vary based on what the farmers in each Bronze Age settlement could grow."
+        ],
+        "correct_answer": 0
+    },
+    {
+        "_id": "30",
+        "question_number": 30,
+        "practice_set": "2",
+        "category": "English:Information and Ideas:Inferences",
+        "difficulty": "Hard",
+        "time_estimate": 71,
+        "passage": "Archaeologists and historians used to believe that the Maya civilization during its Classic period (roughly 250-900) lacked agricultural marketplaces. One reason for this belief was that these scholars misunderstood the ecology of the regions the Maya inhabited. Marketplaces typically emerge because different individuals or groups want to trade resources they control for resources they don't control. Scholars seriously underestimated the ecological diversity of the Maya landscape and thus assumed that______",
+        "question_text": "Which choice most logically completes the text?",
+        "options": [
+            "marketplaces likely would not have attracted many traders from outside the regions controlled by the Maya.",
+            "farming practices would have been largely the same throughout Maya lands even if the crops people produced varied significantly.",
+            "marketplaces would not have enabled Maya people to acquire many products different from those they already produced.",
+            "farmers would trade agricultural products only if they had already produced enough to meet their own needs."
+        ],
+        "correct_answer": 2
+    },
+    {
+        "_id": "31",
+        "question_number": 31,
+        "practice_set": "2",
+        "category": "English:Information and Ideas:Central Ideas and Details",
+        "difficulty": "Easy",
+        "time_estimate": 71,
+        "passage": "Modern dog breeds are largely the result of 160 years of owners crossbreeding certain dogs in order to select for particular physical appearances. Owners often say that some breeds are also more likely than others to have particular personality traits-basset hounds are affectionate; boxers are easy to train-but Kathleen Morrill and colleagues found through a combination of owner surveys and DNA sequencing of 2,000 dogs that while physical traits are predictably heritable among purebred dogs, behavior varies widely among dogs of the same breed.",
+        "question_text": "Which choice best states the main idea of the text?",
+        "options": [
+            "Dog breeds would not exist without many years of human intervention in dogs' reproduction.",
+            "Research fails to confirm a commonly held belief about dog breeds and behavior.",
+            "The dog breeds most popular among owners have often changed over the past 160 years.",
+            "A study of dog breeds is notable for its usage of both opinion surveys and DNA sequencing."
+        ],
+        "correct_answer": 1
+    },
+    {
+        "_id": "32",
+        "question_number": 32,
+        "practice_set": "2",
+        "category": "English:Information and Ideas:Command of Evidence",
+        "difficulty": "Medium",
+        "time_estimate": 71,
+        "passage": "In a research paper, a student criticizes some historians of modern African politics, claiming that they have evaluated Patrice Lumumba, the first prime minister of what is now the Democratic Republic of the Congo, primarily as a symbol rather than in terms of his actions.",
+        "question_text": "Which quotation from a work by a historian would best illustrate the student's claim?",
+        "options": [
+            "\"Lumumba is a difficult figure to evaluate due to the starkly conflicting opinions he inspired during his life and continues to inspire today.\"",
+            "\"The available information makes it clear that Lumumba's political beliefs and values were largely consistent throughout his career.\"",
+            "\"Lumumba's practical accomplishments can be passed over quickly; it is mainly as the personification of Congolese independence that he warrants scholarly attention.\"",
+            "\"Many questions remain about Lumumba's ultimate vision for an independent Congo; without new evidence coming to light, these questions are likely to remain unanswered.\""
+        ],
+        "correct_answer": 2
+    },
+    {
+        "_id": "33",
+        "question_number": 33,
+        "practice_set": "2",
+        "category": "English:Information and Ideas:Central Ideas and Details",
+        "difficulty": "Easy",
+        "time_estimate": 71,
+        "passage": "Conservationists worldwide are working to protect ecosystems from habitat destruction and biodiversity loss, and in many cases, initiatives that rely on natural features or processes can help address such challenges. In response to a rapidly dwindling population of blueback salmon, the Quinault Indian Nation (a tribe in Washington State) partnered with the conservation organization Wild Salmon Center to restore naturally occurring logjams in the Quinault River. The logjams create shady pools where the blueback salmon can rest and spawn, thus promoting blueback population recovery.",
+        "question_text": "Which choice best states the main idea of the text?",
+        "options": [
+            "A partnership between the Quinault Indian Nation and Wild Salmon Center shows the importance of collaborative approaches to preserving biodiversity.",
+            "Nature-based approaches can be effective ways to achieve conservation goals.",
+            "As indicated by a recent project, logjams help the blueback salmon thrive and reproduce.",
+            "Scientists now realize that nature-based conservation methods offer better long-term solutions to environmental issues than methods that are not nature-based do."
+        ],
+        "correct_answer": 1
+    },
+    {
+        "_id": "34",
+        "question_number": 34,
+        "practice_set": "2",
+        "category": "English:Information and Ideas:Command of Evidence",
+        "difficulty": "Hard",
+        "time_estimate": 71,
+        "passage": "image:images/satpractice2question34.png",
+        "question_text": "The population of the coral Lophelia pertusa declined significantly around 9,000 years ago in the Alboran Sea and around 11,000 years ago near the Mauritanian coast. Using the ratio of manganese to calcium, which inversely correlates with ocean oxygenation levels, marine scientist Rodrigo da Costa Portilho-Ramos and colleagues evaluated whether oxygenation played a role in the declines of L. pertusa. The researchers concluded that oxygenation may have been important in the Alboran Sea but not near the Mauritanian coast, since\n\nWhich choice most effectively uses data from the graph to complete the statement?",
+        "options": [
+            "a substantial increase in oxygenation in the Alboran Sea corresponded with the local decline in L. pertusa, but the opposite relationship between oxygenation and L. pertusa was found near the Mauritanian coast.",
+            "L. pertusa declined in the Alboran Sea during a period of substantial local decline in oxygenation, but L. pertusa declined near the Mauritanian coast during a period of little local change in oxygenation.",
+            "oxygenation in the Alboran Sea was higher before the decline in L. pertusa than after the decline, whereas oxygenation near the Mauritanian coast was relatively low both before and after the decline in L. pertusa.",
+            "oxygenation in the Alboran Sea tended to be substantially higher than oxygenation near the Mauritanian coast during the period studied."
+        ],
+        "correct_answer": 1
+    },
+    {
+        "_id": "35",
+        "question_number": 35,
+        "practice_set": "2",
+        "category": "English:Information and Ideas:Central Ideas and Details",
+        "difficulty": "Easy",
+        "time_estimate": 71,
+        "passage": "The following text is from Milan Kundera's 1984 novel The Unbearable Lightness of Being (translated by Michael Henry Heim in 1984). Karenin is a dog that belongs to Tomas and Tereza.\n\nKarenin was not overjoyed by the move to Switzerland [from Prague]. Karenin hated change. Dog time cannot be plotted along a straight line; it does not move on and on, from one thing to the next. It moves in a circle like the hands of a clock, which-they, too, unwilling to dash madly ahead-turn round and round the face, day in and day out following the same path. In Prague, when Tomas and Tereza bought a new chair or moved a flower pot, Karenin would look on in displeasure. It disturbed his sense of time. It was as though they were trying to dupe the hands of the clock by changing the numbers on its face.",
+        "question_text": "Which choice best states the main idea of the text?",
+        "options": [
+            "As a dog, Karenin possesses a sense of time that involves a strong preference for predictability and an aversion to disruption.",
+            "After he's moved to a new home, Karenin's negative response to changes has become more pronounced.",
+            "Similar to Tomas and Tereza, Karenin comprehends time as circular rather than as a straightforward progression.",
+            "As is the case for other dogs, Karenin's sense of time seems to accelerate depending on the objects and places that surround him."
+        ],
+        "correct_answer": 0
+    },
+    {
+        "_id": "36",
+        "question_number": 36,
+        "practice_set": "2",
+        "category": "English:Information and Ideas:Inferences",
+        "difficulty": "Easy",
+        "time_estimate": 71,
+        "passage": "The increased integration of digital technologies throughout the process of book creation in the late 20th and early 21st centuries lowered the costs of book production, but those decreased costs have been most significant in the manufacturing and distribution process, which occurs after the authoring, editing, and design of the book are complete. This suggests that in the late 20th and early 21st centuries,______________",
+        "question_text": "Which choice most logically completes the text?",
+        "options": [
+            "digital technologies made it easier than it had been previously for authors to write very long works and get them published.",
+            "customers generally expected the cost of books to decline relative to the cost of other consumer goods.",
+            "publishers increased the variety of their offerings by printing more unique titles but also printed fewer copies of each title.",
+            "the costs of writing, editing, and designing a book were less affected by the technologies used than were the costs of manufacturing and distributing a book."
+        ],
+        "correct_answer": 3
+    },
+    {
+        "_id": "37",
+        "question_number": 37,
+        "practice_set": "2",
+        "category": "English:Information and Ideas:Inferences",
+        "difficulty": "Medium",
+        "time_estimate": 71,
+        "passage": "Some ethicists hold that the moral goodness of an individual's actions depends solely on whether the actions themselves are good, irrespective of the context in which they are carried out. Philosopher L. Sebastian Purcell has shown that surviving works of Aztec (Nahua) philosophy express a very different view. Purcell reveals that these works posit an ethical system in which an individual's actions are judged in light of how well they accord with the individual's role in society and how well they contribute to the community. To the extent that these works are representative of Aztec thought, Purcell's analysis suggests that__________",
+        "question_text": "Which choice most logically completes the text?",
+        "options": [
+            "the Aztecs would have disputed the idea that the morality of an individual's actions can be assessed by appealing to standards of behavior that are independent of the individual's social circumstances.",
+            "the Aztecs would not have accepted the notion that the morality of an individual's actions can be fairly evaluated by people who do not live in the same society as that individual.",
+            "actions by members of Aztec society who contributed a great deal to their community could be judged as morally good even if those actions were inconsistent with behaviors the Aztecs regarded as good in all contexts.",
+            "similar actions performed by people in different social roles in Aztec society would have been regarded as morally equivalent unless those actions led to different outcomes for the community."
+        ],
+        "correct_answer": 0
+    },
+    {
+        "_id": "38",
+        "question_number": 38,
+        "practice_set": "2",
+        "category": "English:Information and Ideas:Central Ideas and Details",
+        "difficulty": "Easy",
+        "time_estimate": 71,
+        "passage": "Optical tweezers are specialized scientific tools-particularly useful in biology and medicine-that use high-powered beams of light to trap and manipulate minuscule particles for study. Use of the tool has led to several scientific and medical breakthroughs over the last few decades, but the particles are often under prolonged exposure to the intense heat of the light beams. To overcome the risk of overheating, and thereby damage, researchers sometimes attach nano-sized glass beads to particles, allowing the light to focus on the beads instead of the particles.",
+        "question_text": "Based on the text, what is one advantage of attaching glass beads to particles when using optical tweezers?",
+        "options": [
+            "It decreases the time it takes for the optical tweezers to locate and capture the particles.",
+            "It facilitates the maneuvering of particles without directly heating the particles themselves.",
+            "It allows researchers to use weaker light beams to manipulate particles.",
+            "It adds a material to which particles can transfer any heat absorbed from the optical tweezers' light beam."
+        ],
+        "correct_answer": 1
+    },
+    {
+        "_id": "39",
+        "question_number": 39,
+        "practice_set": "2",
+        "category": "English:Information and Ideas:Central Ideas and Details",
+        "difficulty": "Easy",
+        "time_estimate": 71,
+        "passage": "Artificial leaves are a developing renewable energy technology that mimics the process of photosynthesis in plants. These devices are silicon-based solar cells coated in chemical catalysts that activate reactions that split water molecules into hydrogen and oxygen gas. The technology, while generating lots of interest, is not yet commercially viable as a large-scale energy source. To meet this challenge, scientists from many fields are researching ways to store, transport, and distribute the energy the devices produce while other scientists are working to improve the cost and efficiency of the devices.",
+        "question_text": "Which choice best states the main idea of the text?",
+        "options": [
+            "Continued research and development in artificial-leaf technology is needed before the devices can be widely used as an energy source.",
+            "The recent increase in the commercial use of artificial leaves as an energy source has encouraged many scientists to research ways to improve the technology.",
+            "Artificial leaves split water molecules into oxygen and hydrogen gas using catalysts more efficiently than plants do using the process of photosynthesis.",
+            "Artificial leaves were developed to mimic the natural process of photosynthesis in plants in order to store energy for long-term commercial use."
+        ],
+        "correct_answer": 0
+    },
+    {
+        "_id": "40",
+        "question_number": 40,
+        "practice_set": "2",
+        "category": "English:Craft and Structure:Words in Context",
+        "difficulty": "Medium",
+        "time_estimate": 71,
+        "passage": "Rejecting the premise that the literary magazine Ebony and Topaz (1927) should present a unified vision of Black American identity, editor Charles S. Johnson fostered his contributors' diverse perspectives by promoting their authorial autonomy. Johnson's self-effacement diverged from the editorial stances of W.E.B. Du Bois and Alain Locke, whose decisions for their publications were more____________",
+        "question_text": "Which choice completes the text with the most logical and precise word or phrase?",
+        "options": [
+            "proficient",
+            "dogmatic",
+            "ambiguous",
+            "unpretentious"
+        ],
+        "correct_answer": 1
+    },
+    {
+        "_id": "41",
+        "question_number": 41,
+        "practice_set": "2",
+        "category": "English:Craft and Structure:Text Structure and Purpose",
+        "difficulty": "Medium",
+        "time_estimate": 71,
+        "passage": "\"<u>How lifelike are they?</u>\" Many computer animators prioritize this question as they strive to create ever more realistic environments and lighting. Generally, while characters in computer-animated films appear highly exaggerated, environments and lighting are carefully engineered to mimic reality. But some animators, such as Pixar's Sanjay Patel, are focused on a different question. Rather than asking first whether the environments and lighting they're creating are convincingly lifelike, Patel and others are asking whether these elements reflect their films' unique stories.",
+        "question_text": "Which choice best describes the function of the underlined question in the text as a whole?",
+        "options": [
+            "It reflects a primary goal that many computer animators have for certain components of the animations they produce.",
+            "It represents a concern of computer animators who are more interested in creating unique backgrounds and lighting effects than realistic ones.",
+            "It conveys the uncertainty among many computer animators about how to create realistic animations using current technology.",
+            "It illustrates a reaction that audiences typically have to the appearance of characters created by computer animators."
+        ],
+        "correct_answer": 0
+    },
+    {
+        "_id": "42",
+        "question_number": 42,
+        "practice_set": "2",
+        "category": "English:Craft and Structure:Text Structure and Purpose",
+        "difficulty": "Medium",
+        "time_estimate": 71,
+        "passage": "The field of study called affective neuroscience seeks instinctive, physiological causes for feelings such as pleasure or displeasure. Because these sensations are linked to a chemical component (for example, the release of the neurotransmitter dopamine in the brain when one receives or expects a reward), they can be said to have a partly physiological basis. These processes have been described in mammals, but Jingnan Huang and his colleagues have recently observed that some behaviors of honeybees (such as foraging) are also motivated by a dopamine-based signaling process.",
+        "question_text": "What choice best describes the main purpose of the text?",
+        "options": [
+            "It describes an experimental method of measuring the strength of physiological responses in humans.",
+            "It illustrates processes by which certain insects can express how they are feeling.",
+            "It summarizes a finding suggesting that some mechanisms in the brains of certain insects resemble mechanisms in mammalian brains.",
+            "It presents research showing that certain insects and mammals behave similarly when there is a possibility of a reward for their actions."
+        ],
+        "correct_answer": 2
+    },
+    {
+        "_id": "43",
+        "question_number": 43,
+        "practice_set": "2",
+        "category": "English:Craft and Structure:Words in Context",
+        "difficulty": "Easy",
+        "time_estimate": 71,
+        "passage": "Some economic historians ______ that late nineteenth- and early twentieth-century households in the United States experienced an economy of scale when it came to food purchases-they assumed that large households spent less on food per person than did small households. Economist Trevon Logan showed, however, that a close look at the available data disproves this supposition.",
+        "question_text": "Which choice completes the text with the most logical and precise word or phrase?",
+        "options": [
+            "surmised",
+            "contrived",
+            "questioned",
+            "regretted"
+        ],
+        "correct_answer": 0
+    },
+    {
+        "_id": "44",
+        "question_number": 44,
+        "practice_set": "2",
+        "category": "English:Craft and Structure:Words in Context",
+        "difficulty": "Hard",
+        "time_estimate": 71,
+        "passage": "Economist Marco Castillo and colleagues showed that nuisance costs-the time and effort people must spend to make donations-reduce charitable giving. Charities can mitigate this effect by compensating donors for nuisance costs, but those costs, though variable, are largely ______ donation size, so charities that compensate donors will likely favor attracting a few large donors over many small donors.",
+        "question_text": "Which choice completes the text with the most logical and precise word or phrase?",
+        "options": [
+            "supplemental to",
+            "predictive of",
+            "independent of",
+            "subsumed in"
+        ],
+        "correct_answer": 2
+    },
+    {
+        "_id": "45",
+        "question_number": 45,
+        "practice_set": "2",
+        "category": "English:Craft and Structure:Cross-Text Connections",
+        "difficulty": "Medium",
+        "time_estimate": 71,
+        "passage": "Text 1\nIn 1916, H. Dugdale Sykes disputed claims that The Two Noble Kinsmen was coauthored by William Shakespeare and John Fletcher. Sykes felt Fletcher's contributions to the play were obvious-Fletcher had a distinct style in his other plays, so much so that lines with that style were considered sufficient evidence of Fletcher's authorship. But for the lines not deemed to be by Fletcher, Sykes felt that their depiction of women indicated that their author was not Shakespeare but Philip Massinger.\n\nText 2\nScholars have accepted The Two Noble Kinsmen as coauthored by Shakespeare since the 1970s: it appears in all major one-volume editions of Shakespeare's complete works. Though scholars disagree about who wrote what exactly, it is generally held that on the basis of style, Shakespeare wrote all of the first act and most of the last, while John Fletcher authored most of the three middle acts.",
+        "question_text": "Based on the texts, both Sykes in Text 1 and the scholars in Text 2 would most likely agree with which statement?",
+        "options": [
+            "John Fletcher's writing has a unique, readily identifiable style.",
+            "The women characters in John Fletcher's plays are similar to the women characters in Philip Massinger's plays.",
+            "The Two Noble Kinsmen belongs in one-volume compilations of Shakespeare's complete plays.",
+            "Philip Massinger's style in the first and last acts of The Two Noble Kinsmen is an homage to Shakespeare's style."
+        ],
+        "correct_answer": 0
+    },
+    {
+        "_id": "46",
+        "question_number": 46,
+        "practice_set": "2",
+        "category": "English:Craft and Structure:Text Structure and Purpose",
+        "difficulty": "Medium",
+        "time_estimate": 71,
+        "passage": "Studying late nineteenth- and early twentieth-century artifacts from an agricultural and domestic site in Texas, archaeologist Ayana O. Flewellen found that Black women employed as farm workers utilized hook-and-eye closures to fasten their clothes at the waist, giving themselves a silhouette similar to the one that was popular in contemporary fashion and typically achieved through more restrictive garments such as corsets. Flewellen argues that this sartorial practice shows that these women balanced hegemonic ideals of femininity with the requirements of their physically demanding occupation.",
+        "question_text": "Which choice best states the main purpose of the text?",
+        "options": [
+            "To describe an unexpected discovery that altered a researcher's view of how rapidly fashions among Black female farmworkers in late nineteenth- and early twentieth-century Texas changed during the period",
+            "To discuss research that investigated the ways in which Black female farmworkers in late nineteenth- and early twentieth-century Texas used fashion practices to resist traditional gender ideals",
+            "To evaluate a scholarly work that offers explanations for the impact of urban fashion ideals on Black female farmworkers in late nineteenth- and early twentieth-century Texas",
+            "To summarize the findings of a study that explored factors influencing a fashion practice among Black female farmworkers in late nineteenth- and early twentieth-century Texas"
+        ],
+        "correct_answer": 3
+    },
+    {
+        "_id": "47",
+        "question_number": 47,
+        "practice_set": "2",
+        "category": "English:Craft and Structure:Text Structure and Purpose",
+        "difficulty": "Easy",
+        "time_estimate": 71,
+        "passage": "In 2020, rap artist and professor A.D. Carson published the first peer-reviewed rap album about his experiences with Black masculinity called \"i used to love to dream.\" Typically in peer review, experts evaluate scholarly articles prior to publication. For Carson's album, dubbed a \"mixtap/e/ssay,\" peer review involved both scholars and rap artists. In combining elements of a mixtape album with scholarly essays that connect Carson's lyrics to historical and contemporary contexts for listeners both inside and outside academia, Carson's album helped redefine how scholarship is created and shared.",
+        "question_text": "Which choice best states the main purpose of the text?",
+        "options": [
+            "To compare the relative public impact of scholarly articles and albums",
+            "To capture one scholar's opinion of a new rap album",
+            "To explain why a certain rap album is particularly innovative",
+            "To describe how each step of the peer review process unfolds"
+        ],
+        "correct_answer": 2
+    },
+    {
+        "_id": "48",
+        "question_number": 48,
+        "practice_set": "2",
+        "category": "English:Craft and Structure:Words in Context",
+        "difficulty": "Easy",
+        "time_estimate": 71,
+        "passage": "The results of randomized clinical trials testing the efficacy of common medical interventions sometimes fail to ______ conclusions that practitioners reach based on their real-world observations of patients. While there are several possible reasons for this, one is that practitioners may overlook confounding variables that account for the results they attribute to the interventions in question.",
+        "question_text": "Which choice completes the text with the most logical and precise word or phrase?",
+        "options": [
+            "circumvent",
+            "corroborate",
+            "disseminate",
+            "implement"
+        ],
+        "correct_answer": 1
+    },
+    {
+        "_id": "49",
+        "question_number": 49,
+        "practice_set": "2",
+        "category": "English:Craft and Structure:Words in Context",
+        "difficulty": "Medium",
+        "time_estimate": 71,
+        "passage": "One popular theory of the origin of the Moon, the \"big whack,\" posits that a protoplanet called Theia collided with Earth, flinging debris into orbit that eventually coalesced into the Moon. Until recently, Theia was ______ but researcher Qian Yuan and colleagues now claim to have identified pieces of the protoplanet in the lowermost section of Earth's mantle.",
+        "question_text": "Which choice completes the text with the most logical and precise word or phrase?",
+        "options": [
+            "desultory",
+            "spurious",
+            "veritable",
+            "notional"
+        ],
+        "correct_answer": 3
+    },
+    {
+        "_id": "50",
+        "question_number": 50,
+        "practice_set": "2",
+        "category": "English:Standard English Conventions:Boundaries",
+        "difficulty": "Easy",
+        "time_estimate": 71,
+        "passage": "A recent study tracked the number of bee species present in twenty-seven New York apple orchards over a ten-year period. ______ found that when wild growth near an orchard was cleared, the number of different bee species visiting the orchard decreased.",
+        "question_text": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+        "options": [
+            "Entomologist Heather Grab:",
+            "Entomologist, Heather Grab,",
+            "Entomologist Heather Grab",
+            "Entomologist Heather Grab,"
+        ],
+        "correct_answer": 2
+    },
+    {
+        "_id": "51",
+        "question_number": 51,
+        "practice_set": "2",
+        "category": "English:Standard English Conventions:Form, Structure, and Sense",
+        "difficulty": "Medium",
+        "time_estimate": 71,
+        "passage": "Despite being cheap, versatile, and easy to produce, ______ they are made from nonrenewable petroleum, and most do not biodegrade in landfills.",
+        "question_text": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+        "options": [
+            "there are two problems associated with commercial plastics:",
+            "two problems are associated with commercial plastics:",
+            "commercial plastics' two associated problems are that",
+            "commercial plastics have two associated problems:"
+        ],
+        "correct_answer": 3
+    },
+    {
+        "_id": "52",
+        "question_number": 52,
+        "practice_set": "2",
+        "category": "English:Standard English Conventions:Form, Structure, and Sense",
+        "difficulty": "Medium",
+        "time_estimate": 71,
+        "passage": "American abstract artist Richard ______ his installations to make passersby keenly aware of how one's movements are affected by the physical features of one's environment, assembles large-scale steel plates into sculptures that dominate the outdoor spaces they occupy.",
+        "question_text": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+        "options": [
+            "Serra is intending",
+            "Serra, intends",
+            "Serra, intending",
+            "Serra intends"
+        ],
+        "correct_answer": 2
+    },
+    {
+        "_id": "53",
+        "question_number": 53,
+        "practice_set": "2",
+        "category": "English:Standard English Conventions:Boundaries",
+        "difficulty": "Easy",
+        "time_estimate": 71,
+        "passage": "The Limón technique, developed by Mexican-born dancer and choreographer Jose Limón, is known for its emphasis on breath control and its interplay of weight and ______ dancers may explore, for example, the moment of mid-air suspension at the top of a jump.",
+        "question_text": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+        "options": [
+            "weightlessness",
+            "weightlessness which",
+            "weightlessness,",
+            "weightlessness;"
+        ],
+        "correct_answer": 3
+    },
+    {
+        "_id": "54",
+        "question_number": 54,
+        "practice_set": "2",
+        "category": "English:Standard English Conventions:Boundaries",
+        "difficulty": "Easy",
+        "time_estimate": 71,
+        "passage": "The haiku-like poems of Tomas Tranströmer, which present nature- and dream-influenced images in crisp, spare language, have earned the Swedish poet praise from leading contemporary ______ them Nigerian American essayist and novelist Teju Cole, who has written that Tranströmer's works \"contain a luminous simplicity.\"",
+        "question_text": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+        "options": [
+            "writers. Among",
+            "writers among",
+            "writers; among",
+            "writers, among"
+        ],
+        "correct_answer": 3
+    },
+    {
+        "_id": "55",
+        "question_number": 55,
+        "practice_set": "2",
+        "category": "English:Standard English Conventions:Form, Structure, and Sense",
+        "difficulty": "Easy",
+        "time_estimate": 71,
+        "passage": "When a given industry-water and electricity are two well-known examples-carries high infrastructural start-up costs and other barriers that discourage competition, ______ of just one or two suppliers per municipality. Such industries are known as natural monopolies.",
+        "question_text": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+        "options": [
+            "these often consist",
+            "they often consist",
+            "it often consists",
+            "this often consists"
+        ],
+        "correct_answer": 2
+    },
+    {
+        "_id": "56",
+        "question_number": 56,
+        "practice_set": "2",
+        "category": "English:Standard English Conventions:Boundaries",
+        "difficulty": "Easy",
+        "time_estimate": 71,
+        "passage": "Roughly 300 nights a year, when the cold air descending from the Andes Mountains meets the warm air rising from Venezuela's coastal Lake Maracaibo, the result is a spectacular lightning storm, its strikes so bright, so localized, and so ______ that it has become known as \"Maracaibo's Lighthouse.\"",
+        "question_text": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+        "options": [
+            "dependable:",
+            "dependable;",
+            "dependable",
+            "dependable,"
+        ],
+        "correct_answer": 2
+    },
+    {
+        "_id": "57",
+        "question_number": 57,
+        "practice_set": "2",
+        "category": "English:Standard English Conventions:Form, Structure, and Sense",
+        "difficulty": "Medium",
+        "time_estimate": 71,
+        "passage": "The first known use of the word \"robot\" was in a 1920 play by Czech writer Karel Čapek. The play's robots were artificial people who were created to serve humans but eventually rebelled against their creators. The word \"robot\" derives from the Czech word for \"forced labor,\" and it is related to the English word \"rob,\" which means \"to steal.\"",
+        "question_text": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+        "options": [
+            "The play's robots were artificial people who were created to serve humans, but they eventually rebelled against their creators.",
+            "The play's robots were artificial people who were created to serve humans; however, they eventually rebelled against their creators.",
+            "The play's robots were artificial people who were created to serve humans. They eventually rebelled against their creators.",
+            "The play's robots were artificial people who were created to serve humans; they eventually rebelled against their creators."
+        ],
+        "correct_answer": 1
+    }
+]

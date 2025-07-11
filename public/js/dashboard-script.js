@@ -457,7 +457,9 @@ async function startTest(testType, practiceSet = '1') {
         timeLimit = Math.max(totalEstimatedTime, 10 * 60); // At least 10 minutes
         
         // Update test info
-        const testTitle = testType === 'shsat' ? `SHSAT Practice Test ${practiceSet}` : 'SAT Practice Test';
+        const testTitle = testType === 'shsat' 
+            ? (practiceSet === 'diagnostic' ? 'SHSAT Diagnostic Test' : `SHSAT Practice Test ${practiceSet}`)
+            : `SAT Practice Test ${practiceSet}`;
         document.getElementById('current-test-title').textContent = testTitle;
         document.getElementById('current-section').textContent = 'Practice Test';
         document.getElementById('total-questions').textContent = testQuestions.length;
