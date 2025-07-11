@@ -127,17 +127,6 @@ const elements = {
     studentSearch: document.getElementById('student-search'),
     studentSearchResults: document.getElementById('student-search-results'),
     viewTestHistoryBtn: document.getElementById('view-test-history-btn'),
-    testHistoryModal: document.getElementById('test-history-modal'),
-    closeTestHistory: document.getElementById('close-test-history'),
-    testHistoryTitle: document.getElementById('test-history-title'),
-    testHistoryLoading: document.getElementById('test-history-loading'),
-    testHistoryContent: document.getElementById('test-history-content'),
-    modalHistoryList: document.getElementById('modal-history-list'),
-    modalEmptyState: document.getElementById('modal-empty-state'),
-    modalTotalAttempts: document.getElementById('modal-total-attempts'),
-    modalAverageScore: document.getElementById('modal-average-score'),
-    modalBestScore: document.getElementById('modal-best-score'),
-    modalTotalTime: document.getElementById('modal-total-time'),
     deleteModal: document.getElementById('delete-modal'),
     deleteUserName: document.getElementById('delete-user-name'),
     deleteUserEmail: document.getElementById('delete-user-email'),
@@ -632,16 +621,8 @@ async function init() {
     elements.studentSearch.addEventListener('input', handleStudentSearch);
     elements.studentSearchResults.addEventListener('click', handleStudentSearchSelect);
     elements.viewTestHistoryBtn.addEventListener('click', handleViewTestHistoryClick);
-    elements.closeTestHistory.addEventListener('click', closeTestHistoryModal);
     elements.cancelDelete.addEventListener('click', closeDeleteModal);
     elements.confirmDelete.addEventListener('click', confirmDeleteUser);
-    
-    // Close modal when clicking outside
-    elements.testHistoryModal.addEventListener('click', (e) => {
-        if (e.target === elements.testHistoryModal) {
-            closeTestHistoryModal();
-        }
-    });
     
     // Close delete modal when clicking outside
     elements.deleteModal.addEventListener('click', (e) => {
@@ -781,237 +762,14 @@ function handleStudentSearchSelect(event) {
 }
 
 // Handle view test history button click
-async function handleViewTestHistoryClick() {
+function handleViewTestHistoryClick() {
     if (!state.selectedStudent) return;
     
-    // Show modal and loading state
-    elements.testHistoryModal.style.display = 'flex';
-    elements.testHistoryLoading.style.display = 'block';
-    elements.testHistoryContent.style.display = 'none';
-    
-    try {
-        const response = await AdminService.getUserTestHistory(state.selectedStudent.id);
-        if (response.success) {
-            const { student, testHistory } = response.data;
-            
-            // Update modal title
-            elements.testHistoryTitle.textContent = `Test History - ${student.name}`;
-            
-            // Display test history
-            displayTestHistory(testHistory);
-            
-            // Hide loading, show content
-            elements.testHistoryLoading.style.display = 'none';
-            elements.testHistoryContent.style.display = 'block';
-        } else {
-            throw new Error(response.message || 'Failed to load test history');
-        }
-    } catch (error) {
-        console.error('Failed to load test history:', error);
-        elements.testHistoryLoading.style.display = 'none';
-        
-        // Show error in modal
-        elements.modalEmptyState.style.display = 'block';
-        elements.modalEmptyState.innerHTML = `
-            <div class="empty-icon">⚠️</div>
-            <h3>Error Loading Test History</h3>
-            <p>${error.message}</p>
-        `;
-    }
+    // Navigate to the admin test history page with student ID parameter
+    window.location.href = `admin-test-history.html?studentId=${state.selectedStudent.id}`;
 }
 
-// Display test history in modal
-function displayTestHistory(testHistory) {
-    if (testHistory.length === 0) {
-        elements.modalHistoryList.style.display = 'none';
-        elements.modalEmptyState.style.display = 'block';
-        return;
-    }
-    
-    // Calculate and update stats
-    updateTestHistoryStats(testHistory);
-    
-    // Render history items
-    elements.modalHistoryList.innerHTML = testHistory.map(test => createTestHistoryItem(test)).join('');
-    elements.modalHistoryList.style.display = 'flex';
-    elements.modalEmptyState.style.display = 'none';
-}
 
-// Update test history stats
-function updateTestHistoryStats(testHistory) {
-    const totalAttempts = testHistory.length;
-    
-    let totalScore = 0;
-    let bestScore = 0;
-    let totalTime = 0;
-
-    testHistory.forEach(test => {
-        totalScore += test.results.percentage;
-        bestScore = Math.max(bestScore, test.results.percentage);
-        totalTime += test.results.timeSpent;
-    });
-
-    const averageScore = totalAttempts > 0 ? Math.round(totalScore / totalAttempts) : 0;
-
-    // Update stats display
-    elements.modalTotalAttempts.textContent = totalAttempts;
-    elements.modalAverageScore.textContent = `${averageScore}%`;
-    elements.modalBestScore.textContent = `${bestScore}%`;
-    elements.modalTotalTime.textContent = formatTestTime(totalTime);
-}
-
-// Create test history item HTML
-function createTestHistoryItem(test) {
-    const date = new Date(test.completedAt);
-    const formattedDate = date.toLocaleDateString('en-US', {
-        year: 'numeric',
-        month: 'short',
-        day: 'numeric',
-        hour: '2-digit',
-        minute: '2-digit'
-    });
-
-    const testTypeLabel = getTestTypeLabel(test.testType);
-    const performance = getPerformanceBadge(test.results.percentage);
-    
-    let scoresHtml = '';
-    
-    // Always show percentage and time
-    scoresHtml += `
-        <div class="score-item percentage-score">
-            <div class="score-value">${test.results.percentage}%</div>
-            <div class="score-label">Overall Score</div>
-        </div>
-        <div class="score-item time-score">
-            <div class="score-value">${formatTestTime(test.results.timeSpent)}</div>
-            <div class="score-label">Time Taken</div>
-        </div>
-    `;
-
-    // Add scaled scores if available
-    if (test.scaledScores && test.scaledScores.total) {
-        // Calculate raw scores from category scores
-        let mathRawScore = { correct: 0, total: 0 };
-        let englishRawScore = { correct: 0, total: 0 };
-        
-        if (test.results.categoryScores) {
-            // Convert Map to object if needed
-            const categoryScores = test.results.categoryScores instanceof Map 
-                ? Object.fromEntries(test.results.categoryScores) 
-                : test.results.categoryScores;
-            
-            Object.entries(categoryScores).forEach(([category, scores]) => {
-                const categoryLower = category.toLowerCase();
-                if (categoryLower.includes('math')) {
-                    mathRawScore.correct += scores.correct;
-                    mathRawScore.total += scores.total;
-                } else if (categoryLower.includes('english') || categoryLower.includes('ela') || categoryLower.includes('reading') || categoryLower.includes('writing')) {
-                    englishRawScore.correct += scores.correct;
-                    englishRawScore.total += scores.total;
-                }
-            });
-        }
-        
-        if (test.testType === 'shsat') {
-            scoresHtml += `
-                <div class="score-item shsat-score">
-                    <div class="score-value">${test.scaledScores.math || 0}</div>
-                    <div class="score-breakdown-raw">${mathRawScore.correct}/${mathRawScore.total}</div>
-                    <div class="score-label">Math</div>
-                </div>
-                <div class="score-item shsat-score">
-                    <div class="score-value">${test.scaledScores.english || 0}</div>
-                    <div class="score-breakdown-raw">${englishRawScore.correct}/${englishRawScore.total}</div>
-                    <div class="score-label">ELA</div>
-                </div>
-                <div class="score-item shsat-score">
-                    <div class="score-value">${test.scaledScores.total}</div>
-                    <div class="score-label">Total</div>
-                </div>
-            `;
-        } else if (test.testType === 'sat') {
-            scoresHtml += `
-                <div class="score-item sat-score">
-                    <div class="score-value">${test.scaledScores.math || 0}</div>
-                    <div class="score-breakdown-raw">${mathRawScore.correct}/${mathRawScore.total}</div>
-                    <div class="score-label">Math</div>
-                </div>
-                <div class="score-item sat-score">
-                    <div class="score-value">${test.scaledScores.reading_writing || 0}</div>
-                    <div class="score-breakdown-raw">${englishRawScore.correct}/${englishRawScore.total}</div>
-                    <div class="score-label">R&W</div>
-                </div>
-                <div class="score-item sat-score">
-                    <div class="score-value">${test.scaledScores.total}</div>
-                    <div class="score-label">Total</div>
-                </div>
-            `;
-        }
-    }
-
-    return `
-        <div class="history-item">
-            <div class="history-item-header">
-                <div>
-                    <div class="history-item-title">${test.testName}</div>
-                    <div class="history-item-date">${formattedDate}</div>
-                </div>
-            </div>
-            
-            <div class="history-scores">
-                ${scoresHtml}
-            </div>
-            
-            <div class="history-item-footer">
-                <div class="performance-indicator">
-                    <span>Performance:</span>
-                    <span class="performance-badge ${performance.class}">${performance.text}</span>
-                </div>
-                <div>
-                    <span style="font-size: 12px; color: #666;">
-                        ${test.results.correctCount}/${test.results.totalQuestions} correct
-                    </span>
-                </div>
-            </div>
-        </div>
-    `;
-}
-
-// Helper functions for test history
-function getTestTypeLabel(testType) {
-    const labels = {
-        'shsat': 'SHSAT',
-        'sat': 'SAT',
-        'state': 'State Test'
-    };
-    return labels[testType] || testType.toUpperCase();
-}
-
-function getPerformanceBadge(percentage) {
-    if (percentage >= 80) {
-        return { class: 'badge-excellent', text: 'Excellent' };
-    } else if (percentage >= 60) {
-        return { class: 'badge-good', text: 'Good' };
-    } else {
-        return { class: 'badge-needs-improvement', text: 'Needs Improvement' };
-    }
-}
-
-function formatTestTime(seconds) {
-    const hours = Math.floor(seconds / 3600);
-    const minutes = Math.floor((seconds % 3600) / 60);
-    
-    if (hours > 0) {
-        return `${hours}h ${minutes}m`;
-    } else {
-        return `${minutes}m`;
-    }
-}
-
-// Close test history modal
-function closeTestHistoryModal() {
-    elements.testHistoryModal.style.display = 'none';
-}
 
 // Start the application when DOM is loaded
 document.addEventListener('DOMContentLoaded', init); 
