@@ -1,0 +1,584 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover">
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; connect-src 'self' http://localhost:3000 https://ai-plus-education.onrender.com; script-src 'self' 'unsafe-inline'; style-src 'self' https://fonts.googleapis.com 'unsafe-inline'; font-src 'self' https://fonts.gstatic.com; img-src 'self' data: https:;">
+    <title>Question Breakdown - Admin - AI Plus Education</title>
+    <link rel="stylesheet" href="dashboard-styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        /* Admin-specific header styles */
+        .admin-header {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 1rem 0;
+        }
+        
+        .admin-header h1 {
+            color: white;
+        }
+        
+        .admin-badge {
+            background: rgba(255, 255, 255, 0.2);
+            padding: 0.25rem 0.75rem;
+            border-radius: 20px;
+            font-size: 0.8rem;
+            font-weight: 500;
+            margin-left: 1rem;
+        }
+
+        /* Breakdown page styles */
+        .breakdown-container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        .back-nav {
+            margin-bottom: 20px;
+        }
+
+        .back-nav button {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            background: none;
+            border: 1px solid #ddd;
+            padding: 8px 16px;
+            border-radius: 6px;
+            color: #666;
+            cursor: pointer;
+            transition: all 0.2s ease;
+        }
+
+        .back-nav button:hover {
+            background: #f5f5f5;
+            color: #333;
+        }
+
+        /* Test Info Header */
+        .test-info-card {
+            background: white;
+            border-radius: 12px;
+            padding: 25px;
+            margin-bottom: 30px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+            border-left: 4px solid #667eea;
+        }
+
+        .test-info-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start;
+            margin-bottom: 20px;
+            flex-wrap: wrap;
+            gap: 15px;
+        }
+
+        .test-info-title {
+            font-size: 24px;
+            font-weight: 600;
+            color: #1f2937;
+            margin-bottom: 8px;
+        }
+
+        .test-info-subtitle {
+            color: #6b7280;
+            font-size: 16px;
+        }
+
+        .test-type-badge {
+            padding: 6px 12px;
+            border-radius: 12px;
+            font-size: 14px;
+            font-weight: 500;
+            text-transform: uppercase;
+        }
+
+        .test-type-shsat {
+            background: #e1f5fe;
+            color: #0277bd;
+        }
+
+        .test-type-sat {
+            background: #fff3e0;
+            color: #f57c00;
+        }
+
+        .test-type-state {
+            background: #e8f5e8;
+            color: #2e7d32;
+        }
+
+        .test-stats-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+            gap: 20px;
+        }
+
+        .test-stat-item {
+            text-align: center;
+            padding: 15px;
+            background: #f8f9fa;
+            border-radius: 8px;
+            border: 1px solid #e9ecef;
+        }
+
+        .test-stat-value {
+            font-size: 20px;
+            font-weight: 600;
+            color: #333;
+            margin-bottom: 4px;
+        }
+
+        .test-stat-label {
+            font-size: 12px;
+            color: #666;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }
+
+        /* Filters and Controls */
+        .breakdown-controls {
+            background: white;
+            padding: 20px;
+            border-radius: 12px;
+            border: 1px solid #e0e0e0;
+            margin-bottom: 30px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .controls-row {
+            display: flex;
+            gap: 15px;
+            align-items: center;
+            flex-wrap: wrap;
+        }
+
+        .control-group {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+
+        .control-select {
+            padding: 8px 12px;
+            border: 1px solid #ddd;
+            border-radius: 6px;
+            background: white;
+            font-size: 14px;
+            min-width: 120px;
+        }
+
+        .view-toggle {
+            display: flex;
+            background: #f3f4f6;
+            border-radius: 6px;
+            padding: 4px;
+        }
+
+        .view-toggle-btn {
+            padding: 6px 12px;
+            border: none;
+            background: transparent;
+            border-radius: 4px;
+            font-size: 14px;
+            cursor: pointer;
+            transition: all 0.2s ease;
+        }
+
+        .view-toggle-btn.active {
+            background: white;
+            box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+        }
+
+        /* Question Breakdown Styles */
+        .questions-section {
+            background: white;
+            border-radius: 12px;
+            padding: 25px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .section-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 20px;
+        }
+
+        .section-title {
+            font-size: 20px;
+            font-weight: 600;
+            color: #1f2937;
+        }
+
+        .summary-text {
+            color: #6b7280;
+            font-size: 14px;
+        }
+
+        /* List View */
+        .questions-list {
+            display: flex;
+            flex-direction: column;
+            gap: 12px;
+        }
+
+        .question-item {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 15px 20px;
+            background: #f8f9fa;
+            border: 1px solid #e9ecef;
+            border-radius: 8px;
+            transition: all 0.2s ease;
+        }
+
+        .question-item:hover {
+            border-color: #667eea;
+            box-shadow: 0 2px 8px rgba(102, 126, 234, 0.1);
+        }
+
+        .question-info {
+            display: flex;
+            align-items: center;
+            gap: 15px;
+        }
+
+        .question-number {
+            font-size: 18px;
+            font-weight: 600;
+            color: #333;
+            min-width: 40px;
+        }
+
+        .question-category {
+            padding: 4px 8px;
+            background: #e1f5fe;
+            color: #0277bd;
+            border-radius: 12px;
+            font-size: 12px;
+            font-weight: 500;
+        }
+
+        .question-stats {
+            display: flex;
+            align-items: center;
+            gap: 15px;
+        }
+
+        .question-percentage {
+            font-size: 18px;
+            font-weight: 600;
+            min-width: 50px;
+        }
+
+        .percentage-excellent { color: #059669; }
+        .percentage-good { color: #0ea5e9; }
+        .percentage-average { color: #f59e0b; }
+        .percentage-poor { color: #dc2626; }
+
+        .question-breakdown-stats {
+            font-size: 12px;
+            color: #666;
+        }
+
+        .difficulty-indicator {
+            width: 20px;
+            height: 20px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 12px;
+            font-weight: bold;
+            color: white;
+        }
+
+        .difficulty-easy { background: #059669; }
+        .difficulty-medium { background: #f59e0b; }
+        .difficulty-hard { background: #dc2626; }
+
+        /* Grid View */
+        .questions-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(80px, 1fr));
+            gap: 10px;
+        }
+
+        .question-grid-item {
+            aspect-ratio: 1;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            border: 2px solid #e9ecef;
+            border-radius: 8px;
+            padding: 8px;
+            cursor: pointer;
+            transition: all 0.2s ease;
+            position: relative;
+        }
+
+        .question-grid-item:hover {
+            border-color: #667eea;
+            box-shadow: 0 2px 8px rgba(102, 126, 234, 0.1);
+        }
+
+        .grid-question-number {
+            font-size: 16px;
+            font-weight: 600;
+            color: #333;
+            margin-bottom: 4px;
+        }
+
+        .grid-question-percentage {
+            font-size: 14px;
+            font-weight: 600;
+        }
+
+        .grid-question-category {
+            position: absolute;
+            top: -6px;
+            right: -6px;
+            width: 12px;
+            height: 12px;
+            border-radius: 50%;
+        }
+
+        .category-math { background: #0ea5e9; }
+        .category-english { background: #059669; }
+
+        /* Loading and Error States */
+        .loading-state {
+            text-align: center;
+            padding: 60px 20px;
+            color: #666;
+            background: white;
+            border-radius: 12px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .spinner {
+            border: 3px solid #f3f3f3;
+            border-top: 3px solid #667eea;
+            border-radius: 50%;
+            width: 40px;
+            height: 40px;
+            animation: spin 1s linear infinite;
+            margin: 0 auto 15px;
+        }
+
+        @keyframes spin {
+            0% { transform: rotate(0deg); }
+            100% { transform: rotate(360deg); }
+        }
+
+        .error-state {
+            text-align: center;
+            padding: 60px 20px;
+            color: #666;
+            background: white;
+            border-radius: 12px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .error-state .error-icon {
+            font-size: 48px;
+            margin-bottom: 16px;
+            color: #dc2626;
+        }
+
+        .error-state h3 {
+            margin-bottom: 8px;
+            color: #dc2626;
+        }
+
+        @media (max-width: 768px) {
+            .breakdown-container {
+                padding: 15px;
+            }
+
+            .test-info-header {
+                flex-direction: column;
+                align-items: flex-start;
+            }
+
+            .test-stats-grid {
+                grid-template-columns: repeat(2, 1fr);
+            }
+
+            .controls-row {
+                flex-direction: column;
+                align-items: stretch;
+            }
+
+            .control-select {
+                min-width: unset;
+            }
+
+            .question-stats {
+                flex-direction: column;
+                gap: 8px;
+                align-items: flex-end;
+            }
+
+            .questions-grid {
+                grid-template-columns: repeat(auto-fill, minmax(60px, 1fr));
+                gap: 8px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Header -->
+    <header class="header admin-header">
+        <div class="container">
+            <div class="nav-brand">
+                <h1>AI Plus Education<span class="admin-badge">Admin</span></h1>
+                <a href="dashboard.html" class="admin-toggle">Student View</a>
+            </div>
+            <nav class="nav">
+                <div class="nav-links">
+                    
+                </div>
+                <div class="user-info">
+                    <span class="welcome-text">Admin: <span id="user-name">Admin</span></span>
+                    <button id="logout-btn" class="btn btn-outline">Logout</button>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main class="main-content">
+        <div class="breakdown-container">
+            <!-- Back Navigation -->
+            <div class="back-nav">
+                <button onclick="window.location.href='admin-question-analytics.html'">
+                    ← Back to Question Analytics
+                </button>
+            </div>
+
+            <!-- Test Information Card -->
+            <div class="test-info-card" id="test-info-card" style="display: none;">
+                <div class="test-info-header">
+                    <div>
+                        <div class="test-info-title" id="test-name">Test Name</div>
+                        <div class="test-info-subtitle" id="test-subtitle">Test Type • Practice Set</div>
+                    </div>
+                    <div class="test-type-badge" id="test-type-badge">
+                        TEST
+                    </div>
+                </div>
+                
+                <div class="test-stats-grid">
+                    <div class="test-stat-item">
+                        <div class="test-stat-value" id="total-attempts">0</div>
+                        <div class="test-stat-label">Student Attempts</div>
+                    </div>
+                    <div class="test-stat-item">
+                        <div class="test-stat-value" id="total-questions">0</div>
+                        <div class="test-stat-label">Total Questions</div>
+                    </div>
+                    <div class="test-stat-item">
+                        <div class="test-stat-value" id="average-accuracy">0%</div>
+                        <div class="test-stat-label">Average Accuracy</div>
+                    </div>
+                    <div class="test-stat-item">
+                        <div class="test-stat-value" id="average-score">0%</div>
+                        <div class="test-stat-label">Average Score</div>
+                    </div>
+                    <div class="test-stat-item">
+                        <div class="test-stat-value" id="highest-score">0%</div>
+                        <div class="test-stat-label">Highest Score</div>
+                    </div>
+                    <div class="test-stat-item">
+                        <div class="test-stat-value" id="lowest-score">0%</div>
+                        <div class="test-stat-label">Lowest Score</div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Controls -->
+            <div class="breakdown-controls" id="controls" style="display: none;">
+                <div class="controls-row">
+                    <div class="control-group">
+                        <label for="category-filter">Category:</label>
+                        <select id="category-filter" class="control-select">
+                            <option value="all">All Categories</option>
+                        </select>
+                    </div>
+                    <div class="control-group">
+                        <label for="sort-questions">Sort by:</label>
+                        <select id="sort-questions" class="control-select">
+                            <option value="number">Question Number</option>
+                            <option value="accuracy-low">Accuracy (Low to High)</option>
+                            <option value="accuracy-high">Accuracy (High to Low)</option>
+                            <option value="attempts">Most Attempts</option>
+                        </select>
+                    </div>
+                    <div class="control-group">
+                        <label for="difficulty-filter">Difficulty:</label>
+                        <select id="difficulty-filter" class="control-select">
+                            <option value="all">All Difficulties</option>
+                            <option value="easy">Easy (80%+)</option>
+                            <option value="medium">Medium (50-79%)</option>
+                            <option value="hard">Hard (<50%)</option>
+                        </select>
+                    </div>
+                    <div class="control-group">
+                        <label>View:</label>
+                        <div class="view-toggle">
+                            <button class="view-toggle-btn active" id="list-view-btn">List</button>
+                            <button class="view-toggle-btn" id="grid-view-btn">Grid</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Loading State -->
+            <div class="loading-state" id="loading-state">
+                <div class="spinner"></div>
+                <h3>Loading Question Breakdown</h3>
+                <p>Analyzing detailed question performance data...</p>
+            </div>
+
+            <!-- Questions Section -->
+            <div class="questions-section" id="questions-section" style="display: none;">
+                <div class="section-header">
+                    <div class="section-title">Question Performance Breakdown</div>
+                    <div class="summary-text" id="questions-summary">
+                        Showing all questions
+                    </div>
+                </div>
+                
+                <!-- List View -->
+                <div class="questions-list" id="questions-list">
+                    <!-- Question items will be populated here -->
+                </div>
+                
+                <!-- Grid View -->
+                <div class="questions-grid" id="questions-grid" style="display: none;">
+                    <!-- Question grid items will be populated here -->
+                </div>
+            </div>
+
+            <!-- Error State -->
+            <div class="error-state" id="error-state" style="display: none;">
+                <div class="error-icon">⚠️</div>
+                <h3>Error Loading Question Breakdown</h3>
+                <p id="error-message">Failed to load question breakdown data.</p>
+                <button onclick="window.location.reload()" class="btn btn-primary">
+                    Try Again
+                </button>
+            </div>
+        </div>
+    </main>
+
+    <script src="/js/admin-question-breakdown-script.js" type="module"></script>
+</body>
+</html> 

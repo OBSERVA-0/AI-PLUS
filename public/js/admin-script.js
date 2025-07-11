@@ -92,6 +92,17 @@ class AdminService {
             method: 'DELETE'
         });
     }
+
+    static async getStudentsByTestScore(testType, practiceSet, page = 1) {
+        const params = new URLSearchParams({
+            testType,
+            practiceSet,
+            page: page.toString(),
+            limit: '20'
+        });
+        
+        return this.makeRequest(`/admin/students/test-scores?${params}`);
+    }
 }
 
 // State management
@@ -100,12 +111,16 @@ const state = {
     totalPages: 1,
     searchQuery: '',
     gradeFilter: 'all',
+    sortMode: 'regular', // 'regular' or 'test-score'
+    selectedTestType: '',
+    selectedPracticeSet: '',
     students: [],
     loading: false,
     allStudents: [], // Store all students for search
     selectedStudent: null, // Currently selected student for test history
     searchTimeout: null,
-    userToDelete: null // Store user data for deletion confirmation
+    userToDelete: null, // Store user data for deletion confirmation
+    testInfo: null // Store current test info when in test-score mode
 };
 
 // DOM elements
@@ -116,6 +131,10 @@ const elements = {
     recentActivity: document.getElementById('recent-activity'),
     searchInput: document.getElementById('search-input'),
     gradeFilter: document.getElementById('grade-filter'),
+    sortModeToggle: document.getElementById('sort-mode-toggle'),
+    testTypeSelect: document.getElementById('test-type-select'),
+    practiceSetSelect: document.getElementById('practice-set-select'),
+    testScoreControls: document.getElementById('test-score-controls'),
     studentsLoading: document.getElementById('students-loading'),
     studentsError: document.getElementById('students-error'),
     studentsGrid: document.getElementById('students-grid'),
@@ -265,6 +284,104 @@ function createStudentCard(student) {
     `;
 }
 
+// Create test score student card HTML
+function createTestScoreCard(student, rank) {
+    const testDate = student.latestAttempt ? formatDate(student.latestAttempt.date) : 'N/A';
+    const timeSpent = student.latestAttempt ? formatTime(Math.round(student.latestAttempt.timeSpent / 60)) : 'N/A';
+    
+    // Format scaled scores breakdown
+    let scaledScoreDisplay = '';
+    if (student.bestScaledScore.math !== undefined && student.bestScaledScore.english !== undefined) {
+        // SHSAT format
+        scaledScoreDisplay = `
+            <div class="meta-item">
+                <div class="meta-label">Math</div>
+                <div class="meta-value">${student.bestScaledScore.math}</div>
+            </div>
+            <div class="meta-item">
+                <div class="meta-label">English</div>
+                <div class="meta-value">${student.bestScaledScore.english}</div>
+            </div>
+        `;
+    } else if (student.bestScaledScore.reading_writing !== undefined) {
+        // SAT format
+        scaledScoreDisplay = `
+            <div class="meta-item">
+                <div class="meta-label">Math</div>
+                <div class="meta-value">${student.bestScaledScore.math}</div>
+            </div>
+            <div class="meta-item">
+                <div class="meta-label">R&W</div>
+                <div class="meta-value">${student.bestScaledScore.reading_writing}</div>
+            </div>
+        `;
+    }
+
+    // Rank badge color
+    let rankClass = '';
+    if (rank === 1) rankClass = 'rank-gold';
+    else if (rank === 2) rankClass = 'rank-silver';
+    else if (rank === 3) rankClass = 'rank-bronze';
+    else if (rank <= 10) rankClass = 'rank-top10';
+
+    return `
+        <div class="student-card test-score-card" data-student-id="${student.id}">
+            <div class="student-header">
+                <div class="student-info">
+                    <h3>
+                        <span class="rank-badge ${rankClass}">#${rank}</span>
+                        ${student.name}
+                    </h3>
+                    <p>${student.email}</p>
+                </div>
+                                 <div class="student-badges">
+                     <span class="grade-badge">Grade ${student.grade}</span>
+                     <span class="score-badge scaled" title="Total Scaled Score">${student.bestScaledTotal}</span>
+                 </div>
+            </div>
+            
+                         <div class="student-meta">
+                 <div class="meta-item score-highlight">
+                     <div class="meta-label">Best Score</div>
+                     <div class="meta-value">${student.bestScaledTotal}</div>
+                 </div>
+                 <div class="meta-item">
+                     <div class="meta-label">Percentage</div>
+                     <div class="meta-value">${student.bestPercentage}%</div>
+                 </div>
+                <div class="meta-item">
+                    <div class="meta-label">Attempts</div>
+                    <div class="meta-value">${student.totalAttempts}</div>
+                </div>
+                <div class="meta-item">
+                    <div class="meta-label">Latest</div>
+                    <div class="meta-value">${testDate}</div>
+                </div>
+                <div class="meta-item">
+                    <div class="meta-label">Time Spent</div>
+                    <div class="meta-value">${timeSpent}</div>
+                </div>
+                ${scaledScoreDisplay}
+                ${student.latestAttempt ? `
+                    <div class="meta-item">
+                        <div class="meta-label">Correct</div>
+                        <div class="meta-value">${student.latestAttempt.correctCount}/${student.latestAttempt.totalQuestions}</div>
+                    </div>
+                ` : ''}
+            </div>
+            
+            <div class="student-actions">
+                <button class="btn-action btn-view" onclick="window.location.href='profile-view.html?userId=${student.id}'" title="View Profile">
+                    👁️ View
+                </button>
+                <button class="btn-action btn-delete" data-student-id="${student.id}" data-student-name="${student.name}" title="Delete User">
+                    🗑️ Delete
+                </button>
+            </div>
+        </div>
+    `;
+}
+
 // Create pagination HTML
 function createPagination(current, total) {
     if (total <= 1) return '';
@@ -320,8 +437,6 @@ async function loadStudents(page = 1, search = '', grade = 'all') {
     
     state.loading = true;
     state.currentPage = page;
-    state.searchQuery = search;
-    state.gradeFilter = grade;
     
     // Show loading state
     elements.studentsLoading.style.display = 'block';
@@ -330,39 +445,73 @@ async function loadStudents(page = 1, search = '', grade = 'all') {
     elements.pagination.style.display = 'none';
     
     try {
-        const response = await AdminService.getStudents(page, search, grade);
-        const { students, pagination } = response.data;
+        let response;
         
-        state.students = students;
-        state.totalPages = pagination.total;
-        
-        // Update students count
-        elements.studentsCount.textContent = `${pagination.count} of ${pagination.totalStudents} students`;
-        
-        // Render students
-        if (students.length === 0) {
-            let message = 'No students found';
-            if (search && grade !== 'all') {
-                message += ` matching your search in grade ${grade}`;
-            } else if (search) {
-                message += ' matching your search';
-            } else if (grade !== 'all') {
-                message += ` in grade ${grade}`;
-            }
-            message += '.';
+        if (state.sortMode === 'test-score' && state.selectedTestType && state.selectedPracticeSet) {
+            // Load students by test score
+            response = await AdminService.getStudentsByTestScore(state.selectedTestType, state.selectedPracticeSet, page);
             
-            elements.studentsGrid.innerHTML = `
-                <div class="loading">
-                    ${message}
-                </div>
-            `;
+            const { students, pagination, testInfo, summary } = response.data;
+            
+            state.students = students;
+            state.totalPages = pagination.total;
+            state.testInfo = testInfo;
+            
+            // Update students count with test info
+            elements.studentsCount.textContent = `${testInfo.testName}: ${summary.totalStudentsWhoTook} students (Avg Score: ${summary.averageScaledScore})`;
+            
+            // Render test score cards
+            if (students.length === 0) {
+                elements.studentsGrid.innerHTML = `
+                    <div class="loading">
+                        No students have taken ${testInfo.testName} yet.
+                    </div>
+                `;
+            } else {
+                elements.studentsGrid.innerHTML = students.map((student, index) => 
+                    createTestScoreCard(student, (page - 1) * 20 + index + 1)
+                ).join('');
+            }
+            
         } else {
-            elements.studentsGrid.innerHTML = students.map(createStudentCard).join('');
+            // Load regular students view
+            state.searchQuery = search;
+            state.gradeFilter = grade;
+            
+            response = await AdminService.getStudents(page, search, grade);
+            const { students, pagination } = response.data;
+            
+            state.students = students;
+            state.totalPages = pagination.total;
+            
+            // Update students count
+            elements.studentsCount.textContent = `${pagination.count} of ${pagination.totalStudents} students`;
+            
+            // Render regular student cards
+            if (students.length === 0) {
+                let message = 'No students found';
+                if (search && grade !== 'all') {
+                    message += ` matching your search in grade ${grade}`;
+                } else if (search) {
+                    message += ' matching your search';
+                } else if (grade !== 'all') {
+                    message += ` in grade ${grade}`;
+                }
+                message += '.';
+                
+                elements.studentsGrid.innerHTML = `
+                    <div class="loading">
+                        ${message}
+                    </div>
+                `;
+            } else {
+                elements.studentsGrid.innerHTML = students.map(createStudentCard).join('');
+            }
         }
         
         // Render pagination
-        if (pagination.total > 1) {
-            elements.pagination.innerHTML = createPagination(pagination.current, pagination.total);
+        if (response.data.pagination.total > 1) {
+            elements.pagination.innerHTML = createPagination(response.data.pagination.current, response.data.pagination.total);
             elements.pagination.style.display = 'flex';
         }
         
@@ -411,7 +560,88 @@ function handleGradeFilter() {
 function handlePaginationClick(event) {
     if (event.target.tagName === 'BUTTON' && event.target.dataset.page) {
         const page = parseInt(event.target.dataset.page);
-        loadStudents(page, state.searchQuery, state.gradeFilter);
+        if (state.sortMode === 'test-score') {
+            loadStudents(page);
+        } else {
+            loadStudents(page, state.searchQuery, state.gradeFilter);
+        }
+    }
+}
+
+// Handle sort mode toggle
+function handleSortModeChange() {
+    const sortMode = elements.sortModeToggle.value;
+    state.sortMode = sortMode;
+    
+    if (sortMode === 'test-score') {
+        // Show test score controls, hide regular search/filter
+        elements.testScoreControls.style.display = 'flex';
+        document.getElementById('regular-search').style.display = 'none';
+        document.getElementById('regular-grade').style.display = 'none';
+        
+        // Reset and populate test type options
+        handleTestTypeChange();
+    } else {
+        // Show regular search/filter, hide test score controls
+        elements.testScoreControls.style.display = 'none';
+        document.getElementById('regular-search').style.display = 'block';
+        document.getElementById('regular-grade').style.display = 'block';
+        
+        // Load regular students view
+        loadStudents(1, state.searchQuery, state.gradeFilter);
+    }
+}
+
+// Handle test type change
+function handleTestTypeChange() {
+    const testType = elements.testTypeSelect.value;
+    const practiceSetSelect = elements.practiceSetSelect;
+    const loadButton = document.getElementById('load-test-scores');
+    
+    // Clear practice set options
+    practiceSetSelect.innerHTML = '<option value="">Select Practice Set</option>';
+    practiceSetSelect.disabled = !testType;
+    loadButton.disabled = true;
+    
+    if (testType === 'shsat') {
+        // Add SHSAT practice sets
+        practiceSetSelect.innerHTML += `
+            <option value="Diagnostic_Test">Diagnostic Test</option>
+            <option value="1">Practice Test 1</option>
+            <option value="2">Practice Test 2</option>
+            <option value="3">Practice Test 3</option>
+            <option value="4">Practice Test 4</option>
+            <option value="5">Practice Test 5</option>
+        `;
+        practiceSetSelect.disabled = false;
+    } else if (testType === 'sat') {
+        // Add SAT practice sets
+        practiceSetSelect.innerHTML += `
+            <option value="1">Practice Test 1</option>
+            <option value="2">Practice Test 2</option>
+        `;
+        practiceSetSelect.disabled = false;
+    }
+}
+
+// Handle practice set change
+function handlePracticeSetChange() {
+    const testType = elements.testTypeSelect.value;
+    const practiceSet = elements.practiceSetSelect.value;
+    const loadButton = document.getElementById('load-test-scores');
+    
+    loadButton.disabled = !(testType && practiceSet);
+}
+
+// Handle load test scores button
+function handleLoadTestScores() {
+    const testType = elements.testTypeSelect.value;
+    const practiceSet = elements.practiceSetSelect.value;
+    
+    if (testType && practiceSet) {
+        state.selectedTestType = testType;
+        state.selectedPracticeSet = practiceSet;
+        loadStudents(1);
     }
 }
 
@@ -623,6 +853,21 @@ async function init() {
     elements.viewTestHistoryBtn.addEventListener('click', handleViewTestHistoryClick);
     elements.cancelDelete.addEventListener('click', closeDeleteModal);
     elements.confirmDelete.addEventListener('click', confirmDeleteUser);
+    
+    // Test score sorting event listeners
+    if (elements.sortModeToggle) {
+        elements.sortModeToggle.addEventListener('change', handleSortModeChange);
+    }
+    if (elements.testTypeSelect) {
+        elements.testTypeSelect.addEventListener('change', handleTestTypeChange);
+    }
+    if (elements.practiceSetSelect) {
+        elements.practiceSetSelect.addEventListener('change', handlePracticeSetChange);
+    }
+    const loadTestScoresBtn = document.getElementById('load-test-scores');
+    if (loadTestScoresBtn) {
+        loadTestScoresBtn.addEventListener('click', handleLoadTestScores);
+    }
     
     // Close delete modal when clicking outside
     elements.deleteModal.addEventListener('click', (e) => {
