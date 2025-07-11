@@ -378,7 +378,8 @@ router.post('/update-stats', auth, async (req, res) => {
     testProgress.testsCompleted = newTestsCompleted;
     testProgress.averageScore = newAverageScore;
     testProgress.bestScore = Math.max(testProgress.bestScore, score);
-    testProgress.timeSpent = testProgress.timeSpent + timeSpent;
+    // Convert timeSpent from seconds to minutes before adding to testProgress
+    testProgress.timeSpent = testProgress.timeSpent + Math.round(timeSpent / 60);
     testProgress.lastAttempt = new Date();
     
     // Update SHSAT scaled scores if provided

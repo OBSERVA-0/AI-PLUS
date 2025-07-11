@@ -1,0 +1,57 @@
+<svg width="400" height="400" viewBox="0 0 400 400" xmlns="http://www.w3.org/2000/svg">
+  <!-- Grid lines -->
+  <!-- Vertical grid lines -->
+  <line x1="80" y1="60" x2="80" y2="340" stroke="#666666" stroke-width="1"/>
+  <line x1="140" y1="60" x2="140" y2="340" stroke="#666666" stroke-width="1"/>
+  <line x1="200" y1="60" x2="200" y2="340" stroke="#666666" stroke-width="1"/>
+  <line x1="260" y1="60" x2="260" y2="340" stroke="#666666" stroke-width="1"/>
+  <line x1="320" y1="60" x2="320" y2="340" stroke="#666666" stroke-width="1"/>
+  
+  <!-- Horizontal grid lines -->
+  <line x1="20" y1="100" x2="360" y2="100" stroke="#666666" stroke-width="1"/>
+  <line x1="20" y1="160" x2="360" y2="160" stroke="#666666" stroke-width="1"/>
+  <line x1="20" y1="220" x2="360" y2="220" stroke="#666666" stroke-width="1"/>
+  <line x1="20" y1="280" x2="360" y2="280" stroke="#666666" stroke-width="1"/>
+  <line x1="20" y1="340" x2="360" y2="340" stroke="#666666" stroke-width="1"/>
+  
+  <!-- Axes -->
+  <!-- X-axis -->
+  <line x1="20" y1="340" x2="380" y2="340" stroke="#000000" stroke-width="2"/>
+  <polygon points="380,340 375,335 375,345" fill="#000000"/>
+  
+  <!-- Y-axis -->
+  <line x1="20" y1="340" x2="20" y2="40" stroke="#000000" stroke-width="2"/>
+  <polygon points="20,40 15,45 25,45" fill="#000000"/>
+  
+  <!-- Shaded rectangle from (0,0) to (2,3) -->
+  <rect x="20" y="160" width="120" height="180" fill="#cccccc" stroke="#000000" stroke-width="1"/>
+  
+  <!-- Add texture pattern to shaded area -->
+  <defs>
+    <pattern id="texture" patternUnits="userSpaceOnUse" width="4" height="4">
+      <rect width="4" height="4" fill="#cccccc"/>
+      <circle cx="1" cy="1" r="0.3" fill="#999999"/>
+      <circle cx="3" cy="3" r="0.3" fill="#999999"/>
+      <circle cx="2" cy="0.5" r="0.2" fill="#999999"/>
+      <circle cx="0.5" cy="2.5" r="0.2" fill="#999999"/>
+    </pattern>
+  </defs>
+  <rect x="20" y="160" width="120" height="180" fill="url(#texture)" stroke="#000000" stroke-width="1"/>
+  
+  <!-- X-axis labels -->
+  <text x="15" y="355" font-family="Arial, sans-serif" font-size="14" fill="#000000">0</text>
+  <text x="75" y="355" font-family="Arial, sans-serif" font-size="14" fill="#000000">1</text>
+  <text x="135" y="355" font-family="Arial, sans-serif" font-size="14" fill="#000000">2</text>
+  <text x="195" y="355" font-family="Arial, sans-serif" font-size="14" fill="#000000">3</text>
+  <text x="255" y="355" font-family="Arial, sans-serif" font-size="14" fill="#000000">4</text>
+  
+  <!-- Y-axis labels -->
+  <text x="5" y="345" font-family="Arial, sans-serif" font-size="14" fill="#000000">0</text>
+  <text x="5" y="285" font-family="Arial, sans-serif" font-size="14" fill="#000000">1</text>
+  <text x="5" y="225" font-family="Arial, sans-serif" font-size="14" fill="#000000">2</text>
+  <text x="5" y="165" font-family="Arial, sans-serif" font-size="14" fill="#000000">3</text>
+  <text x="5" y="105" font-family="Arial, sans-serif" font-size="14" fill="#000000">4</text>
+  
+  <!-- Problem number -->
+  <text x="20" y="25" font-family="Arial, sans-serif" font-size="16" fill="#000000">61.</text>
+</svg>

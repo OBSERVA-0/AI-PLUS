@@ -305,10 +305,10 @@ userSchema.methods.getStats = function() {
                     this.testProgress.sat.testsCompleted + 
                     this.testProgress.stateTest.testsCompleted;
   
-  // Calculate total time spent
-  const totalTimeSpent = this.testProgress.shsat.timeSpent + 
+  // Calculate total time spent (convert from minutes to seconds for frontend)
+  const totalTimeSpent = (this.testProgress.shsat.timeSpent + 
                         this.testProgress.sat.timeSpent + 
-                        this.testProgress.stateTest.timeSpent;
+                        this.testProgress.stateTest.timeSpent) * 60;
   
   // Calculate average score only from tests that have been taken
   let totalScore = 0;

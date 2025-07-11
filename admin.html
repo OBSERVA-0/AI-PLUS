@@ -1014,8 +1014,25 @@
             <!-- Admin Tools -->
             <section class="admin-tools">
                 <div class="tool-card">
-                    <h3>Admin Tools</h3>
-                    <p>Use these tools for site management.</p>
+                    <h3>Current Test Code</h3>
+                    <p>Share this code with students to allow them to take tests.</p>
+                    <div id="current-test-code-display" style="margin: 15px 0;">
+                        <div style="display: flex; align-items: center; gap: 10px;">
+                            <div style="background: #f0f9ff; border: 2px solid #0ea5e9; border-radius: 8px; padding: 10px 15px; font-family: 'Courier New', monospace; font-size: 24px; font-weight: bold; color: #0369a1; letter-spacing: 2px;">
+                                <span id="current-test-code">---</span>
+                            </div>
+                            <button id="copy-code-btn" class="btn btn-secondary" style="padding: 8px 12px; font-size: 12px;" title="Copy to clipboard">
+                                📋 Copy
+                            </button>
+                        </div>
+                        <div id="test-code-loading" style="display: none; color: #666; font-style: italic;">Loading...</div>
+                        <div id="test-code-error" style="display: none; color: #dc2626; font-size: 14px;">Failed to load test code</div>
+                    </div>
+                </div>
+                
+                <div class="tool-card">
+                    <h3>Generate New Code</h3>
+                    <p>Create a new test code (this will invalidate the current one).</p>
                     <button id="generate-code-btn" class="btn btn-secondary">Generate New Test Code</button>
                 </div>
                 

@@ -317,6 +317,33 @@ router.get('/dashboard-stats', auth, requireAdmin, async (req, res) => {
   }
 });
 
+// @route   GET /api/admin/test-code
+// @desc    Get the current global test code
+// @access  Private (Admin only)
+router.get('/test-code', auth, requireAdmin, async (req, res) => {
+  try {
+    const testCode = await TestCode.findOne({ name: 'global' });
+    if (!testCode) {
+      return res.status(404).json({
+        success: false,
+        message: 'Global test code not found.'
+      });
+    }
+    res.json({
+      success: true,
+      data: {
+        code: testCode.code
+      }
+    });
+  } catch (error) {
+    console.error('❌ Get test code error:', error);
+    res.status(500).json({
+      success: false,
+      message: 'Error retrieving test code'
+    });
+  }
+});
+
 // @route   POST /api/admin/generate-test-code
 // @desc    Generate a new global test code
 // @access  Private (Admin only)

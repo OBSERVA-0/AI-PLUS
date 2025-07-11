@@ -73,6 +73,10 @@ class AdminService {
         return this.makeRequest(`/admin/student/${id}`);
     }
 
+    static async getTestCode() {
+        return this.makeRequest('/admin/test-code');
+    }
+
     static async generateTestCode() {
         return this.makeRequest('/admin/generate-test-code', {
             method: 'POST'
@@ -500,6 +504,64 @@ async function confirmDeleteUser() {
     }
 }
 
+// Load current test code
+async function loadCurrentTestCode() {
+    const codeElement = document.getElementById('current-test-code');
+    const loadingElement = document.getElementById('test-code-loading');
+    const errorElement = document.getElementById('test-code-error');
+    
+    try {
+        // Show loading state
+        loadingElement.style.display = 'block';
+        errorElement.style.display = 'none';
+        codeElement.textContent = '---';
+        
+        const response = await AdminService.getTestCode();
+        if (response.success) {
+            codeElement.textContent = response.data.code;
+            loadingElement.style.display = 'none';
+        } else {
+            throw new Error(response.message || 'Failed to load test code');
+        }
+    } catch (error) {
+        console.error('Failed to load test code:', error);
+        loadingElement.style.display = 'none';
+        errorElement.style.display = 'block';
+        errorElement.textContent = error.message;
+    }
+}
+
+// Handle copy test code button click
+async function handleCopyCodeClick() {
+    const codeElement = document.getElementById('current-test-code');
+    const copyBtn = document.getElementById('copy-code-btn');
+    const code = codeElement.textContent;
+    
+    if (code === '---') {
+        alert('No test code to copy');
+        return;
+    }
+    
+    try {
+        await navigator.clipboard.writeText(code);
+        
+        // Visual feedback
+        const originalText = copyBtn.textContent;
+        copyBtn.textContent = '✅ Copied!';
+        copyBtn.style.background = '#d1fae5';
+        copyBtn.style.color = '#065f46';
+        
+        setTimeout(() => {
+            copyBtn.textContent = originalText;
+            copyBtn.style.background = '';
+            copyBtn.style.color = '';
+        }, 2000);
+    } catch (error) {
+        console.error('Failed to copy code:', error);
+        alert('Failed to copy code to clipboard');
+    }
+}
+
 // Handle generate test code button click
 async function handleGenerateCodeClick() {
     if (!confirm('Are you sure you want to generate a new test code? This will invalidate the old one.')) {
@@ -510,6 +572,8 @@ async function handleGenerateCodeClick() {
         const response = await AdminService.generateTestCode();
         if (response.success) {
             alert(`New test code generated: ${response.data.code}`);
+            // Refresh the current test code display
+            await loadCurrentTestCode();
         } else {
             throw new Error(response.message || 'Failed to generate code');
         }
@@ -564,6 +628,7 @@ async function init() {
     elements.studentsGrid.addEventListener('click', handleStudentClick);
     elements.logoutBtn.addEventListener('click', handleLogout);
     elements.generateCodeBtn.addEventListener('click', handleGenerateCodeClick);
+    document.getElementById('copy-code-btn').addEventListener('click', handleCopyCodeClick);
     elements.studentSearch.addEventListener('input', handleStudentSearch);
     elements.studentSearchResults.addEventListener('click', handleStudentSearchSelect);
     elements.viewTestHistoryBtn.addEventListener('click', handleViewTestHistoryClick);
@@ -596,7 +661,8 @@ async function init() {
     await Promise.all([
         loadDashboardStats(),
         loadStudents(),
-        loadAllStudents()
+        loadAllStudents(),
+        loadCurrentTestCode()
     ]);
 }
 

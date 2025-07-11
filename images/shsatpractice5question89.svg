@@ -1,0 +1,30 @@
+<svg width="400" height="120" viewBox="0 0 400 120" xmlns="http://www.w3.org/2000/svg">
+  <!-- Number line -->
+  <line x1="50" y1="70" x2="350" y2="70" stroke="#000000" stroke-width="2"/>
+  
+  <!-- Left arrow -->
+  <polygon points="50,70 55,65 55,75" fill="#000000"/>
+  
+  <!-- Right arrow -->
+  <polygon points="350,70 345,65 345,75" fill="#000000"/>
+  
+  <!-- Tick marks -->
+  <!-- Point A -->
+  <line x1="120" y1="65" x2="120" y2="75" stroke="#000000" stroke-width="2"/>
+  
+  <!-- Point B -->
+  <line x1="280" y1="65" x2="280" y2="75" stroke="#000000" stroke-width="2"/>
+  
+  <!-- Point labels -->
+  <text x="120" y="50" font-family="Arial, sans-serif" font-size="14" text-anchor="middle" fill="#000000">A</text>
+  <text x="280" y="50" font-family="Arial, sans-serif" font-size="14" text-anchor="middle" fill="#000000">B</text>
+  
+  <!-- Mixed number label -->
+  <text x="100" y="95" font-family="Arial, sans-serif" font-size="12" fill="#000000">1</text>
+  <text x="115" y="90" font-family="Arial, sans-serif" font-size="10" fill="#000000">7</text>
+  <line x1="112" y1="92" x2="122" y2="92" stroke="#000000" stroke-width="1"/>
+  <text x="117" y="102" font-family="Arial, sans-serif" font-size="10" fill="#000000">8</text>
+  
+  <!-- Problem number -->
+  <text x="20" y="25" font-family="Arial, sans-serif" font-size="16" fill="#000000">89.</text>
+</svg>
