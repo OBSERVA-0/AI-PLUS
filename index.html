@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover">
     <meta http-equiv="Content-Security-Policy" content="default-src 'self'; connect-src 'self' http://localhost:3000 https://ai-plus-education.onrender.com; script-src 'self' 'unsafe-inline'; style-src 'self' https://fonts.googleapis.com 'unsafe-inline'; font-src 'self' https://fonts.gstatic.com; img-src 'self' data: https:;">
     <title>AI Plus Education - Practice Tests & Test Prep</title>
     <link rel="stylesheet" href="styles.css">
@@ -32,6 +32,31 @@
                     <div id="language-dropdown" class="language-dropdown">
                         <button data-lang="en">English</button>
                         <button data-lang="zh">中文</button>
+                    </div>
+                </div>
+                <button class="mobile-nav-toggle" id="mobile-nav-toggle">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+                <div class="mobile-nav-menu" id="mobile-nav-menu">
+                    <ul>
+                        <li><a href="login.html" data-translate="nav_login">LOG-IN</a></li>
+                        <li><a href="#home" data-translate="nav_home">Home</a></li>
+                        <li><a href="#about" data-translate="nav_about">About</a></li>
+                        <li><a href="#why-ai-plus" data-translate="nav_why">Why AI Plus</a></li>
+                        <li><a href="#practice-tests" data-translate="nav_tests">Practice Tests</a></li>
+                        <li><a href="#contact" data-translate="nav_contact">Contact</a></li>
+                    </ul>
+                    <div class="language-selector">
+                        <button id="mobile-language-toggle" class="language-btn">
+                            <span id="mobile-current-lang">EN</span>
+                            <span class="lang-arrow">▼</span>
+                        </button>
+                        <div id="mobile-language-dropdown" class="language-dropdown">
+                            <button data-lang="en">English</button>
+                            <button data-lang="zh">中文</button>
+                        </div>
                     </div>
                 </div>
             </nav>

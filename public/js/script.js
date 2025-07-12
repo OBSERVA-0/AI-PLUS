@@ -285,6 +285,7 @@ document.addEventListener('DOMContentLoaded', function() {
     setupScrollAnimations();
     setupHeroButtonHandlers();
     setupContactForm();
+    setupMobileNavigation();
 });
 
 // Language change function
@@ -606,14 +607,102 @@ function closeFallback() {
     }
 }
 
-// Add mobile menu functionality (for future mobile navigation)
-function setupMobileMenu() {
-    // This can be expanded when adding mobile hamburger menu
+// Mobile navigation functionality
+function setupMobileNavigation() {
+    const mobileNavToggle = document.getElementById('mobile-nav-toggle');
+    const mobileNavMenu = document.getElementById('mobile-nav-menu');
+    const mobileLanguageToggle = document.getElementById('mobile-language-toggle');
+    const mobileLanguageDropdown = document.getElementById('mobile-language-dropdown');
+    const mobileCurrentLang = document.getElementById('mobile-current-lang');
+    
+    // Mobile navigation toggle
+    if (mobileNavToggle && mobileNavMenu) {
+        mobileNavToggle.addEventListener('click', function(e) {
+            e.stopPropagation();
+            mobileNavToggle.classList.toggle('active');
+            mobileNavMenu.classList.toggle('active');
+        });
+        
+        // Close mobile menu when clicking on links
+        const mobileNavLinks = mobileNavMenu.querySelectorAll('a');
+        mobileNavLinks.forEach(link => {
+            link.addEventListener('click', function() {
+                mobileNavToggle.classList.remove('active');
+                mobileNavMenu.classList.remove('active');
+            });
+        });
+        
+        // Close mobile menu when clicking outside
+        document.addEventListener('click', function(e) {
+            if (!mobileNavToggle.contains(e.target) && !mobileNavMenu.contains(e.target)) {
+                mobileNavToggle.classList.remove('active');
+                mobileNavMenu.classList.remove('active');
+            }
+        });
+    }
+    
+    // Mobile language selector
+    if (mobileLanguageToggle && mobileLanguageDropdown) {
+        mobileLanguageToggle.addEventListener('click', function(e) {
+            e.stopPropagation();
+            mobileLanguageDropdown.classList.toggle('active');
+        });
+        
+        // Mobile language dropdown buttons
+        const mobileLanguageButtons = mobileLanguageDropdown.querySelectorAll('button[data-lang]');
+        mobileLanguageButtons.forEach(button => {
+            button.addEventListener('click', function() {
+                const lang = this.getAttribute('data-lang');
+                changeLanguage(lang);
+                // Update mobile language display
+                if (mobileCurrentLang) {
+                    mobileCurrentLang.textContent = lang.toUpperCase();
+                }
+                mobileLanguageDropdown.classList.remove('active');
+            });
+        });
+    }
+    
+    // Sync language between desktop and mobile
+    function syncLanguageDisplay() {
+        const currentLang = currentLanguage.toUpperCase();
+        if (currentLangSpan) currentLangSpan.textContent = currentLang;
+        if (mobileCurrentLang) mobileCurrentLang.textContent = currentLang;
+    }
+    
+    // Override the existing changeLanguage function to sync mobile
+    const originalChangeLanguage = changeLanguage;
+    changeLanguage = function(lang) {
+        originalChangeLanguage(lang);
+        syncLanguageDisplay();
+    };
+    
+    // Mobile breakpoint handling
     const mobileBreakpoint = 768;
     
     function checkMobile() {
         if (window.innerWidth <= mobileBreakpoint) {
-            // Mobile styles and behavior
+            document.body.classList.add('mobile');
+        } else {
+            document.body.classList.remove('mobile');
+            // Close mobile menu when switching to desktop
+            if (mobileNavToggle) mobileNavToggle.classList.remove('active');
+            if (mobileNavMenu) mobileNavMenu.classList.remove('active');
+        }
+    }
+    
+    window.addEventListener('resize', checkMobile);
+    checkMobile(); // Initial check
+}
+
+// Add mobile menu functionality (for future mobile navigation)
+function setupMobileMenu() {
+    // This function is kept for backward compatibility
+    // The actual functionality is now in setupMobileNavigation()
+    const mobileBreakpoint = 768;
+    
+    function checkMobile() {
+        if (window.innerWidth <= mobileBreakpoint) {
             document.body.classList.add('mobile');
         } else {
             document.body.classList.remove('mobile');

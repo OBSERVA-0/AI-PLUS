@@ -460,10 +460,41 @@ body {
 }
 
 /* Responsive Design */
+@media (max-width: 1024px) {
+    .auth-container {
+        margin: 1.5rem;
+    }
+    
+    .auth-welcome {
+        padding: 2.5rem;
+    }
+    
+    .auth-forms {
+        padding: 2.5rem;
+    }
+}
+
 @media (max-width: 768px) {
+    .header {
+        padding: 0.75rem 0;
+    }
+    
+    .header .container {
+        padding: 0 1rem;
+    }
+    
+    .nav-brand h1 {
+        font-size: 1.25rem;
+    }
+    
+    .auth-section {
+        padding: 100px 0 30px;
+    }
+    
     .auth-container {
         grid-template-columns: 1fr;
         margin: 1rem;
+        max-width: none;
     }
     
     .auth-welcome {
@@ -474,6 +505,19 @@ body {
     
     .welcome-content h2 {
         font-size: 2rem;
+        line-height: 1.2;
+    }
+    
+    .welcome-content p {
+        font-size: 1rem;
+    }
+    
+    .features-list {
+        gap: 1rem;
+    }
+    
+    .feature-item {
+        padding: 0.75rem;
     }
     
     .auth-forms {
@@ -490,8 +534,13 @@ body {
         right: 0;
     }
     
+    .form-header h2 {
+        font-size: 1.75rem;
+    }
+    
     .form-row {
         grid-template-columns: 1fr;
+        gap: 1rem;
     }
     
     .form-options {
@@ -499,11 +548,24 @@ body {
         gap: 1rem;
         align-items: flex-start;
     }
+    
+    .btn {
+        padding: 0.875rem 1.5rem;
+        font-size: 1rem;
+    }
 }
 
 @media (max-width: 480px) {
+    .header .container {
+        padding: 0 0.75rem;
+    }
+    
+    .nav-brand h1 {
+        font-size: 1.1rem;
+    }
+    
     .auth-section {
-        padding: 100px 0 20px;
+        padding: 90px 0 20px;
     }
     
     .auth-container {
@@ -518,9 +580,51 @@ body {
     
     .welcome-content h2 {
         font-size: 1.75rem;
+        line-height: 1.1;
+    }
+    
+    .welcome-content p {
+        font-size: 0.9rem;
+    }
+    
+    .features-list {
+        gap: 0.75rem;
+    }
+    
+    .feature-item {
+        padding: 0.5rem;
+        font-size: 0.875rem;
     }
     
     .form-header h2 {
         font-size: 1.75rem;
+    }
+    
+    .form-header p {
+        font-size: 0.9rem;
+    }
+    
+    .form-group {
+        margin-bottom: 1.25rem;
+    }
+    
+    .form-group input,
+    .form-group select,
+    .form-group textarea {
+        padding: 0.75rem;
+        font-size: 0.9rem;
+    }
+    
+    .btn {
+        padding: 0.75rem 1.25rem;
+        font-size: 0.9rem;
+    }
+    
+    .form-switch {
+        font-size: 0.875rem;
+    }
+    
+    .back-link {
+        font-size: 0.875rem;
     }
 } 

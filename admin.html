@@ -656,14 +656,72 @@
             font-style: italic;
         }
 
-        @media (max-width: 768px) {
+        @media (max-width: 1024px) {
             .admin-stats {
-                grid-template-columns: 1fr;
+                grid-template-columns: repeat(2, 1fr);
             }
             
             .admin-tools {
                 grid-template-columns: 1fr;
                 gap: 1rem;
+            }
+            
+            .filters-row {
+                flex-direction: column;
+                gap: 1rem;
+            }
+            
+            .filter-group {
+                min-width: unset;
+            }
+            
+            .students-grid {
+                gap: 0.75rem;
+            }
+        }
+
+        @media (max-width: 768px) {
+            .admin-header {
+                padding: 0.75rem 0;
+            }
+            
+            .admin-header .container {
+                padding: 0 1rem;
+            }
+            
+            .admin-header h1 {
+                font-size: 1.25rem;
+            }
+            
+            .admin-badge {
+                font-size: 0.7rem;
+                padding: 0.2rem 0.5rem;
+            }
+            
+            .admin-stats {
+                grid-template-columns: 1fr;
+                gap: 1rem;
+            }
+            
+            .admin-stat-card {
+                padding: 1.25rem;
+            }
+            
+            .admin-stat-card .stat-number {
+                font-size: 1.75rem;
+            }
+            
+            .admin-tools {
+                grid-template-columns: 1fr;
+                gap: 1rem;
+            }
+            
+            .tool-card {
+                padding: 1.25rem;
+            }
+            
+            .search-filters {
+                padding: 1.25rem;
             }
             
             .filters-row {
@@ -675,18 +733,57 @@
                 min-width: unset;
             }
             
+            .search-group {
+                flex: none;
+            }
+            
+            .students-table {
+                overflow-x: auto;
+            }
+            
+            .students-grid {
+                gap: 0.75rem;
+            }
+            
+            .student-card {
+                padding: 1.25rem;
+            }
+            
             .student-header {
                 flex-direction: column;
                 gap: 0.5rem;
             }
             
+            .student-info h3 {
+                font-size: 1.1rem;
+            }
+            
             .student-meta {
                 gap: 0.5rem;
+                flex-wrap: wrap;
             }
             
             .meta-item {
                 min-width: 60px;
                 padding: 0.25rem;
+            }
+            
+            .mastery-grid {
+                gap: 0.375rem;
+            }
+            
+            .mastery-item {
+                font-size: 0.7rem;
+                padding: 0.2rem 0.4rem;
+            }
+            
+            .student-actions {
+                gap: 0.5rem;
+            }
+            
+            .btn-action {
+                padding: 0.375rem 0.75rem;
+                font-size: 0.75rem;
             }
             
             /* Mobile adjustments for larger modal */
@@ -763,6 +860,88 @@
         }
         
         @media (max-width: 480px) {
+            .admin-header .container {
+                padding: 0 0.75rem;
+            }
+            
+            .admin-header h1 {
+                font-size: 1.1rem;
+            }
+            
+            .admin-badge {
+                font-size: 0.625rem;
+                padding: 0.15rem 0.375rem;
+            }
+            
+            .admin-stats {
+                grid-template-columns: 1fr;
+                gap: 0.75rem;
+            }
+            
+            .admin-stat-card {
+                padding: 1rem;
+            }
+            
+            .admin-stat-card h3 {
+                font-size: 0.75rem;
+            }
+            
+            .admin-stat-card .stat-number {
+                font-size: 1.5rem;
+            }
+            
+            .search-filters {
+                padding: 1rem;
+            }
+            
+            .search-input,
+            .grade-filter {
+                padding: 0.625rem;
+                font-size: 0.875rem;
+            }
+            
+            .student-card {
+                padding: 1rem;
+            }
+            
+            .student-info h3 {
+                font-size: 1rem;
+            }
+            
+            .student-info p {
+                font-size: 0.8rem;
+            }
+            
+            .meta-item {
+                min-width: 50px;
+                padding: 0.2rem;
+            }
+            
+            .meta-label {
+                font-size: 0.65rem;
+            }
+            
+            .meta-value {
+                font-size: 0.8rem;
+            }
+            
+            .tool-card {
+                padding: 1rem;
+            }
+            
+            .tool-card h3 {
+                font-size: 1rem;
+            }
+            
+            .tool-card p {
+                font-size: 0.8rem;
+            }
+            
+            .btn-action {
+                padding: 0.25rem 0.5rem;
+                font-size: 0.7rem;
+            }
+            
             .test-history-modal-content {
                 width: 100%;
                 height: 100vh;
@@ -790,6 +969,19 @@
             .history-scores {
                 grid-template-columns: 1fr;
                 gap: 8px;
+            }
+            
+            .delete-modal-content {
+                width: 95%;
+                margin: 0 auto;
+            }
+            
+            .delete-modal-header {
+                padding: 15px;
+            }
+            
+            .delete-modal-body {
+                padding: 15px;
             }
         }
 
@@ -1128,6 +1320,19 @@
                         <label>Practice Set</label>
                         <select id="practice-set-select" class="grade-filter" disabled>
                             <option value="">Select Practice Set</option>
+                        </select>
+                    </div>
+                    <div class="form-group filter-group">
+                        <label>Score Range</label>
+                        <select id="score-range-select" class="grade-filter">
+                            <option value="">All Scores</option>
+                            <option value="200-299">200-299</option>
+                            <option value="300-399">300-399</option>
+                            <option value="400-499">400-499</option>
+                            <option value="500-599">500-599</option>
+                            <option value="600-699">600-699</option>
+                            <option value="700-799">700-799</option>
+                            <option value="800-900">800-900</option>
                         </select>
                     </div>
                     <div class="form-group">

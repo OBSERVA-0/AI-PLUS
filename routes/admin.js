@@ -130,7 +130,7 @@ router.get('/students', auth, requireAdmin, async (req, res) => {
 // @access  Private (Admin only)
 router.get('/students/test-scores', auth, requireAdmin, async (req, res) => {
   try {
-    const { testType, practiceSet, page = 1, limit = 50 } = req.query;
+    const { testType, practiceSet, page = 1, limit = 50, minScore, maxScore } = req.query;
     
     if (!testType || !practiceSet) {
       return res.status(400).json({
@@ -151,7 +151,7 @@ router.get('/students/test-scores', auth, requireAdmin, async (req, res) => {
      }).select('firstName lastName email grade testHistory testProgress isActive');
     
          // Process students and extract their best score for this specific test
-     const studentScores = students.map(student => {
+     let studentScores = students.map(student => {
        // Find all attempts for this specific test with scaled scores
        const testAttempts = student.testHistory.filter(test => 
          test.testType === testType && 
@@ -209,6 +209,16 @@ router.get('/students/test-scores', auth, requireAdmin, async (req, res) => {
        };
          }).filter(student => student !== null); // Remove students without scaled scores
      
+     // Apply score range filter if specified
+     if (minScore && !isNaN(minScore)) {
+       const minScoreNum = parseInt(minScore);
+       const maxScoreNum = maxScore && !isNaN(maxScore) ? parseInt(maxScore) : Infinity;
+       
+       studentScores = studentScores.filter(student => 
+         student.bestScaledTotal >= minScoreNum && student.bestScaledTotal <= maxScoreNum
+       );
+     }
+     
      // Sort by best scaled score (highest first)
      studentScores.sort((a, b) => b.bestScaledTotal - a.bestScaledTotal);
     
@@ -251,7 +261,12 @@ router.get('/students/test-scores', auth, requireAdmin, async (req, res) => {
            averagePercentage: studentScores.length > 0 ? 
              Math.round(studentScores.reduce((sum, s) => sum + s.bestPercentage, 0) / studentScores.length) : 0,
            highestScaledScore: studentScores.length > 0 ? studentScores[0].bestScaledTotal : 0,
-           lowestScaledScore: studentScores.length > 0 ? studentScores[studentScores.length - 1].bestScaledTotal : 0
+           lowestScaledScore: studentScores.length > 0 ? studentScores[studentScores.length - 1].bestScaledTotal : 0,
+           scoreRange: minScore ? {
+             min: parseInt(minScore),
+             max: maxScore && !isNaN(maxScore) ? parseInt(maxScore) : null
+           } : null,
+           studentsInRange: studentScores.length
          }
       }
     });

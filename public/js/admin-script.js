@@ -93,13 +93,20 @@ class AdminService {
         });
     }
 
-    static async getStudentsByTestScore(testType, practiceSet, page = 1) {
+    static async getStudentsByTestScore(testType, practiceSet, page = 1, scoreRange = null) {
         const params = new URLSearchParams({
             testType,
             practiceSet,
             page: page.toString(),
             limit: '20'
         });
+        
+        if (scoreRange) {
+            params.append('minScore', scoreRange.min);
+            if (scoreRange.max) {
+                params.append('maxScore', scoreRange.max);
+            }
+        }
         
         return this.makeRequest(`/admin/students/test-scores?${params}`);
     }
@@ -114,6 +121,7 @@ const state = {
     sortMode: 'regular', // 'regular' or 'test-score'
     selectedTestType: '',
     selectedPracticeSet: '',
+    selectedScoreRange: null,
     students: [],
     loading: false,
     allStudents: [], // Store all students for search
@@ -134,6 +142,7 @@ const elements = {
     sortModeToggle: document.getElementById('sort-mode-toggle'),
     testTypeSelect: document.getElementById('test-type-select'),
     practiceSetSelect: document.getElementById('practice-set-select'),
+    scoreRangeSelect: document.getElementById('score-range-select'),
     testScoreControls: document.getElementById('test-score-controls'),
     studentsLoading: document.getElementById('students-loading'),
     studentsError: document.getElementById('students-error'),
@@ -449,7 +458,7 @@ async function loadStudents(page = 1, search = '', grade = 'all') {
         
         if (state.sortMode === 'test-score' && state.selectedTestType && state.selectedPracticeSet) {
             // Load students by test score
-            response = await AdminService.getStudentsByTestScore(state.selectedTestType, state.selectedPracticeSet, page);
+            response = await AdminService.getStudentsByTestScore(state.selectedTestType, state.selectedPracticeSet, page, state.selectedScoreRange);
             
             const { students, pagination, testInfo, summary } = response.data;
             
@@ -458,7 +467,13 @@ async function loadStudents(page = 1, search = '', grade = 'all') {
             state.testInfo = testInfo;
             
             // Update students count with test info
-            elements.studentsCount.textContent = `${testInfo.testName}: ${summary.totalStudentsWhoTook} students (Avg Score: ${summary.averageScaledScore})`;
+            let countText = `${testInfo.testName}: ${summary.totalStudentsWhoTook} students`;
+            if (summary.scoreRange) {
+                const range = summary.scoreRange;
+                countText += ` with scores ${range.min}-${range.max || '∞'}`;
+            }
+            countText += ` (Avg Score: ${summary.averageScaledScore})`;
+            elements.studentsCount.textContent = countText;
             
             // Render test score cards
             if (students.length === 0) {
@@ -587,6 +602,11 @@ function handleSortModeChange() {
         document.getElementById('regular-search').style.display = 'block';
         document.getElementById('regular-grade').style.display = 'block';
         
+        // Reset test score state
+        state.selectedTestType = '';
+        state.selectedPracticeSet = '';
+        state.selectedScoreRange = null;
+        
         // Load regular students view
         loadStudents(1, state.searchQuery, state.gradeFilter);
     }
@@ -598,10 +618,16 @@ function handleTestTypeChange() {
     const practiceSetSelect = elements.practiceSetSelect;
     const loadButton = document.getElementById('load-test-scores');
     
-    // Clear practice set options
+    // Clear practice set options and reset score range
     practiceSetSelect.innerHTML = '<option value="">Select Practice Set</option>';
     practiceSetSelect.disabled = !testType;
     loadButton.disabled = true;
+    
+    // Reset score range filter
+    if (elements.scoreRangeSelect) {
+        elements.scoreRangeSelect.value = '';
+        state.selectedScoreRange = null;
+    }
     
     if (testType === 'shsat') {
         // Add SHSAT practice sets
@@ -631,6 +657,24 @@ function handlePracticeSetChange() {
     const loadButton = document.getElementById('load-test-scores');
     
     loadButton.disabled = !(testType && practiceSet);
+}
+
+// Handle score range change
+function handleScoreRangeChange() {
+    const scoreRangeValue = elements.scoreRangeSelect.value;
+    
+    if (scoreRangeValue) {
+        // Parse range like "400-499" into {min: 400, max: 499}
+        const [min, max] = scoreRangeValue.split('-').map(Number);
+        state.selectedScoreRange = { min, max };
+    } else {
+        state.selectedScoreRange = null;
+    }
+    
+    // Auto-reload if test is already selected
+    if (state.selectedTestType && state.selectedPracticeSet) {
+        loadStudents(1);
+    }
 }
 
 // Handle load test scores button
@@ -863,6 +907,9 @@ async function init() {
     }
     if (elements.practiceSetSelect) {
         elements.practiceSetSelect.addEventListener('change', handlePracticeSetChange);
+    }
+    if (elements.scoreRangeSelect) {
+        elements.scoreRangeSelect.addEventListener('change', handleScoreRangeChange);
     }
     const loadTestScoresBtn = document.getElementById('load-test-scores');
     if (loadTestScoresBtn) {
