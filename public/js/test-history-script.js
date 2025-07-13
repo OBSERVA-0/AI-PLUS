@@ -166,12 +166,42 @@ class TestHistoryManager {
 
         // Add scaled scores if available
         if (test.scaledScores && test.scaledScores.total) {
-            // Calculate raw scores from category scores
+            // Calculate raw scores from detailed results using question numbers
             let mathRawScore = { correct: 0, total: 0 };
             let englishRawScore = { correct: 0, total: 0 };
             
-            if (test.results.categoryScores) {
-                // Convert Map to object if needed
+            if (test.detailedResults && test.detailedResults.length > 0) {
+                test.detailedResults.forEach(result => {
+                    if (test.testType === 'shsat') {
+                        // SHSAT: Questions 1-57 are ELA, 58-114 are Math
+                        if (result.questionNumber <= 57) {
+                            englishRawScore.total++;
+                            if (result.isCorrect) {
+                                englishRawScore.correct++;
+                            }
+                        } else if (result.questionNumber <= 114) {
+                            mathRawScore.total++;
+                            if (result.isCorrect) {
+                                mathRawScore.correct++;
+                            }
+                        }
+                    } else if (test.testType === 'sat') {
+                        // SAT: Questions 1-54 are Reading & Writing, 55-98 are Math
+                        if (result.questionNumber <= 54) {
+                            englishRawScore.total++;
+                            if (result.isCorrect) {
+                                englishRawScore.correct++;
+                            }
+                        } else if (result.questionNumber <= 98) {
+                            mathRawScore.total++;
+                            if (result.isCorrect) {
+                                mathRawScore.correct++;
+                            }
+                        }
+                    }
+                });
+            } else if (test.results.categoryScores) {
+                // Fallback to category scores if detailed results not available
                 const categoryScores = test.results.categoryScores instanceof Map 
                     ? Object.fromEntries(test.results.categoryScores) 
                     : test.results.categoryScores;
@@ -291,17 +321,25 @@ class TestHistoryManager {
             `;
         }
 
-        // Separate questions by subject
+        // Separate questions by subject using question numbers
         const mathQuestions = [];
         const englishQuestions = [];
 
         test.detailedResults.forEach(result => {
-            const categoryLower = result.category.toLowerCase();
-            if (categoryLower.includes('math')) {
-                mathQuestions.push(result);
-            } else if (categoryLower.includes('english') || categoryLower.includes('ela') || 
-                       categoryLower.includes('reading') || categoryLower.includes('writing')) {
-                englishQuestions.push(result);
+            if (test.testType === 'shsat') {
+                // SHSAT: Questions 1-57 are ELA, 58-114 are Math
+                if (result.questionNumber <= 57) {
+                    englishQuestions.push(result);
+                } else if (result.questionNumber <= 114) {
+                    mathQuestions.push(result);
+                }
+            } else if (test.testType === 'sat') {
+                // SAT: Questions 1-54 are Reading & Writing, 55-98 are Math
+                if (result.questionNumber <= 54) {
+                    englishQuestions.push(result);
+                } else if (result.questionNumber <= 98) {
+                    mathQuestions.push(result);
+                }
             }
         });
 
@@ -311,26 +349,27 @@ class TestHistoryManager {
 
         let breakdownHtml = '<div class="question-breakdown">';
 
-        // Math section
-        if (mathQuestions.length > 0) {
+        // English/ELA section
+        if (englishQuestions.length > 0) {
+            const sectionTitle = test.testType === 'shsat' ? 'ELA (1-57)' : 'R&W (1-54)';
             breakdownHtml += `
                 <div class="question-section">
-                    <div class="question-section-title">Math (1-${mathQuestions.length})</div>
+                    <div class="question-section-title">${sectionTitle}</div>
                     <div class="question-grid">
-                        ${mathQuestions.map((q, index) => this.generateQuestionNumber(index + 1, q)).join('')}
+                        ${englishQuestions.map((q) => this.generateQuestionNumber(q.questionNumber, q)).join('')}
                     </div>
                 </div>
             `;
         }
 
-        // English/ELA section
-        if (englishQuestions.length > 0) {
-            const startNumber = mathQuestions.length + 1;
+        // Math section
+        if (mathQuestions.length > 0) {
+            const sectionTitle = test.testType === 'shsat' ? 'Math (58-114)' : 'Math (55-98)';
             breakdownHtml += `
                 <div class="question-section">
-                    <div class="question-section-title">ELA (${startNumber}-${startNumber + englishQuestions.length - 1})</div>
+                    <div class="question-section-title">${sectionTitle}</div>
                     <div class="question-grid">
-                        ${englishQuestions.map((q, index) => this.generateQuestionNumber(startNumber + index, q)).join('')}
+                        ${mathQuestions.map((q) => this.generateQuestionNumber(q.questionNumber, q)).join('')}
                     </div>
                 </div>
             `;

@@ -384,10 +384,6 @@ async function loadUserStats() {
             const overallAverage = testsWithScores > 0 ? Math.round(totalScore / testsWithScores) : 0;
             document.getElementById('avg-score').textContent = `${overallAverage}%`;
 
-            // Update study time
-            document.getElementById('study-time').textContent = 
-                Math.round(stats.totalTimeSpent / 60) + 'h';
-
             // Update individual test stats
             updateTestCardStats('shsat', testProgress.shsat);
             updateTestCardStats('sat', testProgress.sat);

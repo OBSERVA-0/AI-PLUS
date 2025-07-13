@@ -399,12 +399,6 @@ async function loadUserStats() {
             // Update overall stats
             document.getElementById('profile-total-tests').textContent = stats.totalTests;
 
-            // Format and update study time
-            const totalSeconds = stats.totalTimeSpent || 0;
-            const hours = Math.floor(totalSeconds / 3600);
-            const minutes = Math.floor((totalSeconds % 3600) / 60);
-            document.getElementById('profile-study-time').textContent = `${hours}h ${minutes}m`;
-            
             // Calculate best score across all tests, preferring scaled scores
             const bestShsat = (testProgress.shsat && testProgress.shsat.bestScaledScore && testProgress.shsat.bestScaledScore.total) || 0;
             const bestSat = (testProgress.sat && testProgress.sat.bestScaledScore && testProgress.sat.bestScaledScore.total) || 0;

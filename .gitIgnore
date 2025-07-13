@@ -32,3 +32,6 @@ scripts/promote-to-admin.js
 scripts/create-admin-secure.js
 
 ADMIN_SETUP.md
+SCORE_RECALCULATION_INSTRUCTIONS.md
+scripts/recalculate-scores.js
+scripts/README.md

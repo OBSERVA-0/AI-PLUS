@@ -392,14 +392,8 @@ function populateProfileHeader(user) {
 
 function populateStatsGrid(stats, testProgress) {
     // Update overall stats
-    document.getElementById('profile-total-tests').textContent = stats.totalTests;
+        document.getElementById('profile-total-tests').textContent = stats.totalTests;
 
-    // Format and update study time
-    const totalSeconds = stats.totalTimeSpent || 0;
-    const hours = Math.floor(totalSeconds / 3600);
-    const minutes = Math.floor((totalSeconds % 3600) / 60);
-    document.getElementById('profile-study-time').textContent = `${hours}h ${minutes}m`;
-    
     // Calculate best score across all tests
     const bestShsat = (testProgress.shsat.bestScaledScore && testProgress.shsat.bestScaledScore.total) || 0;
     const bestSat = (testProgress.sat.bestScaledScore && testProgress.sat.bestScaledScore.total) || 0;

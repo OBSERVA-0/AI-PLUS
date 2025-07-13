@@ -188,25 +188,29 @@ router.post('/submit', auth, validateSubmitAnswers, handleValidationErrors, asyn
 
       const categoryLower = question.category.toLowerCase();
       
-      // Track SHSAT section scores
+      // Track SHSAT section scores using question numbers
       if (testType === 'shsat') {
-        if (categoryLower.includes('math')) {
-          shsatSectionScores.math.total++;
-          if (isCorrect) shsatSectionScores.math.correct++;
-        } else if (categoryLower.includes('english')) {
+        if (question.question_number <= 57) {
+          // Questions 1-57 are ELA
           shsatSectionScores.english.total++;
           if (isCorrect) shsatSectionScores.english.correct++;
+        } else if (question.question_number <= 114) {
+          // Questions 58-114 are Math
+          shsatSectionScores.math.total++;
+          if (isCorrect) shsatSectionScores.math.correct++;
         }
       }
 
-      // Track SAT section scores
+      // Track SAT section scores using question numbers
       if (testType === 'sat') {
-        if (categoryLower.includes('math')) {
-          satSectionScores.math.total++;
-          if (isCorrect) satSectionScores.math.correct++;
-        } else if (categoryLower.includes('english') || categoryLower.includes('reading') || categoryLower.includes('writing')) {
+        if (question.question_number <= 54) {
+          // Questions 1-54 are Reading & Writing
           satSectionScores.english.total++;
           if (isCorrect) satSectionScores.english.correct++;
+        } else if (question.question_number <= 98) {
+          // Questions 55-98 are Math
+          satSectionScores.math.total++;
+          if (isCorrect) satSectionScores.math.correct++;
         }
       }
       
@@ -293,72 +297,109 @@ router.post('/submit', auth, validateSubmitAnswers, handleValidationErrors, asyn
 
     // Save test attempt to user's test history
     try {
+      console.log(`🔍 Attempting to save test history for user ID: ${req.user._id}`);
+      
       const user = await User.findById(req.user._id);
-      if (user) {
-        // Generate test name based on type and practice set
-        let testName = '';
-        if (testType === 'shsat') {
-          testName = practiceSet === 'diagnostic' 
-            ? 'SHSAT Diagnostic Test' 
-            : `SHSAT Practice Test ${practiceSet}`;
-        } else if (testType === 'sat') {
-          testName = `SAT Practice Test ${practiceSet}`;
-        } else if (testType === 'state') {
-          testName = `State Test Practice ${practiceSet}`;
-        }
-
-        // Create test history entry
-        const testHistoryEntry = {
-          testType,
-          practiceSet,
-          testName,
-          completedAt: new Date(),
-          results: {
-            percentage,
-            correctCount,
-            totalQuestions: answers.length,
-            timeSpent,
-            categoryScores: new Map(Object.entries(categoryScores))
-          },
-          // Store detailed question results for the visual breakdown
-          detailedResults: detailedResults.map((result, index) => {
-            const questionNum = result.question_number || (index + 1);
-            console.log(`📝 Processing question ${questionNum}: ${result.category}, correct: ${result.isCorrect}`);
-            return {
-              questionId: result.questionId,
-              questionNumber: questionNum,
-              isCorrect: result.isCorrect,
-              userAnswer: result.userAnswer,
-              category: result.category,
-              hasAnswer: result.userAnswer !== undefined && result.userAnswer !== null && result.userAnswer !== ''
-            };
-          })
-        };
-
-        // Add scaled scores if available
-        if (testType === 'shsat' && responseData.results.shsatScores) {
-          testHistoryEntry.scaledScores = {
-            math: responseData.results.shsatScores.math.scaledScore,
-            english: responseData.results.shsatScores.english.scaledScore,
-            total: responseData.results.shsatScores.totalScaledScore
-          };
-        } else if (testType === 'sat' && responseData.results.satScores) {
-          testHistoryEntry.scaledScores = {
-            math: responseData.results.satScores.math.scaledScore,
-            reading_writing: responseData.results.satScores.reading_writing.scaledScore,
-            total: responseData.results.satScores.totalScaledScore
-          };
-        }
-
-        // Add to user's test history
-        user.testHistory.push(testHistoryEntry);
-        await user.save();
-        
-        console.log(`✅ Test history saved for user ${user.email}: ${testName}`);
-        console.log(`📊 Detailed results count: ${testHistoryEntry.detailedResults.length}`);
+      if (!user) {
+        console.error(`❌ User not found when saving test history: ${req.user._id}`);
+        throw new Error('User not found');
       }
+      
+      console.log(`📋 User found: ${user.email}, current test history count: ${user.testHistory ? user.testHistory.length : 0}`);
+      
+      // Generate test name based on type and practice set
+      let testName = '';
+      if (testType === 'shsat') {
+        testName = practiceSet === 'diagnostic' 
+          ? 'SHSAT Diagnostic Test' 
+          : `SHSAT Practice Test ${practiceSet}`;
+      } else if (testType === 'sat') {
+        testName = `SAT Practice Test ${practiceSet}`;
+      } else if (testType === 'state') {
+        testName = `State Test Practice ${practiceSet}`;
+      }
+
+      console.log(`📝 Generated test name: ${testName}`);
+      console.log(`📊 Test results: ${answers.length} answers, ${correctCount} correct (${percentage}%)`);
+      
+      // Create test history entry
+      const testHistoryEntry = {
+        testType,
+        practiceSet,
+        testName,
+        completedAt: new Date(),
+        results: {
+          percentage,
+          correctCount,
+          totalQuestions: answers.length,
+          timeSpent,
+          categoryScores: new Map(Object.entries(categoryScores))
+        },
+        // Store detailed question results for the visual breakdown
+        detailedResults: detailedResults.map((result, index) => {
+          const questionNum = result.question_number || (index + 1);
+          console.log(`📝 Processing question ${questionNum}: ${result.category}, correct: ${result.isCorrect}`);
+          return {
+            questionId: result.questionId,
+            questionNumber: questionNum,
+            isCorrect: result.isCorrect,
+            userAnswer: result.userAnswer,
+            category: result.category,
+            hasAnswer: result.userAnswer !== undefined && result.userAnswer !== null && result.userAnswer !== ''
+          };
+        })
+      };
+
+      console.log(`📋 Test history entry created with ${testHistoryEntry.detailedResults.length} detailed results`);
+
+      // Add scaled scores if available
+      if (testType === 'shsat' && responseData.results.shsatScores) {
+        testHistoryEntry.scaledScores = {
+          math: responseData.results.shsatScores.math.scaledScore,
+          english: responseData.results.shsatScores.english.scaledScore,
+          total: responseData.results.shsatScores.totalScaledScore
+        };
+        console.log(`📊 Added SHSAT scaled scores: Math ${testHistoryEntry.scaledScores.math}, English ${testHistoryEntry.scaledScores.english}, Total ${testHistoryEntry.scaledScores.total}`);
+      } else if (testType === 'sat' && responseData.results.satScores) {
+        testHistoryEntry.scaledScores = {
+          math: responseData.results.satScores.math.scaledScore,
+          reading_writing: responseData.results.satScores.reading_writing.scaledScore,
+          total: responseData.results.satScores.totalScaledScore
+        };
+        console.log(`📊 Added SAT scaled scores: Math ${testHistoryEntry.scaledScores.math}, Reading/Writing ${testHistoryEntry.scaledScores.reading_writing}, Total ${testHistoryEntry.scaledScores.total}`);
+      }
+
+      // Initialize testHistory array if it doesn't exist
+      if (!user.testHistory) {
+        user.testHistory = [];
+        console.log(`📋 Initialized empty test history array for user ${user.email}`);
+      }
+
+      // Add to user's test history
+      console.log(`📝 Adding test history entry to user's history (current count: ${user.testHistory.length})`);
+      user.testHistory.push(testHistoryEntry);
+      console.log(`📝 Test history array now has ${user.testHistory.length} entries`);
+      
+      // Save user with validation
+      console.log(`💾 Saving user with updated test history...`);
+      const savedUser = await user.save();
+      console.log(`✅ User saved successfully. Final test history count: ${savedUser.testHistory.length}`);
+      
+      console.log(`✅ Test history saved for user ${user.email}: ${testName}`);
+      console.log(`📊 Detailed results count: ${testHistoryEntry.detailedResults.length}`);
     } catch (historyError) {
       console.error('❌ Error saving test history:', historyError);
+      console.error('❌ Error details:', {
+        name: historyError.name,
+        message: historyError.message,
+        stack: historyError.stack
+      });
+      
+      // Log validation errors specifically
+      if (historyError.name === 'ValidationError') {
+        console.error('❌ Validation errors:', historyError.errors);
+      }
+      
       // Don't fail the whole request if history saving fails
     }
 
