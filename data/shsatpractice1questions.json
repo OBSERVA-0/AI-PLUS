@@ -1357,7 +1357,7 @@
     "practice_set": "1"
   },
   {
-    "_id": "82",
+    "_id": "82",  
     "question_text": "The circles are 'tangent' to the rectangle and to each other, as shown. If the area of each circle is 16π, then the area of the rectangle is",
     "passage": "image:images/shsatpractice1question82.png",
     "options": [

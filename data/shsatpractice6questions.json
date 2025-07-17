@@ -1,0 +1,364 @@
+[
+  {
+    "_id": "1",
+    "question_number": 1,
+    "practice_set": "6",
+    "category": "English:Editing/Revising",
+    "difficulty": "easy",
+    "time_estimate": 95,
+    "passage": "Indeed, why do most people throughout the world, people of every religion and culture play and enjoy music?",
+    "passage_citation": ":contentReference[oaicite:0]{index=0}",
+    "question_text": "Which edit should be made to this sentence?",
+    "options": [
+      "insert a comma after culture",
+      "delete the comma after indeed",
+      "insert a comma after people",
+      "delete the comma after world"
+    ],
+    "correct_answer": 0
+  },
+  {
+    "_id": "2",
+    "question_number": 2,
+    "practice_set": "6",
+    "category": "English:Editing/Revising",
+    "difficulty": "medium",
+    "time_estimate": 95,
+    "passage": "(1) Insects do not have spoken communications, but they have other forms of communication that are equally effective. (2) Ants and bees, for example, are able to share large amounts of complex information without talking in two completely different, silent ways. (3) Bees did this by dancing out complex patterns that tell other bees where they can find food or water. (4) Ants, on the other hand, leave behind specific scent trails to mark paths to food and danger.",
+    "passage_citation": ":contentReference[oaicite:1]{index=1}",
+    "question_text": "Which sentence should be revised to correct a verb tense error?",
+    "options": [
+      "sentence 1",
+      "sentence 2",
+      "sentence 3",
+      "sentence 4"
+    ],
+    "correct_answer": 2
+  },
+  {
+    "_id": "3",
+    "question_number": 3,
+    "practice_set": "6",
+    "category": "English:Editing/Revising",
+    "difficulty": "medium",
+    "time_estimate": 95,
+    "passage": "(1) As you see, going to the amusement park is no trivial or simple fun-filled event. (2) Going to the amusement park is a harrowing and serious series of important decisions.",
+    "passage_citation": ":contentReference[oaicite:2]{index=2}",
+    "question_text": "What is the best way to join these sentences in order to highlight the relationship between the ideas?",
+    "options": [
+      "Going to the amusement park is no trivial or simple fun-filled event, but, on the one hand, a harrowing and serious series of important decisions.",
+      "Going to the amusement park is no trivial or simple fun-filled event, but rather a harrowing and serious series of important decisions.",
+      "Going to the amusement park is a harrowing and serious series of important decisions, and it is no trivial or simple fun-filled event, also.",
+      "Going to the amusement park is no trivial or simple fun-filled event, or a harrowing and serious series of important decisions."
+    ],
+    "correct_answer": 1
+  },
+  {
+    "_id": "4",
+    "question_number": 4,
+    "practice_set": "6",
+    "category": "English:Editing/Revising",
+    "difficulty": "medium",
+    "time_estimate": 95,
+    "passage": "Born in the late nineteenth century, the public official Robert Moses was responsible for many improvements to New York City.",
+    "passage_citation": ":contentReference[oaicite:3]{index=3}",
+    "question_text": "What is the most precise revision of this sentence?",
+    "options": [
+      "Born in 1888, New York City Parks Commissioner Robert Moses was responsible for many of the highways, bridges, tunnels, and parks that New Yorkers use on a daily basis.",
+      "Born in the late nineteenth century, New York City Parks Commissioner Robert Moses was responsible for many of the highways, bridges, tunnels, and parks that New Yorkers use on a daily basis.",
+      "Born in 1888, the public official Robert Moses was responsible for many improvements to New York City.",
+      "Born in the late nineteenth century, the public official Robert Moses was responsible for many of the highways, bridges, tunnels, and parks that New Yorkers use on a daily basis."
+    ],
+    "correct_answer": 0
+  },
+  {
+    "_id": "5",
+    "question_number": 5,
+    "practice_set": "6",
+    "category": "English:Editing/Revising",
+    "difficulty": "medium",
+    "time_estimate": 95,
+    "passage": "Bitcoin: Past, Present, and Future\n\n(1) One of the biggest financial stories in the last few years has been the rise of Bitcoin. (2) Some speculators are trying to buy as much Bitcoin as they can; some economists see Bitcoin as a trend that will fade; and some engineers are racing to build software to make Bitcoin more accessible to the public. (3) Undoubtedly, Bitcoin is a hot commodity that investors are chasing after, but how wise is it to purchase Bitcoin? (4) Bitcoin is a digital currency launched in the 2000s by a person whose real identity is not known. (5) It is fitting that Nakamoto has shrouded his identity, since so much of Bitcoin revolves around privacy. (6) Before the advent of Bitcoin, every transaction you made with your credit card online could be monitored by a bank or government. (7) Most banks charge customers high fees to send money internationally over the Internet. (8) The promise of Bitcoin is a low- or no-fee, untraceable, encrypted currency (or cryptocurrency) that is completely decentralized from any bank. (9) Bitcoin allows individuals to quickly send payments to one another without dealing with a third party. (10) Whereas this process done the traditional way can take several days to complete, with Bitcoin it occurs within minutes. (11) But what is Bitcoin? (12) What's unique about Bitcoin is not the currency itself, but rather the network it lives on. (13) You can think of Bitcoin like a digital token that can be bought or sold. (14) That in itself is not revolutionary. (15) Most currencies are controlled by a central bank or authority. (16) Bitcoin exists on a decentralized, anonymous web of computers. (17) Additionally, participants can see and validate Bitcoin transactions that occur in an online ledger, called the blockchain. (18) For all its advantages, Bitcoin has drawbacks. (19) For one, its price is highly volatile, jumping up and down by thousands of dollars in mere days. (20) Moreover, many observers see the current rush to buy Bitcoin reflective of a bubble that is destined to pop. (21) Any investor looking to invest in Bitcoin should know that it comes with many risks.",
+    "passage_citation": ":contentReference[oaicite:4]{index=4}",
+    "question_text": "Which sentence should replace sentence 3 to best introduce the main idea of the passage?",
+    "options": [
+      "Amid the global Bitcoin mania, it is best to step back and ask: where did Bitcoin come from?",
+      "Many people have heard of Bitcoin, but there remains widespread confusion across the world about what precisely Bitcoin is, how it began, and where it is headed in the global economy.",
+      "Bitcoin is a digital cryptocurrency, meaning it can be used securely and anonymously, but critics wonder about the significance of cryptocurrencies for democracies.",
+      "There are two ways one can take advantage of Bitcoin: by using it as a means of exchange, or by buying Bitcoin and hoping to sell it later at a higher price."
+    ],
+    "correct_answer": 1
+  },
+  {
+    "_id": "6",
+    "question_number": 6,
+    "practice_set": "6",
+    "category": "English:Editing/Revising",
+    "difficulty": "medium",
+    "time_estimate": 95,
+    "passage": "Bitcoin: Past, Present, and Future\n\n(1) One of the biggest financial stories in the last few years has been the rise of Bitcoin. (2) Some speculators are trying to buy as much Bitcoin as they can; some economists see Bitcoin as a trend that will fade; and some engineers are racing to build software to make Bitcoin more accessible to the public. (3) Undoubtedly, Bitcoin is a hot commodity that investors are chasing after, but how wise is it to purchase Bitcoin? (4) Bitcoin is a digital currency launched in the 2000s by a person whose real identity is not known. (5) It is fitting that Nakamoto has shrouded his identity, since so much of Bitcoin revolves around privacy. (6) Before the advent of Bitcoin, every transaction you made with your credit card online could be monitored by a bank or government. (7) Most banks charge customers high fees to send money internationally over the Internet. (8) The promise of Bitcoin is a low- or no-fee, untraceable, encrypted currency (or cryptocurrency) that is completely decentralized from any bank. (9) Bitcoin allows individuals to quickly send payments to one another without dealing with a third party. (10) Whereas this process done the traditional way can take several days to complete, with Bitcoin it occurs within minutes. (11) But what is Bitcoin? (12) What's unique about Bitcoin is not the currency itself, but rather the network it lives on. (13) You can think of Bitcoin like a digital token that can be bought or sold. (14) That in itself is not revolutionary. (15) Most currencies are controlled by a central bank or authority. (16) Bitcoin exists on a decentralized, anonymous web of computers. (17) Additionally, participants can see and validate Bitcoin transactions that occur in an online ledger, called the blockchain. (18) For all its advantages, Bitcoin has drawbacks. (19) For one, its price is highly volatile, jumping up and down by thousands of dollars in mere days. (20) Moreover, many observers see the current rush to buy Bitcoin reflective of a bubble that is destined to pop. (21) Any investor looking to invest in Bitcoin should know that it comes with many risks.",
+    "passage_citation": ":contentReference[oaicite:5]{index=5}",
+    "question_text": "What is the most precise revision of sentence 4?",
+    "options": [
+      "Bitcoin–BTC is a frequently used abbreviation–is a digital currency launched in 2009 by a person whose real identity is not known.",
+      "Bitcoin is a digital currency launched in 2009 by Satoshi Nakamoto, whose real identity is not known.",
+      "Bitcoin is a digital currency launched in the 2000s by Satoshi Nakamoto, whose real identity is not known.",
+      "Bitcoin is a completely and totally digital currency launched in 2009 by Satoshi Nakamoto, whose real identity is not known."
+    ],
+    "correct_answer": 1
+  },
+  {
+    "_id": "7",
+    "question_number": 7,
+    "practice_set": "6",
+    "category": "English:Editing/Revising",
+    "difficulty": "easy",
+    "time_estimate": 95,
+    "passage": "Bitcoin: Past, Present, and Future\n\n(1) One of the biggest financial stories in the last few years has been the rise of Bitcoin. (2) Some speculators are trying to buy as much Bitcoin as they can; some economists see Bitcoin as a trend that will fade; and some engineers are racing to build software to make Bitcoin more accessible to the public. (3) Undoubtedly, Bitcoin is a hot commodity that investors are chasing after, but how wise is it to purchase Bitcoin? (4) Bitcoin is a digital currency launched in the 2000s by a person whose real identity is not known. (5) It is fitting that Nakamoto has shrouded his identity, since so much of Bitcoin revolves around privacy. (6) Before the advent of Bitcoin, every transaction you made with your credit card online could be monitored by a bank or government. (7) Most banks charge customers high fees to send money internationally over the Internet. (8) The promise of Bitcoin is a low- or no-fee, untraceable, encrypted currency (or cryptocurrency) that is completely decentralized from any bank. (9) Bitcoin allows individuals to quickly send payments to one another without dealing with a third party. (10) Whereas this process done the traditional way can take several days to complete, with Bitcoin it occurs within minutes. (11) But what is Bitcoin? (12) What's unique about Bitcoin is not the currency itself, but rather the network it lives on. (13) You can think of Bitcoin like a digital token that can be bought or sold. (14) That in itself is not revolutionary. (15) Most currencies are controlled by a central bank or authority. (16) Bitcoin exists on a decentralized, anonymous web of computers. (17) Additionally, participants can see and validate Bitcoin transactions that occur in an online ledger, called the blockchain. (18) For all its advantages, Bitcoin has drawbacks. (19) For one, its price is highly volatile, jumping up and down by thousands of dollars in mere days. (20) Moreover, many observers see the current rush to buy Bitcoin reflective of a bubble that is destined to pop. (21) Any investor looking to invest in Bitcoin should know that it comes with many risks.",
+    "passage_citation": ":contentReference[oaicite:6]{index=6}",
+    "question_text": "What transition word or phrase should be added to the beginning of sentence 7?",
+    "options": [
+      "However",
+      "Although",
+      "Whereas",
+      "Additionally"
+    ],
+    "correct_answer": 0
+  },
+  {
+    "_id": "8",
+    "question_number": 8,
+    "practice_set": "6",
+    "category": "English:Editing/Revising",
+    "difficulty": "easy",
+    "time_estimate": 95,
+    "passage": "Bitcoin: Past, Present, and Future\n\n(1) One of the biggest financial stories in the last few years has been the rise of Bitcoin. (2) Some speculators are trying to buy as much Bitcoin as they can; some economists see Bitcoin as a trend that will fade; and some engineers are racing to build software to make Bitcoin more accessible to the public. (3) Undoubtedly, Bitcoin is a hot commodity that investors are chasing after, but how wise is it to purchase Bitcoin? (4) Bitcoin is a digital currency launched in the 2000s by a person whose real identity is not known. (5) It is fitting that Nakamoto has shrouded his identity, since so much of Bitcoin revolves around privacy. (6) Before the advent of Bitcoin, every transaction you made with your credit card online could be monitored by a bank or government. (7) Most banks charge customers high fees to send money internationally over the Internet. (8) The promise of Bitcoin is a low- or no-fee, untraceable, encrypted currency (or cryptocurrency) that is completely decentralized from any bank. (9) Bitcoin allows individuals to quickly send payments to one another without dealing with a third party. (10) Whereas this process done the traditional way can take several days to complete, with Bitcoin it occurs within minutes. (11) But what is Bitcoin? (12) What's unique about Bitcoin is not the currency itself, but rather the network it lives on. (13) You can think of Bitcoin like a digital token that can be bought or sold. (14) That in itself is not revolutionary. (15) Most currencies are controlled by a central bank or authority. (16) Bitcoin exists on a decentralized, anonymous web of computers. (17) Additionally, participants can see and validate Bitcoin transactions that occur in an online ledger, called the blockchain. (18) For all its advantages, Bitcoin has drawbacks. (19) For one, its price is highly volatile, jumping up and down by thousands of dollars in mere days. (20) Moreover, many observers see the current rush to buy Bitcoin reflective of a bubble that is destined to pop. (21) Any investor looking to invest in Bitcoin should know that it comes with many risks.",
+    "passage_citation": ":contentReference[oaicite:7]{index=7}",
+    "question_text": "Where should sentence 12 be moved to improve the organization of the third paragraph (sentences 11–17)?",
+    "options": [
+      "between sentences 13 and 14",
+      "between sentences 14 and 15",
+      "between sentences 16 and 17",
+      "the end of the paragraph (after sentence 17)"
+    ],
+    "correct_answer": 1
+  },
+  {
+    "_id": "9",
+    "question_number": 9,
+    "practice_set": "6",
+    "category": "English:Editing/Revising",
+    "difficulty": "medium",
+    "time_estimate": 95,
+    "passage": "Bitcoin: Past, Present, and Future\n\n(1) One of the biggest financial stories in the last few years has been the rise of Bitcoin. (2) Some speculators are trying to buy as much Bitcoin as they can; some economists see Bitcoin as a trend that will fade; and some engineers are racing to build software to make Bitcoin more accessible to the public. (3) Undoubtedly, Bitcoin is a hot commodity that investors are chasing after, but how wise is it to purchase Bitcoin? (4) Bitcoin is a digital currency launched in the 2000s by a person whose real identity is not known. (5) It is fitting that Nakamoto has shrouded his identity, since so much of Bitcoin revolves around privacy. (6) Before the advent of Bitcoin, every transaction you made with your credit card online could be monitored by a bank or government. (7) Most banks charge customers high fees to send money internationally over the Internet. (8) The promise of Bitcoin is a low- or no-fee, untraceable, encrypted currency (or cryptocurrency) that is completely decentralized from any bank. (9) Bitcoin allows individuals to quickly send payments to one another without dealing with a third party. (10) Whereas this process done the traditional way can take several days to complete, with Bitcoin it occurs within minutes. (11) But what is Bitcoin? (12) What's unique about Bitcoin is not the currency itself, but rather the network it lives on. (13) You can think of Bitcoin like a digital token that can be bought or sold. (14) That in itself is not revolutionary. (15) Most currencies are controlled by a central bank or authority. (16) Bitcoin exists on a decentralized, anonymous web of computers. (17) Additionally, participants can see and validate Bitcoin transactions that occur in an online ledger, called the blockchain. (18) For all its advantages, Bitcoin has drawbacks. (19) For one, its price is highly volatile, jumping up and down by thousands of dollars in mere days. (20) Moreover, many observers see the current rush to buy Bitcoin reflective of a bubble that is destined to pop. (21) Any investor looking to invest in Bitcoin should know that it comes with many risks.",
+    "passage_citation": ":contentReference[oaicite:8]{index=8}",
+    "question_text": "Read this sentence. When one person pays another, all the computers in the Bitcoin network are sent a new “block” detailing the transaction, thus eliminating the need for a third party—like a credit card company—to process the payment. Where should this sentence be added to best support the ideas in the third paragraph?",
+    "options": [
+      "between sentences 13 and 14",
+      "between sentences 14 and 15",
+      "between sentences 16 and 17",
+      "the end of the paragraph (after sentence 17)"
+    ],
+    "correct_answer": 2
+  },
+  {
+    "_id": "10",
+    "question_number": 10,
+    "practice_set": "6",
+    "category": "English:Editing/Revising",
+    "difficulty": "medium",
+    "time_estimate": 95,
+    "passage": "Bitcoin: Past, Present, and Future\n\n(1) One of the biggest financial stories in the last few years has been the rise of Bitcoin. (2) Some speculators are trying to buy as much Bitcoin as they can; some economists see Bitcoin as a trend that will fade; and some engineers are racing to build software to make Bitcoin more accessible to the public. (3) Undoubtedly, Bitcoin is a hot commodity that investors are chasing after, but how wise is it to purchase Bitcoin? (4) Bitcoin is a digital currency launched in the 2000s by a person whose real identity is not known. (5) It is fitting that Nakamoto has shrouded his identity, since so much of Bitcoin revolves around privacy. (6) Before the advent of Bitcoin, every transaction you made with your credit card online could be monitored by a bank or government. (7) Most banks charge customers high fees to send money internationally over the Internet. (8) The promise of Bitcoin is a low- or no-fee, untraceable, encrypted currency (or cryptocurrency) that is completely decentralized from any bank. (9) Bitcoin allows individuals to quickly send payments to one another without dealing with a third party. (10) Whereas this process done the traditional way can take several days to complete, with Bitcoin it occurs within minutes. (11) But what is Bitcoin? (12) What's unique about Bitcoin is not the currency itself, but rather the network it lives on. (13) You can think of Bitcoin like a digital token that can be bought or sold. (14) That in itself is not revolutionary. (15) Most currencies are controlled by a central bank or authority. (16) Bitcoin exists on a decentralized, anonymous web of computers. (17) Additionally, participants can see and validate Bitcoin transactions that occur in an online ledger, called the blockchain. (18) For all its advantages, Bitcoin has drawbacks. (19) For one, its price is highly volatile, jumping up and down by thousands of dollars in mere days. (20) Moreover, many observers see the current rush to buy Bitcoin reflective of a bubble that is destined to pop. (21) Any investor looking to invest in Bitcoin should know that it comes with many risks.",
+    "passage_citation": ":contentReference[oaicite:9]{index=9}",
+    "question_text": "What is the best way to combine sentences 15 and 16 in order to establish the relationship between the ideas?",
+    "options": [
+      "While most currencies are controlled by a central bank or authority, Bitcoin exists on a decentralized, anonymous web of computers.",
+      "Bitcoin exists on a decentralized, anonymous web of computers because most currencies are controlled by a central bank or authority.",
+      "Despite most currencies being controlled by a central bank or authority, yet Bitcoin exists on a decentralized, anonymous web of computers.",
+      "Bitcoin exists on a decentralized, anonymous web of computers, so most currencies are controlled by a central bank or authority."
+    ],
+    "correct_answer": 1
+  },
+  {
+    "_id": "11",
+    "question_number": 11,
+    "practice_set": "6",
+    "category": "English:Editing/Revising",
+    "difficulty": "medium",
+    "time_estimate": 95,
+    "passage": "Bitcoin: Past, Present, and Future\n\n(1) One of the biggest financial stories in the last few years has been the rise of Bitcoin. (2) Some speculators are trying to buy as much Bitcoin as they can; some economists see Bitcoin as a trend that will fade; and some engineers are racing to build software to make Bitcoin more accessible to the public. (3) Undoubtedly, Bitcoin is a hot commodity that investors are chasing after, but how wise is it to purchase Bitcoin? (4) Bitcoin is a digital currency launched in the 2000s by a person whose real identity is not known. (5) It is fitting that Nakamoto has shrouded his identity, since so much of Bitcoin revolves around privacy. (6) Before the advent of Bitcoin, every transaction you made with your credit card online could be monitored by a bank or government. (7) Most banks charge customers high fees to send money internationally over the Internet. (8) The promise of Bitcoin is a low- or no-fee, untraceable, encrypted currency (or cryptocurrency) that is completely decentralized from any bank. (9) Bitcoin allows individuals to quickly send payments to one another without dealing with a third party. (10) Whereas this process done the traditional way can take several days to complete, with Bitcoin it occurs within minutes. (11) But what is Bitcoin? (12) What's unique about Bitcoin is not the currency itself, but rather the network it lives on. (13) You can think of Bitcoin like a digital token that can be bought or sold. (14) That in itself is not revolutionary. (15) Most currencies are controlled by a central bank or authority. (16) Bitcoin exists on a decentralized, anonymous web of computers. (17) Additionally, participants can see and validate Bitcoin transactions that occur in an online ledger, called the blockchain. (18) For all its advantages, Bitcoin has drawbacks. (19) For one, its price is highly volatile, jumping up and down by thousands of dollars in mere days. (20) Moreover, many observers see the current rush to buy Bitcoin reflective of a bubble that is destined to pop. (21) Any investor looking to invest in Bitcoin should know that it comes with many risks.",    "passage_citation": ":contentReference[oaicite:10]{index=10}",
+    "question_text": "Which conclusion sentence should be added after sentence 21 to support the ideas raised in the passage as a whole?",
+    "options": [
+      "Ultimately, until the true identity of Satoshi Nakamoto is revealed, the uncertainty in Bitcoin's future is likely to continue.",
+      "In the end, the future is Bitcoin's; the digital currency will most likely surpass traditional currencies like dollars, euros, and yen in a matter of decades.",
+      "Nonetheless, if properly understood and managed, Bitcoin may be an innovative way to send, receive, and even make money in the digital century.",
+      "The risks associated with Bitcoin are currently too high, and, in conclusion, investors should avoid the digital currency at all costs."
+    ],
+    "correct_answer": 2
+  },
+  {
+    "_id": "12",
+    "question_number": 12,
+    "practice_set": "6",
+    "category": "English:Reading Comprehension",
+    "difficulty": "easy",
+    "time_estimate": 95,
+    "passage": "Crete was settled around the year 5000 B.C. by travelers from Greece who journeyed across sixty miles of open water to reach this island in the Mediterranean Sea. With a jagged spine of mountains cutting across the land, the settlers realized that the potential for farming was very limited. As a means of survival, the people of Crete focused their attention on their geographical assets: the waters surrounding the island, their strategic position in the Mediterranean, and the natural harbors of the gently sloping northern coasts. Thus, the Cretans were the first people to develop a modern commercial economy based mainly on seafaring and trade. Using evidence from several sources, we can understand some of the details of Cretan life. Archaeological findings support the legend that the people of Crete were skillful builders. The island's forests provided timber for building ships. Their ships were sea-worthy and must have required careful design and expert construction. Their ships had high, sharply curved bows and sterns, and keels covered in bronze that stood out beyond the prow, a design which shows that the boats were intended for ramming into enemy ships. This naval tactic, developed in Crete, dominated sea warfare during this time.",
+    "passage_citation": ":contentReference[oaicite:11]{index=11}",
+    "question_text": "Which of the following best tells what this passage is about?",
+    "options": [
+      "a description of an early culture characteristic of the civilization of Crete",
+      "a demonstration of how ships are built fighting as a sport",
+      "a proof of the origin of the settlers of Crete",
+      "a study of the advantages of a society trade-oriented economy"
+    ],
+    "correct_answer": 0
+  },
+  {
+    "_id": "13",
+    "question_number": 13,
+    "practice_set": "6",
+    "category": "English:Reading Comprehension",
+    "difficulty": "medium",
+    "time_estimate": 95,
+    "passage": "Crete was settled around the year 5000 B.C. by travelers from Greece who journeyed across sixty miles of open water to reach this island in the Mediterranean Sea. With a jagged spine of mountains cutting across the land, the settlers realized that the potential for farming was very limited. As a means of survival, the people of Crete focused their attention on their geographical assets: the waters surrounding the island, their strategic position in the Mediterranean, and the natural harbors of the gently sloping northern coasts. Thus, the Cretans were the first people to develop a modern commercial economy based mainly on seafaring and trade. Using evidence from several sources, we can understand some of the details of Cretan life. Archaeological findings support the legend that the people of Crete were skillful builders. The island's forests provided timber for building ships. Their ships were sea-worthy and must have required careful design and expert construction. Their ships had high, sharply curved bows and sterns, and keels covered in bronze that stood out beyond the prow, a design which shows that the boats were intended for ramming into enemy ships. This naval tactic, developed in Crete, dominated sea warfare during this time.",
+    "passage_citation": ":contentReference[oaicite:12]{index=12}",
+    "question_text": "According to the passage, which of the following statements about Crete is not true?",
+    "options": [
+      "The land was not suitable for the development of an agricultural economy.",
+      "The location of the island helped settlers to make a good living by trade.",
+      "The island is surrounded by a border of jagged cliffs.",
+      "The island provided a large supply of timber."
+    ],
+    "correct_answer": 2
+  },
+  {
+    "_id": "14",
+    "question_number": 14,
+    "practice_set": "6",
+    "category": "English:Reading Comprehension",
+    "difficulty": "medium",
+    "time_estimate": 95,
+    "passage": "Crete was settled around the year 5000 B.C. by travelers from Greece who journeyed across sixty miles of open water to reach this island in the Mediterranean Sea. With a jagged spine of mountains cutting across the land, the settlers realized that the potential for farming was very limited. As a means of survival, the people of Crete focused their attention on their geographical assets: the waters surrounding the island, their strategic position in the Mediterranean, and the natural harbors of the gently sloping northern coasts. Thus, the Cretans were the first people to develop a modern commercial economy based mainly on seafaring and trade. Using evidence from several sources, we can understand some of the details of Cretan life. Archaeological findings support the legend that the people of Crete were skillful builders. The island's forests provided timber for building ships. Their ships were sea-worthy and must have required careful design and expert construction. Their ships had high, sharply curved bows and sterns, and keels covered in bronze that stood out beyond the prow, a design which shows that the boats were intended for ramming into enemy ships. This naval tactic, developed in Crete, dominated sea warfare during this time.",
+    "passage_citation": ":contentReference[oaicite:13]{index=13}",
+    "question_text": "According to the passage, the people of Crete were known as skillful builders because",
+    "options": [
+      "their architecture featured massive columns, courtyards, and grand staircases",
+      "modern Cretans do not rely on trade to the extent that ancient settlers did",
+      "they designed a keel which was used in sea warfare",
+      "forests provided timber for building ships"
+    ],
+    "correct_answer": 2
+  },
+  {
+    "_id": "15",
+    "question_number": 15,
+    "practice_set": "6",
+    "category": "English:Reading Comprehension",
+    "difficulty": "medium",
+    "time_estimate": 95,
+    "passage": "Crete was settled around the year 5000 B.C. by travelers from Greece who journeyed across sixty miles of open water to reach this island in the Mediterranean Sea. With a jagged spine of mountains cutting across the land, the settlers realized that the potential for farming was very limited. As a means of survival, the people of Crete focused their attention on their geographical assets: the waters surrounding the island, their strategic position in the Mediterranean, and the natural harbors of the gently sloping northern coasts. Thus, the Cretans were the first people to develop a modern commercial economy based mainly on seafaring and trade. Using evidence from several sources, we can understand some of the details of Cretan life. Archaeological findings support the legend that the people of Crete were skillful builders. The island's forests provided timber for building ships. Their ships were sea-worthy and must have required careful design and expert construction. Their ships had high, sharply curved bows and sterns, and keels covered in bronze that stood out beyond the prow, a design which shows that the boats were intended for ramming into enemy ships. This naval tactic, developed in Crete, dominated sea warfare during this time.",
+    "passage_citation": ":contentReference[oaicite:14]{index=14}",
+    "question_text": "According to the passage, which of the following describes the most important characteristic of the civilization of Crete?",
+    "options": [
+      "It was the first to develop bull-fighting as a sport.",
+      "It was an upper-middle class society.",
+      "It was the first to start an economy based on trade and seafaring.",
+      "It was preoccupied with war."
+    ],
+    "correct_answer": 2
+  },
+  {
+    "_id": "16",
+    "question_number": 16,
+    "practice_set": "6",
+    "category": "English:Reading Comprehension",
+    "difficulty": "medium",
+    "time_estimate": 95,
+    "passage": "Crete was settled around the year 5000 B.C. by travelers from Greece who journeyed across sixty miles of open water to reach this island in the Mediterranean Sea. With a jagged spine of mountains cutting across the land, the settlers realized that the potential for farming was very limited. As a means of survival, the people of Crete focused their attention on their geographical assets: the waters surrounding the island, their strategic position in the Mediterranean, and the natural harbors of the gently sloping northern coasts. Thus, the Cretans were the first people to develop a modern commercial economy based mainly on seafaring and trade. Using evidence from several sources, we can understand some of the details of Cretan life. Archaeological findings support the legend that the people of Crete were skillful builders. The island's forests provided timber for building ships. Their ships were sea-worthy and must have required careful design and expert construction. Their ships had high, sharply curved bows and sterns, and keels covered in bronze that stood out beyond the prow, a design which shows that the boats were intended for ramming into enemy ships. This naval tactic, developed in Crete, dominated sea warfare during this time.",
+    "passage_citation": ":contentReference[oaicite:15]{index=15}",
+    "question_text": "According to the passage, the function of “keels covered in bronze” was",
+    "options": [
+      "to show religious devotions",
+      "to replace wood in building ships",
+      "to improve the land for farming",
+      "to ram enemy ships"
+    ],
+    "correct_answer": 3
+  },
+  {
+    "_id": "17",
+    "question_number": 17,
+    "practice_set": "6",
+    "category": "English:Reading Comprehension",
+    "difficulty": "easy",
+    "time_estimate": 95,
+    "passage": "Crete was settled around the year 5000 B.C. by travelers from Greece who journeyed across sixty miles of open water to reach this island in the Mediterranean Sea. With a jagged spine of mountains cutting across the land, the settlers realized that the potential for farming was very limited. As a means of survival, the people of Crete focused their attention on their geographical assets: the waters surrounding the island, their strategic position in the Mediterranean, and the natural harbors of the gently sloping northern coasts. Thus, the Cretans were the first people to develop a modern commercial economy based mainly on seafaring and trade. Using evidence from several sources, we can understand some of the details of Cretan life. Archaeological findings support the legend that the people of Crete were skillful builders. The island's forests provided timber for building ships. Their ships were sea-worthy and must have required careful design and expert construction. Their ships had high, sharply curved bows and sterns, and keels covered in bronze that stood out beyond the prow, a design which shows that the boats were intended for ramming into enemy ships. This naval tactic, developed in Crete, dominated sea warfare during this time.",
+    "passage_citation": ":contentReference[oaicite:16]{index=16}",
+    "question_text": "The final paragraph of the passage suggests that",
+    "options": [
+      "modern Cretans' reliance on trade is due as much to necessity as to ingenuity",
+      "modern Cretans do not rely on trade to the extent that ancient settlers did",
+      "modern Cretans rely on trade only to sell manufactured goods",
+      "modern Cretans deeply respect the tradition and history of maritime trade"
+    ],
+    "correct_answer": 0
+  },
+  {
+    "_id": "18",
+    "question_number": 18,
+    "practice_set": "6",
+    "category": "English:Reading Comprehension",
+    "difficulty": "medium",
+    "time_estimate": 95,
+    "passage": "The following excerpt, from Jack London’s 1904 novel The Sea-Wolf, depicts the narrator’s harrowing experience aboard a ferry near the San Francisco Bay.\n\nThen everything happened, and with inconceivable rapidity. The fog seemed to break away as though split by a wedge, and the bow of a steamboat emerged, trailing fog-wreaths on either side like seaweed on the snout of Leviathan. I could see the pilot-house and a white-bearded man leaning partly out of it, on his elbows. He was clad in a blue uniform, and I remember noting how trim and quiet he was. His quietness, under the circumstances, was terrible. He accepted Destiny, marched hand in hand with it, and coolly measured the stroke. As he leaned there, he ran a calm and speculative eye over us, as though to determine the precise point of the collision, and took no notice whatever when our pilot, white with rage, shouted, “Now you’ve done it!”\n\n“Grab hold of something and hang on,” the red-faced man said to me. All his bluster had gone, and he seemed to have caught the contagion of preternatural calm. “And listen to the women scream,” he said grimly—almost bitterly, I thought, as though he had been through the experience before.\n\nThe vessels came together before I could follow his advice. We must have been struck squarely amidships, for I saw nothing, the strange steamboat having passed beyond my line of vision. The Martinez heeled over, sharply, and there was a crashing and rending of timber. I was thrown flat on the wet deck, and before I could scramble to my feet I heard the scream of the women. This it was, I am certain—the most indescribable of blood-curdling sounds—that threw me into a panic. I remembered the life-preservers stored in the cabin, but was met at the door and swept backward by a wild rush of men and women. What happened in the next few minutes I do not recollect, though I have a clear remembrance of pulling down life-preservers from the overhead racks, while the red-faced man fastened them about the bodies of a hysterical group of women. This memory is as distinct and sharp as that of any picture I have seen. It is a picture, and I can see it now—the jagged edges of the hole in the side of the cabin, through which the grey fog swirled and eddied; the empty upholstered seats, littered with all the evidences of sudden flight, such as packages, hand satchels, umbrellas, and wraps; the red-faced man, stumping gallantly around on his artificial legs and buckling life-preservers on all comers; and finally, the screaming bedlam of women. This it was, the screaming of the women, that most tried my nerves.",
+    "passage_lines": "L15-L62",
+    "passage_citation": ":contentReference[oaicite:17]{index=17}",
+    "question_text": "This passage can best be summarized as",
+    "options": [
+      "a ferry passenger’s recollections of a tragedy",
+      "a play-by-play account of how a ship sinks when struck by an obstacle",
+      "an unreliable report on a mythic disappearance",
+      "one passenger’s journal entry that replays a horrifying collision"
+    ],
+    "correct_answer": 0
+  },
+  {
+    "_id": "19",
+    "question_number": 19,
+    "practice_set": "6",
+    "category": "English:Reading Comprehension",
+    "difficulty": "medium",
+    "time_estimate": 95,
+    "passage": "The following excerpt, from Jack London’s 1904 novel The Sea-Wolf, depicts the narrator’s harrowing experience aboard a ferry near the San Francisco Bay.\n\nThen everything happened, and with inconceivable rapidity. The fog seemed to break away as though split by a wedge, and the bow of a steamboat emerged, trailing fog-wreaths on either side like seaweed on the snout of Leviathan. I could see the pilot-house and a white-bearded man leaning partly out of it, on his elbows. He was clad in a blue uniform, and I remember noting how trim and quiet he was. His quietness, under the circumstances, was terrible. He accepted Destiny, marched hand in hand with it, and coolly measured the stroke. As he leaned there, he ran a calm and speculative eye over us, as though to determine the precise point of the collision, and took no notice whatever when our pilot, white with rage, shouted, “Now you’ve done it!”\n\n“Grab hold of something and hang on,” the red-faced man said to me. All his bluster had gone, and he seemed to have caught the contagion of preternatural calm. “And listen to the women scream,” he said grimly—almost bitterly, I thought, as though he had been through the experience before.\n\nThe vessels came together before I could follow his advice. We must have been struck squarely amidships, for I saw nothing, the strange steamboat having passed beyond my line of vision. The Martinez heeled over, sharply, and there was a crashing and rending of timber. I was thrown flat on the wet deck, and before I could scramble to my feet I heard the scream of the women. This it was, I am certain—the most indescribable of blood-curdling sounds—that threw me into a panic. I remembered the life-preservers stored in the cabin, but was met at the door and swept backward by a wild rush of men and women. What happened in the next few minutes I do not recollect, though I have a clear remembrance of pulling down life-preservers from the overhead racks, while the red-faced man fastened them about the bodies of a hysterical group of women. This memory is as distinct and sharp as that of any picture I have seen. It is a picture, and I can see it now—the jagged edges of the hole in the side of the cabin, through which the grey fog swirled and eddied; the empty upholstered seats, littered with all the evidences of sudden flight, such as packages, hand satchels, umbrellas, and wraps; the red-faced man, stumping gallantly around on his artificial legs and buckling life-preservers on all comers; and finally, the screaming bedlam of women. This it was, the screaming of the women, that most tried my nerves.",
+    "passage_lines": "L15-L62",
+    "passage_citation": ":contentReference[oaicite:18]{index=18}",
+    "question_text": "According to the passage, what was most likely the cause of the shipwreck?",
+    "options": [
+      "ill intent on the part of the steamboat",
+      "poor weather conditions",
+      "the inexperience of the Martinez’s crew",
+      "the hand of fate"
+    ],
+    "correct_answer": 1
+  },
+  {
+    "_id": "20",
+    "question_number": 20,
+    "practice_set": "6",
+    "category": "English:Reading Comprehension",
+    "difficulty": "medium",
+    "time_estimate": 95,
+    "passage": "The following excerpt, from Jack London’s 1904 novel The Sea-Wolf, depicts the narrator’s harrowing experience aboard a ferry near the San Francisco Bay.\n\nThen everything happened, and with inconceivable rapidity. The fog seemed to break away as though split by a wedge, and the bow of a steamboat emerged, trailing fog-wreaths on either side like seaweed on the snout of Leviathan. I could see the pilot-house and a white-bearded man leaning partly out of it, on his elbows. He was clad in a blue uniform, and I remember noting how trim and quiet he was. His quietness, under the circumstances, was terrible. He accepted Destiny, marched hand in hand with it, and coolly measured the stroke. As he leaned there, he ran a calm and speculative eye over us, as though to determine the precise point of the collision, and took no notice whatever when our pilot, white with rage, shouted, “Now you’ve done it!”\n\n“Grab hold of something and hang on,” the red-faced man said to me. All his bluster had gone, and he seemed to have caught the contagion of preternatural calm. “And listen to the women scream,” he said grimly—almost bitterly, I thought, as though he had been through the experience before.\n\nThe vessels came together before I could follow his advice. We must have been struck squarely amidships, for I saw nothing, the strange steamboat having passed beyond my line of vision. The Martinez heeled over, sharply, and there was a crashing and rending of timber. I was thrown flat on the wet deck, and before I could scramble to my feet I heard the scream of the women. This it was, I am certain—the most indescribable of blood-curdling sounds—that threw me into a panic. I remembered the life-preservers stored in the cabin, but was met at the door and swept backward by a wild rush of men and women. What happened in the next few minutes I do not recollect, though I have a clear remembrance of pulling down life-preservers from the overhead racks, while the red-faced man fastened them about the bodies of a hysterical group of women. This memory is as distinct and sharp as that of any picture I have seen. It is a picture, and I can see it now—the jagged edges of the hole in the side of the cabin, through which the grey fog swirled and eddied; the empty upholstered seats, littered with all the evidences of sudden flight, such as packages, hand satchels, umbrellas, and wraps; the red-faced man, stumping gallantly around on his artificial legs and buckling life-preservers on all comers; and finally, the screaming bedlam of women. This it was, the screaming of the women, that most tried my nerves.",
+    "passage_lines": "L15-L62",
+    "passage_citation": ":contentReference[oaicite:19]{index=19}",
+    "question_text": "What does the red-faced man’s response to the collision suggest?",
+    "options": [
+      "He is not a stranger to maritime disasters.",
+      "He is extremely uneasy about the situation.",
+      "He looks forward to hearing the women’s screams.",
+      "He believes the Martinez can be saved and acts to do so."
+    ],
+    "correct_answer": 1
+  }
+]

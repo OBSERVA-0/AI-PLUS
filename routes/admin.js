@@ -166,13 +166,14 @@ router.get('/students/test-scores', auth, requireAdmin, async (req, res) => {
          return null;
        }
        
-       // Get the best scaled score
+       // Get the best scaled score and calculate raw section scores
        let bestScaledTotal = 0;
        let bestPercentage = 0;
        let latestAttempt = null;
        let totalAttempts = testAttempts.length;
        let bestScaledScore = null;
        let bestAttempt = null;
+       let bestRawScores = null;
        
        testAttempts.forEach(attempt => {
          if (attempt.scaledScores.total > bestScaledTotal) {
@@ -181,6 +182,48 @@ router.get('/students/test-scores', auth, requireAdmin, async (req, res) => {
            latestAttempt = attempt;
            bestAttempt = attempt;
            bestScaledScore = attempt.scaledScores;
+           
+           // Calculate raw section scores from detailed results
+           if (attempt.detailedResults && attempt.detailedResults.length > 0) {
+             const sectionScores = {
+               math: { correct: 0, total: 0 },
+               english: { correct: 0, total: 0 }
+             };
+             
+             attempt.detailedResults.forEach(result => {
+               if (testType === 'shsat') {
+                 if (result.questionNumber <= 57) {
+                   // Questions 1-57 are ELA
+                   sectionScores.english.total++;
+                   if (result.isCorrect) {
+                     sectionScores.english.correct++;
+                   }
+                 } else if (result.questionNumber <= 114) {
+                   // Questions 58-114 are Math
+                   sectionScores.math.total++;
+                   if (result.isCorrect) {
+                     sectionScores.math.correct++;
+                   }
+                 }
+               } else if (testType === 'sat') {
+                 if (result.questionNumber <= 54) {
+                   // Questions 1-54 are Reading & Writing
+                   sectionScores.english.total++;
+                   if (result.isCorrect) {
+                     sectionScores.english.correct++;
+                   }
+                 } else if (result.questionNumber <= 98) {
+                   // Questions 55-98 are Math
+                   sectionScores.math.total++;
+                   if (result.isCorrect) {
+                     sectionScores.math.correct++;
+                   }
+                 }
+               }
+             });
+             
+             bestRawScores = sectionScores;
+           }
          }
        });
       
@@ -193,6 +236,7 @@ router.get('/students/test-scores', auth, requireAdmin, async (req, res) => {
          bestPercentage: bestPercentage,
          bestScaledTotal: bestScaledTotal,
          bestScaledScore: bestScaledScore,
+         bestRawScores: bestRawScores,
          totalAttempts: totalAttempts,
          latestAttempt: latestAttempt ? {
            date: latestAttempt.completedAt,

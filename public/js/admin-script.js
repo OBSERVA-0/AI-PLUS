@@ -297,31 +297,37 @@ function createStudentCard(student) {
 function createTestScoreCard(student, rank) {
     const testDate = student.latestAttempt ? formatDate(student.latestAttempt.date) : 'N/A';
     const timeSpent = student.latestAttempt ? formatTime(Math.round(student.latestAttempt.timeSpent / 60)) : 'N/A';
-    
-    // Format scaled scores breakdown
+
+    // Format scaled scores breakdown with raw scores
     let scaledScoreDisplay = '';
     if (student.bestScaledScore.math !== undefined && student.bestScaledScore.english !== undefined) {
         // SHSAT format
+        const mathRaw = student.bestRawScores ? `<span class="raw-score">(${student.bestRawScores.math.correct}/57)</span>` : '';
+        const englishRaw = student.bestRawScores ? `<span class="raw-score">(${student.bestRawScores.english.correct}/57)</span>` : '';
+        
         scaledScoreDisplay = `
             <div class="meta-item">
                 <div class="meta-label">Math</div>
-                <div class="meta-value">${student.bestScaledScore.math}</div>
+                <div class="meta-value">${student.bestScaledScore.math} ${mathRaw}</div>
             </div>
             <div class="meta-item">
                 <div class="meta-label">English</div>
-                <div class="meta-value">${student.bestScaledScore.english}</div>
+                <div class="meta-value">${student.bestScaledScore.english} ${englishRaw}</div>
             </div>
         `;
     } else if (student.bestScaledScore.reading_writing !== undefined) {
         // SAT format
+        const mathRaw = student.bestRawScores ? `<span class="raw-score">(${student.bestRawScores.math.correct}/44)</span>` : '';
+        const rwRaw = student.bestRawScores ? `<span class="raw-score">(${student.bestRawScores.english.correct}/54)</span>` : '';
+        
         scaledScoreDisplay = `
             <div class="meta-item">
                 <div class="meta-label">Math</div>
-                <div class="meta-value">${student.bestScaledScore.math}</div>
+                <div class="meta-value">${student.bestScaledScore.math} ${mathRaw}</div>
             </div>
             <div class="meta-item">
                 <div class="meta-label">R&W</div>
-                <div class="meta-value">${student.bestScaledScore.reading_writing}</div>
+                <div class="meta-value">${student.bestScaledScore.reading_writing} ${rwRaw}</div>
             </div>
         `;
     }
@@ -638,6 +644,7 @@ function handleTestTypeChange() {
             <option value="3">Practice Test 3</option>
             <option value="4">Practice Test 4</option>
             <option value="5">Practice Test 5</option>
+            <option value="6">Practice Test 6</option>
         `;
         practiceSetSelect.disabled = false;
     } else if (testType === 'sat') {
