@@ -2,6 +2,7 @@ const express = require('express');
 const User = require('../models/User');
 const TestCode = require('../models/TestCode');
 const { auth } = require('../middleware/auth');
+const XLSX = require('xlsx');
 
 const router = express.Router();
 
@@ -1005,6 +1006,193 @@ router.get('/question-analytics/:testType/:practiceSet', auth, requireAdmin, asy
     res.status(500).json({
       success: false,
       message: 'Error retrieving detailed question analytics'
+    });
+  }
+});
+
+// @route   GET /api/admin/export/test-scores
+// @desc    Export test scores to Excel
+// @access  Private (Admin only)
+router.get('/export/test-scores', auth, requireAdmin, async (req, res) => {
+  try {
+    const { testType, practiceSet, minScore, maxScore } = req.query;
+    
+    if (!testType || !practiceSet) {
+      return res.status(400).json({
+        success: false,
+        message: 'testType and practiceSet are required'
+      });
+    }
+    
+    console.log(`📊 Exporting Excel for ${testType} practice set ${practiceSet}`);
+    
+    // Get all students with test history for the specific test
+    const students = await User.find({
+      role: 'student',
+      'testHistory': {
+        $elemMatch: {
+          testType: testType,
+          practiceSet: practiceSet
+        }
+      }
+    }).select('firstName lastName email grade testHistory testProgress isActive');
+    
+    // Process students and extract their best score for this specific test
+    let studentScores = students.map(student => {
+      // Find all attempts for this specific test with scaled scores
+      const testAttempts = student.testHistory.filter(test => 
+        test.testType === testType && 
+        test.practiceSet === practiceSet &&
+        test.scaledScores && 
+        test.scaledScores.total && 
+        test.scaledScores.total > 0
+      );
+      
+      // Skip students without any scaled score attempts
+      if (testAttempts.length === 0) {
+        return null;
+      }
+      
+      // Get the best scaled score and calculate raw section scores
+      let bestScaledTotal = 0;
+      let bestAttempt = null;
+      let bestRawScores = null;
+      
+      testAttempts.forEach(attempt => {
+        if (attempt.scaledScores.total > bestScaledTotal) {
+          bestScaledTotal = attempt.scaledScores.total;
+          bestAttempt = attempt;
+          
+          // Calculate raw section scores from detailed results
+          if (attempt.detailedResults && attempt.detailedResults.length > 0) {
+            const sectionScores = {
+              math: { correct: 0, total: 0 },
+              english: { correct: 0, total: 0 }
+            };
+            
+            attempt.detailedResults.forEach(result => {
+              if (testType === 'shsat') {
+                if (result.questionNumber <= 57) {
+                  // Questions 1-57 are ELA
+                  sectionScores.english.total++;
+                  if (result.isCorrect) {
+                    sectionScores.english.correct++;
+                  }
+                } else if (result.questionNumber <= 114) {
+                  // Questions 58-114 are Math
+                  sectionScores.math.total++;
+                  if (result.isCorrect) {
+                    sectionScores.math.correct++;
+                  }
+                }
+              } else if (testType === 'sat') {
+                if (result.questionNumber <= 54) {
+                  // Questions 1-54 are Reading & Writing
+                  sectionScores.english.total++;
+                  if (result.isCorrect) {
+                    sectionScores.english.correct++;
+                  }
+                } else if (result.questionNumber <= 98) {
+                  // Questions 55-98 are Math
+                  sectionScores.math.total++;
+                  if (result.isCorrect) {
+                    sectionScores.math.correct++;
+                  }
+                }
+              }
+            });
+            
+            bestRawScores = sectionScores;
+          }
+        }
+      });
+      
+      return {
+        name: `${student.firstName} ${student.lastName}`,
+        email: student.email,
+        grade: student.grade,
+        bestScaledTotal: bestScaledTotal,
+        bestRawScores: bestRawScores
+      };
+    }).filter(student => student !== null);
+    
+    // Apply score range filter if specified
+    if (minScore && !isNaN(minScore)) {
+      const minScoreNum = parseInt(minScore);
+      const maxScoreNum = maxScore && !isNaN(maxScore) ? parseInt(maxScore) : Infinity;
+      
+      studentScores = studentScores.filter(student => 
+        student.bestScaledTotal >= minScoreNum && student.bestScaledTotal <= maxScoreNum
+      );
+    }
+    
+    // Sort by best scaled score (highest first)
+    studentScores.sort((a, b) => b.bestScaledTotal - a.bestScaledTotal);
+    
+    // Format data for Excel
+    const excelData = studentScores.map(student => {
+      const ela = student.bestRawScores ? `${student.bestRawScores.english.correct}/${student.bestRawScores.english.total}` : 'N/A';
+      const math = student.bestRawScores ? `${student.bestRawScores.math.correct}/${student.bestRawScores.math.total}` : 'N/A';
+      const totalScore = student.bestRawScores ? 
+        `${student.bestRawScores.english.correct + student.bestRawScores.math.correct}/${student.bestRawScores.english.total + student.bestRawScores.math.total}` : 
+        'N/A';
+      
+      return {
+        'Student Name': student.name,
+        'ELA': ela,
+        'MATH': math,
+        'Total Score': totalScore,
+        'Scale': student.bestScaledTotal
+      };
+    });
+    
+    // Create workbook and worksheet
+    const workbook = XLSX.utils.book_new();
+    const worksheet = XLSX.utils.json_to_sheet(excelData);
+    
+    // Set column widths
+    const colWidths = [
+      { wch: 25 }, // Student Name
+      { wch: 12 }, // ELA
+      { wch: 12 }, // MATH
+      { wch: 15 }, // Total Score
+      { wch: 10 }  // Scale
+    ];
+    worksheet['!cols'] = colWidths;
+    
+    // Generate test name for sheet name
+    let testName = '';
+    if (testType === 'shsat') {
+      testName = practiceSet === 'Diagnostic_Test' 
+        ? 'SHSAT Diagnostic Test' 
+        : `SHSAT Practice Test ${practiceSet}`;
+    } else if (testType === 'sat') {
+      testName = `SAT Practice Test ${practiceSet}`;
+    } else if (testType === 'state') {
+      testName = `State Test Practice ${practiceSet}`;
+    }
+    
+    // Add worksheet to workbook
+    XLSX.utils.book_append_sheet(workbook, worksheet, testName);
+    
+    // Generate Excel buffer
+    const buffer = XLSX.write(workbook, { type: 'buffer', bookType: 'xlsx' });
+    
+    // Set response headers for file download
+    const filename = `${testType}_practice_${practiceSet}_scores.xlsx`;
+    res.setHeader('Content-Disposition', `attachment; filename="${filename}"`);
+    res.setHeader('Content-Type', 'application/vnd.openxmlformats-officedocument.spreadsheetml.sheet');
+    
+    console.log(`✅ Excel export generated: ${filename} with ${studentScores.length} students`);
+    
+    // Send the Excel file
+    res.send(buffer);
+    
+  } catch (error) {
+    console.error('❌ Error exporting Excel:', error);
+    res.status(500).json({
+      success: false,
+      message: 'Error generating Excel export'
     });
   }
 });

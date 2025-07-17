@@ -488,10 +488,14 @@ async function loadStudents(page = 1, search = '', grade = 'all') {
                         No students have taken ${testInfo.testName} yet.
                     </div>
                 `;
+                // Disable export button if no data
+                document.getElementById('export-excel-btn').disabled = true;
             } else {
                 elements.studentsGrid.innerHTML = students.map((student, index) => 
                     createTestScoreCard(student, (page - 1) * 20 + index + 1)
                 ).join('');
+                // Enable export button when data is loaded
+                document.getElementById('export-excel-btn').disabled = false;
             }
             
         } else {
@@ -613,6 +617,9 @@ function handleSortModeChange() {
         state.selectedPracticeSet = '';
         state.selectedScoreRange = null;
         
+        // Disable export button in regular mode
+        document.getElementById('export-excel-btn').disabled = true;
+        
         // Load regular students view
         loadStudents(1, state.searchQuery, state.gradeFilter);
     }
@@ -693,6 +700,73 @@ function handleLoadTestScores() {
         state.selectedTestType = testType;
         state.selectedPracticeSet = practiceSet;
         loadStudents(1);
+    }
+}
+
+// Handle export Excel button
+async function handleExportExcel() {
+    const testType = elements.testTypeSelect.value;
+    const practiceSet = elements.practiceSetSelect.value;
+    const scoreRange = state.selectedScoreRange;
+    
+    if (!testType || !practiceSet) {
+        alert('Please select a test type and practice set first.');
+        return;
+    }
+    
+    try {
+        // Disable button and show loading state
+        const exportBtn = document.getElementById('export-excel-btn');
+        exportBtn.disabled = true;
+        exportBtn.innerHTML = '⏳ Generating...';
+        
+        // Build URL with parameters
+        const params = new URLSearchParams({
+            testType,
+            practiceSet
+        });
+        
+        if (scoreRange) {
+            params.append('minScore', scoreRange.min);
+            if (scoreRange.max) {
+                params.append('maxScore', scoreRange.max);
+            }
+        }
+        
+        // Make request to export endpoint
+        const token = localStorage.getItem('authToken');
+        const response = await fetch(`${API_BASE_URL}/admin/export/test-scores?${params}`, {
+            method: 'GET',
+            headers: {
+                'Authorization': `Bearer ${token}`
+            }
+        });
+        
+        if (!response.ok) {
+            throw new Error('Failed to export data');
+        }
+        
+        // Get the blob and create download link
+        const blob = await response.blob();
+        const url = window.URL.createObjectURL(blob);
+        const a = document.createElement('a');
+        a.href = url;
+        a.download = `${testType}_practice_${practiceSet}_scores.xlsx`;
+        document.body.appendChild(a);
+        a.click();
+        window.URL.revokeObjectURL(url);
+        document.body.removeChild(a);
+        
+        console.log('✅ Excel file downloaded successfully');
+        
+    } catch (error) {
+        console.error('❌ Error exporting Excel:', error);
+        alert('Failed to export data. Please try again.');
+    } finally {
+        // Re-enable button
+        const exportBtn = document.getElementById('export-excel-btn');
+        exportBtn.disabled = false;
+        exportBtn.innerHTML = '📊 Download as Excel';
     }
 }
 
@@ -921,6 +995,10 @@ async function init() {
     const loadTestScoresBtn = document.getElementById('load-test-scores');
     if (loadTestScoresBtn) {
         loadTestScoresBtn.addEventListener('click', handleLoadTestScores);
+    }
+    const exportExcelBtn = document.getElementById('export-excel-btn');
+    if (exportExcelBtn) {
+        exportExcelBtn.addEventListener('click', handleExportExcel);
     }
     
     // Close delete modal when clicking outside
