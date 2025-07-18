@@ -286,7 +286,7 @@
             "modern Cretans rely on trade only to sell manufactured goods.",
             "modern Cretans deeply respect the tradition and history of maritime trade."
         ],
-        "correct_answer": 0
+        "correct_answer": 1
     },
     {
         "_id": "18",
@@ -1713,7 +1713,7 @@
             "1/9",
             "2/9"
         ],
-        "correct_answer": 1
+        "correct_answer": 3
     },
     {
         "_id": "103",
