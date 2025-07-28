@@ -68,6 +68,177 @@ class TestHistoryManager {
 
         // Logout functionality
         document.getElementById('logout-btn').addEventListener('click', this.handleLogout);
+
+        // Modal event listeners
+        this.setupModalEventListeners();
+    }
+
+    setupModalEventListeners() {
+        // Close modal button
+        const closeBtn = document.getElementById('close-modal');
+        if (closeBtn) {
+            closeBtn.addEventListener('click', this.closeModal.bind(this));
+        }
+
+        // Close modal when clicking outside
+        const modal = document.getElementById('question-modal');
+        if (modal) {
+            modal.addEventListener('click', (e) => {
+                if (e.target === modal) {
+                    this.closeModal();
+                }
+            });
+        }
+
+        // Close modal on Escape key
+        document.addEventListener('keydown', (e) => {
+            if (e.key === 'Escape') {
+                this.closeModal();
+            }
+        });
+    }
+
+    async openQuestionModal(questionNumber, testType, practiceSet) {
+        try {
+            const modal = document.getElementById('question-modal');
+            const modalTitle = document.getElementById('modal-question-title');
+            const questionContent = document.getElementById('question-content');
+
+            // Show modal with loading state
+            modal.style.display = 'block';
+            modalTitle.textContent = `Question ${questionNumber} Review`;
+            questionContent.innerHTML = `
+                <div class="loading-spinner">
+                    <div class="spinner"></div>
+                    <p>Loading question...</p>
+                </div>
+            `;
+
+            // Fetch question data
+            const questionData = await this.fetchQuestionData(testType, practiceSet, questionNumber);
+            
+            if (questionData) {
+                this.displayQuestionInModal(questionData);
+            } else {
+                questionContent.innerHTML = `
+                    <div class="error-state">
+                        <p>Sorry, this question could not be loaded.</p>
+                    </div>
+                `;
+            }
+        } catch (error) {
+            console.error('❌ Error opening question modal:', error);
+            const questionContent = document.getElementById('question-content');
+            questionContent.innerHTML = `
+                <div class="error-state">
+                    <p>Error loading question. Please try again later.</p>
+                </div>
+            `;
+        }
+    }
+
+    async fetchQuestionData(testType, practiceSet, questionNumber) {
+        try {
+            console.log(`🔍 Fetching question ${questionNumber} from ${testType} practice set ${practiceSet}`);
+            
+            // First get all questions for this test/practice set
+            const response = await ApiService.getQuestions(testType, practiceSet);
+            
+            if (response.success && response.data.questions) {
+                // Find the specific question by question number
+                const question = response.data.questions.find(q => q.question_number === questionNumber);
+                
+                if (question) {
+                    console.log('✅ Found question:', question);
+                    return question;
+                } else {
+                    console.error(`❌ Question ${questionNumber} not found in response`);
+                    return null;
+                }
+            } else {
+                console.error('❌ Failed to fetch questions:', response.message);
+                return null;
+            }
+        } catch (error) {
+            console.error('❌ Error fetching question data:', error);
+            return null;
+        }
+    }
+
+    displayQuestionInModal(questionData) {
+        const questionContent = document.getElementById('question-content');
+        
+        let optionsHtml = '';
+        if (questionData.answer_type === 'fill_in_the_blank') {
+            // No additional content needed for fill-in-the-blank
+            optionsHtml = '';
+        } else if (questionData.options && questionData.options.length > 0) {
+            optionsHtml = `
+                <ul class="options-list">
+                    ${questionData.options.map((option, index) => {
+                        const optionLetter = String.fromCharCode(65 + index); // A, B, C, D
+                        return `<li class="option-item">${optionLetter}. ${this.renderPassageContent(option)}</li>`;
+                    }).join('')}
+                </ul>
+            `;
+        }
+
+        const passageHtml = questionData.passage ? `
+            <div class="passage-content">
+                <div class="passage-title">Reading Passage:</div>
+                <div class="passage-text">${this.renderPassageContent(questionData.passage)}</div>
+            </div>
+        ` : '';
+
+        questionContent.innerHTML = `
+            <div class="question-display">
+                <div class="question-header">
+                    <div class="question-meta">
+                        <span>Question ${questionData.question_number}</span>
+                        <span>Category: ${questionData.category || 'General'}</span>
+                        <span>Difficulty: ${questionData.difficulty || 'Medium'}</span>
+                    </div>
+                </div>
+                
+                ${passageHtml}
+                
+                <div class="question-text">
+                    ${this.renderPassageContent(questionData.question_text)}
+                </div>
+                
+                ${optionsHtml}
+            </div>
+        `;
+    }
+
+    closeModal() {
+        const modal = document.getElementById('question-modal');
+        if (modal) {
+            modal.style.display = 'none';
+        }
+    }
+
+
+
+    // Function to render passage content - supports both text and images
+    renderPassageContent(passage) {
+        if (!passage) return '';
+        
+        // Check if passage is an image path
+        if (passage.startsWith('image:')) {
+            const imagePath = passage.substring(6); // Remove 'image:' prefix
+            return `<img src="${imagePath}" alt="Question diagram" style="max-width: 100%; height: auto; border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.1);" />`;
+        }
+        
+        // Check if passage contains mixed content (text + image)
+        if (passage.includes('[IMAGE:') && passage.includes(']')) {
+            return passage.replace(/\[IMAGE:(.*?)\]/g, (match, imagePath) => {
+                return `<img src="${imagePath.trim()}" alt="Question diagram" style="max-width: 100%; height: auto; margin: 1rem 0; border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.1);" />`;
+            }).replace(/\n/g, '<br>');
+        }
+        
+        // Default text rendering
+        return passage.replace(/\n/g, '<br>');
     }
 
     applyFilters() {
@@ -118,10 +289,10 @@ class TestHistoryManager {
         document.getElementById('total-time').textContent = this.formatTime(totalTime);
     }
 
-    renderHistory() {
+        renderHistory() {
         const historyList = document.getElementById('history-list');
         const emptyState = document.getElementById('empty-state');
-
+        
         if (this.filteredHistory.length === 0) {
             historyList.style.display = 'none';
             emptyState.style.display = 'block';
@@ -132,6 +303,33 @@ class TestHistoryManager {
         historyList.style.display = 'flex';
         
         historyList.innerHTML = this.filteredHistory.map(test => this.createHistoryItem(test)).join('');
+
+        // Add event listeners for question number clicks
+        this.setupQuestionClickHandlers();
+    }
+
+    setupQuestionClickHandlers() {
+        // Use event delegation to handle clicks on question numbers
+        const historyList = document.getElementById('history-list');
+        if (historyList) {
+            // Remove existing listener to prevent duplicates
+            historyList.removeEventListener('click', this.handleQuestionClick);
+            
+            // Add the event listener
+            this.handleQuestionClick = (e) => {
+                const questionElement = e.target.closest('.question-number.reviewable');
+                if (questionElement) {
+                    const questionNumber = parseInt(questionElement.dataset.questionNumber);
+                    const testType = questionElement.dataset.testType;
+                    const practiceSet = questionElement.dataset.practiceSet;
+                    
+                    console.log(`🔍 Opening modal for question ${questionNumber}`);
+                    this.openQuestionModal(questionNumber, testType, practiceSet);
+                }
+            };
+            
+            historyList.addEventListener('click', this.handleQuestionClick);
+        }
     }
 
     createHistoryItem(test) {
@@ -356,7 +554,7 @@ class TestHistoryManager {
                 <div class="question-section">
                     <div class="question-section-title">${sectionTitle}</div>
                     <div class="question-grid">
-                        ${englishQuestions.map((q) => this.generateQuestionNumber(q.questionNumber, q)).join('')}
+                        ${englishQuestions.map((q) => this.generateQuestionNumber(q.questionNumber, q, test)).join('')}
                     </div>
                 </div>
             `;
@@ -369,7 +567,7 @@ class TestHistoryManager {
                 <div class="question-section">
                     <div class="question-section-title">${sectionTitle}</div>
                     <div class="question-grid">
-                        ${mathQuestions.map((q) => this.generateQuestionNumber(q.questionNumber, q)).join('')}
+                        ${mathQuestions.map((q) => this.generateQuestionNumber(q.questionNumber, q, test)).join('')}
                     </div>
                 </div>
             `;
@@ -397,18 +595,24 @@ class TestHistoryManager {
         return breakdownHtml;
     }
 
-    generateQuestionNumber(displayNumber, questionResult) {
+    generateQuestionNumber(displayNumber, questionResult, testData) {
         let className = 'question-number ';
         
         if (!questionResult.hasAnswer) {
             className += 'question-skipped';
         } else if (questionResult.isCorrect) {
-            className += 'question-correct';
+            className += 'question-correct reviewable';
         } else {
-            className += 'question-incorrect';
+            className += 'question-incorrect reviewable';
         }
 
-        return `<div class="${className}" title="Question ${displayNumber}: ${questionResult.isCorrect ? 'Correct' : questionResult.hasAnswer ? 'Incorrect' : 'Skipped'}">${displayNumber}</div>`;
+        const title = `Question ${displayNumber}: ${questionResult.isCorrect ? 'Correct' : questionResult.hasAnswer ? 'Incorrect' : 'Skipped'}`;
+        const clickableText = questionResult.hasAnswer ? ' - Click to review' : '';
+        
+        const dataAttributes = questionResult.hasAnswer ? 
+            `data-question-number="${questionResult.questionNumber}" data-test-type="${testData.testType}" data-practice-set="${testData.practiceSet}"` : '';
+
+        return `<div class="${className}" title="${title}${clickableText}" ${dataAttributes}>${displayNumber}</div>`;
     }
 
     formatTime(seconds) {

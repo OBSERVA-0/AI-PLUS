@@ -53,4 +53,8 @@ export class ApiService {
     static async getTestHistory() {
         return await this.makeRequest('/user/test-history');
     }
+
+    static async getQuestions(testType, practiceSet) {
+        return await this.makeRequest(`/questions/test?testType=${testType}&practiceSet=${practiceSet}`);
+    }
 } 
