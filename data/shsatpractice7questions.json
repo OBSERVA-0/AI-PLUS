@@ -133,7 +133,7 @@
             "Meat especially poultry and eggs are the most common sources...",
             "E or G"
         ],
-        "correct_answer": 0
+        "correct_answer": 3
     },
     {
         "_id": "9",
@@ -201,7 +201,7 @@
             "the brokenness of humanity",
             "the difficulty of producing material things without technology"
         ],
-        "correct_answer": 2
+        "correct_answer": 0
     },
     {
         "_id": "13",
@@ -354,7 +354,7 @@
             "The four castles that make up the World Heritage site were the most important to the English campaign in Wales",
             "The World Heritage Organization rules stipulate that no more than four individual locations can be associated with any single \"site\""
         ],
-        "correct_answer": 1
+        "correct_answer": 0
     },
     {
         "_id": "22",
@@ -439,7 +439,7 @@
             "Festive",
             "Ruined"
         ],
-        "correct_answer": 3
+        "correct_answer": 1
     },
     {
         "_id": "27",
@@ -915,7 +915,7 @@
             "The author approaches education objectively, from an impartial outsider's point of view",
             "The author has no clear vision or point of view about education but feels it's an important topic to discuss."
         ],
-        "correct_answer": 2
+        "correct_answer": 1
     },
     {
         "_id": "55",
@@ -1116,7 +1116,7 @@
             "5/4",
             "3/2"
         ],
-        "correct_answer": 2
+        "correct_answer": 3
     },
     {
         "_id": "68",
@@ -1388,7 +1388,7 @@
             "7",
             "14"
         ],
-        "correct_answer": 2
+        "correct_answer": 0
     },
     {
         "_id": "84",
@@ -1796,7 +1796,7 @@
             "22 + 5π",
             "22 + 25π"
         ],
-        "correct_answer": 1
+        "correct_answer": 2
     },
     {
         "_id": "108",
