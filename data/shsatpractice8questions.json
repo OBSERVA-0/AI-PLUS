@@ -150,7 +150,7 @@
       "All of Shakespeare's plays are widely regarded as works of genius.",
       "Shakespeare focused on three different kinds of plays: comedies, tragedies, and histories."
     ],
-    "correct_answer": 4
+    "correct_answer": 3
   },
   {
     "_id": "10",
@@ -167,7 +167,7 @@
       "At the same time, Shakespeare explored how human flaws and weaknesses can create sadness and misery in his tragedies.",
       "Another group of Shakespeare plays explored how human flaws and weaknesses can create sadness and misery: the tragedies."
     ],
-    "correct_answer": 2
+    "correct_answer": 1
   },
    {
         "_id": "11",
@@ -711,7 +711,7 @@
       "To connect the content of the passage to experiences the reader might recognize",
       "To help the reader understand that beer is more than just a drink for adults"
     ],
-    "correct_answer": 2
+    "correct_answer": 3
   },
   {
     "_id": "43",
@@ -796,7 +796,7 @@
       "The author means that people can't agree whether water or salt levels in soil are more important",
       "The author is using the analogy of salt and water being in a bad relationship to show why saline soil is bad"
     ],
-    "correct_answer": 3
+    "correct_answer": 0
   },
   {
     "_id": "48",
@@ -813,7 +813,7 @@
       "Plants in silty soil can collapse under their own weight",
       "Silty soil is usually located near bodies of water"
     ],
-    "correct_answer": 0
+    "correct_answer": 3
   },
   {
     "_id": "49",
@@ -830,7 +830,7 @@
       "Flower C",
       "Flower D"
     ],
-    "correct_answer": 2
+    "correct_answer": 3
   },
   {
     "_id": "50",
@@ -898,7 +898,7 @@
       "He combined pieces of existing myths and narratives with history to innovate a new genre",
       "He may be a mythological figure himself"
     ],
-    "correct_answer": 1
+    "correct_answer": 3
   },
   {
     "_id": "54",
@@ -949,7 +949,7 @@
       "Around 4000 BC",
       "Around 2000 BC"
     ],
-    "correct_answer": 2
+    "correct_answer": 3
   },
   {
     "_id": "57",
@@ -1201,7 +1201,7 @@
             "70°",
             "75°"
         ],
-        "correct_answer": 0
+        "correct_answer": 3
     },
     {
         "_id": "73",
