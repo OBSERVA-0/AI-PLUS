@@ -18,7 +18,7 @@ const validateGetQuestions = [
     .withMessage('Invalid test type'),
   query('practiceSet')
     .optional()
-    .isIn(['1', '2', '3','4', '5', '6', '7', '8','9', 'diagnostic'])
+    .isIn(['1', '2', '3','4', '5', '6', '7', '8', '9', 'diagnostic'])
     .withMessage('Practice set must be 1, 2, 3, 4, 5, 6, 7, 8, 9, or diagnostic')
 ];
 
@@ -138,6 +138,10 @@ router.post('/submit', auth, validateSubmitAnswers, handleValidationErrors, asyn
     
     console.log(`📝 Checking answers for test: ${testType} practice set ${practiceSet}`);
     
+    // Add timeout protection to prevent crashes
+    const startTime = Date.now();
+    const SCORING_TIMEOUT = 30000; // 30 seconds
+    
     // Get questions from JSON to check answers
     const questions = await readQuestionsFromJSON(testType, practiceSet);
     
@@ -154,8 +158,24 @@ router.post('/submit', auth, validateSubmitAnswers, handleValidationErrors, asyn
       english: { correct: 0, total: 0 } // english here means reading & writing
     };
     
+    // Create question lookup map for O(1) performance instead of O(n)
+    const questionMap = new Map();
+    questions.forEach(q => questionMap.set(q._id, q));
+    console.log(`📋 Created question lookup map for ${questions.length} questions`);
+    
+    // Check for timeout during processing
+    const checkTimeout = () => {
+      if (Date.now() - startTime > SCORING_TIMEOUT) {
+        throw new Error('Score calculation timeout - please try again');
+      }
+    };
+    
     for (const answer of answers) {
-      const question = questions.find(q => q._id === answer.questionId);
+      // Check timeout every 20 questions to prevent hanging
+      if (detailedResults.length % 20 === 0) {
+        checkTimeout();
+      }
+      const question = questionMap.get(answer.questionId);
       
       if (!question) {
         continue;
@@ -214,23 +234,24 @@ router.post('/submit', auth, validateSubmitAnswers, handleValidationErrors, asyn
         }
       }
       
-      // Record detailed result for review
+      // Record detailed result for review (optimized to reduce memory usage)
       detailedResults.push({
         questionId: question._id,
-        question_text: question.question_text,
-        passage: question.passage,
-        options: question.options,
-        correct_answer: question.correct_answer,
-        answer_type: question.answer_type,
         userAnswer: answer.selectedAnswer,
         isCorrect,
         category: question.category,
-        explanation: question.explanation,
-        question_number: question.question_number
+        question_number: question.question_number,
+        hasAnswer: answer.selectedAnswer !== undefined && answer.selectedAnswer !== null && answer.selectedAnswer !== ''
+        // Removed: question_text, passage, options, explanation to reduce memory usage
+        // These can be retrieved from the original question data when needed for display
       });
     }
     
     const percentage = answers.length > 0 ? Math.round((correctCount / answers.length) * 100) : 0;
+    
+    // Log performance metrics
+    const processingTime = Date.now() - startTime;
+    console.log(`⚡ Score calculation completed in ${processingTime}ms for ${answers.length} answers`);
     
     const responseData = {
       results: {
@@ -345,7 +366,7 @@ router.post('/submit', auth, validateSubmitAnswers, handleValidationErrors, asyn
             isCorrect: result.isCorrect,
             userAnswer: result.userAnswer,
             category: result.category,
-            hasAnswer: result.userAnswer !== undefined && result.userAnswer !== null && result.userAnswer !== ''
+            hasAnswer: result.hasAnswer
           };
         })
       };

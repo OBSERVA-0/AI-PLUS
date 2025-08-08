@@ -219,6 +219,9 @@ const userSchema = new mongoose.Schema({
 // Indexes for better performance
 userSchema.index({ createdAt: -1 });
 userSchema.index({ lastLogin: -1 });
+// Test history indexes for better query performance
+userSchema.index({ 'testHistory.completedAt': -1 });
+userSchema.index({ 'testHistory.testType': 1, 'testHistory.completedAt': -1 });
 
 // Virtual for full name
 userSchema.virtual('fullName').get(function() {
