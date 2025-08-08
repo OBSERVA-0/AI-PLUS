@@ -655,6 +655,7 @@ function handleTestTypeChange() {
             <option value="7">Practice Test 7</option>
             <option value="8">Practice Test 8</option>
             <option value="9">Practice Test 9</option>
+            <option value="10">Practice Test 10</option>
         `;
         practiceSetSelect.disabled = false;
     } else if (testType === 'sat') {
