@@ -3,18 +3,19 @@
         "_id": "1",
         "question_number": 1,
         "practice_set": "10",
-        "category": "English:Revising/Editing",
+        "category": "English:Reading Comprehension:Detail",
         "difficulty": "easy",
         "time_estimate": 95,
-        "passage": "(1) People often associate monosodium glutamate, better known as MSG, with headaches and nausea, but there was no evidence to substantiate that link. (2) In fact, the compounds associated with MSG are commonly found in beef, pork, and chicken. (3) Scientists believe the sicknesses might be the result of a \"nocebo effect.\" (4) The nocebo effect, like the placebo effect, isn't caused by an actual substance but merely by suggestion.",
-        "question_text": "Which sentence in this paragraph contains an error in verb tense?",
+        "passage": "Bringing the Ocean Home\n\nThe following passage has been adapted from Bernd Brunner's essay Bringing the Ocean Home. It appears in The Public Domain Review.\nThe popularization of observing the interaction between marine animals and aquatic plants in glass tanks can be attributed to the Englishman Philip Henry Gosse, who was the first person to resolutely use the word \"aquarium\" for such objects. In his 1853 book A Naturalist's Rambles on the Devonshire Coast, the Latin term \"vivarium\" was used interchangeably with \"marine aquarium,\" but one year later the die was cast for the latter in his book The Aquarium: An Unveiling of the Wonders of the Deep Sea.",
+        "question_text": "Which statement best describes the central idea of the passage?",
         "options": [
-            "sentence 1",
-            "sentence 2",
-            "sentence 3",
-            "sentence 4"
+            "Philip Henry Gosse's innovative work did not receive the recognition it deserved until much later, after its financial success.",
+            "Philip Henry Gosse overcame remarkable challenges and difficulties to produce an aquarium, which would change the way we understood the world underwater.",
+            "Philip Henry Gosse's invention was initially acknowledged as a powerful way to understand the ways organisms live under the sea, but many people eventually lost interest as it grew in popularity.",
+            "Philip Henry Gosse's dedication to his work eventually led to the creation of the aquarium, which provided a number of benefits to researchers and the public alike."
         ],
-        "correct_answer": 0
+        "correct_answer": 2
+
     },
     {
         "_id": "2",
