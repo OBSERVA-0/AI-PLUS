@@ -9,8 +9,11 @@ async function readQuestionsFromJSON(testType, practiceSet = '1') {
     filePath = path.join(__dirname, '..', 'data', `shsatpractice${practiceSet}questions.json`);
   } else if (testType === 'sat') {
     filePath = path.join(__dirname, '..', 'data', `satpractice${practiceSet}questions.json`);
+  } else if (testType === 'statetest') {
+    // Handle state test files with grade specification
+    filePath = path.join(__dirname, '..', 'data', `statetestpractice${practiceSet}questionsg7.json`);
   } else {
-    // Fallback for state tests or other types
+    // Fallback for other test types
     filePath = path.join(__dirname, '..', 'data', `${testType}practice${practiceSet}questions.json`);
   }
 

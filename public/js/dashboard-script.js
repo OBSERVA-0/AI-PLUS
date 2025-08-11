@@ -457,8 +457,8 @@ async function startTest(testType, practiceSet = '1') {
             ? (practiceSet === 'diagnostic' ? 'SHSAT Diagnostic Test' : `SHSAT Practice Test ${practiceSet}`)
             : testType === 'sat'
             ? `SAT Practice Test ${practiceSet}`
-            : testType === 'state'
-            ? `State Test - Grade 7 (2015)`
+            : testType === 'statetest'
+            ? `State Test - Grade 7 Practice ${practiceSet}`
             : `${testType.toUpperCase()} Practice Test ${practiceSet}`;
         document.getElementById('current-test-title').textContent = testTitle;
         document.getElementById('current-section').textContent = 'Practice Test';

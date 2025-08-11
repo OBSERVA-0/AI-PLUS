@@ -14,7 +14,7 @@ const router = express.Router();
 // Validation middleware
 const validateGetQuestions = [
   query('testType')
-    .isIn(['shsat', 'sat', 'state'])
+    .isIn(['shsat', 'sat', 'statetest'])
     .withMessage('Invalid test type'),
   query('practiceSet')
     .optional()
@@ -24,7 +24,7 @@ const validateGetQuestions = [
 
 const validateSubmitAnswers = [
   body('testType')
-    .isIn(['shsat', 'sat', 'state'])
+    .isIn(['shsat', 'sat', 'statetest'])
     .withMessage('Invalid test type'),
   body('practiceSet')
     .optional()
@@ -336,8 +336,8 @@ router.post('/submit', auth, validateSubmitAnswers, handleValidationErrors, asyn
           : `SHSAT Practice Test ${practiceSet}`;
       } else if (testType === 'sat') {
         testName = `SAT Practice Test ${practiceSet}`;
-      } else if (testType === 'state') {
-        testName = `State Test Practice ${practiceSet}`;
+      } else if (testType === 'statetest') {
+        testName = `State Test - Grade 7 Practice ${practiceSet}`;
       }
 
       console.log(`📝 Generated test name: ${testName}`);
