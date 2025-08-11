@@ -407,7 +407,7 @@ function updateTestCardStats(testType, progress) {
 }
 
 async function startTest(testType, practiceSet = '1') {
-    if (testType !== 'shsat' && testType !== 'sat') {
+    if (testType !== 'shsat' && testType !== 'sat' && testType !== 'statetest') {
         alert('This test is coming soon!');
         return;
     }
@@ -455,7 +455,11 @@ async function startTest(testType, practiceSet = '1') {
         // Update test info
         const testTitle = testType === 'shsat' 
             ? (practiceSet === 'diagnostic' ? 'SHSAT Diagnostic Test' : `SHSAT Practice Test ${practiceSet}`)
-            : `SAT Practice Test ${practiceSet}`;
+            : testType === 'sat'
+            ? `SAT Practice Test ${practiceSet}`
+            : testType === 'state'
+            ? `State Test - Grade 7 (2015)`
+            : `${testType.toUpperCase()} Practice Test ${practiceSet}`;
         document.getElementById('current-test-title').textContent = testTitle;
         document.getElementById('current-section').textContent = 'Practice Test';
         document.getElementById('total-questions').textContent = testQuestions.length;
