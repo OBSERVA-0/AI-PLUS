@@ -361,7 +361,7 @@
         "question_text": "In lines 1 through 21 of 'Excerpt from Kidnapped,' how does the setting contribute to the mood? Use two details from the story to support your response.",
         "options": [],
         "correct_answer": null,
-        "answer_type": "short_response"
+        "answer_type": "fill_in_the_blank"
     },
     {
         "_id": "55",
@@ -374,7 +374,7 @@
         "question_text": "What do lines 22 through 29 in 'Excerpt from Kidnapped' reveal about the narrator's character? Use two details from the story to support your response.",
         "options": [],
         "correct_answer": null,
-        "answer_type": "short_response"
+        "answer_type": "fill_in_the_blank"
     },
     {
         "_id": "56",
@@ -387,7 +387,7 @@
         "question_text": "In 'A Sticky Problem for Farmers,' how do lines 14 through 21 contribute to the rest of the article? Use two details from the article to support your response.",
         "options": [],
         "correct_answer": null,
-        "answer_type": "short_response"
+        "answer_type": "fill_in_the_blank"
     },
     {
         "_id": "57",
@@ -400,7 +400,7 @@
         "question_text": "How did Lewis Latimer's decision in lines 16 and 17 lead to partnerships with other inventors? Use two details from the article to support your response.",
         "options": [],
         "correct_answer": null,
-        "answer_type": "short_response"
+        "answer_type": "fill_in_the_blank"
     },
     {
         "_id": "58",
@@ -413,7 +413,7 @@
         "question_text": "What impression of Lewis Latimer did the people who worked with him have? Use two details from the article to support your response.",
         "options": [],
         "correct_answer": null,
-        "answer_type": "short_response"
+        "answer_type": "fill_in_the_blank"
     },
     {
         "_id": "59",
@@ -426,6 +426,6 @@
         "question_text": "Both Lewis Latimer and John Deere were determined to succeed. How were their paths to success similar? How were their paths to success different? Use details from both articles to support your response.\n\nIn your response, be sure to:\n- explain how their paths to success were similar\n- explain how their paths to success were different\n- use details from both articles to support your response",
         "options": [],
         "correct_answer": null,
-        "answer_type": "essay_response"
+        "answer_type": "fill_in_the_blank"
     }
 ]
