@@ -1155,24 +1155,34 @@ function displayDetailedReview(detailedResults) {
             `;
         } else {
             // Display multiple choice options
-            answersHtml = `
-                <div class="review-options">
-                    ${result.options.map((option, optIndex) => {
-                        let className = 'option';
-                        if (optIndex === result.correct_answer) {
-                            className += ' correct-answer';
-                        }
-                        if (optIndex === result.userAnswer && !result.isCorrect) {
-                            className += ' user-wrong-answer';
-                        }
-                        if (optIndex === result.userAnswer && result.isCorrect) {
-                            className += ' user-correct-answer';
-                        }
-                        
-                        return `<div class="${className}">${String.fromCharCode(65 + optIndex)}. ${option}</div>`;
-                    }).join('')}
-                </div>
-            `;
+            if (result.options && Array.isArray(result.options)) {
+                answersHtml = `
+                    <div class="review-options">
+                        ${result.options.map((option, optIndex) => {
+                            let className = 'option';
+                            if (optIndex === result.correct_answer) {
+                                className += ' correct-answer';
+                            }
+                            if (optIndex === result.userAnswer && !result.isCorrect) {
+                                className += ' user-wrong-answer';
+                            }
+                            if (optIndex === result.userAnswer && result.isCorrect) {
+                                className += ' user-correct-answer';
+                            }
+                            
+                            return `<div class="${className}">${String.fromCharCode(65 + optIndex)}. ${option}</div>`;
+                        }).join('')}
+                    </div>
+                `;
+            } else {
+                // Fallback when options are not available
+                answersHtml = `
+                    <div class="review-answers">
+                        <p><strong>Your Answer:</strong> <span class="${result.isCorrect ? 'user-correct-answer' : 'user-wrong-answer'}">${result.userAnswer !== undefined ? result.userAnswer : 'No answer provided'}</span></p>
+                        <p><strong>Correct Answer:</strong> <span class="correct-answer">${result.correct_answer !== undefined ? result.correct_answer : 'Not available'}</span></p>
+                    </div>
+                `;
+            }
         }
 
         reviewItem.innerHTML = `
@@ -1309,9 +1319,30 @@ function formatTime(seconds) {
     return `${minutes}:${remainingSeconds.toString().padStart(2, '0')}`;
 }
 
-// Function to render passage content - supports both text and images
+// Function to render passage content - supports text, images, and PDF documents
 function renderPassageContent(passage) {
     if (!passage) return '';
+    
+    // Check if passage is a PDF data link
+    if (passage.startsWith('pdfData:')) {
+        const pdfPath = passage.substring(8); // Remove 'pdfData:' prefix
+        const fullPdfPath = `data/pdfData/${pdfPath}`;
+        
+        return `
+            <div class="pdf-viewer-simple">
+                <iframe src="${fullPdfPath}#zoom=150&view=FitH" 
+                        class="pdf-iframe-large"
+                        style="width: 100%; height: 800px; border: 1px solid #ddd; border-radius: 8px; background: #f9f9f9;">
+                    <div class="pdf-fallback">
+                        <p>Your browser doesn't support PDF viewing.</p>
+                        <a href="${fullPdfPath}" target="_blank" class="btn btn-primary">
+                            <i class="fas fa-download"></i> Download PDF
+                        </a>
+                    </div>
+                </iframe>
+            </div>
+        `;
+    }
     
     // Check if passage is an image path
     if (passage.startsWith('image:')) {
@@ -1329,6 +1360,8 @@ function renderPassageContent(passage) {
     // Default text rendering
     return passage.replace(/\n/g, '<br>');
 }
+
+
 
 // Add navigation helper functions
 function jumpToNextUnanswered() {

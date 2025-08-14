@@ -2655,3 +2655,60 @@ body {
         width: 100%;
     }
 }
+
+/* Simple PDF Viewer Styles */
+.pdf-viewer-simple {
+    background: #fff;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    margin: 1rem 0;
+    padding: 0.5rem;
+}
+
+.pdf-iframe-large {
+    display: block;
+    border: none;
+    background: #f9fafb;
+    border-radius: 8px;
+}
+
+.pdf-fallback {
+    padding: 2rem;
+    text-align: center;
+    background: #f9fafb;
+}
+
+.pdf-fallback p {
+    margin-bottom: 1rem;
+    color: #6b7280;
+}
+
+.pdf-fallback .btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 0.75rem 1.5rem;
+    background: #6366f1;
+    color: white;
+    text-decoration: none;
+    border-radius: 8px;
+    transition: all 0.2s ease;
+}
+
+.pdf-fallback .btn:hover {
+    background: #5856eb;
+    transform: translateY(-1px);
+}
+
+/* Responsive PDF viewer */
+@media (max-width: 768px) {
+    .pdf-viewer-simple {
+        margin: 0.5rem 0;
+        padding: 0.25rem;
+    }
+    
+    .pdf-iframe-large {
+        height: 500px !important;
+    }
+}

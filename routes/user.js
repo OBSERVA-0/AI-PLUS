@@ -350,7 +350,8 @@ router.post('/update-stats', auth, async (req, res) => {
       'shsat': 'shsat',
       'sat': 'sat',
       'state': 'stateTest',
-      'stateTest': 'stateTest' // Allow both formats
+      'stateTest': 'stateTest', // Allow both formats
+      'statetest': 'stateTest'  // Allow lowercase format from frontend
     };
     
     const dbTestType = testTypeMap[testType];

@@ -220,9 +220,30 @@ class TestHistoryManager {
 
 
 
-    // Function to render passage content - supports both text and images
+    // Function to render passage content - supports text, images, and PDF documents
     renderPassageContent(passage) {
         if (!passage) return '';
+        
+        // Check if passage is a PDF data link
+        if (passage.startsWith('pdfData:')) {
+            const pdfPath = passage.substring(8); // Remove 'pdfData:' prefix
+            const fullPdfPath = `data/pdfData/${pdfPath}`;
+            
+            return `
+                <div class="pdf-viewer-simple">
+                    <iframe src="${fullPdfPath}#zoom=150&view=FitH" 
+                            class="pdf-iframe-large"
+                            style="width: 100%; height: 600px; border: 1px solid #ddd; border-radius: 8px; background: #f9f9f9;">
+                        <div class="pdf-fallback">
+                            <p>Your browser doesn't support PDF viewing.</p>
+                            <a href="${fullPdfPath}" target="_blank" class="btn btn-primary">
+                                <i class="fas fa-download"></i> Download PDF
+                            </a>
+                        </div>
+                    </iframe>
+                </div>
+            `;
+        }
         
         // Check if passage is an image path
         if (passage.startsWith('image:')) {
