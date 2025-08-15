@@ -1,0 +1,517 @@
+[
+    {
+        "_id": "1",
+        "question_number": 1,
+        "practice_set": 2,
+        "category": "ELA: Reading Comprehension",
+        "difficulty": "medium",
+        "time_estimate": 75,
+        "passage": "pdfData:pdf/2016-released-items-ela-g7.pdf",
+        "question_text": "Why are lines 14 through 18 important to the article?",
+        "options": [
+            "They explain how old maps were inaccurate.",
+            "They emphasize the limited knowledge of geography at the time.",
+            "They emphasize Great Britain's knowledge of sea exploration.",
+            "They explain Great Britain's choice for using James Cook to explore unknown lands."
+        ],
+        "correct_answer": 1
+    },
+    {
+        "_id": "2",
+        "question_number": 2,
+        "practice_set": 2,
+        "category": "ELA: Reading Comprehension",
+        "difficulty": "medium",
+        "time_estimate": 75,
+        "passage": "pdfData:pdf/2016-released-items-ela-g7.pdf",
+        "question_text": "Read this sentence from lines 25 and 26.\nCook was ambitious and quickly learned that his ability to read set him apart from other sailors, even ones much older than he was.\nWhich evidence from the article best supports the author's claim in these lines?",
+        "options": [
+            "\"While the merchant ships he worked on carried cargo from port to port, James Cook assumed more and more responsibility as a navigator and learned the ways of the sea.\" (lines 30 through 32)",
+            "\"After ten years on the collier, Cook decided to join the Royal Navy.\" (line 34)",
+            "\"Its officers were recognized not only as outstanding sailors but also as 'gentlemen.'\" (lines 35 and 36)",
+            "\"During the trip, he also explored New Zealand and the east coast of Australia, which had never been visited by a European.\" (lines 53 and 54)"
+        ],
+        "correct_answer": 0
+    },
+    {
+        "_id": "3",
+        "question_number": 3,
+        "practice_set": 2,
+        "category": "ELA: Reading Comprehension",
+        "difficulty": "easy",
+        "time_estimate": 60,
+        "passage": "pdfData:pdf/2016-released-items-ela-g7.pdf",
+        "question_text": "According to the article, why were cartographers so valued during Cook's lifetime?",
+        "options": [
+            "They provided the information ships required to stay on course while at sea.",
+            "They were responsible for informing the public of the names of unfamiliar regions.",
+            "They prevented sailors from visiting exotic lands with unknown dangers.",
+            "They were assigned the duty of teaching other sailors to read and draw maps."
+        ],
+        "correct_answer": 0
+    },
+    {
+        "_id": "4",
+        "question_number": 4,
+        "practice_set": 2,
+        "category": "ELA: Reading Comprehension",
+        "difficulty": "medium",
+        "time_estimate": 75,
+        "passage": "pdfData:pdf/2016-released-items-ela-g7.pdf",
+        "question_text": "What idea about Cook is demonstrated by lines 46 through 53?",
+        "options": [
+            "his impressive experience with the collier Endeavour",
+            "the necessity of sending him to North America",
+            "the praise he deserved for expanding Great Britain's territory",
+            "his effectiveness in drawing charts"
+        ],
+        "correct_answer": 3
+    },
+    {
+        "_id": "5",
+        "question_number": 5,
+        "practice_set": 2,
+        "category": "ELA: Reading Comprehension",
+        "difficulty": "easy",
+        "time_estimate": 60,
+        "passage": "pdfData:pdf/2016-released-items-ela-g7.pdf",
+        "question_text": "What connection does the article make between astronomy and navigation?",
+        "options": [
+            "Explorers traveled the seas to try to discover new planets and stars.",
+            "Explorers used maps to determine the positions of planets and stars.",
+            "Traveling on the sea was difficult without a reference to the position of the sun and stars.",
+            "Traveling on the sea required a constant view of the sun and stars."
+        ],
+        "correct_answer": 2
+    },
+    {
+        "_id": "6",
+        "question_number": 6,
+        "practice_set": 2,
+        "category": "ELA: Reading Comprehension",
+        "difficulty": "hard",
+        "time_estimate": 90,
+        "passage": "pdfData:pdf/2016-released-items-ela-g7.pdf",
+        "question_text": "How do lines 51 through 58 develop a central idea of the article?",
+        "options": [
+            "by naming previously unknown lands",
+            "by emphasizing Cook's value to the navy",
+            "by describing Cook's contributions to exploration",
+            "by explaining improvements in the study of geography"
+        ],
+        "correct_answer": 2
+    },
+    {
+        "_id": "7",
+        "question_number": 7,
+        "practice_set": 2,
+        "category": "ELA: Reading Comprehension",
+        "difficulty": "medium",
+        "time_estimate": 75,
+        "passage": "pdfData:pdf/2016-released-items-ela-g7.pdf",
+        "question_text": "How does the author organize the ideas in the article?",
+        "options": [
+            "by explaining how James Cook encouraged Great Britain to seek out new lands",
+            "by showing how the lack of reliable maps caused dangers in early ocean expeditions",
+            "by relating events sequentially to elaborate on James Cook's accomplishments",
+            "by describing ship instruments to show the development of sea navigation"
+        ],
+        "correct_answer": 2
+    },
+    {
+        "_id": "8",
+        "question_number": 8,
+        "practice_set": 3,
+        "category": "ELA: Reading Comprehension",
+        "difficulty": "easy",
+        "time_estimate": 60,
+        "passage": "pdfData:pdf/2016-released-items-ela-g7.pdf",
+        "question_text": "The author's purpose in lines 4 through 7 is to",
+        "options": [
+            "give examples of the variety of sports available",
+            "emphasize the benefits of participating in sports",
+            "provide reasons for letting her family play sports",
+            "show a personal connection to the topic of sports"
+        ],
+        "correct_answer": 3
+    },
+    {
+        "_id": "9",
+        "question_number": 9,
+        "practice_set": 3,
+        "category": "ELA: Reading Comprehension",
+        "difficulty": "medium",
+        "time_estimate": 75,
+        "passage": "pdfData:pdf/2016-released-items-ela-g7.pdf",
+        "question_text": "According to the article, why have injuries to veterans influenced studies of athletes with concussions?",
+        "options": [
+            "Thousands of veterans have been diagnosed with traumatic brain injuries.",
+            "Repeated head injuries are potentially damaging to the brain or spinal cord.",
+            "Repeated head injuries sustained in sports and combat have similar outcomes.",
+            "Public awareness of the symptoms and seriousness of head injuries has been growing."
+        ],
+        "correct_answer": 2
+    },
+    {
+        "_id": "10",
+        "question_number": 10,
+        "practice_set": 3,
+        "category": "ELA: Vocabulary",
+        "difficulty": "easy",
+        "time_estimate": 45,
+        "passage": "pdfData:pdf/2016-released-items-ela-g7.pdf",
+        "question_text": "Read this sentence from lines 22 and 23.\nNo longer can a soccer player or cyclist just \"walk off\" a bump to the head.\nWhat does the phrase \"walk off\" suggest?",
+        "options": [
+            "The injury is made worse by moving around.",
+            "The person needs to leave the playing area.",
+            "The person is not seriously injured.",
+            "The injury does not affect the legs."
+        ],
+        "correct_answer": 2
+    },
+    {
+        "_id": "11",
+        "question_number": 11,
+        "practice_set": 3,
+        "category": "ELA: Reading Comprehension",
+        "difficulty": "medium",
+        "time_estimate": 75,
+        "passage": "pdfData:pdf/2016-released-items-ela-g7.pdf",
+        "question_text": "Lines 26 through 32 support the central idea that",
+        "options": [
+            "progress is being made to make sports safer for kids",
+            "resistance to changes in youth sports is being overcome",
+            "children count on parents and coaches to keep them safe",
+            "a lack of training in treating brain injuries has inspired legislation"
+        ],
+        "correct_answer": 0
+    },
+    {
+        "_id": "12",
+        "question_number": 12,
+        "practice_set": 3,
+        "category": "ELA: Reading Comprehension",
+        "difficulty": "medium",
+        "time_estimate": 75,
+        "passage": "pdfData:pdf/2016-released-items-ela-g7.pdf",
+        "question_text": "Read these sentences from lines 44 through 47.\nSports-related brain injuries are also receiving more public attention because of the willingness of professional athletes to speak out. For example, more than 2,000 retired NFLSM players filed a lawsuit against football helmet maker Riddell® and the NFLSM for hiding information about dangers of concussions and the consequences of hits to the head.\nWhich inference do these sentences best support?",
+        "options": [
+            "Older helmets do not protect athletes from head injuries.",
+            "The problem of head injuries is not confined to student athletes.",
+            "Professional athletes are reluctant to report head injuries during their careers.",
+            "Legal action is an effective way to discover information about the dangers of concussions."
+        ],
+        "correct_answer": 1
+    },
+    {
+        "_id": "13",
+        "question_number": 13,
+        "practice_set": 3,
+        "category": "ELA: Reading Comprehension",
+        "difficulty": "hard",
+        "time_estimate": 90,
+        "passage": "pdfData:pdf/2016-released-items-ela-g7.pdf",
+        "question_text": "Read this sentence from lines 50 through 52.\nBy taking what we already know, we can create opportunities for our children to participate in sports while keeping them healthy and safe.\nWhich lines best support the author's claim in this sentence?",
+        "options": [
+            "\"We are already learning a lot about traumatic brain injuries from our returning Afghanistan and Iraq veterans. An estimated 40,000 men and women veterans have been diagnosed with traumatic brain injuries from multiple concussions in combat.\" (lines 15 through 17)",
+            "\"According to the American Association of Neurological Surgeons (AANS), roughly 446,788 sports-related head injuries were treated at U.S. emergency rooms in 2009.\" (lines 20 and 21)",
+            "\"Recently, the largest youth football league, Pop Warner, announced it will limit the amount of contact and collisions in practice to protect its 285,000 football players (ages 5-15) from potential repetitive brain trauma. This move responded to a recent study of second-grade football players that showed the average player suffers more than 100 head impacts during 5 games and 10 practices.\" (lines 33 through 37)",
+            "\"Sports-related brain injuries are also receiving more public attention because of the willingness of professional athletes to speak out. For example, more than 2,000 retired NFLSM players filed a lawsuit against football helmet maker Riddell and the NFLSM for hiding information about dangers of concussions and the consequences of hits to the head.\" (lines 44 through 48)"
+        ],
+        "correct_answer": 2
+    },
+    {
+        "_id": "14",
+        "question_number": 14,
+        "practice_set": 3,
+        "category": "ELA: Reading Comprehension",
+        "difficulty": "medium",
+        "time_estimate": 75,
+        "passage": "pdfData:pdf/2016-released-items-ela-g7.pdf",
+        "question_text": "Which claim can be supported by evidence from the article?",
+        "options": [
+            "Participating in youth sports can expose children to risks.",
+            "Limiting physical contact during practice keeps players safer during games.",
+            "The age that a child begins playing football is related to the incidence of head injuries.",
+            "Poorly made sports equipment accounts for increases in head injuries among professional athletes."
+        ],
+        "correct_answer": 0
+    },
+    {
+        "_id": "15",
+        "question_number": 15,
+        "practice_set": 4,
+        "category": "ELA: Reading Comprehension",
+        "difficulty": "easy",
+        "time_estimate": 60,
+        "passage": "pdfData:pdf/2016-released-items-ela-g7.pdf",
+        "question_text": "Read lines 10 and 11.\nHe could sit and watch the tube and munch on some junk, or he could go to bed because it was getting late, or...\nThese lines suggest that Terry",
+        "options": [
+            "prefers to relax in the evening",
+            "disapproves of snacking in front of the television",
+            "wants to do something different from his usual activities",
+            "wastes time deciding whether to watch television or sleep"
+        ],
+        "correct_answer": 2
+    },
+    {
+        "_id": "16",
+        "question_number": 16,
+        "practice_set": 4,
+        "category": "ELA: Reading Comprehension",
+        "difficulty": "medium",
+        "time_estimate": 75,
+        "passage": "pdfData:pdf/2016-released-items-ela-g7.pdf",
+        "question_text": "How do lines 16 through 23 mostly contribute to the story?",
+        "options": [
+            "by describing the types of tools made for fixing cars",
+            "by revealing details about the previous owner of the tools",
+            "by suggesting that Terry has had previous experience fixing cars",
+            "by showing that Terry has all the necessary tools for the work he plans to do"
+        ],
+        "correct_answer": 3
+    },
+    {
+        "_id": "17",
+        "question_number": 17,
+        "practice_set": 4,
+        "category": "ELA: Reading Comprehension",
+        "difficulty": "easy",
+        "time_estimate": 60,
+        "passage": "pdfData:pdf/2016-released-items-ela-g7.pdf",
+        "question_text": "Based on lines 24 through 29, readers can conclude that Terry",
+        "options": [
+            "rarely works in the garage",
+            "feels proud of his possessions",
+            "is worried about losing his tools",
+            "is still becoming familiar with his tools"
+        ],
+        "correct_answer": 2
+    },
+    {
+        "_id": "18",
+        "question_number": 18,
+        "practice_set": 4,
+        "category": "ELA: Reading Comprehension",
+        "difficulty": "medium",
+        "time_estimate": 75,
+        "passage": "pdfData:pdf/2016-released-items-ela-g7.pdf",
+        "question_text": "What is the main significance of the cat clock in the story?",
+        "options": [
+            "Details about the clock help the reader to better understand the characters.",
+            "Descriptions of the clock provide clues about upcoming conflicts.",
+            "Descriptions of the clock help the reader to understand the theme.",
+            "Details about the clock add suspense to the story."
+        ],
+        "correct_answer": 0
+    },
+    {
+        "_id": "19",
+        "question_number": 19,
+        "practice_set": 4,
+        "category": "ELA: Literary Devices",
+        "difficulty": "easy",
+        "time_estimate": 60,
+        "passage": "pdfData:pdf/2016-released-items-ela-g7.pdf",
+        "question_text": "In lines 55 through 59, what does \"Time seemed to stop\" suggest about Terry?",
+        "options": [
+            "Terry works very quickly.",
+            "Terry is absorbed in his task.",
+            "Terry forgets to eat his dinner.",
+            "Terry is ignoring the cat clock."
+        ],
+        "correct_answer": 1
+    },
+    {
+        "_id": "20",
+        "question_number": 20,
+        "practice_set": 4,
+        "category": "ELA: Reading Comprehension",
+        "difficulty": "medium",
+        "time_estimate": 75,
+        "passage": "pdfData:pdf/2016-released-items-ela-g7.pdf",
+        "question_text": "Which lines best reveal the change in Terry's attitude toward the task he has chosen?",
+        "options": [
+            "\"Let's see what we've got..., Terry said under his breath and started taking the boxes off, setting them around the garage on the floor, looking in each one as he did so.\" (lines 39 and 40)",
+            "\"All of that he knew, could understand, but there were numbered bags and boxes with just bolts and parts, and many of them made no sense to him, and he despaired of ever understanding it all when in the bottom of one of the boxes he found the instructions.\" (lines 43 through 46)",
+            "\"'A monkey could do this,' he said, sitting on the frame, going page by page. 'You don't have to know anything about cars at all. It's beautiful...'\" (lines 50 and 51)",
+            "\"Not only were the instructions complete but they explained what was in each numbered box or bag-what each set of bolts was for-and he set about organizing all of them to get ready for starting work on the car.\" (lines 52 through 54)"
+        ],
+        "correct_answer": 2
+    },
+    {
+        "_id": "21",
+        "question_number": 21,
+        "practice_set": 4,
+        "category": "ELA: Literary Devices",
+        "difficulty": "medium",
+        "time_estimate": 75,
+        "passage": "pdfData:pdf/2016-released-items-ela-g7.pdf",
+        "question_text": "How does the setting affect the plot of the story?",
+        "options": [
+            "The pile of boxes and car parts motivate him to clean up the garage.",
+            "The instructions and set of tools inspire Terry to work on the car.",
+            "The car parts and tools in the garage bring up memories Terry has long forgotten.",
+            "The time of night gives Terry time to do something interesting."
+        ],
+        "correct_answer": 1
+    },
+    {
+        "_id": "36",
+        "question_number": 36,
+        "practice_set": 5,
+        "category": "ELA: Reading Comprehension",
+        "difficulty": "medium",
+        "time_estimate": 75,
+        "passage": "pdfData:pdf/2016-released-items-ela-g7.pdf",
+        "question_text": " Question 36: Read these sentences from lines 13 through 16.\nA cramped public-school test kitchen might seem an unlikely outpost for a food revolution. But Collazo and scores of others across the country-celebrity chefs and lunch ladies, district superintendents and politicians-say they're determined to improve what kids eat in school.\nWhich central idea is supported by these sentences?",
+        "options": [
+            "It is not easy to make changes in school lunch programs.",
+            "Public schools have become test kitchens for improving the American diet.",
+            "Many people have been seeking to improve the nutritional value of school lunches.",
+            "Educating students about nutrition can improve their health for the rest of their lives."
+        ],
+        "correct_answer": 2
+    },
+    {
+        "_id": "37",
+        "question_number": 37,
+        "practice_set": 5,
+        "category": "ELA: Vocabulary",
+        "difficulty": "easy",
+        "time_estimate": 45,
+        "passage": "pdfData:pdf/2016-released-items-ela-g7.pdf",
+        "question_text": " Question 37: Read this sentence from lines 16 through 18.\nMost school cafeterias are staffed by poorly trained, badly equipped workers who churn out 4.8 billion hot lunches a year.\nWhat does the phrase \"churn out\" suggest about the school lunches?",
+        "options": [
+            "They are mass-produced without careful planning.",
+            "They are easily prepared using modern kitchens.",
+            "They are economically made and include nutritious ingredients.",
+            "They are thoughtfully created and include wide-ranging menus."
+        ],
+        "correct_answer": 0
+    },
+    {
+        "_id": "38",
+        "question_number": 38,
+        "practice_set": 5,
+        "category": "ELA: Reading Comprehension",
+        "difficulty": "medium",
+        "time_estimate": 75,
+        "passage": "pdfData:pdf/2016-released-items-ela-g7.pdf",
+        "question_text": " Question 38: Read this sentence from lines 24 and 25.\nAs rates of childhood obesity and diabetes skyrocket, public-health officials say schools need to change the way kids eat.\nWhy should this information be included in a summary of the article?",
+        "options": [
+            "It predicts the consequences of current eating habits for students.",
+            "It emphasizes the importance of healthy meal options for students.",
+            "It suggests that schools are responsible for diseases related to eating.",
+            "It highlights the role school administrators have in teaching healthy habits."
+        ],
+        "correct_answer": 1
+    },
+    {
+        "_id": "39",
+        "question_number": 39,
+        "practice_set": 5,
+        "category": "ELA: Reading Comprehension",
+        "difficulty": "easy",
+        "time_estimate": 60,
+        "passage": "pdfData:pdf/2016-released-items-ela-g7.pdf",
+        "question_text": " Question 39: Based on lines 24 through 30 of the article, what is an obstacle to improving nutrition outside of school?",
+        "options": [
+            "Families do not make time to cook meals at home.",
+            "Kids enjoy watching ads for fast food.",
+            "Health officials hinder meal planning by parents.",
+            "Kids do not know how to grow fresh produce."
+        ],
+        "correct_answer": 0
+    },
+    {
+        "_id": "40",
+        "question_number": 40,
+        "practice_set": 5,
+        "category": "ELA: Reading Comprehension",
+        "difficulty": "medium",
+        "time_estimate": 75,
+        "passage": "pdfData:pdf/2016-released-items-ela-g7.pdf",
+        "question_text": " Question 40: How do lines 36 through 46 mostly contribute to the development of ideas in the article?",
+        "options": [
+            "They show how restaurateurs can get involved to improve school lunches.",
+            "They show how easily students accepted healthy changes to school food.",
+            "They use the Santa Fe school district as an example of how change happens gradually.",
+            "They explain why a Santa Fe school district did not serve fruits and vegetables."
+        ],
+        "correct_answer": 1
+    },
+    {
+        "_id": "41",
+        "question_number": 41,
+        "practice_set": 5,
+        "category": "ELA: Reading Comprehension",
+        "difficulty": "easy",
+        "time_estimate": 60,
+        "passage": "pdfData:pdf/2016-released-items-ela-g7.pdf",
+        "question_text": " Question 41:Based on lines 43 through 46, which statement about school kitchens is most likely true?",
+        "options": [
+            "They do not have professional cooks.",
+            "They have too little time to prepare healthy foods.",
+            "They are not equipped to serve fresh foods.",
+            "They contain older equipment that should be replaced."
+        ],
+        "correct_answer": 1
+    },
+    {
+        "_id": "42",
+        "question_number": 42,
+        "practice_set": 5,
+        "category": "ELA: Reading Comprehension",
+        "difficulty": "medium",
+        "time_estimate": 75,
+        "passage": "pdfData:pdf/2016-released-items-ela-g7.pdf",
+        "question_text": "Question 42:According to lines 47 through 56, why is cost a factor in changing school food?",
+        "options": [
+            "Schools receive income from the sale of popular but unhealthy vending machine snacks.",
+            "Schools across the country have to buy new vending machines to sell healthy snacks.",
+            "Students have less money to buy healthy snacks from vending machines.",
+            "New vending machines stock healthy but expensive snacks."
+        ],
+        "correct_answer": 0
+    },
+    {
+        "_id": "43",
+        "question_number": 43,
+        "practice_set": 6,
+        "category": "ELA: Reading Comprehension",
+        "difficulty": "medium",
+        "time_estimate": 180,
+        "passage": "pdfData:pdf/2016-released-items-ela-g7.pdf",
+        "question_text": " Question 43: Why is Captain Brooks' and his crew's knowledge of the island of Juan Fernandez important in \"Excerpt from Shipwrecked Sailor\"? Use two details from the story to support your response.",
+        "options": [],
+        "correct_answer": null,
+        "answer_type": "short_response"
+    },
+    {
+        "_id": "44",
+        "question_number": 44,
+        "practice_set": 6,
+        "category": "ELA: Reading Comprehension",
+        "difficulty": "medium",
+        "time_estimate": 180,
+        "passage": "pdfData:pdf/2016-released-items-ela-g7.pdf",
+        "question_text": " Question 44: In \"Excerpt from Shipwrecked Sailor,\" how does the attitude of the crew members change throughout the story? Use two details from the story to support your response.",
+        "options": [],
+        "correct_answer": null,
+        "answer_type": "short_response"
+    },
+    {
+        "_id": "45",
+        "question_number": 45,
+        "practice_set": 6,
+        "category": "ELA: Reading Comprehension",
+        "difficulty": "hard",
+        "time_estimate": 300,
+        "passage": "pdfData:pdf/2016-released-items-ela-g7.pdf",
+        "question_text": " Question 45:The author learns a lesson about culture from his grandmother. How does the author learn this lesson? How does the author show that this lesson has remained with him into his adult life? Use details from the passage to support your response.\n\nIn your response, be sure to\n• identify the lesson about culture that the grandmother teaches the author\n• explain how the author learns this lesson\n• explain how the author shows this lesson has remained with him into his adult life\n• use details from the passage to support your response",
+        "options": [],
+        "correct_answer": null,
+        "answer_type": "essay_response"
+    }
+]

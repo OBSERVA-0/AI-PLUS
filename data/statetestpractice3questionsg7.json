@@ -1,0 +1,67 @@
+[
+    {
+        "_id": "46",
+        "question_number": 46,
+        "practice_set": 3,
+        "category": "ELA: Reading Comprehension",
+        "difficulty": "medium",
+        "time_estimate": 180,
+        "passage": "pdfData:pdf/2016-released-items-ela-g7-pt2.pdf",
+        "question_text": "How does the photograph aid the reader's understanding of the article? Use two details from the article to support your response.",
+        "options": [],
+        "correct_answer": null,
+        "answer_type": "short_response"
+    },
+    {
+        "_id": "47",
+        "question_number": 47,
+        "practice_set": 3,
+        "category": "ELA: Reading Comprehension",
+        "difficulty": "medium",
+        "time_estimate": 180,
+        "passage": "pdfData:pdf/2016-released-items-ela-g7-pt2.pdf",
+        "question_text": "Why have experts from different fields of study been involved in this research? Use two details from the article to support your response.",
+        "options": [],
+        "correct_answer": null,
+        "answer_type": "short_response"
+    },
+    {
+        "_id": "48",
+        "question_number": 48,
+        "practice_set": 3,
+        "category": "ELA: Reading Comprehension",
+        "difficulty": "hard",
+        "time_estimate": 240,
+        "passage": "pdfData:pdf/2016-released-items-ela-g7-pt2.pdf",
+        "question_text": "In \"Excerpt from Buddha Boy,\" what theme do lines 35 through 58 develop? Use two details from the story to support your response.",
+        "options": [],
+        "correct_answer": null,
+        "answer_type": "short_response"
+    },
+    {
+        "_id": "49",
+        "question_number": 49,
+        "practice_set": 3,
+        "category": "ELA: Reading Comprehension",
+        "difficulty": "medium",
+        "time_estimate": 180,
+        "passage": "pdfData:pdf/2016-released-items-ela-g7-pt2.pdf",
+        "question_text": "In \"Excerpt from Buddha Boy,\" why are lines 81 through 84 important to the plot of the story? Use two details from the story to support your response.",
+        "options": [],
+        "correct_answer": null,
+        "answer_type": "short_response"
+    },
+    {
+        "_id": "50",
+        "question_number": 50,
+        "practice_set": 3,
+        "category": "ELA: Reading Comprehension",
+        "difficulty": "hard",
+        "time_estimate": 240,
+        "passage": "pdfData:pdf/2016-released-items-ela-g7-pt2.pdf",
+        "question_text": "In \"Excerpt from One + One = Blue,\" what effect does the difference in Basil's point of view and Tenzie's point of view regarding Basil's family have on the story? Use two details from the story to support your response.",
+        "options": [],
+        "correct_answer": null,
+        "answer_type": "short_response"
+    }
+]

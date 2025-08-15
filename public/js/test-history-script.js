@@ -417,6 +417,12 @@ class TestHistoryManager {
                                 mathRawScore.correct++;
                             }
                         }
+                    } else if (test.testType === 'state') {
+                        // State Test: All questions are ELA
+                        englishRawScore.total++;
+                        if (result.isCorrect) {
+                            englishRawScore.correct++;
+                        }
                     }
                 });
             } else if (test.results.categoryScores) {
@@ -436,7 +442,6 @@ class TestHistoryManager {
                     }
                 });
             }
-            
             if (test.testType === 'shsat') {
                 scoresHtml += `
                     <div class="score-item shsat-score">
@@ -559,6 +564,9 @@ class TestHistoryManager {
                 } else if (result.questionNumber <= 98) {
                     mathQuestions.push(result);
                 }
+            } else if (test.testType === 'state') {
+                // State Test: All questions are ELA for Grade 7
+                englishQuestions.push(result);
             }
         });
 
@@ -570,7 +578,14 @@ class TestHistoryManager {
 
         // English/ELA section
         if (englishQuestions.length > 0) {
-            const sectionTitle = test.testType === 'shsat' ? 'ELA (1-57)' : 'R&W (1-54)';
+            let sectionTitle = 'ELA';
+            if (test.testType === 'shsat') {
+                sectionTitle = 'ELA (1-57)';
+            } else if (test.testType === 'sat') {
+                sectionTitle = 'R&W (1-54)';
+            } else if (test.testType === 'state') {
+                sectionTitle = `ELA (1-${englishQuestions.length})`;
+            }
             breakdownHtml += `
                 <div class="question-section">
                     <div class="question-section-title">${sectionTitle}</div>

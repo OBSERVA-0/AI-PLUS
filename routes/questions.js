@@ -345,7 +345,7 @@ router.post('/submit', auth, validateSubmitAnswers, handleValidationErrors, asyn
       
       // Create test history entry
       const testHistoryEntry = {
-        testType,
+        testType: testType === 'statetest' ? 'state' : testType, // Normalize testType for database
         practiceSet,
         testName,
         completedAt: new Date(),
