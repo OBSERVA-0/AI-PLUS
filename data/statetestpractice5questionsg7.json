@@ -1,0 +1,778 @@
+[
+    {
+        "_id": "1",
+        "question_number": 1,
+        "practice_set": 5,
+        "category": "Math: Number Systems",
+        "difficulty": "easy",
+        "time_estimate": 75,
+        "passage":"pdfData:pdf/2017 Grade 7 Math Released Questions.pdf",
+        "question_text": "\nPoint P is shown on the number line below. The distance between point Q and point P is 6 1/2 units. Which number could represent point Q?",
+        "options": [
+            "-9 1/2",
+            "1 1/2",
+            "2 1/2",
+            "10 1/2"
+        ],
+        "correct_answer": 2
+    },
+    {
+        "_id": "2",
+        "question_number": 2,
+        "practice_set": 5,
+        "category": "Math: Expressions and Equations",
+        "difficulty": "easy",
+        "time_estimate": 60,
+        "passage":"pdfData:pdf/2017 Grade 7 Math Released Questions.pdf",
+        "question_text": "Ms. Gartland bought x number of shirts for the new members of her chorus. The cost for x number of shirts, including $3.99 shipping, was $77.49. Each shirt cost $12.25. There was no sales tax on this purchase. Which equation could be used to find x?",
+        "options": [
+            "3.99(x + 12.25) = 77.49",
+            "3.99x + 12.25 = 77.49",
+            "12.25(x + 3.99) = 77.49",
+            "12.25x + 3.99 = 77.49"
+        ],
+        "correct_answer": 3
+    },
+    {
+        "_id": "3",
+        "question_number": 3,
+        "practice_set": 5,
+        "category": "Math: Ratios and Proportions",
+        "difficulty": "easy",
+        "time_estimate": 75,
+        "passage":"pdfData:pdf/2017 Grade 7 Math Released Questions.pdf",
+        "question_text": "\nWhich representation shows a proportional relationship between x and y?",
+        "options": [
+            "A",
+            "B",
+            "C",
+            "D"
+        ],
+        "correct_answer": 3
+    },
+    {
+        "_id": "4",
+        "question_number": 4,
+        "practice_set": 5,
+        "category": "Math: Ratios and Proportions",
+        "difficulty": "medium",
+        "time_estimate": 90,
+        "passage":"pdfData:pdf/2017 Grade 7 Math Released Questions.pdf",
+        "question_text": "Every five years in March, the population of a certain town is recorded. In 1995, the town had a population of 4,500 people. From 1995 to 2000, the population increased by 15%. From 2000 to 2005, the population decreased by 4%. What was the town's population in 2005?",
+        "options": [
+            "4,527",
+            "4,968",
+            "4,995",
+            "5,382"
+        ],
+        "correct_answer": 1
+    },
+    {
+        "_id": "9",
+        "question_number": 9,
+        "practice_set": 5,
+        "category": "Math: Geometry",
+        "difficulty": "medium",
+        "time_estimate": 75,
+        "passage":"pdfData:pdf/2017 Grade 7 Math Released Questions.pdf",
+        "question_text": "The measure of one side of a square is (s + 3) inches long. Which pair of expressions both represent the perimeter of this square?",
+        "options": [
+            "2s + 3 and (s + 3)(s + 3)",
+            "2(s + 3) and (s + 3)(s + 3)",
+            "4s + 3 and (s + 3) + (s + 3) + (s + 3) + (s + 3)",
+            "4(s + 3) and (s + 3) + (s + 3) + (s + 3) + (s + 3)"
+        ],
+        "correct_answer": 3
+    },
+    {
+        "_id": "10",
+        "question_number": 10,
+        "practice_set": 5,
+        "category": "Math: Number Systems",
+        "difficulty": "easy",
+        "time_estimate": 45,
+        "passage":"pdfData:pdf/2017 Grade 7 Math Released Questions.pdf",
+        "question_text": "Which expression has the same value as 59.2 - 84.7?",
+        "options": [
+            "84.7 - 59.2",
+            "-84.7 + (-59.2)",
+            "59.2 - (-84.7)",
+            "59.2 + (-84.7)"
+        ],
+        "correct_answer": 3
+    },
+    {
+        "_id": "11",
+        "question_number": 11,
+        "practice_set": 5,
+        "category": "Math: Expressions and Equations",
+        "difficulty": "easy",
+        "time_estimate": 60,
+        "passage":"pdfData:pdf/2017 Grade 7 Math Released Questions.pdf",
+        "question_text": "Winston needs at least 80 signatures from students in his school before he can run for class president. He has 23 signatures already. He and two of his friends plan to get the remaining signatures during lunch. If each person gets the same number of signatures, which inequality can Winston use to determine the minimum number of signatures each person should get so he can run for class president?",
+        "options": [
+            "3x + 80 >= 23",
+            "3x + 80 <= 23",
+            "3x + 23 >= 80",
+            "3x + 23 <= 80"
+        ],
+        "correct_answer": 2
+    },
+    {
+        "_id": "12",
+        "question_number": 12,
+        "practice_set": 5,
+        "category": "Math: Ratios and Proportions",
+        "difficulty": "medium",
+        "time_estimate": 90,
+        "passage":"pdfData:pdf/2017 Grade 7 Math Released Questions.pdf",
+        "question_text": "In the morning, a farm worker packed 3 pints of strawberries every 4 minutes. In the afternoon, she packed 2 pints of strawberries every 3 minutes. What was the difference between her morning and afternoon packing rates, in pints per hour?",
+        "options": [
+            "5",
+            "10",
+            "40",
+            "45"
+        ],
+        "correct_answer": 0
+    },
+    {
+        "_id": "13",
+        "question_number": 13,
+        "practice_set": 5,
+        "category": "Math: Expressions and Equations",
+        "difficulty": "easy",
+        "time_estimate": 60,
+        "passage":"pdfData:pdf/2017 Grade 7 Math Released Questions.pdf",
+        "question_text": "Which expression makes the equation true for all values of x?\n16x - 16 = 4(?)",
+        "options": [
+            "4x - 4",
+            "4x - 16",
+            "2x - 2",
+            "12x - 12"
+        ],
+        "correct_answer": 0
+    },
+    {
+        "_id": "14",
+        "question_number": 14,
+        "practice_set": 5,
+        "category": "Math: Number Systems",
+        "difficulty": "easy",
+        "time_estimate": 45,
+        "passage":"pdfData:pdf/2017 Grade 7 Math Released Questions.pdf",
+        "question_text": "Which number is equivalent to 43/12?",
+        "options": [
+            "3.583",
+            "3.583...",
+            "3.583...",
+            "3.583..."
+        ],
+        "correct_answer": 1
+    },
+    {
+        "_id": "15",
+        "question_number": 15,
+        "practice_set": 5,
+        "category": "Math: Expressions and Equations",
+        "difficulty": "easy",
+        "time_estimate": 75,
+        "passage":"pdfData:pdf/2017 Grade 7 Math Released Questions.pdf",
+        "question_text": "Mr. Santino needs a total of 406 forks for his restaurant. He currently has 278 forks. If each set has 12 forks, what is the minimum number of sets of forks he should buy?",
+        "options": [
+            "11",
+            "12",
+            "128",
+            "140"
+        ],
+        "correct_answer": 0
+    },
+    {
+        "_id": "16",
+        "question_number": 16,
+        "practice_set": 5,
+        "category": "Math: Expressions and Equations",
+        "difficulty": "medium",
+        "time_estimate": 60,
+        "passage":"pdfData:pdf/2017 Grade 7 Math Released Questions.pdf",
+        "question_text": "If the expression below has a positive value, which inequality represents all possible values of x in the expression?\n-3x",
+        "options": [
+            "x < 0",
+            "x > 0",
+            "x <= 0",
+            "x >= 0"
+        ],
+        "correct_answer": 0
+    },
+    {
+        "_id": "19",
+        "question_number": 19,
+        "practice_set": 5,
+        "category": "Math: Ratios and Proportions",
+        "difficulty": "easy",
+        "time_estimate": 60,
+        "passage":"pdfData:pdf/2017 Grade 7 Math Released Questions.pdf",
+        "question_text": "\nJensen stopped at rest area A along the side of the highway. His map, shown below, has a scale of 1 inch to 35 miles. Jensen planned to stop at rest area B next. What is the actual distance, in miles, between the two rest areas?",
+        "options": [
+            "14.0",
+            "37.5",
+            "70.5",
+            "87.5"
+        ],
+        "correct_answer": 3
+    },
+    {
+        "_id": "20",
+        "question_number": 20,
+        "practice_set": 5,
+        "category": "Math: Number Systems",
+        "difficulty": "easy",
+        "time_estimate": 45,
+        "passage":"pdfData:pdf/2017 Grade 7 Math Released Questions.pdf",
+        "question_text": "Which statement describes the decimal equivalent of 7/8?",
+        "options": [
+            "It is a decimal with a repeating digit of 5.",
+            "It is a decimal with repeating digits of 75.",
+            "It is a decimal that terminates after 2 decimal places.",
+            "It is a decimal that terminates after 3 decimal places."
+        ],
+        "correct_answer": 3
+    },
+    {
+        "_id": "21",
+        "question_number": 21,
+        "practice_set": 5,
+        "category": "Math: Expressions and Equations",
+        "difficulty": "medium",
+        "time_estimate": 90,
+        "passage":"pdfData:pdf/2017 Grade 7 Math Released Questions.pdf",
+        "question_text": "Which expression is equivalent to the expression shown below?\n-1/2(-3/2x + 6x + 1) - 3x",
+        "options": [
+            "(3/2)x - 1/2",
+            "(6 3/4)x - 1/2",
+            "(-3/4)x + 1/2",
+            "(-5 1/4)x - 1/2"
+        ],
+        "correct_answer": 3
+    },
+    {
+        "_id": "22",
+        "question_number": 22,
+        "practice_set": 5,
+        "category": "Math: Probability",
+        "difficulty": "easy",
+        "time_estimate": 75,
+        "passage":"pdfData:pdf/2017 Grade 7 Math Released Questions.pdf",
+        "question_text": "Leanne collects data throughout the basketball season and uses these data to determine the probabilities of different teams playing in the league championship game. The probabilities for her four favorite teams playing in the championship game are shown below.\n• Tigers: P = 2/3\n• Redbirds: P = 4/5\n• Bulldogs: P = 3/8\n• Titans: P = 1/2\nWhich of these teams is least likely to play in the championship game?",
+        "options": [
+            "Tigers",
+            "Redbirds",
+            "Bulldogs",
+            "Titans"
+        ],
+        "correct_answer": 2
+    },
+    {
+        "_id": "25",
+        "question_number": 25,
+        "practice_set": 5,
+        "category": "Math: Number Systems",
+        "difficulty": "easy",
+        "time_estimate": 60,
+        "passage":"pdfData:pdf/2017 Grade 7 Math Released Questions.pdf",
+        "question_text": "The initial balance of a savings account was $275. After which transactions will the balance of the savings account be the same as the initial balance?",
+        "options": [
+            "a withdrawal of $232 followed by a deposit of $132",
+            "a deposit of $278 followed by a withdrawal of $278",
+            "a withdrawal of $115 followed by a deposit of $312",
+            "a deposit of $205 followed by a withdrawal of $317"
+        ],
+        "correct_answer": 1
+    },
+    {
+        "_id": "26",
+        "question_number": 26,
+        "practice_set": 5,
+        "category": "Math: Statistics",
+        "difficulty": "medium",
+        "time_estimate": 90,
+        "passage":"pdfData:pdf/2017 Grade 7 Math Released Questions.pdf",
+        "question_text": "[Table showing commute times for 5 employees at 4 different companies.]\nA researcher surveyed five randomly selected employees from each of four different companies about their daily commutes to work. The table shows the commute times for the surveyed employees. Based on the data, which company most likely has the longest average commute time per employee?",
+        "options": [
+            "Company 1",
+            "Company 2",
+            "Company 3",
+            "Company 4"
+        ],
+        "correct_answer": 0
+    },
+    {
+        "_id": "27",
+        "question_number": 27,
+        "practice_set": 5,
+        "category": "Math: Ratios and Proportions",
+        "difficulty": "medium",
+        "time_estimate": 75,
+        "passage":"pdfData:pdf/2017 Grade 7 Math Released Questions.pdf",
+        "question_text": "In a scale drawing of an apartment, 1 centimeter represents 2 3/4 feet. If the length of the kitchen is 4 1/2 cm on the scale drawing, what is the actual length, in feet, of the kitchen?",
+        "options": [
+            "6 2/3",
+            "7 1/4",
+            "8 3/8",
+            "12 3/8"
+        ],
+        "correct_answer": 3
+    },
+    {
+        "_id": "28",
+        "question_number": 28,
+        "practice_set": 5,
+        "category": "Math: Probability",
+        "difficulty": "easy",
+        "time_estimate": 60,
+        "passage":"pdfData:pdf/2017 Grade 7 Math Released Questions.pdf",
+        "question_text": "A passenger train has tickets available for 12 window seats and 8 aisle seats. The next person to buy a ticket will be randomly assigned to one of those seats. What is the probability that the next person will be assigned to an aisle seat?",
+        "options": [
+            "1/8",
+            "2/5",
+            "1/2",
+            "2/3"
+        ],
+        "correct_answer": 1
+    },
+    {
+        "_id": "32",
+        "question_number": 32,
+        "practice_set": 5,
+        "category": "Math: Geometry",
+        "difficulty": "medium",
+        "time_estimate": 90,
+        "passage":"pdfData:pdf/2017 Grade 7 Math Released Questions.pdf",
+        "question_text": "\nThe scale drawing of a field in the shape of a triangle is shown below. What is the actual area, in square meters, of this field?",
+        "options": [
+            "8.75",
+            "17.5",
+            "35",
+            "70"
+        ],
+        "correct_answer": 3
+    },
+    {
+        "_id": "33",
+        "question_number": 33,
+        "practice_set": 5,
+        "category": "Math: Ratios and Proportions",
+        "difficulty": "easy",
+        "time_estimate": 75,
+        "passage":"pdfData:pdf/2017 Grade 7 Math Released Questions.pdf",
+        "question_text": "A vehicle uses 1 1/8 gallons of gasoline to travel 13 1/2 miles. At this rate, how many miles can the vehicle travel per gallon of gasoline?",
+        "options": [
+            "16/243",
+            "4/3",
+            "12",
+            "13"
+        ],
+        "correct_answer": 2
+    },
+    {
+        "_id": "34",
+        "question_number": 34,
+        "practice_set": 5,
+        "category": "Math: Statistics",
+        "difficulty": "medium",
+        "time_estimate": 90,
+        "passage":"pdfData:pdf/2017 Grade 7 Math Released Questions.pdf",
+        "question_text": "\nA bowling team participates in a two-day tournament and records the scores for each team member on both days. The scores for both days are represented by the box plots below. Which conclusion can be drawn from the box plots?",
+        "options": [
+            "The scores on Friday and the scores on Saturday have the same median and interquartile range.",
+            "The scores on Friday have a greater median and a greater interquartile range than the scores on Saturday.",
+            "The scores on Friday have a greater interquartile range than the scores on Saturday, but both data sets have the same median.",
+            "The scores on Friday have a greater median than the scores on Saturday, but both data sets have the same interquartile range."
+        ],
+        "correct_answer": 3
+    },
+    {
+        "_id": "35",
+        "question_number": 35,
+        "practice_set": 5,
+        "category": "Math: Expressions and Equations",
+        "difficulty": "medium",
+        "time_estimate": 75,
+        "passage":"pdfData:pdf/2017 Grade 7 Math Released Questions.pdf",
+        "question_text": "Which expression is equivalent to (7/2)h - 3(5h - 1/2)?",
+        "options": [
+            "(-23/2)h + 3/2",
+            "(-23/2)h - 3/2",
+            "(37/2)h + 3/2",
+            "(37/2)h - 3/2"
+        ],
+        "correct_answer": 0
+    },
+    {
+        "_id": "36",
+        "question_number": 36,
+        "practice_set": 5,
+        "category": "Math: Ratios and Proportions",
+        "difficulty": "hard",
+        "time_estimate": 120,
+        "passage":"pdfData:pdf/2017 Grade 7 Math Released Questions.pdf",
+        "question_text": "Jeanette purchased a concert ticket on a web site. The original price of the ticket was $75. She used a coupon code to receive a 20% discount. The web site applied a 10% service fee to the discounted price. Jeanette's ticket was less than the original price by what percent?",
+        "options": [
+            "7%",
+            "10%",
+            "12%",
+            "28%"
+        ],
+        "correct_answer": 2
+    },
+    {
+        "_id": "37",
+        "question_number": 37,
+        "practice_set": 5,
+        "category": "Math: Statistics",
+        "difficulty": "easy",
+        "time_estimate": 60,
+        "passage":"pdfData:pdf/2017 Grade 7 Math Released Questions.pdf",
+        "question_text": "A seventh grade English Language Arts teacher wants to order books for all the seventh grade classes. He wants to determine the favorite type of book among the seventh grade students. Which sample would be the most appropriate for this survey?",
+        "options": [
+            "7 girls in each of his classes",
+            "every fifth student in the seventh grade",
+            "1 out of 7 students in his middle school",
+            "all of the boys in one of his seventh grade classes"
+        ],
+        "correct_answer": 1
+    },
+    {
+        "_id": "38",
+        "question_number": 38,
+        "practice_set": 5,
+        "category": "Math: Expressions and Equations",
+        "difficulty": "easy",
+        "time_estimate": 60,
+        "passage":"pdfData:pdf/2017 Grade 7 Math Released Questions.pdf",
+        "question_text": "The amount of money in a bank account increased by 21.5% over the last year. If the amount of money at the beginning of the year is represented by n, which expression represents the amount of money in the bank account after the increase?",
+        "options": [
+            "n + 0.215n",
+            "n + 21.5n",
+            "0.215n",
+            "21.5n"
+        ],
+        "correct_answer": 0
+    },
+    {
+        "_id": "39",
+        "question_number": 39,
+        "practice_set": 5,
+        "category": "Math: Geometry",
+        "difficulty": "easy",
+        "time_estimate": 60,
+        "passage":"pdfData:pdf/2017 Grade 7 Math Released Questions.pdf",
+        "question_text": "Kiyo used wire fencing to form a border around a circular region in his back yard. If the radius of the circular region was 5 yards, what was the total length of the border, rounded to the nearest tenth of a yard?",
+        "options": [
+            "15.7",
+            "31.4",
+            "78.5",
+            "157.1"
+        ],
+        "correct_answer": 1
+    },
+    {
+        "_id": "40",
+        "question_number": 40,
+        "practice_set": 5,
+        "category": "Math: Geometry",
+        "difficulty": "medium",
+        "time_estimate": 90,
+        "passage":"pdfData:pdf/2017 Grade 7 Math Released Questions.pdf",
+        "question_text": "A triangle has side lengths of (5.5x + 6.2y) centimeters, (4.3x + 8.3z) centimeters, and (1.6z - 5.1y) centimeters. Which expression represents the perimeter, in centimeters, of the triangle?",
+        "options": [
+            "11.4xz + 9.4yz",
+            "11.7xy + 12.6xz - 3.5yz",
+            "9.8x + 1.1y + 9.9z",
+            "9.8x + 7.8y + 3.5z"
+        ],
+        "correct_answer": 2
+    },
+    {
+        "_id": "41",
+        "question_number": 41,
+        "practice_set": 5,
+        "category": "Math: Ratios and Proportions",
+        "difficulty": "medium",
+        "time_estimate": 90,
+        "passage":"pdfData:pdf/2017 Grade 7 Math Released Questions.pdf",
+        "question_text": "Carl wants to buy a television that costs $500, including taxes. To pay for the television, he will use a payment plan that requires him to make a down payment of $125, and then pay $72.50 each month for 6 months. What is the percent increase from the original cost of the television to the cost of the television using the payment plan?",
+        "options": [
+            "6%",
+            "12%",
+            "58%",
+            "89%"
+        ],
+        "correct_answer": 1
+    },
+    {
+        "_id": "42",
+        "question_number": 42,
+        "practice_set": 5,
+        "category": "Math: Expressions and Equations",
+        "difficulty": "medium",
+        "time_estimate": 90,
+        "passage":"pdfData:pdf/2017 Grade 7 Math Released Questions.pdf",
+        "question_text": "\nYolanda participated in a walkathon in which each kilometer walked raised $10 for charity. Her goal was to raise more than $300 on Saturday and Sunday. She raised $50 on Saturday. Which graph shows all the distances, in kilometers, that Yolanda could have walked on Sunday to reach her goal?",
+        "options": [
+            "A",
+            "B",
+            "C",
+            "D"
+        ],
+        "correct_answer": 1
+    },
+    {
+        "_id": "43",
+        "question_number": 43,
+        "practice_set": 5,
+        "category": "Math: Ratios and Proportions",
+        "difficulty": "easy",
+        "time_estimate": 75,
+        "passage":"pdfData:pdf/2017 Grade 7 Math Released Questions.pdf",
+        "question_text": "\nA grocery store sells sliced turkey. The graph shows the relationship between the weight of the sliced turkey and the total cost of the sliced turkey. Two points, R and W, are labeled on the graph shown below. Which statement about the graph is true?",
+        "options": [
+            "Point R means that the unit rate is $10.00 per pound.",
+            "Point R means that the unit rate is 4 pounds per dollar.",
+            "Point W means that the unit rate is $2.50 per pound.",
+            "Point W means that the unit rate is 2.5 pounds per dollar."
+        ],
+        "correct_answer": 2
+    },
+    {
+        "_id": "44",
+        "question_number": 44,
+        "practice_set": 5,
+        "category": "Math: Expressions and Equations",
+        "difficulty": "easy",
+        "time_estimate": 60,
+        "passage":"pdfData:pdf/2017 Grade 7 Math Released Questions.pdf",
+        "question_text": "An item with an original price of p dollars is on sale at a 25% discount. Which expression is not equivalent to the price of the item with the discount?",
+        "options": [
+            "(1.0p - 0.25p)",
+            "(1.0 - 0.25)p",
+            "0.75p",
+            "0.25p"
+        ],
+        "correct_answer": 3
+    },
+    {
+        "_id": "45",
+        "question_number": 45,
+        "practice_set": 5,
+        "category": "Math: Geometry",
+        "difficulty": "easy",
+        "time_estimate": 75,
+        "passage":"pdfData:pdf/2017 Grade 7 Math Released Questions.pdf",
+        "question_text": "A circle has a diameter of 26 units. What is the area of the circle to the nearest hundredth of a square unit?",
+        "options": [
+            "81.68",
+            "530.93",
+            "2,123.72",
+            "8,494.87"
+        ],
+        "correct_answer": 2
+    },
+    {
+        "_id": "46",
+        "question_number": 46,
+        "practice_set": 5,
+        "category": "Math: Geometry",
+        "difficulty": "medium",
+        "time_estimate": 75,
+        "passage":"pdfData:pdf/2017 Grade 7 Math Released Questions.pdf",
+        "question_text": "The width of a rectangle is 6 2/3 inches. The length of the rectangle is twice its width. What is the perimeter of the rectangle?",
+        "options": [
+            "20 inches",
+            "40 inches",
+            "30 2/3 inches",
+            "88 8/9 inches"
+        ],
+        "correct_answer": 2
+    },
+    {
+        "_id": "47",
+        "question_number": 47,
+        "practice_set": 5,
+        "category": "Math: Ratios and Proportions",
+        "difficulty": "hard",
+        "time_estimate": 120,
+        "passage":"pdfData:pdf/2017 Grade 7 Math Released Questions.pdf",
+        "question_text": "A student uses a solution that contains 16 grams of water to conduct an evaporation experiment.\n• At the end of one hour, the amount of water in the solution has decreased by 3.5%.\n• At the end of two hours, the amount of water in the solution has decreased by another 4.25%.\nWhich calculations can be used to determine the amount of water, in grams, remaining in the solution at the end of the second hour?",
+        "options": [
+            "Step 1: 0.035 x 16 = 0.56; Step 2: 16 - 0.56 = 15.44; Step 3: 0.0425 x 15.44 = 0.6562; Step 4: 16 - 0.6562 = 15.3438",
+            "Step 1: 0.035 x 16 = 0.56; Step 2: 16 - 0.56 = 15.44; Step 3: 0.0425 x 15.44 = 0.6562; Step 4: 15.44 - 0.6562 = 14.7838",
+            "Step 1: 0.35 x 16 = 5.6; Step 2: 16 - 5.6 = 10.4; Step 3: 0.425 x 10.4 = 4.42; Step 4: 16 - 4.42 = 11.58",
+            "Step 1: 0.35 x 16 = 5.6; Step 2: 16 - 5.6 = 10.4; Step 3: 0.425 x 10.4 = 4.42; Step 4: 10.4 - 4.42 = 5.98"
+        ],
+        "correct_answer": 2
+    },
+    {
+        "_id": "50",
+        "question_number": 50,
+        "practice_set": 5,
+        "category": "Math: Number Systems",
+        "difficulty": "medium",
+        "time_estimate": 75,
+        "passage":"pdfData:pdf/2017 Grade 7 Math Released Questions.pdf",
+        "question_text": "What is the value of the expression (-8/9) ÷ (-2/3) × (-4 1/2)?",
+        "options": [
+            "-6",
+            "-8/27",
+            "8/27",
+            "6"
+        ],
+        "correct_answer": 0
+    },
+    {
+        "_id": "51",
+        "question_number": 51,
+        "practice_set": 5,
+        "category": "Math: Probability",
+        "difficulty": "medium",
+        "time_estimate": 90,
+        "passage":"pdfData:pdf/2017 Grade 7 Math Released Questions.pdf",
+        "question_text": "\nA board game has a spinner divided into sections of equal size. Each section is labeled with a number between 1 and 5. Which number is a reasonable estimate of the number of times the spinner will land on a section labeled 5 over the course of 150 spins?",
+        "options": [
+            "15",
+            "25",
+            "40",
+            "60"
+        ],
+        "correct_answer": 2
+    },
+    {
+        "_id": "52",
+        "question_number": 52,
+        "practice_set": 5,
+        "category": "Math: Number Systems",
+        "difficulty": "medium",
+        "time_estimate": 180,
+        "passage":"pdfData:pdf/2017 Grade 7 Math Released Questions.pdf",
+        "question_text": "Find the value of the expression.\n(5 / (-1.5 + 9.5)) + (0.4(7 + 11)) / -0.2\nShow your work.",
+        "options": [],
+        "correct_answer": null,
+        "answer_type": "short_response"
+    },
+    {
+        "_id": "53",
+        "question_number": 53,
+        "practice_set": 5,
+        "category": "Math: Ratios and Proportions",
+        "difficulty": "medium",
+        "time_estimate": 180,
+        "passage":"pdfData:pdf/2017 Grade 7 Math Released Questions.pdf",
+        "question_text": "A museum opened at 8:00 a.m. In the first hour, 350 people purchased admission tickets. In the second hour, 20% more people purchased admission tickets than in the first hour. Each admission ticket cost $17.50. What was the total amount of money paid for all the tickets purchased in the first two hours? Show your work.",
+        "options": [],
+        "correct_answer": null,
+        "answer_type": "short_response"
+    },
+    {
+        "_id": "54",
+        "question_number": 54,
+        "practice_set": 5,
+        "category": "Math: Ratios and Proportions",
+        "difficulty": "medium",
+        "time_estimate": 180,
+        "passage":"pdfData:pdf/2017 Grade 7 Math Released Questions.pdf",
+        "question_text": "Mick paid $2.94 in sales tax on an item that cost $42.00 before tax. At that rate, how much would he pay in sales tax for an item that costs $58.00 before tax? Show your work.",
+        "options": [],
+        "correct_answer": null,
+        "answer_type": "short_response"
+    },
+    {
+        "_id": "55",
+        "question_number": 55,
+        "practice_set": 5,
+        "category": "Math: Statistics and Probability",
+        "difficulty": "medium",
+        "time_estimate": 180,
+        "passage":"pdfData:pdf/2017 Grade 7 Math Released Questions.pdf",
+        "question_text": "At a store, customers are randomly selected to participate in a survey. On Friday, there were 500 customers at the store. Of those, 90 were selected to participate in the survey. On Saturday, the store manager expects 700 customers in the store. If the probability of being selected to participate in the survey on Saturday is the same as it was on Friday, how many customers will be selected to participate in the survey on Saturday? Show your work.",
+        "options": [],
+        "correct_answer": null,
+        "answer_type": "short_response"
+    },
+    {
+        "_id": "56",
+        "question_number": 56,
+        "practice_set": 5,
+        "category": "Math: Geometry",
+        "difficulty": "medium",
+        "time_estimate": 180,
+        "passage":"pdfData:pdf/2017 Grade 7 Math Released Questions.pdf",
+        "question_text": "A school club needs 300 feet of rope for a project. They have the amounts of rope listed below.\n• 2 pieces of rope that are each 16 yards in length\n• 1 piece of rope that is 12.5 yards in length\n• 1 piece of rope that is 123.25 feet in length\nHow much additional rope, in feet, does the school club need in order to have enough rope for their project? Show your work.",
+        "options": [],
+        "correct_answer": null,
+        "answer_type": "short_response"
+    },
+    {
+        "_id": "57",
+        "question_number": 57,
+        "practice_set": 5,
+        "category": "Math: Ratios and Proportions",
+        "difficulty": "hard",
+        "time_estimate": 240,
+        "passage":"pdfData:pdf/2017 Grade 7 Math Released Questions.pdf",
+        "question_text": "[Table showing masses and volumes of several pieces of metal.]\nThe table below lists the masses and volumes of several pieces of the same type of metal. There is a proportional relationship between the mass and the volume of the pieces of metal. Determine the mass, in grams, of a piece of this metal that has a volume of 15.3 cubic centimeters. Round your answer to the nearest tenth of a gram. Show your work.",
+        "options": [],
+        "correct_answer": null,
+        "answer_type": "short_response"
+    },
+    {
+        "_id": "58",
+        "question_number": 58,
+        "practice_set": 5,
+        "category": "Math: Number Systems",
+        "difficulty": "hard",
+        "time_estimate": 240,
+        "passage":"pdfData:pdf/2017 Grade 7 Math Released Questions.pdf",
+        "question_text": "[Table showing the weekly change in the price of one gram of gold for four weeks.]\nBy how much did the price of one gram of gold change from the beginning of week 1 to the end of week 4? Did the price increase or decrease? Explain how you found your answer.\n\nAt the end of week 4, the price per gram of gold was $39.28. What was the price per gram of gold at the beginning of week 1? Show your work.",
+        "options": [],
+        "correct_answer": null,
+        "answer_type": "essay_response"
+    },
+    {
+        "_id": "59",
+        "question_number": 59,
+        "practice_set": 5,
+        "category": "Math: Ratios and Proportions",
+        "difficulty": "hard",
+        "time_estimate": 240,
+        "passage":"pdfData:pdf/2017 Grade 7 Math Released Questions.pdf",
+        "question_text": "[Table showing carpet sale prices for different areas.]\nHallum Hardware created flyers to advertise a sale on a certain type of carpet. A portion of the flyer is shown below. Guillen Floors advertises the same type of carpet at a cost of 10% less per square foot than Hallum Hardware. Determine the cost of 700 square feet of the carpet if it is bought from Guillen Floors. Show your work.",
+        "options": [],
+        "correct_answer": null,
+        "answer_type": "short_response"
+    },
+    {
+        "_id": "60",
+        "question_number": 60,
+        "practice_set": 5,
+        "category": "Math: Number Systems",
+        "difficulty": "hard",
+        "time_estimate": 240,
+        "passage":"pdfData:pdf/2017 Grade 7 Math Released Questions.pdf",
+        "question_text": "A single gram of a certain metallic substance has 0.52 gram of copper and 0.26 gram of zinc. The remaining portion of the substance is nickel. Ben estimated that 0.2 gram of nickel is in 1 gram of the substance. He used this to estimate the amount of nickel in 35 grams of the substance. Find the result of Ben's estimation strategy. Then, find the exact amount of nickel in 35 grams of the substance. Show your work.",
+        "options": [],
+        "correct_answer": null,
+        "answer_type": "essay_response"
+    },
+    {
+        "_id": "61",
+        "question_number": 61,
+        "practice_set": 5,
+        "category": "Math: Ratios and Proportions",
+        "difficulty": "hard",
+        "time_estimate": 300,
+        "passage":"pdfData:pdf/2017 Grade 7 Math Released Questions.pdf",
+        "question_text": "Last year, a property manager bought five identical snow shovels and six identical bags of salt. The total cost of the snow shovels was $172.50, before tax, and each bag of salt cost $6.20, before tax.\nThis year, the property manager bought two identical snow shovels and four identical bags of salt. The total cost of the snow shovels was $70.38, before tax, and the total cost of the bags of salt was $26.04, before tax.\nDetermine the item with the greatest percent increase in the price from last year to this year. Be sure to include the percent increase of this item to the nearest percent. Show your work.",
+        "options": [],
+        "correct_answer": null,
+        "answer_type": "essay_response"
+    }
+]

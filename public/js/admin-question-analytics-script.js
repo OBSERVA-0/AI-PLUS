@@ -357,7 +357,8 @@ class AdminQuestionAnalyticsManager {
         const labels = {
             'shsat': 'SHSAT',
             'sat': 'SAT',
-            'state': 'State Test'
+            'state': 'Grade 7 State Test',
+            'statetest': 'Grade 7 State Test'
         };
         return labels[testType] || testType.toUpperCase();
     }

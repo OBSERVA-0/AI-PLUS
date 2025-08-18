@@ -1,0 +1,659 @@
+[
+    {
+        "_id": "1",
+        "question_number": 1,
+        "practice_set": 8,
+        "category": "Math: Ratios and Proportions",
+        "difficulty": "easy",
+        "time_estimate": 60,
+        "passage": "pdfData:pdf/2016-released-items-math-g7-pt1.pdf",
+        "question_text": "\nThe drawing of a building, shown below, has a scale of 1 inch to 30 feet. What is the actual height, in feet, of the building?",
+        "options": [
+            "22.5",
+            "24",
+            "37.5",
+            "40"
+        ],
+        "correct_answer": 2
+    },
+    {
+        "_id": "2",
+        "question_number": 2,
+        "practice_set": 8,
+        "category": "Math: Number Systems",
+        "difficulty": "medium",
+        "time_estimate": 90,
+        "passage": "pdfData:pdf/2016-released-items-math-g7-pt1.pdf",
+        "question_text": "What is the value of the expression below?\n-0.75 - (-2/5) + 0.4 + (-3/4)",
+        "options": [
+            "-1.5",
+            "-0.7",
+            "0.8",
+            "2.3"
+        ],
+        "correct_answer": 1
+    },
+    {
+        "_id": "7",
+        "question_number": 7,
+        "practice_set": 8,
+        "category": "Math: Ratios and Proportions",
+        "difficulty": "medium",
+        "time_estimate": 90,
+        "passage": "pdfData:pdf/2016-released-items-math-g7-pt1.pdf",
+        "question_text": "Lehana and Marty each opened a savings account with a deposit of $100.\n• Lehana earned 2.5% simple interest per year.\n• Marty earned 2% simple interest per year.\n• Neither of them made additional deposits or withdrawals.\nHow much more did Lehana receive in interest than Marty after three years?",
+        "options": [
+            "$0.50",
+            "$1.50",
+            "$5.00",
+            "$15.00"
+        ],
+        "correct_answer": 1 
+    },
+    {
+        "_id": "8",
+        "question_number": 8,
+        "practice_set": 8,
+        "category": "Math: Expressions and Equations",
+        "difficulty": "easy",
+        "time_estimate": 60,
+        "passage": "pdfData:pdf/2016-released-items-math-g7-pt1.pdf",
+        "question_text": "Addison wants to ride her bicycle more than 80 miles this week. She has already ridden her bicycle 18 miles. Which inequality could be used to determine the mean number of miles, m, she would need to ride her bicycle each day for six more days to achieve her goal?",
+        "options": [
+            "6m + 18 < 80",
+            "6m - 18 < 80",
+            "6m + 18 > 80",
+            "6m - 18 > 80"
+        ],
+        "correct_answer": 2
+    },
+    {
+        "_id": "9",
+        "question_number": 9,
+        "practice_set": 8,
+        "category": "Math: Statistics",
+        "difficulty": "hard",
+        "time_estimate": 120,
+        "passage": "pdfData:pdf/2016-released-items-math-g7-pt1.pdf",
+        "question_text": "\nAn electronic sign that showed the speed of motorists was installed on a road. The line plots below show the speeds of some motorists before and after the sign was installed. Based on these data, which statement is true about the speeds of motorists after the sign was installed?",
+        "options": [
+            "The mean speed and the range of the speeds of the motorists decreased.",
+            "The median speed and the range of the speeds of the motorists increased.",
+            "The mean speed of the motorists decreased and the range of the speeds increased.",
+            "The median speed of the motorists increased and the range of the speeds decreased."
+        ],
+        "correct_answer": 0
+    },
+    {
+        "_id": "10",
+        "question_number": 10,
+        "practice_set": 8,
+        "category": "Math: Expressions and Equations",
+        "difficulty": "easy",
+        "time_estimate": 60,
+        "passage": "pdfData:pdf/2016-released-items-math-g7-pt1.pdf",
+        "question_text": "A number, n, is multiplied by -5/8. The product is -0.4. What is the value of n?",
+        "options": [
+            "-16/25",
+            "-1/4",
+            "1/4",
+            "16/25"
+        ],
+        "correct_answer": 3
+    },
+    {
+        "_id": "11",
+        "question_number": 11,
+        "practice_set": 8,
+        "category": "Math: Geometry",
+        "difficulty": "easy",
+        "time_estimate": 75,
+        "passage": "pdfData:pdf/2016-released-items-math-g7-pt1.pdf",
+        "question_text": "\nThe perimeter of a certain pentagon is 10.5 centimeters. Four sides of this pentagon have the same length, in centimeters, h, and the other side has a length of 1.7 centimeters, as shown below. What is the value of h?",
+        "options": [
+            "2.2",
+            "3.7",
+            "4.8",
+            "8.8"
+        ],
+        "correct_answer": 0
+    },
+    {
+        "_id": "12",
+        "question_number": 12,
+        "practice_set": 8,
+        "category": "Math: Statistics",
+        "difficulty": "easy",
+        "time_estimate": 60,
+        "passage": "pdfData:pdf/2016-released-items-math-g7-pt1.pdf",
+        "question_text": "A school principal wants to determine which type of speaker the students prefer to invite to an assembly for the entire student population. Which survey method would produce the best representative sample?",
+        "options": [
+            "survey every fifth person who shops at a mall",
+            "survey all of the students on the student council",
+            "survey every tenth student entering the school one morning",
+            "survey all of the students who went to the last basketball game"
+        ],
+        "correct_answer": 2
+    },
+    {
+        "_id": "13",
+        "question_number": 13,
+        "practice_set": 8,
+        "category": "Math: Probability",
+        "difficulty": "easy",
+        "time_estimate": 60,
+        "passage": "pdfData:pdf/2016-released-items-math-g7-pt1.pdf",
+        "question_text": "\nHenry has a fair number pyramid with four faces and a spinner with three equal-sized colored sections. The possible outcomes for each are shown below. What is the probability that the number pyramid will land on three and the spinner will stop on blue?",
+        "options": [
+            "1/12",
+            "3/12",
+            "4/12",
+            "7/12"
+        ],
+        "correct_answer": 0
+    },
+    {
+        "_id": "14",
+        "question_number": 14,
+        "practice_set": 8,
+        "category": "Math: Ratios and Proportions",
+        "difficulty": "easy",
+        "time_estimate": 60,
+        "passage": "pdfData:pdf/2016-released-items-math-g7-pt1.pdf",
+        "question_text": "A company ordered 10 boxed lunches from a deli for $74.50. Each boxed lunch cost the same amount. Which equation represents the proportional relationship between y, the total cost of the boxed lunches, and x, the number of boxed lunches?",
+        "options": [
+            "7.45x = y",
+            "7.45/x = 10/y",
+            "74.50x = y",
+            "74.50/x = 10/y"
+        ],
+        "correct_answer": 0
+    },
+    {
+        "_id": "15",
+        "question_number": 15,
+        "practice_set": 8,
+        "category": "Math: Number Systems",
+        "difficulty": "medium",
+        "time_estimate": 75,
+        "passage": "pdfData:pdf/2016-released-items-math-g7-pt1.pdf",
+        "question_text": "What is the value of the expression ((2/3) - (5/6)) / (3/4)?",
+        "options": [
+            "-2/9",
+            "-1/8",
+            "1/8",
+            "2/9"
+        ],
+        "correct_answer": 0
+    },
+    {
+        "_id": "16",
+        "question_number": 16,
+        "practice_set": 8,
+        "category": "Math: Probability",
+        "difficulty": "medium",
+        "time_estimate": 90,
+        "passage": "pdfData:pdf/2016-released-items-math-g7-pt1.pdf",
+        "question_text": "Which event is most likely to occur?",
+        "options": [
+            "flipping a fair coin, with sides labeled heads and tails, and the coin landing on tails",
+            "choosing a marble out of a bag, with nine blue marbles and one red marble, and the marble being red",
+            "rolling a fair number cube, with faces labeled one to six, and the cube landing on a number less than six",
+            "spinning the arrow on a spinner, with four equal sectors labeled one to four, and the arrow landing on a number greater than one"
+        ],
+        "correct_answer": 2
+    },
+    {
+        "_id": "20",
+        "question_number": 20,
+        "practice_set": 8,
+        "category": "Math: Expressions and Equations",
+        "difficulty": "medium",
+        "time_estimate": 90,
+        "passage": "pdfData:pdf/2016-released-items-math-g7-pt1.pdf",
+        "question_text": "A trailer will be used to transport several 40-kilogram crates to a store. The greatest amount of weight that can be loaded onto the trailer is 1,050 kilograms. An 82-kilogram crate has already been loaded onto the trailer. What is the greatest number of 40-kilogram crates that can also be loaded onto the trailer?",
+        "options": [
+            "24",
+            "25",
+            "26",
+            "27"
+        ],
+        "correct_answer": 0
+    },
+    {
+        "_id": "21",
+        "question_number": 21,
+        "practice_set": 8,
+        "category": "Math: Number Systems",
+        "difficulty": "medium",
+        "time_estimate": 75,
+        "passage": "pdfData:pdf/2016-released-items-math-g7-pt1.pdf",
+        "question_text": "What is the value of the expression? (8/15) ÷ (-0.35)",
+        "options": [
+            "-75/14",
+            "-32/21",
+            "-21/32",
+            "-14/75"
+        ],
+        "correct_answer": 1
+    },
+    {
+        "_id": "22",
+        "question_number": 22,
+        "practice_set": 8,
+        "category": "Math: Number Systems",
+        "difficulty": "medium",
+        "time_estimate": 75,
+        "passage": "pdfData:pdf/2016-released-items-math-g7-pt1.pdf",
+        "question_text": "What is the value of the expression below?\n(3 1/2 - 9 3/4) ÷ (-2.5)",
+        "options": [
+            "-2.5",
+            "-2.3",
+            "2.3",
+            "2.5"
+        ],
+        "correct_answer": 3
+    },
+    {
+        "_id": "27",
+        "question_number": 27,
+        "practice_set": 8,
+        "category": "Math: Number Systems",
+        "difficulty": "easy",
+        "time_estimate": 45,
+        "passage": "pdfData:pdf/2016-released-items-math-g7-pt1.pdf",
+        "question_text": "Which expression is equivalent to 4 - (-7)?",
+        "options": [
+            "7 + 4",
+            "4 - 7",
+            "-7 - 4",
+            "-4 + 7"
+        ],
+        "correct_answer": 0
+    },
+    {
+        "_id": "28",
+        "question_number": 28,
+        "practice_set": 8,
+        "category": "Math: Ratios and Proportions",
+        "difficulty": "medium",
+        "time_estimate": 90,
+        "passage": "pdfData:pdf/2016-released-items-math-g7-pt1.pdf",
+        "question_text": "The elevation at ground level is 0 feet. An elevator starts 90 feet below ground level. After traveling for 15 seconds, the elevator is 20 feet below ground level. Which statement describes the elevator's rate of change in elevation during this 15-second interval?",
+        "options": [
+            "The elevator traveled upward at a rate of 6 feet per second.",
+            "The elevator traveled upward at a rate of 4 2/3 feet per second.",
+            "The elevator traveled downward at a rate of 6 feet per second.",
+            "The elevator traveled downward at a rate of 4 2/3 feet per second."
+        ],
+        "correct_answer": 1
+    },
+    {
+        "_id": "29",
+        "question_number": 29,
+        "practice_set": 8,
+        "category": "Math: Expressions and Equations",
+        "difficulty": "medium",
+        "time_estimate": 75,
+        "passage": "pdfData:pdf/2016-released-items-math-g7-pt1.pdf",
+        "question_text": "Which expression represents the product of 3 and ((5/4)n + 1.8)?",
+        "options": [
+            "5.55n",
+            "9.15n",
+            "3.75n + 1.8",
+            "3.75n + 5.4"
+        ],
+        "correct_answer": 3
+    },
+    {
+        "_id": "33",
+        "question_number": 33,
+        "practice_set": 8,
+        "category": "Math: Expressions and Equations",
+        "difficulty": "easy",
+        "time_estimate": 75,
+        "passage": "pdfData:pdf/2016-released-items-math-g7-pt1.pdf",
+        "question_text": "Mike took a taxi from his home to the airport. The taxi driver charged an initial fee of $6 plus $3 per mile. The total fare was $24, not including the tip. How many miles did Mike travel by taxi on this ride?",
+        "options": [
+            "2",
+            "6",
+            "8",
+            "10"
+        ],
+        "correct_answer": 1
+    },
+    {
+        "_id": "34",
+        "question_number": 34,
+        "practice_set": 8,
+        "category": "Math: Ratios and Proportions",
+        "difficulty": "medium",
+        "time_estimate": 90,
+        "passage": "pdfData:pdf/2016-released-items-math-g7-pt1.pdf",
+        "question_text": "The original selling price of a share of stock was d dollars. The selling price for a share of the same stock at a later date was represented by the expression 1.15(0.95d). Which description could explain what happened to the price of the share of stock?",
+        "options": [
+            "The price decreased by 5% and then increased by 0.15%.",
+            "The price decreased by 95% and then increased by 0.15%.",
+            "The price decreased by 5% and then increased by 15%.",
+            "The price decreased by 95% and then increased by 15%."
+        ],
+        "correct_answer": 2
+    },
+    {
+        "_id": "35",
+        "question_number": 35,
+        "practice_set": 8,
+        "category": "Math: Ratios and Proportions",
+        "difficulty": "hard",
+        "time_estimate": 120,
+        "passage": "pdfData:pdf/2016-released-items-math-g7-pt1.pdf",
+        "question_text": "\nA clothing store used the sign shown below to advertise a discount on shirts. Ky wants to buy three shirts, which were originally priced $49.96 each. The store will discount the price of the third shirt and then apply a 7.1% tax to the total cost of all three shirts. Including the tax, what will be the mean cost of each shirt?",
+        "options": [
+            "$41.99",
+            "$42.70",
+            "$44.59",
+            "$45.18"
+        ],
+        "correct_answer": 2
+    },
+    {
+        "_id": "36",
+        "question_number": 36,
+        "practice_set": 8,
+        "category": "Math: Statistics",
+        "difficulty": "medium",
+        "time_estimate": 90,
+        "passage": "pdfData:pdf/2016-released-items-math-g7-pt1.pdf",
+        "question_text": "The results for a survey of 120 students who were selected randomly are listed below:\n• 60 students have a cell phone plan with company X\n• 36 students have a cell phone plan with company Y\n• 24 students do not have a cell phone\nThe total population of students was 380. Based on the data, what is the best approximation for the total number of students who have a cell phone plan with company Y?",
+        "options": [
+            "114",
+            "127",
+            "143",
+            "163"
+        ],
+        "correct_answer": 0
+    },
+    {
+        "_id": "37",
+        "question_number": 37,
+        "practice_set": 8,
+        "category": "Math: Ratios and Proportions",
+        "difficulty": "easy",
+        "time_estimate": 75,
+        "passage": "pdfData:pdf/2016-released-items-math-g7-pt1.pdf",
+        "question_text": "\nWallpaper was applied to one rectangular wall of a large room. The dimensions of the wall are shown below. If the total cost of the wallpaper was $771.12, what was the cost, in dollars, of the wallpaper per square foot?",
+        "options": [
+            "$0.61",
+            "$0.72",
+            "$1.39",
+            "$1.65"
+        ],
+        "correct_answer": 1
+    },
+    {
+        "_id": "38",
+        "question_number": 38,
+        "practice_set": 8,
+        "category": "Math: Ratios and Proportions",
+        "difficulty": "hard",
+        "time_estimate": 120,
+        "passage": "pdfData:pdf/2016-released-items-math-g7-pt1.pdf",
+        "question_text": "\nThree friends own a landscaping business. The number of hours each friend spent on the same project is shown in the table below. In total, they earned $850 for the job. They put 15% of this amount into a joint savings account for future expenses. They then divided the rest proportionally based on the number of hours each worked. How much money did Shawn receive?",
+        "options": [
+            "$209.53",
+            "$240.83",
+            "$283.48",
+            "$295.11"
+        ],
+        "correct_answer": 0
+    },
+    {
+        "_id": "39",
+        "question_number": 39,
+        "practice_set": 8,
+        "category": "Math: Ratios and Proportions",
+        "difficulty": "easy",
+        "time_estimate": 75,
+        "passage": "pdfData:pdf/2016-released-items-math-g7-pt1.pdf",
+        "question_text": "\nLine KN represents a proportional relationship. Point N lies at (18, 12), as shown on the graph below. Which ordered pair could represent the coordinates of point K?",
+        "options": [
+            "(6, 0)",
+            "(2, 3)",
+            "(1.5, 0)",
+            "(7.5, 5)"
+        ],
+        "correct_answer": 3
+    },
+    {
+        "_id": "40",
+        "question_number": 40,
+        "practice_set": 8,
+        "category": "Math: Expressions and Equations",
+        "difficulty": "easy",
+        "time_estimate": 60,
+        "passage": "pdfData:pdf/2016-released-items-math-g7-pt1.pdf",
+        "question_text": "Which expression is equivalent to the expression -3(4x - 2) - 2x?",
+        "options": [
+            "-8x",
+            "-16x",
+            "-14x - 2",
+            "-14x + 6"
+        ],
+        "correct_answer": 3
+    },
+    {
+        "_id": "41",
+        "question_number": 41,
+        "practice_set": 8,
+        "category": "Math: Ratios and Proportions",
+        "difficulty": "easy",
+        "time_estimate": 60,
+        "passage": "pdfData:pdf/2016-released-items-math-g7-pt1.pdf",
+        "question_text": "\nMaya uses blue and orange fabric to make identical wall decorations. The graph below shows the relationship between the amounts of blue and orange fabric used. What is the constant of proportionality as shown in the graph?",
+        "options": [
+            "3/10",
+            "2/5",
+            "3/7",
+            "1/2"
+        ],
+        "correct_answer": 2
+    },
+    {
+        "_id": "42",
+        "question_number": 42,
+        "practice_set": 8,
+        "category": "Math: Expressions and Equations",
+        "difficulty": "medium",
+        "time_estimate": 90,
+        "passage": "pdfData:pdf/2016-released-items-math-g7-pt1.pdf",
+        "question_text": "Lance bought n notebooks that cost $0.75 each and p pens that cost $0.55 each. A 6.25% sales tax will be applied to the total cost. Which expression represents the total amount Lance paid, including tax?",
+        "options": [
+            "0.0625(n + p) + 0.0625(0.75n + 0.55p)",
+            "(0.75n + 0.55p) + 0.0625(0.75n + 0.55p)",
+            "0.75(0.0625n) + 0.55(0.0625n)",
+            "0.75(1.0625n) + 0.55(1.0625n)"
+        ],
+        "correct_answer": 1
+    },
+    {
+        "_id": "43",
+        "question_number": 43,
+        "practice_set": 8,
+        "category": "Math: Ratios and Proportions",
+        "difficulty": "medium",
+        "time_estimate": 75,
+        "passage": "pdfData:pdf/2016-released-items-math-g7-pt1.pdf",
+        "question_text": "A recycling plant processes an average of 1/3 ton of glass each minute. At approximately what rate does the recycling plant process glass, in tons per day? (1 day = 24 hours)",
+        "options": [
+            "20",
+            "180",
+            "480",
+            "4,320"
+        ],
+        "correct_answer": 2
+    },
+    {
+        "_id": "44",
+        "question_number": 44,
+        "practice_set": 8,
+        "category": "Math: Geometry",
+        "difficulty": "medium",
+        "time_estimate": 90,
+        "passage": "pdfData:pdf/2016-released-items-math-g7-pt1.pdf",
+        "question_text": "\nWhen Keisha installed a fence along the 200-foot perimeter of her rectangular back yard, she left an opening for a gate. In the diagram below, she used x to represent the length, in feet, of the gate. What is the value of x?",
+        "options": [
+            "10",
+            "20",
+            "25",
+            "30"
+        ],
+        "correct_answer": 0
+    },
+    {
+        "_id": "45",
+        "question_number": 45,
+        "practice_set": 8,
+        "category": "Math: Ratios and Proportions",
+        "difficulty": "medium",
+        "time_estimate": 75,
+        "passage": "pdfData:pdf/2016-released-items-math-g7-pt1.pdf",
+        "question_text": "Last year 950 people attended a town's annual parade. This year 1,520 people attended. What was the percent increase in attendance from last year to this year?",
+        "options": [
+            "37.5%",
+            "57.0%",
+            "60.0%",
+            "62.5%"
+        ],
+        "correct_answer": 2
+    },
+    {
+        "_id": "52",
+        "question_number": 52,
+        "practice_set": 9,
+        "category": "Math: Statistics and Probability",
+        "difficulty": "easy",
+        "time_estimate": 120,
+        "passage": "pdfData:pdf/2016-released-items-math-g7-pt2.pdf",
+        "question_text": "\nAn after-school program offers tutoring for different subjects. During the last month, a teacher recorded the number of students who participated in tutoring in each subject, as shown in the table below. Explain how the teacher could use these data to predict about how many of the next 100 students will participate in math tutoring.",
+        "options": [],
+        "correct_answer": null,
+        "answer_type": "short_response"
+    },
+    {
+        "_id": "53",
+        "question_number": 53,
+        "practice_set": 9,
+        "category": "Math: Ratios and Proportions",
+        "difficulty": "easy",
+        "time_estimate": 120,
+        "passage": "pdfData:pdf/2016-released-items-math-g7-pt2.pdf",
+        "question_text": "A home-improvement store sold wind chimes for $30 each. A customer signed up for a free membership card and received a 5% discount off the price. Sales tax of 5% was applied after the discount. What was the final price of the wind chime? Show your work.",
+        "options": [],
+        "correct_answer": null,
+        "answer_type": "short_response"
+    },
+    {
+        "_id": "54",
+        "question_number": 54,
+        "practice_set": 9,
+        "category": "Math: Expressions and Equations",
+        "difficulty": "medium",
+        "time_estimate": 180,
+        "passage": "pdfData:pdf/2016-released-items-math-g7-pt2.pdf",
+        "question_text": "Ms. Hernandez has $100 to spend on parking and admission to the zoo. The parking will cost $7, and admission tickets will cost $15.50 per person, including tax. Write and solve an equation that can be used to determine the number of people that she can bring to the zoo, including herself. Show your work.",
+        "options": [],
+        "correct_answer": null,
+        "answer_type": "short_response"
+    },
+    {
+        "_id": "55",
+        "question_number": 55,
+        "practice_set": 9,
+        "category": "Math: Statistics",
+        "difficulty": "medium",
+        "time_estimate": 180,
+        "passage": "pdfData:pdf/2016-released-items-math-g7-pt2.pdf",
+        "question_text": "Two math classes took the same quiz. The scores of 10 randomly selected students from each class are listed below.\n• Sample of Class A: 75, 80, 60, 90, 85, 80, 70, 90, 70, 65\n• Sample of Class B: 95, 90, 85, 90, 100, 75, 90, 85, 90, 85\nBased on the medians of the scores for each class, what inference would you make about the quiz scores of all the students in Class A compared to all the students in Class B? Explain your reasoning to justify your answer.",
+        "options": [],
+        "correct_answer": null,
+        "answer_type": "short_response"
+    },
+    {
+        "_id": "56",
+        "question_number": 56,
+        "practice_set": 9,
+        "category": "Math: Geometry",
+        "difficulty": "hard",
+        "time_estimate": 240,
+        "passage": "pdfData:pdf/2016-released-items-math-g7-pt2.pdf",
+        "question_text": "A contractor is building the base of a circular fountain. On the blueprint, the base of the fountain has a diameter of 18 centimeters. The blueprint has a scale of three centimeters to four feet. What will be the actual area of the base of the fountain, in square feet, after it is built? Round your answer to the nearest tenth of a square foot. Show your work.",
+        "options": [],
+        "correct_answer": null,
+        "answer_type": "short_response"
+    },
+    {
+        "_id": "57",
+        "question_number": 57,
+        "practice_set": 9,
+        "category": "Math: Number Systems",
+        "difficulty": "medium",
+        "time_estimate": 180,
+        "passage": "pdfData:pdf/2016-released-items-math-g7-pt2.pdf",
+        "question_text": "Explain the steps needed to determine the value of the expression shown below. Be sure to provide the correct value of the expression in your explanation.\n(1/2) / (-2/5) + (-1/4)",
+        "options": [],
+        "correct_answer": null,
+        "answer_type": "short_response"
+    },
+    {
+        "_id": "58",
+        "question_number": 58,
+        "practice_set": 9,
+        "category": "Math: Ratios and Proportions",
+        "difficulty": "medium",
+        "time_estimate": 240,
+        "passage": "pdfData:pdf/2016-released-items-math-g7-pt2.pdf",
+        "question_text": "\nThe lines graphed below show the amounts of water in two tanks as they were being filled over time. For each tank, explain whether or not there is a proportional relationship between the amount of water, in gallons, and the time, in minutes. If there is a proportional relationship, identify the unit rate. Use specific features of the graph to support your answer.",
+        "options": [],
+        "correct_answer": null,
+        "answer_type": "short_response"
+    },
+    {
+        "_id": "59",
+        "question_number": 59,
+        "practice_set": 9,
+        "category": "Math: Number Systems",
+        "difficulty": "hard",
+        "time_estimate": 240,
+        "passage": "pdfData:pdf/2016-released-items-math-g7-pt2.pdf",
+        "question_text": "Trent is fishing from a pier.\n• The tip of his fishing rod is 53 3/4 feet above the surface of the water.\n• The hook on the end of the fishing line is directly below the tip of the fishing rod 12 2/3 feet below the surface of the water.\nTrent estimates that the distance between the tip of his fishing rod and the hook is less than 65 feet. Is Trent's estimate reasonable? Explain your answer.\n\nTrent lets his hook drop another 10 inches. What is the distance, in feet, between the tip of the fishing rod and the hook? Do not round your answer. Show your work.",
+        "options": [],
+        "correct_answer": null,
+        "answer_type": "essay_response"
+    },
+    {
+        "_id": "60",
+        "question_number": 60,
+        "practice_set": 9,
+        "category": "Math: Ratios and Proportions",
+        "difficulty": "hard",
+        "time_estimate": 300,
+        "passage": "pdfData:pdf/2016-released-items-math-g7-pt2.pdf",
+        "question_text": "The coach for a basketball team wants to buy new shoes for her 12 players.\nSuper Sports is offering a 20% discount on each pair of shoes, which were originally priced $72.50. A 6.5% sales tax will be applied to the discounted price.\nThe same shoes are also available on Double Dribble's web site for $54.75. A 9% processing fee will be applied to the cost of the shoes, plus a shipping fee of $5.99 for each pair.\nWhat is the difference in the total costs of the 12 pairs of shoes between the two stores? Show your work.",
+        "options": [],
+        "correct_answer": null,
+        "answer_type": "essay_response"
+    },
+    {
+        "_id": "61",
+        "question_number": 61,
+        "practice_set": 9,
+        "category": "Math: Number Systems",
+        "difficulty": "hard",
+        "time_estimate": 300,
+        "passage": "pdfData:pdf/2016-released-items-math-g7-pt2.pdf",
+        "question_text": "\nRuby's Market sells smoked meats by the pound. The prices for several different meats are shown in the table. How much more does 1 1/4 pounds of beef cost than 1 1/4 pounds of turkey? Show your work.\n\nBrad has $10 to spend at Ruby's. He orders 1/2 pound of sausage and 1 1/4 pounds of chicken. How much money will Brad have left after he pays for this order? Show your work.",
+        "options": [],
+        "correct_answer": null,
+        "answer_type": "essay_response"
+    }
+]

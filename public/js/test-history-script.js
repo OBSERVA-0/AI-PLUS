@@ -564,9 +564,9 @@ class TestHistoryManager {
                 } else if (result.questionNumber <= 98) {
                     mathQuestions.push(result);
                 }
-            } else if (test.testType === 'state') {
-                // State Test: All questions are ELA for Grade 7
-                englishQuestions.push(result);
+            } else if (test.testType === 'state' || test.testType === 'statetest') {
+                // State Test: All questions are Math for Grade 7
+                mathQuestions.push(result);
             }
         });
 
