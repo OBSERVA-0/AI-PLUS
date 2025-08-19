@@ -10,8 +10,24 @@ async function readQuestionsFromJSON(testType, practiceSet = '1') {
   } else if (testType === 'sat') {
     filePath = path.join(__dirname, '..', 'data', `satpractice${practiceSet}questions.json`);
   } else if (testType === 'statetest') {
-    // Handle state test files with grade specification
-    filePath = path.join(__dirname, '..', 'data', `statetestpractice${practiceSet}questionsg7.json`);
+    // Handle state test files with flexible naming (g7, no suffix, g8)
+    const baseDir = path.join(__dirname, '..', 'data');
+    const candidates = [
+      path.join(baseDir, `statetestpractice${practiceSet}questionsg7.json`),
+      path.join(baseDir, `statetestpractice${practiceSet}questions.json`),
+      path.join(baseDir, `statetestpractice${practiceSet}questionsg8.json`)
+    ];
+
+    for (const candidate of candidates) {
+      try {
+        const data = await fs.readFile(candidate, 'utf8');
+        return JSON.parse(data);
+      } catch (e) {
+        // Try next candidate
+      }
+    }
+    console.error(`Error reading questions file for statetest practice set ${practiceSet}: tried ${candidates.join(', ')}`);
+    throw new Error(`Failed to load questions for ${testType} practice set ${practiceSet}.`);
   } else {
     // Fallback for other test types
     filePath = path.join(__dirname, '..', 'data', `${testType}practice${practiceSet}questions.json`);

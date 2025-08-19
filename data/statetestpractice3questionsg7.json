@@ -1,13 +1,556 @@
 [
     {
-        "_id": "46",
-        "question_number": 46,
-        "practice_set": 3,
+        "_id": "1",
+        "question_number": 1,
+        "practice_set": 14,
+        "category": "ELA: Reading Comprehension",
+        "difficulty": "easy",
+        "time_estimate": 60,
+        "passage": "pdfData:pdf/Grade-7-ELA-Released-Questions.pdf",
+        "question_text": "According to the article, why do some parrotfishes make a cocoon?",
+        "options": [
+            "to attract other fishes to their hiding place",
+            "to show other fishes they are asleep",
+            "to create a safe place for their eggs",
+            "to hide themselves from predators"
+        ],
+        "correct_answer": 3,
+        "answer_type": "multiple_choice"
+    },
+    {
+        "_id": "2",
+        "question_number": 2,
+        "practice_set": 14,
+        "category": "ELA: Reading Comprehension",
+        "difficulty": "easy",
+        "time_estimate": 60,
+        "passage": "pdfData:pdf/Grade-7-ELA-Released-Questions.pdf",
+        "question_text": "Why are some diurnal fishes harder to see in the evening than in the daytime?",
+        "options": [
+            "The movement on the reef blurs their shapes.",
+            "Their predators can only detect outlines.",
+            "The light casts shadows that hide them.",
+            "Their skin color changes to blend in."
+        ],
+        "correct_answer": 3,
+        "answer_type": "multiple_choice"
+    },
+    {
+        "_id": "3",
+        "question_number": 3,
+        "practice_set": 14,
+        "category": "ELA: Reading Comprehension",
+        "difficulty": "medium",
+        "time_estimate": 75,
+        "passage": "pdfData:pdf/Grade-7-ELA-Released-Questions.pdf",
+        "question_text": "What statement best summarizes the information in lines 1 through 9?",
+        "options": [
+            "Daytime fish who live in the coral reef generally stop feeding at dusk.",
+            "Fish have the natural ability to become less visible at night in the coral reef.",
+            "Predatory fish hide in the coral reef so they can feed on the diurnal fish.",
+            "Fish in the coral reef have remarkably better vision during the day."
+        ],
+        "correct_answer": 1,
+        "answer_type": "multiple_choice"
+    },
+    {
+        "_id": "4",
+        "question_number": 4,
+        "practice_set": 14,
+        "category": "ELA: Reading Comprehension",
+        "difficulty": "easy",
+        "time_estimate": 60,
+        "passage": "pdfData:pdf/Grade-7-ELA-Released-Questions.pdf",
+        "question_text": "Which sentence from the article best explains why some fishes may be dangerous to humans?",
+        "options": [
+            "\"Though twilight predators are not very good at distinguishing colors, they can detect shape, outlines, and movement well.\" (lines 25 and 26)",
+            "\"Many predators that have been quietly waiting in the background all day become more active at dusk and dawn.\" (lines 28 and 29)",
+            "\"The crepuscular hunters have ingenious ways of picking off their prey.\" (lines 29 and 30)",
+            "\"By thrusting out its lower jaw, its mouth becomes big enough to swallow almost any prey.\" (lines 31 and 32)"
+        ],
+        "correct_answer": 3,
+        "answer_type": "multiple_choice"
+    },
+    {
+        "_id": "5",
+        "question_number": 5,
+        "practice_set": 14,
+        "category": "ELA: Vocabulary",
+        "difficulty": "easy",
+        "time_estimate": 45,
+        "passage": "pdfData:pdf/Grade-7-ELA-Released-Questions.pdf",
+        "question_text": "What does the phrase \"zero in on\" in line 40 mean?",
+        "options": [
+            "to locate",
+            "to look",
+            "to threaten",
+            "to smell"
+        ],
+        "correct_answer": 0,
+        "answer_type": "multiple_choice"
+    },
+    {
+        "_id": "6",
+        "question_number": 6,
+        "practice_set": 14,
+        "category": "ELA: Reading Comprehension",
+        "difficulty": "medium",
+        "time_estimate": 75,
+        "passage": "pdfData:pdf/Grade-7-ELA-Released-Questions.pdf",
+        "question_text": "The author develops a central idea about how fishes adapt to their environments by focusing mostly on the...",
+        "options": [
+            "light in the water",
+            "depth of the reef",
+            "currents in the water",
+            "shape of the reef"
+        ],
+        "correct_answer": 0,
+        "answer_type": "multiple_choice"
+    },
+    {
+        "_id": "7",
+        "question_number": 7,
+        "practice_set": 14,
+        "category": "ELA: Reading Comprehension",
+        "difficulty": "medium",
+        "time_estimate": 75,
+        "passage": "pdfData:pdf/Grade-7-ELA-Released-Questions.pdf",
+        "question_text": "Which detail is most important to include in a summary of the article?",
+        "options": [
+            "\"Because fishes don't have eyelids to close, it's impossible to tell whether or not most fishes are really sleeping.\" (lines 15 and 16)",
+            "\"Many predators that have been quietly waiting in the background all day become more active at dusk and dawn.\" (lines 28 and 29)",
+            "\"It has been rumored that giant groupers (which may weigh up to 1,000 pounds) have been known to swallow divers whole!\" (lines 32 and 33)",
+            "\"Many daytime fishes move into deeper water, rise to the surface, or spawn during outgoing tides...\" (lines 49 and 50)"
+        ],
+        "correct_answer": 1,
+        "answer_type": "multiple_choice"
+    },
+    {
+        "_id": "8",
+        "question_number": 8,
+        "practice_set": 14,
+        "category": "ELA: Reading Comprehension",
+        "difficulty": "medium",
+        "time_estimate": 75,
+        "passage": "pdfData:pdf/Grade-7-ELA-Released-Questions.pdf",
+        "question_text": "How does the author support the claim that \"gracious living had been a long time coming\" (line 4)?",
+        "options": [
+            "by describing the excitement caused by new improvements in refrigerators",
+            "by describing the menus recommended by refrigerator manufacturers",
+            "by tracing the development of various methods for keeping food cool",
+            "by explaining the relationship between temperature and food safety"
+        ],
+        "correct_answer": 2,
+        "answer_type": "multiple_choice"
+    },
+    {
+        "_id": "9",
+        "question_number": 9,
+        "practice_set": 14,
+        "category": "ELA: Reading Comprehension",
+        "difficulty": "medium",
+        "time_estimate": 75,
+        "passage": "pdfData:pdf/Grade-7-ELA-Released-Questions.pdf",
+        "question_text": "Read this sentence about pond ice from lines 20 through 22.\nThen it was hauled from home to home on a horse-drawn cart, packed in sawdust, and put in the family's icehouse, where, she says, it lasted for months.\nBased on the information in lines 8 through 10, which was most likely the reason for packing pond ice in sawdust?",
+        "options": [
+            "to keep the ice from chipping",
+            "to prevent the ice from melting",
+            "to keep the ice from becoming slimy",
+            "to prevent the ice from becoming polluted"
+        ],
+        "correct_answer": 1,
+        "answer_type": "multiple_choice"
+    },
+    {
+        "_id": "10",
+        "question_number": 10,
+        "practice_set": 14,
+        "category": "ELA: Vocabulary",
+        "difficulty": "easy",
+        "time_estimate": 45,
+        "passage": "pdfData:pdf/Grade-7-ELA-Released-Questions.pdf",
+        "question_text": "What is the meaning of the word \"hoist\" in line 26?",
+        "options": [
+            "lift",
+            "sell",
+            "carve",
+            "locate"
+        ],
+        "correct_answer": 0,
+        "answer_type": "multiple_choice"
+    },
+    {
+        "_id": "11",
+        "question_number": 11,
+        "practice_set": 14,
+        "category": "ELA: Reading Comprehension",
+        "difficulty": "easy",
+        "time_estimate": 60,
+        "passage": "pdfData:pdf/Grade-7-ELA-Released-Questions.pdf",
+        "question_text": "According to the article, what improvements were made to resolve a safety issue in the older refrigerators?",
+        "options": [
+            "lining the cabinets with zinc",
+            "attaching an overflow pipe",
+            "using sawdust as insulation",
+            "changing the type of coolant"
+        ],
+        "correct_answer": 3,
+        "answer_type": "multiple_choice"
+    },
+    {
+        "_id": "12",
+        "question_number": 12,
+        "practice_set": 14,
+        "category": "ELA: Reading Comprehension",
+        "difficulty": "medium",
+        "time_estimate": 75,
+        "passage": "pdfData:pdf/Grade-7-ELA-Released-Questions.pdf",
+        "question_text": "Which quotation from the article best supports the conclusion that advances in refrigeration improved life for the average person?",
+        "options": [
+            "\"To stock the box, city people bought ice, and country dwellers harvested it.\" (line 17)",
+            "\"When commercial icehouses opened in the early 1800s, they were considered a business with a future.\" (lines 26 and 27)",
+            "\"All of a sudden, the middle class could have things that seemed high class a few years before.\" (lines 47 and 48)",
+            "\"Today, while the mechanics have remained much the same, the refrigerator has gotten ever fancier.\" (lines 51 and 52)"
+        ],
+        "correct_answer": 2,
+        "answer_type": "multiple_choice"
+    },
+    {
+        "_id": "13",
+        "question_number": 13,
+        "practice_set": 14,
+        "category": "ELA: Reading Comprehension",
+        "difficulty": "medium",
+        "time_estimate": 75,
+        "passage": "pdfData:pdf/Grade-7-ELA-Released-Questions.pdf",
+        "question_text": "How do lines 50 through 53 develop a central idea of the article?",
+        "options": [
+            "by showing that some people considered refrigerators unnecessary",
+            "by explaining that refrigerators have improved very little over the years",
+            "by comparing refrigerators sold in the past with refrigerators sold today",
+            "by showing that refrigerators gained widespread acceptance over time"
+        ],
+        "correct_answer": 3,
+        "answer_type": "multiple_choice"
+    },
+    {
+        "_id": "14",
+        "question_number": 14,
+        "practice_set": 14,
+        "category": "ELA: Reading Comprehension",
+        "difficulty": "medium",
+        "time_estimate": 75,
+        "passage": "pdfData:pdf/Grade-7-ELA-Released-Questions.pdf",
+        "question_text": "Which detail would be most important to include in a summary of the article?",
+        "options": [
+            "Refrigeration was essential for making jelled salads.",
+            "\"Summer complaint\" was another name for food poisoning.",
+            "Modern refrigerators include icemakers and defrost systems.",
+            "Refrigerators gained popularity after they became small and affordable."
+        ],
+        "correct_answer": 3,
+        "answer_type": "multiple_choice"
+    },
+    {
+        "_id": "29",
+        "question_number": 29,
+        "practice_set": 14,
+        "category": "ELA: Reading Comprehension",
+        "difficulty": "easy",
+        "time_estimate": 60,
+        "passage": "pdfData:pdf/Grade-7-ELA-Released-Questions.pdf",
+        "question_text": "Read these sentences from lines 13 and 14.\n\"It has everything you need.\" And except for the tools, rocks, plants, fish, accessories, electrical power to the site, and the hole itself, it did.\nWhy does the author most likely include this description of the pond-building kit?",
+        "options": [
+            "to maintain a humorous tone",
+            "to introduce the main conflict",
+            "to express the narrator's disappointment",
+            "to demonstrate the parents' support of their son"
+        ],
+        "correct_answer": 0,
+        "answer_type": "multiple_choice"
+    },
+    {
+        "_id": "30",
+        "question_number": 30,
+        "practice_set": 14,
+        "category": "ELA: Literary Devices",
+        "difficulty": "easy",
+        "time_estimate": 60,
+        "passage": "pdfData:pdf/Grade-7-ELA-Released-Questions.pdf",
+        "question_text": "Read this sentence from line 38.\nI approached the task like a starving man at a banquet.\nWhat is the main purpose of the comparison in this sentence?",
+        "options": [
+            "to describe the narrator's lack of attention to detail",
+            "to emphasize the depth of the narrator's enthusiasm",
+            "to show that the narrator feels weak from excitement",
+            "to show that the narrator is overcome by the job at hand"
+        ],
+        "correct_answer": 1,
+        "answer_type": "multiple_choice"
+    },
+    {
+        "_id": "31",
+        "question_number": 31,
+        "practice_set": 14,
+        "category": "ELA: Vocabulary",
+        "difficulty": "medium",
+        "time_estimate": 60,
+        "passage": "pdfData:pdf/Grade-7-ELA-Released-Questions.pdf",
+        "question_text": "Read line 46.\nAt this rate, I figured, I'll be basking in tranquillity in no time at all.\nWhat meaning does the phrase \"basking in tranquillity\" convey to the reader?",
+        "options": [
+            "The narrator expects positive recognition around town for his efforts.",
+            "The narrator believes the vision of peaceful relaxation shown in the video.",
+            "The narrator is unaccustomed to such difficult work and will soon need a rest.",
+            "The narrator is comparing himself to a groundhog that is sitting in the sunshine."
+        ],
+        "correct_answer": 1,
+        "answer_type": "multiple_choice"
+    },
+    {
+        "_id": "32",
+        "question_number": 32,
+        "practice_set": 14,
+        "category": "ELA: Reading Comprehension",
+        "difficulty": "hard",
+        "time_estimate": 90,
+        "passage": "pdfData:pdf/Grade-7-ELA-Released-Questions.pdf",
+        "question_text": "Which lines best reveal an overall theme of the story?",
+        "options": [
+            "lines 25 through 28",
+            "lines 38 through 40",
+            "lines 47 and 48",
+            "lines 63 and 64"
+        ],
+        "correct_answer": 2,
+        "answer_type": "multiple_choice"
+    },
+    {
+        "_id": "33",
+        "question_number": 33,
+        "practice_set": 14,
+        "category": "ELA: Reading Comprehension",
+        "difficulty": "medium",
+        "time_estimate": 75,
+        "passage": "pdfData:pdf/Grade-7-ELA-Released-Questions.pdf",
+        "question_text": "In lines 63 through 73, how does the narrator's description of the location and history of Melville, Kansas, contribute to the plot?",
+        "options": [
+            "It demonstrates that the new pond is better than other ponds.",
+            "It reveals the foolishness of the narrator's attempt to create a new pond.",
+            "It emphasizes the importance of the new pond to the narrator.",
+            "It explains the town's need for a new pond."
+        ],
+        "correct_answer": 2,
+        "answer_type": "multiple_choice"
+    },
+    {
+        "_id": "34",
+        "question_number": 34,
+        "practice_set": 14,
+        "category": "ELA: Reading Comprehension",
+        "difficulty": "medium",
+        "time_estimate": 75,
+        "passage": "pdfData:pdf/Grade-7-ELA-Released-Questions.pdf",
+        "question_text": "Which lines from the story reveal a change in the narrator's point of view?",
+        "options": [
+            "lines 49 through 53",
+            "lines 54 through 57",
+            "lines 59 through 62",
+            "lines 74 through 77"
+        ],
+        "correct_answer": 3,
+        "answer_type": "multiple_choice"
+    },
+    {
+        "_id": "35",
+        "question_number": 35,
+        "practice_set": 14,
+        "category": "ELA: Reading Comprehension",
+        "difficulty": "easy",
+        "time_estimate": 60,
+        "passage": "pdfData:pdf/Grade-7-ELA-Released-Questions.pdf",
+        "question_text": "How does the narrator's reaction to his pond first filling with water differ from his outlook at the end of the story?",
+        "options": [
+            "He is excited at first but then becomes disappointed.",
+            "He is worried at first but then feels satisfied.",
+            "He is scared at first and later becomes angry.",
+            "He is happy at first and later feels proud."
+        ],
+        "correct_answer": 0,
+        "answer_type": "multiple_choice"
+    },
+    {
+        "_id": "36",
+        "question_number": 36,
+        "practice_set": 14,
+        "category": "ELA: Vocabulary",
+        "difficulty": "easy",
+        "time_estimate": 45,
+        "passage": "pdfData:pdf/Grade-7-ELA-Released-Questions.pdf",
+        "question_text": "Which words from lines 1 through 8 best help the reader understand the meaning of \"suppressing\" (line 5)?",
+        "options": [
+            "\"now understand the importance of fire\"",
+            "\"a lightning fire poses no danger\"",
+            "\"have not been allowed to burn\"",
+            "\"carefully planned burns\""
+        ],
+        "correct_answer": 2,
+        "answer_type": "multiple_choice"
+    },
+    {
+        "_id": "37",
+        "question_number": 37,
+        "practice_set": 14,
+        "category": "ELA: Reading Comprehension",
+        "difficulty": "medium",
+        "time_estimate": 75,
+        "passage": "pdfData:pdf/Grade-7-ELA-Released-Questions.pdf",
+        "question_text": "Read this sentence from lines 6 and 7.\nThe best answer to these problems appears to be to fight fire with fire.\nWhich evidence from the article best supports this claim?",
+        "options": [
+            "\"But prescribed burning is more likely to be planned for less extreme conditions so the fires can be better controlled.\" (lines 10 and 11)",
+            "\"A prescribed fire should burn away heavy undergrowth of brush to remove potential fuel for wildfire.\" (lines 17 and 18)",
+            "\"When the brush and deadwood on the forest floor burn, they release nutrients that can nourish the trees, grasses, and other forest plants.\" (lines 22 and 23)",
+            "\"In recent years, more and more people have moved into the countryside, often right on the borders of National Forest lands.\" (lines 33 and 34)"
+        ],
+        "correct_answer": 1,
+        "answer_type": "multiple_choice"
+    },
+    {
+        "_id": "38",
+        "question_number": 38,
+        "practice_set": 14,
+        "category": "ELA: Reading Comprehension",
+        "difficulty": "easy",
+        "time_estimate": 60,
+        "passage": "pdfData:pdf/Grade-7-ELA-Released-Questions.pdf",
+        "question_text": "How do fires benefit wildlife?",
+        "options": [
+            "Fires help remove older trees that crowd forests.",
+            "The possibility of fire limits where cattle are allowed to graze.",
+            "The possibility of fire limits how close people can live to forests.",
+            "Fires help create conditions that cause more food to become available."
+        ],
+        "correct_answer": 3,
+        "answer_type": "multiple_choice"
+    },
+    {
+        "_id": "39",
+        "question_number": 39,
+        "practice_set": 14,
+        "category": "ELA: Vocabulary",
+        "difficulty": "easy",
+        "time_estimate": 45,
+        "passage": "pdfData:pdf/Grade-7-ELA-Released-Questions.pdf",
+        "question_text": "What is the meaning of \"prone\" (line 44) as used in the article?",
+        "options": [
+            "likely",
+            "useful",
+            "starting",
+            "existing"
+        ],
+        "correct_answer": 0,
+        "answer_type": "multiple_choice"
+    },
+    {
+        "_id": "40",
+        "question_number": 40,
+        "practice_set": 14,
+        "category": "ELA: Reading Comprehension",
+        "difficulty": "medium",
+        "time_estimate": 75,
+        "passage": "pdfData:pdf/Grade-7-ELA-Released-Questions.pdf",
+        "question_text": "What have managers of public lands learned from Native Americans?",
+        "options": [
+            "how fire helps maintain grassland areas",
+            "the importance of protecting natural habitats",
+            "how planned fires can be used to prevent large fires",
+            "the role of cattle management in protecting grassland areas"
+        ],
+        "correct_answer": 0,
+        "answer_type": "multiple_choice"
+    },
+    {
+        "_id": "41",
+        "question_number": 41,
+        "practice_set": 14,
+        "category": "ELA: Reading Comprehension",
+        "difficulty": "medium",
+        "time_estimate": 75,
+        "passage": "pdfData:pdf/Grade-7-ELA-Released-Questions.pdf",
+        "question_text": "Which sentence best expresses the central idea of the article?",
+        "options": [
+            "\"Managers of some public lands now understand the importance of fire in the cycles of nature.\" (lines 1 and 2)",
+            "\"How do land managers decide where to burn?\" (line 32)",
+            "\"Unfortunately, many of the forests have gone so long without fire that even prescribed burning would be dangerous.\" (lines 47 and 48)",
+            "\"Not everyone is happy with prescribed burning.\" (line 59)"
+        ],
+        "correct_answer": 0,
+        "answer_type": "multiple_choice"
+    },
+    {
+        "_id": "42",
+        "question_number": 42,
+        "practice_set": 14,
+        "category": "ELA: Reading Comprehension",
+        "difficulty": "medium",
+        "time_estimate": 75,
+        "passage": "pdfData:pdf/Grade-7-ELA-Released-Questions.pdf",
+        "question_text": "How do lines 59 through 69 contribute to the discussion of prescribed burns?",
+        "options": [
+            "by describing how attitudes have changed with time",
+            "by showing that the benefits outweigh the costs",
+            "by proving that conflicting opinions are wrong",
+            "by exposing the self-interest of opponents"
+        ],
+        "correct_answer": 1,
+        "answer_type": "multiple_choice"
+    },
+    {
+        "_id": "43",
+        "question_number": 43,
+        "practice_set": 14,
         "category": "ELA: Reading Comprehension",
         "difficulty": "medium",
         "time_estimate": 180,
-        "passage": "pdfData:pdf/2016-released-items-ela-g7-pt2.pdf",
-        "question_text": "How does the photograph aid the reader's understanding of the article? Use two details from the article to support your response.",
+        "passage": "pdfData:pdf/Grade-7-ELA-Released-Questions.pdf",
+        "question_text": "How is the new type of solar panel described in the section titled \"The spark\" more useful for the Huichol people than previous versions of solar energy technology? Use two details from the article to support your response.",
+        "options": [],
+        "correct_answer": null,
+        "answer_type": "short_response"
+    },
+    {
+        "_id": "44",
+        "question_number": 44,
+        "practice_set": 14,
+        "category": "ELA: Reading Comprehension",
+        "difficulty": "medium",
+        "time_estimate": 180,
+        "passage": "pdfData:pdf/Grade-7-ELA-Released-Questions.pdf",
+        "question_text": "What is the author's central claim about LEDs? Use two details from the article to show how the author supports the claim.",
+        "options": [],
+        "correct_answer": null,
+        "answer_type": "short_response"
+    },
+    {
+        "_id": "45",
+        "question_number": 45,
+        "practice_set": 14,
+        "category": "ELA: Reading Comprehension",
+        "difficulty": "hard",
+        "time_estimate": 300,
+        "passage": "pdfData:pdf/Grade-7-ELA-Released-Questions.pdf",
+        "question_text": "In the story, Saeng and her mother discuss hibiscus plants. What does the hibiscus plant represent to Saeng? What does it represent to Saeng's mother? What thoughts and feelings do Saeng and her mother have about the hibiscus plant in the story? Use details from the story to support your response.\n\nIn your response, be sure to\n• explain what the hibiscus plant represents to Saeng\n• explain what the hibiscus plant represents to Saeng's mother\n• explain the thoughts and feelings Saeng and her mother have about the hibiscus plant in the story\n• use details from the story to support your response",
+        "options": [],
+        "correct_answer": null,
+        "answer_type": "essay_response"
+    },
+    {
+        "_id": "46",
+        "question_number": 46,
+        "practice_set": 14,
+        "category": "ELA: Reading Comprehension",
+        "difficulty": "medium",
+        "time_estimate": 180,
+        "passage": "pdfData:pdf/Grade-7-ELA-Released-Questions.pdf",
+        "question_text": "How does line 46 affect the reader's understanding of the story? Use two details from \"How I Lost My Station in Life\" to support your response.",
         "options": [],
         "correct_answer": null,
         "answer_type": "short_response"
@@ -15,12 +558,12 @@
     {
         "_id": "47",
         "question_number": 47,
-        "practice_set": 3,
+        "practice_set": 14,
         "category": "ELA: Reading Comprehension",
         "difficulty": "medium",
         "time_estimate": 180,
-        "passage": "pdfData:pdf/2016-released-items-ela-g7-pt2.pdf",
-        "question_text": "Why have experts from different fields of study been involved in this research? Use two details from the article to support your response.",
+        "passage": "pdfData:pdf/Grade-7-ELA-Released-Questions.pdf",
+        "question_text": "Why is Morley important to the narrator's understanding of herself? Use two details from the story to support your response.",
         "options": [],
         "correct_answer": null,
         "answer_type": "short_response"
@@ -28,12 +571,12 @@
     {
         "_id": "48",
         "question_number": 48,
-        "practice_set": 3,
+        "practice_set": 14,
         "category": "ELA: Reading Comprehension",
-        "difficulty": "hard",
-        "time_estimate": 240,
-        "passage": "pdfData:pdf/2016-released-items-ela-g7-pt2.pdf",
-        "question_text": "In \"Excerpt from Buddha Boy,\" what theme do lines 35 through 58 develop? Use two details from the story to support your response.",
+        "difficulty": "medium",
+        "time_estimate": 180,
+        "passage": "pdfData:pdf/Grade-7-ELA-Released-Questions.pdf",
+        "question_text": "What is a central idea of \"Food Fakeout!\"? Use two details from the article to support your response.",
         "options": [],
         "correct_answer": null,
         "answer_type": "short_response"
@@ -41,12 +584,12 @@
     {
         "_id": "49",
         "question_number": 49,
-        "practice_set": 3,
+        "practice_set": 14,
         "category": "ELA: Reading Comprehension",
         "difficulty": "medium",
         "time_estimate": 180,
-        "passage": "pdfData:pdf/2016-released-items-ela-g7-pt2.pdf",
-        "question_text": "In \"Excerpt from Buddha Boy,\" why are lines 81 through 84 important to the plot of the story? Use two details from the story to support your response.",
+        "passage": "pdfData:pdf/Grade-7-ELA-Released-Questions.pdf",
+        "question_text": "How does the section \"More Crazy Things that Affect How Much You Eat!\" in \"Food Fakeout!\" add to the information in the article? Use two details from the article to support your response.",
         "options": [],
         "correct_answer": null,
         "answer_type": "short_response"
@@ -54,14 +597,27 @@
     {
         "_id": "50",
         "question_number": 50,
-        "practice_set": 3,
+        "practice_set": 14,
         "category": "ELA: Reading Comprehension",
-        "difficulty": "hard",
-        "time_estimate": 240,
-        "passage": "pdfData:pdf/2016-released-items-ela-g7-pt2.pdf",
-        "question_text": "In \"Excerpt from One + One = Blue,\" what effect does the difference in Basil's point of view and Tenzie's point of view regarding Basil's family have on the story? Use two details from the story to support your response.",
+        "difficulty": "medium",
+        "time_estimate": 180,
+        "passage": "pdfData:pdf/Grade-7-ELA-Released-Questions.pdf",
+        "question_text": "According to \"Why Most Food Labels are Wrong About Calories,\" why is calorie counting not simple to do? Use two details from the article to support your response.",
         "options": [],
         "correct_answer": null,
         "answer_type": "short_response"
+    },
+    {
+        "_id": "51",
+        "question_number": 51,
+        "practice_set": 3,
+        "category": "ELA: Comparative Analysis",
+        "difficulty": "hard",
+        "time_estimate": 300,
+        "passage": "pdfData:pdf/Grade-7-ELA-Released-Questions.pdf",
+        "question_text": "What are the authors' purposes for writing \"Food Fakeout!\" and \"Why Most Food Labels are Wrong About Calories\"? How are their purposes similar and/or different? Use details from both articles to support your response.\n\nIn your response, be sure to\n• explain the author's purpose for writing \"Food Fakeout!\"\n• explain the authors' purpose for writing \"Why Most Food Labels are Wrong About Calories\"\n• explain how the purposes are similar and/or different\n• use details from both articles to support your response",
+        "options": [],
+        "correct_answer": null,
+        "answer_type": "essay_response"
     }
 ]
