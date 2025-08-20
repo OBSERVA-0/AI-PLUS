@@ -1,0 +1,484 @@
+[
+    {
+        "_id": "8",
+        "question_number": 8,
+        "practice_set": 16,
+        "category": "ELA: Reading Comprehension",
+        "difficulty": "medium",
+        "time_estimate": 75,
+        "passage": "pdfData:pdf/2019-Grade-7-English.pdf",
+        "question_text": "How do paragraphs 2 and 3 develop a central idea in the article?",
+        "options": [
+            "They state that William was not able to attend school.",
+            "They show how William learned things on his own.",
+            "They explain that others did not care about William's questions.",
+            "They give examples of the types of books William read."
+        ],
+        "correct_answer": 1,
+        "answer_type": "multiple_choice"
+    },
+    {
+        "_id": "9",
+        "question_number": 9,
+        "practice_set": 16,
+        "category": "ELA: Vocabulary",
+        "difficulty": "easy",
+        "time_estimate": 45,
+        "passage": "pdfData:pdf/2019-Grade-7-English.pdf",
+        "question_text": "What does the phrase \"pore over\" mean as it is used in paragraph 3?",
+        "options": [
+            "write about",
+            "glance at",
+            "examine",
+            "copy"
+        ],
+        "correct_answer": 2,
+        "answer_type": "multiple_choice"
+    },
+    {
+        "_id": "10",
+        "question_number": 10,
+        "practice_set": 16,
+        "category": "ELA: Reading Comprehension",
+        "difficulty": "medium",
+        "time_estimate": 75,
+        "passage": "pdfData:pdf/2019-Grade-7-English.pdf",
+        "question_text": "Paragraph 6 develops the author's central claim by showing that William",
+        "options": [
+            "was distracted by so many objects in the junkyard",
+            "was resourceful in finding what he needed",
+            "was able to make use of his limited time in school",
+            "was excited to look for new projects"
+        ],
+        "correct_answer": 1,
+        "answer_type": "multiple_choice"
+    },
+    {
+        "_id": "11",
+        "question_number": 11,
+        "practice_set": 16,
+        "category": "ELA: Reading Comprehension",
+        "difficulty": "medium",
+        "time_estimate": 75,
+        "passage": "pdfData:pdf/2019-Grade-7-English.pdf",
+        "question_text": "Which sentence best describes the relationship between William and the people who doubted him?",
+        "options": [
+            "William was inspired and delighted by them.",
+            "William ignored and then convinced them.",
+            "William was concerned and worried about them.",
+            "William listened to and then got help from them."
+        ],
+        "correct_answer": 1,
+        "answer_type": "multiple_choice"
+    },
+    {
+        "_id": "12",
+        "question_number": 12,
+        "practice_set": 16,
+        "category": "ELA: Vocabulary",
+        "difficulty": "easy",
+        "time_estimate": 45,
+        "passage": "pdfData:pdf/2019-Grade-7-English.pdf",
+        "question_text": "In paragraph 14, what does the word \"marvel\" suggest?",
+        "options": [
+            "They are amazed by what William has done.",
+            "They are curious to see what will happen to the bulb.",
+            "They are worried that William's experiment may be dangerous.",
+            "They are ready to have more lights in the house."
+        ],
+        "correct_answer": 0,
+        "answer_type": "multiple_choice"
+    },
+    {
+        "_id": "13",
+        "question_number": 13,
+        "practice_set": 16,
+        "category": "ELA: Reading Comprehension",
+        "difficulty": "medium",
+        "time_estimate": 75,
+        "passage": "pdfData:pdf/2019-Grade-7-English.pdf",
+        "question_text": "Which quotation shows an effect of success on William's life?",
+        "options": [
+            "\"Shoppers, farmers, and traders could see William's tower from the local market.\" (paragraph 10)",
+            "\"From the top of the tower he explained that, by using the power of wind, his machine could create electricity.\" (paragraph 11)",
+            "\"William knew this was his moment—his moment to show everyone he wasn't crazy...\" (paragraph 12)",
+            "\"The story of the boy with only an eighth-grade education who'd built 'electric wind' spread across the Internet.\" (paragraph 16)"
+        ],
+        "correct_answer": 3,
+        "answer_type": "multiple_choice"
+    },
+    {
+        "_id": "14",
+        "question_number": 14,
+        "practice_set": 16,
+        "category": "ELA: Reading Comprehension",
+        "difficulty": "hard",
+        "time_estimate": 90,
+        "passage": "pdfData:pdf/2019-Grade-7-English.pdf",
+        "question_text": "Based on the information in the article, which of the following is most likely the author's point of view?",
+        "options": [
+            "Access to formal schooling is important for success.",
+            "Science education is needed to help people flourish.",
+            "Curiosity and persistence can lead to change.",
+            "Families are the best support system."
+        ],
+        "correct_answer": 2,
+        "answer_type": "multiple_choice"
+    },
+    {
+        "_id": "15",
+        "question_number": 15,
+        "practice_set": 16,
+        "category": "ELA: Reading Comprehension",
+        "difficulty": "medium",
+        "time_estimate": 75,
+        "passage": "pdfData:pdf/2019-Grade-7-English.pdf",
+        "question_text": "What role do paragraphs 1 through 3 mainly play in the story?",
+        "options": [
+            "They clarify the emotions that the two architects are feeling.",
+            "They foreshadow the surprise at the ending.",
+            "They set the scene and explain the process for picking a new design.",
+            "They set a humorous tone by describing the two architects sitting in school desks."
+        ],
+        "correct_answer": 2,
+        "answer_type": "multiple_choice"
+    },
+    {
+        "_id": "16",
+        "question_number": 16,
+        "practice_set": 16,
+        "category": "ELA: Vocabulary",
+        "difficulty": "easy",
+        "time_estimate": 45,
+        "passage": "pdfData:pdf/2019-Grade-7-English.pdf",
+        "question_text": "In paragraph 6, \"markedly\" means doing something in",
+        "options": [
+            "an obvious way",
+            "a careful way",
+            "a respectful way",
+            "an enthusiastic way"
+        ],
+        "correct_answer": 0,
+        "answer_type": "multiple_choice"
+    },
+    {
+        "_id": "17",
+        "question_number": 17,
+        "practice_set": 16,
+        "category": "ELA: Literary Devices",
+        "difficulty": "medium",
+        "time_estimate": 75,
+        "passage": "pdfData:pdf/2019-Grade-7-English.pdf",
+        "question_text": "How does the word choice in paragraphs 9 and 11 affect the story?",
+        "options": [
+            "It describes how similar the design is to the Capitol building.",
+            "It shows why the design is practical for a school.",
+            "It conveys how impressive Mr. Kowalski's design is.",
+            "It explains what classical architecture looks like."
+        ],
+        "correct_answer": 2,
+        "answer_type": "multiple_choice"
+    },
+    {
+        "_id": "18",
+        "question_number": 18,
+        "practice_set": 16,
+        "category": "ELA: Reading Comprehension",
+        "difficulty": "hard",
+        "time_estimate": 90,
+        "passage": "pdfData:pdf/2019-Grade-7-English.pdf",
+        "question_text": "How do paragraphs 4 and 5 connect to what the reader learns in paragraph 18?",
+        "options": [
+            "They reveal that Mr. Kowalski thinks Holling's father is a better architect than he is.",
+            "They support the idea that Mr. Kowalski is guilty of stealing Mr. Hoodhood's plans.",
+            "They show that Mr. Kowalski hopes Holling likes his plan for the school.",
+            "They provide information about how Mr. Kowalski's and Mr. Hoodhood's designs are different."
+        ],
+        "correct_answer": 1,
+        "answer_type": "multiple_choice"
+    },
+    {
+        "_id": "19",
+        "question_number": 19,
+        "practice_set": 16,
+        "category": "ELA: Reading Comprehension",
+        "difficulty": "easy",
+        "time_estimate": 60,
+        "passage": "pdfData:pdf/2019-Grade-7-English.pdf",
+        "question_text": "What do paragraphs 15 through 18 reveal about Holling?",
+        "options": [
+            "He disobeys his father easily.",
+            "He did not know he was being deceived.",
+            "He is unconcerned with the opinions of others.",
+            "He is a dishonest person."
+        ],
+        "correct_answer": 1,
+        "answer_type": "multiple_choice"
+    },
+    {
+        "_id": "20",
+        "question_number": 20,
+        "practice_set": 16,
+        "category": "ELA: Reading Comprehension",
+        "difficulty": "medium",
+        "time_estimate": 75,
+        "passage": "pdfData:pdf/2019-Grade-7-English.pdf",
+        "question_text": "How does the author develop Holling's point of view in the story?",
+        "options": [
+            "by explaining how his father sees the competition",
+            "by describing Mr. Kowalski's plans for the school building",
+            "by describing his observations until he realizes what has happened",
+            "by explaining the architectural review process"
+        ],
+        "correct_answer": 2,
+        "answer_type": "multiple_choice"
+    },
+    {
+        "_id": "21",
+        "question_number": 21,
+        "practice_set": 16,
+        "category": "ELA: Reading Comprehension",
+        "difficulty": "easy",
+        "time_estimate": 60,
+        "passage": "pdfData:pdf/2019-Grade-7-English.pdf",
+        "question_text": "Which detail about Mr. Kowalski and Mr. Hoodhood would be most important to include in a summary of the story?",
+        "options": [
+            "They have model buildings under sheets on the table.",
+            "They are competing to design a new school.",
+            "They must meet with the school board at a school.",
+            "They have to wait to hear who has been chosen."
+        ],
+        "correct_answer": 1,
+        "answer_type": "multiple_choice"
+    },
+    {
+        "_id": "29",
+        "question_number": 29,
+        "practice_set": 16,
+        "category": "ELA: Reading Comprehension",
+        "difficulty": "medium",
+        "time_estimate": 75,
+        "passage": "pdfData:pdf/2019-Grade-7-English.pdf",
+        "question_text": "How does paragraph 3 relate to the other paragraphs in the section \"Unlikely in the Extreme\"?",
+        "options": [
+            "Paragraph 3 introduces a problem, and the other paragraphs explain the solution to the problem.",
+            "Paragraph 3 explains an idea, and the other paragraphs describe how the idea was disproved.",
+            "Paragraph 3 presents an argument, and the other paragraphs give evidence to support the argument.",
+            "Paragraph 3 sets up a comparison, and the other paragraphs give details about the comparison."
+        ],
+        "correct_answer": 1,
+        "answer_type": "multiple_choice"
+    },
+    {
+        "_id": "30",
+        "question_number": 30,
+        "practice_set": 16,
+        "category": "ELA: Reading Comprehension",
+        "difficulty": "medium",
+        "time_estimate": 75,
+        "passage": "pdfData:pdf/2019-Grade-7-English.pdf",
+        "question_text": "What role does paragraph 8 play in the organization of the article?",
+        "options": [
+            "It shows techniques that scientists use to study remote regions.",
+            "It explains how the environment on Jupiter might support life.",
+            "It describes the activities of scientists interested in extreme environments.",
+            "It introduces the connection between activities on Earth and research in outer space."
+        ],
+        "correct_answer": 3,
+        "answer_type": "multiple_choice"
+    },
+    {
+        "_id": "31",
+        "question_number": 31,
+        "practice_set": 16,
+        "category": "ELA: Reading Comprehension",
+        "difficulty": "hard",
+        "time_estimate": 90,
+        "passage": "pdfData:pdf/2019-Grade-7-English.pdf",
+        "question_text": "How does paragraph 10 develop a central idea in the article?",
+        "options": [
+            "It explains how life in an extreme environment could be possible.",
+            "It describes scientific research on the possibility of life in an extreme environment.",
+            "It provides clues to the possible existence of life in an extreme environment.",
+            "It presents questions to be answered about the possibility of life in an extreme environment."
+        ],
+        "correct_answer": 3,
+        "answer_type": "multiple_choice"
+    },
+    {
+        "_id": "32",
+        "question_number": 32,
+        "practice_set": 16,
+        "category": "ELA: Reading Comprehension",
+        "difficulty": "medium",
+        "time_estimate": 75,
+        "passage": "pdfData:pdf/2019-Grade-7-English.pdf",
+        "question_text": "How did scientists address the concern described in paragraph 14?",
+        "options": [
+            "They removed an ice core from the lake to study it.",
+            "They applied chemicals to melt ice and keep the borehole open.",
+            "They obtained a water sample with clean technology.",
+            "They found sediment at the bottom of the lake."
+        ],
+        "correct_answer": 2,
+        "answer_type": "multiple_choice"
+    },
+    {
+        "_id": "33",
+        "question_number": 33,
+        "practice_set": 16,
+        "category": "ELA: Vocabulary",
+        "difficulty": "easy",
+        "time_estimate": 45,
+        "passage": "pdfData:pdf/2019-Grade-7-English.pdf",
+        "question_text": "What is the meaning of the word \"contaminate\" as used in paragraphs 14 and 16?",
+        "options": [
+            "color",
+            "replace",
+            "freeze",
+            "pollute"
+        ],
+        "correct_answer": 3,
+        "answer_type": "multiple_choice"
+    },
+    {
+        "_id": "34",
+        "question_number": 34,
+        "practice_set": 16,
+        "category": "ELA: Reading Comprehension",
+        "difficulty": "hard",
+        "time_estimate": 90,
+        "passage": "pdfData:pdf/2019-Grade-7-English.pdf",
+        "question_text": "According to the information in this article, which sentence describes how life was discovered beneath Antarctica?",
+        "options": [
+            "Scientists found proof of water beneath Antarctic ice, then they drilled to get samples of the water to look for life.",
+            "Scientists saw signs of ice that may cover water on other planets, so they drilled for water beneath Antarctic ice.",
+            "Scientists knew that there were life forms in the deep parts of the ocean, so they concluded that there was life in the water beneath Antarctic ice.",
+            "Scientists found microbes on the surface of Antarctic ice, then they drilled into the ice to look for microbes beneath the surface."
+        ],
+        "correct_answer": 0,
+        "answer_type": "multiple_choice"
+    },
+    {
+        "_id": "35",
+        "question_number": 35,
+        "practice_set": 16,
+        "category": "ELA: Reading Comprehension",
+        "difficulty": "medium",
+        "time_estimate": 75,
+        "passage": "pdfData:pdf/2019-Grade-7-English.pdf",
+        "question_text": "Which sentence best shows the author's point of view on the topic of the article?",
+        "options": [
+            "The amount of water below the ice in Antarctica is surprising.",
+            "Astronomers are excited about signs of ice and water on other planets.",
+            "Antarctica is one of the most important scientific environments on Earth.",
+            "The formation of very flat ice at the Vostok station is an important clue."
+        ],
+        "correct_answer": 2,
+        "answer_type": "multiple_choice"
+    },
+    {
+        "_id": "36",
+        "question_number": 36,
+        "practice_set": 16,
+        "category": "ELA: Literary Devices",
+        "difficulty": "medium",
+        "time_estimate": 180,
+        "passage": "pdfData:pdf/2019-Grade-7-English.pdf",
+        "question_text": "How do the poet's word choices in lines 1 through 8 of \"At Dusk\" establish the mood of the poem? Use two details from the poem to support your response.",
+        "options": [],
+        "correct_answer": null,
+        "answer_type": "short_response"
+    },
+    {
+        "_id": "37",
+        "question_number": 37,
+        "practice_set": 16,
+        "category": "ELA: Reading Comprehension",
+        "difficulty": "medium",
+        "time_estimate": 180,
+        "passage": "pdfData:pdf/2019-Grade-7-English.pdf",
+        "question_text": "In \"At Dusk,\" how does the shift that begins in line 21 affect the meaning of the poem? Use two details from the poem to support your response.",
+        "options": [],
+        "correct_answer": null,
+        "answer_type": "short_response"
+    },
+    {
+        "_id": "38",
+        "question_number": 38,
+        "practice_set": 16,
+        "category": "ELA: Reading Comprehension",
+        "difficulty": "hard",
+        "time_estimate": 240,
+        "passage": "pdfData:pdf/2019-Grade-7-English.pdf",
+        "question_text": "In \"At Dusk,\" what do the speaker's thoughts reveal about her ideas concerning home? Use two details from the poem to support your response.",
+        "options": [],
+        "correct_answer": null,
+        "answer_type": "short_response"
+    },
+    {
+        "_id": "39",
+        "question_number": 39,
+        "practice_set": 16,
+        "category": "ELA: Reading Comprehension",
+        "difficulty": "medium",
+        "time_estimate": 180,
+        "passage": "pdfData:pdf/2019-Grade-7-English.pdf",
+        "question_text": "How does the section \"Life in the wild\" contribute to the author's argument in \"Excerpt from Marine Mammals in Captivity\"? Use two details from the excerpt to support your response.",
+        "options": [],
+        "correct_answer": null,
+        "answer_type": "short_response"
+    },
+    {
+        "_id": "40",
+        "question_number": 40,
+        "practice_set": 16,
+        "category": "ELA: Reading Comprehension",
+        "difficulty": "medium",
+        "time_estimate": 180,
+        "passage": "pdfData:pdf/2019-Grade-7-English.pdf",
+        "question_text": "Read this sentence from paragraph 7 of \"Excerpt from Marine Mammals in Captivity.\"\nLife for these animals is a mere shadow of what it was in the wild.\nWhat does the author mean by this sentence? Use two details from the excerpt to support your response.",
+        "options": [],
+        "correct_answer": null,
+        "answer_type": "short_response"
+    },
+    {
+        "_id": "41",
+        "question_number": 41,
+        "practice_set": 16,
+        "category": "ELA: Reading Comprehension",
+        "difficulty": "medium",
+        "time_estimate": 180,
+        "passage": "pdfData:pdf/2019-Grade-7-English.pdf",
+        "question_text": "In \"Excerpt from What Zoo Critics Don't Understand,\" how does Jack Hanna distinguish his position about animals in captivity from Dr. Jane Goodall's position about animals in captivity? Use two details from the excerpt to support your response.",
+        "options": [],
+        "correct_answer": null,
+        "answer_type": "short_response"
+    },
+    {
+        "_id": "42",
+        "question_number": 42,
+        "practice_set": 16,
+        "category": "ELA: Reading Comprehension",
+        "difficulty": "hard",
+        "time_estimate": 240,
+        "passage": "pdfData:pdf/2019-Grade-7-English.pdf",
+        "question_text": "What is a central idea in \"Excerpt from What Zoo Critics Don't Understand\"? Use two details from the excerpt to support your response.",
+        "options": [],
+        "correct_answer": null,
+        "answer_type": "short_response"
+    },
+    {
+        "_id": "43",
+        "question_number": 43,
+        "practice_set": 16,
+        "category": "ELA: Comparative Analysis",
+        "difficulty": "hard",
+        "time_estimate": 300,
+        "passage": "pdfData:pdf/2019-Grade-7-English.pdf",
+        "question_text": "In \"Excerpt from Marine Mammals in Captivity\" and \"Excerpt from What Zoo Critics Don't Understand,\" the authors present arguments about whether or not animals should be kept in captivity. What claims does each author make? What evidence do the authors use to support their claims? Which author's argument is more convincing? Use details from both excerpts to support your response.\n\nIn your response, be sure to\n• identify the claims that each author makes\n• identify the evidence that the authors use to support their claims\n• explain which author's argument is more convincing\n• use details from both excerpts to support your response",
+        "options": [],
+        "correct_answer": null,
+        "answer_type": "essay_response"
+    }
+]
