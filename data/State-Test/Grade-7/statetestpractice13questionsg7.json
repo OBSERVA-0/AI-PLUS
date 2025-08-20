@@ -1,0 +1,548 @@
+[
+    {
+        "_id": "1",
+        "question_number": 1,
+        "practice_set": 24,
+        "category": "ELA: Reading Comprehension",
+        "difficulty": "easy",
+        "time_estimate": 60,
+        "passage": "pdfData:pdf/2025-Grade-7-English.pdf",
+        "question_text": "Which idea would be most important to include in a summary of the story?",
+        "options": [
+            "\"Today began our adventure at the Columbian Exposition, the largest world's fair in history!\" (paragraph 1)",
+            "\"Father insisted on staying late, footsore and dusty as we were.\" (paragraph 3)",
+            "\"Father decreed that we spend all day in the Manufactures and Liberal Arts Building, by far the biggest of the Great Buildings.\" (paragraph 4)",
+            "\"At dusk, we watched the lights come on again like thousands of candles lit all at once.\" (paragraph 5)"
+        ],
+        "correct_answer": 0,
+        "answer_type": "multiple_choice"
+    },
+    {
+        "_id": "2",
+        "question_number": 2,
+        "practice_set": 24,
+        "category": "ELA: Literary Devices",
+        "difficulty": "easy",
+        "time_estimate": 60,
+        "passage": "pdfData:pdf/2025-Grade-7-English.pdf",
+        "question_text": "Read this sentence from paragraph 5.\nThe lights' reflections were magical-like being surrounded by floating fireflies.\nWhat is the effect of the author's word choice in the sentence?",
+        "options": [
+            "It creates a tone of surprise.",
+            "It creates a tone of adventure.",
+            "It creates a tone of wonderment.",
+            "It creates a tone of confusion."
+        ],
+        "correct_answer": 2,
+        "answer_type": "multiple_choice"
+    },
+    {
+        "_id": "3",
+        "question_number": 3,
+        "practice_set": 24,
+        "category": "ELA: Vocabulary",
+        "difficulty": "easy",
+        "time_estimate": 45,
+        "passage": "pdfData:pdf/2025-Grade-7-English.pdf",
+        "question_text": "What does the word \"replica\" mean as it is used in paragraph 7?",
+        "options": [
+            "a building",
+            "an exit",
+            "a copy",
+            "an animal"
+        ],
+        "correct_answer": 2,
+        "answer_type": "multiple_choice"
+    },
+    {
+        "_id": "4",
+        "question_number": 4,
+        "practice_set": 24,
+        "category": "ELA: Reading Comprehension",
+        "difficulty": "medium",
+        "time_estimate": 75,
+        "passage": "pdfData:pdf/2025-Grade-7-English.pdf",
+        "question_text": "Read this sentence from paragraph 8.\nThe Ferris Wheel began operating today, but Father said we can't ride it until we've toured all the important exhibits.\nWhat does this sentence suggest about the father's attitude?",
+        "options": [
+            "He values education more than amusement.",
+            "He dislikes amusement attractions like the Ferris Wheel.",
+            "He is unconvinced of the safety of the Ferris Wheel.",
+            "He thinks the attractions will be less crowded later in the week."
+        ],
+        "correct_answer": 0,
+        "answer_type": "multiple_choice"
+    },
+    {
+        "_id": "5",
+        "question_number": 5,
+        "practice_set": 24,
+        "category": "ELA: Reading Comprehension",
+        "difficulty": "medium",
+        "time_estimate": 75,
+        "passage": "pdfData:pdf/2025-Grade-7-English.pdf",
+        "question_text": "The events from Friday, June 23 cause a change in the narrator's attitude from",
+        "options": [
+            "fascinated to weary, because of all the walking the family has done",
+            "interested to excited, because the amusements are fun",
+            "pleased to uncertain, because of the foreign surroundings",
+            "tired to energized, because the buildings are unusual"
+        ],
+        "correct_answer": 1,
+        "answer_type": "multiple_choice"
+    },
+    {
+        "_id": "6",
+        "question_number": 6,
+        "practice_set": 24,
+        "category": "ELA: Reading Comprehension",
+        "difficulty": "easy",
+        "time_estimate": 60,
+        "passage": "pdfData:pdf/2025-Grade-7-English.pdf",
+        "question_text": "Journaling can be a helpful way to keep track of past events and memories. Which sentence best supports this idea?",
+        "options": [
+            "\"Today we moved on to Transportation, the second-largest building.\" (paragraph 6)",
+            "\"I was more impressed by the sparkly diamonds from the Cape Colony and lovely Aztec turquoise from Mexico.\" (paragraph 7)",
+            "\"We agree it's the best of all!\" (paragraph 13)",
+            "\"I'd never remember everything without it!\" (paragraph 14)"
+        ],
+        "correct_answer": 3,
+        "answer_type": "multiple_choice"
+    },
+    {
+        "_id": "7", 
+        "question_number": 7,
+        "practice_set": 24,
+        "category": "ELA: Reading Comprehension",
+        "difficulty": "hard",
+        "time_estimate": 90,
+        "passage": "pdfData:pdf/2025-Grade-7-English.pdf",
+        "question_text": "Which of the following sentences supports the narrator's claim that her trip is an adventure?",
+        "options": [
+            "She will learn about new advancements in technology.",
+            "She will have a unique opportunity to experience things from all around the world.",
+            "She will spend an entire week with her family on a vacation.",
+            "She will record her experiences in a journal that was given to her."
+        ],
+        "correct_answer": 1,
+        "answer_type": "multiple_choice"
+    },
+    {
+        "_id": "22",
+        "question_number": 22,
+        "practice_set": 24,
+        "category": "ELA: Reading Comprehension",
+        "difficulty": "medium",
+        "time_estimate": 75,
+        "passage": "pdfData:pdf/2025-Grade-7-English.pdf",
+        "question_text": "How is the strength of spider silk mostly introduced in paragraph 1?",
+        "options": [
+            "through a story about the author's interest in popular movies",
+            "through a comparison to a fictional character's superhero abilities",
+            "through details of the material's use in everyday objects",
+            "through reference to the myths surrounding the material's benefits"
+        ],
+        "correct_answer": 1,
+        "answer_type": "multiple_choice"
+    },
+    {
+        "_id": "23",
+        "question_number": 23,
+        "practice_set": 24,
+        "category": "ELA: Vocabulary",
+        "difficulty": "medium",
+        "time_estimate": 60,
+        "passage": "pdfData:pdf/2025-Grade-7-English.pdf",
+        "question_text": "What does the phrase \"on a smaller scale,\" as used in paragraph 2, suggest about spider silk?",
+        "options": [
+            "Spider silk could be used to perform tasks requiring precision.",
+            "The simpler uses for spider silk require limited skill.",
+            "Some uses for spider silk are less important than others.",
+            "Spider silk is most useful for large-scale projects."
+        ],
+        "correct_answer": 0,
+        "answer_type": "multiple_choice"
+    },
+    {
+        "_id": "24",
+        "question_number": 24,
+        "practice_set": 24,
+        "category": "ELA: Reading Comprehension",
+        "difficulty": "medium",
+        "time_estimate": 75,
+        "passage": "pdfData:pdf/2025-Grade-7-English.pdf",
+        "question_text": "For the project at the American Museum of Natural History described in paragraph 3, to what does the phrase \"reel in the silk\" refer?",
+        "options": [
+            "the effort it took to collect such a great amount of silk",
+            "the length of time it took the spiders to produce the silk",
+            "how difficult it was to find the necessary spiders",
+            "how important it was to hire dedicated workers"
+        ],
+        "correct_answer": 0,
+        "answer_type": "multiple_choice"
+    },
+    {
+        "_id": "25",
+        "question_number": 25,
+        "practice_set": 24,
+        "category": "ELA: Reading Comprehension",
+        "difficulty": "medium",
+        "time_estimate": 75,
+        "passage": "pdfData:pdf/2025-Grade-7-English.pdf",
+        "question_text": "The details in paragraph 7 mainly contribute to the article by showing",
+        "options": [
+            "the differences between production of silk by silkworms and spiders",
+            "the impressive design of silkworm cocoons",
+            "the metamorphosis of silkworms into moths",
+            "the reason that silkworms are a good alternative to spiders"
+        ],
+        "correct_answer": 3,
+        "answer_type": "multiple_choice"
+    },
+    {
+        "_id": "26",
+        "question_number": 26,
+        "practice_set": 24,
+        "category": "ELA: Reading Comprehension",
+        "difficulty": "easy",
+        "time_estimate": 60,
+        "passage": "pdfData:pdf/2025-Grade-7-English.pdf",
+        "question_text": "How does the author present the challenge of raising spiders domestically?",
+        "options": [
+            "through descriptions of how spiders find food together",
+            "through comparisons of the behavior of male and female spiders",
+            "through situations that show why spiders cannot be kept together",
+            "through explanations about why female spiders are special"
+        ],
+        "correct_answer": 2,
+        "answer_type": "multiple_choice"
+    },
+    {
+        "_id": "27",
+        "question_number": 27,
+        "practice_set": 24,
+        "category": "ELA: Reading Comprehension",
+        "difficulty": "medium",
+        "time_estimate": 180,
+        "passage": "pdfData:pdf/2025-Grade-7-English.pdf",
+        "question_text": "Based on the article Stronger than Steel, what does the author want readers to learn about spider silk? Use two details from the article to support your response.",
+        "options": [],
+        "correct_answer": null,
+        "answer_type": "short_response"
+    },
+    {
+        "_id": "28",
+        "question_number": 28,
+        "practice_set": 24,
+        "category": "ELA: Reading Comprehension",
+        "difficulty": "medium",
+        "time_estimate": 180,
+        "passage": "pdfData:pdf/2025-Grade-7-English.pdf",
+        "question_text": "What is a central idea of Stronger than Steel? Use two details from the article to support your response.",
+        "options": [],
+        "correct_answer": null,
+        "answer_type": "short_response"
+    },
+    {
+        "_id": "29",
+        "question_number": 29,
+        "practice_set": 24,
+        "category": "ELA: Reading Comprehension",
+        "difficulty": "easy",
+        "time_estimate": 60,
+        "passage": "pdfData:pdf/2025-Grade-7-English.pdf",
+        "question_text": "What do the details in paragraphs 1 and 2 reveal about Subhash?",
+        "options": [
+            "He is quiet and considerate.",
+            "He is nervous and excitable.",
+            "He feels passionate about nature.",
+            "He feels lonely when at home."
+        ],
+        "correct_answer": 0,
+        "answer_type": "multiple_choice"
+    },
+    {
+        "_id": "30",
+        "question_number": 30,
+        "practice_set": 24,
+        "category": "ELA: Reading Comprehension",
+        "difficulty": "medium",
+        "time_estimate": 75,
+        "passage": "pdfData:pdf/2025-Grade-7-English.pdf",
+        "question_text": "Read these sentences from paragraph 5.\nWhen they were old enough, when they were permitted to leave the house, they were told not to lose sight of one another. Together they wandered down the winding lanes of the enclave, behind the ponds and across the lowland, to the playing field where they sometimes met up with other boys.\nWhat is the main way this change in setting affects Subhash and Udayan?",
+        "options": [
+            "They get into trouble when they wander too far from home.",
+            "They realize they like the quieter areas of their community.",
+            "They enjoy exploring new territory together.",
+            "They prefer being with other children when exploring."
+        ],
+        "correct_answer": 2,
+        "answer_type": "multiple_choice"
+    },
+    {
+        "_id": "31",
+        "question_number": 31,
+        "practice_set": 24,
+        "category": "ELA: Reading Comprehension",
+        "difficulty": "medium",
+        "time_estimate": 75,
+        "passage": "pdfData:pdf/2025-Grade-7-English.pdf",
+        "question_text": "In paragraph 8, Subhash and Udayan respond differently to the same situation. What does this show the reader about the characters?",
+        "options": [
+            "The boys' parents expect different behavior from them.",
+            "The boys demonstrate different personalities.",
+            "The boys' parents give them different responsibilities.",
+            "The boys display different levels of maturity."
+        ],
+        "correct_answer": 1,
+        "answer_type": "multiple_choice"
+    },
+    {
+        "_id": "32",
+        "question_number": 32,
+        "practice_set": 24,
+        "category": "ELA: Vocabulary",
+        "difficulty": "easy",
+        "time_estimate": 45,
+        "passage": "pdfData:pdf/2025-Grade-7-English.pdf",
+        "question_text": "As used in paragraph 9, what does the word \"indistinguishable\" show about the brothers?",
+        "options": [
+            "One brother is considered as intelligent as the other.",
+            "They are both tired of playing the game of chess.",
+            "One brother acts the same way as the other.",
+            "They both sound the same when talking."
+        ],
+        "correct_answer": 3,
+        "answer_type": "multiple_choice"
+    },
+    {
+        "_id": "33",
+        "question_number": 33,
+        "practice_set": 24,
+        "category": "ELA: Reading Comprehension",
+        "difficulty": "hard",
+        "time_estimate": 90,
+        "passage": "pdfData:pdf/2025-Grade-7-English.pdf",
+        "question_text": "Which statement best reflects the idea of growing up?",
+        "options": [
+            "\"Eventually they were allowed to leave the enclave, and to enter the greater city.\" (paragraph 6)",
+            "\"Sitting over the chessboard they were mirror images: one leg bent, the other splayed out, chins propped on their knees.\" (paragraph 9)",
+            "\"It became his mission to obey them, given that it wasn't possible to surprise or impress them. That was what Udayan did.\" (paragraph 11)",
+            "\"Subhash had listened. He had watched through the window, he had not gone out.\" (paragraph 14)"
+        ],
+        "correct_answer": 0,
+        "answer_type": "multiple_choice"
+    },
+    {
+        "_id": "34",
+        "question_number": 34,
+        "practice_set": 24,
+        "category": "ELA: Reading Comprehension",
+        "difficulty": "medium",
+        "time_estimate": 75,
+        "passage": "pdfData:pdf/2025-Grade-7-English.pdf",
+        "question_text": "What difference between Subhash and Udayan is revealed by the information in paragraph 16?",
+        "options": [
+            "Udayan pays more attention to detail, while Subhash is unobservant.",
+            "Udayan has a more creative personality, while Subhash is carefree.",
+            "Subhash dislikes getting dirty, while Udayan likes creating a mess.",
+            "Subhash acts as his parents want, while Udayan acts as he wants."
+        ],
+        "correct_answer": 3,
+        "answer_type": "multiple_choice"
+    },
+    {
+        "_id": "35",
+        "question_number": 35,
+        "practice_set": 24,
+        "category": "ELA: Reading Comprehension",
+        "difficulty": "hard",
+        "time_estimate": 90,
+        "passage": "pdfData:pdf/2025-Grade-7-English.pdf",
+        "question_text": "Which statement best represents the importance of paragraphs 17 and 18 to the story?",
+        "options": [
+            "The boys' father continues to be upset about the footprints in the cement, and he complains to visitors.",
+            "The boys' father understands that the footprints represent an experience in the journey of growing up.",
+            "Subhash realizes that the footprints represent a division between himself and Udayan, which he accepts.",
+            "Subhash feels guilty that he did not stop Udayan from making the footprints in the cement."
+        ],
+        "correct_answer": 1,
+        "answer_type": "multiple_choice"
+    },
+    {
+        "_id": "36",
+        "question_number": 36,
+        "practice_set": 24,
+        "category": "ELA: Vocabulary",
+        "difficulty": "easy",
+        "time_estimate": 45,
+        "passage": "pdfData:pdf/2025-Grade-7-English.pdf",
+        "question_text": "What is the definition of \"pioneered\" as it is used in paragraph 1?",
+        "options": [
+            "traveled around the world",
+            "trained extensively",
+            "danced professionally",
+            "developed something new"
+        ],
+        "correct_answer": 3,
+        "answer_type": "multiple_choice"
+    },
+    {
+        "_id": "37",
+        "question_number": 37,
+        "practice_set": 24,
+        "category": "ELA: Reading Comprehension",
+        "difficulty": "medium",
+        "time_estimate": 75,
+        "passage": "pdfData:pdf/2025-Grade-7-English.pdf",
+        "question_text": "What does the reader learn about Katherine Dunham from paragraph 5?",
+        "options": [
+            "She struggles with a career in anthropology.",
+            "She blends cultural influences into modern dance.",
+            "She wants dance to return to traditional methods.",
+            "She leaves dancing in order to become an actor."
+        ],
+        "correct_answer": 1,
+        "answer_type": "multiple_choice"
+    },
+    {
+        "_id": "38",
+        "question_number": 38,
+        "practice_set": 24,
+        "category": "ELA: Vocabulary",
+        "difficulty": "medium",
+        "time_estimate": 60,
+        "passage": "pdfData:pdf/2025-Grade-7-English.pdf",
+        "question_text": "Based on paragraph 5, what does the word \"signature\" suggest about Katherine Dunham's dance L'Ag' Ya?",
+        "options": [
+            "It is a dance that is performed in a musical.",
+            "It is a dance that is identified as Dunham's.",
+            "It is a dance that requires Dunham's style of dress.",
+            "It is a dance that includes cultural references."
+        ],
+        "correct_answer": 1,
+        "answer_type": "multiple_choice"
+    },
+    {
+        "_id": "39",
+        "question_number": 39,
+        "practice_set": 24,
+        "category": "ELA: Reading Comprehension",
+        "difficulty": "hard",
+        "time_estimate": 90,
+        "passage": "pdfData:pdf/2025-Grade-7-English.pdf",
+        "question_text": "Which sentence best supports a central idea of the article?",
+        "options": [
+            "\"They laid the foundation for generations of dancers and choreographers to come.\" (paragraph 2)",
+            "\"I wanted it to be fraught with inner meaning, with excitement and surge.\" (paragraph 3)",
+            "\"Katherine Dunham started dancing in her late teens, but she didn't think it would turn into a career.\" (paragraph 4)",
+            "\"Primus worked to make African dance an accepted and important art form among American audiences.\" (paragraph 8)"
+        ],
+        "correct_answer": 0,
+        "answer_type": "multiple_choice"
+    },
+    {
+        "_id": "40",
+        "question_number": 40,
+        "practice_set": 24,
+        "category": "ELA: Reading Comprehension",
+        "difficulty": "medium",
+        "time_estimate": 75,
+        "passage": "pdfData:pdf/2025-Grade-7-English.pdf",
+        "question_text": "Which sentence best supports the claim made by the author in paragraph 1?",
+        "options": [
+            "\"Graham's techniques are still taught today, and her approach to movement has inspired many young dancers to make their careers on the stage.\" (paragraph 3)",
+            "\"Dunham spent 18 months in Jamaica, Martinique, Trinidad, and Haiti, gaining the trust of her subjects so she could learn and perform their ritual dances.\" (paragraph 4)",
+            "\"She received a scholarship to the New Dance Group, which offered dance lessons to professionals and children.\" (paragraph 7)",
+            "\"The all-female group was known for avant-garde performances minimalistic in both movement and stage design.\" (paragraph 9)"
+        ],
+        "correct_answer": 0,
+        "answer_type": "multiple_choice"
+    },
+    {
+        "_id": "41",
+        "question_number": 41,
+        "practice_set": 24,
+        "category": "ELA: Reading Comprehension",
+        "difficulty": "easy",
+        "time_estimate": 60,
+        "passage": "pdfData:pdf/2025-Grade-7-English.pdf",
+        "question_text": "How are the accomplishments of Martha Graham represented in the article?",
+        "options": [
+            "Graham expands the changes to dance that Katherine Dunham starts.",
+            "Graham influences people's understanding of dance.",
+            "Graham believes dancers should be trained similarly to athletes.",
+            "Graham emphasizes the need for dancers to have freedom."
+        ],
+        "correct_answer": 1,
+        "answer_type": "multiple_choice"
+    },
+    {
+        "_id": "42",
+        "question_number": 42,
+        "practice_set": 24,
+        "category": "ELA: Reading Comprehension",
+        "difficulty": "easy",
+        "time_estimate": 60,
+        "passage": "pdfData:pdf/2025-Grade-7-English.pdf",
+        "question_text": "What is the primary structure the author uses to organize information in the article?",
+        "options": [
+            "cause and effect",
+            "problem and solution",
+            "chronological sequence",
+            "compare and contrast"
+        ],
+        "correct_answer": 2,
+        "answer_type": "multiple_choice"
+    },
+    {
+        "_id": "43",
+        "question_number": 43,
+        "practice_set": 24,
+        "category": "ELA: Reading Comprehension",
+        "difficulty": "medium",
+        "time_estimate": 180,
+        "passage": "pdfData:pdf/2025-Grade-7-English.pdf",
+        "question_text": "In Bartlett and the Ice Voyage, what does paragraph 2 contribute to the story? Use two details from the story to support your response.",
+        "options": [],
+        "correct_answer": null,
+        "answer_type": "short_response"
+    },
+    {
+        "_id": "44",
+        "question_number": 44,
+        "practice_set": 24,
+        "category": "ELA: Reading Comprehension",
+        "difficulty": "medium",
+        "time_estimate": 180,
+        "passage": "pdfData:pdf/2025-Grade-7-English.pdf",
+        "question_text": "How does the author of Bartlett and the Ice Voyage support the idea that caring for animals can present unique challenges? Use two details from the story to support your response.",
+        "options": [],
+        "correct_answer": null,
+        "answer_type": "short_response"
+    },
+    {
+        "_id": "45",
+        "question_number": 45,
+        "practice_set": 24,
+        "category": "ELA: Reading Comprehension",
+        "difficulty": "medium",
+        "time_estimate": 180,
+        "passage": "pdfData:pdf/2025-Grade-7-English.pdf",
+        "question_text": "In paragraph 2 of Rosa's Animals, why does the author include information about Ernest Gambart? Use two details from the article to support your response.",
+        "options": [],
+        "correct_answer": null,
+        "answer_type": "short_response"
+    },
+    {
+        "_id": "46",
+        "question_number": 46,
+        "practice_set": 24,
+        "category": "ELA: Comparative Analysis",
+        "difficulty": "hard",
+        "time_estimate": 300,
+        "passage": "pdfData:pdf/2025-Grade-7-English.pdf",
+        "question_text": "The authors of Bartlett and the Ice Voyage and Rosa's Animals both express similar beliefs about a relationship between animals and people. What are their beliefs? How are these beliefs developed in the story and the article? Use details from both the story and the article to support your response.\n\nIn your response, be sure to\n• describe each author's beliefs about a relationship between animals and people\n• explain how these beliefs are developed in the story and the article\n• use details from both the story and the article to support your response",
+        "options": [],
+        "correct_answer": null,
+        "answer_type": "essay_response"
+    }
+]

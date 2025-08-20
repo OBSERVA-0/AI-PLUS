@@ -18,8 +18,8 @@ const validateGetQuestions = [
     .withMessage('Invalid test type'),
   query('practiceSet')
     .optional()
-    .isIn(['1', '2', '3','4', '5', '6', '7', '8', '9','10', 'diagnostic'])
-    .withMessage('Practice set must be 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, or diagnostic')
+    .isIn(['1', '2', '3','4', '5', '6', '7', '8', '9','10', '11', '12', '13', 'diagnostic'])
+    .withMessage('Practice set must be 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, or diagnostic')
 ];
 
 const validateSubmitAnswers = [
@@ -28,8 +28,8 @@ const validateSubmitAnswers = [
     .withMessage('Invalid test type'),
   body('practiceSet')
     .optional()
-    .isIn(['1', '2', '3','4', '5', '6', '7', '8', '9','10', 'diagnostic'])
-    .withMessage('Practice set must be 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, or diagnostic'),
+    .isIn(['1', '2', '3','4', '5', '6', '7', '8', '9','10', '11', '12', '13', 'diagnostic'])
+    .withMessage('Practice set must be 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, or diagnostic'),
   body('answers')
     .isArray()
     .withMessage('Answers must be an array'),

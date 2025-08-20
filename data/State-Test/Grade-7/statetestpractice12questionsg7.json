@@ -1,0 +1,548 @@
+[
+    {
+        "_id": "15",
+        "question_number": 15,
+        "practice_set": 23,
+        "category": "ELA: Reading Comprehension",
+        "difficulty": "medium",
+        "time_estimate": 75,
+        "passage": "pdfData:pdf/2024-Grade-7-English.pdf",
+        "question_text": "Which statement best expresses a central idea of paragraph 2?",
+        "options": [
+            "Sticks and rudder pedals were used in both cockpits of the airplane.",
+            "People learned how to fly airplanes by observing the actions of the pilot.",
+            "Metal tailskids would create friction to slow the airplanes as they landed.",
+            "Pilots maneuvered their airplanes by using vertical sticks and rudder pedals."
+        ],
+        "correct_answer": 1,
+        "answer_type": "multiple_choice"
+    },
+    {
+        "_id": "16",
+        "question_number": 16,
+        "practice_set": 23,
+        "category": "ELA: Reading Comprehension",
+        "difficulty": "easy",
+        "time_estimate": 60,
+        "passage": "pdfData:pdf/2024-Grade-7-English.pdf",
+        "question_text": "What do the details in paragraph 7 most reveal about Bessie Coleman?",
+        "options": [
+            "her preference for planes made in France",
+            "her desire to share her knowledge with others",
+            "her desire to travel throughout the United States",
+            "her dissatisfaction with performing as a barnstormer"
+        ],
+        "correct_answer": 1,
+        "answer_type": "multiple_choice"
+    },
+    {
+        "_id": "17",
+        "question_number": 17,
+        "practice_set": 23,
+        "category": "ELA: Reading Comprehension",
+        "difficulty": "medium",
+        "time_estimate": 75,
+        "passage": "pdfData:pdf/2024-Grade-7-English.pdf",
+        "question_text": "What is the main way paragraph 3 connects with paragraph 8?",
+        "options": [
+            "by referring to the altitude to which Coleman flew",
+            "by describing Coleman's popularity with crowds",
+            "by indicating the types of planes Coleman flew",
+            "by demonstrating Coleman's skills as a pilot"
+        ],
+        "correct_answer": 3,
+        "answer_type": "multiple_choice"
+    },
+    {
+        "_id": "18",
+        "question_number": 18,
+        "practice_set": 23,
+        "category": "ELA: Reading Comprehension",
+        "difficulty": "hard",
+        "time_estimate": 90,
+        "passage": "pdfData:pdf/2024-Grade-7-English.pdf",
+        "question_text": "How do paragraphs 8 and 9 develop a central idea in the article?",
+        "options": [
+            "by referring to the thousands of people watching the first female African-American aviator",
+            "by indicating that Coleman was prohibited from flying the plane without another pilot",
+            "by illustrating how the first female African-American pilot flew in loops while tilting the plane",
+            "by describing how Coleman wanted to fly a type of plane with which she was unfamiliar"
+        ],
+        "correct_answer": 0,
+        "answer_type": "multiple_choice"
+    },
+    {
+        "_id": "19",
+        "question_number": 19,
+        "practice_set": 23,
+        "category": "ELA: Literary Devices",
+        "difficulty": "medium",
+        "time_estimate": 75,
+        "passage": "pdfData:pdf/2024-Grade-7-English.pdf",
+        "question_text": "The tone of paragraph 9 can best be described as",
+        "options": [
+            "anxious, due to the dangerous jump of the stuntman",
+            "tense, because of the height to which the airplane flew",
+            "delighted, due to the reaction of the crowd to the stuntman",
+            "enthusiastic, because people were excited for the opportunity to fly"
+        ],
+        "correct_answer": 2,
+        "answer_type": "multiple_choice"
+    },
+    {
+        "_id": "20",
+        "question_number": 20,
+        "practice_set": 23,
+        "category": "ELA: Reading Comprehension",
+        "difficulty": "easy",
+        "time_estimate": 60,
+        "passage": "pdfData:pdf/2024-Grade-7-English.pdf",
+        "question_text": "Which statement best describes why Coleman goes to flight school in France?",
+        "options": [
+            "She knows there are more aircraft manufacturers in France.",
+            "She is denied the opportunity to train as a pilot in the United States.",
+            "She believes flying is more popular in France than in the United States.",
+            "She knows she will be able to learn by observing her instructors in France."
+        ],
+        "correct_answer": 1,
+        "answer_type": "multiple_choice"
+    },
+    {
+        "_id": "21",
+        "question_number": 21,
+        "practice_set": 23,
+        "category": "ELA: Reading Comprehension",
+        "difficulty": "medium",
+        "time_estimate": 75,
+        "passage": "pdfData:pdf/2024-Grade-7-English.pdf",
+        "question_text": "Which sentence would be most important to include in a summary of the article?",
+        "options": [
+            "Coleman first takes flying lessons in a twenty-seven-foot biplane.",
+            "Coleman claims flying in France is as popular as driving cars in America.",
+            "Coleman is described by newspapers as a careful but skilled pilot.",
+            "Coleman is the first African-American woman to perform a solo flight."
+        ],
+        "correct_answer": 3,
+        "answer_type": "multiple_choice"
+    },
+    {
+        "_id": "22",
+        "question_number": 22,
+        "practice_set": 23,
+        "category": "ELA: Literary Devices",
+        "difficulty": "medium",
+        "time_estimate": 75,
+        "passage": "pdfData:pdf/2024-Grade-7-English.pdf",
+        "question_text": "Read this phrase from paragraph 8.\n... and as for shoes, they imprisoned freedom-loving feet accustomed to the feel of warm earth.\nHow does the use of personification in this phrase mainly add to the reader's understanding of the narrator?",
+        "options": [
+            "by emphasizing the narrator's preference for being outside",
+            "by illustrating how the narrator feels about school",
+            "by showing how the narrator is different than Little Man",
+            "by highlighting the narrator's desire to help Papa"
+        ],
+        "correct_answer": 0,
+        "answer_type": "multiple_choice"
+    },
+    {
+        "_id": "23",
+        "question_number": 23,
+        "practice_set": 23,
+        "category": "ELA: Reading Comprehension",
+        "difficulty": "medium",
+        "time_estimate": 75,
+        "passage": "pdfData:pdf/2024-Grade-7-English.pdf",
+        "question_text": "Which detail would be most important to include in a summary of the story?",
+        "options": [
+            "\"Always meticulously neat, six-year-old Little Man never allowed dirt or tears or stains to mar anything he owned.\" (paragraph 1)",
+            "\"If I hadn't known the cause of it, I could have forgotten very easily that he was, at twelve, bigger than I...\" (paragraph 5)",
+            "\"An ancient oak tree on the slope, visible even now, was the official dividing mark between Logan land and the beginning of a dense forest.\" (paragraph 10)",
+            "\"... for the past three years there had not been enough money from the cotton to pay both and live on too.\" (paragraph 11)"
+        ],
+        "correct_answer": 3,
+        "answer_type": "multiple_choice"
+    },
+    {
+        "_id": "24",
+        "question_number": 24,
+        "practice_set": 23,
+        "category": "ELA: Reading Comprehension",
+        "difficulty": "easy",
+        "time_estimate": 60,
+        "passage": "pdfData:pdf/2024-Grade-7-English.pdf",
+        "question_text": "How does the narrator mainly develop each brother's viewpoint?",
+        "options": [
+            "by indicating their feelings about school",
+            "through descriptions of their personalities",
+            "by indicating her disagreements with them",
+            "through descriptions of their appearances"
+        ],
+        "correct_answer": 1,
+        "answer_type": "multiple_choice"
+    },
+    {
+        "_id": "25",
+        "question_number": 25,
+        "practice_set": 23,
+        "category": "ELA: Reading Comprehension",
+        "difficulty": "hard",
+        "time_estimate": 90,
+        "passage": "pdfData:pdf/2024-Grade-7-English.pdf",
+        "question_text": "Siblings may be very different but still completely understand each other. How do the details in the story best support this idea?",
+        "options": [
+            "The narrator describes the traits of each brother as they walk to school.",
+            "The narrator and her brothers understand the importance of the land to their family.",
+            "The narrator realizes why her oldest brother is feeling unhappy.",
+            "The narrator and her brothers respect their father's decision to work in other states."
+        ],
+        "correct_answer":0,
+        "answer_type": "multiple_choice"
+    },
+    {
+        "_id": "26",
+        "question_number": 26,
+        "practice_set": 23,
+        "category": "ELA: Reading Comprehension",
+        "difficulty": "easy",
+        "time_estimate": 60,
+        "passage": "pdfData:pdf/2024-Grade-7-English.pdf",
+        "question_text": "What do the details in the story reveal about Papa?",
+        "options": [
+            "He prefers working on the railroad to growing cotton.",
+            "He was not surprised when the price of cotton changed.",
+            "He is determined to keep the land his father purchased.",
+            "He was not able to talk to his other children about the land."
+        ],
+        "correct_answer": 2,
+        "answer_type": "multiple_choice"
+    },
+    {
+        "_id": "27",
+        "question_number": 27,
+        "practice_set": 23,
+        "category": "ELA: Reading Comprehension",
+        "difficulty": "medium",
+        "time_estimate": 180,
+        "passage": "pdfData:pdf/2024-Grade-7-English.pdf",
+        "question_text": "What is a central idea of \"Excerpt from Roll of Thunder, Hear My Cry\"? Use two details from the story to support your response.",
+        "options": [],
+        "correct_answer": null,
+        "answer_type": "short_response"
+    },
+    {
+        "_id": "28",
+        "question_number": 28,
+        "practice_set": 23,
+        "category": "ELA: Literary Devices",
+        "difficulty": "medium",
+        "time_estimate": 180,
+        "passage": "pdfData:pdf/2024-Grade-7-English.pdf",
+        "question_text": "In paragraphs 5 through 7 of \"Excerpt from Roll of Thunder, Hear My Cry,\" how does the author's word choice affect the tone of the story? Use two details from the story to support your response.",
+        "options": [],
+        "correct_answer": null,
+        "answer_type": "short_response"
+    },
+    {
+        "_id": "29",
+        "question_number": 29,
+        "practice_set": 23,
+        "category": "ELA: Reading Comprehension",
+        "difficulty": "medium",
+        "time_estimate": 75,
+        "passage": "pdfData:pdf/2024-Grade-7-English.pdf",
+        "question_text": "Read these sentences from paragraph 6.\n\"You decide too quickly. Such snap judgments make you unworthy. You are dismissed.\"\nWhich important idea does the author develop in these sentences?",
+        "options": [
+            "It is best to lead by example.",
+            "Make sure to tell the truth when you speak.",
+            "Try to have all of the information before making a choice.",
+            "Go with your first instinct when making a statement."
+        ],
+        "correct_answer": 2,
+        "answer_type": "multiple_choice"
+    },
+    {
+        "_id": "30",
+        "question_number": 30,
+        "practice_set": 23,
+        "category": "ELA: Reading Comprehension",
+        "difficulty": "easy",
+        "time_estimate": 60,
+        "passage": "pdfData:pdf/2024-Grade-7-English.pdf",
+        "question_text": "What does paragraph 8 reveal about Persephone?",
+        "options": [
+            "She struggles at her school.",
+            "She becomes frustrated easily.",
+            "She wants to have more choices.",
+            "She thinks carefully before acting."
+        ],
+        "correct_answer": 3,
+        "answer_type": "multiple_choice"
+    },
+    {
+        "_id": "31",
+        "question_number": 31,
+        "practice_set": 23,
+        "category": "ELA: Vocabulary",
+        "difficulty": "easy",
+        "time_estimate": 45,
+        "passage": "pdfData:pdf/2024-Grade-7-English.pdf",
+        "question_text": "What is the best definition of \"settle\" as it is used in paragraph 8?",
+        "options": [
+            "to agree to something less",
+            "to separate materials",
+            "to become quiet",
+            "to find a place to stay"
+        ],
+        "correct_answer": 0,
+        "answer_type": "multiple_choice"
+    },
+    {
+        "_id": "32",
+        "question_number": 32,
+        "practice_set": 23,
+        "category": "ELA: Reading Comprehension",
+        "difficulty": "medium",
+        "time_estimate": 75,
+        "passage": "pdfData:pdf/2024-Grade-7-English.pdf",
+        "question_text": "Which detail would be most important to include in a summary of the story?",
+        "options": [
+            "\"... she'd received twelve years of strict training and guidance in history and philosophy and psychology...\" (paragraph 1)",
+            "\"The students who select the wisest answer will become Deciders.\" (paragraph 2)",
+            "\"Lee's face flushed, and his lips trembled. He ran out of the room ..\" (paragraph 6)",
+            "\"The Proctor sat at a red table. Behind him there was an exit.\" (paragraph 10)"
+        ],
+        "correct_answer": 1,
+        "answer_type": "multiple_choice"
+    },
+    {
+        "_id": "33",
+        "question_number": 33,
+        "practice_set": 23,
+        "category": "ELA: Reading Comprehension",
+        "difficulty": "hard",
+        "time_estimate": 90,
+        "passage": "pdfData:pdf/2024-Grade-7-English.pdf",
+        "question_text": "Which sentence from the story best describes Persephone's perspective about the RPS exam?",
+        "options": [
+            "\"Persephone's mind raced and she felt a flush across her skin.\" (paragraph 3)",
+            "\"Persephone thought about protesting, but something held her back.\" (paragraph 4)",
+            "\"Persephone knew it couldn't be that easy.\" (paragraph 8)",
+            "\"Persephone watched them go into the room one by one.\" (paragraph 10)"
+        ],
+        "correct_answer": 2,
+        "answer_type": "multiple_choice"
+    },
+    {
+        "_id": "34",
+        "question_number": 34,
+        "practice_set": 23,
+        "category": "ELA: Vocabulary",
+        "difficulty": "medium",
+        "time_estimate": 60,
+        "passage": "pdfData:pdf/2024-Grade-7-English.pdf",
+        "question_text": "What does the word \"equality\" mean as it is used in paragraph 12?",
+        "options": [
+            "agreement",
+            "fairness",
+            "intelligence",
+            "tolerance"
+        ],
+        "correct_answer": 1,
+        "answer_type": "multiple_choice"
+    },
+    {
+        "_id": "35",
+        "question_number": 35,
+        "practice_set": 23,
+        "category": "ELA: Reading Comprehension",
+        "difficulty": "medium",
+        "time_estimate": 75,
+        "passage": "pdfData:pdf/2024-Grade-7-English.pdf",
+        "question_text": "How does Persephone change from the beginning to the end of the story?",
+        "options": [
+            "At first she is afraid of the test, but then she succeeds at it.",
+            "At first she is uncertain about the test, but then she understands it.",
+            "At first she is suspicious of the test, but then she cares about it.",
+            "At first she is angry at the test, but then she finds it amusing."
+        ],
+        "correct_answer": 1,
+        "answer_type": "multiple_choice"
+    },
+    {
+        "_id": "36",
+        "question_number": 36,
+        "practice_set": 23,
+        "category": "ELA: Reading Comprehension",
+        "difficulty": "easy",
+        "time_estimate": 60,
+        "passage": "pdfData:pdf/2024-Grade-7-English.pdf",
+        "question_text": "According to paragraph 3, the calls of prairie dogs are \"distinctive\" because they",
+        "options": [
+            "are understood by other animals",
+            "tend to be short",
+            "convey important information",
+            "are unique sounds"
+        ],
+        "correct_answer": 3,
+        "answer_type": "multiple_choice"
+    },
+    {
+        "_id": "37",
+        "question_number": 37,
+        "practice_set": 23,
+        "category": "ELA: Reading Comprehension",
+        "difficulty": "hard",
+        "time_estimate": 90,
+        "passage": "pdfData:pdf/2024-Grade-7-English.pdf",
+        "question_text": "Which claim by the author is most strongly supported with evidence?",
+        "options": [
+            "\"Prairie dogs got their name because people thought their calls sounded a little like a dog's bark.\" (paragraph 1)",
+            "\"It's hard for humans to hear the differences between the calls, though, because they only last about half a second...\" (paragraph 3)",
+            "\"The prairie dogs watched regular dogs the same way they watched coyotes, but not as intensely.\" (paragraph 7)",
+            "\"Slobodchikoff also thinks prairie dogs pay attention to the order of the sounds..\" (paragraph 11)"
+        ],
+        "correct_answer": 3,
+        "answer_type": "multiple_choice"
+    },
+    {
+        "_id": "38",
+        "question_number": 38,
+        "practice_set": 23,
+        "category": "ELA: Reading Comprehension",
+        "difficulty": "medium",
+        "time_estimate": 75,
+        "passage": "pdfData:pdf/2024-Grade-7-English.pdf",
+        "question_text": "Read this sentence from paragraph 9.\nAt first Slobodchikoff couldn't believe it.\nWhich statement provides the best support for this claim?",
+        "options": [
+            "Prairie dogs have almost the same response to coyotes as they do to the regular dogs they encounter.",
+            "Prairie dogs have similar reactions to airborne predators, although they have a variety of responses to land animals.",
+            "Prairie dogs have unique responses to people wearing different colors as well as to various types of dogs.",
+            "Prairie dogs have alarm calls they use to warn their colonies, although their calls provoke little response."
+        ],
+        "correct_answer": 2,
+        "answer_type": "multiple_choice"
+    },
+    {
+        "_id": "39",
+        "question_number": 39,
+        "practice_set": 23,
+        "category": "ELA: Reading Comprehension",
+        "difficulty": "medium",
+        "time_estimate": 75,
+        "passage": "pdfData:pdf/2024-Grade-7-English.pdf",
+        "question_text": "How does paragraph 5 relate to paragraph 10?",
+        "options": [
+            "by explaining that prairie dog alarms appear to contain specific details",
+            "by indicating the similarity of prairie dog alarm calls about airborne predators",
+            "by explaining that prairie dogs may make a continuous sound when they communicate",
+            "by indicating that prairie dog calls distinguish between land animals and birds"
+        ],
+        "correct_answer": 0,
+        "answer_type": "multiple_choice"
+    },
+    {
+        "_id": "40",
+        "question_number": 40,
+        "practice_set": 23,
+        "category": "ELA: Reading Comprehension",
+        "difficulty": "hard",
+        "time_estimate": 90,
+        "passage": "pdfData:pdf/2024-Grade-7-English.pdf",
+        "question_text": "Which statement best represents a central idea of the article?",
+        "options": [
+            "\"Actually, maybe they should've been called prairie watchdogs because they bark to alert the colony...\" (paragraph 1)",
+            "\"After all, prairie dogs are just rodents, like mice and rats, and aren't supposed to be that smart.\" (paragraph 9)",
+            "\"Although the calls are a single sound, or at least a continuous one, they seem to carry a lot of information.\" (paragraph 10)",
+            "\"Besides studying alarm calls, he has also recorded the little noises, the chitter-chattering...\" (paragraph 11)"
+        ],
+        "correct_answer": 2,
+        "answer_type": "multiple_choice"
+    },
+    {
+        "_id": "41",
+        "question_number": 41,
+        "practice_set": 23,
+        "category": "ELA: Reading Comprehension",
+        "difficulty": "medium",
+        "time_estimate": 75,
+        "passage": "pdfData:pdf/2024-Grade-7-English.pdf",
+        "question_text": "Read this phrase from paragraph 11.\nThey chitter-chatter, but they don't chatter-chitter.\nWhat does this phrase suggest about prairie dogs?",
+        "options": [
+            "The noises prairie dogs make to each other consist of predictable patterns.",
+            "Prairie dogs are unable to reverse the order of the sounds they make to each other.",
+            "The noises prairie dogs make to each other are less important than their alarm calls.",
+            "Prairie dogs usually ignore the sounds that are unrelated to the presence of predators."
+        ],
+        "correct_answer": 0,
+        "answer_type": "multiple_choice"
+    },
+    {
+        "_id": "42",
+        "question_number": 42,
+        "practice_set": 23,
+        "category": "ELA: Reading Comprehension",
+        "difficulty": "medium",
+        "time_estimate": 75,
+        "passage": "pdfData:pdf/2024-Grade-7-English.pdf",
+        "question_text": "The main reason spectrograms are important to Slobodchikoff's research is because they",
+        "options": [
+            "suggest to researchers that prairie dogs respond to different clothes",
+            "help researchers analyze prairie dog alarm calls from several miles away",
+            "enable researchers to hear slowed-down prairie dog alarm calls",
+            "allow researchers to compare many prairie dog alarm calls"
+        ],
+        "correct_answer": 3,
+        "answer_type": "multiple_choice"
+    },
+    {
+        "_id": "43",
+        "question_number": 43,
+        "practice_set": 23,
+        "category": "ELA: Reading Comprehension",
+        "difficulty": "medium",
+        "time_estimate": 180,
+        "passage": "pdfData:pdf/2024-Grade-7-English.pdf",
+        "question_text": "In \"Excerpt from Hiking for Fun!\" how is a central claim supported in paragraphs 1 and 2? Use two details from the article to support your response.",
+        "options": [],
+        "correct_answer": null,
+        "answer_type": "short_response"
+    },
+    {
+        "_id": "44",
+        "question_number": 44,
+        "practice_set": 23,
+        "category": "ELA: Reading Comprehension",
+        "difficulty": "medium",
+        "time_estimate": 180,
+        "passage": "pdfData:pdf/2024-Grade-7-English.pdf",
+        "question_text": "In \"Excerpt from Want a Healthier Family?,\" what effect does the repetition of the word \"concentrate\" in paragraphs 8 and 9 have on the information in the section \"Fighting Digital Distractions\"? Use two details from the article to support your response.",
+        "options": [],
+        "correct_answer": null,
+        "answer_type": "short_response"
+    },
+    {
+        "_id": "45",
+        "question_number": 45,
+        "practice_set": 23,
+        "category": "ELA: Reading Comprehension",
+        "difficulty": "medium",
+        "time_estimate": 180,
+        "passage": "pdfData:pdf/2024-Grade-7-English.pdf",
+        "question_text": "Based on the article \"Excerpt from Want a Healthier Family?,\" what does the author want the reader to know about how hiking affects children? Use two details from the article to support your response.",
+        "options": [],
+        "correct_answer": null,
+        "answer_type": "short_response"
+    },
+    {
+        "_id": "46",
+        "question_number": 46,
+        "practice_set": 23,
+        "category": "ELA: Comparative Analysis",
+        "difficulty": "hard",
+        "time_estimate": 300,
+        "passage": "pdfData:pdf/2024-Grade-7-English.pdf",
+        "question_text": "The authors of \"Excerpt from Hiking for Fun!\" and \"Excerpt from Want a Healthier Family?\" both discuss the topic of hiking. What similarities are found in each author's discussion of hiking? How is this topic developed differently in each article? Use details from both articles to support your response.\n\nIn your response, be sure to\n• identify the similarities found in each author's discussion of hiking\n• describe how this topic is developed differently in each article\n• use details from both articles to support your response",
+        "options": [],
+        "correct_answer": null,
+        "answer_type": "essay_response"
+    }
+]
