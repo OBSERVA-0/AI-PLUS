@@ -1,0 +1,506 @@
+[
+    {
+        "_id": "1",
+        "question_number": 1,
+        "practice_set": 20,
+        "category": "ELA: Vocabulary",
+        "difficulty": "easy",
+        "time_estimate": 45,
+        "passage": "pdfData:pdf/2021-Grade-7-English.pdf",
+        "question_text": "What is the best definition of \"shimmies\" as it is used in paragraph 1?",
+        "options": [
+            "skids",
+            "stuns",
+            "shakes",
+            "sputters"
+        ],
+        "correct_answer": 2,
+        "answer_type": "multiple_choice"
+    },
+    {
+        "_id": "2",
+        "question_number": 2,
+        "practice_set": 20,
+        "category": "ELA: Reading Comprehension",
+        "difficulty": "easy",
+        "time_estimate": 60,
+        "passage": "pdfData:pdf/2021-Grade-7-English.pdf",
+        "question_text": "In paragraph 2, the phrase \"in a giant tangle\" suggests that the girls",
+        "options": [
+            "are playing a game",
+            "enjoy being crowded together",
+            "feel confused about their destination",
+            "are concerned about their safety"
+        ],
+        "correct_answer": 1,
+        "answer_type": "multiple_choice"
+    },
+    {
+        "_id": "3",
+        "question_number": 3,
+        "practice_set": 20,
+        "category": "ELA: Reading Comprehension",
+        "difficulty": "medium",
+        "time_estimate": 75,
+        "passage": "pdfData:pdf/2021-Grade-7-English.pdf",
+        "question_text": "What does the description of the setting in paragraph 6 reveal about the narrator?",
+        "options": [
+            "She sees beauty where others may not.",
+            "She uses her imagination to rise above her surroundings.",
+            "She wants to take over her grandfather's business someday.",
+            "She appreciates McGunn's ability to make junk seem appealing."
+        ],
+        "correct_answer": 0,
+        "answer_type": "multiple_choice"
+    },
+    {
+        "_id": "4",
+        "question_number": 4,
+        "practice_set": 20,
+        "category": "ELA: Reading Comprehension",
+        "difficulty": "medium",
+        "time_estimate": 75,
+        "passage": "pdfData:pdf/2021-Grade-7-English.pdf",
+        "question_text": "Which sentence demonstrates how Grandpa Gus's character is revealed in the setting of the story?",
+        "options": [
+            "\"Old Glory inches toward the gates of McGunn's Iron and Metal, a junkyard that Gus knows so well, he could walk through it blindfolded and never once bump his shin on anything.\" (paragraph 5)",
+            "\"'Got yourselves a real beauty queen there,' Mick says as he points to the El Camino attached to the winch on the back of Old Glory.\" (paragraph 8)",
+            "\"It's a shell of what it used to be, missing its hood, and its engine, and all its doors.\" (paragraph 9)",
+            "\"He'll take your old grills or your rusted patio furniture or even clean out the contents of your grandparents' shed...\" (paragraph 10)"
+        ],
+        "correct_answer": 0,
+        "answer_type": "multiple_choice"
+    },
+    {
+        "_id": "5",
+        "question_number": 5,
+        "practice_set": 20,
+        "category": "ELA: Reading Comprehension",
+        "difficulty": "medium",
+        "time_estimate": 75,
+        "passage": "pdfData:pdf/2021-Grade-7-English.pdf",
+        "question_text": "What do the actions described in paragraph 11 reveal about the narrator?",
+        "options": [
+            "It shows she has learned from her grandfather how to fix broken items and sell them for extra cash.",
+            "It shows she is surprised at her grandfather's strength, hauling heavy items for people.",
+            "It shows she admires her grandfather because he knows his way around Willow Grove.",
+            "It shows she is proud of her grandfather's ability to earn people's respect by doing such an ordinary task."
+        ],
+        "correct_answer": 3,
+        "answer_type": "multiple_choice"
+    },
+    {
+        "_id": "6",
+        "question_number": 6,
+        "practice_set": 20,
+        "category": "ELA: Vocabulary",
+        "difficulty": "easy",
+        "time_estimate": 60,
+        "passage": "pdfData:pdf/2021-Grade-7-English.pdf",
+        "question_text": "In paragraph 12, what does the phrase \"the burden of useless stuff lifted off of them\" suggest?",
+        "options": [
+            "They are relieved of possessions they do not need.",
+            "They have removed a heavy load they had been carrying.",
+            "They have found someone who understands their problems.",
+            "They are able to get out from under something that is crushing them."
+        ],
+        "correct_answer": 0,
+        "answer_type": "multiple_choice"
+    },
+    {
+        "_id": "7",
+        "question_number": 7,
+        "practice_set": 20,
+        "category": "ELA: Reading Comprehension",
+        "difficulty": "hard",
+        "time_estimate": 90,
+        "passage": "pdfData:pdf/2021-Grade-7-English.pdf",
+        "question_text": "Which idea best supports a theme of the story?",
+        "options": [
+            "\"Our voices sound like a whole playground as we squeal and squirm.\" (paragraph 3)",
+            "\"But that makes it the perfect car for Gus, who's a trash hauler.\" (paragraph 10)",
+            "\"It's amazing, I think, his ability to take something broken and worthless and turn it into a fold of green bills in his pocket.\" (paragraph 11)",
+            "\"And that, in my mind, is another special power that belongs to Gus.\" (paragraph 12)"
+        ],
+        "correct_answer": 2,
+        "answer_type": "multiple_choice"
+    },
+    {
+        "_id": "8",
+        "question_number": 8,
+        "practice_set": 20,
+        "category": "ELA: Reading Comprehension",
+        "difficulty": "medium",
+        "time_estimate": 75,
+        "passage": "pdfData:pdf/2021-Grade-7-English.pdf",
+        "question_text": "Which phrase best describes how the article develops the idea presented in paragraph 2?",
+        "options": [
+            "by providing counterarguments",
+            "by offering solutions to the problem",
+            "by discussing personal experiences",
+            "by introducing research results"
+        ],
+        "correct_answer": 3,
+        "answer_type": "multiple_choice"
+    },
+    {
+        "_id": "9",
+        "question_number": 9,
+        "practice_set": 20,
+        "category": "ELA: Literary Devices",
+        "difficulty": "easy",
+        "time_estimate": 60,
+        "passage": "pdfData:pdf/2021-Grade-7-English.pdf",
+        "question_text": "The use of quotation marks around the word \"relaxing\" in paragraph 4 suggests that",
+        "options": [
+            "some activities hinder true relaxation",
+            "deep sleep helps one experience true relaxation",
+            "teens do not value activities that give true relaxation",
+            "blue light helps one experience true relaxation"
+        ],
+        "correct_answer": 0,
+        "answer_type": "multiple_choice"
+    },
+    {
+        "_id": "10",
+        "question_number": 10,
+        "practice_set": 20,
+        "category": "ELA: Reading Comprehension",
+        "difficulty": "medium",
+        "time_estimate": 75,
+        "passage": "pdfData:pdf/2021-Grade-7-English.pdf",
+        "question_text": "Which statement best describes how the section \"Hello, Night Owl!\" supports a central idea of the article?",
+        "options": [
+            "It describes an important cause and effect relationship.",
+            "It creates an effective comparison and contrast between ideas.",
+            "It provides evidence that disproves a popular theory.",
+            "It presents a counterargument to the initial claim."
+        ],
+        "correct_answer": 0,
+        "answer_type": "multiple_choice"
+    },
+    {
+        "_id": "11",
+        "question_number": 11,
+        "practice_set": 20,
+        "category": "ELA: Reading Comprehension",
+        "difficulty": "easy",
+        "time_estimate": 60,
+        "passage": "pdfData:pdf/2021-Grade-7-English.pdf",
+        "question_text": "Which idea would be most important to include in a summary of the article?",
+        "options": [
+            "\"Screens for television, games, computers, tablets, e-readers, and cell phones give off blue light.\" (paragraph 4)",
+            "\"Caffeine from sodas and energy drinks makes matters worse.\" (paragraph 6)",
+            "\"For one thing, lack of sleep makes it harder to pay attention.\" (paragraph 10)",
+            "\"One study found that the more sleep people got, the more likely people were to find them attractive.\" (paragraph 17)"
+        ],
+        "correct_answer": 2,
+        "answer_type": "multiple_choice"
+    },
+    {
+        "_id": "12",
+        "question_number": 12,
+        "practice_set": 20,
+        "category": "ELA: Reading Comprehension",
+        "difficulty": "medium",
+        "time_estimate": 75,
+        "passage": "pdfData:pdf/2021-Grade-7-English.pdf",
+        "question_text": "Which claim from the article is most strongly supported with evidence?",
+        "options": [
+            "\"Even without modern technology, though, teens shift their circadian rhythm.\" (paragraph 7)",
+            "\"The rest of the world doesn't shift, however.\" (paragraph 9)",
+            "\"Lack of sleep could hurt mental health.\" (paragraph 12)",
+            "\"Lots of issues remain for sleep researchers to explore.\" (paragraph 20)"
+        ],
+        "correct_answer": 2,
+        "answer_type": "multiple_choice"
+    },
+    {
+        "_id": "13",
+        "question_number": 13,
+        "practice_set": 20,
+        "category": "ELA: Reading Comprehension",
+        "difficulty": "medium",
+        "time_estimate": 75,
+        "passage": "pdfData:pdf/2021-Grade-7-English.pdf",
+        "question_text": "Which sentence from the article best shows the author's point of view?",
+        "options": [
+            "\"Blame your brain, at least in part.\" (paragraph 1)",
+            "\"And that's a serious public health problem.\" (paragraph 9)",
+            "\"Crankiness can result, especially if you don't feel well.\" (paragraph 14)",
+            "\"And you can't easily change your body's natural circadian rhythm.\" (paragraph 21)"
+        ],
+        "correct_answer": 1,
+        "answer_type": "multiple_choice"
+    },
+    {
+        "_id": "14",
+        "question_number": 14,
+        "practice_set": 20,
+        "category": "ELA: Reading Comprehension",
+        "difficulty": "hard",
+        "time_estimate": 90,
+        "passage": "pdfData:pdf/2021-Grade-7-English.pdf",
+        "question_text": "Which paragraph best summarizes a central idea from the article?",
+        "options": [
+            "paragraph 1",
+            "paragraph 3",
+            "paragraph 20",
+            "paragraph 21"
+        ],
+        "correct_answer": 2,
+        "answer_type": "multiple_choice"
+    },
+    {
+        "_id": "15",
+        "question_number": 15,
+        "practice_set": 20,
+        "category": "ELA: Vocabulary",
+        "difficulty": "easy",
+        "time_estimate": 45,
+        "passage": "pdfData:pdf/2021-Grade-7-English.pdf",
+        "question_text": "What does the phrase \"collect his thoughts\" tell the reader about Ohkwa'ri in paragraph 1?",
+        "options": [
+            "He is memorizing a speech.",
+            "He is expecting an argument.",
+            "He is hesitant to express disagreement.",
+            "He is preparing to say something important."
+        ],
+        "correct_answer": 3,
+        "answer_type": "multiple_choice"
+    },
+    {
+        "_id": "16",
+        "question_number": 16,
+        "practice_set": 20,
+        "category": "ELA: Reading Comprehension",
+        "difficulty": "medium",
+        "time_estimate": 75,
+        "passage": "pdfData:pdf/2021-Grade-7-English.pdf",
+        "question_text": "How does the forest setting shape the actions that are described in paragraph 11?",
+        "options": [
+            "The setting causes a person to move quickly.",
+            "The setting requires a person to be very careful.",
+            "The setting requires a person to be extremely quiet.",
+            "The setting causes a person to behave nervously."
+        ],
+        "correct_answer": 1,
+        "answer_type": "multiple_choice"
+    },
+    {
+        "_id": "17",
+        "question_number": 17,
+        "practice_set": 20,
+        "category": "ELA: Reading Comprehension",
+        "difficulty": "medium",
+        "time_estimate": 75,
+        "passage": "pdfData:pdf/2021-Grade-7-English.pdf",
+        "question_text": "Which important idea does the author develop in paragraph 13?",
+        "options": [
+            "Respecting privacy is a problem in the community.",
+            "Sharing helps people in the community.",
+            "Acquiring wealth is valued in the community.",
+            "Hiding useful objects prevents loss for the community."
+        ],
+        "correct_answer": 1,
+        "answer_type": "multiple_choice"
+    },
+    {
+        "_id": "18",
+        "question_number": 18,
+        "practice_set": 20,
+        "category": "ELA: Reading Comprehension",
+        "difficulty": "hard",
+        "time_estimate": 90,
+        "passage": "pdfData:pdf/2021-Grade-7-English.pdf",
+        "question_text": "Which quotation best supports a central idea of the story?",
+        "options": [
+            "\"He could help his uncle finish hollowing the bowl by blowing on the coal through the thin hollow branch of a sumac.\" (paragraph 5)",
+            "\"'Now I only have to smooth the inside and this cup will be ready to use.'\" (paragraph 6)",
+            "\"It was useful, but it was better to have something that was useful and beautiful.\" (paragraph 12)",
+            "\"'It would be a good way to learn, a good way to make myself tougher and stronger.'\" (paragraph 17)"
+        ],
+        "correct_answer": 3,
+        "answer_type": "multiple_choice"
+    },
+    {
+        "_id": "19",
+        "question_number": 19,
+        "practice_set": 20,
+        "category": "ELA: Reading Comprehension",
+        "difficulty": "easy",
+        "time_estimate": 60,
+        "passage": "pdfData:pdf/2021-Grade-7-English.pdf",
+        "question_text": "Which detail would be most important to include in a summary of the story?",
+        "options": [
+            "Ohkwa'ri helps his uncle Big Tree make a fine drinking cup.",
+            "Ohkwa'ri keeps his personal things under his bed in a box.",
+            "Ohkwa'ri blows on the coal through a sumac branch.",
+            "Ohkwa'ri knows how to safely obtain water from a river."
+        ],
+        "correct_answer": 0,
+        "answer_type": "multiple_choice"
+    },
+    {
+        "_id": "20",
+        "question_number": 20,
+        "practice_set": 20,
+        "category": "ELA: Reading Comprehension",
+        "difficulty": "medium",
+        "time_estimate": 75,
+        "passage": "pdfData:pdf/2021-Grade-7-English.pdf",
+        "question_text": "Which paragraph best shows a change in the direction of the plot of the story?",
+        "options": [
+            "paragraph 6",
+            "paragraph 7",
+            "paragraph 12",
+            "paragraph 15"
+        ],
+        "correct_answer": 3,
+        "answer_type": "multiple_choice"
+    },
+    {
+        "_id": "21",
+        "question_number": 21,
+        "practice_set": 20,
+        "category": "ELA: Reading Comprehension",
+        "difficulty": "medium",
+        "time_estimate": 75,
+        "passage": "pdfData:pdf/2021-Grade-7-English.pdf",
+        "question_text": "How does the author most develop Ohkwa'ri's point of view in the story?",
+        "options": [
+            "by contrasting him with his uncle",
+            "by showing how he imitates his uncle",
+            "by revealing his thoughts about growing up",
+            "by describing his impatience to live on his own"
+        ],
+        "correct_answer": 2,
+        "answer_type": "multiple_choice"
+    },
+    {
+        "_id": "22",
+        "question_number": 22,
+        "practice_set": 20,
+        "category": "ELA: Reading Comprehension",
+        "difficulty": "medium",
+        "time_estimate": 75,
+        "passage": "pdfData:pdf/2021-Grade-7-English.pdf",
+        "question_text": "Paragraph 2 mainly contributes to a central idea of the article because it",
+        "options": [
+            "shows that Napoleon III was an unpopular leader",
+            "gives the exact number of purposes for the gift",
+            "describes the loyalty of the French people",
+            "explains both reasons for the gift"
+        ],
+        "correct_answer": 3,
+        "answer_type": "multiple_choice"
+    },
+    {
+        "_id": "23",
+        "question_number": 23,
+        "practice_set": 20,
+        "category": "ELA: Literary Devices",
+        "difficulty": "easy",
+        "time_estimate": 60,
+        "passage": "pdfData:pdf/2021-Grade-7-English.pdf",
+        "question_text": "Read this sentence from paragraph 3.\nBartholdi wrote that the seed for the Statue of Liberty was sown at the party that night.\nThe words \"the seed for the Statue of Liberty was sown\" refer to the",
+        "options": [
+            "timetable for building the statue",
+            "first ideas about the project",
+            "plan for funding the project",
+            "design for the statue"
+        ],
+        "correct_answer": 1,
+        "answer_type": "multiple_choice"
+    },
+    {
+        "_id": "24",
+        "question_number": 24,
+        "practice_set": 20,
+        "category": "ELA: Vocabulary",
+        "difficulty": "easy",
+        "time_estimate": 45,
+        "passage": "pdfData:pdf/2021-Grade-7-English.pdf",
+        "question_text": "Read this sentence from paragraph 6.\nHe hoped to drum up enthusiasm for the project as well as find an appealing location to display the work.\nThe use of the phrase \"drum up\" shows that Bartholdi needed to",
+        "options": [
+            "discover the best place for exhibiting the completed project",
+            "reduce the cost of the project",
+            "create a widespread public demand for the project",
+            "teach the public about the reason for the project"
+        ],
+        "correct_answer": 2,
+        "answer_type": "multiple_choice"
+    },
+    {
+        "_id": "25",
+        "question_number": 25,
+        "practice_set": 20,
+        "category": "ELA: Reading Comprehension",
+        "difficulty": "easy",
+        "time_estimate": 60,
+        "passage": "pdfData:pdf/2021-Grade-7-English.pdf",
+        "question_text": "Why was Bedloe's Island selected for the site of the Statue of Liberty?",
+        "options": [
+            "The local people already knew about the history of the island.",
+            "The island was close to a populated city.",
+            "The size of the island would make the statue stand out.",
+            "The island was located in a busy harbor."
+        ],
+        "correct_answer": 3,
+        "answer_type": "multiple_choice"
+    },
+    {
+        "_id": "26",
+        "question_number": 26,
+        "practice_set": 20,
+        "category": "ELA: Reading Comprehension",
+        "difficulty": "medium",
+        "time_estimate": 75,
+        "passage": "pdfData:pdf/2021-Grade-7-English.pdf",
+        "question_text": "Which evidence from paragraph 11 best supports the author's claim that the fund-raising efforts for the Statue of Liberty were \"creative\"?",
+        "options": [
+            "\"Though the original goal of completing the statue for the hundredth birthday... seemed unlikely, the group still did its best to meet that deadline.\"",
+            "\"Appeals for donations for the statue appeared in the French press...\"",
+            "\"Banquets and balls were held in several French cities.\"",
+            "\"Bartholdi came up with just enough money to begin work on Lady Liberty.\""
+        ],
+        "correct_answer": 2,
+        "answer_type": "multiple_choice"
+    },
+    {
+        "_id": "27",
+        "question_number": 27,
+        "practice_set": 20,
+        "category": "ELA: Reading Comprehension",
+        "difficulty": "medium",
+        "time_estimate": 75,
+        "passage": "pdfData:pdf/2021-Grade-7-English.pdf",
+        "question_text": "Which event showed a change in the attitude of Americans towards the construction of the Statue of Liberty?",
+        "options": [
+            "President Ulysses S. Grant met with Bartholdi to discuss the project.",
+            "People from the United States agreed to support the Franco-American Union.",
+            "Americans wanted to hear more about the design of the statue from Bartholdi.",
+            "Americans learned that the statue was to be a symbol of freedom and democracy."
+        ],
+        "correct_answer": 1,
+        "answer_type": "multiple_choice"
+    },
+    {
+        "_id": "28",
+        "question_number": 28,
+        "practice_set": 20,
+        "category": "ELA: Reading Comprehension",
+        "difficulty": "hard",
+        "time_estimate": 90,
+        "passage": "pdfData:pdf/2021-Grade-7-English.pdf",
+        "question_text": "Which statement best describes a major contribution of Bartholdi toward making the Statue of Liberty a reality?",
+        "options": [
+            "He met with some of the most famous people in America.",
+            "He planned for a monument that would be extremely large.",
+            "He remained committed to the project over a long period of time.",
+            "He drew sketches to show the way the monument would look when completed."
+        ],
+        "correct_answer": 2,
+        "answer_type": "multiple_choice"
+    }
+]
