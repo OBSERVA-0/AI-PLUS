@@ -1,0 +1,484 @@
+[
+    {
+        "_id": "1",
+        "question_number": 1,
+        "practice_set": 21,
+        "category": "ELA: Reading Comprehension",
+        "difficulty": "easy",
+        "time_estimate": 60,
+        "passage": "pdfData:pdf/2022-Grade-7-English.pdf",
+        "question_text": "How does Chip change as a result of the way Mr. O'Dell teaches?",
+        "options": [
+            "He improves his memory.",
+            "He becomes confused.",
+            "He develops enthusiasm.",
+            "He loses confidence."
+        ],
+        "correct_answer": 2,
+        "answer_type": "multiple_choice"
+    },
+    {
+        "_id": "2",
+        "question_number": 2,
+        "practice_set": 21,
+        "category": "ELA: Literary Devices",
+        "difficulty": "easy",
+        "time_estimate": 60,
+        "passage": "pdfData:pdf/2022-Grade-7-English.pdf",
+        "question_text": "Read this sentence from paragraph 8.\nOnce when a student pointed out an anthill, Mr. O'Dell put his nose down so close to watch that Chip expected an ant to climb right onto it and march up through the freckles to stare back at him through his gold-rimmed glasses.\nWhat tone does this sentence add to the story?",
+        "options": [
+            "a curious tone",
+            "a humorous tone",
+            "an anxious tone",
+            "an observant tone"
+        ],
+        "correct_answer": 1,
+        "answer_type": "multiple_choice"
+    },
+    {
+        "_id": "3",
+        "question_number": 3,
+        "practice_set": 21,
+        "category": "ELA: Reading Comprehension",
+        "difficulty": "medium",
+        "time_estimate": 75,
+        "passage": "pdfData:pdf/2022-Grade-7-English.pdf",
+        "question_text": "How do the details about Mr. O'Dell in paragraph 11 support a central idea of the story?",
+        "options": [
+            "They show his fascination with blue skinks.",
+            "They show his appreciation for living animals.",
+            "They show his excitement about baby dinosaurs.",
+            "They show his passion for reading animals' feelings."
+        ],
+        "correct_answer": 1,
+        "answer_type": "multiple_choice"
+    },
+    {
+        "_id": "4",
+        "question_number": 4,
+        "practice_set": 21,
+        "category": "ELA: Vocabulary",
+        "difficulty": "easy",
+        "time_estimate": 45,
+        "passage": "pdfData:pdf/2022-Grade-7-English.pdf",
+        "question_text": "Which word is a synonym for \"displace\" as it is used in paragraph 14?",
+        "options": [
+            "guard",
+            "return",
+            "change",
+            "remove"
+        ],
+        "correct_answer": 3,
+        "answer_type": "multiple_choice"
+    },
+    {
+        "_id": "5",
+        "question_number": 5,
+        "practice_set": 21,
+        "category": "ELA: Reading Comprehension",
+        "difficulty": "medium",
+        "time_estimate": 75,
+        "passage": "pdfData:pdf/2022-Grade-7-English.pdf",
+        "question_text": "In the story, how does the author develop Chip's point of view of Mr. O'Dell?",
+        "options": [
+            "by mentioning that Chip is one of Mr. O'Dell's favorite students",
+            "by showing Chip answering a tough question that Mr. O'Dell asks",
+            "by explaining why Mr. O'Dell has special field trip privileges",
+            "by describing events that make an impression on Chip"
+        ],
+        "correct_answer": 3,
+        "answer_type": "multiple_choice"
+    },
+    {
+        "_id": "6",
+        "question_number": 6,
+        "practice_set": 21,
+        "category": "ELA: Reading Comprehension",
+        "difficulty": "medium",
+        "time_estimate": 75,
+        "passage": "pdfData:pdf/2022-Grade-7-English.pdf",
+        "question_text": "How do Chip's explorations in the outdoors influence him?",
+        "options": [
+            "They lead to his initial interest in a variety of local animals.",
+            "They make it difficult for him to understand Luther's point of view.",
+            "They prompt him to discover wildlife in plowed fields.",
+            "They enable him to show Luther how to handle a skink."
+        ],
+        "correct_answer": 0,
+        "answer_type": "multiple_choice"
+    },
+    {
+        "_id": "7",
+        "question_number": 7,
+        "practice_set": 21,
+        "category": "ELA: Reading Comprehension",
+        "difficulty": "hard",
+        "time_estimate": 90,
+        "passage": "pdfData:pdf/2022-Grade-7-English.pdf",
+        "question_text": "Which detail would be most important to include in a summary of \"Excerpt from The Last Wild Place\"?",
+        "options": [
+            "Mr. O'Dell treats students differently based on their interests.",
+            "Mr. O'Dell teaches science better than he teaches other subjects.",
+            "Mr. O'Dell values the purpose and habitat of every animal.",
+            "Mr. O'Dell previously taught in college and wrote a book."
+        ],
+        "correct_answer": 2,
+        "answer_type": "multiple_choice"
+    },
+    {
+        "_id": "8",
+        "question_number": 8,
+        "practice_set": 21,
+        "category": "ELA: Reading Comprehension",
+        "difficulty": "medium",
+        "time_estimate": 75,
+        "passage": "pdfData:pdf/2022-Grade-7-English.pdf",
+        "question_text": "What is most likely the author's purpose in paragraph 1?",
+        "options": [
+            "to demonstrate Susan Butcher's significant contribution to women's sports",
+            "to introduce the relationship between Susan Butcher and her dogs",
+            "to explain that more men than women compete in the Iditarod",
+            "to convey the challenges of the Iditarod race"
+        ],
+        "correct_answer": 3,
+        "answer_type": "multiple_choice"
+    },
+    {
+        "_id": "9",
+        "question_number": 9,
+        "practice_set": 21,
+        "category": "ELA: Reading Comprehension",
+        "difficulty": "easy",
+        "time_estimate": 60,
+        "passage": "pdfData:pdf/2022-Grade-7-English.pdf",
+        "question_text": "What do the details in paragraph 4 explain about the Iditarod?",
+        "options": [
+            "why more men than women enter the Iditarod",
+            "why Susan Butcher had to withdraw from the Iditarod",
+            "how much preparation is needed to compete in the Iditarod",
+            "how Susan Butcher selected her team of dogs for the Iditarod"
+        ],
+        "correct_answer": 2,
+        "answer_type": "multiple_choice"
+    },
+    {
+        "_id": "10",
+        "question_number": 10,
+        "practice_set": 21,
+        "category": "ELA: Literary Devices",
+        "difficulty": "medium",
+        "time_estimate": 75,
+        "passage": "pdfData:pdf/2022-Grade-7-English.pdf",
+        "question_text": "What is the effect of the author's use of the word \"must\" four times in the sentences at the beginning of paragraph 5?",
+        "options": [
+            "It emphasizes that the ideas in these sentences are critical for the race.",
+            "It demonstrates that the ideas in these sentences reflect what the musher believes.",
+            "It indicates that the ideas in these sentences are essentially the same.",
+            "It shows that the ideas in these sentences are the only important traits."
+        ],
+        "correct_answer": 0,
+        "answer_type": "multiple_choice"
+    },
+    {
+        "_id": "11",
+        "question_number": 11,
+        "practice_set": 21,
+        "category": "ELA: Reading Comprehension",
+        "difficulty": "hard",
+        "time_estimate": 90,
+        "passage": "pdfData:pdf/2022-Grade-7-English.pdf",
+        "question_text": "Which claim by the author is most strongly supported with evidence?",
+        "options": [
+            "\"Two pet Siberian huskies kindled her interest in dogsled racing.\" (paragraph 3)",
+            "\"The musher must have faith in each and every dog on her team...\" (paragraph 5)",
+            "\"...the race was still largely the domain of men.\" (paragraph 6)",
+            "\"In 1986, it was Butcher's turn.\" (paragraph 8)"
+        ],
+        "correct_answer": 1,
+        "answer_type": "multiple_choice"
+    },
+    {
+        "_id": "12",
+        "question_number": 12,
+        "practice_set": 21,
+        "category": "ELA: Reading Comprehension",
+        "difficulty": "easy",
+        "time_estimate": 60,
+        "passage": "pdfData:pdf/2022-Grade-7-English.pdf",
+        "question_text": "Which quotation best portrays Susan Butcher's relationship with her dogs?",
+        "options": [
+            "\"...she studied veterinary medicine at a nearby university, focusing on the care of dogs.\" (paragraph 3)",
+            "\"...both the musher of the dogsled and the entire team of dogs must be in top physical condition.\" (paragraph 4)",
+            "\"...Butcher bonded with her dogs and treated them as friends, family, and professional athletes.\" (paragraph 5)",
+            "\"...Butcher was able to pull the dogs to safety and continue the race.\" (paragraph 8)"
+        ],
+        "correct_answer": 2,
+        "answer_type": "multiple_choice"
+    },
+    {
+        "_id": "13",
+        "question_number": 13,
+        "practice_set": 21,
+        "category": "ELA: Reading Comprehension",
+        "difficulty": "medium",
+        "time_estimate": 75,
+        "passage": "pdfData:pdf/2022-Grade-7-English.pdf",
+        "question_text": "Which statement best expresses the relationship between paragraph 3 and paragraph 8?",
+        "options": [
+            "Paragraph 3 provides a summary, and paragraph 8 lists details.",
+            "Paragraph 3 explains a cause, and paragraph 8 reveals effects.",
+            "Paragraph 3 describes goals, and paragraph 8 presents an outcome.",
+            "Paragraph 3 identifies problems, and paragraph 8 explains a solution."
+        ],
+        "correct_answer": 2,
+        "answer_type": "multiple_choice"
+    },
+    {
+        "_id": "14",
+        "question_number": 14,
+        "practice_set": 21,
+        "category": "ELA: Reading Comprehension",
+        "difficulty": "easy",
+        "time_estimate": 60,
+        "passage": "pdfData:pdf/2022-Grade-7-English.pdf",
+        "question_text": "Which detail would be most important to include in a summary of the article?",
+        "options": [
+            "\"...Butcher was drawn as a child to the wilderness and to the animals that filled it.\" (paragraph 2)",
+            "\"Training for the Iditarod encompasses a wide scope of activities.\" (paragraph 4)",
+            "\"The portion of trail to the left was a flimsy snow bridge that would have collapsed...\" (paragraph 5)",
+            "\"She had not only won the race, she had also set a new speed record.\" (paragraph 8)"
+        ],
+        "correct_answer": 3,
+        "answer_type": "multiple_choice"
+    },
+    {
+        "_id": "29",
+        "question_number": 29,
+        "practice_set": 21,
+        "category": "ELA: Vocabulary",
+        "difficulty": "easy",
+        "time_estimate": 45,
+        "passage": "pdfData:pdf/2022-Grade-7-English.pdf",
+        "question_text": "What does the word \"precision\" mean as it is used in paragraph 3?",
+        "options": [
+            "frequency",
+            "force",
+            "accuracy",
+            "speed"
+        ],
+        "correct_answer": 2,
+        "answer_type": "multiple_choice"
+    },
+    {
+        "_id": "30",
+        "question_number": 30,
+        "practice_set": 21,
+        "category": "ELA: Reading Comprehension",
+        "difficulty": "medium",
+        "time_estimate": 75,
+        "passage": "pdfData:pdf/2022-Grade-7-English.pdf",
+        "question_text": "What idea do paragraphs 7 and 8 share?",
+        "options": [
+            "Stringed instruments are characterized by natural materials.",
+            "Some instruments are more popular and appealing than others.",
+            "New instruments can be created from everyday materials.",
+            "Even simple instruments can produce beautiful music."
+        ],
+        "correct_answer": 2,
+        "answer_type": "multiple_choice"
+    },
+    {
+        "_id": "31",
+        "question_number": 31,
+        "practice_set": 21,
+        "category": "ELA: Vocabulary",
+        "difficulty": "medium",
+        "time_estimate": 60,
+        "passage": "pdfData:pdf/2022-Grade-7-English.pdf",
+        "question_text": "What does the word \"version\" mean as it is used in paragraph 10?",
+        "options": [
+            "a special edition",
+            "a specific performance",
+            "a related form of an earlier   work",
+            "an example from a variety of types"
+        ],
+        "correct_answer": 2,
+        "answer_type": "multiple_choice"
+    },
+    {
+        "_id": "32",
+        "question_number": 32,
+        "practice_set": 21,
+        "category": "ELA: Reading Comprehension",
+        "difficulty": "easy",
+        "time_estimate": 60,
+        "passage": "pdfData:pdf/2022-Grade-7-English.pdf",
+        "question_text": "How is paragraph 10 mainly structured?",
+        "options": [
+            "by comparing and contrasting ideas",
+            "by presenting events in time order",
+            "by stating causes and effects",
+            "by detailing solutions to problems"
+        ],
+        "correct_answer": 1,
+        "answer_type": "multiple_choice"
+    },
+    {
+        "_id": "33",
+        "question_number": 33,
+        "practice_set": 21,
+        "category": "ELA: Reading Comprehension",
+        "difficulty": "hard",
+        "time_estimate": 90,
+        "passage": "pdfData:pdf/2022-Grade-7-English.pdf",
+        "question_text": "Which quotation best conveys a central idea of the article?",
+        "options": [
+            "\"Many of the instruments we know and play today, like the piano, the guitar, and the oboe, evolved from these older instruments.\" (paragraph 1)",
+            "\"The fact that marimba songs were well liked by Americans shows the increased exposure the public had to foreign styles of music.\" (paragraph 4)",
+            "\"During the Great Depression, people couldn't afford store-bought instruments so they made their own.\" (paragraph 8)",
+            "\"Whistling is a way to use your vocal cords as a musical instrument.\" (paragraph 11)"
+        ],
+        "correct_answer": 0,
+        "answer_type": "multiple_choice"
+    },
+    {
+        "_id": "34",
+        "question_number": 34,
+        "practice_set": 21,
+        "category": "ELA: Reading Comprehension",
+        "difficulty": "medium",
+        "time_estimate": 75,
+        "passage": "pdfData:pdf/2022-Grade-7-English.pdf",
+        "question_text": "What point of view is the author most likely expressing in paragraph 11?",
+        "options": [
+            "Musical instruments should be made available to everyone.",
+            "The ability to make music is widespread.",
+            "Everyone should involve themselves with music.",
+            "Listening to music brings great joy."
+        ],
+        "correct_answer": 1,
+        "answer_type": "multiple_choice"
+    },
+    {
+        "_id": "35",
+        "question_number": 35,
+        "practice_set": 21,
+        "category": "ELA: Reading Comprehension",
+        "difficulty": "medium",
+        "time_estimate": 75,
+        "passage": "pdfData:pdf/2022-Grade-7-English.pdf",
+        "question_text": "Which sentence would be most important to include in a summary of the article?",
+        "options": [
+            "Many musical instruments have been made by using simple available materials.",
+            "Percussion instruments make sounds when struck, shaken, or scraped.",
+            "Guitars are used by Hawaiian, country, rock, and bluegrass musicians.",
+            "The zurna was first used in military bands and to greet important persons."
+        ],
+        "correct_answer": 0,
+        "answer_type": "multiple_choice"
+    },
+    {
+        "_id": "36",
+        "question_number": 36,
+        "practice_set": 21,
+        "category": "ELA: Reading Comprehension",
+        "difficulty": "medium",
+        "time_estimate": 180,
+        "passage": "pdfData:pdf/2022-Grade-7-English.pdf",
+        "question_text": "In paragraph 10 of \"Unearthing the Arabia,\" why does the author include the information about property owner Norman Sortor? Use two details from the article to support your response.",
+        "options": [],
+        "correct_answer": null,
+        "answer_type": "short_response"
+    },
+    {
+        "_id": "37",
+        "question_number": 37,
+        "practice_set": 21,
+        "category": "ELA: Reading Comprehension",
+        "difficulty": "medium",
+        "time_estimate": 180,
+        "passage": "pdfData:pdf/2022-Grade-7-English.pdf",
+        "question_text": "How does the author of \"Unearthing the Arabia\" support the claim that treasure hunting was a lifelong interest for the Hawley family? Use two details from the article to support your response.",
+        "options": [],
+        "correct_answer": null,
+        "answer_type": "short_response"
+    },
+    {
+        "_id": "38",
+        "question_number": 38,
+        "practice_set": 21,
+        "category": "ELA: Reading Comprehension",
+        "difficulty": "hard",
+        "time_estimate": 240,
+        "passage": "pdfData:pdf/2022-Grade-7-English.pdf",
+        "question_text": "In the article \"Unearthing the Arabia,\" what is the meaning of the final heading \"The Real Treasure\"? Use two details from the article to support your response.",
+        "options": [],
+        "correct_answer": null,
+        "answer_type": "short_response"
+    },
+    {
+        "_id": "39",
+        "question_number": 39,
+        "practice_set": 21,
+        "category": "ELA: Reading Comprehension",
+        "difficulty": "medium",
+        "time_estimate": 180,
+        "passage": "pdfData:pdf/2022-Grade-7-English.pdf",
+        "question_text": "How do Gabby's feelings change during the course of the poem \"Persistent\"? Use two details from the poem to support your response.",
+        "options": [],
+        "correct_answer": null,
+        "answer_type": "short_response"
+    },
+    {
+        "_id": "40",
+        "question_number": 40,
+        "practice_set": 21,
+        "category": "ELA: Literary Devices",
+        "difficulty": "medium",
+        "time_estimate": 180,
+        "passage": "pdfData:pdf/2022-Grade-7-English.pdf",
+        "question_text": "In \"Persistent,\" how do the phrases \"carry them away\" (line 25) and \"bringing daydreams in for a landing\" (lines 41-42) relate to each other? Use two details from the poem to support your response.",
+        "options": [],
+        "correct_answer": null,
+        "answer_type": "short_response"
+    },
+    {
+        "_id": "41",
+        "question_number": 41,
+        "practice_set": 21,
+        "category": "ELA: Reading Comprehension",
+        "difficulty": "medium",
+        "time_estimate": 180,
+        "passage": "pdfData:pdf/2022-Grade-7-English.pdf",
+        "question_text": "In paragraph 3, what is most likely the author's purpose for including details about the girls Emmaline knows? Use two details from the story to support your response.",
+        "options": [],
+        "correct_answer": null,
+        "answer_type": "short_response"
+    },
+    {
+        "_id": "42",
+        "question_number": 42,
+        "practice_set": 21,
+        "category": "ELA: Reading Comprehension",
+        "difficulty": "medium",
+        "time_estimate": 180,
+        "passage": "pdfData:pdf/2022-Grade-7-English.pdf",
+        "question_text": "In \"Excerpt from The Strictest School in the World\" how does the shift between paragraphs 6 and 7 contribute to the story? Use two details from the story to support your response.",
+        "options": [],
+        "correct_answer": null,
+        "answer_type": "short_response"
+    },
+    {
+        "_id": "43",
+        "question_number": 43,
+        "practice_set": 21,
+        "category": "ELA: Comparative Analysis",
+        "difficulty": "hard",
+        "time_estimate": 300,
+        "passage": "pdfData:pdf/2022-Grade-7-English.pdf",
+        "question_text": "The poem \"Persistent\" and the story \"Excerpt from The Strictest School in the World\" convey a similar theme.\nWhat theme is shared in the poem and the story?\nHow do the poet and the author develop this theme in each text?\nUse details from both the poem and the story to support your response.\n\nIn your response, be sure to\n• identify a theme that is shared in \"Persistent\" and \"Excerpt from The Strictest School in the World\"\n• explain how the poet and the author develop this theme in each text\n• use details from both the poem and the story to support your response",
+        "options": [],
+        "correct_answer": null,
+        "answer_type": "essay_response"
+    }
+]
