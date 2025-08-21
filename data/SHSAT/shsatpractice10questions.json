@@ -1264,14 +1264,14 @@
         "difficulty": "easy",
         "time_estimate": 95,
         "passage": "",
-        "question_text": "Mary is m years old now. Joe is 3 years younger than Mary. Express Joe's age 10 years from now in terms of m.",
+        "question_text": "In Smallville, 48% of the population is female, and 65% of the population commutes to work daily. Also, 10% of the population is male and does not commute to work daily. What percentage of the total Smallville population is female and does commute to work daily?",
         "options": [
-            "13 - m",
-            "m - 3",
-            "m + 7",
-            "m + 10"
+            "17%",
+            "23%",
+            "38%",
+            "65%"
         ],
-        "correct_answer": 2
+        "correct_answer": 1
     },
     {
         "_id": "77",
@@ -1281,14 +1281,14 @@
         "difficulty": "easy",
         "time_estimate": 95,
         "passage": "",
-        "question_text": "The smaller angle between the hands of a clock at 10:00 is",
+        "question_text": "The set of possible values of m is {2, 4, 6}.What is the set of possible values of k if 2k = m + 4?",
         "options": [
-            "15°",
-            "30°",
-            "45°",
-            "60°"
+            "{3, 4, 5}",
+            "{6, 8, 10}",
+            "{3, 5, 7}",
+            "{12, 16, 20}"
         ],
-        "correct_answer": 3
+        "correct_answer": 0
     },
      {
         "_id": "78",
@@ -1298,14 +1298,14 @@
         "difficulty": "easy",
         "time_estimate": 95,
         "passage": "",
-        "question_text": "Find the smallest positive integer that is a multiple of both 21 and 77.",
+        "question_text": " In a sample of 10 cards, 4 are red and 6 are blue. If cards are selected at random from the sample, one at a time without replacement, what is the probability that both cards are not red?",
         "options": [
-            "7",
-            "33",
-            "98",
-            "231"
+            "3/10",
+            "1/3",
+            "9/25",
+            "3/5"
         ],
-        "correct_answer": 3
+        "correct_answer": 1
         
     },
     {
@@ -1315,15 +1315,15 @@
         "category": "Math:Data Interpretation",
         "difficulty": "easy",
         "time_estimate": 95,
-        "passage": "image:images/shsatpractice10question79.png",
-        "question_text": "Over which interval was the growth in the value of the stock of the ABC Company most rapid?",
+        "passage": "1 dreck = 3 klemps\n3 fligs =2 zorks\n2 zorks = 5 drecks\n4 groms = 1 flig",
+        "question_text": "A nation has five types of coins: drecks, fligs, groms, klemps, and zorks. The relationship between the coins is shown above. Which coin is most valuable?",
         "options": [
-            "March to April",
-            "April to May",
-            "May to June",
-            "June to July"
+            "dreck",
+            "flig",
+            "klemp",
+            "zork"
         ],
-        "correct_answer": 0
+        "correct_answer": 3
         
     },
     {
@@ -1333,13 +1333,13 @@
         "category": "Math:Scientific Notation",
         "difficulty": "easy",
         "time_estimate": 95,
-        "passage": "",
-        "question_text": "Express the sum of 1.2 x 10² and 1.2 x 10³ in scientific notation.",
+        "passage": "image:images/shsatpractice10question80.png",
+        "question_text": "What is the area of the shaded region in the graph above?",
         "options": [
-            "0.144 x 10⁶",
-            "1.44 x 10⁵",
-            "1.32 x 10³",
-            "2.4 x 10⁵"
+            "0.5 square units",
+            "4 square units",
+            "8 square units",
+            "16 square units"
         ],
         "correct_answer": 2
         
@@ -1351,15 +1351,15 @@
         "category": "Math:Word Problems",
         "difficulty": "medium",
         "time_estimate": 95,
-        "passage": "",
-        "question_text": "Today is Saturday. What day of the week will it be 65 days from today?",
+        "passage": "image:images/shsatpractice10question81.png",
+        "question_text": "As vehicles passed through a checkpoint, a researcher recorded the number of people in each vehicle. The table above shows the percent distribution for the 450 vehicles that passed through the checkpoint yesterday morning. How many of the vehicles contained at least 3 people?",
         "options": [
-            "Sunday",
-            "Monday",
-            "Tuesday",
-            "Wednesday"
+            "30",
+            "99",
+            "135",
+            "315"
         ],
-        "correct_answer": 0
+        "correct_answer": 2
         
     },
     {
@@ -1369,15 +1369,15 @@
         "category": "Math:Geometry",
         "difficulty": "medium",
         "time_estimate": 95,
-        "passage": "image:images/shsatpracitce10question82.png",
-        "question_text": "The circles are 'tangent' to the rectangle and to each other, as shown. If the area of each circle is 16π, then the area of the rectangle is",
+        "passage": "",
+        "question_text": "Today, Jin's age is of Mary's age. In four years, 1/3 Jin's age will be 1/2 of Mary's age. How old is Mary today? ",
         "options": [
-            "32",
-            "48",
-            "96",
-            "128"
+            "6 years old",
+            "9 years old",
+            "12 years old",
+            "16 years old"
         ],
-        "correct_answer": 3
+        "correct_answer": 2
         
     },
     {
@@ -1388,14 +1388,14 @@
         "difficulty": "easy",
         "time_estimate": 95,
         "passage": "",
-        "question_text": "Thirty of the fifty students who took an exam received a grade of 90% or greater. What percentage of those fifty students received a grade of less than 90%?",
+        "question_text": " In a scale drawing of a triangular banner, one side measures 16 centimeters and the other two sides each measure 18 centimeters. On the actual banner, these two sides each measure 36 feet. What is the length of the remaining side of the banner?",
         "options": [
-            "70",
-            "35",
-            "40",
-            "30"
+            "16 ft",
+            "32 ft",
+            "34 ft",
+            "48 ft"
         ],
-        "correct_answer": 2
+        "correct_answer": 1
         
     },
     {
@@ -1406,14 +1406,14 @@
         "difficulty": "easy",
         "time_estimate": 95,
         "passage": "",
-        "question_text": "Let n be a number from 3 to 4 inclusive. What is the range of values of n²?",
+        "question_text": "There are 154 teachers on the faculty of Central University, and there are 604 first-year students. The student-to-faculty ratio for the entire university is 12 to 1.What is the total number of second-, third-, and fourth-year students?",
         "options": [
-            "-9 ≤ n² ≤ 16",
-            "9 ≤ n² ≤ 16",
-            "3 ≤ n² ≤ 4",
-            "0 ≤ n² ≤ 16"
+            "1,244",
+            "1,318",
+            "1,836",
+            "1,848"
         ],
-        "correct_answer": 1
+        "correct_answer": 0
         
     },
     {
@@ -1423,15 +1423,15 @@
         "category": "Math:Algebra",
         "difficulty": "easy",
         "time_estimate": 95,
-        "passage": "",
-        "question_text": "A is 3 times C. B is 8 less than C. For what value of C does A = B?",
+        "passage": "image:images/shsatpractice10question85.png",
+        "question_text": "What is the value of the expression shown above?",
         "options": [
-            "-4",
-            "0",
-            "1",
-            "2"
+            "14 and 7/20",
+            "14 and 2/5",
+            "15 and 7/20",
+            "15 and 2/5"
         ],
-        "correct_answer": 0
+        "correct_answer": 3
         
     },
     {
@@ -1441,15 +1441,15 @@
         "category": "Math:Sets",
         "difficulty": "easy",
         "time_estimate": 95,
-        "passage": "",
-        "question_text": "In a class of 28 students, everyone likes math, English, or both. If 17 like math and 19 like English, how many like both?",
+        "passage": "image:images/shsatpractice10question86.png",
+        "question_text": "Choose an answer",
         "options": [
-            "2",
-            "8",
-            "16",
-            "20"
+            "A",
+            "B",
+            "C",
+            "D"
         ],
-        "correct_answer": 1
+        "correct_answer": 3
         
     },
     {
@@ -1460,14 +1460,14 @@
         "difficulty": "medium",
         "time_estimate": 95,
         "passage": "",
-        "question_text": "Let x = 3² * 5³ * 7⁴ and y = 2³ * 3 * 5². What is the greatest common factor of x and y?",
+        "question_text": "Which of the following numbers has factors that include the smallest factor (other than 1) of 143?",
         "options": [
-            "2 * 3 * 5 * 7",
-            "2³ * 3² * 5³ * 7⁴",
-            "3 * 5",
-            "3 * 5²"
+            "30",
+            "39",
+            "44",
+            "49"
         ],
-        "correct_answer": 3
+        "correct_answer": 2
         
     },
     {
@@ -1478,12 +1478,12 @@
         "difficulty": "medium",
         "time_estimate": 95,
         "passage": "",
-        "question_text": "The equation 2(3x + 8) = 3(2x + 4) is satisfied by",
+        "question_text": " 9+ (2n +4) — (4n +8)",
         "options": [
-            "no value of x",
-            "only negative values of x",
-            "only positive values of x",
-            "all values of x"
+            "5 - 2n",
+            "5 + 2n",
+            "21 - 2n",
+            "21 + 2n"
         ],
         "correct_answer": 0
         
@@ -1496,14 +1496,14 @@
         "difficulty": "easy",
         "time_estimate": 95,
         "passage": "",
-        "question_text": "In the formula V = s²h, if s is doubled and h is tripled, then V is multiplied by",
+        "question_text": "The least of 3 consecutive integers is k. What is the sum of the three consecutive integers in terms of k",
         "options": [
-            "5",
-            "6",
-            "12",
-            "18"
+            "k + 2",
+            "k + 3",
+            "3k",
+            "3k + 3"
         ],
-        "correct_answer": 2
+        "correct_answer": 3
         
     },
     {
@@ -1514,14 +1514,14 @@
         "difficulty": "medium",
         "time_estimate": 95,
         "passage": "",
-        "question_text": "You have 10 large boxes that can each hold 8 soccer balls, and 10 small boxes that can each hold 5 of the same soccer balls. If you have 99 soccer balls, what is the greatest number of boxes you can completely fill?",
+        "question_text": "Julia leased a car for three years. She paid a one-time fee of $1,200 and an additional $250 per month for the full three years. At the end of the three years, what is the total amount Julia paid for leasing this car?",
         "options": [
-            "13",
-            "14",
-            "15",
-            "16"
+            "$1,950",
+            "$4,200",
+            "$10,200",
+            "$11,200"
         ],
-        "correct_answer": 0
+        "correct_answer": 1
         
     },
     {
@@ -1531,15 +1531,15 @@
         "category": "Math:Data Interpretation",
         "difficulty": "easy",
         "time_estimate": 95,
-        "passage": "image:images/shsatpractice10question91.png",
-        "question_text": "The straight line graph shows the relationship between number of hours worked and amount earned. How much would be earned for 50 hours of work?",
+        "passage": "",
+        "question_text": "There are 10 different cookies on a plate. Amin will choose 2 of these cookies to pack in his lunch. How many different pairs of 2 cookies can he choose from the 10?",
         "options": [
-            "$50",
-            "$83",
-            "$120",
-            "$300"
+            "20",
+            "45",
+            "90",
+            "100"
         ],
-        "correct_answer": 3
+        "correct_answer": 1
         
     },
     {
@@ -1549,15 +1549,15 @@
         "category": "Math:Geometry",
         "difficulty": "medium",
         "time_estimate": 95,
-        "passage": "",
-        "question_text": "The perimeter of a triangle, all of whose sides have integer length, is 19. A possible length for the largest side is",
+        "passage": "image:images/shsatpractice10question92.png",
+        "question_text": "Choose an Answer",
         "options": [
             "6",
             "8",
             "10",
             "15"
         ],
-        "correct_answer": 1
+        "correct_answer": 3
         
     },
     {
@@ -1567,15 +1567,15 @@
         "category": "Math:Inequalities",
         "difficulty": "easy",
         "time_estimate": 95,
-        "passage": "",
-        "question_text": "A value of x that satisfies the inequality 2x - 10 > 3x is",
+        "passage": "image:images/shsatpractice10question93.png",
+        "question_text": "The graph above shows the number of clubs per school for five small schools. Clubs at schools M and N each have 25 students per club. Clubs at School P have 20 students per club. Clubs at schools Q and R each have 40 students per club. Which of the five schools has the greatest number of students participating in clubs?",
         "options": [
-            "-11",
-            "-10",
-            "-1",
-            "0"
+            "School M",
+            "School P",
+            "School Q",
+            "School R"
         ],
-        "correct_answer": 0
+        "correct_answer": 2
         
     },
     {
