@@ -978,9 +978,9 @@
         "difficulty": "easy",
         "time_estimate": 95,
         "passage": "",
-        "question_text": "In a bakery that sells cookies, there are 4 oatmeal cookies for every 11 chocolate cookies. If there are 285 cookies altogether, how many oatmeal cookies are there?",
+        "question_text": "For what value of w is 6w + 36 = 2w - 16?",
         "options": [],
-        "correct_answer": 76,
+        "correct_answer": -13,
         "answer_type": "fill_in_the_blank"
     },
     {
@@ -991,9 +991,9 @@
         "difficulty": "easy",
         "time_estimate": 95,
         "passage": "",
-        "question_text": "Solve for x: |10 - 14| + |4.5 - 5.9| = 10 + x",
+        "question_text": "A car dealership has SUVs and sedans in a ratio of 5:9. How many sedans does the car dealership have if there are 140 SUVs?",
         "options": [],
-        "correct_answer": -4.6,
+        "correct_answer": 252,
         "answer_type": "fill_in_the_blank"
     },
     {
@@ -1003,10 +1003,10 @@
         "category": "Math:Sets",
         "difficulty": "medium",
         "time_estimate": 95,
-        "passage": "A survey asked students about what classes they were taking. Based on the results, the following statements are all true:\n- 32 students are taking math\n- 38 students are taking English\n- 18 students are taking both math and English\n- 5 students are taking neither math nor English",
-        "question_text": "How many students were surveyed?",
+        "passage": "image:images/shsatpractice10question60.png",
+        "question_text": " In the figure, PQRS is a parallelogram. What is the value of x?",
         "options": [],
-        "correct_answer": 57,
+        "correct_answer": 161,
         "answer_type": "fill_in_the_blank"
     },
     {
@@ -1016,10 +1016,10 @@
         "category": "Math:Geometry",
         "difficulty": "easy",
         "time_estimate": 95,
-        "passage": "image:images/shsatpractice10question61.png",
-        "question_text": "Four straight lines intersect at point P, as shown above. What is the value of x?",
+        "passage": "",
+        "question_text": "The sum of three consecutive integers is -15. If 1 is added to each integer, what is the product of the three resulting integers?",
         "options": [],
-        "correct_answer": 46,
+        "correct_answer": -60,
         "answer_type": "fill_in_the_blank"
     },
     {
@@ -1029,10 +1029,10 @@
         "category": "Math:Permutations",
         "difficulty": "medium",
         "time_estimate": 95,
-        "passage": "",
-        "question_text": "How many ways can the letters of the word SNOW be arranged horizontally so that the letters N and O are always immediately next to each other (either NO or ON)?",
+        "passage": "A survey asked students about their color preferences. Based on the results, the following statements are all true: \n78 students like green.\n84 students like yellow.\n29 students like both green and yellow.\n34 students like neither green nor yellow.",
+        "question_text": "How many students were surveyed?",
         "options": [],
-        "correct_answer": 12,
+        "correct_answer": 167,
         "answer_type": "fill_in_the_blank"
     },
     {
@@ -1043,7 +1043,7 @@
         "difficulty": "easy",
         "time_estimate": 95,
         "passage": "",
-        "question_text": "(3 + 4)² =",
+        "question_text": "",
         "options": [
             "13",
             "14",
@@ -1111,7 +1111,7 @@
         "difficulty": "easy",
         "time_estimate": 95,
         "passage": "",
-        "question_text": "What is the value of N if 1/5 - 1/6 = 1/N?",
+        "question_text": "100 (2 + 0.2)² = ",
         "options": [
             "7",
             "30",
