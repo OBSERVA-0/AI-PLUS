@@ -1043,14 +1043,14 @@
         "difficulty": "easy",
         "time_estimate": 95,
         "passage": "",
-        "question_text": "",
+        "question_text": "Ms. Bradley went to the store and bought six bottles of water for $0.75 each and 8 pounds of meat. Her total was $46.10 for these items, not including tax. What was the price per pound of the meat?",
         "options": [
-            "13",
-            "14",
-            "19",
-            "49"
+            "$5.20",
+            "$5.75",
+            "$33.60",
+            "$41.60"
         ],
-        "correct_answer": 3
+        "correct_answer": 0
     },
     {
         "_id": "64",
@@ -1060,14 +1060,14 @@
         "difficulty": "easy",
         "time_estimate": 95,
         "passage": "",
-        "question_text": "The exact value of √49 - √24 is",
+        "question_text": "Which of the following numbers has an odd number of positive factors?",
         "options": [
-            "2",
-            "between 2 and 5",
-            "5",
-            "more than 5"
+            "12",
+            "24",
+            "36",
+            "48"
         ],
-        "correct_answer": 1
+        "correct_answer": 2
     },
     {
         "_id": "65",
@@ -1077,14 +1077,14 @@
         "difficulty": "easy",
         "time_estimate": 95,
         "passage": "",
-        "question_text": "200% of 7 is",
+        "question_text": "A metal plate used in a mechanical device must have a thickness of 0.02 inch, with an allowable error of 1%. What is the least allowable thickness of the metal square?",
         "options": [
-            ".14",
-            "7",
-            "14",
-            "21"
+            "0.0002 in.",
+            "0.0198 in.",
+            "0.0202 in.",
+            "0.01 in."
         ],
-        "correct_answer": 2
+        "correct_answer": 1
     },
     {
         "_id": "66",
@@ -1093,15 +1093,15 @@
         "category": "Math:Geometry",
         "difficulty": "medium",
         "time_estimate": 95,
-        "passage": "image:images/shsatpractice10question66.png",
-        "question_text": "The perimeter of the figure is",
+        "passage": "",
+        "question_text": "On a car, the radius of each tire is 1 foot. If the car travels at 2,200 feet per minute, how many revolutions does one tire make in 2 minutes? (Use 22/7 the approximation for ㅠ.)",
         "options": [
-            "5",
-            "6",
-            "7",
-            "14"
+            "700",
+            "1,925",
+            "13,828",
+            "15,400"
         ],
-        "correct_answer": 3
+        "correct_answer": 0
     },
     {
         "_id": "67",
@@ -1111,14 +1111,14 @@
         "difficulty": "easy",
         "time_estimate": 95,
         "passage": "",
-        "question_text": "100 (2 + 0.2)² = ",
+        "question_text": "100 (2 + 0.2)² - 100 = ",
         "options": [
-            "7",
-            "30",
-            "1/30",
-            "-30"
+            "102",
+            "120",
+            "340",
+            "384"
         ],
-        "correct_answer": 1
+        "correct_answer": 3
     },
     {
         "_id": "68",
@@ -1127,15 +1127,15 @@
         "category": "Math:Arithmetic",
         "difficulty": "easy",
         "time_estimate": 95,
-        "passage": "",
-        "question_text": "Find the value of (2⁴ - 4²) + (2³ - 3²).",
+        "passage": "image:images/shsatpractice10question68.png",
+        "question_text": "What is the mean score of the 10 students in the table above?",
         "options": [
-            "-11",
-            "-8",
-            "-1",
-            "0"
+            "22.5",
+            "69",
+            "75",
+            "76"
         ],
-        "correct_answer": 2
+        "correct_answer": 3
     },
     {
         "_id": "69",
@@ -1144,13 +1144,13 @@
         "category": "Math:Coordinate Geometry",
         "difficulty": "medium",
         "time_estimate": 95,
-        "passage": "image:images/shsatpractice10question69.png",
-        "question_text": "On the number line shown, Q  is the midpoint of PR. What is the midpoint of QS?",
+        "passage": "",
+        "question_text": "Greg and Cleo are playing a game and they each have a certain numbers of chips. Greg starts with twice as many chips as Cleo. After he gives her 8 chips, he still has 9 more than Cleo. How many chips did Greg have before he gave the 8 chips to Cleo?",
         "options": [
-            "-5",
-            "-4",
-            "0",
-            "1"
+            "18",
+            "34",
+            "48",
+            "50"
         ],
         "correct_answer": 3
     },
@@ -1162,14 +1162,14 @@
         "difficulty": "easy",
         "time_estimate": 95,
         "passage": "",
-        "question_text": "The ratio of boys to girls at a dance was 2 to 3. If 45 girls attended, what is the number of boys who attended?",
+        "question_text": "The perimeter of a rectangle is 350 centimeters. The ratio of the length to the width is 4: 3. What are the dimensions of this rectangle?",
         "options": [
-            "9",
-            "18",
-            "27",
-            "30"
+            "40 cm by 30 cm",
+            "100 cm by 75 cm",
+            "125 cm by 50 cm",
+            "200 cm by 150 cm"
         ],
-        "correct_answer": 3
+        "correct_answer": 1
     },
     {
         "_id": "71",
@@ -1178,15 +1178,15 @@
         "category": "Math:Geometry",
         "difficulty": "medium",
         "time_estimate": 95,
-        "passage": "image:images/shsatpractice10question71.png",
-        "question_text": "In the triangle shown, the measure of angle A is 40°. If the lengths of the two sides adjacent to angle A are equal, what is the value of x + y?",
+        "passage": "image:images/shsatpractice10question71a.png",
+        "question_text": "Select an answer",
         "options": [
-            "80°",
-            "120°",
-            "180°",
-            "220°"
+            "A",
+            "B",
+            "C",
+            "D"
         ],
-        "correct_answer": 3
+        "correct_answer": 0
     },
     {
         "_id": "72",
@@ -1195,15 +1195,15 @@
         "category": "Math:Algebra",
         "difficulty": "easy",
         "time_estimate": 95,
-        "passage": "",
-        "question_text": "If 6x is increased by 4y, and the sum is divided by 2, the result is equivalent to",
+        "passage": "1 dollar = 9 fleegs\n1dollar = 0.5 grat",
+        "question_text": "Karen has 36 fleegs and 100 grats. If she exchanges the fleegs and grats for dollars according to the rates above, how many dollars will she receive?",
         "options": [
-            "3x + 4y",
-            "6x + 2y",
-            "3x + 2y",
-            "(10x+y)/2"
+            "$54",
+            "$204",
+            "$374",
+            "$524"
         ],
-        "correct_answer": 2
+        "correct_answer": 1
     },
     {
         "_id": "73",
@@ -1212,15 +1212,15 @@
         "category": "Math:Functions",
         "difficulty": "medium",
         "time_estimate": 95,
-        "passage": "A function is defined as a*b = aᵇ",
-        "question_text": "What is 2*(3*2)?",
+        "passage": "",
+        "question_text": " A box of colored pencils contains exactly 8 red pencils. The probability of choosing a red pencil from the box is 2. How many of the pencils in the box are not red?",
         "options": [
-            "512",
-            "256",
-            "81",
-            "64"
+            "5",
+            "17",
+            "20",
+            "28"
         ],
-        "correct_answer": 0
+        "correct_answer": 2
     },
     {
         "_id": "74",
@@ -1230,14 +1230,14 @@
         "difficulty": "easy",
         "time_estimate": 95,
         "passage": "",
-        "question_text": "Let n be an integer from 9 to 38. For how many values of n will n/5 be a prime number?",
+        "question_text": " In a scale diagram, 1 inch represents 250 feet. How many inches represent 100 feet?",
         "options": [
-            "3",
-            "4",
-            "6",
-            "8"
+            "0.1 in.",
+            "0.4 in.",
+            "0.5 in.",
+            "2.5 in."
         ],
-        "correct_answer": 0
+        "correct_answer": 1
     },
     {
         "_id": "75",
@@ -1246,15 +1246,15 @@
         "category": "Math:Absolute Value",
         "difficulty": "easy",
         "time_estimate": 95,
-        "passage": "",
-        "question_text": "|2 - 8| - |7 - 3| =",
+        "passage": "image:images/shsatpractice10question75.png",
+        "question_text": "The chart above shows how people in Westville get to work. If there are 15,000 total people in Westville, how many more people ride the bus than walk to work?",
         "options": [
-            "-10",
-            "-2",
-            "2",
-            "none of these"
+            "1,050",
+            "1,500",
+            "1,920",
+            "2,550"
         ],
-        "correct_answer": 2
+        "correct_answer": 0
     },
     {
         "_id": "76",
