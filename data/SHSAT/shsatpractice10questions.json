@@ -1585,15 +1585,15 @@
         "category": "Math:Geometry",
         "difficulty": "medium",
         "time_estimate": 95,
-        "passage": "image:images/shsarpractice10question94.png",
-        "question_text": "The midpoints of the four sides of square ABCD are joined to form square WXYZ as shown. The area of square WXYZ is 16. The area of triangle YCX is",
+        "passage": "",
+        "question_text": "An unmarked straight stick will be laid end over end to measure a distance of exactly 70 feet. The same stick will be used in the same way to measure a distance of exactly 56 feet. What is the length of the longest stick that can be used for both measurements?",
         "options": [
-            "4",
-            "2",
-            "1.5",
-            "none of these"
+            "2 feet",
+            "7 feet",
+            "14 feet",
+            "28 feet"
         ],
-        "correct_answer": 0
+        "correct_answer": 2
         
     },
     {
@@ -1604,14 +1604,14 @@
         "difficulty": "medium",
         "time_estimate": 95,
         "passage": "",
-        "question_text": "The mean of 3 numbers is 7. The mean of 4 other numbers is 8. The mean of 5 other numbers is 11. What is the mean of all 12 numbers?",
+        "question_text": "Robyn must read 180 pages for school this weekend. It took her 20 minutes to read the first 30 pages. At this rate, how much additional time will it take her to finish the reading?",
         "options": [
-            "4",
-            "4 2/13",
-            "8 2/3",
-            "9"
+            "1 and 2/3 hrs",
+            "1 and 5/9 hrs",
+            "2 hrs",
+            "5 and 1/3 hr"
         ],
-        "correct_answer": 2
+        "correct_answer": 0
         
     },
     {
@@ -1621,13 +1621,13 @@
         "category": "Math:Probability",
         "difficulty": "easy",
         "time_estimate": 95,
-        "passage": "There were 20 socks in a drawer. Of these, 8 were blue, 10 were black, and 2 were white. Someone then removed 4 blue socks.",
-        "question_text": "If one sock is now drawn at random, what is the probability that it is not white?",
+        "passage": "",
+        "question_text": "For a presentation, Darla can create 3 slides in 18 minutes working at a constant rate. Kaito can create 7 slides in 12 minutes working at his own constant rate. What is the total number of slides the two of them can create in one hour?",
         "options": [
-            "1/10",
-            "9/10",
-            "7/8",
-            "none of these"
+            "16",
+            "35",
+            "45",
+            "50"
         ],
         "correct_answer": 2
         
@@ -1640,14 +1640,14 @@
         "difficulty": "medium",
         "time_estimate": 95,
         "passage": "",
-        "question_text": "Two sides of a right triangle are 3 and 4. The third side is",
+        "question_text": " In the set of integers from 18 to 44, inclusive, there are five integers that are multiples of both 2 and 3. How many integers in this set are multiples of neither 2 nor 3?",
         "options": [
-            "1",
-            "3",
-            "5",
-            "not uniquely determined"
+            "9",
+            "10",
+            "14",
+            "22"
         ],
-        "correct_answer": 3
+        "correct_answer": 0
         
     },
     {
@@ -1657,15 +1657,15 @@
         "category": "Math:Geometry",
         "difficulty": "medium",
         "time_estimate": 95,
-        "passage": "",
-        "question_text": "A cube 3 by 3 by 3 is painted red on all six faces and then cut into 27 smaller 1 by 1 by 1 cubes. How many of these new smaller cubes have exactly two faces that are painted red?",
+        "passage": "image:images/shsatpractice10question98.png",
+        "question_text": "On the number line shown above, LN = 1/10. Point M (not shown) is located between point L and point N. Which value below is a possible value for M?",
         "options": [
-            "6",
-            "8",
-            "12",
-            "21"
+            "3.41",
+            "3.48",
+            "3.54",
+            "3.61"
         ],
-        "correct_answer": 2
+        "correct_answer": 3
         
     },
     {
@@ -1676,14 +1676,14 @@
         "difficulty": "medium",
         "time_estimate": 95,
         "passage": "",
-        "question_text": "If 2 blobs = 3 glops and 3 blobs = 2 chunks, then 1 chunk =",
+        "question_text": "A box contains 4 apple candies, 3 blueberry candies, and 3 watermelon candies. If Brandon selects 2 candies at random from this box, without replacement, what is the probability that both candies are not blueberry?",
         "options": [
-            "1 glop",
-            "2/3 glop",
-            "3/2 glops",
-            "9/4 glops"
+            "9/100",
+            "1/15",
+            "7/15",
+            "49/100"
         ],
-        "correct_answer": 3
+        "correct_answer": 2
         
     },
     {
@@ -1693,13 +1693,13 @@
         "category": "Math:Data Interpretation",
         "difficulty": "easy",
         "time_estimate": 95,
-        "passage": "image:images/shsatpractice10question100101.png",
-        "question_text": "The ratio of Montague students who prefer vanilla to Montague students who prefer chocolate is",
+        "passage": "",
+        "question_text": " If 3n is a positive even number, how many odd numbers are in the range from 3n up to and including 3n +7?",
         "options": [
-            "10:9",
-            "4:3",
-            "3:10",
-            "3:4"
+            "3",
+            "4",
+            "5",
+            "6"
         ],
         "correct_answer": 1
         
@@ -1711,13 +1711,13 @@
         "category": "Math:Data Interpretation",
         "difficulty": "medium",
         "time_estimate": 95,
-        "passage": "image:images/shsatpractice10question100101.png",
-        "question_text": "If the number of Montague students who prefer vanilla is M and the number of Capulet students who prefer vanilla is C, then",
+        "passage": "",
+        "question_text": "On the number line above, points W, X, Y, and Z are integers, and WX: XY: YZ=3:3:2. What is the length of WY?",
         "options": [
-            "M = 2C",
-            "M = C",
-            "M < C",
-            "cannot be determined from the given information"
+            "3",
+            "6",
+            "12",
+            "18"
         ],
         "correct_answer": 3
         
@@ -1730,14 +1730,14 @@
         "difficulty": "easy",
         "time_estimate": 95,
         "passage": "",
-        "question_text": "If x is an integer, which one of the following must be odd?",
+        "question_text": "At Northwood middle school, course grades range from 0 to 100. Alejandro took four courses and his average course grade was 85. Rene took five courses. If both students have the same sum of course grades, what was Rene's average?",
         "options": [
-            "3x + 1",
-            "3x + 2",
-            "4x - 1",
-            "4x - 2"
+            "62",
+            "68",
+            "76",
+            "85"
         ],
-        "correct_answer": 2
+        "correct_answer": 1
         
     },
     {
@@ -1748,14 +1748,14 @@
         "difficulty": "hard",
         "time_estimate": 95,
         "passage": "",
-        "question_text": "In the sequence of numbers 1, 2, 2, 3, 3, 3,... [assume the pattern of one 1, two 2s, three 3s, four 4s, and so on continues], the number in the 40th position will be",
+        "question_text": "In the infinitely repeating decimal above, 3 is the first digit in the repeating pattern. What is the 323rd digit?",
         "options": [
-            "8",
-            "9",
-            "10",
-            "11"
+            "1",
+            "3",
+            "5",
+            "6"
         ],
-        "correct_answer": 1
+        "correct_answer": 0
         
     },
     {
@@ -1766,14 +1766,14 @@
         "difficulty": "medium",
         "time_estimate": 95,
         "passage": "",
-        "question_text": "Each side of a square is an integral number of inches, and its area is 576 square inches. If each side of the square is increased by 1 foot, forming a new square, the area of the new square, in square inches, is",
+        "question_text": "Choose an Answer",
         "options": [
-            "577",
-            "720",
-            "1,296",
-            "not determined"
+            "E",
+            "F",
+            "G",
+            "H"
         ],
-        "correct_answer": 2
+        "correct_answer": 0
         
     },
     {
@@ -1783,15 +1783,15 @@
         "category": "Math:Fractions",
         "difficulty": "easy",
         "time_estimate": 95,
-        "passage": "Let P = 18/25, Q = 5/7, and R = 3/4",
-        "question_text": "Then",
+        "passage": "",
+        "question_text": "The same test was given to each of the three sections of Ms. Chen's biology class. The table above shows both the lowest score and the range of scores on this test for each section. What is the overall range of all scores in all three sections?",
         "options": [
-            "P < Q < R",
-            "P < R < Q",
-            "Q < P < R",
-            "Q < R < P"
+            "28",
+            "31",
+            "34",
+            "35"
         ],
-        "correct_answer": 2
+        "correct_answer": 3
         
     },
     {
@@ -1802,14 +1802,14 @@
         "difficulty": "easy",
         "time_estimate": 95,
         "passage": "",
-        "question_text": "A water container is 3/4 full. After 20 ounces of water is removed, the container is 1/4 full. How many ounces of water does a full container hold?",
+        "question_text": "The sum of the numbers x, y, and z is 50. The ratio of x to y is 2: 3, and the ratio of y to z is 3:5. What is the value of y?",
         "options": [
-            "20",
-            "40",
-            "60",
-            "80"
+            "3",
+            "10",
+            "15",
+            "25"
         ],
-        "correct_answer": 1
+        "correct_answer": 2
         
     },
     {
@@ -1820,14 +1820,14 @@
         "difficulty": "medium",
         "time_estimate": 95,
         "passage": "",
-        "question_text": "For how many integer values of n will the expression (n-10)/(14-n) have a positive value?",
+        "question_text": "In the pyramid above, each triangular face has the same area, and the base MNPQ is a square that measures 6 centimeters on each side. If the length of RS = 10 centimeters, what is the surface area of the pyramid excluding the base?",
         "options": [
-            "0",
-            "1",
-            "3",
-            "4"
+            "60 sq cm",
+            "120 sq cm",
+            "144 sq cm ",
+            "156 sq cm"
         ],
-        "correct_answer": 2
+        "correct_answer": 1
         
     },
     {
@@ -1837,15 +1837,15 @@
         "category": "Math:Geometry",
         "difficulty": "hard",
         "time_estimate": 95,
-        "passage": "image:images/shsatpractice10question108.png",
-        "question_text": "A square of side 4 is topped by a semicircle, as shown. Point P is the center of the arc at the top. Then the shaded area is equal to",
+        "passage": "",
+        "question_text": " A sports store has a container of handballs: 7 blue, 5 red, 9 yellow, 11 white, and 14 green. If 1 ball is picked from the container at random, what is the probability that it will be green?",
         "options": [
-            "π + 2",
-            "π/2 + 2",
-            "2π + 2",
-            "2π - 4"
+            "1/46",
+            "1/14",
+            "7/23",
+            "7/17"
         ],
-        "correct_answer": 3
+        "correct_answer": 2
         
     },
     {
@@ -1856,12 +1856,12 @@
         "difficulty": "easy",
         "time_estimate": 95,
         "passage": "",
-        "question_text": "(4⁶ * 3⁴ * 2²) / (4² * 3⁴ * 2⁶) =",
+        "question_text": " Using the approximation 2.54 centimeters = 1 inch, how many centimeters are in 5 feet 1 inch?",
         "options": [
-            "1",
-            "2",
-            "8",
-            "16"
+            "24.02",
+            "114.30",
+            "129.54",
+            "154.94"
         ],
         "correct_answer": 3
         
@@ -1874,14 +1874,14 @@
         "difficulty": "medium",
         "time_estimate": 95,
         "passage": "",
-        "question_text": "Which one of the following numbers is less than 1/3?",
+        "question_text": "Each week, Leandra has fixed expenses of $1,300 at her furniture shop. It costs her $150 to make a chair in her shop, and she sells each chair for $275. What is Leandra's profit if she makes and sells 35 chairs in 1 week?",
         "options": [
-            "1111/333",
-            "299/895",
-            "0.1 * 4",
-            "5!/6!"
+            "$3,075",
+            "$3,950",
+            "$4,375",
+            "$5,250"
         ],
-        "correct_answer": 3
+        "correct_answer": 0
         
     },
     {
@@ -1892,12 +1892,12 @@
         "difficulty": "easy",
         "time_estimate": 95,
         "passage": "",
-        "question_text": "The ratio of a to b is 3 to 4. The ratio of b to c is 5 to 6. The ratio of a to c is",
+        "question_text": "Choose An Answer",
         "options": [
-            "9:10",
-            "5:8",
-            "1:2",
-            "none of these"
+            "A",
+            "B",
+            "C",
+            "D"
         ],
         "correct_answer": 1
         
@@ -1909,13 +1909,13 @@
         "category": "Math:Geometry",
         "difficulty": "medium",
         "time_estimate": 95,
-        "passage": "image:images/shsatpractice10question112.png",
-        "question_text": "(All lines shown are either vertical or horizontal.) If x and y are integers, and the shaded area is 52, then the perimeter of the figure is",
+        "passage": "",
+        "question_text": "Choose An Answer",
         "options": [
-            "20",
-            "24",
-            "52",
-            "56"
+            "A",
+            "B",
+            "C",
+            "D"
         ],
         "correct_answer": 3
         
@@ -1928,12 +1928,12 @@
         "difficulty": "hard",
         "time_estimate": 95,
         "passage": "",
-        "question_text": "If x < x³ < x², which of the following could be a possible value for x?",
+        "question_text": "Choose An Answer",
         "options": [
-            "-1/2",
-            "0.1",
-            "0.5",
-            "2/3"
+            "A",
+            "B",
+            "C",
+            "D"
         ],
         "correct_answer": 0
         
@@ -1945,13 +1945,13 @@
         "category": "Math:Coordinate Geometry",
         "difficulty": "medium",
         "time_estimate": 95,
-        "passage": "image:images/shsatpractice10question114.png",
-        "question_text": "On the number line below, point A is located at -4 and point B is located at 20. AQ is 3/8 of the distance from A to B, while BR is 3/8 of the distance from B to A. Find the length of QR.",
+        "passage": "",
+        "question_text": "Choose An Answer",
         "options": [
-            "6",
-            "9",
-            "12",
-            "15"
+            "A",
+            "B",
+            "C",
+            "D"
         ],
         "correct_answer": 0
     }
