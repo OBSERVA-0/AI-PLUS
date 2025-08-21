@@ -488,7 +488,7 @@
             "They indicate that the descriptions were not intended to be objective descriptions.",
             "They highlight the positive ways in which Head attempted to describe Mother Shipton.",
             "They suggest that Head's descriptions are shallow and superficial, lacking true creativity.",
-            "They suggest a threatening and dark tone that captures the essence ofa witch."
+            "They suggest a threatening and dark tone that captures the essence of a witch."
         ],
         "correct_answer": 0
     },
@@ -543,20 +543,21 @@
         ],
         "correct_answer": 1
     },
+    
     {
         "_id": "33",
         "question_number": 33,
         "practice_set": "10",
         "category": "English:Reading Comprehension:Main Idea",
-        "difficulty": "easy",
+        "difficulty": "medium",
         "time_estimate": 95,
-        "passage": "(1) For several decades the novels of Louisa\nMay Alcott were a favorite among young\nreaders, especially girls. Her most famous\n(5) book, Little Women, is still popular in print\nas well as in its three or four film versions.\nMost of her works tell of the trials and\njoys of young people in nineteenth-century\nNew England. Little Women, for example,\n(10) a novel based on her own early life and the\nearly lives of her three sisters, tells of the\nstruggles of a close-knit family during and\nafter the Civil War. To some modern read-\ners Alcott's stories seem sentimental and\n(15) moralistic, for she sometimes exaggerates\nemotion, and she sprinkles her narratives\nwith little sermons. But her emotional\nscenes can still make readers cry, and her\nheartwarming vignettes of domestic happi-\n(20) ness can still bring smiles to their faces.\n\n(21) The author was born in Germantown,\nPennsylvania, but grew up in Boston. Her\nfather, Bronson Alcott, was a well-known\nphilosopher and educator with radical ideas.\n(25) Dissatisfied with contemporary educational\npractices, he developed an innovative teach-\ning method and put it into practice in his\nown school, which he opened in 1834. His\nmethod used conversation instead of drill\n(30) and memorization in the teaching of young\nchildren. In spite of much negative criti-\ncism of his system, he managed to keep the\nschool open for five years.\n\n(33) Although Bronson Alcott went on to\n(35) become well known as a philosopher, lec-\nturer, and leader in the movement for the\nabolition of slavery, he was a poor provider\nfor his family. The family seldom had more\nthan the basic necessities, and the female\n(40) members of the family had to work hard to\nprovide those. In fact it is said that during\none particularly hard winter they would\nhave starved if friends had not given them\nfood.\n\n(44) Their poverty motivated Louisa to venture\n(45) into a field that would startle some of her\nfans. Pulp magazines were good markets for\nthrillers-stories with plenty of action and\nsuspense and, often, violence. Although\nthe magazines were cheap and of inferior\n(50) quality, they paid well, and Louisa needed\nthe money to help her family. She became\na frequent contributor to this market, but\nalways under assumed names. In Little\nWomen, Jo, the main character, helps her\n(55) family financially by selling stories to the\npulp magazines. She stops after a friend,\nnot knowing who the author is, harshly\ncriticizes one of her thrillers. Motivated\nto write something better, she produces a\n(60) warm and highly moral narrative based on\nher own family!",
-        "question_text": "Which of the following best tells what this passage is about?",
+        "passage": "The Road Not Taken\n\nBy Robert Frost\n\n(1) Two roads diverged in a yellow wood,\n(2) And sorry I could not travel both\n(3) And be one traveler, long I stood\n(4) And looked down one as far as I could\n(5) To where it bent in the undergrowth;\n\n\n(6) Then took the other, as just as fair,\n(7) And having perhaps the better claim,\n(8) Because it was grassy and wanted wear;\n(9) Though as for that the passing there\n(10) Had worn them really about the same,\n\n\n(11) And both that morning equally lay\n(12) In leaves no step had trodden black.\n(13) Oh, I kept the first for another day!\n(14) Yet knowing how way leads on to way,\n(15) I doubted if I should ever come back.\n\n\n(16) I shall be telling this with a sigh\n(17) Somewhere ages and ages hence:\n(18) Two roads diverged in a wood, and I–\n(19) I took the one less traveled by,\n\n\n(20) And that has made all the difference.",
+        "question_text": "The description in the first stanza (lines 1-5) helps establish the central idea of the poem by",
         "options": [
-            "The poor family of a famous man",
-            "The motives of a famous author",
-            "The background and work of Louisa May Alcott",
-            "How Little Women came to be written"
+            "describing the beauty of nature to introduce the journey of the traveler.",
+            "personifying the wood to demonstrate the power of nature.",
+            "listing the speaker's thoughts to reflect a sense of uncertainty.",
+            "highlighting a series of problems to reveal what most travelers experience."
         ],
         "correct_answer": 2
     },
@@ -564,50 +565,50 @@
         "_id": "34",
         "question_number": 34,
         "practice_set": "10",
-        "category": "English:Reading Comprehension:Vocabulary",
-        "difficulty": "easy",
+        "category": "English:Reading Comprehension:Main Idea",
+        "difficulty": "medium",
         "time_estimate": 95,
-        "passage": "(1) For several decades the novels of Louisa\nMay Alcott were a favorite among young\nreaders, especially girls. Her most famous\n(5) book, Little Women, is still popular in print\nas well as in its three or four film versions.\nMost of her works tell of the trials and\njoys of young people in nineteenth-century\nNew England. Little Women, for example,\n(10) a novel based on her own early life and the\nearly lives of her three sisters, tells of the\nstruggles of a close-knit family during and\nafter the Civil War. To some modern read-\ners Alcott's stories seem sentimental and\n(15) moralistic, for she sometimes exaggerates\nemotion, and she sprinkles her narratives\nwith little sermons. But her emotional\nscenes can still make readers cry, and her\nheartwarming vignettes of domestic happi-\n(20) ness can still bring smiles to their faces.\n\n(21) The author was born in Germantown,\nPennsylvania, but grew up in Boston. Her\nfather, Bronson Alcott, was a well-known\nphilosopher and educator with radical ideas.\n(25) Dissatisfied with contemporary educational\npractices, he developed an innovative teach-\ning method and put it into practice in his\nown school, which he opened in 1834. His\nmethod used conversation instead of drill\n(30) and memorization in the teaching of young\nchildren. In spite of much negative criti-\ncism of his system, he managed to keep the\nschool open for five years.\n\n(33) Although Bronson Alcott went on to\n(35) become well known as a philosopher, lec-\nturer, and leader in the movement for the\nabolition of slavery, he was a poor provider\nfor his family. The family seldom had more\nthan the basic necessities, and the female\n(40) members of the family had to work hard to\nprovide those. In fact it is said that during\none particularly hard winter they would\nhave starved if friends had not given them\nfood.\n\n(44) Their poverty motivated Louisa to venture\n(45) into a field that would startle some of her\nfans. Pulp magazines were good markets for\nthrillers-stories with plenty of action and\nsuspense and, often, violence. Although\nthe magazines were cheap and of inferior\n(50) quality, they paid well, and Louisa needed\nthe money to help her family. She became\na frequent contributor to this market, but\nalways under assumed names. In Little\nWomen, Jo, the main character, helps her\n(55) family financially by selling stories to the\npulp magazines. She stops after a friend,\nnot knowing who the author is, harshly\ncriticizes one of her thrillers. Motivated\nto write something better, she produces a\n(60) warm and highly moral narrative based on\nher own family!",
-        "question_text": "What are pulp magazines?",
+        "passage": "The Road Not Taken\n\nBy Robert Frost\n\n(1) Two roads diverged in a yellow wood,\n(2) And sorry I could not travel both\n(3) And be one traveler, long I stood\n(4) And looked down one as far as I could\n(5) To where it bent in the undergrowth;\n\n\n(6) Then took the other, as just as fair,\n(7) And having perhaps the better claim,\n(8) Because it was grassy and wanted wear;\n(9) Though as for that the passing there\n(10) Had worn them really about the same,\n\n\n(11) And both that morning equally lay\n(12) In leaves no step had trodden black.\n(13) Oh, I kept the first for another day!\n(14) Yet knowing how way leads on to way,\n(15) I doubted if I should ever come back.\n\n\n(16) I shall be telling this with a sigh\n(17) Somewhere ages and ages hence:\n(18) Two roads diverged in a wood, and I–\n(19) I took the one less traveled by,\n\n\n(20) And that has made all the difference.",
+        "question_text": "How does \"the undergrowth\" in line 5 contribute to the meaning of the poem?",
         "options": [
-            "Nineteenth-century magazines using paper made from pulpwood",
-            "A magazine of the kind that first published Little Women",
-            "An inexpensive magazine produced for a young but well-educated audience",
-            "A magazine of poor quality that published sensational fiction"
+            "It reveals why the speaker regrets walking in the woods.",
+            "It explains why the speaker's view is limited.",
+            "It suggests that the world is twisted deep inside.",
+            "It foreshadows the problems that the traveler will encounter on his walk."
         ],
-        "correct_answer": 3
+        "correct_answer": 1
     },
     {
         "_id": "35",
         "question_number": 35,
         "practice_set": "10",
-        "category": "English:Reading Comprehension:Inference",
+        "category": "English:Reading Comprehension:Main Idea",
         "difficulty": "medium",
         "time_estimate": 95,
-        "passage": "(1) For several decades the novels of Louisa\nMay Alcott were a favorite among young\nreaders, especially girls. Her most famous\n(5) book, Little Women, is still popular in print\nas well as in its three or four film versions.\nMost of her works tell of the trials and\njoys of young people in nineteenth-century\nNew England. Little Women, for example,\n(10) a novel based on her own early life and the\nearly lives of her three sisters, tells of the\nstruggles of a close-knit family during and\nafter the Civil War. To some modern read-\ners Alcott's stories seem sentimental and\n(15) moralistic, for she sometimes exaggerates\nemotion, and she sprinkles her narratives\nwith little sermons. But her emotional\nscenes can still make readers cry, and her\nheartwarming vignettes of domestic happi-\n(20) ness can still bring smiles to their faces.\n\n(21) The author was born in Germantown,\nPennsylvania, but grew up in Boston. Her\nfather, Bronson Alcott, was a well-known\nphilosopher and educator with radical ideas.\n(25) Dissatisfied with contemporary educational\npractices, he developed an innovative teach-\ning method and put it into practice in his\nown school, which he opened in 1834. His\nmethod used conversation instead of drill\n(30) and memorization in the teaching of young\nchildren. In spite of much negative criti-\ncism of his system, he managed to keep the\nschool open for five years.\n\n(33) Although Bronson Alcott went on to\n(35) become well known as a philosopher, lec-\nturer, and leader in the movement for the\nabolition of slavery, he was a poor provider\nfor his family. The family seldom had more\nthan the basic necessities, and the female\n(40) members of the family had to work hard to\nprovide those. In fact it is said that during\none particularly hard winter they would\nhave starved if friends had not given them\nfood.\n\n(44) Their poverty motivated Louisa to venture\n(45) into a field that would startle some of her\nfans. Pulp magazines were good markets for\nthrillers-stories with plenty of action and\nsuspense and, often, violence. Although\nthe magazines were cheap and of inferior\n(50) quality, they paid well, and Louisa needed\nthe money to help her family. She became\na frequent contributor to this market, but\nalways under assumed names. In Little\nWomen, Jo, the main character, helps her\n(55) family financially by selling stories to the\npulp magazines. She stops after a friend,\nnot knowing who the author is, harshly\ncriticizes one of her thrillers. Motivated\nto write something better, she produces a\n(60) warm and highly moral narrative based on\nher own family!",
-        "question_text": "What does the passage suggest about the novels of Louisa May Alcott?",
+        "passage": "The Road Not Taken\n\nBy Robert Frost\n\n(1) Two roads diverged in a yellow wood,\n(2) And sorry I could not travel both\n(3) And be one traveler, long I stood\n(4) And looked down one as far as I could\n(5) To where it bent in the undergrowth;\n\n\n(6) Then took the other, as just as fair,\n(7) And having perhaps the better claim,\n(8) Because it was grassy and wanted wear;\n(9) Though as for that the passing there\n(10) Had worn them really about the same,\n\n\n(11) And both that morning equally lay\n(12) In leaves no step had trodden black.\n(13) Oh, I kept the first for another day!\n(14) Yet knowing how way leads on to way,\n(15) I doubted if I should ever come back.\n\n\n(16) I shall be telling this with a sigh\n(17) Somewhere ages and ages hence:\n(18) Two roads diverged in a wood, and I–\n(19) I took the one less traveled by,\n\n\n(20) And that has made all the difference.",
+        "question_text": "What impact do the phrases \"just as fair\" in line 6 and \"about the same\" in line 10 have on the meaning of the poem?",
         "options": [
-            "They are not as popular today as they used to be.",
-            "They are sensational but enjoyable.",
-            "In their own day they were considered too sentimental.",
-            "She wrote them because she could not make money any other way."
+            "They establish the idea that there is always a better way.",
+            "They highlight the importance of noticing the beautiful things in life.",
+            "They emphasize the fact that both roads are fundamentally similar.",
+            "They suggest that people always want to improve some aspects of the world."
         ],
-        "correct_answer": 0
+        "correct_answer": 2
     },
     {
         "_id": "36",
         "question_number": 36,
         "practice_set": "10",
-        "category": "English:Reading Comprehension:Detail",
-        "difficulty": "easy",
+        "category": "English:Reading Comprehension:Main Idea",
+        "difficulty": "medium",
         "time_estimate": 95,
-        "passage": "(1) For several decades the novels of Louisa\nMay Alcott were a favorite among young\nreaders, especially girls. Her most famous\n(5) book, Little Women, is still popular in print\nas well as in its three or four film versions.\nMost of her works tell of the trials and\njoys of young people in nineteenth-century\nNew England. Little Women, for example,\n(10) a novel based on her own early life and the\nearly lives of her three sisters, tells of the\nstruggles of a close-knit family during and\nafter the Civil War. To some modern read-\ners Alcott's stories seem sentimental and\n(15) moralistic, for she sometimes exaggerates\nemotion, and she sprinkles her narratives\nwith little sermons. But her emotional\nscenes can still make readers cry, and her\nheartwarming vignettes of domestic happi-\n(20) ness can still bring smiles to their faces.\n\n(21) The author was born in Germantown,\nPennsylvania, but grew up in Boston. Her\nfather, Bronson Alcott, was a well-known\nphilosopher and educator with radical ideas.\n(25) Dissatisfied with contemporary educational\npractices, he developed an innovative teach-\ning method and put it into practice in his\nown school, which he opened in 1834. His\nmethod used conversation instead of drill\n(30) and memorization in the teaching of young\nchildren. In spite of much negative criti-\ncism of his system, he managed to keep the\nschool open for five years.\n\n(33) Although Bronson Alcott went on to\n(35) become well known as a philosopher, lec-\nturer, and leader in the movement for the\nabolition of slavery, he was a poor provider\nfor his family. The family seldom had more\nthan the basic necessities, and the female\n(40) members of the family had to work hard to\nprovide those. In fact it is said that during\none particularly hard winter they would\nhave starved if friends had not given them\nfood.\n\n(44) Their poverty motivated Louisa to venture\n(45) into a field that would startle some of her\nfans. Pulp magazines were good markets for\nthrillers-stories with plenty of action and\nsuspense and, often, violence. Although\nthe magazines were cheap and of inferior\n(50) quality, they paid well, and Louisa needed\nthe money to help her family. She became\na frequent contributor to this market, but\nalways under assumed names. In Little\nWomen, Jo, the main character, helps her\n(55) family financially by selling stories to the\npulp magazines. She stops after a friend,\nnot knowing who the author is, harshly\ncriticizes one of her thrillers. Motivated\nto write something better, she produces a\n(60) warm and highly moral narrative based on\nher own family!",
-        "question_text": "Which of the following is not stated about Bronson Alcott?",
+        "passage": "The Road Not Taken\n\nBy Robert Frost\n\n(1) Two roads diverged in a yellow wood,\n(2) And sorry I could not travel both\n(3) And be one traveler, long I stood\n(4) And looked down one as far as I could\n(5) To where it bent in the undergrowth;\n\n\n(6) Then took the other, as just as fair,\n(7) And having perhaps the better claim,\n(8) Because it was grassy and wanted wear;\n(9) Though as for that the passing there\n(10) Had worn them really about the same,\n\n\n(11) And both that morning equally lay\n(12) In leaves no step had trodden black.\n(13) Oh, I kept the first for another day!\n(14) Yet knowing how way leads on to way,\n(15) I doubted if I should ever come back.\n\n\n(16) I shall be telling this with a sigh\n(17) Somewhere ages and ages hence:\n(18) Two roads diverged in a wood, and I–\n(19) I took the one less traveled by,\n\n\n(20) And that has made all the difference.",
+        "question_text": "Read line 13.\n\n\n\"Oh, I kept the first for another day!\" \n\n\nHow does the line contribute to the development of ideas in the stanza?",
         "options": [
-            "He operated his own school for a time.",
-            "He struggled unsuccessfully to support his family.",
-            "He was a philosopher.",
-            "He provided leadership for a social cause."
+            "The line supports the stanza's claim that precious moments in life should be remembered for the future.",
+            "The line introduces the idea that the speaker has some reservations about his choices.",
+            "The line expresses the idea that humans neglect the importance of time.",
+            "The line urges the reader to consider how precious each moment is."
         ],
         "correct_answer": 1
     },
@@ -615,69 +616,52 @@
         "_id": "37",
         "question_number": 37,
         "practice_set": "10",
-        "category": "English:Reading Comprehension:Detail",
-        "difficulty": "easy",
+        "category": "English:Reading Comprehension:Main Idea",
+        "difficulty": "medium",
         "time_estimate": 95,
-        "passage": "(1) For several decades the novels of Louisa\nMay Alcott were a favorite among young\nreaders, especially girls. Her most famous\n(5) book, Little Women, is still popular in print\nas well as in its three or four film versions.\nMost of her works tell of the trials and\njoys of young people in nineteenth-century\nNew England. Little Women, for example,\n(10) a novel based on her own early life and the\nearly lives of her three sisters, tells of the\nstruggles of a close-knit family during and\nafter the Civil War. To some modern read-\ners Alcott's stories seem sentimental and\n(15) moralistic, for she sometimes exaggerates\nemotion, and she sprinkles her narratives\nwith little sermons. But her emotional\nscenes can still make readers cry, and her\nheartwarming vignettes of domestic happi-\n(20) ness can still bring smiles to their faces.\n\n(21) The author was born in Germantown,\nPennsylvania, but grew up in Boston. Her\nfather, Bronson Alcott, was a well-known\nphilosopher and educator with radical ideas.\n(25) Dissatisfied with contemporary educational\npractices, he developed an innovative teach-\ning method and put it into practice in his\nown school, which he opened in 1834. His\nmethod used conversation instead of drill\n(30) and memorization in the teaching of young\nchildren. In spite of much negative criti-\ncism of his system, he managed to keep the\nschool open for five years.\n\n(33) Although Bronson Alcott went on to\n(35) become well known as a philosopher, lec-\nturer, and leader in the movement for the\nabolition of slavery, he was a poor provider\nfor his family. The family seldom had more\nthan the basic necessities, and the female\n(40) members of the family had to work hard to\nprovide those. In fact it is said that during\none particularly hard winter they would\nhave starved if friends had not given them\nfood.\n\n(44) Their poverty motivated Louisa to venture\n(45) into a field that would startle some of her\nfans. Pulp magazines were good markets for\nthrillers-stories with plenty of action and\nsuspense and, often, violence. Although\nthe magazines were cheap and of inferior\n(50) quality, they paid well, and Louisa needed\nthe money to help her family. She became\na frequent contributor to this market, but\nalways under assumed names. In Little\nWomen, Jo, the main character, helps her\n(55) family financially by selling stories to the\npulp magazines. She stops after a friend,\nnot knowing who the author is, harshly\ncriticizes one of her thrillers. Motivated\nto write something better, she produces a\n(60) warm and highly moral narrative based on\nher own family!",
-        "question_text": "Why did Louisa May Alcott begin writing sensational fiction?",
+        "passage": "The Road Not Taken\n\nBy Robert Frost\n\n(1) Two roads diverged in a yellow wood,\n(2) And sorry I could not travel both\n(3) And be one traveler, long I stood\n(4) And looked down one as far as I could\n(5) To where it bent in the undergrowth;\n\n\n(6) Then took the other, as just as fair,\n(7) And having perhaps the better claim,\n(8) Because it was grassy and wanted wear;\n(9) Though as for that the passing there\n(10) Had worn them really about the same,\n\n\n(11) And both that morning equally lay\n(12) In leaves no step had trodden black.\n(13) Oh, I kept the first for another day!\n(14) Yet knowing how way leads on to way,\n(15) I doubted if I should ever come back.\n\n\n(16) I shall be telling this with a sigh\n(17) Somewhere ages and ages hence:\n(18) Two roads diverged in a wood, and I–\n(19) I took the one less traveled by,\n\n\n(20) And that has made all the difference.",
+        "question_text": "The repetition of the line \"Two roads diverged in a wood\" in line 18 serves primarily to",
         "options": [
-            "She wanted to start out in a highly lucrative market.",
-            "She needed the money it could provide.",
-            "Such fiction had a large readership.",
-            "She wanted to train for the writing of her first novel."
+            "bring the poem to a conclusion.",
+            "introduce a new topic.",
+            "support the previous statement.",
+            "indicate a problem."
         ],
-        "correct_answer": 1
+        "correct_answer": 2
     },
     {
         "_id": "38",
         "question_number": 38,
         "practice_set": "10",
-        "category": "English:Reading Comprehension:Detail",
-        "difficulty": "easy",
+        "category": "English:Reading Comprehension:Main Idea",
+        "difficulty": "medium",
         "time_estimate": 95,
-        "passage": "(1) For several decades the novels of Louisa\nMay Alcott were a favorite among young\nreaders, especially girls. Her most famous\n(5) book, Little Women, is still popular in print\nas well as in its three or four film versions.\nMost of her works tell of the trials and\njoys of young people in nineteenth-century\nNew England. Little Women, for example,\n(10) a novel based on her own early life and the\nearly lives of her three sisters, tells of the\nstruggles of a close-knit family during and\nafter the Civil War. To some modern read-\ners Alcott's stories seem sentimental and\n(15) moralistic, for she sometimes exaggerates\nemotion, and she sprinkles her narratives\nwith little sermons. But her emotional\nscenes can still make readers cry, and her\nheartwarming vignettes of domestic happi-\n(20) ness can still bring smiles to their faces.\n\n(21) The author was born in Germantown,\nPennsylvania, but grew up in Boston. Her\nfather, Bronson Alcott, was a well-known\nphilosopher and educator with radical ideas.\n(25) Dissatisfied with contemporary educational\npractices, he developed an innovative teach-\ning method and put it into practice in his\nown school, which he opened in 1834. His\nmethod used conversation instead of drill\n(30) and memorization in the teaching of young\nchildren. In spite of much negative criti-\ncism of his system, he managed to keep the\nschool open for five years.\n\n(33) Although Bronson Alcott went on to\n(35) become well known as a philosopher, lec-\nturer, and leader in the movement for the\nabolition of slavery, he was a poor provider\nfor his family. The family seldom had more\nthan the basic necessities, and the female\n(40) members of the family had to work hard to\nprovide those. In fact it is said that during\none particularly hard winter they would\nhave starved if friends had not given them\nfood.\n\n(44) Their poverty motivated Louisa to venture\n(45) into a field that would startle some of her\nfans. Pulp magazines were good markets for\nthrillers-stories with plenty of action and\nsuspense and, often, violence. Although\nthe magazines were cheap and of inferior\n(50) quality, they paid well, and Louisa needed\nthe money to help her family. She became\na frequent contributor to this market, but\nalways under assumed names. In Little\nWomen, Jo, the main character, helps her\n(55) family financially by selling stories to the\npulp magazines. She stops after a friend,\nnot knowing who the author is, harshly\ncriticizes one of her thrillers. Motivated\nto write something better, she produces a\n(60) warm and highly moral narrative based on\nher own family!",
-        "question_text": "Which of the following is true about most of the main characters in the novels of Alcott?",
+        "passage": "The Road Not Taken\n\nBy Robert Frost\n\n(1) Two roads diverged in a yellow wood,\n(2) And sorry I could not travel both\n(3) And be one traveler, long I stood\n(4) And looked down one as far as I could\n(5) To where it bent in the undergrowth;\n\n\n(6) Then took the other, as just as fair,\n(7) And having perhaps the better claim,\n(8) Because it was grassy and wanted wear;\n(9) Though as for that the passing there\n(10) Had worn them really about the same,\n\n\n(11) And both that morning equally lay\n(12) In leaves no step had trodden black.\n(13) Oh, I kept the first for another day!\n(14) Yet knowing how way leads on to way,\n(15) I doubted if I should ever come back.\n\n\n(16) I shall be telling this with a sigh\n(17) Somewhere ages and ages hence:\n(18) Two roads diverged in a wood, and I–\n(19) I took the one less traveled by,\n\n\n(20) And that has made all the difference.",
+        "question_text": "The dash in the phrase \"and I–\" on line 18 serves to convey the speaker's",
         "options": [
-            "They are young.",
-            "They are all based on her own family.",
-            "They are sensationalized.",
-            "They are immoral."
+            "excitement.",
+            "confusion.",
+            "hesitation.",
+            "despair."
         ],
-        "correct_answer": 0
+        "correct_answer": 2
     },
     {
         "_id": "39",
         "question_number": 39,
         "practice_set": "10",
         "category": "English:Reading Comprehension:Main Idea",
-        "difficulty": "easy",
+        "difficulty": "medium",
         "time_estimate": 95,
-        "passage": "(1) The land of Mesopotamia, cen-\ntered around the valley of the Tigris and\nEuphrates rivers, has been called \"the cradle\nof civilization.\" Western civilization had its\n(5) beginnings there and in the surrounding\nareas, which produced the great cultures of\nPhoenicia, India, Persia, and Egypt. Even\nin earlier prehistoric times, Mesopotamia\nsaw important beginnings, for it is thought\n(10) that the people of this land were the first\nto develop agriculture. And ages ago a\nMesopotamian people called the Sumerians\ngave the Western world its first system of\nwriting.\n\n(15) The Sumerians moved into the Tigris-\nEuphrates region six or seven thousand\nyears ago and settled in the delta at the\nconfluence of the two rivers. It was a muddy\narea, and over the centuries the Sumerians\n(20) made the most of mud as a resource. They\ndrained land to build on and channeled\nwater into irrigation ditches. They turned\nthe mud into bricks with which they built\nprotective walls, dwellings and temples, and\n(25) they also used it to create superior pottery\nand terra-cotta sculpture. The Sumerians\neven wrote on mud, shaping it into soft\ntablets on which they carved the first letters\nof Western civilization, wedge-shaped char-\n(30) acters called cuneiform.\n\n(31) Each prosperous Sumerian city-state was\nbuilt around an elevated temple dedicated\nto a god whose representative ruled the city.\nSumerian gods were distant from the people\n(35) and sometimes cruel, reflecting perhaps the\nharsh conditions in which their subjects\nlived. The floods, storms, and wild beasts\nthat threatened the people and sometimes\noverwhelmed them must have seemed like\n(40) manifestations of supernatural power. Nor\ndid the Sumerians have the comfort of an\nafterlife to look forward to, for in their reli-\ngion death brought only gloomy darkness.\n\n(44) A story in the Sumerian epic Gilgamesh\n(45) reflects this people's beliefs about life and\ndeath. The hero Gilgamesh's beloved friend\nEnkidu has just died, and Gilgamesh is so\ninconsolable at his loss that for seven days\nand nights he refuses to give up his friend's\n(50) body for burial. After he finally relents, he\ngoes on a long journey to the underworld,\nseeking the goddess who he thinks can grant\nhim immortality. But the answer given him\nby all those he meets on his journey is \"You\n(55) will never find that life that you seek.\" He is\ntold to go home and to make the best of his\nlife. He is to love those close to him and to\nmake them happy. When he returns home,\nhe is reminded of his great achievements;\n(60) and when he dies, he is cherished in the\nmemory of his people.",
-        "question_text": "Which of the following best tells what the passage is about?",
+        "passage": "The Road Not Taken\n\nBy Robert Frost\n\n(1) Two roads diverged in a yellow wood,\n(2) And sorry I could not travel both\n(3) And be one traveler, long I stood\n(4) And looked down one as far as I could\n(5) To where it bent in the undergrowth;\n\n\n(6) Then took the other, as just as fair,\n(7) And having perhaps the better claim,\n(8) Because it was grassy and wanted wear;\n(9) Though as for that the passing there\n(10) Had worn them really about the same,\n\n\n(11) And both that morning equally lay\n(12) In leaves no step had trodden black.\n(13) Oh, I kept the first for another day!\n(14) Yet knowing how way leads on to way,\n(15) I doubted if I should ever come back.\n\n\n(16) I shall be telling this with a sigh\n(17) Somewhere ages and ages hence:\n(18) Two roads diverged in a wood, and I–\n(19) I took the one less traveled by,\n\n\n(20) And that has made all the difference.",
+        "question_text": "How does the poet develop the idea of the two roads?",
         "options": [
-            "The invention of writing",
-            "The history of \"the cradle of civilization\"",
-            "A civilization that flourished in Mesopotamia",
-            "The quest of the hero Gilgamesh"
+            "by using similes to describe the environment",
+            "by providing a series of thoughts and reflections",
+            "by explaining the debate over the benefits of one option over the other",
+            "by using abstract language to express a powerful demonstration of emotions"
         ],
-        "correct_answer": 2
-    },
-    {
-        "_id": "40",
-        "question_number": 40,
-        "practice_set": "10",
-        "category": "English:Reading Comprehension:Inference",
-        "difficulty": "easy",
-        "time_estimate": 95,
-        "passage": "(1) The land of Mesopotamia, cen-\ntered around the valley of the Tigris and\nEuphrates rivers, has been called \"the cradle\nof civilization.\" Western civilization had its\n(5) beginnings there and in the surrounding\nareas, which produced the great cultures of\nPhoenicia, India, Persia, and Egypt. Even\nin earlier prehistoric times, Mesopotamia\nsaw important beginnings, for it is thought\n(10) that the people of this land were the first\nto develop agriculture. And ages ago a\nMesopotamian people called the Sumerians\ngave the Western world its first system of\nwriting.\n\n(15) The Sumerians moved into the Tigris-\nEuphrates region six or seven thousand\nyears ago and settled in the delta at the\nconfluence of the two rivers. It was a muddy\n(20) area, and over the centuries the Sumerians\nmade the most of mud as a resource. They\ndrained land to build on and channeled\nwater into irrigation ditches. They turned\nthe mud into bricks with which they built\n(25) protective walls, dwellings and temples, and\nthey also used it to create superior pottery\nand terra-cotta sculpture. The Sumerians\neven wrote on mud, shaping it into soft\ntablets on which they carved the first letters\nof Western civilization, wedge-shaped char-\n(30) acters called cuneiform.\n\n(31) Each prosperous Sumerian city-state was\nbuilt around an elevated temple dedicated\nto a god whose representative ruled the city.\nSumerian gods were distant from the people\n(35) and sometimes cruel, reflecting perhaps the\nharsh conditions in which their subjects\nlived. The floods, storms, and wild beasts\nthat threatened the people and sometimes\noverwhelmed them must have seemed like\n(40) manifestations of supernatural power. Nor\ndid the Sumerians have the comfort of an\nafterlife to look forward to, for in their reli-\ngion death brought only gloomy darkness.\n\n(44) A story in the Sumerian epic Gilgamesh\n(45) reflects this people's beliefs about life and\ndeath. The hero Gilgamesh's beloved friend\nEnkidu has just died, and Gilgamesh is so\ninconsolable at his loss that for seven days\nand nights he refuses to give up his friend's\n(50) body for burial. After he finally relents, he\ngoes on a long journey to the underworld,\nseeking the goddess who he thinks can grant\nhim immortality. But the answer given him\nby all those he meets on his journey is \"You\n(55) will never find that life that you seek.\" He is\ntold to go home and to make the best of his\nlife. He is to love those close to him and to\nmake them happy. When he returns home,\nhe is reminded of his great achievements;\n(60) and when he dies, he is cherished in the\nmemory of his people.",
-        "question_text": "What is the most likely reason why Gilgamesh goes to the underworld?",
-        "options": [
-            "The death of Enkidu has made him afraid of dying.",
-            "He thinks that as a hero he deserves special consideration.",
-            "He wants one more achievement to add to his heroic deeds.",
-            "He is a hero and wishes to go where no one has gone before."
-        ],
-        "correct_answer": 0
+        "correct_answer": 1
     },
     {
         "_id": "41",
