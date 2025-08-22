@@ -231,9 +231,18 @@ class TestHistoryManager {
             
             return `
                 <div class="pdf-viewer-simple">
+                    <div class="pdf-viewer-header">
+                        <span class="pdf-title">Reading Passage</span>
+                        <button class="btn btn-outline pdf-fullscreen-btn" onclick="window.openFullscreenPDFHistory('${fullPdfPath}')">
+                            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M8 3H5a2 2 0 0 0-2 2v3m18 0V5a2 2 0 0 0-2-2h-3m0 18h3a2 2 0 0 0 2-2v-3M3 16v3a2 2 0 0 0 2 2h3"/>
+                            </svg>
+                            Full Screen
+                        </button>
+                    </div>
                     <iframe src="${fullPdfPath}#zoom=150&view=FitH" 
                             class="pdf-iframe-large"
-                            style="width: 100%; height: 600px; border: 1px solid #ddd; border-radius: 8px; background: #f9f9f9;">
+                            style="width: 100%; height: 600px; border: 1px solid #ddd; border-radius: 0 0 8px 8px; background: #f9f9f9;">
                         <div class="pdf-fallback">
                             <p>Your browser doesn't support PDF viewing.</p>
                             <a href="${fullPdfPath}" target="_blank" class="btn btn-primary">
@@ -688,4 +697,94 @@ class TestHistoryManager {
 // Initialize when page loads
 document.addEventListener('DOMContentLoaded', () => {
     new TestHistoryManager();
-}); 
+});
+
+// Full-screen PDF viewer for test history (simplified version without navigation)
+window.openFullscreenPDFHistory = function(pdfPath) {
+    // Create full-screen modal
+    const fullscreenModal = document.createElement('div');
+    fullscreenModal.id = 'pdf-fullscreen-modal-history';
+    fullscreenModal.className = 'pdf-fullscreen-modal';
+    
+    fullscreenModal.innerHTML = `
+        <div class="pdf-fullscreen-header">
+            <div class="pdf-fullscreen-title">
+                <h3>Reading Passage - Full Screen</h3>
+                <span class="pdf-question-counter">Test History Review</span>
+            </div>
+            <div class="pdf-fullscreen-controls">
+                <button class="btn btn-secondary" id="pdf-close-fullscreen-history">
+                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M18 6L6 18M6 6l12 12"></path>
+                    </svg>
+                    Close
+                </button>
+            </div>
+        </div>
+        <div class="pdf-fullscreen-content">
+            <iframe src="${pdfPath}#zoom=fit&view=FitH" 
+                    class="pdf-fullscreen-iframe"
+                    style="width: 100%; height: 100%; border: none; background: #fff;">
+                <div class="pdf-fallback">
+                    <p>Your browser doesn't support PDF viewing.</p>
+                    <a href="${pdfPath}" target="_blank" class="btn btn-primary">
+                        Download PDF
+                    </a>
+                </div>
+            </iframe>
+        </div>
+        <div class="pdf-fullscreen-footer">
+            <div class="pdf-shortcuts">
+                <span><kbd>Esc</kbd> Close</span>
+            </div>
+        </div>
+    `;
+    
+    // Add to body
+    document.body.appendChild(fullscreenModal);
+    
+    // Prevent body scroll
+    document.body.style.overflow = 'hidden';
+    
+    // Add event listeners
+    const closeBtn = fullscreenModal.querySelector('#pdf-close-fullscreen-history');
+    closeBtn.addEventListener('click', closeFullscreenPDFHistory);
+    
+    // Keyboard shortcuts
+    const keydownHandler = (e) => {
+        if (e.key === 'Escape') {
+            closeFullscreenPDFHistory();
+        }
+    };
+    
+    document.addEventListener('keydown', keydownHandler);
+    
+    // Store the handler for cleanup
+    fullscreenModal._keydownHandler = keydownHandler;
+    
+    // Click outside to close
+    fullscreenModal.addEventListener('click', (e) => {
+        if (e.target === fullscreenModal) {
+            closeFullscreenPDFHistory();
+        }
+    });
+    
+    // Focus the modal for keyboard navigation
+    fullscreenModal.focus();
+};
+
+function closeFullscreenPDFHistory() {
+    const modal = document.getElementById('pdf-fullscreen-modal-history');
+    if (modal) {
+        // Remove keyboard listener
+        if (modal._keydownHandler) {
+            document.removeEventListener('keydown', modal._keydownHandler);
+        }
+        
+        // Restore body scroll
+        document.body.style.overflow = '';
+        
+        // Remove modal
+        document.body.removeChild(modal);
+    }
+} 

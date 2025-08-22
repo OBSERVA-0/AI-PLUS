@@ -1330,6 +1330,15 @@ function renderPassageContent(passage) {
         
         return `
             <div class="pdf-viewer-simple">
+                <div class="pdf-viewer-header">
+                    <span class="pdf-title">Reading Passage</span>
+                    <button class="btn btn-outline pdf-fullscreen-btn" onclick="openFullscreenPDF('${fullPdfPath}')">
+                        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M8 3H5a2 2 0 0 0-2 2v3m18 0V5a2 2 0 0 0-2-2h-3m0 18h3a2 2 0 0 0 2-2v-3M3 16v3a2 2 0 0 0 2 2h3"/>
+                        </svg>
+                        Full Screen
+                    </button>
+                </div>
                 <iframe src="${fullPdfPath}#zoom=150&view=FitH" 
                         class="pdf-iframe-large"
                         style="width: 100%; height: 800px; border: 1px solid #ddd; border-radius: 8px; background: #f9f9f9;">
@@ -1937,3 +1946,472 @@ function showTestCodeModal(testType, practiceSet) {
         }
     };
 }
+
+// Full-screen PDF viewer functionality
+function openFullscreenPDF(pdfPath) {
+    // Create full-screen modal
+    const fullscreenModal = document.createElement('div');
+    fullscreenModal.id = 'pdf-fullscreen-modal';
+    fullscreenModal.className = 'pdf-fullscreen-modal';
+    
+    fullscreenModal.innerHTML = `
+        <div class="pdf-fullscreen-header">
+            <div class="pdf-fullscreen-title">
+                <h3>Reading Passage - Full Screen</h3>
+                <span class="pdf-question-counter">Question ${currentQuestionIndex + 1} of ${testQuestions.length}</span>
+            </div>
+            <div class="pdf-fullscreen-controls">
+                <button class="btn btn-outline pdf-nav-btn" id="pdf-prev-question" ${currentQuestionIndex === 0 ? 'disabled' : ''}>
+                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <polyline points="15,18 9,12 15,6"></polyline>
+                    </svg>
+                    Previous Question
+                </button>
+                <button class="btn btn-outline pdf-nav-btn" id="pdf-next-question">
+                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <polyline points="9,18 15,12 9,6"></polyline>
+                    </svg>
+                    ${currentQuestionIndex === testQuestions.length - 1 ? 'Finish Test' : 'Next Question'}
+                </button>
+                <button class="btn btn-outline" id="pdf-toggle-pip">
+                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <rect x="2" y="3" width="20" height="14" rx="2" ry="2"></rect>
+                        <rect x="8" y="21" width="8" height="4" rx="1" ry="1"></rect>
+                    </svg>
+                    Toggle Q&A
+                </button>
+                <button class="btn btn-secondary" id="pdf-close-fullscreen">
+                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M18 6L6 18M6 6l12 12"></path>
+                    </svg>
+                    Close
+                </button>
+            </div>
+        </div>
+        <div class="pdf-fullscreen-content">
+            <iframe src="${pdfPath}#zoom=fit&view=FitH" 
+                    class="pdf-fullscreen-iframe"
+                    style="width: 100%; height: 100%; border: none; background: #fff;">
+                <div class="pdf-fallback">
+                    <p>Your browser doesn't support PDF viewing.</p>
+                    <a href="${pdfPath}" target="_blank" class="btn btn-primary">
+                        Download PDF
+                    </a>
+                </div>
+            </iframe>
+        </div>
+        <div class="pdf-pip-panel" id="pdf-pip-panel">
+            <div class="pip-panel-header">
+                <div class="pip-question-info">
+                    <span class="pip-question-number">Question ${currentQuestionIndex + 1} of ${testQuestions.length}</span>
+                    <div class="pip-question-status">
+                        ${getQuestionStatus(testQuestions[currentQuestionIndex].id)}
+                    </div>
+                </div>
+                <button class="btn-icon pip-minimize" id="pip-minimize-btn" title="Minimize question panel">
+                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M6 9l6 6 6-6"/>
+                    </svg>
+                </button>
+            </div>
+            <div class="pip-panel-content" id="pip-panel-content">
+                <!-- Question content will be loaded here -->
+            </div>
+        </div>
+        <div class="pdf-fullscreen-footer">
+            <div class="pdf-shortcuts">
+                <span><kbd>Esc</kbd> Close</span>
+                <span><kbd>←</kbd> Previous</span>
+                <span><kbd>→</kbd> Next</span>
+                <span><kbd>Space</kbd> Toggle Q&A</span>
+            </div>
+        </div>
+    `;
+    
+    // Add to body
+    document.body.appendChild(fullscreenModal);
+    
+    // Prevent body scroll
+    document.body.style.overflow = 'hidden';
+    
+    // Load current question in PIP panel
+    loadQuestionInPIP(currentQuestionIndex);
+    
+    // Add event listeners
+    setupFullscreenPDFListeners(fullscreenModal);
+    
+    // Focus the modal for keyboard navigation
+    fullscreenModal.focus();
+}
+
+function setupFullscreenPDFListeners(modal) {
+    // Close button
+    const closeBtn = modal.querySelector('#pdf-close-fullscreen');
+    closeBtn.addEventListener('click', closeFullscreenPDF);
+    
+    // Navigation buttons
+    const prevBtn = modal.querySelector('#pdf-prev-question');
+    const nextBtn = modal.querySelector('#pdf-next-question');
+    
+    prevBtn.addEventListener('click', () => {
+        if (currentQuestionIndex > 0) {
+            navigateQuestionInFullscreen(currentQuestionIndex - 1);
+        }
+    });
+    
+    nextBtn.addEventListener('click', () => {
+        if (currentQuestionIndex < testQuestions.length - 1) {
+            navigateQuestionInFullscreen(currentQuestionIndex + 1);
+        } else {
+            closeFullscreenPDF();
+            showEndTestConfirmation();
+        }
+    });
+    
+    // PIP toggle button
+    const togglePipBtn = modal.querySelector('#pdf-toggle-pip');
+    togglePipBtn.addEventListener('click', togglePIPPanel);
+    
+    // PIP minimize button
+    const minimizeBtn = modal.querySelector('#pip-minimize-btn');
+    minimizeBtn.addEventListener('click', minimizePIPPanel);
+    
+    // Keyboard shortcuts
+    const keydownHandler = (e) => {
+        switch(e.key) {
+            case 'Escape':
+                closeFullscreenPDF();
+                break;
+            case 'ArrowLeft':
+                if (currentQuestionIndex > 0) {
+                    navigateQuestionInFullscreen(currentQuestionIndex - 1);
+                }
+                break;
+            case 'ArrowRight':
+                if (currentQuestionIndex < testQuestions.length - 1) {
+                    navigateQuestionInFullscreen(currentQuestionIndex + 1);
+                } else {
+                    closeFullscreenPDF();
+                    showEndTestConfirmation();
+                }
+                break;
+            case ' ':
+                e.preventDefault();
+                togglePIPPanel();
+                break;
+        }
+    };
+    
+    document.addEventListener('keydown', keydownHandler);
+    
+    // Store the handler for cleanup
+    modal._keydownHandler = keydownHandler;
+    
+    // Click outside to close (but not on PIP panel)
+    modal.addEventListener('click', (e) => {
+        if (e.target === modal) {
+            closeFullscreenPDF();
+        }
+    });
+}
+
+function closeFullscreenPDF() {
+    const modal = document.getElementById('pdf-fullscreen-modal');
+    if (modal) {
+        // Remove keyboard listener
+        if (modal._keydownHandler) {
+            document.removeEventListener('keydown', modal._keydownHandler);
+        }
+        
+        // Restore body scroll
+        document.body.style.overflow = '';
+        
+        // Remove modal
+        document.body.removeChild(modal);
+    }
+}
+
+// PIP Panel Functions
+function loadQuestionInPIP(questionIndex) {
+    const question = testQuestions[questionIndex];
+    const pipContent = document.getElementById('pip-panel-content');
+    
+    if (!pipContent || !question) return;
+    
+    // Update question counter and status
+    const questionNumber = document.querySelector('.pip-question-number');
+    const questionStatus = document.querySelector('.pip-question-status');
+    
+    if (questionNumber) {
+        questionNumber.textContent = `Question ${questionIndex + 1} of ${testQuestions.length}`;
+    }
+    
+    if (questionStatus) {
+        questionStatus.innerHTML = getQuestionStatus(question.id);
+    }
+    
+    // Build question content
+    let optionsHtml = '';
+    
+    if (question.answer_type === 'fill_in_the_blank') {
+        // Fill-in-the-blank input
+        const currentAnswer = userAnswers[question.id] || '';
+        optionsHtml = `
+            <div class="pip-fill-blank-container">
+                <input type="text" 
+                       class="pip-fill-blank-input" 
+                       id="pip-fill-blank-answer"
+                       placeholder="Enter your answer here..." 
+                       value="${currentAnswer}">
+            </div>
+        `;
+    } else {
+        // Multiple choice options
+        question.options.forEach((option, optionIndex) => {
+            const isSelected = userAnswers[question.id] === optionIndex;
+            optionsHtml += `
+                <div class="pip-option ${isSelected ? 'selected' : ''}" data-option-index="${optionIndex}">
+                    <input type="radio" 
+                           name="pip-answer" 
+                           value="${optionIndex}" 
+                           id="pip-option-${optionIndex}"
+                           ${isSelected ? 'checked' : ''}>
+                    <label for="pip-option-${optionIndex}" class="pip-option-text">${option}</label>
+                </div>
+            `;
+        });
+    }
+    
+    pipContent.innerHTML = `
+        <div class="pip-question-text">
+            ${question.text.replace(/\n/g, '<br>')}
+        </div>
+        <div class="pip-question-options">
+            ${optionsHtml}
+        </div>
+        <div class="pip-question-actions">
+            <button class="btn btn-outline btn-sm pip-skip-btn" id="pip-skip-question">Skip</button>
+            <button class="btn btn-outline btn-sm pip-clear-btn" id="pip-clear-answer" style="display: ${userAnswers[question.id] !== undefined ? 'inline-block' : 'none'};">Clear</button>
+        </div>
+    `;
+    
+    // Add event listeners for the PIP question
+    setupPIPQuestionListeners(question);
+}
+
+function setupPIPQuestionListeners(question) {
+    const pipContent = document.getElementById('pip-panel-content');
+    
+    // Handle option clicks for multiple choice
+    pipContent.querySelectorAll('.pip-option').forEach(optionDiv => {
+        optionDiv.addEventListener('click', function() {
+            const optionIndex = parseInt(this.dataset.optionIndex);
+            
+            // Remove previous selection
+            pipContent.querySelectorAll('.pip-option').forEach(opt => 
+                opt.classList.remove('selected')
+            );
+            
+            // Select this option
+            const radio = this.querySelector('input[type="radio"]');
+            radio.checked = true;
+            this.classList.add('selected');
+            
+            // Save answer
+            userAnswers[question.id] = optionIndex;
+            skippedQuestions.delete(question.id);
+            
+            // Update status and buttons
+            updatePIPQuestionStatus(question.id);
+            updateMainQuestionGrid();
+        });
+    });
+    
+    // Handle fill-in-the-blank input
+    const fillBlankInput = pipContent.querySelector('.pip-fill-blank-input');
+    if (fillBlankInput) {
+        fillBlankInput.addEventListener('input', function() {
+            const answer = this.value.trim();
+            
+            if (answer) {
+                userAnswers[question.id] = answer;
+                skippedQuestions.delete(question.id);
+            } else {
+                delete userAnswers[question.id];
+                skippedQuestions.add(question.id);
+            }
+            
+            updatePIPQuestionStatus(question.id);
+            updateMainQuestionGrid();
+        });
+        
+        fillBlankInput.addEventListener('blur', function() {
+            const answer = this.value.trim();
+            if (answer) {
+                userAnswers[question.id] = answer;
+                skippedQuestions.delete(question.id);
+            }
+            updatePIPQuestionStatus(question.id);
+            updateMainQuestionGrid();
+        });
+    }
+    
+    // Skip and Clear buttons
+    const skipBtn = pipContent.querySelector('#pip-skip-question');
+    const clearBtn = pipContent.querySelector('#pip-clear-answer');
+    
+    if (skipBtn) {
+        skipBtn.addEventListener('click', () => {
+            skippedQuestions.add(question.id);
+            delete userAnswers[question.id];
+            
+            // Clear selections
+            pipContent.querySelectorAll('.pip-option').forEach(opt => 
+                opt.classList.remove('selected')
+            );
+            pipContent.querySelectorAll('input[name="pip-answer"]').forEach(input => 
+                input.checked = false
+            );
+            
+            if (fillBlankInput) {
+                fillBlankInput.value = '';
+            }
+            
+            updatePIPQuestionStatus(question.id);
+            updateMainQuestionGrid();
+        });
+    }
+    
+    if (clearBtn) {
+        clearBtn.addEventListener('click', () => {
+            delete userAnswers[question.id];
+            skippedQuestions.add(question.id);
+            
+            // Clear selections
+            pipContent.querySelectorAll('.pip-option').forEach(opt => 
+                opt.classList.remove('selected')
+            );
+            pipContent.querySelectorAll('input[name="pip-answer"]').forEach(input => 
+                input.checked = false
+            );
+            
+            if (fillBlankInput) {
+                fillBlankInput.value = '';
+            }
+            
+            updatePIPQuestionStatus(question.id);
+            updateMainQuestionGrid();
+        });
+    }
+}
+
+function updatePIPQuestionStatus(questionId) {
+    const questionStatus = document.querySelector('.pip-question-status');
+    if (questionStatus) {
+        questionStatus.innerHTML = getQuestionStatus(questionId);
+    }
+    
+    // Update action buttons visibility
+    const clearBtn = document.getElementById('pip-clear-answer');
+    const skipBtn = document.getElementById('pip-skip-question');
+    
+    if (clearBtn && skipBtn) {
+        if (userAnswers[questionId] !== undefined) {
+            clearBtn.style.display = 'inline-block';
+            skipBtn.style.display = 'none';
+        } else {
+            clearBtn.style.display = 'none';
+            skipBtn.style.display = 'inline-block';
+        }
+    }
+}
+
+function navigateQuestionInFullscreen(newIndex) {
+    currentQuestionIndex = newIndex;
+    
+    // Update header question counter
+    const questionCounter = document.querySelector('.pdf-question-counter');
+    if (questionCounter) {
+        questionCounter.textContent = `Question ${newIndex + 1} of ${testQuestions.length}`;
+    }
+    
+    // Update navigation buttons
+    const prevBtn = document.getElementById('pdf-prev-question');
+    const nextBtn = document.getElementById('pdf-next-question');
+    
+    if (prevBtn) {
+        prevBtn.disabled = newIndex === 0;
+    }
+    
+    if (nextBtn) {
+        nextBtn.innerHTML = `
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <polyline points="9,18 15,12 9,6"></polyline>
+            </svg>
+            ${newIndex === testQuestions.length - 1 ? 'Finish Test' : 'Next Question'}
+        `;
+    }
+    
+    // Load new question in PIP
+    loadQuestionInPIP(newIndex);
+    
+    // Update main question grid (if it exists)
+    updateMainQuestionGrid();
+}
+
+function updateMainQuestionGrid() {
+    // Update the main question grid in the background
+    updateQuestionGrid();
+}
+
+function togglePIPPanel() {
+    const pipPanel = document.getElementById('pdf-pip-panel');
+    if (pipPanel) {
+        pipPanel.classList.toggle('pip-hidden');
+    }
+}
+
+function minimizePIPPanel() {
+    const pipPanel = document.getElementById('pdf-pip-panel');
+    if (pipPanel) {
+        pipPanel.classList.add('pip-minimized');
+        
+        // Change minimize button to expand
+        const minimizeBtn = document.getElementById('pip-minimize-btn');
+        if (minimizeBtn) {
+            minimizeBtn.innerHTML = `
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <path d="M18 15l-6-6-6 6"/>
+                </svg>
+            `;
+            minimizeBtn.title = "Expand question panel";
+            
+            // Change click handler to expand
+            minimizeBtn.onclick = expandPIPPanel;
+        }
+    }
+}
+
+function expandPIPPanel() {
+    const pipPanel = document.getElementById('pdf-pip-panel');
+    if (pipPanel) {
+        pipPanel.classList.remove('pip-minimized');
+        
+        // Change expand button back to minimize
+        const minimizeBtn = document.getElementById('pip-minimize-btn');
+        if (minimizeBtn) {
+            minimizeBtn.innerHTML = `
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <path d="M6 9l6 6 6-6"/>
+                </svg>
+            `;
+            minimizeBtn.title = "Minimize question panel";
+            
+            // Change click handler back to minimize
+            minimizeBtn.onclick = minimizePIPPanel;
+        }
+    }
+}
+
+// Make openFullscreenPDF available globally
+window.openFullscreenPDF = openFullscreenPDF;
