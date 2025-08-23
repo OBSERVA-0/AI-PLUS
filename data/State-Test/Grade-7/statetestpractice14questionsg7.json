@@ -1,0 +1,574 @@
+[
+    {
+        "_id": "1",
+        "question_number": 1,
+        "practice_set": 25,
+        "category": "Math: Expressions and Equations",
+        "difficulty": "easy",
+        "time_estimate": 60,
+        "passage": "pdfData:pdf/2019-Grade-7-Mathematics.pdf",
+        "question_text": "Clara goes miniature golfing. She pays $7.50 for an admission ticket and $6.25 for each round she golfs. The total amount Clara pays for admission and the number of rounds she golfs is $26.25. Which equation can be used to determine the number of rounds, x, that Clara golfs?",
+        "options": [
+            "$6.25x + 7.50 = 26.25$",
+            "$6.25x - 7.50 = 26.25$",
+            "$7.50x + 6.25 = 26.25$",
+            "$7.50x - 6.25 = 26.25$"
+        ],
+        "correct_answer": 0,
+        "answer_type": "multiple_choice"
+    },
+    {
+        "_id": "2",
+        "question_number": 2,
+        "practice_set": 25,
+        "category": "Math: Number Systems",
+        "difficulty": "easy",
+        "time_estimate": 45,
+        "passage": "pdfData:pdf/2019-Grade-7-Mathematics.pdf",
+        "question_text": "What is the exact decimal equivalent of 7/12?",
+        "options": [
+            "0.583",
+            "0.583...",
+            "1.714",
+            "1.714..."
+        ],
+        "correct_answer": 1,
+        "answer_type": "multiple_choice"
+    },
+    {
+        "_id": "3",
+        "question_number": 3,
+        "practice_set": 25,
+        "category": "Math: Ratios and Proportions",
+        "difficulty": "easy",
+        "time_estimate": 60,
+        "passage": "pdfData:pdf/2019-Grade-7-Mathematics.pdf",
+        "question_text": "Joseph's lunch at a restaurant costs $13.00, without tax. He leaves the waiter a tip of 17% of the cost of the lunch, without tax. What is the total cost of the lunch, including the tip, without tax?",
+        "options": [
+            "$2.21",
+            "$10.79",
+            "$13.17",
+            "$15.21"
+        ],
+        "correct_answer": 3,
+        "answer_type": "multiple_choice"
+    },
+    {
+        "_id": "4",
+        "question_number": 4,
+        "practice_set": 25,
+        "category": "Math: Geometry",
+        "difficulty": "medium",
+        "time_estimate": 90,
+        "passage": "pdfData:pdf/2019-Grade-7-Mathematics.pdf",
+        "question_text": "Jordan is baking brownies and will choose to use either a round or a rectangular pan. The dimensions of the bottom of each pan are shown below. Which statement correctly describes how the area of the bottom of the round pan compares to the area of the bottom of the rectangular pan?",
+        "options": [
+            "The area of the bottom of the round pan is greater than the area of the bottom of the rectangular pan by about 8.5 square inches.",
+            "The area of the bottom of the round pan is greater than the area of the bottom of the rectangular pan by about 244.2 square inches.",
+            "The area of the bottom of the round pan is less than the area of the bottom of the rectangular pan by about 7.2 square inches.",
+            "The area of the bottom of the round pan is less than the area of the bottom of the rectangular pan by about 38.6 square inches."
+        ],
+        "correct_answer": 0,
+        "answer_type": "multiple_choice"
+    },
+    {
+        "_id": "5",
+        "question_number": 5,
+        "practice_set": 25,
+        "category": "Math: Ratios and Proportions",
+        "difficulty": "medium",
+        "time_estimate": 75,
+        "passage": "pdfData:pdf/2019-Grade-7-Mathematics.pdf",
+        "question_text": "On average, Shawnte drinks 1/2 of a 6-ounce glass of water in 2/3 hour. How much water does she drink in an hour?",
+        "options": [
+            "0.75 ounce",
+            "2 ounces",
+            "4.5 ounces",
+            "9 ounces"
+        ],
+        "correct_answer": 2,
+        "answer_type": "multiple_choice"
+    },
+    {
+        "_id": "9",
+        "question_number": 9,
+        "practice_set": 25,
+        "category": "Math: Ratios and Proportions",
+        "difficulty": "medium",
+        "time_estimate": 75,
+        "passage": "pdfData:pdf/2019-Grade-7-Mathematics.pdf",
+        "question_text": "The diagram shows the length and width of a cell phone, and the length of a larger version of the same brand of cell phone. The lengths and widths of the two cell phones are proportional. What is the width, in inches, of the larger version of the cell phone?",
+        "options": [
+            "1.15",
+            "2.26",
+            "2.99",
+            "3.41"
+        ],
+        "correct_answer": 2,
+        "answer_type": "multiple_choice"
+    },
+    {
+        "_id": "10",
+        "question_number": 10,
+        "practice_set": 25,
+        "category": "Math: Number Systems",
+        "difficulty": "easy",
+        "time_estimate": 45,
+        "passage": "pdfData:pdf/2019-Grade-7-Mathematics.pdf",
+        "question_text": "From 12:00 midnight to 6:00 a.m., the temperature decreased by 12.5°C. If the original temperature was 12.5°C, which expression can be used to represent this situation?",
+        "options": [
+            "12.5 - 12.5",
+            "12.5 + 12.5",
+            "12.5 - (-12.5)",
+            "-12.5 + (-12.5)"
+        ],
+        "correct_answer": 0,
+        "answer_type": "multiple_choice"
+    },
+    {
+        "_id": "13",
+        "question_number": 13,
+        "practice_set": 25,
+        "category": "Math: Ratios and Proportions",
+        "difficulty": "easy",
+        "time_estimate": 60,
+        "passage": "pdfData:pdf/2019-Grade-7-Mathematics.pdf",
+        "question_text": "The ratio of boys to girls in Mr. Johnson's after-school club is the same as the ratio of boys to girls in Ms. Greene's after-school club. There are 4 boys and 12 girls in Mr. Johnson's club. There are 6 boys in Ms. Greene's club. How many girls are in Ms. Greene's club?",
+        "options": [
+            "2",
+            "12",
+            "14",
+            "18"
+        ],
+        "correct_answer": 3,
+        "answer_type": "multiple_choice"
+    },
+    {
+        "_id": "14",
+        "question_number": 14,
+        "practice_set": 25,
+        "category": "Math: Expressions and Equations",
+        "difficulty": "medium",
+        "time_estimate": 75,
+        "passage": "pdfData:pdf/2019-Grade-7-Mathematics.pdf",
+        "question_text": "The regular price of an item at a store is p dollars. The item is on sale for 20% off the regular price. Some of the expressions shown below represent the sale price, in dollars, of the item.\nExpression A: 0.2p\nExpression B: 0.8p\nExpression C: 1 - 0.2p\nExpression D: p - 0.2p\nExpression E: p - 0.8p\nWhich two expressions each represent the sale price of the item?",
+        "options": [
+            "Expression A and Expression E",
+            "Expression B and Expression C",
+            "Expression B and Expression D",
+            "Expression C and Expression D"
+        ],
+        "correct_answer": 2,
+        "answer_type": "multiple_choice"
+    },
+    {
+        "_id": "15",
+        "question_number": 15,
+        "practice_set": 25,
+        "category": "Math: Ratios and Proportions",
+        "difficulty": "medium",
+        "time_estimate": 90,
+        "passage": "pdfData:pdf/2019-Grade-7-Mathematics.pdf",
+        "question_text": "Last week, the price of apples at a grocery store was $1.60 per pound. This week, apples at the same grocery store are on sale at a 10% discount. What is the total price of 4 1/2 pounds of apples this week at the grocery store?",
+        "options": [
+            "$4.77",
+            "$6.48",
+            "$6.75",
+            "$6.93"
+        ],
+        "correct_answer": 1,
+        "answer_type": "multiple_choice"
+    },
+    {
+        "_id": "16",
+        "question_number": 16,
+        "practice_set": 25,
+        "category": "Math: Ratios and Proportions",
+        "difficulty": "medium",
+        "time_estimate": 90,
+        "passage": "pdfData:pdf/2019-Grade-7-Mathematics.pdf",
+        "question_text": "An object travels along a horizontal straight path at a constant rate. The object travels 1/20 of the length of the path in 3/4 second. At that rate, how many seconds does it take the object to travel the entire length of the path?",
+        "options": [
+            "15",
+            "15 3/4",
+            "20",
+            "20 3/4"
+        ],
+        "correct_answer": 0,
+        "answer_type": "multiple_choice"
+    },
+    {
+        "_id": "19",
+        "question_number": 19,
+        "practice_set": 25,
+        "category": "Math: Ratios and Proportions",
+        "difficulty": "easy",
+        "time_estimate": 60,
+        "passage": "pdfData:pdf/2019-Grade-7-Mathematics.pdf",
+        "question_text": "Which table shows a proportional relationship between x and y?",
+        "options": [
+            "Table A",
+            "Table B",
+            "Table C",
+            "Table D"
+        ],
+        "correct_answer": 3,
+        "answer_type": "multiple_choice"
+    },
+    {
+        "_id": "20",
+        "question_number": 20,
+        "practice_set": 25,
+        "category": "Math: Expressions and Equations",
+        "difficulty": "easy",
+        "time_estimate": 45,
+        "passage": "pdfData:pdf/2019-Grade-7-Mathematics.pdf",
+        "question_text": "Which expression is equivalent to 7a - 8 - 12a + 4?",
+        "options": [
+            "-9a",
+            "31a",
+            "-5a - 4",
+            "19a + 12"
+        ],
+        "correct_answer": 2,
+        "answer_type": "multiple_choice"
+    },
+    {
+        "_id": "27",
+        "question_number": 27,
+        "practice_set": 25,
+        "category": "Math: Geometry",
+        "difficulty": "medium",
+        "time_estimate": 75,
+        "passage": "pdfData:pdf/2019-Grade-7-Mathematics.pdf",
+        "question_text": "Danielle constructs a scale model of a building with a rectangular base. Her model is 2 inches in length and 1 inch in width. The scale on the model is 1 inch = 47 feet. What is the actual area, in square feet, of the base of the building?",
+        "options": [
+            "141",
+            "282",
+            "2,209",
+            "4,418"
+        ],
+        "correct_answer": 3,
+        "answer_type": "multiple_choice"
+    },
+    {
+        "_id": "28",
+        "question_number": 28,
+        "practice_set": 25,
+        "category": "Math: Number Systems",
+        "difficulty": "medium",
+        "time_estimate": 60,
+        "passage": "pdfData:pdf/2019-Grade-7-Mathematics.pdf",
+        "question_text": "What value will make the equation true? -2.1 - ? = -1 1/2",
+        "options": [
+            "3.6",
+            "0.6",
+            "-0.6",
+            "-3.6"
+        ],
+        "correct_answer": 2,
+        "answer_type": "multiple_choice"
+    },
+    {
+        "_id": "29",
+        "question_number": 29,
+        "practice_set": 25,
+        "category": "Math: Expressions and Equations",
+        "difficulty": "easy",
+        "time_estimate": 60,
+        "passage": "pdfData:pdf/2019-Grade-7-Mathematics.pdf",
+        "question_text": "Manny goes bowling. He has $25.00 to spend. He spends $4.25 to rent shoes. He spends $2.50 for each game he bowls. Which inequality can Manny use to determine x, the greatest number of games he can bowl?",
+        "options": [
+            "2.5 + 4.25x >= 25",
+            "4.25 + 2.5x >= 25",
+            "2.5 + 4.25x <= 25",
+            "4.25 + 2.5x <= 25"
+        ],
+        "correct_answer": 3,
+        "answer_type": "multiple_choice"
+    },
+    {
+        "_id": "30",
+        "question_number": 30,
+        "practice_set": 25,
+        "category": "Math: Statistics",
+        "difficulty": "easy",
+        "time_estimate": 60,
+        "passage": "pdfData:pdf/2019-Grade-7-Mathematics.pdf",
+        "question_text": "A middle school principal wants to change the lunch menu at the school. The principal surveys the students to determine how the students would feel about the changes. Which survey method will produce the best representative sample?",
+        "options": [
+            "survey every fifth student who rides in a car to school",
+            "survey 3 randomly selected students from every homeroom",
+            "survey every tenth seventh-grade student during lunch",
+            "survey 5 randomly selected students from every art, drama, and music class"
+        ],
+        "correct_answer": 1,
+        "answer_type": "multiple_choice"
+    },
+    {
+        "_id": "31",
+        "question_number": 31,
+        "practice_set": 25,
+        "category": "Math: Probability",
+        "difficulty": "easy",
+        "time_estimate": 60,
+        "passage": "pdfData:pdf/2019-Grade-7-Mathematics.pdf",
+        "question_text": "Kerry has a bag containing white and yellow marbles. Kerry randomly selects one marble from the bag, records the result, and returns the marble to the bag. The results of the first 65 selections are shown below.\n- A white marble was selected 41 times.\n- A yellow marble was selected 24 times.\nBased on these results, what is the probability that the next marble Kerry selects, rounded to the nearest percent, will be white?",
+        "options": [
+            "41%",
+            "50%",
+            "59%",
+            "63%"
+        ],
+        "correct_answer": 3,
+        "answer_type": "multiple_choice"
+    },
+    {
+        "_id": "32",
+        "question_number": 32,
+        "practice_set": 25,
+        "category": "Math: Number Systems",
+        "difficulty": "medium",
+        "time_estimate": 75,
+        "passage": "pdfData:pdf/2019-Grade-7-Mathematics.pdf",
+        "question_text": "Which situation results in a final value of zero?",
+        "options": [
+            "the overall change in temperature when the temperature goes from -10°F to 10°F",
+            "the total profit made when a person buys an item for $2.25 and then sells the item for $2.25",
+            "the overall change in altitude of a hot air balloon after rising 21 kilometers from sea level",
+            "the total distance a person travels when he bikes 3.1 miles to school and then bikes 3.1 miles back home"
+        ],
+        "correct_answer": 1,
+        "answer_type": "multiple_choice"
+    },
+    {
+        "_id": "34",
+        "question_number": 34,
+        "practice_set": 25,
+        "category": "Math: Ratios and Proportions",
+        "difficulty": "easy",
+        "time_estimate": 60,
+        "passage": "pdfData:pdf/2019-Grade-7-Mathematics.pdf",
+        "question_text": "The table below shows a proportional relationship between s and t. Which equation represents the relationship between s and t?",
+        "options": [
+            "s = (1/7)t",
+            "s = 7t",
+            "s = t + 2",
+            "s = t + 18"
+        ],
+        "correct_answer": 1,
+        "answer_type": "multiple_choice"
+    },
+    {
+        "_id": "35",
+        "question_number": 35,
+        "practice_set": 25,
+        "category": "Math: Expressions and Equations",
+        "difficulty": "medium",
+        "time_estimate": 75,
+        "passage": "pdfData:pdf/2019-Grade-7-Mathematics.pdf",
+        "question_text": "Which expression is equivalent to 2(x + 7) - 18x + 4/5?",
+        "options": [
+            "20x + 74/5",
+            "20x + 139/5",
+            "-16x + 74/5",
+            "-16x + 139/5"
+        ],
+        "correct_answer": 2,
+        "answer_type": "multiple_choice"
+    },
+    {
+        "_id": "36",
+        "question_number": 36,
+        "practice_set": 25,
+        "category": "Math: Statistics",
+        "difficulty": "medium",
+        "time_estimate": 90,
+        "passage": "pdfData:pdf/2019-Grade-7-Mathematics.pdf",
+        "question_text": "The students in a class collected data on the number of minutes per day some kids spend brushing their teeth. Their data is shown in the dot plot below. Which statement correctly describes these data?",
+        "options": [
+            "The median is 0.5 and the mean is less than the median.",
+            "The median is 0.5 and the mean is greater than the median.",
+            "The median is 1.5 and the mean is less than the median.",
+            "The median is 1.5 and the mean is greater than the median."
+        ],
+        "correct_answer": 3,
+        "answer_type": "multiple_choice"
+    },
+    {
+        "_id": "37",
+        "question_number": 37,
+        "practice_set": 25,
+        "category": "Math: Probability",
+        "difficulty": "easy",
+        "time_estimate": 60,
+        "passage": "pdfData:pdf/2019-Grade-7-Mathematics.pdf",
+        "question_text": "A company sells artwork using a website. Information about the number of people that visited the website and the number of pieces of artwork purchased on a single day is listed below.\n- 117 people did not purchase any artwork\n- 24 people purchased one piece of artwork\n- 9 people purchased more than one piece of artwork\nBased on the data from that day, what is the probability that the next person to visit the website will purchase more than one piece of artwork?",
+        "options": [
+            "1/9",
+            "9/13",
+            "3/50",
+            "3/47"
+        ],
+        "correct_answer": 2,
+        "answer_type": "multiple_choice"
+    },
+    {
+        "_id": "38",
+        "question_number": 38,
+        "practice_set": 25,
+        "category": "Math: Expressions and Equations",
+        "difficulty": "easy",
+        "time_estimate": 60,
+        "passage": "pdfData:pdf/2019-Grade-7-Mathematics.pdf",
+        "question_text": "A coach of a baseball team orders hats for the players on his team. Each hat costs $9.95. The shipping charge for the entire order is $5.00. There is no tax on the order. The total cost of the coach's order is less than $125.00. Which inequality can be used to determine the greatest number of hats, h, the coach orders?",
+        "options": [
+            "5h + 9.95 > 125",
+            "5h + 9.95 < 125",
+            "9.95h + 5 > 125",
+            "9.95h + 5 < 125"
+        ],
+        "correct_answer": 3,
+        "answer_type": "multiple_choice"
+    },
+    {
+        "_id": "39",
+        "question_number": 39,
+        "practice_set": 25,
+        "category": "Math: Number Systems",
+        "difficulty": "medium",
+        "time_estimate": 75,
+        "passage": "pdfData:pdf/2019-Grade-7-Mathematics.pdf",
+        "question_text": "What is the value of (3/7) * 0.1 / (5/21)?",
+        "options": [
+            "1/98",
+            "9/50",
+            "9/5",
+            "18/1"
+        ],
+        "correct_answer": 1,
+        "answer_type": "multiple_choice"
+    },
+    {
+        "_id": "40",
+        "question_number": 40,
+        "practice_set": 25,
+        "category": "Math: Ratios and Proportions",
+        "difficulty": "hard",
+        "time_estimate": 120,
+        "passage": "pdfData:pdf/2019-Grade-7-Mathematics.pdf",
+        "question_text": "A worker at a snack stand opened a new box of cups. The first day, the worker used 30 cups from the box. The second day, the worker used 15% of the remaining cups in the box. A total of 90 cups were used on the second day. What was the original number of cups in the box before any cups were used?",
+        "options": [
+            "400",
+            "570",
+            "630",
+            "800"
+        ],
+        "correct_answer": 2,
+        "answer_type": "multiple_choice"
+    },
+    {
+        "_id": "41",
+        "question_number": 41,
+        "practice_set": 25,
+        "category": "Math: Number Systems",
+        "difficulty": "easy",
+        "time_estimate": 120,
+        "passage": "pdfData:pdf/2019-Grade-7-Mathematics.pdf",
+        "question_text": "Susan buys the items listed below at a grocery store.\n- 2 packages of chicken priced at $12.36 per package\n- 1/2 pound of broccoli priced at $1.98 per pound\n- 1 gallon of milk priced at $3.49 per gallon\nThere is no sales tax on the food she buys. Susan pays for the items and receives $0.80 in change. What amount of money does Susan use to pay for the items?",
+        "options": [],
+        "correct_answer": null,
+        "answer_type": "short_response"
+    },
+    {
+        "_id": "42",
+        "question_number": 42,
+        "practice_set": 25,
+        "category": "Math: Ratios and Proportions",
+        "difficulty": "medium",
+        "time_estimate": 150,
+        "passage": "pdfData:pdf/2019-Grade-7-Mathematics.pdf",
+        "question_text": "A company starts to track the number of phone calls received each month. Information about the number of phone calls the company received the first three months of tracking is listed below.\n- During the first month, the company received 4,264 phone calls.\n- During the second month, the company received 25% more phone calls than in the first month.\n- During the third month, the company received 6,396 phone calls.\nWhat was the percent increase in the number of phone calls from the second month to the third month?",
+        "options": [],
+        "correct_answer": null,
+        "answer_type": "short_response"
+    },
+    {
+        "_id": "43",
+        "question_number": 43,
+        "practice_set": 25,
+        "category": "Math: Ratios and Proportions",
+        "difficulty": "medium",
+        "time_estimate": 120,
+        "passage": "pdfData:pdf/2019-Grade-7-Mathematics.pdf",
+        "question_text": "A car travels 30 1/5 miles in 2/3 of an hour. What is the average speed, in miles per hour, of the car?",
+        "options": [],
+        "correct_answer": null,
+        "answer_type": "short_response"
+    },
+    {
+        "_id": "44",
+        "question_number": 44,
+        "practice_set": 25,
+        "category": "Math: Expressions and Equations",
+        "difficulty": "easy",
+        "time_estimate": 120,
+        "passage": "pdfData:pdf/2019-Grade-7-Mathematics.pdf",
+        "question_text": "Todd orders pictures from a photographer. Each picture costs $7.50. A one-time shipping fee of $3.25 is added to the cost of the order. The total cost of Todd's order before tax is $85.75. How many pictures did Todd order?",
+        "options": [],
+        "correct_answer": null,
+        "answer_type": "short_response"
+    },
+    {
+        "_id": "45",
+        "question_number": 45,
+        "practice_set": 25,
+        "category": "Math: Statistics",
+        "difficulty": "medium",
+        "time_estimate": 120,
+        "passage": "pdfData:pdf/2019-Grade-7-Mathematics.pdf",
+        "question_text": "A museum employee surveys a random sample of 350 visitors to the museum. Of those visitors, 266 stopped at the gift shop. Based on these results, about how many people out of 2,300 visitors to the museum would be expected to stop at the gift shop?",
+        "options": [],
+        "correct_answer": null,
+        "answer_type": "short_response"
+    },
+    {
+        "_id": "46",
+        "question_number": 46,
+        "practice_set": 25,
+        "category": "Math: Number Systems",
+        "difficulty": "medium",
+        "time_estimate": 150,
+        "passage": "pdfData:pdf/2019-Grade-7-Mathematics.pdf",
+        "question_text": "A candy store sells caramels and milk chocolate by the pound. The table below shows the total cost, in dollars, for a pound of each type of candy the store sells.\nCANDY PRICES\nType of Candy | Price per Pound (dollars)\nCaramels | $9.28\nMilk chocolate | $12.80\nHow much more is the cost for 1 3/4 pounds of milk chocolate than the cost for 1 3/4 pounds of caramels?",
+        "options": [],
+        "correct_answer": null,
+        "answer_type": "short_response"
+    },
+    {
+        "_id": "47",
+        "question_number": 47,
+        "practice_set": 25,
+        "category": "Math: Expressions and Equations",
+        "difficulty": "medium",
+        "time_estimate": 180,
+        "passage": "pdfData:pdf/2019-Grade-7-Mathematics.pdf",
+        "question_text": "At a grocery store, the price of a watermelon is determined by how many pounds the watermelon weighs. The price of a watermelon that weighs 7.3 pounds is $4.38. Write an equation that can be used to determine the price, p, in dollars, of any watermelon based on the number of pounds, W, the watermelon weighs. Explain the process you used to determine the equation.",
+        "options": [],
+        "correct_answer": null,
+        "answer_type": "short_response"
+    },
+    {
+        "_id": "48",
+        "question_number": 48,
+        "practice_set": 25,
+        "category": "Math: Ratios and Proportions",
+        "difficulty": "hard",
+        "time_estimate": 180,
+        "passage": "pdfData:pdf/2019-Grade-7-Mathematics.pdf",
+        "question_text": "Omar and Caleb each had a repair made on their cars. The initial cost of each repair is $1,000. Omar and Caleb each have two coupons. Each of them uses both of his coupons toward the cost of the repair. One coupon is for $80 off the repair cost. The other coupon is for 15% off the repair cost. Omar and Caleb use their coupons in a different order, as shown below.\n- Omar uses the $80 off the repair cost coupon first. He then uses the 15% off the repair cost coupon on the remaining balance.\n- Caleb uses the 15% off the repair cost coupon first. He then uses the $80 off the repair cost coupon on the remaining balance.\nWho paid the least amount of money for his car repair and how much less did he pay?",
+        "options": [],
+        "correct_answer": null,
+        "answer_type": "short_response"
+    }
+]

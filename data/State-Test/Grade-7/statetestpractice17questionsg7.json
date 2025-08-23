@@ -1,0 +1,511 @@
+[
+    {
+        "_id": "1",
+        "question_number": 1,
+        "practice_set": 29,
+        "category": "Math: Ratios and Proportions",
+        "difficulty": "easy",
+        "time_estimate": 60,
+        "passage": "pdfData:pdf/2024-Grade-7-Mathematics.pdf",
+        "question_text": "A store sells packages of butter. The table below shows the cost, in dollars, for different numbers of packages of butter. What is the cost, per package, of the butter?",
+        "options": [
+            "$0.31",
+            "$3.25",
+            "$6.75",
+            "$9.75"
+        ],
+        "correct_answer": 1,
+        "answer_type": "multiple_choice"
+    },
+    {
+        "_id": "4",
+        "question_number": 4,
+        "practice_set": 29,
+        "category": "Math: Expressions and Equations",
+        "difficulty": "easy",
+        "time_estimate": 75,
+        "passage": "pdfData:pdf/2024-Grade-7-Mathematics.pdf",
+        "question_text": "A farmer plants 4 rows of seedlings. The first 3 rows are equal in length. The length of the fourth row is 19 yards. The total length of the 4 rows is 61 yards. What is the length, in yards, of each of the first 3 rows the farmer plants?",
+        "options": [
+            "14",
+            "22",
+            "39",
+            "42"
+        ],
+        "correct_answer": 0,
+        "answer_type": "multiple_choice"
+    },
+    {
+        "_id": "5",
+        "question_number": 5,
+        "practice_set": 29,
+        "category": "Math: Number Systems",
+        "difficulty": "easy",
+        "time_estimate": 45,
+        "passage": "pdfData:pdf/2024-Grade-7-Mathematics.pdf",
+        "question_text": "On average, ocean temperatures around the world range from -2°C to 32°C. What is the difference between the two ocean temperatures?",
+        "options": [
+            "-34°C",
+            "34°C",
+            "-30°C",
+            "30°C"
+        ],
+        "correct_answer": 1,
+        "answer_type": "multiple_choice"
+    },
+    {
+        "_id": "7",
+        "question_number": 7,
+        "practice_set": 29,
+        "category": "Math: Statistics",
+        "difficulty": "medium",
+        "time_estimate": 75,
+        "passage": "pdfData:pdf/2024-Grade-7-Mathematics.pdf",
+        "question_text": "Mr. Moore collected data from his sixth grade class on how many minutes they studied for a test. The dot plot below shows the number of minutes each student studied. Which statement about the distribution of the data is true?",
+        "options": [
+            "The distribution is symmetrical.",
+            "The distribution has a range of 25.",
+            "The distribution appears to have an outlier.",
+            "The distribution has a cluster from 25 to 35 minutes."
+        ],
+        "correct_answer": 2,
+        "answer_type": "multiple_choice"
+    },
+    {
+        "_id": "10",
+        "question_number": 10,
+        "practice_set": 29,
+        "category": "Math: Expressions and Equations",
+        "difficulty": "easy",
+        "time_estimate": 60,
+        "passage": "pdfData:pdf/2024-Grade-7-Mathematics.pdf",
+        "question_text": "Victoria has a movie subscription. She pays an annual membership fee of $24.00 and also a fee of $4.00 for each movie she watches. Which inequality can be used to determine the total number of movies, m, Victoria can watch if she wants to spend less than $100.00 per year?",
+        "options": [
+            "24m + 4 < 100",
+            "4m + 24 < 100",
+            "4m + 24 <= 100",
+            "4m + 24 >= 100"
+        ],
+        "correct_answer": 1,
+        "answer_type": "multiple_choice"
+    },
+    {
+        "_id": "11",
+        "question_number": 11,
+        "practice_set": 29,
+        "category": "Math: Expressions and Equations",
+        "difficulty": "medium",
+        "time_estimate": 75,
+        "passage": "pdfData:pdf/2024-Grade-7-Mathematics.pdf",
+        "question_text": "The regular price of a shirt is n dollars. During a sale, the shirt is discounted by 15%. Which pair of expressions includes two correct ways to represent the price, in dollars, of the shirt after the discount?",
+        "options": [
+            "n - 0.15 and 0.85",
+            "n - 0.15n and 0.85",
+            "n - 15.00 and 85.00",
+            "n - 0.15n and 0.85n"
+        ],
+        "correct_answer": 3,
+        "answer_type": "multiple_choice"
+    },
+    {
+        "_id": "13",
+        "question_number": 13,
+        "practice_set": 29,
+        "category": "Math: Expressions and Equations",
+        "difficulty": "medium",
+        "time_estimate": 75,
+        "passage": "pdfData:pdf/2024-Grade-7-Mathematics.pdf",
+        "question_text": "Which expression is equivalent to 3.6(x - 5) + 2.5(x + 4)?",
+        "options": [
+            "6.1x - 1",
+            "6.1x - 8",
+            "1.1x - 1",
+            "1.1x - 8"
+        ],
+        "correct_answer": 1,
+        "answer_type": "multiple_choice"
+    },
+    {
+        "_id": "14",
+        "question_number": 14,
+        "practice_set": 29,
+        "category": "Math: Statistics",
+        "difficulty": "easy",
+        "time_estimate": 60,
+        "passage": "pdfData:pdf/2024-Grade-7-Mathematics.pdf",
+        "question_text": "A teacher records the test scores for the students in her class. The results are shown in the box plot below. Based on these data, what is the interquartile range?",
+        "options": [
+            "3",
+            "8",
+            "11",
+            "21"
+        ],
+        "correct_answer": 2,
+        "answer_type": "multiple_choice"
+    },
+    {
+        "_id": "15",
+        "question_number": 15,
+        "practice_set": 29,
+        "category": "Math: Number Systems",
+        "difficulty": "medium",
+        "time_estimate": 90,
+        "passage": "pdfData:pdf/2024-Grade-7-Mathematics.pdf",
+        "question_text": "What is the value of the expression shown below?\n1/3 - (2/3 + 5/7) - 2 1/5",
+        "options": [
+            "-1/15",
+            "-11/15",
+            "-1 16/105",
+            "-3 26/105"
+        ],
+        "correct_answer": 3,
+        "answer_type": "multiple_choice"
+    },
+    {
+        "_id": "17",
+        "question_number": 17,
+        "practice_set": 29,
+        "category": "Math: Ratios and Proportions",
+        "difficulty": "medium",
+        "time_estimate": 90,
+        "passage": "pdfData:pdf/2024-Grade-7-Mathematics.pdf",
+        "question_text": "There were two movies shown at a theater. A total of 150 tickets were sold for the first movie, and 40% more tickets were sold for the second movie than for the first movie. If each ticket sold for $13.50, what was the total amount of ticket sales, in dollars, for both movies?",
+        "options": [
+            "$2,565.00",
+            "$2,835.00",
+            "$4,590.00",
+            "$4,860.00"
+        ],
+        "correct_answer": 3,
+        "answer_type": "multiple_choice"
+    },
+    {
+        "_id": "21",
+        "question_number": 21,
+        "practice_set": 29,
+        "category": "Math: Ratios and Proportions",
+        "difficulty": "easy",
+        "time_estimate": 60,
+        "passage": "pdfData:pdf/2024-Grade-7-Mathematics.pdf",
+        "question_text": "The table shown below represents a proportional relationship between x and y. Which equation represents this proportional relationship?",
+        "options": [
+            "y = x",
+            "y = 4x",
+            "y = 1/4 * x",
+            "y = 9/4 * x"
+        ],
+        "correct_answer": 2,
+        "answer_type": "multiple_choice"
+    },
+    {
+        "_id": "26",
+        "question_number": 26,
+        "practice_set": 29,
+        "category": "Math: Ratios and Proportions",
+        "difficulty": "medium",
+        "time_estimate": 75,
+        "passage": "pdfData:pdf/2024-Grade-7-Mathematics.pdf",
+        "question_text": "Pat uses 2 5/8 cups of sugar for 3 1/2 batches of cookies. She uses the same amount of sugar for each batch of cookies baked. How much sugar, in cups per batch, does Pat use to bake cookies?",
+        "options": [
+            "3/4",
+            "7/8",
+            "1 1/3",
+            "6 1/8"
+        ],
+        "correct_answer": 0,
+        "answer_type": "multiple_choice"
+    },
+    {
+        "_id": "29",
+        "question_number": 29,
+        "practice_set": 29,
+        "category": "Math: Ratios and Proportions",
+        "difficulty": "medium",
+        "time_estimate": 75,
+        "passage": "pdfData:pdf/2024-Grade-7-Mathematics.pdf",
+        "question_text": "A seventh grade class sells gift cards as a fundraiser for the school library. Each gift card sells for $15.00. The library gets 35% of the money earned for each gift card sold. How much money does the library get if the class sells 500 gift cards?",
+        "options": [
+            "$1,167.00",
+            "$1,429.00",
+            "$2,625.00",
+            "$4,875.00"
+        ],
+        "correct_answer": 2,
+        "answer_type": "multiple_choice"
+    },
+    {
+        "_id": "30",
+        "question_number": 30,
+        "practice_set": 29,
+        "category": "Math: Expressions and Equations",
+        "difficulty": "medium",
+        "time_estimate": 75,
+        "passage": "pdfData:pdf/2024-Grade-7-Mathematics.pdf",
+        "question_text": "Which graph represents the solution to the inequality 4 - 4x > 16?",
+        "options": [
+            "Graph A",
+            "Graph B",
+            "Graph C",
+            "Graph D"
+        ],
+        "correct_answer": 0,
+        "answer_type": "multiple_choice"
+    },
+    {
+        "_id": "31",
+        "question_number": 31,
+        "practice_set": 29,
+        "category": "Math: Number Systems",
+        "difficulty": "medium",
+        "time_estimate": 75,
+        "passage": "pdfData:pdf/2024-Grade-7-Mathematics.pdf",
+        "question_text": "What is the value of the expression shown below?\n-1 1/2 + (-7/8)(-3/4)",
+        "options": [
+            "-75/64",
+            "-27/32",
+            "-2 5/32",
+            "-3 1/8"
+        ],
+        "correct_answer": 1,
+        "answer_type": "multiple_choice"
+    },
+    {
+        "_id": "33",
+        "question_number": 33,
+        "practice_set": 29,
+        "category": "Math: Number Systems",
+        "difficulty": "medium",
+        "time_estimate": 75,
+        "passage": "pdfData:pdf/2024-Grade-7-Mathematics.pdf",
+        "question_text": "Which situation results in a final value of zero?",
+        "options": [
+            "The total number of pencils Aaron has if he had 12 pencils and bought 12 more pencils.",
+            "The total number of blocks Tom walks after walking 6 blocks north and walking 6 blocks west.",
+            "The total distance Nicole hikes from a depth of 10 feet below sea level to a height of 10 feet above sea level.",
+            "The total number of cookies Tiffany has if she bought 4 batches of cookies and sold the 4 batches of cookies."
+        ],
+        "correct_answer": 3,
+        "answer_type": "multiple_choice"
+    },
+    {
+        "_id": "34",
+        "question_number": 34,
+        "practice_set": 29,
+        "category": "Math: Ratios and Proportions",
+        "difficulty": "medium",
+        "time_estimate": 75,
+        "passage": "pdfData:pdf/2024-Grade-7-Mathematics.pdf",
+        "question_text": "Cheryl earns $23.75 babysitting for 2 1/2 hours. At that rate, how much does Cheryl earn when babysitting for 5 3/4 hours?",
+        "options": [
+            "$50.73",
+            "$54.63",
+            "$68.31",
+            "$78.38"
+        ],
+        "correct_answer": 1,
+        "answer_type": "multiple_choice"
+    },
+    {
+        "_id": "35",
+        "question_number": 35,
+        "practice_set": 29,
+        "category": "Math: Statistics",
+        "difficulty": "hard",
+        "time_estimate": 90,
+        "passage": "pdfData:pdf/2024-Grade-7-Mathematics.pdf",
+        "question_text": "Two line plots are shown below. The first one represents the average cell phone usage per day, in minutes, of 20 teenagers. The second one represents the average cell phone usage per day, in minutes, of 20 adults. Which statement about the two data sets is true?",
+        "options": [
+            "The mean of the data for the adults is greater than the mean of the data for the teenagers because the data points for the adults are more spread out.",
+            "The mean of the data for the teenagers is greater than the mean of the data for the adults because the scale for the teenagers has greater numbers than the scale for the adults.",
+            "The range of the data for the teenagers is greater than the range of the data for the adults because the data points for the teenagers are clustered.",
+            "The range of the data for the teenagers is greater than the range of the data for the adults because the scale for the teenagers has greater numbers than the scale for the adults."
+        ],
+        "correct_answer": 1,
+        "answer_type": "multiple_choice"
+    },
+    {
+        "_id": "36",
+        "question_number": 36,
+        "practice_set": 29,
+        "category": "Math: Ratios and Proportions",
+        "difficulty": "medium",
+        "time_estimate": 75,
+        "passage": "pdfData:pdf/2024-Grade-7-Mathematics.pdf",
+        "question_text": "There are 140 students enrolled at a school. Of the students that are enrolled at the school, 3/4 play sports. Of the students that play sports, 1/7 are in an art club. How many students enrolled at the school both play sports and are in an art club?",
+        "options": [
+            "5",
+            "15",
+            "60",
+            "125"
+        ],
+        "correct_answer": 1,
+        "answer_type": "multiple_choice"
+    },
+    {
+        "_id": "37",
+        "question_number": 37,
+        "practice_set": 29,
+        "category": "Math: Expressions and Equations",
+        "difficulty": "medium",
+        "time_estimate": 75,
+        "passage": "pdfData:pdf/2024-Grade-7-Mathematics.pdf",
+        "question_text": "Which expression is equivalent to 17(1/3)x - 7/2*x?",
+        "options": [
+            "83x/6",
+            "55x/6",
+            "13x/6",
+            "10x/6"
+        ],
+        "correct_answer": 2,
+        "answer_type": "multiple_choice"
+    },
+    {
+        "_id": "38",
+        "question_number": 38,
+        "practice_set": 29,
+        "category": "Math: Ratios and Proportions",
+        "difficulty": "easy",
+        "time_estimate": 60,
+        "passage": "pdfData:pdf/2024-Grade-7-Mathematics.pdf",
+        "question_text": "A store buys candy by the pound. The graph shown below represents the relationship between the weight, in pounds, and the total cost, in dollars, of the candy. What is the cost of one pound of candy?",
+        "options": [
+            "$0.29",
+            "$3.33",
+            "$3.50",
+            "$5.00"
+        ],
+        "correct_answer": 2,
+        "answer_type": "multiple_choice"
+    },
+
+    {
+        "_id": "39",
+        "question_number": 39,
+        "practice_set": 29,
+        "category": "Math: Ratios and Proportions",
+        "difficulty": "easy",
+        "time_estimate": 90,
+        "passage": "pdfData:pdf/2024-Grade-7-Mathematics.pdf",
+        "question_text": "Marty types at an average rate of 25 words per minute. Write an equation that could be used to determine the average number of words, w, Marty types in t minutes.",
+        "options": [],
+        "correct_answer": null,
+        "answer_type": "short_response"
+    },
+    {
+        "_id": "40",
+        "question_number": 40,
+        "practice_set": 29,
+        "category": "Math: Number Systems",
+        "difficulty": "easy",
+        "time_estimate": 60,
+        "passage": "pdfData:pdf/2024-Grade-7-Mathematics.pdf",
+        "question_text": "What is the value of the expression -2(-3)(4)?",
+        "options": [],
+        "correct_answer": null,
+        "answer_type": "short_response"
+    },
+    {
+        "_id": "41",
+        "question_number": 41,
+        "practice_set": 29,
+        "category": "Math: Ratios and Proportions",
+        "difficulty": "medium",
+        "time_estimate": 90,
+        "passage": "pdfData:pdf/2024-Grade-7-Mathematics.pdf",
+        "question_text": "Kenneth bought a shirt that was originally priced at $55.00. After a discount, he paid $38.50. What was the percent discount of the original price of the shirt?",
+        "options": [],
+        "correct_answer": null,
+        "answer_type": "short_response"
+    },
+    {
+        "_id": "42",
+        "question_number": 42,
+        "practice_set": 29,
+        "category": "Math: Probability",
+        "difficulty": "medium",
+        "time_estimate": 150,
+        "passage": "pdfData:pdf/2024-Grade-7-Mathematics.pdf",
+        "question_text": "Frank and his friends are playing a game with the spinner shown below. Each player spins the arrow 5 times and adds all the numbers the spinner lands on to get their score. Frank's first three spins are listed below.\n-1.5, 2, and -3.5\nFrank has two more spins. What two numbers would the spinner need to land on for Frank's final score to equal 0? Explain your answer.",
+        "options": [],
+        "correct_answer": null,
+        "answer_type": "short_response"
+    },
+    {
+        "_id": "43",
+        "question_number": 43,
+        "practice_set": 29,
+        "category": "Math: Ratios and Proportions",
+        "difficulty": "medium",
+        "time_estimate": 120,
+        "passage": "pdfData:pdf/2024-Grade-7-Mathematics.pdf",
+        "question_text": "Joann went for a hike. The trail she hiked was 5 1/2 miles and it took her 2 1/5 hours to complete. If Joann hiked at an average unit rate, how fast, in miles per hour, did Joann hike? Show your work.",
+        "options": [],
+        "correct_answer": null,
+        "answer_type": "short_response"
+    },
+    {
+        "_id": "44",
+        "question_number": 44,
+        "practice_set": 29,
+        "category": "Math: Geometry",
+        "difficulty": "medium",
+        "time_estimate": 120,
+        "passage": "pdfData:pdf/2024-Grade-7-Mathematics.pdf",
+        "question_text": "A map has a scale of 1 centimeter = 50 miles. The actual distance between New York City and Washington, D.C., is 225 miles. What is the distance, in centimeters, between the two cities on the map? Show your work.",
+        "options": [],
+        "correct_answer": null,
+        "answer_type": "short_response"
+    },
+    {
+        "_id": "45",
+        "question_number": 45,
+        "practice_set": 29,
+        "category": "Math: Expressions and Equations",
+        "difficulty": "medium",
+        "time_estimate": 150,
+        "passage": "pdfData:pdf/2024-Grade-7-Mathematics.pdf",
+        "question_text": "During lunch, a sandwich shop owner sold 2 types of sandwiches: turkey and roast beef. Each sandwich cost $4.99 and the total sales from all of the sandwiches sold was $219.56. There were 25 turkey sandwiches sold. How many roast beef sandwiches were sold? Show your work.",
+        "options": [],
+        "correct_answer": null,
+        "answer_type": "short_response"
+    },
+    {
+        "_id": "46",
+        "question_number": 46,
+        "practice_set": 29,
+        "category": "Math: Expressions and Equations",
+        "difficulty": "medium",
+        "time_estimate": 120,
+        "passage": "pdfData:pdf/2024-Grade-7-Mathematics.pdf",
+        "question_text": "Write the expression -8(4 - x) + 20 as the sum of two unlike terms. Be sure to show the use of the properties of operations in your answer. Show your work.",
+        "options": [],
+        "correct_answer": null,
+        "answer_type": "short_response"
+    },
+    {
+        "_id": "47",
+        "question_number": 47,
+        "practice_set": 29,
+        "category": "Math: Probability",
+        "difficulty": "medium",
+        "time_estimate": 150,
+        "passage": "pdfData:pdf/2024-Grade-7-Mathematics.pdf",
+        "question_text": "Jonah received a gift card to a movie theater. The gift card allows him to choose one type of movie, one snack, and one drink. His options are shown in the list below.\n- Movies: drama, action, comedy\n- Snacks: popcorn, chips, candy\n- Drinks: water, juice\nHe chooses one movie, one snack, and one drink at random. What is the probability that Jonah chooses a comedy, chips, and juice? Write your answer as a fraction. Show your work.",
+        "options": [],
+        "correct_answer": null,
+        "answer_type": "short_response"
+    },
+    {
+        "_id": "48",
+        "question_number": 48,
+        "practice_set": 29,
+        "category": "Math: Ratios and Proportions",
+        "difficulty": "hard",
+        "time_estimate": 180,
+        "passage": "pdfData:pdf/2024-Grade-7-Mathematics.pdf",
+        "question_text": "A furniture store is advertising a 20% discount on the price of sofas. Scott chooses a sofa with a discounted price of $460.00. He must also pay an 8% sales tax. How much money will Scott save on the discounted sofa, including tax, compared to the originally priced sofa, including tax? Show your work.",
+        "options": [],
+        "correct_answer": null,
+        "answer_type": "short_response"
+    }
+]

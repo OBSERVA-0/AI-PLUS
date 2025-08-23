@@ -1,0 +1,510 @@
+[
+    {
+        "_id": "1",
+        "question_number": 1,
+        "practice_set": 28,
+        "category": "Math: Number Systems",
+        "difficulty": "easy",
+        "time_estimate": 45,
+        "passage": "pdfData:pdf/2023-Grade-7-Mathematics.pdf",
+        "question_text": "What is the value of the expression (-1/3) ÷ (2/5)?",
+        "options": [
+            "-6/5",
+            "-5/6",
+            "5/6",
+            "6/5"
+        ],
+        "correct_answer": 1,
+        "answer_type": "multiple_choice"
+    },
+    {
+        "_id": "2",
+        "question_number": 2,
+        "practice_set": 28,
+        "category": "Math: Expressions and Equations",
+        "difficulty": "medium",
+        "time_estimate": 75,
+        "passage": "pdfData:pdf/2023-Grade-7-Mathematics.pdf",
+        "question_text": "Maria and two friends are at a movie theater. They have $52.00 and spend $34.50 of it on movie tickets. They also buy 3 drinks that each cost the same amount. After buying the movie tickets and drinks, they have $4.00 remaining. How much did each drink cost?",
+        "options": [
+            "$2.50",
+            "$3.83",
+            "$4.00",
+            "$4.50"
+        ],
+        "correct_answer": 3,
+        "answer_type": "multiple_choice"
+    },
+    {
+        "_id": "4",
+        "question_number": 4,
+        "practice_set": 28,
+        "category": "Math: Ratios and Proportions",
+        "difficulty": "easy",
+        "time_estimate": 60,
+        "passage": "pdfData:pdf/2023-Grade-7-Mathematics.pdf",
+        "question_text": "Megan reads the same number of pages in a book each day. The table below represents the total number of pages read at the end of the given number of days. How many pages does Megan read in 1 day?",
+        "options": [
+            "16",
+            "18",
+            "28",
+            "32"
+        ],
+        "correct_answer": 0,
+        "answer_type": "multiple_choice"
+    },
+    {
+        "_id": "5",
+        "question_number": 5,
+        "practice_set": 28,
+        "category": "Math: Expressions and Equations",
+        "difficulty": "medium",
+        "time_estimate": 75,
+        "passage": "pdfData:pdf/2023-Grade-7-Mathematics.pdf",
+        "question_text": "Which expression is equivalent to the one shown below?\n-1.5 + 2/5 + (-7) + 2.6",
+        "options": [
+            "(-5.5 + 2.6) + 2/5",
+            "(-8.5 + 2.6) + 2/5",
+            "(-1/5 + 2/5) + (-4.4)",
+            "(-1/5 + 2/5) + (-9.6)"
+        ],
+        "correct_answer": 1,
+        "answer_type": "multiple_choice"
+    },
+    {
+        "_id": "8",
+        "question_number": 8,
+        "practice_set": 28,
+        "category": "Math: Number Systems",
+        "difficulty": "medium",
+        "time_estimate": 90,
+        "passage": "pdfData:pdf/2023-Grade-7-Mathematics.pdf",
+        "question_text": "Joel has three buckets which contain different amounts of liquid. The amount of liquid in each bucket is listed below.\n7 1/2 liters\n5 3/4 liters\n6 3/4 liters\nJoel mixes all the liquid together. Then he pours all the liquid equally into 5 containers. How many liters of liquid does Joel pour into each container?",
+        "options": [
+            "2 1/2",
+            "4",
+            "6",
+            "6 2/3"
+        ],
+        "correct_answer": 1,
+        "answer_type": "multiple_choice"
+    },
+    {
+        "_id": "9",
+        "question_number": 9,
+        "practice_set": 28,
+        "category": "Math: Statistics",
+        "difficulty": "medium",
+        "time_estimate": 75,
+        "passage": "pdfData:pdf/2023-Grade-7-Mathematics.pdf",
+        "question_text": "A student's science scores are shown below.\n76, 82, 65, 82, 93, 63, 45, 82, 90, 74\nWhat is the mode and how does it compare to the median?",
+        "options": [
+            "The mode is 79 and it is lower than the median.",
+            "The mode is 79 and it is higher than the median.",
+            "The mode is 82 and it is lower than the median.",
+            "The mode is 82 and it is higher than the median."
+        ],
+        "correct_answer": 3,
+        "answer_type": "multiple_choice"
+    },
+    {
+        "_id": "13",
+        "question_number": 13,
+        "practice_set": 28,
+        "category": "Math: Ratios and Proportions",
+        "difficulty": "easy",
+        "time_estimate": 60,
+        "passage": "pdfData:pdf/2023-Grade-7-Mathematics.pdf",
+        "question_text": "The table below shows the amount of money, in dollars, that Kathy earns babysitting for a given number of hours worked. Based on the table, which statement is true about the relationship between the number of hours, h, she works and the amount of money, d, she earns?",
+        "options": [
+            "It is not proportional because when the value of h is 0, the value of d is 0.",
+            "It is proportional because the ratios between the values of d and h are the same for each pair.",
+            "It is not proportional because the difference between d and h is different for each pair of values.",
+            "It is proportional because the values of h increase by the same amount from one pair of values to the next."
+        ],
+        "correct_answer": 1,
+        "answer_type": "multiple_choice"
+    },
+    {
+        "_id": "16",
+        "question_number": 16,
+        "practice_set": 28,
+        "category": "Math: Statistics",
+        "difficulty": "medium",
+        "time_estimate": 75,
+        "passage": "pdfData:pdf/2023-Grade-7-Mathematics.pdf",
+        "question_text": "The math test scores for Class A and Class B are represented in the box plots shown below. Which statement about the relationship between the scores of the two classes is true?",
+        "options": [
+            "The median score for Class A is greater than the median score for Class B.",
+            "The range of the scores for Class A is less than the range of the scores for Class B.",
+            "The interquartile range for Class B is greater than the interquartile range for Class A.",
+            "The second quartile value for Class B is less than the second quartile value for Class A."
+        ],
+        "correct_answer": 2,
+        "answer_type": "multiple_choice"
+    },
+    {
+        "_id": "17",
+        "question_number": 17,
+        "practice_set": 28,
+        "category": "Math: Geometry",
+        "difficulty": "medium",
+        "time_estimate": 90,
+        "passage": "pdfData:pdf/2023-Grade-7-Mathematics.pdf",
+        "question_text": "The design of an office parking lot is shown below. The distance between each parking space is x feet. What is the distance, x, between each parking space in the parking lot?",
+        "options": [
+            "17/20 foot",
+            "1 1/2 feet",
+            "1 7/8 feet",
+            "1 7/10 feet"
+        ],
+        "correct_answer": 2,
+        "answer_type": "multiple_choice"
+    },
+    {
+        "_id": "18",
+        "question_number": 18,
+        "practice_set": 28,
+        "category": "Math: Expressions and Equations",
+        "difficulty": "easy",
+        "time_estimate": 60,
+        "passage": "pdfData:pdf/2023-Grade-7-Mathematics.pdf",
+        "question_text": "A student has a bus pass with a balance of $30.00. Each time the student rides the bus, the balance on the bus pass decreases by $2.25. What is the greatest number of bus rides the student can take using the bus pass?",
+        "options": [
+            "10",
+            "13",
+            "14",
+            "15"
+        ],
+        "correct_answer": 1,
+        "answer_type": "multiple_choice"
+    },
+    {
+        "_id": "21",
+        "question_number": 21,
+        "practice_set": 28,
+        "category": "Math: Expressions and Equations",
+        "difficulty": "easy",
+        "time_estimate": 45,
+        "passage": "pdfData:pdf/2023-Grade-7-Mathematics.pdf",
+        "question_text": "A store sells blue hats and green hats. Each hat is priced at $8.00. The expression 8b + 8g can be used to determine the total price when a customer buys any number of blue hats, b, and any number of green hats, g. Which equivalent expression could also be used to determine the total price, in dollars, of the hats?",
+        "options": [
+            "8bg",
+            "16bg",
+            "8(b + g)",
+            "16(b + g)"
+        ],
+        "correct_answer": 2,
+        "answer_type": "multiple_choice"
+    },
+    {
+        "_id": "23",
+        "question_number": 23,
+        "practice_set": 28,
+        "category": "Math: Ratios and Proportions",
+        "difficulty": "medium",
+        "time_estimate": 90,
+        "passage": "pdfData:pdf/2023-Grade-7-Mathematics.pdf",
+        "question_text": "A store manager collects information about the number of people who visit his store each week. The information, collected over a 3-week period, is listed below.\n- The number of people that visited the store in week 1 was 3,200.\n- The number of people that visited the store in week 2 was 10% more than week 1.\n- The number of people that visited the store in week 3 was 15% more than week 2.\nHow many people visited the store in week 3?",
+        "options": [
+            "3,520",
+            "3,680",
+            "4,000",
+            "4,048"
+        ],
+        "correct_answer": 3,
+        "answer_type": "multiple_choice"
+    },
+    {
+        "_id": "25",
+        "question_number": 25,
+        "practice_set": 28,
+        "category": "Math: Ratios and Proportions",
+        "difficulty": "easy",
+        "time_estimate": 60,
+        "passage": "pdfData:pdf/2023-Grade-7-Mathematics.pdf",
+        "question_text": "Joseph has a part-time job. The graph below represents the amount Joseph earns, in dollars, for the number of hours he works. Based on the graph, which equation can be used to determine the earnings, in dollars, for every hour he works?",
+        "options": [
+            "y = 1.5x",
+            "y = 15x",
+            "x = 1.5y",
+            "x = 15y"
+        ],
+        "correct_answer": 1,
+        "answer_type": "multiple_choice"
+    },
+    {
+        "_id": "31",
+        "question_number": 31,
+        "practice_set": 28,
+        "category": "Math: Statistics",
+        "difficulty": "easy",
+        "time_estimate": 60,
+        "passage": "pdfData:pdf/2023-Grade-7-Mathematics.pdf",
+        "question_text": "The line plot shown below represents the number of hits by some players at a baseball tournament. How many players are represented by the data on the line plot?",
+        "options": [
+            "3",
+            "7",
+            "27",
+            "85"
+        ],
+        "correct_answer": 2,
+        "answer_type": "multiple_choice"
+    },
+    {
+        "_id": "32",
+        "question_number": 32,
+        "practice_set": 28,
+        "category": "Math: Ratios and Proportions",
+        "difficulty": "medium",
+        "time_estimate": 75,
+        "passage": "pdfData:pdf/2023-Grade-7-Mathematics.pdf",
+        "question_text": "The bill for a dinner at a restaurant is $58.20, before sales tax and tip. Sales tax is 5% of the dinner bill. Tip is 20% of the dinner bill. How much is the total bill including tax and tip?",
+        "options": [
+            "$83.20",
+            "$72.75",
+            "$62.27",
+            "$58.45"
+        ],
+        "correct_answer": 1,
+        "answer_type": "multiple_choice"
+    },
+    {
+        "_id": "33",
+        "question_number": 33,
+        "practice_set": 28,
+        "category": "Math: Ratios and Proportions",
+        "difficulty": "medium",
+        "time_estimate": 75,
+        "passage": "pdfData:pdf/2023-Grade-7-Mathematics.pdf",
+        "question_text": "A bicyclist travels 6 1/2 miles in 2/3 hour. What is the average speed, in miles per hour, of the bicyclist?",
+        "options": [
+            "6 1/2",
+            "6 5/6",
+            "7 1/6",
+            "9 3/4"
+        ],
+        "correct_answer": 3,
+        "answer_type": "multiple_choice"
+    },
+    {
+        "_id": "34",
+        "question_number": 34,
+        "practice_set": 28,
+        "category": "Math: Probability",
+        "difficulty": "easy",
+        "time_estimate": 60,
+        "passage": "pdfData:pdf/2023-Grade-7-Mathematics.pdf",
+        "question_text": "At a deli, customers buying a sandwich can choose one type of bread, one type of meat, and one type of cheese. The options for each sandwich are listed below.\n- bread: white or wheat\n- meat: turkey or beef\n- cheese: American, Swiss, or cheddar\nAssuming each choice is equally likely, what is the probability a customer will choose a sandwich with white bread, turkey, and Swiss cheese?",
+        "options": [
+            "1/12",
+            "1/7",
+            "1/4",
+            "1/3"
+        ],
+        "correct_answer": 0,
+        "answer_type": "multiple_choice"
+    },
+    {
+        "_id": "35",
+        "question_number": 35,
+        "practice_set": 28,
+        "category": "Math: Expressions and Equations",
+        "difficulty": "medium",
+        "time_estimate": 75,
+        "passage": "pdfData:pdf/2023-Grade-7-Mathematics.pdf",
+        "question_text": "Frank is riding in a taxi to get to work. The cost of riding in a taxi includes a one-time fee of $2.75, and $2.60 per mile. If Frank rides in a taxi for 4 miles and pays a $2.00 tip, how much money will he have left over if he pays with a $20.00 bill?",
+        "options": [
+            "$4.85",
+            "$6.85",
+            "$7.35",
+            "$7.60"
+        ],
+        "correct_answer": 0,
+        "answer_type": "multiple_choice"
+    },
+    {
+        "_id": "36",
+        "question_number": 36,
+        "practice_set": 28,
+        "category": "Math: Number Systems",
+        "difficulty": "easy",
+        "time_estimate": 30,
+        "passage": "pdfData:pdf/2023-Grade-7-Mathematics.pdf",
+        "question_text": "The sum of two numbers is zero. If one of the numbers is 5, what is the other number?",
+        "options": [
+            "-10",
+            "-5",
+            "0",
+            "5"
+        ],
+        "correct_answer": 1,
+        "answer_type": "multiple_choice"
+    },
+    {
+        "_id": "37",
+        "question_number": 37,
+        "practice_set": 28,
+        "category": "Math: Expressions and Equations",
+        "difficulty": "easy",
+        "time_estimate": 60,
+        "passage": "pdfData:pdf/2023-Grade-7-Mathematics.pdf",
+        "question_text": "Ms. Jacobs has $15.00 to spend on coffee and donuts. She buys 1 coffee for $2.59. The cost of each donut is $1.09. Which inequality could be used to determine the greatest number of donuts, d, that Ms. Jacobs can buy?",
+        "options": [
+            "1.09d + 2.59 <= 15",
+            "1.09d + 2.59 >= 15",
+            "1.09 + 2.59d <= 15",
+            "1.09 + 2.59d >= 15"
+        ],
+        "correct_answer": 0,
+        "answer_type": "multiple_choice"
+    },
+    {
+        "_id": "38",
+        "question_number": 38,
+        "practice_set": 28,
+        "category": "Math: Ratios and Proportions",
+        "difficulty": "medium",
+        "time_estimate": 75,
+        "passage": "pdfData:pdf/2023-Grade-7-Mathematics.pdf",
+        "question_text": "Maggie owns a dog grooming business. The prices for two services are listed below.\n- $31.50 for a dog wash\n- $17.00 for a nail trim\nA customer receives an 18% discount when paying for both a dog wash and a nail trim. What is the total price the customer will pay for a dog wash and a nail trim with the discount?",
+        "options": [
+            "$18.00",
+            "$39.77",
+            "$42.83",
+            "$48.50"
+        ],
+        "correct_answer": 1,
+        "answer_type": "multiple_choice"
+    },
+    {
+        "_id": "39",
+        "question_number": 39,
+        "practice_set": 28,
+        "category": "Math: Ratios and Proportions",
+        "difficulty": "easy",
+        "time_estimate": 90,
+        "passage": "pdfData:pdf/2023-Grade-7-Mathematics.pdf",
+        "question_text": "The table below shows a proportional relationship between the cups of flour, x, and the number of cookies, y, for a given recipe. Based on this relationship, how many cookies can be made per cup of flour?",
+        "options": [],
+        "correct_answer": null,
+        "answer_type": "short_response"
+    },
+    {
+        "_id": "40",
+        "question_number": 40,
+        "practice_set": 28,
+        "category": "Math: Number Systems",
+        "difficulty": "easy",
+        "time_estimate": 90,
+        "passage": "pdfData:pdf/2023-Grade-7-Mathematics.pdf",
+        "question_text": "Kasey and Andrew each went for a walk, once a day, for 4 days.\n- Kasey walked 3/4 mile each day.\n- Andrew walked 3/5 mile each day.\nAt the end of 4 days, how much farther, in miles, had Kasey walked than Andrew?",
+        "options": [],
+        "correct_answer": null,
+        "answer_type": "short_response"
+    },
+    {
+        "_id": "41",
+        "question_number": 41,
+        "practice_set": 28,
+        "category": "Math: Expressions and Equations",
+        "difficulty": "medium",
+        "time_estimate": 90,
+        "passage": "pdfData:pdf/2023-Grade-7-Mathematics.pdf",
+        "question_text": "Write the expression 1/2(18y - 2y + 10) as the sum of two unlike terms.",
+        "options": [],
+        "correct_answer": null,
+        "answer_type": "short_response"
+    },
+    {
+        "_id": "42",
+        "question_number": 42,
+        "practice_set": 28,
+        "category": "Math: Ratios and Proportions",
+        "difficulty": "medium",
+        "time_estimate": 150,
+        "passage": "pdfData:pdf/2023-Grade-7-Mathematics.pdf",
+        "question_text": "A student programs a robot to travel at a constant speed across the classroom floor. The table below represents the relationship between the distance, in feet, the robot travels over a period of time, in seconds. Write an equation to represent the distance, d, in feet, the robot travels in t seconds. Using the equation, how many seconds will it take for the robot to travel 11 feet?",
+        "options": [],
+        "correct_answer": null,
+        "answer_type": "short_response"
+    },
+    {
+        "_id": "43",
+        "question_number": 43,
+        "practice_set": 28,
+        "category": "Math: Expressions and Equations",
+        "difficulty": "medium",
+        "time_estimate": 150,
+        "passage": "pdfData:pdf/2023-Grade-7-Mathematics.pdf",
+        "question_text": "Diane is planning a party at a trampoline park. It will cost $55.00 to rent the park, plus an additional $8.00 per guest. She wants to spend less than $100.00 on the party. Write and solve an inequality to determine the maximum number of guests, g, that can be invited when spending less than a total of $100.00.",
+        "options": [],
+        "correct_answer": null,
+        "answer_type": "short_response"
+    },
+    {
+        "_id": "44",
+        "question_number": 44,
+        "practice_set": 28,
+        "category": "Math: Probability",
+        "difficulty": "medium",
+        "time_estimate": 120,
+        "passage": "pdfData:pdf/2023-Grade-7-Mathematics.pdf",
+        "question_text": "A student tosses a fair coin with heads (H) on one side and tails (T) on the other, and rolls a fair number cube with faces numbered 1 through 6. How many different outcomes are possible? Be sure to provide the sample space for all possible combinations to support your answer.",
+        "options": [],
+        "correct_answer": null,
+        "answer_type": "short_response"
+    },
+    {
+        "_id": "45",
+        "question_number": 45,
+        "practice_set": 28,
+        "category": "Math: Geometry",
+        "difficulty": "medium",
+        "time_estimate": 120,
+        "passage": "pdfData:pdf/2023-Grade-7-Mathematics.pdf",
+        "question_text": "A scale drawing of the floor of a rectangular-shaped classroom is shown in the diagram below. The drawing has a scale of 1 inch to 14 feet. What is the area, in square feet, of the actual classroom?",
+        "options": [],
+        "correct_answer": null,
+        "answer_type": "short_response"
+    },
+    {
+        "_id": "46",
+        "question_number": 46,
+        "practice_set": 28,
+        "category": "Math: Number Systems",
+        "difficulty": "medium",
+        "time_estimate": 120,
+        "passage": "pdfData:pdf/2023-Grade-7-Mathematics.pdf",
+        "question_text": "A scuba diver dives 24 feet below the water's surface. The diver then rises 10 feet, stops, and then dives downward another 18 feet. How far, in feet, does the diver need to rise upward to reach the water's surface?",
+        "options": [],
+        "correct_answer": null,
+        "answer_type": "short_response"
+    },
+    {
+        "_id": "47",
+        "question_number": 47,
+        "practice_set": 28,
+        "category": "Math: Expressions and Equations",
+        "difficulty": "medium",
+        "time_estimate": 120,
+        "passage": "pdfData:pdf/2023-Grade-7-Mathematics.pdf",
+        "question_text": "A family of 2 adults and 2 children went to a fair. The costs of admission and rides are listed below.\n- $11.00 for admission for each adult\n- $5.00 for admission for each child\n- $1.25 per ride\nThe family spent a total of $52.00 on admission and rides. How many rides did the family pay for?",
+        "options": [],
+        "correct_answer": null,
+        "answer_type": "short_response"
+    },
+    {
+        "_id": "48",
+        "question_number": 48,
+        "practice_set": 28,
+        "category": "Math: Ratios and Proportions",
+        "difficulty": "hard",
+        "time_estimate": 180,
+        "passage": "pdfData:pdf/2023-Grade-7-Mathematics.pdf",
+        "question_text": "Airline A and Airline B offer travel discounts to the same destination. The original ticket prices and discounts are described below.\n- Airline A: a discount of 25% off the original ticket price of $150\n- Airline B: a discount of 1/3 off the original ticket price of $180\nWhich airline offers the least expensive ticket? Be sure to include the discounted ticket price for each airline in your answer.",
+        "options": [],
+        "correct_answer": null,
+        "answer_type": "short_response"
+    }
+]
