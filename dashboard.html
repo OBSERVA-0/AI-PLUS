@@ -175,30 +175,86 @@
                                 <span class="value">90-180 minutes</span>
                             </div>
                         </div>
+                        
+                        <!-- Grade and Subject Selection -->
+                        <div class="test-selection-controls">
+                            <div class="selection-row">
+                                <div class="dropdown-group">
+                                    <label for="grade-select">Grade:</label>
+                                    <select id="grade-select" class="grade-selector">
+                                        <option value="">Select Grade</option>
+                                        <option value="3">Grade 3</option>
+                                        <option value="4">Grade 4</option>
+                                        <option value="5">Grade 5</option>
+                                        <option value="6">Grade 6</option>
+                                        <option value="7" selected>Grade 7</option>
+                                        <option value="8">Grade 8</option>
+                                    </select>
+                                </div>
+                                <div class="dropdown-group">
+                                    <label for="subject-select">Subject:</label>
+                                    <select id="subject-select" class="subject-selector">
+                                        <option value="">Select Subject</option>
+                                        <option value="ela">English Language Arts</option>
+                                        <option value="math">Mathematics</option>
+                                    </select>
+                                </div>
+                            </div>
+                        </div>
+                        
                         <div class="test-progress">
                             <div class="progress-info">
                                 <span>Tests taken: <span class="test-count">0</span></span>
                                 <span>Best score: <span class="best-score">N/A</span></span>
                             </div>
                         </div>
-                        <div class="test-buttons">
-                            <button class="btn btn-primary start-test-btn" data-practice-set="1">Grade 7 ELA Test-1</button>
-                            <button class="btn btn-secondary start-test-btn" data-practice-set="2">Grade 7 ELA Test-2</button>
-                            <button class="btn btn-primary start-test-btn" data-practice-set="3">Grade 7 ELA Test-3</button>
-                            <button class="btn btn-primary start-test-btn" data-practice-set="7">Grade 7 ELA Test-4</button>
-                            <button class="btn btn-primary start-test-btn" data-practice-set="8">Grade 7 ELA Test-5</button>
-                            <button class="btn btn-primary start-test-btn" data-practice-set="9">Grade 7 ELA Test-6</button>
-                            <button class="btn btn-primary start-test-btn" data-practice-set="10">Grade 7 ELA Test-7</button>
-                            <button class="btn btn-primary start-test-btn" data-practice-set="11">Grade 7 ELA Test-8</button>
-                            <button class="btn btn-primary start-test-btn" data-practice-set="12">Grade 7 ELA Test-9</button>
-                            <button class="btn btn-primary start-test-btn" data-practice-set="13">Grade 7 ELA Test-10</button>
-                            <button class="btn btn-primary start-test-btn" data-practice-set="4">Grade 7 Math Test-1 </button>
-                            <button class="btn btn-primary start-test-btn" data-practice-set="5">Grade 7 Math Test-2 </button>
-                            <button class="btn btn-primary start-test-btn" data-practice-set="6">Grade 7 Math Test-3</button>
-                            <button class="btn btn-primary start-test-btn" data-practice-set="14">Grade 7 Math Test-4</button>
-                            <button class="btn btn-primary start-test-btn" data-practice-set="15">Grade 7 Math Test-5</button>
-                            <button class="btn btn-primary start-test-btn" data-practice-set="16">Grade 7 Math Test-6</button>
-                            <button class="btn btn-primary start-test-btn" data-practice-set="17">Grade 7 Math Test-7</button>                            
+                        
+                        <!-- Dynamic Test Display Area -->
+                        <div class="test-display-area">
+                            <!-- Default message when no selection made -->
+                            <div id="no-selection-message" class="selection-message">
+                                <div class="message-content">
+                                    <h4>🎯 Select Grade and Subject</h4>
+                                    <p>Choose your grade level and subject from the dropdowns above to see available tests.</p>
+                                </div>
+                            </div>
+                            
+                            <!-- No tests available message -->
+                            <div id="no-tests-message" class="selection-message" style="display: none;">
+                                <div class="message-content">
+                                    <h4>🚧 Coming Soon</h4>
+                                    <p>Tests for this grade and subject combination are not available yet. Check back soon!</p>
+                                </div>
+                            </div>
+                            
+                            <!-- Test buttons container -->
+                            <div id="test-buttons-container" class="test-buttons" style="display: none;">
+                                <!-- Grade 7 ELA Tests -->
+                                <button class="btn btn-primary start-test-btn" data-practice-set="1" data-grade="7" data-subject="ela">Grade 7 ELA Test-1</button>
+                                <button class="btn btn-secondary start-test-btn" data-practice-set="2" data-grade="7" data-subject="ela">Grade 7 ELA Test-2</button>
+                                <button class="btn btn-primary start-test-btn" data-practice-set="3" data-grade="7" data-subject="ela">Grade 7 ELA Test-3</button>
+                                <button class="btn btn-primary start-test-btn" data-practice-set="7" data-grade="7" data-subject="ela">Grade 7 ELA Test-4</button>
+                                <button class="btn btn-primary start-test-btn" data-practice-set="8" data-grade="7" data-subject="ela">Grade 7 ELA Test-5</button>
+                                <button class="btn btn-primary start-test-btn" data-practice-set="9" data-grade="7" data-subject="ela">Grade 7 ELA Test-6</button>
+                                <button class="btn btn-primary start-test-btn" data-practice-set="10" data-grade="7" data-subject="ela">Grade 7 ELA Test-7</button>
+                                <button class="btn btn-primary start-test-btn" data-practice-set="11" data-grade="7" data-subject="ela">Grade 7 ELA Test-8</button>
+                                <button class="btn btn-primary start-test-btn" data-practice-set="12" data-grade="7" data-subject="ela">Grade 7 ELA Test-9</button>
+                                <button class="btn btn-primary start-test-btn" data-practice-set="13" data-grade="7" data-subject="ela">Grade 7 ELA Test-10</button>
+                                
+                                <!-- Grade 7 Math Tests -->
+                                <button class="btn btn-primary start-test-btn" data-practice-set="4" data-grade="7" data-subject="math">Grade 7 Math Test-1</button>
+                                <button class="btn btn-primary start-test-btn" data-practice-set="5" data-grade="7" data-subject="math">Grade 7 Math Test-2</button>
+                                <button class="btn btn-primary start-test-btn" data-practice-set="6" data-grade="7" data-subject="math">Grade 7 Math Test-3</button>
+                                <button class="btn btn-primary start-test-btn" data-practice-set="14" data-grade="7" data-subject="math">Grade 7 Math Test-4</button>
+                                <button class="btn btn-primary start-test-btn" data-practice-set="15" data-grade="7" data-subject="math">Grade 7 Math Test-5</button>
+                                <button class="btn btn-primary start-test-btn" data-practice-set="16" data-grade="7" data-subject="math">Grade 7 Math Test-6</button>
+                                <button class="btn btn-primary start-test-btn" data-practice-set="17" data-grade="7" data-subject="math">Grade 7 Math Test-7</button>
+                                
+                                <!-- Add more grades/subjects here - just add buttons with data-grade and data-subject attributes! -->
+                                <!-- Example for Grade 8 Math (when you add those tests):
+                                <button class="btn btn-primary start-test-btn" data-practice-set="18" data-grade="8" data-subject="math">Grade 8 Math Test-1</button>
+                                -->
+                            </div>
                         </div>
                     </div>
                 </div>

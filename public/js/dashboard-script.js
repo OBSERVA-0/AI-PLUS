@@ -2415,3 +2415,121 @@ function expandPIPPanel() {
 
 // Make openFullscreenPDF available globally
 window.openFullscreenPDF = openFullscreenPDF;
+
+// State Test Grade/Subject Filtering System
+class StateTestFilter {
+    constructor() {
+        this.gradeSelect = document.getElementById('grade-select');
+        this.subjectSelect = document.getElementById('subject-select');
+        this.noSelectionMessage = document.getElementById('no-selection-message');
+        this.noTestsMessage = document.getElementById('no-tests-message');
+        this.testButtonsContainer = document.getElementById('test-buttons-container');
+        
+        this.initializeEventListeners();
+        this.updateDisplay(); // Initial display setup
+    }
+    
+    initializeEventListeners() {
+        if (this.gradeSelect) {
+            this.gradeSelect.addEventListener('change', () => this.updateDisplay());
+        }
+        if (this.subjectSelect) {
+            this.subjectSelect.addEventListener('change', () => this.updateDisplay());
+        }
+    }
+    
+    updateDisplay() {
+        const selectedGrade = this.gradeSelect?.value || '';
+        const selectedSubject = this.subjectSelect?.value || '';
+        
+        // Hide all messages and containers initially
+        if (this.noSelectionMessage) this.noSelectionMessage.style.display = 'none';
+        if (this.noTestsMessage) this.noTestsMessage.style.display = 'none';
+        if (this.testButtonsContainer) this.testButtonsContainer.style.display = 'none';
+        
+        // Show appropriate content based on selection
+        if (!selectedGrade || !selectedSubject) {
+            // No complete selection made
+            if (this.noSelectionMessage) this.noSelectionMessage.style.display = 'flex';
+            return;
+        }
+        
+        // Filter and show/hide test buttons
+        const availableTests = this.filterTestButtons(selectedGrade, selectedSubject);
+        
+        if (availableTests.length > 0) {
+            // Tests available - show the container
+            if (this.testButtonsContainer) this.testButtonsContainer.style.display = 'block';
+        } else {
+            // No tests available for this combination
+            if (this.noTestsMessage) this.noTestsMessage.style.display = 'flex';
+        }
+    }
+    
+    filterTestButtons(grade, subject) {
+        if (!this.testButtonsContainer) return [];
+        
+        const allButtons = this.testButtonsContainer.querySelectorAll('.start-test-btn');
+        const visibleButtons = [];
+        
+        allButtons.forEach(button => {
+            const buttonGrade = button.getAttribute('data-grade');
+            const buttonSubject = button.getAttribute('data-subject');
+            
+            const isMatch = buttonGrade === grade && buttonSubject === subject;
+            
+            if (isMatch) {
+                button.style.display = 'inline-block';
+                visibleButtons.push(button);
+            } else {
+                button.style.display = 'none';
+            }
+        });
+        
+        return visibleButtons;
+    }
+    
+    // Helper method to add new tests easily
+    // Just call this method with the test details and it will create the button
+    addTestButton(practiceSet, grade, subject, testName) {
+        if (!this.testButtonsContainer) return;
+        
+        const button = document.createElement('button');
+        button.className = 'btn btn-primary start-test-btn';
+        button.setAttribute('data-practice-set', practiceSet);
+        button.setAttribute('data-grade', grade);
+        button.setAttribute('data-subject', subject);
+        button.textContent = testName;
+        
+        this.testButtonsContainer.appendChild(button);
+        
+        // Reattach event listeners for the new button
+        this.attachButtonEventListener(button);
+        
+        // Update display to reflect new test
+        this.updateDisplay();
+    }
+    
+    attachButtonEventListener(button) {
+        button.addEventListener('click', function() {
+            const practiceSet = this.getAttribute('data-practice-set');
+            if (practiceSet) {
+                showTestCodeModal('statetest', practiceSet);
+            }
+        });
+    }
+}
+
+// Initialize the State Test Filter when DOM is loaded
+document.addEventListener('DOMContentLoaded', function() {
+    // Initialize State Test Filter
+    window.stateTestFilter = new StateTestFilter();
+    
+    // Attach event listeners to existing test buttons
+    const existingButtons = document.querySelectorAll('#test-buttons-container .start-test-btn');
+    existingButtons.forEach(button => {
+        if (window.stateTestFilter) {
+            window.stateTestFilter.attachButtonEventListener(button);
+        }
+    });
+});
