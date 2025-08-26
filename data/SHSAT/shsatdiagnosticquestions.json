@@ -658,7 +658,7 @@
             "56",
             "112",
             "148",
-            "192"
+            "232"
         ],
         "correct_answer": 3
     },
@@ -864,7 +864,7 @@
             "49th president",
             "50th president"
         ],
-        "correct_answer": 3
+        "correct_answer": 2
     },
     {
         "_id": "52",
@@ -978,10 +978,10 @@
         "passage": "",
         "question_text": "To train for a marathon, Hussain begins to increase the distance of his daily run on January 1st. Every day since, he has run 0.2 miles more than the day before and on January 31st, he ran 7.5 miles. On how many days in January did Hussain run more than 4 miles? ",
         "options": [
-            "12 days",
-            "13 days",
-            "14 days",
-            "15 days"
+            "17 days",
+            "18 days",
+            "19 days",
+            "20 days"
         ],
         "correct_answer": 1
     },
