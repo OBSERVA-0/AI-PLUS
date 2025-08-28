@@ -291,7 +291,7 @@
     "_id": "17",
     "question_number": 17,
     "practice_set": "11",
-    "category": "Reading Comprehension: Diagrams",
+    "category": "Reading Comprehension: Diagram",
     "difficulty": "",
     "time_estimate": 95,
     "passage": "pdfData:pdf/NewTutorverse-FormB-TheBigOne.pdf",
@@ -608,7 +608,7 @@
       "demonstrating how the speaker hates living in the crowded conditions of towns and cities.",
       "showing how people do work in cities when they should instead be taking vacations in nature."
     ],
-    "correct_answer": null,
+    "correct_answer": 1,
     "answer_type": ""
   },
   {
@@ -626,7 +626,7 @@
       "It shows that nature alone can provide the inspiration and relief that people need to be creative and learn.",
       "It provides evidence of the point of view that people must conquer nature in order to fully achieve their goals."
     ],
-    "correct_answer": null,
+    "correct_answer": 0,
     "answer_type": ""
   },
   {
@@ -644,7 +644,7 @@
       "\"Above me spreads the hot, blue mid-day sky, / Far down the hillside lies the sleeping lake\"(lines 20-21)",
       "\"The blue crest of the distant mountain, tops / The green crest of the hill on which I sit\"(lines 25-26)"
     ],
-    "correct_answer": null,
+    "correct_answer": 1,
     "answer_type": ""
   },
   {
@@ -662,7 +662,7 @@
       "\"When inspiration lags, and feeling sleeps, / Gathering strength for efforts yet to come.\" (lines 32-33)",
       "\"And closest contact with the human world/ Is like a lantern shining in the night\" (lines 35-36)"
     ],
-    "correct_answer": null,
+    "correct_answer": 3,
     "answer_type": ""
   },
   {
@@ -680,7 +680,7 @@
       "revealing the poet's unusual perspective on the season of summer.",
       "highlighting the poet's sense of loneliness when she is surrounded by nature."
     ],
-    "correct_answer": null,
+    "correct_answer": 2,
     "answer_type": ""
   },
   {
@@ -698,7 +698,7 @@
       "\"When inspiration lags, and feeling sleeps\" (line 32)",
       "\"When every new experience is gain\" (line 40)"
     ],
-    "correct_answer": null,
+    "correct_answer": 2,
     "answer_type": ""
   },
   {
@@ -716,228 +716,308 @@
       "\"And closest contact with the human world / Is like a lantern shining in the night\" (lines 35-36)",
       "\"And on all sides we feel the great world's heart; / The pulse and throb of life which makes us men!\" (lines 41-42)"
     ],
-    "correct_answer": null,
+    "correct_answer": 0,
     "answer_type": ""
   },
   {
     "_id": "41",
     "question_number": 41,
     "practice_set": "11",
-    "category": "",
+    "category": "Reading Comprehension: Central Idea",
     "difficulty": "",
     "time_estimate": 95,
     "passage": "pdfData:pdf/NewTutorverse-FormB-Superheated.pdf",
-    "question_text": "",
-    "options": [],
-    "correct_answer": null,
+    "question_text": "Which of the following tells what the passage is about?",
+    "options": [
+      "the life cycle of the sun",
+      "how the sun benefits the earth",
+      "explaining how nuclear fusion works",
+      "the amount of energy given off by the sun"
+    ],
+    "correct_answer": 0,
     "answer_type": ""
   },
   {
     "_id": "42",
     "question_number": 42,
     "practice_set": "11",
-    "category": "",
+    "category": "Reading Comprehension: Detail",
     "difficulty": "",
     "time_estimate": 95,
     "passage": "pdfData:pdf/NewTutorverse-FormB-Superheated.pdf",
-    "question_text": "",
-    "options": [],
-    "correct_answer": null,
+    "question_text": "According to paragraph 2, which scientific process keeps the sun shining?",
+    "options": [
+      "light radiation",
+      "particle radiation",
+      "nuclear fusion",
+      "photosynthesis"
+    ],
+    "correct_answer": 2,
     "answer_type": ""
   },
   {
     "_id": "43",
     "question_number": 43,
     "practice_set": "11",
-    "category": "",
+    "category": "Reading Comprehension: Detail",
     "difficulty": "",
     "time_estimate": 95,
     "passage": "pdfData:pdf/NewTutorverse-FormB-Superheated.pdf",
-    "question_text": "",
-    "options": [],
-    "correct_answer": null,
+    "question_text": "The passage provides evidence that the sun's energy",
+    "options": [
+      "is almost entirely absorbed by the Earth's atmosphere.",
+      "is used to power long-distance communications from different locations on Earth.",
+      "is far less than that of other stars -which are already red giants - in our galaxy.",
+      "will double in size every 500 million years after the hydrogen runs out."
+    ],
+    "correct_answer": 3,
     "answer_type": ""
   },
   {
     "_id": "44",
     "question_number": 44,
     "practice_set": "11",
-    "category": "",
+    "category": "Reading Comprehension: Detail",
     "difficulty": "",
     "time_estimate": 95,
     "passage": "pdfData:pdf/NewTutorverse-FormB-Superheated.pdf",
-    "question_text": "",
-    "options": [],
-    "correct_answer": null,
+    "question_text": "The passage indicates that the sun will become a red giant",
+    "options": [
+      "when it runs out of helium.",
+      "when it runs out of hydrogen.",
+      "when it undergoes gravitational collapse.",
+      "when it emits light and particle radiation."
+    ],
+    "correct_answer": 1,
     "answer_type": ""
   },
   {
     "_id": "45",
     "question_number": 45,
     "practice_set": "11",
-    "category": "",
+    "category": "Reading Comprehension: Detail",
     "difficulty": "",
     "time_estimate": 95,
     "passage": "pdfData:pdf/NewTutorverse-FormB-Superheated.pdf",
-    "question_text": "",
-    "options": [],
-    "correct_answer": null,
+    "question_text": "Once the sun becomes a red giant, all of the following will take place except that",
+    "options": [
+      "the sun will destroy Venus.",
+      "the sun will grow brighter and brighter.",
+      "the sun will begin burning off its supply of hydrogen.",
+      "the sun will grow to be more than 200 times its current size."
+    ],
+    "correct_answer": 2,
     "answer_type": ""
   },
   {
     "_id": "46",
     "question_number": 46,
     "practice_set": "11",
-    "category": "",
+    "category": "Reading Comprehension: Detail",
     "difficulty": "",
     "time_estimate": 95,
     "passage": "pdfData:pdf/NewTutorverse-FormB-Superheated.pdf",
-    "question_text": "",
-    "options": [],
-    "correct_answer": null,
+    "question_text": "In order from the present to the distant future, which of the following represents the stages in which the sun will progress?",
+    "options": [
+      "yellow dwarf, red giant, white dwarf",
+      "yellow dwarf, white dwarf, red giant",
+      "white dwarf, yellow dwarf, red giant",
+      "red giant, white dwarf, yellow dwarf"
+    ],
+    "correct_answer": 0,
     "answer_type": ""
   },
   {
     "_id": "47",
     "question_number": 47,
     "practice_set": "11",
-    "category": "",
+    "category": "Reading Comprehension: Diagram",
     "difficulty": "",
     "time_estimate": 95,
     "passage": "pdfData:pdf/NewTutorverse-FormB-Superheated.pdf",
-    "question_text": "",
-    "options": [],
-    "correct_answer": null,
+    "question_text": "Which sentence from the passage does the table best support?",
+    "options": [
+      "\"The sun alone accounts for more than 99% of all matter in our solar system.\" (paragraph 1)",
+      "\"Scientists estimate that the sun was formed more than 4.5 billion years ago as the result of what is known as a gravitational collapse.\" (paragraph 2)",
+      "\"The sun has been ejecting this radiation into space for quite some time, and will continue to do so for another 4-5 billion years.\" (paragraph 4)",
+      "\"Every 500 million years or so, the sun will double in size until it reaches a size more than 20002 times larger than it is today.\" (paragraph 2)"
+    ],
+    "correct_answer": 0,
     "answer_type": ""
   },
   {
     "_id": "48",
     "question_number": 48,
     "practice_set": "11",
-    "category": "",
+    "category": "Revising/Editing Passage: Precise Language",
     "difficulty": "",
     "time_estimate": 95,
     "passage": "pdfData:pdf/NewTutorverse-FormB-FrankensteinCorn.pdf",
-    "question_text": "",
-    "options": [],
-    "correct_answer": null,
+    "question_text": "Which revision of sentence 3 uses the most precise language?",
+    "options": [
+      "People multiply the organisms that have things that they like.",
+      "In it, they enable those organisms to thrive when they have traits or qualities that they like.",
+      "In the latter, people identify an organism's desirable traits, and encourage the organisms with those traits to reproduce.",
+      "Some people discover certain things that they enjoy about a plant or animal, and help those things become part of the plant in the future."
+    ],
+    "correct_answer": 2,
     "answer_type": ""
   },
   {
     "_id": "49",
     "question_number": 49,
     "practice_set": "11",
-    "category": "",
+    "category": "Revising/Editing Passage: Transition Word",
     "difficulty": "",
     "time_estimate": 95,
     "passage": "pdfData:pdf/NewTutorverse-FormB-FrankensteinCorn.pdf",
-    "question_text": "",
-    "options": [],
-    "correct_answer": null,
+    "question_text": "Which transition should be added to the beginning of sentence 17?",
+    "options": [
+      "Nevertheless,",
+      "Accordingly,",
+      "Specifically,",
+      "Likewise,"
+    ],
+    "correct_answer": 0,
     "answer_type": ""
   },
   {
     "_id": "50",
     "question_number": 50,
     "practice_set": "11",
-    "category": "",
+    "category": "Revising/Editing Passage: Following Sentence",
     "difficulty": "",
     "time_estimate": 95,
     "passage": "pdfData:pdf/NewTutorverse-FormB-FrankensteinCorn.pdf",
-    "question_text": "",
-    "options": [],
-    "correct_answer": null,
+    "question_text": "Which sentence can follow sentence 4 to help develop the ideas in the second paragraph (sentences 2-4)?",
+    "options": [
+      "Sometimes, despite our best efforts, nature prevails, failing to produce the type of organism that we want.",
+      "There is little need to genetically modify plants or animals in a laboratory, since the same effect takes place naturally.",
+      "Since we no longer need to rely on selective breeding, the practice is quickly becoming a lost art, replaced instead by laboratory science.",
+      "This is how we came to have the large, sweet apples everyone loves; over many years, farmers continuously reserved the seeds of the largest, sweetest apples to plant the next season."
+    ],
+    "correct_answer": 3,
     "answer_type": ""
   },
   {
     "_id": "51",
     "question_number": 51,
     "practice_set": "11",
-    "category": "",
+    "category": "Revising/Editing Passage: Combining Sentences",
     "difficulty": "",
     "time_estimate": 95,
     "passage": "pdfData:pdf/NewTutorverse-FormB-FrankensteinCorn.pdf",
-    "question_text": "",
-    "options": [],
-    "correct_answer": null,
+    "question_text": "What is the best way to combine sentences 5 and 6 to clarify the relationship between ideas?",
+    "options": [
+      "Science allows people to change the traits of an organism no matter its biological domain.",
+      "Modern science has not only enabled people to quickly modify the traits of an organism, but to combine traits from entirely different biological domains of life, as well.",
+      "People can quickly modify the traits of an organism in a laboratory thanks to science, but they can unlock the ability to combine genes across entirely different biological domains of life.",
+      "Though people can quickly modify the traits of an organism in a laboratory thanks to science, they can unlock the ability to combine genes across entirely different biological domains of life."
+    ],
+    "correct_answer": 1,
     "answer_type": ""
   },
   {
     "_id": "52",
     "question_number": 52,
     "practice_set": "11",
-    "category": "",
+    "category": "Revising/Editing Passage: Editing",
     "difficulty": "",
     "time_estimate": 95,
     "passage": "pdfData:pdf/NewTutorverse-FormB-FrankensteinCorn.pdf",
-    "question_text": "",
-    "options": [],
-    "correct_answer": null,
+    "question_text": "Which edit is needed to correct sentence 13?",
+    "options": [
+      "add a comma after '1995'",
+      "change 'was not' to 'is not'",
+      "delete the hyphen in 'insect-killing'",
+      "change 'was isolated' to 'were isolated'"
+    ],
+    "correct_answer": 3,
     "answer_type": ""
   },
   {
     "_id": "53",
     "question_number": 53,
     "practice_set": "11",
-    "category": "",
+    "category": "Revising/Editing Passage: Following Sentence",
     "difficulty": "",
     "time_estimate": 95,
     "passage": "pdfData:pdf/NewTutorverse-FormB-FrankensteinCorn.pdf",
-    "question_text": "",
-    "options": [],
-    "correct_answer": null,
+    "question_text": "Which sentence would best follow sentence 16 to support the argument presented in the paragraph?",
+    "options": [
+      "Though the use of pesticides may have decreased, the use of herbicides has not.",
+      "The genes from Bt corn are spreading to other species of corn, with potentially dangerous consequences for the environment.",
+      "The decreased use of chemical pesticides has not been shown to be the direct result of the increased popularity of Bt organisms.",
+      "Engineered in the early 2000s, Golden Rice, another result of the mixing of plant and bacteria genes, provides four to five times more Vitamin A than regular white rice."
+    ],
+    "correct_answer": 3,
     "answer_type": ""
   },
   {
     "_id": "54",
     "question_number": 54,
     "practice_set": "11",
-    "category": "",
+    "category": "Revising/Editing Passage: Irrelevant Sentence",
     "difficulty": "",
     "time_estimate": 95,
     "passage": "pdfData:pdf/NewTutorverse-FormB-FrankensteinCorn.pdf",
-    "question_text": "",
+    "question_text": "Which sentence is irrelevant to the argument presented in the passage and should be deleted?",
     "options": [],
-    "correct_answer": null,
+    "correct_answer": 0,
     "answer_type": ""
   },
   {
     "_id": "55",
     "question_number": 55,
-    "practice_set": "",
-    "category": "",
+    "practice_set": "11",
+    "category": "Revising/Editing Standalone: Conjunctions",
     "difficulty": "",
     "time_estimate": 95,
-    "passage": "",
-    "question_text": "",
-    "options": [],
-    "correct_answer": null,
+    "passage": "Jessica was very excited to ride the extreme rollercoaster at the theme park, since she was deathly afraid of heights and was prone to motion sickness.",
+    "question_text": "Which edit should be made to correct this sentence?",
+    "options": [
+      "change 'since' to 'even though'",
+      "change 'since' to 'because'",
+      "change 'since' to 'unless'",
+      "change 'since' to 'if'"
+    ],
+    "correct_answer": 0,
     "answer_type": ""
   },
   {
     "_id": "56",
     "question_number": 56,
-    "practice_set": "",
-    "category": "",
+    "practice_set": "11",
+    "category": "Revising/Editing Standalone: Comma Rules",
     "difficulty": "",
     "time_estimate": 95,
-    "passage": "",
-    "question_text": "",
-    "options": [],
-    "correct_answer": null,
+    "passage": "When the cold, rainy, season sets in, many of the city's residents believe that they suffer from Seasonal Affective Disorder, a type of depression that is related to changes in general weather patterns.",
+    "question_text": "Which edit should be made to correct this sentence?",
+    "options": [
+      "delete the comma after 'in'",
+      "delete the comma after 'cold'",
+      "delete the comma after 'rainy'",
+      "delete the comma after 'Disorder'"
+    ],
+    "correct_answer": 2,
     "answer_type": ""
   },
   {
     "_id": "57",
     "question_number": 57,
-    "practice_set": "",
-    "category": "",
+    "practice_set": "11",
+    "category": "Revising/Editing Standalone: Combining Sentences",
     "difficulty": "",
     "time_estimate": 95,
-    "passage": "",
-    "question_text": "",
-    "options": [],
-    "correct_answer": null,
+    "passage": "(1) When Floyd goes grocery shopping, he always buys grapefruits, which are his favorite fruit.\n\n(2) When Floyd goes grocery shopping, he always buys carrots, which are his favorite vegetable.",
+    "question_text": "What is the best way to combine these sentences?",
+    "options": [
+      "When Floyd goes grocery shopping, he always buys grapefruits and carrots.",
+      "When Floyd goes grocery shopping, he always buys his favorite fruit and vegetable.",
+      "When Floyd goes grocery shopping, he always buys grapefruits and carrots, which are his favorite fruit and vegetable, respectively.",
+      "When Floyd goes grocery shopping, he always buys carrots and grapefruits, which are his favorite fruit and vegetable, respectively."
+    ],
+    "correct_answer": 2,
     "answer_type": ""
   },
   {
