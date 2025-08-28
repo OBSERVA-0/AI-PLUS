@@ -709,7 +709,7 @@
     "difficulty": "",
     "time_estimate": 95,
     "passage": "pdfData:pdf/NewTutorverse-FormB-Summer.pdf",
-    "question_text": "Read lines 38-39 from the poem.\n\nI love the vivid life of winter months\nIn constant intercourse with human minds\nWhich of the following offers a contrasting idea to those implied in these lines?",
+    "question_text": "Read lines 38-39 from the poem.\n\nI love the vivid life of winter months\nIn constant intercourse with human minds\n\nWhich of the following offers a contrasting idea to those implied in these lines?",
     "options": [
       "\"But where in winter they must live until / Summer gives back the spaces of the hills\"(lines 11-12)",
       "\"Thick branches swaying in a winter storm, / And moonlight playing in a boat's wide wake\"(lines 16-17)",
@@ -962,7 +962,12 @@
     "time_estimate": 95,
     "passage": "pdfData:pdf/NewTutorverse-FormB-FrankensteinCorn.pdf",
     "question_text": "Which sentence is irrelevant to the argument presented in the passage and should be deleted?",
-    "options": [],
+    "options": [
+      "sentence 9",
+      "sentence 11",
+      "sentence 14",
+      "sentence 18"
+    ],
     "correct_answer": 0,
     "answer_type": ""
   },
@@ -1094,8 +1099,13 @@
     "time_estimate": 95,
     "passage": "image:images/shsatpractice11question63.png",
     "question_text": "",
-    "options": [],
-    "correct_answer": null,
+    "options": [
+      "5",
+      "7",
+      "12.5",
+      "25"
+    ],
+    "correct_answer": 0,
     "answer_type": ""
   },
   {
@@ -1106,9 +1116,14 @@
     "difficulty": "",
     "time_estimate": 95,
     "passage": "",
-    "question_text": "",
-    "options": [],
-    "correct_answer": null,
+    "question_text": "Adina is older than Boaz but younger than Ezra. If a, b, and e represent their ages, respectively, which of the following is true?",
+    "options": [
+      "b < a < e",
+      "b < e < a",
+      "a < b < e",
+      "e < a < b"
+    ],
+    "correct_answer": 0,
     "answer_type": ""
   },
   {
@@ -1119,9 +1134,14 @@
     "difficulty": "",
     "time_estimate": 95,
     "passage": "",
-    "question_text": "",
-    "options": [],
-    "correct_answer": null,
+    "question_text": "0.324 ÷ 72",
+    "options": [
+      "0.00045",
+      "0.0045",
+      "0.045",
+      "4.5"
+    ],
+    "correct_answer": 1,
     "answer_type": ""
   },
   {
@@ -1132,9 +1152,14 @@
     "difficulty": "",
     "time_estimate": 95,
     "passage": "",
-    "question_text": "",
-    "options": [],
-    "correct_answer": null,
+    "question_text": " If 4m - 20 = 9, then 2m - 10 =",
+    "options": [
+      "-2.7",
+      "4.5",
+      "7.25",
+      "19"
+    ],
+    "correct_answer": 1,
     "answer_type": ""
   },
   {
@@ -1145,9 +1170,14 @@
     "difficulty": "",
     "time_estimate": 95,
     "passage": "image:images/shsatpractice11question67.png",
-    "question_text": "",
-    "options": [],
-    "correct_answer": null,
+    "question_text": "How many units is it from the midpoint of line AB to the midpoint of line AC?",
+    "options": [
+      "2",
+      "4",
+      "5",
+      "6"
+    ],
+    "correct_answer": 0,
     "answer_type": ""
   },
   {
@@ -1158,9 +1188,14 @@
     "difficulty": "",
     "time_estimate": 95,
     "passage": "",
-    "question_text": "",
-    "options": [],
-    "correct_answer": null,
+    "question_text": "The total cost of 3 equally priced notebooks is $7.50. If the cost of each notebook is increased by $0.75, how much will 5 of the notebooks cost at the new rate?",
+    "options": [
+      "$8.25",
+      "$9.75",
+      "$12.50",
+      "$16.25"
+    ],
+    "correct_answer": 3,
     "answer_type": ""
   },
   {
@@ -1171,9 +1206,14 @@
     "difficulty": "",
     "time_estimate": 95,
     "passage": "image:images/shsatpractice11question69.png",
-    "question_text": "",
-    "options": [],
-    "correct_answer": null,
+    "question_text": "Choose an Answer",
+    "options": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "correct_answer": 0,
     "answer_type": ""
   },
   {
@@ -1184,9 +1224,14 @@
     "difficulty": "",
     "time_estimate": 95,
     "passage": "",
-    "question_text": "",
-    "options": [],
-    "correct_answer": null,
+    "question_text": "Albert biked 3 times the number of miles Bob did yesterday. They biked 72 miles altogether. How many miles did Albert bike?",
+    "options": [
+      "18",
+      "24",
+      "48",
+      "54"
+    ],
+    "correct_answer": 3,
     "answer_type": ""
   },
   {
@@ -1197,9 +1242,14 @@
     "difficulty": "",
     "time_estimate": 95,
     "passage": "",
-    "question_text": "",
-    "options": [],
-    "correct_answer": null,
+    "question_text": "What is the greatest common factor of 420 and 1,155?",
+    "options": [
+      "15",
+      "21",
+      "105",
+      "4,620"
+    ],
+    "correct_answer": 2,
     "answer_type": ""
   },
   {
