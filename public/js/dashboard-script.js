@@ -639,8 +639,85 @@ function loadQuestion(index) {
         // Focus the input field for better UX
         setTimeout(() => inputField.focus(), 100);
         
+    } else if (question.answer_type === 'multiple_answers') {
+        // Multiple answers (checkboxes) - multiple correct answers allowed
+        const selectedAnswers = userAnswers[question.id] || [];
+        
+        // Add instruction for multiple answers
+        const instructionDiv = document.createElement('div');
+        instructionDiv.className = 'multiple-answers-instruction';
+        instructionDiv.innerHTML = '<i class="icon-info"></i> Select all correct answers (multiple answers possible)';
+        optionsContainer.appendChild(instructionDiv);
+        
+        question.options.forEach((option, optionIndex) => {
+            const optionDiv = document.createElement('div');
+            optionDiv.className = 'option multiple-answer-option';
+            
+            const checkbox = document.createElement('input');
+            checkbox.type = 'checkbox';
+            checkbox.name = 'answer';
+            checkbox.value = optionIndex;
+            checkbox.id = `option-${optionIndex}`;
+            
+            // Check if this option was previously selected
+            if (Array.isArray(selectedAnswers) && selectedAnswers.includes(optionIndex)) {
+                checkbox.checked = true;
+                optionDiv.classList.add('selected');
+                hasSelectedAnswer = true;
+            }
+            
+            const label = document.createElement('label');
+            label.htmlFor = `option-${optionIndex}`;
+            label.className = 'option-text';
+            label.textContent = option;
+            
+            optionDiv.appendChild(checkbox);
+            optionDiv.appendChild(label);
+            
+            // Add click handler for multiple answers
+            optionDiv.addEventListener('click', function(e) {
+                if (e.target.type !== 'checkbox') {
+                    checkbox.checked = !checkbox.checked;
+                }
+                
+                // Update visual selection
+                if (checkbox.checked) {
+                    optionDiv.classList.add('selected');
+                } else {
+                    optionDiv.classList.remove('selected');
+                }
+                
+                // Update selected answers array
+                let currentAnswers = userAnswers[question.id] || [];
+                if (!Array.isArray(currentAnswers)) {
+                    currentAnswers = [];
+                }
+                
+                if (checkbox.checked) {
+                    if (!currentAnswers.includes(optionIndex)) {
+                        currentAnswers.push(optionIndex);
+                    }
+                } else {
+                    currentAnswers = currentAnswers.filter(ans => ans !== optionIndex);
+                }
+                
+                // Save answer and remove from skipped if any answers selected
+                if (currentAnswers.length > 0) {
+                    userAnswers[question.id] = currentAnswers;
+                    skippedQuestions.delete(question.id);
+                } else {
+                    delete userAnswers[question.id];
+                }
+                
+                // Update question grid and UI
+                updateQuestionGrid();
+                updateQuestionActions();
+            });
+            
+            optionsContainer.appendChild(optionDiv);
+        });
     } else {
-        // Regular multiple choice options
+        // Regular multiple choice options (single answer)
         question.options.forEach((option, optionIndex) => {
             const optionDiv = document.createElement('div');
             optionDiv.className = 'option';
@@ -1153,8 +1230,60 @@ function displayDetailedReview(detailedResults) {
                     <p><strong>Correct Answer:</strong> <span class="correct-answer">${result.correct_answer || 'Not available'}</span></p>
                 </div>
             `;
+        } else if (result.answer_type === 'multiple_answers') {
+            // Display multiple answers (checkboxes)
+            if (result.options && Array.isArray(result.options)) {
+                const userAnswers = Array.isArray(result.userAnswer) ? result.userAnswer : [];
+                const correctAnswers = Array.isArray(result.correct_answer) ? result.correct_answer : [result.correct_answer];
+                
+                answersHtml = `
+                    <div class="review-answers-multiple">
+                        <p><strong>Question Type:</strong> Multiple Correct Answers</p>
+                        <div class="review-options">
+                            ${result.options.map((option, optIndex) => {
+                                let className = 'option';
+                                const isUserSelected = userAnswers.includes(optIndex);
+                                const isCorrectAnswer = correctAnswers.includes(optIndex);
+                                
+                                if (isCorrectAnswer && isUserSelected) {
+                                    className += ' user-correct-answer'; // User selected a correct answer
+                                } else if (isCorrectAnswer && !isUserSelected) {
+                                    className += ' missed-correct-answer'; // User missed a correct answer
+                                } else if (!isCorrectAnswer && isUserSelected) {
+                                    className += ' user-wrong-answer'; // User selected an incorrect answer
+                                }
+                                
+                                let indicator = '';
+                                if (isCorrectAnswer) {
+                                    indicator = isUserSelected ? '✅' : '⚠️';
+                                } else {
+                                    indicator = isUserSelected ? '❌' : '';
+                                }
+                                
+                                return `<div class="${className}">${indicator} ${String.fromCharCode(65 + optIndex)}. ${option}</div>`;
+                            }).join('')}
+                        </div>
+                        <div class="multiple-answers-summary">
+                            <p><strong>Your selections:</strong> ${userAnswers.length > 0 ? userAnswers.map(i => String.fromCharCode(65 + i)).join(', ') : 'None'}</p>
+                            <p><strong>Correct answers:</strong> ${correctAnswers.map(i => String.fromCharCode(65 + i)).join(', ')}</p>
+                        </div>
+                    </div>
+                `;
+            } else {
+                // Fallback for multiple answers when options are not available
+                const userAnswers = Array.isArray(result.userAnswer) ? result.userAnswer : [];
+                const correctAnswers = Array.isArray(result.correct_answer) ? result.correct_answer : [result.correct_answer];
+                
+                answersHtml = `
+                    <div class="review-answers">
+                        <p><strong>Question Type:</strong> Multiple Correct Answers</p>
+                        <p><strong>Your Answer:</strong> <span class="${result.isCorrect ? 'user-correct-answer' : 'user-wrong-answer'}">${userAnswers.length > 0 ? userAnswers.map(i => String.fromCharCode(65 + i)).join(', ') : 'No answer provided'}</span></p>
+                        <p><strong>Correct Answer:</strong> <span class="correct-answer">${correctAnswers.map(i => String.fromCharCode(65 + i)).join(', ')}</span></p>
+                    </div>
+                `;
+            }
         } else {
-            // Display multiple choice options
+            // Display single answer multiple choice options
             if (result.options && Array.isArray(result.options)) {
                 answersHtml = `
                     <div class="review-options">
@@ -2165,8 +2294,27 @@ function loadQuestionInPIP(questionIndex) {
                        value="${currentAnswer}">
             </div>
         `;
+    } else if (question.answer_type === 'multiple_answers') {
+        // Multiple answers (checkboxes)
+        const selectedAnswers = userAnswers[question.id] || [];
+        
+        optionsHtml += `<div class="pip-multiple-answers-instruction">Select all correct answers</div>`;
+        
+        question.options.forEach((option, optionIndex) => {
+            const isSelected = Array.isArray(selectedAnswers) && selectedAnswers.includes(optionIndex);
+            optionsHtml += `
+                <div class="pip-option multiple-answer-option ${isSelected ? 'selected' : ''}" data-option-index="${optionIndex}">
+                    <input type="checkbox" 
+                           name="pip-answer" 
+                           value="${optionIndex}" 
+                           id="pip-option-${optionIndex}"
+                           ${isSelected ? 'checked' : ''}>
+                    <label for="pip-option-${optionIndex}" class="pip-option-text">${option}</label>
+                </div>
+            `;
+        });
     } else {
-        // Multiple choice options
+        // Single answer multiple choice options
         question.options.forEach((option, optionIndex) => {
             const isSelected = userAnswers[question.id] === optionIndex;
             optionsHtml += `
@@ -2202,24 +2350,63 @@ function loadQuestionInPIP(questionIndex) {
 function setupPIPQuestionListeners(question) {
     const pipContent = document.getElementById('pip-panel-content');
     
-    // Handle option clicks for multiple choice
+    // Handle option clicks for questions
     pipContent.querySelectorAll('.pip-option').forEach(optionDiv => {
-        optionDiv.addEventListener('click', function() {
+        optionDiv.addEventListener('click', function(e) {
             const optionIndex = parseInt(this.dataset.optionIndex);
             
-            // Remove previous selection
-            pipContent.querySelectorAll('.pip-option').forEach(opt => 
-                opt.classList.remove('selected')
-            );
-            
-            // Select this option
-            const radio = this.querySelector('input[type="radio"]');
-            radio.checked = true;
-            this.classList.add('selected');
-            
-            // Save answer
-            userAnswers[question.id] = optionIndex;
-            skippedQuestions.delete(question.id);
+            if (question.answer_type === 'multiple_answers') {
+                // Handle multiple answers (checkboxes)
+                const checkbox = this.querySelector('input[type="checkbox"]');
+                
+                if (e.target.type !== 'checkbox') {
+                    checkbox.checked = !checkbox.checked;
+                }
+                
+                // Update visual selection
+                if (checkbox.checked) {
+                    this.classList.add('selected');
+                } else {
+                    this.classList.remove('selected');
+                }
+                
+                // Update selected answers array
+                let currentAnswers = userAnswers[question.id] || [];
+                if (!Array.isArray(currentAnswers)) {
+                    currentAnswers = [];
+                }
+                
+                if (checkbox.checked) {
+                    if (!currentAnswers.includes(optionIndex)) {
+                        currentAnswers.push(optionIndex);
+                    }
+                } else {
+                    currentAnswers = currentAnswers.filter(ans => ans !== optionIndex);
+                }
+                
+                // Save answer and remove from skipped if any answers selected
+                if (currentAnswers.length > 0) {
+                    userAnswers[question.id] = currentAnswers;
+                    skippedQuestions.delete(question.id);
+                } else {
+                    delete userAnswers[question.id];
+                }
+            } else {
+                // Handle single answer (radio buttons)
+                // Remove previous selection
+                pipContent.querySelectorAll('.pip-option').forEach(opt => 
+                    opt.classList.remove('selected')
+                );
+                
+                // Select this option
+                const radio = this.querySelector('input[type="radio"]');
+                radio.checked = true;
+                this.classList.add('selected');
+                
+                // Save answer
+                userAnswers[question.id] = optionIndex;
+                skippedQuestions.delete(question.id);
+            }
             
             // Update status and buttons
             updatePIPQuestionStatus(question.id);

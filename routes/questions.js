@@ -188,8 +188,20 @@ router.post('/submit', auth, validateSubmitAnswers, handleValidationErrors, asyn
         const userAnswer = String(answer.selectedAnswer).trim().toLowerCase();
         const correctAnswer = String(question.correct_answer_value || question.correct_answer).trim().toLowerCase();
         isCorrect = userAnswer === correctAnswer;
+      } else if (question.answer_type === 'multiple_answers') {
+        // For multiple answers, check if user selected all correct options and no incorrect ones
+        const userAnswers = Array.isArray(answer.selectedAnswer) ? answer.selectedAnswer : [];
+        const correctAnswers = Array.isArray(question.correct_answer) ? question.correct_answer : [question.correct_answer];
+        
+        // Sort both arrays for comparison
+        const sortedUserAnswers = [...userAnswers].sort((a, b) => a - b);
+        const sortedCorrectAnswers = [...correctAnswers].sort((a, b) => a - b);
+        
+        // Check if arrays are identical
+        isCorrect = sortedUserAnswers.length === sortedCorrectAnswers.length &&
+                   sortedUserAnswers.every((answer, index) => answer === sortedCorrectAnswers[index]);
       } else {
-        // For multiple choice, compare with correct_answer index
+        // For single multiple choice, compare with correct_answer index
         isCorrect = answer.selectedAnswer === question.correct_answer;
       }
       
