@@ -46,6 +46,27 @@ body {
     overscroll-behavior: none !important;
 }
 
+/* Warning banner for save failures */
+.save-warning {
+    margin-bottom: 20px;
+}
+
+.warning-banner {
+    background: linear-gradient(135deg, #fff3cd, #ffeaa7);
+    border: 2px solid #ffc107;
+    border-radius: 8px;
+    padding: 15px 20px;
+    color: #856404;
+    font-weight: 500;
+    box-shadow: 0 2px 10px rgba(255, 193, 7, 0.2);
+    animation: warningPulse 2s ease-in-out infinite;
+}
+
+@keyframes warningPulse {
+    0%, 100% { box-shadow: 0 2px 10px rgba(255, 193, 7, 0.2); }
+    50% { box-shadow: 0 4px 20px rgba(255, 193, 7, 0.4); }
+}
+
 .main-content {
     padding: 2rem 0;
     min-height: calc(100vh - 100px);

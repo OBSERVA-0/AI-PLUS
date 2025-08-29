@@ -1088,14 +1088,43 @@ async function endTest() {
         console.error('❌ Error submitting test:', error);
         hideLoadingState();
         
-        // Fallback: calculate results locally
+        // Check if this is a save failure that requires user attention
+        if (error.message && error.message.includes('SAVE_FAILED')) {
+            // Show critical error message to user
+            alert(`⚠️ IMPORTANT: Your test was completed but there was an error saving your results to our servers.
+
+Please screenshot this message and contact support immediately with error code: SAVE_FAILED
+
+Your test answers have been recorded locally, but you may need to retake the test to ensure your progress is saved.`);
+            
+            // Don't show results since they weren't saved
+            showSection('dashboard');
+            return;
+        }
+        
+        // For other errors, show fallback results with warning
         const localResults = calculateLocalResults();
+        
+        // Show warning about potential data loss
+        const warningDiv = document.createElement('div');
+        warningDiv.className = 'save-warning';
+        warningDiv.innerHTML = `
+            <div class="warning-banner">
+                ⚠️ <strong>Connection Error:</strong> Your results are shown below, but there may have been an issue saving them to our servers. 
+                If you don't see this test in your history, please contact support.
+            </div>
+        `;
         
         // Update test statistics with local results (no scaled scores available)
         const timeSpent = Math.round((new Date() - testStartTime) / 1000);
         await updateTestStats(currentTest, localResults.percentage, timeSpent, localResults.categoryScores);
         
         displayResults({ results: localResults });
+        
+        // Add warning to results page
+        const resultsSection = document.getElementById('test-results');
+        resultsSection.insertBefore(warningDiv, resultsSection.firstChild);
+        
         showSection('test-results');
         
         alert('There was an issue saving your results, but your score has been calculated.');

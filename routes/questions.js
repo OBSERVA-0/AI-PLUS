@@ -140,7 +140,7 @@ router.post('/submit', auth, validateSubmitAnswers, handleValidationErrors, asyn
     
     // Add timeout protection to prevent crashes
     const startTime = Date.now();
-    const SCORING_TIMEOUT = 30000; // 30 seconds
+    const SCORING_TIMEOUT = 95000; // 95 seconds (increased for high load)
     
     // Get questions from JSON to check answers
     const questions = await readQuestionsFromJSON(testType, practiceSet);
@@ -328,15 +328,22 @@ router.post('/submit', auth, validateSubmitAnswers, handleValidationErrors, asyn
       };
     }
 
-    // Save test attempt to user's test history
-    try {
-      console.log(`🔍 Attempting to save test history for user ID: ${req.user._id}`);
-      
-      const user = await User.findById(req.user._id);
-      if (!user) {
-        console.error(`❌ User not found when saving test history: ${req.user._id}`);
-        throw new Error('User not found');
-      }
+    // Save test attempt to user's test history with retry logic
+    let saveAttempts = 0;
+    const maxRetries = 3;
+    let saveSuccessful = false;
+    let lastError = null;
+    
+    while (saveAttempts < maxRetries && !saveSuccessful) {
+      try {
+        saveAttempts++;
+        console.log(`🔍 Attempting to save test history for user ID: ${req.user._id} (attempt ${saveAttempts}/${maxRetries})`);
+        
+        const user = await User.findById(req.user._id);
+        if (!user) {
+          console.error(`❌ User not found when saving test history: ${req.user._id}`);
+          throw new Error('User not found');
+        }
       
       console.log(`📋 User found: ${user.email}, current test history count: ${user.testHistory ? user.testHistory.length : 0}`);
       
@@ -413,27 +420,82 @@ router.post('/submit', auth, validateSubmitAnswers, handleValidationErrors, asyn
       user.testHistory.push(testHistoryEntry);
       console.log(`📝 Test history array now has ${user.testHistory.length} entries`);
       
-      // Save user with validation
-      console.log(`💾 Saving user with updated test history...`);
-      const savedUser = await user.save();
-      console.log(`✅ User saved successfully. Final test history count: ${savedUser.testHistory.length}`);
-      
-      console.log(`✅ Test history saved for user ${user.email}: ${testName}`);
-      console.log(`📊 Detailed results count: ${testHistoryEntry.detailedResults.length}`);
-    } catch (historyError) {
-      console.error('❌ Error saving test history:', historyError);
-      console.error('❌ Error details:', {
-        name: historyError.name,
-        message: historyError.message,
-        stack: historyError.stack
-      });
-      
-      // Log validation errors specifically
-      if (historyError.name === 'ValidationError') {
-        console.error('❌ Validation errors:', historyError.errors);
+        // Save user with validation and timeout protection
+        console.log(`💾 Saving user with updated test history...`);
+        
+        // Add save timeout to prevent hanging
+        const savePromise = user.save();
+        const timeoutPromise = new Promise((_, reject) => {
+          setTimeout(() => reject(new Error('Database save timeout')), 15000); // 15 second timeout
+        });
+        
+        const savedUser = await Promise.race([savePromise, timeoutPromise]);
+        console.log(`✅ User saved successfully. Final test history count: ${savedUser.testHistory.length}`);
+        
+        console.log(`✅ Test history saved for user ${user.email}: ${testName}`);
+        console.log(`📊 Detailed results count: ${testHistoryEntry.detailedResults.length}`);
+        
+        saveSuccessful = true;
+        
+      } catch (historyError) {
+        lastError = historyError;
+        console.error(`❌ Error saving test history (attempt ${saveAttempts}/${maxRetries}):`, historyError);
+        console.error('❌ Error details:', {
+          name: historyError.name,
+          message: historyError.message,
+          stack: historyError.stack
+        });
+        
+        // Log validation errors specifically
+        if (historyError.name === 'ValidationError') {
+          console.error('❌ Validation errors:', historyError.errors);
+        }
+        
+        // If this isn't the last attempt, wait before retrying
+        if (saveAttempts < maxRetries) {
+          console.log(`⏳ Waiting 2 seconds before retry...`);
+          await new Promise(resolve => setTimeout(resolve, 2000));
+        }
       }
+    }
+    
+    // Check if save was successful after all retries
+    if (!saveSuccessful) {
+      console.error(`❌ CRITICAL: Failed to save test history after ${maxRetries} attempts for user ${req.user._id}`);
+      console.error(`❌ Last error:`, lastError);
       
-      // Don't fail the whole request if history saving fails
+      // Log critical data for manual recovery
+      const backupData = {
+        timestamp: new Date().toISOString(),
+        userId: req.user._id,
+        userEmail: req.user.email || 'unknown',
+        testType,
+        practiceSet,
+        testName: testName || `${testType} practice ${practiceSet}`,
+        results: {
+          percentage,
+          correctCount,
+          totalQuestions: answers.length,
+          timeSpent
+        },
+        scaledScores: responseData.results.shsatScores || responseData.results.satScores || null,
+        error: {
+          message: lastError?.message,
+          name: lastError?.name,
+          attempts: saveAttempts
+        }
+      };
+      
+      console.error(`🚨 BACKUP DATA FOR MANUAL RECOVERY:`, JSON.stringify(backupData));
+      
+      // Return error to user instead of false success
+      return res.status(500).json({
+        success: false,
+        message: 'Your test was completed but there was an error saving your results. Please contact support with this error code: SAVE_FAILED',
+        errorCode: 'SAVE_FAILED',
+        retryable: true,
+        backupId: `${req.user._id}_${Date.now()}` // For support tracking
+      });
     }
 
     res.json({
