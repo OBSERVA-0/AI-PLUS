@@ -19,7 +19,11 @@ const validateGetQuestions = [
   query('practiceSet')
     .optional()
     .isIn(['1', '2', '3','4', '5', '6', '7', '8', '9','10', '11', '12', '13', '14', '15', '16', '17', '18', 'diagnostic'])
-    .withMessage('Practice set must be 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, or diagnostic')
+    .withMessage('Practice set must be 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, or diagnostic'),
+  query('sectionType')
+    .optional()
+    .isIn(['full', 'ela', 'math'])
+    .withMessage('Section type must be full, ela, or math')
 ];
 
 const validateSubmitAnswers = [
@@ -60,12 +64,12 @@ const handleValidationErrors = (req, res, next) => {
 // @access  Public (temporarily)
 router.get('/test', validateGetQuestions, handleValidationErrors, async (req, res) => {
   try {
-    const { testType, practiceSet = '1' } = req.query;
+    const { testType, practiceSet = '1', sectionType = null } = req.query;
     
-    console.log(`🎯 Fetching questions from JSON: ${testType} practice set ${practiceSet}`);
+    console.log(`🎯 Fetching questions from JSON: ${testType} practice set ${practiceSet}${sectionType ? ` (${sectionType})` : ''}`);
     
     // Read questions from JSON file
-    const questions = await readQuestionsFromJSON(testType, practiceSet);
+    const questions = await readQuestionsFromJSON(testType, practiceSet, sectionType);
     
     // Debug: count fill-in-the-blank questions
     const fillInBlankCount = questions.filter(q => q.answer_type === 'fill_in_the_blank').length;

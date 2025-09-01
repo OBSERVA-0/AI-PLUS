@@ -629,12 +629,24 @@ function handleSortModeChange() {
 function handleTestTypeChange() {
     const testType = elements.testTypeSelect.value;
     const practiceSetSelect = elements.practiceSetSelect;
+    const sectionTypeGroup = document.getElementById('section-type-group');
+    const sectionTypeSelect = document.getElementById('section-type-select');
     const loadButton = document.getElementById('load-test-scores');
     
     // Clear practice set options and reset score range
     practiceSetSelect.innerHTML = '<option value="">Select Practice Set</option>';
     practiceSetSelect.disabled = !testType;
     loadButton.disabled = true;
+    
+    // Show/hide section type selector based on test type
+    if (testType === 'shsat') {
+        sectionTypeGroup.style.display = 'block';
+        sectionTypeSelect.disabled = false;
+    } else {
+        sectionTypeGroup.style.display = 'none';
+        sectionTypeSelect.disabled = true;
+        sectionTypeSelect.value = '';
+    }
     
     // Reset score range filter
     if (elements.scoreRangeSelect) {
@@ -704,10 +716,13 @@ function handleScoreRangeChange() {
 function handleLoadTestScores() {
     const testType = elements.testTypeSelect.value;
     const practiceSet = elements.practiceSetSelect.value;
+    const sectionTypeSelect = document.getElementById('section-type-select');
+    const sectionType = testType === 'shsat' ? sectionTypeSelect.value : null;
     
     if (testType && practiceSet) {
         state.selectedTestType = testType;
         state.selectedPracticeSet = practiceSet;
+        state.selectedSectionType = sectionType;
         loadStudents(1);
     }
 }

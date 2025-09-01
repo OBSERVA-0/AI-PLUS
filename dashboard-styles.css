@@ -3026,7 +3026,8 @@ body {
 }
 
 .grade-selector,
-.subject-selector {
+.subject-selector,
+.test-type-selector {
     padding: 0.75rem 1rem;
     border: 2px solid #d1d5db;
     border-radius: 8px;
@@ -3119,7 +3120,8 @@ body {
 
 @media (max-width: 480px) {
     .grade-selector,
-    .subject-selector {
+    .subject-selector,
+    .test-type-selector {
         padding: 0.625rem 0.875rem;
         font-size: 0.875rem;
         padding-right: 2.5rem;

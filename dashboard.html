@@ -106,29 +106,57 @@
                                 <span class="value">180 minutes</span>
                             </div>
                         </div>
+                        
+                        <!-- Test Type Selection -->
+                        <div class="test-selection-controls">
+                            <div class="selection-row">
+                                <div class="dropdown-group">
+                                    <label for="shsat-test-type-select">Test Type:</label>
+                                    <select id="shsat-test-type-select" class="test-type-selector">
+                                        <option value="full" selected>Full Test (ELA + Math)</option>
+                                        <option value="ela">ELA Only</option>
+                                        <option value="math">Math Only</option>
+                                    </select>
+                                </div>
+                            </div>
+                        </div>
+                        
                         <div class="test-progress">
                             <div class="progress-info">
                                 <span>Tests taken: <span class="test-count">0</span></span>
                                 <span>Best score: <span class="best-score">N/A</span></span>
                             </div>
                         </div>
-                        <div class="test-buttons">
-                            <button class="btn btn-primary start-test-btn" data-practice-set="1">Start Practice 1</button>
-                            <button class="btn btn-secondary start-test-btn" data-practice-set="2">Start Practice 2</button>
-                            <button class="btn btn-primary start-test-btn" data-practice-set="3">Start Practice 3</button>
-                            <button class="btn btn-primary start-test-btn" data-practice-set="4">Start Practice 4</button>
-                            <button class="btn btn-primary start-test-btn" data-practice-set="5">Start Practice 5</button>
-                            <button class="btn btn-primary start-test-btn" data-practice-set="6">Start Practice 6</button>
-                            <button class="btn btn-primary start-test-btn" data-practice-set="7">Start Practice 7</button>
-                            <button class="btn btn-primary start-test-btn" data-practice-set="8">Start Practice 8</button>
-                            <button class="btn btn-primary start-test-btn" data-practice-set="9">Start Practice 9</button>
-                            <button class="btn btn-primary start-test-btn" data-practice-set="10">Start Practice 10</button>
-                            <button class="btn btn-primary start-test-btn" data-practice-set="11">Start Practice 11</button>
-                            <button class="btn btn-primary start-test-btn" data-practice-set="12">Start Practice 12</button>
-                            <button class="btn btn-primary start-test-btn" data-practice-set="13">Start Practice 13</button>
-                            <button class="btn btn-primary start-test-btn" data-practice-set="14">Start Practice 14</button>
-                            <button class="btn btn-primary start-test-btn" data-practice-set="15">Start Practice 15</button>
-                            <button class="btn btn-diagnostic start-test-btn" data-practice-set="diagnostic">Start Diagnostic Test</button>
+                        
+                        <!-- Dynamic Test Display Area -->
+                        <div class="test-display-area">
+                            <!-- Coming Soon message for ELA/Math only -->
+                            <div id="shsat-coming-soon-message" class="selection-message" style="display: none;">
+                                <div class="message-content">
+                                    <h4>🚧 Coming Soon</h4>
+                                    <p>Individual ELA and Math sections for SHSAT are not available yet. Please select "Full Test" for now.</p>
+                                </div>
+                            </div>
+                            
+                            <!-- Test buttons container -->
+                            <div id="shsat-test-buttons-container" class="test-buttons">
+                                <button class="btn btn-primary start-test-btn" data-practice-set="1" data-test-type="full">Practice 1 (Full)</button>
+                                <button class="btn btn-secondary start-test-btn" data-practice-set="2" data-test-type="full">Practice 2 (Full)</button>
+                                <button class="btn btn-primary start-test-btn" data-practice-set="3" data-test-type="full">Practice 3 (Full)</button>
+                                <button class="btn btn-primary start-test-btn" data-practice-set="4" data-test-type="full">Practice 4 (Full)</button>
+                                <button class="btn btn-primary start-test-btn" data-practice-set="5" data-test-type="full">Practice 5 (Full)</button>
+                                <button class="btn btn-primary start-test-btn" data-practice-set="6" data-test-type="full">Practice 6 (Full)</button>
+                                <button class="btn btn-primary start-test-btn" data-practice-set="7" data-test-type="full">Practice 7 (Full)</button>
+                                <button class="btn btn-primary start-test-btn" data-practice-set="8" data-test-type="full">Practice 8 (Full)</button>
+                                <button class="btn btn-primary start-test-btn" data-practice-set="9" data-test-type="full">Practice 9 (Full)</button>
+                                <button class="btn btn-primary start-test-btn" data-practice-set="10" data-test-type="full">Practice 10 (Full)</button>
+                                <button class="btn btn-primary start-test-btn" data-practice-set="11" data-test-type="full">Practice 11 (Full)</button>
+                                <button class="btn btn-primary start-test-btn" data-practice-set="12" data-test-type="full">Practice 12 (Full)</button>
+                                <button class="btn btn-primary start-test-btn" data-practice-set="13" data-test-type="full">Practice 13 (Full)</button>
+                                <button class="btn btn-primary start-test-btn" data-practice-set="14" data-test-type="full">Practice 14 (Full)</button>
+                                <button class="btn btn-primary start-test-btn" data-practice-set="15" data-test-type="full">Practice 15 (Full)</button>
+                                <button class="btn btn-diagnostic start-test-btn" data-practice-set="diagnostic" data-test-type="full">Diagnostic Test (Full)</button>
+                            </div>
                         </div>
                     </div>
 

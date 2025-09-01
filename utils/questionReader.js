@@ -1,13 +1,27 @@
 const fs = require('fs').promises;
 const path = require('path');
 
-async function readQuestionsFromJSON(testType, practiceSet = '1') {
+async function readQuestionsFromJSON(testType, practiceSet = '1', sectionType = null) {
   let filePath;
   
   if (testType === 'shsat' && practiceSet === 'diagnostic') {
-    filePath = path.join(__dirname, '..', 'data', 'SHSAT', 'shsatdiagnosticquestions.json');
+    // Handle diagnostic test with section filtering
+    if (sectionType === 'ela') {
+      filePath = path.join(__dirname, '..', 'data', 'SHSAT', 'shsatdiagnosticelaquestions.json');
+    } else if (sectionType === 'math') {
+      filePath = path.join(__dirname, '..', 'data', 'SHSAT', 'shsatdiagnosticmathquestions.json');
+    } else {
+      filePath = path.join(__dirname, '..', 'data', 'SHSAT', 'shsatdiagnosticquestions.json');
+    }
   } else if (testType === 'shsat') {
-    filePath = path.join(__dirname, '..', 'data', 'SHSAT', `shsatpractice${practiceSet}questions.json`);
+    // Handle practice tests with section filtering
+    if (sectionType === 'ela') {
+      filePath = path.join(__dirname, '..', 'data', 'SHSAT', `shsatpractice${practiceSet}elaquestions.json`);
+    } else if (sectionType === 'math') {
+      filePath = path.join(__dirname, '..', 'data', 'SHSAT', `shsatpractice${practiceSet}mathquestions.json`);
+    } else {
+      filePath = path.join(__dirname, '..', 'data', 'SHSAT', `shsatpractice${practiceSet}questions.json`);
+    }
   } else if (testType === 'sat') {
     filePath = path.join(__dirname, '..', 'data', 'SAT', `satpractice${practiceSet}questions.json`);
   } else if (testType === 'statetest') {
@@ -36,8 +50,15 @@ async function readQuestionsFromJSON(testType, practiceSet = '1') {
 
   try {
     const data = await fs.readFile(filePath, 'utf8');
-    return JSON.parse(data);
+    let questions = JSON.parse(data);
+    return questions;
   } catch (error) {
+    // For section-specific SHSAT files, don't fall back - just throw error if file doesn't exist
+    if (testType === 'shsat' && (sectionType === 'ela' || sectionType === 'math')) {
+      console.log(`Section-specific file not found: ${filePath}`);
+      throw new Error(`Section-specific file not available for ${testType} practice set ${practiceSet} (${sectionType}).`);
+    }
+    
     console.error(`Error reading questions file for ${testType} practice set ${practiceSet}:`, error);
     throw new Error(`Failed to load questions for ${testType} practice set ${practiceSet}.`);
   }

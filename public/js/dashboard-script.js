@@ -6,6 +6,7 @@ import { API_BASE_URL } from './config.js';
 let currentUser = null;
 let currentTest = null;
 let currentPracticeSet = '1';
+let currentSectionType = null; // For SHSAT section filtering
 let testQuestions = [];
 let currentQuestionIndex = 0;
 let userAnswers = {};
@@ -73,9 +74,13 @@ class AuthService {
 
 // Questions Service
 class QuestionsService {
-    static async getQuestions(testType, practiceSet = '1') {
+    static async getQuestions(testType, practiceSet = '1', sectionType = null) {
         try {
-            const response = await fetch(`${API_BASE_URL}/questions/test?testType=${testType}&practiceSet=${practiceSet}`);
+            let url = `${API_BASE_URL}/questions/test?testType=${testType}&practiceSet=${practiceSet}`;
+            if (sectionType && testType === 'shsat') {
+                url += `&sectionType=${sectionType}`;
+            }
+            const response = await fetch(url);
             const data = await response.json();
             
             if (!response.ok) {
@@ -406,7 +411,7 @@ function updateTestCardStats(testType, progress) {
     }
 }
 
-async function startTest(testType, practiceSet = '1') {
+async function startTest(testType, practiceSet = '1', sectionType = null) {
     if (testType !== 'shsat' && testType !== 'sat' && testType !== 'statetest') {
         alert('This test is coming soon!');
         return;
@@ -415,13 +420,14 @@ async function startTest(testType, practiceSet = '1') {
     try {
         currentTest = testType;
         currentPracticeSet = practiceSet;
+        currentSectionType = sectionType; // Store section type for SHSAT filtering
         
         // Show loading state
         showLoadingState('Loading questions...');
         
         // Fetch questions from API
-        console.log(`🎯 Fetching questions for ${testType} practice set ${practiceSet}`);
-        const response = await QuestionsService.getQuestions(testType, practiceSet);
+        console.log(`🎯 Fetching questions for ${testType} practice set ${practiceSet}${sectionType ? ` (${sectionType})` : ''}`);
+        const response = await QuestionsService.getQuestions(testType, practiceSet, sectionType);
         
         if (!response.success || !response.data.questions.length) {
             throw new Error('No questions available');
@@ -2059,7 +2065,7 @@ class ScrollLock {
 // Initialize scroll lock
 const scrollLock = new ScrollLock();
 
-function showTestCodeModal(testType, practiceSet) {
+function showTestCodeModal(testType, practiceSet, sectionType = null) {
     const modal = document.getElementById('test-code-modal');
     const closeButton = modal.querySelector('.close-button');
     const submitButton = modal.querySelector('#submit-test-code');
@@ -2082,7 +2088,7 @@ function showTestCodeModal(testType, practiceSet) {
             const response = await QuestionsService.validateTestCode(testCode);
             if (response.success) {
                 modal.style.display = 'none';
-                startTest(testType, practiceSet);
+                startTest(testType, practiceSet, sectionType);
             } else {
                 errorMessage.textContent = response.message || 'Invalid code.';
                 errorMessage.style.display = 'block';
@@ -2736,16 +2742,208 @@ class StateTestFilter {
     }
 }
 
+// SHSAT Test Type Filtering System
+class SHSATTestFilter {
+    constructor() {
+        this.testTypeSelect = document.getElementById('shsat-test-type-select');
+        this.comingSoonMessage = document.getElementById('shsat-coming-soon-message');
+        this.testButtonsContainer = document.getElementById('shsat-test-buttons-container');
+        
+        this.initializeEventListeners();
+        this.updateDisplay(); // Initial display setup
+    }
+    
+    initializeEventListeners() {
+        if (this.testTypeSelect) {
+            this.testTypeSelect.addEventListener('change', () => this.updateDisplay());
+        }
+    }
+    
+    updateDisplay() {
+        const selectedTestType = this.testTypeSelect?.value || 'full';
+        
+        // Hide all messages initially
+        if (this.comingSoonMessage) this.comingSoonMessage.style.display = 'none';
+        
+        // Show appropriate content based on selection
+        if (selectedTestType === 'ela' || selectedTestType === 'math') {
+            // Check if section-specific files are available by trying to load a test
+            this.checkSectionAvailability(selectedTestType);
+        } else if (selectedTestType === 'full') {
+            // Show test buttons for full test
+            if (this.testButtonsContainer) this.testButtonsContainer.style.display = 'block';
+            this.updateButtonsForSection('full');
+        } else {
+            // No selection made, hide everything
+            if (this.testButtonsContainer) this.testButtonsContainer.style.display = 'none';
+        }
+    }
+    
+    async checkSectionAvailability(sectionType) {
+        if (this.testButtonsContainer) this.testButtonsContainer.style.display = 'block';
+        
+        // Hide all existing buttons first
+        const allButtons = this.testButtonsContainer.querySelectorAll('.start-test-btn');
+        allButtons.forEach(button => button.style.display = 'none');
+        
+        // Show only buttons for which we have actual section-specific files
+        await this.showAvailableSectionButtons(sectionType);
+    }
+    
+    async showAvailableSectionButtons(sectionType) {
+        if (!this.testButtonsContainer) return;
+        
+        const sectionLabel = sectionType.toUpperCase();
+        const testSets = ['1', '2', '3', '4', '5', '6', '7', '8', '9', '10', '11', '12', '13', '14', '15', 'diagnostic'];
+        let hasAnyTests = false;
+        
+        // Check each test set to see if section-specific file exists
+        for (const practiceSet of testSets) {
+            try {
+                const response = await QuestionsService.getQuestions('shsat', practiceSet, sectionType);
+                
+                if (response.success && response.data.questions.length > 0) {
+                    // File exists, show or create button for this test
+                    let button = this.testButtonsContainer.querySelector(`[data-practice-set="${practiceSet}"][data-test-type="${sectionType}"]`);
+                    
+                    if (!button) {
+                        // Create new button for this section-specific test
+                        button = document.createElement('button');
+                        button.className = practiceSet === '2' ? 'btn btn-secondary start-test-btn' : 'btn btn-primary start-test-btn';
+                        if (practiceSet === 'diagnostic') {
+                            button.className = 'btn btn-diagnostic start-test-btn';
+                        }
+                        button.setAttribute('data-practice-set', practiceSet);
+                        button.setAttribute('data-test-type', sectionType);
+                        this.attachButtonEventListener(button);
+                        this.testButtonsContainer.appendChild(button);
+                    }
+                    
+                    // Update button text
+                    if (practiceSet === 'diagnostic') {
+                        button.textContent = `Diagnostic Test (${sectionLabel})`;
+                    } else {
+                        button.textContent = `Practice ${practiceSet} (${sectionLabel})`;
+                    }
+                    
+                    button.style.display = 'inline-block';
+                    hasAnyTests = true;
+                }
+            } catch (error) {
+                // File doesn't exist, skip this test
+                continue;
+            }
+        }
+        
+        // If no section-specific files found, show coming soon message
+        if (!hasAnyTests) {
+            if (this.comingSoonMessage) this.comingSoonMessage.style.display = 'flex';
+            if (this.testButtonsContainer) this.testButtonsContainer.style.display = 'none';
+        }
+    }
+    
+    updateButtonsForSection(sectionType) {
+        if (!this.testButtonsContainer) return;
+        
+        const allButtons = this.testButtonsContainer.querySelectorAll('.start-test-btn');
+        
+        allButtons.forEach(button => {
+            const practiceSet = button.getAttribute('data-practice-set');
+            
+            // Update button text based on section type
+            if (sectionType === 'full') {
+                if (practiceSet === 'diagnostic') {
+                    button.textContent = `Diagnostic Test (Full)`;
+                } else {
+                    button.textContent = `Practice ${practiceSet} (Full)`;
+                }
+            } else {
+                const sectionLabel = sectionType.toUpperCase();
+                if (practiceSet === 'diagnostic') {
+                    button.textContent = `Diagnostic Test (${sectionLabel})`;
+                } else {
+                    button.textContent = `Practice ${practiceSet} (${sectionLabel})`;
+                }
+            }
+            
+            // Update the data-test-type to match the selected section
+            button.setAttribute('data-test-type', sectionType);
+            button.style.display = 'inline-block';
+        });
+    }
+    
+    filterTestButtons(testType) {
+        if (!this.testButtonsContainer) return [];
+        
+        const allButtons = this.testButtonsContainer.querySelectorAll('.start-test-btn');
+        let visibleButtons = [];
+        
+        allButtons.forEach(button => {
+            const buttonTestType = button.getAttribute('data-test-type');
+            
+            if (buttonTestType === testType) {
+                button.style.display = 'inline-block';
+                visibleButtons.push(button);
+            } else {
+                button.style.display = 'none';
+            }
+        });
+        
+        return visibleButtons;
+    }
+    
+    // Helper method to add new SHSAT tests easily
+    addTestButton(practiceSet, testType, testName) {
+        if (!this.testButtonsContainer) return;
+        
+        const button = document.createElement('button');
+        button.className = 'btn btn-primary start-test-btn';
+        button.setAttribute('data-practice-set', practiceSet);
+        button.setAttribute('data-test-type', testType);
+        button.textContent = testName;
+        button.style.display = 'none'; // Hidden by default
+        
+        this.testButtonsContainer.appendChild(button);
+        
+        // Reattach event listeners for the new button
+        this.attachButtonEventListener(button);
+        
+        // Update display to reflect new test
+        this.updateDisplay();
+    }
+    
+    attachButtonEventListener(button) {
+        button.addEventListener('click', function() {
+            const practiceSet = this.getAttribute('data-practice-set');
+            const testType = this.getAttribute('data-test-type');
+            if (practiceSet) {
+                showTestCodeModal('shsat', practiceSet, testType);
+            }
+        });
+    }
+}
+
 // Initialize the State Test Filter when DOM is loaded
 document.addEventListener('DOMContentLoaded', function() {
     // Initialize State Test Filter
     window.stateTestFilter = new StateTestFilter();
+    
+    // Initialize SHSAT Test Filter
+    window.shsatTestFilter = new SHSATTestFilter();
     
     // Attach event listeners to existing test buttons
     const existingButtons = document.querySelectorAll('#test-buttons-container .start-test-btn');
     existingButtons.forEach(button => {
         if (window.stateTestFilter) {
             window.stateTestFilter.attachButtonEventListener(button);
+        }
+    });
+    
+    // Attach event listeners to existing SHSAT test buttons
+    const existingSHSATButtons = document.querySelectorAll('#shsat-test-buttons-container .start-test-btn');
+    existingSHSATButtons.forEach(button => {
+        if (window.shsatTestFilter) {
+            window.shsatTestFilter.attachButtonEventListener(button);
         }
     });
 });
