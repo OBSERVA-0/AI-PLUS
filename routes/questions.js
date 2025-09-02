@@ -22,8 +22,8 @@ const validateGetQuestions = [
     .withMessage('Practice set must be 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, or diagnostic'),
   query('sectionType')
     .optional()
-    .isIn(['full', 'ela', 'math'])
-    .withMessage('Section type must be full, ela, or math')
+    .matches(/^(full|ela|math|g[3-8](ela|math)?)$/)
+    .withMessage('Section type must be full, ela, math, or grade/subject combination (e.g., g6math, g7ela)')
 ];
 
 const validateSubmitAnswers = [
@@ -64,7 +64,9 @@ const handleValidationErrors = (req, res, next) => {
 // @access  Public (temporarily)
 router.get('/test', validateGetQuestions, handleValidationErrors, async (req, res) => {
   try {
+    console.log('🔍 Raw query params received:', req.query);
     const { testType, practiceSet = '1', sectionType = null } = req.query;
+    console.log('🔍 Extracted params:', { testType, practiceSet, sectionType });
     
     console.log(`🎯 Fetching questions from JSON: ${testType} practice set ${practiceSet}${sectionType ? ` (${sectionType})` : ''}`);
     

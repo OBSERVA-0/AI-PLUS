@@ -1,0 +1,798 @@
+[
+    {
+        "_id": "1",
+        "question_number": 1,
+        "practice_set": 32,
+        "category": "Math: Ratios and Proportions",
+        "difficulty": "easy",
+        "time_estimate": 60,
+        "passage": "pdfData:pdf/2017 Grade 6 Math.pdf",
+        "question_text": "A bakery sells 5 apple muffins for every 2 bran muffins sold. Which table shows this ratio?",
+        "options": [
+            "Table A",
+            "Table B",
+            "Table C",
+            "Table D"
+        ],
+        "correct_answer": 1,
+        "answer_type": "multiple_choice"
+    },
+    {
+        "_id": "2",
+        "question_number": 2,
+        "practice_set": 32,
+        "category": "Math: Expressions and Equations",
+        "difficulty": "easy",
+        "time_estimate": 60,
+        "passage": "pdfData:pdf/2017 Grade 6 Math.pdf",
+        "question_text": "In which set do all of the values make the inequality 2x - 1 < 10 true?",
+        "options": [
+            "{10, 15, 20}",
+            "{5, 7, 9}",
+            "{4, 6, 8}",
+            "{2, 3, 4}"
+        ],
+        "correct_answer": 3,
+        "answer_type": "multiple_choice"
+    },
+    {
+        "_id": "3",
+        "question_number": 3,
+        "practice_set": 32,
+        "category": "Math: Number Systems",
+        "difficulty": "medium",
+        "time_estimate": 75,
+        "passage": "pdfData:pdf/2017 Grade 6 Math.pdf",
+        "question_text": "The model below represents a division problem. Which equation is represented by the model?",
+        "options": [
+            "2 1/3 ÷ 2/3 = 3 1/2",
+            "2 1/3 ÷ 2/3 = 3 1/3",
+            "7/1 ÷ 1/3 = 2 1/3",
+            "2/3 ÷ 3 1/2 = 2 1/3"
+        ],
+        "correct_answer": 0,
+        "answer_type": "multiple_choice"
+    },
+    {
+        "_id": "4",
+        "question_number": 4,
+        "practice_set": 32,
+        "category": "Math: Expressions and Equations",
+        "difficulty": "medium",
+        "time_estimate": 75,
+        "passage": "pdfData:pdf/2017 Grade 6 Math.pdf",
+        "question_text": "What is the value of the expression below?\n2[3(4^2 + 1)] - 2^3",
+        "options": [
+            "156",
+            "110",
+            "94",
+            "48"
+        ],
+        "correct_answer": 2,
+        "answer_type": "multiple_choice"
+    },
+    {
+        "_id": "9",
+        "question_number": 9,
+        "practice_set": 32,
+        "category": "Math: Geometry",
+        "difficulty": "medium",
+        "time_estimate": 90,
+        "passage": "pdfData:pdf/2017 Grade 6 Math.pdf",
+        "question_text": "Triangle QRS, with vertices Q(6, -2), R(4, -7), and S(2, -5), is drawn inside a rectangle, as shown below. What is the area, in square units, of triangle QRS?",
+        "options": [
+            "7",
+            "10",
+            "13",
+            "18"
+        ],
+        "correct_answer": 2,
+        "answer_type": "multiple_choice"
+    },
+    {
+        "_id": "10",
+        "question_number": 10,
+        "practice_set": 32,
+        "category": "Math: Geometry",
+        "difficulty": "easy",
+        "time_estimate": 60,
+        "passage": "pdfData:pdf/2017 Grade 6 Math.pdf",
+        "question_text": "Points F(3,2) and G(4,4) have been plotted on the coordinate plane below. Point G and point H are the same distance from point F. Which coordinates could be the location of point H?",
+        "options": [
+            "(1, 2)",
+            "(4, 2)",
+            "(5, 1)",
+            "(2, 5)"
+        ],
+        "correct_answer": 2,
+        "answer_type": "multiple_choice"
+    },
+    {
+        "_id": "13",
+        "question_number": 13,
+        "practice_set": 32,
+        "category": "Math: Ratios and Proportions",
+        "difficulty": "easy",
+        "time_estimate": 60,
+        "passage": "pdfData:pdf/2017 Grade 6 Math.pdf",
+        "question_text": "A bookstore is selling books for $10 each. Which graph shows the relationship between the number of books, x, the store sold and the total amount of money, y, paid from the book sales?",
+        "options": [
+            "Graph A",
+            "Graph B",
+            "Graph C",
+            "Graph D"
+        ],
+        "correct_answer": 2,
+        "answer_type": "multiple_choice"
+    },
+    {
+        "_id": "14",
+        "question_number": 14,
+        "practice_set": 32,
+        "category": "Math: Ratios and Proportions",
+        "difficulty": "easy",
+        "time_estimate": 60,
+        "passage": "pdfData:pdf/2017 Grade 6 Math.pdf",
+        "question_text": "The ratio of students to adults on a field trip is 8 to 1. Which table correctly shows this ratio for each grade?",
+        "options": [
+            "Table A",
+            "Table B",
+            "Table C",
+            "Table D"
+        ],
+        "correct_answer": 2,
+        "answer_type": "multiple_choice"
+    },
+    {
+        "_id": "15",
+        "question_number": 15,
+        "practice_set": 32,
+        "category": "Math: Expressions and Equations",
+        "difficulty": "easy",
+        "time_estimate": 45,
+        "passage": "pdfData:pdf/2017 Grade 6 Math.pdf",
+        "question_text": "Which phrase is a description of 2m + 7?",
+        "options": [
+            "7 more than 2 times m",
+            "2 more than 7 times m",
+            "2 times the sum of 7 and m",
+            "7 times the sum of 2 and m"
+        ],
+        "correct_answer": 0,
+        "answer_type": "multiple_choice"
+    },
+    {
+        "_id": "16",
+        "question_number": 16,
+        "practice_set": 32,
+        "category": "Math: Expressions and Equations",
+        "difficulty": "medium",
+        "time_estimate": 75,
+        "passage": "pdfData:pdf/2017 Grade 6 Math.pdf",
+        "question_text": "George has $23 to spend on art supplies. He wants to buy markers, paper, and glue. If the total cost of the markers and paper is more than $14, which inequality represents the dollar amount, p, George can spend on glue?",
+        "options": [
+            "p < 9",
+            "p > 9",
+            "p < 37",
+            "p > 37"
+        ],
+        "correct_answer": 0,
+        "answer_type": "multiple_choice"
+    },
+    {
+        "_id": "17",
+        "question_number": 17,
+        "practice_set": 32,
+        "category": "Math: Geometry",
+        "difficulty": "medium",
+        "time_estimate": 90,
+        "passage": "pdfData:pdf/2017 Grade 6 Math.pdf",
+        "question_text": "The net of a rectangular prism is shown below. The surface area of each face is labeled (12, 18, 24 sq. cm). Which values represent the dimensions, in centimeters, of the rectangular prism?",
+        "options": [
+            "12, 18, 24",
+            "3, 4, 8",
+            "3, 4, 6",
+            "2, 9, 12"
+        ],
+        "correct_answer": 2,
+        "answer_type": "multiple_choice"
+    },
+    {
+        "_id": "18",
+        "question_number": 18,
+        "practice_set": 32,
+        "category": "Math: Ratios and Proportions",
+        "difficulty": "easy",
+        "time_estimate": 60,
+        "passage": "pdfData:pdf/2017 Grade 6 Math.pdf",
+        "question_text": "A salesperson had $240,000 in sales last year, which is 60% of the sales she had this year. Which equation could be used to determine x, the salesperson's total amount of sales, in dollars, for this year?",
+        "options": [
+            "240000/x = 60/100",
+            "240000/100 = x/60",
+            "60/240000 = x/100",
+            "60/100 = x/240000"
+        ],
+        "correct_answer": 0,
+        "answer_type": "multiple_choice"
+    },
+    {
+        "_id": "19",
+        "question_number": 19,
+        "practice_set": 32,
+        "category": "Math: Expressions and Equations",
+        "difficulty": "medium",
+        "time_estimate": 75,
+        "passage": "pdfData:pdf/2017 Grade 6 Math.pdf",
+        "question_text": "A student formed a pattern in which each term is represented by a sum. The first four terms of the pattern are shown below. Which expression can be used to determine the value of the sum in any term, n?",
+        "options": [
+            "n^2",
+            "4n",
+            "n + 3",
+            "2^n"
+        ],
+        "correct_answer": 0,
+        "answer_type": "multiple_choice"
+    },
+    {
+        "_id": "20",
+        "question_number": 20,
+        "practice_set": 32,
+        "category": "Math: Number Systems",
+        "difficulty": "easy",
+        "time_estimate": 60,
+        "passage": "pdfData:pdf/2017 Grade 6 Math.pdf",
+        "question_text": "Jason will use a 1/3-gallon pitcher to fill an empty 3/4-gallon water jug. How much water will he need in order to completely fill the water jug?",
+        "options": [
+            "between 1 and 2 full pitchers",
+            "between 2 and 3 full pitchers",
+            "about 1/2 of a full pitcher",
+            "about 1/4 of a full pitcher"
+        ],
+        "correct_answer": 1,
+        "answer_type": "multiple_choice"
+    },
+    {
+        "_id": "23",
+        "question_number": 23,
+        "practice_set": 32,
+        "category": "Math: Expressions and Equations",
+        "difficulty": "easy",
+        "time_estimate": 45,
+        "passage": "pdfData:pdf/2017 Grade 6 Math.pdf",
+        "question_text": "Which expression is equivalent to 5(6x + 3y)?",
+        "options": [
+            "11x + 8y",
+            "11x + 8y",
+            "30x + 8y",
+            "30x + 15y"
+        ],
+        "correct_answer": 3,
+        "answer_type": "multiple_choice"
+    },
+    {
+        "_id": "24",
+        "question_number": 24,
+        "practice_set": 32,
+        "category": "Math: Ratios and Proportions",
+        "difficulty": "easy",
+        "time_estimate": 60,
+        "passage": "pdfData:pdf/2017 Grade 6 Math.pdf",
+        "question_text": "The diagram below shows the percentages of people attending a football game who were supporters of either the home team or the visiting team. If the total number of people attending the game was 64,000, how many people were supporters of the home team?",
+        "options": [
+            "12,800",
+            "38,400",
+            "48,000",
+            "51,200"
+        ],
+        "correct_answer": 3,
+        "answer_type": "multiple_choice"
+    },
+    {
+        "_id": "25",
+        "question_number": 25,
+        "practice_set": 32,
+        "category": "Math: Expressions and Equations",
+        "difficulty": "easy",
+        "time_estimate": 45,
+        "passage": "pdfData:pdf/2017 Grade 6 Math.pdf",
+        "question_text": "Which pair of expressions is equivalent for any variable value greater than zero?",
+        "options": [
+            "3(x + 2) and 3x + 2",
+            "4d + 2e and 8d + e",
+            "f + f + f + g and 3fg",
+            "b + b + 3c and 2b + 3c"
+        ],
+        "correct_answer": 3,
+        "answer_type": "multiple_choice"
+    },
+    {
+        "_id": "26",
+        "question_number": 26,
+        "practice_set": 32,
+        "category": "Math: Number Systems",
+        "difficulty": "easy",
+        "time_estimate": 45,
+        "passage": "pdfData:pdf/2017 Grade 6 Math.pdf",
+        "question_text": "What is the greatest common factor of 42 and 84?",
+        "options": [
+            "7",
+            "21",
+            "42",
+            "84"
+        ],
+        "correct_answer": 2,
+        "answer_type": "multiple_choice"
+    },
+    {
+        "_id": "27",
+        "question_number": 27,
+        "practice_set": 32,
+        "category": "Math: Ratios and Proportions",
+        "difficulty": "easy",
+        "time_estimate": 60,
+        "passage": "pdfData:pdf/2017 Grade 6 Math.pdf",
+        "question_text": "Kira studied data collected on the school basketball team for one season. She noticed that a player on the team had 13 successful free throws out of a total of 20 attempted free throws. To find the percentage of the total free throws attempted by this player that were successful, Kira set up the equivalent ratios below.\n13/20 = m/n\nWhat are the values for m and n in Kira's equation?",
+        "options": [
+            "m = 65, n = 1",
+            "m = 100, n = 65",
+            "m = 93, n = 100",
+            "m = 65, n = 100"
+        ],
+        "correct_answer": 3,
+        "answer_type": "multiple_choice"
+    },
+    {
+        "_id": "28",
+        "question_number": 28,
+        "practice_set": 32,
+        "category": "Math: Number Systems",
+        "difficulty": "easy",
+        "time_estimate": 45,
+        "passage": "pdfData:pdf/2017 Grade 6 Math.pdf",
+        "question_text": "What is the least common multiple of 4 and 10?",
+        "options": [
+            "14",
+            "20",
+            "40",
+            "60"
+        ],
+        "correct_answer": 1,
+        "answer_type": "multiple_choice"
+    },
+    {
+        "_id": "29",
+        "question_number": 29,
+        "practice_set": 32,
+        "category": "Math: Geometry",
+        "difficulty": "easy",
+        "time_estimate": 75,
+        "passage": "pdfData:pdf/2017 Grade 6 Math.pdf",
+        "question_text": "The surface area, S, of a right rectangular prism with length l, width w, and height h can be found using the formula below.\nS = 2(lw + wh + hl)\nWhat is the surface area, in square inches, of a prism with a length of 12 inches, a width of 9 inches, and a height of 2 inches?",
+        "options": [
+            "300",
+            "258",
+            "150",
+            "92"
+        ],
+        "correct_answer": 0,
+        "answer_type": "multiple_choice"
+    },
+    {
+        "_id": "30",
+        "question_number": 30,
+        "practice_set": 32,
+        "category": "Math: Number Systems",
+        "difficulty": "easy",
+        "time_estimate": 45,
+        "passage": "pdfData:pdf/2017 Grade 6 Math.pdf",
+        "question_text": "Which point on the number line below represents the number opposite the number -5 1/2?",
+        "options": [
+            "point P",
+            "point Q",
+            "point R",
+            "point S"
+        ],
+        "correct_answer": 3,
+        "answer_type": "multiple_choice"
+    },
+    {
+        "_id": "34",
+        "question_number": 34,
+        "practice_set": 32,
+        "category": "Math: Ratios and Proportions",
+        "difficulty": "easy",
+        "time_estimate": 60,
+        "passage": "pdfData:pdf/2017 Grade 6 Math.pdf",
+        "question_text": "In 2010, Kim-Ly earned $17.50 for 2 hours of work. Which table shows the relationship between the number of hours worked and Kim-Ly's total earnings, if her rate per hour is constant?",
+        "options": [
+            "Table A",
+            "Table B",
+            "Table C",
+            "Table D"
+        ],
+        "correct_answer": 3,
+        "answer_type": "multiple_choice"
+    },
+    {
+        "_id": "35",
+        "question_number": 35,
+        "practice_set": 32,
+        "category": "Math: Ratios and Proportions",
+        "difficulty": "easy",
+        "time_estimate": 45,
+        "passage": "pdfData:pdf/2017 Grade 6 Math.pdf",
+        "question_text": "Susan reads a book at a rate of 1 page every 3 minutes. If her reading rate remains the same, which method could be used to determine the number of minutes for her to read 18 pages?",
+        "options": [
+            "add 18 and 3",
+            "divide 18 by 3",
+            "multiply 3 by 18",
+            "subtract 3 from 18"
+        ],
+        "correct_answer": 2,
+        "answer_type": "multiple_choice"
+    },
+    {
+        "_id": "36",
+        "question_number": 36,
+        "practice_set": 32,
+        "category": "Math: Geometry",
+        "difficulty": "easy",
+        "time_estimate": 60,
+        "passage": "pdfData:pdf/2017 Grade 6 Math.pdf",
+        "question_text": "A triangle has vertices on a coordinate grid at points J(-1, 5), K(4, 5), and L(4, -2). What is the length, in units, of KL?",
+        "options": [
+            "3",
+            "7",
+            "8",
+            "11"
+        ],
+        "correct_answer": 1,
+        "answer_type": "multiple_choice"
+    },
+    {
+        "_id": "37",
+        "question_number": 37,
+        "practice_set": 32,
+        "category": "Math: Expressions and Equations",
+        "difficulty": "easy",
+        "time_estimate": 60,
+        "passage": "pdfData:pdf/2017 Grade 6 Math.pdf",
+        "question_text": "Rosa has a goal of running a total of 100 miles this month. Each day that she ran, she ran 5 miles. Which expression could Rosa use to determine how many miles she has left to run after running for d days?",
+        "options": [
+            "100 - 5d",
+            "5d + 100",
+            "100 / 5d",
+            "5d"
+        ],
+        "correct_answer": 0,
+        "answer_type": "multiple_choice"
+    },
+    {
+        "_id": "38",
+        "question_number": 38,
+        "practice_set": 32,
+        "category": "Math: Number Systems",
+        "difficulty": "medium",
+        "time_estimate": 75,
+        "passage": "pdfData:pdf/2017 Grade 6 Math.pdf",
+        "question_text": "The inequality below compares two rational numbers.\n-8/18 > -17/27\nIf the two numbers were plotted as values on a horizontal number line, which statement would be true?",
+        "options": [
+            "Both numbers lie to the right of 0, and -8/18 lies to the left of -17/27",
+            "Both numbers lie to the left of 0, and -8/18 lies to the left of -17/27",
+            "Both numbers lie to the right of 0, and -8/18 lies to the right of -17/27",
+            "Both numbers lie to the left of 0, and -8/18 lies to the right of -17/27"
+        ],
+        "correct_answer": 3,
+        "answer_type": "multiple_choice"
+    },
+    {
+        "_id": "39",
+        "question_number": 39,
+        "practice_set": 32,
+        "category": "Math: Expressions and Equations",
+        "difficulty": "medium",
+        "time_estimate": 75,
+        "passage": "pdfData:pdf/2017 Grade 6 Math.pdf",
+        "question_text": "Which value or values for the variable c from the set below will make 5.6 + 0.4c <= 6c true?\n{0, 0.875, 1, 2.5}",
+        "options": [
+            "only 2.5",
+            "1 and 2.5",
+            "0.875, 1, and 2.5",
+            "all values in the set"
+        ],
+        "correct_answer": 1,
+        "answer_type": "multiple_choice"
+    },
+    {
+        "_id": "40",
+        "question_number": 40,
+        "practice_set": 32,
+        "category": "Math: Geometry",
+        "difficulty": "easy",
+        "time_estimate": 60,
+        "passage": "pdfData:pdf/2017 Grade 6 Math.pdf",
+        "question_text": "Steve ordered plastic cases for storing his baseball cards. Each case has a length of 12 centimeters, a width of 6.5 centimeters, and a height of 1.25 centimeters. What is the volume, in cubic centimeters, of one baseball card case?",
+        "options": [
+            "39.5",
+            "97.5",
+            "118.5",
+            "202.25"
+        ],
+        "correct_answer": 1,
+        "answer_type": "multiple_choice"
+    },
+    {
+        "_id": "41",
+        "question_number": 41,
+        "practice_set": 32,
+        "category": "Math: Ratios and Proportions",
+        "difficulty": "medium",
+        "time_estimate": 75,
+        "passage": "pdfData:pdf/2017 Grade 6 Math.pdf",
+        "question_text": "Kim rode her bicycle 135 miles in 9 weeks, riding the same distance each week. Eric rode his bicycle 102 miles in 6 weeks, riding the same distance each week. Which statement correctly compares the number of miles per week they rode?",
+        "options": [
+            "Eric rode 2 more miles per week than Kim rode.",
+            "Kim rode 3 more miles per week than Eric rode.",
+            "Kim rode 11 more miles per week than Eric rode.",
+            "Eric rode 17 more miles per week than Kim rode."
+        ],
+        "correct_answer": 0,
+        "answer_type": "multiple_choice"
+    },
+    {
+        "_id": "42",
+        "question_number": 42,
+        "practice_set": 32,
+        "category": "Math: Geometry",
+        "difficulty": "hard",
+        "time_estimate": 90,
+        "passage": "pdfData:pdf/2017 Grade 6 Math.pdf",
+        "question_text": "A net of a triangular prism is shown below. What is the surface area, in square feet, of the triangular prism?",
+        "options": [
+            "44",
+            "96",
+            "108",
+            "120"
+        ],
+        "correct_answer": 2,
+        "answer_type": "multiple_choice"
+    },
+    {
+        "_id": "43",
+        "question_number": 43,
+        "practice_set": 32,
+        "category": "Math: Expressions and Equations",
+        "difficulty": "easy",
+        "time_estimate": 60,
+        "passage": "pdfData:pdf/2017 Grade 6 Math.pdf",
+        "question_text": "The two expressions below are equivalent.\ny(2.5 + 7) + y - 2\n10.5y - 2\nWhich statement best explains why the expressions are equivalent?",
+        "options": [
+            "The expressions have the same value for any value of y.",
+            "The expressions have the same value for only whole number values of y.",
+            "The expressions have the same value only when y is an odd number.",
+            "The expressions have the same value only when y is an even number."
+        ],
+        "correct_answer": 0,
+        "answer_type": "multiple_choice"
+    },
+    {
+        "_id": "44",
+        "question_number": 44,
+        "practice_set": 32,
+        "category": "Math: Number Systems",
+        "difficulty": "medium",
+        "time_estimate": 75,
+        "passage": "pdfData:pdf/2017 Grade 6 Math.pdf",
+        "question_text": "Two whole numbers have a least common multiple of 60. Each number is less than or equal to 12. The greatest common factor of the two numbers is 2. What are the two numbers?",
+        "options": [
+            "6 and 10",
+            "5 and 12",
+            "10 and 12",
+            "12 and 15"
+        ],
+        "correct_answer": 2,
+        "answer_type": "multiple_choice"
+    },
+    {
+        "_id": "45",
+        "question_number": 45,
+        "practice_set": 32,
+        "category": "Math: Expressions and Equations",
+        "difficulty": "easy",
+        "time_estimate": 45,
+        "passage": "pdfData:pdf/2017 Grade 6 Math.pdf",
+        "question_text": "Which quantity could go in the blank to make the equation below true?\nx + 2x + ? = 5x",
+        "options": [
+            "2",
+            "3",
+            "2x",
+            "3x"
+        ],
+        "correct_answer": 2,
+        "answer_type": "multiple_choice"
+    },
+    {
+        "_id": "46",
+        "question_number": 46,
+        "practice_set": 32,
+        "category": "Math: Geometry",
+        "difficulty": "easy",
+        "time_estimate": 45,
+        "passage": "pdfData:pdf/2017 Grade 6 Math.pdf",
+        "question_text": "Which coordinate grid shows point M plotted at (4, 3)?",
+        "options": [
+            "Grid A",
+            "Grid B",
+            "Grid C",
+            "Grid D"
+        ],
+        "correct_answer": 1,
+        "answer_type": "multiple_choice"
+    },
+    {
+        "_id": "50",
+        "question_number": 50,
+        "practice_set": 32,
+        "category": "Math: Geometry",
+        "difficulty": "medium",
+        "time_estimate": 75,
+        "passage": "pdfData:pdf/2017 Grade 6 Math.pdf",
+        "question_text": "What is the area, in square centimeters, of the shaded part of the rectangle shown below?",
+        "options": [
+            "20",
+            "60",
+            "100",
+            "140"
+        ],
+        "correct_answer": 2,
+        "answer_type": "multiple_choice"
+    },
+    {
+        "_id": "51",
+        "question_number": 51,
+        "practice_set": 32,
+        "category": "Math: Expressions and Equations",
+        "difficulty": "easy",
+        "time_estimate": 60,
+        "passage": "pdfData:pdf/2017 Grade 6 Math.pdf",
+        "question_text": "A sandwich shop sells sandwiches for $5.95 each, including tax. The shop received a total of $71.40 from the sales of sandwiches one afternoon. Which equation can be used to determine the number of sandwiches, x, sold by the sandwich shop that afternoon?",
+        "options": [
+            "5.95 + x = 71.40",
+            "5.95 / 71.40 = x",
+            "5.95x = 71.40",
+            "5.95 / x = 71.40"
+        ],
+        "correct_answer": 2,
+        "answer_type": "multiple_choice"
+    },
+    {
+        "_id": "52",
+        "question_number": 52,
+        "practice_set": 32,
+        "category": "Math: Ratios and Proportions",
+        "difficulty": "hard",
+        "time_estimate": 180,
+        "passage": "pdfData:pdf/2017 Grade 6 Math.pdf",
+        "question_text": "Dana and Monique are dog groomers. Dana's workday is 10 hours and Monique's workday is 8 hours. Dana and Monique each work 40 hours per week. On Monday, Dana groomed 15 dogs in 10 hours and Monique groomed 10 dogs in 8 hours. They each earn $12.75 for each dog groomed. Assuming that for the rest of the week Dana and Monique groom the same number of dogs per workday as they did on Monday, what will be the difference between their weekly earnings?",
+        "options": [],
+        "correct_answer": null,
+        "answer_type": "short_response"
+    },
+    {
+        "_id": "53",
+        "question_number": 53,
+        "practice_set": 32,
+        "category": "Math: Expressions and Equations",
+        "difficulty": "easy",
+        "time_estimate": 90,
+        "passage": "pdfData:pdf/2017 Grade 6 Math.pdf",
+        "question_text": "The formula below is used to convert a temperature in degrees Celsius, C, to a temperature in degrees Fahrenheit, F.\nF = 1.8C + 32\nThe high temperature in a mountain city was 15°C. What was the high temperature in degrees Fahrenheit?",
+        "options": [],
+        "correct_answer": null,
+        "answer_type": "short_response"
+    },
+    {
+        "_id": "54",
+        "question_number": 54,
+        "practice_set": 32,
+        "category": "Math: Ratios and Proportions",
+        "difficulty": "medium",
+        "time_estimate": 120,
+        "passage": "pdfData:pdf/2017 Grade 6 Math.pdf",
+        "question_text": "A seamstress needs to cut 15-inch pieces of ribbon from a roll of ribbon that is 9 feet in length. What is the greatest number of 15-inch pieces the seamstress can cut from 5 of these rolls of ribbon?",
+        "options": [],
+        "correct_answer": null,
+        "answer_type": "short_response"
+    },
+    {
+        "_id": "55",
+        "question_number": 55,
+        "practice_set": 32,
+        "category": "Math: Expressions and Equations",
+        "difficulty": "medium",
+        "time_estimate": 120,
+        "passage": "pdfData:pdf/2017 Grade 6 Math.pdf",
+        "question_text": "It is recommended that one fire extinguisher be available for every 6,000 square feet in a building. Write and solve an equation to determine x, the number of fire extinguishers needed for a building that has 135,000 square feet.",
+        "options": [],
+        "correct_answer": null,
+        "answer_type": "short_response"
+    },
+    {
+        "_id": "56",
+        "question_number": 56,
+        "practice_set": 32,
+        "category": "Math: Geometry",
+        "difficulty": "hard",
+        "time_estimate": 180,
+        "passage": "pdfData:pdf/2017 Grade 6 Math.pdf",
+        "question_text": "A company sells cereal in two different-sized boxes. The smaller box has the dimensions shown below (12 in height, 7 3/4 in length, 2 in width). The height of the smaller box is 80% of the height of the larger box, while the other two dimensions are the same for both boxes. What is the difference in the volumes of the two boxes?",
+        "options": [],
+        "correct_answer": null,
+        "answer_type": "short_response"
+    },
+    {
+        "_id": "57",
+        "question_number": 57,
+        "practice_set": 32,
+        "category": "Math: Expressions and Equations",
+        "difficulty": "medium",
+        "time_estimate": 120,
+        "passage": "pdfData:pdf/2017 Grade 6 Math.pdf",
+        "question_text": "The area of Brian's rectangular garden, in square feet, can be found by using the expression 6(2x + 5y). Use the distributive property to write an equivalent expression for the area of Brian's garden. Use your equivalent expression to find the area of Brian's garden, in square feet, if x = 3 and y = 4.",
+        "options": [],
+        "correct_answer": null,
+        "answer_type": "short_response"
+    },
+    {
+        "_id": "58",
+        "question_number": 58,
+        "practice_set": 32,
+        "category": "Math: Expressions and Equations",
+        "difficulty": "easy",
+        "time_estimate": 90,
+        "passage": "pdfData:pdf/2017 Grade 6 Math.pdf",
+        "question_text": "A hotel has a number of meeting rooms, m, available for events. Each meeting room has 325 chairs. Write an equation to represent c, the total number of chairs, in all of the meeting rooms at the hotel. If m = 7, use your equation to find the total number of chairs in all of the meeting rooms at the hotel.",
+        "options": [],
+        "correct_answer": null,
+        "answer_type": "short_response"
+    },
+    {
+        "_id": "59",
+        "question_number": 59,
+        "practice_set": 32,
+        "category": "Math: Ratios and Proportions",
+        "difficulty": "medium",
+        "time_estimate": 150,
+        "passage": "pdfData:pdf/2017 Grade 6 Math.pdf",
+        "question_text": "Jimmy and his family are on their way to visit some family friends who live 780 miles away from them. Based on the route they chose, they expect to complete their trip in three days. The distances and average speeds for the first two days driven are shown below.\n- First day: 4 hours at an average speed of 60 miles per hour\n- Second day: 6 hours at an average speed of 65 miles per hour\nIf the average speed on the third day is 60 miles per hour, how many more hours will it take for them to reach their family friends' home?",
+        "options": [],
+        "correct_answer": null,
+        "answer_type": "short_response"
+    },
+    {
+        "_id": "60",
+        "question_number": 60,
+        "practice_set": 32,
+        "category": "Math: Geometry",
+        "difficulty": "hard",
+        "time_estimate": 180,
+        "passage": "pdfData:pdf/2017 Grade 6 Math.pdf",
+        "question_text": "A right rectangular prism has a length of 2 1/2 feet, a width of 3 feet, and a height of 1 1/2 feet. Unit cubes with side lengths of 1/2 foot are added to completely fill the prism with no space remaining. What is the volume, in cubic feet, of the right rectangular prism? How many 1/2-foot unit cubes can be added to fill the prism completely?",
+        "options": [],
+        "correct_answer": null,
+        "answer_type": "short_response"
+    },
+    {
+        "_id": "61",
+        "question_number": 61,
+        "practice_set": 32,
+        "category": "Math: Number Systems",
+        "difficulty": "medium",
+        "time_estimate": 150,
+        "passage": "pdfData:pdf/2017 Grade 6 Math.pdf",
+        "question_text": "The table below shows the elevations at which different artifacts were found during an archeological dig.\n- arrow head: 15 feet above sea level\n- bone: 721 feet above sea level\n- clay bowl: sea level\n- necklace: 462 feet above sea level\n- woven basket: 1,200 feet below sea level\nWrite the name of each artifact and the elevation at which each artifact was found using a positive integer, zero, or negative integer. Explain how you determined if an elevation required a positive integer, zero, or negative integer.",
+        "options": [],
+        "correct_answer": null,
+        "answer_type": "short_response"
+    }
+]

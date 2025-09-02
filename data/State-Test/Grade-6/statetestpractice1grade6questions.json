@@ -1,0 +1,690 @@
+[
+    {
+        "_id": "11",
+        "question_number": 11,
+        "practice_set": "1",
+        "category": "Math: Expressions and Equations",
+        "difficulty": "easy",
+        "time_estimate": 60,
+        "passage": "pdfData:pdf/2016-released-items-math-g6.pdf",
+        "question_text": "Jason has a coupon for $2.50 off any electronic book from an online book store. If the original price, in dollars, of an electronic book is p and the discounted price, in dollars, is d, which table shows the relationship between p and d?",
+        "options": [
+            "Table A",
+            "Table B",
+            "Table C",
+            "Table D"
+        ],
+        "correct_answer": 0,
+        "answer_type": "multiple_choice"
+    },
+    {
+        "_id": "12",
+        "question_number": 12,
+        "practice_set": "1",
+        "category": "Math: Expressions and Equations",
+        "difficulty": "easy",
+        "time_estimate": 60,
+        "passage": "pdfData:pdf/2016-released-items-math-g6.pdf",
+        "question_text": "Which pair of expressions below are equivalent?",
+        "options": [
+            "7(2x) and 9x",
+            "3x + 5x and 15x",
+            "4(2x - 6) and 8x - 24",
+            "x + x + x + x and x^4"
+        ],
+        "correct_answer": 2,
+        "answer_type": "multiple_choice"
+    },
+    {
+        "_id": "13",
+        "question_number": 13,
+        "practice_set": "1",
+        "category": "Math: Number Systems",
+        "difficulty": "medium",
+        "time_estimate": 75,
+        "passage": "pdfData:pdf/2016-released-items-math-g6.pdf",
+        "question_text": "An art teacher had 2/3 gallon of paint to pour into containers. If he poured 1/8 gallon of paint into each container until he ran out of paint, how many containers had paint in them, including the one that was partially filled?",
+        "options": [
+            "1",
+            "3",
+            "5",
+            "6"
+        ],
+        "correct_answer": 3,
+        "answer_type": "multiple_choice"
+    },
+    {
+        "_id": "14",
+        "question_number": 14,
+        "practice_set": "1",
+        "category": "Math: Geometry",
+        "difficulty": "easy",
+        "time_estimate": 60,
+        "passage": "pdfData:pdf/2016-released-items-math-g6.pdf",
+        "question_text": "The coordinates of point F are (1, 0.5) and the coordinates of point G are (-1, -0.5). Which coordinate plane below correctly shows the locations of points F and G?",
+        "options": [
+            "Plane A",
+            "Plane B",
+            "Plane C",
+            "Plane D"
+        ],
+        "correct_answer": 2,
+        "answer_type": "multiple_choice"
+    },
+    {
+        "_id": "15",
+        "question_number": 15,
+        "practice_set": "1",
+        "category": "Math: Ratios and Proportions",
+        "difficulty": "medium",
+        "time_estimate": 75,
+        "passage": "pdfData:pdf/2016-released-items-math-g6.pdf",
+        "question_text": "Last year, Chesa made 32 one-cup servings of soup for a school party. This year, she will make two times the amount of soup that she made last year. How many gallons of soup will Chesa make this year?",
+        "options": [
+            "64",
+            "16",
+            "4",
+            "2"
+        ],
+        "correct_answer": 2,
+        "answer_type": "multiple_choice"
+    },
+    {
+        "_id": "16",
+        "question_number": 16,
+        "practice_set": "1",
+        "category": "Math: Expressions and Equations",
+        "difficulty": "medium",
+        "time_estimate": 75,
+        "passage": "pdfData:pdf/2016-released-items-math-g6.pdf",
+        "question_text": "A shelf has four books on it. The weight, in pounds, of each of the four books on the shelf is listed below.\n2.5, 3.2, 2.7, 2.3\nWhich inequality represents the weight, w, of any book chosen from the shelf?",
+        "options": [
+            "w > 2.3",
+            "w < 2.4",
+            "w > 3.2",
+            "w < 3.3"
+        ],
+        "correct_answer": 3,
+        "answer_type": "multiple_choice"
+    },
+    {
+        "_id": "17",
+        "question_number": 17,
+        "practice_set": "1",
+        "category": "Math: Geometry",
+        "difficulty": "medium",
+        "time_estimate": 90,
+        "passage": "pdfData:pdf/2016-released-items-math-g6.pdf",
+        "question_text": "The area of the triangle below is 2/5 square foot. The height is 6/5 ft. What is the length, in feet, of the base of the triangle?",
+        "options": [
+            "24/25",
+            "25/24",
+            "2/3",
+            "3/2"
+        ],
+        "correct_answer": 2,
+        "answer_type": "multiple_choice"
+    },
+    {
+        "_id": "18",
+        "question_number": 18,
+        "practice_set": "1",
+        "category": "Math: Number Systems",
+        "difficulty": "easy",
+        "time_estimate": 60,
+        "passage": "pdfData:pdf/2016-released-items-math-g6.pdf",
+        "question_text": "Point M represents the opposite of -1/2 and point N represents the opposite of 5/2. Which number line correctly shows points M and N?",
+        "options": [
+            "Number Line A",
+            "Number Line B",
+            "Number Line C",
+            "Number Line D"
+        ],
+        "correct_answer": 1,
+        "answer_type": "multiple_choice"
+    },
+    {
+        "_id": "19",
+        "question_number": 19,
+        "practice_set": "1",
+        "category": "Math: Expressions and Equations",
+        "difficulty": "easy",
+        "time_estimate": 60,
+        "passage": "pdfData:pdf/2016-released-items-math-g6.pdf",
+        "question_text": "The weight of an object on the moon, m, is about 1/6 of the object's weight on Earth, e. Which equation represents the approximate weight of an object on the moon in terms of the object's weight on Earth?",
+        "options": [
+            "m = 1/6 + e",
+            "m = e / 6",
+            "m = 6 + e",
+            "m = 6e"
+        ],
+        "correct_answer": 1,
+        "answer_type": "multiple_choice"
+    },
+    {
+        "_id": "20",
+        "question_number": 20,
+        "practice_set": "1",
+        "category": "Math: Ratios and Proportions",
+        "difficulty": "easy",
+        "time_estimate": 60,
+        "passage": "pdfData:pdf/2016-released-items-math-g6.pdf",
+        "question_text": "The table below shows different possibilities for the number of games a team would need to win to maintain a certain percentage of wins. Which ratio of the number of games won to the number of games played could also be included in this table?",
+        "options": [
+            "18:20",
+            "30:20",
+            "18:30",
+            "50:30"
+        ],
+        "correct_answer": 2,
+        "answer_type": "multiple_choice"
+    },
+    {
+        "_id": "21",
+        "question_number": 21,
+        "practice_set": "1",
+        "category": "Math: Expressions and Equations",
+        "difficulty": "medium",
+        "time_estimate": 75,
+        "passage": "pdfData:pdf/2016-released-items-math-g6.pdf",
+        "question_text": "The table below lists the coordinates of four points. If x represents any number in the first column, which expression can always be used to find the value of y in the second column?",
+        "options": [
+            "5x",
+            "x + 2",
+            "x + 4",
+            "2x + 3"
+        ],
+        "correct_answer": 3,
+        "answer_type": "multiple_choice"
+    },
+    {
+        "_id": "22",
+        "question_number": 22,
+        "practice_set": "1",
+        "category": "Math: Expressions and Equations",
+        "difficulty": "medium",
+        "time_estimate": 60,
+        "passage": "pdfData:pdf/2016-released-items-math-g6.pdf",
+        "question_text": "Which expression is represented by the phrase \"the square of y decreased by the quotient of 28 and 7\"?",
+        "options": [
+            "(28/7) - y^2",
+            "y^2 - (28/7)",
+            "28 / (7 - y^2)",
+            "28 / (y^2 - 7)"
+        ],
+        "correct_answer": 1,
+        "answer_type": "multiple_choice"
+    },
+    {
+        "_id": "27",
+        "question_number": 27,
+        "practice_set": "1",
+        "category": "Math: Ratios and Proportions",
+        "difficulty": "easy",
+        "time_estimate": 45,
+        "passage": "pdfData:pdf/2016-released-items-math-g6.pdf",
+        "question_text": "A recipe for lemonade calls for 1 cup of sugar and 5 cups of water. How much sugar is used per cup of water?",
+        "options": [
+            "1/6 cup",
+            "1/5 cup",
+            "1/4 cup",
+            "5/1 cup"
+        ],
+        "correct_answer": 1,
+        "answer_type": "multiple_choice"
+    },
+    {
+        "_id": "28",
+        "question_number": 28,
+        "practice_set": "1",
+        "category": "Math: Ratios and Proportions",
+        "difficulty": "easy",
+        "time_estimate": 60,
+        "passage": "pdfData:pdf/2016-released-items-math-g6.pdf",
+        "question_text": "Sam paid $8.28 for 18 stamps. At this rate, how much would it cost Sam to buy 12 stamps?",
+        "options": [
+            "$2.19",
+            "$2.28",
+            "$3.72",
+            "$5.52"
+        ],
+        "correct_answer": 3,
+        "answer_type": "multiple_choice"
+    },
+    {
+        "_id": "29",
+        "question_number": 29,
+        "practice_set": "1",
+        "category": "Math: Expressions and Equations",
+        "difficulty": "easy",
+        "time_estimate": 60,
+        "passage": "pdfData:pdf/2016-released-items-math-g6.pdf",
+        "question_text": "John's friend told him that he could earn $49 for handing out flyers at a local concert. John wants to calculate the hourly rate. If he works a total of 3.5 hours, the equation 3.5x = 49 can be used to determine his hourly rate. What would John's hourly rate be, in dollars?",
+        "options": [
+            "$1.40",
+            "$14.00",
+            "$45.50",
+            "$171.50"
+        ],
+        "correct_answer": 1,
+        "answer_type": "multiple_choice"
+    },
+    {
+        "_id": "30",
+        "question_number": 30,
+        "practice_set": "1",
+        "category": "Math: Geometry",
+        "difficulty": "medium",
+        "time_estimate": 75,
+        "passage": "pdfData:pdf/2016-released-items-math-g6.pdf",
+        "question_text": "Theo made sails for a model boat. He cut along the diagonal of a rectangular piece of cloth to make two sails, as shown below. The rectangle has a height of 4 ft and a width of 1 1/6 ft. What was the area, in square feet, of one sail?",
+        "options": [
+            "9 1/3",
+            "4 2/3",
+            "2 7/12",
+            "2 1/3"
+        ],
+        "correct_answer": 3,
+        "answer_type": "multiple_choice"
+    },
+    {
+        "_id": "34",
+        "question_number": 34,
+        "practice_set": "1",
+        "category": "Math: Ratios and Proportions",
+        "difficulty": "medium",
+        "time_estimate": 90,
+        "passage": "pdfData:pdf/2016-released-items-math-g6.pdf",
+        "question_text": "The area of an airplane's wings is related to the airplane's lifting force, which holds the airplane in the air. The table below lists several wing areas and the corresponding lifting forces. The ratio of lifting force to area is equivalent for all pairs in the table. What are the values of x and y?",
+        "options": [
+            "x = 375 square feet and y = 7,500 pounds",
+            "x = 375 square feet and y = 7,500 pounds",
+            "x = 375 square feet and y = 6,300 pounds",
+            "x = 375 square feet and y = 6,300 pounds"
+        ],
+        "correct_answer": 2,
+        "answer_type": "multiple_choice"
+    },
+    {
+        "_id": "36",
+        "question_number": 36,
+        "practice_set": "1",
+        "category": "Math: Ratios and Proportions",
+        "difficulty": "easy",
+        "time_estimate": 45,
+        "passage": "pdfData:pdf/2016-released-items-math-g6.pdf",
+        "question_text": "Simon used 3 pears and 9 apples to make a fruit salad. What was the ratio of the number of pears to the number of apples in the fruit salad?",
+        "options": [
+            "1:3",
+            "1:4",
+            "1:6",
+            "1:9"
+        ],
+        "correct_answer": 0,
+        "answer_type": "multiple_choice"
+    },
+    {
+        "_id": "37",
+        "question_number": 37,
+        "practice_set": "1",
+        "category": "Math: Number Systems",
+        "difficulty": "medium",
+        "time_estimate": 75,
+        "passage": "pdfData:pdf/2016-released-items-math-g6.pdf",
+        "question_text": "The summit of a volcano is 10 kilometers (km) above the ocean floor, as shown below. If the ocean floor has an elevation of -5 kilometers, which statement describes the elevation of sea level and the summit?",
+        "options": [
+            "The elevation of sea level is 0 km and the elevation of the summit is 5 km.",
+            "The elevation of sea level is 5 km and the elevation of the summit is 5 km.",
+            "The elevation of sea level is 0 km and the elevation of the summit is 10 km.",
+            "The elevation of sea level is 5 km and the elevation of the summit is 10 km."
+        ],
+        "correct_answer": 0,
+        "answer_type": "multiple_choice"
+    },
+    {
+        "_id": "38",
+        "question_number": 38,
+        "practice_set": "1",
+        "category": "Math: Expressions and Equations",
+        "difficulty": "medium",
+        "time_estimate": 75,
+        "passage": "pdfData:pdf/2016-released-items-math-g6.pdf",
+        "question_text": "The Frenchtown Roller Rink charges a $5 entrance fee and an hourly rate for roller skating. The total cost for roller skating depends on the number of hours a person skates. The table below represents the total cost of skating for different numbers of hours. Which equation represents the relationship between the cost, c, and the number of hours, h?",
+        "options": [
+            "c = 8h",
+            "c = 5h + 3",
+            "c = 2h + 7",
+            "c = 3h + 5"
+        ],
+        "correct_answer": 3,
+        "answer_type": "multiple_choice"
+    },
+    {
+        "_id": "39",
+        "question_number": 39,
+        "practice_set": "1",
+        "category": "Math: Ratios and Proportions",
+        "difficulty": "easy",
+        "time_estimate": 60,
+        "passage": "pdfData:pdf/2016-released-items-math-g6.pdf",
+        "question_text": "Fei Yen's dog eats 8 ounces of dog food each day. Fei Yen bought a 28-pound bag of dog food. How many 8-ounce servings are in a 28-pound bag of dog food?",
+        "options": [
+            "14",
+            "56",
+            "224",
+            "448"
+        ],
+        "correct_answer": 1,
+        "answer_type": "multiple_choice"
+    },
+    {
+        "_id": "40",
+        "question_number": 40,
+        "practice_set": "1",
+        "category": "Math: Number Systems",
+        "difficulty": "easy",
+        "time_estimate": 45,
+        "passage": "pdfData:pdf/2016-released-items-math-g6.pdf",
+        "question_text": "Point A and point B are placed on a number line. Point A is located at -20 and point B is 5 less than point A. Which statement about point B is true?",
+        "options": [
+            "It is located at -25 and is to the right of point A on the number line.",
+            "It is located at -15 and is to the right of point A on the number line.",
+            "It is located at -25 and is to the left of point A on the number line.",
+            "It is located at -15 and is to the left of point A on the number line."
+        ],
+        "correct_answer": 3,
+        "answer_type": "multiple_choice"
+    },
+    {
+        "_id": "41",
+        "question_number": 41,
+        "practice_set": "1",
+        "category": "Math: Expressions and Equations",
+        "difficulty": "easy",
+        "time_estimate": 45,
+        "passage": "pdfData:pdf/2016-released-items-math-g6.pdf",
+        "question_text": "Chakan worked at the warehouse after school. He earned $9.25 per hour stacking boxes. Which equation correctly relates Chakan's total earnings, d, to the number of hours he worked, h?",
+        "options": [
+            "d = 9.25h",
+            "h = 9.25d",
+            "d = 9.25 / h",
+            "h = 9.25 / d"
+        ],
+        "correct_answer": 0,
+        "answer_type": "multiple_choice"
+    },
+    {
+        "_id": "42",
+        "question_number": 42,
+        "practice_set": "1",
+        "category": "Math: Geometry",
+        "difficulty": "easy",
+        "time_estimate": 75,
+        "passage": "pdfData:pdf/2016-released-items-math-g6.pdf",
+        "question_text": "Bronson is using a coordinate plane to design a rectangular swimming pool. He will plot points on the coordinate plane to mark the vertices of the rectangular pool bottom. If Bronson plots the first three points at (5, 3), (5, 13), and (30, 13), what would be the coordinates of the fourth point?",
+        "options": [
+            "(30, 5)",
+            "(20, 13)",
+            "(5, 28)",
+            "(30, 3)"
+        ],
+        "correct_answer": 3,
+        "answer_type": "multiple_choice"
+    },
+    {
+        "_id": "43",
+        "question_number": 43,
+        "practice_set": "1",
+        "category": "Math: Ratios and Proportions",
+        "difficulty": "easy",
+        "time_estimate": 60,
+        "passage": "pdfData:pdf/2016-released-items-math-g6.pdf",
+        "question_text": "Residents of a small city voted on whether to allow a developer to build a shopping center. The number of votes in favor of the shopping center was 4,400. The number of votes against the shopping center was 17,600. What percent of the voters were in favor of building the shopping center?",
+        "options": [
+            "20%",
+            "25%",
+            "40%",
+            "44%"
+        ],
+        "correct_answer": 0,
+        "answer_type": "multiple_choice"
+    },
+    {
+        "_id": "44",
+        "question_number": 44,
+        "practice_set": "1",
+        "category": "Math: Number Systems",
+        "difficulty": "medium",
+        "time_estimate": 90,
+        "passage": "pdfData:pdf/2016-released-items-math-g6.pdf",
+        "question_text": "Maddy had a piece of ribbon that was 3 1/2 yards long. She used this ribbon to make bows. Each bow was made from a piece of the ribbon that was 3/4 yard long. This situation can be represented by the equation 3 1/2 ÷ 3/4 = 4 2/3. Which statement best describes what the quotient 4 2/3 represents in the situation above?",
+        "options": [
+            "Maddy had bows that were each 4 2/3 yards long.",
+            "Maddy had 4 2/3 yards of ribbon left after making the bows.",
+            "Maddy made 4 bows from the piece of ribbon and had enough left for 2/3 of a bow.",
+            "Maddy made 4 bows from the piece of ribbon and had 2/3 of a yard left."
+        ],
+        "correct_answer": 2,
+        "answer_type": "multiple_choice"
+    },
+    {
+        "_id": "45",
+        "question_number": 45,
+        "practice_set": "1",
+        "category": "Math: Geometry",
+        "difficulty": "medium",
+        "time_estimate": 75,
+        "passage": "pdfData:pdf/2016-released-items-math-g6.pdf",
+        "question_text": "The figure below shows the net of a triangular pyramid. The given height is rounded to the nearest hundredth. If all the triangles are equilateral with a base of 5 cm and a height of 4.33 cm, what is the surface area of the pyramid in square centimeters?",
+        "options": [
+            "86.6",
+            "43.3",
+            "32.48",
+            "10.83"
+        ],
+        "correct_answer": 1,
+        "answer_type": "multiple_choice"
+    },
+    {
+        "_id": "46",
+        "question_number": 46,
+        "practice_set": "1",
+        "category": "Math: Expressions and Equations",
+        "difficulty": "easy",
+        "time_estimate": 60,
+        "passage": "pdfData:pdf/2016-released-items-math-g6.pdf",
+        "question_text": "Zelma buys p pounds of bananas for 40 cents per pound. She pays the clerk with a twenty-dollar bill. The clerk subtracts the total cost of the bananas from the twenty-dollar bill to determine the amount of change to give Zelma. Which expression represents the amount of change Zelma should receive?",
+        "options": [
+            "p - 20",
+            "20 - 40p",
+            "20 - 0.40p",
+            "0.40p - 20"
+        ],
+        "correct_answer": 2,
+        "answer_type": "multiple_choice"
+    },
+    {
+        "_id": "47",
+        "question_number": 47,
+        "practice_set": "1",
+        "category": "Math: Ratios and Proportions",
+        "difficulty": "medium",
+        "time_estimate": 75,
+        "passage": "pdfData:pdf/2016-released-items-math-g6.pdf",
+        "question_text": "The table below lists four masses and their corresponding approximate weights on Earth. The ratio of weight to mass is constant. Which statement describes the ratio of weight to mass and the value of x in the table?",
+        "options": [
+            "The ratio is 98/10; x = 90",
+            "The ratio is 98/10; x = 110",
+            "The ratio is 10/98; x = 90",
+            "The ratio is 10/98; x = 110"
+        ],
+        "correct_answer": 1,
+        "answer_type": "multiple_choice"
+    },
+    {
+        "_id": "48",
+        "question_number": 48,
+        "practice_set": "1",
+        "category": "Math: Expressions and Equations",
+        "difficulty": "easy",
+        "time_estimate": 45,
+        "passage": "pdfData:pdf/2016-released-items-math-g6.pdf",
+        "question_text": "What value of y makes the equation below true?\ny + 2.9 = 11",
+        "options": [
+            "8.1",
+            "8.9",
+            "9.1",
+            "13.9"
+        ],
+        "correct_answer": 0,
+        "answer_type": "multiple_choice"
+    },
+    {
+        "_id": "49",
+        "question_number": 49,
+        "practice_set": "1",
+        "category": "Math: Ratios and Proportions",
+        "difficulty": "medium",
+        "time_estimate": 90,
+        "passage": "pdfData:pdf/2016-released-items-math-g6.pdf",
+        "question_text": "A scientist studied the migration patterns of two types of whales. The humpback whales traveled 2,240 miles in 28 days. The gray whales traveled 2,368 miles in 32 days. If the humpback whales had traveled at the same rate for 32 days, how many more miles would they have traveled than the gray whales?",
+        "options": [
+            "128",
+            "192",
+            "280",
+            "408"
+        ],
+        "correct_answer": 1,
+        "answer_type": "multiple_choice"
+    },
+    {
+        "_id": "52",
+        "question_number": 52,
+        "practice_set": "1",
+        "category": "Math: Geometry",
+        "difficulty": "medium",
+        "time_estimate": 150,
+        "passage": "pdfData:pdf/2016-released-items-math-g6.pdf",
+        "question_text": "The coordinate grid below represents a town. Curtis's house is at (-4, -6) and Jean's house is at (-4, 3). Each unit on the grid represents 1 mile. If Curtis can ride his bike at a constant rate of 12 miles per hour, how many minutes would it take Curtis to ride from his house to Jean's house?",
+        "options": [],
+        "correct_answer": null,
+        "answer_type": "short_response"
+    },
+    {
+        "_id": "53",
+        "question_number": 53,
+        "practice_set": "1",
+        "category": "Math: Number Systems",
+        "difficulty": "medium",
+        "time_estimate": 120,
+        "passage": "pdfData:pdf/2016-released-items-math-g6.pdf",
+        "question_text": "On Saturday, a minor league baseball team gave away baseball cards to each person entering the stadium. One group received 28 baseball cards. A second group received 68 baseball cards. If each person entering the stadium received the same number of cards, what was the greatest possible number of baseball cards that each person could have received?",
+        "options": [],
+        "correct_answer": null,
+        "answer_type": "short_response"
+    },
+    {
+        "_id": "54",
+        "question_number": 54,
+        "practice_set": "1",
+        "category": "Math: Expressions and Equations",
+        "difficulty": "hard",
+        "time_estimate": 180,
+        "passage": "pdfData:pdf/2016-released-items-math-g6.pdf",
+        "question_text": "Expressions A, B, and C are shown below.\nA: 20^2 - 18^2\nB: 8(4^2) + 2^4\nC: 15^2 - 3^4\nWhich expression or expressions have the same value as 12^2?",
+        "options": [],
+        "correct_answer": null,
+        "answer_type": "short_response"
+    },
+    {
+        "_id": "55",
+        "question_number": 55,
+        "practice_set": "1",
+        "category": "Math: Geometry",
+        "difficulty": "easy",
+        "time_estimate": 90,
+        "passage": "pdfData:pdf/2016-released-items-math-g6.pdf",
+        "question_text": "What is the area, in square centimeters, of the trapezoid below with bases 8.6 cm and 12.9 cm, and a height of 6.4 cm?",
+        "options": [],
+        "correct_answer": null,
+        "answer_type": "short_response"
+    },
+    {
+        "_id": "56",
+        "question_number": 56,
+        "practice_set": "1",
+        "category": "Math: Geometry",
+        "difficulty": "hard",
+        "time_estimate": 180,
+        "passage": "pdfData:pdf/2016-released-items-math-g6.pdf",
+        "question_text": "A park planner is designing a dog park. He wants to use a metal fence to enclose a kennel at the dog park. The vertices of the fence are shown below. The units on the coordinate plane are yards.\nPoint A(4, -4), Point B(-4, -4), Point C(-4, 3), Point D(1, 3), Point E(1, -1), Point F(4, -1)\nThe park planner wants to add a gate between points A and F. He will not put metal fencing on that side. What is the total number of yards of metal fencing that will be needed for the kennel at the dog park?",
+        "options": [],
+        "correct_answer": null,
+        "answer_type": "short_response"
+    },
+    {
+        "_id": "57",
+        "question_number": 57,
+        "practice_set": "1",
+        "category": "Math: Geometry",
+        "difficulty": "medium",
+        "time_estimate": 150,
+        "passage": "pdfData:pdf/2016-released-items-math-g6.pdf",
+        "question_text": "A farmer stacked hay bales. The length and width of each hay bale are shown below (1 1/3 ft and 4 ft). The volume of each hay bale is 10 2/3 cubic feet. The farmer stacked eight hay bales on top of one another. What is the height, in feet, of the stacked hay bales?",
+        "options": [],
+        "correct_answer": null,
+        "answer_type": "short_response"
+    },
+    {
+        "_id": "58",
+        "question_number": 58,
+        "practice_set": "1",
+        "category": "Math: Expressions and Equations",
+        "difficulty": "medium",
+        "time_estimate": 150,
+        "passage": "pdfData:pdf/2016-released-items-math-g6.pdf",
+        "question_text": "A square with one side length represented by an expression is shown below.\n6(3x + 8) + 3^2 + 12x\nUse the properties of operations to write three different equivalent expressions to represent the lengths of the other three sides of the square. One of your expressions should contain only two terms.",
+        "options": [],
+        "correct_answer": null,
+        "answer_type": "short_response"
+    },
+    {
+        "_id": "59",
+        "question_number": 59,
+        "practice_set": "1",
+        "category": "Math: Expressions and Equations",
+        "difficulty": "medium",
+        "time_estimate": 150,
+        "passage": "pdfData:pdf/2016-released-items-math-g6.pdf",
+        "question_text": "A carpenter built three bookcases, A, B, and C, to stand next to each other along a wall. The total length of the wall is 456 centimeters. The carpenter will build two more bookcases, D and E, along the same wall. These two bookcases will have equal widths. The widths of bookcases A, B, and C are 132 cm, 94 cm, and 108 cm respectively. Write and solve an equation to determine w, the greatest possible width for bookcases D and E.",
+        "options": [],
+        "correct_answer": null,
+        "answer_type": "short_response"
+    },
+    {
+        "_id": "60",
+        "question_number": 60,
+        "practice_set": "1",
+        "category": "Math: Ratios and Proportions",
+        "difficulty": "hard",
+        "time_estimate": 180,
+        "passage": "pdfData:pdf/2016-released-items-math-g6.pdf",
+        "question_text": "Darnell's car used 8 gallons of gasoline to travel 340 miles. After a mechanic worked on the car, it used 7 gallons of gasoline to travel 350 miles. If the price of gasoline was approximately $4.00 per gallon, how much less, to the nearest cent per mile, did it cost to run the car after the mechanic worked on it?",
+        "options": [],
+        "correct_answer": null,
+        "answer_type": "short_response"
+    },
+    {
+        "_id": "61",
+        "question_number": 61,
+        "practice_set": "1",
+        "category": "Math: Ratios and Proportions",
+        "difficulty": "medium",
+        "time_estimate": 150,
+        "passage": "pdfData:pdf/2016-released-items-math-g6.pdf",
+        "question_text": "The circus had one performance at the Dewey Civic Center and one at the Atlantic Auditorium. The Dewey Civic Center has 1,600 seats. Tickets for 85% of the total number of seats were sold. How many tickets were sold? Atlantic Auditorium has 850 seats. Tickets were sold for 816 of the seats. For what percent of the seats were tickets sold?",
+        "options": [],
+        "correct_answer": null,
+        "answer_type": "short_response"
+    }
+]

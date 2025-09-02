@@ -77,7 +77,7 @@ class QuestionsService {
     static async getQuestions(testType, practiceSet = '1', sectionType = null) {
         try {
             let url = `${API_BASE_URL}/questions/test?testType=${testType}&practiceSet=${practiceSet}`;
-            if (sectionType && testType === 'shsat') {
+            if (sectionType) {
                 url += `&sectionType=${sectionType}`;
             }
             const response = await fetch(url);
@@ -331,11 +331,18 @@ function setupEventListeners() {
         }
     });
 
-    // Test selection buttons
+    // Test selection buttons (exclude State Test and SHSAT - they have their own handlers)
     document.querySelectorAll('.start-test-btn').forEach(button => {
+        const testCard = button.closest('.test-card');
+        const testType = testCard?.dataset.test;
+        
+        // Skip State Test and SHSAT buttons - they have their own event handlers that pass sectionType
+        if (testType === 'statetest' || testType === 'shsat') {
+            console.log('🚫 Skipping generic handler for:', testType, 'button');
+            return;
+        }
+        
         button.addEventListener('click', function(e) {
-            const testCard = e.target.closest('.test-card');
-            const testType = testCard.dataset.test;
             const practiceSet = e.target.dataset.practiceSet || '1';
             
             if (!button.disabled) {
@@ -429,6 +436,13 @@ async function startTest(testType, practiceSet = '1', sectionType = null) {
         console.log(`🎯 Fetching questions for ${testType} practice set ${practiceSet}${sectionType ? ` (${sectionType})` : ''}`);
         const response = await QuestionsService.getQuestions(testType, practiceSet, sectionType);
         
+        console.log('📡 API Response:', {
+            success: response.success,
+            questionsCount: response.data?.questions?.length,
+            firstQuestionText: response.data?.questions?.[0]?.question_text?.substring(0, 50) + '...',
+            firstQuestionCategory: response.data?.questions?.[0]?.category
+        });
+        
         if (!response.success || !response.data.questions.length) {
             throw new Error('No questions available');
         }
@@ -464,7 +478,14 @@ async function startTest(testType, practiceSet = '1', sectionType = null) {
             : testType === 'sat'
             ? `SAT Practice Test ${practiceSet}`
             : testType === 'statetest'
-            ? `State Test - Grade 7 Practice ${practiceSet}`
+            ? (() => {
+                // Extract grade from sectionType (e.g., "g6math" -> "6", "g7ela" -> "7")
+                if (currentSectionType && currentSectionType.startsWith('g')) {
+                    const grade = currentSectionType.charAt(1);
+                    return `State Test - Grade ${grade} Practice ${practiceSet}`;
+                }
+                return `State Test - Grade 7 Practice ${practiceSet}`; // fallback
+            })()
             : `${testType.toUpperCase()} Practice Test ${practiceSet}`;
         document.getElementById('current-test-title').textContent = testTitle;
         document.getElementById('current-section').textContent = 'Practice Test';
@@ -477,6 +498,7 @@ async function startTest(testType, practiceSet = '1', sectionType = null) {
         loadQuestion(0);
         
         // Start timer
+        
         startTimer();
         
         // Hide loading and show test
@@ -2735,7 +2757,18 @@ class StateTestFilter {
     attachButtonEventListener(button) {
         button.addEventListener('click', function() {
             const practiceSet = this.getAttribute('data-practice-set');
-            if (practiceSet) {
+            const grade = this.getAttribute('data-grade');
+            const subject = this.getAttribute('data-subject');
+            
+            console.log('🔍 State Test button clicked:', { practiceSet, grade, subject });
+            
+            if (practiceSet && grade && subject) {
+                // Pass grade and subject as a combined section type for state tests
+                const sectionType = `g${grade}${subject}`;
+                console.log('🎯 Calling API with sectionType:', sectionType);
+                showTestCodeModal('statetest', practiceSet, sectionType);
+            } else {
+                console.warn('Missing data attributes:', { practiceSet, grade, subject });
                 showTestCodeModal('statetest', practiceSet);
             }
         });

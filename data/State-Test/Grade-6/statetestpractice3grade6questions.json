@@ -1,0 +1,398 @@
+[
+    {
+        "_id": "1",
+        "question_number": 1,
+        "practice_set": 33,
+        "category": "Math: Expressions and Equations",
+        "difficulty": "easy",
+        "time_estimate": 45,
+        "passage": "pdfData:pdf/2018 Grade 6 Mathematics.pdf",
+        "question_text": "An equation is shown below.\n12 - 9 + c = 12\nWhat value of c makes the equation true?",
+        "options": [
+            "0",
+            "3",
+            "9",
+            "12"
+        ],
+        "correct_answer": 2,
+        "answer_type": "multiple_choice"
+    },
+    {
+        "_id": "2",
+        "question_number": 2,
+        "practice_set": 33,
+        "category": "Math: Ratios and Proportions",
+        "difficulty": "easy",
+        "time_estimate": 60,
+        "passage": "pdfData:pdf/2018 Grade 6 Mathematics.pdf",
+        "question_text": "Kate has a coin collection. She keeps 7 of the coins in a box, which is only 5% of her entire collection. What is the total number of coins in Kate's coin collection?",
+        "options": [
+            "12",
+            "14",
+            "120",
+            "140"
+        ],
+        "correct_answer": 3,
+        "answer_type": "multiple_choice"
+    },
+    {
+        "_id": "3",
+        "question_number": 3,
+        "practice_set": 33,
+        "category": "Math: Number Systems",
+        "difficulty": "easy",
+        "time_estimate": 45,
+        "passage": "pdfData:pdf/2018 Grade 6 Mathematics.pdf",
+        "question_text": "What is the greatest common factor of 36 and 90?",
+        "options": [
+            "6",
+            "18",
+            "36",
+            "180"
+        ],
+        "correct_answer": 1,
+        "answer_type": "multiple_choice"
+    },
+    {
+        "_id": "4",
+        "question_number": 4,
+        "practice_set": 33,
+        "category": "Math: Expressions and Equations",
+        "difficulty": "easy",
+        "time_estimate": 60,
+        "passage": "pdfData:pdf/2018 Grade 6 Mathematics.pdf",
+        "question_text": "The relationship between Robert's age, r, and Julia's age, j, can be represented by the equation shown below.\nr = j + 3\nWhich table of values represents the relationship between Robert's age and Julia's age?",
+        "options": [
+            "Table A",
+            "Table B",
+            "Table C",
+            "Table D"
+        ],
+        "correct_answer": 2,
+        "answer_type": "multiple_choice"
+    },
+    {
+        "_id": "15",
+        "question_number": 15,
+        "practice_set": 33,
+        "category": "Math: Ratios and Proportions",
+        "difficulty": "medium",
+        "time_estimate": 75,
+        "passage": "pdfData:pdf/2018 Grade 6 Mathematics.pdf",
+        "question_text": "All the students in the sixth grade either purchased their lunch or brought their lunch from home on Monday.\n- 24% of the students purchased their lunch.\n- 190 students brought their lunch from home.\nHow many students are in the sixth grade?",
+        "options": [
+            "76",
+            "166",
+            "214",
+            "250"
+        ],
+        "correct_answer": 3,
+        "answer_type": "multiple_choice"
+    },
+    {
+        "_id": "16",
+        "question_number": 16,
+        "practice_set": 33,
+        "category": "Math: Ratios and Proportions",
+        "difficulty": "easy",
+        "time_estimate": 60,
+        "passage": "pdfData:pdf/2018 Grade 6 Mathematics.pdf",
+        "question_text": "Joe walks on a treadmill at a constant rate. The equation below describes the relationship between t, the time he walks in hours, and d, the distance he walks in miles.\nd = 4t\nWhich graph represents the relationship between the amount of time Joe walks and the distance he walks?",
+        "options": [
+            "Graph A",
+            "Graph B",
+            "Graph C",
+            "Graph D"
+        ],
+        "correct_answer": 0,
+        "answer_type": "multiple_choice"
+    },
+    {
+        "_id": "19",
+        "question_number": 19,
+        "practice_set": 33,
+        "category": "Math: Ratios and Proportions",
+        "difficulty": "easy",
+        "time_estimate": 60,
+        "passage": "pdfData:pdf/2018 Grade 6 Mathematics.pdf",
+        "question_text": "There are 230 calories in 4 ounces of a type of ice cream. How many calories are in 6 ounces of that ice cream?",
+        "options": [
+            "232",
+            "236",
+            "345",
+            "460"
+        ],
+        "correct_answer": 2,
+        "answer_type": "multiple_choice"
+    },
+    {
+        "_id": "22",
+        "question_number": 22,
+        "practice_set": 33,
+        "category": "Math: Geometry",
+        "difficulty": "medium",
+        "time_estimate": 75,
+        "passage": "pdfData:pdf/2018 Grade 6 Mathematics.pdf",
+        "question_text": "A shape is made of 12 right triangles of equal size. Each right triangle has a base of 4 cm and a height of 5 cm. What is the total area, in square centimeters, of the shape?",
+        "options": [
+            "10",
+            "60",
+            "120",
+            "240"
+        ],
+        "correct_answer": 2,
+        "answer_type": "multiple_choice"
+    },
+    {
+        "_id": "25",
+        "question_number": 25,
+        "practice_set": 33,
+        "category": "Math: Ratios and Proportions",
+        "difficulty": "easy",
+        "time_estimate": 60,
+        "passage": "pdfData:pdf/2018 Grade 6 Mathematics.pdf",
+        "question_text": "Pat bounces a basketball 25 times in 30 seconds. At that rate, approximately how many times will Pat bounce the ball in 150 seconds?",
+        "options": [
+            "120",
+            "125",
+            "144",
+            "145"
+        ],
+        "correct_answer": 1,
+        "answer_type": "multiple_choice"
+    },
+    {
+        "_id": "26",
+        "question_number": 26,
+        "practice_set": 33,
+        "category": "Math: Expressions and Equations",
+        "difficulty": "easy",
+        "time_estimate": 45,
+        "passage": "pdfData:pdf/2018 Grade 6 Mathematics.pdf",
+        "question_text": "Which expression is equivalent to 5(4x + 3) - 2x?",
+        "options": [
+            "18x + 15",
+            "18x + 3",
+            "7x + 8",
+            "2x + 8"
+        ],
+        "correct_answer": 0,
+        "answer_type": "multiple_choice"
+    },
+    {
+        "_id": "27",
+        "question_number": 27,
+        "practice_set": 33,
+        "category": "Math: Geometry",
+        "difficulty": "easy",
+        "time_estimate": 75,
+        "passage": "pdfData:pdf/2018 Grade 6 Mathematics.pdf",
+        "question_text": "Mark graphed points on the coordinate plane below to represent the locations of his school and a bank. Mark wants to add the location of the library on the coordinate plane. The distance from the library to the school is the same as the distance from the bank to the school. Which ordered pair could be the coordinates of the library?",
+        "options": [
+            "(2, 4)",
+            "(2, 8)",
+            "(4, 4)",
+            "(6, 8)"
+        ],
+        "correct_answer": 0,
+        "answer_type": "multiple_choice"
+    },
+    {
+        "_id": "28",
+        "question_number": 28,
+        "practice_set": 33,
+        "category": "Math: Geometry",
+        "difficulty": "medium",
+        "time_estimate": 75,
+        "passage": "pdfData:pdf/2018 Grade 6 Mathematics.pdf",
+        "question_text": "A student draws the net below to show the dimensions of a container that is shaped like a right rectangular prism. What is the surface area, in square inches, of the container?",
+        "options": [
+            "19",
+            "30",
+            "38",
+            "62"
+        ],
+        "correct_answer": 3,
+        "answer_type": "multiple_choice"
+    },
+    {
+        "_id": "29",
+        "question_number": 29,
+        "practice_set": 33,
+        "category": "Math: Expressions and Equations",
+        "difficulty": "easy",
+        "time_estimate": 60,
+        "passage": "pdfData:pdf/2018 Grade 6 Mathematics.pdf",
+        "question_text": "Which two expressions are equivalent?",
+        "options": [
+            "x + x + x and x^3",
+            "14x + 10 - 2x and 16x + 10",
+            "12x + 16x and 4(3x + 4x)",
+            "12x^2 + 5x + 10 and 17x^2 + 10"
+        ],
+        "correct_answer": 2,
+        "answer_type": "multiple_choice"
+    },
+    {
+        "_id": "30",
+        "question_number": 30,
+        "practice_set": 33,
+        "category": "Math: Ratios and Proportions",
+        "difficulty": "easy",
+        "time_estimate": 60,
+        "passage": "pdfData:pdf/2018 Grade 6 Mathematics.pdf",
+        "question_text": "A machine fills boxes at a constant rate. At the end of 35 minutes, it has filled 5 boxes. Which table represents the relationship between the number of minutes the machine fills boxes and the number of boxes it has filled?",
+        "options": [
+            "Table A",
+            "Table B",
+            "Table C",
+            "Table D"
+        ],
+        "correct_answer": 0,
+        "answer_type": "multiple_choice"
+    },
+    {
+        "_id": "31",
+        "question_number": 31,
+        "practice_set": 33,
+        "category": "Math: Geometry",
+        "difficulty": "medium",
+        "time_estimate": 75,
+        "passage": "pdfData:pdf/2018 Grade 6 Mathematics.pdf",
+        "question_text": "Which expression represents the perimeter of the figure below?",
+        "options": [
+            "5x + 2y + z",
+            "x + y + z",
+            "5x + 2y + z",
+            "(5+2+1)(x+y+z)"
+        ],
+        "correct_answer": 0,
+        "answer_type": "multiple_choice"
+    },
+    {
+        "_id": "32",
+        "question_number": 32,
+        "practice_set": 33,
+        "category": "Math: Number Systems",
+        "difficulty": "easy",
+        "time_estimate": 60,
+        "passage": "pdfData:pdf/2018 Grade 6 Mathematics.pdf",
+        "question_text": "The elevations, in feet, of three cities are marked on the number line shown below. The point 0 on the number line represents sea level. Which statement must be true?",
+        "options": [
+            "City P and City Q are above sea level.",
+            "City Q and City R are below sea level.",
+            "City P is above sea level and City Q is below sea level.",
+            "City P is above sea level and City R is below sea level."
+        ],
+        "correct_answer": 3,
+        "answer_type": "multiple_choice"
+    },
+    {
+        "_id": "33",
+        "question_number": 33,
+        "practice_set": 33,
+        "category": "Math: Ratios and Proportions",
+        "difficulty": "easy",
+        "time_estimate": 45,
+        "passage": "pdfData:pdf/2018 Grade 6 Mathematics.pdf",
+        "question_text": "A basketball player attempts 15 baskets in a game. He makes 9 of the attempted baskets. Which ratio describes the number of baskets the player made to the number of baskets the player attempted?",
+        "options": [
+            "3/5",
+            "5/3",
+            "2/5",
+            "5/2"
+        ],
+        "correct_answer": 1,
+        "answer_type": "multiple_choice"
+    },
+    {
+        "_id": "34",
+        "question_number": 34,
+        "practice_set": 33,
+        "category": "Math: Expressions and Equations",
+        "difficulty": "easy",
+        "time_estimate": 60,
+        "passage": "pdfData:pdf/2018 Grade 6 Mathematics.pdf",
+        "question_text": "Which number line shows a graph of the inequality x > -25?",
+        "options": [
+            "Graph A",
+            "Graph B",
+            "Graph C",
+            "Graph D"
+        ],
+        "correct_answer": 0,
+        "answer_type": "multiple_choice"
+    },
+    {
+        "_id": "35",
+        "question_number": 35,
+        "practice_set": 33,
+        "category": "Math: Geometry",
+        "difficulty": "easy",
+        "time_estimate": 60,
+        "passage": "pdfData:pdf/2018 Grade 6 Mathematics.pdf",
+        "question_text": "The coordinates of the points below represent the vertices of a rectangle.\nP: (2,2)\nQ: (6,2)\nR: (6,5)\nS: (2,5)\nWhat is the perimeter, in units, of rectangle PQRS?",
+        "options": [
+            "8",
+            "12",
+            "14",
+            "16"
+        ],
+        "correct_answer": 2,
+        "answer_type": "multiple_choice"
+    },
+    {
+        "_id": "36",
+        "question_number": 36,
+        "practice_set": 33,
+        "category": "Math: Number Systems",
+        "difficulty": "medium",
+        "time_estimate": 75,
+        "passage": "pdfData:pdf/2018 Grade 6 Mathematics.pdf",
+        "question_text": "Carol has 1 5/8 cups of yogurt to make smoothies. Each smoothie uses 1/3 cup of yogurt. What is the maximum number of smoothies that Carol can make with the yogurt?",
+        "options": [
+            "1",
+            "4",
+            "5",
+            "7"
+        ],
+        "correct_answer": 1,
+        "answer_type": "multiple_choice"
+    },
+    {
+        "_id": "37",
+        "question_number": 37,
+        "practice_set": 33,
+        "category": "Math: Expressions and Equations",
+        "difficulty": "medium",
+        "time_estimate": 60,
+        "passage": "pdfData:pdf/2018 Grade 6 Mathematics.pdf",
+        "question_text": "Which expression is equivalent to 60 - 3y - 9?",
+        "options": [
+            "3(17 - y)",
+            "3(20 - y) - 3",
+            "17(3 - y)",
+            "20(3 - 3y) - 9"
+        ],
+        "correct_answer": 0,
+        "answer_type": "multiple_choice"
+    },
+    {
+        "_id": "38",
+        "question_number": 38,
+        "practice_set": 33,
+        "category": "Math: Ratios and Proportions",
+        "difficulty": "easy",
+        "time_estimate": 45,
+        "passage": "pdfData:pdf/2018 Grade 6 Mathematics.pdf",
+        "question_text": "A grocery store sells a bag of 5 lemons for $2.00. What is the unit cost of each lemon in the bag?",
+        "options": [
+            "$2.50",
+            "$0.60",
+            "$0.40",
+            "$0.10"
+        ],
+        "correct_answer": 2,
+        "answer_type": "multiple_choice"
+    }
+]
