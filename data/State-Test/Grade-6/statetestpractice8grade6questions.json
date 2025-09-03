@@ -1,0 +1,474 @@
+[
+    {
+        "_id": "2",
+        "question_number": 2,
+        "practice_set": 39,
+        "category": "Math: Expressions and Equations",
+        "difficulty": "easy",
+        "time_estimate": 45,
+        "passage": "pdfData:pdf/2024 Grade 6 Mathematics.pdf",
+        "question_text": "Which expression represents 5 more than the product of 2 and y?",
+        "options": [
+            "2 + y + 5",
+            "2y + 5",
+            "5 + 2/y",
+            "5 + y/2"
+        ],
+        "correct_answer": 1,
+        "answer_type": "multiple_choice"
+    },
+    {
+        "_id": "3",
+        "question_number": 3,
+        "practice_set": 39,
+        "category": "Math: Expressions and Equations",
+        "difficulty": "easy",
+        "time_estimate": 45,
+        "passage": "pdfData:pdf/2024 Grade 6 Mathematics.pdf",
+        "question_text": "Which value of b makes the inequality 3b > 12 true?",
+        "options": [
+            "2",
+            "3",
+            "4",
+            "5"
+        ],
+        "correct_answer": 3,
+        "answer_type": "multiple_choice"
+    },
+    {
+        "_id": "4",
+        "question_number": 4,
+        "practice_set": 39,
+        "category": "Math: Geometry",
+        "difficulty": "easy",
+        "time_estimate": 60,
+        "passage": "pdfData:pdf/2024 Grade 6 Mathematics.pdf",
+        "question_text": "A coordinate plane can be used to show the distance, in units, between two locations. The location of Jack's house and a store are listed below.\n- Jack's house is located at (-7, -8).\n- The store is located at (-7, 4).\nWhat is the distance, in units, between Jack's house and the store?",
+        "options": [
+            "4",
+            "8",
+            "12",
+            "14"
+        ],
+        "correct_answer": 2,
+        "answer_type": "multiple_choice"
+    },
+    {
+        "_id": "11",
+        "question_number": 11,
+        "practice_set": 39,
+        "category": "Math: Expressions and Equations",
+        "difficulty": "easy",
+        "time_estimate": 60,
+        "passage": "pdfData:pdf/2024 Grade 6 Mathematics.pdf",
+        "question_text": "Which number line represents x >= -3?",
+        "options": [
+            "A",
+            "B",
+            "C",
+            "D"
+        ],
+        "correct_answer": 1,
+        "answer_type": "multiple_choice"
+    },
+    {
+        "_id": "14",
+        "question_number": 14,
+        "practice_set": 39,
+        "category": "Math: Expressions and Equations",
+        "difficulty": "medium",
+        "time_estimate": 75,
+        "passage": "pdfData:pdf/2024 Grade 6 Mathematics.pdf",
+        "question_text": "What is the value of the expression 8^2 ÷ 4 x 2^3?",
+        "options": [
+            "16",
+            "24",
+            "96",
+            "128"
+        ],
+        "correct_answer": 3,
+        "answer_type": "multiple_choice"
+    },
+    {
+        "_id": "15",
+        "question_number": 15,
+        "practice_set": 39,
+        "category": "Math: Number Systems",
+        "difficulty": "medium",
+        "time_estimate": 75,
+        "passage": "pdfData:pdf/2024 Grade 6 Mathematics.pdf",
+        "question_text": "Ben purchases 1 1/4 pounds of nuts and puts them into bags. Each bag holds 1/8 pound of nuts. He uses all the nuts to fill each bag completely. How many bags does Ben fill with nuts?",
+        "options": [
+            "5/32",
+            "1 1/8",
+            "2",
+            "10"
+        ],
+        "correct_answer": 3,
+        "answer_type": "multiple_choice"
+    },
+    {
+        "_id": "18",
+        "question_number": 18,
+        "practice_set": 39,
+        "category": "Math: Number Systems",
+        "difficulty": "easy",
+        "time_estimate": 45,
+        "passage": "pdfData:pdf/2024 Grade 6 Mathematics.pdf",
+        "question_text": "Which expression represents the opposite of the number -2 1/2?",
+        "options": [
+            "-(2 1/2)",
+            "-(-2 1/2)",
+            "-2(1/2)",
+            "2(-1/2)"
+        ],
+        "correct_answer": 1,
+        "answer_type": "multiple_choice"
+    },
+    {
+        "_id": "20",
+        "question_number": 20,
+        "practice_set": 39,
+        "category": "Math: Geometry",
+        "difficulty": "medium",
+        "time_estimate": 75,
+        "passage": "pdfData:pdf/2024 Grade 6 Mathematics.pdf",
+        "question_text": "A diagram of a cube is shown below. The side length is 2 1/2 in. What is the volume, in cubic inches, of the cube?",
+        "options": [
+            "1 7/8",
+            "7 1/2",
+            "15 5/8",
+            "20 5/6"
+        ],
+        "correct_answer": 2,
+        "answer_type": "multiple_choice"
+    },
+    {
+        "_id": "22",
+        "question_number": 22,
+        "practice_set": 39,
+        "category": "Math: Expressions and Equations",
+        "difficulty": "easy",
+        "time_estimate": 45,
+        "passage": "pdfData:pdf/2024 Grade 6 Mathematics.pdf",
+        "question_text": "Tammy and Jacob collect stamps. Tammy has s stamps. Jacob has 4 fewer than 3 times the number of stamps Tammy has. Which expression can be used to represent the number of stamps Jacob has?",
+        "options": [
+            "3 - 4s",
+            "3s - 4",
+            "4 - 3s",
+            "4s - 3"
+        ],
+        "correct_answer": 1,
+        "answer_type": "multiple_choice"
+    },
+    {
+        "_id": "23",
+        "question_number": 23,
+        "practice_set": 39,
+        "category": "Math: Ratios and Proportions",
+        "difficulty": "easy",
+        "time_estimate": 60,
+        "passage": "pdfData:pdf/2024 Grade 6 Mathematics.pdf",
+        "question_text": "A container holds 6 gallons of liquid. How many pints of liquid does the container hold?",
+        "options": [
+            "6",
+            "8",
+            "24",
+            "48"
+        ],
+        "correct_answer": 3,
+        "answer_type": "multiple_choice"
+    },
+    {
+        "_id": "26",
+        "question_number": 26,
+        "practice_set": 39,
+        "category": "Math: Geometry",
+        "difficulty": "easy",
+        "time_estimate": 45,
+        "passage": "pdfData:pdf/2024 Grade 6 Mathematics.pdf",
+        "question_text": "What ordered pair represents the location of a point that is the reflection of the point (-4, 6) over the x-axis?",
+        "options": [
+            "(4, 6)",
+            "(-4, -6)",
+            "(6, -4)",
+            "(-6, 4)"
+        ],
+        "correct_answer": 1,
+        "answer_type": "multiple_choice"
+    },
+    {
+        "_id": "28",
+        "question_number": 28,
+        "practice_set": 39,
+        "category": "Math: Geometry",
+        "difficulty": "medium",
+        "time_estimate": 75,
+        "passage": "pdfData:pdf/2024 Grade 6 Mathematics.pdf",
+        "question_text": "An isosceles trapezoid is shown below. What is the area, in square centimeters, of the isosceles trapezoid?",
+        "options": [
+            "120",
+            "150",
+            "195",
+            "240"
+        ],
+        "correct_answer": 2,
+        "answer_type": "multiple_choice"
+    },
+    {
+        "_id": "29",
+        "question_number": 29,
+        "practice_set": 39,
+        "category": "Math: Number Systems",
+        "difficulty": "medium",
+        "time_estimate": 75,
+        "passage": "pdfData:pdf/2024 Grade 6 Mathematics.pdf",
+        "question_text": "An inequality is shown below.\n-9/20 > -21/24\nWhich statement about the locations of the numbers on a number line is true?",
+        "options": [
+            "-9/20 is to the left of -21/24 and to the right of 0 on a number line.",
+            "-9/20 is to the right of -21/24 and to the left of 0 on a number line.",
+            "-9/20 is to the left of -21/24 and to the left of 0 on a number line.",
+            "-9/20 is to the right of -21/24 and to the right of 0 on a number line."
+        ],
+        "correct_answer": 1,
+        "answer_type": "multiple_choice"
+    },
+    {
+        "_id": "31",
+        "question_number": 31,
+        "practice_set": 39,
+        "category": "Math: Ratios and Proportions",
+        "difficulty": "easy",
+        "time_estimate": 60,
+        "passage": "pdfData:pdf/2024 Grade 6 Mathematics.pdf",
+        "question_text": "There are 104 calories in an 8-ounce serving of soda. How many calories are in 1 ounce of soda?",
+        "options": [
+            "13",
+            "26",
+            "52",
+            "96"
+        ],
+        "correct_answer": 0,
+        "answer_type": "multiple_choice"
+    },
+    {
+        "_id": "32",
+        "question_number": 32,
+        "practice_set": 39,
+        "category": "Math: Geometry",
+        "difficulty": "hard",
+        "time_estimate": 90,
+        "passage": "pdfData:pdf/2024 Grade 6 Mathematics.pdf",
+        "question_text": "Jose builds a skateboard ramp in the shape of a right triangular prism. The net below shows the dimensions of each part of the ramp. What is the surface area, in square feet, of the ramp?",
+        "options": [
+            "90",
+            "75",
+            "51",
+            "44"
+        ],
+        "correct_answer": 0,
+        "answer_type": "multiple_choice"
+    },
+    {
+        "_id": "33",
+        "question_number": 33,
+        "practice_set": 39,
+        "category": "Math: Ratios and Proportions",
+        "difficulty": "easy",
+        "time_estimate": 60,
+        "passage": "pdfData:pdf/2024 Grade 6 Mathematics.pdf",
+        "question_text": "The number 4 is 16% of what number?",
+        "options": [
+            "12",
+            "20",
+            "25",
+            "64"
+        ],
+        "correct_answer": 2,
+        "answer_type": "multiple_choice"
+    },
+    {
+        "_id": "34",
+        "question_number": 34,
+        "practice_set": 39,
+        "category": "Math: Ratios and Proportions",
+        "difficulty": "easy",
+        "time_estimate": 60,
+        "passage": "pdfData:pdf/2024 Grade 6 Mathematics.pdf",
+        "question_text": "A machine produces chocolates at a constant rate. In 42 minutes, the machine produces 7 pounds of chocolates. How long, in minutes, will it take the machine to produce 9 pounds of chocolates?",
+        "options": [
+            "6",
+            "15",
+            "54",
+            "63"
+        ],
+        "correct_answer": 2,
+        "answer_type": "multiple_choice"
+    },
+    {
+        "_id": "35",
+        "question_number": 35,
+        "practice_set": 39,
+        "category": "Math: Geometry",
+        "difficulty": "medium",
+        "time_estimate": 75,
+        "passage": "pdfData:pdf/2024 Grade 6 Mathematics.pdf",
+        "question_text": "The dimensions of a cereal box in the shape of a right rectangular prism are shown below.\n8 1/10 inches by 4 4/5 inches by 12 1/2 inches\nWhat is the volume, in cubic inches, of the cereal box?",
+        "options": [
+            "24",
+            "25 2/5",
+            "384 1/25",
+            "486"
+        ],
+        "correct_answer": 3,
+        "answer_type": "multiple_choice"
+    },
+    {
+        "_id": "36",
+        "question_number": 36,
+        "practice_set": 39,
+        "category": "Math: Ratios and Proportions",
+        "difficulty": "easy",
+        "time_estimate": 60,
+        "passage": "pdfData:pdf/2024 Grade 6 Mathematics.pdf",
+        "question_text": "A tutoring company charges $25.00 per hour to tutor a student. How many hours of tutoring would cost $62.50?",
+        "options": [
+            "2 1/2",
+            "3 1/2",
+            "37 1/2",
+            "87 1/2"
+        ],
+        "correct_answer": 0,
+        "answer_type": "multiple_choice"
+    },
+    {
+        "_id": "37",
+        "question_number": 37,
+        "practice_set": 39,
+        "category": "Math: Geometry",
+        "difficulty": "easy",
+        "time_estimate": 90,
+        "passage": "pdfData:pdf/2024 Grade 6 Mathematics.pdf",
+        "question_text": "The four vertices of a parallelogram are plotted on the coordinate plane shown below. What is the distance, in units, between vertices A and D?",
+        "options": [],
+        "correct_answer": null,
+        "answer_type": "short_response"
+    },
+    {
+        "_id": "38",
+        "question_number": 38,
+        "practice_set": 39,
+        "category": "Math: Expressions and Equations",
+        "difficulty": "easy",
+        "time_estimate": 60,
+        "passage": "pdfData:pdf/2024 Grade 6 Mathematics.pdf",
+        "question_text": "What value of n makes the equation n/8 = 17 true?",
+        "options": [],
+        "correct_answer": null,
+        "answer_type": "short_response"
+    },
+    {
+        "_id": "39",
+        "question_number": 39,
+        "practice_set": 39,
+        "category": "Math: Ratios and Proportions",
+        "difficulty": "easy",
+        "time_estimate": 60,
+        "passage": "pdfData:pdf/2024 Grade 6 Mathematics.pdf",
+        "question_text": "An artist uses a ratio of 6 gallons of orange paint to 8 gallons of blue paint. If the artist uses 1 gallon of blue paint, how many gallons of orange paint will they use?",
+        "options": [],
+        "correct_answer": null,
+        "answer_type": "short_response"
+    },
+    {
+        "_id": "40",
+        "question_number": 40,
+        "practice_set": 39,
+        "category": "Math: Geometry",
+        "difficulty": "medium",
+        "time_estimate": 120,
+        "passage": "pdfData:pdf/2024 Grade 6 Mathematics.pdf",
+        "question_text": "A diagram of a rectangular flag, with a shaded section, is shown below. What is the area, in square centimeters, of the shaded section of the flag?",
+        "options": [],
+        "correct_answer": null,
+        "answer_type": "short_response"
+    },
+    {
+        "_id": "41",
+        "question_number": 41,
+        "practice_set": 39,
+        "category": "Math: Expressions and Equations",
+        "difficulty": "medium",
+        "time_estimate": 120,
+        "passage": "pdfData:pdf/2024 Grade 6 Mathematics.pdf",
+        "question_text": "A student claims that the expression 6 + 8x is equivalent to the expression 3(3 + 5x). What is incorrect about the student's claim? Be sure to include an equivalent expression to 3(3 + 5x) in your response.",
+        "options": [],
+        "correct_answer": null,
+        "answer_type": "short_response"
+    },
+    {
+        "_id": "42",
+        "question_number": 42,
+        "practice_set": 39,
+        "category": "Math: Expressions and Equations",
+        "difficulty": "medium",
+        "time_estimate": 120,
+        "passage": "pdfData:pdf/2024 Grade 6 Mathematics.pdf",
+        "question_text": "Mike needs a ticket every time he rides the bus. Given the equation c = 2.75t, what is the relationship between t, the number of tickets that Mike buys, and c, the total cost? Be sure to identify which variable is independent and which variable is dependent in your answer.",
+        "options": [],
+        "correct_answer": null,
+        "answer_type": "short_response"
+    },
+    {
+        "_id": "43",
+        "question_number": 43,
+        "practice_set": 39,
+        "category": "Math: Number Systems",
+        "difficulty": "medium",
+        "time_estimate": 120,
+        "passage": "pdfData:pdf/2024 Grade 6 Mathematics.pdf",
+        "question_text": "A student claims that 4 is the greatest common factor of 24 and 40, because the two numbers are both multiples of 4. Is the student's claim correct? Explain how you determined your answer.",
+        "options": [],
+        "correct_answer": null,
+        "answer_type": "short_response"
+    },
+    {
+        "_id": "44",
+        "question_number": 44,
+        "practice_set": 39,
+        "category": "Math: Geometry",
+        "difficulty": "medium",
+        "time_estimate": 150,
+        "passage": "pdfData:pdf/2024 Grade 6 Mathematics.pdf",
+        "question_text": "A prism made of unit cubes is shown below. What perfect cube is represented by the volume of the prism? Be sure to include what you know about volume and exponents in your answer.",
+        "options": [],
+        "correct_answer": null,
+        "answer_type": "short_response"
+    },
+    {
+        "_id": "45",
+        "question_number": 45,
+        "practice_set": 39,
+        "category": "Math: Geometry",
+        "difficulty": "medium",
+        "time_estimate": 120,
+        "passage": "pdfData:pdf/2024 Grade 6 Mathematics.pdf",
+        "question_text": "The location of Jake's school and house are represented on the coordinate plane shown below. What is the distance, in units, from Jake's school to his house? Be sure to include the coordinates for both locations and how those coordinates can be used to determine your answer.",
+        "options": [],
+        "correct_answer": null,
+        "answer_type": "short_response"
+    },
+    {
+        "_id": "46",
+        "question_number": 46,
+        "practice_set": 39,
+        "category": "Math: Ratios and Proportions",
+        "difficulty": "hard",
+        "time_estimate": 180,
+        "passage": "pdfData:pdf/2024 Grade 6 Mathematics.pdf",
+        "question_text": "Rex and Nero are saving money for new bikes. They both start with $0.00 and save at a constant rate for 16 months. The tables below show Rex's and Nero's total savings, in dollars, at the end of different numbers of months. At the end of 16 months, what is the difference between the amount of money Rex saved and the amount of money Nero saved?",
+        "options": [],
+        "correct_answer": null,
+        "answer_type": "short_response"
+    }
+]

@@ -1,0 +1,434 @@
+[
+    {
+        "_id": "1",
+        "question_number": 1,
+        "practice_set": 35,
+        "category": "Math: Expressions and Equations",
+        "difficulty": "easy",
+        "time_estimate": 45,
+        "passage": "pdfData:pdf/2021 Grade 6 Mathematics.pdf",
+        "question_text": "An equation is shown below.\n12 - 9 + c = 12\nWhat value of c makes the equation true?",
+        "options": [
+            "0",
+            "3",
+            "9",
+            "12"
+        ],
+        "correct_answer": 2,
+        "answer_type": "multiple_choice"
+    },
+    {
+        "_id": "2",
+        "question_number": 2,
+        "practice_set": 35,
+        "category": "Math: Ratios and Proportions",
+        "difficulty": "easy",
+        "time_estimate": 60,
+        "passage": "pdfData:pdf/2021 Grade 6 Mathematics.pdf",
+        "question_text": "Kate has a coin collection. She keeps 7 of the coins in a box, which is only 5% of her entire collection. What is the total number of coins in Kate's coin collection?",
+        "options": [
+            "12",
+            "14",
+            "120",
+            "140"
+        ],
+        "correct_answer": 3,
+        "answer_type": "multiple_choice"
+    },
+    {
+        "_id": "3",
+        "question_number": 3,
+        "practice_set": 35,
+        "category": "Math: Number Systems",
+        "difficulty": "easy",
+        "time_estimate": 45,
+        "passage": "pdfData:pdf/2021 Grade 6 Mathematics.pdf",
+        "question_text": "What is the greatest common factor of 36 and 90?",
+        "options": [
+            "6",
+            "18",
+            "36",
+            "180"
+        ],
+        "correct_answer": 1,
+        "answer_type": "multiple_choice"
+    },
+    {
+        "_id": "4",
+        "question_number": 4,
+        "practice_set": 35,
+        "category": "Math: Expressions and Equations",
+        "difficulty": "easy",
+        "time_estimate": 60,
+        "passage": "pdfData:pdf/2021 Grade 6 Mathematics.pdf",
+        "question_text": "The relationship between Robert's age, r, and Julia's age, j, can be represented by the equation shown below.\nr = j + 3\nWhich table of values represents the relationship between Robert's age and Julia's age?",
+        "options": [
+            "Table A",
+            "Table B",
+            "Table C",
+            "Table D"
+        ],
+        "correct_answer": 2,
+        "answer_type": "multiple_choice"
+    },
+    {
+        "_id": "5",
+        "question_number": 5,
+        "practice_set": 35,
+        "category": "Math: Geometry",
+        "difficulty": "medium",
+        "time_estimate": 75,
+        "passage": "pdfData:pdf/2021 Grade 6 Mathematics.pdf",
+        "question_text": "The diagram below shows the dimensions of a rectangular house with a rectangular backyard. What is the total area, in square feet, of the house and backyard?",
+        "options": [
+            "200",
+            "400",
+            "4,000",
+            "5,200"
+        ],
+        "correct_answer": 3,
+        "answer_type": "multiple_choice"
+    },
+    {
+        "_id": "6",
+        "question_number": 6,
+        "practice_set": 35,
+        "category": "Math: Ratios and Proportions",
+        "difficulty": "easy",
+        "time_estimate": 45,
+        "passage": "pdfData:pdf/2021 Grade 6 Mathematics.pdf",
+        "question_text": "A bagel shop sold 8 plain bagels and 13 rye bagels. What is the ratio of the number of rye bagels to the number of plain bagels sold?",
+        "options": [
+            "8:13",
+            "13:8",
+            "8:21",
+            "21:8"
+        ],
+        "correct_answer": 1,
+        "answer_type": "multiple_choice"
+    },
+    {
+        "_id": "7",
+        "question_number": 7,
+        "practice_set": 35,
+        "category": "Math: Geometry",
+        "difficulty": "easy",
+        "time_estimate": 60,
+        "passage": "pdfData:pdf/2021 Grade 6 Mathematics.pdf",
+        "question_text": "A rectangle is graphed on a coordinate plane. The coordinates for two of the vertices of the rectangle are (-5, 8) and (-5, -6). What is the distance between the two vertices?",
+        "options": [
+            "2 units",
+            "4 units",
+            "10 units",
+            "14 units"
+        ],
+        "correct_answer": 3,
+        "answer_type": "multiple_choice"
+    },
+    {
+        "_id": "8",
+        "question_number": 8,
+        "practice_set": 35,
+        "category": "Math: Expressions and Equations",
+        "difficulty": "easy",
+        "time_estimate": 60,
+        "passage": "pdfData:pdf/2021 Grade 6 Mathematics.pdf",
+        "question_text": "What value of m makes the equation below true?\nm + 7.9 = 39 1/2",
+        "options": [
+            "5.0",
+            "31.6",
+            "32.4",
+            "47.4"
+        ],
+        "correct_answer": 1,
+        "answer_type": "multiple_choice"
+    },
+    {
+        "_id": "9",
+        "question_number": 9,
+        "practice_set": 35,
+        "category": "Math: Number Systems",
+        "difficulty": "medium",
+        "time_estimate": 60,
+        "passage": "pdfData:pdf/2021 Grade 6 Mathematics.pdf",
+        "question_text": "Point A is shown on the number line below. What is the location of point A?",
+        "options": [
+            "-1.3",
+            "-1.35",
+            "-1.6",
+            "-1.75"
+        ],
+        "correct_answer": 3,
+        "answer_type": "multiple_choice"
+    },
+    {
+        "_id": "10",
+        "question_number": 10,
+        "practice_set": 35,
+        "category": "Math: Geometry",
+        "difficulty": "easy",
+        "time_estimate": 60,
+        "passage": "pdfData:pdf/2021 Grade 6 Mathematics.pdf",
+        "question_text": "A right rectangular prism has a base with an area of 25 1/2 square feet and a volume of 153 cubic feet. What is the height, in feet, of the right rectangular prism?",
+        "options": [
+            "6",
+            "51",
+            "127 1/2",
+            "3,901 1/2"
+        ],
+        "correct_answer": 0,
+        "answer_type": "multiple_choice"
+    },
+    {
+        "_id": "11",
+        "question_number": 11,
+        "practice_set": 35,
+        "category": "Math: Ratios and Proportions",
+        "difficulty": "medium",
+        "time_estimate": 75,
+        "passage": "pdfData:pdf/2021 Grade 6 Mathematics.pdf",
+        "question_text": "All the students in the sixth grade either purchased their lunch or brought their lunch from home on Monday.\n- 24% of the students purchased their lunch.\n- 190 students brought their lunch from home.\nHow many students are in the sixth grade?",
+        "options": [
+            "76",
+            "166",
+            "214",
+            "250"
+        ],
+        "correct_answer": 3,
+        "answer_type": "multiple_choice"
+    },
+    {
+        "_id": "12",
+        "question_number": 12,
+        "practice_set": 35,
+        "category": "Math: Ratios and Proportions",
+        "difficulty": "easy",
+        "time_estimate": 60,
+        "passage": "pdfData:pdf/2021 Grade 6 Mathematics.pdf",
+        "question_text": "Joe walks on a treadmill at a constant rate. The equation below describes the relationship between t, the time he walks in hours, and d, the distance he walks in miles.\nd = 4t\nWhich graph represents the relationship between the amount of time Joe walks and the distance he walks?",
+        "options": [
+            "Graph A",
+            "Graph B",
+            "Graph C",
+            "Graph D"
+        ],
+        "correct_answer": 0,
+        "answer_type": "multiple_choice"
+    },
+    {
+        "_id": "13",
+        "question_number": 13,
+        "practice_set": 35,
+        "category": "Math: Expressions and Equations",
+        "difficulty": "easy",
+        "time_estimate": 60,
+        "passage": "pdfData:pdf/2021 Grade 6 Mathematics.pdf",
+        "question_text": "An expression is shown below.\n(143 - 35) / 3^3\nWhat is the value of the expression?",
+        "options": [
+            "4",
+            "9",
+            "12",
+            "18"
+        ],
+        "correct_answer": 0,
+        "answer_type": "multiple_choice"
+    },
+    {
+        "_id": "14",
+        "question_number": 14,
+        "practice_set": 35,
+        "category": "Math: Ratios and Proportions",
+        "difficulty": "easy",
+        "time_estimate": 60,
+        "passage": "pdfData:pdf/2021 Grade 6 Mathematics.pdf",
+        "question_text": "There are 230 calories in 4 ounces of a type of ice cream. How many calories are in 6 ounces of that ice cream?",
+        "options": [
+            "232",
+            "236",
+            "345",
+            "460"
+        ],
+        "correct_answer": 2,
+        "answer_type": "multiple_choice"
+    },
+    {
+        "_id": "15",
+        "question_number": 15,
+        "practice_set": 35,
+        "category": "Math: Expressions and Equations",
+        "difficulty": "easy",
+        "time_estimate": 45,
+        "passage": "pdfData:pdf/2021 Grade 6 Mathematics.pdf",
+        "question_text": "What value of x makes the equation 3x = 11 true?",
+        "options": [
+            "1/3",
+            "3/11",
+            "11/3",
+            "3"
+        ],
+        "correct_answer": 0,
+        "answer_type": "multiple_choice"
+    },
+    {
+        "_id": "16",
+        "question_number": 16,
+        "practice_set": 35,
+        "category": "Math: Geometry",
+        "difficulty": "medium",
+        "time_estimate": 75,
+        "passage": "pdfData:pdf/2021 Grade 6 Mathematics.pdf",
+        "question_text": "A shape is made of 12 right triangles of equal size. Each right triangle has a base of 4 cm and a height of 5 cm. What is the total area, in square centimeters, of the shape?",
+        "options": [
+            "10",
+            "60",
+            "120",
+            "240"
+        ],
+        "correct_answer": 2,
+        "answer_type": "multiple_choice"
+    },
+    {
+        "_id": "17",
+        "question_number": 17,
+        "practice_set": 35,
+        "category": "Math: Number Systems",
+        "difficulty": "easy",
+        "time_estimate": 60,
+        "passage": "pdfData:pdf/2021 Grade 6 Mathematics.pdf",
+        "question_text": "According to the National Climatic Data Center, the lowest recorded temperature in the state of New York is -52°F and the highest is 108°F. Based on these values, which number line best represents the range of temperatures in the state of New York?",
+        "options": [
+            "A",
+            "B",
+            "C",
+            "D"
+        ],
+        "correct_answer": 1,
+        "answer_type": "multiple_choice"
+    },
+    {
+        "_id": "18",
+        "question_number": 18,
+        "practice_set": 35,
+        "category": "Math: Ratios and Proportions",
+        "difficulty": "easy",
+        "time_estimate": 60,
+        "passage": "pdfData:pdf/2021 Grade 6 Mathematics.pdf",
+        "question_text": "Pat bounces a basketball 25 times in 30 seconds. At that rate, approximately how many times will Pat bounce the ball in 150 seconds?",
+        "options": [
+            "120",
+            "125",
+            "144",
+            "145"
+        ],
+        "correct_answer": 1,
+        "answer_type": "multiple_choice"
+    },
+    {
+        "_id": "19",
+        "question_number": 19,
+        "practice_set": 35,
+        "category": "Math: Expressions and Equations",
+        "difficulty": "easy",
+        "time_estimate": 45,
+        "passage": "pdfData:pdf/2021 Grade 6 Mathematics.pdf",
+        "question_text": "Which expression is equivalent to 5(4x + 3) - 2x?",
+        "options": [
+            "18x + 15",
+            "18x + 3",
+            "7x + 8",
+            "2x + 8"
+        ],
+        "correct_answer": 0,
+        "answer_type": "multiple_choice"
+    },
+    {
+        "_id": "20",
+        "question_number": 20,
+        "practice_set": 35,
+        "category": "Math: Geometry",
+        "difficulty": "easy",
+        "time_estimate": 75,
+        "passage": "pdfData:pdf/2021 Grade 6 Mathematics.pdf",
+        "question_text": "Mark graphed points on the coordinate plane below to represent the locations of his school and a bank. Mark wants to add the location of the library on the coordinate plane. The distance from the library to the school is the same as the distance from the bank to the school. Which ordered pair could be the coordinates of the library?",
+        "options": [
+            "(2, 4)",
+            "(2, 8)",
+            "(4, 4)",
+            "(6, 8)"
+        ],
+        "correct_answer": 0,
+        "answer_type": "multiple_choice"
+    },
+    {
+        "_id": "21",
+        "question_number": 21,
+        "practice_set": 35,
+        "category": "Math: Geometry",
+        "difficulty": "medium",
+        "time_estimate": 75,
+        "passage": "pdfData:pdf/2021 Grade 6 Mathematics.pdf",
+        "question_text": "A student draws the net below to show the dimensions of a container that is shaped like a right rectangular prism. What is the surface area, in square inches, of the container?",
+        "options": [
+            "19",
+            "30",
+            "38",
+            "62"
+        ],
+        "correct_answer": 3,
+        "answer_type": "multiple_choice"
+    },
+    {
+        "_id": "22",
+        "question_number": 22,
+        "practice_set": 35,
+        "category": "Math: Expressions and Equations",
+        "difficulty": "easy",
+        "time_estimate": 60,
+        "passage": "pdfData:pdf/2021 Grade 6 Mathematics.pdf",
+        "question_text": "Which two expressions are equivalent?",
+        "options": [
+            "x + x + x and x^3",
+            "14x + 10 - 2x and 16x + 10",
+            "12x + 16x and 4(3x + 4x)",
+            "12x^2 + 5x + 10 and 17x^2 + 10"
+        ],
+        "correct_answer": 2,
+        "answer_type": "multiple_choice"
+    },
+    {
+        "_id": "23",
+        "question_number": 23,
+        "practice_set": 35,
+        "category": "Math: Ratios and Proportions",
+        "difficulty": "easy",
+        "time_estimate": 60,
+        "passage": "pdfData:pdf/2021 Grade 6 Mathematics.pdf",
+        "question_text": "A machine fills boxes at a constant rate. At the end of 35 minutes, it has filled 5 boxes. Which table represents the relationship between the number of minutes the machine fills boxes and the number of boxes it has filled?",
+        "options": [
+            "Table A",
+            "Table B",
+            "Table C",
+            "Table D"
+        ],
+        "correct_answer": 0,
+        "answer_type": "multiple_choice"
+    },
+    {
+        "_id": "24",
+        "question_number": 24,
+        "practice_set": 35,
+        "category": "Math: Expressions and Equations",
+        "difficulty": "medium",
+        "time_estimate": 75,
+        "passage": "pdfData:pdf/2021 Grade 6 Mathematics.pdf",
+        "question_text": "Which expression represents the perimeter of the figure below?",
+        "options": [
+            "5x + 2y",
+            "x + y + z",
+            "5x + 2y + z",
+            "(5+2+1)(x+y+z)"
+        ],
+        "correct_answer": 2,
+        "answer_type": "multiple_choice"
+    }
+]

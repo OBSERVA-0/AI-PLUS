@@ -1,0 +1,502 @@
+[
+    {
+        "_id": "1",
+        "question_number": 1,
+        "practice_set": 36,
+        "category": "Math: Expressions and Equations",
+        "difficulty": "easy",
+        "time_estimate": 60,
+        "passage": "pdfData:pdf/2022 Grade 6 Mathematics.pdf",
+        "question_text": "Which value of m makes the inequality true?\n3m - 4 < 11",
+        "options": [
+            "4",
+            "5",
+            "6",
+            "7"
+        ],
+        "correct_answer": 0,
+        "answer_type": "multiple_choice"
+    },
+    {
+        "_id": "2",
+        "question_number": 2,
+        "practice_set": 36,
+        "category": "Math: Ratios and Proportions",
+        "difficulty": "easy",
+        "time_estimate": 60,
+        "passage": "pdfData:pdf/2022 Grade 6 Mathematics.pdf",
+        "question_text": "A farmer places beehives containing bees in her orchard to pollinate the plants. The table below shows the ratio of the number of beehives to the number of acres in the orchard. If the bees pollinate the plants at a constant rate, how many acres will be pollinated by the bees in 18 beehives?",
+        "options": [
+            "38",
+            "40",
+            "44",
+            "48"
+        ],
+        "correct_answer": 3,
+        "answer_type": "multiple_choice"
+    },
+    {
+        "_id": "3",
+        "question_number": 3,
+        "practice_set": 36,
+        "category": "Math: Geometry",
+        "difficulty": "medium",
+        "time_estimate": 75,
+        "passage": "pdfData:pdf/2022 Grade 6 Mathematics.pdf",
+        "question_text": "The net of a rectangular prism is shown below. What is the surface area, in square centimeters, of the rectangular prism?",
+        "options": [
+            "60",
+            "79",
+            "158",
+            "360"
+        ],
+        "correct_answer": 2,
+        "answer_type": "multiple_choice"
+    },
+    {
+        "_id": "4",
+        "question_number": 4,
+        "practice_set": 36,
+        "category": "Math: Expressions and Equations",
+        "difficulty": "easy",
+        "time_estimate": 45,
+        "passage": "pdfData:pdf/2022 Grade 6 Mathematics.pdf",
+        "question_text": "Jake takes guitar lessons that cost $120.00 per month. Which equation can be used to determine the total number of dollars, d, that Jake pays for lessons for any number of months, m?",
+        "options": [
+            "d = 120 x m",
+            "m = 120 x d",
+            "d = 120 + m",
+            "m = 120 + d"
+        ],
+        "correct_answer": 0,
+        "answer_type": "multiple_choice"
+    },
+    {
+        "_id": "5",
+        "question_number": 5,
+        "practice_set": 36,
+        "category": "Math: Ratios and Proportions",
+        "difficulty": "easy",
+        "time_estimate": 45,
+        "passage": "pdfData:pdf/2022 Grade 6 Mathematics.pdf",
+        "question_text": "Claire has 6 large envelopes and 11 small envelopes. What is the ratio of large envelopes to the total number of envelopes?",
+        "options": [
+            "5:11",
+            "6:11",
+            "6:17",
+            "11:17"
+        ],
+        "correct_answer": 2,
+        "answer_type": "multiple_choice"
+    },
+    {
+        "_id": "11",
+        "question_number": 11,
+        "practice_set": 36,
+        "category": "Math: Expressions and Equations",
+        "difficulty": "medium",
+        "time_estimate": 75,
+        "passage": "pdfData:pdf/2022 Grade 6 Mathematics.pdf",
+        "question_text": "What is the value of the expression shown below when x = 7?\n3x^2 - 2x + 3",
+        "options": [
+            "31",
+            "50",
+            "136",
+            "164"
+        ],
+        "correct_answer": 2,
+        "answer_type": "multiple_choice"
+    },
+    {
+        "_id": "12",
+        "question_number": 12,
+        "practice_set": 36,
+        "category": "Math: Geometry",
+        "difficulty": "medium",
+        "time_estimate": 75,
+        "passage": "pdfData:pdf/2022 Grade 6 Mathematics.pdf",
+        "question_text": "A partially shaded rectangle is shown below. What is the area, in square centimeters, of the shaded part of the rectangle?",
+        "options": [
+            "28",
+            "44",
+            "56",
+            "112"
+        ],
+        "correct_answer": 2,
+        "answer_type": "multiple_choice"
+    },
+    {
+        "_id": "15",
+        "question_number": 15,
+        "practice_set": 36,
+        "category": "Math: Ratios and Proportions",
+        "difficulty": "easy",
+        "time_estimate": 60,
+        "passage": "pdfData:pdf/2022 Grade 6 Mathematics.pdf",
+        "question_text": "A group of 10 Science Club students is on a field trip. That number of students represents 20% of the total number of students in the Science Club. What is the total number of students in the Science Club?",
+        "options": [
+            "20",
+            "30",
+            "50",
+            "80"
+        ],
+        "correct_answer": 2,
+        "answer_type": "multiple_choice"
+    },
+    {
+        "_id": "16",
+        "question_number": 16,
+        "practice_set": 36,
+        "category": "Math: Expressions and Equations",
+        "difficulty": "easy",
+        "time_estimate": 45,
+        "passage": "pdfData:pdf/2022 Grade 6 Mathematics.pdf",
+        "question_text": "Which value of x makes the equation true?\n4x - 8 = 4",
+        "options": [
+            "1",
+            "3",
+            "4",
+            "9"
+        ],
+        "correct_answer": 1,
+        "answer_type": "multiple_choice"
+    },
+    {
+        "_id": "17",
+        "question_number": 17,
+        "practice_set": 36,
+        "category": "Math: Ratios and Proportions",
+        "difficulty": "medium",
+        "time_estimate": 90,
+        "passage": "pdfData:pdf/2022 Grade 6 Mathematics.pdf",
+        "question_text": "Employees at a construction company are building a fence around the perimeter of a work site. The perimeter of the work site is 1/4 mile. The cost of the fence is $20.00 per yard. What is the total cost of the fence needed for the perimeter of the work site?",
+        "options": [
+            "$5,000.00",
+            "$8,800.00",
+            "$17,600.00",
+            "$26,400.00"
+        ],
+        "correct_answer": 1,
+        "answer_type": "multiple_choice"
+    },
+    {
+        "_id": "22",
+        "question_number": 22,
+        "practice_set": 36,
+        "category": "Math: Number Systems",
+        "difficulty": "easy",
+        "time_estimate": 60,
+        "passage": "pdfData:pdf/2022 Grade 6 Mathematics.pdf",
+        "question_text": "Ralph has 3/4 gallon of paint. He wants to store all of the paint equally among 5 containers. How much paint, in gallons, will Ralph store in each container?",
+        "options": [
+            "3/20",
+            "8/5",
+            "15/4",
+            "17/4"
+        ],
+        "correct_answer": 0,
+        "answer_type": "multiple_choice"
+    },
+    {
+        "_id": "23",
+        "question_number": 23,
+        "practice_set": 36,
+        "category": "Math: Geometry",
+        "difficulty": "easy",
+        "time_estimate": 60,
+        "passage": "pdfData:pdf/2022 Grade 6 Mathematics.pdf",
+        "question_text": "A parallelogram is shown below. What is the area, in square centimeters, of the parallelogram?",
+        "options": [
+            "8.96",
+            "10.25",
+            "11.9",
+            "13.6"
+        ],
+        "correct_answer": 2,
+        "answer_type": "multiple_choice"
+    },
+    {
+        "_id": "26",
+        "question_number": 26,
+        "practice_set": 36,
+        "category": "Math: Number Systems",
+        "difficulty": "easy",
+        "time_estimate": 45,
+        "passage": "pdfData:pdf/2022 Grade 6 Mathematics.pdf",
+        "question_text": "A number line with points Q, R, S, and T is shown below. What point represents -1/2?",
+        "options": [
+            "point Q",
+            "point R",
+            "point S",
+            "point T"
+        ],
+        "correct_answer": 1,
+        "answer_type": "multiple_choice"
+    },
+    {
+        "_id": "27",
+        "question_number": 27,
+        "practice_set": 36,
+        "category": "Math: Ratios and Proportions",
+        "difficulty": "easy",
+        "time_estimate": 60,
+        "passage": "pdfData:pdf/2022 Grade 6 Mathematics.pdf",
+        "question_text": "Ms. Wilson is buying packages of pencils. Each package costs $11.52 and contains 96 pencils. What is the unit price of a pencil?",
+        "options": [
+            "$0.12",
+            "$0.96",
+            "$1.20",
+            "$1.92"
+        ],
+        "correct_answer": 0,
+        "answer_type": "multiple_choice"
+    },
+    {
+        "_id": "28",
+        "question_number": 28,
+        "practice_set": 36,
+        "category": "Math: Geometry",
+        "difficulty": "easy",
+        "time_estimate": 60,
+        "passage": "pdfData:pdf/2022 Grade 6 Mathematics.pdf",
+        "question_text": "Three vertices of a rectangle are located at (2, 4), (-2, -5), and (-2, 4) on a coordinate plane. What are the coordinates of the fourth vertex of the rectangle?",
+        "options": [
+            "(2, 5)",
+            "(2, -5)",
+            "(5, 2)",
+            "(-5, -2)"
+        ],
+        "correct_answer": 1,
+        "answer_type": "multiple_choice"
+    },
+    {
+        "_id": "32",
+        "question_number": 32,
+        "practice_set": 36,
+        "category": "Math: Ratios and Proportions",
+        "difficulty": "medium",
+        "time_estimate": 75,
+        "passage": "pdfData:pdf/2022 Grade 6 Mathematics.pdf",
+        "question_text": "There are red tiles and blue tiles in a box. The ratio of red tiles to blue tiles is 3:5. There are 12 more blue tiles than red tiles in the box. How many red tiles are in the box?",
+        "options": [
+            "18",
+            "20",
+            "30",
+            "48"
+        ],
+        "correct_answer": 0,
+        "answer_type": "multiple_choice"
+    },
+    {
+        "_id": "33",
+        "question_number": 33,
+        "practice_set": 36,
+        "category": "Math: Geometry",
+        "difficulty": "hard",
+        "time_estimate": 90,
+        "passage": "pdfData:pdf/2022 Grade 6 Mathematics.pdf",
+        "question_text": "What is the surface area, in square inches, of the rectangular prism formed by folding the net below?",
+        "options": [
+            "1,300",
+            "2,232",
+            "2,416",
+            "2,600"
+        ],
+        "correct_answer": 2,
+        "answer_type": "multiple_choice"
+    },
+    {
+        "_id": "34",
+        "question_number": 34,
+        "practice_set": 36,
+        "category": "Math: Ratios and Proportions",
+        "difficulty": "easy",
+        "time_estimate": 60,
+        "passage": "pdfData:pdf/2022 Grade 6 Mathematics.pdf",
+        "question_text": "Jasmine goes to the store to buy some fruit to make a fruit salad. The list below shows the amount and the price of each type of fruit she buys.\n- 3 pounds of apples for $4.05\n- 2 pounds of grapes for $4.80\n- 5 pounds of oranges for $7.50\n- 3 pounds of peaches for $4.65\nWhich type of fruit costs $1.55 per pound?",
+        "options": [
+            "apples",
+            "grapes",
+            "oranges",
+            "peaches"
+        ],
+        "correct_answer": 3,
+        "answer_type": "multiple_choice"
+    },
+    {
+        "_id": "35",
+        "question_number": 35,
+        "practice_set": 36,
+        "category": "Math: Number Systems",
+        "difficulty": "easy",
+        "time_estimate": 45,
+        "passage": "pdfData:pdf/2022 Grade 6 Mathematics.pdf",
+        "question_text": "The outside temperature in a town is -20 degrees Fahrenheit. What change in temperature, in degrees Fahrenheit, would bring the outside temperature to 0 degrees Fahrenheit?",
+        "options": [
+            "-21",
+            "-20",
+            "0",
+            "20"
+        ],
+        "correct_answer": 3,
+        "answer_type": "multiple_choice"
+    },
+    {
+        "_id": "36",
+        "question_number": 36,
+        "practice_set": 36,
+        "category": "Math: Geometry",
+        "difficulty": "easy",
+        "time_estimate": 60,
+        "passage": "pdfData:pdf/2022 Grade 6 Mathematics.pdf",
+        "question_text": "A diagram of Joe's living room wall with a geometric design is shown. Joe painted the shaded triangle on the living room wall. What is the area, in square feet, of the shaded triangle that Joe painted?",
+        "options": [
+            "20",
+            "28",
+            "48",
+            "96"
+        ],
+        "correct_answer": 2,
+        "answer_type": "multiple_choice"
+    },
+    {
+        "_id": "37",
+        "question_number": 37,
+        "practice_set": 36,
+        "category": "Math: Ratios and Proportions",
+        "difficulty": "easy",
+        "time_estimate": 60,
+        "passage": "pdfData:pdf/2022 Grade 6 Mathematics.pdf",
+        "question_text": "There was a total of 640 students at a school on Friday. Every student either walked or rode in a bus to the school. If 45% of the total number of students walked to the school on Friday, how many of the students rode in a bus to the school?",
+        "options": [
+            "288",
+            "352",
+            "585",
+            "595"
+        ],
+        "correct_answer": 1,
+        "answer_type": "multiple_choice"
+    },
+    {
+        "_id": "38",
+        "question_number": 38,
+        "practice_set": 36,
+        "category": "Math: Expressions and Equations",
+        "difficulty": "easy",
+        "time_estimate": 45,
+        "passage": "pdfData:pdf/2022 Grade 6 Mathematics.pdf",
+        "question_text": "Josh has c coins. Nick has 4 fewer than 3 times as many coins as Josh. Which expression can be used to show how many coins Nick has?",
+        "options": [
+            "3c - 4",
+            "3 - 4c",
+            "4c - 3",
+            "4 - 3c"
+        ],
+        "correct_answer": 0,
+        "answer_type": "multiple_choice"
+    },
+    {
+        "_id": "39",
+        "question_number": 39,
+        "practice_set": 36,
+        "category": "Math: Expressions and Equations",
+        "difficulty": "medium",
+        "time_estimate": 150,
+        "passage": "pdfData:pdf/2022 Grade 6 Mathematics.pdf",
+        "question_text": "Two students, Student A and Student B, claim to know the correct representation of the expression (9/y)(3t).\n- Student A represents the expression as the product of 9 and y times the product of 3 and t.\n- Student B represents the expression as the quotient of 9 and y times the sum of 3 and t.\nBoth students' claims are incorrect. What makes each representation incorrect?",
+        "options": [],
+        "correct_answer": null,
+        "answer_type": "short_response"
+    },
+    {
+        "_id": "40",
+        "question_number": 40,
+        "practice_set": 36,
+        "category": "Math: Geometry",
+        "difficulty": "medium",
+        "time_estimate": 150,
+        "passage": "pdfData:pdf/2022 Grade 6 Mathematics.pdf",
+        "question_text": "A track coach creates an obstacle course for his team. The coach plots the locations of three obstacles on the coordinate plane shown below. Each unit on the coordinate plane represents 3 yards. A student starts at Obstacle A (3,5), then runs south to Obstacle B (3,-2), and then runs west to Obstacle C (-7,-2). What is the total distance, in yards, the student runs to get from Obstacle A to Obstacle C?",
+        "options": [],
+        "correct_answer": null,
+        "answer_type": "short_response"
+    },
+    {
+        "_id": "41",
+        "question_number": 41,
+        "practice_set": 36,
+        "category": "Math: Number Systems",
+        "difficulty": "medium",
+        "time_estimate": 120,
+        "passage": "pdfData:pdf/2022 Grade 6 Mathematics.pdf",
+        "question_text": "A restaurant owner orders new plates and spoons based on the information below.\n- plates are sold in packages of 9\n- spoons are sold in packages of 12\nThe restaurant owner orders an equal number of plates and spoons. What is the least number of packages of plates and packages of spoons she should order to have an equal number of plates and spoons?",
+        "options": [],
+        "correct_answer": null,
+        "answer_type": "short_response"
+    },
+    {
+        "_id": "42",
+        "question_number": 42,
+        "practice_set": 36,
+        "category": "Math: Geometry",
+        "difficulty": "hard",
+        "time_estimate": 180,
+        "passage": "pdfData:pdf/2022 Grade 6 Mathematics.pdf",
+        "question_text": "A cereal box has dimensions of 12 inches, 7 3/4 inches, and 2 inches. A pastry box has dimensions of 3 2/3 inches, 3 1/2 inches, and 2 1/3 inches. What is the difference in volume, in cubic inches, between the two boxes?",
+        "options": [],
+        "correct_answer": null,
+        "answer_type": "short_response"
+    },
+    {
+        "_id": "43",
+        "question_number": 43,
+        "practice_set": 36,
+        "category": "Math: Expressions and Equations",
+        "difficulty": "medium",
+        "time_estimate": 150,
+        "passage": "pdfData:pdf/2022 Grade 6 Mathematics.pdf",
+        "question_text": "Two students evaluate the expression 17(4 + 15).\n- Student A evaluates the expression by adding the product of 17 and 4 to the product of 17 and 15.\n- Student B evaluates the expression by determining the product of 17 and 19.\nIs each student's evaluation correct or incorrect? Explain your answer.",
+        "options": [],
+        "correct_answer": null,
+        "answer_type": "short_response"
+    },
+    {
+        "_id": "44",
+        "question_number": 44,
+        "practice_set": 36,
+        "category": "Math: Ratios and Proportions",
+        "difficulty": "medium",
+        "time_estimate": 150,
+        "passage": "pdfData:pdf/2022 Grade 6 Mathematics.pdf",
+        "question_text": "Ryan delivers flowers to two customers. He drives for 12 minutes at an average speed of 40 miles per hour to reach his first customer. He then drives for 15 minutes at an average speed of 50 miles per hour to reach his second customer. During the 27 minutes of driving time, how many total miles does Ryan drive?",
+        "options": [],
+        "correct_answer": null,
+        "answer_type": "short_response"
+    },
+    {
+        "_id": "45",
+        "question_number": 45,
+        "practice_set": 36,
+        "category": "Math: Expressions and Equations",
+        "difficulty": "easy",
+        "time_estimate": 90,
+        "passage": "pdfData:pdf/2022 Grade 6 Mathematics.pdf",
+        "question_text": "Johnny is 21 years old. He is 3 times as old as Becky. Write and solve an equation to determine Becky's age, a.",
+        "options": [],
+        "correct_answer": null,
+        "answer_type": "short_response"
+    },
+    {
+        "_id": "46",
+        "question_number": 46,
+        "practice_set": 36,
+        "category": "Math: Expressions and Equations",
+        "difficulty": "easy",
+        "time_estimate": 90,
+        "passage": "pdfData:pdf/2022 Grade 6 Mathematics.pdf",
+        "question_text": "An office supply store sells boxes of pencils. Each box contains 160 pencils. Write an equation that represents the total number of pencils, y, in x boxes. If x = 12 for one day of sales, use your equation to find the total number of pencils the supply store sells.",
+        "options": [],
+        "correct_answer": null,
+        "answer_type": "short_response"
+    }
+]
