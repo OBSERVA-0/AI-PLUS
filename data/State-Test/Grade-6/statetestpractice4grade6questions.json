@@ -14,7 +14,7 @@
             "C",
             "D"
         ],
-        "correct_answer": 2,
+        "correct_answer": 0,
         "answer_type": "multiple_choice"
     },
     {
@@ -50,7 +50,7 @@
             "28",
             "48"
         ],
-        "correct_answer": 0,
+        "correct_answer": 1,
         "answer_type": "multiple_choice"
     },
     {
@@ -122,7 +122,7 @@
             "15",
             "16"
         ],
-        "correct_answer": 3,
+        "correct_answer": 2,
         "answer_type": "multiple_choice"
     },
     {

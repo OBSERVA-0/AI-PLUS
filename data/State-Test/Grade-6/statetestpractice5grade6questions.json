@@ -158,7 +158,7 @@
             "-1.6",
             "-1.75"
         ],
-        "correct_answer": 3,
+        "correct_answer": 2,
         "answer_type": "multiple_choice"
     },
     {
@@ -302,7 +302,7 @@
             "C",
             "D"
         ],
-        "correct_answer": 1,
+        "correct_answer": 3,
         "answer_type": "multiple_choice"
     },
     {
@@ -356,7 +356,7 @@
             "(4, 4)",
             "(6, 8)"
         ],
-        "correct_answer": 0,
+        "correct_answer": 1,
         "answer_type": "multiple_choice"
     },
     {

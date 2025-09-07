@@ -140,16 +140,16 @@ router.get('/test', validateGetQuestions, handleValidationErrors, async (req, re
 // @access  Private
 router.post('/submit', auth, validateSubmitAnswers, handleValidationErrors, async (req, res) => {
   try {
-    const { testType, practiceSet = '1', answers, timeSpent } = req.body;
+    const { testType, practiceSet = '1', answers, timeSpent, sectionType = null } = req.body;
     
-    console.log(`📝 Checking answers for test: ${testType} practice set ${practiceSet}`);
+    console.log(`📝 Checking answers for test: ${testType} practice set ${practiceSet}${sectionType ? ` (${sectionType})` : ''}`);
     
     // Add timeout protection to prevent crashes
     const startTime = Date.now();
     const SCORING_TIMEOUT = 95000; // 95 seconds (increased for high load)
     
     // Get questions from JSON to check answers
-    const questions = await readQuestionsFromJSON(testType, practiceSet);
+    const questions = await readQuestionsFromJSON(testType, practiceSet, sectionType);
     
     // Calculate results
     let correctCount = 0;
@@ -252,16 +252,19 @@ router.post('/submit', auth, validateSubmitAnswers, handleValidationErrors, asyn
         }
       }
       
-      // Record detailed result for review (optimized to reduce memory usage)
+      // Record detailed result for review with essential fields for client display
       detailedResults.push({
         questionId: question._id,
+        question_text: question.question_text,
+        passage: question.passage,
+        options: question.options,
+        correct_answer: question.correct_answer,
+        answer_type: question.answer_type,
         userAnswer: answer.selectedAnswer,
         isCorrect,
         category: question.category,
         question_number: question.question_number,
         hasAnswer: answer.selectedAnswer !== undefined && answer.selectedAnswer !== null && answer.selectedAnswer !== ''
-        // Removed: question_text, passage, options, explanation to reduce memory usage
-        // These can be retrieved from the original question data when needed for display
       });
     }
     
@@ -362,7 +365,15 @@ router.post('/submit', auth, validateSubmitAnswers, handleValidationErrors, asyn
       } else if (testType === 'sat') {
         testName = `SAT Practice Test ${practiceSet}`;
       } else if (testType === 'statetest') {
-        testName = `State Test - Grade 7 Practice ${practiceSet}`;
+        // Extract grade from sectionType (e.g., "g6math" -> "6", "g7ela" -> "7")
+        if (sectionType && sectionType.startsWith('g')) {
+          const grade = sectionType.charAt(1);
+          const subject = sectionType.substring(2);
+          const subjectName = subject === 'math' ? 'Math' : subject === 'ela' ? 'ELA' : subject.toUpperCase();
+          testName = `State Test - Grade ${grade} ${subjectName} Practice ${practiceSet}`;
+        } else {
+          testName = `State Test - Grade 7 Practice ${practiceSet}`; // fallback
+        }
       }
 
       console.log(`📝 Generated test name: ${testName}`);

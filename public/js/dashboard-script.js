@@ -94,7 +94,7 @@ class QuestionsService {
         }
     }
     
-    static async submitAnswers(testType, answers, timeSpent, practiceSet = '1') {
+    static async submitAnswers(testType, answers, timeSpent, practiceSet = '1', sectionType = null) {
         try {
             const response = await AuthService.makeRequest('/questions/submit', {
                 method: 'POST',
@@ -102,7 +102,8 @@ class QuestionsService {
                     testType,
                     practiceSet,
                     answers,
-                    timeSpent
+                    timeSpent,
+                    sectionType
                 })
             });
             
@@ -1089,7 +1090,8 @@ async function endTest() {
             currentTest,
             answers,
             timeSpent,
-            currentPracticeSet
+            currentPracticeSet,
+            currentSectionType
         );
         
         if (!response.success) {
@@ -1512,7 +1514,7 @@ function renderPassageContent(passage) {
     // Check if passage is a PDF data link
     if (passage.startsWith('pdfData:')) {
         const pdfPath = passage.substring(8); // Remove 'pdfData:' prefix
-        const fullPdfPath = `data/pdfData/${pdfPath}`;
+        const fullPdfPath = `/data/pdfData/${encodeURI(pdfPath)}`;
         
         return `
             <div class="pdf-viewer-simple">

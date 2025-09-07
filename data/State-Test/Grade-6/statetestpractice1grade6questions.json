@@ -68,7 +68,7 @@
             "Plane C",
             "Plane D"
         ],
-        "correct_answer": 2,
+        "correct_answer": 0,
         "answer_type": "multiple_choice"
     },
     {
@@ -298,9 +298,9 @@
         "question_text": "The area of an airplane's wings is related to the airplane's lifting force, which holds the airplane in the air. The table below lists several wing areas and the corresponding lifting forces. The ratio of lifting force to area is equivalent for all pairs in the table. What are the values of x and y?",
         "options": [
             "x = 375 square feet and y = 7,500 pounds",
-            "x = 375 square feet and y = 7,500 pounds",
+            "x = 335 square feet and y = 7,500 pounds",
             "x = 375 square feet and y = 6,300 pounds",
-            "x = 375 square feet and y = 6,300 pounds"
+            "x = 335 square feet and y = 6,300 pounds"
         ],
         "correct_answer": 2,
         "answer_type": "multiple_choice"
@@ -392,7 +392,7 @@
             "It is located at -25 and is to the left of point A on the number line.",
             "It is located at -15 and is to the left of point A on the number line."
         ],
-        "correct_answer": 3,
+        "correct_answer": 2,
         "answer_type": "multiple_choice"
     },
     {
@@ -464,7 +464,7 @@
             "Maddy made 4 bows from the piece of ribbon and had enough left for 2/3 of a bow.",
             "Maddy made 4 bows from the piece of ribbon and had 2/3 of a yard left."
         ],
-        "correct_answer": 2,
+        "correct_answer": 3,
         "answer_type": "multiple_choice"
     },
     {

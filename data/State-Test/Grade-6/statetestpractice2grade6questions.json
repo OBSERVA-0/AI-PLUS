@@ -86,7 +86,7 @@
             "13",
             "18"
         ],
-        "correct_answer": 2,
+        "correct_answer": 0,
         "answer_type": "multiple_choice"
     },
     {
@@ -122,7 +122,7 @@
             "Graph C",
             "Graph D"
         ],
-        "correct_answer": 2,
+        "correct_answer": 1,
         "answer_type": "multiple_choice"
     },
     {

@@ -194,7 +194,7 @@
             "(4, 4)",
             "(6, 8)"
         ],
-        "correct_answer": 0,
+        "correct_answer": 1,
         "answer_type": "multiple_choice"
     },
     {
@@ -266,7 +266,7 @@
             "5x + 2y + z",
             "(5+2+1)(x+y+z)"
         ],
-        "correct_answer": 0,
+        "correct_answer": 2,
         "answer_type": "multiple_choice"
     },
     {
@@ -302,7 +302,7 @@
             "2/5",
             "5/2"
         ],
-        "correct_answer": 1,
+        "correct_answer": 0,
         "answer_type": "multiple_choice"
     },
     {
@@ -320,7 +320,7 @@
             "Graph C",
             "Graph D"
         ],
-        "correct_answer": 0,
+        "correct_answer": 1,
         "answer_type": "multiple_choice"
     },
     {
@@ -394,5 +394,109 @@
         ],
         "correct_answer": 2,
         "answer_type": "multiple_choice"
+    },
+    {
+        "_id": "39",
+        "question_number": 39,
+        "practice_set": 42,
+        "category": "Math: Number Systems",
+        "difficulty": "medium",
+        "time_estimate": 90,
+        "passage": "pdfData:pdf/2018 Grade 6 Mathematics.pdf",
+        "question_text": "An art teacher has a total of $\\frac{7}{8}$ pound of clay. The teacher puts $\\frac{1}{16}$ pound of clay at each work station. The teacher sets up an equal number of work stations in each of 2 classrooms. How many work stations does the teacher set up in each of the classrooms?",
+        "options": [],
+        "correct_answer": null,
+        "answer_type": "short_response"
+    },
+    {
+        "_id": "40",
+        "question_number": 40,
+        "practice_set": 42,
+        "category": "Math: Expressions and Equations",
+        "difficulty": "easy",
+        "time_estimate": 90,
+        "passage": "pdfData:pdf/2018 Grade 6 Mathematics.pdf",
+        "question_text": "Tom wants to order tickets online so that he and three of his friends can go together to a water park. The cost of the tickets is \\$16.00 per person. There is also a \\$2.50 one-time service fee for ordering tickets online. Write an expression in terms of n that represents the cost for ordering n tickets online. Use your expression to find the total cost for ordering 4 tickets online.",
+        "options": [],
+        "correct_answer": null,
+        "answer_type": "short_response"
+    },
+    {
+        "_id": "41",
+        "question_number": 41,
+        "practice_set": 42,
+        "category": "Math: Ratios and Proportions",
+        "difficulty": "medium",
+        "time_estimate": 120,
+        "passage": "pdfData:pdf/2018 Grade 6 Mathematics.pdf",
+        "question_text": "A factory adds three red drops and two blue drops of coloring to white paint to make each pint of purple paint. The factory will make 50 gallons of this purple paint. How many drops of red and blue coloring will the factory need in the 50-gallon batch of purple paint?",
+        "options": [],
+        "correct_answer": null,
+        "answer_type": "short_response"
+    },
+    {
+        "_id": "42",
+        "question_number": 42,
+        "practice_set": 42,
+        "category": "Math: Geometry",
+        "difficulty": "medium",
+        "time_estimate": 90,
+        "passage": "pdfData:pdf/2018 Grade 6 Mathematics.pdf",
+        "question_text": "The diagram below shows a large square with two smaller squares within it. Write an expression, involving exponents, to represent the shaded area, in square inches, of the diagram. Then use that expression to calculate the shaded area, in square inches, of the diagram.",
+        "options": [],
+        "correct_answer": null,
+        "answer_type": "short_response"
+    },
+    {
+        "_id": "43",
+        "question_number": 43,
+        "practice_set": 42,
+        "category": "Math: Number Systems",
+        "difficulty": "easy",
+        "time_estimate": 75,
+        "passage": "pdfData:pdf/2018 Grade 6 Mathematics.pdf",
+        "question_text": "Point W is located at (-2,3) on a coordinate plane. Point W is reflected over the x-axis to create point W'. Point W' is then reflected over the y-axis to create point W''. What ordered pair describes the location of point W''? Explain how you determined your answer.",
+        "options": [],
+        "correct_answer": null,
+        "answer_type": "short_response"
+    },
+    {
+        "_id": "44",
+        "question_number": 44,
+        "practice_set": 42,
+        "category": "Math: Ratios and Proportions",
+        "difficulty": "medium",
+        "time_estimate": 120,
+        "passage": "pdfData:pdf/2018 Grade 6 Mathematics.pdf",
+        "question_text": "Jaden made a pot of chili with 48 ounces of ground beef and 2 tablespoons of chili powder. He made another pot of chili with the same amount of ground beef, but he used 3 times as much chili powder. How many pounds of ground beef per tablespoon of chili powder did he use in the second pot of chili?",
+        "options": [],
+        "correct_answer": null,
+        "answer_type": "short_response"
+    },
+    {
+        "_id": "45",
+        "question_number": 45,
+        "practice_set": 42,
+        "category": "Math: Geometry",
+        "difficulty": "medium",
+        "time_estimate": 90,
+        "passage": "pdfData:pdf/2018 Grade 6 Mathematics.pdf",
+        "question_text": "Cube-shaped blocks are packed into a cube-shaped storage container.\n- The edge length of the storage container is $2\\frac{1}{2}$ feet.\n- The edge length of each block is $\\frac{1}{5}$ the edge length of the storage container.\nWhat is the volume, in cubic feet, of one cube-shaped block?",
+        "options": [],
+        "correct_answer": null,
+        "answer_type": "short_response"
+    },
+    {
+        "_id": "46",
+        "question_number": 46,
+        "practice_set": 42,
+        "category": "Math: Expressions and Equations",
+        "difficulty": "hard",
+        "time_estimate": 150,
+        "passage": "pdfData:pdf/2018 Grade 6 Mathematics.pdf",
+        "question_text": "A rectangular exercise mat has a perimeter of 36 feet. The length of the mat is twice the width. Write and solve an equation to determine the length, in feet, of the mat. Then find the area, in square feet, of the mat.",
+        "options": [],
+        "correct_answer": null,
+        "answer_type": "short_response"
     }
 ]
