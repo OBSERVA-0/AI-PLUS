@@ -164,6 +164,26 @@ router.post('/submit', auth, validateSubmitAnswers, handleValidationErrors, asyn
       english: { correct: 0, total: 0 } // english here means reading & writing
     };
     
+    // Generate test name early for error handling
+    let testName = '';
+    if (testType === 'shsat') {
+      testName = practiceSet === 'diagnostic' 
+        ? 'SHSAT Diagnostic Test' 
+        : `SHSAT Practice Test ${practiceSet}${sectionType ? ` (${sectionType.toUpperCase()})` : ''}`;
+    } else if (testType === 'sat') {
+      testName = `SAT Practice Test ${practiceSet}`;
+    } else if (testType === 'statetest') {
+      // Extract grade from sectionType (e.g., "g6math" -> "6", "g7ela" -> "7")
+      if (sectionType && sectionType.startsWith('g')) {
+        const grade = sectionType.charAt(1);
+        const subject = sectionType.substring(2);
+        const subjectName = subject === 'math' ? 'Math' : subject === 'ela' ? 'ELA' : subject.toUpperCase();
+        testName = `State Test - Grade ${grade} ${subjectName} Practice ${practiceSet}`;
+      } else {
+        testName = `State Test - Grade 7 Practice ${practiceSet}`; // fallback
+      }
+    }
+    
     // Create question lookup map for O(1) performance instead of O(n)
     const questionMap = new Map();
     questions.forEach(q => questionMap.set(q._id, q));
@@ -226,16 +246,29 @@ router.post('/submit', auth, validateSubmitAnswers, handleValidationErrors, asyn
 
       const categoryLower = question.category.toLowerCase();
       
-      // Track SHSAT section scores using question numbers
+      // Track SHSAT section scores - handle both combined and section-specific tests
       if (testType === 'shsat') {
-        if (question.question_number <= 57) {
-          // Questions 1-57 are ELA
+        // For ELA-only tests (sectionType === 'ela')
+        if (sectionType === 'ela' || (categoryLower.includes('revising') || categoryLower.includes('reading'))) {
           shsatSectionScores.english.total++;
           if (isCorrect) shsatSectionScores.english.correct++;
-        } else if (question.question_number <= 114) {
-          // Questions 58-114 are Math
+        }
+        // For Math-only tests (sectionType === 'math')
+        else if (sectionType === 'math' || categoryLower.includes('math')) {
           shsatSectionScores.math.total++;
           if (isCorrect) shsatSectionScores.math.correct++;
+        }
+        // For combined tests, use question numbers (legacy behavior)
+        else if (!sectionType || sectionType === 'full') {
+          if (question.question_number <= 57) {
+            // Questions 1-57 are ELA
+            shsatSectionScores.english.total++;
+            if (isCorrect) shsatSectionScores.english.correct++;
+          } else if (question.question_number <= 114) {
+            // Questions 58-114 are Math
+            shsatSectionScores.math.total++;
+            if (isCorrect) shsatSectionScores.math.correct++;
+          }
         }
       }
 
@@ -287,27 +320,37 @@ router.post('/submit', auth, validateSubmitAnswers, handleValidationErrors, asyn
 
     // Add SHSAT scaled scores if applicable
     if (testType === 'shsat') {
-      // Use the new accurate SHSAT scoring system
+      // Use the new accurate SHSAT scoring system with section type support
       const shsatScoreResults = calculateShsatScores(
         shsatSectionScores.math.correct,
-        shsatSectionScores.english.correct
+        shsatSectionScores.english.correct,
+        sectionType
       );
 
       responseData.results.shsatScores = {
-        math: {
+        totalScaledScore: shsatScoreResults.totalScaledScore,
+        sectionType: shsatScoreResults.sectionType || 'full'
+      };
+
+      // Add math scores if available (full test or math-only)
+      if (shsatScoreResults.math) {
+        responseData.results.shsatScores.math = {
           rawScore: shsatSectionScores.math.correct,
           totalQuestions: shsatSectionScores.math.total,
           percentage: shsatSectionScores.math.total > 0 ? Math.round((shsatSectionScores.math.correct / shsatSectionScores.math.total) * 100) : 0,
           scaledScore: shsatScoreResults.math.scaledScore
-        },
-        english: {
+        };
+      }
+
+      // Add English scores if available (full test or ELA-only)
+      if (shsatScoreResults.english) {
+        responseData.results.shsatScores.english = {
           rawScore: shsatSectionScores.english.correct,
           totalQuestions: shsatSectionScores.english.total,
           percentage: shsatSectionScores.english.total > 0 ? Math.round((shsatSectionScores.english.correct / shsatSectionScores.english.total) * 100) : 0,
           scaledScore: shsatScoreResults.english.scaledScore
-        },
-        totalScaledScore: shsatScoreResults.totalScaledScore
-      };
+        };
+      }
     }
 
     // Add SAT scaled scores if applicable
@@ -355,28 +398,7 @@ router.post('/submit', auth, validateSubmitAnswers, handleValidationErrors, asyn
         }
       
       console.log(`📋 User found: ${user.email}, current test history count: ${user.testHistory ? user.testHistory.length : 0}`);
-      
-      // Generate test name based on type and practice set
-      let testName = '';
-      if (testType === 'shsat') {
-        testName = practiceSet === 'diagnostic' 
-          ? 'SHSAT Diagnostic Test' 
-          : `SHSAT Practice Test ${practiceSet}`;
-      } else if (testType === 'sat') {
-        testName = `SAT Practice Test ${practiceSet}`;
-      } else if (testType === 'statetest') {
-        // Extract grade from sectionType (e.g., "g6math" -> "6", "g7ela" -> "7")
-        if (sectionType && sectionType.startsWith('g')) {
-          const grade = sectionType.charAt(1);
-          const subject = sectionType.substring(2);
-          const subjectName = subject === 'math' ? 'Math' : subject === 'ela' ? 'ELA' : subject.toUpperCase();
-          testName = `State Test - Grade ${grade} ${subjectName} Practice ${practiceSet}`;
-        } else {
-          testName = `State Test - Grade 7 Practice ${practiceSet}`; // fallback
-        }
-      }
-
-      console.log(`📝 Generated test name: ${testName}`);
+      console.log(`📝 Using test name: ${testName}`);
       console.log(`📊 Test results: ${answers.length} answers, ${correctCount} correct (${percentage}%)`);
       
       // Create test history entry
@@ -411,19 +433,40 @@ router.post('/submit', auth, validateSubmitAnswers, handleValidationErrors, asyn
 
       // Add scaled scores if available
       if (testType === 'shsat' && responseData.results.shsatScores) {
-        testHistoryEntry.scaledScores = {
-          math: responseData.results.shsatScores.math.scaledScore,
-          english: responseData.results.shsatScores.english.scaledScore,
-          total: responseData.results.shsatScores.totalScaledScore
-        };
-        console.log(`📊 Added SHSAT scaled scores: Math ${testHistoryEntry.scaledScores.math}, English ${testHistoryEntry.scaledScores.english}, Total ${testHistoryEntry.scaledScores.total}`);
+        testHistoryEntry.scaledScores = {};
+        
+        // Add total score if available
+        if (responseData.results.shsatScores.totalScaledScore !== undefined) {
+          testHistoryEntry.scaledScores.total = responseData.results.shsatScores.totalScaledScore;
+        }
+        
+        // Add math scores if available (full test or math-only)
+        if (responseData.results.shsatScores.math && responseData.results.shsatScores.math.scaledScore !== undefined) {
+          testHistoryEntry.scaledScores.math = responseData.results.shsatScores.math.scaledScore;
+        }
+        
+        // Add English scores if available (full test or ELA-only)
+        if (responseData.results.shsatScores.english && responseData.results.shsatScores.english.scaledScore !== undefined) {
+          testHistoryEntry.scaledScores.english = responseData.results.shsatScores.english.scaledScore;
+        }
+        
+        console.log(`📊 Added SHSAT scaled scores: ${testHistoryEntry.scaledScores.math ? `Math ${testHistoryEntry.scaledScores.math}` : 'No Math'}, ${testHistoryEntry.scaledScores.english ? `English ${testHistoryEntry.scaledScores.english}` : 'No English'}, Total ${testHistoryEntry.scaledScores.total || 'N/A'}`);
       } else if (testType === 'sat' && responseData.results.satScores) {
         testHistoryEntry.scaledScores = {
-          math: responseData.results.satScores.math.scaledScore,
-          reading_writing: responseData.results.satScores.reading_writing.scaledScore,
           total: responseData.results.satScores.totalScaledScore
         };
-        console.log(`📊 Added SAT scaled scores: Math ${testHistoryEntry.scaledScores.math}, Reading/Writing ${testHistoryEntry.scaledScores.reading_writing}, Total ${testHistoryEntry.scaledScores.total}`);
+        
+        // Add math score if available
+        if (responseData.results.satScores.math && responseData.results.satScores.math.scaledScore !== undefined) {
+          testHistoryEntry.scaledScores.math = responseData.results.satScores.math.scaledScore;
+        }
+        
+        // Add reading/writing score if available
+        if (responseData.results.satScores.reading_writing && responseData.results.satScores.reading_writing.scaledScore !== undefined) {
+          testHistoryEntry.scaledScores.reading_writing = responseData.results.satScores.reading_writing.scaledScore;
+        }
+        
+        console.log(`📊 Added SAT scaled scores: Math ${testHistoryEntry.scaledScores.math || 'N/A'}, Reading/Writing ${testHistoryEntry.scaledScores.reading_writing || 'N/A'}, Total ${testHistoryEntry.scaledScores.total}`);
       }
 
       // Initialize testHistory array if it doesn't exist

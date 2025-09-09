@@ -1205,8 +1205,24 @@ function displayResults(resultData) {
     if (results.shsatScores && shsatScoreContainer) {
       shsatScoreContainer.style.display = 'block';
       document.getElementById('shsat-total-score').textContent = results.shsatScores.totalScaledScore;
-      document.getElementById('shsat-math-score').textContent = `Math: ${results.shsatScores.math.scaledScore} (${results.shsatScores.math.percentage}%)`;
-      document.getElementById('shsat-english-score').textContent = `ELA: ${results.shsatScores.english.scaledScore} (${results.shsatScores.english.percentage}%)`;
+      
+      // Update math score if available
+      const mathScoreElement = document.getElementById('shsat-math-score');
+      if (results.shsatScores.math && mathScoreElement) {
+        mathScoreElement.textContent = `Math: ${results.shsatScores.math.scaledScore} (${results.shsatScores.math.percentage}%)`;
+        mathScoreElement.style.display = 'block';
+      } else if (mathScoreElement) {
+        mathScoreElement.style.display = 'none';
+      }
+      
+      // Update English score if available
+      const englishScoreElement = document.getElementById('shsat-english-score');
+      if (results.shsatScores.english && englishScoreElement) {
+        englishScoreElement.textContent = `ELA: ${results.shsatScores.english.scaledScore} (${results.shsatScores.english.percentage}%)`;
+        englishScoreElement.style.display = 'block';
+      } else if (englishScoreElement) {
+        englishScoreElement.style.display = 'none';
+      }
     } else if (shsatScoreContainer) {
       shsatScoreContainer.style.display = 'none';
     }
@@ -1216,8 +1232,24 @@ function displayResults(resultData) {
     if (results.satScores && satScoreContainer) {
       satScoreContainer.style.display = 'block';
       document.getElementById('sat-total-score').textContent = results.satScores.totalScaledScore;
-      document.getElementById('sat-math-score').textContent = `Math: ${results.satScores.math.scaledScore} (${results.satScores.math.percentage}%)`;
-      document.getElementById('sat-rw-score').textContent = `R&W: ${results.satScores.reading_writing.scaledScore} (${results.satScores.reading_writing.percentage}%)`;
+      
+      // Update math score if available
+      const satMathScoreElement = document.getElementById('sat-math-score');
+      if (results.satScores.math && satMathScoreElement) {
+        satMathScoreElement.textContent = `Math: ${results.satScores.math.scaledScore} (${results.satScores.math.percentage}%)`;
+        satMathScoreElement.style.display = 'block';
+      } else if (satMathScoreElement) {
+        satMathScoreElement.style.display = 'none';
+      }
+      
+      // Update reading/writing score if available
+      const satRwScoreElement = document.getElementById('sat-rw-score');
+      if (results.satScores.reading_writing && satRwScoreElement) {
+        satRwScoreElement.textContent = `R&W: ${results.satScores.reading_writing.scaledScore} (${results.satScores.reading_writing.percentage}%)`;
+        satRwScoreElement.style.display = 'block';
+      } else if (satRwScoreElement) {
+        satRwScoreElement.style.display = 'none';
+      }
     } else if (satScoreContainer) {
       satScoreContainer.style.display = 'none';
     }

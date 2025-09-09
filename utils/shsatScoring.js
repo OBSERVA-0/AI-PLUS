@@ -26,14 +26,42 @@ const convertRawToScaledSection = (rawScore) => {
 };
 
 /**
- * Calculate SHSAT scores for both sections
+ * Calculate SHSAT scores for both sections or single section
  * @param {number} mathRawScore - Raw math score (0-57)
  * @param {number} elaRawScore - Raw ELA score (0-57)
+ * @param {string} sectionType - Optional section type ('ela', 'math', or null for full test)
  * @returns {Object} Object containing section scores and total
  */
-const calculateShsatScores = (mathRawScore, elaRawScore) => {
+const calculateShsatScores = (mathRawScore, elaRawScore, sectionType = null) => {
     const mathScaledScore = convertRawToScaledSection(mathRawScore);
     const elaScaledScore = convertRawToScaledSection(elaRawScore);
+    
+    // For section-specific tests, only calculate the relevant section
+    if (sectionType === 'ela') {
+        return {
+            english: {
+                rawScore: elaRawScore,
+                scaledScore: elaScaledScore
+            },
+            totalRawScore: elaRawScore,
+            totalScaledScore: elaScaledScore,
+            sectionType: 'ela'
+        };
+    }
+    
+    if (sectionType === 'math') {
+        return {
+            math: {
+                rawScore: mathRawScore,
+                scaledScore: mathScaledScore
+            },
+            totalRawScore: mathRawScore,
+            totalScaledScore: mathScaledScore,
+            sectionType: 'math'
+        };
+    }
+    
+    // Full test - both sections
     const totalScaledScore = mathScaledScore + elaScaledScore;
     
     return {
@@ -46,7 +74,8 @@ const calculateShsatScores = (mathRawScore, elaRawScore) => {
             scaledScore: elaScaledScore
         },
         totalRawScore: mathRawScore + elaRawScore,
-        totalScaledScore: totalScaledScore
+        totalScaledScore: totalScaledScore,
+        sectionType: 'full'
     };
 };
 

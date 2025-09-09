@@ -386,36 +386,68 @@ router.post('/update-stats', auth, async (req, res) => {
     // Update SHSAT scaled scores if provided
     if (testType === 'shsat' && shsatScores) {
       testProgress.latestScaledScore = {
-        math: shsatScores.math.scaledScore,
-        english: shsatScores.english.scaledScore,
         total: shsatScores.totalScaledScore
       };
+      
+      // Add math score if available
+      if (shsatScores.math && shsatScores.math.scaledScore !== undefined) {
+        testProgress.latestScaledScore.math = shsatScores.math.scaledScore;
+      }
+      
+      // Add english score if available
+      if (shsatScores.english && shsatScores.english.scaledScore !== undefined) {
+        testProgress.latestScaledScore.english = shsatScores.english.scaledScore;
+      }
       
       // Update best score if the new score is higher
       if (shsatScores.totalScaledScore > (testProgress.bestScaledScore.total || 0)) {
         testProgress.bestScaledScore = {
-          math: shsatScores.math.scaledScore,
-          english: shsatScores.english.scaledScore,
           total: shsatScores.totalScaledScore
         };
+        
+        // Add math score if available
+        if (shsatScores.math && shsatScores.math.scaledScore !== undefined) {
+          testProgress.bestScaledScore.math = shsatScores.math.scaledScore;
+        }
+        
+        // Add english score if available
+        if (shsatScores.english && shsatScores.english.scaledScore !== undefined) {
+          testProgress.bestScaledScore.english = shsatScores.english.scaledScore;
+        }
       }
     }
 
     // Update SAT scaled scores if provided
     if (testType === 'sat' && satScores) {
       testProgress.latestScaledScore = {
-        math: satScores.math.scaledScore,
-        reading_writing: satScores.reading_writing.scaledScore,
         total: satScores.totalScaledScore
       };
+      
+      // Add math score if available
+      if (satScores.math && satScores.math.scaledScore !== undefined) {
+        testProgress.latestScaledScore.math = satScores.math.scaledScore;
+      }
+      
+      // Add reading/writing score if available
+      if (satScores.reading_writing && satScores.reading_writing.scaledScore !== undefined) {
+        testProgress.latestScaledScore.reading_writing = satScores.reading_writing.scaledScore;
+      }
       
       // Update best score if the new score is higher
       if (satScores.totalScaledScore > (testProgress.bestScaledScore.total || 0)) {
         testProgress.bestScaledScore = {
-          math: satScores.math.scaledScore,
-          reading_writing: satScores.reading_writing.scaledScore,
           total: satScores.totalScaledScore
         };
+        
+        // Add math score if available
+        if (satScores.math && satScores.math.scaledScore !== undefined) {
+          testProgress.bestScaledScore.math = satScores.math.scaledScore;
+        }
+        
+        // Add reading/writing score if available
+        if (satScores.reading_writing && satScores.reading_writing.scaledScore !== undefined) {
+          testProgress.bestScaledScore.reading_writing = satScores.reading_writing.scaledScore;
+        }
       }
     }
 
