@@ -131,7 +131,7 @@ router.get('/students', auth, requireAdmin, async (req, res) => {
 // @access  Private (Admin only)
 router.get('/students/test-scores', auth, requireAdmin, async (req, res) => {
   try {
-    const { testType, practiceSet, page = 1, limit = 50, minScore, maxScore } = req.query;
+    const { testType, practiceSet, page = 1, limit = 50, minScore, maxScore, sectionType } = req.query;
     
     if (!testType || !practiceSet) {
       return res.status(400).json({
@@ -154,13 +154,38 @@ router.get('/students/test-scores', auth, requireAdmin, async (req, res) => {
          // Process students and extract their best score for this specific test
      let studentScores = students.map(student => {
        // Find all attempts for this specific test with scaled scores
-       const testAttempts = student.testHistory.filter(test => 
+       let testAttempts = student.testHistory.filter(test => 
          test.testType === testType && 
          test.practiceSet === practiceSet &&
          test.scaledScores && 
          test.scaledScores.total && 
          test.scaledScores.total > 0
        );
+       
+       // Filter by section type if specified
+       if (sectionType && testType === 'shsat') {
+         testAttempts = testAttempts.filter(attempt => {
+           if (!attempt.detailedResults || attempt.detailedResults.length === 0) {
+             return false;
+           }
+           
+           const hasElaQuestions = attempt.detailedResults.some(result => result.questionNumber <= 57);
+           const hasMathQuestions = attempt.detailedResults.some(result => result.questionNumber > 57 && result.questionNumber <= 114);
+           
+           if (sectionType === 'ela') {
+             // ELA only tests should have ELA questions but no math questions
+             return hasElaQuestions && !hasMathQuestions;
+           } else if (sectionType === 'math') {
+             // Math only tests should have math questions but no ELA questions
+             return hasMathQuestions && !hasElaQuestions;
+           } else if (sectionType === 'full') {
+             // Full tests should have both ELA and math questions
+             return hasElaQuestions && hasMathQuestions;
+           }
+           
+           return true;
+         });
+       }
        
        // Skip students without any scaled score attempts
        if (testAttempts.length === 0) {
@@ -228,6 +253,19 @@ router.get('/students/test-scores', auth, requireAdmin, async (req, res) => {
          }
        });
       
+             // Modify displayed scores based on section type
+             let displayedScaledScore = bestScaledScore;
+             if (sectionType && testType === 'shsat') {
+               displayedScaledScore = { ...bestScaledScore };
+               if (sectionType === 'ela') {
+                 // Only show English score for ELA-only tests
+                 delete displayedScaledScore.math;
+               } else if (sectionType === 'math') {
+                 // Only show Math score for Math-only tests  
+                 delete displayedScaledScore.english;
+               }
+             }
+
              return {
          id: student._id,
          name: `${student.firstName} ${student.lastName}`,
@@ -236,7 +274,7 @@ router.get('/students/test-scores', auth, requireAdmin, async (req, res) => {
          isActive: student.isActive,
          bestPercentage: bestPercentage,
          bestScaledTotal: bestScaledTotal,
-         bestScaledScore: bestScaledScore,
+         bestScaledScore: displayedScaledScore,
          bestRawScores: bestRawScores,
          totalAttempts: totalAttempts,
          latestAttempt: latestAttempt ? {
@@ -275,9 +313,17 @@ router.get('/students/test-scores', auth, requireAdmin, async (req, res) => {
     // Generate test name for display
     let testName = '';
     if (testType === 'shsat') {
-      testName = practiceSet === 'Diagnostic_Test' 
+      let baseName = practiceSet === 'Diagnostic_Test' || practiceSet === 'diagnostic'
         ? 'SHSAT Diagnostic Test' 
         : `SHSAT Practice Test ${practiceSet}`;
+      
+      if (sectionType === 'ela') {
+        testName = `${baseName} (ELA Only)`;
+      } else if (sectionType === 'math') {
+        testName = `${baseName} (Math Only)`;
+      } else {
+        testName = baseName;
+      }
     } else if (testType === 'sat') {
       testName = `SAT Practice Test ${practiceSet}`;
     } else if (testType === 'state') {
@@ -1015,7 +1061,7 @@ router.get('/question-analytics/:testType/:practiceSet', auth, requireAdmin, asy
 // @access  Private (Admin only)
 router.get('/export/test-scores', auth, requireAdmin, async (req, res) => {
   try {
-    const { testType, practiceSet, minScore, maxScore } = req.query;
+    const { testType, practiceSet, minScore, maxScore, sectionType } = req.query;
     
     if (!testType || !practiceSet) {
       return res.status(400).json({
@@ -1040,13 +1086,35 @@ router.get('/export/test-scores', auth, requireAdmin, async (req, res) => {
     // Process students and extract their best score for this specific test
     let studentScores = students.map(student => {
       // Find all attempts for this specific test with scaled scores
-      const testAttempts = student.testHistory.filter(test => 
+      let testAttempts = student.testHistory.filter(test => 
         test.testType === testType && 
         test.practiceSet === practiceSet &&
         test.scaledScores && 
         test.scaledScores.total && 
         test.scaledScores.total > 0
       );
+      
+      // Filter by section type if specified
+      if (sectionType && testType === 'shsat') {
+        testAttempts = testAttempts.filter(attempt => {
+          if (!attempt.detailedResults || attempt.detailedResults.length === 0) {
+            return false;
+          }
+          
+          const hasElaQuestions = attempt.detailedResults.some(result => result.questionNumber <= 57);
+          const hasMathQuestions = attempt.detailedResults.some(result => result.questionNumber > 57 && result.questionNumber <= 114);
+          
+          if (sectionType === 'ela') {
+            return hasElaQuestions && !hasMathQuestions;
+          } else if (sectionType === 'math') {
+            return hasMathQuestions && !hasElaQuestions;
+          } else if (sectionType === 'full') {
+            return hasElaQuestions && hasMathQuestions;
+          }
+          
+          return true;
+        });
+      }
       
       // Skip students without any scaled score attempts
       if (testAttempts.length === 0) {
@@ -1163,9 +1231,17 @@ router.get('/export/test-scores', auth, requireAdmin, async (req, res) => {
     // Generate test name for sheet name
     let testName = '';
     if (testType === 'shsat') {
-      testName = practiceSet === 'Diagnostic_Test' 
+      let baseName = practiceSet === 'Diagnostic_Test' || practiceSet === 'diagnostic'
         ? 'SHSAT Diagnostic Test' 
         : `SHSAT Practice Test ${practiceSet}`;
+      
+      if (sectionType === 'ela') {
+        testName = `${baseName} (ELA Only)`;
+      } else if (sectionType === 'math') {
+        testName = `${baseName} (Math Only)`;
+      } else {
+        testName = baseName;
+      }
     } else if (testType === 'sat') {
       testName = `SAT Practice Test ${practiceSet}`;
     } else if (testType === 'state') {

@@ -1,0 +1,1028 @@
+[
+  {
+    "_id": "1",
+    "question_number": 1,
+    "practice_set": "Practice Test 1",
+    "category": "Revising/Editing Part A",
+    "difficulty": "",
+    "time_estimate": 95,
+    "passage": "The Ankole Longhorn is a breed of cattle indigenous to Africa. (2) Since these animals can endure hardships for sustained periods, they can subsist in those countries even when little nourishment can be found. (3) The bovines can often be found in grazing in various regions of the continent Kenya, Sudan, and Uganda are some of those countries. (4) The cattle use their horns, which taper symmetrically in the shape of a lyre, to defend themselves from their predators.",
+    "question_text": "Which sentence should be revised to correct a run-on?",
+    "options": [
+      "Sentence 1",
+      "Sentence 2",
+      "Sentence 3",
+      "Sentence 4"
+    ],
+    "correct_answer": 2,
+    "answer_type": "multiple_choice"
+  },
+  {
+    "_id": "2",
+    "question_number": 2,
+    "practice_set": "Practice Test 1",
+    "category": "Revising/Editing Part A",
+    "difficulty": "",
+    "time_estimate": 95,
+    "passage": "Playing music from The Beatles to Louis Armstrong, the goal of cover bands is not to sound exactly like the musicians they imitate, but instead to deliver a fresh take on old songs.",
+    "question_text": "How should this sentence be revised?",
+    "options": [
+      "From The Beatles to Louis Armstrong playing music, the goal of cover bands is not to sound exactly like the musicians they imitate, but instead to deliver a fresh take on old songs.",
+      "To deliver a fresh take on old songs, the goal of cover bands is not to sound exactly like the musicians they imitate, like The Beatles or Louis Armstrong.",
+      "In order to not sound exactly like the musicians they imitate, the goal of cover bands is to deliver a fresh take on old songs, playing music from The Beatles to Louis Armstrong.",
+      "Playing music from The Beatles to Louis Armstrong, many cover bands do not intend to sound exactly like the musicians they imitate, but instead to deliver a fresh take on old songs."
+    ],
+    "correct_answer": 3,
+    "answer_type": "multiple_choice"
+  },
+  {
+    "_id": "3",
+    "question_number": 3,
+    "practice_set": "Practice Test 1",
+    "category": "Revising/Editing Part A",
+    "difficulty": "",
+    "time_estimate": 95,
+    "passage": "Kristin Kreuk is an actress who was born in Vancouver, Canada, and is most known for her portrayal of a young Superman's love interest, Lana Lang, in the television series Smallville. (2) Her career truly got started after the teen comedy Eurotrip, which came out on the silver screen in 2004. (3) Since that initial role, Kreuk has managed to score several other roles in various Hollywood productions. (4) For instance, she recently plays Catherine Chandler in the CW Television Network's adaptation of Beauty & the Beast.",
+    "question_text": "Which of the following sentences should be corrected to fix an incorrect shift in verb tense?",
+    "options": [
+      "Sentence 1",
+      "Sentence 2",
+      "Sentence 3",
+      "Sentence 4"
+    ],
+    "correct_answer": 3,
+    "answer_type": "multiple_choice"
+  },
+  {
+    "_id": "4",
+    "question_number": 4,
+    "practice_set": "Practice Test 1",
+    "category": "Revising/Editing Part A",
+    "difficulty": "",
+    "time_estimate": 95,
+    "passage": "A herpetologist a type of scientist that studies reptiles, will look at many aspects of reptilian life, such as habitat, diet, and even leisure.",
+    "question_text": "Which edit should be made to correct this sentence?",
+    "options": [
+      "Add a comma after \"herpetologist\"",
+      "Delete the comma after \"reptiles\"",
+      "Add a comma after \"aspects\"",
+      "Delete the comma after \"habitat\""
+    ],
+    "correct_answer": 0,
+    "answer_type": "multiple_choice"
+  },
+  {
+    "_id": "5",
+    "question_number": 5,
+    "practice_set": "Practice Test 1",
+    "category": "Revising/Editing Part A",
+    "difficulty": "",
+    "time_estimate": 95,
+    "passage": "Vicky went to that place she liked to purchase her Christmas gift, which was a remote-control drone.",
+    "question_text": "Which of the following is the most precise revision of Vicky went to that place she liked?",
+    "options": [
+      "Vicky visited that place she absolutely loved.",
+      "Vicky went to her favorite store",
+      "Vicky perused the electronics store",
+      "Vicky bought things from the store she liked"
+    ],
+    "correct_answer": 2,
+    "answer_type": "multiple_choice"
+  },
+  {
+    "_id": "6",
+    "question_number": 6,
+    "practice_set": "Practice Test 1",
+    "category": "Revising/Editing Part B",
+    "difficulty": "",
+    "time_estimate": 95,
+    "passage": "Body Modification\n(1) The number of adults with tattoos in the United States has been steadily increasing. (2) This is due to Americans' changing social attitudes, which make the practice more present in the 21st century than it was in more traditional generations. (3) Among one group of indigenous New Zealand people, tattoos have never been much of taboo issue. (4) The native Maori of that country have had a long tradition of inking their skin, producing intricate marks on their faces that might be unnerving to the uninitiated. (5) The Maori have a special, ritualistic war dance they sometimes perform as one of their customs. (6) The technique of creating these marks, called Ta Moko, was used as a method of distinguishing honored members of the islanders' society. (7) European explorer Captain James Cook wrote about his observations of these tattoos in the late 18th century. (8) He noted in his logs that the tattoos he encountered among the Maori people were unique to each person - no two were alike. (9) The Maori people have a fascinating culture. (10) Many groups of people in Africa and Asia were renowned for piercing or tattooing different parts of their bodies when the tribe members reach a certain age. (11) Different tattooed things on different parts of the body have different meanings. (12) In certain African tribes, women get nose piercings to symbolize that they are married. (13) Piercings are not the only form of body modification in Africa. (14) In a section of Ethiopia, men scar their bodies to indicate that they have battled an enemy and won. (15) Some African tribespeople get earlobe extensions or decorate their body with beads. (16) Overall, tattoos and piercings are not unique to the Western world. (17) In fact, members of the Western world adopted many of these traditions when they encountered other tribes. (18) In Thailand, certain monks get tattoos of animals to represent that animal protecting them. (19) Some of the markings represent achievement or maturity. (20) In a similar way, people who wear tattoos in the Western world may use their piercings or tattoos to indicate a certain accomplishment.",
+    "question_text": "Which sentence could best follow and support sentence 2?",
+    "options": [
+      "Many tattoos are done in black and white because these are cheaper than color tattoos.",
+      "A recent poll found that about 1 out of every 5 adults now has a tattoo.",
+      "Tattoos are more common among people from younger generations than they are in people who are older.",
+      "Because many jobs still discriminate over the presence of tattoos, many people cover theirs with clothing."
+    ],
+    "correct_answer": 2,
+    "answer_type": "multiple_choice"
+  },
+  {
+    "_id": "7",
+    "question_number": 7,
+    "practice_set": "Practice Test 1",
+    "category": "Revising/Editing Part B",
+    "difficulty": "",
+    "time_estimate": 95,
+    "passage": "Body Modification\n(1) The number of adults with tattoos in the United States has been steadily increasing. (2) This is due to Americans' changing social attitudes, which make the practice more present in the 21st century than it was in more traditional generations. (3) Among one group of indigenous New Zealand people, tattoos have never been much of taboo issue. (4) The native Maori of that country have had a long tradition of inking their skin, producing intricate marks on their faces that might be unnerving to the uninitiated. (5) The Maori have a special, ritualistic war dance they sometimes perform as one of their customs. (6) The technique of creating these marks, called Ta Moko, was used as a method of distinguishing honored members of the islanders' society. (7) European explorer Captain James Cook wrote about his observations of these tattoos in the late 18th century. (8) He noted in his logs that the tattoos he encountered among the Maori people were unique to each person - no two were alike. (9) The Maori people have a fascinating culture. (10) Many groups of people in Africa and Asia were renowned for piercing or tattooing different parts of their bodies when the tribe members reach a certain age. (11) Different tattooed things on different parts of the body have different meanings. (12) In certain African tribes, women get nose piercings to symbolize that they are married. (13) Piercings are not the only form of body modification in Africa. (14) In a section of Ethiopia, men scar their bodies to indicate that they have battled an enemy and won. (15) Some African tribespeople get earlobe extensions or decorate their body with beads. (16) Overall, tattoos and piercings are not unique to the Western world. (17) In fact, members of the Western world adopted many of these traditions when they encountered other tribes. (18) In Thailand, certain monks get tattoos of animals to represent that animal protecting them. (19) Some of the markings represent achievement or maturity. (20) In a similar way, people who wear tattoos in the Western world may use their piercings or tattoos to indicate a certain accomplishment.",
+    "question_text": "Which transition would best begin sentence 3?",
+    "options": [
+      "In other words,",
+      "Nevertheless,",
+      "For example.",
+      "To add on,"
+    ],
+    "correct_answer": 1,
+    "answer_type": "multiple_choice"
+  },
+  {
+    "_id": "8",
+    "question_number": 8,
+    "practice_set": "Practice Test 1",
+    "category": "Revising/Editing Part B",
+    "difficulty": "",
+    "time_estimate": 95,
+    "passage": "Body Modification\n(1) The number of adults with tattoos in the United States has been steadily increasing. (2) This is due to Americans' changing social attitudes, which make the practice more present in the 21st century than it was in more traditional generations. (3) Among one group of indigenous New Zealand people, tattoos have never been much of taboo issue. (4) The native Maori of that country have had a long tradition of inking their skin, producing intricate marks on their faces that might be unnerving to the uninitiated. (5) The Maori have a special, ritualistic war dance they sometimes perform as one of their customs. (6) The technique of creating these marks, called Ta Moko, was used as a method of distinguishing honored members of the islanders' society. (7) European explorer Captain James Cook wrote about his observations of these tattoos in the late 18th century. (8) He noted in his logs that the tattoos he encountered among the Maori people were unique to each person - no two were alike. (9) The Maori people have a fascinating culture. (10) Many groups of people in Africa and Asia were renowned for piercing or tattooing different parts of their bodies when the tribe members reach a certain age. (11) Different tattooed things on different parts of the body have different meanings. (12) In certain African tribes, women get nose piercings to symbolize that they are married. (13) Piercings are not the only form of body modification in Africa. (14) In a section of Ethiopia, men scar their bodies to indicate that they have battled an enemy and won. (15) Some African tribespeople get earlobe extensions or decorate their body with beads. (16) Overall, tattoos and piercings are not unique to the Western world. (17) In fact, members of the Western world adopted many of these traditions when they encountered other tribes. (18) In Thailand, certain monks get tattoos of animals to represent that animal protecting them. (19) Some of the markings represent achievement or maturity. (20) In a similar way, people who wear tattoos in the Western world may use their piercings or tattoos to indicate a certain accomplishment.",
+    "question_text": "What is the best way to combine sentences 7 and 8?",
+    "options": [
+      "European explorer Captain James Cook wrote of his observations of these tattoos in the late 18th century because he noted in his logs that the tattoos he encountered among the Maori people were unique to each person - no two were alike.",
+      "European explorer Captain James Cook wrote of his observations of these tattoos in the late 18th century since he noted in his logs that the tattoos he encountered among the Maori people were unique to each person no two were alike.",
+      "European explorer Captain James Cook wrote of his observations of these tattoos in the late 18th century but he noted in his logs that the tattoos he encountered among the Maori people were unique to each person no two were alike.",
+      "European explorer Captain James Cook wrote of his observations of these tattoos in the late 18th century and he noted in his logs that the tattoos he encountered among the Maori people were unique to each person - no two were alike."
+    ],
+    "correct_answer": 3,
+    "answer_type": "multiple_choice"
+  },
+  {
+    "_id": "9",
+    "question_number": 9,
+    "practice_set": "Practice Test 1",
+    "category": "Revising/Editing Part B",
+    "difficulty": "",
+    "time_estimate": 95,
+    "passage": "Body Modification\n(1) The number of adults with tattoos in the United States has been steadily increasing. (2) This is due to Americans' changing social attitudes, which make the practice more present in the 21st century than it was in more traditional generations. (3) Among one group of indigenous New Zealand people, tattoos have never been much of taboo issue. (4) The native Maori of that country have had a long tradition of inking their skin, producing intricate marks on their faces that might be unnerving to the uninitiated. (5) The Maori have a special, ritualistic war dance they sometimes perform as one of their customs. (6) The technique of creating these marks, called Ta Moko, was used as a method of distinguishing honored members of the islanders' society. (7) European explorer Captain James Cook wrote about his observations of these tattoos in the late 18th century. (8) He noted in his logs that the tattoos he encountered among the Maori people were unique to each person - no two were alike. (9) The Maori people have a fascinating culture. (10) Many groups of people in Africa and Asia were renowned for piercing or tattooing different parts of their bodies when the tribe members reach a certain age. (11) Different tattooed things on different parts of the body have different meanings. (12) In certain African tribes, women get nose piercings to symbolize that they are married. (13) Piercings are not the only form of body modification in Africa. (14) In a section of Ethiopia, men scar their bodies to indicate that they have battled an enemy and won. (15) Some African tribespeople get earlobe extensions or decorate their body with beads. (16) Overall, tattoos and piercings are not unique to the Western world. (17) In fact, members of the Western world adopted many of these traditions when they encountered other tribes. (18) In Thailand, certain monks get tattoos of animals to represent that animal protecting them. (19) Some of the markings represent achievement or maturity. (20) In a similar way, people who wear tattoos in the Western world may use their piercings or tattoos to indicate a certain accomplishment.",
+    "question_text": "Which sentence should replace sentence 9 to better introduce to topic of the paragraph?",
+    "options": [
+      "The Maori people are not the only tribe famous for marking their bodies.",
+      "African tribes have diets that are different from those of Westerners.",
+      "Many South American tribes have a process of marking themselves with tattoos as well.",
+      "Some animals are branded, or permanently scarred with hot metal, so that food companies can identify which animal is theirs."
+    ],
+    "correct_answer": 0,
+    "answer_type": "multiple_choice"
+  },
+  {
+    "_id": "10",
+    "question_number": 10,
+    "practice_set": "Practice Test 1",
+    "category": "Revising/Editing Part B",
+    "difficulty": "",
+    "time_estimate": 95,
+    "passage": "Body Modification\n(1) The number of adults with tattoos in the United States has been steadily increasing. (2) This is due to Americans' changing social attitudes, which make the practice more present in the 21st century than it was in more traditional generations. (3) Among one group of indigenous New Zealand people, tattoos have never been much of taboo issue. (4) The native Maori of that country have had a long tradition of inking their skin, producing intricate marks on their faces that might be unnerving to the uninitiated. (5) The Maori have a special, ritualistic war dance they sometimes perform as one of their customs. (6) The technique of creating these marks, called Ta Moko, was used as a method of distinguishing honored members of the islanders' society. (7) European explorer Captain James Cook wrote about his observations of these tattoos in the late 18th century. (8) He noted in his logs that the tattoos he encountered among the Maori people were unique to each person - no two were alike. (9) The Maori people have a fascinating culture. (10) Many groups of people in Africa and Asia were renowned for piercing or tattooing different parts of their bodies when the tribe members reach a certain age. (11) Different tattooed things on different parts of the body have different meanings. (12) In certain African tribes, women get nose piercings to symbolize that they are married. (13) Piercings are not the only form of body modification in Africa. (14) In a section of Ethiopia, men scar their bodies to indicate that they have battled an enemy and won. (15) Some African tribespeople get earlobe extensions or decorate their body with beads. (16) Overall, tattoos and piercings are not unique to the Western world. (17) In fact, members of the Western world adopted many of these traditions when they encountered other tribes. (18) In Thailand, certain monks get tattoos of animals to represent that animal protecting them. (19) Some of the markings represent achievement or maturity. (20) In a similar way, people who wear tattoos in the Western world may use their piercings or tattoos to indicate a certain accomplishment.",
+    "question_text": "How should sentence 10 be corrected?",
+    "options": [
+      "Change \"were\" to \"are\"",
+      "Change \"piercing\" to \"pierced\"",
+      "Change \"piercing\" to \"having pierced\"",
+      "Change \"reach\" to \"will reach\""
+    ],
+    "correct_answer": 0,
+    "answer_type": "multiple_choice"
+  },
+  {
+    "_id": "11",
+    "question_number": 11,
+    "practice_set": "Practice Test 1",
+    "category": "Revising/Editing Part B",
+    "difficulty": "",
+    "time_estimate": 95,
+    "passage": "Body Modification\n(1) The number of adults with tattoos in the United States has been steadily increasing. (2) This is due to Americans' changing social attitudes, which make the practice more present in the 21st century than it was in more traditional generations. (3) Among one group of indigenous New Zealand people, tattoos have never been much of taboo issue. (4) The native Maori of that country have had a long tradition of inking their skin, producing intricate marks on their faces that might be unnerving to the uninitiated. (5) The Maori have a special, ritualistic war dance they sometimes perform as one of their customs. (6) The technique of creating these marks, called Ta Moko, was used as a method of distinguishing honored members of the islanders' society. (7) European explorer Captain James Cook wrote about his observations of these tattoos in the late 18th century. (8) He noted in his logs that the tattoos he encountered among the Maori people were unique to each person - no two were alike. (9) The Maori people have a fascinating culture. (10) Many groups of people in Africa and Asia were renowned for piercing or tattooing different parts of their bodies when the tribe members reach a certain age. (11) Different tattooed things on different parts of the body have different meanings. (12) In certain African tribes, women get nose piercings to symbolize that they are married. (13) Piercings are not the only form of body modification in Africa. (14) In a section of Ethiopia, men scar their bodies to indicate that they have battled an enemy and won. (15) Some African tribespeople get earlobe extensions or decorate their body with beads. (16) Overall, tattoos and piercings are not unique to the Western world. (17) In fact, members of the Western world adopted many of these traditions when they encountered other tribes. (18) In Thailand, certain monks get tattoos of animals to represent that animal protecting them. (19) Some of the markings represent achievement or maturity. (20) In a similar way, people who wear tattoos in the Western world may use their piercings or tattoos to indicate a certain accomplishment.",
+    "question_text": "Which revision of sentence 11 contains the most precise language?",
+    "options": [
+      "Tattoos of different animals have various meanings depending on what the animal represents.",
+      "Different things in different places mean completely different things.",
+      "A tattoo with one meaning of an animal could be different from a tattoo with a different meaning.",
+      "One can interpret different animals differently when it comes to tattoos."
+    ],
+    "correct_answer": 0,
+    "answer_type": "multiple_choice"
+  },
+  {
+    "_id": "12",
+    "question_number": 12,
+    "practice_set": "Practice Test 1",
+    "category": "Revising/Editing Part B",
+    "difficulty": "",
+    "time_estimate": 95,
+    "passage": "Body Modification\n(1) The number of adults with tattoos in the United States has been steadily increasing. (2) This is due to Americans' changing social attitudes, which make the practice more present in the 21st century than it was in more traditional generations. (3) Among one group of indigenous New Zealand people, tattoos have never been much of taboo issue. (4) The native Maori of that country have had a long tradition of inking their skin, producing intricate marks on their faces that might be unnerving to the uninitiated. (5) The Maori have a special, ritualistic war dance they sometimes perform as one of their customs. (6) The technique of creating these marks, called Ta Moko, was used as a method of distinguishing honored members of the islanders' society. (7) European explorer Captain James Cook wrote about his observations of these tattoos in the late 18th century. (8) He noted in his logs that the tattoos he encountered among the Maori people were unique to each person - no two were alike. (9) The Maori people have a fascinating culture. (10) Many groups of people in Africa and Asia were renowned for piercing or tattooing different parts of their bodies when the tribe members reach a certain age. (11) Different tattooed things on different parts of the body have different meanings. (12) In certain African tribes, women get nose piercings to symbolize that they are married. (13) Piercings are not the only form of body modification in Africa. (14) In a section of Ethiopia, men scar their bodies to indicate that they have battled an enemy and won. (15) Some African tribespeople get earlobe extensions or decorate their body with beads. (16) Overall, tattoos and piercings are not unique to the Western world. (17) In fact, members of the Western world adopted many of these traditions when they encountered other tribes. (18) In Thailand, certain monks get tattoos of animals to represent that animal protecting them. (19) Some of the markings represent achievement or maturity. (20) In a similar way, people who wear tattoos in the Western world may use their piercings or tattoos to indicate a certain accomplishment.",
+    "question_text": "Where should sentence 18 be moved to improve the organization of the final paragraph?",
+    "options": [
+      "Between sentences 1 and 2",
+      "Between sentences 4 and 5",
+      "Between sentences 10 and 11",
+      "Between sentences 19 and 20"
+    ],
+    "correct_answer": 2,
+    "answer_type": "multiple_choice"
+  },
+  {
+    "_id": "13",
+    "question_number": 13,
+    "practice_set": "Practice Test 1",
+    "category": "Revising/Editing Part B",
+    "difficulty": "",
+    "time_estimate": 95,
+    "passage": "Body Modification\n(1) The number of adults with tattoos in the United States has been steadily increasing. (2) This is due to Americans' changing social attitudes, which make the practice more present in the 21st century than it was in more traditional generations. (3) Among one group of indigenous New Zealand people, tattoos have never been much of taboo issue. (4) The native Maori of that country have had a long tradition of inking their skin, producing intricate marks on their faces that might be unnerving to the uninitiated. (5) The Maori have a special, ritualistic war dance they sometimes perform as one of their customs. (6) The technique of creating these marks, called Ta Moko, was used as a method of distinguishing honored members of the islanders' society. (7) European explorer Captain James Cook wrote about his observations of these tattoos in the late 18th century. (8) He noted in his logs that the tattoos he encountered among the Maori people were unique to each person - no two were alike. (9) The Maori people have a fascinating culture. (10) Many groups of people in Africa and Asia were renowned for piercing or tattooing different parts of their bodies when the tribe members reach a certain age. (11) Different tattooed things on different parts of the body have different meanings. (12) In certain African tribes, women get nose piercings to symbolize that they are married. (13) Piercings are not the only form of body modification in Africa. (14) In a section of Ethiopia, men scar their bodies to indicate that they have battled an enemy and won. (15) Some African tribespeople get earlobe extensions or decorate their body with beads. (16) Overall, tattoos and piercings are not unique to the Western world. (17) In fact, members of the Western world adopted many of these traditions when they encountered other tribes. (18) In Thailand, certain monks get tattoos of animals to represent that animal protecting them. (19) Some of the markings represent achievement or maturity. (20) In a similar way, people who wear tattoos in the Western world may use their piercings or tattoos to indicate a certain accomplishment.",
+    "question_text": "Which sentence is irrelevant to the argument of the passage and should be deleted?",
+    "options": [
+      "Sentence 4",
+      "Sentence 5",
+      "Sentence 13",
+      "Sentence 14"
+    ],
+    "correct_answer": 1,
+    "answer_type": "multiple_choice"
+  },
+  {
+    "_id": "14",
+    "question_number": 14,
+    "practice_set": "Practice Test 1",
+    "category": "Revising/Editing Part B",
+    "difficulty": "",
+    "time_estimate": 95,
+    "passage": "Body Modification\n(1) The number of adults with tattoos in the United States has been steadily increasing. (2) This is due to Americans' changing social attitudes, which make the practice more present in the 21st century than it was in more traditional generations. (3) Among one group of indigenous New Zealand people, tattoos have never been much of taboo issue. (4) The native Maori of that country have had a long tradition of inking their skin, producing intricate marks on their faces that might be unnerving to the uninitiated. (5) The Maori have a special, ritualistic war dance they sometimes perform as one of their customs. (6) The technique of creating these marks, called Ta Moko, was used as a method of distinguishing honored members of the islanders' society. (7) European explorer Captain James Cook wrote about his observations of these tattoos in the late 18th century. (8) He noted in his logs that the tattoos he encountered among the Maori people were unique to each person - no two were alike. (9) The Maori people have a fascinating culture. (10) Many groups of people in Africa and Asia were renowned for piercing or tattooing different parts of their bodies when the tribe members reach a certain age. (11) Different tattooed things on different parts of the body have different meanings. (12) In certain African tribes, women get nose piercings to symbolize that they are married. (13) Piercings are not the only form of body modification in Africa. (14) In a section of Ethiopia, men scar their bodies to indicate that they have battled an enemy and won. (15) Some African tribespeople get earlobe extensions or decorate their body with beads. (16) Overall, tattoos and piercings are not unique to the Western world. (17) In fact, members of the Western world adopted many of these traditions when they encountered other tribes. (18) In Thailand, certain monks get tattoos of animals to represent that animal protecting them. (19) Some of the markings represent achievement or maturity. (20) In a similar way, people who wear tattoos in the Western world may use their piercings or tattoos to indicate a certain accomplishment.",
+    "question_text": "What concluding sentence should be added after sentence 20 to support the main argument of the passage?",
+    "options": [
+      "Whether in the Western or tribal world, body modification will probably continue to be significant to human culture.",
+      "Looking at the Western world, it is clear why so many tribe members are also getting tattoos.",
+      "The average age that girls in the United Kingdom get their ears pierced is estimated to be around 7.",
+      "The ritual of changing someone's body is becoming more accepted in the United States."
+    ],
+    "correct_answer": 0,
+    "answer_type": "multiple_choice"
+  },
+  {
+    "_id": "15",
+    "question_number": 15,
+    "practice_set": "Practice Test 1",
+    "category": "Revising/Editing Part B",
+    "difficulty": "",
+    "time_estimate": 95,
+    "passage": "Shared Names\n(1) \"Manhattan\" is a name that conjures images in one's head of stupendous skyscrapers, busy streets, and shops at every angle. (2) To the people living in a town of that name in Kansas, though, their conception of \"Manhattan\" is entirely different. (3) First, the smaller of those places contains roughly 3% the population of the larger. (4) Another area of difference is in the economy of those regions - the New York State location focuses on tourism, retail, marketing, and finance. (5) Most of the workers in the Kansas area are instead involved in entertainment, military enterprises, and education. (6) Jobs in that last field are especially prevalent as this Manhattan holds Kansas State University. (7) The two Manhattans only share a name - the culture and lifestyle of both places is distinctive. (8) The state of New Jersey shares its name with a faraway space - one that is across the Atlantic Ocean. (9) The state was named after Jersey, a large island between Great Britain and France. (10) Jersey, located in the English Channel, has a combination of both French and British culture. (11) While New Jersey also boasts an extensive coastline, it is different from the island city in that the state is home to many industrial and manufacturing zones. (12) Some people know that New York was originally called \"New Amsterdam\". (13) The song Istanbul (Not Constantinople) by the band They Might Be Giants mentions New York's original name. (14) York and Amsterdam are both cities in Europe that inspired the names of New York. (15) New York (or New Amsterdam) got its names because many European settlers in America named certain regions after familiar places back home. (16) However, the name \"Manhattan\" came from the native Americans. (17) There are many other such places named not after European cities but instead native names. (18) Some cities in the United States have grown to such an extent that there are now more people living in the new city than the original. (19) As an example, consider Albuquerque in New Mexico. (20) Named after a town on the border of Spain and Portugal, the U.S. city now claims a population of almost 600,000, while the border city barely has 6,000 residents.",
+    "question_text": "Which transition would best begin sentence 5?",
+    "options": [
+      "On the other hand,",
+      "While",
+      "Unfortunately,",
+      "Consequently,"
+    ],
+    "correct_answer": 0,
+    "answer_type": "multiple_choice"
+  },
+  {
+    "_id": "16",
+    "question_number": 16,
+    "practice_set": "Practice Test 1",
+    "category": "Revising/Editing Part B",
+    "difficulty": "",
+    "time_estimate": 95,
+    "passage": "Shared Names\n(1) \"Manhattan\" is a name that conjures images in one's head of stupendous skyscrapers, busy streets, and shops at every angle. (2) To the people living in a town of that name in Kansas, though, their conception of \"Manhattan\" is entirely different. (3) First, the smaller of those places contains roughly 3% the population of the larger. (4) Another area of difference is in the economy of those regions - the New York State location focuses on tourism, retail, marketing, and finance. (5) Most of the workers in the Kansas area are instead involved in entertainment, military enterprises, and education. (6) Jobs in that last field are especially prevalent as this Manhattan holds Kansas State University. (7) The two Manhattans only share a name - the culture and lifestyle of both places is distinctive. (8) The state of New Jersey shares its name with a faraway space - one that is across the Atlantic Ocean. (9) The state was named after Jersey, a large island between Great Britain and France. (10) Jersey, located in the English Channel, has a combination of both French and British culture. (11) While New Jersey also boasts an extensive coastline, it is different from the island city in that the state is home to many industrial and manufacturing zones. (12) Some people know that New York was originally called \"New Amsterdam\". (13) The song Istanbul (Not Constantinople) by the band They Might Be Giants mentions New York's original name. (14) York and Amsterdam are both cities in Europe that inspired the names of New York. (15) New York (or New Amsterdam) got its names because many European settlers in America named certain regions after familiar places back home. (16) However, the name \"Manhattan\" came from the native Americans. (17) There are many other such places named not after European cities but instead native names. (18) Some cities in the United States have grown to such an extent that there are now more people living in the new city than the original. (19) As an example, consider Albuquerque in New Mexico. (20) Named after a town on the border of Spain and Portugal, the U.S. city now claims a population of almost 600,000, while the border city barely has 6,000 residents.",
+    "question_text": "What sentence should follow sentence 7 to introduce the topic of the passage?",
+    "options": [
+      "New Jersey has become a place where many people who originally lived in New York have moved to because of cheaper housing.",
+      "Many cities and states in America take their names from other places or cultures.",
+      "In the same way that there is more than one Manhattan in the United States, America has more than one New Jersey.",
+      "To compare New Jersey to another piece of land, it is roughly the size of Israel in the Middle East."
+    ],
+    "correct_answer": 1,
+    "answer_type": "multiple_choice"
+  },
+  {
+    "_id": "17",
+    "question_number": 17,
+    "practice_set": "Practice Test 1",
+    "category": "Revising/Editing Part B",
+    "difficulty": "",
+    "time_estimate": 95,
+    "passage": "Shared Names\n(1) \"Manhattan\" is a name that conjures images in one's head of stupendous skyscrapers, busy streets, and shops at every angle. (2) To the people living in a town of that name in Kansas, though, their conception of \"Manhattan\" is entirely different. (3) First, the smaller of those places contains roughly 3% the population of the larger. (4) Another area of difference is in the economy of those regions - the New York State location focuses on tourism, retail, marketing, and finance. (5) Most of the workers in the Kansas area are instead involved in entertainment, military enterprises, and education. (6) Jobs in that last field are especially prevalent as this Manhattan holds Kansas State University. (7) The two Manhattans only share a name - the culture and lifestyle of both places is distinctive. (8) The state of New Jersey shares its name with a faraway space - one that is across the Atlantic Ocean. (9) The state was named after Jersey, a large island between Great Britain and France. (10) Jersey, located in the English Channel, has a combination of both French and British culture. (11) While New Jersey also boasts an extensive coastline, it is different from the island city in that the state is home to many industrial and manufacturing zones. (12) Some people know that New York was originally called \"New Amsterdam\". (13) The song Istanbul (Not Constantinople) by the band They Might Be Giants mentions New York's original name. (14) York and Amsterdam are both cities in Europe that inspired the names of New York. (15) New York (or New Amsterdam) got its names because many European settlers in America named certain regions after familiar places back home. (16) However, the name \"Manhattan\" came from the native Americans. (17) There are many other such places named not after European cities but instead native names. (18) Some cities in the United States have grown to such an extent that there are now more people living in the new city than the original. (19) As an example, consider Albuquerque in New Mexico. (20) Named after a town on the border of Spain and Portugal, the U.S. city now claims a population of almost 600,000, while the border city barely has 6,000 residents.",
+    "question_text": "Which sentence could be added to follow and support sentence 10?",
+    "options": [
+      "Almost everybody on that island is aware of their American counterpart.",
+      "Jersey has also developed a significant Portuguese community.",
+      "One of Jersey's tradition is an annual festival involving flowers.",
+      "Both English and French are officially recognized languages there."
+    ],
+    "correct_answer": 3,
+    "answer_type": "multiple_choice"
+  },
+  {
+    "_id": "18",
+    "question_number": 18,
+    "practice_set": "Practice Test 1",
+    "category": "Revising/Editing Part B",
+    "difficulty": "",
+    "time_estimate": 95,
+    "passage": "Shared Names\n(1) \"Manhattan\" is a name that conjures images in one's head of stupendous skyscrapers, busy streets, and shops at every angle. (2) To the people living in a town of that name in Kansas, though, their conception of \"Manhattan\" is entirely different. (3) First, the smaller of those places contains roughly 3% the population of the larger. (4) Another area of difference is in the economy of those regions - the New York State location focuses on tourism, retail, marketing, and finance. (5) Most of the workers in the Kansas area are instead involved in entertainment, military enterprises, and education. (6) Jobs in that last field are especially prevalent as this Manhattan holds Kansas State University. (7) The two Manhattans only share a name - the culture and lifestyle of both places is distinctive. (8) The state of New Jersey shares its name with a faraway space - one that is across the Atlantic Ocean. (9) The state was named after Jersey, a large island between Great Britain and France. (10) Jersey, located in the English Channel, has a combination of both French and British culture. (11) While New Jersey also boasts an extensive coastline, it is different from the island city in that the state is home to many industrial and manufacturing zones. (12) Some people know that New York was originally called \"New Amsterdam\". (13) The song Istanbul (Not Constantinople) by the band They Might Be Giants mentions New York's original name. (14) York and Amsterdam are both cities in Europe that inspired the names of New York. (15) New York (or New Amsterdam) got its names because many European settlers in America named certain regions after familiar places back home. (16) However, the name \"Manhattan\" came from the native Americans. (17) There are many other such places named not after European cities but instead native names. (18) Some cities in the United States have grown to such an extent that there are now more people living in the new city than the original. (19) As an example, consider Albuquerque in New Mexico. (20) Named after a town on the border of Spain and Portugal, the U.S. city now claims a population of almost 600,000, while the border city barely has 6,000 residents.",
+    "question_text": "Where could sentence 7 be moved to improve the organization of the first paragraph?",
+    "options": [
+      "Between sentences 1 and 2",
+      "Between sentences 2 and 3",
+      "Between sentences 3 and 4",
+      "Between sentences 4 and 5"
+    ],
+    "correct_answer": 1,
+    "answer_type": "multiple_choice"
+  },
+  {
+    "_id": "19",
+    "question_number": 19,
+    "practice_set": "Practice Test 1",
+    "category": "Revising/Editing Part B",
+    "difficulty": "",
+    "time_estimate": 95,
+    "passage": "Shared Names\n(1) \"Manhattan\" is a name that conjures images in one's head of stupendous skyscrapers, busy streets, and shops at every angle. (2) To the people living in a town of that name in Kansas, though, their conception of \"Manhattan\" is entirely different. (3) First, the smaller of those places contains roughly 3% the population of the larger. (4) Another area of difference is in the economy of those regions - the New York State location focuses on tourism, retail, marketing, and finance. (5) Most of the workers in the Kansas area are instead involved in entertainment, military enterprises, and education. (6) Jobs in that last field are especially prevalent as this Manhattan holds Kansas State University. (7) The two Manhattans only share a name - the culture and lifestyle of both places is distinctive. (8) The state of New Jersey shares its name with a faraway space - one that is across the Atlantic Ocean. (9) The state was named after Jersey, a large island between Great Britain and France. (10) Jersey, located in the English Channel, has a combination of both French and British culture. (11) While New Jersey also boasts an extensive coastline, it is different from the island city in that the state is home to many industrial and manufacturing zones. (12) Some people know that New York was originally called \"New Amsterdam\". (13) The song Istanbul (Not Constantinople) by the band They Might Be Giants mentions New York's original name. (14) York and Amsterdam are both cities in Europe that inspired the names of New York. (15) New York (or New Amsterdam) got its names because many European settlers in America named certain regions after familiar places back home. (16) However, the name \"Manhattan\" came from the native Americans. (17) There are many other such places named not after European cities but instead native names. (18) Some cities in the United States have grown to such an extent that there are now more people living in the new city than the original. (19) As an example, consider Albuquerque in New Mexico. (20) Named after a town on the border of Spain and Portugal, the U.S. city now claims a population of almost 600,000, while the border city barely has 6,000 residents.",
+    "question_text": "Which sentence is irrelevant to the passage and can be deleted?",
+    "options": [
+      "Sentence 5",
+      "Sentence 6",
+      "Sentence 13",
+      "Sentence 19"
+    ],
+    "correct_answer": 2,
+    "answer_type": "multiple_choice"
+  },
+  {
+    "_id": "20",
+    "question_number": 20,
+    "practice_set": "Practice Test 1",
+    "category": "Revising/Editing Part B",
+    "difficulty": "",
+    "time_estimate": 95,
+    "passage": "Shared Names\n(1) \"Manhattan\" is a name that conjures images in one's head of stupendous skyscrapers, busy streets, and shops at every angle. (2) To the people living in a town of that name in Kansas, though, their conception of \"Manhattan\" is entirely different. (3) First, the smaller of those places contains roughly 3% the population of the larger. (4) Another area of difference is in the economy of those regions - the New York State location focuses on tourism, retail, marketing, and finance. (5) Most of the workers in the Kansas area are instead involved in entertainment, military enterprises, and education. (6) Jobs in that last field are especially prevalent as this Manhattan holds Kansas State University. (7) The two Manhattans only share a name - the culture and lifestyle of both places is distinctive. (8) The state of New Jersey shares its name with a faraway space - one that is across the Atlantic Ocean. (9) The state was named after Jersey, a large island between Great Britain and France. (10) Jersey, located in the English Channel, has a combination of both French and British culture. (11) While New Jersey also boasts an extensive coastline, it is different from the island city in that the state is home to many industrial and manufacturing zones. (12) Some people know that New York was originally called \"New Amsterdam\". (13) The song Istanbul (Not Constantinople) by the band They Might Be Giants mentions New York's original name. (14) York and Amsterdam are both cities in Europe that inspired the names of New York. (15) New York (or New Amsterdam) got its names because many European settlers in America named certain regions after familiar places back home. (16) However, the name \"Manhattan\" came from the native Americans. (17) There are many other such places named not after European cities but instead native names. (18) Some cities in the United States have grown to such an extent that there are now more people living in the new city than the original. (19) As an example, consider Albuquerque in New Mexico. (20) Named after a town on the border of Spain and Portugal, the U.S. city now claims a population of almost 600,000, while the border city barely has 6,000 residents.",
+    "question_text": "Which of the following sentences would best fit after sentence 20 to conclude the passage?",
+    "options": [
+      "Perhaps American cities in the future will have their names borrowed from native tribes.",
+      "This city enjoys a mild climate year-round.",
+      "While places around the world may share names, they can still have distinctive cultures.",
+      "New Mexico shares more similarities with the country of Mexico than with Spain or Portugal."
+    ],
+    "correct_answer": 2,
+    "answer_type": "multiple_choice"
+  },
+  {
+    "_id": "21",
+    "question_number": 21,
+    "practice_set": "Practice Test 1",
+    "category": "Reading Comprehension",
+    "difficulty": "",
+    "time_estimate": 95,
+    "passage": "Much is spoken about the infamous Genghis Khan, a ruthless Mongol leader who created the largest empire of his time, spanning, at its peak, an area that encompassed parts of the Middle East, Western Europe, and the eastern corners of Asia. Through Genghis' military might, he was able to get many early civilizations to succumb to the strength of the Mongol Empire. However, much less is written about the weapons and war tactics which the ruler utilized to secure such swaths of land. One of the key tools in the Mongol army's arsenal was its array of bows and arrows. Whereas attacks from Mediterranean bows required a three-finger release, a Mongolian bow could be shot using only one's thumb. This led to fewer failed shots and allowed the Mongol armies to unleash a barrage of metal at their foes effectively. Mongols were influenced by contemporaneous Eastern societies in their use of flaming arrows throughout their war campaign. Troops would line the arrows with highly flammable material, such as resin, that they would ignite before shooting. In addition to these unusual but deadly tools of war, Khan's army took advantage of a crucial military strategy. They knew, as many of us know in the modern era, that swift access to information would ensure success. The Mongol army employed swift messengers and message stations which relayed information quickly, like an archaic dial-up online network system. Khan was also particularly successful with a technique dubbed the \"feigned retreat\", in which his troops pretended to evacuate, lowering the opponent's guard, and then came rushing back to ambush their opponents. Khan sent spies to survey the lands that he would take over to plan the best possible battle. The Mongol army was also masterful when it came to intimidating foes, placing troops made of straw on spare horses to create the illusion that his army was larger than its actual size. While Khan was a brilliant leader and tactician, he certainly could not have dominated such a large portion of the globe alone. His loyal army, innovative weaponry, and strategic military conduct earned him the title of the Great Khan of the Mongol Empire.",
+    "question_text": "What is the main idea of the passage?",
+    "options": [
+      "Genghis Khan was a brilliant military leader and used his influence to positively impact the civilizations he controlled.",
+      "The Turkish people of the time resisted Genghis Khan's military.",
+      "Genghis Khan was physically and mentally tougher than most other people of his time.",
+      "Combined with tactical strength and lethal weaponry, Genghis Khan's army could conquer many areas."
+    ],
+    "correct_answer": 3,
+    "answer_type": "multiple_choice"
+  },
+  {
+    "_id": "22",
+    "question_number": 22,
+    "practice_set": "Practice Test 1",
+    "category": "Reading Comprehension",
+    "difficulty": "",
+    "time_estimate": 95,
+    "passage": "Much is spoken about the infamous Genghis Khan, a ruthless Mongol leader who created the largest empire of his time, spanning, at its peak, an area that encompassed parts of the Middle East, Western Europe, and the eastern corners of Asia. Through Genghis' military might, he was able to get many early civilizations to succumb to the strength of the Mongol Empire. However, much less is written about the weapons and war tactics which the ruler utilized to secure such swaths of land. One of the key tools in the Mongol army's arsenal was its array of bows and arrows. Whereas attacks from Mediterranean bows required a three-finger release, a Mongolian bow could be shot using only one's thumb. This led to fewer failed shots and allowed the Mongol armies to unleash a barrage of metal at their foes effectively. Mongols were influenced by contemporaneous Eastern societies in their use of flaming arrows throughout their war campaign. Troops would line the arrows with highly flammable material, such as resin, that they would ignite before shooting. In addition to these unusual but deadly tools of war, Khan's army took advantage of a crucial military strategy. They knew, as many of us know in the modern era, that swift access to information would ensure success. The Mongol army employed swift messengers and message stations which relayed information quickly, like an archaic dial-up online network system. Khan was also particularly successful with a technique dubbed the \"feigned retreat\", in which his troops pretended to evacuate, lowering the opponent's guard, and then came rushing back to ambush their opponents. Khan sent spies to survey the lands that he would take over to plan the best possible battle. The Mongol army was also masterful when it came to intimidating foes, placing troops made of straw on spare horses to create the illusion that his army was larger than its actual size. While Khan was a brilliant leader and tactician, he certainly could not have dominated such a large portion of the globe alone. His loyal army, innovative weaponry, and strategic military conduct earned him the title of the Great Khan of the Mongol Empire.",
+    "question_text": "Which of the following was not mentioned as one of the Mongol army's strategies?",
+    "options": [
+      "Using messengers to rapidly deliver messages.",
+      "Employing fake troops to frighten the enemy.",
+      "Faking a retreat and then doubling back to strike.",
+      "Attaching explosives to their arrows."
+    ],
+    "correct_answer": 3,
+    "answer_type": "multiple_choice"
+  },
+  {
+    "_id": "23",
+    "question_number": 23,
+    "practice_set": "Practice Test 1",
+    "category": "Reading Comprehension",
+    "difficulty": "",
+    "time_estimate": 95,
+    "passage": "Much is spoken about the infamous Genghis Khan, a ruthless Mongol leader who created the largest empire of his time, spanning, at its peak, an area that encompassed parts of the Middle East, Western Europe, and the eastern corners of Asia. Through Genghis' military might, he was able to get many early civilizations to succumb to the strength of the Mongol Empire. However, much less is written about the weapons and war tactics which the ruler utilized to secure such swaths of land. One of the key tools in the Mongol army's arsenal was its array of bows and arrows. Whereas attacks from Mediterranean bows required a three-finger release, a Mongolian bow could be shot using only one's thumb. This led to fewer failed shots and allowed the Mongol armies to unleash a barrage of metal at their foes effectively. Mongols were influenced by contemporaneous Eastern societies in their use of flaming arrows throughout their war campaign. Troops would line the arrows with highly flammable material, such as resin, that they would ignite before shooting. In addition to these unusual but deadly tools of war, Khan's army took advantage of a crucial military strategy. They knew, as many of us know in the modern era, that swift access to information would ensure success. The Mongol army employed swift messengers and message stations which relayed information quickly, like an archaic dial-up online network system. Khan was also particularly successful with a technique dubbed the \"feigned retreat\", in which his troops pretended to evacuate, lowering the opponent's guard, and then came rushing back to ambush their opponents. Khan sent spies to survey the lands that he would take over to plan the best possible battle. The Mongol army was also masterful when it came to intimidating foes, placing troops made of straw on spare horses to create the illusion that his army was larger than its actual size. While Khan was a brilliant leader and tactician, he certainly could not have dominated such a large portion of the globe alone. His loyal army, innovative weaponry, and strategic military conduct earned him the title of the Great Khan of the Mongol Empire.",
+    "question_text": "Why did Khan's army most likely put resin on their arrows?",
+    "options": [
+      "To silence the whistle the arrows made as they flew.",
+      "Other Eastern societies had ordered them to do so.",
+      "To set the arrow aflame before they reached their targets.",
+      "To aid with the one-finger release strategy."
+    ],
+    "correct_answer": 2,
+    "answer_type": "multiple_choice"
+  },
+  {
+    "_id": "24",
+    "question_number": 24,
+    "practice_set": "Practice Test 1",
+    "category": "Reading Comprehension",
+    "difficulty": "",
+    "time_estimate": 95,
+    "passage": "Much is spoken about the infamous Genghis Khan, a ruthless Mongol leader who created the largest empire of his time, spanning, at its peak, an area that encompassed parts of the Middle East, Western Europe, and the eastern corners of Asia. Through Genghis' military might, he was able to get many early civilizations to succumb to the strength of the Mongol Empire. However, much less is written about the weapons and war tactics which the ruler utilized to secure such swaths of land. One of the key tools in the Mongol army's arsenal was its array of bows and arrows. Whereas attacks from Mediterranean bows required a three-finger release, a Mongolian bow could be shot using only one's thumb. This led to fewer failed shots and allowed the Mongol armies to unleash a barrage of metal at their foes effectively. Mongols were influenced by contemporaneous Eastern societies in their use of flaming arrows throughout their war campaign. Troops would line the arrows with highly flammable material, such as resin, that they would ignite before shooting. In addition to these unusual but deadly tools of war, Khan's army took advantage of a crucial military strategy. They knew, as many of us know in the modern era, that swift access to information would ensure success. The Mongol army employed swift messengers and message stations which relayed information quickly, like an archaic dial-up online network system. Khan was also particularly successful with a technique dubbed the \"feigned retreat\", in which his troops pretended to evacuate, lowering the opponent's guard, and then came rushing back to ambush their opponents. Khan sent spies to survey the lands that he would take over to plan the best possible battle. The Mongol army was also masterful when it came to intimidating foes, placing troops made of straw on spare horses to create the illusion that his army was larger than its actual size. While Khan was a brilliant leader and tactician, he certainly could not have dominated such a large portion of the globe alone. His loyal army, innovative weaponry, and strategic military conduct earned him the title of the Great Khan of the Mongol Empire.",
+    "question_text": "How would the author most likely describe Khan?",
+    "options": [
+      "greedy and power-hungry",
+      "tolerant but confused",
+      "intelligent and fierce",
+      "brave but naturally angry"
+    ],
+    "correct_answer": 2,
+    "answer_type": "multiple_choice"
+  },
+  {
+    "_id": "25",
+    "question_number": 25,
+    "practice_set": "Practice Test 1",
+    "category": "Reading Comprehension",
+    "difficulty": "",
+    "time_estimate": 95,
+    "passage": "Much is spoken about the infamous Genghis Khan, a ruthless Mongol leader who created the largest empire of his time, spanning, at its peak, an area that encompassed parts of the Middle East, Western Europe, and the eastern corners of Asia. Through Genghis' military might, he was able to get many early civilizations to succumb to the strength of the Mongol Empire. However, much less is written about the weapons and war tactics which the ruler utilized to secure such swaths of land. One of the key tools in the Mongol army's arsenal was its array of bows and arrows. Whereas attacks from Mediterranean bows required a three-finger release, a Mongolian bow could be shot using only one's thumb. This led to fewer failed shots and allowed the Mongol armies to unleash a barrage of metal at their foes effectively. Mongols were influenced by contemporaneous Eastern societies in their use of flaming arrows throughout their war campaign. Troops would line the arrows with highly flammable material, such as resin, that they would ignite before shooting. In addition to these unusual but deadly tools of war, Khan's army took advantage of a crucial military strategy. They knew, as many of us know in the modern era, that swift access to information would ensure success. The Mongol army employed swift messengers and message stations which relayed information quickly, like an archaic dial-up online network system. Khan was also particularly successful with a technique dubbed the \"feigned retreat\", in which his troops pretended to evacuate, lowering the opponent's guard, and then came rushing back to ambush their opponents. Khan sent spies to survey the lands that he would take over to plan the best possible battle. The Mongol army was also masterful when it came to intimidating foes, placing troops made of straw on spare horses to create the illusion that his army was larger than its actual size. While Khan was a brilliant leader and tactician, he certainly could not have dominated such a large portion of the globe alone. His loyal army, innovative weaponry, and strategic military conduct earned him the title of the Great Khan of the Mongol Empire.",
+    "question_text": "What does the author imply is most important to succeeding in battle?",
+    "options": [
+      "Quick and reliable access to information",
+      "A rapid method of transporting troops and supplies",
+      "A large variety of weapons",
+      "The ability to strategically retreat"
+    ],
+    "correct_answer": 0,
+    "answer_type": "multiple_choice"
+  },
+  {
+    "_id": "26",
+    "question_number": 26,
+    "practice_set": "Practice Test 1",
+    "category": "Reading Comprehension",
+    "difficulty": "",
+    "time_estimate": 95,
+    "passage": "Much is spoken about the infamous Genghis Khan, a ruthless Mongol leader who created the largest empire of his time, spanning, at its peak, an area that encompassed parts of the Middle East, Western Europe, and the eastern corners of Asia. Through Genghis' military might, he was able to get many early civilizations to succumb to the strength of the Mongol Empire. However, much less is written about the weapons and war tactics which the ruler utilized to secure such swaths of land. One of the key tools in the Mongol army's arsenal was its array of bows and arrows. Whereas attacks from Mediterranean bows required a three-finger release, a Mongolian bow could be shot using only one's thumb. This led to fewer failed shots and allowed the Mongol armies to unleash a barrage of metal at their foes effectively. Mongols were influenced by contemporaneous Eastern societies in their use of flaming arrows throughout their war campaign. Troops would line the arrows with highly flammable material, such as resin, that they would ignite before shooting. In addition to these unusual but deadly tools of war, Khan's army took advantage of a crucial military strategy. They knew, as many of us know in the modern era, that swift access to information would ensure success. The Mongol army employed swift messengers and message stations which relayed information quickly, like an archaic dial-up online network system. Khan was also particularly successful with a technique dubbed the \"feigned retreat\", in which his troops pretended to evacuate, lowering the opponent's guard, and then came rushing back to ambush their opponents. Khan sent spies to survey the lands that he would take over to plan the best possible battle. The Mongol army was also masterful when it came to intimidating foes, placing troops made of straw on spare horses to create the illusion that his army was larger than its actual size. While Khan was a brilliant leader and tactician, he certainly could not have dominated such a large portion of the globe alone. His loyal army, innovative weaponry, and strategic military conduct earned him the title of the Great Khan of the Mongol Empire.",
+    "question_text": "What does the author imply about Khan?",
+    "options": [
+      "He was not very well known.",
+      "He had created the largest empire in history.",
+      "He was the first Great Khan of the Mongol Empire.",
+      "Writers have generally tended not to focus on his tools of war."
+    ],
+    "correct_answer": 3,
+    "answer_type": "multiple_choice"
+  },
+  {
+    "_id": "27",
+    "question_number": 27,
+    "practice_set": "Practice Test 1",
+    "category": "Reading Comprehension",
+    "difficulty": "",
+    "time_estimate": 95,
+    "passage": "The word \"meme' can be traced back to evolutionary biologist Richard Dawkins in his book on genetics called The Selfish Gene, published in 1976. When Dawkins used the term, he was referring to an idea that spreads through culture, comparing the concept to the way a gene passes from one person to another. The term evolved over time and has come to colloquially mean \"a funny image on the Internet,\" but despite this change, memes and genes have many shared characteristics. Genes are the basic units of our heritage. Through them, our parents or grandparents may happen to pass on traits to their progeny, from the benign (such as blue eyes or freckles) to the malignant (like a propensity for heart disease or certain types of cancer.) Memes, on the other hand, are passed through spreading thoughts rather than through one's biology, and consequently follow a much shorter-lived cycle that greatly outpaces the rate at which offspring can be conceived. Thus, we have two sets of spreading: one involved with the physical, which is permanent, and the other involved with the mental, which is more ephemeral. A further difference is that one need not necessarily be from the same bloodline to spread a meme. Some genes are more likely to manifest in one's children than others, leading to the distinction between \"dominant\" and recessive\" genes. In much the same way, certain ideas in culture are more prevalent than others. Though humor is highly subjective, there have been attempts to algorithmically predict whether a humorous Internet meme would be successful. A group of researchers, most of whom were from the Center for Complex Networks and Systems Research School of Informatics and Computing in Indiana University, have found that many memes have a half-life, meaning that the amount of times that a joke is replicated halves after its peak, and this phenomenon can be measured on a timeline. Their study also found that there are certain traits within memes that make them more likely to go viral or not, such as depiction of a universal issue. This can be seen in how the faces in Rage Comics were meant to represent the spectrum of human emotion, thus making them relatable across social boundaries and therefore well-known. However, this factor of universality alone is not necessarily enough to ensure success, and a meme's duration also depends on several external factors working in tandem. Dawkins' comparison still holds true today. Whether one observes the beaks of finches or the ideas of various social groups, the concept of passing something down is inexorably linked to our lives.",
+    "question_text": "What does this passage mostly detail?",
+    "options": [
+      "The usage of Internet memes and the roots of the word \"meme.\"",
+      "The ways in which ideas are passed down from one generation to the next.",
+      "The similarities and differences between memes and genes.",
+      "A recent discovery in the field of genetics that may change the way scholars discuss memes."
+    ],
+    "correct_answer": 2,
+    "answer_type": "multiple_choice"
+  },
+  {
+    "_id": "28",
+    "question_number": 28,
+    "practice_set": "Practice Test 1",
+    "category": "Reading Comprehension",
+    "difficulty": "",
+    "time_estimate": 95,
+    "passage": "The word \"meme' can be traced back to evolutionary biologist Richard Dawkins in his book on genetics called The Selfish Gene, published in 1976. When Dawkins used the term, he was referring to an idea that spreads through culture, comparing the concept to the way a gene passes from one person to another. The term evolved over time and has come to colloquially mean \"a funny image on the Internet,\" but despite this change, memes and genes have many shared characteristics. Genes are the basic units of our heritage. Through them, our parents or grandparents may happen to pass on traits to their progeny, from the benign (such as blue eyes or freckles) to the malignant (like a propensity for heart disease or certain types of cancer.) Memes, on the other hand, are passed through spreading thoughts rather than through one's biology, and consequently follow a much shorter-lived cycle that greatly outpaces the rate at which offspring can be conceived. Thus, we have two sets of spreading: one involved with the physical, which is permanent, and the other involved with the mental, which is more ephemeral. A further difference is that one need not necessarily be from the same bloodline to spread a meme. Some genes are more likely to manifest in one's children than others, leading to the distinction between \"dominant\" and recessive\" genes. In much the same way, certain ideas in culture are more prevalent than others. Though humor is highly subjective, there have been attempts to algorithmically predict whether a humorous Internet meme would be successful. A group of researchers, most of whom were from the Center for Complex Networks and Systems Research School of Informatics and Computing in Indiana University, have found that many memes have a half-life, meaning that the amount of times that a joke is replicated halves after its peak, and this phenomenon can be measured on a timeline. Their study also found that there are certain traits within memes that make them more likely to go viral or not, such as depiction of a universal issue. This can be seen in how the faces in Rage Comics were meant to represent the spectrum of human emotion, thus making them relatable across social boundaries and therefore well-known. However, this factor of universality alone is not necessarily enough to ensure success, and a meme's duration also depends on several external factors working in tandem. Dawkins' comparison still holds true today. Whether one observes the beaks of finches or the ideas of various social groups, the concept of passing something down is inexorably linked to our lives.",
+    "question_text": "What does the author not mention as a possible characteristic of genes?",
+    "options": [
+      "Spreading ideas",
+      "Blue eyes",
+      "Freckles",
+      "Susceptibility to certain forms of cancer"
+    ],
+    "correct_answer": 0,
+    "answer_type": "multiple_choice"
+  },
+  {
+    "_id": "29",
+    "question_number": 29,
+    "practice_set": "Practice Test 1",
+    "category": "Reading Comprehension",
+    "difficulty": "",
+    "time_estimate": 95,
+    "passage": "The word \"meme' can be traced back to evolutionary biologist Richard Dawkins in his book on genetics called The Selfish Gene, published in 1976. When Dawkins used the term, he was referring to an idea that spreads through culture, comparing the concept to the way a gene passes from one person to another. The term evolved over time and has come to colloquially mean \"a funny image on the Internet,\" but despite this change, memes and genes have many shared characteristics. Genes are the basic units of our heritage. Through them, our parents or grandparents may happen to pass on traits to their progeny, from the benign (such as blue eyes or freckles) to the malignant (like a propensity for heart disease or certain types of cancer.) Memes, on the other hand, are passed through spreading thoughts rather than through one's biology, and consequently follow a much shorter-lived cycle that greatly outpaces the rate at which offspring can be conceived. Thus, we have two sets of spreading: one involved with the physical, which is permanent, and the other involved with the mental, which is more ephemeral. A further difference is that one need not necessarily be from the same bloodline to spread a meme. Some genes are more likely to manifest in one's children than others, leading to the distinction between \"dominant\" and recessive\" genes. In much the same way, certain ideas in culture are more prevalent than others. Though humor is highly subjective, there have been attempts to algorithmically predict whether a humorous Internet meme would be successful. A group of researchers, most of whom were from the Center for Complex Networks and Systems Research School of Informatics and Computing in Indiana University, have found that many memes have a half-life, meaning that the amount of times that a joke is replicated halves after its peak, and this phenomenon can be measured on a timeline. Their study also found that there are certain traits within memes that make them more likely to go viral or not, such as depiction of a universal issue. This can be seen in how the faces in Rage Comics were meant to represent the spectrum of human emotion, thus making them relatable across social boundaries and therefore well-known. However, this factor of universality alone is not necessarily enough to ensure success, and a meme's duration also depends on several external factors working in tandem. Dawkins' comparison still holds true today. Whether one observes the beaks of finches or the ideas of various social groups, the concept of passing something down is inexorably linked to our lives.",
+    "question_text": "What does the author imply about Richard Dawkins?",
+    "options": [
+      "His idea of memes as \"gene-like\" continues to be relevant.",
+      "His work would never have been published if he had not focused on genetics.",
+      "He was one of the researchers at Indiana University who studied memes.",
+      "Dawkins discovered that memes have a \"half-life\"."
+    ],
+    "correct_answer": 0,
+    "answer_type": "multiple_choice"
+  },
+  {
+    "_id": "30",
+    "question_number": 30,
+    "practice_set": "Practice Test 1",
+    "category": "Reading Comprehension",
+    "difficulty": "",
+    "time_estimate": 95,
+    "passage": "The word \"meme' can be traced back to evolutionary biologist Richard Dawkins in his book on genetics called The Selfish Gene, published in 1976. When Dawkins used the term, he was referring to an idea that spreads through culture, comparing the concept to the way a gene passes from one person to another. The term evolved over time and has come to colloquially mean \"a funny image on the Internet,\" but despite this change, memes and genes have many shared characteristics. Genes are the basic units of our heritage. Through them, our parents or grandparents may happen to pass on traits to their progeny, from the benign (such as blue eyes or freckles) to the malignant (like a propensity for heart disease or certain types of cancer.) Memes, on the other hand, are passed through spreading thoughts rather than through one's biology, and consequently follow a much shorter-lived cycle that greatly outpaces the rate at which offspring can be conceived. Thus, we have two sets of spreading: one involved with the physical, which is permanent, and the other involved with the mental, which is more ephemeral. A further difference is that one need not necessarily be from the same bloodline to spread a meme. Some genes are more likely to manifest in one's children than others, leading to the distinction between \"dominant\" and recessive\" genes. In much the same way, certain ideas in culture are more prevalent than others. Though humor is highly subjective, there have been attempts to algorithmically predict whether a humorous Internet meme would be successful. A group of researchers, most of whom were from the Center for Complex Networks and Systems Research School of Informatics and Computing in Indiana University, have found that many memes have a half-life, meaning that the amount of times that a joke is replicated halves after its peak, and this phenomenon can be measured on a timeline. Their study also found that there are certain traits within memes that make them more likely to go viral or not, such as depiction of a universal issue. This can be seen in how the faces in Rage Comics were meant to represent the spectrum of human emotion, thus making them relatable across social boundaries and therefore well-known. However, this factor of universality alone is not necessarily enough to ensure success, and a meme's duration also depends on several external factors working in tandem. Dawkins' comparison still holds true today. Whether one observes the beaks of finches or the ideas of various social groups, the concept of passing something down is inexorably linked to our lives.",
+    "question_text": "Why were Rage Comics popular, according to the passage?",
+    "options": [
+      "Many people talked about them and posted them online, thus spreading their renown.",
+      "The crude drawings were easy for anyone to make and share.",
+      "They were designed to have longer half-lives than those of other memes.",
+      "They depicted feelings that were relatable to many people."
+    ],
+    "correct_answer": 3,
+    "answer_type": "multiple_choice"
+  },
+  {
+    "_id": "31",
+    "question_number": 31,
+    "practice_set": "Practice Test 1",
+    "category": "Reading Comprehension",
+    "difficulty": "",
+    "time_estimate": 95,
+    "passage": "The word \"meme' can be traced back to evolutionary biologist Richard Dawkins in his book on genetics called The Selfish Gene, published in 1976. When Dawkins used the term, he was referring to an idea that spreads through culture, comparing the concept to the way a gene passes from one person to another. The term evolved over time and has come to colloquially mean \"a funny image on the Internet,\" but despite this change, memes and genes have many shared characteristics. Genes are the basic units of our heritage. Through them, our parents or grandparents may happen to pass on traits to their progeny, from the benign (such as blue eyes or freckles) to the malignant (like a propensity for heart disease or certain types of cancer.) Memes, on the other hand, are passed through spreading thoughts rather than through one's biology, and consequently follow a much shorter-lived cycle that greatly outpaces the rate at which offspring can be conceived. Thus, we have two sets of spreading: one involved with the physical, which is permanent, and the other involved with the mental, which is more ephemeral. A further difference is that one need not necessarily be from the same bloodline to spread a meme. Some genes are more likely to manifest in one's children than others, leading to the distinction between \"dominant\" and recessive\" genes. In much the same way, certain ideas in culture are more prevalent than others. Though humor is highly subjective, there have been attempts to algorithmically predict whether a humorous Internet meme would be successful. A group of researchers, most of whom were from the Center for Complex Networks and Systems Research School of Informatics and Computing in Indiana University, have found that many memes have a half-life, meaning that the amount of times that a joke is replicated halves after its peak, and this phenomenon can be measured on a timeline. Their study also found that there are certain traits within memes that make them more likely to go viral or not, such as depiction of a universal issue. This can be seen in how the faces in Rage Comics were meant to represent the spectrum of human emotion, thus making them relatable across social boundaries and therefore well-known. However, this factor of universality alone is not necessarily enough to ensure success, and a meme's duration also depends on several external factors working in tandem. Dawkins' comparison still holds true today. Whether one observes the beaks of finches or the ideas of various social groups, the concept of passing something down is inexorably linked to our lives.",
+    "question_text": "As opposed to genes, memes",
+    "options": [
+      "affect others",
+      "are physical",
+      "are permanent",
+      "are ideas"
+    ],
+    "correct_answer": 3,
+    "answer_type": "multiple_choice"
+  },
+  {
+    "_id": "32",
+    "question_number": 32,
+    "practice_set": "Practice Test 1",
+    "category": "Reading Comprehension",
+    "difficulty": "",
+    "time_estimate": 95,
+    "passage": "Machines dispense our snacks, check the price tag on our produce, alert security of suspicious activity, and redirect us to the correct department on the phone, all without hassle. At a certain time, humans were employed to work these jobs, but the Age of Information has slowly started to phase some of these means of livelihood out. Our mechanical counterparts are changing the way we see jobs. Someone may think he or she works in special profession that could never be taken by a robot. However, many occupations that seem exclusive to humans have been performed by machines before. Surprisingly, it is possible to program a computer to make sounds that will compel the masses by shaping its behavior to produce music that will appeal to the human ear. UC Santa Cruz professor David Cope made a programmed composer called Emily Howell, which has 5000 zip files of compositions available for anyone to download. These bots abound, and there is even a mechanically-controlled mini orchestra called Orchestrion that creates sounds that sweep a spectrum of genres, from ragtime to pop to synth. Z-Machines, a completely mechanical band, was designed by Japanese scientists with the intention of transcending the boundaries of human ability - the guitarist has 78 fingers and the drummer has 22 arms. Large companies like the Associated Press, Yahoo, Allstate, Samsung, and Comcast also automate their writers at times. These corporations use a program called Automated Insights to write about topics ranging from sports to fitness to finance, and the writing can be indistinguishable from that of a human. Robots aren't just used for technical writing but creative work as well. MIT graduate student John Matias created an app called Swiftkey dedicated to drafting poems. The program is equipped with Shakespearian English and can predict what a user may want to type next. Robot lawyers may come to see through all of an attorney's repertoire of tricks by finding the right documents for a supporting a case and writing contracts. Select law firms have already begun using these machines. There are estimates out that robots will replace a huge chunk of the legal workforce in as few as 15 years. Machines have even managed to predict the victors of Supreme Court cases with 70% accuracy, after being fed thousands of cases spanning six decades.",
+    "question_text": "This passage focuses on:",
+    "options": [
+      "How technology will come to replace all jobs in society.",
+      "Some ways that machines can currently perform human-like movements.",
+      "Jobs that have begun to incorporate robots and programs.",
+      "The way that automation can help psychologists."
+    ],
+    "correct_answer": 2,
+    "answer_type": "multiple_choice"
+  },
+  {
+    "_id": "33",
+    "question_number": 33,
+    "practice_set": "Practice Test 1",
+    "category": "Reading Comprehension",
+    "difficulty": "",
+    "time_estimate": 95,
+    "passage": "Machines dispense our snacks, check the price tag on our produce, alert security of suspicious activity, and redirect us to the correct department on the phone, all without hassle. At a certain time, humans were employed to work these jobs, but the Age of Information has slowly started to phase some of these means of livelihood out. Our mechanical counterparts are changing the way we see jobs. Someone may think he or she works in special profession that could never be taken by a robot. However, many occupations that seem exclusive to humans have been performed by machines before. Surprisingly, it is possible to program a computer to make sounds that will compel the masses by shaping its behavior to produce music that will appeal to the human ear. UC Santa Cruz professor David Cope made a programmed composer called Emily Howell, which has 5000 zip files of compositions available for anyone to download. These bots abound, and there is even a mechanically-controlled mini orchestra called Orchestrion that creates sounds that sweep a spectrum of genres, from ragtime to pop to synth. Z-Machines, a completely mechanical band, was designed by Japanese scientists with the intention of transcending the boundaries of human ability - the guitarist has 78 fingers and the drummer has 22 arms. Large companies like the Associated Press, Yahoo, Allstate, Samsung, and Comcast also automate their writers at times. These corporations use a program called Automated Insights to write about topics ranging from sports to fitness to finance, and the writing can be indistinguishable from that of a human. Robots aren't just used for technical writing but creative work as well. MIT graduate student John Matias created an app called Swiftkey dedicated to drafting poems. The program is equipped with Shakespearian English and can predict what a user may want to type next. Robot lawyers may come to see through all of an attorney's repertoire of tricks by finding the right documents for a supporting a case and writing contracts. Select law firms have already begun using these machines. There are estimates out that robots will replace a huge chunk of the legal workforce in as few as 15 years. Machines have even managed to predict the victors of Supreme Court cases with 70% accuracy, after being fed thousands of cases spanning six decades.",
+    "question_text": "Which profession was not mentioned as potentially being done by a machine?",
+    "options": [
+      "Psychologist",
+      "Technical Writer",
+      "Poet",
+      "Physiologist"
+    ],
+    "correct_answer": 3,
+    "answer_type": "multiple_choice"
+  },
+  {
+    "_id": "34",
+    "question_number": 34,
+    "practice_set": "Practice Test 1",
+    "category": "Reading Comprehension",
+    "difficulty": "",
+    "time_estimate": 95,
+    "passage": "Machines dispense our snacks, check the price tag on our produce, alert security of suspicious activity, and redirect us to the correct department on the phone, all without hassle. At a certain time, humans were employed to work these jobs, but the Age of Information has slowly started to phase some of these means of livelihood out. Our mechanical counterparts are changing the way we see jobs. Someone may think he or she works in special profession that could never be taken by a robot. However, many occupations that seem exclusive to humans have been performed by machines before. Surprisingly, it is possible to program a computer to make sounds that will compel the masses by shaping its behavior to produce music that will appeal to the human ear. UC Santa Cruz professor David Cope made a programmed composer called Emily Howell, which has 5000 zip files of compositions available for anyone to download. These bots abound, and there is even a mechanically-controlled mini orchestra called Orchestrion that creates sounds that sweep a spectrum of genres, from ragtime to pop to synth. Z-Machines, a completely mechanical band, was designed by Japanese scientists with the intention of transcending the boundaries of human ability - the guitarist has 78 fingers and the drummer has 22 arms. Large companies like the Associated Press, Yahoo, Allstate, Samsung, and Comcast also automate their writers at times. These corporations use a program called Automated Insights to write about topics ranging from sports to fitness to finance, and the writing can be indistinguishable from that of a human. Robots aren't just used for technical writing but creative work as well. MIT graduate student John Matias created an app called Swiftkey dedicated to drafting poems. The program is equipped with Shakespearian English and can predict what a user may want to type next. Robot lawyers may come to see through all of an attorney's repertoire of tricks by finding the right documents for a supporting a case and writing contracts. Select law firms have already begun using these machines. There are estimates out that robots will replace a huge chunk of the legal workforce in as few as 15 years. Machines have even managed to predict the victors of Supreme Court cases with 70% accuracy, after being fed thousands of cases spanning six decades.",
+    "question_text": "The author seems to imply which of the following?",
+    "options": [
+      "More jobs will be automated in the future.",
+      "Machines that dispense snacks still have technical issues.",
+      "A drummer with 22 arms plays better music than one with 2 arms.",
+      "Emily Howell is superior to human composers."
+    ],
+    "correct_answer": 0,
+    "answer_type": "multiple_choice"
+  },
+  {
+    "_id": "35",
+    "question_number": 35,
+    "practice_set": "Practice Test 1",
+    "category": "Reading Comprehension",
+    "difficulty": "",
+    "time_estimate": 95,
+    "passage": "Machines dispense our snacks, check the price tag on our produce, alert security of suspicious activity, and redirect us to the correct department on the phone, all without hassle. At a certain time, humans were employed to work these jobs, but the Age of Information has slowly started to phase some of these means of livelihood out. Our mechanical counterparts are changing the way we see jobs. Someone may think he or she works in special profession that could never be taken by a robot. However, many occupations that seem exclusive to humans have been performed by machines before. Surprisingly, it is possible to program a computer to make sounds that will compel the masses by shaping its behavior to produce music that will appeal to the human ear. UC Santa Cruz professor David Cope made a programmed composer called Emily Howell, which has 5000 zip files of compositions available for anyone to download. These bots abound, and there is even a mechanically-controlled mini orchestra called Orchestrion that creates sounds that sweep a spectrum of genres, from ragtime to pop to synth. Z-Machines, a completely mechanical band, was designed by Japanese scientists with the intention of transcending the boundaries of human ability - the guitarist has 78 fingers and the drummer has 22 arms. Large companies like the Associated Press, Yahoo, Allstate, Samsung, and Comcast also automate their writers at times. These corporations use a program called Automated Insights to write about topics ranging from sports to fitness to finance, and the writing can be indistinguishable from that of a human. Robots aren't just used for technical writing but creative work as well. MIT graduate student John Matias created an app called Swiftkey dedicated to drafting poems. The program is equipped with Shakespearian English and can predict what a user may want to type next. Robot lawyers may come to see through all of an attorney's repertoire of tricks by finding the right documents for a supporting a case and writing contracts. Select law firms have already begun using these machines. There are estimates out that robots will replace a huge chunk of the legal workforce in as few as 15 years. Machines have even managed to predict the victors of Supreme Court cases with 70% accuracy, after being fed thousands of cases spanning six decades.",
+    "question_text": "The author mentions \"Swiftkey\" as an example of which of the following?",
+    "options": [
+      "An algorithm that can compose music very quickly.",
+      "A robot musician with multiple limbs.",
+      "An automated psychologist that can interpret and understand physical cues.",
+      "An app that can develop poetry in Shakespearean English."
+    ],
+    "correct_answer": 3,
+    "answer_type": "multiple_choice"
+  },
+  {
+    "_id": "36",
+    "question_number": 36,
+    "practice_set": "Practice Test 1",
+    "category": "Reading Comprehension",
+    "difficulty": "",
+    "time_estimate": 95,
+    "passage": "Machines may even function as psychologists. A program called Ellie has been designed to diagnose afflictions, which are easier to detect on a mechanical level. She notices body adjustments and voice cracks, and can determine a patient's emotions based on these factors. Perhaps it won't be long before most careers are automated.",
+    "question_text": "The main purpose of the last paragraph is to",
+    "options": [
+      "Focus on Ellie, a robot doctor specializing in facial diseases.",
+      "Introduce another potential profession that can be performed by machine.",
+      "Extensively list which cues a robot psychologist may respond to.",
+      "Warn about the adverse effects of the technological revolution."
+    ],
+    "correct_answer": 1,
+    "answer_type": "multiple_choice"
+  },
+  {
+    "_id": "37",
+    "question_number": 37,
+    "practice_set": "Practice Test 1",
+    "category": "Reading Comprehension",
+    "difficulty": "",
+    "time_estimate": 95,
+    "passage": "Machines dispense our snacks, check the price tag on our produce, alert security of suspicious activity, and redirect us to the correct department on the phone, all without hassle. At a certain time, humans were employed to work these jobs, but the Age of Information has slowly started to phase some of these means of livelihood out. Our mechanical counterparts are changing the way we see jobs. Someone may think he or she works in special profession that could never be taken by a robot. However, many occupations that seem exclusive to humans have been performed by machines before. Surprisingly, it is possible to program a computer to make sounds that will compel the masses by shaping its behavior to produce music that will appeal to the human ear. UC Santa Cruz professor David Cope made a programmed composer called Emily Howell, which has 5000 zip files of compositions available for anyone to download. These bots abound, and there is even a mechanically-controlled mini orchestra called Orchestrion that creates sounds that sweep a spectrum of genres, from ragtime to pop to synth. Z-Machines, a completely mechanical band, was designed by Japanese scientists with the intention of transcending the boundaries of human ability - the guitarist has 78 fingers and the drummer has 22 arms. Large companies like the Associated Press, Yahoo, Allstate, Samsung, and Comcast also automate their writers at times. These corporations use a program called Automated Insights to write about topics ranging from sports to fitness to finance, and the writing can be indistinguishable from that of a human. Robots aren't just used for technical writing but creative work as well. MIT graduate student John Matias created an app called Swiftkey dedicated to drafting poems. The program is equipped with Shakespearian English and can predict what a user may want to type next. Robot lawyers may come to see through all of an attorney's repertoire of tricks by finding the right documents for a supporting a case and writing contracts. Select law firms have already begun using these machines. There are estimates out that robots will replace a huge chunk of the legal workforce in as few as 15 years. Machines have even managed to predict the victors of Supreme Court cases with 70% accuracy, after being fed thousands of cases spanning six decades.",
+    "question_text": "The \"orchestra\" referred to in the second paragraph is best described as which of the following?",
+    "options": [
+      "A program that can play back a range of genres.",
+      "A band created by Japanese scientists that has mechanical limbs.",
+      "A phone application that creates multiple zip files of music.",
+      "A professor at UC Santa Cruz who uses a sound library to piece together long compositions."
+    ],
+    "correct_answer": 0,
+    "answer_type": "multiple_choice"
+  },
+  {
+    "_id": "38",
+    "question_number": 38,
+    "practice_set": "Practice Test 1",
+    "category": "Reading Comprehension",
+    "difficulty": "",
+    "time_estimate": 95,
+    "passage": "Kentucky Fried Chicken founder Colonel Sanders is found on buckets of food and the awnings of KFC stores nationwide. However, the Colonel is not just the emblem of a fast food chain - he created the company that has at this point made billions of dollars selling chicken, biscuits, and various forms of soda. While most people recognize the brand of KFC, few people know the story of Sanders' personal life. Even less publicized is the fact that he was once involved in a shootout with a rival businessman. Earlier in his life, Sanders was working at a Shell gas station in a small town in Kentucky. One of his competitors, Matt Stewart, opened a Standard Oil gas station nearby, and he and Sanders would constantly bicker. Sanders painted a sign that directed rail commuters to his Shell gas station. Stewart ended up vandalizing that sign. Sanders, at that point angry, called Stewart and threatened to kill him. Sanders repainted the sign, and Stewart painted over it again, likely figuring Sanders was too cowardly to react. When Sanders and two of his managers learned that Stewart was painting over their sign again, they armed themselves and went to look for him, probably not knowing that Stewart was carrying a gun as well. As they discovered him painting over the sign again, there was a shootout between the two parties, and one of Sanders' higher-ups instantly died after taking three bullets. Then, Sanders and his surviving partner surrounded Stewart, and Sanders shot his opponent in the shoulder, but ultimately spared Stewart's life. The Colonel must have managed to elocute well in court, because after everyone heard Sanders' side of the story, he had his charges dropped. In contrast, his rival, perhaps not as skilled with his words, ended up serving 18 years in jail. The gas station Sanders worked in went on to dominate business in that small Kentucky town, and this example serves as one of the earliest examples in the Colonel's life of aggressive business tactics. The Colonel's imposing attitude would help him later create the franchise now known as KFC.",
+    "question_text": "This passage is primarily focused on:",
+    "options": [
+      "How Colonel Sanders used his aggressive tactics to build up Kentucky Fried Chicken.",
+      "What Colonel Sanders mainly did during his work at a small-town Kentucky gas station.",
+      "A rivalry between Colonel Sanders and one of his business competitors, and its grisly resolution.",
+      "The friendly competition between Colonel Sanders and Matt Stewart."
+    ],
+    "correct_answer": 2,
+    "answer_type": "multiple_choice"
+  },
+  {
+    "_id": "39",
+    "question_number": 39,
+    "practice_set": "Practice Test 1",
+    "category": "Reading Comprehension",
+    "difficulty": "",
+    "time_estimate": 95,
+    "passage": "Kentucky Fried Chicken founder Colonel Sanders is found on buckets of food and the awnings of KFC stores nationwide. However, the Colonel is not just the emblem of a fast food chain - he created the company that has at this point made billions of dollars selling chicken, biscuits, and various forms of soda. While most people recognize the brand of KFC, few people know the story of Sanders' personal life. Even less publicized is the fact that he was once involved in a shootout with a rival businessman. Earlier in his life, Sanders was working at a Shell gas station in a small town in Kentucky. One of his competitors, Matt Stewart, opened a Standard Oil gas station nearby, and he and Sanders would constantly bicker. Sanders painted a sign that directed rail commuters to his Shell gas station. Stewart ended up vandalizing that sign. Sanders, at that point angry, called Stewart and threatened to kill him. Sanders repainted the sign, and Stewart painted over it again, likely figuring Sanders was too cowardly to react. When Sanders and two of his managers learned that Stewart was painting over their sign again, they armed themselves and went to look for him, probably not knowing that Stewart was carrying a gun as well. As they discovered him painting over the sign again, there was a shootout between the two parties, and one of Sanders' higher-ups instantly died after taking three bullets. Then, Sanders and his surviving partner surrounded Stewart, and Sanders shot his opponent in the shoulder, but ultimately spared Stewart's life. The Colonel must have managed to elocute well in court, because after everyone heard Sanders' side of the story, he had his charges dropped. In contrast, his rival, perhaps not as skilled with his words, ended up serving 18 years in jail. The gas station Sanders worked in went on to dominate business in that small Kentucky town, and this example serves as one of the earliest examples in the Colonel's life of aggressive business tactics. The Colonel's imposing attitude would help him later create the franchise now known as KFC.",
+    "question_text": "The author would probably characterize Colonel Sanders as",
+    "options": [
+      "Calm",
+      "Depressed",
+      "Focused",
+      "Hot-tempered"
+    ],
+    "correct_answer": 3,
+    "answer_type": "multiple_choice"
+  },
+  {
+    "_id": "40",
+    "question_number": 40,
+    "practice_set": "Practice Test 1",
+    "category": "Reading Comprehension",
+    "difficulty": "",
+    "time_estimate": 95,
+    "passage": "Kentucky Fried Chicken founder Colonel Sanders is found on buckets of food and the awnings of KFC stores nationwide. However, the Colonel is not just the emblem of a fast food chain - he created the company that has at this point made billions of dollars selling chicken, biscuits, and various forms of soda. While most people recognize the brand of KFC, few people know the story of Sanders' personal life. Even less publicized is the fact that he was once involved in a shootout with a rival businessman. Earlier in his life, Sanders was working at a Shell gas station in a small town in Kentucky. One of his competitors, Matt Stewart, opened a Standard Oil gas station nearby, and he and Sanders would constantly bicker. Sanders painted a sign that directed rail commuters to his Shell gas station. Stewart ended up vandalizing that sign. Sanders, at that point angry, called Stewart and threatened to kill him. Sanders repainted the sign, and Stewart painted over it again, likely figuring Sanders was too cowardly to react. When Sanders and two of his managers learned that Stewart was painting over their sign again, they armed themselves and went to look for him, probably not knowing that Stewart was carrying a gun as well. As they discovered him painting over the sign again, there was a shootout between the two parties, and one of Sanders' higher-ups instantly died after taking three bullets. Then, Sanders and his surviving partner surrounded Stewart, and Sanders shot his opponent in the shoulder, but ultimately spared Stewart's life. The Colonel must have managed to elocute well in court, because after everyone heard Sanders' side of the story, he had his charges dropped. In contrast, his rival, perhaps not as skilled with his words, ended up serving 18 years in jail. The gas station Sanders worked in went on to dominate business in that small Kentucky town, and this example serves as one of the earliest examples in the Colonel's life of aggressive business tactics. The Colonel's imposing attitude would help him later create the franchise now known as KFC.",
+    "question_text": "How was the Colonel able to have his court charges dropped?",
+    "options": [
+      "He bribed the judge.",
+      "He was a smooth talker.",
+      "He redirected the court's attention to the actions of his managers.",
+      "He claimed that 18 years in jail was too harsh of a sentence."
+    ],
+    "correct_answer": 1,
+    "answer_type": "multiple_choice"
+  },
+  {
+    "_id": "41",
+    "question_number": 41,
+    "practice_set": "Practice Test 1",
+    "category": "Reading Comprehension",
+    "difficulty": "",
+    "time_estimate": 95,
+    "passage": "Kentucky Fried Chicken founder Colonel Sanders is found on buckets of food and the awnings of KFC stores nationwide. However, the Colonel is not just the emblem of a fast food chain - he created the company that has at this point made billions of dollars selling chicken, biscuits, and various forms of soda. While most people recognize the brand of KFC, few people know the story of Sanders' personal life. Even less publicized is the fact that he was once involved in a shootout with a rival businessman. Earlier in his life, Sanders was working at a Shell gas station in a small town in Kentucky. One of his competitors, Matt Stewart, opened a Standard Oil gas station nearby, and he and Sanders would constantly bicker. Sanders painted a sign that directed rail commuters to his Shell gas station. Stewart ended up vandalizing that sign. Sanders, at that point angry, called Stewart and threatened to kill him. Sanders repainted the sign, and Stewart painted over it again, likely figuring Sanders was too cowardly to react. When Sanders and two of his managers learned that Stewart was painting over their sign again, they armed themselves and went to look for him, probably not knowing that Stewart was carrying a gun as well. As they discovered him painting over the sign again, there was a shootout between the two parties, and one of Sanders' higher-ups instantly died after taking three bullets. Then, Sanders and his surviving partner surrounded Stewart, and Sanders shot his opponent in the shoulder, but ultimately spared Stewart's life. The Colonel must have managed to elocute well in court, because after everyone heard Sanders' side of the story, he had his charges dropped. In contrast, his rival, perhaps not as skilled with his words, ended up serving 18 years in jail. The gas station Sanders worked in went on to dominate business in that small Kentucky town, and this example serves as one of the earliest examples in the Colonel's life of aggressive business tactics. The Colonel's imposing attitude would help him later create the franchise now known as KFC.",
+    "question_text": "What does the author not mention about KFC?",
+    "options": [
+      "Colonel Sanders was its founder.",
+      "The franchise is valued at over a billion dollars.",
+      "The chain also sells biscuits and soda.",
+      "Sanders opened the first KFC in the same town where the Shell gas station was located."
+    ],
+    "correct_answer": 3,
+    "answer_type": "multiple_choice"
+  },
+  {
+    "_id": "42",
+    "question_number": 42,
+    "practice_set": "Practice Test 1",
+    "category": "Reading Comprehension",
+    "difficulty": "",
+    "time_estimate": 95,
+    "passage": "Kentucky Fried Chicken founder Colonel Sanders is found on buckets of food and the awnings of KFC stores nationwide. However, the Colonel is not just the emblem of a fast food chain - he created the company that has at this point made billions of dollars selling chicken, biscuits, and various forms of soda. While most people recognize the brand of KFC, few people know the story of Sanders' personal life. Even less publicized is the fact that he was once involved in a shootout with a rival businessman. Earlier in his life, Sanders was working at a Shell gas station in a small town in Kentucky. One of his competitors, Matt Stewart, opened a Standard Oil gas station nearby, and he and Sanders would constantly bicker. Sanders painted a sign that directed rail commuters to his Shell gas station. Stewart ended up vandalizing that sign. Sanders, at that point angry, called Stewart and threatened to kill him. Sanders repainted the sign, and Stewart painted over it again, likely figuring Sanders was too cowardly to react. When Sanders and two of his managers learned that Stewart was painting over their sign again, they armed themselves and went to look for him, probably not knowing that Stewart was carrying a gun as well. As they discovered him painting over the sign again, there was a shootout between the two parties, and one of Sanders' higher-ups instantly died after taking three bullets. Then, Sanders and his surviving partner surrounded Stewart, and Sanders shot his opponent in the shoulder, but ultimately spared Stewart's life. The Colonel must have managed to elocute well in court, because after everyone heard Sanders' side of the story, he had his charges dropped. In contrast, his rival, perhaps not as skilled with his words, ended up serving 18 years in jail. The gas station Sanders worked in went on to dominate business in that small Kentucky town, and this example serves as one of the earliest examples in the Colonel's life of aggressive business tactics. The Colonel's imposing attitude would help him later create the franchise now known as KFC.",
+    "question_text": "Who was physically harmed in the shootout?",
+    "options": [
+      "Only Matt Stewart",
+      "Matt Stewart and Colonel Sanders",
+      "Colonel Sanders and one of his managers",
+      "Matt Stewart and one of Sanders' managers."
+    ],
+    "correct_answer": 3,
+    "answer_type": "multiple_choice"
+  },
+  {
+    "_id": "43",
+    "question_number": 43,
+    "practice_set": "Practice Test 1",
+    "category": "Reading Comprehension",
+    "difficulty": "",
+    "time_estimate": 95,
+    "passage": "Historically, we've always wanted our plans for cities to be bigger and more impressive, evident even back in the early 20th century when a designer wanted to create a flying railway travelling at 150 mph connecting San Francisco to Los Angeles (even though trains then typically travelled at a quarter of that speed). However, some city planners who get the green light go a bit wild with their ideas. In 1924, traffic congestion in New York City was so bad that it cost the city roughly $1.5 million a day. Traffic commissioner John A. Harriss proposed draining the East River, which would add 50 square miles of land to New York City. His plan included putting City Hall on top of the 5-mile long dam and stuffing a parking garage underneath the dam. To make up for the destruction of so much water space, he decided the plan would include carving a canal through Queens. The commissioner's dam was never built. Another example of a grandiose engineering ambition came when the oil industry in Alaska boomed in the late 1960s. To manufacture warm temperatures in a frigid land, Alaska's oil companies proposed an $800 million project: a giant dome over a city that would be named Seward's Success. This dome, which would be placed north of Anchorage, was expected to control the area's climate, keep a steady room temperature, draw approximately 40,000 residents, and feature monorails and moving sidewalks. Issues with logistics and technology prevented the city from becoming a reality. A few years ago, the Shanghai Industrial Corporation hired British firm Arup to plan a fully sustainable city on the outskirts of Shanghai to offset its large amounts of pollution. The government anticipated that the city, Dongtan, would have half a million residents by 2050. All the food would be locally grown, and the metropolis would strive to have absolutely no pollution. At least 1 billion euros were invested towards the project, but it never came to fruition due to political and financial problems. Though not of all these projects were fully realized, some at least partially manifested. In 1935, American architect Frank Lloyd Wright presented his idea of a city that included plots of land for farming. Wright believed that overcrowding and ultra-capitalism would disappear in a few generations as people returned to a more natural state. Every resident in his city would have an acre of land. While his idea didn't work out, it seemed to predict the creation of suburbs. Another whimsical project that partially came to fruition was Walt Disney's EPCOT, originally intended to be its own community in the middle of the state of Florida, with a 30-story hotel at its center. Disney envisioned his city in 1966 as never being finished, and said it would be 43 square miles - about twice the size of Manhattan. He also imagined separate street levels for pedestrians, automobiles, and trucks to maximize safety. Disney said that his city would boast a 100% employment rate. His idea was tamed significantly, and EPCOT is now a Disney theme park. Whether in the U.S. or abroad, in the past or in the present, our conceptions of the future will always be impressive.",
+    "question_text": "What was the author's purpose for writing this passage?",
+    "options": [
+      "To detail his support for a climate-controlled city in Alaska.",
+      "To mention architectural conceptions for the future and their ultimate outcomes.",
+      "To profile Walt Disney and explain his idea of EPCOT.",
+      "To persuade the reader to dream big when it comes to engineering."
+    ],
+    "correct_answer": 1,
+    "answer_type": "multiple_choice"
+  },
+  {
+    "_id": "44",
+    "question_number": 44,
+    "practice_set": "Practice Test 1",
+    "category": "Reading Comprehension",
+    "difficulty": "",
+    "time_estimate": 95,
+    "passage": "Historically, we've always wanted our plans for cities to be bigger and more impressive, evident even back in the early 20th century when a designer wanted to create a flying railway travelling at 150 mph connecting San Francisco to Los Angeles (even though trains then typically travelled at a quarter of that speed). However, some city planners who get the green light go a bit wild with their ideas. In 1924, traffic congestion in New York City was so bad that it cost the city roughly $1.5 million a day. Traffic commissioner John A. Harriss proposed draining the East River, which would add 50 square miles of land to New York City. His plan included putting City Hall on top of the 5-mile long dam and stuffing a parking garage underneath the dam. To make up for the destruction of so much water space, he decided the plan would include carving a canal through Queens. The commissioner's dam was never built. Another example of a grandiose engineering ambition came when the oil industry in Alaska boomed in the late 1960s. To manufacture warm temperatures in a frigid land, Alaska's oil companies proposed an $800 million project: a giant dome over a city that would be named Seward's Success. This dome, which would be placed north of Anchorage, was expected to control the area's climate, keep a steady room temperature, draw approximately 40,000 residents, and feature monorails and moving sidewalks. Issues with logistics and technology prevented the city from becoming a reality. A few years ago, the Shanghai Industrial Corporation hired British firm Arup to plan a fully sustainable city on the outskirts of Shanghai to offset its large amounts of pollution. The government anticipated that the city, Dongtan, would have half a million residents by 2050. All the food would be locally grown, and the metropolis would strive to have absolutely no pollution. At least 1 billion euros were invested towards the project, but it never came to fruition due to political and financial problems. Though not of all these projects were fully realized, some at least partially manifested. In 1935, American architect Frank Lloyd Wright presented his idea of a city that included plots of land for farming. Wright believed that overcrowding and ultra-capitalism would disappear in a few generations as people returned to a more natural state. Every resident in his city would have an acre of land. While his idea didn't work out, it seemed to predict the creation of suburbs. Another whimsical project that partially came to fruition was Walt Disney's EPCOT, originally intended to be its own community in the middle of the state of Florida, with a 30-story hotel at its center. Disney envisioned his city in 1966 as never being finished, and said it would be 43 square miles - about twice the size of Manhattan. He also imagined separate street levels for pedestrians, automobiles, and trucks to maximize safety. Disney said that his city would boast a 100% employment rate. His idea was tamed significantly, and EPCOT is now a Disney theme park. Whether in the U.S. or abroad, in the past or in the present, our conceptions of the future will always be impressive.",
+    "question_text": "Which of the following projects was not mentioned in the passage?",
+    "options": [
+      "A city with a dome around it.",
+      "A City Hall building on top of a dam.",
+      "A city that would aim to produce no pollution.",
+      "A city with a 300-story hotel at its center."
+    ],
+    "correct_answer": 3,
+    "answer_type": "multiple_choice"
+  },
+  {
+    "_id": "45",
+    "question_number": 45,
+    "practice_set": "Practice Test 1",
+    "category": "Reading Comprehension",
+    "difficulty": "",
+    "time_estimate": 95,
+    "passage": "Historically, we've always wanted our plans for cities to be bigger and more impressive, evident even back in the early 20th century when a designer wanted to create a flying railway travelling at 150 mph connecting San Francisco to Los Angeles (even though trains then typically travelled at a quarter of that speed). However, some city planners who get the green light go a bit wild with their ideas. In 1924, traffic congestion in New York City was so bad that it cost the city roughly $1.5 million a day. Traffic commissioner John A. Harriss proposed draining the East River, which would add 50 square miles of land to New York City. His plan included putting City Hall on top of the 5-mile long dam and stuffing a parking garage underneath the dam. To make up for the destruction of so much water space, he decided the plan would include carving a canal through Queens. The commissioner's dam was never built. Another example of a grandiose engineering ambition came when the oil industry in Alaska boomed in the late 1960s. To manufacture warm temperatures in a frigid land, Alaska's oil companies proposed an $800 million project: a giant dome over a city that would be named Seward's Success. This dome, which would be placed north of Anchorage, was expected to control the area's climate, keep a steady room temperature, draw approximately 40,000 residents, and feature monorails and moving sidewalks. Issues with logistics and technology prevented the city from becoming a reality. A few years ago, the Shanghai Industrial Corporation hired British firm Arup to plan a fully sustainable city on the outskirts of Shanghai to offset its large amounts of pollution. The government anticipated that the city, Dongtan, would have half a million residents by 2050. All the food would be locally grown, and the metropolis would strive to have absolutely no pollution. At least 1 billion euros were invested towards the project, but it never came to fruition due to political and financial problems. Though not of all these projects were fully realized, some at least partially manifested. In 1935, American architect Frank Lloyd Wright presented his idea of a city that included plots of land for farming. Wright believed that overcrowding and ultra-capitalism would disappear in a few generations as people returned to a more natural state. Every resident in his city would have an acre of land. While his idea didn't work out, it seemed to predict the creation of suburbs. Another whimsical project that partially came to fruition was Walt Disney's EPCOT, originally intended to be its own community in the middle of the state of Florida, with a 30-story hotel at its center. Disney envisioned his city in 1966 as never being finished, and said it would be 43 square miles - about twice the size of Manhattan. He also imagined separate street levels for pedestrians, automobiles, and trucks to maximize safety. Disney said that his city would boast a 100% employment rate. His idea was tamed significantly, and EPCOT is now a Disney theme park. Whether in the U.S. or abroad, in the past or in the present, our conceptions of the future will always be impressive.",
+    "question_text": "Which of the following ideas was proposed earliest in history?",
+    "options": [
+      "Building Dongtan",
+      "Creating Seward's Success",
+      "Draining the East River",
+      "Making a city with farms"
+    ],
+    "correct_answer": 2,
+    "answer_type": "multiple_choice"
+  },
+  {
+    "_id": "46",
+    "question_number": 46,
+    "practice_set": "Practice Test 1",
+    "category": "Reading Comprehension",
+    "difficulty": "",
+    "time_estimate": 95,
+    "passage": "Historically, we've always wanted our plans for cities to be bigger and more impressive, evident even back in the early 20th century when a designer wanted to create a flying railway travelling at 150 mph connecting San Francisco to Los Angeles (even though trains then typically travelled at a quarter of that speed). However, some city planners who get the green light go a bit wild with their ideas. In 1924, traffic congestion in New York City was so bad that it cost the city roughly $1.5 million a day. Traffic commissioner John A. Harriss proposed draining the East River, which would add 50 square miles of land to New York City. His plan included putting City Hall on top of the 5-mile long dam and stuffing a parking garage underneath the dam. To make up for the destruction of so much water space, he decided the plan would include carving a canal through Queens. The commissioner's dam was never built. Another example of a grandiose engineering ambition came when the oil industry in Alaska boomed in the late 1960s. To manufacture warm temperatures in a frigid land, Alaska's oil companies proposed an $800 million project: a giant dome over a city that would be named Seward's Success. This dome, which would be placed north of Anchorage, was expected to control the area's climate, keep a steady room temperature, draw approximately 40,000 residents, and feature monorails and moving sidewalks. Issues with logistics and technology prevented the city from becoming a reality. A few years ago, the Shanghai Industrial Corporation hired British firm Arup to plan a fully sustainable city on the outskirts of Shanghai to offset its large amounts of pollution. The government anticipated that the city, Dongtan, would have half a million residents by 2050. All the food would be locally grown, and the metropolis would strive to have absolutely no pollution. At least 1 billion euros were invested towards the project, but it never came to fruition due to political and financial problems. Though not of all these projects were fully realized, some at least partially manifested. In 1935, American architect Frank Lloyd Wright presented his idea of a city that included plots of land for farming. Wright believed that overcrowding and ultra-capitalism would disappear in a few generations as people returned to a more natural state. Every resident in his city would have an acre of land. While his idea didn't work out, it seemed to predict the creation of suburbs. Another whimsical project that partially came to fruition was Walt Disney's EPCOT, originally intended to be its own community in the middle of the state of Florida, with a 30-story hotel at its center. Disney envisioned his city in 1966 as never being finished, and said it would be 43 square miles - about twice the size of Manhattan. He also imagined separate street levels for pedestrians, automobiles, and trucks to maximize safety. Disney said that his city would boast a 100% employment rate. His idea was tamed significantly, and EPCOT is now a Disney theme park. Whether in the U.S. or abroad, in the past or in the present, our conceptions of the future will always be impressive.",
+    "question_text": "Which of the following is true of Disney's plan for EPCOT?",
+    "options": [
+      "It would be as large as Manhattan.",
+      "Disney believed virtually everyone there would be employed.",
+      "Cars, trucks, and pedestrians would all use elevated highways to travel.",
+      "It was conceived in the 1950s."
+    ],
+    "correct_answer": 1,
+    "answer_type": "multiple_choice"
+  },
+  {
+    "_id": "47",
+    "question_number": 47,
+    "practice_set": "Practice Test 1",
+    "category": "Reading Comprehension",
+    "difficulty": "",
+    "time_estimate": 95,
+    "passage": "Historically, we've always wanted our plans for cities to be bigger and more impressive, evident even back in the early 20th century when a designer wanted to create a flying railway travelling at 150 mph connecting San Francisco to Los Angeles (even though trains then typically travelled at a quarter of that speed).",
+    "question_text": "Approximately how fast, according to the passage, did trains go on average in the early 20th century?",
+    "options": [
+      "150 mph",
+      "30 mph",
+      "60 mph",
+      "10 mph"
+    ],
+    "correct_answer": 1,
+    "answer_type": "multiple_choice"
+  },
+  {
+    "_id": "48",
+    "question_number": 48,
+    "practice_set": "Practice Test 1",
+    "category": "Reading Comprehension",
+    "difficulty": "",
+    "time_estimate": 95,
+    "passage": "Historically, we've always wanted our plans for cities to be bigger and more impressive, evident even back in the early 20th century when a designer wanted to create a flying railway travelling at 150 mph connecting San Francisco to Los Angeles (even though trains then typically travelled at a quarter of that speed). However, some city planners who get the green light go a bit wild with their ideas. In 1924, traffic congestion in New York City was so bad that it cost the city roughly $1.5 million a day. Traffic commissioner John A. Harriss proposed draining the East River, which would add 50 square miles of land to New York City. His plan included putting City Hall on top of the 5-mile long dam and stuffing a parking garage underneath the dam. To make up for the destruction of so much water space, he decided the plan would include carving a canal through Queens. The commissioner's dam was never built. Another example of a grandiose engineering ambition came when the oil industry in Alaska boomed in the late 1960s. To manufacture warm temperatures in a frigid land, Alaska's oil companies proposed an $800 million project: a giant dome over a city that would be named Seward's Success. This dome, which would be placed north of Anchorage, was expected to control the area's climate, keep a steady room temperature, draw approximately 40,000 residents, and feature monorails and moving sidewalks. Issues with logistics and technology prevented the city from becoming a reality. A few years ago, the Shanghai Industrial Corporation hired British firm Arup to plan a fully sustainable city on the outskirts of Shanghai to offset its large amounts of pollution. The government anticipated that the city, Dongtan, would have half a million residents by 2050. All the food would be locally grown, and the metropolis would strive to have absolutely no pollution. At least 1 billion euros were invested towards the project, but it never came to fruition due to political and financial problems. Though not of all these projects were fully realized, some at least partially manifested. In 1935, American architect Frank Lloyd Wright presented his idea of a city that included plots of land for farming. Wright believed that overcrowding and ultra-capitalism would disappear in a few generations as people returned to a more natural state. Every resident in his city would have an acre of land. While his idea didn't work out, it seemed to predict the creation of suburbs. Another whimsical project that partially came to fruition was Walt Disney's EPCOT, originally intended to be its own community in the middle of the state of Florida, with a 30-story hotel at its center. Disney envisioned his city in 1966 as never being finished, and said it would be 43 square miles - about twice the size of Manhattan. He also imagined separate street levels for pedestrians, automobiles, and trucks to maximize safety. Disney said that his city would boast a 100% employment rate. His idea was tamed significantly, and EPCOT is now a Disney theme park. Whether in the U.S. or abroad, in the past or in the present, our conceptions of the future will always be impressive.",
+    "question_text": "Seward's Success was proposed to be built in:",
+    "options": [
+      "Florida",
+      "China",
+      "Alaska",
+      "California"
+    ],
+    "correct_answer": 2,
+    "answer_type": "multiple_choice"
+  },
+  {
+    "_id": "49",
+    "question_number": 49,
+    "practice_set": "Practice Test 1",
+    "category": "Reading Comprehension",
+    "difficulty": "",
+    "time_estimate": 95,
+    "passage": "Historically, we've always wanted our plans for cities to be bigger and more impressive, evident even back in the early 20th century when a designer wanted to create a flying railway travelling at 150 mph connecting San Francisco to Los Angeles (even though trains then typically travelled at a quarter of that speed). However, some city planners who get the green light go a bit wild with their ideas. In 1924, traffic congestion in New York City was so bad that it cost the city roughly $1.5 million a day. Traffic commissioner John A. Harriss proposed draining the East River, which would add 50 square miles of land to New York City. His plan included putting City Hall on top of the 5-mile long dam and stuffing a parking garage underneath the dam. To make up for the destruction of so much water space, he decided the plan would include carving a canal through Queens. The commissioner's dam was never built. Another example of a grandiose engineering ambition came when the oil industry in Alaska boomed in the late 1960s. To manufacture warm temperatures in a frigid land, Alaska's oil companies proposed an $800 million project: a giant dome over a city that would be named Seward's Success. This dome, which would be placed north of Anchorage, was expected to control the area's climate, keep a steady room temperature, draw approximately 40,000 residents, and feature monorails and moving sidewalks. Issues with logistics and technology prevented the city from becoming a reality. A few years ago, the Shanghai Industrial Corporation hired British firm Arup to plan a fully sustainable city on the outskirts of Shanghai to offset its large amounts of pollution. The government anticipated that the city, Dongtan, would have half a million residents by 2050. All the food would be locally grown, and the metropolis would strive to have absolutely no pollution. At least 1 billion euros were invested towards the project, but it never came to fruition due to political and financial problems. Though not of all these projects were fully realized, some at least partially manifested. In 1935, American architect Frank Lloyd Wright presented his idea of a city that included plots of land for farming. Wright believed that overcrowding and ultra-capitalism would disappear in a few generations as people returned to a more natural state. Every resident in his city would have an acre of land. While his idea didn't work out, it seemed to predict the creation of suburbs. Another whimsical project that partially came to fruition was Walt Disney's EPCOT, originally intended to be its own community in the middle of the state of Florida, with a 30-story hotel at its center. Disney envisioned his city in 1966 as never being finished, and said it would be 43 square miles - about twice the size of Manhattan. He also imagined separate street levels for pedestrians, automobiles, and trucks to maximize safety. Disney said that his city would boast a 100% employment rate. His idea was tamed significantly, and EPCOT is now a Disney theme park. Whether in the U.S. or abroad, in the past or in the present, our conceptions of the future will always be impressive.",
+    "question_text": "Why was Seward's Success never built?",
+    "options": [
+      "A lack of sufficient materials and technology.",
+      "The oil companies couldn't find 40,000 people willing to live in their city.",
+      "Scientists couldn't design a dome large enough.",
+      "The location was too far to transport moving sidewalks."
+    ],
+    "correct_answer": 0,
+    "answer_type": "multiple_choice"
+  },
+  {
+    "_id": "50",
+    "question_number": 50,
+    "practice_set": "Practice Test 1",
+    "category": "Reading Comprehension",
+    "difficulty": "",
+    "time_estimate": 95,
+    "passage": "Historically, we've always wanted our plans for cities to be bigger and more impressive, evident even back in the early 20th century when a designer wanted to create a flying railway travelling at 150 mph connecting San Francisco to Los Angeles (even though trains then typically travelled at a quarter of that speed). However, some city planners who get the green light go a bit wild with their ideas. In 1924, traffic congestion in New York City was so bad that it cost the city roughly $1.5 million a day. Traffic commissioner John A. Harriss proposed draining the East River, which would add 50 square miles of land to New York City. His plan included putting City Hall on top of the 5-mile long dam and stuffing a parking garage underneath the dam. To make up for the destruction of so much water space, he decided the plan would include carving a canal through Queens. The commissioner's dam was never built. Another example of a grandiose engineering ambition came when the oil industry in Alaska boomed in the late 1960s. To manufacture warm temperatures in a frigid land, Alaska's oil companies proposed an $800 million project: a giant dome over a city that would be named Seward's Success. This dome, which would be placed north of Anchorage, was expected to control the area's climate, keep a steady room temperature, draw approximately 40,000 residents, and feature monorails and moving sidewalks. Issues with logistics and technology prevented the city from becoming a reality. A few years ago, the Shanghai Industrial Corporation hired British firm Arup to plan a fully sustainable city on the outskirts of Shanghai to offset its large amounts of pollution. The government anticipated that the city, Dongtan, would have half a million residents by 2050. All the food would be locally grown, and the metropolis would strive to have absolutely no pollution. At least 1 billion euros were invested towards the project, but it never came to fruition due to political and financial problems. Though not of all these projects were fully realized, some at least partially manifested. In 1935, American architect Frank Lloyd Wright presented his idea of a city that included plots of land for farming. Wright believed that overcrowding and ultra-capitalism would disappear in a few generations as people returned to a more natural state. Every resident in his city would have an acre of land. While his idea didn't work out, it seemed to predict the creation of suburbs. Another whimsical project that partially came to fruition was Walt Disney's EPCOT, originally intended to be its own community in the middle of the state of Florida, with a 30-story hotel at its center. Disney envisioned his city in 1966 as never being finished, and said it would be 43 square miles - about twice the size of Manhattan. He also imagined separate street levels for pedestrians, automobiles, and trucks to maximize safety. Disney said that his city would boast a 100% employment rate. His idea was tamed significantly, and EPCOT is now a Disney theme park. Whether in the U.S. or abroad, in the past or in the present, our conceptions of the future will always be impressive.",
+    "question_text": "According to the passage, what did Frank Lloyd Wright believe?",
+    "options": [
+      "Population density would decrease in the future.",
+      "Capitalism was the best economic system.",
+      "Everyone in the world deserved to own an acre of land.",
+      "Suburbs are preferable to cities."
+    ],
+    "correct_answer": 0,
+    "answer_type": "multiple_choice"
+  },
+  {
+    "_id": "51",
+    "question_number": 51,
+    "practice_set": "Practice Test 1",
+    "category": "Reading Comprehension",
+    "difficulty": "",
+    "time_estimate": 95,
+    "passage": "Some animals are born with whiter fur or skin than usual. These white animals are called \"albino.\" If, on the other hand, a creature is born with darker skin, it is known as \"melanistic.\" It may be surprising for someone to see an animal with a lighter or darker skin tone than usual. For instance, while people normally associate giraffes with light sandy fur, there are melanistic giraffes in the wild that blend with the night. However, this is not necessarily an evolutionary advantage, as most giraffes that currently roam the savannah use the light color of their fur to blend in with the surroundings of the plants that grow around the area. What causes such unusual pigmentation in albino and melanistic animals? Usually, the anomalous skin color stems from a mutation in the animal's genes - every animal has instructions in its genetic code that determines its melanin, or the color of its skin. However, when an animal is born albino, it means that some part of their genetic sequencing had an error, as this phenomenon occurs when an animal's genes produce a lack of melanin. Conversely, melanistic traits in animals arise when there is an abundance of melanin in the animal's genetic code. While it may seem that only mammals have the capacity to become albino, practically every member of the animal kingdom, from crocodiles to fish, have seen cases of glowing white skin. This trait manifests itself in so many creatures because every animal has a gene that determines its skill color. This means that there may have once existed albino dinosaurs, although dinosaurs with this trait would be very rare. While animals with albinism fascinate people, the opposite has been true about albino people in ancient culture. There is an ancient cultural association of pale skin and witchcraft, and evil creatures such as vampires are portrayed as having ghostly white skin. This issue is compounded further among certain regions of Africa, where people born with a lack of melanin are often subject to abduction or are even hunted down. With more education about what albinism entails, attitudes toward albino people can change for the better.",
+    "question_text": "Choose which of the following best connects to the main idea of the content of the passage.",
+    "options": [
+      "Reasons why humans have a certain skin tone",
+      "Albinism and melanism in human culture and the animal kingdom",
+      "The biological aspects of how genes mutate to determine skin color",
+      "Animals in captivity that have developed strangely colored skin"
+    ],
+    "correct_answer": 1,
+    "answer_type": "multiple_choice"
+  },
+  {
+    "_id": "52",
+    "question_number": 52,
+    "practice_set": "Practice Test 1",
+    "category": "Reading Comprehension",
+    "difficulty": "",
+    "time_estimate": 95,
+    "passage": "Some animals are born with whiter fur or skin than usual. These white animals are called \"albino.\" If, on the other hand, a creature is born with darker skin, it is known as \"melanistic.\" It may be surprising for someone to see an animal with a lighter or darker skin tone than usual. For instance, while people normally associate giraffes with light sandy fur, there are melanistic giraffes in the wild that blend with the night. However, this is not necessarily an evolutionary advantage, as most giraffes that currently roam the savannah use the light color of their fur to blend in with the surroundings of the plants that grow around the area. What causes such unusual pigmentation in albino and melanistic animals? Usually, the anomalous skin color stems from a mutation in the animal's genes - every animal has instructions in its genetic code that determines its melanin, or the color of its skin. However, when an animal is born albino, it means that some part of their genetic sequencing had an error, as this phenomenon occurs when an animal's genes produce a lack of melanin. Conversely, melanistic traits in animals arise when there is an abundance of melanin in the animal's genetic code. While it may seem that only mammals have the capacity to become albino, practically every member of the animal kingdom, from crocodiles to fish, have seen cases of glowing white skin. This trait manifests itself in so many creatures because every animal has a gene that determines its skill color. This means that there may have once existed albino dinosaurs, although dinosaurs with this trait would be very rare. While animals with albinism fascinate people, the opposite has been true about albino people in ancient culture. There is an ancient cultural association of pale skin and witchcraft, and evil creatures such as vampires are portrayed as having ghostly white skin. This issue is compounded further among certain regions of Africa, where people born with a lack of melanin are often subject to abduction or are even hunted down. With more education about what albinism entails, attitudes toward albino people can change for the better.",
+    "question_text": "Which of these matches the method that giraffes normally use to hide from predators?",
+    "options": [
+      "A soldier uses green camouflage to blend into a forested area",
+      "A frog uses bright colors to warn predators that it is poisonous",
+      "A fox changes the shade of its fur to match the seasons",
+      "A person's face changes color because her mood changes"
+    ],
+    "correct_answer": 0,
+    "answer_type": "multiple_choice"
+  },
+  {
+    "_id": "53",
+    "question_number": 53,
+    "practice_set": "Practice Test 1",
+    "category": "Reading Comprehension",
+    "difficulty": "",
+    "time_estimate": 95,
+    "passage": "Some animals are born with whiter fur or skin than usual. These white animals are called \"albino.\" If, on the other hand, a creature is born with darker skin, it is known as \"melanistic.\" It may be surprising for someone to see an animal with a lighter or darker skin tone than usual. For instance, while people normally associate giraffes with light sandy fur, there are melanistic giraffes in the wild that blend with the night. However, this is not necessarily an evolutionary advantage, as most giraffes that currently roam the savannah use the light color of their fur to blend in with the surroundings of the plants that grow around the area. What causes such unusual pigmentation in albino and melanistic animals? Usually, the anomalous skin color stems from a mutation in the animal's genes - every animal has instructions in its genetic code that determines its melanin, or the color of its skin. However, when an animal is born albino, it means that some part of their genetic sequencing had an error, as this phenomenon occurs when an animal's genes produce a lack of melanin. Conversely, melanistic traits in animals arise when there is an abundance of melanin in the animal's genetic code. While it may seem that only mammals have the capacity to become albino, practically every member of the animal kingdom, from crocodiles to fish, have seen cases of glowing white skin. This trait manifests itself in so many creatures because every animal has a gene that determines its skill color. This means that there may have once existed albino dinosaurs, although dinosaurs with this trait would be very rare. While animals with albinism fascinate people, the opposite has been true about albino people in ancient culture. There is an ancient cultural association of pale skin and witchcraft, and evil creatures such as vampires are portrayed as having ghostly white skin. This issue is compounded further among certain regions of Africa, where people born with a lack of melanin are often subject to abduction or are even hunted down. With more education about what albinism entails, attitudes toward albino people can change for the better.",
+    "question_text": "Which of these scenarios most closely resembles the case of genetic codes in albino animals?",
+    "options": [
+      "A baby, whose parents both have blue eyes, is born with blue eyes",
+      "A computer that runs a code glitches and changes the color of a program",
+      "A dog is washed and its fur color becomes lighter after it is bathed",
+      "A child puts on white face paint during a carnival"
+    ],
+    "correct_answer": 1,
+    "answer_type": "multiple_choice"
+  },
+  {
+    "_id": "54",
+    "question_number": 54,
+    "practice_set": "Practice Test 1",
+    "category": "Reading Comprehension",
+    "difficulty": "",
+    "time_estimate": 95,
+    "passage": "Some animals are born with whiter fur or skin than usual. These white animals are called \"albino.\" If, on the other hand, a creature is born with darker skin, it is known as \"melanistic.\" It may be surprising for someone to see an animal with a lighter or darker skin tone than usual. For instance, while people normally associate giraffes with light sandy fur, there are melanistic giraffes in the wild that blend with the night. However, this is not necessarily an evolutionary advantage, as most giraffes that currently roam the savannah use the light color of their fur to blend in with the surroundings of the plants that grow around the area. What causes such unusual pigmentation in albino and melanistic animals? Usually, the anomalous skin color stems from a mutation in the animal's genes - every animal has instructions in its genetic code that determines its melanin, or the color of its skin. However, when an animal is born albino, it means that some part of their genetic sequencing had an error, as this phenomenon occurs when an animal's genes produce a lack of melanin. Conversely, melanistic traits in animals arise when there is an abundance of melanin in the animal's genetic code. While it may seem that only mammals have the capacity to become albino, practically every member of the animal kingdom, from crocodiles to fish, have seen cases of glowing white skin. This trait manifests itself in so many creatures because every animal has a gene that determines its skill color. This means that there may have once existed albino dinosaurs, although dinosaurs with this trait would be very rare. While animals with albinism fascinate people, the opposite has been true about albino people in ancient culture. There is an ancient cultural association of pale skin and witchcraft, and evil creatures such as vampires are portrayed as having ghostly white skin. This issue is compounded further among certain regions of Africa, where people born with a lack of melanin are often subject to abduction or are even hunted down. With more education about what albinism entails, attitudes toward albino people can change for the better.",
+    "question_text": "What example from these answer choices best matches the way that people in ancient times viewed albinisitic people?",
+    "options": [
+      "A man with a special look is rewarded by a king with a feast",
+      "A woman who looks different than her peers is avoided",
+      "A boy whose face turns white from fear is comforted by his parents",
+      "A girl with pale skin dresses up as a vampire for Halloween"
+    ],
+    "correct_answer": 1,
+    "answer_type": "multiple_choice"
+  },
+  {
+    "_id": "55",
+    "question_number": 55,
+    "practice_set": "Practice Test 1",
+    "category": "Reading Comprehension",
+    "difficulty": "",
+    "time_estimate": 95,
+    "passage": "Some animals are born with whiter fur or skin than usual. These white animals are called \"albino.\" If, on the other hand, a creature is born with darker skin, it is known as \"melanistic.\" It may be surprising for someone to see an animal with a lighter or darker skin tone than usual. For instance, while people normally associate giraffes with light sandy fur, there are melanistic giraffes in the wild that blend with the night. However, this is not necessarily an evolutionary advantage, as most giraffes that currently roam the savannah use the light color of their fur to blend in with the surroundings of the plants that grow around the area. What causes such unusual pigmentation in albino and melanistic animals? Usually, the anomalous skin color stems from a mutation in the animal's genes - every animal has instructions in its genetic code that determines its melanin, or the color of its skin. However, when an animal is born albino, it means that some part of their genetic sequencing had an error, as this phenomenon occurs when an animal's genes produce a lack of melanin. Conversely, melanistic traits in animals arise when there is an abundance of melanin in the animal's genetic code. While it may seem that only mammals have the capacity to become albino, practically every member of the animal kingdom, from crocodiles to fish, have seen cases of glowing white skin. This trait manifests itself in so many creatures because every animal has a gene that determines its skill color. This means that there may have once existed albino dinosaurs, although dinosaurs with this trait would be very rare. While animals with albinism fascinate people, the opposite has been true about albino people in ancient culture. There is an ancient cultural association of pale skin and witchcraft, and evil creatures such as vampires are portrayed as having ghostly white skin. This issue is compounded further among certain regions of Africa, where people born with a lack of melanin are often subject to abduction or are even hunted down. With more education about what albinism entails, attitudes toward albino people can change for the better.",
+    "question_text": "Which of these statements matches what the author thinks of the possibility of albino dinosaurs?",
+    "options": [
+      "They could not have existed, because only mammals can become albino",
+      "In the time when dinosaurs lived, albino dinosaurs would have been easy to find",
+      "It is possible that there were a few albino dinosaurs",
+      "Albino dinosaurs were hunted to extinction because humans saw them as \"different\""
+    ],
+    "correct_answer": 2,
+    "answer_type": "multiple_choice"
+  },
+  {
+    "_id": "56",
+    "question_number": 56,
+    "practice_set": "Practice Test 1",
+    "category": "Reading Comprehension",
+    "difficulty": "",
+    "time_estimate": 95,
+    "passage": "Some animals are born with whiter fur or skin than usual. These white animals are called \"albino.\" If, on the other hand, a creature is born with darker skin, it is known as \"melanistic.\" It may be surprising for someone to see an animal with a lighter or darker skin tone than usual. For instance, while people normally associate giraffes with light sandy fur, there are melanistic giraffes in the wild that blend with the night. However, this is not necessarily an evolutionary advantage, as most giraffes that currently roam the savannah use the light color of their fur to blend in with the surroundings of the plants that grow around the area. What causes such unusual pigmentation in albino and melanistic animals? Usually, the anomalous skin color stems from a mutation in the animal's genes - every animal has instructions in its genetic code that determines its melanin, or the color of its skin. However, when an animal is born albino, it means that some part of their genetic sequencing had an error, as this phenomenon occurs when an animal's genes produce a lack of melanin. Conversely, melanistic traits in animals arise when there is an abundance of melanin in the animal's genetic code. While it may seem that only mammals have the capacity to become albino, practically every member of the animal kingdom, from crocodiles to fish, have seen cases of glowing white skin. This trait manifests itself in so many creatures because every animal has a gene that determines its skill color. This means that there may have once existed albino dinosaurs, although dinosaurs with this trait would be very rare. While animals with albinism fascinate people, the opposite has been true about albino people in ancient culture. There is an ancient cultural association of pale skin and witchcraft, and evil creatures such as vampires are portrayed as having ghostly white skin. This issue is compounded further among certain regions of Africa, where people born with a lack of melanin are often subject to abduction or are even hunted down. With more education about what albinism entails, attitudes toward albino people can change for the better.",
+    "question_text": "What does the author imply is important about getting people to accept those born with a melanin mutation that makes them albino?",
+    "options": [
+      "Giving people more information about albinism",
+      "Integrating albino students into schools",
+      "Teaching albino people how they can fit into society better",
+      "Giving albinos special treatment so they can be honored"
+    ],
+    "correct_answer": 0,
+    "answer_type": "multiple_choice"
+  },
+  {
+    "_id": "57",
+    "question_number": 57,
+    "practice_set": "Practice Test 1",
+    "category": "Reading Comprehension",
+    "difficulty": "",
+    "time_estimate": 95,
+    "passage": "Some animals are born with whiter fur or skin than usual. These white animals are called \"albino.\" If, on the other hand, a creature is born with darker skin, it is known as \"melanistic.\" It may be surprising for someone to see an animal with a lighter or darker skin tone than usual. For instance, while people normally associate giraffes with light sandy fur, there are melanistic giraffes in the wild that blend with the night. However, this is not necessarily an evolutionary advantage, as most giraffes that currently roam the savannah use the light color of their fur to blend in with the surroundings of the plants that grow around the area. What causes such unusual pigmentation in albino and melanistic animals? Usually, the anomalous skin color stems from a mutation in the animal's genes - every animal has instructions in its genetic code that determines its melanin, or the color of its skin. However, when an animal is born albino, it means that some part of their genetic sequencing had an error, as this phenomenon occurs when an animal's genes produce a lack of melanin. Conversely, melanistic traits in animals arise when there is an abundance of melanin in the animal's genetic code. While it may seem that only mammals have the capacity to become albino, practically every member of the animal kingdom, from crocodiles to fish, have seen cases of glowing white skin. This trait manifests itself in so many creatures because every animal has a gene that determines its skill color. This means that there may have once existed albino dinosaurs, although dinosaurs with this trait would be very rare. While animals with albinism fascinate people, the opposite has been true about albino people in ancient culture. There is an ancient cultural association of pale skin and witchcraft, and evil creatures such as vampires are portrayed as having ghostly white skin. This issue is compounded further among certain regions of Africa, where people born with a lack of melanin are often subject to abduction or are even hunted down. With more education about what albinism entails, attitudes toward albino people can change for the better.",
+    "question_text": "Why does the author mention \"vampires\" in the final paragraph?",
+    "options": [
+      "To explain why so many albino people become vampires",
+      "To explain how humans viewed albino people a long time ago",
+      "To explain that many African tribes believes that albinos have powers like vampires",
+      "To explain that all vampires are technically born as albinos."
+    ],
+    "correct_answer": 1,
+    "answer_type": "multiple_choice"
+  }
+]

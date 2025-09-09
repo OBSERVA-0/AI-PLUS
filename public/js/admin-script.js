@@ -93,7 +93,7 @@ class AdminService {
         });
     }
 
-    static async getStudentsByTestScore(testType, practiceSet, page = 1, scoreRange = null) {
+    static async getStudentsByTestScore(testType, practiceSet, page = 1, scoreRange = null, sectionType = null) {
         const params = new URLSearchParams({
             testType,
             practiceSet,
@@ -106,6 +106,10 @@ class AdminService {
             if (scoreRange.max) {
                 params.append('maxScore', scoreRange.max);
             }
+        }
+        
+        if (sectionType) {
+            params.append('sectionType', sectionType);
         }
         
         return this.makeRequest(`/admin/students/test-scores?${params}`);
@@ -464,7 +468,7 @@ async function loadStudents(page = 1, search = '', grade = 'all') {
         
         if (state.sortMode === 'test-score' && state.selectedTestType && state.selectedPracticeSet) {
             // Load students by test score
-            response = await AdminService.getStudentsByTestScore(state.selectedTestType, state.selectedPracticeSet, page, state.selectedScoreRange);
+            response = await AdminService.getStudentsByTestScore(state.selectedTestType, state.selectedPracticeSet, page, state.selectedScoreRange, state.selectedSectionType);
             
             const { students, pagination, testInfo, summary } = response.data;
             
@@ -655,12 +659,16 @@ function handleTestTypeChange() {
     }
     
     if (testType === 'shsat') {
-        // Add SHSAT practice sets
+        // Add SHSAT practice sets - only include section options for tests that are actually implemented
         practiceSetSelect.innerHTML += `
-            <option value="Diagnostic_Test">Diagnostic Test</option>
-            <option value="1">Practice Test 1</option>
-            <option value="2">Practice Test 2</option>
-            <option value="3">Practice Test 3</option>
+            <option value="diagnostic">Diagnostic Test</option>
+            <option value="1">Practice Test 1 (Full)</option>
+            <option value="1_ela">Practice Test 1 (ELA Only)</option>
+            <option value="1_math">Practice Test 1 (Math Only)</option>
+            <option value="2">Practice Test 2 (Full)</option>
+            <option value="2_ela">Practice Test 2 (ELA Only)</option>
+            <option value="3">Practice Test 3 (Full)</option>
+            <option value="3_ela">Practice Test 3 (ELA Only)</option>
             <option value="4">Practice Test 4</option>
             <option value="5">Practice Test 5</option>
             <option value="6">Practice Test 6</option>
@@ -715,13 +723,30 @@ function handleScoreRangeChange() {
 // Handle load test scores button
 function handleLoadTestScores() {
     const testType = elements.testTypeSelect.value;
-    const practiceSet = elements.practiceSetSelect.value;
-    const sectionTypeSelect = document.getElementById('section-type-select');
-    const sectionType = testType === 'shsat' ? sectionTypeSelect.value : null;
+    const practiceSetValue = elements.practiceSetSelect.value;
     
-    if (testType && practiceSet) {
+    if (testType && practiceSetValue) {
+        // Parse practice set value to extract actual practice set and section type
+        let actualPracticeSet, sectionType;
+        
+        if (testType === 'shsat') {
+            if (practiceSetValue.includes('_ela')) {
+                actualPracticeSet = practiceSetValue.replace('_ela', '');
+                sectionType = 'ela';
+            } else if (practiceSetValue.includes('_math')) {
+                actualPracticeSet = practiceSetValue.replace('_math', '');
+                sectionType = 'math';
+            } else {
+                actualPracticeSet = practiceSetValue;
+                sectionType = 'full';
+            }
+        } else {
+            actualPracticeSet = practiceSetValue;
+            sectionType = null;
+        }
+        
         state.selectedTestType = testType;
-        state.selectedPracticeSet = practiceSet;
+        state.selectedPracticeSet = actualPracticeSet;
         state.selectedSectionType = sectionType;
         loadStudents(1);
     }
@@ -730,12 +755,30 @@ function handleLoadTestScores() {
 // Handle export Excel button
 async function handleExportExcel() {
     const testType = elements.testTypeSelect.value;
-    const practiceSet = elements.practiceSetSelect.value;
+    const practiceSetValue = elements.practiceSetSelect.value;
     const scoreRange = state.selectedScoreRange;
     
-    if (!testType || !practiceSet) {
+    if (!testType || !practiceSetValue) {
         alert('Please select a test type and practice set first.');
         return;
+    }
+    
+    // Parse practice set value to extract actual practice set and section type
+    let actualPracticeSet, sectionType;
+    if (testType === 'shsat') {
+        if (practiceSetValue.includes('_ela')) {
+            actualPracticeSet = practiceSetValue.replace('_ela', '');
+            sectionType = 'ela';
+        } else if (practiceSetValue.includes('_math')) {
+            actualPracticeSet = practiceSetValue.replace('_math', '');
+            sectionType = 'math';
+        } else {
+            actualPracticeSet = practiceSetValue;
+            sectionType = 'full';
+        }
+    } else {
+        actualPracticeSet = practiceSetValue;
+        sectionType = null;
     }
     
     try {
@@ -747,8 +790,12 @@ async function handleExportExcel() {
         // Build URL with parameters
         const params = new URLSearchParams({
             testType,
-            practiceSet
+            practiceSet: actualPracticeSet
         });
+        
+        if (sectionType) {
+            params.append('sectionType', sectionType);
+        }
         
         if (scoreRange) {
             params.append('minScore', scoreRange.min);
@@ -775,7 +822,8 @@ async function handleExportExcel() {
         const url = window.URL.createObjectURL(blob);
         const a = document.createElement('a');
         a.href = url;
-        a.download = `${testType}_practice_${practiceSet}_scores.xlsx`;
+        const sectionSuffix = sectionType && sectionType !== 'full' ? `_${sectionType}` : '';
+        a.download = `${testType}_practice_${actualPracticeSet}${sectionSuffix}_scores.xlsx`;
         document.body.appendChild(a);
         a.click();
         window.URL.revokeObjectURL(url);

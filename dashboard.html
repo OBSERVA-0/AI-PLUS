@@ -130,11 +130,11 @@
                         
                         <!-- Dynamic Test Display Area -->
                         <div class="test-display-area">
-                            <!-- Coming Soon message for ELA/Math only -->
+                            <!-- Coming Soon message for sections with no available tests -->
                             <div id="shsat-coming-soon-message" class="selection-message" style="display: none;">
                                 <div class="message-content">
                                     <h4>🚧 Coming Soon</h4>
-                                    <p>Individual ELA and Math sections for SHSAT are not available yet. Please select "Full Test" for now.</p>
+                                    <p>No section-specific tests are available for this selection yet. Please try a different option or select "Full Test".</p>
                                 </div>
                             </div>
                             
@@ -156,6 +156,16 @@
                                 <button class="btn btn-primary start-test-btn" data-practice-set="14" data-test-type="full">Practice 14 (Full)</button>
                                 <button class="btn btn-primary start-test-btn" data-practice-set="15" data-test-type="full">Practice 15 (Full)</button>
                                 <button class="btn btn-diagnostic start-test-btn" data-practice-set="diagnostic" data-test-type="full">Diagnostic Test (Full)</button>
+                                
+                                <!-- ELA-Only Tests -->
+                                <div class="section-divider" style="margin: 20px 0; text-align: center; color: #666; font-weight: bold;">ELA Only Tests</div>
+                                <button class="btn btn-ela start-test-btn" data-practice-set="1" data-test-type="ela">Practice 1 (ELA Only)</button>
+                                <button class="btn btn-ela start-test-btn" data-practice-set="2" data-test-type="ela">Practice 2 (ELA Only)</button>
+                                <button class="btn btn-ela start-test-btn" data-practice-set="3" data-test-type="ela">Practice 3 (ELA Only)</button>
+                                
+                                <!-- Math-Only Tests -->
+                                <div class="section-divider" style="margin: 20px 0; text-align: center; color: #666; font-weight: bold;">Math Only Tests</div>
+                                <button class="btn btn-math start-test-btn" data-practice-set="1" data-test-type="math">Practice 1 (Math Only)</button>
                             </div>
                         </div>
                     </div>
