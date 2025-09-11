@@ -1,938 +1,1003 @@
 [
   {
-    "_id": "59",
-    "question_text": "Solve for x: |10-14| + |4.5 - 5.9| = 10 + x",
+    "_id": "58",
+    "question_number": 58,
+    "practice_set": "Test 1",
+    "category": "Grid-in Problems",
+    "difficulty": "",
+    "time_estimate": 95,
     "passage": "",
+    "question_text": "How many 5-digit numbers can be created using digits 1, 2, 3, 7, 6 without repeating any digits within that 5-digit number?",
     "options": [],
-    "correct_answer": -4.6,
-    "difficulty": "easy",
-    "category": "Math: Algebra",
-   "time_estimate": 95,
+    "correct_answer": 120,
+    "answer_type": "fill_in_the_blank"
+  },
+  {
+    "_id": "59",
     "question_number": 59,
-    "practice_set": "1",
+    "practice_set": "Test 1",
+    "category": "Grid-in Problems",
+    "difficulty": "",
+    "time_estimate": 95,
+    "passage": "",
+    "question_text": "For what value of b is 8b = 3b - 10?",
+    "options": [],
+    "correct_answer": -2,
     "answer_type": "fill_in_the_blank"
   },
   {
     "_id": "60",
-    "question_text": "A survey asked students about what classes they were taking. Based on the results, the following statements are all true:\n\n32 students are taking math\n38 students are taking English\n18 students are taking both math and English\n5 students are taking neither math nor English\n\nHow many students were surveyed?",
-    "passage": "",
-    "options": [],
-    "correct_answer": 57,
-    "difficulty": "medium",
-    "category": "Math: Sets",
-   "time_estimate": 95,
     "question_number": 60,
-    "practice_set": "1",
+    "practice_set": "Test 1",
+    "category": "Grid-in Problems",
+    "difficulty": "",
+    "time_estimate": 95,
+    "passage": "image:images/shsatpractice1mathtest.png",
+    "question_text": "What is the value of x?",
+    "options": [],
+    "correct_answer": 164,
     "answer_type": "fill_in_the_blank"
   },
   {
     "_id": "61",
-    "question_text": "Four straight lines intersect at point P, as shown above. What is the value of x??",
-    "passage": "image:images/shsatpractice1question61.png",
-    "options": [],
-    "correct_answer": 46,
-    "difficulty": "easy",
-    "category": "Math: Geometry",
-   "time_estimate": 95,
     "question_number": 61,
-    "practice_set": "1",
+    "practice_set": "Test 1",
+    "category": "Grid-in Problems",
+    "difficulty": "",
+    "time_estimate": 95,
+    "passage": "",
+    "question_text": "Zachary has read 15 pages of his English reading. This is 30% of the total number he needs to read. How many more pages does he need to read?",
+    "options": [],
+    "correct_answer": 35,
     "answer_type": "fill_in_the_blank"
   },
   {
     "_id": "62",
-    "question_text": "How many ways can the letters of the word SNOW be arranged horizontally so that the letters N and O are always immediately next to each other (either NO or ON)?",
-    "passage": "",
-    "options": [],
-    "correct_answer": 12,
-    "difficulty": "medium",
-    "category": "Math: Permutations",
+    "question_number": 62,
+    "practice_set": "Test 1",
+    "category": "Grid-in Problems",
+    "difficulty": "",
     "time_estimate": 95,
-        "question_number": 62,
-    "practice_set": "1",
+    "passage": "",
+    "question_text": "What is the value of 2|x| - 4|y| if x = -7 and y = -10?",
+    "options": [],
+    "correct_answer": -26,
     "answer_type": "fill_in_the_blank"
   },
   {
     "_id": "63",
-    "question_text": "(3+4)² =",
-    "passage": "",
-    "options": [
-      "13",
-      "14",
-      "19",
-      "49"
-    ],
-    "correct_answer": 3,
-    "difficulty": "easy",
-    "category": "Math: Arithmetic",
-    "time_estimate": 60,
     "question_number": 63,
-    "practice_set": "1"
+    "practice_set": "Test 1",
+    "category": "Multiple Choice Problems",
+    "difficulty": "",
+    "time_estimate": 95,
+    "passage": "The set of possible values of s is {2, 3, 6}.",
+    "question_text": "What is the set of possible values of t if 2t = s + 2?",
+    "options": [
+      "{2, 2.5, 4}",
+      "{3, 4, 5}",
+      "{4, 6, 12}",
+      "{6, 8, 14}"
+    ],
+    "correct_answer": 0,
+    "answer_type": "multiple_choice"
   },
   {
     "_id": "64",
-    "question_text": "The exact value of √49 - √24 is",
-    "passage": "",
-    "options": [
-      "2",
-      "between 2 and 5",
-      "5",
-      "more than 5"
-    ],
-    "correct_answer": 1,
-    "difficulty": "easy",
-    "category": "Math: Arithmetic",
-    "time_estimate": 95,
     "question_number": 64,
-    "practice_set": "1"
+    "practice_set": "Test 1",
+    "category": "Multiple Choice Problems",
+    "difficulty": "",
+    "time_estimate": 95,
+    "passage": "",
+    "question_text": "One bottle contains 250 milliliters of tomato sauce. How many liters of tomato sauce are there in 48 of these bottles?",
+    "options": [
+      "12 L",
+      "120 L",
+      "1,200 L",
+      "12,000 L"
+    ],
+    "correct_answer": 0,
+    "answer_type": "multiple_choice"
   },
   {
     "_id": "65",
-    "question_text": "200% of 7 is",
-    "passage": "",
-    "options": [
-      ".14",
-      "7",
-      "14",
-      "21"
-    ],
-    "correct_answer": 2,
-    "difficulty": "easy",
-    "category": "Math: Percentages",
-    "time_estimate": 60,
     "question_number": 65,
-    "practice_set": "1"
+    "practice_set": "Test 1",
+    "category": "Multiple Choice Problems",
+    "difficulty": "",
+    "time_estimate": 95,
+    "passage": "In a certain school, class grades range from 0 to 100. Audrey took 3 classes and her average class grade was 95. Richard took 5 classes.",
+    "question_text": "If both students have the same sum of class grades, what was Richard's average?",
+    "options": [
+      "50",
+      "57",
+      "65",
+      "78"
+    ],
+    "correct_answer": 1,
+    "answer_type": "multiple_choice"
   },
   {
     "_id": "66",
-    "question_text": "The perimeter of the figure is",
-    "passage": "image:images/shsatpractice1question66.png",
+    "question_number": 66,
+    "practice_set": "Test 1",
+    "category": "Multiple Choice Problems",
+    "difficulty": "",
+    "time_estimate": 95,
+    "passage": "",
+    "question_text": "Jared has twice as many marbles as Karl. Jared gives Karl 3 marbles, but he still has 8 more than Karl. How many marbles did Jared have to start with?",
     "options": [
-      "5",
-      "6",
-      "7",
-      "14"
+      "22",
+      "24",
+      "26",
+      "28"
     ],
     "correct_answer": 3,
-    "difficulty": "medium",
-    "category": "Math: Geometry",
-   "time_estimate": 95,
-    "question_number": 66,
-    "practice_set": "1"
+    "answer_type": "multiple_choice"
   },
   {
     "_id": "67",
-    "question_text": "What is the value of N if 1/5 - 1/6 = 1/N?",
-    "passage": "",
-    "options": [
-      "7",
-      "30",
-      "1/30",
-      "-30"
-    ],
-    "correct_answer": 1,
-    "difficulty": "medium",
-    "category": "Math: Algebra",
-    "time_estimate": 95,
     "question_number": 67,
-    "practice_set": "1"
+    "practice_set": "Test 1",
+    "category": "Multiple Choice Problems",
+    "difficulty": "",
+    "time_estimate": 95,
+    "passage": "",
+    "question_text": "In a scale diagram, 0.4 inch represents 80 feet. How many inches represent 1 foot?",
+    "options": [
+      "5.0 in.",
+      "0.5 in.",
+      "0.05 in.",
+      "0.005 in."
+    ],
+    "correct_answer": 3,
+    "answer_type": "multiple_choice"
   },
   {
     "_id": "68",
-    "question_text": "Find the value of (2⁴ - 4²) + (2³ - 3²)",
-    "passage": "",
+    "question_number": 68,
+    "practice_set": "Test 1",
+    "category": "Multiple Choice Problems",
+    "difficulty": "",
+    "time_estimate": 95,
+    "passage": "image:images/shsatpractice1mathtestq69.png",  
+    "question_text": "In the star-shaped prism above, all faces beside the bases are congruent rectangles. The length of line segment BA is 3 centimeters, and the length of line segment CD is 4 centimeters.What is the total surface area of the prism excluding the bases (the stars)?",
     "options": [
-      "-11",
-      "-8",
-      "-1",
-      "0"
+      "48 sq cm",
+      "72 sq cm",
+      "120 sq cm",
+      "144 sq cm"
     ],
     "correct_answer": 2,
-    "difficulty": "medium",
-    "category": "Math: Arithmetic",
-    "time_estimate": 95,
-    "question_number": 68,
-    "practice_set": "1"
+    "answer_type": "multiple_choice"
   },
   {
     "_id": "69",
-    "question_text": "On the number line shown, Q (not shown) is the midpoint of PR. What is the midpoint of QS?",
-    "passage": "image:images/shsatpractice1question69.png",
-    "options": [
-      "-5",
-      "-4",
-      "0",
-      "1"
-    ],
-    "correct_answer": 3,
-    "difficulty": "medium",
-    "category": "Math: Geometry",
-   "time_estimate": 95,
     "question_number": 69,
-    "practice_set": "1"
+    "practice_set": "Test 1",
+    "category": "Multiple Choice Problems",
+    "difficulty": "",
+    "time_estimate": 95,
+    "passage": "BEAN SPROUTS IN A GARDEN. A scientist counted the number of bean sprouts in each rectangular plot of a garden. The table shows the percent distribution for the 560 bean sprouts that were present in the garden. Plot A: 30%, Plot B: 15%, Plot C: 25%, Plot D: 12%, Plot E: 18%.",
+    "question_text": "How many of the 560 bean sprouts were in A and B?",
+    "options": [
+      "57",
+      "170",
+      "252",
+      "315"
+    ],
+    "correct_answer": 2,
+    "answer_type": "multiple_choice"
   },
   {
     "_id": "70",
-    "question_text": "The ratio of boys to girls at a dance was 2 to 3. If 45 girls attended, what is the number of boys who attended?",
-    "passage": "",
-    "options": [
-      "9",
-      "18",
-      "27",
-      "30"
-    ],
-    "correct_answer": 3,
-    "difficulty": "easy",
-    "category": "Math: Ratios",
-    "time_estimate": 95,
     "question_number": 70,
-    "practice_set": "1"
+    "practice_set": "Test 1",
+    "category": "Multiple Choice Problems",
+    "difficulty": "",
+    "time_estimate": 95,
+    "passage": "",
+    "question_text": "The perimeter of a rectangle is 720 inches. The ratio of the length to the width is 13:5. What are the dimensions of the rectangle?",
+    "options": [
+      "240 in by 120 in",
+      "260 in by 100 in",
+      "265 in by 95 in",
+      "272 in by 88 in"
+    ],
+    "correct_answer": 1,
+    "answer_type": "multiple_choice"
   },
   {
     "_id": "71",
-    "question_text": "If the measure of angle A is 40°, then x + y =",
-    "passage": "image:images/shsatpractice1question71.png",
-    "options": [
-      "80°",
-      "120°",
-      "180°",
-      "220°"
-    ],
-    "correct_answer": 3,
-    "difficulty": "medium",
-    "category": "Math: Geometry",
-   "time_estimate": 95,
     "question_number": 71,
-    "practice_set": "1"
+    "practice_set": "Test 1",
+    "category": "Multiple Choice Problems",
+    "difficulty": "",
+    "time_estimate": 95,
+    "passage": "",
+    "question_text": "Which number line below shows the solution to the inequality -3.5 < x/2 < 4:",
+    "options": [
+      "A number line with an open circle on -7 and an open circle on 8, with the line shaded between them.",
+      "A number line with an open circle on -10 and an open circle on 5, with the line shaded between them.",
+      "A number line with a closed circle on -5 and a closed circle on 10, with the line shaded between them.",
+      "A number line with a closed circle on -10 and a closed circle on 5, with the line shaded between them."
+    ],
+    "correct_answer": 0,
+    "answer_type": "multiple_choice"
   },
   {
     "_id": "72",
-    "question_text": "If 6x is increased by 4y, and the sum is divided by 2, the result is equivalent to",
-    "passage": "",
-    "options": [
-      "3x+4y",
-      "6x+2y",
-      "3x+2y",
-      "10x+y/2"
-    ],
-    "correct_answer": 2,
-    "difficulty": "easy",
-    "category": "Math: Algebra",
-    "time_estimate": 95,
     "question_number": 72,
-    "practice_set": "1"
+    "practice_set": "Test 1",
+    "category": "Multiple Choice Problems",
+    "difficulty": "",
+    "time_estimate": 95,
+    "passage": "1 dollar = 6 ars\n1 dollar = 0.25 bans",
+    "question_text": "Kyle has 126 ars and 44 bans. If he exchanges the ars and bans for dollars according to the rate above, how many dollars will he receive?",
+    "options": [
+      "$197",
+      "$176",
+      "$168",
+      "$121"
+    ],
+    "correct_answer": 0,
+    "answer_type": "multiple_choice"
   },
   {
     "_id": "73",
-    "question_text": "If a*b means aᵇ, then 2*(3*2) is",
-    "passage": "",
-    "options": [
-      "512",
-      "256",
-      "81",
-      "64"
-    ],
-    "correct_answer": 0,
-    "difficulty": "medium",
-    "category": "Math: Algebra",
-   "time_estimate": 95,
     "question_number": 73,
-    "practice_set": "1"
+    "practice_set": "Test 1",
+    "category": "Multiple Choice Problems",
+    "difficulty": "",
+    "time_estimate": 95,
+    "passage": "A chest box contains a variety of marbles. The probability of choosing a red marble from the chest box is 3/7.",
+    "question_text": "If there are exactly 12 red marbles, how many of the marbles in the box are not red?",
+    "options": [
+      "20",
+      "16",
+      "14",
+      "12"
+    ],
+    "correct_answer": 1,
+    "answer_type": "multiple_choice"
   },
   {
     "_id": "74",
-    "question_text": "Let n be an integer from 9 to 38. For how many values of n will n/5 be a prime?",
-    "passage": "",
-    "options": [
-      "3",
-      "4",
-      "6",
-      "8"
-    ],
-    "correct_answer": 1,
-    "difficulty": "medium",
-    "category": "Math: Number Theory",
-    "time_estimate": 95,
     "question_number": 74,
-    "practice_set": "1"
+    "practice_set": "Test 1",
+    "category": "Multiple Choice Problems",
+    "difficulty": "",
+    "time_estimate": 95,
+    "passage": "The sum of the numbers a, b, and c is 80. The ratio of a to b is 2:3, and the ratio of b to c is 3:11.",
+    "question_text": "What is the value of b?",
+    "options": [
+      "8",
+      "12",
+      "15",
+      "20"
+    ],
+    "correct_answer": 2,
+    "answer_type": "multiple_choice"
   },
   {
     "_id": "75",
-    "question_text": "|2 - 8| - |7 - 3| =",
-    "passage": "",
+    "question_number": 75,
+    "practice_set": "Test 1",
+    "category": "Multiple Choice Problems",
+    "difficulty": "",
+    "time_estimate": 95,
+    "passage": "image:images/shsatpractice1mathtestq75.png",
+    "question_text": "What is the area of the shaded region in the graph above?",
     "options": [
-      "-10",
-      "-2",
-      "2",
-      "none of these"
+      "1 square unit",
+      "1.5 square units",
+      "2 square units",
+      "2.5 square units"
     ],
     "correct_answer": 2,
-    "difficulty": "easy",
-    "category": "Math: Arithmetic",
-    "time_estimate": 60,
-    "question_number": 75,
-    "practice_set": "1"
+    "answer_type": "multiple_choice"
   },
   {
     "_id": "76",
-    "question_text": "Mary is m years old now. Joe is 3 years younger than Mary. Express Joe's age 10 years from now in terms of m.",
-    "passage": "",
-    "options": [
-      "13 - m",
-      "m - 3",
-      "m + 7",
-      "m + 10"
-    ],
-    "correct_answer": 2,
-    "difficulty": "easy",
-    "category": "Math: Algebra",
-    "time_estimate": 95,
     "question_number": 76,
-    "practice_set": "1"
+    "practice_set": "Test 1",
+    "category": "Multiple Choice Problems",
+    "difficulty": "",
+    "time_estimate": 95,
+    "passage": "In Mainsville, 35% of the population is female, and 75% of the population commutes to work daily. Of the total Mainsville population, 28% are females who commute to work daily.",
+    "question_text": "What percentage of the total Mainsville population are males who do not commute to work daily?",
+    "options": [
+      "12%",
+      "18%",
+      "28%",
+      "65%"
+    ],
+    "correct_answer": 1,
+    "answer_type": "multiple_choice"
   },
   {
     "_id": "77",
-    "question_text": "The smaller angle between the hands of a clock at 10:00 is",
-    "passage": "",
-    "options": [
-      "15°",
-      "30°",
-      "45°",
-      "60°"
-    ],
-    "correct_answer": 3,
-    "difficulty": "easy",
-    "category": "Math: Geometry",
-    "time_estimate": 95,
     "question_number": 77,
-    "practice_set": "1"
+    "practice_set": "Test 1",
+    "category": "Multiple Choice Problems",
+    "difficulty": "",
+    "time_estimate": 95,
+    "passage": "",
+    "question_text": "Julie bought 3 cartons of orange juice for $1.25 each and 6 pounds of ground beef. She paid a total of $53.25 for these items, not including tax. What was the price per pound of the ground beef?",
+    "options": [
+      "$3.75",
+      "$8.25",
+      "$48.25",
+      "$49.50"
+    ],
+    "correct_answer": 1,
+    "answer_type": "multiple_choice"
   },
   {
     "_id": "78",
-    "question_text": "Find the smallest positive integer that is a multiple of both 21 and 77.",
-    "passage": "",
-    "options": [
-      "7",
-      "33",
-      "98",
-      "231"
-    ],
-    "correct_answer": 3,
-    "difficulty": "easy",
-    "category": "Math: Number Theory",
-    "time_estimate": 95,
     "question_number": 78,
-    "practice_set": "1"
+    "practice_set": "Test 1",
+    "category": "Multiple Choice Problems",
+    "difficulty": "",
+    "time_estimate": 95,
+    "passage": "In an assortment of 10 cards, 2 are red and 8 are blue.",
+    "question_text": "If 2 cards are selected at random from the sample, one at a time without replacement, what is the probability that both cards are not red?",
+    "options": [
+      "1/30",
+      "16/25",
+      "28/45",
+      "4/5"
+    ],
+    "correct_answer": 2,
+    "answer_type": "multiple_choice"
   },
   {
     "_id": "79",
-    "question_text": "Over which interval was the growth in the value of the stock of the ABC Company most rapid?",
-    "passage": "image:images/shsatpractice1question79.png",
-    "options": [
-      "March to April",
-      "April to May",
-      "May to June",
-      "June to July"
-    ],
-    "correct_answer": 1,
-    "difficulty": "easy",
-    "category": "Math: Data Interpretation",
-    "time_estimate": 95,
     "question_number": 79,
-    "practice_set": "1"
+    "practice_set": "Test 1",
+    "category": "Multiple Choice Problems",
+    "difficulty": "",
+    "time_estimate": 95,
+    "passage": "A country has five type of coins: ans, bars, corgs, delts and erons. The relationship between the coins is shown above:\n1 ans = 4 bars\n2 erons = 5 corgs\n5 ans = 2 delts\n1 eron = 3 delts",
+    "question_text": "Which coin is most valuable?",
+    "options": [
+      "ans",
+      "bars",
+      "delts",
+      "eron"
+    ],
+    "correct_answer": 3,
+    "answer_type": "multiple_choice"
   },
   {
     "_id": "80",
-    "question_text": "Express the sum of 1.2 x 10² and 1.2 x 10³ in scientific notation.",
-    "passage": "",
-    "options": [
-      "0.144 x 10⁶",
-      "1.32 x 10³",
-      "1.44 x 10⁵",
-      "2.4 x 10⁵"
-    ],
-    "correct_answer": 1,
-    "difficulty": "medium",
-    "category": "Math: Scientific Notation",
-   "time_estimate": 95,
     "question_number": 80,
-    "practice_set": "1"
+    "practice_set": "Test 1",
+    "category": "Multiple Choice Problems",
+    "difficulty": "",
+    "time_estimate": 95,
+    "passage": "SCORES ON MATH QUIZ\nScore 85: 3 students\nScore 80: 5 students\nScore 65: 2 students",
+    "question_text": "What is the mean score of the students in the table above?",
+    "options": [
+      "70",
+      "76",
+      "78.5",
+      "80"
+    ],
+    "correct_answer": 2,
+    "answer_type": "multiple_choice"
   },
   {
     "_id": "81",
-    "question_text": "Today is Saturday. What day of the week will it be 65 days from today?",
-    "passage": "",
+    "question_number": 81,
+    "practice_set": "Test 1",
+    "category": "Multiple Choice Problems",
+    "difficulty": "",
+    "time_estimate": 95,
+    "passage": "FAVORITE MOVIE GENRE IN TOWN Z. Total number of people in Town Z = 15,000. The pie chart shows the following distribution: Action 40%, Romance 13%, Musical 12%, Comedy 35%.",
+    "question_text": "How many people in Town Z chose comedy or musical as favorite movie genres?",
     "options": [
-      "Sunday",
-      "Monday",
-      "Tuesday",
-      "Wednesday"
+      "7000",
+      "7050",
+      "7100",
+      "7200"
     ],
     "correct_answer": 1,
-    "difficulty": "easy",
-    "category": "Math: Arithmetic",
-    "time_estimate": 95,
-    "question_number": 81,
-    "practice_set": "1"
+    "answer_type": "multiple_choice"
   },
   {
-    "_id": "82",  
-    "question_text": "The circles are 'tangent' to the rectangle and to each other, as shown. If the area of each circle is 16π, then the area of the rectangle is",
-    "passage": "image:images/shsatpractice1question82.png",
-    "options": [
-      "32",
-      "48",
-      "96",
-      "128"
-    ],
-    "correct_answer": 3,
-    "difficulty": "medium",
-    "category": "Math: Geometry",
-    "time_estimate": 95,
+    "_id": "82",
     "question_number": 82,
-    "practice_set": "1"
+    "practice_set": "Test 1",
+    "category": "Multiple Choice Problems",
+    "difficulty": "",
+    "time_estimate": 95,
+    "passage": "",
+    "question_text": "Which of the following numbers has factors that include the smallest factor (other than 1) of 93?",
+    "options": [
+      "14",
+      "27",
+      "32",
+      "46"
+    ],
+    "correct_answer": 1,
+    "answer_type": "multiple_choice"
   },
   {
     "_id": "83",
-    "question_text": "Thirty of the fifty students who took an exam received a grade of 90% or greater. What percentage of those fifty students received a grade of less than 90%?",
-    "passage": "",
-    "options": [
-      "70",
-      "35",
-      "40",
-      "30"
-    ],
-    "correct_answer": 2,
-    "difficulty": "easy",
-    "category": "Math: Percentages",
-    "time_estimate": 95,
     "question_number": 83,
-    "practice_set": "1"
+    "practice_set": "Test 1",
+    "category": "Multiple Choice Problems",
+    "difficulty": "",
+    "time_estimate": 95,
+    "passage": "In a scale drawing of an isosceles triangle flag, one side measures 15 centimeters and the other two side measures 20 centimeters. On the actual flag, these two sides each measure 70 inches.",
+    "question_text": "What is the length of the remaining side of the actual flag?",
+    "options": [
+      "52.5 in",
+      "50.0 in",
+      "47.5 in",
+      "45.0 in"
+    ],
+    "correct_answer": 0,
+    "answer_type": "multiple_choice"
   },
   {
     "_id": "84",
-    "question_text": "Let n be a number from -3 to 4 inclusive. What is the range of values of n²?",
-    "passage": "",
-    "options": [
-      "-9 ≤ n² ≤ 16",
-      "9 ≤ n² ≤ 16",
-      "3 ≤ n² ≤ 4",
-      "0 ≤ n² ≤ 16"
-    ],
-    "correct_answer": 3,
-    "difficulty": "medium",
-    "category": "Math: Algebra",
-   "time_estimate": 95,
     "question_number": 84,
-    "practice_set": "1"
+    "practice_set": "Test 1",
+    "category": "Multiple Choice Problems",
+    "difficulty": "",
+    "time_estimate": 95,
+    "passage": "In a certain middle school with 6th, 7th and 8th grade, the ratio of the student to teacher is 28:1.",
+    "question_text": "There are a total of 828 6th graders and 82 teachers. How many 7th and 8th grade students are there?",
+    "options": [
+      "1468",
+      "1660",
+      "2146",
+      "2296"
+    ],
+    "correct_answer": 0,
+    "answer_type": "multiple_choice"
   },
   {
     "_id": "85",
-    "question_text": "A is 3 times C. B is 8 less than C. For what value of C does A = B?",
-    "passage": "",
-    "options": [
-      "-4",
-      "0",
-      "1",
-      "2"
-    ],
-    "correct_answer": 0,
-    "difficulty": "easy",
-    "category": "Math: Algebra",
-    "time_estimate": 95,
     "question_number": 85,
-    "practice_set": "1"
+    "practice_set": "Test 1",
+    "category": "Multiple Choice Problems",
+    "difficulty": "",
+    "time_estimate": 95,
+    "passage": "",
+    "question_text": "What is the value of the expression shown above: 4 1/8 + 3 1/4 + 2 5/8 + 1 1/2?",
+    "options": [
+      "10 1/2",
+      "10 5/8",
+      "11 5/8",
+      "11 7/8"
+    ],
+    "correct_answer": 2,
+    "answer_type": "multiple_choice"
   },
   {
     "_id": "86",
-    "question_text": "In a class of 28 students, everyone likes math, English, or both. If 17 like math and 19 like English, how many like both?",
-    "passage": "",
+    "question_number": 86,
+    "practice_set": "Test 1",
+    "category": "Multiple Choice Problems",
+    "difficulty": "",
+    "time_estimate": 95,
+    "passage": "A bus is traveling 25 miles per hour, and 1 mile = 5,280 feet.",
+    "question_text": "Which of the following calculations would give the car's speed in feet per second?",
     "options": [
-      "2",
-      "8",
-      "16",
-      "20"
+      "(25 * 5280) / 1",
+      "(25 * 5280) / 3600",
+      "(25 * 3600) / 5280",
+      "(25 * 5280) / 60"
     ],
     "correct_answer": 1,
-    "difficulty": "easy",
-    "category": "Math: Sets",
-   "time_estimate": 95,
-    "question_number": 86,
-    "practice_set": "1"
+    "answer_type": "multiple_choice"
   },
   {
     "_id": "87",
-    "question_text": "Let x = 3² * 5³ * 7⁴ and y = 2³ * 3⁵ * 5². What is the greatest common factor of x and y?",
+    "question_number": 87,
+    "practice_set": "Test 1",
+    "category": "Multiple Choice Problems",
+    "difficulty": "",
+    "time_estimate": 95,
     "passage": "",
+    "question_text": "Today, Mandy's age is 1/4 of Nina's age. In 6 years, Mandy's age will be 1/2 of Nina's age. How old is Nina today?",
     "options": [
-      "2*3*5*7",
-      "2³*3⁵*5³*7⁴",
-      "3²*5²",
-      "3⁵*5²"
+      "6",
+      "8",
+      "12",
+      "14"
     ],
     "correct_answer": 2,
-    "difficulty": "medium",
-    "category": "Math: Number Theory",
-    "time_estimate": 95,
-    "question_number": 87,
-    "practice_set": "1"
+    "answer_type": "multiple_choice"
   },
   {
     "_id": "88",
-    "question_text": "The equation 2(3x+8) = 3(2x+4) is satisfied by",
-    "passage": "",
-    "options": [
-      "no value of x",
-      "only negative values of x",
-      "only positive values of x",
-      "all values of x"
-    ],
-    "correct_answer": 0,
-    "difficulty": "easy",
-    "category": "Math: Algebra",
-    "time_estimate": 95,
     "question_number": 88,
-    "practice_set": "1"
-  },
-  {
-    "_id": "89",
-    "question_text": "In the formula V=s²h, if s is doubled and h is tripled, then V is multiplied by",
+    "practice_set": "Test 1",
+    "category": "Multiple Choice Problems",
+    "difficulty": "",
+    "time_estimate": 95,
     "passage": "",
+    "question_text": "What is the positive difference of the second largest factor of 24 and the second largest factor of 36?",
     "options": [
-      "5",
       "6",
+      "8",
       "12",
       "18"
     ],
-    "correct_answer": 2,
-    "difficulty": "easy",
-    "category": "Math: Algebra",
-    "time_estimate": 95,
+    "correct_answer": 0,
+    "answer_type": "multiple_choice"
+  },
+  {
+    "_id": "89",
     "question_number": 89,
-    "practice_set": "1"
+    "practice_set": "Test 1",
+    "category": "Multiple Choice Problems",
+    "difficulty": "",
+    "time_estimate": 95,
+    "passage": "",
+    "question_text": "The least of 6 consecutive integers is n. What is the average of the 6 consecutive integers in terms of n?",
+    "options": [
+      "6n",
+      "3n",
+      "n + 2.5",
+      "n + 3"
+    ],
+    "correct_answer": 2,
+    "answer_type": "multiple_choice"
   },
   {
     "_id": "90",
-    "question_text": "You have 10 large boxes that can each hold 8 soccer balls, and 10 small boxes that can each hold 5 of the same soccer balls. If you have 99 soccer balls, what is the greatest number of boxes you can completely fill?",
-    "passage": "",
+    "question_number": 90,
+    "practice_set": "Test 1",
+    "category": "Multiple Choice Problems",
+    "difficulty": "",
+    "time_estimate": 95,
+    "passage": "Samantha financed a stainless steel refrigerator. She paid a deposit of $500, and an additional $200 per month for 2 years.",
+    "question_text": "At the end of the two years, what is the total amount Samantha paid for the refrigerator?",
     "options": [
-      "13",
-      "14",
-      "15",
-      "16"
+      "$900",
+      "$2,900",
+      "$4,800",
+      "$5,300"
     ],
     "correct_answer": 3,
-    "difficulty": "hard",
-    "category": "Math: Logic",
-    "time_estimate": 95,
-    "question_number": 90,
-    "practice_set": "1"
+    "answer_type": "multiple_choice"
   },
   {
     "_id": "91",
-    "question_text": "The straight line graph shows the relationship between number of hours worked and amount earned. How much would be earned for 50 hours of work?",
-    "passage": "image:images/shsatpractice1question91.png",
-    "options": [
-      "$50",
-      "$83",
-      "$120",
-      "$300"
-    ],
-    "correct_answer": 3,
-    "difficulty": "easy",
-    "category": "Math: Data Interpretation",
-   "time_estimate": 95,
     "question_number": 91,
-    "practice_set": "1"
+    "practice_set": "Test 1",
+    "category": "Multiple Choice Problems",
+    "difficulty": "",
+    "time_estimate": 95,
+    "passage": "",
+    "question_text": "How many ways can Daniel arrange the letters in the word BALL so that each 4 letter combination is unique?",
+    "options": [
+      "12",
+      "14",
+      "16",
+      "24"
+    ],
+    "correct_answer": 0,
+    "answer_type": "multiple_choice"
   },
   {
     "_id": "92",
-    "question_text": "The perimeter of a triangle, all of whose sides have integer length, is 19. A possible length for the largest side is",
-    "passage": "",
-    "options": [
-      "6",
-      "8",
-      "10",
-      "15"
-    ],
-    "correct_answer": 1,
-    "difficulty": "medium",
-    "category": "Math: Geometry",
-   "time_estimate": 95,
     "question_number": 92,
-    "practice_set": "1"
+    "practice_set": "Test 1",
+    "category": "Multiple Choice Problems",
+    "difficulty": "",
+    "time_estimate": 95,
+    "passage": "Damon can flip 5 pancakes in 20 seconds, working at a constant rate. Hailey can flip 2 pancakes in 10 seconds, working at her own constant rate.",
+    "question_text": "What is the total number of pancakes the two of them can flip in 2 minutes?",
+    "options": [
+      "32",
+      "44",
+      "54",
+      "62"
+    ],
+    "correct_answer": 2,
+    "answer_type": "multiple_choice"
   },
   {
     "_id": "93",
-    "question_text": "A value of x that satisfies the inequality 2x-10 > 3x is",
-    "passage": "",
-    "options": [
-      "-11",
-      "-10",
-      "-1",
-      "0"
-    ],
-    "correct_answer": 0,
-    "difficulty": "easy",
-    "category": "Math: Algebra",
-    "time_estimate": 95,
     "question_number": 93,
-    "practice_set": "1"
+    "practice_set": "Test 1",
+    "category": "Multiple Choice Problems",
+    "difficulty": "",
+    "time_estimate": 95,
+    "passage": "image:images/ ",
+    "question_text": "Which value below is a possible value for O?",
+    "options": [
+      "3.27",
+      "3.35",
+      "3.62",
+      "3.68"
+    ],
+    "correct_answer": 2,
+    "answer_type": "multiple_choice"
   },
   {
     "_id": "94",
-    "question_text": "The midpoints of the four sides of square ABCD are joined to form square WXYZ as shown. The area of square WXYZ is 16. The area of triangle YCX is",
-    "passage": "image:images/shsatpractice1question94.png",
-    "options": [
-      "4",
-      "2",
-      "1.5",
-      "none of these"
-    ],
-    "correct_answer": 0,
-    "difficulty": "medium",
-    "category": "Math: Geometry",
-    "time_estimate": 95,
     "question_number": 94,
-    "practice_set": "1"
-  },
-  {
-    "_id": "95",
-    "question_text": "The mean of 3 numbers is 7. The mean of 4 other numbers is 8. The mean of 5 other numbers is 11. What is the mean of all 12 numbers?",
+    "practice_set": "Test 1",
+    "category": "Multiple Choice Problems",
+    "difficulty": "",
+    "time_estimate": 95,
     "passage": "",
+    "question_text": "Find the greatest number that divides into 42 and 154.",
     "options": [
-      "4",
-      "42/13",
-      "8 2/3",
-      "9"
-    ],
-    "correct_answer": 3,
-    "difficulty": "medium",
-    "category": "Math: Statistics",
-   "time_estimate": 95,
-    "question_number": 95,
-    "practice_set": "1"
-  },
-  {
-    "_id": "96",
-    "question_text": "There were 20 socks in a drawer. Of these, 8 were blue, 10 were black, and 2 were white. Someone then removed 4 blue socks. If one sock is now drawn at random, what is the probability that it is not white?",
-    "passage": "",
-    "options": [
-      "1/10",
-      "9/10",
-      "7/8",
-      "none of these"
-    ],
-    "correct_answer": 2,
-    "difficulty": "medium",
-    "category": "Math: Probability",
-   "time_estimate": 95,
-    "question_number": 96,
-    "practice_set": "1"
-  },
-  {
-    "_id": "97",
-    "question_text": "Two sides of a right triangle are 3 and 4. The third side is",
-    "passage": "",
-    "options": [
-      "1",
-      "3",
-      "5",
-      "not uniquely determined"
-    ],
-    "correct_answer": 3,
-    "difficulty": "medium",
-    "category": "Math: Geometry",
-   "time_estimate": 95,
-    "question_number": 97,
-    "practice_set": "1"
-  },
-  {
-    "_id": "98",
-    "question_text": "A cube 3 by 3 by 3 is painted red on all six faces and then cut into 27 smaller 1 by 1 by 1 cubes. How many of these new smaller cubes have exactly two faces that are painted red?",
-    "passage": "",
-    "options": [
-      "6",
-      "8",
+      "7",
       "12",
+      "14",
       "21"
     ],
     "correct_answer": 2,
-    "difficulty": "medium",
-    "category": "Math: Logic",
+    "answer_type": "multiple_choice"
+  },
+  {
+    "_id": "95",
+    "question_number": 95,
+    "practice_set": "Test 1",
+    "category": "Multiple Choice Problems",
+    "difficulty": "",
     "time_estimate": 95,
+    "passage": "Chase must read 120 pages for school this weekend. It took him 24 minutes to read 12 pages.",
+    "question_text": "At this rate, how much additional time will it take him to finish the reading?",
+    "options": [
+      "240 min",
+      "225 min",
+      "220 min",
+      "216 min"
+    ],
+    "correct_answer": 3,
+    "answer_type": "multiple_choice"
+  },
+  {
+    "_id": "96",
+    "question_number": 96,
+    "practice_set": "Test 1",
+    "category": "Multiple Choice Problems",
+    "difficulty": "",
+    "time_estimate": 95,
+    "passage": "Suppose A = c/d and B = e/f, and c, d, e, and f do not equal 0.",
+    "question_text": "What is A/B in terms of c, d, e, and f?",
+    "options": [
+      "cd/ef",
+      "ce/df",
+      "cf/de",
+      "de/cf"
+    ],
+    "correct_answer": 2,
+    "answer_type": "multiple_choice"
+  },
+  {
+    "_id": "97",
+    "question_number": 97,
+    "practice_set": "Test 1",
+    "category": "Multiple Choice Problems",
+    "difficulty": "",
+    "time_estimate": 95,
+    "passage": "",
+    "question_text": "In the set of consecutive integers from 8 to 24, inclusive, how many integers are multiple of neither 2 nor 3?",
+    "options": [
+      "5",
+      "6",
+      "8",
+      "9"
+    ],
+    "correct_answer": 0,
+    "answer_type": "multiple_choice"
+  },
+  {
+    "_id": "98",
     "question_number": 98,
-    "practice_set": "1"
+    "practice_set": "Test 1",
+    "category": "Multiple Choice Problems",
+    "difficulty": "",
+    "time_estimate": 95,
+    "passage": "NUMBER OF SCHOOLS IN FIVE CITIES. The graph shows the number of schools per district. District A: 8 schools, District B: 7 schools, District C: 5 schools, District D: 6 schools, District E: 3 schools. Districts A and B each have 300 students per school. Districts C and D each have 500 students per school. District E have 600 students per school.",
+    "question_text": "Which of the following districts has the greatest number of students?",
+    "options": [
+      "A",
+      "C",
+      "D",
+      "E"
+    ],
+    "correct_answer": 2,
+    "answer_type": "multiple_choice"
   },
   {
     "_id": "99",
-    "question_text": "If 2 blobs = 3 glops and 3 blobs = 2 chunks, then 1 chunk =",
-    "passage": "",
-    "options": [
-      "1 glop",
-      "2/3 glop",
-      "3/2 glop",
-      "9/4 glop"
-    ],
-    "correct_answer": 3,
-    "difficulty": "medium",
-    "category": "Math: Ratios",
-    "time_estimate": 95,
     "question_number": 99,
-    "practice_set": "1"
+    "practice_set": "Test 1",
+    "category": "Multiple Choice Problems",
+    "difficulty": "",
+    "time_estimate": 95,
+    "passage": "In a candy jar, there are 3 red, 5 blue, and 2 green candies.",
+    "question_text": "If Annie selects 2 candies at random from this box, without replacement, what is the probability that both candies are not blue?",
+    "options": [
+      "1/4",
+      "2/9",
+      "1/3",
+      "1/2"
+    ],
+    "correct_answer": 1,
+    "answer_type": "multiple_choice"
   },
   {
     "_id": "100",
-    "question_text": "The ratio of Montague students who prefer vanilla to Montague students who prefer chocolate is",
-    "passage": "image:images/shsatpractice1question100.png",
-    "options": [
-      "10:9",
-      "4:3",
-      "3:10",
-      "3:4"
-    ],
-    "correct_answer": 3,
-    "difficulty": "easy",
-    "category": "Math: Data Interpretation",
-    "time_estimate": 95,
     "question_number": 100,
-    "practice_set": "1"
+    "practice_set": "Test 1",
+    "category": "Multiple Choice Problems",
+    "difficulty": "",
+    "time_estimate": 95,
+    "passage": "In the equation a/b = c/d, a, b, c, and d are positive numbers.",
+    "question_text": "Which of these is equal to d?",
+    "options": [
+      "b",
+      "bc",
+      "bc/a",
+      "a/bc"
+    ],
+    "correct_answer": 2,
+    "answer_type": "multiple_choice"
   },
   {
     "_id": "101",
-    "question_text": "If the number of Montague students who prefer vanilla is M and the number of Capulet students who prefer vanilla is C, then",
-    "passage": "image:images/shsatpractice1question100.png",
-    "options": [
-      "M = 2C",
-      "M = C",
-      "M < C",
-      "cannot be determined from the given information"
-    ],
-    "correct_answer": 3,
-    "difficulty": "medium",
-    "category": "Math: Data Interpretation",
-   "time_estimate": 95,
     "question_number": 101,
-    "practice_set": "1"
+    "practice_set": "Test 1",
+    "category": "Multiple Choice Problems",
+    "difficulty": "",
+    "time_estimate": 95,
+    "passage": "On the number line above, points W, X, Y, and Z are integers, and WX:XY:YZ = 2:3:3. Point W is at -10 and Point Z is at 6.",
+    "question_text": "What is the value of point X?",
+    "options": [
+      "-6",
+      "-5",
+      "-4",
+      "-2"
+    ],
+    "correct_answer": 0,
+    "answer_type": "multiple_choice"
   },
   {
     "_id": "102",
-    "question_text": "If x is an integer, which one of the following must be odd?",
-    "passage": "",
+    "question_number": 102,
+    "practice_set": "Test 1",
+    "category": "Multiple Choice Problems",
+    "difficulty": "",
+    "time_estimate": 95,
+    "passage": "An acceptable error of 1 percent is instated in a factory.",
+    "question_text": "If a glass pane must have a thickness of 0.03 inch, what is the greatest allowable thickness of the glass pane?",
     "options": [
-      "3x + 1",
-      "3x + 2",
-      "4x - 1",
-      "4x - 2"
+      "0.0003 in.",
+      "0.03 in.",
+      "0.0303 in.",
+      "0.04 in."
     ],
     "correct_answer": 2,
-    "difficulty": "easy",
-    "category": "Math: Number Theory",
-    "time_estimate": 95,
-    "question_number": 102,
-    "practice_set": "1"
+    "answer_type": "multiple_choice"
   },
   {
     "_id": "103",
-    "question_text": "In the sequence of numbers 1, 2, 2, 3, 3, 3, ... [assume the pattern of one 1, two 2s, three 3s, four 4s, and so on continues], the number in the 40th position will be",
-    "passage": "",
-    "options": [
-      "8",
-      "9",
-      "10",
-      "11"
-    ],
-    "correct_answer": 1,
-    "difficulty": "hard",
-    "category": "Math: Sequences",
-    "time_estimate": 95,
     "question_number": 103,
-    "practice_set": "1"
+    "practice_set": "Test 1",
+    "category": "Multiple Choice Problems",
+    "difficulty": "",
+    "time_estimate": 95,
+    "passage": "SCORES ON MATH QUIZ. Ms. Monroe's math class is divided into three sections. The table shows the lowest and the range of scores for each section. Section 1: Lowest 62, Range 26. Section 2: Lowest 61, Range 31. Section 3: Lowest 65, Range 28.",
+    "question_text": "What is the overall range of all scores in all three sections?",
+    "options": [
+      "28",
+      "30",
+      "31",
+      "32"
+    ],
+    "correct_answer": 3,
+    "answer_type": "multiple_choice"
   },
   {
     "_id": "104",
-    "question_text": "Each side of a square is an integral number of inches, and its area is 576 square inches. If each side of the square is increased by 1 foot, forming a new square, the area of the new square, in square inches, is",
-    "passage": "",
-    "options": [
-      "577",
-      "720",
-      "1,296",
-      "not determined"
-    ],
-    "correct_answer": 2,
-    "difficulty": "medium",
-    "category": "Math: Geometry",
-   "time_estimate": 95,
     "question_number": 104,
-    "practice_set": "1"
+    "practice_set": "Test 1",
+    "category": "Multiple Choice Problems",
+    "difficulty": "",
+    "time_estimate": 95,
+    "passage": "",
+    "question_text": "If 5n is a positive even number, how many odd numbers are in the range from 5n up to and including 5n + 5?",
+    "options": [
+      "2",
+      "3",
+      "4",
+      "5"
+    ],
+    "correct_answer": 1,
+    "answer_type": "multiple_choice"
   },
   {
     "_id": "105",
-    "question_text": "Let P=18/25, Q =5/7, and R =3/4. Then",
-    "passage": "",
+    "question_number": 105,
+    "practice_set": "Test 1",
+    "category": "Multiple Choice Problems",
+    "difficulty": "",
+    "time_estimate": 95,
+    "passage": "1/7 = 0.142857 (repeating). In the infinitely repeating decimal above, 1 is the first digit in the repeating pattern.",
+    "question_text": "What is the 274th digit?",
     "options": [
-      "P<Q<R",
-      "P<R<Q",
-      "Q<P<R",
-      "Q<R<P"
+      "4",
+      "2",
+      "8",
+      "5"
     ],
     "correct_answer": 2,
-    "difficulty": "easy",
-    "category": "Math: Number Theory",
-    "time_estimate": 95,
-    "question_number": 105,
-    "practice_set": "1"
+    "answer_type": "multiple_choice"
   },
   {
     "_id": "106",
-    "question_text": "A water container is 3/4 full. After 20 ounces of water is removed, the container is 1/4 full. How many ounces of water does a full container hold?",
-    "passage": "",
-    "options": [
-      "20",
-      "40",
-      "60",
-      "80"
-    ],
-    "correct_answer": 1,
-    "difficulty": "easy",
-    "category": "Math: Fractions",
-    "time_estimate": 95,
     "question_number": 106,
-    "practice_set": "1"
+    "practice_set": "Test 1",
+    "category": "Multiple Choice Problems",
+    "difficulty": "",
+    "time_estimate": 95,
+    "passage": "A car travels at 8,800 feet per minute. The radius of each tire on the car is 1 foot.",
+    "question_text": "How many revolutions does one of these tires make in 1 minute? (Use the approximation 22/7 for π).",
+    "options": [
+      "700",
+      "1000",
+      "1400",
+      "1600"
+    ],
+    "correct_answer": 2,
+    "answer_type": "multiple_choice"
   },
   {
     "_id": "107",
-    "question_text": "For how many integer values of n will the expression (n-10)/(14-n) have a positive value?",
-    "passage": "",
-    "options": [
-      "0",
-      "1",
-      "3",
-      "4"
-    ],
-    "correct_answer": 2,
-    "difficulty": "medium",
-    "category": "Math: Algebra",
-   "time_estimate": 95,
     "question_number": 107,
-    "practice_set": "1"
+    "practice_set": "Test 1",
+    "category": "Multiple Choice Problems",
+    "difficulty": "",
+    "time_estimate": 95,
+    "passage": "",
+    "question_text": "(0.1 + 2)^2 - .01(100) =",
+    "options": [
+      "2.41",
+      "2.34",
+      "3.01",
+      "3.41"
+    ],
+    "correct_answer": 3,
+    "answer_type": "multiple_choice"
   },
   {
     "_id": "108",
-    "question_text": "A square of side 4 is topped by a semicircle, as shown. Point P is the center of the arc at the top. Then the shaded area is equal to",
-    "passage": "image:images/shsatpractice1question108.png",
-    "options": [
-      "π+2",
-      "2π+2",
-      "2π+4",
-      "2π-4"
-    ],
-    "correct_answer": 0,
-    "difficulty": "hard",
-    "category": "Math: Geometry",
-    "time_estimate": 95,
     "question_number": 108,
-    "practice_set": "1"
+    "practice_set": "Test 1",
+    "category": "Multiple Choice Problems",
+    "difficulty": "",
+    "time_estimate": 95,
+    "passage": "A jar contains 4 red, 3 blue, 8 yellow, 5 white and 12 green balls.",
+    "question_text": "If one is picked at random, what is the probability that it will be red?",
+    "options": [
+      "3/32",
+      "1/8",
+      "3/16",
+      "1/4"
+    ],
+    "correct_answer": 1,
+    "answer_type": "multiple_choice"
   },
   {
     "_id": "109",
-    "question_text": "(4⁶ * 3⁴ * 2²) / (4² * 3⁴ * 2⁶) =",
-    "passage": "",
-    "options": [
-      "1",
-      "2",
-      "8",
-      "16"
-    ],
-    "correct_answer": 3,
-    "difficulty": "medium",
-    "category": "Math: Exponents",
-    "time_estimate": 95,
     "question_number": 109,
-    "practice_set": "1"
+    "practice_set": "Test 1",
+    "category": "Multiple Choice Problems",
+    "difficulty": "",
+    "time_estimate": 95,
+    "passage": "A store owner has to pay $3,000 in rent every month. He buys refurbished electronics for $250 from an auction, and sells each for $550.",
+    "question_text": "What is his profit if he sells 16 in a month?",
+    "options": [
+      "$1,800",
+      "$2,800",
+      "$4,800",
+      "$7,800"
+    ],
+    "correct_answer": 0,
+    "answer_type": "multiple_choice"
   },
   {
     "_id": "110",
-    "question_text": "Which one of the following numbers is less than 1/3?",
-    "passage": "",
+    "question_number": 110,
+    "practice_set": "Test 1",
+    "category": "Multiple Choice Problems",
+    "difficulty": "",
+    "time_estimate": 95,
+    "passage": "Using the approximation 1 centimeter = 0.39 in",
+    "question_text": "how many inches are there in 1 meter 3 centimeters?",
     "options": [
-      "1111/3333",
-      "299/895",
-      "0.14",
-      "5!/6!"
+      "1.17 in",
+      "38.17 in",
+      "40.17 in",
+      "45.17 in"
     ],
     "correct_answer": 2,
-    "difficulty": "medium",
-    "category": "Math: Number Theory",
-    "time_estimate": 95,
-    "question_number": 110,
-    "practice_set": "1"
+    "answer_type": "multiple_choice"
   },
   {
     "_id": "111",
-    "question_text": "The ratio of a to b is 3 to 4. The ratio of b to c is 5 to 6. The ratio of a to c is",
-    "passage": "",
-    "options": [
-      "9:10",
-      "5:8",
-      "1:2",
-      "none of these"
-    ],
-    "correct_answer": 1,
-    "difficulty": "medium",
-    "category": "Math: Ratios",
-    "time_estimate": 95,
     "question_number": 111,
-    "practice_set": "1"
+    "practice_set": "Test 1",
+    "category": "Multiple Choice Problems",
+    "difficulty": "",
+    "time_estimate": 95,
+    "passage": "image:images/shsatpractice1mathtestq111.png",
+    "question_text": "On a number line above, JK = 3 1/2, JM = 6 3/4, and LM = 5/8. Point K is at 5/8. What is the point L?",
+    "options": [
+      "2 3/4",
+      "2 7/8",
+      "3 1/8",
+      "3 1/4"
+    ],
+    "correct_answer": 3,
+    "answer_type": "multiple_choice"
   },
   {
     "_id": "112",
-    "question_text": "If x and y are integers, and the shaded area is 52, then the perimeter of the figure is",
-    "passage": "image:images/shsatpractice1question112.png",
-    "options": [
-      "20",
-      "24",
-      "52",
-      "56"
-    ],
-    "correct_answer": 3,
-    "difficulty": "hard",
-    "category": "Math: Geometry",
-    "time_estimate": 95,
     "question_number": 112,
-    "practice_set": "1"
+    "practice_set": "Test 1",
+    "category": "Multiple Choice Problems",
+    "difficulty": "",
+    "time_estimate": 95,
+    "passage": "",
+    "question_text": "If 5x - 3y = 25, what is x in terms of y?",
+    "options": [
+      "x = (3/5)y + 5",
+      "x = (-3/5)y + 5",
+      "x = (-3/5)y + 25",
+      "x = (3/5)y + 25"
+    ],
+    "correct_answer": 0,
+    "answer_type": "multiple_choice"
   },
   {
     "_id": "113",
-    "question_text": "If x < x³ < x², which of the following could be a possible value for x?",
-    "passage": "",
+    "question_number": 113,
+    "practice_set": "Test 1",
+    "category": "Multiple Choice Problems",
+    "difficulty": "",
+    "time_estimate": 95,
+    "passage": "HOURS STUDIED. There are 20 students in a class. The frequency table shows the number of students in this class studied 0, 1, 2, 3, 4, 5 hours for the final exam yesterday.\n0 Hours: 5 students\n1 Hour: 10 students\n2 Hours: 1 student\n3 Hours: 3 students\n4 Hours: 0 students\n5 Hours: 1 student",
+    "question_text": "What is the mean number of hours studied per student for the exam yesterday?",
     "options": [
-      "-1/2",
-      "0.1",
-      "0.5",
-      "2/3"
+      "1.3",
+      "1.5",
+      "2.0",
+      "2.2"
     ],
     "correct_answer": 0,
-    "difficulty": "hard",
-    "category": "Math: Algebra",
-    "time_estimate": 95,
-    "question_number": 113,
-    "practice_set": "1"
+    "answer_type": "multiple_choice"
   },
   {
     "_id": "114",
-    "question_text": "On the number line below, point A is located at -4 and point B is located at 20. AQ is 3/8 of the distance from A to B, while BR is 3/8 of the distance from B to A. Find the length of QR.",
-    "passage": "image:images/shsatpractice1question114.png",
-    "options": [
-      "6",
-      "9",
-      "12",
-      "15"
-    ],
-    "correct_answer": 0,
-    "difficulty": "medium",
-    "category": "Math: Geometry",
-    "time_estimate": 95,
     "question_number": 114,
-    "practice_set": "1"
+    "practice_set": "Test 1",
+    "category": "Multiple Choice Problems",
+    "difficulty": "",
+    "time_estimate": 95,
+    "passage": "A sauce is made by mixing the following ingredients by weight: 3 parts powder, 2 parts water, 3 parts adhesive and 1 part flour. One table needs 36 grams of this sauce.",
+    "question_text": "How many total grams of adhesive are required for 3 tables?",
+    "options": [
+      "12",
+      "24",
+      "36",
+      "72"
+    ],
+    "correct_answer": 2,
+    "answer_type": "multiple_choice"
   }
 ]
