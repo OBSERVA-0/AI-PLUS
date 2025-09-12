@@ -667,6 +667,7 @@ function handleTestTypeChange() {
             <option value="1_math">Practice Test 1 (Math Only)</option>
             <option value="2">Practice Test 2 (Full)</option>
             <option value="2_ela">Practice Test 2 (ELA Only)</option>
+            <option value="2_math">Practice Test 2 (Math Only)</option>
             <option value="3">Practice Test 3 (Full)</option>
             <option value="3_ela">Practice Test 3 (ELA Only)</option>
             <option value="4">Practice Test 4</option>

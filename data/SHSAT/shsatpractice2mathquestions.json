@@ -1,0 +1,1003 @@
+[
+  {
+    "_id": "58",
+    "question_number": 58,
+    "practice_set": "Test 2",
+    "category": "Arithmetic",
+    "difficulty": "",
+    "time_estimate": 95,
+    "passage": "",
+    "question_text": "3.3/0.1 * 0.11 =",
+    "options": [],
+    "correct_answer": 3.63,
+    "answer_type": "fill_in_the_blank"
+  },
+  {
+    "_id": "59",
+    "question_number": 59,
+    "practice_set": "Test 2",
+    "category": "Ratios and Proportions",
+    "difficulty": "",
+    "time_estimate": 95,
+    "passage": "An orchard owner harvests oranges and apples in a ratio of 5:3.",
+    "question_text": "How many oranges are harvested if 75 apples are harvested?",
+    "options": [],
+    "correct_answer": 125,
+    "answer_type": "fill_in_the_blank"
+  },
+  {
+    "_id": "60",
+    "question_number": 60,
+    "practice_set": "Test 2",
+    "category": "Algebra",
+    "difficulty": "",
+    "time_estimate": 95,
+    "passage": "",
+    "question_text": "What is the positive value of x in the equation below?\n4/5 = x^2/20",
+    "options": [],
+    "correct_answer": 4,
+    "answer_type": "fill_in_the_blank"
+  },
+  {
+    "_id": "61",
+    "question_number": 61,
+    "practice_set": "Test 2",
+    "category": "Ratios and Proportions",
+    "difficulty": "",
+    "time_estimate": 95,
+    "passage": "In a certain snack mix, there are 2 pretzels for every 5 potato chips.",
+    "question_text": "If there are a total of 147 pretzels and chips, how many of these are pretzels?",
+    "options": [],
+    "correct_answer": 42,
+    "answer_type": "fill_in_the_blank"
+  },
+  {
+    "_id": "62",
+    "question_number": 62,
+    "practice_set": "Test 2",
+    "category": "Geometry",
+    "difficulty": "",
+    "time_estimate": 95,
+    "passage": "On the number line below, NP = 12. Point N is at -2. Point O (not shown) is located between point N and point P such that the ratio of line segments NO to OP is 2:1.",
+    "question_text": "What is the value of O?",
+    "options": [],
+    "correct_answer": 6,
+    "answer_type": "fill_in_the_blank"
+  },
+  {
+    "_id": "63",
+    "question_number": 63,
+    "practice_set": "Test 2",
+    "category": "Arithmetic",
+    "difficulty": "",
+    "time_estimate": 95,
+    "passage": "",
+    "question_text": "(0.2 + 2)^2 + (.1)^3 =",
+    "options": [
+      "4.842",
+      "4.841",
+      "4.840",
+      "4.839"
+    ],
+    "correct_answer": 1,
+    "answer_type": "multiple_choice"
+  },
+  {
+    "_id": "64",
+    "question_number": 64,
+    "practice_set": "Test 2",
+    "category": "Rates and Unit Conversion",
+    "difficulty": "",
+    "time_estimate": 95,
+    "passage": "",
+    "question_text": "A car travels 24 kilometers per hour. What is the car's speed in meters per minute?",
+    "options": [
+      "400",
+      "500",
+      "600",
+      "700"
+    ],
+    "correct_answer": 0,
+    "answer_type": "multiple_choice"
+  },
+  {
+    "_id": "65",
+    "question_number": 65,
+    "practice_set": "Test 2",
+    "category": "Algebra",
+    "difficulty": "",
+    "time_estimate": 95,
+    "passage": "",
+    "question_text": "If x and y are positive integers, x + y = 5, and x - y = 3, what is the product of x and y?",
+    "options": [
+      "4",
+      "5",
+      "10",
+      "15"
+    ],
+    "correct_answer": 0,
+    "answer_type": "multiple_choice"
+  },
+  {
+    "_id": "66",
+    "question_number": 66,
+    "practice_set": "Test 2",
+    "category": "Percents",
+    "difficulty": "",
+    "time_estimate": 95,
+    "passage": "Sally bought a bike and sold it right away for a profit of 20%.",
+    "question_text": "If she received a total of $114, what was the original cost of the bike?",
+    "options": [
+      "$95",
+      "$98",
+      "$100",
+      "$107"
+    ],
+    "correct_answer": 0,
+    "answer_type": "multiple_choice"
+  },
+  {
+    "_id": "67",
+    "question_number": 67,
+    "practice_set": "Test 2",
+    "category": "Geometry",
+    "difficulty": "",
+    "time_estimate": 95,
+    "passage": "image:images/shsatpractice2mathtestq67.png",
+    "question_text": "What is the value of x?",
+    "options": [
+      "50",
+      "55",
+      "60",
+      "65"
+    ],
+    "correct_answer": 3,
+    "answer_type": "multiple_choice"
+  },
+  {
+    "_id": "68",
+    "question_number": 68,
+    "practice_set": "Test 2",
+    "category": "Number Properties",
+    "difficulty": "",
+    "time_estimate": 95,
+    "passage": "image:images/shsatpractice2mathtestq68.png",
+    "question_text": "On the number line above, intervals are equally spaced, and point x lies on the interval AB.What are the lower and upper limits of all possible values of x?",
+    "options": [
+      ".25, .75",
+      ".25, .75",
+      ".5, .5",
+      ".25, .5"
+    ],
+    "correct_answer": 1,
+    "answer_type": "multiple_choice"
+  },
+  {
+    "_id": "69",
+    "question_number": 69,
+    "practice_set": "Test 2",
+    "category": "Statistics",
+    "difficulty": "",
+    "time_estimate": 95,
+    "passage": "Mr. Diaz determines math grades on the basis of 5 tests, each worth 100 points. An average of at least 85 points is needed for a grade of B. On the first 4 tests, Emily scored 90, 73, 70 and 92.",
+    "question_text": "What is the lowest score she may receive on the final test and still earn a B?",
+    "options": [
+      "100",
+      "99",
+      "98",
+      "97"
+    ],
+    "correct_answer": 0,
+    "answer_type": "multiple_choice"
+  },
+  {
+    "_id": "70",
+    "question_number": 70,
+    "practice_set": "Test 2",
+    "category": "Word Problems",
+    "difficulty": "",
+    "time_estimate": 95,
+    "passage": "Maria can buy a pack of avocados for $8.50, or she can buy x individual avocados for $.75 each. Note that she can only buy whole avocados.",
+    "question_text": "What is the largest value of x that would make buying the individual avocado less expensive than buying the pack?",
+    "options": [
+      "10",
+      "11",
+      "12",
+      "13"
+    ],
+    "correct_answer": 1,
+    "answer_type": "multiple_choice"
+  },
+  {
+    "_id": "71",
+    "question_number": 71,
+    "practice_set": "Test 2",
+    "category": "Algebra",
+    "difficulty": "",
+    "time_estimate": 95,
+    "passage": "",
+    "question_text": "Which number line below shows the solution to the inequality -5 < 2x < 7",
+    "options": [
+      "A number line with an open circle on -2.5 and an open circle on 3.5, with the line shaded between them.",
+      "A number line with a closed circle on -5 and a closed circle on 7, with the line shaded between them.",
+      "A number line with an open circle on -10 and an open circle on 5, with the line shaded between them.",
+      "A number line with a closed circle on -10 and a closed circle on 5, with the line shaded between them."
+    ],
+    "correct_answer": 0,
+    "answer_type": "multiple_choice"
+  },
+  {
+    "_id": "72",
+    "question_number": 72,
+    "practice_set": "Test 2",
+    "category": "Algebra",
+    "difficulty": "",
+    "time_estimate": 95,
+    "passage": "Three chains, each 14 feet in length, are linked end to end. Two longer chains of equal length are added to make a total length of 100 feet.",
+    "question_text": "What is the length of one of the longer chains?",
+    "options": [
+      "29 ft",
+      "36 ft",
+      "42 ft",
+      "58 ft"
+    ],
+    "correct_answer": 0,
+    "answer_type": "multiple_choice"
+  },
+  {
+    "_id": "73",
+    "question_number": 73,
+    "practice_set": "Test 2",
+    "category": "Number Properties",
+    "difficulty": "",
+    "time_estimate": 95,
+    "passage": "The population of Town X is 2.7 x 10^6. The population of City Y is 8.1 x 10^8.",
+    "question_text": "How many times bigger is the population of City Y than Town X's?",
+    "options": [
+      "3 x 10^5",
+      "3 x 10^4",
+      "3 x 10^3",
+      "3 x 10^2"
+    ],
+    "correct_answer": 3,
+    "answer_type": "multiple_choice"
+  },
+  {
+    "_id": "74",
+    "question_number": 74,
+    "practice_set": "Test 2",
+    "category": "Algebra",
+    "difficulty": "",
+    "time_estimate": 95,
+    "passage": "",
+    "question_text": "What is the value of x in the equation above? (x+7)/(x+43) = 1/5",
+    "options": [
+      "4",
+      "3",
+      "2",
+      "1"
+    ],
+    "correct_answer": 2,
+    "answer_type": "multiple_choice"
+  },
+  {
+    "_id": "75",
+    "question_number": 75,
+    "practice_set": "Test 2",
+    "category": "Number Properties",
+    "difficulty": "",
+    "time_estimate": 95,
+    "passage": "",
+    "question_text": "What is the prime factorization of 1440?",
+    "options": [
+      "2^5 x 3^2 x 5^1",
+      "2^4 x 3^2 x 5^2",
+      "2^5 x 3^1 x 5^1",
+      "2^1 x 3^2 x 5^2"
+    ],
+    "correct_answer": 0,
+    "answer_type": "multiple_choice"
+  },
+  {
+    "_id": "76",
+    "question_number": 76,
+    "practice_set": "Test 2",
+    "category": "Rates and Averages",
+    "difficulty": "",
+    "time_estimate": 95,
+    "passage": "Linda rode her bicycle at 12 miles per hour for 2 hours, and then 15 miles per hour for 1 hour.",
+    "question_text": "What was her average speed for the entire ride?",
+    "options": [
+      "13 mph",
+      "14 mph",
+      "15 mph",
+      "16 mph"
+    ],
+    "correct_answer": 0,
+    "answer_type": "multiple_choice"
+  },
+  {
+    "_id": "77",
+    "question_number": 77,
+    "practice_set": "Test 2",
+    "category": "Geometry",
+    "difficulty": "",
+    "time_estimate": 95,
+    "passage": "image:images/shsatpractice2mathtestq77.png",
+    "question_text": "The end of a tent has a cross-section as shown above. The shape is a trapezoid with a height of 6 ft. The top base is 6 ft and the bottom base is composed of a 6 ft segment and two 2 ft segments on each side. What is the depth (d) of the tent if its volume is 96 cubic feet?",
+    "options": [
+      "0.5 ft",
+      "1 ft",
+      "2 ft",
+      "3 ft"
+    ],
+    "correct_answer": 2,
+    "answer_type": "multiple_choice"
+  },
+  {
+    "_id": "78",
+    "question_number": 78,
+    "practice_set": "Test 2",
+    "category": "Geometry",
+    "difficulty": "",
+    "time_estimate": 95,
+    "passage": "",
+    "question_text": "If a rectangular room is 2 times as long as it is wide, and if the width is 7 feet, how many square feet of carpet are needed to cover the floor?",
+    "options": [
+      "49 sq ft",
+      "98 sq ft",
+      "108 sq ft",
+      "114 sq ft"
+    ],
+    "correct_answer": 1,
+    "answer_type": "multiple_choice"
+  },
+  {
+    "_id": "79",
+    "question_number": 79,
+    "practice_set": "Test 2",
+    "category": "Word Problems",
+    "difficulty": "",
+    "time_estimate": 95,
+    "passage": "Mark's class has between 29 and 42 students. Exactly 25% of the students in his class have black notebooks and exactly 1/6 of the students in his class do not have notebooks at all.",
+    "question_text": "How many students are in Mark's class?",
+    "options": [
+      "32",
+      "34",
+      "36",
+      "38"
+    ],
+    "correct_answer": 2,
+    "answer_type": "multiple_choice"
+  },
+  {
+    "_id": "80",
+    "question_number": 80,
+    "practice_set": "Test 2",
+    "category": "Rates and Proportions",
+    "difficulty": "",
+    "time_estimate": 95,
+    "passage": "",
+    "question_text": "If 3 woodchucks could chuck 30 cords of wood in 4 days, then how many cords of wood could 7 woodchucks chuck in 6 days?",
+    "options": [
+      "85",
+      "90",
+      "100",
+      "105"
+    ],
+    "correct_answer": 3,
+    "answer_type": "multiple_choice"
+  },
+  {
+    "_id": "81",
+    "question_number": 81,
+    "practice_set": "Test 2",
+    "category": "Probability",
+    "difficulty": "",
+    "time_estimate": 95,
+    "passage": "A student spins two number wheels shown above. The first wheel is divided into three equal sections labeled 1, 2, and 3. The second wheel is divided into three equal sections labeled 3, 4, and 5.",
+    "question_text": "What is the probability that the sum of the 2 numbers will be greater than 6?",
+    "options": [
+      "1/2",
+      "1/3",
+      "2/9",
+      "4/9"
+    ],
+    "correct_answer": 1,
+    "answer_type": "multiple_choice"
+  },
+  {
+    "_id": "82",
+    "question_number": 82,
+    "practice_set": "Test 2",
+    "category": "Arithmetic",
+    "difficulty": "",
+    "time_estimate": 95,
+    "passage": "",
+    "question_text": "How much greater than 1.085 is the value obtained by rounding 1.085 to the nearest tenth?",
+    "options": [
+      "0.015",
+      "0.01",
+      "1.015",
+      "1.01"
+    ],
+    "correct_answer": 0,
+    "answer_type": "multiple_choice"
+  },
+  {
+    "_id": "83",
+    "question_number": 83,
+    "practice_set": "Test 2",
+    "category": "Fractions",
+    "difficulty": "",
+    "time_estimate": 95,
+    "passage": "A 24-inch-long tape is cut in half. One of these pieces is cut in half again, and finally one of the shorter pieces is cut into thirds.",
+    "question_text": "Of these 5 cut pieces, what is the difference in length between the longest piece and one of the 3 shortest pieces?",
+    "options": [
+      "2 in",
+      "8 in",
+      "9 in",
+      "10 in"
+    ],
+    "correct_answer": 3,
+    "answer_type": "multiple_choice"
+  },
+  {
+    "_id": "84",
+    "question_number": 84,
+    "practice_set": "Test 2",
+    "category": "Rates and Proportions",
+    "difficulty": "",
+    "time_estimate": 95,
+    "passage": "A 15-ounce bag of candies sells for $4.50. (Note: 1 lb = 16 oz.)",
+    "question_text": "At this rate, what would be the price of 1 lb of candies?",
+    "options": [
+      "$4.80",
+      "$4.85",
+      "$4.90",
+      "$4.95"
+    ],
+    "correct_answer": 0,
+    "answer_type": "multiple_choice"
+  },
+  {
+    "_id": "85",
+    "question_number": 85,
+    "practice_set": "Test 2",
+    "category": "Number Properties",
+    "difficulty": "",
+    "time_estimate": 95,
+    "passage": "",
+    "question_text": "How many integers between 36 and 100 have a remainder of 3 when divided by 22?",
+    "options": [
+      "0",
+      "1",
+      "2",
+      "3"
+    ],
+    "correct_answer": 3,
+    "answer_type": "multiple_choice"
+  },
+  {
+    "_id": "86",
+    "question_number": 86,
+    "practice_set": "Test 2",
+    "category": "Percents",
+    "difficulty": "",
+    "time_estimate": 95,
+    "passage": "Sheldon's rent is $500 per month. Since he could not pay this month's rent on time, his landlord agreed to accept 60% of the rent on the first day and 15% on the tenth day and the rest on the twentieth, and a 15% late fee of the total rent due on the thirtieth.",
+    "question_text": "How much must Sheldon pay on the twentieth and on the thirtieth?",
+    "options": [
+      "$100",
+      "$150",
+      "$200",
+      "$225"
+    ],
+    "correct_answer": 2,
+    "answer_type": "multiple_choice"
+  },
+  {
+    "_id": "87",
+    "question_number": 87,
+    "practice_set": "Test 2",
+    "category": "Percents",
+    "difficulty": "",
+    "time_estimate": 95,
+    "passage": "Brianna bought 1 1/2 yards of fabric at $12.00 per yard.",
+    "question_text": "If she used a coupon which took 7% off, what was the final cost of the cloth?",
+    "options": [
+      "$14.82",
+      "$15.52",
+      "$16.74",
+      "$16.78"
+    ],
+    "correct_answer": 2,
+    "answer_type": "multiple_choice"
+  },
+  {
+    "_id": "88",
+    "question_number": 88,
+    "practice_set": "Test 2",
+    "category": "Ratios and Proportions",
+    "difficulty": "",
+    "time_estimate": 95,
+    "passage": "A nation has five types of coins ants, bans, carts, delts, and eons. An ant is worth 2 bans, 3 delts is worth 1 eon, 5 cart is worth 2 eons, and 3 ban is worth 2 carts.",
+    "question_text": "Which type of coin is the most valuable?",
+    "options": [
+      "ant",
+      "delt",
+      "cart",
+      "eon"
+    ],
+    "correct_answer": 0,
+    "answer_type": "multiple_choice"
+  },
+  {
+    "_id": "89",
+    "question_number": 89,
+    "practice_set": "Test 2",
+    "category": "Geometry",
+    "difficulty": "",
+    "time_estimate": 95,
+    "passage": "A circle with a circumference of 16pi is drawn completely inside a square with a perimeter of 80.",
+    "question_text": "What is the area of the region inside the square that is not part of the circle?",
+    "options": [
+      "1600 - 64pi",
+      "1600 - 16pi",
+      "400 - 64pi",
+      "400 - 16pi"
+    ],
+    "correct_answer": 2,
+    "answer_type": "multiple_choice"
+  },
+  {
+    "_id": "90",
+    "question_number": 90,
+    "practice_set": "Test 2",
+    "category": "Sets and Ranges",
+    "difficulty": "",
+    "time_estimate": 95,
+    "passage": "Set R contains all integers from 8 to 111, inclusive, and Set T contains all integers from 73 to 164, inclusive.",
+    "question_text": "How many integers are included in R, but not in T?",
+    "options": [
+      "60",
+      "62",
+      "64",
+      "65"
+    ],
+    "correct_answer": 3,
+    "answer_type": "multiple_choice"
+  },
+  {
+    "_id": "91",
+    "question_number": 91,
+    "practice_set": "Test 2",
+    "category": "Percents",
+    "difficulty": "",
+    "time_estimate": 95,
+    "passage": "A bacteria culture increases its population by 50% every week.",
+    "question_text": "What percent of the original population will the culture be in 2 weeks?",
+    "options": [
+      "175%",
+      "200%",
+      "225%",
+      "250%"
+    ],
+    "correct_answer": 2,
+    "answer_type": "multiple_choice"
+  },
+  {
+    "_id": "92",
+    "question_number": 92,
+    "practice_set": "Test 2",
+    "category": "Data Interpretation",
+    "difficulty": "",
+    "time_estimate": 95,
+    "passage": "The table above shows the number of 6th, 7th and 8th graders in 3 middle schools. MS 182: 202 (6th), 180 (7th), 130 (8th). MS 92: 132 (6th), 155 (7th), 129 (8th). MS 68: 214 (6th), 162 (7th), 175 (8th).",
+    "question_text": "How many more 7th and 8th graders are there in MS 68 than 7th and 8th graders in MS 182?",
+    "options": [
+      "27",
+      "36",
+      "48",
+      "52"
+    ],
+    "correct_answer": 0,
+    "answer_type": "multiple_choice"
+  },
+  {
+    "_id": "93",
+    "question_number": 93,
+    "practice_set": "Test 2",
+    "category": "Number Properties",
+    "difficulty": "",
+    "time_estimate": 95,
+    "passage": "On the number line above, XY = 1/2. Point Z (not shown) is located 1.2 units away from X. If Y is 0, what is one possible value of Z?",
+    "question_text": "",
+    "options": [
+      "-1.8",
+      "-0.5",
+      "0.7",
+      "0.9"
+    ],
+    "correct_answer": 2,
+    "answer_type": "multiple_choice"
+  },
+  {
+    "_id": "94",
+    "question_number": 94,
+    "practice_set": "Test 2",
+    "category": "Rates and Proportions",
+    "difficulty": "",
+    "time_estimate": 95,
+    "passage": "A roofing contractor uses shingles at a rate of 5 bundles for each 125 square foot of roof covered.",
+    "question_text": "At this rate, how many bundles will he need to cover a roof that is 725 square feet?",
+    "options": [
+      "25",
+      "27",
+      "28",
+      "29"
+    ],
+    "correct_answer": 3,
+    "answer_type": "multiple_choice"
+  },
+  {
+    "_id": "95",
+    "question_number": 95,
+    "practice_set": "Test 2",
+    "category": "Geometry",
+    "difficulty": "",
+    "time_estimate": 95,
+    "passage": "A metal box has a square base. The height of the box is 5 times the length of one of the side of the base.",
+    "question_text": "If the area of the square base is 25 sq in, what is the volume of this box?",
+    "options": [
+      "625 cu in",
+      "225 cu in",
+      "125 cu in",
+      "75 cu in"
+    ],
+    "correct_answer": 0,
+    "answer_type": "multiple_choice"
+  },
+  {
+    "_id": "96",
+    "question_number": 96,
+    "practice_set": "Test 2",
+    "category": "Coordinate Geometry",
+    "difficulty": "",
+    "time_estimate": 95,
+    "passage": "image:images/shsatpractice2mathtestq96.png",
+    "question_text": "In the diagram above, if q is the midpoint of 3 and 6 and the y-coordinate of p is twice that of q's x-coordinate, what is the area of the shaded triangle?",
+    "options": [
+      "40.5 sq unit",
+      "25 sq unit",
+      "20.25 sq unit",
+      "16 sq unit"
+    ],
+    "correct_answer": 2,
+    "answer_type": "multiple_choice"
+  },
+  {
+    "_id": "97",
+    "question_number": 97,
+    "practice_set": "Test 2",
+    "category": "Number Properties",
+    "difficulty": "",
+    "time_estimate": 95,
+    "passage": "",
+    "question_text": "How many positive integers are between 28/3 and 68/5 ?",
+    "options": [
+      "3",
+      "4",
+      "5",
+      "6"
+    ],
+    "correct_answer": 1,
+    "answer_type": "multiple_choice"
+  },
+  {
+    "_id": "98",
+    "question_number": 98,
+    "practice_set": "Test 2",
+    "category": "Algebra",
+    "difficulty": "",
+    "time_estimate": 95,
+    "passage": "",
+    "question_text": "Simplify this expression: 3(2 - 3x) - (5 - 11x)",
+    "options": [
+      "11 + 2x",
+      "11 - 19x",
+      "1 + 2x",
+      "1 - 19x"
+    ],
+    "correct_answer": 2,
+    "answer_type": "multiple_choice"
+  },
+  {
+    "_id": "99",
+    "question_number": 99,
+    "practice_set": "Test 2",
+    "category": "Statistics",
+    "difficulty": "",
+    "time_estimate": 95,
+    "passage": "",
+    "question_text": "The mean of twenty number is 21. If four of the twenty numbers have a mean of 18, what is the mean of the other sixteen numbers?",
+    "options": [
+      "20.75",
+      "21.75",
+      "22.75",
+      "23.75"
+    ],
+    "correct_answer": 1,
+    "answer_type": "multiple_choice"
+  },
+  {
+    "_id": "100",
+    "question_number": 100,
+    "practice_set": "Test 2",
+    "category": "Rates and Unit Conversion",
+    "difficulty": "",
+    "time_estimate": 95,
+    "passage": "A fortnight is 14 days, and a mile is 8 furlongs.",
+    "question_text": "If a desert caravan travels 10 miles per day, then how many furlongs does it travel in a fortnight?",
+    "options": [
+      "980",
+      "1000",
+      "1120",
+      "1160"
+    ],
+    "correct_answer": 2,
+    "answer_type": "multiple_choice"
+  },
+  {
+    "_id": "101",
+    "question_number": 101,
+    "practice_set": "Test 2",
+    "category": "Probability",
+    "difficulty": "",
+    "time_estimate": 95,
+    "passage": "A store's fridge contains three types of juice: 5 bottles of grape juice, 3 bottles of apple juice and 6 bottles of fruit punch.",
+    "question_text": "What is the probability that a bottle chosen at random is not fruit punch?",
+    "options": [
+      "3/7",
+      "4/7",
+      "5/14",
+      "7/14"
+    ],
+    "correct_answer": 1,
+    "answer_type": "multiple_choice"
+  },
+  {
+    "_id": "102",
+    "question_number": 102,
+    "practice_set": "Test 2",
+    "category": "Algebra",
+    "difficulty": "",
+    "time_estimate": 95,
+    "passage": "Fann signed up for a cell phone plan that charges $12.00 per month plus $0.008 per text received or sent. Darren signed up for a cell phone plan that charges $26.00 for unlimited usage.",
+    "question_text": "At the end of the month, Fann's and Darren's charges were identical. How many texts did Fann receive or send?",
+    "options": [
+      "1,500",
+      "1,650",
+      "1,750",
+      "1,850"
+    ],
+    "correct_answer": 2,
+    "answer_type": "multiple_choice"
+  },
+  {
+    "_id": "103",
+    "question_number": 103,
+    "practice_set": "Test 2",
+    "category": "Data Interpretation",
+    "difficulty": "",
+    "time_estimate": 95,
+    "passage": "In a survey, respondents were asked what ice cream flavor they preferred. The pie chart shows: Chocolate 22%, Vanilla 23%, Strawberry 25%, Mint 15%, Other 15%.",
+    "question_text": "If 250 people were surveyed in total, how many people preferred other or vanilla?",
+    "options": [
+      "112",
+      "107",
+      "100",
+      "95"
+    ],
+    "correct_answer": 3,
+    "answer_type": "multiple_choice"
+  },
+  {
+    "_id": "104",
+    "question_number": 104,
+    "practice_set": "Test 2",
+    "category": "Data Interpretation",
+    "difficulty": "",
+    "time_estimate": 95,
+    "passage": "PRICE OF MERCHANDISE BY PACK. The table shows prices of a certain merchandise that can only be bought by 5, 10 or 20 packs. 5 Pack: $30, 10 Pack: $50, 20 Pack: $80.",
+    "question_text": "If Jerry buys two 5 packs, three 10 packs, and four 20 packs of the merchandise, how much was the total price?",
+    "options": [
+      "$510",
+      "$530",
+      "$550",
+      "$570"
+    ],
+    "correct_answer": 1,
+    "answer_type": "multiple_choice"
+  },
+  {
+    "_id": "105",
+    "question_number": 105,
+    "practice_set": "Test 2",
+    "category": "Probability",
+    "difficulty": "",
+    "time_estimate": 95,
+    "passage": "A box contains 5 black marbles, 3 green marbles and 2 red marbles.",
+    "question_text": "What is the probability of selecting a red marble two times with replacement?",
+    "options": [
+      "1/5",
+      "1/10",
+      "2/25",   
+      "1/25"
+    ],
+    "correct_answer": 3,
+    "answer_type": "multiple_choice"
+  },
+  {
+    "_id": "106",
+    "question_number": 106,
+    "practice_set": "Test 2",
+    "category": "Unit Conversion",
+    "difficulty": "",
+    "time_estimate": 95,
+    "passage": "There are 1,000 cubic centimeters in 1 liter, and 1,000 cubic millimeters in 1 milliliter.",
+    "question_text": "How many cubic millimeters are there in 10,000 cubic centimeters?",
+    "options": [
+      "10,000,000",
+      "1,000,000",
+      "100,000",
+      "10,000"
+    ],
+    "correct_answer": 0,
+    "answer_type": "multiple_choice"
+  },
+  {
+    "_id": "107",
+    "question_number": 107,
+    "practice_set": "Test 2",
+    "category": "Arithmetic",
+    "difficulty": "",
+    "time_estimate": 95,
+    "passage": "",
+    "question_text": "If x = 3 and y = 2, what is the value of the expression above? (10^x - 10^y)^2",
+    "options": [
+      "10,000",
+      "100,000",
+      "81,000",
+      "810,000"
+    ],
+    "correct_answer": 3,
+    "answer_type": "multiple_choice"
+  },
+  {
+    "_id": "108",
+    "question_number": 108,
+    "practice_set": "Test 2",
+    "category": "Geometry",
+    "difficulty": "",
+    "time_estimate": 95,
+    "passage": "The figure shown is a rectangle of 6 in by 2 in with a semicircle attached to each of the 2-inch sides.",
+    "question_text": "What is the area of the figure shown above?",
+    "options": [
+      "12 + pi",
+      "6 + 2pi",
+      "12 + 2pi",
+      "12 + 4pi"
+    ],
+    "correct_answer": 0,
+    "answer_type": "multiple_choice"
+  },
+  {
+    "_id": "109",
+    "question_number": 109,
+    "practice_set": "Test 2",
+    "category": "Rates and Averages",
+    "difficulty": "",
+    "time_estimate": 95,
+    "passage": "On a field trip, Raul traveled 26 miles in 2 hours, while Shasha traveled 42 miles in 3 hours.",
+    "question_text": "How much less was Raul's mean speed, in miles per hour (mph), than Shasha's?",
+    "options": [
+      "1 mph",
+      "2 mph",
+      "3 mph",
+      "4 mph"
+    ],
+    "correct_answer": 0,
+    "answer_type": "multiple_choice"
+  },
+  {
+    "_id": "110",
+    "question_number": 110,
+    "practice_set": "Test 2",
+    "category": "Counting and Combinatorics",
+    "difficulty": "",
+    "time_estimate": 95,
+    "passage": "An ice cream shop offers a choice of 4 flavors and 5 different toppings.",
+    "question_text": "If Karl wants to order an ice cream with exactly 2 different flavors, and one topping, how many different ice creams can he create?",
+    "options": [
+      "20",
+      "25",
+      "30",
+      "45"
+    ],
+    "correct_answer": 2,
+    "answer_type": "multiple_choice"
+  },
+  {
+    "_id": "111",
+    "question_number": 111,
+    "practice_set": "Test 2",
+    "category": "Geometry",
+    "difficulty": "",
+    "time_estimate": 95,
+    "passage": "Points P, Q, R, and S represent -5, -1, 0, 4 respectively, on a number line.",
+    "question_text": "What is the positive difference of the midpoint of PQ and the midpoint of RS?",
+    "options": [
+      "5",
+      "4",
+      "3",
+      "2"
+    ],
+    "correct_answer": 0,
+    "answer_type": "multiple_choice"
+  },
+  {
+    "_id": "112",
+    "question_number": 112,
+    "practice_set": "Test 2",
+    "category": "Sets and Logic",
+    "difficulty": "",
+    "time_estimate": 95,
+    "passage": "In a certain province, there are 50,000 licensed drivers. If 40,000 of the licensed drivers wear glasses and 30,000 of the licensed drivers are over 20 years old,",
+    "question_text": "what is the smallest possible number of licensed drivers who both wear glasses and are above 20?",
+    "options": [
+      "10,000",
+      "20,000",
+      "24,000",
+      "30,000"
+    ],
+    "correct_answer": 1,
+    "answer_type": "multiple_choice"
+  },
+  {
+    "_id": "113",
+    "question_number": 113,
+    "practice_set": "Test 2",
+    "category": "Geometry",
+    "difficulty": "",
+    "time_estimate": 95,
+    "passage": "On a number line above, the length of segment JL is 14 and KM is 17. If segment JM is twice that of JL,",
+    "question_text": "what is the length of line segment KL?",
+    "options": [
+      "3",
+      "4",
+      "5",
+      "6"
+    ],
+    "correct_answer": 0,
+    "answer_type": "multiple_choice"
+  },
+  {
+    "_id": "114",
+    "question_number": 114,
+    "practice_set": "Test 2",
+    "category": "Ratios and Proportions",
+    "difficulty": "",
+    "time_estimate": 95,
+    "passage": "At a hotel, John exchanged 200 dollars and received 165 knottins.",
+    "question_text": "Based on that information, how many knottins are equal to 1 dollar?",
+    "options": [
+      "7/25",
+      "11/25",
+      "33/40",
+      "9/50"
+    ],
+    "correct_answer": 2,
+    "answer_type": "multiple_choice"
+  }
+]
