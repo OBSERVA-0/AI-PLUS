@@ -6,10 +6,15 @@
     "category": "",
     "difficulty": "",
     "time_estimate": 95,
-    "passage": "",
-    "question_text": "",
-    "options": [],
-    "correct_answer": null,
+    "passage": "pdfData:pdf/Pearsons2018-2019A_EarlyWarning.pdf",
+    "question_text": "Which statement best describes the central idea of the passage?",
+    "options": [
+      "Marsh’s experience growing up on a farm allowed him to witness firsthand how human demands on nature can lead to problems, and as an adult he wrote one of the first books about conservation.",
+      "Marsh challenged the notion that nature can repair the damage people cause to it, but he also supported human-made modifications to nature that improve transportation and commerce.",
+      "Marsh’s ideas about the environment were considered radical in his lifetime, but they later gained popularity during the environmental movement in the twentieth century.",
+      "Marsh was a radical thinker who believed that people’s actions could dramatically affect nature, and his writings are considered foundational to the conservation movement."
+    ],
+    "correct_answer": 3,
     "answer_type": ""
   },
   {
@@ -19,10 +24,15 @@
     "category": "",
     "difficulty": "",
     "time_estimate": 95,
-    "passage": "",
-    "question_text": "",
-    "options": [],
-    "correct_answer": null,
+    "passage": "pdfData:pdf/Pearsons2018-2019A_EarlyWarning.pdf",
+    "question_text": "Marsh believed that the people of his time caused harm to the environment because",
+    "options": [
+      "they assumed that future generations would solve any environmental problems.",
+      "they thought industrial progress was more important than protecting nature.",
+      "they were unwilling to change farming and waste-disposal practices.",
+      "they lacked knowledge of nature and natural processes."
+    ],
+    "correct_answer": 3,
     "answer_type": ""
   },
   {
@@ -32,10 +42,15 @@
     "category": "",
     "difficulty": "",
     "time_estimate": 95,
-    "passage": "",
-    "question_text": "",
-    "options": [],
-    "correct_answer": null,
+    "passage": "pdfData:pdf/Pearsons2018-2019A_EarlyWarning.pdf",
+    "question_text": "What is the most likely reason the author uses the word “surprisingly” in paragraph 1?",
+    "options": [
+      "to argue that Marsh’s ideas are more applicable in the present than they were during his lifetime",
+      "to show that Marsh introduced ideas a century before they became widely accepted",
+      "to emphasize that Marsh was unaware that his ideas would help begin a conservation movement",
+      "to prove that there would be fewer issues with the environment today if people had accepted Marsh’s ideas earlier"
+    ],
+    "correct_answer": 1,
     "answer_type": ""
   },
   {
@@ -45,10 +60,15 @@
     "category": "",
     "difficulty": "",
     "time_estimate": 95,
-    "passage": "",
-    "question_text": "",
-    "options": [],
-    "correct_answer": null,
+    "passage": "pdfData:pdf/Pearsons2018-2019A_EarlyWarning.pdf",
+    "question_text": "Which evidence supports the accuracy of Marsh’s theories about nature?",
+    "options": [
+      "the details about Marsh’s observations of environmental degradation",
+      "the details about how Marsh’s writing inspired a conservation movement",
+      "the details about how Marsh’s ideas are essential to modern environmental science",
+      "the details about Marsh’s opinions on human alterations to the environment"
+    ],
+    "correct_answer": 2,
     "answer_type": ""
   },
   {
@@ -58,10 +78,15 @@
     "category": "",
     "difficulty": "",
     "time_estimate": 95,
-    "passage": "",
-    "question_text": "",
-    "options": [],
-    "correct_answer": null,
+    "passage": "pdfData:pdf/Pearsons2018-2019A_EarlyWarning.pdf",
+    "question_text": "Which detail about Marsh provides support for the author’s statement in paragraph 5?",
+    "options": [
+      "his reputation as a radical thinker",
+      "his contribution to the conservation movement",
+      "his experience working as an ambassador",
+      "his approval of beneficial human-made projects in nature"
+    ],
+    "correct_answer": 3,
     "answer_type": ""
   },
   {
@@ -71,10 +96,15 @@
     "category": "",
     "difficulty": "",
     "time_estimate": 95,
-    "passage": "",
-    "question_text": "",
-    "options": [],
-    "correct_answer": null,
+    "passage": "pdfData:pdf/Pearsons2018-2019A_EarlyWarning.pdf.pdf",
+    "question_text": "Which of Marsh’s ideas most influenced the environmental movement of the 1960s?",
+    "options": [
+      "Some human alterations to the environment are necessary",
+      "People lack an understanding of the environment.",
+      "Human activities could damage the environment.",
+      "Environmental degradation has been occurring for many years."
+    ],
+    "correct_answer": 2,
     "answer_type": ""
   },
   {
@@ -84,10 +114,15 @@
     "category": "",
     "difficulty": "",
     "time_estimate": 95,
-    "passage": "",
-    "question_text": "",
-    "options": [],
-    "correct_answer": null,
+    "passage": "pdfData:pdf/Pearsons2018-2019A_ChampionChannel.pdf",
+    "question_text": "Read this sentence from paragraph 1.\n\nIn 1926 an editor at the London Daily News predicted that Gertrude Ederle, an American swimmer with eighteen world records and three Olympic medals, would fail in her attempt to swim across the English Channel.\n\nWhat does the editor’s comment reveal about the challenges Ederle faced in attempting her feat?",
+    "options": [
+      "Regardless of her ability, being an American put Ederle at a serious disadvantage over a Londoner, who would be more familiar with the English Channel.",
+      "At the time, Ederle still needed more training in order to succeed in the daunting task of swimming the English Channel",
+      "While Ederle could participate in athletic competition, some people were not comfortable with her attempt to swim the channel because no woman had ever attempted it before.",
+      "In spite of her previous achievements, Ederle still experienced social as well as physical obstacles in attempting to swim the channel."
+    ],
+    "correct_answer": 3,
     "answer_type": ""
   },
   {
@@ -97,10 +132,15 @@
     "category": "",
     "difficulty": "",
     "time_estimate": 95,
-    "passage": "",
-    "question_text": "",
-    "options": [],
-    "correct_answer": null,
+    "passage": "pdfData:pdf/Pearsons2018-2019A_ChampionChannel.pdf",
+    "question_text": "Which sentence is the best summary of the steps that Ederle took to prepare for her second attempt to swim across the English Channel?",
+    "options": [
+      "Working with her sister, Ederle waterproofed her goggles using melted candle wax to seal the edges and designed a two-piece silk bathing suit that was lightweight and would not stretch out during the long swim",
+      "Ederle covered her body in numerous layers of grease for insulation and focused on finding her “sphere” during her swim.",
+      "Ederle began training with her coach, who played music while she swam to help her time her strokes to the music.",
+      "Ederle focused on developing better equipment than the standard swimsuit that proved cumbersome during her first attempt to cross the channel."
+    ],
+    "correct_answer": 0,
     "answer_type": ""
   },
   {
@@ -110,10 +150,15 @@
     "category": "",
     "difficulty": "",
     "time_estimate": 95,
-    "passage": "",
-    "question_text": "",
-    "options": [],
-    "correct_answer": null,
+    "passage": "pdfData:pdf/Pearsons2018-2019A_ChampionChannel.pdf",
+    "question_text": "Read this sentence from paragraph 3.\n\nEderle knew that if she did not complete the challenge this time, she might never getthe opportunity to set this record, because a rival female swimmer was preparing tomake her second attempt at the crossing as well.\n\nHow does this sentence fit into the overall structure of the passage? ",
+    "options": [
+      "It emphasizes that Ederle’s attempt to swim across the channel led other female swimmers to attempt the challenge",
+      "It presents the reason why Ederle prepared to cross the channel again immediately after her initial failure.",
+      "It shows Ederle’s realization that she had to rethink her methods if she wanted to be the first woman to cross the channel.",
+      "It indicates that Ederle had learned from her mistakes and was working to fix them before her next attempt."
+    ],
+    "correct_answer": 2,
     "answer_type": ""
   },
   {
@@ -123,10 +168,15 @@
     "category": "",
     "difficulty": "",
     "time_estimate": 95,
-    "passage": "",
-    "question_text": "",
-    "options": [],
-    "correct_answer": null,
+    "passage": "pdfData:pdf/Pearsons2018-2019A_ChampionChannel.pdf",
+    "question_text": "Which sentence best supports the idea that Ederle succeeded in swimming across the channel because of her innovative approach to the challenge?",
+    "options": [
+      "“Yet, at only nineteen years old, Ederle not only became the first woman to accomplish this feat, she also broke the men’s record by two hours.” (paragraph 1)",
+      "“At first she shivered in the bone-chilling water even though she had covered her body in eight layers of grease for insulation.” (paragraph 5)",
+      "“Using a new overhand stroke called the American crawl, Ederle eventually settled into a steady pace, briskly breaking through waves.” (paragraph 5)",
+      "“No longer fighting against her, the sea pushed her toward the shore and victory.” (paragraph 7)"
+    ],
+    "correct_answer": 2,
     "answer_type": ""
   },
   {
@@ -136,10 +186,15 @@
     "category": "",
     "difficulty": "",
     "time_estimate": 95,
-    "passage": "",
-    "question_text": "",
-    "options": [],
-    "correct_answer": null,
+    "passage": "pdfData:pdf/Pearsons2018-2019A_ChampionChannel.pdf",
+    "question_text": "In paragraph 4, the word “insurmountable” is used to highlight",
+    "options": [
+      "how the bathing suit made it impossible for Ederle to make it across the channel.",
+      "how Ederle and her sister decided to improve Ederle’s swimming equipment in a creative way",
+      "that the flaws in Ederle’s bathing suit made a difficult task even more complicated.",
+      "that the swimming equipment Ederle used needed to be custom made for her attempt."
+    ],
+    "correct_answer": 2,
     "answer_type": ""
   },
   {
@@ -149,10 +204,15 @@
     "category": "",
     "difficulty": "",
     "time_estimate": 95,
-    "passage": "",
-    "question_text": "",
-    "options": [],
-    "correct_answer": null,
+    "passage": "pdfData:pdf/Pearsons2018-2019A_ChampionChannel.pdf",
+    "question_text": "Which statement describes how the author’s use of problem-and-solution in paragraph 5 contributes to the development of ideas in the passage?",
+    "options": [
+      "Detailing the challenges that the cold channel waters presented highlights how effective Ederle’s training was.",
+      "Describing Ederle’s physical difficulties during her swim provides evidence of the team effort required in order to ensure her safety.",
+      "Explaining the difficulties that arose early in the effort helps predict the additional problems that occurred during Ederle’s attempt.",
+      "Illustrating Ederle’s process of blocking out her discomfort shows that swimming the channel was both a mental and a physical challenge."
+    ],
+    "correct_answer": 3,
     "answer_type": ""
   },
   {
@@ -162,10 +222,15 @@
     "category": "",
     "difficulty": "",
     "time_estimate": 95,
-    "passage": "",
-    "question_text": "",
-    "options": [],
-    "correct_answer": null,
+    "passage": "pdfData:pdf/Pearsons2018-2019A_ChampionChannel.pdf",
+    "question_text": "Paragraph 7 contributes to the development of the central idea of the passage by",
+    "options": [
+      "illustrating that Ederle’s physical strength and mental fortitude allowed her to stay focused on her goal.",
+      "conveying that Ederle pushed herself to the edge of her physical capabilities in order to complete the swim.",
+      "highlighting the impact the severe weather had on Ederle’s emotions during her swim.",
+      "emphasizing the surge of emotions Ederle felt as she came closer to achieving a personal goal."
+    ],
+    "correct_answer": 3,
     "answer_type": ""
   },
   {
@@ -175,10 +240,15 @@
     "category": "",
     "difficulty": "",
     "time_estimate": 95,
-    "passage": "",
-    "question_text": "",
-    "options": [],
-    "correct_answer": null,
+    "passage": "pdfData:pdf/Pearsons2018-2019A_ChampionChannel.pdf",
+    "question_text": "Ederle’s victorious swim across the English Channel influenced American attitudes mainly by",
+    "options": [
+      "sparking interest in physical activity and in seeking swimming certification.",
+      "encouraging other swimmers to seek out and achieve challenging feats.",
+      "demonstrating that women could achieve and even surpass feats accomplished by men.",
+      "showing that determination and perseverance are necessary to overcome previous failures."
+    ],
+    "correct_answer": 0,
     "answer_type": ""
   },
   {
@@ -188,10 +258,15 @@
     "category": "",
     "difficulty": "",
     "time_estimate": 95,
-    "passage": "",
-    "question_text": "",
-    "options": [],
-    "correct_answer": null,
+    "passage": "pdfData:pdf/Pearsons2018-2019A_ChampionChannel.pdf",
+    "question_text": "Which sentence from the passage best conveys the author’s perspective regarding the impact of Ederle’s accomplishment?",
+    "options": [
+      "“Gertrude Ederle’s triumphant swim across the English Channel was a testimony to her determination, innovative spirit, and passion for swimming.” (paragraph 1)",
+      "“For hours Ederle swam, dodging debris with an amused smile.” (paragraph 7)",
+      "“Yet Ederle felt indescribably happy as she churned through the sea.” (paragraph 7)",
+      "“Ederle had swum into history.” (paragraph 8)"
+    ],
+    "correct_answer": 3,
     "answer_type": ""
   },
   {
@@ -201,10 +276,15 @@
     "category": "",
     "difficulty": "",
     "time_estimate": 95,
-    "passage": "",
-    "question_text": "",
-    "options": [],
-    "correct_answer": null,
+    "passage": "pdfData:pdf/Pearsons2018-2019A_ChampionChannel.pdf",
+    "question_text": "The table contributes to the development of the topic of the passage mainly by",
+    "options": [
+      "emphasizing that people have continued to swim across the channel and have significantly reduced the speed record.",
+      "suggesting that Ederle inspired women to swim across the channel in an attempt to break the current speed record.",
+      "revealing that Ederle is not the only woman who has set a record time for swimming across the English Channel.",
+      "providing a comparison between channel-swimming records of the early twentieth century and current records."
+    ],
+    "correct_answer": 0,
     "answer_type": ""
   },
   {
@@ -214,10 +294,15 @@
     "category": "",
     "difficulty": "",
     "time_estimate": 95,
-    "passage": "",
-    "question_text": "",
-    "options": [],
-    "correct_answer": null,
+    "passage": "pdfData:pdf/Pearsons2018-2019A_TrampAbroad.pdf",
+    "question_text": "The phrase “those wonderful Swiss and African ones which vote, keep drilled armies, . . . and dispute about religion” in paragraph 1 shows that the author",
+    "options": [
+      "believes that the behavior of the ants is reflected in other living creatures.",
+      "acknowledges that his observations of a few do not necessarily apply to all.",
+      "knows that disproving a commonly held belief is challenging",
+      "accepts that there are flaws in his interpretation of the behavior of the ants."
+    ],
+    "correct_answer": 1,
     "answer_type": ""
   },
   {
@@ -227,10 +312,15 @@
     "category": "",
     "difficulty": "",
     "time_estimate": 95,
-    "passage": "",
-    "question_text": "",
-    "options": [],
-    "correct_answer": null,
+    "passage": "pdfData:pdf/Pearsons2018-2019A_TrampAbroad.pdf",
+    "question_text": "The central idea that “the average ant is a sham” (paragraph 1) is conveyed mainly through the",
+    "options": [
+      "comical descriptions of the inability of the ants to accomplish the task at hand.",
+      "comparison between ants from other countries and the ants being observed.",
+      "keen observations that the level of intelligence of ants is mostly overstated.",
+      "conclusion that ants value objects that are of little practical use to them."
+    ],
+    "correct_answer": 0,
     "answer_type": ""
   },
   {
@@ -240,10 +330,15 @@
     "category": "",
     "difficulty": "",
     "time_estimate": 95,
-    "passage": "",
-    "question_text": "",
-    "options": [],
-    "correct_answer": null,
+    "passage": "pdfData:pdf/Pearsons2018-2019A_TrampAbroad.pdf",
+    "question_text": "In paragraph 2, how do the words “grabs,” “yanks,” and “tearing away” contribute to the meaning of the excerpt?",
+    "options": [
+      "They highlight the ant’s belief that his work is important.",
+      "They illustrate that the ant is more efficient working on his own.",
+      "They indicate the speed with which the ant completes his tasks.",
+      "They emphasize the ant’s anxious efforts to be productive."
+    ],
+    "correct_answer": 3,
     "answer_type": ""
   },
   {
@@ -253,10 +348,15 @@
     "category": "",
     "difficulty": "",
     "time_estimate": 95,
-    "passage": "",
-    "question_text": "",
-    "options": [],
-    "correct_answer": null,
+    "passage": "pdfData:pdf/Pearsons2018-2019A_TrampAbroad.pdf",
+    "question_text": "Read this text from paragraph 2.\n\nHe . . . comes to a weed; it never occurs to him to go around it. No; he must climb it, and he does climb it, dragging his worthless property to the top—which is as bright a thing to do as it would be for me to carry a sack of flour from Heidelberg to Paris by way of Strasburg steeple;\n\nThese details convey the central idea in the excerpt by showing that the ant",
+    "options": [
+      "often wastes his strength when working on a task.",
+      "is surprised by the effort he needs in order to move the object.",
+      "is oblivious to the most practical solution to his problem.",
+      "focuses more on obtaining the object than getting it back home efficiently"
+    ],
+    "correct_answer": 2,
     "answer_type": ""
   },
   {
@@ -266,10 +366,15 @@
     "category": "",
     "difficulty": "",
     "time_estimate": 95,
-    "passage": "",
-    "question_text": "",
-    "options": [],
-    "correct_answer": null,
+    "passage": "pdfData:pdf/Pearsons2018-2019A_TrampAbroad.pdf",
+    "question_text": "Which of the following best explains the author’s fascination with the ants?",
+    "options": [
+      "“During many summers now I have watched him, when I ought to have been in better business, and I have not yet come across a living ant that seemed to have any more sense than a dead one.” (paragraph 1)",
+      "“I admit his industry, of course; he is the hardest working creature in the world—” (paragraph 2)",
+      "“Science has recently discovered that the ant does not lay up anything for winter use.” (paragraph 4)",
+      "“It is strange beyond comprehension that so manifest a humbug as the ant has been able to fool so many nations and keep it up so many ages without being found out.” (paragraph 4)"
+    ],
+    "correct_answer": 3,
     "answer_type": ""
   },
   {
@@ -279,10 +384,15 @@
     "category": "",
     "difficulty": "",
     "time_estimate": 95,
-    "passage": "",
-    "question_text": "",
-    "options": [],
-    "correct_answer": null,
+    "passage": "pdfData:pdf/Pearsons2018-2019A_TrampAbroad.pdf",
+    "question_text": "Read this sentence from paragraph 2.\n\nAt the end of half an hour he fetches up within six inches of the place he started from, and lays his burden down.\n\nHow does the sentence contribute to the development of the central idea of the excerpt?",
+    "options": [
+      "It reveals that the ant is aware of the purposelessness of his efforts and that he does not enjoy his work.",
+      "It highlights how little the ant accomplishes despite the great amount of effort he exerts.",
+      "It suggests that the ant has an industrious attitude and does not easily give up.",
+      "It emphasizes that the ant does not thoughtfully consider how difficult it would be to carry his capture for such a long period of time."
+    ],
+    "correct_answer": 1,
     "answer_type": ""
   },
   {
@@ -292,10 +402,15 @@
     "category": "",
     "difficulty": "",
     "time_estimate": 95,
-    "passage": "",
-    "question_text": "",
-    "options": [],
-    "correct_answer": null,
+    "passage": "pdfData:pdf/Pearsons2018-2019A_TrampAbroad.pdf",
+    "question_text": "Which sentence from paragraph 2 best supports the idea that sheer “leather-headedness” (paragraph 2) amounts to “ignorance” and “idiocy” (paragraph 4)?",
+    "options": [
+      "“He goes out foraging, he makes a capture, and then what does he do?”",
+      "“He lifts it bodily up in the air by main force,”",
+      "“When he gets up there he finds that that is not the place;”",
+      "“Now he wipes the sweat from his brow, strokes his limbs, and then marches aimlessly off, in as violent a hurry as ever.”"
+    ],
+    "correct_answer": 2,
     "answer_type": ""
   },
   {
@@ -305,10 +420,15 @@
     "category": "",
     "difficulty": "",
     "time_estimate": 95,
-    "passage": "",
-    "question_text": "",
-    "options": [],
-    "correct_answer": null,
+    "passage": "pdfData:pdf/Pearsons2018-2019A_TrampAbroad.pdf",
+    "question_text": "Read this sentence from paragraph 3.\n\nEvidently the friend remarks that a last year’s grasshopper leg is a very noble acquisition, and inquires where he got it.\n\nWhich statement best describes how the sentence fits into the overall structure of the excerpt?",
+    "options": [
+      "It indicates a shift to the realization that the ants place great importance on an item that has little value.",
+      "It emphasizes a shift from an analysis of the actions of the individual ant to a commentary on the actions of the ants working together.",
+      "It introduces a transition to the idea that specific observations about one ant allow for generalizations about all ants.",
+      "It provides a transition to the observation that the ant’s friend is just as purposeful in his efforts toward a futile ending as the first ant."
+    ],
+    "correct_answer": 1,
     "answer_type": ""
   },
   {
@@ -318,10 +438,15 @@
     "category": "",
     "difficulty": "",
     "time_estimate": 95,
-    "passage": "",
-    "question_text": "",
-    "options": [],
-    "correct_answer": null,
+    "passage": "pdfData:pdf/Pearsons2018-2019A_TrampAbroad.pdf",
+    "question_text": "Read this sentence from paragraph 3.\n\nThe two perspiring ants inspect it thoughtfully and decide that dried grasshopper legs are a poor sort of property after all, and then each starts off in a different direction to see if he can’t find an old nail or something else that is heavy enough to afford entertainment and at the same time valueless enough to make an ant want to own it.\n\nHow does the word choice in the sentence contribute to the overall meaning of the excerpt?",
+    "options": [
+      "It creates a humorous critique of the ants’ intense attitude toward their pointless work.",
+      "It illustrates the ants’ confusion over their lack of positive results compared with their level of effort.",
+      "It highlights the ants’ frustration as they repeatedly chose a difficult task over one that could be accomplished more easily.",
+      "It illustrates the ants’ stubborn determination to hold on to the worthless object."
+    ],
+    "correct_answer": 0,
     "answer_type": ""
   },
   {
@@ -331,10 +456,15 @@
     "category": "",
     "difficulty": "",
     "time_estimate": 95,
-    "passage": "",
-    "question_text": "",
-    "options": [],
-    "correct_answer": null,
+    "passage": "pdfData:pdf/Pearsons2018-2019A_TrampAbroad.pdf",
+    "question_text": "How does the presence of the friend in paragraph 3 influence the first ant’s behavior?",
+    "options": [
+      "The friend distracts the ant from finding the correct path home.",
+      "The friend inspires the ant to consider a new approach to the situation.",
+      "The friend encourages the ant to continue his worthless efforts.",
+      "The friend tries to prevent the ant from finishing his task."
+    ],
+    "correct_answer": 2,
     "answer_type": ""
   },
   {
@@ -344,10 +474,15 @@
     "category": "",
     "difficulty": "",
     "time_estimate": 95,
-    "passage": "",
-    "question_text": "",
-    "options": [],
-    "correct_answer": null,
+    "passage": "pdfData:pdf/Pearsons2018-2019A_RuinsCity.pdf",
+    "question_text": "Which statement best describes the central idea of the passage?",
+    "options": [
+      "Great Zimbabwe was an enormous stone city thought to be home to some of the greatest treasure of ancient history.",
+      "Mysteries related to Great Zimbabwe continue to interest historians and explorers even though archaeologists have confirmed its origins.",
+      "The history of Great Zimbabwe was subject to much speculation until modern archaeologists definitively determined its origins.",
+      "Early missteps in the study and excavation of the Great Zimbabwe ruins led to the loss of valuable evidence about the city"
+    ],
+    "correct_answer": 2,
     "answer_type": ""
   },
   {
@@ -357,10 +492,15 @@
     "category": "",
     "difficulty": "",
     "time_estimate": 95,
-    "passage": "",
-    "question_text": "",
-    "options": [],
-    "correct_answer": null,
+    "passage": "pdfData:pdf/Pearsons2018-2019A_RuinsCity.pdf",
+    "question_text": "What was the main way that Karl Mauch’s conclusions about Great Zimbabwe in paragraph 4 affected later archaeological investigations?",
+    "options": [
+      "Archaeologists from all over Europe became interested in excavating the area",
+      "Archaeologists made assumptions about the history of the ruins before excavating.",
+      "Archaeologists started to believe that many of the past accounts recorded about the ruins were true.",
+      "Archaeologists realized it was unlikely that an ancient culture could build such grand structures."
+    ],
+    "correct_answer": 1,
     "answer_type": ""
   },
   {
@@ -370,10 +510,15 @@
     "category": "",
     "difficulty": "",
     "time_estimate": 95,
-    "passage": "",
-    "question_text": "",
-    "options": [],
-    "correct_answer": null,
+    "passage": "pdfData:pdf/Pearsons2018-2019A_RuinsCity.pdf",
+    "question_text": "Which statement best describes Portuguese explorers’ experience searching for Great Zimbabwe?",
+    "options": [
+      "They routinely visited East Africa but never located the city",
+      "They were motivated by the hope of finding a mysterious city.",
+      "They used details from de Barros’s story in order to determine the city’s exact location.",
+      "They studied history books in order to gather information about the city"
+    ],
+    "correct_answer": 0,
     "answer_type": ""
   },
   {
@@ -383,10 +528,15 @@
     "category": "",
     "difficulty": "",
     "time_estimate": 95,
-    "passage": "",
-    "question_text": "",
-    "options": [],
-    "correct_answer": null,
+    "passage": "pdfData:pdf/Pearsons2018-2019A_RuinsCity.pdf",
+    "question_text": "What was “one mystery of Great Zimbabwe” (paragraph 6) that had been solved?",
+    "options": [
+      "why the settlement was abandoned",
+      "where the ivory and gold from the city went",
+      "why the ruins remained undiscovered until the 1870s",
+      "who had built the settlement"
+    ],
+    "correct_answer": 3,
     "answer_type": ""
   },
   {
@@ -396,10 +546,15 @@
     "category": "",
     "difficulty": "",
     "time_estimate": 95,
-    "passage": "",
-    "question_text": "",
-    "options": [],
-    "correct_answer": null,
+    "passage": "pdfData:pdf/Pearsons2018-2019A_RuinsCity.pdf",
+    "question_text": "Which statement about the Shona people is best supported by the passage?",
+    "options": [
+      "They live along the east coast of Africa.",
+      "They are descendants of the people who built Great Zimbabwe",
+      "They lived in the Middle East before settling in Africa.",
+      "They were once ruled by King Solomon and the Queen of Sheba"
+    ],
+    "correct_answer": 1,
     "answer_type": ""
   },
   {
@@ -409,10 +564,15 @@
     "category": "",
     "difficulty": "",
     "time_estimate": 95,
-    "passage": "",
-    "question_text": "",
-    "options": [],
-    "correct_answer": null,
+    "passage": "pdfData:pdf/Pearsons2018-2019A_RuinsCity.pdf",
+    "question_text": "The conclusions of David Randall-MacIver and Gertrude Caton-Thompson were significant because they",
+    "options": [
+      "proved that Great Zimbabwe was much older than previously thought.",
+      "questioned why the Shona people left Great Zimbabwe.",
+      "supported the idea that the ancient Shona had a robust society at Great Zimbabwe.",
+      "revealed that Great Zimbabwe was African in origin."
+    ],
+    "correct_answer": 3,
     "answer_type": ""
   },
   {
@@ -422,10 +582,15 @@
     "category": "",
     "difficulty": "",
     "time_estimate": 95,
-    "passage": "",
-    "question_text": "",
-    "options": [],
-    "correct_answer": null,
+    "passage": "pdfData:pdf/Pearsons2018-2019A_CrossPurposes.pdf",
+    "question_text": "How does the similar construction of the sentence in line 1 and the sentence in line 8 contribute to the meaning of the poem?",
+    "options": [
+      "It introduces the intended permanence of the structure and the ever-changing fluidity of the water.",
+      "It shows that the structure can bridge the gap caused by the water.",
+      "It suggests that the structure has more limitations than the water.",
+      "It contrasts the stability of the structure with the instability of the water."
+    ],
+    "correct_answer": 0,
     "answer_type": ""
   },
   {
@@ -435,10 +600,15 @@
     "category": "",
     "difficulty": "",
     "time_estimate": 95,
-    "passage": "",
-    "question_text": "",
-    "options": [],
-    "correct_answer": null,
+    "passage": "pdfData:pdf/Pearsons2018-2019A_CrossPurposes.pdf",
+    "question_text": "Read lines 2–4 and lines 12–14 from the poem.\n\nI am what every athlete\nwants: to remain at the apex of the leap,\nup in the air.\n\nI am the blood flowing in the runner’s chest,\nand I catch everything: from the hills,\nthe mountains.\n\nHow do the lines contribute to the development of a central idea of the poem?",
+    "options": [
+      "They establish that both the structure and the water have endurance and control.",
+      "They highlight that both the structure and the water are powerful and impressive.",
+      "They suggest that the structure and the water are unaware of how similar they are.",
+      "They reveal that the structure and the water are surprised that they are interrelated."
+    ],
+    "correct_answer": 1,
     "answer_type": ""
   },
   {
@@ -448,10 +618,15 @@
     "category": "",
     "difficulty": "",
     "time_estimate": 95,
-    "passage": "",
-    "question_text": "",
-    "options": [],
-    "correct_answer": null,
+    "passage": "pdfData:pdf/Pearsons2018-2019A_CrossPurposes.pdf",
+    "question_text": "Read line 7 from the first stanza.\n\nSwallows and ospreys nest in my trusses.\n\nHow does the line contribute to the development of ideas in the stanza?",
+    "options": [
+      "The line supports the structure’s claim that it is beneficial to nature.",
+      "The line reveals that the structure secretly envies the water’s importance in nature.",
+      "The line emphasizes that the structure is more valuable to nature than the water is.",
+      "The line reveals the kinship that nature shares with the structure."
+    ],
+    "correct_answer": 0,
     "answer_type": ""
   },
   {
@@ -461,10 +636,15 @@
     "category": "",
     "difficulty": "",
     "time_estimate": 95,
-    "passage": "",
-    "question_text": "",
-    "options": [],
-    "correct_answer": null,
+    "passage": "pdfData:pdf/Pearsons2018-2019A_CrossPurposes.pdf",
+    "question_text": "Read lines 18–20 from the poem.\n\nYou are some tears dribbling from a mountain’s\neye, running down the pavements\nof small towns, into the cities, to the sea.\n\nWhat impact do the phrases “some tears dribbling” and “running down” have on the meaning of the poem?",
+    "options": [
+      "They suggest that naturally flowing water is a problem in populated areas.",
+      "They highlight the different types of naturally flowing water.",
+      "They imply that the flow of water is weak and influenced by the landscape.",
+      "They highlight that the flow of water from the mountains is minimal compared with that of the seas."
+    ],
+    "correct_answer": 2,
     "answer_type": ""
   },
   {
@@ -474,10 +654,15 @@
     "category": "",
     "difficulty": "",
     "time_estimate": 95,
-    "passage": "",
-    "question_text": "",
-    "options": [],
-    "correct_answer": null,
+    "passage": "pdfData:pdf/Pearsons2018-2019A_CrossPurposes.pdf",
+    "question_text": "The comparison to sewing in lines 33–35 helps show that the structure",
+    "options": [
+      "enhances the beauty of the natural landscape",
+      "brings people together more effectively than nature does.",
+      "provides clear boundaries for natural environments",
+      "serves as a means for people to overcome an obstacle created by nature."
+    ],
+    "correct_answer": 3,
     "answer_type": ""
   },
   {
@@ -487,10 +672,15 @@
     "category": "",
     "difficulty": "",
     "time_estimate": 95,
-    "passage": "",
-    "question_text": "",
-    "options": [],
-    "correct_answer": null,
+    "passage": "pdfData:pdf/Pearsons2018-2019A_CrossPurposes.pdf",
+    "question_text": "The last stanza (lines 36–42) conveys a central idea of the poem by",
+    "options": [
+      "demonstrating that both the structure and the water depend on each other to fulfill their functions.",
+      "implying that a stronger structure would be able to resist the degradation caused by the water.",
+      "revealing that the passage of time will render both the structure and the water obsolete.",
+      "suggesting that the water will eventually weaken the structure and will continue to exist after the structure is gone."
+    ],
+    "correct_answer": 3,
     "answer_type": ""
   },
   {
@@ -500,10 +690,15 @@
     "category": "",
     "difficulty": "",
     "time_estimate": 95,
-    "passage": "",
-    "question_text": "",
-    "options": [],
-    "correct_answer": null,
+    "passage": "pdfData:pdf/Pearsons2018-2019A_CrossPurposes.pdf",
+    "question_text": "Read lines 41–42 from the poem.\n\nBecause I am,\nabove all else, patient. I will wait for you.\n\nWhich of the following supports what is implied in these lines?",
+    "options": [
+      "“I am older / than anything else you know.” (lines 8–9)",
+      "“No human / built me.” (lines 9–10)",
+      "“It all washes down through me.” (line 14)",
+      "“Those who made you will break you,” (line 26)"
+    ],
+    "correct_answer": 0,
     "answer_type": ""
   },
   {
@@ -513,10 +708,15 @@
     "category": "",
     "difficulty": "",
     "time_estimate": 95,
-    "passage": "",
-    "question_text": "",
-    "options": [],
-    "correct_answer": null,
+    "passage": "pdfData:pdf/Pearsons2018-2019A_CrossPurposes.pdf",
+    "question_text": "How does the poet develop the points of view of the structure and the water?",
+    "options": [
+      "by relating a discussion between them about the future of human civilization",
+      "by narrating a debate they have over their impact on the environment",
+      "by illustrating the unique power they each possess over nature",
+      "by using personification to allow them to debate who is more important"
+    ],
+    "correct_answer": 3,
     "answer_type": ""
   },
   {
@@ -526,10 +726,15 @@
     "category": "",
     "difficulty": "",
     "time_estimate": 95,
-    "passage": "",
-    "question_text": "",
-    "options": [],
-    "correct_answer": null,
+    "passage": "pdfData:pdf/Pearsons2018-2019A_CrossPurposes.pdf",
+    "question_text": "How does the form of the poem contribute to its meaning?",
+    "options": [
+      "The use of an equal number of lines in each stanza emphasizes that both speakers are equally important.",
+      "The use of italics in some of the stanzas indicates the increasing tension between the structure and the water.",
+      "The alternating positions of the stanzas highlight the opposing points of view of the speakers.",
+      "The lack of a regular rhyme scheme or meter reflects the way the water changes the structure and the way the water itself changes."
+    ],
+    "correct_answer": 2,
     "answer_type": ""
   },
   {
@@ -539,10 +744,15 @@
     "category": "",
     "difficulty": "",
     "time_estimate": 95,
-    "passage": "",
-    "question_text": "",
-    "options": [],
-    "correct_answer": null,
+    "passage": "pdfData:pdf/Pearsons2018-2019A_WithoutSummer.pdf",
+    "question_text": "Which of the following best tells what this passage is about?",
+    "options": [
+      "the belief of some religious leaders that the end of the world was coming in 1816",
+      "a summer of strange weather and its probable cause",
+      "the importance of summer weather to agriculture in New England",
+      "a comparison of the weather of 1816 and 1991"
+    ],
+    "correct_answer": 1,
     "answer_type": ""
   },
   {
@@ -552,10 +762,15 @@
     "category": "",
     "difficulty": "",
     "time_estimate": 95,
-    "passage": "",
-    "question_text": "",
-    "options": [],
-    "correct_answer": null,
+    "passage": "pdfData:pdf/Pearsons2018-2019A_WithoutSummer.pdf",
+    "question_text": "What is the most likely reason farmers persisted in replanting their crops?",
+    "options": [
+      "They believed that the cold weather could not continue all summer long.",
+      "They thought that crops would be able to survive even though the weather remained cold.",
+      "They believed that the improved weather conditions of July would last.",
+      "They thought the June snowfalls would provide needed moisture."
+    ],
+    "correct_answer": 0,
     "answer_type": ""
   },
   {
@@ -565,10 +780,15 @@
     "category": "",
     "difficulty": "",
     "time_estimate": 95,
-    "passage": "",
-    "question_text": "",
-    "options": [],
-    "correct_answer": null,
+    "passage": "pdfData:pdf/Pearsons2018-2019A_WithoutSummer.pdf",
+    "question_text": "In the winter that followed the summer of 1816, New Englanders most likely experienced",
+    "options": [
+      "new weather events that they had not encountered before.",
+      "temperatures that were warmer than usual for that time of year.",
+      "shortages of fruits, vegetables, and other essential crops.",
+      "difficulty adjusting to a different timeline for planting crops."
+    ],
+    "correct_answer": 2,
     "answer_type": ""
   },
   {
@@ -578,10 +798,15 @@
     "category": "",
     "difficulty": "",
     "time_estimate": 95,
-    "passage": "",
-    "question_text": "",
-    "options": [],
-    "correct_answer": null,
+    "passage": "pdfData:pdf/Pearsons2018-2019A_WithoutSummer.pdf",
+    "question_text": "How does paragraph 3 contribute to the passage?",
+    "options": [
+      "It presents the most probable cause of the 1816 weather.",
+      "It shows how nineteenth-century people explained the 1816 weather.",
+      "It presents a theory about the 1816 weather that some skeptics doubted.",
+      "It includes eyewitness reports to describe the source of the 1816 weather."
+    ],
+    "correct_answer": 1,
     "answer_type": ""
   },
   {
@@ -591,10 +816,15 @@
     "category": "",
     "difficulty": "",
     "time_estimate": 95,
-    "passage": "",
-    "question_text": "",
-    "options": [],
-    "correct_answer": null,
+    "passage": "pdfData:pdf/Pearsons2018-2019A_WithoutSummer.pdf",
+    "question_text": "The author includes the details in paragraph 4 about the eruption of Mount Tambora in order to",
+    "options": [
+      "suggest that the aftermath of the eruption still affects the environment today.",
+      "highlight the severe impact that the eruption had on the atmosphere.",
+      "provide a description of what happens during a volcanic eruption.",
+      "emphasize how differently people perceive natural events in various parts of the world."
+    ],
+    "correct_answer": 1,
     "answer_type": ""
   },
   {
@@ -604,10 +834,15 @@
     "category": "",
     "difficulty": "",
     "time_estimate": 95,
-    "passage": "",
-    "question_text": "",
-    "options": [],
-    "correct_answer": null,
+    "passage": "pdfData:pdf/Pearsons2018-2019A_WithoutSummer.pdf",
+    "question_text": "Which of the following is implied by the phrase “the global nature of weather” (paragraph 5)?",
+    "options": [
+      "Understanding weather events around the world is important for making weather predictions.",
+      "Extreme weather conditions in some parts of the world can have a lasting impact on a geographical area.",
+      "Natural disasters tend to occur in different parts of the world at the same time.",
+      "Conditions in one part of the world can affect weather in another part of the world."
+    ],
+    "correct_answer": 3,
     "answer_type": ""
   },
   {
@@ -617,10 +852,15 @@
     "category": "",
     "difficulty": "",
     "time_estimate": 95,
-    "passage": "",
-    "question_text": "",
-    "options": [],
-    "correct_answer": null,
+    "passage": "pdfData:pdf/Pearsons2018-2019A_WithoutSummer.pdf",
+    "question_text": "The cold summer of 1816 was most likely caused by",
+    "options": [
+      "unusual sunspot activity",
+      "the excessive use of lightning rods.",
+      "damage to the ozone layer.",
+      "an increase of dust in the atmosphere."
+    ],
+    "correct_answer": 3,
     "answer_type": ""
   },
   {
@@ -631,9 +871,14 @@
     "difficulty": "",
     "time_estimate": 95,
     "passage": "",
-    "question_text": "",
-    "options": [],
-    "correct_answer": null,
+    "question_text": "Which sentence should be added after sentence 5 to introduce the main topic of the passage?",
+    "options": [
+      "The construction of the Gotthard Base Tunnel was approved by Swiss voters in 1992 and was funded by tolls, fuel taxes, and government loans.",
+      "Leaders from several European countries attended the opening ceremonies for the Gotthard Base Tunnel, a Swiss tunnel.",
+      "The Gotthard Base Tunnel is the world’s longest and deepest railway tunnel, stretching 35.5 miles straight through the base of the Swiss Alps.",
+      "The Gotthard Base Tunnel continues to help reduce the number of freight trucks on the roadways in the Swiss Alps."
+    ],
+    "correct_answer": 2,
     "answer_type": ""
   },
   {
@@ -644,9 +889,14 @@
     "difficulty": "",
     "time_estimate": 95,
     "passage": "",
-    "question_text": "",
-    "options": [],
-    "correct_answer": null,
+    "question_text": "Which sentence should be added to follow and support sentence 7?",
+    "options": [
+      "The tunnel-boring machine is helpful to tunnel builders in the modern era and has been an improvement over dynamite.",
+      "These enormous tunnel-boring machines function somewhat like a cheese grater, with the cutter head grinding slowly through rock and stone.",
+      "Engineers had considered making a tunnel under the mountains for many years, but it was impossible to do without modern tunnel-boring machines.",
+      "Different types of cutter heads are used with tunnel-boring machines depending on the geology of the area where the tunnel is being created."
+    ],
+    "correct_answer": 1,
     "answer_type": ""
   },
   {
@@ -657,9 +907,14 @@
     "difficulty": "",
     "time_estimate": 95,
     "passage": "",
-    "question_text": "",
-    "options": [],
-    "correct_answer": null,
+    "question_text": "Where should sentence 11 be moved in order to improve the organization of the second paragraph (sentences 6–11)?",
+    "options": [
+      "to the beginning of the paragraph (before sentence 6)",
+      "between sentences 6 and 7",
+      "between sentences 8 and 9",
+      "between sentences 9 and 10"
+    ],
+    "correct_answer": 3,
     "answer_type": ""
   },
   {
@@ -670,9 +925,14 @@
     "difficulty": "",
     "time_estimate": 95,
     "passage": "",
-    "question_text": "",
-    "options": [],
-    "correct_answer": null,
+    "question_text": "Which sentence presents information that shifts away from the main topic of the third paragraph (sentences 12–16) and should be removed?",
+    "options": [
+      "sentence 13",
+      "sentence 14",
+      "sentence 15",
+      "sentence 16"
+    ],
+    "correct_answer": 3,
     "answer_type": ""
   },
   {
@@ -683,9 +943,14 @@
     "difficulty": "",
     "time_estimate": 95,
     "passage": "",
-    "question_text": "",
-    "options": [],
-    "correct_answer": null,
+    "question_text": "Which transition phrase should be added to the beginning of sentence 18?",
+    "options": [
+      "Although the Gotthard Base Tunnel is mainly for freight trains",
+      "With the Gotthard Base Tunnel taking ten years to complete",
+      "Because of the successful completion of the Gotthard Base Tunnel",
+      "As the number of trains using the Gotthard Base Tunnel increases"
+    ],
+    "correct_answer": 2,
     "answer_type": ""
   },
   {
@@ -696,9 +961,14 @@
     "difficulty": "",
     "time_estimate": 95,
     "passage": "",
-    "question_text": "",
-    "options": [],
-    "correct_answer": null,
+    "question_text": "Which concluding sentence should be added after sentence 18 to support the topic presented in the passage?",
+    "options": [
+      "There is proof that underground tunnels such as the Gotthard Base Tunnel are beneficial to the economy of the surrounding area.",
+      "The Gotthard Base Tunnel is an extraordinary example of how human ingenuity and persistence can overcome great obstacles.",
+      "The completion of the Gotthard Base Tunnel shows that people can work together to achieve important goals.",
+      "The Swiss government is confident that the economic impact of the Gotthard Base Tunnel will be worth its construction cost."
+    ],
+    "correct_answer": 1,
     "answer_type": ""
   },
   {
@@ -708,10 +978,15 @@
     "category": "",
     "difficulty": "",
     "time_estimate": 95,
-    "passage": "",
-    "question_text": "",
-    "options": [],
-    "correct_answer": null,
+    "passage": "During a nightly news segment about a cooking contest, a reporter talked to some people who did the best in the contest.",
+    "question_text": "Which revision uses the most precise language for the words 'talked to some people who did the best in the contest?'",
+    "options": [
+      "conversed with some of the people who won the contest",
+      "spoke to the three contestants who did well",
+      "discussed the contest with some of the winners",
+      "interviewed the top three contestants"
+    ],
+    "correct_answer": 3,
     "answer_type": ""
   },
   {
@@ -721,10 +996,15 @@
     "category": "",
     "difficulty": "",
     "time_estimate": 95,
-    "passage": "",
-    "question_text": "",
-    "options": [],
-    "correct_answer": null,
+    "passage": "(1) When coal was used to heat homes, it frequently left soot stains on the walls.  (2) Brothers Cleo and Noah McVicker, who owned a cleaning product company created a doughy substance to help people remove this soot.  (3) Over time, as natural gas becomes more common, people had little need for soot cleansers, and the McVickers’ family company struggled to stay in business.  (4) Then one day Joe McVicker, Cleo’s son, learned that his sister-in-law had been using the substance for art projects in her classroom, so he remarketed the product as the toy known today as Play-Doh.",
+    "question_text": "Which pair of revisions need to be made in the paragraph?",
+    "options": [
+      "Sentence 1: Delete the comma after homes.\nSentence 3: Change becomes to became.",
+      "Sentence 1: Delete the comma after homes.\nSentence 4: Change remarketed to had remarketed.",
+      "Sentence 2: Insert a comma after company.\nSentence 3: Change becomes to became.",
+      "Sentence 2: Insert a comma after company.\nSentence 4: Change remarketed to had remarketed."
+    ],
+    "correct_answer": 2,
     "answer_type": ""
   },
   {
@@ -734,10 +1014,15 @@
     "category": "",
     "difficulty": "",
     "time_estimate": 95,
-    "passage": "",
-    "question_text": "",
-    "options": [],
-    "correct_answer": null,
+    "passage": "(1) Walking dogs, cleaning kennels, hand-feeding newborn kittens, and supporting the petadoption process, the animal shelter is looking for volunteers to help with a variety of tasks.  (2) Working at the animal shelter is a great way for young people, especially those who aspire to care for and protect animals, to gain valuable work experience.  (3) In addition to hands-on training with animal care, volunteers will learn important job skills, such as punctuality, responsibility, and personal initiative.  (4) Caring for animals can also help volunteers develop empathy, which is the awareness and understanding of the feelings of others.",
+    "question_text": "Which sentence contains an error in its construction and should be revised?",
+    "options": [
+      "sentence 1",
+      "sentence 2",
+      "sentence 3",
+      "sentence 4"
+    ],
+    "correct_answer": 0,
     "answer_type": ""
   },
   {
