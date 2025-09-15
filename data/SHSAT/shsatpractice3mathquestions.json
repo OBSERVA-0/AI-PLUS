@@ -1,0 +1,1003 @@
+[
+  {
+    "_id": "58",
+    "question_number": 58,
+    "practice_set": "Test 3",
+    "category": "Algebra",
+    "difficulty": "",
+    "time_estimate": 95,
+    "passage": "",
+    "question_text": "What is the value of x in the equation shown below?\n(167 - x) / 13 = 13",
+    "options": [],
+    "correct_answer": -2,
+    "answer_type": "fill_in_the_blank"
+  },
+  {
+    "_id": "59",
+    "question_number": 59,
+    "practice_set": "Test 3",
+    "category": "Rates and Proportions",
+    "difficulty": "",
+    "time_estimate": 95,
+    "passage": "Samuel can flip 5 pancakes at the rate of 2 minutes.",
+    "question_text": "At this rate, how many minutes would it take him to flip 200 pancakes?",
+    "options": [],
+    "correct_answer": 80,
+    "answer_type": "fill_in_the_blank"
+  },
+  {
+    "_id": "60",
+    "question_number": 60,
+    "practice_set": "Test 3",
+    "category": "Geometry",
+    "difficulty": "",
+    "time_estimate": 95,
+    "passage": "image:images/shsatpractice3mathtestq60.png",
+    "question_text": "On the number line below, P is at -4, and R is at 8. Point Q is to be placed on the number line one half of the way from Point P to Point R.What number will be at the midpoint of segment PQ?",
+    "options": [],
+    "correct_answer": -1,
+    "answer_type": "fill_in_the_blank"
+  },
+  {
+    "_id": "61",
+    "question_number": 61,
+    "practice_set": "Test 3",
+    "category": "Geometry",
+    "difficulty": "",
+    "time_estimate": 95,
+    "passage": "image:images/shsatpractice3mathtestq61.png",
+    "question_text": "The image displays two intersecting lines. One line is horizontal. The other line intersects the horizontal line and forms an exterior angle of 121 degrees and an interior angle of x degrees. This second line also intersects a third line, forming an interior angle of 34 degrees and a vertical angle of y degrees. Find x - y",
+    "options": [],
+    "correct_answer": -87,
+    "answer_type": "fill_in_the_blank"
+  },
+  {
+    "_id": "62",
+    "question_number": 62,
+    "practice_set": "Test 3",
+    "category": "Rates and Speed",
+    "difficulty": "",
+    "time_estimate": 95,
+    "passage": "Charles and James run on a circular track 400 meters long. Charles runs at a speed of 4 meters per second while James runs at a speed of 2 meters per second. They start running from the same point, at the same time, and in the same direction.",
+    "question_text": "In how many seconds will they first meet after starting?",
+    "options": [],
+    "correct_answer": 200,
+    "answer_type": "fill_in_the_blank"
+  },
+  {
+    "_id": "63",
+    "question_number": 63,
+    "practice_set": "Test 3",
+    "category": "Percents",
+    "difficulty": "",
+    "time_estimate": 95,
+    "passage": "In an election between two candidates, the winner received 65% of the 15,000 votes. The loser received the remaining votes.",
+    "question_text": "How many more votes did the winner receive than the loser?",
+    "options": [
+      "3,000",
+      "4,500",
+      "5,500",
+      "6,250"
+    ],
+    "correct_answer": 1,
+    "answer_type": "multiple_choice"
+  },
+  {
+    "_id": "64",
+    "question_number": 64,
+    "practice_set": "Test 3",
+    "category": "Word Problems",
+    "difficulty": "",
+    "time_estimate": 95,
+    "passage": "Penelope is now 3 times the age of Jaslin.",
+    "question_text": "If Jaslin will be 12 in 3 years, how many years ago was Penelope 13 years old?",
+    "options": [
+      "11",
+      "13",
+      "14",
+      "15"
+    ],
+    "correct_answer": 2,
+    "answer_type": "multiple_choice"
+  },
+  {
+    "_id": "65",
+    "question_number": 65,
+    "practice_set": "Test 3",
+    "category": "Unit Conversion",
+    "difficulty": "",
+    "time_estimate": 95,
+    "passage": "There are 660 feet in one furlong, and .5 fathom in one yard.",
+    "question_text": "How many fathoms are there in two furlong?",
+    "options": [
+      "110",
+      "220",
+      "330",
+      "460"
+    ],
+    "correct_answer": 1,
+    "answer_type": "multiple_choice"
+  },
+  {
+    "_id": "66",
+    "question_number": 66,
+    "practice_set": "Test 3",
+    "category": "Statistics",
+    "difficulty": "",
+    "time_estimate": 95,
+    "passage": "A basketball team scored 50 points in the first game, and 60 in the second game.",
+    "question_text": "How many points did the team score in the third game if their mean score for the 3 games was 51 points?",
+    "options": [
+      "45",
+      "44",
+      "43",
+      "42"
+    ],
+    "correct_answer": 2,
+    "answer_type": "multiple_choice"
+  },
+  {
+    "_id": "67",
+    "question_number": 67,
+    "practice_set": "Test 3",
+    "category": "Ratios and Proportions",
+    "difficulty": "",
+    "time_estimate": 95,
+    "passage": "image:images/shsatpractice3mathtestq67.png",
+    "question_text": "In the number line above, the ratio of line segment AB to BD is 2:7 and line segment DE to AB is 2:3. What is the length of line segment AE if DE is 4 units?",
+    "options": [
+      "27",
+      "29",
+      "30",
+      "31"
+    ],
+    "correct_answer": 3,
+    "answer_type": "multiple_choice"
+  },
+  {
+    "_id": "68",
+    "question_number": 68,
+    "practice_set": "Test 3",
+    "category": "Data Interpretation",
+    "difficulty": "",
+    "time_estimate": 95,
+    "passage": "ONE MILE TIME\nThe table shows the time of a class' one mile run, rounded to the nearest second.\nUnder 6 minutes: 2 students\n6:00-6:59: 7 students\n7:00-7:59: 15 students\n8:00-8:59: 25 students\n9 minutes and over: 3 students",
+    "question_text": "How many students had a one mile run of under 7 minutes?",
+    "options": [
+      "7",
+      "9",
+      "24",
+      "52"
+    ],
+    "correct_answer": 1,
+    "answer_type": "multiple_choice"
+  },
+  {
+    "_id": "69",
+    "question_number": 69,
+    "practice_set": "Test 3",
+    "category": "Geometry",
+    "difficulty": "",
+    "time_estimate": 95,
+    "passage": "image:images/shsatpractice3mathtestq69.png",
+    "question_text": "The figure above is a regular hexagon composed of two triangles and one trapezoid. Find the sum of the interior angles of the regular hexagon.",
+    "options": [
+      "360",
+      "480",
+      "720",
+      "900"
+    ],
+    "correct_answer": 2,
+    "answer_type": "multiple_choice"
+  },
+  {
+    "_id": "70",
+    "question_number": 70,
+    "practice_set": "Test 3",
+    "category": "Geometry",
+    "difficulty": "",
+    "time_estimate": 95,
+    "passage": "The perimeter of a square is twice that of an equilateral triangle.",
+    "question_text": "If the equilateral triangle has side length of 6, what is the area of the square?",
+    "options": [
+      "18",
+      "24",
+      "36",
+      "81"
+    ],
+    "correct_answer": 3,
+    "answer_type": "multiple_choice"
+  },
+  {
+    "_id": "71",
+    "question_number": 71,
+    "practice_set": "Test 3",
+    "category": "Geometry",
+    "difficulty": "",
+    "time_estimate": 95,
+    "passage": "image:images/shsatpractice3mathtestq71.png",
+    "question_text": "If the vertices of the shape all lie on the midpoints of the grid-lines or the center of the grid square, what is the area of the shaded figure above?",
+    "options": [
+      "19.125 sq unit",
+      "23.125 sq unit",
+      "25.5 sq unit",
+      "27.625 sq unit"
+    ],
+    "correct_answer": 1,
+    "answer_type": "multiple_choice"
+  },
+  {
+    "_id": "72",
+    "question_number": 72,
+    "practice_set": "Test 3",
+    "category": "Probability",
+    "difficulty": "",
+    "time_estimate": 95,
+    "passage": "",
+    "question_text": "If Shirley flips a fair-sided coin four times, what is the probability of landing either 3 heads in a row or 3 tails in a row?",
+    "options": [
+      ".1",
+      ".2",
+      ".25",
+      ".4"
+    ],
+    "correct_answer": 2,
+    "answer_type": "multiple_choice"
+  },
+  {
+    "_id": "73",
+    "question_number": 73,
+    "practice_set": "Test 3",
+    "category": "Number Properties",
+    "difficulty": "",
+    "time_estimate": 95,
+    "passage": "",
+    "question_text": "If X and Y are odd positive integers and X is a multiple of Y, which of the following results in an odd number?",
+    "options": [
+      "X + Y",
+      "2XY",
+      "X - Y",
+      "X ÷ Y"
+    ],
+    "correct_answer": 3,
+    "answer_type": "multiple_choice"
+  },
+  {
+    "_id": "74",
+    "question_number": 74,
+    "practice_set": "Test 3",
+    "category": "Ratios and Proportions",
+    "difficulty": "",
+    "time_estimate": 95,
+    "passage": "The scale on a map is 1 inch = 4 miles.",
+    "question_text": "What is the distance, in inches, on the map between two towns that are m miles apart?",
+    "options": [
+      "m/4",
+      "m/2",
+      "2m",
+      "4m"
+    ],
+    "correct_answer": 0,
+    "answer_type": "multiple_choice"
+  },
+  {
+    "_id": "75",
+    "question_number": 75,
+    "practice_set": "Test 3",
+    "category": "Probability",
+    "difficulty": "",
+    "time_estimate": 95,
+    "passage": "image:images/shsatpractice3mathtestq75.png",
+    "question_text": "Harry spins the arrows of each wheel once. The first wheel is divided into three equal sections labeled a, b, and c. The second wheel is divided into three equal sections labeled e, f, and g.What is the probability of the arrows landing on a vowel on each wheel?",
+    "options": [
+      "1/9",
+      "1/3",
+      "2/3",
+      "5/6"
+    ],
+    "correct_answer": 0,
+    "answer_type": "multiple_choice"
+  },
+  {
+    "_id": "76",
+    "question_number": 76,
+    "practice_set": "Test 3",
+    "category": "Geometry",
+    "difficulty": "",
+    "time_estimate": 95,
+    "passage": "Points A, B, and C are on a straight line, and B is between A and C. Length AB = 2/3 of BC, and length BC = 39.",
+    "question_text": "What is the length of AC?",
+    "options": [
+      "43",
+      "52",
+      "65",
+      "91"
+    ],
+    "correct_answer": 2,
+    "answer_type": "multiple_choice"
+  },
+  {
+    "_id": "77",
+    "question_number": 77,
+    "practice_set": "Test 3",
+    "category": "Geometry",
+    "difficulty": "",
+    "time_estimate": 95,
+    "passage": "An isosceles triangle is shown with the top angle measuring 50 degrees. The two equal sides are marked. The base of the triangle lies on a horizontal line, and the exterior angles at the base are both labeled x.",
+    "question_text": "If the triangle above is an isosceles triangle, what is the value of 2x?",
+    "options": [
+      "115",
+      "130",
+      "215",
+      "230"
+    ],
+    "correct_answer": 1,
+    "answer_type": "multiple_choice"
+  },
+  {
+    "_id": "78",
+    "question_number": 78,
+    "practice_set": "Test 3",
+    "category": "Unit Conversion",
+    "difficulty": "",
+    "time_estimate": 95,
+    "passage": "A cylindrical carton can hold 13.5 liters when it is completely full. Currently, the carton is 2/3 full of oil.",
+    "question_text": "How many milliliters will it take to completely fill the carton?",
+    "options": [
+      "4,500,000 mL",
+      "450,000 mL",
+      "45,000 mL",
+      "4,500 mL"
+    ],
+    "correct_answer": 3,
+    "answer_type": "multiple_choice"
+  },
+  {
+    "_id": "79",
+    "question_number": 79,
+    "practice_set": "Test 3",
+    "category": "Rates and Unit Conversion",
+    "difficulty": "",
+    "time_estimate": 95,
+    "passage": "",
+    "question_text": "1 US dollar trades for 107 Japanese Yen. To the nearest cent, how much will 3560 Yen trade for?",
+    "options": [
+      "$27.67",
+      "$31.25",
+      "$32.36",
+      "$33.27"
+    ],
+    "correct_answer": 3,
+    "answer_type": "multiple_choice"
+  },
+  {
+    "_id": "80",
+    "question_number": 80,
+    "practice_set": "Test 3",
+    "category": "Number Properties",
+    "difficulty": "",
+    "time_estimate": 95,
+    "passage": "",
+    "question_text": "If x is an odd integer, which of the following is an even integer?",
+    "options": [
+      "x - 2",
+      "x^2",
+      "x^2 - 2",
+      "x^2 - x"
+    ],
+    "correct_answer": 3,
+    "answer_type": "multiple_choice"
+  },
+  {
+    "_id": "81",
+    "question_number": 81,
+    "practice_set": "Test 3",
+    "category": "Sequences and Series",
+    "difficulty": "",
+    "time_estimate": 95,
+    "passage": "A sequence is formed by repeating the five numbers above indefinitely: -2, -1, 0, 1, 2",
+    "question_text": "What is the sum of the first 59 terms of the sequence?",
+    "options": [
+      "-1",
+      "-2",
+      "0",
+      "2"
+    ],
+    "correct_answer": 1,
+    "answer_type": "multiple_choice"
+  },
+  {
+    "_id": "82",
+    "question_number": 82,
+    "practice_set": "Test 3",
+    "category": "Arithmetic",
+    "difficulty": "",
+    "time_estimate": 95,
+    "passage": "",
+    "question_text": "What is the value of x in the expression above? |17 - 22| + |1.7 - 2.2| = 10 + x",
+    "options": [
+      "-5.5",
+      "-4.5",
+      "-2.5",
+      "-1.5"
+    ],
+    "correct_answer": 1,
+    "answer_type": "multiple_choice"
+  },
+  {
+    "_id": "83",
+    "question_number": 83,
+    "practice_set": "Test 3",
+    "category": "Percents",
+    "difficulty": "",
+    "time_estimate": 95,
+    "passage": "A substance decays in such a way that every 2 days, 50% of the substance is left.",
+    "question_text": "What percent of the original amount is left after 8 days?",
+    "options": [
+      "12.5%",
+      "10%",
+      "7.5%",
+      "6.25%"
+    ],
+    "correct_answer": 3,
+    "answer_type": "multiple_choice"
+  },
+  {
+    "_id": "84",
+    "question_number": 84,
+    "practice_set": "Test 3",
+    "category": "Coordinate Geometry",
+    "difficulty": "",
+    "time_estimate": 95,
+    "passage": "image:images/shsatpractice3mathtestq84.png",
+    "question_text": "What is the sum of the x-coordinate of the four points in the graph above?",
+    "options": [
+      "-4",
+      "-2",
+      "0",
+      "1"
+    ],
+    "correct_answer": 1,
+    "answer_type": "multiple_choice"
+  },
+  {
+    "_id": "85",
+    "question_number": 85,
+    "practice_set": "Test 3",
+    "category": "Probability",
+    "difficulty": "",
+    "time_estimate": 95,
+    "passage": "",
+    "question_text": "Sylvia rolls a six-sided dice two times. What is the probability that she will get an even number on the first roll and an odd number on the second roll?",
+    "options": [
+      "1/4",
+      "1/2",
+      "3/4",
+      "3/8"
+    ],
+    "correct_answer": 0,
+    "answer_type": "multiple_choice"
+  },
+  {
+    "_id": "86",
+    "question_number": 86,
+    "practice_set": "Test 3",
+    "category": "Rates and Proportions",
+    "difficulty": "",
+    "time_estimate": 95,
+    "passage": "A certain metal alloy weighs 5.2 grams per 4.15 cubic centimeters.",
+    "question_text": "Which calculation would accurately calculate how much 1,201.5 cubic centimeter of the metal alloy would weigh?",
+    "options": [
+      "(1201.5 / 4.15) * 5.2",
+      "1201.5 / (4.15 * 5.2)",
+      "(1201.5 / 5.2) * 4.15",
+      "4.15 / (1201.5 * 5.2)"
+    ],
+    "correct_answer": 0,
+    "answer_type": "multiple_choice"
+  },
+  {
+    "_id": "87",
+    "question_number": 87,
+    "practice_set": "Test 3",
+    "category": "Geometry",
+    "difficulty": "",
+    "time_estimate": 95,
+    "passage": "image:images/shsatpractice3mathtestq87.png",
+    "question_text": "The figure shows an isosceles triangle ABC with congruent legs AB and AC. An exterior angle at vertex A is x, and an interior angle at B is 30. An exterior angle at vertex C is y. What is the value of x + y?",
+    "options": [
+      "135",
+      "130",
+      "125",
+      "120"
+    ],
+    "correct_answer": 1,
+    "answer_type": "multiple_choice"
+  },
+  {
+    "_id": "88",
+    "question_number": 88,
+    "practice_set": "Test 3",
+    "category": "Ratios and Proportions",
+    "difficulty": "",
+    "time_estimate": 95,
+    "passage": "",
+    "question_text": "On a scale drawing, a distance of 1 foot is represented by a segment 0.20 inch in length. How long must a segment on the scale drawing be to represent a 48-inch distance?",
+    "options": [
+      "0.4 in.",
+      "0.8 in.",
+      "1.2 in.",
+      "1.8 in."
+    ],
+    "correct_answer": 1,
+    "answer_type": "multiple_choice"
+  },
+  {
+    "_id": "89",
+    "question_number": 89,
+    "practice_set": "Test 3",
+    "category": "Statistics",
+    "difficulty": "",
+    "time_estimate": 95,
+    "passage": "The set P consists of all prime numbers greater than 5 and less than 36.",
+    "question_text": "What is the median of the numbers in P?",
+    "options": [
+      "17",
+      "18",
+      "18.75",
+      "19"
+    ],
+    "correct_answer": 1,
+    "answer_type": "multiple_choice"
+  },
+  {
+    "_id": "90",
+    "question_number": 90,
+    "practice_set": "Test 3",
+    "category": "Word Problems",
+    "difficulty": "",
+    "time_estimate": 95,
+    "passage": "Jill and Jane were assigned to keep eyes on the monitor. Each was to watch for 2 hours, then rest 2 hours while the other watched.",
+    "question_text": "If Jill began her first watch at 5:30 p.m., at what time will she begin her fifth watch?",
+    "options": [
+      "9:30 p.m.",
+      "10:30 a.m.",
+      "10:30 p.m.",
+      "9:30 a.m."
+    ],
+    "correct_answer": 3,
+    "answer_type": "multiple_choice"
+  },
+  {
+    "_id": "91",
+    "question_number": 91,
+    "practice_set": "Test 3",
+    "category": "Algebra",
+    "difficulty": "",
+    "time_estimate": 95,
+    "passage": "If w, x, y, and z are consecutive multiples of 5, counting from smallest to largest,",
+    "question_text": "What is x + z in terms of w?",
+    "options": [
+      "w + 10",
+      "2w + 20",
+      "3w",
+      "4w + 10"
+    ],
+    "correct_answer": 1,
+    "answer_type": "multiple_choice"
+  },
+  {
+    "_id": "92",
+    "question_number": 92,
+    "practice_set": "Test 3",
+    "category": "Number Properties",
+    "difficulty": "",
+    "time_estimate": 95,
+    "passage": "If x, y, and z are integers such that 2^x . 3^y . 7^z = 392, then what is xyz?",
+    "question_text": "",
+    "options": [
+      "0",
+      "6",
+      "12",
+      "18"
+    ],
+    "correct_answer": 0,
+    "answer_type": "multiple_choice"
+  },
+  {
+    "_id": "93",
+    "question_number": 93,
+    "practice_set": "Test 3",
+    "category": "Geometry",
+    "difficulty": "",
+    "time_estimate": 95,
+    "passage": "On the number line above, line segment TW is 24 units long. Point V (not shown) is the midpoint of TW and point U is the midpoint of TV.",
+    "question_text": "What is the value of line segment UW?",
+    "options": [
+      "12",
+      "16",
+      "18",
+      "20"
+    ],
+    "correct_answer": 2,
+    "answer_type": "multiple_choice"
+  },
+  {
+    "_id": "94",
+    "question_number": 94,
+    "practice_set": "Test 3",
+    "category": "Percents",
+    "difficulty": "",
+    "time_estimate": 95,
+    "passage": "Nikki buys a packet of pens in a store. The regular price is $5.59 but she receives a discount of $1.05. She then is charged a 10% sales tax.",
+    "question_text": "If the 10% sales tax had been computed on the regular price before the discount, how much higher would the tax have been? (Round to the nearest cent).",
+    "options": [
+      "$0.10",
+      "$0.11",
+      "$0.12",
+      "$0.13"
+    ],
+    "correct_answer": 1,
+    "answer_type": "multiple_choice"
+  },
+  {
+    "_id": "95",
+    "question_number": 95,
+    "practice_set": "Test 3",
+    "category": "Word Problems",
+    "difficulty": "",
+    "time_estimate": 95,
+    "passage": "There are 34 boys and 20 girls in the eighth grade math team. The captain of the math team wants 50% of the math team to be girls.",
+    "question_text": "How many more eighth grade girls must join the team to satisfy the captain's wishes?",
+    "options": [
+      "14",
+      "15",
+      "16",
+      "18"
+    ],
+    "correct_answer": 0,
+    "answer_type": "multiple_choice"
+  },
+  {
+    "_id": "96",
+    "question_number": 96,
+    "practice_set": "Test 3",
+    "category": "Geometry",
+    "difficulty": "",
+    "time_estimate": 95,
+    "passage": "image:images/shsatpractice3mathtestq96.png",
+    "question_text": "In the rectangle ACDE above, B is the midpoint of AC. A triangle EBD is shown inside the rectangle. What percentage of the rectangle is the area of the non-shaded region?",
+    "options": [
+      "25%",
+      "50%",
+      "65%",
+      "75%"
+    ],
+    "correct_answer": 3,
+    "answer_type": "multiple_choice"
+  },
+  {
+    "_id": "97",
+    "question_number": 97,
+    "practice_set": "Test 3",
+    "category": "Number Properties",
+    "difficulty": "",
+    "time_estimate": 95,
+    "passage": "",
+    "question_text": "How many integers from 4 to 117 inclusive are not multiples of 5?",
+    "options": [
+      "88",
+      "90",
+      "91",
+      "92"
+    ],
+    "correct_answer": 2,
+    "answer_type": "multiple_choice"
+  },
+  {
+    "_id": "98",
+    "question_number": 98,
+    "practice_set": "Test 3",
+    "category": "Number Properties",
+    "difficulty": "",
+    "time_estimate": 95,
+    "passage": "A merry-go-round has 26 horses. Each horse is labeled consecutively with a letter from A to Z. A child walks around the merry-go-round, starting at horse A and continuing in alphabetical order, counting as she goes.",
+    "question_text": "She stops at the 325th horse. What is the letter of that horse?",
+    "options": [
+      "L",
+      "N",
+      "M",
+      "P"
+    ],
+    "correct_answer": 2,
+    "answer_type": "multiple_choice"
+  },
+  {
+    "_id": "99",
+    "question_number": 99,
+    "practice_set": "Test 3",
+    "category": "Geometry",
+    "difficulty": "",
+    "time_estimate": 95,
+    "passage": "A cylindrical can is 5 inches tall and has a radius of 2 inches.",
+    "question_text": "What is the area of a label that will completely cover the side of the can, with no overlap (not including the top and bottom)?",
+    "options": [
+      "10pi sq in.",
+      "20pi sq in.",
+      "10 sq in.",
+      "20 sq in."
+    ],
+    "correct_answer": 3,
+    "answer_type": "multiple_choice"
+  },
+  {
+    "_id": "100",
+    "question_number": 100,
+    "practice_set": "Test 3",
+    "category": "Ratios and Proportions",
+    "difficulty": "",
+    "time_estimate": 95,
+    "passage": "In a ball-room dance class, the ratio of women to men is 5:7.",
+    "question_text": "If total of 216 people are in the class, how many are women?",
+    "options": [
+      "86",
+      "90",
+      "108",
+      "112"
+    ],
+    "correct_answer": 1,
+    "answer_type": "multiple_choice"
+  },
+  {
+    "_id": "101",
+    "question_number": 101,
+    "practice_set": "Test 3",
+    "category": "Word Problems",
+    "difficulty": "",
+    "time_estimate": 95,
+    "passage": "Sheldon's car payment is $250 per month, his car insurance is $1920 per year and his monthly gas expense is $40 per month.",
+    "question_text": "What will be his expense in 18 months?",
+    "options": [
+      "$5,400",
+      "$7,200",
+      "$8,100",
+      "$8,300"
+    ],
+    "correct_answer": 2,
+    "answer_type": "multiple_choice"
+  },
+  {
+    "_id": "102",
+    "question_number": 102,
+    "practice_set": "Test 3",
+    "category": "Algebra",
+    "difficulty": "",
+    "time_estimate": 95,
+    "passage": "Lola is now x years old and Chan is now twice as old as Lola was 2 years ago.",
+    "question_text": "In terms of x, how old was Chan 4 years ago?",
+    "options": [
+      "2x + 8",
+      "2x + 2",
+      "2x - 4",
+      "2x - 8"
+    ],
+    "correct_answer": 3,
+    "answer_type": "multiple_choice"
+  },
+  {
+    "_id": "103",
+    "question_number": 103,
+    "practice_set": "Test 3",
+    "category": "Data Interpretation",
+    "difficulty": "",
+    "time_estimate": 95,
+    "passage": "DISHES ORDERED AT A RESTAURANT. The table shows the number of times that different dishes were ordered at a restaurant on a given day. Beef: 42, Chicken: 70, Pork: 63.",
+    "question_text": "What percentage of the total dish was pork?",
+    "options": [
+      "36%",
+      "40%",
+      "42%",
+      "45%"
+    ],
+    "correct_answer": 0,
+    "answer_type": "multiple_choice"
+  },
+  {
+    "_id": "104",
+    "question_number": 104,
+    "practice_set": "Test 3",
+    "category": "Data Interpretation",
+    "difficulty": "",
+    "time_estimate": 95,
+    "passage": "There are 100,000 bacteria in a petri dish. Of the 50 bacteria sampled, 12 are strain S, 14 are strain T, and the rest is strain Q.",
+    "question_text": "Which is the best estimate of the number of strain Q in the petri dish including the sampled bacteria?",
+    "options": [
+      "48,000",
+      "52,000",
+      "55,000",
+      "62,000"
+    ],
+    "correct_answer": 0,
+    "answer_type": "multiple_choice"
+  },
+  {
+    "_id": "105",
+    "question_number": 105,
+    "practice_set": "Test 3",
+    "category": "Sequences and Series",
+    "difficulty": "",
+    "time_estimate": 95,
+    "passage": "",
+    "question_text": "What is the 102nd digit of the sequence: 024680246802...?",
+    "options": [
+      "0",
+      "2",
+      "4",
+      "8"
+    ],
+    "correct_answer": 1,
+    "answer_type": "multiple_choice"
+  },
+  {
+    "_id": "106",
+    "question_number": 106,
+    "practice_set": "Test 3",
+    "category": "Ratios and Proportions",
+    "difficulty": "",
+    "time_estimate": 95,
+    "passage": "A health juice is made by mixing the following ingredients by weight: 3 parts carrot, 2 parts kale, 5 parts water and 1 part ice.",
+    "question_text": "If Ashley made 6600 grams of the juice, how much ice is needed in terms of kilograms?",
+    "options": [
+      ".6 kg",
+      "6 kg",
+      "60 kg",
+      "600 kg"
+    ],
+    "correct_answer": 0,
+    "answer_type": "multiple_choice"
+  },
+  {
+    "_id": "107",
+    "question_number": 107,
+    "practice_set": "Test 3",
+    "category": "Algebra",
+    "difficulty": "",
+    "time_estimate": 95,
+    "passage": "",
+    "question_text": "What is the value of the expression above if x = -2? 4(1/x - 2/x)",
+    "options": [
+      "-1",
+      "1",
+      "-2",
+      "2"
+    ],
+    "correct_answer": 3,
+    "answer_type": "multiple_choice"
+  },
+  {
+    "_id": "108",
+    "question_number": 108,
+    "practice_set": "Test 3",
+    "category": "Geometry",
+    "difficulty": "",
+    "time_estimate": 95,
+    "passage": "image:images/shsatpractice3mathtestq108.png",
+    "question_text": "In the figure above, an exterior angle at vertex B is 3x, an interior angle at vertex A is 2x, and an exterior angle at vertex C is 145 degrees. What is the value of 3x?",
+    "options": [
+      "95",
+      "105",
+      "125",
+      "145"
+    ],
+    "correct_answer": 1,
+    "answer_type": "multiple_choice"
+  },
+  {
+    "_id": "109",
+    "question_number": 109,
+    "practice_set": "Test 3",
+    "category": "Percents",
+    "difficulty": "",
+    "time_estimate": 95,
+    "passage": "If Petyr is 20% heavier than Henrik, and James is 10% lighter than Henrik,",
+    "question_text": "by what percentage is Petyr heavier than James?",
+    "options": [
+      "25%",
+      "30%",
+      "33 1/3%",
+      "35%"
+    ],
+    "correct_answer": 2,
+    "answer_type": "multiple_choice"
+  },
+  {
+    "_id": "110",
+    "question_number": 110,
+    "practice_set": "Test 3",
+    "category": "Fractions",
+    "difficulty": "",
+    "time_estimate": 95,
+    "passage": "",
+    "question_text": "What fraction of a day is 24 seconds?",
+    "options": [
+      "1/24",
+      "1/60",
+      "1/3600",
+      "1/360"
+    ],
+    "correct_answer": 2,
+    "answer_type": "multiple_choice"
+  },
+  {
+    "_id": "111",
+    "question_number": 111,
+    "practice_set": "Test 3",
+    "category": "Number Properties",
+    "difficulty": "",
+    "time_estimate": 95,
+    "passage": "On a number line above, if A and B are even integers and C and D are odd integers,",
+    "question_text": "which of these must be even?",
+    "options": [
+      "AB + C",
+      "BC + D",
+      "CD - A",
+      "DA + B"
+    ],
+    "correct_answer": 3,
+    "answer_type": "multiple_choice"
+  },
+  {
+    "_id": "112",
+    "question_number": 112,
+    "practice_set": "Test 3",
+    "category": "Algebra",
+    "difficulty": "",
+    "time_estimate": 95,
+    "passage": "",
+    "question_text": "If 5x - 3y = 25, what is x in terms of y?",
+    "options": [
+      "x = (3/5)y + 5",
+      "x = (-3/5)y + 5",
+      "x = (-3/5)y + 25",
+      "x = (3/5)y + 25"
+    ],
+    "correct_answer": 0,
+    "answer_type": "multiple_choice"
+  },
+  {
+    "_id": "113",
+    "question_number": 113,
+    "practice_set": "Test 3",
+    "category": "Probability",
+    "difficulty": "",
+    "time_estimate": 95,
+    "passage": "image:images/shsatpractice3mathtestq113.png",
+    "question_text": "On the number line above, each mark is spaced evenly apart.What is the probability of choosing a value that is negative in the interval XY?",
+    "options": [
+      ".2",
+      ".25",
+      ".3",
+      "cannot be determined"
+    ],
+    "correct_answer": 2,
+    "answer_type": "multiple_choice"
+  },
+  {
+    "_id": "114",
+    "question_number": 114,
+    "practice_set": "Test 3",
+    "category": "Rates and Unit Conversion",
+    "difficulty": "",
+    "time_estimate": 95,
+    "passage": "Raul's car has tires that have circumference of 72 inches. Note 1 mile = 5280 feet.",
+    "question_text": "How many revolutions will his tires make if Raul drives to a store that is a quarter mile away?",
+    "options": [
+      "200",
+      "212",
+      "220",
+      "225"
+    ],
+    "correct_answer": 2,
+    "answer_type": "multiple_choice"
+  }
+]

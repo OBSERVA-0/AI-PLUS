@@ -659,17 +659,12 @@ function handleTestTypeChange() {
     }
     
     if (testType === 'shsat') {
-        // Add SHSAT practice sets - only include section options for tests that are actually implemented
+        // Add SHSAT practice sets - clean practice set list without section info
         practiceSetSelect.innerHTML += `
             <option value="diagnostic">Diagnostic Test</option>
-            <option value="1">Practice Test 1 (Full)</option>
-            <option value="1_ela">Practice Test 1 (ELA Only)</option>
-            <option value="1_math">Practice Test 1 (Math Only)</option>
-            <option value="2">Practice Test 2 (Full)</option>
-            <option value="2_ela">Practice Test 2 (ELA Only)</option>
-            <option value="2_math">Practice Test 2 (Math Only)</option>
-            <option value="3">Practice Test 3 (Full)</option>
-            <option value="3_ela">Practice Test 3 (ELA Only)</option>
+            <option value="1">Practice Test 1</option>
+            <option value="2">Practice Test 2</option>
+            <option value="3">Practice Test 3</option>
             <option value="4">Practice Test 4</option>
             <option value="5">Practice Test 5</option>
             <option value="6">Practice Test 6</option>
@@ -703,6 +698,14 @@ function handlePracticeSetChange() {
     loadButton.disabled = !(testType && practiceSet);
 }
 
+// Handle section type change
+function handleSectionTypeChange() {
+    // Auto-reload if test is already selected
+    if (state.selectedTestType && state.selectedPracticeSet) {
+        loadStudents(1);
+    }
+}
+
 // Handle score range change
 function handleScoreRangeChange() {
     const scoreRangeValue = elements.scoreRangeSelect.value;
@@ -724,30 +727,19 @@ function handleScoreRangeChange() {
 // Handle load test scores button
 function handleLoadTestScores() {
     const testType = elements.testTypeSelect.value;
-    const practiceSetValue = elements.practiceSetSelect.value;
+    const practiceSet = elements.practiceSetSelect.value;
+    const sectionTypeSelect = document.getElementById('section-type-select');
     
-    if (testType && practiceSetValue) {
-        // Parse practice set value to extract actual practice set and section type
-        let actualPracticeSet, sectionType;
+    if (testType && practiceSet) {
+        let sectionType = null;
         
-        if (testType === 'shsat') {
-            if (practiceSetValue.includes('_ela')) {
-                actualPracticeSet = practiceSetValue.replace('_ela', '');
-                sectionType = 'ela';
-            } else if (practiceSetValue.includes('_math')) {
-                actualPracticeSet = practiceSetValue.replace('_math', '');
-                sectionType = 'math';
-            } else {
-                actualPracticeSet = practiceSetValue;
-                sectionType = 'full';
-            }
-        } else {
-            actualPracticeSet = practiceSetValue;
-            sectionType = null;
+        // Get section type for SHSAT tests
+        if (testType === 'shsat' && sectionTypeSelect && sectionTypeSelect.value) {
+            sectionType = sectionTypeSelect.value;
         }
         
         state.selectedTestType = testType;
-        state.selectedPracticeSet = actualPracticeSet;
+        state.selectedPracticeSet = practiceSet;
         state.selectedSectionType = sectionType;
         loadStudents(1);
     }
@@ -756,30 +748,20 @@ function handleLoadTestScores() {
 // Handle export Excel button
 async function handleExportExcel() {
     const testType = elements.testTypeSelect.value;
-    const practiceSetValue = elements.practiceSetSelect.value;
+    const practiceSet = elements.practiceSetSelect.value;
     const scoreRange = state.selectedScoreRange;
+    const sectionTypeSelect = document.getElementById('section-type-select');
     
-    if (!testType || !practiceSetValue) {
+    if (!testType || !practiceSet) {
         alert('Please select a test type and practice set first.');
         return;
     }
     
-    // Parse practice set value to extract actual practice set and section type
-    let actualPracticeSet, sectionType;
-    if (testType === 'shsat') {
-        if (practiceSetValue.includes('_ela')) {
-            actualPracticeSet = practiceSetValue.replace('_ela', '');
-            sectionType = 'ela';
-        } else if (practiceSetValue.includes('_math')) {
-            actualPracticeSet = practiceSetValue.replace('_math', '');
-            sectionType = 'math';
-        } else {
-            actualPracticeSet = practiceSetValue;
-            sectionType = 'full';
-        }
-    } else {
-        actualPracticeSet = practiceSetValue;
-        sectionType = null;
+    let sectionType = null;
+    
+    // Get section type for SHSAT tests
+    if (testType === 'shsat' && sectionTypeSelect && sectionTypeSelect.value) {
+        sectionType = sectionTypeSelect.value;
     }
     
     try {
@@ -791,7 +773,7 @@ async function handleExportExcel() {
         // Build URL with parameters
         const params = new URLSearchParams({
             testType,
-            practiceSet: actualPracticeSet
+            practiceSet: practiceSet
         });
         
         if (sectionType) {
@@ -824,7 +806,7 @@ async function handleExportExcel() {
         const a = document.createElement('a');
         a.href = url;
         const sectionSuffix = sectionType && sectionType !== 'full' ? `_${sectionType}` : '';
-        a.download = `${testType}_practice_${actualPracticeSet}${sectionSuffix}_scores.xlsx`;
+        a.download = `${testType}_practice_${practiceSet}${sectionSuffix}_scores.xlsx`;
         document.body.appendChild(a);
         a.click();
         window.URL.revokeObjectURL(url);
@@ -1064,6 +1046,10 @@ async function init() {
     }
     if (elements.scoreRangeSelect) {
         elements.scoreRangeSelect.addEventListener('change', handleScoreRangeChange);
+    }
+    const sectionTypeSelect = document.getElementById('section-type-select');
+    if (sectionTypeSelect) {
+        sectionTypeSelect.addEventListener('change', handleSectionTypeChange);
     }
     const loadTestScoresBtn = document.getElementById('load-test-scores');
     if (loadTestScoresBtn) {

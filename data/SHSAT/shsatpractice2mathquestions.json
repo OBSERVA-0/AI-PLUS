@@ -881,8 +881,8 @@
     "category": "Geometry",
     "difficulty": "",
     "time_estimate": 95,
-    "passage": "The figure shown is a rectangle of 6 in by 2 in with a semicircle attached to each of the 2-inch sides.",
-    "question_text": "What is the area of the figure shown above?",
+    "passage": "image:images/shsatpractice2mathtestq108.png",
+    "question_text": "The figure shown is a rectangle of 6 in by 2 in with a semicircle attached to each of the 2-inch sides.What is the area of the figure shown above?",
     "options": [
       "12 + pi",
       "6 + 2pi",
@@ -971,8 +971,8 @@
     "category": "Geometry",
     "difficulty": "",
     "time_estimate": 95,
-    "passage": "On a number line above, the length of segment JL is 14 and KM is 17. If segment JM is twice that of JL,",
-    "question_text": "what is the length of line segment KL?",
+    "passage": "image:images/shsatpractice2mathtestq113.png",
+    "question_text": "On a number line above, the length of segment JL is 14 and KM is 17. If segment JM is twice that of JL,what is the length of line segment KL?",
     "options": [
       "3",
       "4",
