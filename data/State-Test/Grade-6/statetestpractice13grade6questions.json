@@ -1,0 +1,471 @@
+[
+    {
+        "_id": "1",
+        "question_number": 1,
+        "practice_set": 46,
+        "category": "ELA: Main Idea",
+        "difficulty": "easy",
+        "time_estimate": 45,
+        "passage": "pdfData:pdf/2019 Grade 6 English Language.pdf",
+        "question_text": "Which important idea is developed in paragraph 6?",
+        "options": [
+            "Uncle Nigel has been at the museum a long time.",
+            "Uncle Nigel is afraid he may lose his job.",
+            "Uncle Nigel has a plan to attract visitors to the museum.",
+            "Uncle Nigel is hoping to start a new job soon."
+        ],
+        "correct_answer": 1,
+        "answer_type": "multiple_choice"
+    },
+    {
+        "_id": "2",
+        "question_number": 2,
+        "practice_set": 46,
+        "category": "ELA: Vocabulary",
+        "difficulty": "easy",
+        "time_estimate": 45,
+        "passage": "pdfData:pdf/2019 Grade 6 English Language.pdf",
+        "question_text": "What does the phrase 'on a short fuse' mean as used in paragraph 8?",
+        "options": [
+            "hard to please",
+            "hard to find",
+            "easy to upset",
+            "easy to frighten"
+        ],
+        "correct_answer": 2,
+        "answer_type": "multiple_choice"
+    },
+    {
+        "_id": "3",
+        "question_number": 3,
+        "practice_set": 46,
+        "category": "ELA: Plot Development",
+        "difficulty": "medium",
+        "time_estimate": 60,
+        "passage": "pdfData:pdf/2019 Grade 6 English Language.pdf",
+        "question_text": "How does paragraph 9 contribute to the structure of the story?",
+        "options": [
+            "It changes the setting of the story.",
+            "It establishes the conflict in the story.",
+            "It states the theme of the story.",
+            "It foreshadows events in the story."
+        ],
+        "correct_answer": 3,
+        "answer_type": "multiple_choice"
+    },
+    {
+        "_id": "4",
+        "question_number": 4,
+        "practice_set": 46,
+        "category": "ELA: Literary Analysis",
+        "difficulty": "easy",
+        "time_estimate": 60,
+        "passage": "pdfData:pdf/2019 Grade 6 English Language.pdf",
+        "question_text": "How does the language in paragraph 12 contribute to the overall tone of the story?",
+        "options": [
+            "It introduces a threatening tone.",
+            "It highlights the sorrowful tone.",
+            "It stresses the mysterious tone.",
+            "It creates a worried tone."
+        ],
+        "correct_answer": 2,
+        "answer_type": "multiple_choice"
+    },
+    {
+        "_id": "5",
+        "question_number": 5,
+        "practice_set": 46,
+        "category": "ELA: Character Analysis",
+        "difficulty": "easy",
+        "time_estimate": 45,
+        "passage": "pdfData:pdf/2019 Grade 6 English Language.pdf",
+        "question_text": "What do paragraphs 10 and 13 indicate about Addison?",
+        "options": [
+            "He is uncertain whether his uncle's story is true.",
+            "He is curious to see what his uncle has found.",
+            "He knows that his uncle's discovery will save the museum.",
+            "He wishes he had gone with his uncle on the dig."
+        ],
+        "correct_answer": 1,
+        "answer_type": "multiple_choice"
+    },
+    {
+        "_id": "6",
+        "question_number": 6,
+        "practice_set": 46,
+        "category": "ELA: Plot Development",
+        "difficulty": "medium",
+        "time_estimate": 60,
+        "passage": "pdfData:pdf/2019 Grade 6 English Language.pdf",
+        "question_text": "Which sentence from the story signals a turning point?",
+        "options": [
+            "\"Addison and Molly weren't sure how to respond.\" (paragraph 7)",
+            "\"I just returned from a dig in the jungles of Bolivia and found the most improbable relic.\" (paragraph 9)",
+            "\"Instead, they locked it away in a secret chamber and hid three keys across the Incan Empire.\" (paragraph 12)",
+            "\"The wind howled so fiercely it could be heard even in the basement.\" (paragraph 17)"
+        ],
+        "correct_answer": 1,
+        "answer_type": "multiple_choice"
+    },
+    {
+        "_id": "7",
+        "question_number": 7,
+        "practice_set": 46,
+        "category": "ELA: Main Idea",
+        "difficulty": "easy",
+        "time_estimate": 45,
+        "passage": "pdfData:pdf/2019 Grade 6 English Language.pdf",
+        "question_text": "Which quotation is most important to include in a summary of the story?",
+        "options": [
+            "\"... Addison and Molly knew the wooded grounds by heart.\" (paragraph 2)",
+            "\"'Uncle Nigel, we're here!' Molly called.\" (paragraph 5)",
+            "\"As Uncle Nigel talked, Addison's eyes darted to the shadowy corners of the office...\" (paragraph 11)",
+            "\"'I'm pretty sure it is Atahualpa's first key.'\" (paragraph 19)"
+        ],
+        "correct_answer": 3,
+        "answer_type": "multiple_choice"
+    },
+    {
+        "_id": "8",
+        "question_number": 8,
+        "practice_set": 46,
+        "category": "ELA: Reading Comprehension",
+        "difficulty": "easy",
+        "time_estimate": 45,
+        "passage": "pdfData:pdf/2019 Grade 6 English Language.pdf",
+        "question_text": "In paragraph 4, what does the phrase 'woman with the most statues in her honor' show about Sacagawea?",
+        "options": [
+            "that she was a charming person",
+            "that she had been fearless",
+            "that she is a famous person",
+            "that she died long ago"
+        ],
+        "correct_answer": 2,
+        "answer_type": "multiple_choice"
+    },
+    {
+        "_id": "9",
+        "question_number": 9,
+        "practice_set": 46,
+        "category": "ELA: Author's Craft",
+        "difficulty": "easy",
+        "time_estimate": 60,
+        "passage": "pdfData:pdf/2019 Grade 6 English Language.pdf",
+        "question_text": "How is the author's pride in her ability to read introduced in the article?",
+        "options": [
+            "through a story from her childhood",
+            "by contrasting her family with other families",
+            "through examples of the books she finished",
+            "by comparing herself with other readers"
+        ],
+        "correct_answer": 0,
+        "answer_type": "multiple_choice"
+    },
+    {
+        "_id": "10",
+        "question_number": 10,
+        "practice_set": 46,
+        "category": "ELA: Reading Comprehension",
+        "difficulty": "medium",
+        "time_estimate": 60,
+        "passage": "pdfData:pdf/2019 Grade 6 English Language.pdf",
+        "question_text": "How do the details about Sacagawea in paragraphs 5 and 6 contribute to the development of the article?",
+        "options": [
+            "by helping readers see the difficulties in Sacagawea's life",
+            "by explaining the mystery surrounding Sacagawea's life",
+            "by creating curiosity for readers about where Sacagawea traveled",
+            "by describing how Sacagawea played an important role in history"
+        ],
+        "correct_answer": 3,
+        "answer_type": "multiple_choice"
+    },
+    {
+        "_id": "11",
+        "question_number": 11,
+        "practice_set": 46,
+        "category": "ELA: Vocabulary",
+        "difficulty": "easy",
+        "time_estimate": 45,
+        "passage": "pdfData:pdf/2019 Grade 6 English Language.pdf",
+        "question_text": "Which is the best definition of 'crucial' as it is used in paragraph 6?",
+        "options": [
+            "heroic",
+            "fantastic",
+            "important",
+            "urgent"
+        ],
+        "correct_answer": 2,
+        "answer_type": "multiple_choice"
+    },
+    {
+        "_id": "12",
+        "question_number": 12,
+        "practice_set": 46,
+        "category": "ELA: Author's Craft",
+        "difficulty": "medium",
+        "time_estimate": 60,
+        "passage": "pdfData:pdf/2019 Grade 6 English Language.pdf",
+        "question_text": "Based on the article, the author's relationship to Sacagawea is developed through",
+        "options": [
+            "a comparison of the author's life to that of Sacagawea",
+            "explanations that show how the author is similar to Sacagawea",
+            "examples of the research that the author did on the life of Sacagawea",
+            "a chronological sequence of events that explained Sacagawea's life to the author"
+        ],
+        "correct_answer": 2,
+        "answer_type": "multiple_choice"
+    },
+    {
+        "_id": "13",
+        "question_number": 13,
+        "practice_set": 46,
+        "category": "ELA: Reading Comprehension",
+        "difficulty": "easy",
+        "time_estimate": 60,
+        "passage": "pdfData:pdf/2019 Grade 6 English Language.pdf",
+        "question_text": "Read this sentence from paragraph 13.\n'We're cousins of the Shoshone woman with the baby on her back who explored America by canoe, horseback, and on foot to map it for the first time.'\nWhat does this sentence suggest about Sacagawea?",
+        "options": [
+            "how long she participated in the expedition",
+            "how remarkable her accomplishment was",
+            "how familiar she was with the areas being explored",
+            "how she felt about her leadership abilities"
+        ],
+        "correct_answer": 1,
+        "answer_type": "multiple_choice"
+    },
+    {
+        "_id": "14",
+        "question_number": 14,
+        "practice_set": 46,
+        "category": "ELA: Central Idea",
+        "difficulty": "medium",
+        "time_estimate": 75,
+        "passage": "pdfData:pdf/2019 Grade 6 English Language.pdf",
+        "question_text": "Which sentence best expresses a central idea of the article?",
+        "options": [
+            "\"Our family owned only an encyclopedia and a well-used dictionary.\" (paragraph 2)",
+            "\"The presence of a mother and child was a sign that the expedition was a peaceful one and helped keep it safe from Indian attack.\" (paragraph 5)",
+            "\"My father said he didn't know, but he'd wondered himself if we had a common ancestor.\" (paragraph 9)",
+            "\"We explored tiny libraries on American Indian reservations.\" (paragraph 10)"
+        ],
+        "correct_answer": 2,
+        "answer_type": "multiple_choice"
+    },
+    {
+        "_id": "29",
+        "question_number": 29,
+        "practice_set": 46,
+        "category": "ELA: Author's Purpose",
+        "difficulty": "easy",
+        "time_estimate": 45,
+        "passage": "pdfData:pdf/2019 Grade 6 English Language.pdf",
+        "question_text": "What do paragraphs 5 through 7 show about the author's purpose for writing the article?",
+        "options": [
+            "The author wants to convince readers that school was the only way to advance in Ancient Egypt.",
+            "The author wants to describe to readers what school was like for students in Ancient Egypt.",
+            "The author wants to explain to readers why students had to write on limestone in Ancient Egypt.",
+            "The author wants to entertain readers with interesting stories about life in Ancient Egypt."
+        ],
+        "correct_answer": 1,
+        "answer_type": "multiple_choice"
+    },
+    {
+        "_id": "30",
+        "question_number": 30,
+        "practice_set": 46,
+        "category": "ELA: Author's Craft",
+        "difficulty": "easy",
+        "time_estimate": 45,
+        "passage": "pdfData:pdf/2019 Grade 6 English Language.pdf",
+        "question_text": "How does the author develop ideas in paragraph 6?",
+        "options": [
+            "by explaining why Ancient Egyptian brushes had to be made out of reed plants",
+            "by describing the process of making Ancient Egyptian ink from beginning to end",
+            "by presenting the problem that Ancient Egyptian ink came only in red and black and offering a solution",
+            "by comparing and contrasting Ancient Egyptian writing tools to art tools that are familiar to modern readers"
+        ],
+        "correct_answer": 3,
+        "answer_type": "multiple_choice"
+    },
+    {
+        "_id": "31",
+        "question_number": 31,
+        "practice_set": 46,
+        "category": "ELA: Reading Comprehension",
+        "difficulty": "easy",
+        "time_estimate": 45,
+        "passage": "pdfData:pdf/2019 Grade 6 English Language.pdf",
+        "question_text": "What does the information in paragraph 8 illustrate about becoming a scribe?",
+        "options": [
+            "It can lead to a successful future.",
+            "It gives the opportunity to write on papyrus paper.",
+            "It requires memorization of hundreds of signs.",
+            "It means leaving home at a young age to attend school."
+        ],
+        "correct_answer": 0,
+        "answer_type": "multiple_choice"
+    },
+    {
+        "_id": "32",
+        "question_number": 32,
+        "practice_set": 46,
+        "category": "ELA: Central Idea",
+        "difficulty": "easy",
+        "time_estimate": 60,
+        "passage": "pdfData:pdf/2019 Grade 6 English Language.pdf",
+        "question_text": "Which quotation best expresses a central idea of the article?",
+        "options": [
+            "\"Scribes were very important people in Ancient Egypt because they were almost the only ones who could read and write.\" (paragraph 2)",
+            "\"Although records tell us that there were a few female scribes, most were men.\" (paragraph 2)",
+            "\"Scribal students used writing tools somewhat like the parts of a water color set you might have.\" (paragraph 6)",
+            "\"They wrote letters home and sent bills for work they'd done.\" (paragraph 9)"
+        ],
+        "correct_answer": 0,
+        "answer_type": "multiple_choice"
+    },
+    {
+        "_id": "33",
+        "question_number": 33,
+        "practice_set": 46,
+        "category": "ELA: Text Features",
+        "difficulty": "medium",
+        "time_estimate": 45,
+        "passage": "pdfData:pdf/2019 Grade 6 English Language.pdf",
+        "question_text": "Which quotation from the article is best supported by the photograph?",
+        "options": [
+            "\"This was a kind of shorthand script used for everyday writing.\" (paragraph 4)",
+            "\"Students memorized the hieroglyphic signs and practiced writing them on pieces of stone, pottery, or wood.\" (paragraph 5)",
+            "\"They wrote poetry and stories and put down words of wisdom and advice for their children.\" (paragraph 9)",
+            "\"Parents were happy to pay the high price to send a child to scribal school.\" (paragraph 10)"
+        ],
+        "correct_answer": 1,
+        "answer_type": "multiple_choice"
+    },
+    {
+        "_id": "34",
+        "question_number": 34,
+        "practice_set": 46,
+        "category": "ELA: Vocabulary",
+        "difficulty": "easy",
+        "time_estimate": 45,
+        "passage": "pdfData:pdf/2019 Grade 6 English Language.pdf",
+        "question_text": "In the father's letter, the phrase 'Mingling with the crocodiles' suggests",
+        "options": [
+            "the low pay of some types of work",
+            "the foolishness of avoiding work",
+            "the presence of danger in other jobs",
+            "the need to try hard in any job"
+        ],
+        "correct_answer": 2,
+        "answer_type": "multiple_choice"
+    },
+    {
+        "_id": "35",
+        "question_number": 35,
+        "practice_set": 46,
+        "category": "ELA: Main Idea",
+        "difficulty": "easy",
+        "time_estimate": 45,
+        "passage": "pdfData:pdf/2019 Grade 6 English Language.pdf",
+        "question_text": "Which sentence would be most important to include in a summary of the article?",
+        "options": [
+            "Egyptians used hieratic for everyday writing.",
+            "Students made ink from red and black disks.",
+            "Scribes wrote important things on papyrus.",
+            "Children studied for years to become scribes."
+        ],
+        "correct_answer": 3,
+        "answer_type": "multiple_choice"
+    },
+    {
+        "_id": "36",
+        "question_number": 36,
+        "practice_set": 46,
+        "category": "ELA: Author's Craft",
+        "difficulty": "medium",
+        "time_estimate": 180,
+        "passage": "pdfData:pdf/2019 Grade 6 English Language.pdf",
+        "question_text": "How does the phrase 'stand out from the rest of the cat crowd' in paragraph 4 contribute to the meaning of the article? Use two details from the article to support your response.",
+        "options": [],
+        "correct_answer": null,
+        "answer_type": "short_response"
+    },
+    {
+        "_id": "37",
+        "question_number": 37,
+        "practice_set": 46,
+        "category": "ELA: Central Idea",
+        "difficulty": "medium",
+        "time_estimate": 180,
+        "passage": "pdfData:pdf/2019 Grade 6 English Language.pdf",
+        "question_text": "What is a central idea of paragraphs 5 through 8 of 'Top Spot'? Use two details from the article to support your response.",
+        "options": [],
+        "correct_answer": null,
+        "answer_type": "short_response"
+    },
+    {
+        "_id": "38",
+        "question_number": 38,
+        "practice_set": 46,
+        "category": "ELA: Text Structure",
+        "difficulty": "medium",
+        "time_estimate": 180,
+        "passage": "pdfData:pdf/2019 Grade 6 English Language.pdf",
+        "question_text": "How does paragraph 3 connect to paragraph 14 in the article 'Top Spot'? Use two details from the article to support your response.",
+        "options": [],
+        "correct_answer": null,
+        "answer_type": "short_response"
+    },
+    {
+        "_id": "39",
+        "question_number": 39,
+        "practice_set": 46,
+        "category": "ELA: Reading Comprehension",
+        "difficulty": "medium",
+        "time_estimate": 180,
+        "passage": "pdfData:pdf/2019 Grade 6 English Language.pdf",
+        "question_text": "Why does the narrator say her 'heart hammers' in paragraph 11 of 'Excerpt from Under the Persimmon Tree'? Use two details from the story to support your response.",
+        "options": [],
+        "correct_answer": null,
+        "answer_type": "short_response"
+    },
+    {
+        "_id": "40",
+        "question_number": 40,
+        "practice_set": 46,
+        "category": "ELA: Point of View",
+        "difficulty": "medium",
+        "time_estimate": 180,
+        "passage": "pdfData:pdf/2019 Grade 6 English Language.pdf",
+        "question_text": "In 'Excerpt from Minuk: Ashes in the Pathway,' what is the narrator's point of view about the life of an adult in her culture? Use two details from the story to support your response.",
+        "options": [],
+        "correct_answer": null,
+        "answer_type": "short_response"
+    },
+    {
+        "_id": "41",
+        "question_number": 41,
+        "practice_set": 46,
+        "category": "ELA: Literary Analysis",
+        "difficulty": "medium",
+        "time_estimate": 180,
+        "passage": "pdfData:pdf/2019 Grade 6 English Language.pdf",
+        "question_text": "How does paragraph 14 of 'Excerpt from Minuk: Ashes in the Pathway' contribute to the story? Use two details from the story to support your response.",
+        "options": [],
+        "correct_answer": null,
+        "answer_type": "short_response"
+    },
+    {
+        "_id": "42",
+        "question_number": 42,
+        "practice_set": 46,
+        "category": "ELA: Paired Text Analysis",
+        "difficulty": "hard",
+        "time_estimate": 300,
+        "passage": "pdfData:pdf/2019 Grade 6 English Language.pdf",
+        "question_text": "Adult characters in 'Excerpt from Under the Persimmon Tree' and 'Excerpt from Minuk: Ashes in the Pathway' are an important part of these stories. How do these adult characters contribute to the plot of each story? What are the differences in the ways the adult characters contribute to the plots? Use details from both stories to support your response.",
+        "options": [],
+        "correct_answer": null,
+        "answer_type": "short_response"
+    }
+]

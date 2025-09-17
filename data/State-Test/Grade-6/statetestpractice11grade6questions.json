@@ -1,0 +1,623 @@
+[
+    {
+        "_id": "8",
+        "question_number": 8,
+        "practice_set": 44,
+        "category": "ELA: Literary Analysis",
+        "difficulty": "easy",
+        "time_estimate": 60,
+        "passage": "pdfData:pdf/Grade 6 ELA Released Questions-2017.pdf",
+        "question_text": "In line 3, what does the simile 'like clouds across the sky' help the reader understand about the horses in Euphemia's sketches?",
+        "options": [
+            "They are drawn sloppily.",
+            "They look like they are in motion.",
+            "They are getting tangled up with each other.",
+            "They look like they are trotting through fog."
+        ],
+        "correct_answer": 1,
+        "answer_type": "multiple_choice"
+    },
+    {
+        "_id": "9",
+        "question_number": 9,
+        "practice_set": 44,
+        "category": "ELA: Literary Analysis",
+        "difficulty": "medium",
+        "time_estimate": 60,
+        "passage": "pdfData:pdf/Grade 6 ELA Released Questions-2017.pdf",
+        "question_text": "How do lines 14 through 16 contribute to the development of the plot?",
+        "options": [
+            "They establish Marisa's problem.",
+            "They emphasize Marisa's hopefulness.",
+            "They contrast Marisa's artistic abilities with Euphemia's.",
+            "They illustrate Marisa's determination to not let Luke bother her."
+        ],
+        "correct_answer": 1,
+        "answer_type": "multiple_choice"
+    },
+    {
+        "_id": "10",
+        "question_number": 10,
+        "practice_set": 44,
+        "category": "ELA: Literary Analysis",
+        "difficulty": "easy",
+        "time_estimate": 45,
+        "passage": "pdfData:pdf/Grade 6 ELA Released Questions-2017.pdf",
+        "question_text": "Which phrase best conveys the tone in lines 1 through 30?",
+        "options": [
+            "'They're always running wild and free...' (lines 2 and 3)",
+            "'He also calls me Messy.' (lines 8 and 9)",
+            "'Next I roughed in most of the body...' (lines 17 and 18)",
+            "'I scratched a big X through my earless, macaroni-legged horse,...' (line 26)"
+        ],
+        "correct_answer": 3,
+        "answer_type": "multiple_choice"
+    },
+    {
+        "_id": "11",
+        "question_number": 11,
+        "practice_set": 44,
+        "category": "ELA: Vocabulary",
+        "difficulty": "easy",
+        "time_estimate": 45,
+        "passage": "pdfData:pdf/Grade 6 ELA Released Questions-2017.pdf",
+        "question_text": "Read this sentence from line 32.\n'I brooded about it all through dinner.'\nWhat effect does the word 'brooded' have in the story?",
+        "options": [
+            "It shows Marisa's anxiety about her abilities.",
+            "It reveals Marisa's motives for drawing.",
+            "It emphasizes how Marisa is growing as a character.",
+            "It indicates Marisa has a major decision to make."
+        ],
+        "correct_answer": 0,
+        "answer_type": "multiple_choice"
+    },
+    {
+        "_id": "12",
+        "question_number": 12,
+        "practice_set": 44,
+        "category": "ELA: Theme",
+        "difficulty": "medium",
+        "time_estimate": 60,
+        "passage": "pdfData:pdf/Grade 6 ELA Released Questions-2017.pdf",
+        "question_text": "How do lines 36 through 38 help convey the theme of the story?",
+        "options": [
+            "They show that some situations take time to change.",
+            "They prove that practice can help natural talents to develop.",
+            "They suggest that inspiration may come in unexpected ways.",
+            "They demonstrate that new ideas will eventually be accepted."
+        ],
+        "correct_answer": 2,
+        "answer_type": "multiple_choice"
+    },
+    {
+        "_id": "13",
+        "question_number": 13,
+        "practice_set": 44,
+        "category": "ELA: Reading Comprehension",
+        "difficulty": "easy",
+        "time_estimate": 60,
+        "passage": "pdfData:pdf/Grade 6 ELA Released Questions-2017.pdf",
+        "question_text": "Which sentence best explains why Marisa's final horse drawing was different than her first tries?",
+        "options": [
+            "'Everything looked special in that light, even the scraggly horses next door.' (lines 37 and 38)",
+            "'I noticed the curves of their muscles, the shadows on their faces, the shine along their backs.' (lines 42 through 44)",
+            "'An idea began to take shape in my mind, and just then the cinnamon horse turned its head toward me and nodded three times.' (lines 49 and 50)",
+            "'I choose a deep brown, pulling it across my paper in the shape of the chocolate horse.' (line 52)"
+        ],
+        "correct_answer": 1,
+        "answer_type": "multiple_choice"
+    },
+    {
+        "_id": "14",
+        "question_number": 14,
+        "practice_set": 44,
+        "category": "ELA: Character Development",
+        "difficulty": "easy",
+        "time_estimate": 45,
+        "passage": "pdfData:pdf/Grade 6 ELA Released Questions-2017.pdf",
+        "question_text": "How does Marisa change while watching her neighbors' horses?",
+        "options": [
+            "She realizes that Euphemia's horses do not look realistic, so she decides to try to draw better pictures than her friend.",
+            "She decides to try a different way of drawing and is proud of her work.",
+            "She realizes she can never be an artist like Euphemia but wants to draw like her anyway.",
+            "She finally learns that drawing horses is easier with proper lighting and art supplies."
+        ],
+        "correct_answer": 1,
+        "answer_type": "multiple_choice"
+    },
+    {
+        "_id": "15",
+        "question_number": 15,
+        "practice_set": 44,
+        "category": "ELA: Reading Comprehension",
+        "difficulty": "medium",
+        "time_estimate": 60,
+        "passage": "pdfData:pdf/Grade 6 ELA Released Questions-2017.pdf",
+        "question_text": "Read line 15 of the story.\n'\"You call this one only fair?\" he asked. \"It is a gem for the king.\"' \nWhat does this line suggest about the father?",
+        "options": [
+            "He has not looked at the pearl as closely as Ramón has.",
+            "He does not think that Ramón is correct about the pearl.",
+            "He is testing Ramón's confidence in judging the pearl's value.",
+            "He is teaching Ramón about the pearl's quality."
+        ],
+        "correct_answer": 2,
+        "answer_type": "multiple_choice"
+    },
+    {
+        "_id": "16",
+        "question_number": 16,
+        "practice_set": 44,
+        "category": "ELA: Textual Evidence",
+        "difficulty": "easy",
+        "time_estimate": 45,
+        "passage": "pdfData:pdf/Grade 6 ELA Released Questions-2017.pdf",
+        "question_text": "Which detail from the story best supports the idea that Ramón is becoming an expert at judging pearls?",
+        "options": [
+            "\"'For this one,' he said, 'what is your notation?\"' (lines 11 and 12)",
+            "\"'For a poor king,' I said.\" (line 16)",
+            "\"'With a little care the flaw can be peeled away,' he said.\" (lines 19 and 20)",
+            "\"'I would like to go today.'\" (line 29)"
+        ],
+        "correct_answer": 1,
+        "answer_type": "multiple_choice"
+    },
+    {
+        "_id": "17",
+        "question_number": 17,
+        "practice_set": 44,
+        "category": "ELA: Reading Comprehension",
+        "difficulty": "easy",
+        "time_estimate": 45,
+        "passage": "pdfData:pdf/Grade 6 ELA Released Questions-2017.pdf",
+        "question_text": "Why is the father reluctant to bring Ramón on a pearl-diving trip?",
+        "options": [
+            "He is concerned for Ramón's safety.",
+            "He needs Ramón to evaluate more pearls.",
+            "He thinks Ramón is still too young to sail.",
+            "He is unsure Ramón is ready to dive."
+        ],
+        "correct_answer": 0,
+        "answer_type": "multiple_choice"
+    },
+    {
+        "_id": "18",
+        "question_number": 18,
+        "practice_set": 44,
+        "category": "ELA: Character Analysis",
+        "difficulty": "medium",
+        "time_estimate": 60,
+        "passage": "pdfData:pdf/Grade 6 ELA Released Questions-2017.pdf",
+        "question_text": "In line 55, why does Ramón suggest that he will 'stay on deck while the others dive'?",
+        "options": [
+            "His father needs him to help with other jobs on the boat.",
+            "He realizes that his father will never actually let him go.",
+            "His father has convinced him that it is too dangerous.",
+            "He is trying to gradually change his father's mind."
+        ],
+        "correct_answer": 3,
+        "answer_type": "multiple_choice"
+    },
+    {
+        "_id": "19",
+        "question_number": 19,
+        "practice_set": 44,
+        "category": "ELA: Literary Analysis",
+        "difficulty": "easy",
+        "time_estimate": 45,
+        "passage": "pdfData:pdf/Grade 6 ELA Released Questions-2017.pdf",
+        "question_text": "How does line 57 best contribute to the development of the story?",
+        "options": [
+            "by signaling a turning point",
+            "by providing a solution to the problem",
+            "by comparing the characters' actions",
+            "by introducing a new conflict"
+        ],
+        "correct_answer": 0,
+        "answer_type": "multiple_choice"
+    },
+    {
+        "_id": "20",
+        "question_number": 20,
+        "practice_set": 44,
+        "category": "ELA: Character Development",
+        "difficulty": "medium",
+        "time_estimate": 60,
+        "passage": "pdfData:pdf/Grade 6 ELA Released Questions-2017.pdf",
+        "question_text": "How does the father change during the story?",
+        "options": [
+            "He becomes concerned about a diver's health.",
+            "He begins to acknowledge Ramón's maturity.",
+            "He becomes frustrated by Ramón's persistence.",
+            "He stops worrying about his family business."
+        ],
+        "correct_answer": 1,
+        "answer_type": "multiple_choice"
+    },
+    {
+        "_id": "21",
+        "question_number": 21,
+        "practice_set": 44,
+        "category": "ELA: Point of View",
+        "difficulty": "medium",
+        "time_estimate": 60,
+        "passage": "pdfData:pdf/Grade 6 ELA Released Questions-2017.pdf",
+        "question_text": "The author develops Ramón's point of view in the story mostly by",
+        "options": [
+            "describing Ramón's fear of pearl diving",
+            "including Ramón's analysis of the pearl",
+            "describing how Ramón feels about his father",
+            "including dialogue between Ramón and his father"
+        ],
+        "correct_answer": 3,
+        "answer_type": "multiple_choice"
+    },
+    {
+        "_id": "29",
+        "question_number": 29,
+        "practice_set": 44,
+        "category": "ELA: Author's Purpose",
+        "difficulty": "easy",
+        "time_estimate": 45,
+        "passage": "pdfData:pdf/Grade 6 ELA Released Questions-2017.pdf",
+        "question_text": "In lines 4 through 12, the author explains why scientists are trying to find a way to produce spider silk using goats by showing",
+        "options": [
+            "possible uses for spider silk",
+            "the popularity of spider silk",
+            "how easy spider silk is to use",
+            "how quickly spider silk can be developed"
+        ],
+        "correct_answer": 0,
+        "answer_type": "multiple_choice"
+    },
+    {
+        "_id": "30",
+        "question_number": 30,
+        "practice_set": 44,
+        "category": "ELA: Reading Comprehension",
+        "difficulty": "easy",
+        "time_estimate": 45,
+        "passage": "pdfData:pdf/Grade 6 ELA Released Questions-2017.pdf",
+        "question_text": "Which statement best explains an advantage of using goats rather than spiders for the production of silk?",
+        "options": [
+            "Goats produce stronger silk than spiders do.",
+            "Scientists can insert genes into goats but not into spiders.",
+            "Spider proteins in goat milk can be spun into silk.",
+            "Goats are bigger than spiders and are much easier to raise."
+        ],
+        "correct_answer": 3,
+        "answer_type": "multiple_choice"
+    },
+    {
+        "_id": "31",
+        "question_number": 31,
+        "practice_set": 44,
+        "category": "ELA: Reading Comprehension",
+        "difficulty": "easy",
+        "time_estimate": 45,
+        "passage": "pdfData:pdf/Grade 6 ELA Released Questions-2017.pdf",
+        "question_text": "What did Jeffrey Turner discover about using Nubian goats for possible silk production?",
+        "options": [
+            "Nubian goats already make a similar substance.",
+            "Nubian goats have high amounts of protein in their milk.",
+            "Nubian goats and spiders both prefer living in large groups.",
+            "Nubian goats and spiders have body parts that are similar."
+        ],
+        "correct_answer": 3,
+        "answer_type": "multiple_choice"
+    },
+    {
+        "_id": "32",
+        "question_number": 32,
+        "practice_set": 44,
+        "category": "ELA: Reading Comprehension",
+        "difficulty": "medium",
+        "time_estimate": 60,
+        "passage": "pdfData:pdf/Grade 6 ELA Released Questions-2017.pdf",
+        "question_text": "In the process described in lines 35 through 47, which step allows the threads to become strong enough for surgical procedures?",
+        "options": [
+            "The silk proteins are turned into clumps.",
+            "The silk is stretched repeatedly.",
+            "Salt is added to the goat's milk.",
+            "Water is added to thin the clumps."
+        ],
+        "correct_answer": 1,
+        "answer_type": "multiple_choice"
+    },
+    {
+        "_id": "33",
+        "question_number": 33,
+        "practice_set": 44,
+        "category": "ELA: Author's Purpose",
+        "difficulty": "easy",
+        "time_estimate": 45,
+        "passage": "pdfData:pdf/Grade 6 ELA Released Questions-2017.pdf",
+        "question_text": "Why are lines 55 through 59 important to the article?",
+        "options": [
+            "They suggest that the goats are unusual.",
+            "They explain how the goats are kept busy.",
+            "They explain that the goats are treated well.",
+            "They suggest that the goats are like humans."
+        ],
+        "correct_answer": 2,
+        "answer_type": "multiple_choice"
+    },
+    {
+        "_id": "34",
+        "question_number": 34,
+        "practice_set": 44,
+        "category": "ELA: Central Idea",
+        "difficulty": "medium",
+        "time_estimate": 60,
+        "passage": "pdfData:pdf/Grade 6 ELA Released Questions-2017.pdf",
+        "question_text": "Which statement best expresses a central idea of the article?",
+        "options": [
+            "Nubian goats produce better quality silk than spiders.",
+            "Spider silk is a complex substance that takes effort to make.",
+            "Nubian goats have been genetically altered to produce spider silk.",
+            "Spider silk contains proteins that are similar to proteins in other living things."
+        ],
+        "correct_answer": 2,
+        "answer_type": "multiple_choice"
+    },
+    {
+        "_id": "35",
+        "question_number": 35,
+        "practice_set": 44,
+        "category": "ELA: Main Idea",
+        "difficulty": "easy",
+        "time_estimate": 45,
+        "passage": "pdfData:pdf/Grade 6 ELA Released Questions-2017.pdf",
+        "question_text": "Which detail is most important to include in a summary of the article?",
+        "options": [
+            "Scientists have made an attempt to gather silk from spiders living on farms.",
+            "Spider silk has qualities that can be used in many products.",
+            "A scientist started a company to research goat silk.",
+            "Machines spin spider silk into thin threads."
+        ],
+        "correct_answer": 1,
+        "answer_type": "multiple_choice"
+    },
+    {
+        "_id": "36",
+        "question_number": 36,
+        "practice_set": 44,
+        "category": "ELA: Character Development",
+        "difficulty": "easy",
+        "time_estimate": 60,
+        "passage": "pdfData:pdf/Grade 6 ELA Released Questions-2017.pdf",
+        "question_text": "How does Nina's attitude toward Ms. Charlemagne change?",
+        "options": [
+            "Nina becomes less interested after noticing Ms. Charlemagne's bracelets.",
+            "Nina becomes more fascinated after learning Ms. Charlemagne's name.",
+            "Nina becomes less surprised after hearing Ms. Charlemagne's viewpoints.",
+            "Nina becomes more suspicious after hearing Ms. Charlemagne's assignment."
+        ],
+        "correct_answer": 1,
+        "answer_type": "multiple_choice"
+    },
+    {
+        "_id": "37",
+        "question_number": 37,
+        "practice_set": 44,
+        "category": "ELA: Literary Analysis",
+        "difficulty": "medium",
+        "time_estimate": 60,
+        "passage": "pdfData:pdf/Grade 6 ELA Released Questions-2017.pdf",
+        "question_text": "How do lines 34 through 39 contribute to the development of the story?",
+        "options": [
+            "by suggesting that Ms. Charlemagne is not qualified to teach art",
+            "by introducing Nina to a new way to think about art",
+            "by showing that Ms. Charlemagne does not understand how artists work",
+            "by describing the way Nina usually completes art assignments"
+        ],
+        "correct_answer": 1,
+        "answer_type": "multiple_choice"
+    },
+    {
+        "_id": "38",
+        "question_number": 38,
+        "practice_set": 44,
+        "category": "ELA: Author's Craft",
+        "difficulty": "easy",
+        "time_estimate": 45,
+        "passage": "pdfData:pdf/Grade 6 ELA Released Questions-2017.pdf",
+        "question_text": "Why does the author use the word 'chirped' in line 43 of the story?",
+        "options": [
+            "to reveal that Ms. Charlemagne has creative ideas",
+            "to imply that Ms. Charlemagne is new at teaching art",
+            "to demonstrate that Ms. Charlemagne has a cheerful outlook",
+            "to show that Ms. Charlemagne easily relates to the art students"
+        ],
+        "correct_answer": 2,
+        "answer_type": "multiple_choice"
+    },
+    {
+        "_id": "39",
+        "question_number": 39,
+        "practice_set": 44,
+        "category": "ELA: Literary Analysis",
+        "difficulty": "easy",
+        "time_estimate": 60,
+        "passage": "pdfData:pdf/Grade 6 ELA Released Questions-2017.pdf",
+        "question_text": "Read this sentence from line 54.\n'I could change that number, at least here if not in real life.'\nHow does this sentence best contribute to the development of the story?",
+        "options": [
+            "by signaling a change in Nina's thinking",
+            "by emphasizing the importance of the setting",
+            "by revealing Nina's strong feelings",
+            "by suggesting a new plot development"
+        ],
+        "correct_answer": 0,
+        "answer_type": "multiple_choice"
+    },
+    {
+        "_id": "40",
+        "question_number": 40,
+        "practice_set": 44,
+        "category": "ELA: Theme",
+        "difficulty": "medium",
+        "time_estimate": 60,
+        "passage": "pdfData:pdf/Grade 6 ELA Released Questions-2017.pdf",
+        "question_text": "Which quotation best supports a theme of the story?",
+        "options": [
+            "\"Still, I knew she liked the picture and felt proud to see it up on the wall.\" (lines 8 and 9)",
+            "\"I had never seen anything like them.\" (line 18)",
+            "\"Imagine being descended from a medieval French king!\" (lines 30 and 31)",
+            "\"I was the lord of my own picture, wasn't I?\" (line 56)"
+        ],
+        "correct_answer": 3,
+        "answer_type": "multiple_choice"
+    },
+    {
+        "_id": "41",
+        "question_number": 41,
+        "practice_set": 44,
+        "category": "ELA: Character Analysis",
+        "difficulty": "easy",
+        "time_estimate": 45,
+        "passage": "pdfData:pdf/Grade 6 ELA Released Questions-2017.pdf",
+        "question_text": "Based on details in the story, what can readers conclude about Ms. Charlemagne?",
+        "options": [
+            "She is a respected artist.",
+            "She has a famous relative.",
+            "She has a unique personality.",
+            "She is a popular substitute teacher."
+        ],
+        "correct_answer": 2,
+        "answer_type": "multiple_choice"
+    },
+    {
+        "_id": "42",
+        "question_number": 42,
+        "practice_set": 44,
+        "category": "ELA: Theme",
+        "difficulty": "medium",
+        "time_estimate": 75,
+        "passage": "pdfData:pdf/Grade 6 ELA Released Questions-2017.pdf",
+        "question_text": "How do the details in the story help develop a theme?",
+        "options": [
+            "Nina's thoughts about her mother help develop the theme that being honest will make you feel better.",
+            "Nina's interaction with Isobel helps develop the theme that experiencing a new situation is easier with a friend.",
+            "Nina's drawing helps develop the theme that expressing yourself can help you work through your struggles.",
+            "Nina's description of Ms. Charlemagne helps develop the theme that judging others by their appearance is not a good idea."
+        ],
+        "correct_answer": 2,
+        "answer_type": "multiple_choice"
+    },
+    {
+        "_id": "43",
+        "question_number": 43,
+        "practice_set": 44,
+        "category": "ELA: Vocabulary",
+        "difficulty": "medium",
+        "time_estimate": 180,
+        "passage": "pdfData:pdf/Grade 6 ELA Released Questions-2017.pdf",
+        "question_text": "What is the meaning of the word 'contradicts' as it is used in line 24 of the article? Use two details from the article to support your response.",
+        "options": [],
+        "correct_answer": null,
+        "answer_type": "short_response"
+    },
+    {
+        "_id": "44",
+        "question_number": 44,
+        "practice_set": 44,
+        "category": "ELA: Main Idea",
+        "difficulty": "hard",
+        "time_estimate": 240,
+        "passage": "pdfData:pdf/Grade 6 ELA Released Questions-2017.pdf",
+        "question_text": "How do lines 25 and 26 contribute to the development of a key idea in the article '\"Ideas That Work...and Those That Don't\" from When is a Planet Not a Planet? The Story of Pluto'? Use two details from the article to support your response.",
+        "options": [],
+        "correct_answer": null,
+        "answer_type": "short_response"
+    },
+    {
+        "_id": "45",
+        "question_number": 45,
+        "practice_set": 44,
+        "category": "ELA: Paired Text Analysis",
+        "difficulty": "hard",
+        "time_estimate": 300,
+        "passage": "pdfData:pdf/Grade 6 ELA Released Questions-2017.pdf",
+        "question_text": "Why does the author compare how people treat 'pets' and 'pests' in the article? How does the author develop ways that people are helping 'pests' throughout the article? Use details from the article to support your response.",
+        "options": [],
+        "correct_answer": null,
+        "answer_type": "short_response"
+    },
+    {
+        "_id": "46",
+        "question_number": 46,
+        "practice_set": 44,
+        "category": "ELA: Reading Comprehension",
+        "difficulty": "medium",
+        "time_estimate": 180,
+        "passage": "pdfData:pdf/Grade 6 ELA Released Questions-2017.pdf",
+        "question_text": "How does the reunion affect Paolo's parents and Benjamin? Use two details from the story to support your response.",
+        "options": [],
+        "correct_answer": null,
+        "answer_type": "short_response"
+    },
+    {
+        "_id": "47",
+        "question_number": 47,
+        "practice_set": 44,
+        "category": "ELA: Theme",
+        "difficulty": "hard",
+        "time_estimate": 240,
+        "passage": "pdfData:pdf/Grade 6 ELA Released Questions-2017.pdf",
+        "question_text": "What is a central theme of 'Excerpt from The Mozart Question'? Use two details from the story to support your response.",
+        "options": [],
+        "correct_answer": null,
+        "answer_type": "short_response"
+    },
+    {
+        "_id": "48",
+        "question_number": 48,
+        "practice_set": 44,
+        "category": "ELA: Reading Comprehension",
+        "difficulty": "medium",
+        "time_estimate": 180,
+        "passage": "pdfData:pdf/Grade 6 ELA Released Questions-2017.pdf",
+        "question_text": "In 'Excerpt from Leonardo da Vinci: Renaissance Genius,' why were Leonardo and the other apprentices required to complete chores like sweeping the floor and cleaning brushes? Use two details from the article to support your response.",
+        "options": [],
+        "correct_answer": null,
+        "answer_type": "short_response"
+    },
+    {
+        "_id": "49",
+        "question_number": 49,
+        "practice_set": 44,
+        "category": "ELA: Central Idea",
+        "difficulty": "hard",
+        "time_estimate": 240,
+        "passage": "pdfData:pdf/Grade 6 ELA Released Questions-2017.pdf",
+        "question_text": "How do lines 24 through 38 help to develop a central idea of 'Excerpt from Leonardo da Vinci: Renaissance Genius'? Use two details from the article to support your response.",
+        "options": [],
+        "correct_answer": null,
+        "answer_type": "short_response"
+    },
+    {
+        "_id": "50",
+        "question_number": 50,
+        "practice_set": 44,
+        "category": "ELA: Vocabulary",
+        "difficulty": "medium",
+        "time_estimate": 180,
+        "passage": "pdfData:pdf/Grade 6 ELA Released Questions-2017.pdf",
+        "question_text": "Read this sentence from lines 44 and 45 of 'Excerpt from Leonardo da Vinci for Kids: His Life and Ideas.'\n'Leonardo learned there was more to art than holding a paintbrush.'\nWhat does the phrase 'more to art than holding a paintbrush' mean? Use two details from the article to support your response.",
+        "options": [],
+        "correct_answer": null,
+        "answer_type": "short_response"
+    },
+    {
+        "_id": "51",
+        "question_number": 51,
+        "practice_set": 44,
+        "category": "ELA: Paired Text Analysis",
+        "difficulty": "hard",
+        "time_estimate": 300,
+        "passage": "pdfData:pdf/Grade 6 ELA Released Questions-2017.pdf",
+        "question_text": "Both 'Excerpt from Leonardo da Vinci: Renaissance Genius' and 'Excerpt from Leonardo da Vinci for Kids: His Life and Ideas' describe Verrocchio's bottega. How are the descriptions different? Why was Verrocchio's bottega an important place for art and ideas in Florence? Use details from both articles to support your response.",
+        "options": [],
+        "correct_answer": null,
+        "answer_type": "short_response"
+    }
+]

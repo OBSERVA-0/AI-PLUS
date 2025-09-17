@@ -1,0 +1,623 @@
+[
+    {
+        "_id": "1",
+        "question_number": 1,
+        "practice_set": 43,
+        "category": "ELA: Literary Analysis",
+        "difficulty": "easy",
+        "time_estimate": 60,
+        "passage": "pdfData:pdf/2016-released-items-ela-g6.pdf",
+        "question_text": "Read this sentence from lines 10 and 11 of the story.\n'I kicked and soared and pranced and whirled, stepped and twirled and spun and flew, tripped and skipped and skimmed and sailed, all over that stage.'\nThe author most likely includes this description of Kathleen's dancing to",
+        "options": [
+            "emphasize that the dance ends quickly",
+            "demonstrate Kathleen's desire for recognition",
+            "provide an image of a spirited performance",
+            "demonstrate Kathleen's skills as a dancer"
+        ],
+        "correct_answer": 2,
+        "answer_type": "multiple_choice"
+    },
+    {
+        "_id": "2",
+        "question_number": 2,
+        "practice_set": 43,
+        "category": "ELA: Vocabulary",
+        "difficulty": "easy",
+        "time_estimate": 45,
+        "passage": "pdfData:pdf/2016-released-items-ela-g6.pdf",
+        "question_text": "Read this sentence from lines 11 through 14 of the story.\n'I hardly knew where I was, and I was completely oblivious to the audience, the strange hall, even the adjudicator, though I knew she must be out there somewhere in the blur of humanity beyond the stage, watching carefully and taking notes.'\nWhat is the meaning of the phrase 'oblivious to' as it is used in this sentence?",
+        "options": [
+            "unaware of",
+            "confused by",
+            "scornful of",
+            "afraid of"
+        ],
+        "correct_answer": 0,
+        "answer_type": "multiple_choice"
+    },
+    {
+        "_id": "3",
+        "question_number": 3,
+        "practice_set": 43,
+        "category": "ELA: Reading Comprehension",
+        "difficulty": "easy",
+        "time_estimate": 45,
+        "passage": "pdfData:pdf/2016-released-items-ela-g6.pdf",
+        "question_text": "What do lines 10 through 17 mostly show about Kathleen?",
+        "options": [
+            "Her confidence in her abilities helps her to remember her routine.",
+            "Her delight in dancing allows her to briefly forget her concerns.",
+            "She tries to ignore the unfamiliar setting and the audience.",
+            "She avoids people who are critical about her appearance."
+        ],
+        "correct_answer": 1,
+        "answer_type": "multiple_choice"
+    },
+    {
+        "_id": "4",
+        "question_number": 4,
+        "practice_set": 43,
+        "category": "ELA: Central Idea",
+        "difficulty": "medium",
+        "time_estimate": 60,
+        "passage": "pdfData:pdf/2016-released-items-ela-g6.pdf",
+        "question_text": "Lines 36 through 42 mainly develop a central idea of the story by revealing",
+        "options": [
+            "the importance of being able to communicate effectively",
+            "that Kathleen has lost interest in the conversation because of her success",
+            "that Kathleen's success is meaningful only if she can share it with her family",
+            "the significance of the support of family members even when they are absent"
+        ],
+        "correct_answer": 2,
+        "answer_type": "multiple_choice"
+    },
+    {
+        "_id": "5",
+        "question_number": 5,
+        "practice_set": 43,
+        "category": "ELA: Textual Evidence",
+        "difficulty": "easy",
+        "time_estimate": 45,
+        "passage": "pdfData:pdf/2016-released-items-ela-g6.pdf",
+        "question_text": "Which detail from the story best shows why Polly is important to Kathleen?",
+        "options": [
+            "Polly can best describe Kathleen's dance to her mam.",
+            "Polly allows Kathleen to receive praise from her teacher.",
+            "Polly made Kathleen's dress using her own curtain fabric.",
+            "Polly inspired Kathleen to participate in the dance recital."
+        ],
+        "correct_answer": 0,
+        "answer_type": "multiple_choice"
+    },
+    {
+        "_id": "6",
+        "question_number": 6,
+        "practice_set": 43,
+        "category": "ELA: Reading Comprehension",
+        "difficulty": "easy",
+        "time_estimate": 60,
+        "passage": "pdfData:pdf/2016-released-items-ela-g6.pdf",
+        "question_text": "Read this sentence from lines 49 through 51 of the story.\n'I kept on smiling, and at the same time I was trying to look around Mrs. Maguire's bulk to see if I could catch a glimpse of Polly's flying figure and wide smile.'\nThis sentence suggests that Kathleen",
+        "options": [
+            "is surprised by her teacher's presence",
+            "hopes to avoid chatting after her performance",
+            "is trying to be polite even though she is distracted",
+            "feels uncomfortable due to her teacher's compliments"
+        ],
+        "correct_answer": 2,
+        "answer_type": "multiple_choice"
+    },
+    {
+        "_id": "7",
+        "question_number": 7,
+        "practice_set": 43,
+        "category": "ELA: Point of View",
+        "difficulty": "medium",
+        "time_estimate": 75,
+        "passage": "pdfData:pdf/2016-released-items-ela-g6.pdf",
+        "question_text": "How does the author establish the point of view differently in lines 1 through 32 as compared to lines 33 through 61?",
+        "options": [
+            "by portraying the narrator's actions rather than sharing only the narrator's feelings",
+            "by describing the narrator's inner thoughts rather than sharing the inner thoughts of all the characters",
+            "by revealing the narrator's intentions through description instead of using description to share the opinions of all the characters",
+            "by revealing the narrator's thoughts only through description instead of through both description and dialogue"
+        ],
+        "correct_answer": 3,
+        "answer_type": "multiple_choice"
+    },
+    {
+        "_id": "22",
+        "question_number": 22,
+        "practice_set": 43,
+        "category": "ELA: Reading Comprehension",
+        "difficulty": "easy",
+        "time_estimate": 45,
+        "passage": "pdfData:pdf/2016-released-items-ela-g6.pdf",
+        "question_text": "What does most of the poem describe?",
+        "options": [
+            "the sounds of evening",
+            "animals preparing for nightfall",
+            "creatures hunting for food at night",
+            "the way the weather changes at sunset"
+        ],
+        "correct_answer": 1,
+        "answer_type": "multiple_choice"
+    },
+    {
+        "_id": "23",
+        "question_number": 23,
+        "practice_set": 43,
+        "category": "ELA: Literary Analysis",
+        "difficulty": "easy",
+        "time_estimate": 45,
+        "passage": "pdfData:pdf/2016-released-items-ela-g6.pdf",
+        "question_text": "Read lines 1 through 3 of the poem.\n'Oh, pleasant eventide!\nClouds on the western side\nGrow grey and greyer hiding the warm sun:'\nWhich words best describe the tone that the poet creates at the beginning of the poem?",
+        "options": [
+            "concern for warmth",
+            "surprised alarm at day's end",
+            "enthusiasm for the time of day",
+            "disapproval of the weather pattern"
+        ],
+        "correct_answer": 2,
+        "answer_type": "multiple_choice"
+    },
+    {
+        "_id": "24",
+        "question_number": 24,
+        "practice_set": 43,
+        "category": "ELA: Vocabulary",
+        "difficulty": "easy",
+        "time_estimate": 60,
+        "passage": "pdfData:pdf/2016-released-items-ela-g6.pdf",
+        "question_text": "Read lines 6 and 7 of the poem. Then read this dictionary entry for 'screen.'\n'screen v. 1. to provide with a means to exclude insects 2. to shelter or conceal from view 3. to separate or sort 4. to use a method to determine suitability for a task'\nWhich definition best matches the meaning of 'screened' as it is used in lines 6 and 7?",
+        "options": [
+            "definition 1",
+            "definition 2",
+            "definition 3",
+            "definition 4"
+        ],
+        "correct_answer": 1,
+        "answer_type": "multiple_choice"
+    },
+    {
+        "_id": "25",
+        "question_number": 25,
+        "practice_set": 43,
+        "category": "ELA: Textual Evidence",
+        "difficulty": "easy",
+        "time_estimate": 60,
+        "passage": "pdfData:pdf/2016-released-items-ela-g6.pdf",
+        "question_text": "Which lines provide the best evidence that events in nature are repeated over many years?",
+        "options": [
+            "'The very squirrel leaps from bough to bough / But lazily; pauses; and settles now / Where once he stored his food.' (lines 8 through 10)",
+            "'Nibbling his fill he stops from time to time / And listens where he sits.' (lines 19 and 20)",
+            "'Hark! that's the nightingale, / Telling the selfsame tale / Her song told when this ancient earth was young:' (lines 31 through 33)",
+            "'Through all the hours of night until the dawn / They sleep, forgetting fear.' (lines 44 and 45)"
+        ],
+        "correct_answer": 2,
+        "answer_type": "multiple_choice"
+    },
+    {
+        "_id": "26",
+        "question_number": 26,
+        "practice_set": 43,
+        "category": "ELA: Literary Analysis",
+        "difficulty": "medium",
+        "time_estimate": 60,
+        "passage": "pdfData:pdf/2016-released-items-ela-g6.pdf",
+        "question_text": "Which lines of the poem best demonstrate a gradual change that occurs during the evening?",
+        "options": [
+            "lines 11 through 13",
+            "lines 16 through 20",
+            "lines 44 and 45",
+            "lines 54 and 55"
+        ],
+        "correct_answer": 0,
+        "answer_type": "multiple_choice"
+    },
+    {
+        "_id": "27",
+        "question_number": 27,
+        "practice_set": 43,
+        "category": "ELA: Reading Comprehension",
+        "difficulty": "easy",
+        "time_estimate": 45,
+        "passage": "pdfData:pdf/2016-released-items-ela-g6.pdf",
+        "question_text": "Which word best describes most of the evening activity mentioned in the poem?",
+        "options": [
+            "busy",
+            "lonely",
+            "strained",
+            "cooperative"
+        ],
+        "correct_answer": 0,
+        "answer_type": "multiple_choice"
+    },
+    {
+        "_id": "28",
+        "question_number": 28,
+        "practice_set": 43,
+        "category": "ELA: Reading Comprehension",
+        "difficulty": "easy",
+        "time_estimate": 45,
+        "passage": "pdfData:pdf/2016-released-items-ela-g6.pdf",
+        "question_text": "Which lines best show that the night is different from the evening?",
+        "options": [
+            "lines 1 through 5",
+            "lines 11 through 15",
+            "lines 26 through 30",
+            "lines 56 through 60"
+        ],
+        "correct_answer": 3,
+        "answer_type": "multiple_choice"
+    },
+    {
+        "_id": "29",
+        "question_number": 29,
+        "practice_set": 43,
+        "category": "ELA: Author's Purpose",
+        "difficulty": "easy",
+        "time_estimate": 60,
+        "passage": "pdfData:pdf/2016-released-items-ela-g6.pdf",
+        "question_text": "Lines 6 through 14 are important to the article because they",
+        "options": [
+            "show the potential effects of reading over time",
+            "highlight the value of scientific research",
+            "emphasize the challenges beginning readers face",
+            "provide examples of the problems scientists face"
+        ],
+        "correct_answer": 0,
+        "answer_type": "multiple_choice"
+    },
+    {
+        "_id": "30",
+        "question_number": 30,
+        "practice_set": 43,
+        "category": "ELA: Reading Comprehension",
+        "difficulty": "easy",
+        "time_estimate": 45,
+        "passage": "pdfData:pdf/2016-released-items-ela-g6.pdf",
+        "question_text": "Why is it important for parents to encourage reading at a young age?",
+        "options": [
+            "Children are more likely than adults to follow stories all the way through.",
+            "Children are more likely than adults to use technology for information.",
+            "Children have longer attention spans than college students and older adults.",
+            "Children can more easily grasp new ideas and abilities than adults."
+        ],
+        "correct_answer": 3,
+        "answer_type": "multiple_choice"
+    },
+    {
+        "_id": "31",
+        "question_number": 31,
+        "practice_set": 43,
+        "category": "ELA: Vocabulary",
+        "difficulty": "easy",
+        "time_estimate": 45,
+        "passage": "pdfData:pdf/2016-released-items-ela-g6.pdf",
+        "question_text": "What is the meaning of the word 'simulate' as it is used in line 34 of the article?",
+        "options": [
+            "to expect",
+            "to illustrate",
+            "to remember",
+            "to imitate"
+        ],
+        "correct_answer": 3,
+        "answer_type": "multiple_choice"
+    },
+    {
+        "_id": "32",
+        "question_number": 32,
+        "practice_set": 43,
+        "category": "ELA: Textual Evidence",
+        "difficulty": "medium",
+        "time_estimate": 60,
+        "passage": "pdfData:pdf/2016-released-items-ela-g6.pdf",
+        "question_text": "How do lines 45 through 53 illustrate possible ways to prevent brain disease?",
+        "options": [
+            "by including the positive effects of certain activities on the brain",
+            "by describing how harmful substances form in the brain",
+            "by emphasizing the importance of brain scans for older adults",
+            "by proving that brain-based activities should be enjoyed by adults"
+        ],
+        "correct_answer": 0,
+        "answer_type": "multiple_choice"
+    },
+    {
+        "_id": "33",
+        "question_number": 33,
+        "practice_set": 43,
+        "category": "ELA: Author's Craft",
+        "difficulty": "medium",
+        "time_estimate": 60,
+        "passage": "pdfData:pdf/2016-released-items-ela-g6.pdf",
+        "question_text": "How does the author support John Stein's claim that 'Reading exercises the whole brain' (line 26)?",
+        "options": [
+            "by describing how other physical functions in the body work",
+            "by explaining which parts of the brain connect to senses",
+            "by explaining how functions of the brain are triggered",
+            "by describing a new method of creating pathways"
+        ],
+        "correct_answer": 2,
+        "answer_type": "multiple_choice"
+    },
+    {
+        "_id": "34",
+        "question_number": 34,
+        "practice_set": 43,
+        "category": "ELA: Central Idea",
+        "difficulty": "easy",
+        "time_estimate": 75,
+        "passage": "pdfData:pdf/2016-released-items-ela-g6.pdf",
+        "question_text": "Which statement best conveys the central idea of the article?",
+        "options": [
+            "'I'm a novelist-I've written five books for teenagers and it's obviously in my interest to encourage people to read.' (lines 1 and 2)",
+            "'But there's increasing evidence that reading for pleasure isn't just another leisure pursuit, or merely a way of improving literacy skills and factual knowledge.' (lines 3 and 4)",
+            "'When we 'get lost' in a good book, we're doing more than simply following a story.' (line 28)",
+            "'As the old saying goes: 'You're never alone with a book.'' (lines 36 and 37)"
+        ],
+        "correct_answer": 1,
+        "answer_type": "multiple_choice"
+    },
+    {
+        "_id": "35",
+        "question_number": 35,
+        "practice_set": 43,
+        "category": "ELA: Author's Purpose",
+        "difficulty": "easy",
+        "time_estimate": 45,
+        "passage": "pdfData:pdf/2016-released-items-ela-g6.pdf",
+        "question_text": "What is the author's main purpose for writing the article?",
+        "options": [
+            "to encourage teens to read books that she has written",
+            "to convince people that reading is a worthwhile activity",
+            "to demonstrate why reading is a good form of entertainment",
+            "to show the negative effects of playing games instead of reading"
+        ],
+        "correct_answer": 1,
+        "answer_type": "multiple_choice"
+    },
+    {
+        "_id": "36",
+        "question_number": 36,
+        "practice_set": 43,
+        "category": "ELA: Reading Comprehension",
+        "difficulty": "medium",
+        "time_estimate": 60,
+        "passage": "pdfData:pdf/2016-released-items-ela-g6.pdf",
+        "question_text": "How do lines 18 through 21 build on the idea introduced in lines 10 through 13?",
+        "options": [
+            "by showing a relationship between DNA and plant growth",
+            "by showing how changes in DNA can help weeds as well as crops",
+            "by showing that weeds continue to resist farmers' attempts to kill them",
+            "by showing how glyphosate is a long-term solution to the problem of weeds"
+        ],
+        "correct_answer": 1,
+        "answer_type": "multiple_choice"
+    },
+    {
+        "_id": "37",
+        "question_number": 37,
+        "practice_set": 43,
+        "category": "ELA: Vocabulary",
+        "difficulty": "easy",
+        "time_estimate": 45,
+        "passage": "pdfData:pdf/2016-released-items-ela-g6.pdf",
+        "question_text": "What is the meaning of the phrase 'impossibly improbable' as it is used in lines 21 through 23?",
+        "options": [
+            "usually certain",
+            "highly unlikely",
+            "extremely slow",
+            "rarely noteworthy"
+        ],
+        "correct_answer": 1,
+        "answer_type": "multiple_choice"
+    },
+    {
+        "_id": "38",
+        "question_number": 38,
+        "practice_set": 43,
+        "category": "ELA: Reading Comprehension",
+        "difficulty": "medium",
+        "time_estimate": 60,
+        "passage": "pdfData:pdf/2016-released-items-ela-g6.pdf",
+        "question_text": "Which conclusion is best supported by lines 27 through 32?",
+        "options": [
+            "The DNA of weeds evolves rapidly.",
+            "Changes to the DNA of plants can occur by chance.",
+            "Greater quantities of glyphosate are required to kill weeds.",
+            "Plants evolve more quickly in some parts of the world than in others."
+        ],
+        "correct_answer": 1,
+        "answer_type": "multiple_choice"
+    },
+    {
+        "_id": "39",
+        "question_number": 39,
+        "practice_set": 43,
+        "category": "ELA: Main Idea",
+        "difficulty": "easy",
+        "time_estimate": 45,
+        "passage": "pdfData:pdf/2016-released-items-ela-g6.pdf",
+        "question_text": "Which statement best describes the main idea of the section titled 'Winning the lottery'?",
+        "options": [
+            "Farmers used glyphosate for many years on millions of hectares of crops.",
+            "The odds of any one person winning the lottery are tiny.",
+            "Many people expected glyphosate to work forever.",
+            "Several kinds of weeds developed a resistance to glyphosate."
+        ],
+        "correct_answer": 3,
+        "answer_type": "multiple_choice"
+    },
+    {
+        "_id": "40",
+        "question_number": 40,
+        "practice_set": 43,
+        "category": "ELA: Text Structure",
+        "difficulty": "medium",
+        "time_estimate": 60,
+        "passage": "pdfData:pdf/2016-released-items-ela-g6.pdf",
+        "question_text": "The section titled 'Copy that' relates to the section titled 'Winning the lottery' by",
+        "options": [
+            "providing evidence to support an opinion",
+            "introducing new ways to solve a problem",
+            "providing an example to explain a main idea",
+            "describing events in the order that they take place"
+        ],
+        "correct_answer": 2,
+        "answer_type": "multiple_choice"
+    },
+    {
+        "_id": "41",
+        "question_number": 41,
+        "practice_set": 43,
+        "category": "ELA: Textual Evidence",
+        "difficulty": "medium",
+        "time_estimate": 60,
+        "passage": "pdfData:pdf/2016-released-items-ela-g6.pdf",
+        "question_text": "Lines 49 through 53 support which of the following claims?",
+        "options": [
+            "The use of glyphosate should be stopped because the herbicide has proven to be a failure.",
+            "The only way to prevent weeds from resisting herbicides is to change the DNA of weeds.",
+            "Blocking sunlight from reaching the soil is the best way to prevent weed seeds from sprouting.",
+            "Fighting weeds is especially difficult because of their ability to evolve to resist threats."
+        ],
+        "correct_answer": 3,
+        "answer_type": "multiple_choice"
+    },
+    {
+        "_id": "42",
+        "question_number": 42,
+        "practice_set": 43,
+        "category": "ELA: Author's Purpose",
+        "difficulty": "easy",
+        "time_estimate": 60,
+        "passage": "pdfData:pdf/2016-released-items-ela-g6.pdf",
+        "question_text": "What is the most likely reason the author describes the seed destructor in lines 64 through 67?",
+        "options": [
+            "to support the idea that farmers need to use a variety of methods to fight weeds",
+            "to show how technology is the solution to uncontrollable weed growth",
+            "to explain why mechanical methods to fight weeds are better than herbicides",
+            "to describe how scientists have found the best way to protect desirable crops"
+        ],
+        "correct_answer": 0,
+        "answer_type": "multiple_choice"
+    },
+    {
+        "_id": "43",
+        "question_number": 43,
+        "practice_set": 43,
+        "category": "ELA: Central Idea",
+        "difficulty": "medium",
+        "time_estimate": 180,
+        "passage": "pdfData:pdf/2016-released-items-ela-g6.pdf",
+        "question_text": "What is a central idea of 'Excerpt from Katerina's Wish'? Use two details from the story to support your response.",
+        "options": [],
+        "correct_answer": null,
+        "answer_type": "short_response"
+    },
+    {
+        "_id": "44",
+        "question_number": 44,
+        "practice_set": 43,
+        "category": "ELA: Literary Analysis",
+        "difficulty": "medium",
+        "time_estimate": 180,
+        "passage": "pdfData:pdf/2016-released-items-ela-g6.pdf",
+        "question_text": "How does Trina's mood change from the beginning to the end of 'Excerpt from Katerina's Wish'? Use two details from the story to support your response.",
+        "options": [],
+        "correct_answer": null,
+        "answer_type": "short_response"
+    },
+    {
+        "_id": "45",
+        "question_number": 45,
+        "practice_set": 43,
+        "category": "ELA: Literary Analysis",
+        "difficulty": "hard",
+        "time_estimate": 240,
+        "passage": "pdfData:pdf/2016-released-items-ela-g6.pdf",
+        "question_text": "How does Taylor feel about exploring the woods at the beginning, middle, and end of the story? What causes her feelings to change? Use details from the story to support your response.",
+        "options": [],
+        "correct_answer": null,
+        "answer_type": "short_response"
+    },
+    {
+        "_id": "46",
+        "question_number": 46,
+        "practice_set": 43,
+        "category": "ELA: Literary Analysis",
+        "difficulty": "medium",
+        "time_estimate": 180,
+        "passage": "pdfData:pdf/2016-released-items-ela-g6.pdf",
+        "question_text": "Why does the relationship between Julianna and her father change? Use two details from the story to support your response.",
+        "options": [],
+        "correct_answer": null,
+        "answer_type": "short_response"
+    },
+    {
+        "_id": "47",
+        "question_number": 47,
+        "practice_set": 43,
+        "category": "ELA: Literary Analysis",
+        "difficulty": "hard",
+        "time_estimate": 180,
+        "passage": "pdfData:pdf/2016-released-items-ela-g6.pdf",
+        "question_text": "How does the father's idea that Julianna 'needed to start looking at the whole landscape' (line 32) relate to his description of a painting in lines 46 through 49? Use two details from the story to support your response.",
+        "options": [],
+        "correct_answer": null,
+        "answer_type": "short_response"
+    },
+    {
+        "_id": "48",
+        "question_number": 48,
+        "practice_set": 43,
+        "category": "ELA: Central Idea",
+        "difficulty": "medium",
+        "time_estimate": 180,
+        "passage": "pdfData:pdf/2016-released-items-ela-g6.pdf",
+        "question_text": "What is a central idea of 'A Universal Language: Futbol 4 Dreams'? Use two details from the article to support your response.",
+        "options": [],
+        "correct_answer": null,
+        "answer_type": "short_response"
+    },
+    {
+        "_id": "49",
+        "question_number": 49,
+        "practice_set": 43,
+        "category": "ELA: Reading Comprehension",
+        "difficulty": "medium",
+        "time_estimate": 180,
+        "passage": "pdfData:pdf/2016-released-items-ela-g6.pdf",
+        "question_text": "In 'Recycling Electronic Waste,' why are the results of the survey (lines 27 through 31) important? Use two details from the article to support your response.",
+        "options": [],
+        "correct_answer": null,
+        "answer_type": "short_response"
+    },
+    {
+        "_id": "50",
+        "question_number": 50,
+        "practice_set": 43,
+        "category": "ELA: Point of View",
+        "difficulty": "medium",
+        "time_estimate": 180,
+        "passage": "pdfData:pdf/2016-released-items-ela-g6.pdf",
+        "question_text": "What is the author's point of view about electronic waste in the article 'Recycling Electronic Waste'? Use two details from the article to support your response.",
+        "options": [],
+        "correct_answer": null,
+        "answer_type": "short_response"
+    },
+    {
+        "_id": "51",
+        "question_number": 51,
+        "practice_set": 43,
+        "category": "ELA: Paired Text Analysis",
+        "difficulty": "hard",
+        "time_estimate": 300,
+        "passage": "pdfData:pdf/2016-released-items-ela-g6.pdf",
+        "question_text": "What personal characteristics do Alex and the Iribarne sisters share? How did these qualities help them reach their goals? Use details from both articles to support your response.",
+        "options": [],
+        "correct_answer": null,
+        "answer_type": "short_response"
+    }
+]
