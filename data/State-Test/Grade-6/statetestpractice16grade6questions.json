@@ -1,0 +1,422 @@
+[
+    {
+        "_id": "68",
+        "question_number": 15,
+        "practice_set": 16,
+        "category": "ELA: Vocabulary",
+        "difficulty": "easy",
+        "time_estimate": 45,
+        "passage": "pdfData:pdf/2024 NYS Grade 6 English Language.pdf",
+        "question_text": "What is the meaning of the word \"parched\" as it is used in paragraph 4?",
+        "options": [
+            "difficult",
+            "dry",
+            "dangerous",
+            "dusty"
+        ],
+        "correct_answer": 1,
+        "answer_type": "multiple_choice"
+    },
+    {
+        "_id": "69",
+        "question_number": 16,
+        "practice_set": 16,
+        "category": "ELA: Author's Purpose",
+        "difficulty": "easy",
+        "time_estimate": 60,
+        "passage": "pdfData:pdf/2024 NYS Grade 6 English Language.pdf",
+        "question_text": "Read this sentence from paragraph 8.\n'Their orange-and-black wings color the sky like an explosion of confetti.'\nWhat is the author's main purpose for using this sentence?",
+        "options": [
+            "to describe a feeling of excitement while watching butterflies",
+            "to indicate the direction the butterflies will go as they travel",
+            "to describe the large number of butterflies taking flight",
+            "to indicate the distance the butterflies will need to travel"
+        ],
+        "correct_answer": 2,
+        "answer_type": "multiple_choice"
+    },
+    {
+        "_id": "70",
+        "question_number": 17,
+        "practice_set": 16,
+        "category": "ELA: Central Idea",
+        "difficulty": "medium",
+        "time_estimate": 60,
+        "passage": "pdfData:pdf/2024 NYS Grade 6 English Language.pdf",
+        "question_text": "Which sentence from the article best supports the author's central claim?",
+        "options": [
+            "\"The sun—its rise and fall over a day and the whirling of the Earth around it for a year—powers these events.\" (paragraph 2)",
+            "\"Like the region's other hoofed animals—wildebeests and gazelles—zebras must stay on the move for fresh grass and water.\" (paragraph 16)",
+            "\"Sometimes, herds will come together by the thousands to find better feeding grounds.\" (paragraph 17)",
+            "\"The timing of their travels is driven by rainfall, which fuels the growth of new grass and refills water holes.\" (paragraph 19)"
+        ],
+        "correct_answer": 0,
+        "answer_type": "multiple_choice"
+    },
+    {
+        "_id": "71",
+        "question_number": 18,
+        "practice_set": 16,
+        "category": "ELA: Author's Point of View",
+        "difficulty": "easy",
+        "time_estimate": 45,
+        "passage": "pdfData:pdf/2024 NYS Grade 6 English Language.pdf",
+        "question_text": "Which detail from the article represents the author's belief?",
+        "options": [
+            "\"They are some of nature's most thrilling dramas.\" (paragraph 2)",
+            "\"... forgetting the location of a lifesaving water hole would be a deadly mistake.\" (paragraph 3)",
+            "\"... these jellyfish undertake a major journey every single day.\" (paragraph 12)",
+            "\"Human babies can take a year or more to take their first steps.\" (paragraph 21)"
+        ],
+        "correct_answer": 0,
+        "answer_type": "multiple_choice"
+    },
+    {
+        "_id": "72",
+        "question_number": 19,
+        "practice_set": 16,
+        "category": "ELA: Reading Comprehension",
+        "difficulty": "easy",
+        "time_estimate": 45,
+        "passage": "pdfData:pdf/2024 NYS Grade 6 English Language.pdf",
+        "question_text": "According to the article, zebras and wildebeests are similar because both animals",
+        "options": [
+            "walk right after birth",
+            "migrate for the same reasons",
+            "live in small groups",
+            "eat the same type of grass"
+        ],
+        "correct_answer": 1,
+        "answer_type": "multiple_choice"
+    },
+    {
+        "_id": "73",
+        "question_number": 20,
+        "practice_set": 16,
+        "category": "ELA: Text Structure",
+        "difficulty": "easy",
+        "time_estimate": 45,
+        "passage": "pdfData:pdf/2024 NYS Grade 6 English Language.pdf",
+        "question_text": "The main way the different \"Motive to Move\" sections help the reader understand migration is by",
+        "options": [
+            "explaining why animals search for watering holes",
+            "referring to areas where there is a lack of grass",
+            "explaining why animals travel to different places",
+            "referring to seasons that change from dry to rainy"
+        ],
+        "correct_answer": 2,
+        "answer_type": "multiple_choice"
+    },
+    {
+        "_id": "74",
+        "question_number": 21,
+        "practice_set": 16,
+        "category": "ELA: Textual Evidence",
+        "difficulty": "easy",
+        "time_estimate": 45,
+        "passage": "pdfData:pdf/2024 NYS Grade 6 English Language.pdf",
+        "question_text": "Which phrase from the article best helps the reader understand the claim in paragraph 22 that \"being in a rush is a way of life\" for wildebeests?",
+        "options": [
+            "the reference to the wildebeest being \"a favorite snack\" (paragraph 22)",
+            "the indication that wildebeests follow \"the seasonal rains\" (paragraph 22)",
+            "the explanation that plant eaters like the wildebeest \"stay on the move\" (paragraph 23)",
+            "the claim that wildebeests would \"starve if they didn't migrate\" (paragraph 23)"
+        ],
+        "correct_answer": 0,
+        "answer_type": "multiple_choice"
+    },
+    {
+        "_id": "75",
+        "question_number": 22,
+        "practice_set": 16,
+        "category": "ELA: Reading Comprehension",
+        "difficulty": "easy",
+        "time_estimate": 45,
+        "passage": "pdfData:pdf/2024 NYS Grade 6 English Language.pdf",
+        "question_text": "According to the article, what was the main effect of Franklin's study of static electricity?",
+        "options": [
+            "the ability to generate static electricity to study it",
+            "the understanding that static electricity resembled lightning",
+            "the realization that lightning was larger than static electricity",
+            "the creation of a tool to prevent lightning from harming people"
+        ],
+        "correct_answer": 3,
+        "answer_type": "multiple_choice"
+    },
+    {
+        "_id": "76",
+        "question_number": 23,
+        "practice_set": 16,
+        "category": "ELA: Textual Evidence",
+        "difficulty": "medium",
+        "time_estimate": 60,
+        "passage": "pdfData:pdf/2024 NYS Grade 6 English Language.pdf",
+        "question_text": "Working with electricity can sometimes be dangerous. Which detail in the article best supports this idea?",
+        "options": [
+            "the claim that sharks \"can sense electric signals\" (paragraph 2)",
+            "the statement that \"Lightning often hit tall buildings\" (paragraph 8)",
+            "the claim that a battery uses \"metal and chemicals to create electrical energy\" (paragraph 10)",
+            "the statement that many objects used for light \"were smelly and caused fires\" (paragraph 12)"
+        ],
+        "correct_answer": 1,
+        "answer_type": "multiple_choice"
+    },
+    {
+        "_id": "77",
+        "question_number": 24,
+        "practice_set": 16,
+        "category": "ELA: Author's Craft",
+        "difficulty": "medium",
+        "time_estimate": 60,
+        "passage": "pdfData:pdf/2024 NYS Grade 6 English Language.pdf",
+        "question_text": "In paragraph 14, how does the author demonstrate how the demand for electricity \"caught on\"?",
+        "options": [
+            "by highlighting important scientists who studied electricity",
+            "by including dates and descriptions of major discoveries",
+            "by suggesting that people began to appreciate and use electricity",
+            "by indicating that certain inventions helped people remain safe"
+        ],
+        "correct_answer": 2,
+        "answer_type": "multiple_choice"
+    },
+    {
+        "_id": "78",
+        "question_number": 25,
+        "practice_set": 16,
+        "category": "ELA: Author's Point of View",
+        "difficulty": "easy",
+        "time_estimate": 45,
+        "passage": "pdfData:pdf/2024 NYS Grade 6 English Language.pdf",
+        "question_text": "What is most likely the author's opinion about electricity?",
+        "options": [
+            "Electricity should continue to be studied by scientists and inventors.",
+            "Electricity was made popular as the result of the electric motor.",
+            "Electricity was not useful until energy could travel longer distances.",
+            "Electricity is an important and essential part of people's lives."
+        ],
+        "correct_answer": 3,
+        "answer_type": "multiple_choice"
+    },
+    {
+        "_id": "79",
+        "question_number": 26,
+        "practice_set": 16,
+        "category": "ELA: Text Structure",
+        "difficulty": "easy",
+        "time_estimate": 45,
+        "passage": "pdfData:pdf/2024 NYS Grade 6 English Language.pdf",
+        "question_text": "How does the author organize information to develop a central idea in the article?",
+        "options": [
+            "by contrasting the different scientists who studied electricity",
+            "by providing details about the development of electricity in chronological order",
+            "by explaining how electricity helped solve a variety of problems",
+            "by using a cause and effect structure to highlight the significance of electricity"
+        ],
+        "correct_answer": 1,
+        "answer_type": "multiple_choice"
+    },
+    {
+        "_id": "80",
+        "question_number": 27,
+        "practice_set": 16,
+        "category": "ELA: Textual Evidence",
+        "difficulty": "medium",
+        "time_estimate": 180,
+        "passage": "pdfData:pdf/2024 NYS Grade 6 English Language.pdf",
+        "question_text": "In \"Excerpt from The Story Behind Electricity,\" how does the author support the claim that electricity has become \"more and more a part of our lives\" (paragraph 4)? Use two details from the article to support your response.",
+        "options": [],
+        "correct_answer": null,
+        "answer_type": "short_response"
+    },
+    {
+        "_id": "81",
+        "question_number": 28,
+        "practice_set": 16,
+        "category": "ELA: Text Structure",
+        "difficulty": "medium",
+        "time_estimate": 180,
+        "passage": "pdfData:pdf/2024 NYS Grade 6 English Language.pdf",
+        "question_text": "In \"Excerpt from The Story Behind Electricity,\" how are the ideas in paragraphs 8 and 9 related? Use two details from the article to support your response.",
+        "options": [],
+        "correct_answer": null,
+        "answer_type": "short_response"
+    },
+    {
+        "_id": "82",
+        "question_number": 29,
+        "practice_set": 16,
+        "category": "ELA: Literary Analysis",
+        "difficulty": "easy",
+        "time_estimate": 45,
+        "passage": "pdfData:pdf/2024 NYS Grade 6 English Language.pdf",
+        "question_text": "In paragraph 2, the author uses the phrase \"in a foreign tongue\" to indicate that Mate",
+        "options": [
+            "only responds to the commands of Charlie",
+            "dislikes being patted by the townspeople",
+            "does not want to stop his walk with Charlie",
+            "does not care what the townspeople say"
+        ],
+        "correct_answer": 0,
+        "answer_type": "multiple_choice"
+    },
+    {
+        "_id": "83",
+        "question_number": 30,
+        "practice_set": 16,
+        "category": "ELA: Plot Development",
+        "difficulty": "easy",
+        "time_estimate": 45,
+        "passage": "pdfData:pdf/2024 NYS Grade 6 English Language.pdf",
+        "question_text": "Which detail signals a change in the direction of the story?",
+        "options": [
+            "the indication that Mate listened \"with his head cocked to one side and one ear raised\" (paragraph 2)",
+            "the statement that \"Mate would bark loudly, acting as the Fast and Able's foghorn\" (paragraph 3)",
+            "the indication that \"Charlie fell to the bottom of the boat unconscious\" (paragraph 4)",
+            "the statement that \"Mate leaped into the cold water and dog-paddled to the beach\" (paragraph 5)"
+        ],
+        "correct_answer": 2,
+        "answer_type": "multiple_choice"
+    },
+    {
+        "_id": "84",
+        "question_number": 31,
+        "practice_set": 16,
+        "category": "ELA: Literary Analysis",
+        "difficulty": "medium",
+        "time_estimate": 60,
+        "passage": "pdfData:pdf/2024 NYS Grade 6 English Language.pdf",
+        "question_text": "Read this sentence from paragraph 5.\n'Mate whimpered and frantically licked his master's face, but the old seaman did not move.'\nThe words \"whimpered\" and \"frantically\" affect the tone of the story by",
+        "options": [
+            "creating a sense of sorrow",
+            "establishing a feeling of hopelessness",
+            "creating a sense of anxiety",
+            "establishing a feeling of confusion"
+        ],
+        "correct_answer": 2,
+        "answer_type": "multiple_choice"
+    },
+    {
+        "_id": "85",
+        "question_number": 32,
+        "practice_set": 16,
+        "category": "ELA: Plot Development",
+        "difficulty": "medium",
+        "time_estimate": 60,
+        "passage": "pdfData:pdf/2024 NYS Grade 6 English Language.pdf",
+        "question_text": "How does paragraph 8 best help advance the plot of the story?",
+        "options": [
+            "by showing that Jake knows Charlie's dog",
+            "by demonstrating how Mate responds to Jake's voice",
+            "by having Jake realize Charlie may be in trouble",
+            "by illustrating the trust Jake inspires in Mate"
+        ],
+        "correct_answer": 2,
+        "answer_type": "multiple_choice"
+    },
+    {
+        "_id": "86",
+        "question_number": 33,
+        "practice_set": 16,
+        "category": "ELA: Character Analysis",
+        "difficulty": "easy",
+        "time_estimate": 45,
+        "passage": "pdfData:pdf/2024 NYS Grade 6 English Language.pdf",
+        "question_text": "What do the details in paragraphs 9 through 11 mainly reveal about Mate?",
+        "options": [
+            "He is popular in the town.",
+            "He cares deeply about his master.",
+            "He knows how to save lives.",
+            "He responds quickly to commands."
+        ],
+        "correct_answer": 1,
+        "answer_type": "multiple_choice"
+    },
+    {
+        "_id": "87",
+        "question_number": 34,
+        "practice_set": 16,
+        "category": "ELA: Literary Analysis",
+        "difficulty": "easy",
+        "time_estimate": 45,
+        "passage": "pdfData:pdf/2024 NYS Grade 6 English Language.pdf",
+        "question_text": "Which detail best shows how the author indicates the close friendship of Charlie and Mate to the reader?",
+        "options": [
+            "\"Sailing in each other's company provided a perfect afternoon for Charlie and Mate,\" (paragraph 3)",
+            "\"Mate either slept on the sun-warmed deck or joined Charlie in the cockpit,\" (paragraph 3)",
+            "\"The cold seawater flew off Mate's furry coat and splashed over Charlie,\" (paragraph 10)",
+            "\"Charlie softly whispered, 'Shipshape!' to Mate, then a little louder, 'Hardtack!' \" (paragraph 11)"
+        ],
+        "correct_answer": 0,
+        "answer_type": "multiple_choice"
+    },
+    {
+        "_id": "88",
+        "question_number": 35,
+        "practice_set": 16,
+        "category": "ELA: Theme",
+        "difficulty": "easy",
+        "time_estimate": 45,
+        "passage": "pdfData:pdf/2024 NYS Grade 6 English Language.pdf",
+        "question_text": "A common saying is that \"Dogs are man's best friend.\" Which detail from the story best supports this idea?",
+        "options": [
+            "Mate responds to words Charlie teaches him.",
+            "Mate walks with Charlie when they are in town.",
+            "Mate sleeps in the boat when Charlie is sailing.",
+            "Mate leaves the boat to get help for Charlie."
+        ],
+        "correct_answer": 3,
+        "answer_type": "multiple_choice"
+    },
+    {
+        "_id": "89",
+        "question_number": 36,
+        "practice_set": 16,
+        "category": "ELA: Text Structure",
+        "difficulty": "medium",
+        "time_estimate": 180,
+        "passage": "pdfData:pdf/2024 NYS Grade 6 English Language.pdf",
+        "question_text": "In \"Excerpt from Radio Girl,\" how do paragraphs 3 and 4 contribute to the story's structure? Use two details from the story to support your response.",
+        "options": [],
+        "correct_answer": null,
+        "answer_type": "short_response"
+    },
+    {
+        "_id": "90",
+        "question_number": 37,
+        "practice_set": 16,
+        "category": "ELA: Literary Analysis",
+        "difficulty": "medium",
+        "time_estimate": 180,
+        "passage": "pdfData:pdf/2024 NYS Grade 6 English Language.pdf",
+        "question_text": "Read this sentence from paragraph 6 of \"Excerpt from Manhattan Transfer: A Novel.\"\n'A trembling took hold of his knees.'\nWhat effect does this sentence have on the tone of the story? Use two details from the story to support your response.",
+        "options": [],
+        "correct_answer": null,
+        "answer_type": "short_response"
+    },
+    {
+        "_id": "91",
+        "question_number": 38,
+        "practice_set": 16,
+        "category": "ELA: Character Analysis",
+        "difficulty": "medium",
+        "time_estimate": 180,
+        "passage": "pdfData:pdf/2024 NYS Grade 6 English Language.pdf",
+        "question_text": "In \"Excerpt from Manhattan Transfer: A Novel,\" why does Bud continue on his journey to New York City even though he is exhausted? Use two details from the story to support your response.",
+        "options": [],
+        "correct_answer": null,
+        "answer_type": "short_response"
+    },
+    {
+        "_id": "92",
+        "question_number": 39,
+        "practice_set": 16,
+        "category": "ELA: Paired Text Analysis",
+        "difficulty": "hard",
+        "time_estimate": 300,
+        "passage": "pdfData:pdf/2024 NYS Grade 6 English Language.pdf",
+        "question_text": "The stories \"Excerpt from Radio Girl\" and \"Excerpt from Manhattan Transfer: A Novel\" both share a similar theme. What is the similar theme in both stories? How does each author develop this theme differently? Use details from both stories to support your response.\n\nIn your response, be sure to\n- identify a similar theme shared by both stories\n- explain how each author develops this theme differently\n- use details from both stories to support your response",
+        "options": [],
+        "correct_answer": null,
+        "answer_type": "short_response"
+    }
+]

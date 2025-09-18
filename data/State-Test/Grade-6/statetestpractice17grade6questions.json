@@ -1,0 +1,422 @@
+[
+    {
+        "_id": "93",
+        "question_number": 8,
+        "practice_set": 17,
+        "category": "ELA: Author's Craft",
+        "difficulty": "easy",
+        "time_estimate": 45,
+        "passage": "pdfData:pdf/2025 NYS Grade 6 English Language.pdf",
+        "question_text": "How does the author introduce the idea that the Purple code finally began to be understood?",
+        "options": [
+            "by indicating that many mathematicians were working on the messages",
+            "by explaining how a person noticed something interesting about the symbols",
+            "by indicating that the messages were created by a special machine",
+            "by explaining how a system was used to obtain signals from other countries"
+        ],
+        "correct_answer": 1,
+        "answer_type": "multiple_choice"
+    },
+    {
+        "_id": "94",
+        "question_number": 9,
+        "practice_set": 17,
+        "category": "ELA: Author's Purpose",
+        "difficulty": "easy",
+        "time_estimate": 60,
+        "passage": "pdfData:pdf/2025 NYS Grade 6 English Language.pdf",
+        "question_text": "What is the purpose for including the information in paragraphs 5 through 7 in the article?",
+        "options": [
+            "to illustrate the relationship between different countries",
+            "to indicate a common naming method for codes",
+            "to indicate the importance of understanding secret messages",
+            "to illustrate the reasons why a global conflict occurred"
+        ],
+        "correct_answer": 2,
+        "answer_type": "multiple_choice"
+    },
+    {
+        "_id": "95",
+        "question_number": 10,
+        "practice_set": 17,
+        "category": "ELA: Textual Evidence",
+        "difficulty": "medium",
+        "time_estimate": 60,
+        "passage": "pdfData:pdf/2025 NYS Grade 6 English Language.pdf",
+        "question_text": "Which claim by the author is best supported by evidence in the article?",
+        "options": [
+            "\"Many cryptanalysts were people who studied how languages worked.\" (paragraph 4)",
+            "\"... Grotjan was one of just a few women working at the highest levels of code breaking.\" (paragraph 5)",
+            "\"The United States had not entered the war, but relations with Japan were becoming more and more strained.\" (paragraph 7)",
+            "\"... the United States used a complex system to intercept the communications and break the codes.\" (paragraph 7)"
+        ],
+        "correct_answer": 3,
+        "answer_type": "multiple_choice"
+    },
+    {
+        "_id": "96",
+        "question_number": 11,
+        "practice_set": 17,
+        "category": "ELA: Main Idea",
+        "difficulty": "easy",
+        "time_estimate": 45,
+        "passage": "pdfData:pdf/2025 NYS Grade 6 English Language.pdf",
+        "question_text": "What does the information in paragraphs 8 and 9 mainly illustrate?",
+        "options": [
+            "how coded messages were created using a special machine",
+            "why understanding coded messages was a difficult process",
+            "why cryptanalysts made guesses about coded messages",
+            "how coded messages were translated into a different language"
+        ],
+        "correct_answer": 1,
+        "answer_type": "multiple_choice"
+    },
+    {
+        "_id": "97",
+        "question_number": 12,
+        "practice_set": 17,
+        "category": "ELA: Central Idea",
+        "difficulty": "medium",
+        "time_estimate": 60,
+        "passage": "pdfData:pdf/2025 NYS Grade 6 English Language.pdf",
+        "question_text": "How does paragraph 11 strengthen the author's central claim?",
+        "options": [
+            "by explaining the value of decoded messages to the U.S. government",
+            "by referring to the places where coded messages originated",
+            "by describing how U.S. agencies built a cipher machine",
+            "by indicating the name given to messages obtained from cipher machines"
+        ],
+        "correct_answer": 0,
+        "answer_type": "multiple_choice"
+    },
+    {
+        "_id": "98",
+        "question_number": 13,
+        "practice_set": 17,
+        "category": "ELA: Textual Features",
+        "difficulty": "easy",
+        "time_estimate": 45,
+        "passage": "pdfData:pdf/2025 NYS Grade 6 English Language.pdf",
+        "question_text": "What is the purpose of the illustration in the article?",
+        "options": [
+            "to show a device used to read coded messages",
+            "to explain how messages were coded",
+            "to show an example of a coded message",
+            "to explain why some messages were coded"
+        ],
+        "correct_answer": 0,
+        "answer_type": "multiple_choice"
+    },
+    {
+        "_id": "99",
+        "question_number": 14,
+        "practice_set": 17,
+        "category": "ELA: Textual Evidence",
+        "difficulty": "easy",
+        "time_estimate": 45,
+        "passage": "pdfData:pdf/2025 NYS Grade 6 English Language.pdf",
+        "question_text": "Which detail from the article best reveals the importance of Grotjan's discovery?",
+        "options": [
+            "\"Their cries of 'That's it!' 'Whoopee!' 'Hooray!' broke the silence of the room, which was usually as quiet as a library.\" (paragraph 3)",
+            "\"Each symbol stood for a letter, but the letter it stood for changed as the machine moved forward.\" (paragraph 9)",
+            "\"... the SIS and U.S. Navy built a Purple cipher machine just like the decoding machines used in Japanese embassies.\" (paragraph 11)",
+            "\"... Magic contributed enormously to the defeat of the enemy, greatly shortened the war, and saved many thousands of lives.\" (paragraph 12)"
+        ],
+        "correct_answer": 3,
+        "answer_type": "multiple_choice"
+    },
+    {
+        "_id": "100",
+        "question_number": 22,
+        "practice_set": 17,
+        "category": "ELA: Main Idea",
+        "difficulty": "easy",
+        "time_estimate": 45,
+        "passage": "pdfData:pdf/2025 NYS Grade 6 English Language.pdf",
+        "question_text": "What important idea do the authors develop in paragraph 3?",
+        "options": [
+            "Classrooms should continue to be updated.",
+            "Some modern schools have a connection to the past.",
+            "Older buildings often lacked necessary conveniences.",
+            "Methods of teaching can change over the years."
+        ],
+        "correct_answer": 1,
+        "answer_type": "multiple_choice"
+    },
+    {
+        "_id": "101",
+        "question_number": 23,
+        "practice_set": 17,
+        "category": "ELA: Author's Purpose",
+        "difficulty": "medium",
+        "time_estimate": 60,
+        "passage": "pdfData:pdf/2025 NYS Grade 6 English Language.pdf",
+        "question_text": "Read this sentence from paragraph 4.\n'In Honeoye Falls, New York, there is a one-room schoolhouse where kids today can experience what it was like to be students in the late 19th century.'\nWhy is this detail important to the article?",
+        "options": [
+            "It highlights the general popularity of historical attractions.",
+            "It indicates that students are often interested in the history of education.",
+            "It suggests the importance of preserving historical buildings.",
+            "It shows that a connection can be made with students from another time."
+        ],
+        "correct_answer": 3,
+        "answer_type": "multiple_choice"
+    },
+    {
+        "_id": "102",
+        "question_number": 24,
+        "practice_set": 17,
+        "category": "ELA: Theme",
+        "difficulty": "medium",
+        "time_estimate": 60,
+        "passage": "pdfData:pdf/2025 NYS Grade 6 English Language.pdf",
+        "question_text": "Traditions allow people to both honor the past and celebrate the present. Which detail from paragraph 6 best represents this idea?",
+        "options": [
+            "\"There are more than 500 varieties of lilacs and more than 1,200 lilac bushes...\"",
+            "\"It was beautifully landscaped with trees and shrubs...\"",
+            "\"The park's collection of lilacs originally started with 20 varieties in 1892.\"",
+            "\"Since 1898, Rochester has held a Lilac Festival every May.\""
+        ],
+        "correct_answer": 3,
+        "answer_type": "multiple_choice"
+    },
+    {
+        "_id": "103",
+        "question_number": 25,
+        "practice_set": 17,
+        "category": "ELA: Author's Craft",
+        "difficulty": "easy",
+        "time_estimate": 45,
+        "passage": "pdfData:pdf/2025 NYS Grade 6 English Language.pdf",
+        "question_text": "In paragraph 9, what is the main way the authors indicate the importance of the Montauk Point Lighthouse?",
+        "options": [
+            "by referring to its status as the oldest lighthouse in the state",
+            "by describing how the lighthouse still provides assistance to ships",
+            "by explaining that the lighthouse now uses an automatic beacon",
+            "by mentioning the house attached to the lighthouse where families lived"
+        ],
+        "correct_answer": 1,
+        "answer_type": "multiple_choice"
+    },
+    {
+        "_id": "104",
+        "question_number": 26,
+        "practice_set": 17,
+        "category": "ELA: Text Structure",
+        "difficulty": "easy",
+        "time_estimate": 45,
+        "passage": "pdfData:pdf/2025 NYS Grade 6 English Language.pdf",
+        "question_text": "How do the authors develop the idea of \"legacy\" in the article?",
+        "options": [
+            "by explaining the history that inspired traditions",
+            "by providing a chronological sequence of events",
+            "by contrasting various celebrations in the state",
+            "by referring to the dates when festivals began"
+        ],
+        "correct_answer": 0,
+        "answer_type": "multiple_choice"
+    },
+    {
+        "_id": "105",
+        "question_number": 27,
+        "practice_set": 17,
+        "category": "ELA: Reading Comprehension",
+        "difficulty": "medium",
+        "time_estimate": 180,
+        "passage": "pdfData:pdf/2025 NYS Grade 6 English Language.pdf",
+        "question_text": "According to New York: Local Legacies, why are lighthouses important to the history of New York? Use two details from the article to support your response.",
+        "options": [],
+        "correct_answer": null,
+        "answer_type": "short_response"
+    },
+    {
+        "_id": "106",
+        "question_number": 28,
+        "practice_set": 17,
+        "category": "ELA: Central Idea",
+        "difficulty": "medium",
+        "time_estimate": 180,
+        "passage": "pdfData:pdf/2025 NYS Grade 6 English Language.pdf",
+        "question_text": "In New York: Local Legacies, how does paragraph 6 help develop a central idea of the article? Use two details from the article to support your response.",
+        "options": [],
+        "correct_answer": null,
+        "answer_type": "short_response"
+    },
+    {
+        "_id": "107",
+        "question_number": 29,
+        "practice_set": 17,
+        "category": "ELA: Textual Evidence",
+        "difficulty": "medium",
+        "time_estimate": 60,
+        "passage": "pdfData:pdf/2025 NYS Grade 6 English Language.pdf",
+        "question_text": "Read this claim from paragraph 2.\n'Every lichen is a tiny team...'\nWhich detail from the article best supports this claim?",
+        "options": [
+            "\"lichen on a tree looks like a gray-green, mossy stain\" (paragraph 1)",
+            "\"the loose leaves or decaying logs from which they grew\" (paragraph 9)",
+            "\"the spores of a fungus and another that looked like an alga\" (paragraph 10)",
+            "\"makes food for both itself and the fungus\" (paragraph 13)"
+        ],
+        "correct_answer": 3,
+        "answer_type": "multiple_choice"
+    },
+    {
+        "_id": "108",
+        "question_number": 30,
+        "practice_set": 17,
+        "category": "ELA: Textual Evidence",
+        "difficulty": "medium",
+        "time_estimate": 60,
+        "passage": "pdfData:pdf/2025 NYS Grade 6 English Language.pdf",
+        "question_text": "Read the sentence from paragraph 4.\n'\"Plenty of people can draw,\" he said, \"but you... have observation.\"\nWhich detail from the article best supports this claim?",
+        "options": [
+            "The author highlights Potter's ability to grow fungi in her kitchen.",
+            "The author refers to Potter's attention to detail in her drawings.",
+            "The author explains that Potter enjoyed drawing from nature.",
+            "The author provides evidence that Potter contributed to science."
+        ],
+        "correct_answer": 1,
+        "answer_type": "multiple_choice"
+    },
+    {
+        "_id": "109",
+        "question_number": 31,
+        "practice_set": 17,
+        "category": "ELA: Reading Comprehension",
+        "difficulty": "easy",
+        "time_estimate": 45,
+        "passage": "pdfData:pdf/2025 NYS Grade 6 English Language.pdf",
+        "question_text": "What is the most important way Charles McIntosh influenced Potter's career?",
+        "options": [
+            "He provided Potter with different types of fungi to study.",
+            "He was familiar with the scientific names of fungi.",
+            "He was interested in the fungi paintings Potter made.",
+            "He enjoyed collecting fungi while he worked."
+        ],
+        "correct_answer": 0,
+        "answer_type": "multiple_choice"
+    },
+    {
+        "_id": "110",
+        "question_number": 32,
+        "practice_set": 17,
+        "category": "ELA: Vocabulary",
+        "difficulty": "easy",
+        "time_estimate": 45,
+        "passage": "pdfData:pdf/2025 NYS Grade 6 English Language.pdf",
+        "question_text": "In paragraph 8, what does the phrase \"the fungus starred the ground\" mean?",
+        "options": [
+            "The fungi were bright.",
+            "The fungi were tall.",
+            "The fungi were hidden.",
+            "The fungi were plentiful."
+        ],
+        "correct_answer": 3,
+        "answer_type": "multiple_choice"
+    },
+    {
+        "_id": "111",
+        "question_number": 33,
+        "practice_set": 17,
+        "category": "ELA: Character Analysis",
+        "difficulty": "easy",
+        "time_estimate": 45,
+        "passage": "pdfData:pdf/2025 NYS Grade 6 English Language.pdf",
+        "question_text": "What do the details in paragraph 9 most reveal about Beatrix Potter?",
+        "options": [
+            "She was curious about the world.",
+            "She was a famous artist.",
+            "She enjoyed outdoor adventures.",
+            "She thought nature should be left alone."
+        ],
+        "correct_answer": 0,
+        "answer_type": "multiple_choice"
+    },
+    {
+        "_id": "112",
+        "question_number": 34,
+        "practice_set": 17,
+        "category": "ELA: Reading Comprehension",
+        "difficulty": "medium",
+        "time_estimate": 60,
+        "passage": "pdfData:pdf/2025 NYS Grade 6 English Language.pdf",
+        "question_text": "Which statement best describes how Potter responded when people doubted her findings?",
+        "options": [
+            "She argued with botanists until they agreed to listen to her.",
+            "She decided to write more papers for scientists about lichens.",
+            "She put her drawings of mushrooms on display for others to see.",
+            "She chose to spend more of her time working on stories for children."
+        ],
+        "correct_answer": 3,
+        "answer_type": "multiple_choice"
+    },
+    {
+        "_id": "113",
+        "question_number": 35,
+        "practice_set": 17,
+        "category": "ELA: Reading Comprehension",
+        "difficulty": "easy",
+        "time_estimate": 45,
+        "passage": "pdfData:pdf/2025 NYS Grade 6 English Language.pdf",
+        "question_text": "Read the sentence from paragraph 10.\n'Potter also looked at lichens, which scientists grouped with the fungi.'\nWhich statement best represents the meaning of this sentence?",
+        "options": [
+            "Scientists believed lichens and fungi were related.",
+            "Scientists had shown little interest in examining lichens.",
+            "Scientists wondered if lichens could live separately from algae.",
+            "Scientists had discovered algae makes food for itself and its partner."
+        ],
+        "correct_answer": 0,
+        "answer_type": "multiple_choice"
+    },
+    {
+        "_id": "114",
+        "question_number": 36,
+        "practice_set": 17,
+        "category": "ELA: Central Idea",
+        "difficulty": "medium",
+        "time_estimate": 180,
+        "passage": "pdfData:pdf/2025 NYS Grade 6 English Language.pdf",
+        "question_text": "In Marvels in the Muck, how do the details in paragraph 3 develop a central idea of the article? Use two details from the article to support your response.",
+        "options": [],
+        "correct_answer": null,
+        "answer_type": "short_response"
+    },
+    {
+        "_id": "115",
+        "question_number": 37,
+        "practice_set": 17,
+        "category": "ELA: Literary Analysis",
+        "difficulty": "medium",
+        "time_estimate": 180,
+        "passage": "pdfData:pdf/2025 NYS Grade 6 English Language.pdf",
+        "question_text": "\"Give them an inch and they'll take a mile\" is a saying that means people sometimes take more than what is offered them. In Marvels in the Muck, how do the details in paragraphs 5 and 6 develop this idea? Use two details from the article to support your response.",
+        "options": [],
+        "correct_answer": null,
+        "answer_type": "short_response"
+    },
+    {
+        "_id": "116",
+        "question_number": 38,
+        "practice_set": 17,
+        "category": "ELA: Literary Analysis",
+        "difficulty": "medium",
+        "time_estimate": 180,
+        "passage": "pdfData:pdf/2025 NYS Grade 6 English Language.pdf",
+        "question_text": "How does the speaker's word choice in lines 19 through 30 of \"Blueflags\" shift the tone of the poem? Use two details from the poem to support your response.",
+        "options": [],
+        "correct_answer": null,
+        "answer_type": "short_response"
+    },
+    {
+        "_id": "117",
+        "question_number": 39,
+        "practice_set": 17,
+        "category": "ELA: Paired Text Analysis",
+        "difficulty": "hard",
+        "time_estimate": 300,
+        "passage": "pdfData:pdf/2025 NYS Grade 6 English Language.pdf",
+        "question_text": "What is a theme that is shared by Marvels in the Muck and \"Blueflags\"? How is the shared theme developed in the article and the poem? Use details from both the article and the poem to support your response.\n\nIn your response, be sure to\n- state a theme that is shared by both the article and the poem\n- explain how the shared theme is developed in the article and the poem\n- use details from both the article and the poem to support your response",
+        "options": [],
+        "correct_answer": null,
+        "answer_type": "short_response"
+    }
+]
