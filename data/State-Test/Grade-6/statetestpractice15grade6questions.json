@@ -1,0 +1,422 @@
+[
+    {
+        "_id": "43",
+        "question_number": 1,
+        "practice_set": 15,
+        "category": "ELA: Central Idea",
+        "difficulty": "easy",
+        "time_estimate": 60,
+        "passage": "pdfData:pdf/2023 Grade 6 English Language Arts.pdf",
+        "question_text": "Which statement best supports a central claim of the story?",
+        "options": [
+            "Carrots are necessary for wild horses to perform the tasks they are given.",
+            "Treats given to some wild horses may result in rude and aggressive behavior.",
+            "Wild horses can learn to trust people if they are treated with patience and kindness.",
+            "People should avoid naming wild horses until they learn the behavior of the animals."
+        ],
+        "correct_answer": 2,
+        "answer_type": "multiple_choice"
+    },
+    {
+        "_id": "44",
+        "question_number": 2,
+        "practice_set": 15,
+        "category": "ELA: Literary Analysis",
+        "difficulty": "medium",
+        "time_estimate": 60,
+        "passage": "pdfData:pdf/2023 Grade 6 English Language Arts.pdf",
+        "question_text": "Read this phrase from paragraph 5.\n'... hooves kicking puffs of dust and tail streaming behind him like a banner.'\nThe author most likely uses this phrase to",
+        "options": [
+            "highlight Ranger's speed",
+            "show Ranger's refusal to be tamed",
+            "illustrate Ranger's desire for freedom",
+            "indicate Ranger's distance from the corral"
+        ],
+        "correct_answer": 0,
+        "answer_type": "multiple_choice"
+    },
+    {
+        "_id": "45",
+        "question_number": 3,
+        "practice_set": 15,
+        "category": "ELA: Plot Development",
+        "difficulty": "easy",
+        "time_estimate": 45,
+        "passage": "pdfData:pdf/2023 Grade 6 English Language Arts.pdf",
+        "question_text": "Paragraphs 5 and 6 fit in the overall structure of the story by",
+        "options": [
+            "expanding the setting",
+            "introducing the conflict",
+            "foreshadowing a resolution",
+            "describing a relationship"
+        ],
+        "correct_answer": 1,
+        "answer_type": "multiple_choice"
+    },
+    {
+        "_id": "46",
+        "question_number": 4,
+        "practice_set": 15,
+        "category": "ELA: Theme",
+        "difficulty": "easy",
+        "time_estimate": 45,
+        "passage": "pdfData:pdf/2023 Grade 6 English Language Arts.pdf",
+        "question_text": "Which quotation best supports a theme of the story?",
+        "options": [
+            "\"It was dusk by the time we hauled him home, so I tossed him some hay, showed him where the water tank was, and then left him to settle in.\" (paragraph 2)",
+            "\"If he'd managed to get out of his safe corral, how on earth could I catch him again?\" (paragraph 4)",
+            "\"Ranger galloped into view along the edge of the cornfield, hooves kicking puffs of dust and tail streaming behind him like a banner.\" (paragraph 5)",
+            "\"I spent the next few weeks letting him get used to the sound of my voice, the rhythm of my movements.\" (paragraph 10)"
+        ],
+        "correct_answer": 3,
+        "answer_type": "multiple_choice"
+    },
+    {
+        "_id": "47",
+        "question_number": 5,
+        "practice_set": 15,
+        "category": "ELA: Vocabulary",
+        "difficulty": "easy",
+        "time_estimate": 45,
+        "passage": "pdfData:pdf/2023 Grade 6 English Language Arts.pdf",
+        "question_text": "What is the most likely meaning of the word \"skeptical\" as used in paragraph 10?",
+        "options": [
+            "afraid of",
+            "cautious about",
+            "unaware of",
+            "worried about"
+        ],
+        "correct_answer": 1,
+        "answer_type": "multiple_choice"
+    },
+    {
+        "_id": "48",
+        "question_number": 6,
+        "practice_set": 15,
+        "category": "ELA: Character Analysis",
+        "difficulty": "easy",
+        "time_estimate": 45,
+        "passage": "pdfData:pdf/2023 Grade 6 English Language Arts.pdf",
+        "question_text": "What do the details in paragraphs 11 through 14 indicate about Ranger?",
+        "options": [
+            "He is ready to begin his training.",
+            "His curiosity is overcoming his lack of trust.",
+            "He is excited to try different foods.",
+            "His desire for companionship is growing."
+        ],
+        "correct_answer": 1,
+        "answer_type": "multiple_choice"
+    },
+    {
+        "_id": "49",
+        "question_number": 7,
+        "practice_set": 15,
+        "category": "ELA: Point of View",
+        "difficulty": "medium",
+        "time_estimate": 60,
+        "passage": "pdfData:pdf/2023 Grade 6 English Language Arts.pdf",
+        "question_text": "How does the author mainly develop the narrator's point of view in the story?",
+        "options": [
+            "by sharing the narrator's thoughts about Ranger",
+            "by showing how the narrator tries to make Ranger feel at home",
+            "by describing the narrator's reaction when Ranger escapes",
+            "by indicating why the narrator believes Ranger will like carrots"
+        ],
+        "correct_answer": 0,
+        "answer_type": "multiple_choice"
+    },
+    {
+        "_id": "50",
+        "question_number": 22,
+        "practice_set": 15,
+        "category": "ELA: Reading Comprehension",
+        "difficulty": "medium",
+        "time_estimate": 60,
+        "passage": "pdfData:pdf/2023 Grade 6 English Language Arts.pdf",
+        "question_text": "Hummingbirds have eyes on the sides of their heads, allowing them to see frontwards and sideways. Which phrase from paragraph 10 best suggests why this feature is useful for hummingbirds?",
+        "options": [
+            "\"most at home in the air\"",
+            "\"they can also go backward\"",
+            "\"move from flower to flower\"",
+            "\"they can hover in midair\""
+        ],
+        "correct_answer": 2,
+        "answer_type": "multiple_choice"
+    },
+    {
+        "_id": "51",
+        "question_number": 23,
+        "practice_set": 15,
+        "category": "ELA: Main Idea",
+        "difficulty": "easy",
+        "time_estimate": 45,
+        "passage": "pdfData:pdf/2023 Grade 6 English Language Arts.pdf",
+        "question_text": "The section \"Where in the World\" mainly contributes to the reader's understanding of the article by",
+        "options": [
+            "letting the reader know where hummingbirds are often found",
+            "indicating why some hummingbirds prefer cooler climates",
+            "explaining to the reader how hummingbirds interact with people",
+            "emphasizing that some hummingbirds often travel alone"
+        ],
+        "correct_answer": 0,
+        "answer_type": "multiple_choice"
+    },
+    {
+        "_id": "52",
+        "question_number": 24,
+        "practice_set": 15,
+        "category": "ELA: Textual Evidence",
+        "difficulty": "medium",
+        "time_estimate": 60,
+        "passage": "pdfData:pdf/2023 Grade 6 English Language Arts.pdf",
+        "question_text": "Which detail from the article does the information in the table support?",
+        "options": [
+            "\"For their size, they produce more feathers than any other bird.\" (paragraph 3)",
+            "\"The birds raise their families in the wilderness, but also in busy city parks and backyard gardens.\" (paragraph 5)",
+            "\"It normally feeds every 10 minutes—sometimes more often—downing about 60 meals a day!\" (paragraph 7)",
+            "\"A hummingbird feeds mostly on nectar—the sweet liquid formed inside flowers.\" (paragraph 9)"
+        ],
+        "correct_answer": 1,
+        "answer_type": "multiple_choice"
+    },
+    {
+        "_id": "53",
+        "question_number": 25,
+        "practice_set": 15,
+        "category": "ELA: Reading Comprehension",
+        "difficulty": "easy",
+        "time_estimate": 45,
+        "passage": "pdfData:pdf/2023 Grade 6 English Language Arts.pdf",
+        "question_text": "Read this detail from paragraph 12 of the article.\n'A hummer can make sudden stops—even on a narrow perch—with grace....'\nThis detail suggests that hummingbirds are",
+        "options": [
+            "skilled at flying",
+            "unsure when landing",
+            "easily observed",
+            "rarely distracted"
+        ],
+        "correct_answer": 0,
+        "answer_type": "multiple_choice"
+    },
+    {
+        "_id": "54",
+        "question_number": 26,
+        "practice_set": 15,
+        "category": "ELA: Main Idea",
+        "difficulty": "easy",
+        "time_estimate": 45,
+        "passage": "pdfData:pdf/2023 Grade 6 English Language Arts.pdf",
+        "question_text": "Which detail from the article would be most important to include in a summary?",
+        "options": [
+            "\"Stand between a hummingbird and the sun—with the light to your back—and you’ll witness the flash as the bird faces the sun.\" (paragraph 3)",
+            "\"Hummingbirds live where flowers bloom—but only in the western half of the world.\" (paragraph 4)",
+            "\"Ruby-throated and rufous hummers fly more than 3200 kilometres (2000 miles) from their nesting sites in the north to their winter homes in the south.\" (paragraph 6)",
+            "\"They’re surprisingly good right away, but they have to work to improve their landing skills.\" (paragraph 13)"
+        ],
+        "correct_answer": 1,
+        "answer_type": "multiple_choice"
+    },
+    {
+        "_id": "55",
+        "question_number": 27,
+        "practice_set": 15,
+        "category": "ELA: Reading Comprehension",
+        "difficulty": "medium",
+        "time_estimate": 180,
+        "passage": "pdfData:pdf/2023 Grade 6 English Language Arts.pdf",
+        "question_text": "In \"Excerpt from Welcome to the World of Hummingbirds,\" what does the information in paragraphs 6 and 8 illustrate about hummingbird migration? Use two details from the article to support your response.",
+        "options": [],
+        "correct_answer": null,
+        "answer_type": "short_response"
+    },
+    {
+        "_id": "56",
+        "question_number": 28,
+        "practice_set": 15,
+        "category": "ELA: Central Idea",
+        "difficulty": "medium",
+        "time_estimate": 180,
+        "passage": "pdfData:pdf/2023 Grade 6 English Language Arts.pdf",
+        "question_text": "What is a central idea of \"Excerpt from Welcome to the World of Hummingbirds\"? Use two details from the article to support your response.",
+        "options": [],
+        "correct_answer": null,
+        "answer_type": "short_response"
+    },
+    {
+        "_id": "57",
+        "question_number": 29,
+        "practice_set": 15,
+        "category": "ELA: Author's Craft",
+        "difficulty": "medium",
+        "time_estimate": 60,
+        "passage": "pdfData:pdf/2023 Grade 6 English Language Arts.pdf",
+        "question_text": "Read this sentence from paragraph 4.\n'To us, the kitchen was a mysterious place.'\nWhat is the main way the author develops this idea?",
+        "options": [
+            "by contrasting the restaurant kitchen with the kitchen in his home",
+            "by referring to the sizes of the sink and refrigerator in the restaurant kitchen",
+            "by describing objects in the restaurant kitchen with which he was unfamiliar",
+            "by explaining the purpose of the raised planks of wood in the restaurant kitchen"
+        ],
+        "correct_answer": 0,
+        "answer_type": "multiple_choice"
+    },
+    {
+        "_id": "58",
+        "question_number": 30,
+        "practice_set": 15,
+        "category": "ELA: Reading Comprehension",
+        "difficulty": "easy",
+        "time_estimate": 45,
+        "passage": "pdfData:pdf/2023 Grade 6 English Language Arts.pdf",
+        "question_text": "Read this sentence from paragraph 9.\n'Life in a Chinese restaurant gave us access to some strange snacks, most of which we grew to like.'\nWhich statement best represents the meaning of this sentence?",
+        "options": [
+            "The author learns to enjoy unfamiliar food available in the restaurant.",
+            "The author ignores the restaurant food he finds unpleasant.",
+            "The author prefers restaurant snacks he has had before.",
+            "The author looks for different snacks in the restaurant."
+        ],
+        "correct_answer": 0,
+        "answer_type": "multiple_choice"
+    },
+    {
+        "_id": "59",
+        "question_number": 31,
+        "practice_set": 15,
+        "category": "ELA: Textual Evidence",
+        "difficulty": "medium",
+        "time_estimate": 60,
+        "passage": "pdfData:pdf/2023 Grade 6 English Language Arts.pdf",
+        "question_text": "Many restaurant owners must be creative to be successful. Which quotation from the article best supports this idea?",
+        "options": [
+            "\"... planks of wood, raised off the ground an inch or two, served to give his legs and feet some spring...\" (paragraph 4)",
+            "\"... now and then, he'd make a batch of Jah-Don...\" (paragraph 7)",
+            "\"If he tasted a candy he liked, he'd try to duplicate it...\" (paragraph 8)",
+            "\"Sometimes, Dad would get a sugar cane or two at the produce market...\" (paragraph 10)"
+        ],
+        "correct_answer": 2,
+        "answer_type": "multiple_choice"
+    },
+    {
+        "_id": "60",
+        "question_number": 32,
+        "practice_set": 15,
+        "category": "ELA: Point of View",
+        "difficulty": "medium",
+        "time_estimate": 60,
+        "passage": "pdfData:pdf/2023 Grade 6 English Language Arts.pdf",
+        "question_text": "How does the author best help the reader understand his father's point of view?",
+        "options": [
+            "by describing his father striding \"the length of the four woks\" (paragraph 4)",
+            "by describing his father taking out \"several rods\" of pork (paragraph 5)",
+            "by claiming that \"There was nothing he wouldn't try.\" (paragraph 8)",
+            "by claiming he offered \"a sugar cane or two\" as a snack (paragraph 10)"
+        ],
+        "correct_answer": 2,
+        "answer_type": "multiple_choice"
+    },
+    {
+        "_id": "61",
+        "question_number": 33,
+        "practice_set": 15,
+        "category": "ELA: Vocabulary",
+        "difficulty": "easy",
+        "time_estimate": 45,
+        "passage": "pdfData:pdf/2023 Grade 6 English Language Arts.pdf",
+        "question_text": "What is the meaning of the phrase \"to spin stories\" in paragraph 11?",
+        "options": [
+            "to tell lies",
+            "to invent humorous tales",
+            "to warn others",
+            "to create feelings of excitement"
+        ],
+        "correct_answer": 1,
+        "answer_type": "multiple_choice"
+    },
+    {
+        "_id": "62",
+        "question_number": 34,
+        "practice_set": 15,
+        "category": "ELA: Author's Craft",
+        "difficulty": "easy",
+        "time_estimate": 45,
+        "passage": "pdfData:pdf/2023 Grade 6 English Language Arts.pdf",
+        "question_text": "In the article, the main way the author represents his childhood experiences is by describing",
+        "options": [
+            "the size of the kitchen in the restaurant",
+            "the various types of food he ate at the restaurant",
+            "the different people who worked at the restaurant",
+            "the attempts of his father to make candy in the restaurant"
+        ],
+        "correct_answer": 1,
+        "answer_type": "multiple_choice"
+    },
+    {
+        "_id": "63",
+        "question_number": 35,
+        "practice_set": 15,
+        "category": "ELA: Textual Evidence",
+        "difficulty": "medium",
+        "time_estimate": 60,
+        "passage": "pdfData:pdf/2023 Grade 6 English Language Arts.pdf",
+        "question_text": "Which claim by the author is most strongly supported by evidence in the article?",
+        "options": [
+            "\"The rice room... was the generic name for an area in the back of our father's restaurant.\" (paragraph 1)",
+            "\"From the time of my birth... the cafe at 710 Webster Street was my home away from home.\" (paragraph 2)",
+            "\"... nothing rivaled the satisfaction of working the plum around, getting down to the plum seed.\" (paragraph 9)",
+            "\"... a tall, spindly man with rimless glasses and thinning hair who liked to spin stories to us.\" (paragraph 11)"
+        ],
+        "correct_answer": 1,
+        "answer_type": "multiple_choice"
+    },
+    {
+        "_id": "64",
+        "question_number": 36,
+        "practice_set": 15,
+        "category": "ELA: Character Analysis",
+        "difficulty": "medium",
+        "time_estimate": 180,
+        "passage": "pdfData:pdf/2023 Grade 6 English Language Arts.pdf",
+        "question_text": "Based on the details in \"Excerpt from Rope Burn,\" what are the narrator's feelings about his teacher? Use two details from the story to support your response.",
+        "options": [],
+        "correct_answer": null,
+        "answer_type": "short_response"
+    },
+    {
+        "_id": "65",
+        "question_number": 37,
+        "practice_set": 15,
+        "category": "ELA: Reading Comprehension",
+        "difficulty": "medium",
+        "time_estimate": 180,
+        "passage": "pdfData:pdf/2023 Grade 6 English Language Arts.pdf",
+        "question_text": "In paragraph 8 of \"Excerpt from Rope Burn,\" what does Mr. Best mean when he tells the narrator to find his own \"writing voice\"? Use two details from the story to support your response.",
+        "options": [],
+        "correct_answer": null,
+        "answer_type": "short_response"
+    },
+    {
+        "_id": "66",
+        "question_number": 38,
+        "practice_set": 15,
+        "category": "ELA: Theme",
+        "difficulty": "medium",
+        "time_estimate": 180,
+        "passage": "pdfData:pdf/2023 Grade 6 English Language Arts.pdf",
+        "question_text": "In \"Excerpt from Speechless,\" how do paragraphs 7 and 8 help to develop a theme? Use two details from the story to support your response.",
+        "options": [],
+        "correct_answer": null,
+        "answer_type": "short_response"
+    },
+    {
+        "_id": "67",
+        "question_number": 39,
+        "practice_set": 15,
+        "category": "ELA: Paired Text Analysis",
+        "difficulty": "hard",
+        "time_estimate": 300,
+        "passage": "pdfData:pdf/2023 Grade 6 English Language Arts.pdf",
+        "question_text": "Learning to communicate well can be a struggle. How do the authors of \"Excerpt from Rope Burn\" and \"Excerpt from Speechless\" develop this claim about the difficulty of communication? How is this claim strengthened by details in each story? Use details from both stories to support your response.\n\nIn your response, be sure to\n- explain how the authors of both stories develop the claim about the difficulty of communication\n- explain how this claim is strengthened by details in each story\n- use details from both stories to support your response",
+        "options": [],
+        "correct_answer": null,
+        "answer_type": "short_response"
+    }
+]

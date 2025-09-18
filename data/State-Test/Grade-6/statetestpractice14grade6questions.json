@@ -1,0 +1,506 @@
+[
+    {
+        "_id": "1",
+        "question_number": 1,
+        "practice_set": 14,
+        "category": "ELA: Reading Comprehension",
+        "difficulty": "easy",
+        "time_estimate": 45,
+        "passage": "pdfData:pdf/2021 Grade 6 English Language.pdf",
+        "question_text": "What does paragraph 5 reveal about Paige?",
+        "options": [
+            "She fears going out on the lake.",
+            "She wants to avoid her grandparents.",
+            "She prefers the outdoors to coming inside.",
+            "She wants to play with the neighborhood girls."
+        ],
+        "correct_answer": 1,
+        "answer_type": "multiple_choice"
+    },
+    {
+        "_id": "2",
+        "question_number": 2,
+        "practice_set": 14,
+        "category": "ELA: Literary Analysis",
+        "difficulty": "easy",
+        "time_estimate": 60,
+        "passage": "pdfData:pdf/2021 Grade 6 English Language.pdf",
+        "question_text": "How do paragraphs 8 through 10 develop the plot of the story?",
+        "options": [
+            "They give background information about Paige.",
+            "They illustrate Paige's internal conflict.",
+            "They explain why Paige admires her Grandpa.",
+            "They show how Paige and her brothers are alike."
+        ],
+        "correct_answer": 1,
+        "answer_type": "multiple_choice"
+    },
+    {
+        "_id": "3",
+        "question_number": 3,
+        "practice_set": 14,
+        "category": "ELA: Literary Analysis",
+        "difficulty": "easy",
+        "time_estimate": 45,
+        "passage": "pdfData:pdf/2021 Grade 6 English Language.pdf",
+        "question_text": "Read the sentence from paragraph 14 below.\n'Across from the kitchenette stood the bathroom, which contributed to the monster's bad case of morning breath.'\nWhat does the metaphor mean in the sentence?",
+        "options": [
+            "The RV had a rotten smell.",
+            "People slept poorly inside the RV.",
+            "The RV was a cramped place.",
+            "People made a mess inside the RV."
+        ],
+        "correct_answer": 0,
+        "answer_type": "multiple_choice"
+    },
+    {
+        "_id": "4",
+        "question_number": 4,
+        "practice_set": 14,
+        "category": "ELA: Plot Development",
+        "difficulty": "easy",
+        "time_estimate": 45,
+        "passage": "pdfData:pdf/2021 Grade 6 English Language.pdf",
+        "question_text": "Which detail signals a change in the direction of the story?",
+        "options": [
+            "Grandpa loans Paige a fishing pole.",
+            "Paige warns her family about the heat.",
+            "Grandpa and Grandma arrive in their RV.",
+            "Paige and the girls beat the boys in a water fight."
+        ],
+        "correct_answer": 2,
+        "answer_type": "multiple_choice"
+    },
+    {
+        "_id": "5",
+        "question_number": 5,
+        "practice_set": 14,
+        "category": "ELA: Point of View",
+        "difficulty": "medium",
+        "time_estimate": 60,
+        "passage": "pdfData:pdf/2021 Grade 6 English Language.pdf",
+        "question_text": "How does the author most develop Grandpa's point of view in the story?",
+        "options": [
+            "by having the narrator describe Grandpa",
+            "by sharing Grandpa's thoughts with the reader",
+            "by including dialogue between Grandpa and the kids",
+            "by showing how Grandpa acts with Paige's brothers"
+        ],
+        "correct_answer": 2,
+        "answer_type": "multiple_choice"
+    },
+    {
+        "_id": "6",
+        "question_number": 6,
+        "practice_set": 14,
+        "category": "ELA: Main Idea",
+        "difficulty": "easy",
+        "time_estimate": 45,
+        "passage": "pdfData:pdf/2021 Grade 6 English Language.pdf",
+        "question_text": "Which detail would be most important to include in a summary of the story?",
+        "options": [
+            "Paige loses a lot of fishing poles.",
+            "Grandpa owns many different hats.",
+            "Paige enjoys water-skiing and tubing.",
+            "Grandpa wants to take the kids fishing."
+        ],
+        "correct_answer": 3,
+        "answer_type": "multiple_choice"
+    },
+    {
+        "_id": "7",
+        "question_number": 7,
+        "practice_set": 14,
+        "category": "ELA: Theme",
+        "difficulty": "medium",
+        "time_estimate": 60,
+        "passage": "pdfData:pdf/2021 Grade 6 English Language.pdf",
+        "question_text": "Which sentence best expresses the theme of the story?",
+        "options": [
+            "People usually change as they grow older.",
+            "Sometimes people are embarrassed by family.",
+            "People often cherish their childhood memories.",
+            "Sometimes people make choices to please others."
+        ],
+        "correct_answer": 3,
+        "answer_type": "multiple_choice"
+    },
+    {
+        "_id": "8",
+        "question_number": 8,
+        "practice_set": 14,
+        "category": "ELA: Author's Craft",
+        "difficulty": "easy",
+        "time_estimate": 45,
+        "passage": "pdfData:pdf/2021 Grade 6 English Language.pdf",
+        "question_text": "How does the author first introduce the idea of outdoor play or outdoor activity?",
+        "options": [
+            "by inviting the reader to consider his or her own behavior",
+            "by providing data about changes in outdoor play",
+            "by stating the opinion that outdoor play is good for health",
+            "by listing effects of too much time spent indoors"
+        ],
+        "correct_answer": 0,
+        "answer_type": "multiple_choice"
+    },
+    {
+        "_id": "9",
+        "question_number": 9,
+        "practice_set": 14,
+        "category": "ELA: Reading Comprehension",
+        "difficulty": "easy",
+        "time_estimate": 60,
+        "passage": "pdfData:pdf/2021 Grade 6 English Language.pdf",
+        "question_text": "How does paragraph 4 support the author's argument?",
+        "options": [
+            "by describing the TV watching habits of children",
+            "by explaining reasons for the popularity of computer games",
+            "by providing solutions to the problems of indoor, nonmoving play",
+            "by suggesting that playing inside too much can cause children to become sick"
+        ],
+        "correct_answer": 3,
+        "answer_type": "multiple_choice"
+    },
+    {
+        "_id": "10",
+        "question_number": 10,
+        "practice_set": 14,
+        "category": "ELA: Vocabulary",
+        "difficulty": "easy",
+        "time_estimate": 45,
+        "passage": "pdfData:pdf/2021 Grade 6 English Language.pdf",
+        "question_text": "What is the definition of 'vital' as it is used in paragraph 6?",
+        "options": [
+            "related",
+            "harmful",
+            "essential",
+            "unfamiliar"
+        ],
+        "correct_answer": 2,
+        "answer_type": "multiple_choice"
+    },
+    {
+        "_id": "11",
+        "question_number": 11,
+        "practice_set": 14,
+        "category": "ELA: Main Idea",
+        "difficulty": "medium",
+        "time_estimate": 60,
+        "passage": "pdfData:pdf/2021 Grade 6 English Language.pdf",
+        "question_text": "How does paragraph 13 develop a central claim of the article?",
+        "options": [
+            "by describing how children are creative when playing outdoors",
+            "by emphasizing that children are physically healthier because of outdoor play",
+            "by explaining how children are interested in playing with friends the most",
+            "by illustrating how children are aware of the benefits of the environment"
+        ],
+        "correct_answer": 1,
+        "answer_type": "multiple_choice"
+    },
+    {
+        "_id": "12",
+        "question_number": 12,
+        "practice_set": 14,
+        "category": "ELA: Text Features",
+        "difficulty": "medium",
+        "time_estimate": 60,
+        "passage": "pdfData:pdf/2021 Grade 6 English Language.pdf",
+        "question_text": "How does the graph best support Richard Louv's claim that people are 'separated from nature' (paragraph 15)?",
+        "options": [
+            "by showing that activities such as bird watching and camping are less popular than other activities",
+            "by showing that spending time with friends is the most popular activity",
+            "by showing that listening to music is an activity that happens as often as using electronic devices",
+            "by showing that many do not know how to bike, fish, or camp"
+        ],
+        "correct_answer": 0,
+        "answer_type": "multiple_choice"
+    },
+    {
+        "_id": "13",
+        "question_number": 13,
+        "practice_set": 14,
+        "category": "ELA: Text Structure",
+        "difficulty": "medium",
+        "time_estimate": 60,
+        "passage": "pdfData:pdf/2021 Grade 6 English Language.pdf",
+        "question_text": "How do paragraphs 16 through 18 contribute to the structure of the article?",
+        "options": [
+            "The paragraphs describe a problem introduced earlier in the article.",
+            "The paragraphs contrast ways of accomplishing goals described in the article.",
+            "The paragraphs summarize the points made previously in the article.",
+            "The paragraphs give support to the main argument in the article."
+        ],
+        "correct_answer": 3,
+        "answer_type": "multiple_choice"
+    },
+    {
+        "_id": "14",
+        "question_number": 14,
+        "practice_set": 14,
+        "category": "ELA: Central Idea",
+        "difficulty": "easy",
+        "time_estimate": 60,
+        "passage": "pdfData:pdf/2021 Grade 6 English Language.pdf",
+        "question_text": "Which quotation best expresses the central idea of the article?",
+        "options": [
+            "\"If you're like Casey and many other people, it's likely that you spent more time inside four walls than outside in fresh air.\" (paragraph 4)",
+            "\"Just being exposed to the great outdoors does wonders.\" (paragraph 6)",
+            "\"If you walk through the woods in search of cool birds and plants, you may find your mind expanding.\" (paragraph 16)",
+            "\"It's not called the great outdoors for nothing.\" (paragraph 18)"
+        ],
+        "correct_answer": 1,
+        "answer_type": "multiple_choice"
+    },
+    {
+        "_id": "15",
+        "question_number": 15,
+        "practice_set": 14,
+        "category": "ELA: Literary Analysis",
+        "difficulty": "easy",
+        "time_estimate": 45,
+        "passage": "pdfData:pdf/2021 Grade 6 English Language.pdf",
+        "question_text": "How do paragraphs 3 and 4 contribute to the story?",
+        "options": [
+            "They help show Rakhee's kindness and ease around creatures in the outdoors.",
+            "They help the reader understand Rakhee's concern of whether her grandmother will remember her.",
+            "They provide evidence for Rakhee's love of singing Indian songs as a child.",
+            "They give the reader insight into Rakhee's memories of her grandmother."
+        ],
+        "correct_answer": 3,
+        "answer_type": "multiple_choice"
+    },
+    {
+        "_id": "16",
+        "question_number": 16,
+        "practice_set": 14,
+        "category": "ELA: Main Idea",
+        "difficulty": "medium",
+        "time_estimate": 60,
+        "passage": "pdfData:pdf/2021 Grade 6 English Language.pdf",
+        "question_text": "Which important idea does the author develop in paragraphs 7 through 9?",
+        "options": [
+            "Rakhee has lived a very exciting life.",
+            "Rakhee wishes she had grown up in India.",
+            "Rakhee has much to learn about her family's culture.",
+            "Rakhee's family is typical of Indian families."
+        ],
+        "correct_answer": 2,
+        "answer_type": "multiple_choice"
+    },
+    {
+        "_id": "17",
+        "question_number": 17,
+        "practice_set": 14,
+        "category": "ELA: Character Analysis",
+        "difficulty": "easy",
+        "time_estimate": 45,
+        "passage": "pdfData:pdf/2021 Grade 6 English Language.pdf",
+        "question_text": "Which statement best describes how the narrator reacts to the events in paragraphs 8 and 9?",
+        "options": [
+            "She becomes more appreciative of her mother.",
+            "She is uneasy about the change in her mother.",
+            "She becomes confused by her mother.",
+            "She admires the change in her mother."
+        ],
+        "correct_answer": 3,
+        "answer_type": "multiple_choice"
+    },
+    {
+        "_id": "18",
+        "question_number": 18,
+        "practice_set": 14,
+        "category": "ELA: Vocabulary",
+        "difficulty": "easy",
+        "time_estimate": 45,
+        "passage": "pdfData:pdf/2021 Grade 6 English Language.pdf",
+        "question_text": "In paragraph 9, what is the meaning of the phrase 'it streamed down her back in a lustrous river'?",
+        "options": [
+            "her long hair was flowing and shiny",
+            "her long hair was damp from being in a bun",
+            "her long hair seemed heavier than normal",
+            "her long hair moved steadily in one direction"
+        ],
+        "correct_answer": 0,
+        "answer_type": "multiple_choice"
+    },
+    {
+        "_id": "19",
+        "question_number": 19,
+        "practice_set": 14,
+        "category": "ELA: Character Analysis",
+        "difficulty": "easy",
+        "time_estimate": 45,
+        "passage": "pdfData:pdf/2021 Grade 6 English Language.pdf",
+        "question_text": "What does paragraph 9 most reveal about the narrator's mother?",
+        "options": [
+            "that she is more talkative when she is in India",
+            "that she follows customary traditions when she is in India",
+            "that she is more self-conscious when she is in India",
+            "that she visits many people when she is in India"
+        ],
+        "correct_answer": 1,
+        "answer_type": "multiple_choice"
+    },
+    {
+        "_id": "20",
+        "question_number": 20,
+        "practice_set": 14,
+        "category": "ELA: Theme",
+        "difficulty": "medium",
+        "time_estimate": 60,
+        "passage": "pdfData:pdf/2021 Grade 6 English Language.pdf",
+        "question_text": "Which statement best states a theme of the story?",
+        "options": [
+            "Families can be surprising.",
+            "Beauty can be found in most things.",
+            "Traveling to new places can be tiring.",
+            "New experiences can change how we see the world."
+        ],
+        "correct_answer": 3,
+        "answer_type": "multiple_choice"
+    },
+    {
+        "_id": "21",
+        "question_number": 21,
+        "practice_set": 14,
+        "category": "ELA: Point of View",
+        "difficulty": "medium",
+        "time_estimate": 60,
+        "passage": "pdfData:pdf/2021 Grade 6 English Language.pdf",
+        "question_text": "How does the author most develop Rakhee's point of view?",
+        "options": [
+            "by comparing Rakhee's experience to her mother's",
+            "by having Rakhee describe her impressions of India",
+            "by showing Rakhee's alarm during the scene with the elephant",
+            "by including Rakhee's reaction to Amma's changed appearance"
+        ],
+        "correct_answer": 1,
+        "answer_type": "multiple_choice"
+    },
+    {
+        "_id": "22",
+        "question_number": 22,
+        "practice_set": 14,
+        "category": "ELA: Reading Comprehension",
+        "difficulty": "easy",
+        "time_estimate": 60,
+        "passage": "pdfData:pdf/2021 Grade 6 English Language.pdf",
+        "question_text": "How is the idea 'Lightning begins inside thunderstorms' (paragraph 2) developed in the article?",
+        "options": [
+            "by comparing a lightning bolt to a small spark",
+            "by describing how lightning occurs in different types of weather",
+            "by explaining how air at different temperatures creates a charge in clouds",
+            "by providing examples of how much electricity is produced by electrons jumping through air"
+        ],
+        "correct_answer": 2,
+        "answer_type": "multiple_choice"
+    },
+    {
+        "_id": "23",
+        "question_number": 23,
+        "practice_set": 14,
+        "category": "ELA: Author's Craft",
+        "difficulty": "easy",
+        "time_estimate": 45,
+        "passage": "pdfData:pdf/2021 Grade 6 English Language.pdf",
+        "question_text": "Read this quotation from paragraph 6.\n'Between 1,500 and 2,000 thunderstorms are crackling and booming around the world at this very moment...'\nWhy does the author use the words 'crackling and booming' instead of 'occurring'?",
+        "options": [
+            "to help the reader experience the speed of lightning",
+            "to help the reader imagine the sounds of thunderstorms",
+            "to be clear about the electrical nature of lightning",
+            "to be accurate about how common thunderstorms are"
+        ],
+        "correct_answer": 1,
+        "answer_type": "multiple_choice"
+    },
+    {
+        "_id": "24",
+        "question_number": 24,
+        "practice_set": 14,
+        "category": "ELA: Text Features",
+        "difficulty": "easy",
+        "time_estimate": 45,
+        "passage": "pdfData:pdf/2021 Grade 6 English Language.pdf",
+        "question_text": "How does the illustration support the author's claims in the section 'Lightning around the World'?",
+        "options": [
+            "by highlighting the size of lightning strikes in particular areas",
+            "by providing evidence of why lightning strikes in some areas",
+            "by illustrating which areas are more affected by lightning strikes",
+            "by showing the limited areas in the world where lightning strikes occur"
+        ],
+        "correct_answer": 2,
+        "answer_type": "multiple_choice"
+    },
+    {
+        "_id": "25",
+        "question_number": 25,
+        "practice_set": 14,
+        "category": "ELA: Text Structure",
+        "difficulty": "medium",
+        "time_estimate": 60,
+        "passage": "pdfData:pdf/2021 Grade 6 English Language.pdf",
+        "question_text": "How does the section 'Lightning Safety' connect to the section 'What is Lightning?'",
+        "options": [
+            "'Lightning Safety' summarizes the effects of lightning described in 'What is Lightning?'",
+            "'Lightning Safety' contrasts different types of lightning described in 'What is Lightning?'",
+            "'Lightning Safety' elaborates on the cause of the powerful lightning described in 'What is Lightning?'",
+            "'Lightning Safety' describes ways to avoid the powerful lightning explained in 'What is Lightning?'"
+        ],
+        "correct_answer": 3,
+        "answer_type": "multiple_choice"
+    },
+    {
+        "_id": "26",
+        "question_number": 26,
+        "practice_set": 14,
+        "category": "ELA: Central Idea",
+        "difficulty": "medium",
+        "time_estimate": 60,
+        "passage": "pdfData:pdf/2021 Grade 6 English Language.pdf",
+        "question_text": "Which sentence best expresses a central idea in the article?",
+        "options": [
+            "Lightning strikes are only about as thick as a pencil.",
+            "Lightning strikes are uncommon far out over the ocean.",
+            "Lightning strikes are due to unstable weather conditions.",
+            "Lightning strikes are able to travel through pipes in a building."
+        ],
+        "correct_answer": 2,
+        "answer_type": "multiple_choice"
+    },
+    {
+        "_id": "27",
+        "question_number": 27,
+        "practice_set": 14,
+        "category": "ELA: Point of View",
+        "difficulty": "easy",
+        "time_estimate": 45,
+        "passage": "pdfData:pdf/2021 Grade 6 English Language.pdf",
+        "question_text": "What does paragraph 9 suggest about the author's point of view in the article?",
+        "options": [
+            "The author has great respect for lightning.",
+            "The author has difficulty understanding lightning.",
+            "The author believes that lightning can be useful.",
+            "The author believes that it is impossible to avoid lightning."
+        ],
+        "correct_answer": 0,
+        "answer_type": "multiple_choice"
+    },
+    {
+        "_id": "28",
+        "question_number": 28,
+        "practice_set": 14,
+        "category": "ELA: Main Idea",
+        "difficulty": "easy",
+        "time_estimate": 45,
+        "passage": "pdfData:pdf/2021 Grade 6 English Language.pdf",
+        "question_text": "Which idea would be most important to include in a summary of the article?",
+        "options": [
+            "\"The farther away lightning strikes, the deeper the sound of the thunder...\" (paragraph 5)",
+            "\"Lightning zaps the remote mountain village of Kifuka, in central Africa, nearly every day.\" (paragraph 6)",
+            "\"Because of its unpredictability and power, lightning can be extremely dangerous.\" (paragraph 8)",
+            "\"You're safe inside the car because electricity will travel over the metal surface instead of through the interior.\" (paragraph 9)"
+        ],
+        "correct_answer": 2,
+        "answer_type": "multiple_choice"
+    }
+]
