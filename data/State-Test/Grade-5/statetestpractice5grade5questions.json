@@ -1,0 +1,506 @@
+[
+    {
+        "_id": "1",
+        "question_number": 1,
+        "practice_set": 5,
+        "category": "ELA: Figurative Language",
+        "difficulty": "easy",
+        "time_estimate": 45,
+        "passage": "pdfData:pdf/2021 Grade 5 English Language Arts.pdf",
+        "question_text": "In paragraph 5, what does the phrase \"held our breath\" suggest about the narrator and Josh?",
+        "options": [
+            "They are sneaking around the house to avoid being seen by Mother.",
+            "They are feeling thankful that Aunt Marjorie has left.",
+            "They are waiting anxiously to see what Mother will do next.",
+            "They are trying to avoid talking about The Hat because it is upsetting."
+        ],
+        "correct_answer": 2,
+        "answer_type": "multiple_choice"
+    },
+    {
+        "_id": "2",
+        "question_number": 2,
+        "practice_set": 5,
+        "category": "ELA: Text Structure",
+        "difficulty": "medium",
+        "time_estimate": 60,
+        "passage": "pdfData:pdf/2021 Grade 5 English Language Arts.pdf",
+        "question_text": "How does paragraph 5 contribute to the story's structure?",
+        "options": [
+            "It foreshadows the resolution of the story.",
+            "It develops the narrator's feelings about Mother.",
+            "It explains Mother's problem in detail.",
+            "It gives background details that explain the story."
+        ],
+        "correct_answer": 2,
+        "answer_type": "multiple_choice"
+    },
+    {
+        "_id": "3",
+        "question_number": 3,
+        "practice_set": 5,
+        "category": "ELA: Theme",
+        "difficulty": "easy",
+        "time_estimate": 45,
+        "passage": "pdfData:pdf/2021 Grade 5 English Language Arts.pdf",
+        "question_text": "Which quotation best supports a theme of the story?",
+        "options": [
+            "\"My mother believed in using things up.\" (paragraph 1)",
+            "\"We looked at each other, then scouted the house.\" (paragraph 6)",
+            "\"It wasn't hard to spot.\" (paragraph 6)",
+            "\"Then we glanced over at the lamp.\" (paragraph 8)"
+        ],
+        "correct_answer": 0,
+        "answer_type": "multiple_choice"
+    },
+    {
+        "_id": "4",
+        "question_number": 4,
+        "practice_set": 5,
+        "category": "ELA: Point of View",
+        "difficulty": "medium",
+        "time_estimate": 60,
+        "passage": "pdfData:pdf/2021 Grade 5 English Language Arts.pdf",
+        "question_text": "In paragraphs 8 and 9, how does the narrator's point of view influence the description of events?",
+        "options": [
+            "The narrator thinks the events are funny, so she describes them in a humorous way.",
+            "The narrator thinks the events are boring, so she describes them in a dull way.",
+            "The narrator is confused by the events, so she describes them in a mysterious way.",
+            "The narrator is happy about the events, so she describes them in a joyful way."
+        ],
+        "correct_answer": 0,
+        "answer_type": "multiple_choice"
+    },
+    {
+        "_id": "5",
+        "question_number": 5,
+        "practice_set": 5,
+        "category": "ELA: Figurative Language",
+        "difficulty": "easy",
+        "time_estimate": 45,
+        "passage": "pdfData:pdf/2021 Grade 5 English Language Arts.pdf",
+        "question_text": "Read this sentence from paragraph 12.\n'It was as though time stood still.'\nWhich idea does the sentence develop?",
+        "options": [
+            "Everyone was pleased.",
+            "Nobody moved or spoke.",
+            "Nobody wanted to leave.",
+            "Everyone was late."
+        ],
+        "correct_answer": 1,
+        "answer_type": "multiple_choice"
+    },
+    {
+        "_id": "6",
+        "question_number": 6,
+        "practice_set": 5,
+        "category": "ELA: Inference",
+        "difficulty": "medium",
+        "time_estimate": 60,
+        "passage": "pdfData:pdf/2021 Grade 5 English Language Arts.pdf",
+        "question_text": "What can the reader infer from the details in paragraphs 17 and 18 of the story?",
+        "options": [
+            "Mother worries that the crows will stop being afraid of The Hat and changes to a new hat every June.",
+            "Mother is concerned about the crows and gives them one month each year to eat what is in the cornfield.",
+            "Mother spends each June enjoying time with Aunt Marjorie and does not do much work in the cornfield.",
+            "Mother removes The Hat from the cornfield in June so that Aunt Marjorie's feelings will not be hurt."
+        ],
+        "correct_answer": 3,
+        "answer_type": "multiple_choice"
+    },
+    {
+        "_id": "7",
+        "question_number": 7,
+        "practice_set": 5,
+        "category": "ELA: Character Analysis",
+        "difficulty": "easy",
+        "time_estimate": 45,
+        "passage": "pdfData:pdf/2021 Grade 5 English Language Arts.pdf",
+        "question_text": "How are the narrator and Josh alike?",
+        "options": [
+            "They both make comments that cause their mother to have new ideas.",
+            "They both are interested in watching their mother solve her problem.",
+            "They both contribute their old items to build the scarecrow for the field.",
+            "They both joke about how their dog is more attractive than the hat."
+        ],
+        "correct_answer": 1,
+        "answer_type": "multiple_choice"
+    },
+    {
+        "_id": "8",
+        "question_number": 8,
+        "practice_set": 5,
+        "category": "ELA: Author's Craft",
+        "difficulty": "easy",
+        "time_estimate": 45,
+        "passage": "pdfData:pdf/2021 Grade 5 English Language Arts.pdf",
+        "question_text": "Read this sentence from paragraph 1 of the article.\n'In the days when farmers worked with ox and sled and cut the dark with lantern light, there lived a boy who loved snow more than anything in the world.'\nHow does the author's word choice in the sentence affect the meaning of the passage?",
+        "options": [
+            "by suggesting that the ideas in the passage are made up",
+            "by showing that the subject of the passage became famous",
+            "by suggesting that the topic of the passage is familiar",
+            "by showing that the events in the passage happened long ago"
+        ],
+        "correct_answer": 3,
+        "answer_type": "multiple_choice"
+    },
+    {
+        "_id": "9",
+        "question_number": 9,
+        "practice_set": 5,
+        "category": "ELA: Vocabulary",
+        "difficulty": "easy",
+        "time_estimate": 45,
+        "passage": "pdfData:pdf/2021 Grade 5 English Language Arts.pdf",
+        "question_text": "What is the meaning of the word \"pelted\" as it is used in paragraph 3?",
+        "options": [
+            "created",
+            "found",
+            "saved",
+            "threw"
+        ],
+        "correct_answer": 3,
+        "answer_type": "multiple_choice"
+    },
+    {
+        "_id": "10",
+        "question_number": 10,
+        "practice_set": 5,
+        "category": "ELA: Main Idea",
+        "difficulty": "easy",
+        "time_estimate": 45,
+        "passage": "pdfData:pdf/2021 Grade 5 English Language Arts.pdf",
+        "question_text": "Which quotation best supports a main idea of the article?",
+        "options": [
+            "\"He expected to find whole flakes that were the same...\" (paragraph 4)",
+            "\"'Fussing with snow is just foolishness,' his father said.\" (paragraph 6)",
+            "\"Even so his first pictures were failures...\" (paragraph 7)",
+            "\"'Now everyone can see the great beauty in a tiny crystal,' he said.\" (paragraph 7)"
+        ],
+        "correct_answer": 3,
+        "answer_type": "multiple_choice"
+    },
+    {
+        "_id": "11",
+        "question_number": 11,
+        "practice_set": 5,
+        "category": "ELA: Author's Point of View",
+        "difficulty": "medium",
+        "time_estimate": 60,
+        "passage": "pdfData:pdf/2021 Grade 5 English Language Arts.pdf",
+        "question_text": "What does the information in paragraph 9 suggest about the author's point of view?",
+        "options": [
+            "The author believes that Bentley could have been more careful.",
+            "The author respects Bentley's many different interests.",
+            "The author admires Bentley's dedication.",
+            "The author questions the methods Bentley used."
+        ],
+        "correct_answer": 2,
+        "answer_type": "multiple_choice"
+    },
+    {
+        "_id": "12",
+        "question_number": 12,
+        "practice_set": 5,
+        "category": "ELA: Reading Comprehension",
+        "difficulty": "medium",
+        "time_estimate": 60,
+        "passage": "pdfData:pdf/2021 Grade 5 English Language Arts.pdf",
+        "question_text": "Which statement is true based on the information in paragraphs 6 and 11?",
+        "options": [
+            "Bentley's work with snow required expensive equipment that he was willing to spend all his money on.",
+            "Bentley was thought to be foolish throughout his life because of his interest in snow.",
+            "Bentley's parents thought he should do something with his life other than taking pictures of snow.",
+            "Bentley became less interested in studying snow than in publishing pictures and giving speeches."
+        ],
+        "correct_answer": 0,
+        "answer_type": "multiple_choice"
+    },
+    {
+        "_id": "13",
+        "question_number": 13,
+        "practice_set": 5,
+        "category": "ELA: Character Analysis",
+        "difficulty": "easy",
+        "time_estimate": 45,
+        "passage": "pdfData:pdf/2021 Grade 5 English Language Arts.pdf",
+        "question_text": "What does the reader learn about Bentley from paragraphs 10 and 11?",
+        "options": [
+            "He was more interested in sharing his work than in making money from it.",
+            "He worked hard to develop a way of making photographs of snowflakes.",
+            "He wanted to find out if all snowflakes were different from each other.",
+            "He was able to follow his interests because of the help he got from his family."
+        ],
+        "correct_answer": 0,
+        "answer_type": "multiple_choice"
+    },
+    {
+        "_id": "14",
+        "question_number": 14,
+        "practice_set": 5,
+        "category": "ELA: Text Structure",
+        "difficulty": "easy",
+        "time_estimate": 45,
+        "passage": "pdfData:pdf/2021 Grade 5 English Language Arts.pdf",
+        "question_text": "Which sentence best describes how the article is organized?",
+        "options": [
+            "The reasons for Willie Bentley's experiments with snow are presented, followed by their eventual conclusions.",
+            "The events of Willie Bentley's life and his study of snow are described as they happened over time.",
+            "The different problems of photographing snow are explained and then Willie Bentley's solutions are described.",
+            "The important ideas about snow in Willie Bentley's discoveries are presented, followed by details and examples."
+        ],
+        "correct_answer": 1,
+        "answer_type": "multiple_choice"
+    },
+    {
+        "_id": "15",
+        "question_number": 15,
+        "practice_set": 5,
+        "category": "ELA: Plot Development",
+        "difficulty": "easy",
+        "time_estimate": 45,
+        "passage": "pdfData:pdf/2021 Grade 5 English Language Arts.pdf",
+        "question_text": "How do paragraphs 1 and 23 relate to each other?",
+        "options": [
+            "They show the change in Gregor's life during the story.",
+            "They show what Gregor has learned in the story.",
+            "They show how MacTavish changes in the story.",
+            "They show the growth of MacTavish's fortune during the story."
+        ],
+        "correct_answer": 0,
+        "answer_type": "multiple_choice"
+    },
+    {
+        "_id": "16",
+        "question_number": 16,
+        "practice_set": 5,
+        "category": "ELA: Character Analysis",
+        "difficulty": "easy",
+        "time_estimate": 45,
+        "passage": "pdfData:pdf/2021 Grade 5 English Language Arts.pdf",
+        "question_text": "What does the phrase \"marched back\" in paragraph 14 suggest about MacTavish?",
+        "options": [
+            "He is confused.",
+            "He is worried.",
+            "He is determined.",
+            "He is excited."
+        ],
+        "correct_answer": 2,
+        "answer_type": "multiple_choice"
+    },
+    {
+        "_id": "17",
+        "question_number": 17,
+        "practice_set": 5,
+        "category": "ELA: Compare and Contrast",
+        "difficulty": "medium",
+        "time_estimate": 60,
+        "passage": "pdfData:pdf/2021 Grade 5 English Language Arts.pdf",
+        "question_text": "How are Gregor and the man who sold the sheep to him similar?",
+        "options": [
+            "They are both unskilled at selling things to people.",
+            "They both try to trick someone in order to make money.",
+            "They are both concerned with helping their family and neighbors.",
+            "They both believe that animals can have special qualities."
+        ],
+        "correct_answer": 1,
+        "answer_type": "multiple_choice"
+    },
+    {
+        "_id": "18",
+        "question_number": 18,
+        "practice_set": 5,
+        "category": "ELA: Character Analysis",
+        "difficulty": "easy",
+        "time_estimate": 45,
+        "passage": "pdfData:pdf/2021 Grade 5 English Language Arts.pdf",
+        "question_text": "Which of Gregor's actions shows how he is different from MacTavish?",
+        "options": [
+            "Gregor cheats another person.",
+            "Gregor buys a sickly sheep.",
+            "Gregor shares his wealth.",
+            "Gregor moves to a big house."
+        ],
+        "correct_answer": 2,
+        "answer_type": "multiple_choice"
+    },
+    {
+        "_id": "19",
+        "question_number": 19,
+        "practice_set": 5,
+        "category": "ELA: Compare and Contrast",
+        "difficulty": "easy",
+        "time_estimate": 45,
+        "passage": "pdfData:pdf/2021 Grade 5 English Language Arts.pdf",
+        "question_text": "Which sentence is true about Gregor and MacTavish?",
+        "options": [
+            "MacTavish has a plan for how the sheep will make him rich, but Gregor does not.",
+            "MacTavish wants to own big houses and many jewels, but Gregor does not.",
+            "Gregor wants to move away to another land, but MacTavish does not.",
+            "Gregor is generous with his family and his neighbors, but MacTavish is not."
+        ],
+        "correct_answer": 3,
+        "answer_type": "multiple_choice"
+    },
+    {
+        "_id": "20",
+        "question_number": 20,
+        "practice_set": 5,
+        "category": "ELA: Theme",
+        "difficulty": "easy",
+        "time_estimate": 45,
+        "passage": "pdfData:pdf/2021 Grade 5 English Language Arts.pdf",
+        "question_text": "Which sentence expresses a theme of the story?",
+        "options": [
+            "Big loss can come from being greedy.",
+            "Family can make hard times seem easier.",
+            "Wealth may come from hard work.",
+            "Appreciating others can lead to happiness."
+        ],
+        "correct_answer": 0,
+        "answer_type": "multiple_choice"
+    },
+    {
+        "_id": "21",
+        "question_number": 21,
+        "practice_set": 5,
+        "category": "ELA: Main Idea",
+        "difficulty": "easy",
+        "time_estimate": 45,
+        "passage": "pdfData:pdf/2021 Grade 5 English Language Arts.pdf",
+        "question_text": "Which detail would be most important to include in a summary of the story?",
+        "options": [
+            "Gregor goes to the market and talks to many farmers about their sheep.",
+            "Gregor's mother is asleep when Gregor takes money to buy the sheep.",
+            "MacTavish lives at another one of his houses after he buys the sheep from Gregor.",
+            "MacTavish goes to buy Gregor's sheep after he hears rumors about the animal."
+        ],
+        "correct_answer": 3,
+        "answer_type": "multiple_choice"
+    },
+    {
+        "_id": "22",
+        "question_number": 22,
+        "practice_set": 5,
+        "category": "ELA: Main Idea",
+        "difficulty": "easy",
+        "time_estimate": 45,
+        "passage": "pdfData:pdf/2021 Grade 5 English Language Arts.pdf",
+        "question_text": "What idea is developed in paragraphs 4 through 7?",
+        "options": [
+            "Wangari and her mother want to plant more trees.",
+            "Mugumo trees are important to people and animals.",
+            "Mugumo trees can provide shade to many people.",
+            "Wangari and her mother think education is important."
+        ],
+        "correct_answer": 1,
+        "answer_type": "multiple_choice"
+    },
+    {
+        "_id": "23",
+        "question_number": 23,
+        "practice_set": 5,
+        "category": "ELA: Figurative Language",
+        "difficulty": "easy",
+        "time_estimate": 45,
+        "passage": "pdfData:pdf/2021 Grade 5 English Language Arts.pdf",
+        "question_text": "Read this sentence from paragraph 8 of the article.\n'Her mind was like a seed rooted in rich soil, ready to grow.'\nWhat does the sentence help the reader to understand about Wangari?",
+        "options": [
+            "She likes to think about plants.",
+            "She wants to keep learning.",
+            "She imagines ways to help others.",
+            "She believes in working together."
+        ],
+        "correct_answer": 1,
+        "answer_type": "multiple_choice"
+    },
+    {
+        "_id": "24",
+        "question_number": 24,
+        "practice_set": 5,
+        "category": "ELA: Text Structure",
+        "difficulty": "medium",
+        "time_estimate": 60,
+        "passage": "pdfData:pdf/2021 Grade 5 English Language Arts.pdf",
+        "question_text": "How are the details in paragraphs 13 and 14 organized?",
+        "options": [
+            "as a description of how animal habitats changed",
+            "as an explanation of the solution to a problem in the environment",
+            "as a comparison of the village before and after the government sold the land",
+            "as a description of how a problem was caused in the area and its effects"
+        ],
+        "correct_answer": 3,
+        "answer_type": "multiple_choice"
+    },
+    {
+        "_id": "25",
+        "question_number": 25,
+        "practice_set": 5,
+        "category": "ELA: Reading Comprehension",
+        "difficulty": "easy",
+        "time_estimate": 45,
+        "passage": "pdfData:pdf/2021 Grade 5 English Language Arts.pdf",
+        "question_text": "Paragraphs 17 and 18 explain that Wangari spread her idea by",
+        "options": [
+            "sharing it with women around the country",
+            "giving it the name Green Belt Movement",
+            "watching the land in Kenya turn green again",
+            "planting trees herself everywhere she went"
+        ],
+        "correct_answer": 0,
+        "answer_type": "multiple_choice"
+    },
+    {
+        "_id": "26",
+        "question_number": 26,
+        "practice_set": 5,
+        "category": "ELA: Author's Point of View",
+        "difficulty": "medium",
+        "time_estimate": 60,
+        "passage": "pdfData:pdf/2021 Grade 5 English Language Arts.pdf",
+        "question_text": "Which sentence most likely expresses Wangari's point of view?",
+        "options": [
+            "People can make the changes they want by working together with determination.",
+            "People change their traditions and customs with each generation.",
+            "People cannot rely on the government to help them in a time of need.",
+            "People in other countries do not need to work as hard on the same problem."
+        ],
+        "correct_answer": 0,
+        "answer_type": "multiple_choice"
+    },
+    {
+        "_id": "27",
+        "question_number": 27,
+        "practice_set": 5,
+        "category": "ELA: Main Idea",
+        "difficulty": "easy",
+        "time_estimate": 45,
+        "passage": "pdfData:pdf/2021 Grade 5 English Language Arts.pdf",
+        "question_text": "How does the title of the article support a main idea?",
+        "options": [
+            "It describes advice Wangari followed.",
+            "It describes how Wangari solved a problem.",
+            "It explains how Wangari felt about trees.",
+            "It explains which values Wangari's village held."
+        ],
+        "correct_answer": 1,
+        "answer_type": "multiple_choice"
+    },
+    {
+        "_id": "28",
+        "question_number": 28,
+        "practice_set": 5,
+        "category": "ELA: Inference",
+        "difficulty": "medium",
+        "time_estimate": 60,
+        "passage": "pdfData:pdf/2021 Grade 5 English Language Arts.pdf",
+        "question_text": "Based on the information in the article, where did Wangari most likely get her idea for planting trees across Kenya?",
+        "options": [
+            "from the school she attended in the capital city",
+            "from the government of her country",
+            "from the women of the village where she grew up",
+            "from what her mother taught her as a girl"
+        ],
+        "correct_answer": 3,
+        "answer_type": "multiple_choice"
+    }
+]
