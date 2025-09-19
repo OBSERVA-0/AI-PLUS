@@ -1,0 +1,471 @@
+[
+    {
+        "_id": "1",
+        "question_number": 1,
+        "practice_set": 6,
+        "category": "ELA: Theme",
+        "difficulty": "medium",
+        "time_estimate": 60,
+        "passage": "pdfData:pdf/2022 Grade 5 English Language.pdf",
+        "question_text": "Which statement best expresses a theme of the story?",
+        "options": [
+            "It is wise to work in secret if a dream is not supported by relatives.",
+            "Working with new people can be scary, but will become easier over time.",
+            "Beautiful objects can bring happiness, but they are often not worth the price.",
+            "Determination and creative thinking can help people overcome challenges."
+        ],
+        "correct_answer": 3,
+        "answer_type": "multiple_choice"
+    },
+    {
+        "_id": "2",
+        "question_number": 2,
+        "practice_set": 6,
+        "category": "ELA: Figurative Language",
+        "difficulty": "easy",
+        "time_estimate": 45,
+        "passage": "pdfData:pdf/2022 Grade 5 English Language.pdf",
+        "question_text": "In paragraph 1, what does the phrase \"like a flame\" help the reader to understand about the cloth?",
+        "options": [
+            "its size and how much it weighs",
+            "its color and how it moves",
+            "its temperature and its direction",
+            "its pattern and its use"
+        ],
+        "correct_answer": 1,
+        "answer_type": "multiple_choice"
+    },
+    {
+        "_id": "3",
+        "question_number": 3,
+        "practice_set": 6,
+        "category": "ELA: Character Analysis",
+        "difficulty": "easy",
+        "time_estimate": 45,
+        "passage": "pdfData:pdf/2022 Grade 5 English Language.pdf",
+        "question_text": "What do the details in paragraph 3 show about Sali?",
+        "options": [
+            "She is thoughtful and creative.",
+            "She is greedy and demanding.",
+            "She is careful and ambitious.",
+            "She is strange and secretive."
+        ],
+        "correct_answer": 0,
+        "answer_type": "multiple_choice"
+    },
+    {
+        "_id": "4",
+        "question_number": 4,
+        "practice_set": 6,
+        "category": "ELA: Point of View",
+        "difficulty": "medium",
+        "time_estimate": 60,
+        "passage": "pdfData:pdf/2022 Grade 5 English Language.pdf",
+        "question_text": "What does paragraph 13 reveal about Sali's point of view?",
+        "options": [
+            "Sali is worried that all of her work will be wasted if she cannot complete her project.",
+            "Sali is eager to learn new skills so that she can take care of herself like a grownup.",
+            "Sali is delighted to keep her secret and surprise her family with her new dlokibani.",
+            "Sali is unsure and does not have a detailed plan to have the dlokibani made."
+        ],
+        "correct_answer": 3,
+        "answer_type": "multiple_choice"
+    },
+    {
+        "_id": "5",
+        "question_number": 5,
+        "practice_set": 6,
+        "category": "ELA: Inference",
+        "difficulty": "easy",
+        "time_estimate": 45,
+        "passage": "pdfData:pdf/2022 Grade 5 English Language.pdf",
+        "question_text": "What can the reader infer about the shopkeeper and the tailor?",
+        "options": [
+            "They are clever and proud.",
+            "They are tense and distracted.",
+            "They are silly and foolish.",
+            "They are fair and generous."
+        ],
+        "correct_answer": 3,
+        "answer_type": "multiple_choice"
+    },
+    {
+        "_id": "6",
+        "question_number": 6,
+        "practice_set": 6,
+        "category": "ELA: Text Structure",
+        "difficulty": "medium",
+        "time_estimate": 60,
+        "passage": "pdfData:pdf/2022 Grade 5 English Language.pdf",
+        "question_text": "How do paragraphs 7 and 17 contribute to the structure of the story?",
+        "options": [
+            "They foreshadow an important choice Sali makes later.",
+            "They explain why Sali wants a new dress.",
+            "They show the actions Sali takes to solve her problem.",
+            "They provide details about the shopkeeper and the tailor."
+        ],
+        "correct_answer": 2,
+        "answer_type": "multiple_choice"
+    },
+    {
+        "_id": "7",
+        "question_number": 7,
+        "practice_set": 6,
+        "category": "ELA: Theme",
+        "difficulty": "easy",
+        "time_estimate": 45,
+        "passage": "pdfData:pdf/2022 Grade 5 English Language.pdf",
+        "question_text": "Which quotation best supports a theme of the story?",
+        "options": [
+            "\"'Why do you stand so long at the door?' he asked.\" (paragraph 6)",
+            "\"'You've worked well for this cloth, Sali,' he said.\" (paragraph 11)",
+            "\"Sali rushed straight home with her treasure.\" (paragraph 12)",
+            "\"Then he started cutting the billows of orange fabric.\" (paragraph 19)"
+        ],
+        "correct_answer": 1,
+        "answer_type": "multiple_choice"
+    },
+    {
+        "_id": "8",
+        "question_number": 8,
+        "practice_set": 6,
+        "category": "ELA: Reading Comprehension",
+        "difficulty": "easy",
+        "time_estimate": 45,
+        "passage": "pdfData:pdf/2022 Grade 5 English Language.pdf",
+        "question_text": "Which sentence best represents a conflict between Guthrie and her father?",
+        "options": [
+            "Guthrie's father is concerned when she begins flying at a young age.",
+            "Guthrie's father thinks free-fall parachuting is too dangerous for her.",
+            "Guthrie's father is worried about her becoming a race car driver.",
+            "Guthrie's father insists she has to take private parachuting lessons."
+        ],
+        "correct_answer": 1,
+        "answer_type": "multiple_choice"
+    },
+    {
+        "_id": "9",
+        "question_number": 9,
+        "practice_set": 6,
+        "category": "ELA: Author's Purpose",
+        "difficulty": "easy",
+        "time_estimate": 45,
+        "passage": "pdfData:pdf/2022 Grade 5 English Language.pdf",
+        "question_text": "Paragraphs 10 and 11 are important to the article because they",
+        "options": [
+            "describe to the reader how Guthrie drove around Long Island",
+            "inform the reader that Guthrie joined a local sports car club",
+            "explain to the reader how Guthrie began to win auto races",
+            "tell the reader that Guthrie was helped by a driver in Connecticut"
+        ],
+        "correct_answer": 2,
+        "answer_type": "multiple_choice"
+    },
+    {
+        "_id": "10",
+        "question_number": 10,
+        "practice_set": 6,
+        "category": "ELA: Author's Point of View",
+        "difficulty": "easy",
+        "time_estimate": 45,
+        "passage": "pdfData:pdf/2022 Grade 5 English Language.pdf",
+        "question_text": "Which quotation best reveals the author's point of view?",
+        "options": [
+            "\"It was no surprise that Janet Guthrie excelled at one of the most dangerous sports on Earth.\" (paragraph 1)",
+            "\"... the pro taught her how to pull the rip cord that opened the chute, how to absorb the shock after landing...\" (paragraph 7)",
+            "\"She flew whenever she could break away from her classes at the University of Michigan.\" (paragraph 8)",
+            "\"To get into top physical shape for Vollstedt's test, Guthrie did exercises...\" (paragraph 19)"
+        ],
+        "correct_answer": 0,
+        "answer_type": "multiple_choice"
+    },
+    {
+        "_id": "11",
+        "question_number": 11,
+        "practice_set": 6,
+        "category": "ELA: Main Idea",
+        "difficulty": "medium",
+        "time_estimate": 60,
+        "passage": "pdfData:pdf/2022 Grade 5 English Language.pdf",
+        "question_text": "Which detail from the article represents Guthrie's biggest challenge?",
+        "options": [
+            "\"Before long she taught herself how to take apart and rebuild its engine...\" (paragraph 12)",
+            "\"... finishing in some of the country's most celebrated long-distance competitions.\" (paragraph 14)",
+            "\"... a secret test at the Ontario Motor Speedway near Los Angeles.\" (paragraph 18)",
+            "\"One day she lost her balance, landed hard on her left foot, and fell...\" (paragraph 19)"
+        ],
+        "correct_answer": 3,
+        "answer_type": "multiple_choice"
+    },
+    {
+        "_id": "12",
+        "question_number": 12,
+        "practice_set": 6,
+        "category": "ELA: Character Analysis",
+        "difficulty": "easy",
+        "time_estimate": 45,
+        "passage": "pdfData:pdf/2022 Grade 5 English Language.pdf",
+        "question_text": "Which detail from the article best represents Janet Guthrie?",
+        "options": [
+            "\"She had always loved adventure and daring new experiences.\" (paragraph 1)",
+            "\"Excited by her success, Guthrie attended a driving school in Connecticut.\" (paragraph 11)",
+            "\"In 1973, she won the North Atlantic Road Racing Championship.\" (paragraph 14)",
+            "\"Broken ankle and all, Guthrie stepped into an unfamiliar car.\" (paragraph 20)"
+        ],
+        "correct_answer": 0,
+        "answer_type": "multiple_choice"
+    },
+    {
+        "_id": "13",
+        "question_number": 13,
+        "practice_set": 6,
+        "category": "ELA: Figurative Language",
+        "difficulty": "easy",
+        "time_estimate": 45,
+        "passage": "pdfData:pdf/2022 Grade 5 English Language.pdf",
+        "question_text": "In paragraph 20, what does Guthrie mean when she says, \"It was like going to the moon\"?",
+        "options": [
+            "She thinks driving a fast car is quite exciting.",
+            "She believes racing can often be dangerous.",
+            "She thinks the speed of the car is frightening.",
+            "She believes racing is similar to space flight."
+        ],
+        "correct_answer": 0,
+        "answer_type": "multiple_choice"
+    },
+    {
+        "_id": "14",
+        "question_number": 14,
+        "practice_set": 6,
+        "category": "ELA: Title Analysis",
+        "difficulty": "medium",
+        "time_estimate": 60,
+        "passage": "pdfData:pdf/2022 Grade 5 English Language.pdf",
+        "question_text": "Which idea from the article does the title \"Janet Guthrie: Lady in the Fast Lane' from Profiles in Sports Courage\" best support?",
+        "options": [
+            "Guthrie was a hard worker and saved money to achieve her goals.",
+            "Guthrie was famous for participating in a race with a broken foot.",
+            "Guthrie was fearless at trying thrilling and challenging new activities.",
+            "Guthrie was determined to become a commercial pilot like her father."
+        ],
+        "correct_answer": 2,
+        "answer_type": "multiple_choice"
+    },
+    {
+        "_id": "29",
+        "question_number": 29,
+        "practice_set": 6,
+        "category": "ELA: Vocabulary",
+        "difficulty": "easy",
+        "time_estimate": 45,
+        "passage": "pdfData:pdf/2022 Grade 5 English Language.pdf",
+        "question_text": "What does \"brewing\" mean as it is used in paragraph 1?",
+        "options": [
+            "being studied",
+            "separating",
+            "developing",
+            "being encouraged"
+        ],
+        "correct_answer": 2,
+        "answer_type": "multiple_choice"
+    },
+    {
+        "_id": "30",
+        "question_number": 30,
+        "practice_set": 6,
+        "category": "ELA: Vocabulary",
+        "difficulty": "easy",
+        "time_estimate": 45,
+        "passage": "pdfData:pdf/2022 Grade 5 English Language.pdf",
+        "question_text": "What is the meaning of the phrase \"sops up\" as it is used in paragraph 5?",
+        "options": [
+            "pushes back",
+            "takes in",
+            "dries off",
+            "cools down"
+        ],
+        "correct_answer": 1,
+        "answer_type": "multiple_choice"
+    },
+    {
+        "_id": "31",
+        "question_number": 31,
+        "practice_set": 6,
+        "category": "ELA: Reading Comprehension",
+        "difficulty": "easy",
+        "time_estimate": 45,
+        "passage": "pdfData:pdf/2022 Grade 5 English Language.pdf",
+        "question_text": "Why is wind direction an important factor in the creation of lake-effect snow?",
+        "options": [
+            "The wind direction can increase the amount of water taken into the air.",
+            "The wind direction can decrease the temperature of the air.",
+            "The wind direction can cause the water in a lake to become rough.",
+            "The wind direction can turn the water in a lake into ice."
+        ],
+        "correct_answer": 0,
+        "answer_type": "multiple_choice"
+    },
+    {
+        "_id": "32",
+        "question_number": 32,
+        "practice_set": 6,
+        "category": "ELA: Author's Purpose",
+        "difficulty": "easy",
+        "time_estimate": 45,
+        "passage": "pdfData:pdf/2022 Grade 5 English Language.pdf",
+        "question_text": "What is the purpose of the information in paragraph 7?",
+        "options": [
+            "to explain how lake-effect snow is beneficial for an area",
+            "to provide details about how lake-effect snow is removed from streets",
+            "to compare how lake-effect snow impacts different cities near large lakes",
+            "to describe life in a place where lake-effect snow is common"
+        ],
+        "correct_answer": 3,
+        "answer_type": "multiple_choice"
+    },
+    {
+        "_id": "33",
+        "question_number": 33,
+        "practice_set": 6,
+        "category": "ELA: Textual Features",
+        "difficulty": "medium",
+        "time_estimate": 60,
+        "passage": "pdfData:pdf/2022 Grade 5 English Language.pdf",
+        "question_text": "The diagram adds new information to the article by showing that",
+        "options": [
+            "lake-effect snow forms when cold air moves over warm water",
+            "heat and moisture rise up over the lake water to help form snow",
+            "clouds increase in size as lake-effect snow forms",
+            "huge amounts of moisture fall to the ground in the form of snow"
+        ],
+        "correct_answer": 2,
+        "answer_type": "multiple_choice"
+    },
+    {
+        "_id": "34",
+        "question_number": 34,
+        "practice_set": 6,
+        "category": "ELA: Main Idea",
+        "difficulty": "easy",
+        "time_estimate": 45,
+        "passage": "pdfData:pdf/2022 Grade 5 English Language.pdf",
+        "question_text": "Which detail would be most important to include in a summary of the article?",
+        "options": [
+            "People who live in areas with lake-effect snow rarely have days off.",
+            "Cold air and warm water are needed to form lake-effect snow.",
+            "Buffalo is a city that is used to dealing with lake-effect snow.",
+            "Lake Erie produces less lake-effect snow at certain times of the year."
+        ],
+        "correct_answer": 1,
+        "answer_type": "multiple_choice"
+    },
+    {
+        "_id": "35",
+        "question_number": 35,
+        "practice_set": 6,
+        "category": "ELA: Central Idea",
+        "difficulty": "medium",
+        "time_estimate": 60,
+        "passage": "pdfData:pdf/2022 Grade 5 English Language.pdf",
+        "question_text": "Which sentence best states a central idea of the article?",
+        "options": [
+            "Lake-effect snow is common in certain areas of the country.",
+            "Lake-effect snow can occur only for a short period of time each year.",
+            "Lake-effect snow requires a special set of conditions in order to occur.",
+            "Lake-effect snow can cause damage to power lines and trees."
+        ],
+        "correct_answer": 2,
+        "answer_type": "multiple_choice"
+    },
+    {
+        "_id": "36",
+        "question_number": 36,
+        "practice_set": 6,
+        "category": "ELA: Text Structure",
+        "difficulty": "medium",
+        "time_estimate": 180,
+        "passage": "pdfData:pdf/2022 Grade 5 English Language.pdf",
+        "question_text": "How do stanza 1 (lines 1 through 4) and stanza 3 (lines 9 through 12) relate to each other? Use two details from the poem to support your response.",
+        "options": [],
+        "correct_answer": null,
+        "answer_type": "short_response"
+    },
+    {
+        "_id": "37",
+        "question_number": 37,
+        "practice_set": 6,
+        "category": "ELA: Character Analysis",
+        "difficulty": "medium",
+        "time_estimate": 180,
+        "passage": "pdfData:pdf/2022 Grade 5 English Language.pdf",
+        "question_text": "How do the raindrops' feelings change throughout the poem? Use two details from the poem to support your response.",
+        "options": [],
+        "correct_answer": null,
+        "answer_type": "short_response"
+    },
+    {
+        "_id": "38",
+        "question_number": 38,
+        "practice_set": 6,
+        "category": "ELA: Theme",
+        "difficulty": "medium",
+        "time_estimate": 180,
+        "passage": "pdfData:pdf/2022 Grade 5 English Language.pdf",
+        "question_text": "What is a theme of the poem \"The Raindrops' New Dresses\"? Use two details from the poem to support your response.",
+        "options": [],
+        "correct_answer": null,
+        "answer_type": "short_response"
+    },
+    {
+        "_id": "39",
+        "question_number": 39,
+        "practice_set": 6,
+        "category": "ELA: Author's Point of View",
+        "difficulty": "medium",
+        "time_estimate": 180,
+        "passage": "pdfData:pdf/2022 Grade 5 English Language.pdf",
+        "question_text": "In \"Excerpt from Dogs Helping Dogs,\" what is the author's point of view about dogs who give blood? Use two details from the article to support your response.",
+        "options": [],
+        "correct_answer": null,
+        "answer_type": "short_response"
+    },
+    {
+        "_id": "40",
+        "question_number": 40,
+        "practice_set": 6,
+        "category": "ELA: Main Idea",
+        "difficulty": "medium",
+        "time_estimate": 180,
+        "passage": "pdfData:pdf/2022 Grade 5 English Language.pdf",
+        "question_text": "In \"Excerpt from Dogs Helping Dogs,\" how does paragraph 4 support a main idea of the article? Use two details from the article to support your response.",
+        "options": [],
+        "correct_answer": null,
+        "answer_type": "short_response"
+    },
+    {
+        "_id": "41",
+        "question_number": 41,
+        "practice_set": 6,
+        "category": "ELA: Text Structure",
+        "difficulty": "medium",
+        "time_estimate": 180,
+        "passage": "pdfData:pdf/2022 Grade 5 English Language.pdf",
+        "question_text": "How does paragraph 3 of \"Excerpt from Woof! Rrrread to Me, Please?\" contribute to the structure of the article? Use two details from the article to support your response.",
+        "options": [],
+        "correct_answer": null,
+        "answer_type": "short_response"
+    },
+    {
+        "_id": "42",
+        "question_number": 42,
+        "practice_set": 6,
+        "category": "ELA: Paired Text Analysis",
+        "difficulty": "hard",
+        "time_estimate": 300,
+        "passage": "pdfData:pdf/2022 Grade 5 English Language.pdf",
+        "question_text": "How do the authors of \"Excerpt from Dogs Helping Dogs\" and \"Excerpt from Woof! Rrrread to Me, Please?\" support the idea that the dogs in each article want to help? How do the authors of both articles support the idea that the dogs are providing helpful services? Use details from both articles to support your response.\n\nIn your response, be sure to\n- explain how the authors of both articles support the idea that the dogs in each article want to help\n- describe how the authors of both articles support the idea that the dogs are providing helpful services\n- use details from both articles to support your response",
+        "options": [],
+        "correct_answer": null,
+        "answer_type": "short_response"
+    }
+]
