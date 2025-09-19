@@ -1,0 +1,471 @@
+[
+    {
+        "_id": "1",
+        "question_number": 1,
+        "practice_set": 3,
+        "category": "ELA: Figurative Language",
+        "difficulty": "easy",
+        "time_estimate": 45,
+        "passage": "pdfData:pdf/2018 Grade 5 English Language Arts.pdf",
+        "question_text": "In paragraph 2, what does the sentence \"They look just like fleecy rainbows\" suggest about the flowers?",
+        "options": [
+            "The flowers are colorful and fuzzy.",
+            "The flowers are wet and fluffy.",
+            "The flowers are striped and shaggy.",
+            "The flowers are transparent and puffy."
+        ],
+        "correct_answer": 0,
+        "answer_type": "multiple_choice"
+    },
+    {
+        "_id": "2",
+        "question_number": 2,
+        "practice_set": 3,
+        "category": "ELA: Vocabulary",
+        "difficulty": "easy",
+        "time_estimate": 45,
+        "passage": "pdfData:pdf/2018 Grade 5 English Language Arts.pdf",
+        "question_text": "What does the word \"welt\" mean as used in paragraph 9?",
+        "options": [
+            "itch",
+            "skin",
+            "gnat",
+            "bump"
+        ],
+        "correct_answer": 3,
+        "answer_type": "multiple_choice"
+    },
+    {
+        "_id": "3",
+        "question_number": 3,
+        "practice_set": 3,
+        "category": "ELA: Inference",
+        "difficulty": "easy",
+        "time_estimate": 45,
+        "passage": "pdfData:pdf/2018 Grade 5 English Language Arts.pdf",
+        "question_text": "Read this sentence from paragraph 14.\n'His smile faded as he went on.'\nWhat does the sentence suggest about Professor Raglin?",
+        "options": [
+            "He is suffering from the bad smell.",
+            "He regrets having to study the plant.",
+            "He dislikes the plant he is talking about.",
+            "He is about to deliver disappointing news."
+        ],
+        "correct_answer": 3,
+        "answer_type": "multiple_choice"
+    },
+    {
+        "_id": "4",
+        "question_number": 4,
+        "practice_set": 3,
+        "category": "ELA: Character Analysis",
+        "difficulty": "easy",
+        "time_estimate": 45,
+        "passage": "pdfData:pdf/2018 Grade 5 English Language Arts.pdf",
+        "question_text": "Read this sentence from paragraph 15.\n'\"At least they're not poison,\" Wendy said after Professor Raglin had left.'\nWhat does the sentence suggest about Wendy?",
+        "options": [
+            "Wendy looks for the positive side of situations.",
+            "Wendy does not like people to give her bad news.",
+            "Wendy challenges people who do not agree with her.",
+            "Wendy encourages people to learn to love the flowers."
+        ],
+        "correct_answer": 0,
+        "answer_type": "multiple_choice"
+    },
+    {
+        "_id": "5",
+        "question_number": 5,
+        "practice_set": 3,
+        "category": "ELA: Plot Development",
+        "difficulty": "medium",
+        "time_estimate": 60,
+        "passage": "pdfData:pdf/2018 Grade 5 English Language Arts.pdf",
+        "question_text": "How does the setting of the story affect what happens to the Woolly-Puff?",
+        "options": [
+            "A lack of space causes the flower to be shipped away.",
+            "A need for compost causes the plant to be valued.",
+            "A problem with insects causes the flower to be kept.",
+            "A lack of pets causes the plant to be adopted."
+        ],
+        "correct_answer": 2,
+        "answer_type": "multiple_choice"
+    },
+    {
+        "_id": "6",
+        "question_number": 6,
+        "practice_set": 3,
+        "category": "ELA: Vocabulary",
+        "difficulty": "easy",
+        "time_estimate": 45,
+        "passage": "pdfData:pdf/2018 Grade 5 English Language Arts.pdf",
+        "question_text": "What does the phrase \"smell funny\" mean as it is used in paragraph 15?",
+        "options": [
+            "The flowers made the children laugh.",
+            "The scent of the flowers was unusual.",
+            "The flowers caused the children to be itchy.",
+            "The stems of the flowers were strange."
+        ],
+        "correct_answer": 1,
+        "answer_type": "multiple_choice"
+    },
+    {
+        "_id": "7",
+        "question_number": 7,
+        "practice_set": 3,
+        "category": "ELA: Theme",
+        "difficulty": "medium",
+        "time_estimate": 60,
+        "passage": "pdfData:pdf/2018 Grade 5 English Language Arts.pdf",
+        "question_text": "Which statement best states a theme of the story?",
+        "options": [
+            "Friends should support each other in difficult situations.",
+            "Following the rules can sometimes get you in trouble.",
+            "It may take courage to speak up when you have a good idea.",
+            "The smallest things can cause big problems."
+        ],
+        "correct_answer": 2,
+        "answer_type": "multiple_choice"
+    },
+    {
+        "_id": "22",
+        "question_number": 22,
+        "practice_set": 3,
+        "category": "ELA: Character Analysis",
+        "difficulty": "easy",
+        "time_estimate": 45,
+        "passage": "pdfData:pdf/2018 Grade 5 English Language Arts.pdf",
+        "question_text": "In paragraph 2, what does the phrase \"made her want to dance along with the leaves\" most suggest about Mrs. Majeska?",
+        "options": [
+            "She is ready to move along quickly to get home.",
+            "She remembers the words to a song in her head.",
+            "She likes the fall weather because it causes change.",
+            "She is happy because she is enjoying her day."
+        ],
+        "correct_answer": 3,
+        "answer_type": "multiple_choice"
+    },
+    {
+        "_id": "23",
+        "question_number": 23,
+        "practice_set": 3,
+        "category": "ELA: Plot Development",
+        "difficulty": "medium",
+        "time_estimate": 60,
+        "passage": "pdfData:pdf/2018 Grade 5 English Language Arts.pdf",
+        "question_text": "How do paragraphs 3 and 4 foreshadow the ending of the story?",
+        "options": [
+            "by emphasizing that a single glove is of little use",
+            "by emphasizing that nobody cares about a lost glove",
+            "by showing that Mrs. Majeska is careful when picking up the glove",
+            "by showing that Mrs. Majeska is worried about the owner of the glove"
+        ],
+        "correct_answer": 0,
+        "answer_type": "multiple_choice"
+    },
+    {
+        "_id": "24",
+        "question_number": 24,
+        "practice_set": 3,
+        "category": "ELA: Compare and Contrast",
+        "difficulty": "easy",
+        "time_estimate": 45,
+        "passage": "pdfData:pdf/2018 Grade 5 English Language Arts.pdf",
+        "question_text": "Based on paragraphs 5 and 6, which sentence best contrasts Mrs. Majeska and the children?",
+        "options": [
+            "Mrs. Majeska wants to clean the glove but the children do not.",
+            "Mrs. Majeska is sorry for the glove owner but the children are not.",
+            "Mrs. Majeska is happy to see the glove while the children are not.",
+            "Mrs. Majeska understands the value of the glove while the children do not."
+        ],
+        "correct_answer": 3,
+        "answer_type": "multiple_choice"
+    },
+    {
+        "_id": "25",
+        "question_number": 25,
+        "practice_set": 3,
+        "category": "ELA: Central Idea",
+        "difficulty": "medium",
+        "time_estimate": 60,
+        "passage": "pdfData:pdf/2018 Grade 5 English Language Arts.pdf",
+        "question_text": "Mrs. Majeska's actions in paragraphs 7 and 8 most contribute to the development of the central idea by showing that she",
+        "options": [
+            "is content that the gloves are back together",
+            "considers taking the gloves home for herself",
+            "thinks she is silly for worrying about the gloves",
+            "cleans off the gloves to make them easy to find"
+        ],
+        "correct_answer": 0,
+        "answer_type": "multiple_choice"
+    },
+    {
+        "_id": "26",
+        "question_number": 26,
+        "practice_set": 3,
+        "category": "ELA: Inference",
+        "difficulty": "easy",
+        "time_estimate": 45,
+        "passage": "pdfData:pdf/2018 Grade 5 English Language Arts.pdf",
+        "question_text": "What can the reader infer about Mrs. Majeska in paragraph 9?",
+        "options": [
+            "She is nervous that the gloves will not be found by their owner.",
+            "She is concerned about what the boy and the two ladies think of her.",
+            "She is scared by the boy who is riding on the bike.",
+            "She is upset by the old ladies who walk past her."
+        ],
+        "correct_answer": 1,
+        "answer_type": "multiple_choice"
+    },
+    {
+        "_id": "27",
+        "question_number": 27,
+        "practice_set": 3,
+        "category": "ELA: Character Analysis",
+        "difficulty": "easy",
+        "time_estimate": 45,
+        "passage": "pdfData:pdf/2018 Grade 5 English Language Arts.pdf",
+        "question_text": "Which word best describes Mrs. Majeska in paragraph 10?",
+        "options": [
+            "proud",
+            "restless",
+            "stubborn",
+            "regretful"
+        ],
+        "correct_answer": 3,
+        "answer_type": "multiple_choice"
+    },
+    {
+        "_id": "28",
+        "question_number": 28,
+        "practice_set": 3,
+        "category": "ELA: Point of View",
+        "difficulty": "easy",
+        "time_estimate": 45,
+        "passage": "pdfData:pdf/2018 Grade 5 English Language Arts.pdf",
+        "question_text": "What does the point of view in paragraph 11 help the reader to understand?",
+        "options": [
+            "an owner's joy in finding the gloves",
+            "Mrs. Majeska's concern that a puppy might chew the gloves",
+            "a housewife's eagerness to put the gloves to use",
+            "Mrs. Majeska's surprise that someone took the gloves"
+        ],
+        "correct_answer": 3,
+        "answer_type": "multiple_choice"
+    },
+    {
+        "_id": "29",
+        "question_number": 29,
+        "practice_set": 3,
+        "category": "ELA: Main Idea",
+        "difficulty": "easy",
+        "time_estimate": 45,
+        "passage": "pdfData:pdf/2018 Grade 5 English Language Arts.pdf",
+        "question_text": "Which sentence best describes a main idea of the article?",
+        "options": [
+            "John Roebling and his son formed an uncomfortable working relationship.",
+            "John Roebling was an inspired engineer who designed modern bridges.",
+            "John Roebling came to the United States to build bridges.",
+            "John Roebling was a popular student and successful businessman."
+        ],
+        "correct_answer": 1,
+        "answer_type": "multiple_choice"
+    },
+    {
+        "_id": "30",
+        "question_number": 30,
+        "practice_set": 3,
+        "category": "ELA: Vocabulary",
+        "difficulty": "easy",
+        "time_estimate": 45,
+        "passage": "pdfData:pdf/2018 Grade 5 English Language Arts.pdf",
+        "question_text": "What does the phrase \"snatching up\" (paragraph 3) suggest about John Roebling's iron cables?",
+        "options": [
+            "They sold quickly.",
+            "They were inexpensive.",
+            "They lasted a long time.",
+            "They pulled a lot of weight."
+        ],
+        "correct_answer": 0,
+        "answer_type": "multiple_choice"
+    },
+    {
+        "_id": "31",
+        "question_number": 31,
+        "practice_set": 3,
+        "category": "ELA: Textual Features",
+        "difficulty": "easy",
+        "time_estimate": 45,
+        "passage": "pdfData:pdf/2018 Grade 5 English Language Arts.pdf",
+        "question_text": "Which paragraph does the photo of the Brooklyn Bridge best support?",
+        "options": [
+            "paragraph 3",
+            "paragraph 4",
+            "paragraph 7",
+            "paragraph 8"
+        ],
+        "correct_answer": 1,
+        "answer_type": "multiple_choice"
+    },
+    {
+        "_id": "32",
+        "question_number": 32,
+        "practice_set": 3,
+        "category": "ELA: Reading Comprehension",
+        "difficulty": "medium",
+        "time_estimate": 60,
+        "passage": "pdfData:pdf/2018 Grade 5 English Language Arts.pdf",
+        "question_text": "Which sentence best describes how John Roebling influenced his son Washington?",
+        "options": [
+            "Washington learned why it was important to use science to improve his military skills.",
+            "Washington applied what his father taught him about the different types of iron cables.",
+            "Washington learned the reasons suspension bridges needed to be improved.",
+            "Washington applied what his father taught him and built bridges when he was a soldier."
+        ],
+        "correct_answer": 3,
+        "answer_type": "multiple_choice"
+    },
+    {
+        "_id": "33",
+        "question_number": 33,
+        "practice_set": 3,
+        "category": "ELA: Author's Purpose",
+        "difficulty": "medium",
+        "time_estimate": 60,
+        "passage": "pdfData:pdf/2018 Grade 5 English Language Arts.pdf",
+        "question_text": "What do paragraphs 7 and 10 most contribute to the article?",
+        "options": [
+            "They introduce different opinions about the bridge.",
+            "They outline the long process involved in planning, paying for, and constructing the bridge.",
+            "They highlight the concerns people had about the appearance of the bridge.",
+            "They describe the disagreements people had about where the bridge should be built."
+        ],
+        "correct_answer": 0,
+        "answer_type": "multiple_choice"
+    },
+    {
+        "_id": "34",
+        "question_number": 34,
+        "practice_set": 3,
+        "category": "ELA: Cause and Effect",
+        "difficulty": "easy",
+        "time_estimate": 45,
+        "passage": "pdfData:pdf/2018 Grade 5 English Language Arts.pdf",
+        "question_text": "What effect did the winter of 1866-67 have on the construction of the Brooklyn Bridge?",
+        "options": [
+            "The weather caused people to go to Brooklyn because they thought it was safer there.",
+            "The weather caused ferry service to stop, making more people decide the bridge was a good idea.",
+            "The weather made more people go to New York to find work and to shop.",
+            "The weather made more people want to leave the area, making the mayor decide the bridge was necessary."
+        ],
+        "correct_answer": 1,
+        "answer_type": "multiple_choice"
+    },
+    {
+        "_id": "35",
+        "question_number": 35,
+        "practice_set": 3,
+        "category": "ELA: Main Idea",
+        "difficulty": "easy",
+        "time_estimate": 45,
+        "passage": "pdfData:pdf/2018 Grade 5 English Language Arts.pdf",
+        "question_text": "Which detail from the article would be most important to include in a summary?",
+        "options": [
+            "John Roebling graduated from a technical school in Germany.",
+            "John Roebling bought a large plot of farm land in Pennsylvania.",
+            "John Roebling had a son who was promoted to colonel in the Civil War.",
+            "John Roebling made the first iron cable used in the United States."
+        ],
+        "correct_answer": 3,
+        "answer_type": "multiple_choice"
+    },
+    {
+        "_id": "36",
+        "question_number": 36,
+        "practice_set": 3,
+        "category": "ELA: Compare and Contrast",
+        "difficulty": "medium",
+        "time_estimate": 180,
+        "passage": "pdfData:pdf/2018 Grade 5 English Language Arts.pdf",
+        "question_text": "How are Priya's feelings about recess at her old school and her new school different? Use two details from the story to support your response.",
+        "options": [],
+        "correct_answer": null,
+        "answer_type": "short_response"
+    },
+    {
+        "_id": "37",
+        "question_number": 37,
+        "practice_set": 3,
+        "category": "ELA: Point of View",
+        "difficulty": "medium",
+        "time_estimate": 180,
+        "passage": "pdfData:pdf/2018 Grade 5 English Language Arts.pdf",
+        "question_text": "What do Lily and Jasper's points of view reveal about the drawing? Use two details from the story to support your response.",
+        "options": [],
+        "correct_answer": null,
+        "answer_type": "short_response"
+    },
+    {
+        "_id": "38",
+        "question_number": 38,
+        "practice_set": 3,
+        "category": "ELA: Theme",
+        "difficulty": "medium",
+        "time_estimate": 180,
+        "passage": "pdfData:pdf/2018 Grade 5 English Language Arts.pdf",
+        "question_text": "How do Priya's actions in paragraph 5 help develop the theme of the story? Use two details from the story to support your response.",
+        "options": [],
+        "correct_answer": null,
+        "answer_type": "short_response"
+    },
+    {
+        "_id": "39",
+        "question_number": 39,
+        "practice_set": 3,
+        "category": "ELA: Textual Evidence",
+        "difficulty": "medium",
+        "time_estimate": 180,
+        "passage": "pdfData:pdf/2018 Grade 5 English Language Arts.pdf",
+        "question_text": "In paragraphs 1 and 2 of \"Excerpt from Young Ben Franklin,\" how does the author support the idea that Franklin had a curious mind? Use two details from the article to support your response.",
+        "options": [],
+        "correct_answer": null,
+        "answer_type": "short_response"
+    },
+    {
+        "_id": "40",
+        "question_number": 40,
+        "practice_set": 3,
+        "category": "ELA: Textual Features",
+        "difficulty": "medium",
+        "time_estimate": 180,
+        "passage": "pdfData:pdf/2018 Grade 5 English Language Arts.pdf",
+        "question_text": "In \"Excerpt from Young Ben Franklin,\" how does the timeline support a point the author makes in paragraph 6? Use two details from the article to support your response.",
+        "options": [],
+        "correct_answer": null,
+        "answer_type": "short_response"
+    },
+    {
+        "_id": "41",
+        "question_number": 41,
+        "practice_set": 3,
+        "category": "ELA: Text Structure",
+        "difficulty": "medium",
+        "time_estimate": 180,
+        "passage": "pdfData:pdf/2018 Grade 5 English Language Arts.pdf",
+        "question_text": "In \"Excerpt from Printer's Ink,\" how are the main ideas organized in the article? Use two details from the article to support your response.",
+        "options": [],
+        "correct_answer": null,
+        "answer_type": "short_response"
+    },
+    {
+        "_id": "42",
+        "question_number": 42,
+        "practice_set": 3,
+        "category": "ELA: Paired Text Analysis",
+        "difficulty": "hard",
+        "time_estimate": 300,
+        "passage": "pdfData:pdf/2018 Grade 5 English Language Arts.pdf",
+        "question_text": "In \"Excerpt from Printer's Ink\" and \"Excerpt from Young Ben Franklin,\" what quality about Ben Franklin is emphasized in both articles? How does each author support this quality about Ben Franklin? Use details from both articles to support your response.\n\nIn your response, be sure to\n- identify a quality about Ben Franklin that is emphasized in both articles\n- explain how each author supports this quality about Ben Franklin\n- use details from both articles to support your response",
+        "options": [],
+        "correct_answer": null,
+        "answer_type": "short_response"
+    }
+]

@@ -1,0 +1,623 @@
+[
+    {
+        "_id": "1",
+        "question_number": 1,
+        "practice_set": 1,
+        "category": "ELA: Reading Comprehension",
+        "difficulty": "easy",
+        "time_estimate": 45,
+        "passage": "pdfData:pdf/2016-released-items-ela-g5.pdf",
+        "question_text": "Why did Wiesner become interested in art?",
+        "options": [
+            "He enjoyed watching family members draw.",
+            "He experimented with the birthday gifts he received.",
+            "He found fun pictures in comic books and magazines.",
+            "He browsed the supplies at the housepaint and wallpaper store."
+        ],
+        "correct_answer": 0,
+        "answer_type": "multiple_choice"
+    },
+    {
+        "_id": "2",
+        "question_number": 2,
+        "practice_set": 1,
+        "category": "ELA: Main Idea",
+        "difficulty": "easy",
+        "time_estimate": 60,
+        "passage": "pdfData:pdf/2016-released-items-ela-g5.pdf",
+        "question_text": "Which quote best expresses the main idea of paragraphs 1 and 2?",
+        "options": [
+            "\"They had many different art supplies around the house.\" (paragraph 1)",
+            "\"There was, and still is, something very appealing about art materials...\" (paragraph 1)",
+            "\"I loved looking at all the exotic things they had for sale.\" (paragraph 2)",
+            "\"... paint that seemed so much more grown up than the kind we used at school.\" (paragraph 2)"
+        ],
+        "correct_answer": 1,
+        "answer_type": "multiple_choice"
+    },
+    {
+        "_id": "3",
+        "question_number": 3,
+        "practice_set": 1,
+        "category": "ELA: Reading Comprehension",
+        "difficulty": "medium",
+        "time_estimate": 60,
+        "passage": "pdfData:pdf/2016-released-items-ela-g5.pdf",
+        "question_text": "Read this sentence from paragraph 7.\n'Well, it sounded like a good idea.'\nWhat does the sentence suggest?",
+        "options": [
+            "The teacher did not approve of Wiesner's future painting plans.",
+            "The class was curious about the paintings Wiesner hoped to create.",
+            "Wiesner and his friends liked painting a canvas with squirt guns.",
+            "Painting with squirt guns did not turn out the way Wiesner expected."
+        ],
+        "correct_answer": 3,
+        "answer_type": "multiple_choice"
+    },
+    {
+        "_id": "4",
+        "question_number": 4,
+        "practice_set": 1,
+        "category": "ELA: Reading Comprehension",
+        "difficulty": "easy",
+        "time_estimate": 45,
+        "passage": "pdfData:pdf/2016-released-items-ela-g5.pdf",
+        "question_text": "Which statement describes how Wiesner's parents felt about his college and career plans?",
+        "options": [
+            "His parents encouraged him to go to art school, yet they worried about his future career choices.",
+            "His parents allowed him to choose his career, and they were glad he decided to go to art school.",
+            "His parents knew he would rather do art than school work, and they accepted his choices.",
+            "His parents raised him to be an artist, so they expected him to choose the right school."
+        ],
+        "correct_answer": 1,
+        "answer_type": "multiple_choice"
+    },
+    {
+        "_id": "5",
+        "question_number": 5,
+        "practice_set": 1,
+        "category": "ELA: Figurative Language",
+        "difficulty": "easy",
+        "time_estimate": 45,
+        "passage": "pdfData:pdf/2016-released-items-ela-g5.pdf",
+        "question_text": "Read this sentence from paragraph 10.\n'As I looked into art schools, I felt like doors were being thrown wide open.'\nWhat does the phrase \"doors were being thrown wide open\" suggest?",
+        "options": [
+            "Wiesner had always known that he would go to art school.",
+            "Wiesner's parents decided to allow him to attend art school.",
+            "Wiesner found that art school offered many possibilities.",
+            "Wiesner was invited by a large number of art schools."
+        ],
+        "correct_answer": 2,
+        "answer_type": "multiple_choice"
+    },
+    {
+        "_id": "6",
+        "question_number": 6,
+        "practice_set": 1,
+        "category": "ELA: Text Structure",
+        "difficulty": "medium",
+        "time_estimate": 60,
+        "passage": "pdfData:pdf/2016-released-items-ela-g5.pdf",
+        "question_text": "Paragraphs 10 and 3 are connected because",
+        "options": [
+            "paragraph 10 confirms how surprised Wiesner felt about the label he was given as a child",
+            "paragraph 10 shows how Wiesner's friends responded to his childhood interest",
+            "paragraph 10 tells how Wiesner finally found others who shared his creativity",
+            "paragraph 10 describes how Wiesner's image had changed"
+        ],
+        "correct_answer": 2,
+        "answer_type": "multiple_choice"
+    },
+    {
+        "_id": "7",
+        "question_number": 7,
+        "practice_set": 1,
+        "category": "ELA: Main Idea",
+        "difficulty": "easy",
+        "time_estimate": 45,
+        "passage": "pdfData:pdf/2016-released-items-ela-g5.pdf",
+        "question_text": "Which statement is most important to include in a summary of the passage?",
+        "options": [
+            "Wiesner was always interested in drawing and painting pictures.",
+            "Wiesner was entertained by the process of drawing with black ink on white paper.",
+            "Wiesner was always pleased to receive art-related gifts for his birthday.",
+            "Wiesner was disappointed because no speaker came to talk about art-related fields."
+        ],
+        "correct_answer": 0,
+        "answer_type": "multiple_choice"
+    },
+    {
+        "_id": "8",
+        "question_number": 8,
+        "practice_set": 1,
+        "category": "ELA: Figurative Language",
+        "difficulty": "easy",
+        "time_estimate": 45,
+        "passage": "pdfData:pdf/2016-released-items-ela-g5.pdf",
+        "question_text": "In paragraph 3, what does the phrase \"dragged her backpack along\" suggest about Yasmeen?",
+        "options": [
+            "She is nervous about the upcoming holiday.",
+            "She treats her possessions carelessly.",
+            "She is in an unhappy mood.",
+            "She carries heavy books."
+        ],
+        "correct_answer": 2,
+        "answer_type": "multiple_choice"
+    },
+    {
+        "_id": "9",
+        "question_number": 9,
+        "practice_set": 1,
+        "category": "ELA: Reading Comprehension",
+        "difficulty": "easy",
+        "time_estimate": 45,
+        "passage": "pdfData:pdf/2016-released-items-ela-g5.pdf",
+        "question_text": "As her family prepares for the holiday Eid-ul-Fitr, how is Yasmeen's experience this year different from other years?",
+        "options": [
+            "She feels proud of her family this year.",
+            "She feels worried about school this year.",
+            "She thinks about getting dressed up this year.",
+            "She wants to spend time with the other ladies this year."
+        ],
+        "correct_answer": 1,
+        "answer_type": "multiple_choice"
+    },
+    {
+        "_id": "10",
+        "question_number": 10,
+        "practice_set": 1,
+        "category": "ELA: Character Analysis",
+        "difficulty": "easy",
+        "time_estimate": 45,
+        "passage": "pdfData:pdf/2016-released-items-ela-g5.pdf",
+        "question_text": "Based on paragraphs 10 and 11, what does Yasmeen understand about her father?",
+        "options": [
+            "He prefers old books over new books.",
+            "The Koran is very precious to him.",
+            "Reading is one of his favorite activities.",
+            "He thinks the Koran is too delicate to take to school."
+        ],
+        "correct_answer": 1,
+        "answer_type": "multiple_choice"
+    },
+    {
+        "_id": "11",
+        "question_number": 11,
+        "practice_set": 1,
+        "category": "ELA: Plot Development",
+        "difficulty": "medium",
+        "time_estimate": 60,
+        "passage": "pdfData:pdf/2016-released-items-ela-g5.pdf",
+        "question_text": "What is the most important way that paragraphs 13 and 14 develop the story?",
+        "options": [
+            "They show the process of making henna paste.",
+            "They provide additional details about the setting.",
+            "They present a hint about how the problem will be solved.",
+            "They provide information about the characters' appearance."
+        ],
+        "correct_answer": 2,
+        "answer_type": "multiple_choice"
+    },
+    {
+        "_id": "12",
+        "question_number": 12,
+        "practice_set": 1,
+        "category": "ELA: Reading Comprehension",
+        "difficulty": "easy",
+        "time_estimate": 45,
+        "passage": "pdfData:pdf/2016-released-items-ela-g5.pdf",
+        "question_text": "In paragraphs 12 and 19, what does the reader learn about how Yasmeen's family celebrates Eid-ul-Fitr?",
+        "options": [
+            "Jewelry is exchanged at the celebration.",
+            "Hand painting is done first at the celebration.",
+            "Herbs are used for cooking during the celebration.",
+            "Dressing in fine clothing is part of the celebration."
+        ],
+        "correct_answer": 3,
+        "answer_type": "multiple_choice"
+    },
+    {
+        "_id": "13",
+        "question_number": 13,
+        "practice_set": 1,
+        "category": "ELA: Character Analysis",
+        "difficulty": "easy",
+        "time_estimate": 45,
+        "passage": "pdfData:pdf/2016-released-items-ela-g5.pdf",
+        "question_text": "In paragraph 25, the narrator explains that Yasmeen \"felt herself gasp\" to show that Yasmeen feels",
+        "options": [
+            "surprised by the teacher's response",
+            "nervous about what will happen next",
+            "confused by her classmates' requests",
+            "afraid to tell her parents about what happened"
+        ],
+        "correct_answer": 0,
+        "answer_type": "multiple_choice"
+    },
+    {
+        "_id": "14",
+        "question_number": 14,
+        "practice_set": 1,
+        "category": "ELA: Theme",
+        "difficulty": "easy",
+        "time_estimate": 60,
+        "passage": "pdfData:pdf/2016-released-items-ela-g5.pdf",
+        "question_text": "What is the most important lesson that Yasmeen learns in the story?",
+        "options": [
+            "Family belongings should be treated with respect.",
+            "Sharing family traditions can be rewarding.",
+            "Sharing holidays with family is important.",
+            "Family traditions change over time."
+        ],
+        "correct_answer": 1,
+        "answer_type": "multiple_choice"
+    },
+    {
+        "_id": "15",
+        "question_number": 15,
+        "practice_set": 1,
+        "category": "ELA: Text Structure",
+        "difficulty": "easy",
+        "time_estimate": 45,
+        "passage": "pdfData:pdf/2016-released-items-ela-g5.pdf",
+        "question_text": "How are paragraphs 2 through 6 important to the structure of the story?",
+        "options": [
+            "They describe the setting and the main characters.",
+            "They describe an event that is later repeated.",
+            "They explain why the fox is in the field.",
+            "They introduce a problem into the plot."
+        ],
+        "correct_answer": 0,
+        "answer_type": "multiple_choice"
+    },
+    {
+        "_id": "16",
+        "question_number": 16,
+        "practice_set": 1,
+        "category": "ELA: Figurative Language",
+        "difficulty": "easy",
+        "time_estimate": 45,
+        "passage": "pdfData:pdf/2016-released-items-ela-g5.pdf",
+        "question_text": "Read this phrase from paragraph 4.\n'my heart seemed to have moved up in my body and got stuck in my throat.'\nWhat does this phrase suggest about Tom?",
+        "options": [
+            "He is having trouble standing still.",
+            "He is having difficulty speaking.",
+            "He is experiencing a thrill.",
+            "He is feeling affection."
+        ],
+        "correct_answer": 2,
+        "answer_type": "multiple_choice"
+    },
+    {
+        "_id": "17",
+        "question_number": 17,
+        "practice_set": 1,
+        "category": "ELA: Reading Comprehension",
+        "difficulty": "medium",
+        "time_estimate": 60,
+        "passage": "pdfData:pdf/2016-released-items-ela-g5.pdf",
+        "question_text": "How are the events described in paragraphs 6 and 7 different from earlier events?",
+        "options": [
+            "The fox is moving through an open area.",
+            "The fox is acting with less certainty.",
+            "The fox is moving at a faster pace.",
+            "The fox is aware of Tom."
+        ],
+        "correct_answer": 3,
+        "answer_type": "multiple_choice"
+    },
+    {
+        "_id": "18",
+        "question_number": 18,
+        "practice_set": 1,
+        "category": "ELA: Compare and Contrast",
+        "difficulty": "easy",
+        "time_estimate": 45,
+        "passage": "pdfData:pdf/2016-released-items-ela-g5.pdf",
+        "question_text": "How is Tom's experience in the field different from his experience in zoos?",
+        "options": [
+            "He is able to observe a black fox in the wild.",
+            "He is able to observe the way a black fox moves at the zoo.",
+            "He spends time observing a black fox at the zoo.",
+            "He is frightened to see a black fox in the wild."
+        ],
+        "correct_answer": 0,
+        "answer_type": "multiple_choice"
+    },
+    {
+        "_id": "19",
+        "question_number": 19,
+        "practice_set": 1,
+        "category": "ELA: Character Analysis",
+        "difficulty": "easy",
+        "time_estimate": 45,
+        "passage": "pdfData:pdf/2016-released-items-ela-g5.pdf",
+        "question_text": "In paragraph 12, why does Tom hesitate over his letter?",
+        "options": [
+            "He does not want other people finding out about the fox.",
+            "He is not sure his friend will believe him about the fox.",
+            "He is not sure how to capture his experience in words.",
+            "He does not have time to explain what he witnessed."
+        ],
+        "correct_answer": 2,
+        "answer_type": "multiple_choice"
+    },
+    {
+        "_id": "20",
+        "question_number": 20,
+        "practice_set": 1,
+        "category": "ELA: Compare and Contrast",
+        "difficulty": "medium",
+        "time_estimate": 60,
+        "passage": "pdfData:pdf/2016-released-items-ela-g5.pdf",
+        "question_text": "Based on paragraphs 13 and 14, how are the words \"WAR!\" and \"FOX!\" similar?",
+        "options": [
+            "They inspire a powerful response in Tom.",
+            "They provide Tom with a physical reminder.",
+            "They help promote Tom's interest in writing.",
+            "They create connections within Tom's family."
+        ],
+        "correct_answer": 0,
+        "answer_type": "multiple_choice"
+    },
+    {
+        "_id": "21",
+        "question_number": 21,
+        "practice_set": 1,
+        "category": "ELA: Main Idea",
+        "difficulty": "easy",
+        "time_estimate": 45,
+        "passage": "pdfData:pdf/2016-released-items-ela-g5.pdf",
+        "question_text": "Which statement best summarizes how the fox affects Tom?",
+        "options": [
+            "Tom regrets not being able to share his experience.",
+            "Tom feels as though he is in a movie.",
+            "Tom is deeply moved by the event.",
+            "Tom can no longer concentrate."
+        ],
+        "correct_answer": 2,
+        "answer_type": "multiple_choice"
+    },
+    {
+        "_id": "36",
+        "question_number": 36,
+        "practice_set": 1,
+        "category": "ELA: Textual Evidence",
+        "difficulty": "medium",
+        "time_estimate": 60,
+        "passage": "pdfData:pdf/2016-released-items-ela-g5.pdf",
+        "question_text": "Which evidence best supports the claims the author makes in paragraph 4?",
+        "options": [
+            "\"They may become grumpy, angry, or depressed.\" (paragraph 9)",
+            "\"Sure, Kenny missed his friends, and he was sad at times.\" (paragraph 16)",
+            "\"Kenny's mom helped him with homework for the first time in two years.\" (paragraph 17)",
+            "\"I had a wonderful experience.\" (paragraph 18)"
+        ],
+        "correct_answer": 2,
+        "answer_type": "multiple_choice"
+    },
+    {
+        "_id": "37",
+        "question_number": 37,
+        "practice_set": 1,
+        "category": "ELA: Reading Comprehension",
+        "difficulty": "easy",
+        "time_estimate": 45,
+        "passage": "pdfData:pdf/2016-released-items-ela-g5.pdf",
+        "question_text": "What does Dr. Elizabeth Dowdell suggest when she says \"people expect to be able to access anyone or to be accessed by anyone at any time\"? (paragraph 6)",
+        "options": [
+            "Teens need to stay available by phone at all times.",
+            "Many teens want to own a phone that receives texts.",
+            "Constant phone use is a behavior of teens that cannot be changed.",
+            "Teens are so used to having phones that nonstop texting has become a habit."
+        ],
+        "correct_answer": 3,
+        "answer_type": "multiple_choice"
+    },
+    {
+        "_id": "38",
+        "question_number": 38,
+        "practice_set": 1,
+        "category": "ELA: Text Structure",
+        "difficulty": "easy",
+        "time_estimate": 45,
+        "passage": "pdfData:pdf/2016-released-items-ela-g5.pdf",
+        "question_text": "How does the author organize paragraphs 15 through 20?",
+        "options": [
+            "by describing the events of the experiment in the order that they happened",
+            "by explaining the goals and directions of the experiment",
+            "by showing the reasons for doing the experiment with the two teens",
+            "by comparing the effects that the experiment had on the two teens"
+        ],
+        "correct_answer": 3,
+        "answer_type": "multiple_choice"
+    },
+    {
+        "_id": "39",
+        "question_number": 39,
+        "practice_set": 1,
+        "category": "ELA: Inference",
+        "difficulty": "medium",
+        "time_estimate": 60,
+        "passage": "pdfData:pdf/2016-released-items-ela-g5.pdf",
+        "question_text": "What can the reader infer from paragraphs 17 through 20?",
+        "options": [
+            "Asking teens to live without their phones will help them become smarter.",
+            "Teens may not realize how different their lives can be without their phones.",
+            "Teens around the world will enjoy experimenting with their phone use.",
+            "Expecting teens to give up their phones is not realistic."
+        ],
+        "correct_answer": 1,
+        "answer_type": "multiple_choice"
+    },
+    {
+        "_id": "40",
+        "question_number": 40,
+        "practice_set": 1,
+        "category": "ELA: Compare and Contrast",
+        "difficulty": "easy",
+        "time_estimate": 45,
+        "passage": "pdfData:pdf/2016-released-items-ela-g5.pdf",
+        "question_text": "How were Kenny's and Franchesca's reactions to the 48-hour challenge different?",
+        "options": [
+            "Only Franchesca benefitted from better sleep with no texting interruptions.",
+            "Only Franchesca fully appreciated the freedom of having no phone.",
+            "Only Kenny participated in physical activities instead of constant texting.",
+            "Only Kenny spent time talking with people after giving up the phone."
+        ],
+        "correct_answer": 1,
+        "answer_type": "multiple_choice"
+    },
+    {
+        "_id": "41",
+        "question_number": 41,
+        "practice_set": 1,
+        "category": "ELA: Main Idea",
+        "difficulty": "easy",
+        "time_estimate": 45,
+        "passage": "pdfData:pdf/2016-released-items-ela-g5.pdf",
+        "question_text": "Which statement best expresses a main idea of the article?",
+        "options": [
+            "\"Some experts are worried about how all that texting is affecting teenagers' lives.\" (paragraph 3)",
+            "\"If they regularly lose sleep, she adds, teens may start having trouble in school.\" (paragraph 9)",
+            "\"Kenny and Franchesca handed their phones to their mothers for safekeeping.\" (paragraph 14)",
+            "\"Franchesca decided to continue the experiment for a while.\" (paragraph 19)"
+        ],
+        "correct_answer": 0,
+        "answer_type": "multiple_choice"
+    },
+    {
+        "_id": "42",
+        "question_number": 42,
+        "practice_set": 1,
+        "category": "ELA: Main Idea",
+        "difficulty": "easy",
+        "time_estimate": 45,
+        "passage": "pdfData:pdf/2016-released-items-ela-g5.pdf",
+        "question_text": "Which detail would be most important to include in a summary of the article?",
+        "options": [
+            "Kenny admits to sleeping with his phone under his pillow.",
+            "Franchesca claims to exchange a thousand texts per day.",
+            "The teens engage in gossip and drama without their phones.",
+            "The teens have more free time when they give up texting."
+        ],
+        "correct_answer": 3,
+        "answer_type": "multiple_choice"
+    },
+    {
+        "_id": "43",
+        "question_number": 43,
+        "practice_set": 1,
+        "category": "ELA: Reading Comprehension",
+        "difficulty": "medium",
+        "time_estimate": 180,
+        "passage": "pdfData:pdf/2016-released-items-ela-g5.pdf",
+        "question_text": "Why did one newspaper say the mermaid was \"the most odd of all oddities earth or the sea had ever produced\" (paragraph 3)? Use two details from the article to support your response.",
+        "options": [],
+        "correct_answer": null,
+        "answer_type": "short_response"
+    },
+    {
+        "_id": "44",
+        "question_number": 44,
+        "practice_set": 1,
+        "category": "ELA: Main Idea",
+        "difficulty": "medium",
+        "time_estimate": 180,
+        "passage": "pdfData:pdf/2016-released-items-ela-g5.pdf",
+        "question_text": "What main idea of \"The Fejee Mermaid\" is supported by paragraphs 8 through 10? Use two details from the article to support your response.",
+        "options": [],
+        "correct_answer": null,
+        "answer_type": "short_response"
+    },
+    {
+        "_id": "45",
+        "question_number": 45,
+        "practice_set": 1,
+        "category": "ELA: Reading Comprehension",
+        "difficulty": "hard",
+        "time_estimate": 300,
+        "passage": "pdfData:pdf/2016-released-items-ela-g5.pdf",
+        "question_text": "In paragraph 16, Kenny Roy says, \"It challenges you, being here [at TAM].\"\nWhat are some of the ways kids are challenged in the TAM program? What effects do these challenges have on the kids? Use details from the article to support your response.\n\nIn your response, be sure to\n- identify ways that kids are challenged in the TAM program\n- explain the effects of these challenges on the kids\n- use details from the article to support your response",
+        "options": [],
+        "correct_answer": null,
+        "answer_type": "short_response"
+    },
+    {
+        "_id": "46",
+        "question_number": 46,
+        "practice_set": 1,
+        "category": "ELA: Character Analysis",
+        "difficulty": "medium",
+        "time_estimate": 180,
+        "passage": "pdfData:pdf/2016-released-items-ela-g5.pdf",
+        "question_text": "How does Pearl's father feel about Pearl and JBIII walking to school by themselves? Use two details from the story to support your response.",
+        "options": [],
+        "correct_answer": null,
+        "answer_type": "short_response"
+    },
+    {
+        "_id": "47",
+        "question_number": 47,
+        "practice_set": 1,
+        "category": "ELA: Plot Development",
+        "difficulty": "medium",
+        "time_estimate": 180,
+        "passage": "pdfData:pdf/2016-released-items-ela-g5.pdf",
+        "question_text": "How does paragraph 28 relate to paragraphs 23 and 24? Use two details from \"Excerpt from Ten Good and Bad Things About My Life (So Far)\" to support your response.",
+        "options": [],
+        "correct_answer": null,
+        "answer_type": "short_response"
+    },
+    {
+        "_id": "48",
+        "question_number": 48,
+        "practice_set": 1,
+        "category": "ELA: Character Analysis",
+        "difficulty": "medium",
+        "time_estimate": 180,
+        "passage": "pdfData:pdf/2016-released-items-ela-g5.pdf",
+        "question_text": "In \"Excerpt from The Most Beautiful Place in the World,\" why does Juan's grandmother react differently than Aunt Tina to the note from Juan's school? Use two details from the story to support your response.",
+        "options": [],
+        "correct_answer": null,
+        "answer_type": "short_response"
+    },
+    {
+        "_id": "49",
+        "question_number": 49,
+        "practice_set": 1,
+        "category": "ELA: Theme",
+        "difficulty": "medium",
+        "time_estimate": 180,
+        "passage": "pdfData:pdf/2016-released-items-ela-g5.pdf",
+        "question_text": "Why is the title phrase \"the most beautiful place in the world\" important to the story? Use two details from the story to support your response.",
+        "options": [],
+        "correct_answer": null,
+        "answer_type": "short_response"
+    },
+    {
+        "_id": "50",
+        "question_number": 50,
+        "practice_set": 1,
+        "category": "ELA: Theme",
+        "difficulty": "medium",
+        "time_estimate": 180,
+        "passage": "pdfData:pdf/2016-released-items-ela-g5.pdf",
+        "question_text": "In \"Excerpt from Seeker,\" what theme is supported by paragraphs 20 through 26? Use two details from the story to support your response.",
+        "options": [],
+        "correct_answer": null,
+        "answer_type": "short_response"
+    },
+    {
+        "_id": "51",
+        "question_number": 51,
+        "practice_set": 1,
+        "category": "ELA: Paired Text Analysis",
+        "difficulty": "hard",
+        "time_estimate": 300,
+        "passage": "pdfData:pdf/2016-released-items-ela-g5.pdf",
+        "question_text": "In \"Excerpt from The Most Beautiful Place in the World\" and \"Excerpt from Seeker,\" what personality trait do Juan and Seeker share? How do both the characters show this personality trait? Use details from both stories to support your response.\n\nIn your response, be sure to\n- identify a personality trait that Juan and Seeker share\n- explain how both characters show this personality trait\n- use details from both stories to support your response",
+        "options": [],
+        "correct_answer": null,
+        "answer_type": "short_response"
+    }
+]
