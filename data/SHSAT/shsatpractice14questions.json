@@ -1036,7 +1036,7 @@
     "question_text": "Ms. Li opened a retirement account with a deposit of $2,500. This account earns 4% simple interest annually. How many years will it take her to earn $500 on her $2,500 deposit?",
     "options": [],
     "correct_answer": null,
-    "answer_type": ""
+    "answer_type": "fill_in_the_blank"
   },
   {
     "_id": "59",
@@ -1045,11 +1045,11 @@
     "category": "",
     "difficulty": "",
     "time_estimate": 95,
-    "passage": "",
-    "question_text": "",
+    "passage": "image:images/shsatpractice14question59.png",
+    "question_text": "What is the value of the expression shown above?",
     "options": [],
     "correct_answer": null,
-    "answer_type": ""
+    "answer_type": "fill_in_the_blank"
   },
   {
     "_id": "60",
@@ -1062,7 +1062,7 @@
     "question_text": "",
     "options": [],
     "correct_answer": null,
-    "answer_type": ""
+    "answer_type": "fill_in_the_blank"
   },
   {
     "_id": "61",
@@ -1071,11 +1071,11 @@
     "category": "",
     "difficulty": "",
     "time_estimate": 95,
-    "passage": "",
+    "passage": "image:images/shsatpractice14question61.png",
     "question_text": "",
     "options": [],
     "correct_answer": null,
-    "answer_type": ""
+    "answer_type": "fill_in_the_blank"
   },
   {
     "_id": "62",
@@ -1088,7 +1088,7 @@
     "question_text": "",
     "options": [],
     "correct_answer": null,
-    "answer_type": ""
+    "answer_type": "fill_in_the_blank"
   },
   {
     "_id": "63",
@@ -1110,9 +1110,14 @@
     "category": "",
     "difficulty": "",
     "time_estimate": 95,
-    "passage": "",
-    "question_text": "",
-    "options": [],
+    "passage": "image:images/shsatpractice14question64.png",
+    "question_text": "How many inches of rain fell?",
+    "options": [
+      "E",
+      "F",
+      "G",
+      "H"
+    ],
     "correct_answer": null,
     "answer_type": ""
   },
@@ -1149,7 +1154,7 @@
     "category": "",
     "difficulty": "",
     "time_estimate": 95,
-    "passage": "",
+    "passage": "image:images/shsatpractice14question67.png",
     "question_text": "",
     "options": [],
     "correct_answer": null,
@@ -1162,7 +1167,7 @@
     "category": "",
     "difficulty": "",
     "time_estimate": 95,
-    "passage": "",
+    "passage": "image:images/shsatpractice14question68.png",
     "question_text": "",
     "options": [],
     "correct_answer": null,
@@ -1227,7 +1232,7 @@
     "category": "",
     "difficulty": "",
     "time_estimate": 95,
-    "passage": "",
+    "passage": "image:images/shsatpractice14question73.png",
     "question_text": "",
     "options": [],
     "correct_answer": null,
@@ -1240,7 +1245,7 @@
     "category": "",
     "difficulty": "",
     "time_estimate": 95,
-    "passage": "",
+    "passage": "image:images/shsatpractice14question74.png",
     "question_text": "",
     "options": [],
     "correct_answer": null,
@@ -1279,9 +1284,14 @@
     "category": "",
     "difficulty": "",
     "time_estimate": 95,
-    "passage": "",
+    "passage": "image:images/shsatpractice14question77.png",
     "question_text": "",
-    "options": [],
+    "options": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
     "correct_answer": null,
     "answer_type": ""
   },
@@ -1305,7 +1315,7 @@
     "category": "",
     "difficulty": "",
     "time_estimate": 95,
-    "passage": "",
+    "passage": "image:images/shsatpractice14question79.png",
     "question_text": "",
     "options": [],
     "correct_answer": null,
@@ -1344,7 +1354,7 @@
     "category": "",
     "difficulty": "",
     "time_estimate": 95,
-    "passage": "",
+    "passage": "image:images/shsatpractice14question82.png",
     "question_text": "",
     "options": [],
     "correct_answer": null,
@@ -1357,9 +1367,14 @@
     "category": "",
     "difficulty": "",
     "time_estimate": 95,
-    "passage": "",
+    "passage": "image:images/shsatpractice14question83.png",
     "question_text": "",
-    "options": [],
+    "options": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
     "correct_answer": null,
     "answer_type": ""
   },
@@ -1422,7 +1437,7 @@
     "category": "",
     "difficulty": "",
     "time_estimate": 95,
-    "passage": "",
+    "passage": "image:images/shsatpractice14question88.png",
     "question_text": "",
     "options": [],
     "correct_answer": null,
@@ -1448,7 +1463,7 @@
     "category": "",
     "difficulty": "",
     "time_estimate": 95,
-    "passage": "",
+    "passage": "image:images/shsatpractice14question90.png",
     "question_text": "",
     "options": [],
     "correct_answer": null,
@@ -1461,7 +1476,7 @@
     "category": "",
     "difficulty": "",
     "time_estimate": 95,
-    "passage": "",
+    "passage": "image:images/shsatpractice14question91.png",
     "question_text": "",
     "options": [],
     "correct_answer": null,
@@ -1474,7 +1489,7 @@
     "category": "",
     "difficulty": "",
     "time_estimate": 95,
-    "passage": "",
+    "passage": "image:images/shsatpractice14question92.png",
     "question_text": "",
     "options": [],
     "correct_answer": null,
@@ -1500,7 +1515,7 @@
     "category": "",
     "difficulty": "",
     "time_estimate": 95,
-    "passage": "",
+    "passage": "image:images/shsatpractice14question94.png",
     "question_text": "",
     "options": [],
     "correct_answer": null,
@@ -1513,9 +1528,14 @@
     "category": "",
     "difficulty": "",
     "time_estimate": 95,
-    "passage": "",
-    "question_text": "",
-    "options": [],
+    "passage": "image:images/shsatpractice14question95.png",
+    "question_text": "Which graph?",
+    "options": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
     "correct_answer": null,
     "answer_type": ""
   },
@@ -1591,9 +1611,14 @@
     "category": "",
     "difficulty": "",
     "time_estimate": 95,
-    "passage": "",
-    "question_text": "",
-    "options": [],
+    "passage": "image:images/shsatpractice14question101.png",
+    "question_text": "Which value?",
+    "options": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
     "correct_answer": null,
     "answer_type": ""
   },
@@ -1604,7 +1629,7 @@
     "category": "",
     "difficulty": "",
     "time_estimate": 95,
-    "passage": "",
+    "passage": "image:images/shsatpractice14question102.png",
     "question_text": "",
     "options": [],
     "correct_answer": null,
@@ -1617,7 +1642,7 @@
     "category": "",
     "difficulty": "",
     "time_estimate": 95,
-    "passage": "",
+    "passage": "image:images/shsatpractice14question103.png",
     "question_text": "",
     "options": [],
     "correct_answer": null,
@@ -1656,7 +1681,7 @@
     "category": "",
     "difficulty": "",
     "time_estimate": 95,
-    "passage": "",
+    "passage": "image:images/shsatpractice14question106.png",
     "question_text": "",
     "options": [],
     "correct_answer": null,
@@ -1747,9 +1772,14 @@
     "category": "",
     "difficulty": "",
     "time_estimate": 95,
-    "passage": "",
-    "question_text": "",
-    "options": [],
+    "passage": "image:images/shsatpractice14question113.png",
+    "question_text": "Which number line?",
+    "options": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
     "correct_answer": null,
     "answer_type": ""
   },
@@ -1760,9 +1790,14 @@
     "category": "",
     "difficulty": "",
     "time_estimate": 95,
-    "passage": "",
-    "question_text": "",
-    "options": [],
+    "passage": "image:images/shsatpractice14question114.png",
+    "question_text": "What is the probability?",
+    "options": [
+      "1/72",
+      "1/36",
+      "1/8",
+      "1/6"
+    ],
     "correct_answer": null,
     "answer_type": ""
   }
