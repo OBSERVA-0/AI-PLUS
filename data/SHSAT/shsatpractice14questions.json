@@ -3,8 +3,8 @@
     "_id": "1",
     "question_number": 1,
     "practice_set": "14",
-    "category": "",
-    "difficulty": "",
+    "category": "English:Reading Comprehension:Main Idea",
+    "difficulty": "medium",
     "time_estimate": 95,
     "passage": "pdfData:pdf/Pearsons2019-2022A_MiracleMile.pdf",
     "question_text": "The words “feat,” “humanly impossible,” and “impenetrable barrier” in paragraph 1 affect the tone of the paragraph because they",
@@ -14,15 +14,15 @@
       "convey the competitiveness among elite runners to consistently set and break speed records.",
       "show the intensity of the training programs athletes endure in order to achieve their goals."
     ],
-    "correct_answer": null,
-    "answer_type": "1"
+    "correct_answer": 1,
+    "answer_type": ""
   },
   {
     "_id": "2",
     "question_number": 2,
     "practice_set": "14",
-    "category": "",
-    "difficulty": "",
+    "category": "English:Reading Comprehension:Main Idea",
+    "difficulty": "medium",
     "time_estimate": 95,
     "passage": "pdfData:pdf/Pearsons2019-2022A_MiracleMile.pdf",
     "question_text": "How did interval training affect Bannister’s performance?",
@@ -32,15 +32,15 @@
       "It helped him improve his pace and stamina while running.",
       "It helped him decrease his recovery time after an intense run."
     ],
-    "correct_answer": null,
-    "answer_type": "2"
+    "correct_answer": 2,
+    "answer_type": ""
   },
   {
     "_id": "3",
     "question_number": 3,
     "practice_set": "14",
-    "category": "",
-    "difficulty": "",
+    "category": "English:Reading Comprehension:Main Idea",
+    "difficulty": "medium",
     "time_estimate": 95,
     "passage": "pdfData:pdf/Pearsons2019-2022A_MiracleMile.pdf",
     "question_text": "Which sentence best supports the idea that Bannister needed an alternative to “logical planning” in order to accomplish his goal?",
@@ -50,15 +50,15 @@
       "“For these workouts, Bannister ran an interval of ten consecutive laps on a quarter-mile track, aiming for sixty seconds each lap.” (paragraph 3)",
       "“Frustrated by the plateau he had reached, Bannister took a break from training and went mountain climbing for three days.” (paragraph 4)"
     ],
-    "correct_answer": null,
-    "answer_type": "3"
+    "correct_answer": 3,
+    "answer_type": ""
   },
   {
     "_id": "4",
     "question_number": 4,
     "practice_set": "14",
-    "category": "",
-    "difficulty": "",
+    "category": "English:Reading Comprehension:Main Idea",
+    "difficulty": "medium",
     "time_estimate": 95,
     "passage": "pdfData:pdf/Pearsons2019-2022A_MiracleMile.pdf",
     "question_text": "Which sentence from the passage indicates that Bannister nearly made a mistake that would have cost him the world record?",
@@ -68,15 +68,15 @@
       "“Propelled by the excitement, Bannister lost his instinctive feel for his pace and shouted ‘Faster!’ at Brasher.” (paragraph 7)",
       "“At the beginning of the back straightaway of the track, Bannister bolted past Chataway.” (paragraph 7)"
     ],
-    "correct_answer": null,
-    "answer_type": "2"
+    "correct_answer": 2,
+    "answer_type": ""
   },
   {
     "_id": "5",
     "question_number": 5,
     "practice_set": "14",
-    "category": "",
-    "difficulty": "",
+    "category": "English:Reading Comprehension:Main Idea",
+    "difficulty": "medium",
     "time_estimate": 95,
     "passage": "pdfData:pdf/Pearsons2019-2022A_MiracleMile.pdf",
     "question_text": "The phrase “a new mindset had taken root” in paragraph 8 conveys the idea that",
@@ -86,15 +86,15 @@
       "runners understood how hard they would have to train in order to run a mile in under four minutes.",
       "entering races in an attempt to break the four-minute-mile barrier became commonplace for elite runners."
     ],
-    "correct_answer": null,
-    "answer_type": "0"
+    "correct_answer": 0,
+    "answer_type": ""
   },
   {
     "_id": "6",
     "question_number": 6,
     "practice_set": "14",
-    "category": "",
-    "difficulty": "",
+    "category": "English:Reading Comprehension:Main Idea",
+    "difficulty": "medium",
     "time_estimate": 95,
     "passage": "pdfData:pdf/Pearsons2019-2022A_MiracleMile.pdf",
     "question_text": "Bannister’s loss in the 1952 Olympics influenced his decision to pursue breaking the four-minutemile barrier by",
@@ -104,15 +104,15 @@
       "motivating him to prove to himself that he could set and achieve a goal.",
       "giving him the opportunity to reach a goal no runner had ever accomplished."
     ],
-    "correct_answer": null,
-    "answer_type": "2"
+    "correct_answer": 2,
+    "answer_type": ""
   },
   {
     "_id": "7",
     "question_number": 7,
     "practice_set": "14",
-    "category": "",
-    "difficulty": "",
+    "category": "English:Reading Comprehension:Main Idea",
+    "difficulty": "medium",
     "time_estimate": 95,
     "passage": "pdfData:pdf/Pearsons2019-2022A_MiracleMile.pdf",
     "question_text": "How does the author’s use of chronological structure contribute to the development of ideas in the passage?",
@@ -122,15 +122,15 @@
       "It emphasizes the key events in Bannister’s life that inspired him to break the four-minutemile barrier.",
       "It highlights the progression of Bannister’s training and details about his successful attempt to break the four-minute-mile barrier."
     ],
-    "correct_answer": null,
-    "answer_type": "3"
+    "correct_answer": 3,
+    "answer_type": ""
   },
   {
     "_id": "8",
     "question_number": 8,
     "practice_set": "14",
-    "category": "",
-    "difficulty": "",
+    "category": "English:Reading Comprehension:Main Idea",
+    "difficulty": "medium",
     "time_estimate": 95,
     "passage": "pdfData:pdf/Pearsons2019-2022A_MiracleMile.pdf",
     "question_text": "Read these sentences from paragraph 7.\n\nBannister said, “I felt that the moment of a lifetime had come. There was no pain, only a great unity of movement and aim.”\n\nThe sentences contribute to the development of ideas in the passage by showing that Bannister",
@@ -140,15 +140,15 @@
       "felt grateful to his teammates for helping him take the lead.",
       "was satisfied that his training had helped him perfect his running technique."
     ],
-    "correct_answer": null,
-    "answer_type": "0"
+    "correct_answer": 0,
+    "answer_type": ""
   },
   {
     "_id": "9",
     "question_number": 9,
     "practice_set": "14",
-    "category": "",
-    "difficulty": "",
+    "category": "English:Reading Comprehension:Main Idea",
+    "difficulty": "medium",
     "time_estimate": 95,
     "passage": "pdfData:pdf/Pearsons2019-2022A_OdeFireworks.pdf",
     "question_text": "The fireworks in the poem represent the speaker’s",
@@ -158,15 +158,15 @@
       "high expectations for everyday life.",
       "reflections on past interactions with relatives."
     ],
-    "correct_answer": null,
-    "answer_type": "1"
+    "correct_answer": 1,
+    "answer_type": ""
   },
   {
     "_id": "10",
     "question_number": 10,
     "practice_set": "14",
-    "category": "",
-    "difficulty": "",
+    "category": "English:Reading Comprehension:Main Idea",
+    "difficulty": "medium",
     "time_estimate": 95,
     "passage": "pdfData:pdf/Pearsons2019-2022A_OdeFireworks.pdf",
     "question_text": "The comparison in lines 8–9 of the poem is used to convey",
@@ -176,15 +176,15 @@
       "the echoes of thunder on an autumn night.",
       "the glow of sparks falling from the sky."
     ],
-    "correct_answer": null,
-    "answer_type": "0"
+    "correct_answer": 0,
+    "answer_type": ""
   },
   {
     "_id": "11",
     "question_number": 11,
     "practice_set": "14",
-    "category": "",
-    "difficulty": "",
+    "category": "English:Reading Comprehension:Main Idea",
+    "difficulty": "medium",
     "time_estimate": 95,
     "passage": "pdfData:pdf/Pearsons2019-2022A_OdeFireworks.pdf",
     "question_text": "Read lines 22–23 from the poem.\n\nthe sky at night written upon\nwith those jewels.\n\nWhat does the word choice in these lines convey about the speaker?",
@@ -194,15 +194,15 @@
       "The speaker believes that the country setting is distinctive.",
       "The speaker cherishes the memory of seeing fireworks as a child."
     ],
-    "correct_answer": null,
-    "answer_type": "3"
+    "correct_answer": 3,
+    "answer_type": ""
   },
   {
     "_id": "12",
     "question_number": 12,
     "practice_set": "14",
-    "category": "",
-    "difficulty": "",
+    "category": "English:Reading Comprehension:Main Idea",
+    "difficulty": "medium",
     "time_estimate": 95,
     "passage": "pdfData:pdf/Pearsons2019-2022A_OdeFireworks.pdf",
     "question_text": "The use of italics on the word “night” in line 24 is most likely intended to emphasize the",
@@ -212,15 +212,15 @@
       "speaker’s fear of night.",
       "speaker’s certainty about that night."
     ],
-    "correct_answer": null,
-    "answer_type": "1"
+    "correct_answer": 1,
+    "answer_type": ""
   },
   {
     "_id": "13",
     "question_number": 13,
     "practice_set": "14",
-    "category": "",
-    "difficulty": "",
+    "category": "English:Reading Comprehension:Main Idea",
+    "difficulty": "medium",
     "time_estimate": 95,
     "passage": "pdfData:pdf/Pearsons2019-2022A_OdeFireworks.pdf",
     "question_text": "What is the purpose of the repeated words “rising and falling” in lines 26 and 37?",
@@ -230,15 +230,15 @@
       "to emphasize the speaker’s attention to the surrounding sounds",
       "to compare the fireworks to common sights and sounds"
     ],
-    "correct_answer": null,
-    "answer_type": "1"
+    "correct_answer": 1,
+    "answer_type": ""
   },
   {
     "_id": "14",
     "question_number": 14,
     "practice_set": "14",
-    "category": "",
-    "difficulty": "",
+    "category": "English:Reading Comprehension:Main Idea",
+    "difficulty": "medium",
     "time_estimate": 95,
     "passage": "pdfData:pdf/Pearsons2019-2022A_OdeFireworks.pdf",
     "question_text": "What impact does the phrase “Everything is a constant celebration” (line 33) have in the poem?",
@@ -248,15 +248,15 @@
       "It implies that what is normal in the city was unusual in the country.",
       "It emphasizes the hectic pace of daily life in the city"
     ],
-    "correct_answer": null,
-    "answer_type": "2"
+    "correct_answer": 2,
+    "answer_type": ""
   },
   {
     "_id": "15",
     "question_number": 15,
     "practice_set": "14",
-    "category": "",
-    "difficulty": "",
+    "category": "English:Reading Comprehension:Main Idea",
+    "difficulty": "medium",
     "time_estimate": 95,
     "passage": "pdfData:pdf/Pearsons2019-2022A_OdeFireworks.pdf",
     "question_text": "Read lines 41–42 from the poem.\n\nI kept waiting for those\nchildhood bursts, watching as they escorted us home.\n\nHow does this memory affect the speaker?",
@@ -266,15 +266,15 @@
       "The speaker now regrets abandoning the rural way of life",
       "The speaker feels a sense of comfort when reflecting on the past."
     ],
-    "correct_answer": null,
-    "answer_type": "3"
+    "correct_answer": 3,
+    "answer_type": ""
   },
   {
     "_id": "16",
     "question_number": 16,
     "practice_set": "14",
-    "category": "",
-    "difficulty": "",
+    "category": "English:Reading Comprehension:Main Idea",
+    "difficulty": "medium",
     "time_estimate": 95,
     "passage": "pdfData:pdf/Pearsons2019-2022A_ResearchRiddle.pdf",
     "question_text": "Read this sentence from paragraph 2.\n\nBut cuteness and weirdness aside, the platypus research results are a gold mine for medical researchers.\n\nThe sentence contributes to the overall structure of the excerpt by",
@@ -284,15 +284,15 @@
       "revealing current ideas about the genetic background of the platypus.",
       "introducing the platypus’s scientific significance that the rest of the excerpt develops."
     ],
-    "correct_answer": null,
-    "answer_type": "3"
+    "correct_answer": 3,
+    "answer_type": ""
   },
   {
     "_id": "17",
     "question_number": 17,
     "practice_set": "14",
-    "category": "",
-    "difficulty": "",
+    "category": "English:Reading Comprehension:Main Idea",
+    "difficulty": "medium",
     "time_estimate": 95,
     "passage": "pdfData:pdf/Pearsons2019-2022A_ResearchRiddle.pdf",
     "question_text": "The phrase “evolutionary DNA tapestry” in paragraph 3 conveys the idea that the platypus",
@@ -302,15 +302,15 @@
       "continues to be the best resource for studying the evolution of animal genomes.",
       "is especially useful to researchers because its genes have never been altered."
     ],
-    "correct_answer": null,
-    "answer_type": "0"
+    "correct_answer": 0,
+    "answer_type": ""
   },
   {
     "_id": "18",
     "question_number": 18,
     "practice_set": "14",
-    "category": "",
-    "difficulty": "",
+    "category": "English:Reading Comprehension:Main Idea",
+    "difficulty": "medium",
     "time_estimate": 95,
     "passage": "pdfData:pdf/Pearsons2019-2022A_ResearchRiddle.pdf",
     "question_text": "How does paragraph 8 fit into the overall structure of the excerpt?",
@@ -320,15 +320,15 @@
       "It contrasts the efforts made to study the different parts of the human genome with the efforts made to study certain animal genomes.",
       "It elaborates on the idea that deciphering genetic signals is a rigorous research challenge."
     ],
-    "correct_answer": null,
-    "answer_type": "0"
+    "correct_answer": 0,
+    "answer_type": ""
   },
   {
     "_id": "19",
     "question_number": 19,
     "practice_set": "14",
-    "category": "",
-    "difficulty": "",
+    "category": "English:Reading Comprehension:Main Idea",
+    "difficulty": "medium",
     "time_estimate": 95,
     "passage": "pdfData:pdf/Pearsons2019-2022A_ResearchRiddle.pdf",
     "question_text": "Which sentence gives the best summary of the section “Same and Different” (paragraphs 9–11)?",
@@ -338,15 +338,15 @@
       "Comparing human genes with the genes of other animals and studying which genes are the same across species yield valuable information that may lead to a greater understanding of human disease.",
       "Scientists are able to use computers in order to compare and examine evolutionary changes in genes across a number of species, including humans."
     ],
-    "correct_answer": null,
-    "answer_type": "2"
+    "correct_answer": 2,
+    "answer_type": ""
   },
   {
     "_id": "20",
     "question_number": 20,
     "practice_set": "14",
-    "category": "",
-    "difficulty": "",
+    "category": "English:Reading Comprehension:Main Idea",
+    "difficulty": "medium",
     "time_estimate": 95,
     "passage": "pdfData:pdf/Pearsons2019-2022A_ResearchRiddle.pdf",
     "question_text": "The details in paragraphs 12–14 about the platypus’s different abilities convey a central idea of the excerpt by",
@@ -356,15 +356,15 @@
       "suggesting that the platypus, while gaining traits in common with mammals and reptiles, has lost some bird-like traits.",
       "demonstrating that the platypus has a rare evolutionary background that includes bird, reptile, and mammal DNA."
     ],
-    "correct_answer": null,
-    "answer_type": "3"
+    "correct_answer": 3,
+    "answer_type": ""
   },
   {
     "_id": "21",
     "question_number": 21,
     "practice_set": "14",
-    "category": "",
-    "difficulty": "",
+    "category": "English:Reading Comprehension:Main Idea",
+    "difficulty": "medium",
     "time_estimate": 95,
     "passage": "pdfData:pdf/Pearsons2019-2022A_ResearchRiddle.pdf",
     "question_text": "The author elaborates on the idea that creating a full analysis of platypus DNA was an important scientific endeavor mainly through",
@@ -374,15 +374,15 @@
       "the discussion of how unusual the platypus genome is in the animal kingdom.",
       "the explanation of how genetics can be aligned to physiological function."
     ],
-    "correct_answer": null,
-    "answer_type": "0"
+    "correct_answer": 0,
+    "answer_type": ""
   },
   {
     "_id": "22",
     "question_number": 22,
     "practice_set": "14",
-    "category": "",
-    "difficulty": "",
+    "category": "English:Reading Comprehension:Main Idea",
+    "difficulty": "medium",
     "time_estimate": 95,
     "passage": "pdfData:pdf/Pearsons2019-2022A_ResearchRiddle.pdf",
     "question_text": "How can researching the genomes of other animals inform scientists’ understanding of human health and disease?",
@@ -392,15 +392,15 @@
       "Observing that all living things evolved from a common ancestor helps researchers pinpoint certain genetic traits.",
       "Understanding how other animals are similar to one another helps researchers find new ways to understand the human genome."
     ],
-    "correct_answer": null,
-    "answer_type": "1"
+    "correct_answer": 1,
+    "answer_type": ""
   },
   {
     "_id": "23",
     "question_number": 23,
     "practice_set": "14",
-    "category": "",
-    "difficulty": "",
+    "category": "English:Reading Comprehension:Main Idea",
+    "difficulty": "medium",
     "time_estimate": 95,
     "passage": "pdfData:pdf/Pearsons2019-2022A_ResearchRiddle.pdf",
     "question_text": "Which sentence from the excerpt best supports the idea that the same DNA material results in the same traits even in different classes of animals?",
@@ -410,15 +410,15 @@
       "“The platypus is nothing like a human, so what can its DNA tell us about people and the diseases we get?” (paragraph 4)",
       "“The evolutionary reason for maintaining such molecular weaponry isn’t yet clear, but what is fascinating is that it appears nature mixed and matched together DNA pieces separately to create the venom genes in reptiles and monotremes like the platypus.” (paragraph 14)"
     ],
-    "correct_answer": null,
-    "answer_type": "3"
+    "correct_answer": 3,
+    "answer_type": ""
   },
   {
     "_id": "24",
     "question_number": 24,
     "practice_set": "14",
-    "category": "",
-    "difficulty": "",
+    "category": "English:Reading Comprehension:Main Idea",
+    "difficulty": "medium",
     "time_estimate": 95,
     "passage": "pdfData:pdf/Pearsons2019-2022A_FirstFlight.pdf",
     "question_text": "How does paragraph 1 introduce the idea that the Wright brothers knew that their flight attempt was risky?",
@@ -428,15 +428,15 @@
       "by suggesting that a slower landing would be necessary at the end of the flight in order to maintain safety",
       "through the indication that the Wright brothers waited indoors for most of the morning because of the poor weather"
     ],
-    "correct_answer": null,
-    "answer_type": "0"
+    "correct_answer": 0,
+    "answer_type": ""
   },
   {
     "_id": "25",
     "question_number": 25,
     "practice_set": "14",
-    "category": "",
-    "difficulty": "",
+    "category": "English:Reading Comprehension:Main Idea",
+    "difficulty": "medium",
     "time_estimate": 95,
     "passage": "pdfData:pdf/Pearsons2019-2022A_FirstFlight.pdf",
     "question_text": "Read this sentence from paragraph 4.\n\nWilbur having used his turn in the unsuccessful attempt on the 14th, the right to thefirst trial now belonged to me.\n\nThe sentence contributes to the development of ideas in the excerpt by",
@@ -446,15 +446,15 @@
       "demonstrating that both Orville and Wilbur Wright were eager to pilot what could potentially be the first flight.",
       "suggesting a sense that both brothers felt confident they would soon succeed in completing the first flight."
     ],
-    "correct_answer": null,
-    "answer_type": "2"
+    "correct_answer": 2,
+    "answer_type": ""
   },
   {
     "_id": "26",
     "question_number": 26,
     "practice_set": "14",
-    "category": "",
-    "difficulty": "",
+    "category": "English:Reading Comprehension:Main Idea",
+    "difficulty": "medium",
     "time_estimate": 95,
     "passage": "pdfData:pdf/Pearsons2019-2022A_FirstFlight.pdf",
     "question_text": "Read this sentence from paragraph 5.\n\nThis flight lasted only 12 seconds, but it was nevertheless the first in the history of the world in which a machine carrying a man had raised itself by its own power into the air in full flight, had sailed forward without reduction of speed and had finally landed at a point as high as that from which it started.\n\nThe words “only,” “nevertheless,” and “finally” most clearly convey the idea that",
@@ -464,15 +464,15 @@
       "the flight proved that the machine was, at last, capable of becoming airborne.",
       "although it was brief, the flight was a remarkable accomplishment."
     ],
-    "correct_answer": null,
-    "answer_type": "3"
+    "correct_answer": 3,
+    "answer_type": ""
   },
   {
     "_id": "27",
     "question_number": 27,
     "practice_set": "14",
-    "category": "",
-    "difficulty": "",
+    "category": "English:Reading Comprehension:Main Idea",
+    "difficulty": "medium",
     "time_estimate": 95,
     "passage": "pdfData:pdf/Pearsons2019-2022A_FirstFlight.pdf",
     "question_text": "Read this sentence from paragraph 5.\n\nAs the velocity of the wind was over 35 feet per second and the speed of the machine over the ground against this wind ten feet per second, the speed of the machine relative to the air was over 45 feet per second, and the length of the flight was equivalent to a flight of 540 feet made in calm air.\n\nHow does the sentence help convey Orville Wright’s perspective about this first flight?",
@@ -482,15 +482,15 @@
       "It provides a comparison between flight distances under calm and high wind conditions.",
       "It highlights the importance of such calculations in the success of future flights."
     ],
-    "correct_answer": null,
-    "answer_type": "1"
+    "correct_answer": 1,
+    "answer_type": ""
   },
   {
     "_id": "28",
     "question_number": 28,
     "practice_set": "14",
-    "category": "",
-    "difficulty": "",
+    "category": "English:Reading Comprehension:Main Idea",
+    "difficulty": "medium",
     "time_estimate": 95,
     "passage": "pdfData:pdf/Pearsons2019-2022A_FirstFlight.pdf",
     "question_text": "How do the details in paragraph 5 about the uneven nature of the flight convey a central idea of the excerpt?",
@@ -500,15 +500,15 @@
       "by explaining how the pilot and the plane overcame adverse conditions in order to complete the first piloted flight",
       "by indicating that the gradual change in wind velocity created an extreme environment in which to maneuver the plane and maintain its flight"
     ],
-    "correct_answer": null,
-    "answer_type": "2"
+    "correct_answer": 2,
+    "answer_type": ""
   },
   {
     "_id": "29",
     "question_number": 29,
     "practice_set": "14",
-    "category": "",
-    "difficulty": "",
+    "category": "English:Reading Comprehension:Main Idea",
+    "difficulty": "medium",
     "time_estimate": 95,
     "passage": "pdfData:pdf/Pearsons2019-2022A_FirstFlight.pdf",
     "question_text": "Which sentence from the excerpt best supports the idea that the Wright brothers had to adapt their flight plans to accommodate the weather conditions?",
@@ -518,15 +518,15 @@
       "“After running the motor a few minutes to heat it up, I released the wire that held the machine to the track, and the machine started forward in the wind.” (paragraph 4)",
       "“The course of the flight up and down was exceedingly erratic, partly due to the irregularity of the air, and partly to lack of experience in handling this machine.” (paragraph 5)"
     ],
-    "correct_answer": null,
-    "answer_type": "1"
+    "correct_answer": 1,
+    "answer_type": ""
   },
   {
     "_id": "30",
     "question_number": 30,
     "practice_set": "14",
-    "category": "",
-    "difficulty": "",
+    "category": "English:Reading Comprehension:Main Idea",
+    "difficulty": "medium",
     "time_estimate": 95,
     "passage": "pdfData:pdf/Pearsons2019-2022A_FirstFlight.pdf",
     "question_text": "The use of chronological structure contributes to the development of ideas in the excerpt by",
@@ -536,15 +536,15 @@
       "showing how the Wright brothers applied lessons learned from their previous flight attempts to accomplish the first flight.",
       "demonstrating how the Wright brothers analyzed the impact of wind velocity to identify the ideal conditions for the first flight."
     ],
-    "correct_answer": null,
-    "answer_type": "0"
+    "correct_answer": 0,
+    "answer_type": ""
   },
   {
     "_id": "31",
     "question_number": 31,
     "practice_set": "14",
-    "category": "",
-    "difficulty": "",
+    "category": "English:Reading Comprehension:Main Idea",
+    "difficulty": "medium",
     "time_estimate": 95,
     "passage": "pdfData:pdf/Pearsons2019-2022A_SearchUnknown.pdf",
     "question_text": "Read paragraph 2 from the excerpt.\n\nTo the proprietors of . . . mangy lynxes, moth-eaten coyotes, and dancing bears I returned courteous but uncompromising refusals—of course, first submitting all such letters, together with my replies, to Professor Farrago.\n\nThis paragraph helps develop the plot by establishing that the narrator",
@@ -554,15 +554,15 @@
       "believes that many of the animals offered are not acceptable for the zoological society.",
       "resents the professor’s insistence on reviewing the refusal letters."
     ],
-    "correct_answer": null,
-    "answer_type": "2"
+    "correct_answer": 2,
+    "answer_type": ""
   },
   {
     "_id": "32",
     "question_number": 32,
     "practice_set": "14",
-    "category": "",
-    "difficulty": "",
+    "category": "English:Reading Comprehension:Main Idea",
+    "difficulty": "medium",
     "time_estimate": 95,
     "passage": "pdfData:pdf/Pearsons2019-2022A_SearchUnknown.pdf",
     "question_text": "Read this sentence from paragraph 3.\n\nThe professor, who was sitting at his desk before a pile of letters and replies submitted for approval by me, pushed his glasses down and looked over them at me with a whimsical smile that suggested amusement, impatience, annoyance, and perhaps a faint trace of apology.\n\nWhat does the phrase “a faint trace of apology” convey about the professor?",
@@ -572,15 +572,15 @@
       "It implies that the professor is uncomfortable criticizing the narrator’s work.",
       "It suggests that the professor knows that the conversation will be frustrating for the narrator."
     ],
-    "correct_answer": null,
-    "answer_type": "3"
+    "correct_answer": 3,
+    "answer_type": ""
   },
   {
     "_id": "33",
     "question_number": 33,
     "practice_set": "14",
-    "category": "",
-    "difficulty": "",
+    "category": "English:Reading Comprehension:Main Idea",
+    "difficulty": "medium",
     "time_estimate": 95,
     "passage": "pdfData:pdf/Pearsons2019-2022A_SearchUnknown.pdf",
     "question_text": "How does the exchange between the professor and the narrator in paragraphs 8–11 contribute to the development of the excerpt?",
@@ -590,15 +590,15 @@
       "It reveals the characters’ traits by contrasting the narrator’s distrust of the content of the letter with how easily the professor is deceived by what he reads.",
       "It hints that the resolution will involve the narrator accepting the professor’s opinion about the content of the letter."
     ],
-    "correct_answer": null,
-    "answer_type": "0"
+    "correct_answer": 0,
+    "answer_type": ""
   },
   {
     "_id": "34",
     "question_number": 34,
     "practice_set": "14",
-    "category": "",
-    "difficulty": "",
+    "category": "English:Reading Comprehension:Main Idea",
+    "difficulty": "medium",
     "time_estimate": 95,
     "passage": "pdfData:pdf/Pearsons2019-2022A_SearchUnknown.pdf",
     "question_text": "The professor’s observations in paragraphs 15–17 create tension in the excerpt by causing the narrator to feel",
@@ -608,15 +608,15 @@
       "confused by the professor’s lack of respect for his opinion.",
       "frustrated by the professor’s lack of interest in his theory."
     ],
-    "correct_answer": null,
-    "answer_type": "0"
+    "correct_answer": 0,
+    "answer_type": ""
   },
   {
     "_id": "35",
     "question_number": 35,
     "practice_set": "14",
-    "category": "",
-    "difficulty": "",
+    "category": "English:Reading Comprehension:Main Idea",
+    "difficulty": "medium",
     "time_estimate": 95,
     "passage": "pdfData:pdf/Pearsons2019-2022A_SearchUnknown.pdf",
     "question_text": "How does the interaction between the narrator and the professor in paragraphs 26–28 contribute to the development of the theme?",
@@ -626,15 +626,15 @@
       "It emphasizes the professor’s desire to acquire new specimens for the zoological society at any cost.",
       "It shows the narrator’s acceptance of his assignment despite his personal objections."
     ],
-    "correct_answer": null,
-    "answer_type": "3"
+    "correct_answer": 3,
+    "answer_type": ""
   },
   {
     "_id": "36",
     "question_number": 36,
     "practice_set": "14",
-    "category": "",
-    "difficulty": "",
+    "category": "English:Reading Comprehension:Main Idea",
+    "difficulty": "medium",
     "time_estimate": 95,
     "passage": "pdfData:pdf/Pearsons2019-2022A_SearchUnknown.pdf",
     "question_text": "How does the author develop the contrast between the narrator’s point of view and the professor’s point of view?",
@@ -644,15 +644,15 @@
       "by describing the professor’s persistent efforts to change the narrator’s mind about the letter",
       "by including dialogue that explains why the professor is the supervisor and the narrator is his subordinate"
     ],
-    "correct_answer": null,
-    "answer_type": "1"
+    "correct_answer": 1,
+    "answer_type": ""
   },
   {
     "_id": "37",
     "question_number": 37,
     "practice_set": "14",
-    "category": "",
-    "difficulty": "",
+    "category": "English:Reading Comprehension:Main Idea",
+    "difficulty": "medium",
     "time_estimate": 95,
     "passage": "pdfData:pdf/Pearsons2019-2022A_SearchUnknown.pdf",
     "question_text": "How does paragraph 34 help develop the plot of the excerpt?",
@@ -662,15 +662,15 @@
       "It establishes that the narrator is willing to let the professor overrule him about the great auks.",
       "It emphasizes that the narrator feels a sense of urgency to begin an expedition to locate the great auks."
     ],
-    "correct_answer": null,
-    "answer_type": "0"
+    "correct_answer": 0,
+    "answer_type": ""
   },
   {
     "_id": "38",
     "question_number": 38,
     "practice_set": "14",
-    "category": "",
-    "difficulty": "",
+    "category": "English:Reading Comprehension:Main Idea",
+    "difficulty": "medium",
     "time_estimate": 95,
     "passage": "pdfData:pdf/Pearsons2019-2022A_SearchUnknown.pdf",
     "question_text": "Which sentence best demonstrates the professional relationship between the narrator and the professor?",
@@ -680,15 +680,15 @@
       "“I drew a chair up beside his desk—there was nothing to do but to obey, and this fool’s errand was none of my conceiving.” (paragraph 25)",
       "“ ‘Very well,’ said Professor Farrago, good-humoredly, ‘you shall have all the assistance you may require.’ ” (paragraph 29)"
     ],
-    "correct_answer": null,
-    "answer_type": "2"
+    "correct_answer": 2,
+    "answer_type": ""
   },
   {
     "_id": "39",
     "question_number": 39,
     "practice_set": "14",
-    "category": "",
-    "difficulty": "",
+    "category": "English:Reading Comprehension:Main Idea",
+    "difficulty": "medium",
     "time_estimate": 95,
     "passage": "pdfData:pdf/Pearsons2019-2022A_SearchUnknown.pdf",
     "question_text": "Which sentence from the excerpt best explains why the professor is eager to send the narrator on an expedition?",
@@ -698,15 +698,15 @@
       "“ ‘I suppose,’ he replied, with the same half-apologetic, half-humorous smile, ‘it is instinct.’ ” (paragraph 33)",
       "“ ‘I can’t get away from the idea that we are on the eve of acquiring the rarest of living creatures.’ ” (paragraph 33)"
     ],
-    "correct_answer": null,
-    "answer_type": "3"
+    "correct_answer": 3,
+    "answer_type": ""
   },
   {
     "_id": "40",
     "question_number": 40,
     "practice_set": "14",
-    "category": "",
-    "difficulty": "",
+    "category": "English:Reading Comprehension:Main Idea",
+    "difficulty": "medium",
     "time_estimate": 95,
     "passage": "pdfData:pdf/Pearsons2019-2022A_TermLimits.pdf",
     "question_text": "What is the best summary of the discussion of congressional term policy outlined in paragraph 2?",
@@ -716,15 +716,15 @@
       "Support for congressional term limits is increasing, as shown by recent surveys indicating that American citizens of different backgrounds and political beliefs are beginning to favor implementation of term limits for members of Congress.",
       "While the Constitution sets a term limit for the office of president, no such limit exists for members of Congress; however, recent surveys show that many American citizens are now in favor of term limits for members of Congress."
     ],
-    "correct_answer": null,
-    "answer_type": "3"
+    "correct_answer": 3,
+    "answer_type": ""
   },
   {
     "_id": "41",
     "question_number": 41,
     "practice_set": "14",
-    "category": "",
-    "difficulty": "",
+    "category": "English:Reading Comprehension:Main Idea",
+    "difficulty": "medium",
     "time_estimate": 95,
     "passage": "pdfData:pdf/Pearsons2019-2022A_TermLimits.pdf",
     "question_text": "Which sentence from the passage supports the idea that congressional term limits would “benefit our government” (paragraph 2)?",
@@ -734,15 +734,15 @@
       "“Former Senator Joe Lieberman, upon his retirement, suggested that Congress ‘might be healthier and less partisan and less rigid if it turned over more often, and term limits are one way to do that.’ ” (paragraph 3)",
       "“Thomas E. Mann, Senior Fellow in governance studies at the Brookings Institution, notes that every decade, new members replace at least half the members of the House and the Senate, due to retirement or elections.” (paragraph 7)"
     ],
-    "correct_answer": null,
-    "answer_type": "2"
+    "correct_answer": 2,
+    "answer_type": ""
   },
   {
     "_id": "42",
     "question_number": 42,
     "practice_set": "14",
-    "category": "",
-    "difficulty": "",
+    "category": "English:Reading Comprehension:Main Idea",
+    "difficulty": "medium",
     "time_estimate": 95,
     "passage": "pdfData:pdf/Pearsons2019-2022A_TermLimits.pdf",
     "question_text": "The quotations in paragraph 3 convey a central idea of the passage by",
@@ -752,15 +752,15 @@
       "suggesting that citizens defer to career politicians and law experts on issues such as congressional term limits.",
       "implying that term limits would affect the ways that members of Congress campaign and vote."
     ],
-    "correct_answer": null,
-    "answer_type": "0"
+    "correct_answer": 0,
+    "answer_type": ""
   },
   {
     "_id": "43",
     "question_number": 43,
     "practice_set": "14",
-    "category": "",
-    "difficulty": "",
+    "category": "English:Reading Comprehension:Main Idea",
+    "difficulty": "medium",
     "time_estimate": 95,
     "passage": "pdfData:pdf/Pearsons2019-2022A_TermLimits.pdf",
     "question_text": "Read this sentence from paragraph 5.\n\nWhile challenging the career politician’s path is seen as a benefit to term limit supporters, there is a possibility that a Congress mostly composed of newcomers could severely affect policy making.\n\nWhich statement best describes how the sentence fits into the overall structure of the passage?",
@@ -770,15 +770,15 @@
       "It begins to explore the effects of instituting term limits",
       "It shifts from the arguments for to the arguments against term limits."
     ],
-    "correct_answer": null,
-    "answer_type": "3"
+    "correct_answer": 3,
+    "answer_type": ""
   },
   {
     "_id": "44",
     "question_number": 44,
     "practice_set": "14",
-    "category": "",
-    "difficulty": "",
+    "category": "English:Reading Comprehension:Main Idea",
+    "difficulty": "medium",
     "time_estimate": 95,
     "passage": "pdfData:pdf/Pearsons2019-2022A_TermLimits.pdf",
     "question_text": "According to paragraph 5, serving more terms improves politicians’ effectiveness by",
@@ -788,15 +788,15 @@
       "allowing them to gain expertise and develop strong political relationships.",
       "enabling them to create new policies while fostering their own careers"
     ],
-    "correct_answer": null,
-    "answer_type": "2"
+    "correct_answer": 2,
+    "answer_type": ""
   },
   {
     "_id": "45",
     "question_number": 45,
     "practice_set": "14",
-    "category": "",
-    "difficulty": "",
+    "category": "English:Reading Comprehension:Main Idea",
+    "difficulty": "medium",
     "time_estimate": 95,
     "passage": "pdfData:pdf/Pearsons2019-2022A_TermLimits.pdf",
     "question_text": "According to the passage, why would setting term limits for members of Congress potentially increase the influence of special-interest groups?",
@@ -806,15 +806,15 @@
       "Term limits would force experienced representatives out of their seats and bring in new representatives who focus on the agendas of special-interest groups.",
       "Term limits would result in both new and experienced representatives looking to special-interest groups in order to influence decisions made in legislature."
     ],
-    "correct_answer": null,
-    "answer_type": "0"
+    "correct_answer": 0,
+    "answer_type": ""
   },
   {
     "_id": "46",
     "question_number": 46,
     "practice_set": "14",
-    "category": "",
-    "difficulty": "",
+    "category": "English:Reading Comprehension:Main Idea",
+    "difficulty": "medium",
     "time_estimate": 95,
     "passage": "pdfData:pdf/Pearsons2019-2022A_TermLimits.pdf",
     "question_text": "The author of the passage develops the idea that congressional term limits might have negative effects mainly by",
@@ -824,15 +824,15 @@
       "illustrating the various ways lobbyists seek to influence the decisions of new members of Congress.",
       "revealing the statistics on the turnover rates for representatives."
     ],
-    "correct_answer": null,
-    "answer_type": "1"
+    "correct_answer": 1,
+    "answer_type": ""
   },
   {
     "_id": "47",
     "question_number": 47,
     "practice_set": "14",
-    "category": "",
-    "difficulty": "",
+    "category": "English:Reading Comprehension:Main Idea",
+    "difficulty": "medium",
     "time_estimate": 95,
     "passage": "pdfData:pdf/Pearsons2019-2022A_TermLimits.pdf",
     "question_text": "With which statement would the author of the passage most likely agree?",
@@ -842,15 +842,15 @@
       "There are compelling reasons both for and against setting term limits for Congress.",
       "Special-interest groups are likely to have a huge influence on whether term limits are set."
     ],
-    "correct_answer": null,
-    "answer_type": "2"
+    "correct_answer": 2,
+    "answer_type": ""
   },
   {
     "_id": "48",
     "question_number": 48,
     "practice_set": "14",
-    "category": "",
-    "difficulty": "",
+    "category": "English:Reading Comprehension:Main Idea",
+    "difficulty": "medium",
     "time_estimate": 95,
     "passage": "pdfData:pdf/Pearsons2019-2022A_TermLimits.pdf",
     "question_text": "The tables at the end of the passage contribute to the development of ideas in paragraph 7 by",
@@ -860,15 +860,15 @@
       "showing that the reelection rate in the Senate differs from the reelection rate in the House",
       "emphasizing the fact that the Senate has fewer seats but a greater reelection rate than the House."
     ],
-    "correct_answer": null,
-    "answer_type": "0"
+    "correct_answer": 0,
+    "answer_type": ""
   },
   {
     "_id": "49",
     "question_number": 49,
     "practice_set": "14",
-    "category": "",
-    "difficulty": "",
+    "category": "English:Reading Comprehension:Main Idea",
+    "difficulty": "medium",
     "time_estimate": 95,
     "passage": "pdfData:pdf/Pearsons2019-2020A_CrackingCode.pdf",
     "question_text": "What is the best way to combine sentences 3 through 5 to clarify the relationship between ideas?",
@@ -878,15 +878,15 @@
       "When people who code have to learn this language, it is so they can construct programs that will perform detailed and complex tasks.",
       "If people who code have to learn this language, then they can construct programs that will perform detailed as well as complex tasks."
     ],
-    "correct_answer": null,
-    "answer_type": "1"
+    "correct_answer": 1,
+    "answer_type": ""
   },
   {
     "_id": "50",
     "question_number": 50,
     "practice_set": "14",
-    "category": "",
-    "difficulty": "",
+    "category": "English:Reading Comprehension:Main Idea",
+    "difficulty": "medium",
     "time_estimate": 95,
     "passage": "pdfData:pdf/Pearsons2019-2020A_CrackingCode.pdf",
     "question_text": "Which sentence should follow sentence 5 to best state the main claim in the passage?",
@@ -896,15 +896,15 @@
       "Schools should offer coding classes because knowing how to code will help students succeed in many types of businesses.",
       "Students should prepare for the future job market by studying code and learning how to code programs."
     ],
-    "correct_answer": null,
-    "answer_type": "0"
+    "correct_answer": 0,
+    "answer_type": ""
   },
   {
     "_id": "51",
     "question_number": 51,
     "practice_set": "14",
-    "category": "",
-    "difficulty": "",
+    "category": "English:Reading Comprehension:Main Idea",
+    "difficulty": "medium",
     "time_estimate": 95,
     "passage": "pdfData:pdf/Pearsons2019-2020A_CrackingCode.pdf",
     "question_text": "Students should prepare for the future job market by studying code and learning how to code programs.",
@@ -914,15 +914,15 @@
       "Employers in most industries realize that coding skills are becoming important in many occupational fields.",
       "Even though programming is its own unique field, coding skills are becoming important in many occupational fields."
     ],
-    "correct_answer": null,
-    "answer_type": "1"
+    "correct_answer": 1,
+    "answer_type": ""
   },
   {
     "_id": "52",
     "question_number": 52,
     "practice_set": "14",
-    "category": "",
-    "difficulty": "",
+    "category": "English:Reading Comprehension:Main Idea",
+    "difficulty": "medium",
     "time_estimate": 95,
     "passage": "pdfData:pdf/Pearsons2019-2020A_CrackingCode.pdf",
     "question_text": "Which sentence would best follow sentence 13 and support the ideas in the third paragraph (sentences 10–13)?",
@@ -932,15 +932,15 @@
       "Many companies are eager to hire employees who have experience in a specific industry as well as knowledge of basic coding.",
       "According to a report from a job market analytics firm, almost half of today’s jobs paying more than $58,000 a year call for some level of coding ability"
     ],
-    "correct_answer": null,
-    "answer_type": "3"
+    "correct_answer": 3,
+    "answer_type": ""
   },
   {
     "_id": "53",
     "question_number": 53,
     "practice_set": "14",
-    "category": "",
-    "difficulty": "",
+    "category": "English:Reading Comprehension:Main Idea",
+    "difficulty": "medium",
     "time_estimate": 95,
     "passage": "pdfData:pdf/Pearsons2019-2020A_CrackingCode.pdf",
     "question_text": "Which concluding sentence would best follow sentence 20 and support the argument presented in the passage?",
@@ -950,15 +950,15 @@
       "Students who want to secure a high-paying job in the technology industry should become proficient in coding.",
       "Since coding is a valuable marketplace skill, today’s students should begin to write their own computer programs."
     ],
-    "correct_answer": null,
-    "answer_type": "1"
+    "correct_answer": 1,
+    "answer_type": ""
   },
   {
     "_id": "54",
     "question_number": 54,
     "practice_set": "14",
-    "category": "",
-    "difficulty": "",
+    "category": "English:Reading Comprehension:Main Idea",
+    "difficulty": "medium",
     "time_estimate": 95,
     "passage": "(1) Danielle spent several hours preparing for an upcoming audition for a play at the community theater. (2) First she did vocal exercises to practice her diction and projection so that her words would carry clearly throughout the large auditorium. (3) Then she studies the text of the monologue to better understand the emotions, and motivations of the character she plans to portray. (4) Finally she recited her monologue in front of a mirror many times, making slight adjustments and improvements to her performance each time.",
     "question_text": "How should the paragraph be revised?",
@@ -968,15 +968,15 @@
       "Sentence 3: Change 'studies' to 'studied', AND delete the comma after 'emotions'.",
       "Sentence 4: Change 'recited' to 'recites', AND delete the comma after 'times'"
     ],
-    "correct_answer": null,
-    "answer_type": "2"
+    "correct_answer": 2,
+    "answer_type": ""
   },
   {
     "_id": "55",
     "question_number": 55,
     "practice_set": "14",
-    "category": "",
-    "difficulty": "",
+    "category": "English:Reading Comprehension:Main Idea",
+    "difficulty": "medium",
     "time_estimate": 95,
     "passage": "image:images/shsatpractice14question55.png",
     "question_text": "Which revision corrects the error in sentence structure in the paragraph?",
@@ -986,15 +986,15 @@
       "Panthalassa. Much",
       "crust, in fact,"
     ],
-    "correct_answer": null,
-    "answer_type": "0"
+    "correct_answer": 0,
+    "answer_type": ""
   },
   {
     "_id": "56",
     "question_number": 56,
     "practice_set": "14",
-    "category": "",
-    "difficulty": "",
+    "category": "English:Reading Comprehension:Main Idea",
+    "difficulty": "medium",
     "time_estimate": 95,
     "passage": "(1) In 1976 the National Basketball Association (NBA) absorbed several teams of the American Basketball Association (ABA), including the New York Nets, who played in the Long Island area at the time. (2) The owner of the Nets decided to take the team to New Jersey after the team had financial troubles, where the Nets played for thirty-five seasons. (3) The New Jersey Nets had sixteen playoff appearances, including two appearances in the NBA finals. (4) Then in 2012, after a change in ownership, the team returned to New York and began playing under the name the Brooklyn Nets.",
     "question_text": "Which sentence contains an error in its construction and should be revised?",
@@ -1004,15 +1004,15 @@
       "sentence 3",
       "sentence 4"
     ],
-    "correct_answer": null,
-    "answer_type": "1"
+    "correct_answer": 1,
+    "answer_type": ""
   },
   {
     "_id": "57",
     "question_number": 57,
     "practice_set": "14",
-    "category": "",
-    "difficulty": "",
+    "category": "English:Reading Comprehension:Main Idea",
+    "difficulty": "medium",
     "time_estimate": 95,
     "passage": "(1) Flyby missions near Jupiter have been happening since 1973.\n(2) Flyby missions allow scientists to collect data about Jupiter and its moons.",
     "question_text": "What is the best way to combine the sentences to clarify the relationship between the ideas?",
@@ -1022,15 +1022,15 @@
       "Flyby missions near Jupiter, which allow scientists to collect data about the planet and its moons, have been happening since 1973.",
       "Flyby missions have been happening near Jupiter, but scientists have been collecting data about the planet and its moons since 1973."
     ],
-    "correct_answer": null,
-    "answer_type": "2"
+    "correct_answer": 2,
+    "answer_type": ""
   },
   {
     "_id": "58",
     "question_number": 58,
     "practice_set": "14",
     "category": "",
-    "difficulty": "",
+    "difficulty": "medium",
     "time_estimate": 95,
     "passage": "",
     "question_text": "Ms. Li opened a retirement account with a deposit of $2,500. This account earns 4% simple interest annually. How many years will it take her to earn $500 on her $2,500 deposit?",
@@ -1043,7 +1043,7 @@
     "question_number": 59,
     "practice_set": "14",
     "category": "",
-    "difficulty": "",
+    "difficulty": "medium",
     "time_estimate": 95,
     "passage": "image:images/shsatpractice14question59.png",
     "question_text": "What is the value of the expression shown above?",
@@ -1056,7 +1056,7 @@
     "question_number": 60,
     "practice_set": "14",
     "category": "",
-    "difficulty": "",
+    "difficulty": "medium",
     "time_estimate": 95,
     "passage": "",
     "question_text": "",
@@ -1069,7 +1069,7 @@
     "question_number": 61,
     "practice_set": "14",
     "category": "",
-    "difficulty": "",
+    "difficulty": "medium",
     "time_estimate": 95,
     "passage": "image:images/shsatpractice14question61.png",
     "question_text": "",
@@ -1082,7 +1082,7 @@
     "question_number": 62,
     "practice_set": "14",
     "category": "",
-    "difficulty": "",
+    "difficulty": "medium",
     "time_estimate": 95,
     "passage": "",
     "question_text": "",
@@ -1095,7 +1095,7 @@
     "question_number": 63,
     "practice_set": "14",
     "category": "",
-    "difficulty": "",
+    "difficulty": "medium",
     "time_estimate": 95,
     "passage": "",
     "question_text": "",
@@ -1108,7 +1108,7 @@
     "question_number": 64,
     "practice_set": "14",
     "category": "",
-    "difficulty": "",
+    "difficulty": "medium",
     "time_estimate": 95,
     "passage": "image:images/shsatpractice14question64.png",
     "question_text": "How many inches of rain fell?",
@@ -1126,7 +1126,7 @@
     "question_number": 65,
     "practice_set": "14",
     "category": "",
-    "difficulty": "",
+    "difficulty": "medium",
     "time_estimate": 95,
     "passage": "",
     "question_text": "",
@@ -1139,7 +1139,7 @@
     "question_number": 66,
     "practice_set": "14",
     "category": "",
-    "difficulty": "",
+    "difficulty": "medium",
     "time_estimate": 95,
     "passage": "",
     "question_text": "",
@@ -1152,7 +1152,7 @@
     "question_number": 67,
     "practice_set": "14",
     "category": "",
-    "difficulty": "",
+    "difficulty": "medium",
     "time_estimate": 95,
     "passage": "image:images/shsatpractice14question67.png",
     "question_text": "",
@@ -1165,7 +1165,7 @@
     "question_number": 68,
     "practice_set": "14",
     "category": "",
-    "difficulty": "",
+    "difficulty": "medium",
     "time_estimate": 95,
     "passage": "image:images/shsatpractice14question68.png",
     "question_text": "",
@@ -1178,7 +1178,7 @@
     "question_number": 69,
     "practice_set": "14",
     "category": "",
-    "difficulty": "",
+    "difficulty": "medium",
     "time_estimate": 95,
     "passage": "",
     "question_text": "",
@@ -1191,7 +1191,7 @@
     "question_number": 70,
     "practice_set": "14",
     "category": "",
-    "difficulty": "",
+    "difficulty": "medium",
     "time_estimate": 95,
     "passage": "",
     "question_text": "",
@@ -1204,7 +1204,7 @@
     "question_number": 71,
     "practice_set": "14",
     "category": "",
-    "difficulty": "",
+    "difficulty": "medium",
     "time_estimate": 95,
     "passage": "",
     "question_text": "",
@@ -1217,7 +1217,7 @@
     "question_number": 72,
     "practice_set": "14",
     "category": "",
-    "difficulty": "",
+    "difficulty": "medium",
     "time_estimate": 95,
     "passage": "",
     "question_text": "",
@@ -1230,7 +1230,7 @@
     "question_number": 73,
     "practice_set": "14",
     "category": "",
-    "difficulty": "",
+    "difficulty": "medium",
     "time_estimate": 95,
     "passage": "image:images/shsatpractice14question73.png",
     "question_text": "",
@@ -1243,7 +1243,7 @@
     "question_number": 74,
     "practice_set": "14",
     "category": "",
-    "difficulty": "",
+    "difficulty": "medium",
     "time_estimate": 95,
     "passage": "image:images/shsatpractice14question74.png",
     "question_text": "",
@@ -1256,7 +1256,7 @@
     "question_number": 75,
     "practice_set": "14",
     "category": "",
-    "difficulty": "",
+    "difficulty": "medium",
     "time_estimate": 95,
     "passage": "",
     "question_text": "",
@@ -1269,7 +1269,7 @@
     "question_number": 76,
     "practice_set": "14",
     "category": "",
-    "difficulty": "",
+    "difficulty": "medium",
     "time_estimate": 95,
     "passage": "",
     "question_text": "",
@@ -1282,7 +1282,7 @@
     "question_number": 77,
     "practice_set": "14",
     "category": "",
-    "difficulty": "",
+    "difficulty": "medium",
     "time_estimate": 95,
     "passage": "image:images/shsatpractice14question77.png",
     "question_text": "",
@@ -1300,7 +1300,7 @@
     "question_number": 78,
     "practice_set": "14",
     "category": "",
-    "difficulty": "",
+    "difficulty": "medium",
     "time_estimate": 95,
     "passage": "",
     "question_text": "",
@@ -1313,7 +1313,7 @@
     "question_number": 79,
     "practice_set": "14",
     "category": "",
-    "difficulty": "",
+    "difficulty": "medium",
     "time_estimate": 95,
     "passage": "image:images/shsatpractice14question79.png",
     "question_text": "",
@@ -1326,7 +1326,7 @@
     "question_number": 80,
     "practice_set": "14",
     "category": "",
-    "difficulty": "",
+    "difficulty": "medium",
     "time_estimate": 95,
     "passage": "",
     "question_text": "",
@@ -1339,7 +1339,7 @@
     "question_number": 81,
     "practice_set": "14",
     "category": "",
-    "difficulty": "",
+    "difficulty": "medium",
     "time_estimate": 95,
     "passage": "",
     "question_text": "",
@@ -1352,7 +1352,7 @@
     "question_number": 82,
     "practice_set": "14",
     "category": "",
-    "difficulty": "",
+    "difficulty": "medium",
     "time_estimate": 95,
     "passage": "image:images/shsatpractice14question82.png",
     "question_text": "",
@@ -1365,7 +1365,7 @@
     "question_number": 83,
     "practice_set": "14",
     "category": "",
-    "difficulty": "",
+    "difficulty": "medium",
     "time_estimate": 95,
     "passage": "image:images/shsatpractice14question83.png",
     "question_text": "",
@@ -1383,7 +1383,7 @@
     "question_number": 84,
     "practice_set": "14",
     "category": "",
-    "difficulty": "",
+    "difficulty": "medium",
     "time_estimate": 95,
     "passage": "",
     "question_text": "",
@@ -1396,7 +1396,7 @@
     "question_number": 85,
     "practice_set": "14",
     "category": "",
-    "difficulty": "",
+    "difficulty": "medium",
     "time_estimate": 95,
     "passage": "",
     "question_text": "",
@@ -1409,7 +1409,7 @@
     "question_number": 86,
     "practice_set": "14",
     "category": "",
-    "difficulty": "",
+    "difficulty": "medium",
     "time_estimate": 95,
     "passage": "",
     "question_text": "",
@@ -1422,7 +1422,7 @@
     "question_number": 87,
     "practice_set": "14",
     "category": "",
-    "difficulty": "",
+    "difficulty": "medium",
     "time_estimate": 95,
     "passage": "",
     "question_text": "",
@@ -1435,7 +1435,7 @@
     "question_number": 88,
     "practice_set": "14",
     "category": "",
-    "difficulty": "",
+    "difficulty": "medium",
     "time_estimate": 95,
     "passage": "image:images/shsatpractice14question88.png",
     "question_text": "",
@@ -1448,7 +1448,7 @@
     "question_number": 89,
     "practice_set": "14",
     "category": "",
-    "difficulty": "",
+    "difficulty": "medium",
     "time_estimate": 95,
     "passage": "",
     "question_text": "",
@@ -1461,7 +1461,7 @@
     "question_number": 90,
     "practice_set": "14",
     "category": "",
-    "difficulty": "",
+    "difficulty": "medium",
     "time_estimate": 95,
     "passage": "image:images/shsatpractice14question90.png",
     "question_text": "",
@@ -1474,7 +1474,7 @@
     "question_number": 91,
     "practice_set": "14",
     "category": "",
-    "difficulty": "",
+    "difficulty": "medium",
     "time_estimate": 95,
     "passage": "image:images/shsatpractice14question91.png",
     "question_text": "",
@@ -1487,7 +1487,7 @@
     "question_number": 92,
     "practice_set": "14",
     "category": "",
-    "difficulty": "",
+    "difficulty": "medium",
     "time_estimate": 95,
     "passage": "image:images/shsatpractice14question92.png",
     "question_text": "",
@@ -1500,7 +1500,7 @@
     "question_number": 93,
     "practice_set": "14",
     "category": "",
-    "difficulty": "",
+    "difficulty": "medium",
     "time_estimate": 95,
     "passage": "",
     "question_text": "",
@@ -1513,7 +1513,7 @@
     "question_number": 94,
     "practice_set": "14",
     "category": "",
-    "difficulty": "",
+    "difficulty": "medium",
     "time_estimate": 95,
     "passage": "image:images/shsatpractice14question94.png",
     "question_text": "",
@@ -1526,7 +1526,7 @@
     "question_number": 95,
     "practice_set": "14",
     "category": "",
-    "difficulty": "",
+    "difficulty": "medium",
     "time_estimate": 95,
     "passage": "image:images/shsatpractice14question95.png",
     "question_text": "Which graph?",
@@ -1544,7 +1544,7 @@
     "question_number": 96,
     "practice_set": "14",
     "category": "",
-    "difficulty": "",
+    "difficulty": "medium",
     "time_estimate": 95,
     "passage": "",
     "question_text": "",
@@ -1557,7 +1557,7 @@
     "question_number": 97,
     "practice_set": "14",
     "category": "",
-    "difficulty": "",
+    "difficulty": "medium",
     "time_estimate": 95,
     "passage": "",
     "question_text": "",
@@ -1570,7 +1570,7 @@
     "question_number": 98,
     "practice_set": "14",
     "category": "",
-    "difficulty": "",
+    "difficulty": "medium",
     "time_estimate": 95,
     "passage": "",
     "question_text": "",
@@ -1583,7 +1583,7 @@
     "question_number": 99,
     "practice_set": "14",
     "category": "",
-    "difficulty": "",
+    "difficulty": "medium",
     "time_estimate": 95,
     "passage": "",
     "question_text": "",
@@ -1596,7 +1596,7 @@
     "question_number": 100,
     "practice_set": "14",
     "category": "",
-    "difficulty": "",
+    "difficulty": "medium",
     "time_estimate": 95,
     "passage": "",
     "question_text": "",
@@ -1609,7 +1609,7 @@
     "question_number": 101,
     "practice_set": "14",
     "category": "",
-    "difficulty": "",
+    "difficulty": "medium",
     "time_estimate": 95,
     "passage": "image:images/shsatpractice14question101.png",
     "question_text": "Which value?",
@@ -1627,7 +1627,7 @@
     "question_number": 102,
     "practice_set": "14",
     "category": "",
-    "difficulty": "",
+    "difficulty": "medium",
     "time_estimate": 95,
     "passage": "image:images/shsatpractice14question102.png",
     "question_text": "",
@@ -1640,7 +1640,7 @@
     "question_number": 103,
     "practice_set": "14",
     "category": "",
-    "difficulty": "",
+    "difficulty": "medium",
     "time_estimate": 95,
     "passage": "image:images/shsatpractice14question103.png",
     "question_text": "",
@@ -1653,7 +1653,7 @@
     "question_number": 104,
     "practice_set": "14",
     "category": "",
-    "difficulty": "",
+    "difficulty": "medium",
     "time_estimate": 95,
     "passage": "",
     "question_text": "",
@@ -1666,7 +1666,7 @@
     "question_number": 105,
     "practice_set": "14",
     "category": "",
-    "difficulty": "",
+    "difficulty": "medium",
     "time_estimate": 95,
     "passage": "",
     "question_text": "",
@@ -1679,7 +1679,7 @@
     "question_number": 106,
     "practice_set": "14",
     "category": "",
-    "difficulty": "",
+    "difficulty": "medium",
     "time_estimate": 95,
     "passage": "image:images/shsatpractice14question106.png",
     "question_text": "",
@@ -1692,7 +1692,7 @@
     "question_number": 107,
     "practice_set": "14",
     "category": "",
-    "difficulty": "",
+    "difficulty": "medium",
     "time_estimate": 95,
     "passage": "",
     "question_text": "",
@@ -1705,7 +1705,7 @@
     "question_number": 108,
     "practice_set": "14",
     "category": "",
-    "difficulty": "",
+    "difficulty": "medium",
     "time_estimate": 95,
     "passage": "",
     "question_text": "",
@@ -1718,7 +1718,7 @@
     "question_number": 109,
     "practice_set": "14",
     "category": "",
-    "difficulty": "",
+    "difficulty": "medium",
     "time_estimate": 95,
     "passage": "",
     "question_text": "",
@@ -1731,7 +1731,7 @@
     "question_number": 110,
     "practice_set": "14",
     "category": "",
-    "difficulty": "",
+    "difficulty": "medium",
     "time_estimate": 95,
     "passage": "",
     "question_text": "",
@@ -1744,7 +1744,7 @@
     "question_number": 111,
     "practice_set": "14",
     "category": "",
-    "difficulty": "",
+    "difficulty": "medium",
     "time_estimate": 95,
     "passage": "",
     "question_text": "",
@@ -1757,7 +1757,7 @@
     "question_number": 112,
     "practice_set": "14",
     "category": "",
-    "difficulty": "",
+    "difficulty": "medium",
     "time_estimate": 95,
     "passage": "",
     "question_text": "",
@@ -1770,7 +1770,7 @@
     "question_number": 113,
     "practice_set": "14",
     "category": "",
-    "difficulty": "",
+    "difficulty": "medium",
     "time_estimate": 95,
     "passage": "image:images/shsatpractice14question113.png",
     "question_text": "Which number line?",
@@ -1788,7 +1788,7 @@
     "question_number": 114,
     "practice_set": "14",
     "category": "",
-    "difficulty": "",
+    "difficulty": "medium",
     "time_estimate": 95,
     "passage": "image:images/shsatpractice14question114.png",
     "question_text": "What is the probability?",
