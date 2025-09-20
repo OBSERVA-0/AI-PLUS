@@ -1105,7 +1105,7 @@
       "2,482",
       "10,000"
     ],
-    "correct_answer": null,
+    "correct_answer": 2,
     "answer_type": ""
   },
   {
@@ -1123,7 +1123,7 @@
       "G",
       "H"
     ],
-    "correct_answer": null,
+    "correct_answer": 0,
     "answer_type": ""
   },
   {
@@ -1141,7 +1141,7 @@
       "473",
       "583"
     ],
-    "correct_answer": null,
+    "correct_answer": 2,
     "answer_type": ""
   },
   {
@@ -1159,7 +1159,7 @@
       "4:00 p.m.",
       "12:00 midnight"
     ],
-    "correct_answer": null,
+    "correct_answer": 1,
     "answer_type": ""
   },
   {
@@ -1177,7 +1177,7 @@
       "6",
       "8"
     ],
-    "correct_answer": null,
+    "correct_answer": 3,
     "answer_type": ""
   },
   {
@@ -1195,7 +1195,7 @@
       "5",
       "10 and 1/9"
     ],
-    "correct_answer": null,
+    "correct_answer": 1,
     "answer_type": ""
   },
   {
@@ -1213,7 +1213,7 @@
       "2n + 3",
       "n + 2"
     ],
-    "correct_answer": null,
+    "correct_answer": 0,
     "answer_type": ""
   },
   {
@@ -1231,7 +1231,7 @@
       "24",
       "52"
     ],
-    "correct_answer": null,
+    "correct_answer": 1,
     "answer_type": ""
   },
   {
@@ -1249,7 +1249,7 @@
       "-3",
       "-5"
     ],
-    "correct_answer": null,
+    "correct_answer": 3,
     "answer_type": ""
   },
   {
@@ -1267,7 +1267,7 @@
       "70",
       "75"
     ],
-    "correct_answer": null,
+    "correct_answer": 1,
     "answer_type": ""
   },
   {
@@ -1285,7 +1285,7 @@
       "4 and 5",
       "5 and 6"
     ],
-    "correct_answer": null,
+    "correct_answer": 2,
     "answer_type": ""
   },
   {
@@ -1303,7 +1303,7 @@
       "Change “Fair” to 33.2%.",
       "Change “Poor” to 4.7%."
     ],
-    "correct_answer": null,
+    "correct_answer": 3,
     "answer_type": ""
   },
   {
@@ -1321,7 +1321,7 @@
       "6.5",
       "7.5"
     ],
-    "correct_answer": null,
+    "correct_answer": 3,
     "answer_type": ""
   },
   {
@@ -1339,7 +1339,7 @@
       "16",
       "13"
     ],
-    "correct_answer": null,
+    "correct_answer": 1,
     "answer_type": ""
   },
   {
@@ -1357,7 +1357,7 @@
       "C",
       "D"
     ],
-    "correct_answer": null,
+    "correct_answer": 2,
     "answer_type": ""
   },
   {
@@ -1375,7 +1375,7 @@
       "32%",
       "36%"
     ],
-    "correct_answer": null,
+    "correct_answer": 1,
     "answer_type": ""
   },
   {
@@ -1393,7 +1393,7 @@
       "6",
       "12"
     ],
-    "correct_answer": null,
+    "correct_answer": 2,
     "answer_type": ""
   },
   {
@@ -1411,7 +1411,7 @@
       "3/5",
       "2/3"
     ],
-    "correct_answer": null,
+    "correct_answer": 2,
     "answer_type": ""
   },
   {
@@ -1429,7 +1429,7 @@
       "34%",
       "15%"
     ],
-    "correct_answer": null,
+    "correct_answer": 0,
     "answer_type": ""
   },
   {
@@ -1447,7 +1447,7 @@
       "35",
       "30"
     ],
-    "correct_answer": null,
+    "correct_answer": 2,
     "answer_type": ""
   },
   {
@@ -1465,7 +1465,7 @@
       "C",
       "D"
     ],
-    "correct_answer": null,
+    "correct_answer": 0,
     "answer_type": ""
   },
   {
@@ -1483,7 +1483,7 @@
       "9",
       "16"
     ],
-    "correct_answer": null,
+    "correct_answer": 2,
     "answer_type": ""
   },
   {
@@ -1501,7 +1501,7 @@
       "30.0",
       "38.4"
     ],
-    "correct_answer": null,
+    "correct_answer": 1,
     "answer_type": ""
   },
   {
@@ -1519,7 +1519,7 @@
       "4x - 1",
       "4x + 6"
     ],
-    "correct_answer": null,
+    "correct_answer": 3,
     "answer_type": ""
   },
   {
@@ -1537,7 +1537,7 @@
       "3/10",
       "1/5"
     ],
-    "correct_answer": null,
+    "correct_answer": 1,
     "answer_type": ""
   },
   {
@@ -1555,7 +1555,7 @@
       "T",
       "U"
     ],
-    "correct_answer": null,
+    "correct_answer": 2,
     "answer_type": ""
   },
   {
@@ -1573,7 +1573,7 @@
       "10",
       "12"
     ],
-    "correct_answer": null,
+    "correct_answer": 0,
     "answer_type": ""
   },
   {
@@ -1591,7 +1591,7 @@
       "1",
       "9"
     ],
-    "correct_answer": null,
+    "correct_answer": 0,
     "answer_type": ""
   },
   {
@@ -1609,7 +1609,7 @@
       "148",
       "248"
     ],
-    "correct_answer": null,
+    "correct_answer": 3,
     "answer_type": ""
   },
   {
@@ -1627,7 +1627,7 @@
       "2",
       "4"
     ],
-    "correct_answer": null,
+    "correct_answer": 1,
     "answer_type": ""
   },
   {
@@ -1645,7 +1645,7 @@
       "1,500",
       "2,500"
     ],
-    "correct_answer": null,
+    "correct_answer": 2,
     "answer_type": ""
   },
   {
@@ -1663,7 +1663,7 @@
       "18π ft",
       "9π ft"
     ],
-    "correct_answer": null,
+    "correct_answer": 1,
     "answer_type": ""
   },
   {
@@ -1681,7 +1681,7 @@
       "C",
       "D"
     ],
-    "correct_answer": null,
+    "correct_answer": 0,
     "answer_type": ""
   },
   {
@@ -1699,7 +1699,7 @@
       "3:1",
       "18:1"
     ],
-    "correct_answer": null,
+    "correct_answer": 3,
     "answer_type": ""
   },
   {
@@ -1717,7 +1717,7 @@
       "2(k - 6) = j",
       "2(k - 6) = j + 6"
     ],
-    "correct_answer": null,
+    "correct_answer": 0,
     "answer_type": ""
   },
   {
@@ -1735,7 +1735,7 @@
       "17/25",
       "7/10"
     ],
-    "correct_answer": null,
+    "correct_answer": 2,
     "answer_type": ""
   },
   {
@@ -1753,7 +1753,7 @@
       "20",
       "22"
     ],
-    "correct_answer": null,
+    "correct_answer": 3,
     "answer_type": ""
   },
   {
@@ -1771,7 +1771,7 @@
       "800",
       "8,000"
     ],
-    "correct_answer": null,
+    "correct_answer": 1,
     "answer_type": ""
   },
   {
@@ -1789,7 +1789,7 @@
       "C",
       "D"
     ],
-    "correct_answer": null,
+    "correct_answer": 1,
     "answer_type": ""
   },
   {
@@ -1807,7 +1807,7 @@
       "50°",
       "40°"
     ],
-    "correct_answer": null,
+    "correct_answer": 0,
     "answer_type": ""
   },
   {
@@ -1825,7 +1825,7 @@
       "100",
       "120"
     ],
-    "correct_answer": null,
+    "correct_answer": 3,
     "answer_type": ""
   },
   {
@@ -1843,7 +1843,7 @@
       "1%",
       "100%"
     ],
-    "correct_answer": null,
+    "correct_answer": 2,
     "answer_type": ""
   },
   {
@@ -1861,7 +1861,7 @@
       "120",
       "230"
     ],
-    "correct_answer": null,
+    "correct_answer": 2,
     "answer_type": ""
   },
   {
@@ -1879,7 +1879,7 @@
       "9 and 1/3 sq ft",
       "12 sq ft"
     ],
-    "correct_answer": null,
+    "correct_answer": 0,
     "answer_type": ""
   },
   {
@@ -1897,7 +1897,7 @@
       "120 cu ft",
       "240 cu ft"
     ],
-    "correct_answer": null,
+    "correct_answer": 2,
     "answer_type": ""
   },
   {
@@ -1915,7 +1915,7 @@
       "6",
       "5"
     ],
-    "correct_answer": null,
+    "correct_answer": 3,
     "answer_type": ""
   },
   {
@@ -1933,7 +1933,7 @@
       "3 and 1/3",
       "5 and 1/3"
     ],
-    "correct_answer": null,
+    "correct_answer": 1,
     "answer_type": ""
   },
   {
@@ -1951,7 +1951,7 @@
       "19%",
       "38%"
     ],
-    "correct_answer": null,
+    "correct_answer": 0,
     "answer_type": ""
   },
   {
@@ -1969,7 +1969,7 @@
       "43",
       "41"
     ],
-    "correct_answer": null,
+    "correct_answer": 3,
     "answer_type": ""
   },
   {
@@ -1987,7 +1987,7 @@
       "12",
       "13"
     ],
-    "correct_answer": null,
+    "correct_answer": 3,
     "answer_type": ""
   },
   {
@@ -2005,7 +2005,7 @@
       "C",
       "D"
     ],
-    "correct_answer": null,
+    "correct_answer": 3,
     "answer_type": ""
   },
   {
@@ -2023,7 +2023,7 @@
       "1/8",
       "1/6"
     ],
-    "correct_answer": null,
+    "correct_answer": 3,
     "answer_type": ""
   }
 ]
