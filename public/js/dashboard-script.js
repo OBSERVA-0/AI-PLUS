@@ -358,6 +358,14 @@ function setupEventListeners() {
     document.getElementById('end-test-btn').addEventListener('click', showEndTestConfirmation);
 
     // Results buttons
+    document.getElementById('review-answers').addEventListener('click', function() {
+        // Scroll to the detailed review section
+        const reviewSection = document.querySelector('.detailed-review-section');
+        if (reviewSection) {
+            reviewSection.scrollIntoView({ behavior: 'smooth' });
+        }
+    });
+
     document.getElementById('retake-test').addEventListener('click', function() {
         showSection('test-selection');
     });
@@ -1288,6 +1296,18 @@ function displayResults(resultData) {
     const detailedReview = document.querySelector('#detailed-review');
     if (detailedReview && detailedResults.length > 0) {
         displayDetailedReview(detailedResults);
+        
+        // Show the review button for all test types including state tests
+        const reviewButton = document.getElementById('review-answers');
+        if (reviewButton) {
+            reviewButton.style.display = 'inline-block';
+        }
+    } else {
+        // Hide review button if no detailed results
+        const reviewButton = document.getElementById('review-answers');
+        if (reviewButton) {
+            reviewButton.style.display = 'none';
+        }
     }
 }
 
@@ -1295,7 +1315,31 @@ function displayDetailedReview(detailedResults) {
     const reviewContainer = document.getElementById('detailed-review');
     if (!reviewContainer) return;
     
+    // Clear existing content
     reviewContainer.innerHTML = '';
+    
+    // Add header with test type information
+    const reviewHeader = document.createElement('div');
+    reviewHeader.className = 'review-header-info';
+    
+    let testTypeDisplay = currentTest.toUpperCase();
+    if (currentTest === 'statetest' && currentSectionType) {
+        // Extract grade and subject from sectionType (e.g., "g6math" -> "Grade 6 Math")
+        if (currentSectionType.startsWith('g')) {
+            const grade = currentSectionType.charAt(1);
+            const subject = currentSectionType.substring(2);
+            const subjectName = subject === 'math' ? 'Math' : subject === 'ela' ? 'ELA' : subject.toUpperCase();
+            testTypeDisplay = `State Test - Grade ${grade} ${subjectName}`;
+        }
+    } else if (currentTest === 'shsat' && currentSectionType) {
+        testTypeDisplay = `SHSAT ${currentSectionType.toUpperCase()} Section`;
+    }
+    
+    reviewHeader.innerHTML = `
+        <h4>${testTypeDisplay} - Practice Set ${currentPracticeSet}</h4>
+        <p>Review your answers below. Correct answers are marked with ✅ and incorrect answers with ❌</p>
+    `;
+    reviewContainer.appendChild(reviewHeader);
     
     detailedResults.forEach((result, index) => {
         const reviewItem = document.createElement('div');

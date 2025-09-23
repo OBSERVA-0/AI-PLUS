@@ -88,10 +88,37 @@ async function readQuestionsFromJSON(testType, practiceSet = '1', sectionType = 
     let questions = JSON.parse(data);
     return questions;
   } catch (error) {
-    // For section-specific SHSAT files, don't fall back - just throw error if file doesn't exist
+    // For section-specific SHSAT files, fall back to full test and filter by section
     if (testType === 'shsat' && (sectionType === 'ela' || sectionType === 'math')) {
-      console.log(`Section-specific file not found: ${filePath}`);
-      throw new Error(`Section-specific file not available for ${testType} practice set ${practiceSet} (${sectionType}).`);
+      console.log(`Section-specific file not found: ${filePath}, falling back to full test with filtering`);
+      try {
+        // Try to load the full test file
+        const fullFilePath = path.join(__dirname, '..', 'data', 'SHSAT', `shsatpractice${practiceSet}questions.json`);
+        const fullData = await fs.readFile(fullFilePath, 'utf8');
+        let allQuestions = JSON.parse(fullData);
+        
+        // Filter questions by section based on question numbers or categories
+        let filteredQuestions;
+        if (sectionType === 'ela') {
+          // ELA questions are typically 1-57 or have reading/revising categories
+          filteredQuestions = allQuestions.filter(q => 
+            q.question_number <= 57 || 
+            (q.category && (q.category.toLowerCase().includes('reading') || q.category.toLowerCase().includes('revising')))
+          );
+        } else if (sectionType === 'math') {
+          // Math questions are typically 58-114 or have math categories
+          filteredQuestions = allQuestions.filter(q => 
+            q.question_number > 57 || 
+            (q.category && q.category.toLowerCase().includes('math'))
+          );
+        }
+        
+        console.log(`Filtered ${filteredQuestions.length} ${sectionType} questions from ${allQuestions.length} total questions`);
+        return filteredQuestions;
+      } catch (fallbackError) {
+        console.error(`Fallback also failed for ${testType} practice set ${practiceSet}:`, fallbackError);
+        throw new Error(`No questions available for ${testType} practice set ${practiceSet} (${sectionType}).`);
+      }
     }
     
     console.error(`Error reading questions file for ${testType} practice set ${practiceSet}:`, error);

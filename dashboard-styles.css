@@ -1821,6 +1821,27 @@ body {
     gap: 1.5rem;
 }
 
+.review-header-info {
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    color: white;
+    border-radius: 12px;
+    padding: 1.5rem;
+    margin-bottom: 1.5rem;
+    text-align: center;
+}
+
+.review-header-info h4 {
+    margin: 0 0 0.5rem 0;
+    font-size: 1.25rem;
+    font-weight: 600;
+}
+
+.review-header-info p {
+    margin: 0;
+    opacity: 0.9;
+    font-size: 0.95rem;
+}
+
 .review-item {
     background: white;
     border-radius: 12px;
