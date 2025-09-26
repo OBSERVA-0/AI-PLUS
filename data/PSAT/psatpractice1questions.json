@@ -1,0 +1,1427 @@
+[
+{
+"id": "1",
+"question_number": 1,
+"practice_set": "1",
+"category": "English: Words in Context",
+"difficulty": "Medium",
+"time_estimate": 82,
+"passage": "Despite the  nature of the research, the scientists were optimistic about making significant discoveries in the coming months.",
+"question_text": "Which choice completes the text with the most logical and precise word or phrase?",
+"options": [
+"preliminary",
+"conclusive",
+"definitive",
+"final"
+],
+"correct_answer": 0
+},
+{
+"id": "2",
+"question_number": 2,
+"practice_set": "1",
+"category": "English: Words in Context",
+"difficulty": "Easy",
+"time_estimate": 82,
+"passage": "The artist's use of vibrant colors and bold brushstrokes created a  painting that immediately captured viewers' attention.",
+"question_text": "Which choice completes the text with the most logical and precise word or phrase?",
+"options": [
+"subtle",
+"striking",
+"muted",
+"understated"
+],
+"correct_answer": 1
+},
+{
+"id": "3",
+"question_number": 3,
+"practice_set": "1",
+"category": "English: Central Ideas and Details",
+"difficulty": "Medium",
+"time_estimate": 82,
+"passage": "Renewable energy sources like solar and wind power have become increasingly important as societies seek to reduce their dependence on fossil fuels. These clean energy alternatives not only help combat climate change but also provide economic benefits through job creation and energy independence.",
+"question_text": "According to the text, what are two benefits of renewable energy mentioned?",
+"options": [
+"Lower costs and increased efficiency",
+"Environmental protection and economic advantages",
+"Technological advancement and global cooperation",
+"Resource conservation and improved health"
+],
+"correct_answer": 1
+},
+{
+"id": "4",
+"question_number": 4,
+"practice_set": "1",
+"category": "English: Inference",
+"difficulty": "Medium",
+"time_estimate": 82,
+"passage": "Marisol declined the invitation with a polite excuse about prior commitments, though she later confessed she simply preferred to avoid the awkward family conversations.",
+"question_text": "What can be inferred about Marisol's reason for declining?",
+"options": [
+"She had an urgent obligation that she could not reschedule.",
+"She wanted to avoid conflict or uncomfortable interactions.",
+"She was ill and unable to attend.",
+"She was financially unable to participate."
+],
+"correct_answer": 1
+},
+{
+"id": "5",
+"question_number": 5,
+"practice_set": "1",
+"category": "English: Vocabulary in Context",
+"difficulty": "Hard",
+"time_estimate": 82,
+"passage": "The historian's account was praised for being both erudite and accessible, blending deep scholarship with clear prose.",
+"question_text": "Which choice best defines 'erudite' as used here?",
+"options": [
+"Well-educated or scholarly",
+"Short and concise",
+"Emotionally moving",
+"Technically inaccurate"
+],
+"correct_answer": 0
+},
+{
+"id": "6",
+"question_number": 6,
+"practice_set": "1",
+"category": "English: Expression of Ideas",
+"difficulty": "Medium",
+"time_estimate": 82,
+"passage": "The committee reviewed the proposal; it contained several promising ideas but lacked a clear budget.",
+"question_text": "Which revision most effectively combines the sentences and clarifies the relationship between ideas?",
+"options": [
+"The committee reviewed the proposal, and it contained several promising ideas; however, it lacked a clear budget.",
+"Reviewing the proposal the committee found several promising ideas lacking a clear budget.",
+"The committee reviewed the proposal. It contained several promising ideas but lacked a clear budget.",
+"Because it lacked a clear budget, the committee reviewed the proposal which contained several promising ideas."
+],
+"correct_answer": 0
+},
+{
+"id": "7",
+"question_number": 7,
+"practice_set": "1",
+"category": "English: Standard English Conventions",
+"difficulty": "Easy",
+"time_estimate": 82,
+"passage": "Neither the manager nor the employees (was / were) prepared for the sudden inspection.",
+"question_text": "Which choice correctly completes the sentence?",
+"options": [
+"was",
+"were"
+],
+"correct_answer": 1
+},
+{
+"id": "8",
+"question_number": 8,
+"practice_set": "1",
+"category": "English: Punctuation",
+"difficulty": "Medium",
+"time_estimate": 82,
+"passage": "For the festival we need: tents, chairs, lighting and snacks.",
+"question_text": "Which change to the punctuation makes the list clearer and most appropriate?",
+"options": [
+"For the festival we need tents chairs lighting and snacks.",
+"For the festival we need: tents, chairs, lighting, and snacks.",
+"For the festival we need; tents, chairs, lighting, and snacks.",
+"For the festival, we need: tents chairs lighting and snacks."
+],
+"correct_answer": 1
+},
+{
+"id": "9",
+"question_number": 9,
+"practice_set": "1",
+"category": "English: Words in Context",
+"difficulty": "Easy",
+"time_estimate": 82,
+"passage": "The CEO gave an impromptu speech that was unexpectedly .",
+"question_text": "Which choice best completes the sentence?",
+"options": [
+"incoherent",
+"eloquent",
+"tedious",
+"brief"
+],
+"correct_answer": 1
+},
+{
+"id": "10",
+"question_number": 10,
+"practice_set": "1",
+"category": "English: Central Ideas and Details",
+"difficulty": "Medium",
+"time_estimate": 82,
+"passage": "Urban gardening programs have improved neighborhood access to fresh produce, provided educational opportunities, and strengthened community ties.",
+"question_text": "Which two outcomes are explicitly mentioned as benefits of urban gardening?",
+"options": [
+"Improved access to fresh produce and increased property values",
+"Educational opportunities and strengthened community ties",
+"Reduced traffic congestion and improved air quality",
+"Increased tax revenue and expanded commercial development"
+],
+"correct_answer": 1
+},
+{
+"id": "11",
+"question_number": 11,
+"practice_set": "1",
+"category": "English: Transitions",
+"difficulty": "Easy",
+"time_estimate": 82,
+"passage": "The forecast called for sunshine all week. , a sudden storm produced hail and heavy rain.",
+"question_text": "Which choice best completes the passage?",
+"options": [
+"Therefore",
+"Consequently",
+"Nevertheless",
+"Similarly"
+],
+"correct_answer": 2
+},
+{
+"id": "12",
+"question_number": 12,
+"practice_set": "1",
+"category": "English: Rhetorical Purpose",
+"difficulty": "Medium",
+"time_estimate": 82,
+"passage": "The mayor highlighted the new transit plan to emphasize the city's commitment to reducing commute times and lowering emissions.",
+"question_text": "What is the primary rhetorical purpose of the mayor's statement?",
+"options": [
+"To criticize previous administrations",
+"To inform residents about a travel advisory",
+"To persuade residents that the plan supports environmental and efficiency goals",
+"To announce a tax increase"
+],
+"correct_answer": 2
+},
+{
+"id": "13",
+"question_number": 13,
+"practice_set": "1",
+"category": "English: Command of Evidence",
+"difficulty": "Hard",
+"time_estimate": 82,
+"passage": "Studies show an increase in pollinator populations in areas where native plants are reintroduced. These findings support the claim that restoring native flora benefits local ecosystems.",
+"question_text": "Which choice provides the best additional evidence to strengthen the claim?",
+"options": [
+"A study showing increased soil erosion in reintroduced areas.",
+"Survey data indicating residents prefer ornamental nonnative species.",
+"Long-term data showing higher insect diversity and improved plant reproduction after reintroduction efforts.",
+"A report documenting the cost of purchasing native plants."
+],
+"correct_answer": 2
+},
+{
+"id": "14",
+"question_number": 14,
+"practice_set": "1",
+"category": "Math: Linear Equations",
+"difficulty": "Easy",
+"time_estimate": 82,
+"passage": "",
+"question_text": "If 2x + 5 = 13, what is the value of x?",
+"options": [
+"3",
+"4",
+"6",
+"9"
+],
+"correct_answer": 1
+},
+{
+"id": "15",
+"question_number": 15,
+"practice_set": "1",
+"category": "Math: Systems of Equations",
+"difficulty": "Medium",
+"time_estimate": 82,
+"passage": "",
+"question_text": "If 3x + 2y = 16 and x - y = 2, what is the value of y?",
+"options": [],
+"correct_answer": 2,
+"answer_type": "fill_in_the_blank"
+},
+{
+"id": "16",
+"question_number": 16,
+"practice_set": "1",
+"category": "Math: Quadratic Functions",
+"difficulty": "Medium",
+"time_estimate": 82,
+"passage": "",
+"question_text": "What is the vertex of the parabola y = (x - 2)² + 3?",
+"options": [
+"(2, 3)",
+"(-2, 3)",
+"(2, -3)",
+"(-2, -3)"
+],
+"correct_answer": 0
+},
+{
+"id": "17",
+"question_number": 17,
+"practice_set": "1",
+"category": "Math: Geometry",
+"difficulty": "Easy",
+"time_estimate": 82,
+"passage": "",
+"question_text": "What is the area of a triangle with base 8 units and height 6 units?",
+"options": [],
+"correct_answer": 24,
+"answer_type": "fill_in_the_blank"
+},
+{
+"id": "18",
+"question_number": 18,
+"practice_set": "1",
+"category": "Math: Ratios and Proportions",
+"difficulty": "Easy",
+"time_estimate": 82,
+"passage": "",
+"question_text": "If the ratio of apples to oranges is 3:4 and there are 12 apples, how many oranges are there?",
+"options": [
+"12",
+"16",
+"9",
+"20"
+],
+"correct_answer": 1
+},
+{
+"id": "19",
+"question_number": 19,
+"practice_set": "1",
+"category": "Math: Data Interpretation",
+"difficulty": "Medium",
+"time_estimate": 82,
+"passage": "A small survey asked 50 students which club they prefer: Art (18), Robotics (12), Debate (10), or Music (10).",
+"question_text": "What percent of students prefer Robotics?",
+"options": [],
+"correct_answer": 24,
+"answer_type": "fill_in_the_blank"
+},
+{
+"id": "20",
+"question_number": 20,
+"practice_set": "1",
+"category": "English: Words in Context",
+"difficulty": "Medium",
+"time_estimate": 82,
+"passage": "The author's tone in the editorial is sardonic, using irony to point out the contradictions in public policy.",
+"question_text": "Which choice best describes 'sardonic' as used in the passage?",
+"options": [
+"Affectionate",
+"Mocking and cynical",
+"Sad and sympathetic",
+"Indecisive"
+],
+"correct_answer": 1
+},
+{
+"id": "21",
+"question_number": 21,
+"practice_set": "1",
+"category": "English: Command of Evidence",
+"difficulty": "Medium",
+"time_estimate": 82,
+"passage": "A report shows a sharp decline in local air pollution after new regulations. The authors attribute the improvement to stricter emissions standards.",
+"question_text": "Which sentence, if added, would most weaken the authors' attribution?",
+"options": [
+"A neighboring city also implemented stricter standards and saw similar declines.",
+"Weather patterns during the study period favored dispersion of pollutants.",
+"The regulations were accompanied by incentives for cleaner vehicles.",
+"Public awareness campaigns about pollution increased during the period."
+],
+"correct_answer": 1
+},
+{
+"id": "22",
+"question_number": 22,
+"practice_set": "1",
+"category": "English: Expression of Ideas",
+"difficulty": "Easy",
+"time_estimate": 82,
+"passage": "The committee must decide now; delaying the vote will jeopardize funding.",
+"question_text": "Which revision corrects punctuation while preserving meaning?",
+"options": [
+"The committee must decide now. Delaying the vote will jeopardize funding.",
+"The committee must decide now, delaying the vote will jeopardize funding.",
+"The committee must decide now; delaying the vote, will jeopardize funding.",
+"The committee must decide now: delaying the vote will jeopardize funding."
+],
+"correct_answer": 0
+},
+{
+"id": "23",
+"question_number": 23,
+"practice_set": "1",
+"category": "Math: Linear Equations",
+"difficulty": "Medium",
+"time_estimate": 82,
+"passage": "",
+"question_text": "Solve for x: 5(x - 2) = 3x + 4.",
+"options": [
+"7",
+"9",
+"6",
+"5"
+],
+"correct_answer": 0
+},
+{
+"id": "24",
+"question_number": 24,
+"practice_set": "1",
+"category": "Math: Functions",
+"difficulty": "Medium",
+"time_estimate": 82,
+"passage": "",
+"question_text": "If f(x) = 2x + 3, what is f(4)?",
+"options": [
+"8",
+"11",
+"10",
+"7"
+],
+"correct_answer": 1
+},
+{
+"id": "25",
+"question_number": 25,
+"practice_set": "1",
+"category": "Math: Systems of Equations",
+"difficulty": "Hard",
+"time_estimate": 82,
+"passage": "",
+"question_text": "If x + 2y + z = 7, x - y + 2z = 4, and 2x + y - z = 3, what is x?",
+"options": [],
+"correct_answer": 2,
+"answer_type": "fill_in_the_blank"
+},
+{
+"id": "26",
+"question_number": 26,
+"practice_set": "1",
+"category": "English: Inference",
+"difficulty": "Medium",
+"time_estimate": 82,
+"passage": "When Luis arrived the meeting had already started, and he quietly took a seat at the back and listened attentively.",
+"question_text": "What does the passage imply about Luis?",
+"options": [
+"He is confrontational.",
+"He prefers to avoid drawing attention to himself.",
+"He often arrives late to meetings.",
+"He disagrees with the meeting's topic."
+],
+"correct_answer": 1
+},
+{
+"id": "27",
+"question_number": 27,
+"practice_set": "1",
+"category": "English: Rhetorical Strategy",
+"difficulty": "Medium",
+"time_estimate": 82,
+"passage": "The columnist contrasts the city's glamorous headline projects with the persistent problems in its neighborhoods to argue that priorities are misplaced.",
+"question_text": "Which rhetorical strategy is the columnist using?",
+"options": [
+"Anecdote",
+"Cause and effect",
+"Contrast between appearance and reality",
+"Statistical analysis"
+],
+"correct_answer": 2
+},
+{
+"id": "28",
+"question_number": 28,
+"practice_set": "1",
+"category": "Math: Quadratic Functions",
+"difficulty": "Medium",
+"time_estimate": 82,
+"passage": "",
+"question_text": "Which of the following is a root of the equation x^2 - 5x + 6 = 0?",
+"options": [
+"1",
+"2",
+"3",
+"4"
+],
+"correct_answer": 2
+},
+{
+"id": "29",
+"question_number": 29,
+"practice_set": "1",
+"category": "Math: Geometry",
+"difficulty": "Medium",
+"time_estimate": 82,
+"passage": "",
+"question_text": "In right triangle ABC with right angle at C, if AC = 3 and BC = 4, what is AB?",
+"options": [
+"5",
+"6",
+"7",
+"1"
+],
+"correct_answer": 0
+},
+{
+"id": "30",
+"question_number": 30,
+"practice_set": "1",
+"category": "Math: Probability",
+"difficulty": "Medium",
+"time_estimate": 82,
+"passage": "",
+"question_text": "A bag contains 3 red, 2 blue, and 5 green marbles. If one marble is drawn at random, what is the probability it is blue?",
+"options": [
+"1/10",
+"2/10",
+"2/5",
+"1/3"
+],
+"correct_answer": 1
+},
+{
+"id": "31",
+"question_number": 31,
+"practice_set": "1",
+"category": "English: Words in Context",
+"difficulty": "Easy",
+"time_estimate": 82,
+"passage": "The hikers were undeterred by the inclement weather and continued toward the summit.",
+"question_text": "Which choice best defines 'inclement' as used here?",
+"options": [
+"Cold",
+"Stormy or severe",
+"Warm",
+"Clear"
+],
+"correct_answer": 1
+},
+{
+"id": "32",
+"question_number": 32,
+"practice_set": "1",
+"category": "English: Central Ideas and Details",
+"difficulty": "Medium",
+"time_estimate": 82,
+"passage": "A university study found that students who form study groups tend to have higher retention rates than those who study alone, likely due to peer explanation and accountability.",
+"question_text": "What reasons does the passage suggest for higher retention rates?",
+"options": [
+"Access to better textbooks and study rooms",
+"Peer explanation and accountability",
+"Longer study hours and formal tutoring",
+"Smaller class sizes"
+],
+"correct_answer": 1
+},
+{
+"id": "33",
+"question_number": 33,
+"practice_set": "1",
+"category": "English: Transitions",
+"difficulty": "Easy",
+"time_estimate": 82,
+"passage": "He is an excellent candidate; , his resume lacks relevant experience.",
+"question_text": "Which transition best fits the sentence?",
+"options": [
+"however",
+"therefore",
+"moreover",
+"consequently"
+],
+"correct_answer": 0
+},
+{
+"id": "34",
+"question_number": 34,
+"practice_set": "1",
+"category": "Math: Linear Equations",
+"difficulty": "Easy",
+"time_estimate": 82,
+"passage": "",
+"question_text": "Solve for y: 4y - 7 = 9.",
+"options": [
+"2",
+"3",
+"4",
+"5"
+],
+"correct_answer": 3
+},
+{
+"id": "35",
+"question_number": 35,
+"practice_set": "1",
+"category": "Math: Systems of Equations",
+"difficulty": "Medium",
+"time_estimate": 82,
+"passage": "",
+"question_text": "If 2x + y = 7 and x - 2y = -4, what is x?",
+"options": [],
+"correct_answer": 3,
+"answer_type": "fill_in_the_blank"
+},
+{
+"id": "36",
+"question_number": 36,
+"practice_set": "1",
+"category": "Math: Rates and Work",
+"difficulty": "Hard",
+"time_estimate": 82,
+"passage": "",
+"question_text": "Pipe A can fill a pool in 6 hours, Pipe B in 9 hours. If both run together, how long to fill the pool (in hours)?",
+"options": [],
+"correct_answer": 3.6,
+"answer_type": "fill_in_the_blank"
+},
+{
+"id": "37",
+"question_number": 37,
+"practice_set": "1",
+"category": "English: Command of Evidence",
+"difficulty": "Medium",
+"time_estimate": 82,
+"passage": "An article claims that installing bike lanes reduces traffic congestion. It cites cities where bike lane additions coincided with lower vehicle counts.",
+"question_text": "Which additional evidence would most directly support the article's claim?",
+"options": [
+"Data showing bike-lane cities also had increased public transit funding.",
+"Controlled studies comparing similar corridors before and after bike-lane installation showing reduced vehicle counts.",
+"Surveys showing cyclists appreciate bike lanes.",
+"Photographs of bike lanes in multiple neighborhoods."
+],
+"correct_answer": 1
+},
+{
+"id": "38",
+"question_number": 38,
+"practice_set": "1",
+"category": "English: Grammar",
+"difficulty": "Easy",
+"time_estimate": 82,
+"passage": "Each of the students (has / have) completed the assignment.",
+"question_text": "Which choice correctly completes the sentence?",
+"options": [
+"has",
+"have"
+],
+"correct_answer": 0
+},
+{
+"id": "39",
+"question_number": 39,
+"practice_set": "1",
+"category": "Math: Probability",
+"difficulty": "Medium",
+"time_estimate": 82,
+"passage": "",
+"question_text": "Two fair coins are flipped. What is the probability both show heads?",
+"options": [
+"1/4",
+"1/2",
+"1/3",
+"1/8"
+],
+"correct_answer": 0
+},
+{
+"id": "40",
+"question_number": 40,
+"practice_set": "1",
+"category": "Math: Exponents and Radicals",
+"difficulty": "Medium",
+"time_estimate": 82,
+"passage": "",
+"question_text": "Simplify: sqrt(49).",
+"options": [
+"7",
+"49",
+"±7",
+"0"
+],
+"correct_answer": 0
+},
+{
+"id": "41",
+"question_number": 41,
+"practice_set": "1",
+"category": "English: Words in Context",
+"difficulty": "Medium",
+"time_estimate": 82,
+"passage": "The scientist described the correlation as tenuous, warning readers not to draw broad conclusions.",
+"question_text": "Which choice best defines 'tenuous' as used here?",
+"options": [
+"Strong and convincing",
+"Weak or insubstantial",
+"Hidden or secret",
+"Unexpected"
+],
+"correct_answer": 1
+},
+{
+"id": "42",
+"question_number": 42,
+"practice_set": "1",
+"category": "English: Expression of Ideas",
+"difficulty": "Medium",
+"time_estimate": 82,
+"passage": "The museum expanded its hours to accommodate more visitors, and attendance increased as a result.",
+"question_text": "Which revision best clarifies cause and effect while improving sentence flow?",
+"options": [
+"Attendance increased as a result, so the museum expanded its hours to accommodate more visitors.",
+"To accommodate more visitors, the museum expanded its hours; attendance increased as a result.",
+"The museum expanded its hours however attendance increased.",
+"Because attendance increased as a result, the museum expanded its hours to accommodate more visitors."
+],
+"correct_answer": 1
+},
+{
+"id": "43",
+"question_number": 43,
+"practice_set": "1",
+"category": "Math: Linear Equations",
+"difficulty": "Easy",
+"time_estimate": 82,
+"passage": "",
+"question_text": "If 7x = 56, what is x?",
+"options": [
+"6",
+"7",
+"8",
+"9"
+],
+"correct_answer": 2
+},
+{
+"id": "44",
+"question_number": 44,
+"practice_set": "1",
+"category": "Math: Systems of Equations",
+"difficulty": "Medium",
+"time_estimate": 82,
+"passage": "",
+"question_text": "If x + y = 10 and x - y = 2, what is y?",
+"options": [
+"2",
+"3",
+"4",
+"5"
+],
+"correct_answer": 2
+},
+{
+"id": "45",
+"question_number": 45,
+"practice_set": "1",
+"category": "Math: Quadratic Functions",
+"difficulty": "Medium",
+"time_estimate": 82,
+"passage": "",
+"question_text": "The quadratic y = -x^2 + 4x + 1 opens in which direction and has how many real roots?",
+"options": [
+"Opens upward; two real roots",
+"Opens downward; possibly two real roots",
+"Opens downward; two real roots",
+"Opens upward; no real roots"
+],
+"correct_answer": 2
+},
+{
+"id": "46",
+"question_number": 46,
+"practice_set": "1",
+"category": "English: Central Ideas and Details",
+"difficulty": "Medium",
+"time_estimate": 82,
+"passage": "A recent program placed librarians in middle schools to teach research skills; participating schools reported improved student information literacy.",
+"question_text": "What outcome is reported from the program?",
+"options": [
+"Decreased student interest in research",
+"Improved student information literacy",
+"Lower library budgets",
+"Increased standardized test scores in math"
+],
+"correct_answer": 1
+},
+{
+"id": "47",
+"question_number": 47,
+"practice_set": "1",
+"category": "English: Grammar",
+"difficulty": "Easy",
+"time_estimate": 82,
+"passage": "Between you and (I / me), this is a great opportunity.",
+"question_text": "Which pronoun correctly completes the sentence?",
+"options": [
+"I",
+"me"
+],
+"correct_answer": 1
+},
+{
+"id": "48",
+"question_number": 48,
+"practice_set": "1",
+"category": "Math: Geometry",
+"difficulty": "Medium",
+"time_estimate": 82,
+"passage": "",
+"question_text": "A rectangle has length 10 and width 4. What is the length of its diagonal?",
+"options": [
+"6",
+"8",
+"sqrt(116)",
+"sqrt(116)/2"
+],
+"correct_answer": 2
+},
+{
+"id": "49",
+"question_number": 49,
+"practice_set": "1",
+"category": "Math: Data Interpretation",
+"difficulty": "Medium",
+"time_estimate": 82,
+"passage": "The table shows monthly sales (in thousands): Jan 12, Feb 15, Mar 9, Apr 18.",
+"question_text": "What is the mean monthly sales (in thousands) for these four months?",
+"options": [],
+"correct_answer": 13.5,
+"answer_type": "fill_in_the_blank"
+},
+{
+"id": "50",
+"question_number": 50,
+"practice_set": "1",
+"category": "English: Words in Context",
+"difficulty": "Hard",
+"time_estimate": 82,
+"passage": "The novelist's prose is at once laconic and dense, offering terse sentences that nonetheless carry rich implication.",
+"question_text": "Which choice best captures the meaning of 'laconic' here?",
+"options": [
+"Wordy and elaborate",
+"Using very few words",
+"Confusing and disorganized",
+"Flowery and ornate"
+],
+"correct_answer": 1
+},
+{
+"id": "51",
+"question_number": 51,
+"practice_set": "1",
+"category": "English: Rhetorical Purpose",
+"difficulty": "Medium",
+"time_estimate": 82,
+"passage": "The advertisement highlights convenience, speed, and low cost; by showcasing these features the company aims to attract busy professionals.",
+"question_text": "What is the advertisement's primary aim as described?",
+"options": [
+"To inform customers about its history",
+"To attract busy professionals",
+"To compare itself unfavorably with competitors",
+"To solicit employee applications"
+],
+"correct_answer": 1
+},
+{
+"id": "52",
+"question_number": 52,
+"practice_set": "1",
+"category": "Math: Linear Equations",
+"difficulty": "Medium",
+"time_estimate": 82,
+"passage": "",
+"question_text": "If 0.25x = 7.5, what is x?",
+"options": [
+"30",
+"15",
+"3",
+"75"
+],
+"correct_answer": 0
+},
+{
+"id": "53",
+"question_number": 53,
+"practice_set": "1",
+"category": "Math: Percentage",
+"difficulty": "Easy",
+"time_estimate": 82,
+"passage": "",
+"question_text": "A jacket originally costs $80. It is on sale for 25% off. What is the sale price?",
+"options": [
+"$60",
+"$20",
+"$70",
+"$50"
+],
+"correct_answer": 0
+},
+{
+"id": "54",
+"question_number": 54,
+"practice_set": "1",
+"category": "English: Transitions",
+"difficulty": "Easy",
+"time_estimate": 82,
+"passage": "The new research study shows promising results for the treatment. , more clinical trials are needed before the therapy can be widely available.",
+"question_text": "Which choice completes the text with the most logical transition?",
+"options": [
+"Therefore",
+"However",
+"Similarly",
+"Furthermore"
+],
+"correct_answer": 1
+},
+{
+"id": "55",
+"question_number": 55,
+"practice_set": "1",
+"category": "Math: Linear Equations",
+"difficulty": "Easy",
+"time_estimate": 82,
+"passage": "",
+"question_text": "If 2x + 5 = 13, what is the value of x?",
+"options": [
+"3",
+"4",
+"6",
+"9"
+],
+"correct_answer": 1
+},
+{
+"id": "56",
+"question_number": 56,
+"practice_set": "1",
+"category": "Math: Systems of Equations",
+"difficulty": "Medium",
+"time_estimate": 82,
+"passage": "",
+"question_text": "If 3x + 2y = 16 and x - y = 2, what is the value of y?",
+"options": [],
+"correct_answer": 2,
+"answer_type": "fill_in_the_blank"
+},
+{
+"id": "57",
+"question_number": 57,
+"practice_set": "1",
+"category": "Math: Quadratic Functions",
+"difficulty": "Medium",
+"time_estimate": 82,
+"passage": "",
+"question_text": "What is the vertex of the parabola y = (x - 2)² + 3?",
+"options": [
+"(2, 3)",
+"(-2, 3)",
+"(2, -3)",
+"(-2, -3)"
+],
+"correct_answer": 0
+},
+{
+"id": "58",
+"question_number": 58,
+"practice_set": "1",
+"category": "Math: Geometry",
+"difficulty": "Easy",
+"time_estimate": 82,
+"passage": "",
+"question_text": "What is the area of a triangle with base 8 units and height 6 units?",
+"options": [],
+"correct_answer": 24,
+"answer_type": "fill_in_the_blank"
+},
+{
+"id": "59",
+"question_number": 59,
+"practice_set": "1",
+"category": "English: Writing Revision",
+"difficulty": "Medium",
+"time_estimate": 82,
+"passage": "Tourists visit the old quarter because it has many historic sites, it also has a vibrant market and good restaurants.",
+"question_text": "Which revision best corrects and clarifies the sentence?",
+"options": [
+"Tourists visit the old quarter because it has many historic sites; it also has a vibrant market and good restaurants.",
+"Tourists visit the old quarter, it has many historic sites and a vibrant market and good restaurants.",
+"Tourists visit the old quarter because many historic sites, also a vibrant market and good restaurants.",
+"Because it has many historic sites, a vibrant market, and good restaurants tourists visit the old quarter."
+],
+"correct_answer": 0
+},
+{
+"id": "60",
+"question_number": 60,
+"practice_set": "1",
+"category": "Math: Problem Solving & Data Analysis",
+"difficulty": "Medium",
+"time_estimate": 82,
+"passage": "A store marks up the cost of an item by 40% and then offers a 10% discount on the marked price.",
+"question_text": "If the item's original cost to the store is $50, what is the final sale price?",
+"options": [],
+"correct_answer": 63,
+"answer_type": "fill_in_the_blank"
+},
+  {
+    "_id": "70",
+    "question_number": 70,
+    "practice_set": "1",
+    "category": "English: Words in Context",
+    "difficulty": "Easy",
+    "time_estimate": 82,
+    "passage": "The mayor’s speech was filled with _______ promises, leaving many citizens doubtful about actual results.",
+    "question_text": "Which choice completes the text with the most logical and precise word or phrase?",
+    "options": [
+      "vague",
+      "concrete",
+      "genuine",
+      "specific"
+    ],
+    "correct_answer": 0
+  },
+  {
+    "_id": "71",
+    "question_number": 71,
+    "practice_set": "1",
+    "category": "English: Central Ideas and Details",
+    "difficulty": "Medium",
+    "time_estimate": 82,
+    "passage": "Bees play a crucial role in pollination, which is essential for the growth of many crops. Without bees, agricultural production would significantly decline, threatening food security worldwide.",
+    "question_text": "What is the main idea of the passage?",
+    "options": [
+      "Bees are a danger to crops.",
+      "Bees are critical for global food supply.",
+      "Farmers should avoid depending on pollination.",
+      "Food security does not depend on agriculture."
+    ],
+    "correct_answer": 1
+  },
+  {
+    "_id": "72",
+    "question_number": 72,
+    "practice_set": "1",
+    "category": "English: Transitions",
+    "difficulty": "Easy",
+    "time_estimate": 82,
+    "passage": "The class performed well on the practice exam. _______, their teacher was confident they would succeed on the final test.",
+    "question_text": "Which choice completes the text with the most logical transition?",
+    "options": [
+      "Therefore",
+      "However",
+      "Meanwhile",
+      "Instead"
+    ],
+    "correct_answer": 0
+  },
+  {
+    "_id": "73",
+    "question_number": 73,
+    "practice_set": "1",
+    "category": "English: Standard English Conventions",
+    "difficulty": "Medium",
+    "time_estimate": 82,
+    "passage": "Neither the teacher nor the students (was/were) available for the meeting.",
+    "question_text": "Which choice correctly completes the sentence?",
+    "options": [
+      "was",
+      "were"
+    ],
+    "correct_answer": 1
+  },
+  {
+    "_id": "74",
+    "question_number": 74,
+    "practice_set": "1",
+    "category": "Math: Linear Equations",
+    "difficulty": "Easy",
+    "time_estimate": 82,
+    "passage": "",
+    "question_text": "Solve for x: 7x + 4 = 25.",
+    "options": [
+      "2",
+      "3",
+      "4",
+      "5"
+    ],
+    "correct_answer": 2
+  },
+  {
+    "_id": "75",
+    "question_number": 75,
+    "practice_set": "1",
+    "category": "Math: Systems of Equations",
+    "difficulty": "Medium",
+    "time_estimate": 82,
+    "passage": "",
+    "question_text": "If x + y = 12 and 2x - y = 3, what is the value of x?",
+    "options": [],
+    "correct_answer": 5,
+    "answer_type": "fill_in_the_blank"
+  },
+  {
+    "_id": "76",
+    "question_number": 76,
+    "practice_set": "1",
+    "category": "Math: Quadratic Functions",
+    "difficulty": "Medium",
+    "time_estimate": 82,
+    "passage": "",
+    "question_text": "What is the axis of symmetry of the parabola y = x² - 6x + 5?",
+    "options": [
+      "x = 2",
+      "x = 3",
+      "x = -3",
+      "x = -2"
+    ],
+    "correct_answer": 1
+  },
+  {
+    "_id": "77",
+    "question_number": 77,
+    "practice_set": "1",
+    "category": "Math: Geometry",
+    "difficulty": "Medium",
+    "time_estimate": 82,
+    "passage": "",
+    "question_text": "A rectangle has a length of 10 and a width of 6. What is its diagonal length?",
+    "options": [],
+    "correct_answer": 11.66,
+    "answer_type": "fill_in_the_blank"
+  },
+  {
+    "_id": "78",
+    "question_number": 78,
+    "practice_set": "1",
+    "category": "Math: Data Analysis",
+    "difficulty": "Medium",
+    "time_estimate": 82,
+    "passage": "The following table shows the number of books read by a group of students in one month: [2, 3, 5, 7, 3, 4].",
+    "question_text": "What is the median number of books read?",
+    "options": [],
+    "correct_answer": 3.5,
+    "answer_type": "fill_in_the_blank"
+  },
+  {
+    "_id": "79",
+    "question_number": 79,
+    "practice_set": "1",
+    "category": "Math: Exponents and Radicals",
+    "difficulty": "Medium",
+    "time_estimate": 82,
+    "passage": "",
+    "question_text": "Simplify: √(49) + 3².",
+    "options": [
+      "10",
+      "13",
+      "16",
+      "18"
+    ],
+    "correct_answer": 2
+  },
+  {
+    "_id": "80",
+    "question_number": 80,
+    "practice_set": "1",
+    "category": "English: Words in Context",
+    "difficulty": "Medium",
+    "time_estimate": 82,
+    "passage": "The scientist’s explanation was so _______ that even those unfamiliar with the subject could understand it easily.",
+    "question_text": "Which choice completes the text with the most logical and precise word or phrase?",
+    "options": [
+      "complex",
+      "clear",
+      "confusing",
+      "technical"
+    ],
+    "correct_answer": 1
+  },
+  {
+    "_id": "81",
+    "question_number": 81,
+    "practice_set": "1",
+    "category": "English: Central Ideas and Details",
+    "difficulty": "Medium",
+    "time_estimate": 82,
+    "passage": "Electric cars are becoming more popular as consumers seek environmentally friendly transportation options. In addition to reducing emissions, these vehicles can also lower fuel costs for drivers.",
+    "question_text": "According to the passage, what are two benefits of electric cars?",
+    "options": [
+      "They require no maintenance and are faster.",
+      "They reduce emissions and lower fuel costs.",
+      "They improve road safety and create jobs.",
+      "They eliminate the need for charging stations."
+    ],
+    "correct_answer": 1
+  },
+  {
+    "_id": "82",
+    "question_number": 82,
+    "practice_set": "1",
+    "category": "English: Transitions",
+    "difficulty": "Easy",
+    "time_estimate": 82,
+    "passage": "The chef introduced a new seasonal menu. _______, customers were eager to try the dishes.",
+    "question_text": "Which choice completes the text with the most logical transition?",
+    "options": [
+      "As a result",
+      "On the other hand",
+      "Nevertheless",
+      "In contrast"
+    ],
+    "correct_answer": 0
+  },
+  {
+    "_id": "83",
+    "question_number": 83,
+    "practice_set": "1",
+    "category": "English: Standard English Conventions",
+    "difficulty": "Easy",
+    "time_estimate": 82,
+    "passage": "The group of volunteers (is/are) planning a community cleanup event this weekend.",
+    "question_text": "Which choice correctly completes the sentence?",
+    "options": [
+      "is",
+      "are"
+    ],
+    "correct_answer": 0
+  },
+  {
+    "_id": "84",
+    "question_number": 84,
+    "practice_set": "1",
+    "category": "Math: Linear Equations",
+    "difficulty": "Medium",
+    "time_estimate": 82,
+    "passage": "",
+    "question_text": "If 4x + 9 = 25, what is the value of x?",
+    "options": [
+      "3",
+      "4",
+      "5",
+      "6"
+    ],
+    "correct_answer": 0
+  },
+  {
+    "_id": "85",
+    "question_number": 85,
+    "practice_set": "1",
+    "category": "Math: Systems of Equations",
+    "difficulty": "Medium",
+    "time_estimate": 82,
+    "passage": "",
+    "question_text": "If 2x + 3y = 18 and x - y = 2, what is the value of y?",
+    "options": [],
+    "correct_answer": 4,
+    "answer_type": "fill_in_the_blank"
+  },
+  {
+    "_id": "86",
+    "question_number": 86,
+    "practice_set": "1",
+    "category": "Math: Quadratic Functions",
+    "difficulty": "Medium",
+    "time_estimate": 82,
+    "passage": "",
+    "question_text": "What is the maximum value of the parabola y = -x² + 4x + 1?",
+    "options": [],
+    "correct_answer": 5,
+    "answer_type": "fill_in_the_blank"
+  },
+  {
+    "_id": "87",
+    "question_number": 87,
+    "practice_set": "1",
+    "category": "Math: Geometry",
+    "difficulty": "Medium",
+    "time_estimate": 82,
+    "passage": "",
+    "question_text": "A triangle has sides of length 6, 8, and 10. What type of triangle is it?",
+    "options": [
+      "Equilateral",
+      "Isosceles",
+      "Right",
+      "Scalene"
+    ],
+    "correct_answer": 2
+  },
+  {
+    "_id": "88",
+    "question_number": 88,
+    "practice_set": "1",
+    "category": "Math: Data Analysis",
+    "difficulty": "Easy",
+    "time_estimate": 82,
+    "passage": "The following numbers represent the test scores of five students: [70, 80, 85, 90, 95].",
+    "question_text": "What is the mean test score?",
+    "options": [],
+    "correct_answer": 84,
+    "answer_type": "fill_in_the_blank"
+  },
+  {
+    "_id": "89",
+    "question_number": 89,
+    "practice_set": "1",
+    "category": "Math: Exponents and Radicals",
+    "difficulty": "Medium",
+    "time_estimate": 82,
+    "passage": "",
+    "question_text": "Simplify: (2³)(2²).",
+    "options": [
+      "2⁵",
+      "2⁶",
+      "2¹⁰",
+      "32"
+    ],
+    "correct_answer": 3
+  },
+  {
+    "_id": "90",
+    "question_number": 90,
+    "practice_set": "1",
+    "category": "English: Words in Context",
+    "difficulty": "Medium",
+    "time_estimate": 82,
+    "passage": "The student gave a _______ response, indicating that she had not fully prepared for the discussion.",
+    "question_text": "Which choice completes the text with the most logical and precise word or phrase?",
+    "options": [
+      "thoughtful",
+      "insightful",
+      "superficial",
+      "detailed"
+    ],
+    "correct_answer": 2
+  },
+  {
+    "_id": "91",
+    "question_number": 91,
+    "practice_set": "1",
+    "category": "English: Central Ideas and Details",
+    "difficulty": "Easy",
+    "time_estimate": 82,
+    "passage": "Many scientists warn that rising global temperatures could lead to more severe weather events. They argue that urgent action is needed to reduce greenhouse gas emissions.",
+    "question_text": "What is the primary concern expressed in the passage?",
+    "options": [
+      "Severe weather caused by climate change",
+      "Declining wildlife populations",
+      "Advances in renewable energy",
+      "Economic costs of new technology"
+    ],
+    "correct_answer": 0
+  },
+  {
+    "_id": "92",
+    "question_number": 92,
+    "practice_set": "1",
+    "category": "English: Transitions",
+    "difficulty": "Easy",
+    "time_estimate": 82,
+    "passage": "The play received excellent reviews from critics. _______, ticket sales remained low during its first week.",
+    "question_text": "Which choice completes the text with the most logical transition?",
+    "options": [
+      "Nevertheless",
+      "For instance",
+      "Therefore",
+      "Similarly"
+    ],
+    "correct_answer": 0
+  },
+  {
+    "_id": "93",
+    "question_number": 93,
+    "practice_set": "1",
+    "category": "English: Standard English Conventions",
+    "difficulty": "Medium",
+    "time_estimate": 82,
+    "passage": "The committee (has/have) decided to postpone the meeting until next week.",
+    "question_text": "Which choice correctly completes the sentence?",
+    "options": [
+      "has",
+      "have"
+    ],
+    "correct_answer": 0
+  },
+  {
+    "_id": "94",
+    "question_number": 94,
+    "practice_set": "1",
+    "category": "Math: Linear Equations",
+    "difficulty": "Easy",
+    "time_estimate": 82,
+    "passage": "",
+    "question_text": "If 9x - 2 = 25, what is the value of x?",
+    "options": [
+      "2",
+      "3",
+      "4",
+      "5"
+    ],
+    "correct_answer": 2
+  },
+  {
+    "_id": "95",
+    "question_number": 95,
+    "practice_set": "1",
+    "category": "Math: Systems of Equations",
+    "difficulty": "Medium",
+    "time_estimate": 82,
+    "passage": "",
+    "question_text": "If x + 2y = 14 and 3x - y = 7, what is the value of x?",
+    "options": [],
+    "correct_answer": 4,
+    "answer_type": "fill_in_the_blank"
+  },
+  {
+    "_id": "96",
+    "question_number": 96,
+    "practice_set": "1",
+    "category": "Math: Quadratic Functions",
+    "difficulty": "Medium",
+    "time_estimate": 82,
+    "passage": "",
+    "question_text": "What are the solutions to x² - 4x - 5 = 0?",
+    "options": [
+      "x = -1 or x = 5",
+      "x = 1 or x = -5",
+      "x = 2 or x = -2",
+      "x = -5 or x = -1"
+    ],
+    "correct_answer": 0
+  },
+  {
+    "_id": "97",
+    "question_number": 97,
+    "practice_set": "1",
+    "category": "Math: Geometry",
+    "difficulty": "Medium",
+    "time_estimate": 82,
+    "passage": "",
+    "question_text": "The volume of a cylinder is 314 cubic units. If the radius is 5 units, what is the height? (Use π = 3.14)",
+    "options": [],
+    "correct_answer": 4,
+    "answer_type": "fill_in_the_blank"
+  },
+  {
+    "_id": "98",
+    "question_number": 98,
+    "practice_set": "1",
+    "category": "Math: Data Analysis",
+    "difficulty": "Medium",
+    "time_estimate": 82,
+    "passage": "The bar graph shows that a store sold 120 apples, 80 oranges, and 100 bananas in one week.",
+    "question_text": "What percentage of the fruit sold were oranges?",
+    "options": [],
+    "correct_answer": 28.6,
+    "answer_type": "fill_in_the_blank"
+  }
+]

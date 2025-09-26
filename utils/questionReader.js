@@ -24,6 +24,8 @@ async function readQuestionsFromJSON(testType, practiceSet = '1', sectionType = 
     }
   } else if (testType === 'sat') {
     filePath = path.join(__dirname, '..', 'data', 'SAT', `satpractice${practiceSet}questions.json`);
+  } else if (testType === 'psat') {
+    filePath = path.join(__dirname, '..', 'data', 'PSAT', `psatpractice${practiceSet}questions.json`);
   } else if (testType === 'statetest') {
     // Handle state test files with grade/subject awareness
     // sectionType format: g{grade}{subject} (e.g., g6math, g7ela)

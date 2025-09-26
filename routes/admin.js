@@ -231,7 +231,7 @@ router.get('/students/test-scores', auth, requireAdmin, async (req, res) => {
                      sectionScores.math.correct++;
                    }
                  }
-               } else if (testType === 'sat') {
+               } else if (testType === 'sat' || testType === 'psat') {
                  if (result.questionNumber <= 54) {
                    // Questions 1-54 are Reading & Writing
                    sectionScores.english.total++;

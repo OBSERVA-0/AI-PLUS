@@ -684,6 +684,15 @@ function handleTestTypeChange() {
         practiceSetSelect.innerHTML += `
             <option value="1">Practice Test 1</option>
             <option value="2">Practice Test 2</option>
+            <option value="3">Practice Test 3</option>
+        `;
+        practiceSetSelect.disabled = false;
+    } else if (testType === 'psat') {
+        // Add PSAT practice sets
+        practiceSetSelect.innerHTML += `
+            <option value="1">Practice Test 1</option>
+            <option value="2">Practice Test 2</option>
+            <option value="3">Practice Test 3</option>
         `;
         practiceSetSelect.disabled = false;
     }

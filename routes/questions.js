@@ -5,6 +5,7 @@ const path = require('path');
 const { readQuestionsFromJSON } = require('../utils/questionReader');
 const { convertRawToScaled: convertShsatRawToScaled, calculateShsatScores } = require('../utils/shsatScoring');
 const { convertSatRawToScaled, calculateSatResults } = require('../utils/satScoring');
+const { convertPsatRawToScaled, calculatePsatResults } = require('../utils/psatScoring');
 const TestCode = require('../models/TestCode');
 const User = require('../models/User');
 const { auth } = require('../middleware/auth');
@@ -14,7 +15,7 @@ const router = express.Router();
 // Validation middleware
 const validateGetQuestions = [
   query('testType')
-    .isIn(['shsat', 'sat', 'statetest'])
+    .isIn(['shsat', 'sat', 'psat', 'statetest'])
     .withMessage('Invalid test type'),
   query('practiceSet')
     .optional()
@@ -28,7 +29,7 @@ const validateGetQuestions = [
 
 const validateSubmitAnswers = [
   body('testType')
-    .isIn(['shsat', 'sat', 'statetest'])
+    .isIn(['shsat', 'sat', 'psat', 'statetest'])
     .withMessage('Invalid test type'),
   body('practiceSet')
     .optional()
@@ -163,6 +164,10 @@ router.post('/submit', auth, validateSubmitAnswers, handleValidationErrors, asyn
       math: { correct: 0, total: 0 },
       english: { correct: 0, total: 0 } // english here means reading & writing
     };
+    const psatSectionScores = {
+      math: { correct: 0, total: 0 },
+      english: { correct: 0, total: 0 } // english here means reading & writing
+    };
     
     // Generate test name early for error handling
     let testName = '';
@@ -172,6 +177,8 @@ router.post('/submit', auth, validateSubmitAnswers, handleValidationErrors, asyn
         : `SHSAT Practice Test ${practiceSet}${sectionType ? ` (${sectionType.toUpperCase()})` : ''}`;
     } else if (testType === 'sat') {
       testName = `SAT Practice Test ${practiceSet}`;
+    } else if (testType === 'psat') {
+      testName = `PSAT Practice Test ${practiceSet}`;
     } else if (testType === 'statetest') {
       // Extract grade from sectionType (e.g., "g6math" -> "6", "g7ela" -> "7")
       if (sectionType && sectionType.startsWith('g')) {
@@ -284,6 +291,19 @@ router.post('/submit', auth, validateSubmitAnswers, handleValidationErrors, asyn
           if (isCorrect) satSectionScores.math.correct++;
         }
       }
+
+      // Track PSAT section scores using question numbers (same structure as SAT)
+      if (testType === 'psat') {
+        if (question.question_number <= 54) {
+          // Questions 1-54 are Reading & Writing
+          psatSectionScores.english.total++;
+          if (isCorrect) psatSectionScores.english.correct++;
+        } else if (question.question_number <= 98) {
+          // Questions 55-98 are Math
+          psatSectionScores.math.total++;
+          if (isCorrect) psatSectionScores.math.correct++;
+        }
+      }
       
       // Record detailed result for review with essential fields for client display
       detailedResults.push({
@@ -377,6 +397,34 @@ router.post('/submit', auth, validateSubmitAnswers, handleValidationErrors, asyn
         totalScaledScore: satScoreResults.total.score,
         percentile: satScoreResults.total.percentile,
         performanceLevel: satScoreResults.total.performanceLevel
+      };
+    }
+
+    // Add PSAT scaled scores if applicable
+    if (testType === 'psat') {
+      // Use the new comprehensive PSAT scoring system
+      const psatScoreResults = calculatePsatResults(
+        psatSectionScores.math.correct,
+        psatSectionScores.english.correct
+      );
+      
+      responseData.results.psatScores = {
+        math: {
+          rawScore: psatSectionScores.math.correct,
+          totalQuestions: psatSectionScores.math.total,
+          percentage: psatSectionScores.math.total > 0 ? Math.round((psatSectionScores.math.correct / psatSectionScores.math.total) * 100) : 0,
+          scaledScore: psatScoreResults.math.scaledScore
+        },
+        reading_writing: {
+          rawScore: psatSectionScores.english.correct,
+          totalQuestions: psatSectionScores.english.total,
+          percentage: psatSectionScores.english.total > 0 ? Math.round((psatSectionScores.english.correct / psatSectionScores.english.total) * 100) : 0,
+          scaledScore: psatScoreResults.readingWriting.scaledScore
+        },
+        totalScaledScore: psatScoreResults.total.score,
+        percentile: psatScoreResults.total.percentile,
+        performanceLevel: psatScoreResults.total.performanceLevel,
+        nationalMerit: psatScoreResults.nationalMerit
       };
     }
 

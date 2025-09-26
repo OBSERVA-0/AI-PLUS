@@ -566,8 +566,8 @@ class TestHistoryManager {
                 } else if (result.questionNumber <= 114) {
                     mathQuestions.push(result);
                 }
-            } else if (test.testType === 'sat') {
-                // SAT: Questions 1-54 are Reading & Writing, 55-98 are Math
+            } else if (test.testType === 'sat' || test.testType === 'psat') {
+                // SAT/PSAT: Questions 1-54 are Reading & Writing, 55-98 are Math
                 if (result.questionNumber <= 54) {
                     englishQuestions.push(result);
                 } else if (result.questionNumber <= 98) {

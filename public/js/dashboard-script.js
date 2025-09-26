@@ -184,7 +184,7 @@ async function getTestStats() {
     return null;
 }
 
-async function updateTestStats(testType, score, timeSpent, categoryScores = null, shsatScores = null, satScores = null) {
+async function updateTestStats(testType, score, timeSpent, categoryScores = null, shsatScores = null, satScores = null, psatScores = null) {
     try {
         console.log('Updating test stats:', { testType, score, timeSpent, categoryScores });
         
@@ -201,6 +201,9 @@ async function updateTestStats(testType, score, timeSpent, categoryScores = null
         }
         if (satScores) {
             requestBody.satScores = satScores;
+        }
+        if (psatScores) {
+            requestBody.psatScores = psatScores;
         }
 
         const response = await AuthService.makeRequest('/user/update-stats', {
@@ -428,7 +431,7 @@ function updateTestCardStats(testType, progress) {
 }
 
 async function startTest(testType, practiceSet = '1', sectionType = null) {
-    if (testType !== 'shsat' && testType !== 'sat' && testType !== 'statetest') {
+    if (testType !== 'shsat' && testType !== 'sat' && testType !== 'psat' && testType !== 'statetest') {
         alert('This test is coming soon!');
         return;
     }
@@ -1113,7 +1116,8 @@ async function endTest() {
           timeSpent, 
           response.data.results.categoryScores,
           response.data.results.shsatScores, // Pass SHSAT scores
-          response.data.results.satScores // Pass SAT scores
+          response.data.results.satScores, // Pass SAT scores
+          response.data.results.psatScores // Pass PSAT scores
         );
         
         // Display results
@@ -1260,6 +1264,42 @@ function displayResults(resultData) {
       }
     } else if (satScoreContainer) {
       satScoreContainer.style.display = 'none';
+    }
+    
+    // Update PSAT scores if available
+    const psatScoreContainer = document.getElementById('psat-score-breakdown');
+    if (results.psatScores && psatScoreContainer) {
+      psatScoreContainer.style.display = 'block';
+      document.getElementById('psat-total-score').textContent = results.psatScores.totalScaledScore;
+      
+      // Update math score if available
+      const psatMathScoreElement = document.getElementById('psat-math-score');
+      if (results.psatScores.math && psatMathScoreElement) {
+        psatMathScoreElement.textContent = `Math: ${results.psatScores.math.scaledScore} (${results.psatScores.math.percentage}%)`;
+        psatMathScoreElement.style.display = 'block';
+      } else if (psatMathScoreElement) {
+        psatMathScoreElement.style.display = 'none';
+      }
+      
+      // Update reading/writing score if available
+      const psatRwScoreElement = document.getElementById('psat-rw-score');
+      if (results.psatScores.reading_writing && psatRwScoreElement) {
+        psatRwScoreElement.textContent = `R&W: ${results.psatScores.reading_writing.scaledScore} (${results.psatScores.reading_writing.percentage}%)`;
+        psatRwScoreElement.style.display = 'block';
+      } else if (psatRwScoreElement) {
+        psatRwScoreElement.style.display = 'none';
+      }
+      
+      // Update National Merit status if available
+      const psatNationalMeritElement = document.getElementById('psat-national-merit');
+      if (results.psatScores.nationalMerit && psatNationalMeritElement) {
+        psatNationalMeritElement.textContent = results.psatScores.nationalMerit.status;
+        psatNationalMeritElement.style.display = 'block';
+      } else if (psatNationalMeritElement) {
+        psatNationalMeritElement.style.display = 'none';
+      }
+    } else if (psatScoreContainer) {
+      psatScoreContainer.style.display = 'none';
     }
     
     const correctCountElement = document.querySelector('#correct-count');

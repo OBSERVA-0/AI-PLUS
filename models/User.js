@@ -124,6 +124,34 @@ const userSchema = new mongoose.Schema({
         default: new Map()
       }
     },
+    psat: {
+      testsCompleted: { type: Number, default: 0 },
+      averageScore: { type: Number, default: 0 },
+      bestScore: { type: Number, default: 0 },
+      timeSpent: { type: Number, default: 0 },
+      lastAttempt: { type: Date, default: null },
+      latestScaledScore: {
+        math: { type: Number, default: 0 },
+        reading_writing: { type: Number, default: 0 },
+        total: { type: Number, default: 0 }
+      },
+      bestScaledScore: {
+        math: { type: Number, default: 0 },
+        reading_writing: { type: Number, default: 0 },
+        total: { type: Number, default: 0 }
+      },
+      categoryPerformance: {
+        type: Map,
+        of: {
+          totalQuestions: { type: Number, default: 0 },
+          correctAnswers: { type: Number, default: 0 },
+          averageScore: { type: Number, default: 0 },
+          masteryLevel: { type: Number, default: 0, min: 0, max: 5 },
+          lastUpdated: { type: Date, default: Date.now }
+        },
+        default: new Map()
+      }
+    },
     stateTest: {
       testsCompleted: { type: Number, default: 0 },
       averageScore: { type: Number, default: 0 },
@@ -148,7 +176,7 @@ const userSchema = new mongoose.Schema({
     testType: {
       type: String,
       required: true,
-      enum: ['shsat', 'sat', 'state']
+      enum: ['shsat', 'sat', 'psat', 'state']
     },
     practiceSet: {
       type: String,

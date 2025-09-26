@@ -1,0 +1,1596 @@
+[
+  {
+    "_id": "1",
+    "question_number": 1,
+    "practice_set": "2",
+    "category": "English: Words in Context",
+    "difficulty": "Easy",
+    "time_estimate": 82,
+    "passage": "The ancient library contained thousands of _______ manuscripts that scholars traveled from distant lands to study.",
+    "question_text": "Which choice completes the text with the most logical and precise word or phrase?",
+    "options": [
+      "worthless",
+      "valuable",
+      "recent",
+      "fictional"
+    ],
+    "correct_answer": 1
+  },
+  {
+    "_id": "2",
+    "question_number": 2,
+    "practice_set": "2",
+    "category": "English: Words in Context",
+    "difficulty": "Medium",
+    "time_estimate": 82,
+    "passage": "Despite the team's _______ preparation for the championship, they were defeated by their opponents' unexpected strategy.",
+    "question_text": "Which choice completes the text with the most logical and precise word or phrase?",
+    "options": [
+      "inadequate",
+      "thorough",
+      "rushed",
+      "minimal"
+    ],
+    "correct_answer": 1
+  },
+  {
+    "_id": "3",
+    "question_number": 3,
+    "practice_set": "2",
+    "category": "English: Words in Context",
+    "difficulty": "Hard",
+    "time_estimate": 82,
+    "passage": "The researcher's findings were considered _______ by the scientific community, as they contradicted decades of established theory.",
+    "question_text": "Which choice completes the text with the most logical and precise word or phrase?",
+    "options": [
+      "conventional",
+      "mundane",
+      "revolutionary",
+      "predictable"
+    ],
+    "correct_answer": 2
+  },
+  {
+    "_id": "4",
+    "question_number": 4,
+    "practice_set": "2",
+    "category": "English: Words in Context",
+    "difficulty": "Medium",
+    "time_estimate": 82,
+    "passage": "The museum's new security system was so _______ that even the most experienced art thieves couldn't bypass it.",
+    "question_text": "Which choice completes the text with the most logical and precise word or phrase?",
+    "options": [
+      "sophisticated",
+      "primitive",
+      "affordable",
+      "decorative"
+    ],
+    "correct_answer": 0
+  },
+  {
+    "_id": "5",
+    "question_number": 5,
+    "practice_set": "2",
+    "category": "English: Words in Context",
+    "difficulty": "Easy",
+    "time_estimate": 82,
+    "passage": "The chef's _______ use of spices created a dish that was both flavorful and aromatic.",
+    "question_text": "Which choice completes the text with the most logical and precise word or phrase?",
+    "options": [
+      "careless",
+      "skillful",
+      "excessive",
+      "limited"
+    ],
+    "correct_answer": 1
+  },
+  {
+    "_id": "6",
+    "question_number": 6,
+    "practice_set": "2",
+    "category": "English: Structure and Purpose",
+    "difficulty": "Medium",
+    "time_estimate": 82,
+    "passage": "Ocean currents play a crucial role in regulating Earth's climate. These massive flows of water transport heat from tropical regions to cooler areas, helping to moderate temperatures across the globe. Without these currents, many regions would experience much more extreme weather patterns.",
+    "question_text": "Which choice best states the main purpose of the text?",
+    "options": [
+      "To explain how ocean currents are formed",
+      "To describe the climate-regulating function of ocean currents",
+      "To compare ocean temperatures in different regions",
+      "To argue for increased ocean research funding"
+    ],
+    "correct_answer": 1
+  },
+  {
+    "_id": "7",
+    "question_number": 7,
+    "practice_set": "2",
+    "category": "English: Central Ideas and Details",
+    "difficulty": "Easy",
+    "time_estimate": 82,
+    "passage": "Urban beekeeping has gained popularity in recent years as cities recognize the importance of pollinators for local ecosystems. Many urban beekeepers maintain hives on rooftops and in community gardens, producing honey while supporting plant biodiversity in metropolitan areas.",
+    "question_text": "Based on the text, what is one benefit of urban beekeeping mentioned?",
+    "options": [
+      "It reduces traffic congestion in cities",
+      "It provides entertainment for residents",
+      "It supports plant biodiversity in urban areas",
+      "It eliminates the need for pesticides"
+    ],
+    "correct_answer": 2
+  },
+  {
+    "_id": "8",
+    "question_number": 8,
+    "practice_set": "2",
+    "category": "English: Central Ideas and Details",
+    "difficulty": "Medium",
+    "time_estimate": 82,
+    "passage": "The development of electric vehicles represents a significant shift in automotive technology. While these vehicles produce zero direct emissions, their environmental impact depends largely on how the electricity used to charge them is generated. Countries with clean energy sources see the greatest environmental benefits from electric vehicle adoption.",
+    "question_text": "According to the text, what factor determines the environmental impact of electric vehicles?",
+    "options": [
+      "The speed at which they can travel",
+      "The source of electricity used for charging",
+      "The number of vehicles manufactured",
+      "The cost of the vehicles"
+    ],
+    "correct_answer": 1
+  },
+  {
+    "_id": "9",
+    "question_number": 9,
+    "practice_set": "2",
+    "category": "English: Textual Evidence",
+    "difficulty": "Hard",
+    "time_estimate": 82,
+    "passage": "A historian claims that the invention of writing was the most important technological advancement in human history.",
+    "question_text": "Which quotation from a scholarly source would best support the historian's claim?",
+    "options": [
+      "\"Writing systems varied significantly across ancient civilizations, with some using symbols and others using alphabets.\"",
+      "\"The ability to record information permanently transformed human society by enabling the accumulation and transmission of knowledge across generations.\"",
+      "\"Ancient writing materials included clay tablets, papyrus, and animal skins, depending on available resources.\"",
+      "\"Writing was initially used primarily for record-keeping and administrative purposes in early civilizations.\""
+    ],
+    "correct_answer": 1
+  },
+  {
+    "_id": "10",
+    "question_number": 10,
+    "practice_set": "2",
+    "category": "English: Quantitative Evidence",
+    "difficulty": "Medium",
+    "time_estimate": 82,
+    "passage": "A study of reading habits found that students who read for pleasure scored 15% higher on reading comprehension tests than those who read only for academic requirements. Additionally, pleasure readers spent an average of 45 minutes per day reading, compared to 20 minutes for academic-only readers.",
+    "question_text": "Which choice most effectively uses data from the passage to complete this statement: \"Students who read for pleasure\"",
+    "options": [
+      "spend more than twice as much time reading daily and achieve higher test scores.",
+      "prefer fiction over non-fiction by a significant margin.",
+      "come from families with higher education levels.",
+      "are more likely to pursue careers in literature."
+    ],
+    "correct_answer": 0
+  },
+  {
+    "_id": "11",
+    "question_number": 11,
+    "practice_set": "2",
+    "category": "English: Inferences",
+    "difficulty": "Medium",
+    "time_estimate": 82,
+    "passage": "The local farmers market has expanded from 12 vendors to 35 vendors over the past three years. Market organizers attribute this growth to increased consumer demand for locally-grown produce and the city's new policy supporting small businesses.",
+    "question_text": "Based on the text, which inference about the local food movement is most strongly supported?",
+    "options": [
+      "Farmers markets will eventually replace all grocery stores",
+      "Consumer preferences are shifting toward locally-sourced products",
+      "Local produce is always more expensive than supermarket alternatives",
+      "Small farmers cannot compete with large agricultural corporations"
+    ],
+    "correct_answer": 1
+  },
+  {
+    "_id": "12",
+    "question_number": 12,
+    "practice_set": "2",
+    "category": "English: Cross-Text Connections",
+    "difficulty": "Hard",
+    "time_estimate": 82,
+    "passage": "Text 1:\nSocial media platforms have revolutionized how people communicate and share information. These platforms enable instant global connectivity and have democratized access to information sharing.\n\nText 2:\nConcerns about social media include the spread of misinformation, privacy issues, and potential negative effects on mental health, particularly among teenagers.",
+    "question_text": "Based on both texts, how do the authors view social media?",
+    "options": [
+      "They believe it should be banned for safety reasons",
+      "They acknowledge both significant benefits and serious drawbacks",
+      "They think it is primarily beneficial for society",
+      "They focus only on its negative impacts"
+    ],
+    "correct_answer": 1
+  },
+  {
+    "_id": "13",
+    "question_number": 13,
+    "practice_set": "2",
+    "category": "English: Punctuation",
+    "difficulty": "Easy",
+    "time_estimate": 82,
+    "passage": "The university offers courses in biology, chemistry, _______ and environmental science.",
+    "question_text": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+    "options": [
+      "physics:",
+      "physics;",
+      "physics,",
+      "physics"
+    ],
+    "correct_answer": 2
+  },
+  {
+    "_id": "14",
+    "question_number": 14,
+    "practice_set": "2",
+    "category": "English: Number and Tense",
+    "difficulty": "Medium",
+    "time_estimate": 82,
+    "passage": "Neither the students nor the professor _______ satisfied with the results of the experiment.",
+    "question_text": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+    "options": [
+      "were",
+      "was",
+      "are",
+      "is"
+    ],
+    "correct_answer": 1
+  },
+  {
+    "_id": "15",
+    "question_number": 15,
+    "practice_set": "2",
+    "category": "English: Sentence Structure and Organization",
+    "difficulty": "Hard",
+    "time_estimate": 82,
+    "passage": "The artist _______ sculptures from recycled materials, creates works that challenge viewers to reconsider their relationship with waste and consumption.",
+    "question_text": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+    "options": [
+      "known for making",
+      ", who makes",
+      "making",
+      "makes"
+    ],
+    "correct_answer": 1
+  },
+  {
+    "_id": "16",
+    "question_number": 16,
+    "practice_set": "2",
+    "category": "English: Transitions",
+    "difficulty": "Easy",
+    "time_estimate": 82,
+    "passage": "The new solar panels are expensive to install. _______, they will save money on electricity bills over time.",
+    "question_text": "Which choice completes the text with the most logical transition?",
+    "options": [
+      "Therefore",
+      "However",
+      "Similarly",
+      "Meanwhile"
+    ],
+    "correct_answer": 1
+  },
+  {
+    "_id": "17",
+    "question_number": 17,
+    "practice_set": "2",
+    "category": "English: Rhetorical Synthesis",
+    "difficulty": "Medium",
+    "time_estimate": 82,
+    "passage": "While researching a topic, a student has taken the following notes:\n\n• Leonardo da Vinci lived from 1452 to 1519\n• He was an Italian Renaissance polymath\n• His works include the Mona Lisa and The Last Supper\n• He designed flying machines and military equipment\n• He studied anatomy, geology, and botany\n• He kept detailed notebooks with mirror writing",
+    "question_text": "The student wants to emphasize da Vinci's diverse interests and talents. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+    "options": [
+      "Leonardo da Vinci painted the famous Mona Lisa and The Last Supper during the Italian Renaissance.",
+      "Leonardo da Vinci was a Renaissance polymath whose interests spanned art, engineering, and natural sciences.",
+      "Leonardo da Vinci used mirror writing in his detailed notebooks from 1452 to 1519.",
+      "Leonardo da Vinci's flying machine designs were ahead of his time in the 16th century."
+    ],
+    "correct_answer": 1
+  },
+  {
+    "_id": "18",
+    "question_number": 18,
+    "practice_set": "2",
+    "category": "English: Words in Context",
+    "difficulty": "Easy",
+    "time_estimate": 82,
+    "passage": "The student's _______ performance on the final exam secured her place on the honor roll.",
+    "question_text": "Which choice completes the text with the most logical and precise word or phrase?",
+    "options": [
+      "poor",
+      "average",
+      "outstanding",
+      "inconsistent"
+    ],
+    "correct_answer": 2
+  },
+  {
+    "_id": "19",
+    "question_number": 19,
+    "practice_set": "2",
+    "category": "English: Words in Context",
+    "difficulty": "Hard",
+    "time_estimate": 82,
+    "passage": "The diplomat's _______ approach to the negotiations helped both sides reach a compromise that seemed impossible just weeks earlier.",
+    "question_text": "Which choice completes the text with the most logical and precise word or phrase?",
+    "options": [
+      "aggressive",
+      "tactful",
+      "indifferent",
+      "rigid"
+    ],
+    "correct_answer": 1
+  },
+  {
+    "_id": "20",
+    "question_number": 20,
+    "practice_set": "2",
+    "category": "English: Central Ideas and Details",
+    "difficulty": "Medium",
+    "time_estimate": 82,
+    "passage": "Hydroponics is a method of growing plants without soil, using nutrient-rich water solutions instead. This technique allows for precise control of nutrients and growing conditions, often resulting in faster plant growth and higher yields than traditional soil-based agriculture.",
+    "question_text": "According to the text, what is a key advantage of hydroponic growing?",
+    "options": [
+      "It requires less water than soil-based growing",
+      "It eliminates the need for any nutrients",
+      "It allows for precise control of growing conditions",
+      "It works only with certain types of plants"
+    ],
+    "correct_answer": 2
+  },
+  {
+    "_id": "21",
+    "question_number": 21,
+    "practice_set": "2",
+    "category": "English: Structure and Purpose",
+    "difficulty": "Hard",
+    "time_estimate": 82,
+    "passage": "Physical exercise has numerous benefits for both physical and mental health. Regular activity strengthens the cardiovascular system, builds muscle mass, and improves bone density. Additionally, exercise releases endorphins that can improve mood and reduce stress. However, it's important to start gradually and consult healthcare providers before beginning any new exercise regimen.",
+    "question_text": "Which choice best describes the structure of the text?",
+    "options": [
+      "It presents benefits of exercise followed by a cautionary note",
+      "It compares different types of physical activities",
+      "It argues against excessive exercise routines",
+      "It provides a step-by-step exercise guide"
+    ],
+    "correct_answer": 0
+  },
+  {
+    "_id": "22",
+    "question_number": 22,
+    "practice_set": "2",
+    "category": "English: Textual Evidence",
+    "difficulty": "Medium",
+    "time_estimate": 82,
+    "passage": "An educator argues that hands-on learning experiences are more effective than traditional lecture-based teaching.",
+    "question_text": "Which finding from a research study would best support the educator's argument?",
+    "options": [
+      "Students who participated in laboratory experiments scored 20% higher on science tests than those who only attended lectures.",
+      "Lecture halls can accommodate more students than laboratory settings.",
+      "Traditional teaching methods have been used successfully for centuries.",
+      "Some students prefer listening to lectures rather than doing activities."
+    ],
+    "correct_answer": 0
+  },
+  {
+    "_id": "23",
+    "question_number": 23,
+    "practice_set": "2",
+    "category": "English: Inferences",
+    "difficulty": "Easy",
+    "time_estimate": 82,
+    "passage": "The bakery's sales increased by 40% after they began offering gluten-free options. The owner noted that many customers specifically requested these alternatives and that word-of-mouth recommendations brought in new clientele.",
+    "question_text": "Based on the text, what can be inferred about customer demand?",
+    "options": [
+      "Customers prefer gluten-free products over traditional baked goods",
+      "There was significant unmet demand for gluten-free options",
+      "The bakery's prices are lower than competitors",
+      "Most customers have celiac disease"
+    ],
+    "correct_answer": 1
+  },
+  {
+    "_id": "24",
+    "question_number": 24,
+    "practice_set": "2",
+    "category": "English: Punctuation",
+    "difficulty": "Medium",
+    "time_estimate": 82,
+    "passage": "The conference featured speakers from various fields _______ medicine, technology, and education.",
+    "question_text": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+    "options": [
+      "including:",
+      "including;",
+      "including,",
+      "including"
+    ],
+    "correct_answer": 0
+  },
+  {
+    "_id": "25",
+    "question_number": 25,
+    "practice_set": "2",
+    "category": "English: Number and Tense",
+    "difficulty": "Easy",
+    "time_estimate": 82,
+    "passage": "The team of scientists _______ working on the project for over three years.",
+    "question_text": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+    "options": [
+      "have been",
+      "has been",
+      "were",
+      "are"
+    ],
+    "correct_answer": 1
+  },
+  {
+    "_id": "26",
+    "question_number": 26,
+    "practice_set": "2",
+    "category": "English: Transitions",
+    "difficulty": "Medium",
+    "time_estimate": 82,
+    "passage": "The restaurant received excellent reviews for its innovative menu. _______, reservations became difficult to secure.",
+    "question_text": "Which choice completes the text with the most logical transition?",
+    "options": [
+      "However",
+      "Consequently",
+      "Meanwhile",
+      "Nevertheless"
+    ],
+    "correct_answer": 1
+  },
+  {
+    "_id": "27",
+    "question_number": 27,
+    "practice_set": "2",
+    "category": "English: Words in Context",
+    "difficulty": "Medium",
+    "time_estimate": 82,
+    "passage": "The archaeologist's _______ examination of the artifacts revealed details that had been overlooked by previous researchers.",
+    "question_text": "Which choice completes the text with the most logical and precise word or phrase?",
+    "options": [
+      "cursory",
+      "meticulous",
+      "reluctant",
+      "biased"
+    ],
+    "correct_answer": 1
+  },
+  {
+    "_id": "28",
+    "question_number": 28,
+    "practice_set": "2",
+    "category": "English: Central Ideas and Details",
+    "difficulty": "Hard",
+    "time_estimate": 82,
+    "passage": "Biomimicry is the practice of learning from and mimicking the strategies found in nature to solve human design challenges. Examples include Velcro, inspired by burr seeds, and bullet train designs based on kingfisher beaks. This approach has led to innovations in fields ranging from architecture to medicine.",
+    "question_text": "Based on the text, biomimicry involves",
+    "options": [
+      "replacing natural materials with artificial ones",
+      "studying animal behavior in laboratories",
+      "applying natural strategies to solve human problems",
+      "protecting endangered species through technology"
+    ],
+    "correct_answer": 2
+  },
+  {
+    "_id": "29",
+    "question_number": 29,
+    "practice_set": "2",
+    "category": "English: Sentence Structure and Organization",
+    "difficulty": "Medium",
+    "time_estimate": 82,
+    "passage": "The photographer _______ portraits of famous musicians, captured the essence of their personalities in each shot.",
+    "question_text": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+    "options": [
+      "specializing in",
+      ", specializing in",
+      "who specializes in",
+      "specialized in"
+    ],
+    "correct_answer": 2
+  },
+  {
+    "_id": "30",
+    "question_number": 30,
+    "practice_set": "2",
+    "category": "English: Quantitative Evidence",
+    "difficulty": "Hard",
+    "time_estimate": 82,
+    "passage": "A city's recycling program showed impressive results in its first year. Plastic recycling increased from 100 tons to 250 tons, paper recycling grew from 300 tons to 600 tons, and glass recycling rose from 50 tons to 75 tons.",
+    "question_text": "Which choice most effectively uses the data to complete this statement: \"The recycling program achieved\"",
+    "options": [
+      "the highest total volume in glass recycling.",
+      "the greatest percentage increase in plastic recycling.",
+      "equal growth rates across all materials.",
+      "the most significant improvement in paper recycling by volume."
+    ],
+    "correct_answer": 1
+  },
+  {
+    "_id": "31",
+    "question_number": 31,
+    "practice_set": "2",
+    "category": "English: Cross-Text Connections",
+    "difficulty": "Medium",
+    "time_estimate": 82,
+    "passage": "Text 1:\nOnline education offers flexibility and accessibility for students who cannot attend traditional classes due to work, family, or geographic constraints.\n\nText 2:\nCritics of online education point to concerns about student engagement, the lack of face-to-face interaction, and potential technology barriers that may hinder learning.",
+    "question_text": "Based on both texts, what can be concluded about online education?",
+    "options": [
+      "It is universally preferred by all students",
+      "It has both advantages and disadvantages",
+      "It should replace all traditional education",
+      "It is only suitable for certain subjects"
+    ],
+    "correct_answer": 1
+  },
+  {
+    "_id": "32",
+    "question_number": 32,
+    "practice_set": "2",
+    "category": "English: Rhetorical Synthesis",
+    "difficulty": "Hard",
+    "time_estimate": 82,
+    "passage": "While researching a topic, a student has taken the following notes:\n\n• Marie Curie was born in Poland in 1867\n• She moved to Paris to study physics and mathematics\n• She discovered the elements polonium and radium\n• She was the first woman to win a Nobel Prize\n• She won Nobel Prizes in both Physics (1903) and Chemistry (1911)\n• She died in 1934 from radiation exposure",
+    "question_text": "The student wants to highlight Curie's groundbreaking achievements in science. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+    "options": [
+      "Marie Curie moved from Poland to Paris to pursue her education in physics and mathematics.",
+      "Marie Curie discovered two chemical elements and became the first woman to win a Nobel Prize, later winning a second Nobel Prize in a different field.",
+      "Marie Curie died in 1934 from radiation exposure related to her scientific research.",
+      "Marie Curie lived from 1867 to 1934 and conducted important scientific research during her lifetime."
+    ],
+    "correct_answer": 1
+  },
+  {
+    "_id": "33",
+    "question_number": 33,
+    "practice_set": "2",
+    "category": "English: Words in Context",
+    "difficulty": "Easy",
+    "time_estimate": 82,
+    "passage": "The garden's _______ design included winding paths, hidden benches, and strategically placed fountains.",
+    "question_text": "Which choice completes the text with the most logical and precise word or phrase?",
+    "options": [
+      "chaotic",
+      "elaborate",
+      "simple",
+      "neglected"
+    ],
+    "correct_answer": 1
+  },
+  {
+    "_id": "34",
+    "question_number": 34,
+    "practice_set": "2",
+    "category": "English: Inferences",
+    "difficulty": "Medium",
+    "time_estimate": 82,
+    "passage": "After implementing a four-day work week, the company reported a 15% increase in employee productivity and a 30% decrease in sick days. Employee satisfaction surveys also showed significant improvements across all departments.",
+    "question_text": "Based on the text, what can be inferred about the four-day work week policy?",
+    "options": [
+      "It resulted in lower company profits",
+      "It was poorly received by management",
+      "It had positive effects on both productivity and employee wellbeing",
+      "It was only successful in certain departments"
+    ],
+    "correct_answer": 2
+  },
+  {
+    "_id": "35",
+    "question_number": 35,
+    "practice_set": "2",
+    "category": "English: Structure and Purpose",
+    "difficulty": "Easy",
+    "time_estimate": 82,
+    "passage": "Sleep plays a vital role in physical health, mental wellbeing, and cognitive function. During sleep, the body repairs tissues, consolidates memories, and releases important hormones. Chronic sleep deprivation can lead to serious health problems including weakened immunity, weight gain, and increased risk of chronic diseases.",
+    "question_text": "Which choice best states the main purpose of the text?",
+    "options": [
+      "To provide tips for better sleep hygiene",
+      "To explain the importance of sleep for health and wellbeing",
+      "To compare different sleep disorders",
+      "To argue for later school start times"
+    ],
+    "correct_answer": 1
+  },
+  {
+    "_id": "36",
+    "question_number": 36,
+    "practice_set": "2",
+    "category": "English: Textual Evidence",
+    "difficulty": "Hard",
+    "time_estimate": 82,
+    "passage": "A nutritionist claims that eating breakfast regularly improves academic performance in students.",
+    "question_text": "Which finding from a research study would best support the nutritionist's claim?",
+    "options": [
+      "Students who ate breakfast daily scored an average of 12 points higher on standardized tests than those who skipped breakfast.",
+      "Breakfast foods vary significantly in nutritional content across different cultures.",
+      "Many students report feeling hungry during morning classes.",
+      "School cafeterias have expanded their breakfast menu options in recent years."
+    ],
+    "correct_answer": 0
+  },
+  {
+    "_id": "37",
+    "question_number": 37,
+    "practice_set": "2",
+    "category": "English: Punctuation",
+    "difficulty": "Easy",
+    "time_estimate": 82,
+    "passage": "The workshop covered three main topics _______ project management, team communication, and conflict resolution.",
+    "question_text": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+    "options": [
+      "such as:",
+      "such as;",
+      "such as,",
+      "such as"
+    ],
+    "correct_answer": 0
+  },
+  {
+    "_id": "38",
+    "question_number": 38,
+    "practice_set": "2",
+    "category": "English: Number and Tense",
+    "difficulty": "Medium",
+    "time_estimate": 82,
+    "passage": "Each of the participants _______ required to complete the training before beginning the research project.",
+    "question_text": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+    "options": [
+      "are",
+      "is",
+      "were",
+      "have been"
+    ],
+    "correct_answer": 1
+  },
+  {
+    "_id": "39",
+    "question_number": 39,
+    "practice_set": "2",
+    "category": "English: Transitions",
+    "difficulty": "Medium",
+    "time_estimate": 82,
+    "passage": "The weather forecast predicted heavy rain for the outdoor concert. _______, the organizers decided to move the event indoors.",
+    "question_text": "Which choice completes the text with the most logical transition?",
+    "options": [
+      "Similarly",
+      "Therefore",
+      "Meanwhile",
+      "However"
+    ],
+    "correct_answer": 1
+  },
+  {
+    "_id": "40",
+    "question_number": 40,
+    "practice_set": "2",
+    "category": "English: Words in Context",
+    "difficulty": "Hard",
+    "time_estimate": 82,
+    "passage": "The company's _______ response to the crisis helped restore public confidence and prevent further damage to its reputation.",
+    "question_text": "Which choice completes the text with the most logical and precise word or phrase?",
+    "options": [
+      "delayed",
+      "prompt",
+      "evasive",
+      "confusing"
+    ],
+    "correct_answer": 1
+  },
+  {
+    "_id": "41",
+    "question_number": 41,
+    "practice_set": "2",
+    "category": "English: Central Ideas and Details",
+    "difficulty": "Medium",
+    "time_estimate": 82,
+    "passage": "Vertical farming is an innovative agricultural method that involves growing crops in vertically stacked layers, often in controlled indoor environments. This technique can produce higher yields per square foot than traditional farming while using less water and eliminating the need for pesticides.",
+    "question_text": "According to the text, what are two advantages of vertical farming mentioned?",
+    "options": [
+      "Lower labor costs and faster harvesting",
+      "Higher yields per square foot and reduced water usage",
+      "Better taste and longer shelf life",
+      "Lower equipment costs and easier maintenance"
+    ],
+    "correct_answer": 1
+  },
+  {
+    "_id": "42",
+    "question_number": 42,
+    "practice_set": "2",
+    "category": "English: Sentence Structure and Organization",
+    "difficulty": "Hard",
+    "time_estimate": 82,
+    "passage": "The documentary filmmaker _______ stories about environmental conservation, hopes to inspire viewers to take action in their own communities.",
+    "question_text": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+    "options": [
+      "creating",
+      ", who creates",
+      "creates",
+      "to create"
+    ],
+    "correct_answer": 1
+  },
+  {
+    "_id": "43",
+    "question_number": 43,
+    "practice_set": "2",
+    "category": "English: Quantitative Evidence",
+    "difficulty": "Medium",
+    "time_estimate": 82,
+    "passage": "A study of public transportation usage found that bus ridership increased by 25% after new routes were added, while subway usage grew by 40% following platform improvements. Overall, public transportation usage in the city increased by 35% over the study period.",
+    "question_text": "Which choice most effectively uses the data to complete this statement: \"The study showed that\"",
+    "options": [
+      "subway improvements had a greater impact on ridership than new bus routes.",
+      "bus transportation is more popular than subway transportation.",
+      "platform improvements are more expensive than new routes.",
+      "public transportation usage decreased overall."
+    ],
+    "correct_answer": 0
+  },
+  {
+    "_id": "44",
+    "question_number": 44,
+    "practice_set": "2",
+    "category": "English: Inferences",
+    "difficulty": "Hard",
+    "time_estimate": 82,
+    "passage": "The local community center saw a 300% increase in senior citizen participation after introducing technology classes specifically designed for older adults. The classes covered basic computer skills, internet safety, and social media usage.",
+    "question_text": "Based on the text, what can be inferred about senior citizens and technology?",
+    "options": [
+      "They are naturally opposed to using new technology",
+      "They prefer traditional communication methods",
+      "They are interested in learning technology when appropriate instruction is provided",
+      "They only use technology for emergency situations"
+    ],
+    "correct_answer": 2
+  },
+  {
+    "_id": "45",
+    "question_number": 45,
+    "practice_set": "2",
+    "category": "English: Cross-Text Connections",
+    "difficulty": "Medium",
+    "time_estimate": 82,
+    "passage": "Text 1:\nMeditation has been shown to reduce stress, improve focus, and enhance overall mental well-being through regular practice.\n\nText 2:\nSkeptics argue that meditation's benefits are often overstated and that the research supporting these claims may be biased or methodologically flawed.",
+    "question_text": "Based on both texts, what can be concluded about meditation research?",
+    "options": [
+      "All meditation research is unreliable",
+      "There is ongoing debate about the validity of meditation's benefits",
+      "Meditation has no measurable effects",
+      "Everyone agrees meditation is beneficial"
+    ],
+    "correct_answer": 1
+  },
+  {
+    "_id": "46",
+    "question_number": 46,
+    "practice_set": "2",
+    "category": "English: Rhetorical Synthesis",
+    "difficulty": "Easy",
+    "time_estimate": 82,
+    "passage": "While researching a topic, a student has taken the following notes:\n\n• Sharks are cartilaginous fish, not bony fish\n• They have been around for over 400 million years\n• There are over 500 species of sharks\n• Most sharks are harmless to humans\n• Sharks play a crucial role in marine ecosystems\n• Shark populations are declining due to overfishing",
+    "question_text": "The student wants to correct common misconceptions about sharks. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+    "options": [
+      "Sharks are cartilaginous fish that have existed for over 400 million years.",
+      "Contrary to popular belief, most of the 500+ shark species are harmless to humans and play vital roles in ocean ecosystems.",
+      "Shark populations are declining due to overfishing, threatening marine biodiversity.",
+      "There are over 500 species of sharks living in oceans around the world."
+    ],
+    "correct_answer": 1
+  },
+  {
+    "_id": "47",
+    "question_number": 47,
+    "practice_set": "2",
+    "category": "English: Words in Context",
+    "difficulty": "Medium",
+    "time_estimate": 82,
+    "passage": "The historian's _______ analysis of the documents revealed previously unknown connections between the historical events.",
+    "question_text": "Which choice completes the text with the most logical and precise word or phrase?",
+    "options": [
+      "superficial",
+      "thorough",
+      "hasty",
+      "biased"
+    ],
+    "correct_answer": 1
+  },
+  {
+    "_id": "48",
+    "question_number": 48,
+    "practice_set": "2",
+    "category": "English: Structure and Purpose",
+    "difficulty": "Hard",
+    "time_estimate": 82,
+    "passage": "Artificial intelligence is transforming various industries, from healthcare to transportation. While AI offers tremendous potential for improving efficiency and solving complex problems, it also raises concerns about job displacement and privacy. As society continues to integrate AI technologies, it becomes increasingly important to address these challenges through thoughtful regulation and ethical guidelines.",
+    "question_text": "Which choice best describes the function of the final sentence in the overall structure of the text?",
+    "options": [
+      "It provides specific examples of AI applications",
+      "It presents a solution to the challenges mentioned",
+      "It dismisses the concerns about AI technology",
+      "It explains how AI technology works"
+    ],
+    "correct_answer": 1
+  },
+  {
+    "_id": "49",
+    "question_number": 49,
+    "practice_set": "2",
+    "category": "English: Textual Evidence",
+    "difficulty": "Medium",
+    "time_estimate": 82,
+    "passage": "A psychologist claims that regular physical exercise significantly improves cognitive function in older adults.",
+    "question_text": "Which finding from a research study would best support the psychologist's claim?",
+    "options": [
+      "Older adults who exercised three times per week showed 25% better performance on memory tests than sedentary participants.",
+      "Exercise equipment sales have increased among people over 65.",
+      "Many older adults enjoy group exercise classes for social interaction.",
+      "Physical exercise can help prevent certain age-related health conditions."
+    ],
+    "correct_answer": 0
+  },
+  {
+    "_id": "50",
+    "question_number": 50,
+    "practice_set": "2",
+    "category": "English: Punctuation",
+    "difficulty": "Medium",
+    "time_estimate": 82,
+    "passage": "The research study examined three variables _______ temperature, humidity, and air pressure.",
+    "question_text": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+    "options": [
+      "namely:",
+      "namely;",
+      "namely,",
+      "namely"
+    ],
+    "correct_answer": 0
+  },
+  {
+    "_id": "51",
+    "question_number": 51,
+    "practice_set": "2",
+    "category": "English: Number and Tense",
+    "difficulty": "Easy",
+    "time_estimate": 82,
+    "passage": "The collection of rare books _______ donated to the university library last month.",
+    "question_text": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+    "options": [
+      "were",
+      "was",
+      "are",
+      "have been"
+    ],
+    "correct_answer": 1
+  },
+  {
+    "_id": "52",
+    "question_number": 52,
+    "practice_set": "2",
+    "category": "English: Transitions",
+    "difficulty": "Hard",
+    "time_estimate": 82,
+    "passage": "The initial data suggested that the new treatment was ineffective. _______, further analysis revealed methodological flaws in the original study.",
+    "question_text": "Which choice completes the text with the most logical transition?",
+    "options": [
+      "Therefore",
+      "Similarly",
+      "However",
+      "Consequently"
+    ],
+    "correct_answer": 2
+  },
+  {
+    "_id": "53",
+    "question_number": 53,
+    "practice_set": "2",
+    "category": "English: Sentence Structure and Organization",
+    "difficulty": "Medium",
+    "time_estimate": 82,
+    "passage": "The engineer _______ sustainable building designs, incorporates renewable energy systems and environmentally friendly materials.",
+    "question_text": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+    "options": [
+      "specializing in",
+      ", specializing in",
+      "who specializes in",
+      "specialized in"
+    ],
+    "correct_answer": 2
+  },
+  {
+    "_id": "54",
+    "question_number": 54,
+    "practice_set": "2",
+    "category": "English: Words in Context",
+    "difficulty": "Easy",
+    "time_estimate": 82,
+    "passage": "The team's _______ effort to complete the project ahead of schedule impressed their supervisor.",
+    "question_text": "Which choice completes the text with the most logical and precise word or phrase?",
+    "options": [
+      "halfhearted",
+      "dedicated",
+      "reluctant",
+      "minimal"
+    ],
+    "correct_answer": 1
+  },
+  {
+    "_id": "55",
+    "question_number": 55,
+    "practice_set": "2",
+    "category": "Math: Linear Equations",
+    "difficulty": "Easy",
+    "time_estimate": 82,
+    "passage": "",
+    "question_text": "If 3x - 7 = 14, what is the value of x?",
+    "options": [
+      "5",
+      "6",
+      "7",
+      "8"
+    ],
+    "correct_answer": 2
+  },
+  {
+    "_id": "56",
+    "question_number": 56,
+    "practice_set": "2",
+    "category": "Math: Systems of Equations",
+    "difficulty": "Medium",
+    "time_estimate": 82,
+    "passage": "",
+    "question_text": "If 2x + 3y = 17 and x + y = 6, what is the value of x?",
+    "options": [],
+    "correct_answer": 1,
+    "answer_type": "fill_in_the_blank"
+  },
+  {
+    "_id": "57",
+    "question_number": 57,
+    "practice_set": "2",
+    "category": "Math: Quadratic Functions",
+    "difficulty": "Medium",
+    "time_estimate": 82,
+    "passage": "",
+    "question_text": "What is the vertex of the parabola y = -(x + 1)² + 4?",
+    "options": [
+      "(-1, 4)",
+      "(1, 4)",
+      "(-1, -4)",
+      "(1, -4)"
+    ],
+    "correct_answer": 0
+  },
+  {
+    "_id": "58",
+    "question_number": 58,
+    "practice_set": "2",
+    "category": "Math: Linear Equations",
+    "difficulty": "Hard",
+    "time_estimate": 82,
+    "passage": "",
+    "question_text": "A line passes through the points (1, 3) and (5, 11). What is the slope of this line?",
+    "options": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "correct_answer": 1
+  },
+  {
+    "_id": "59",
+    "question_number": 59,
+    "practice_set": "2",
+    "category": "Math: Percentages",
+    "difficulty": "Easy",
+    "time_estimate": 82,
+    "passage": "",
+    "question_text": "If 30% of a number is 24, what is the number?",
+    "options": [],
+    "correct_answer": 80,
+    "answer_type": "fill_in_the_blank"
+  },
+  {
+    "_id": "60",
+    "question_number": 60,
+    "practice_set": "2",
+    "category": "Math: Functions",
+    "difficulty": "Medium",
+    "time_estimate": 82,
+    "passage": "",
+    "question_text": "If f(x) = 2x² + 3x - 1, what is f(3)?",
+    "options": [
+      "22",
+      "24",
+      "26",
+      "28"
+    ],
+    "correct_answer": 2
+  },
+  {
+    "_id": "61",
+    "question_number": 61,
+    "practice_set": "2",
+    "category": "Math: Geometry",
+    "difficulty": "Easy",
+    "time_estimate": 82,
+    "passage": "",
+    "question_text": "What is the area of a circle with radius 5 units? (Use π ≈ 3.14)",
+    "options": [],
+    "correct_answer": 78.5,
+    "answer_type": "fill_in_the_blank"
+  },
+  {
+    "_id": "62",
+    "question_number": 62,
+    "practice_set": "2",
+    "category": "Math: Statistics",
+    "difficulty": "Medium",
+    "time_estimate": 82,
+    "passage": "",
+    "question_text": "The mean of four numbers is 15. If three of the numbers are 12, 14, and 18, what is the fourth number?",
+    "options": [
+      "14",
+      "16",
+      "18",
+      "20"
+    ],
+    "correct_answer": 1
+  },
+  {
+    "_id": "63",
+    "question_number": 63,
+    "practice_set": "2",
+    "category": "Math: Exponential Functions",
+    "difficulty": "Hard",
+    "time_estimate": 82,
+    "passage": "",
+    "question_text": "If 3^(x-1) = 27, what is the value of x?",
+    "options": [],
+    "correct_answer": 4,
+    "answer_type": "fill_in_the_blank"
+  },
+  {
+    "_id": "64",
+    "question_number": 64,
+    "practice_set": "2",
+    "category": "Math: Word Problems",
+    "difficulty": "Medium",
+    "time_estimate": 82,
+    "passage": "",
+    "question_text": "A train travels 180 miles in 3 hours. At this rate, how many miles will it travel in 5 hours?",
+    "options": [
+      "250",
+      "275",
+      "300",
+      "325"
+    ],
+    "correct_answer": 2
+  },
+  {
+    "_id": "65",
+    "question_number": 65,
+    "practice_set": "2",
+    "category": "Math: Geometry",
+    "difficulty": "Medium",
+    "time_estimate": 82,
+    "passage": "",
+    "question_text": "In a right triangle, if one angle measures 35°, what is the measure of the third angle?",
+    "options": [
+      "45°",
+      "50°",
+      "55°",
+      "60°"
+    ],
+    "correct_answer": 2
+  },
+  {
+    "_id": "66",
+    "question_number": 66,
+    "practice_set": "2",
+    "category": "Math: Absolute Value",
+    "difficulty": "Easy",
+    "time_estimate": 82,
+    "passage": "",
+    "question_text": "What is the value of |−12| + |5|?",
+    "options": [],
+    "correct_answer": 17,
+    "answer_type": "fill_in_the_blank"
+  },
+  {
+    "_id": "67",
+    "question_number": 67,
+    "practice_set": "2",
+    "category": "Math: Sequences",
+    "difficulty": "Medium",
+    "time_estimate": 82,
+    "passage": "",
+    "question_text": "In an arithmetic sequence, the first term is 7 and the common difference is 4. What is the 6th term?",
+    "options": [
+      "25",
+      "27",
+      "29",
+      "31"
+    ],
+    "correct_answer": 1
+  },
+  {
+    "_id": "68",
+    "question_number": 68,
+    "practice_set": "2",
+    "category": "Math: Probability",
+    "difficulty": "Hard",
+    "time_estimate": 82,
+    "passage": "",
+    "question_text": "A jar contains 6 red balls, 4 blue balls, and 2 green balls. If two balls are drawn without replacement, what is the probability that both balls are red? Give answer as a fraction.",
+    "options": [],
+    "correct_answer": "5/22",
+    "answer_type": "fill_in_the_blank"
+  },
+  {
+    "_id": "69",
+    "question_number": 69,
+    "practice_set": "2",
+    "category": "Math: Coordinate Geometry",
+    "difficulty": "Medium",
+    "time_estimate": 82,
+    "passage": "",
+    "question_text": "What is the distance between the points (2, 6) and (8, 14)?",
+    "options": [
+      "8",
+      "10",
+      "12",
+      "14"
+    ],
+    "correct_answer": 1
+  },
+  {
+    "_id": "70",
+    "question_number": 70,
+    "practice_set": "2",
+    "category": "Math: Inequalities",
+    "difficulty": "Easy",
+    "time_estimate": 82,
+    "passage": "",
+    "question_text": "Solve for x: 3x - 4 ≥ 11",
+    "options": [
+      "x ≥ 3",
+      "x ≥ 4",
+      "x ≥ 5",
+      "x ≥ 6"
+    ],
+    "correct_answer": 2
+  },
+  {
+    "_id": "71",
+    "question_number": 71,
+    "practice_set": "2",
+    "category": "Math: Ratios and Proportions",
+    "difficulty": "Medium",
+    "time_estimate": 82,
+    "passage": "",
+    "question_text": "If the ratio of cats to dogs in a shelter is 2:3, and there are 15 dogs, how many cats are there?",
+    "options": [],
+    "correct_answer": 10,
+    "answer_type": "fill_in_the_blank"
+  },
+  {
+    "_id": "72",
+    "question_number": 72,
+    "practice_set": "2",
+    "category": "Math: Quadratic Functions",
+    "difficulty": "Hard",
+    "time_estimate": 82,
+    "passage": "",
+    "question_text": "For which value of c does the equation x² + 8x + c = 0 have exactly one solution?",
+    "options": [
+      "12",
+      "14",
+      "16",
+      "18"
+    ],
+    "correct_answer": 2
+  },
+  {
+    "_id": "73",
+    "question_number": 73,
+    "practice_set": "2",
+    "category": "Math: Geometry",
+    "difficulty": "Hard",
+    "time_estimate": 82,
+    "passage": "",
+    "question_text": "A cone has a radius of 3 units and a height of 8 units. What is its volume? (Use π ≈ 3.14)",
+    "options": [],
+    "correct_answer": 75.36,
+    "answer_type": "fill_in_the_blank"
+  },
+  {
+    "_id": "74",
+    "question_number": 74,
+    "practice_set": "2",
+    "category": "Math: Linear Equations",
+    "difficulty": "Medium",
+    "time_estimate": 82,
+    "passage": "",
+    "question_text": "What is the y-intercept of the line 2x + 3y = 18?",
+    "options": [
+      "(0, 6)",
+      "(0, 8)",
+      "(6, 0)",
+      "(9, 0)"
+    ],
+    "correct_answer": 0
+  },
+  {
+    "_id": "75",
+    "question_number": 75,
+    "practice_set": "2",
+    "category": "Math: Statistics",
+    "difficulty": "Easy",
+    "time_estimate": 82,
+    "passage": "",
+    "question_text": "What is the median of the dataset: 3, 7, 9, 12, 15, 18, 21?",
+    "options": [],
+    "correct_answer": 12,
+    "answer_type": "fill_in_the_blank"
+  },
+  {
+    "_id": "76",
+    "question_number": 76,
+    "practice_set": "2",
+    "category": "Math: Word Problems",
+    "difficulty": "Hard",
+    "time_estimate": 82,
+    "passage": "",
+    "question_text": "A store marks up items by 25% from wholesale cost. If the retail price is $75, what was the wholesale cost?",
+    "options": [
+      "$56.25",
+      "$60.00",
+      "$62.50",
+      "$65.00"
+    ],
+    "correct_answer": 1
+  },
+  {
+    "_id": "77",
+    "question_number": 77,
+    "practice_set": "2",
+    "category": "Math: Functions",
+    "difficulty": "Medium",
+    "time_estimate": 82,
+    "passage": "",
+    "question_text": "If h(x) = 3x - 4, what is h(h(6))?",
+    "options": [
+      "38",
+      "40",
+      "42",
+      "44"
+    ],
+    "correct_answer": 2
+  },
+  {
+    "_id": "78",
+    "question_number": 78,
+    "practice_set": "2",
+    "category": "Math: Geometry",
+    "difficulty": "Easy",
+    "time_estimate": 82,
+    "passage": "",
+    "question_text": "What is the perimeter of a rectangle with length 9 units and width 6 units?",
+    "options": [],
+    "correct_answer": 30,
+    "answer_type": "fill_in_the_blank"
+  },
+  {
+    "_id": "79",
+    "question_number": 79,
+    "practice_set": "2",
+    "category": "Math: Exponential Functions",
+    "difficulty": "Medium",
+    "time_estimate": 82,
+    "passage": "",
+    "question_text": "If a population triples every 4 years, what is the growth factor per year? Round to the nearest hundredth.",
+    "options": [
+      "1.29",
+      "1.31",
+      "1.33",
+      "1.35"
+    ],
+    "correct_answer": 1
+  },
+  {
+    "_id": "80",
+    "question_number": 80,
+    "practice_set": "2",
+    "category": "Math: Systems of Equations",
+    "difficulty": "Hard",
+    "time_estimate": 82,
+    "passage": "",
+    "question_text": "For what value of k does the system of equations have no solution?\n\n3x + 4y = 12\n6x + 8y = k",
+    "options": [],
+    "correct_answer": 25,
+    "answer_type": "fill_in_the_blank"
+  },
+  {
+    "_id": "81",
+    "question_number": 81,
+    "practice_set": "2",
+    "category": "Math: Coordinate Geometry",
+    "difficulty": "Medium",
+    "time_estimate": 82,
+    "passage": "",
+    "question_text": "What is the slope of the line perpendicular to the line y = -2/3x + 5?",
+    "options": [
+      "-3/2",
+      "-2/3",
+      "2/3",
+      "3/2"
+    ],
+    "correct_answer": 3
+  },
+  {
+    "_id": "82",
+    "question_number": 82,
+    "practice_set": "2",
+    "category": "Math: Geometry",
+    "difficulty": "Medium",
+    "time_estimate": 82,
+    "passage": "",
+    "question_text": "In a circle with radius 8 units, what is the area of a sector with a central angle of 90°? (Use π ≈ 3.14)",
+    "options": [],
+    "correct_answer": 50.24,
+    "answer_type": "fill_in_the_blank"
+  },
+  {
+    "_id": "83",
+    "question_number": 83,
+    "practice_set": "2",
+    "category": "Math: Probability",
+    "difficulty": "Easy",
+    "time_estimate": 82,
+    "passage": "",
+    "question_text": "If you flip a fair coin twice, what is the probability of getting at least one head?",
+    "options": [
+      "1/4",
+      "1/2",
+      "3/4",
+      "1"
+    ],
+    "correct_answer": 2
+  },
+  {
+    "_id": "84",
+    "question_number": 84,
+    "practice_set": "2",
+    "category": "Math: Quadratic Functions",
+    "difficulty": "Medium",
+    "time_estimate": 82,
+    "passage": "",
+    "question_text": "What are the solutions to the equation x² - 6x + 8 = 0?",
+    "options": [
+      "x = 2, x = 4",
+      "x = 1, x = 8",
+      "x = -2, x = -4",
+      "x = 3, x = 8"
+    ],
+    "correct_answer": 0
+  },
+  {
+    "_id": "85",
+    "question_number": 85,
+    "practice_set": "2",
+    "category": "Math: Word Problems",
+    "difficulty": "Medium",
+    "time_estimate": 82,
+    "passage": "",
+    "question_text": "A recipe calls for 3/4 cup of sugar to make 18 cookies. How many cups of sugar are needed to make 24 cookies?",
+    "options": [],
+    "correct_answer": 1,
+    "answer_type": "fill_in_the_blank"
+  },
+  {
+    "_id": "86",
+    "question_number": 86,
+    "practice_set": "2",
+    "category": "Math: Statistics",
+    "difficulty": "Hard",
+    "time_estimate": 82,
+    "passage": "",
+    "question_text": "In a normal distribution with mean 75 and standard deviation 8, approximately what percentage of data falls between 67 and 83?",
+    "options": [
+      "50%",
+      "68%",
+      "95%",
+      "99%"
+    ],
+    "correct_answer": 1
+  },
+  {
+    "_id": "87",
+    "question_number": 87,
+    "practice_set": "2",
+    "category": "Math: Geometry",
+    "difficulty": "Hard",
+    "time_estimate": 82,
+    "passage": "",
+    "question_text": "A triangle has sides of length 7, 24, and 25 units. What type of triangle is this?",
+    "options": [
+      "Acute",
+      "Right",
+      "Obtuse",
+      "Isosceles"
+    ],
+    "correct_answer": 1
+  },
+  {
+    "_id": "88",
+    "question_number": 88,
+    "practice_set": "2",
+    "category": "Math: Functions",
+    "difficulty": "Easy",
+    "time_estimate": 82,
+    "passage": "",
+    "question_text": "If k(x) = x - 7, what is k(12)?",
+    "options": [],
+    "correct_answer": 5,
+    "answer_type": "fill_in_the_blank"
+  },
+  {
+    "_id": "89",
+    "question_number": 89,
+    "practice_set": "2",
+    "category": "Math: Linear Equations",
+    "difficulty": "Medium",
+    "time_estimate": 82,
+    "passage": "",
+    "question_text": "What is the x-intercept of the line 5x - 3y = 15?",
+    "options": [
+      "(3, 0)",
+      "(0, 3)",
+      "(5, 0)",
+      "(0, 5)"
+    ],
+    "correct_answer": 0
+  },
+  {
+    "_id": "90",
+    "question_number": 90,
+    "practice_set": "2",
+    "category": "Math: Percentages",
+    "difficulty": "Hard",
+    "time_estimate": 82,
+    "passage": "",
+    "question_text": "A price increases by 20%, then decreases by 15%. What is the overall percentage change? Round to the nearest whole number.",
+    "options": [],
+    "correct_answer": 2,
+    "answer_type": "fill_in_the_blank"
+  },
+  {
+    "_id": "91",
+    "question_number": 91,
+    "practice_set": "2",
+    "category": "Math: Coordinate Geometry",
+    "difficulty": "Hard",
+    "time_estimate": 82,
+    "passage": "",
+    "question_text": "What is the equation of the circle with center (-1, 2) and radius 4?",
+    "options": [
+      "(x + 1)² + (y - 2)² = 4",
+      "(x - 1)² + (y + 2)² = 16",
+      "(x + 1)² + (y - 2)² = 16",
+      "(x - 1)² + (y + 2)² = 4"
+    ],
+    "correct_answer": 2
+  },
+  {
+    "_id": "92",
+    "question_number": 92,
+    "practice_set": "2",
+    "category": "Math: Geometry",
+    "difficulty": "Medium",
+    "time_estimate": 82,
+    "passage": "",
+    "question_text": "What is the volume of a cube with edge length 5 units?",
+    "options": [],
+    "correct_answer": 125,
+    "answer_type": "fill_in_the_blank"
+  },
+  {
+    "_id": "93",
+    "question_number": 93,
+    "practice_set": "2",
+    "category": "Math: Inequalities",
+    "difficulty": "Medium",
+    "time_estimate": 82,
+    "passage": "",
+    "question_text": "Solve the compound inequality: -1 ≤ 2x + 3 ≤ 9",
+    "options": [
+      "-2 ≤ x ≤ 3",
+      "-1 ≤ x ≤ 3",
+      "-2 ≤ x ≤ 6",
+      "1 ≤ x ≤ 3"
+    ],
+    "correct_answer": 0
+  },
+  {
+    "_id": "94",
+    "question_number": 94,
+    "practice_set": "2",
+    "category": "Math: Sequences",
+    "difficulty": "Hard",
+    "time_estimate": 82,
+    "passage": "",
+    "question_text": "In a geometric sequence, the first term is 3 and the common ratio is 2. What is the sum of the first 5 terms?",
+    "options": [],
+    "correct_answer": 93,
+    "answer_type": "fill_in_the_blank"
+  },
+  {
+    "_id": "95",
+    "question_number": 95,
+    "practice_set": "2",
+    "category": "Math: Word Problems",
+    "difficulty": "Easy",
+    "time_estimate": 82,
+    "passage": "",
+    "question_text": "If 5 notebooks cost $12.50, how much do 8 notebooks cost?",
+    "options": [
+      "$18.00",
+      "$19.00",
+      "$20.00",
+      "$21.00"
+    ],
+    "correct_answer": 2
+  },
+  {
+    "_id": "96",
+    "question_number": 96,
+    "practice_set": "2",
+    "category": "Math: Functions",
+    "difficulty": "Hard",
+    "time_estimate": 82,
+    "passage": "",
+    "question_text": "If f(x) = x² - 3x + 2 and g(x) = 2x + 1, what is f(g(1))?",
+    "options": [
+      "2",
+      "3",
+      "5",
+      "6"
+    ],
+    "correct_answer": 0
+  },
+  {
+    "_id": "97",
+    "question_number": 97,
+    "practice_set": "2",
+    "category": "Math: Absolute Value",
+    "difficulty": "Medium",
+    "time_estimate": 82,
+    "passage": "",
+    "question_text": "Solve for x: |3x - 9| = 12",
+    "options": [],
+    "correct_answer": "x = 7 or x = -1",
+    "answer_type": "fill_in_the_blank"
+  },
+  {
+    "_id": "98",
+    "question_number": 98,
+    "practice_set": "2",
+    "category": "Math: Coordinate Geometry",
+    "difficulty": "Easy",
+    "time_estimate": 82,
+    "passage": "",
+    "question_text": "What is the midpoint of the line segment connecting (2, 5) and (8, 11)?",
+    "options": [
+      "(4, 7)",
+      "(5, 8)",
+      "(6, 9)",
+      "(10, 16)"
+    ],
+    "correct_answer": 1
+  }
+]

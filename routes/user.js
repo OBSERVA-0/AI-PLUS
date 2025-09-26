@@ -334,7 +334,7 @@ router.get('/stats', auth, async (req, res) => {
 // @access  Private
 router.post('/update-stats', auth, async (req, res) => {
   try {
-    const { testType, score, timeSpent, categoryScores, shsatScores, satScores } = req.body;
+    const { testType, score, timeSpent, categoryScores, shsatScores, satScores, psatScores } = req.body;
     
     // Get user
     const user = await User.findById(req.user._id);
@@ -349,6 +349,7 @@ router.post('/update-stats', auth, async (req, res) => {
     const testTypeMap = {
       'shsat': 'shsat',
       'sat': 'sat',
+      'psat': 'psat',
       'state': 'stateTest',
       'stateTest': 'stateTest', // Allow both formats
       'statetest': 'stateTest'  // Allow lowercase format from frontend
@@ -447,6 +448,40 @@ router.post('/update-stats', auth, async (req, res) => {
         // Add reading/writing score if available
         if (satScores.reading_writing && satScores.reading_writing.scaledScore !== undefined) {
           testProgress.bestScaledScore.reading_writing = satScores.reading_writing.scaledScore;
+        }
+      }
+    }
+
+    // Update PSAT scaled scores if provided
+    if (testType === 'psat' && psatScores) {
+      testProgress.latestScaledScore = {
+        total: psatScores.totalScaledScore
+      };
+      
+      // Add math score if available
+      if (psatScores.math && psatScores.math.scaledScore !== undefined) {
+        testProgress.latestScaledScore.math = psatScores.math.scaledScore;
+      }
+      
+      // Add reading/writing score if available
+      if (psatScores.reading_writing && psatScores.reading_writing.scaledScore !== undefined) {
+        testProgress.latestScaledScore.reading_writing = psatScores.reading_writing.scaledScore;
+      }
+      
+      // Update best score if the new score is higher
+      if (psatScores.totalScaledScore > (testProgress.bestScaledScore.total || 0)) {
+        testProgress.bestScaledScore = {
+          total: psatScores.totalScaledScore
+        };
+        
+        // Add math score if available
+        if (psatScores.math && psatScores.math.scaledScore !== undefined) {
+          testProgress.bestScaledScore.math = psatScores.math.scaledScore;
+        }
+        
+        // Add reading/writing score if available
+        if (psatScores.reading_writing && psatScores.reading_writing.scaledScore !== undefined) {
+          testProgress.bestScaledScore.reading_writing = psatScores.reading_writing.scaledScore;
         }
       }
     }
