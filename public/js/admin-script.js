@@ -696,6 +696,29 @@ function handleTestTypeChange() {
             <option value="4">Practice Test 4</option>
         `;
         practiceSetSelect.disabled = false;
+    } else if (testType === 'statetest') {
+        // Add State Test practice sets
+        practiceSetSelect.innerHTML += `
+            <option value="1">Practice Test 1</option>
+            <option value="2">Practice Test 2</option>
+            <option value="3">Practice Test 3</option>
+            <option value="4">Practice Test 4</option>
+            <option value="5">Practice Test 5</option>
+            <option value="6">Practice Test 6</option>
+            <option value="7">Practice Test 7</option>
+            <option value="8">Practice Test 8</option>
+            <option value="9">Practice Test 9</option>
+            <option value="10">Practice Test 10</option>
+            <option value="11">Practice Test 11</option>
+            <option value="12">Practice Test 12</option>
+            <option value="13">Practice Test 13</option>
+            <option value="14">Practice Test 14</option>
+            <option value="15">Practice Test 15</option>
+            <option value="16">Practice Test 16</option>
+            <option value="17">Practice Test 17</option>
+            <option value="18">Practice Test 18</option>
+        `;
+        practiceSetSelect.disabled = false;
     }
 }
 

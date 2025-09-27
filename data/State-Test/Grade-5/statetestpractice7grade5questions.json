@@ -1,0 +1,618 @@
+[
+    {
+        "_id": "1",
+        "question_number": 1,
+        "practice_set": 58,
+        "category": "Math: Decimals",
+        "difficulty": "easy",
+        "time_estimate": 60,
+        "passage": "pdfData:pdf/2016-released-items-math-g5.pdf",
+        "question_text": "Pax wants to make fruit punch for a party using the recipe below.\n\nFruit Punch\n- 1.25 L orange juice\n- 2.5 L cranberry juice\n- 1 L ginger ale\n\nHe will make three times the amount of fruit punch listed in the recipe. What is the total amount of fruit punch, in liters, that Pax will make?",
+        "options": [
+            "4.53",
+            "4.75",
+            "12.90",
+            "14.25"
+        ],
+        "correct_answer": 3,
+        "answer_type": "multiple_choice"
+    },
+    {
+        "_id": "2",
+        "question_number": 2,
+        "practice_set": 58,
+        "category": "Math: Fractions",
+        "difficulty": "easy",
+        "time_estimate": 75,
+        "passage": "pdfData:pdf/2016-released-items-math-g5.pdf",
+        "question_text": "What is the value of the expression below?\n\n$3\\frac{1}{4} - 1\\frac{7}{8}$",
+        "options": [
+            "$1\\frac{1}{4}$",
+            "$1\\frac{3}{8}$",
+            "$2\\frac{3}{8}$",
+            "$3\\frac{1}{2}$"
+        ],
+        "correct_answer": 1,
+        "answer_type": "multiple_choice"
+    },
+    {
+        "_id": "3",
+        "question_number": 3,
+        "practice_set": 58,
+        "category": "Math: Division",
+        "difficulty": "easy",
+        "time_estimate": 45,
+        "passage": "pdfData:pdf/2016-released-items-math-g5.pdf",
+        "question_text": "What is the value of the expression $3,972 \\div 12$?",
+        "options": [
+            "372",
+            "336",
+            "331",
+            "306"
+        ],
+        "correct_answer": 2,
+        "answer_type": "multiple_choice"
+    },
+    {
+        "_id": "4",
+        "question_number": 4,
+        "practice_set": 58,
+        "category": "Math: Fractions",
+        "difficulty": "medium",
+        "time_estimate": 90,
+        "passage": "pdfData:pdf/2016-released-items-math-g5.pdf",
+        "question_text": "The sign below is located at the start of Pinecone Trail and shows the distances from the sign to different points of interest along the trail.\n\n\n\nSage hiked from the start of the trail to Lookout Point. She then hiked back to Giant Boulder to camp for the night. What was the total distance, in miles, that Sage hiked?",
+        "options": [
+            "$21\\frac{3}{4}$",
+            "$13\\frac{1}{4}$",
+            "$4\\frac{1}{2}$",
+            "$4\\frac{1}{4}$"
+        ],
+        "correct_answer": 1,
+        "answer_type": "multiple_choice"
+    },
+    {
+        "_id": "5",
+        "question_number": 5,
+        "practice_set": 58,
+        "category": "Math: Geometry",
+        "difficulty": "easy",
+        "time_estimate": 30,
+        "passage": "pdfData:pdf/2016-released-items-math-g5.pdf",
+        "question_text": "Which type of quadrilateral can have exactly 1 pair of parallel sides?",
+        "options": [
+            "rectangle",
+            "rhombus",
+            "square",
+            "trapezoid"
+        ],
+        "correct_answer": 3,
+        "answer_type": "multiple_choice"
+    },
+    {
+        "_id": "9",
+        "question_number": 9,
+        "practice_set": 58,
+        "category": "Math: Fractions",
+        "difficulty": "easy",
+        "time_estimate": 45,
+        "passage": "pdfData:pdf/2016-released-items-math-g5.pdf",
+        "question_text": "What is the value of the expression below?\n\n$56 \\div \\frac{1}{17}$",
+        "options": [
+            "$\\frac{1}{952}$",
+            "$\\frac{17}{56}$",
+            "$3\\frac{5}{17}$",
+            "952"
+        ],
+        "correct_answer": 3,
+        "answer_type": "multiple_choice"
+    },
+    {
+        "_id": "10",
+        "question_number": 10,
+        "practice_set": 58,
+        "category": "Math: Volume",
+        "difficulty": "medium",
+        "time_estimate": 75,
+        "passage": "pdfData:pdf/2016-released-items-math-g5.pdf",
+        "question_text": "In her math class, Carla used unit cubes to build a right rectangular prism with a volume of 24 cubic units. The height of the prism was two units. Which figure could be the bottom layer of the prism?",
+        "options": [
+            "",
+            "",
+            "",
+            ""
+        ],
+        "correct_answer": 1,
+        "answer_type": "multiple_choice"
+    },
+    {
+        "_id": "13",
+        "question_number": 13,
+        "practice_set": 58,
+        "category": "Math: Expressions",
+        "difficulty": "medium",
+        "time_estimate": 60,
+        "passage": "pdfData:pdf/2016-released-items-math-g5.pdf",
+        "question_text": "Bettina spent $75 on 5 shirts that each cost the same price. Three of the shirts were red. Which expression represents the total cost of the red shirts?",
+        "options": [
+            "$75 \\times \\frac{3}{5}$",
+            "$75 \\times \\frac{5}{3}$",
+            "$\\frac{75}{5} \\times \\frac{1}{3}$",
+            "$\\frac{75}{3} \\times \\frac{1}{5}$"
+        ],
+        "correct_answer": 0,
+        "answer_type": "multiple_choice"
+    },
+    {
+        "_id": "14",
+        "question_number": 14,
+        "practice_set": 58,
+        "category": "Math: Volume",
+        "difficulty": "easy",
+        "time_estimate": 60,
+        "passage": "pdfData:pdf/2016-released-items-math-g5.pdf",
+        "question_text": "The two right rectangular prisms below have different volumes.  What is the difference in volume, in cubic feet, of the two prisms?",
+        "options": [
+            "1",
+            "3",
+            "6",
+            "9"
+        ],
+        "correct_answer": 3,
+        "answer_type": "multiple_choice"
+    },
+    {
+        "_id": "15",
+        "question_number": 15,
+        "practice_set": 58,
+        "category": "Math: Data Analysis",
+        "difficulty": "medium",
+        "time_estimate": 75,
+        "passage": "pdfData:pdf/2016-released-items-math-g5.pdf",
+        "question_text": "The line plot shows the weights of ten eggs laid by one hen.  What is the total weight, in ounces, of the four heaviest eggs?",
+        "options": [
+            "4",
+            "7",
+            "$8\\frac{1}{2}$",
+            "$8\\frac{3}{4}$"
+        ],
+        "correct_answer": 3,
+        "answer_type": "multiple_choice"
+    },
+    {
+        "_id": "16",
+        "question_number": 16,
+        "practice_set": 58,
+        "category": "Math: Measurement & Conversion",
+        "difficulty": "easy",
+        "time_estimate": 60,
+        "passage": "pdfData:pdf/2016-released-items-math-g5.pdf",
+        "question_text": "The table below lists the capacity, in quarts, of four different fish tanks at a pet store. [Table of fish tank capacities] Which fish tank has a capacity of 60 gallons? (1 gallon = 4 quarts)",
+        "options": [
+            "Pacific",
+            "Fresh",
+            "Tropic",
+            "Bahama"
+        ],
+        "correct_answer": 0,
+        "answer_type": "multiple_choice"
+    },
+    {
+        "_id": "17",
+        "question_number": 17,
+        "practice_set": 58,
+        "category": "Math: Decimals",
+        "difficulty": "easy",
+        "time_estimate": 30,
+        "passage": "pdfData:pdf/2016-released-items-math-g5.pdf",
+        "question_text": "Which number sentence is true?",
+        "options": [
+            "$0.35 > 0.36$",
+            "$0.3 < 0.04$",
+            "$0.3 > 0.20$",
+            "$0.75 < 0.7$"
+        ],
+        "correct_answer": 2,
+        "answer_type": "multiple_choice"
+    },
+    {
+        "_id": "18",
+        "question_number": 18,
+        "practice_set": 58,
+        "category": "Math: Division",
+        "difficulty": "easy",
+        "time_estimate": 45,
+        "passage": "pdfData:pdf/2016-released-items-math-g5.pdf",
+        "question_text": "Mr. Hinckley owns 83 acres of land. He divides the land into eight equal sections to sell to eight buyers. Which phrase describes how much land, in acres, each buyer will receive?",
+        "options": [
+            "more than 9 and less than 10",
+            "more than 10 and less than 11",
+            "more than 11 and less than 12",
+            "more than 12 and less than 13"
+        ],
+        "correct_answer": 1,
+        "answer_type": "multiple_choice"
+    },
+    {
+        "_id": "23",
+        "question_number": 23,
+        "practice_set": 58,
+        "category": "Math: Order of Operations",
+        "difficulty": "easy",
+        "time_estimate": 60,
+        "passage": "pdfData:pdf/2016-released-items-math-g5.pdf",
+        "question_text": "What is the value of the expression below?\n\n$8+24\\div(2\\times6)-4$",
+        "options": [
+            "92",
+            "76",
+            "11",
+            "6"
+        ],
+        "correct_answer": 3,
+        "answer_type": "multiple_choice"
+    },
+    {
+        "_id": "24",
+        "question_number": 24,
+        "practice_set": 58,
+        "category": "Math: Geometry",
+        "difficulty": "easy",
+        "time_estimate": 30,
+        "passage": "pdfData:pdf/2016-released-items-math-g5.pdf",
+        "question_text": "Parallelograms always belong to which category of shapes?",
+        "options": [
+            "squares",
+            "rectangles",
+            "rhombuses",
+            "quadrilaterals"
+        ],
+        "correct_answer": 3,
+        "answer_type": "multiple_choice"
+    },
+    {
+        "_id": "25",
+        "question_number": 25,
+        "practice_set": 58,
+        "category": "Math: Number Line",
+        "difficulty": "easy",
+        "time_estimate": 45,
+        "passage": "pdfData:pdf/2016-released-items-math-g5.pdf",
+        "question_text": "Which decimal best represents the location of point X on the number line below? ",
+        "options": [
+            "0.076",
+            "0.077",
+            "0.76",
+            "0.77"
+        ],
+        "correct_answer": 3,
+        "answer_type": "multiple_choice"
+    },
+    {
+        "_id": "26",
+        "question_number": 26,
+        "practice_set": 58,
+        "category": "Math: Division",
+        "difficulty": "easy",
+        "time_estimate": 45,
+        "passage": "pdfData:pdf/2016-released-items-math-g5.pdf",
+        "question_text": "What is $1,748 \\div 38$?",
+        "options": [
+            "41",
+            "43",
+            "46",
+            "48"
+        ],
+        "correct_answer": 2,
+        "answer_type": "multiple_choice"
+    },
+    {
+        "_id": "27",
+        "question_number": 27,
+        "practice_set": 58,
+        "category": "Math: Expressions",
+        "difficulty": "easy",
+        "time_estimate": 60,
+        "passage": "pdfData:pdf/2016-released-items-math-g5.pdf",
+        "question_text": "The table shows the number of computers donated to a school by each of 4 companies. [Table of computer donations] All the donated computers were shared equally by 5 classrooms. Which expression represents the number of computers each classroom received?",
+        "options": [
+            "$120 \\times \\frac{5}{4}$",
+            "$120 \\times \\frac{1}{4}$",
+            "$120 \\times \\frac{4}{5}$",
+            "$120 \\times \\frac{1}{5}$"
+        ],
+        "correct_answer": 3,
+        "answer_type": "multiple_choice"
+    },
+    {
+        "_id": "28",
+        "question_number": 28,
+        "practice_set": 58,
+        "category": "Math: Place Value",
+        "difficulty": "easy",
+        "time_estimate": 45,
+        "passage": "pdfData:pdf/2016-released-items-math-g5.pdf",
+        "question_text": "Which expression is equivalent to 83,120 in expanded form using powers of 10?",
+        "options": [
+            "$(8\\times10^{5})+(3\\times10^{4})+(1\\times10^{3})+(2\\times10^{2})$",
+            "$(8\\times10^{4})+(3\\times10^{3})+(1\\times10^{3})+(2\\times10^{2})$",
+            "$(8\\times10^{4})+(3\\times10^{3})+(1\\times10^{2})+(2\\times10^{1})$",
+            "$(8\\times10^{1})+(3\\times10^{1})+(1\\times10^{1})+(2\\times10^{1})$"
+        ],
+        "correct_answer": 2,
+        "answer_type": "multiple_choice"
+    },
+    {
+        "_id": "29",
+        "question_number": 29,
+        "practice_set": 58,
+        "category": "Math: Measurement & Conversion",
+        "difficulty": "easy",
+        "time_estimate": 30,
+        "passage": "pdfData:pdf/2016-released-items-math-g5.pdf",
+        "question_text": "Which measurement is equivalent to 3 meters?",
+        "options": [
+            "9 centimeters",
+            "36 centimeters",
+            "100 centimeters",
+            "300 centimeters"
+        ],
+        "correct_answer": 3,
+        "answer_type": "multiple_choice"
+    },
+    {
+        "_id": "30",
+        "question_number": 30,
+        "practice_set": 58,
+        "category": "Math: Fractions",
+        "difficulty": "easy",
+        "time_estimate": 60,
+        "passage": "pdfData:pdf/2016-released-items-math-g5.pdf",
+        "question_text": "Mr. Davis is creating a spice mixture for a recipe.\n- $\\frac{2}{5}$ of the spice mixture was oregano\n- $\\frac{1}{3}$ of the spice mixture was basil\nThe remaining spice mixture was chili powder. What fraction of the total amount of spice mixture was oregano and basil?",
+        "options": [
+            "$\\frac{4}{15}$",
+            "$\\frac{3}{8}$",
+            "$\\frac{5}{8}$",
+            "$\\frac{11}{15}$"
+        ],
+        "correct_answer": 3,
+        "answer_type": "multiple_choice"
+    },
+    {
+        "_id": "40",
+        "question_number": 40,
+        "practice_set": 58,
+        "category": "Math: Area Model",
+        "difficulty": "medium",
+        "time_estimate": 75,
+        "passage": "pdfData:pdf/2016-released-items-math-g5.pdf",
+        "question_text": "Which model shows one way to determine the area of a rectangle that is $\\frac{7}{10}$ meter long and $\\frac{3}{5}$ meter wide?",
+        "options": [
+            "",
+            "",
+            "",
+            ""
+        ],
+        "correct_answer": 1,
+        "answer_type": "multiple_choice"
+    },
+    {
+        "_id": "41",
+        "question_number": 41,
+        "practice_set": 58,
+        "category": "Math: Volume",
+        "difficulty": "easy",
+        "time_estimate": 60,
+        "passage": "pdfData:pdf/2016-released-items-math-g5.pdf",
+        "question_text": "A swimming pool is shaped like a right rectangular prism. The pool is 36 feet long and 20 feet wide. What is the total amount of water, in cubic feet, needed to fill the pool to a depth of 4 feet?",
+        "options": [
+            "800",
+            "864",
+            "2,880",
+            "5,760"
+        ],
+        "correct_answer": 2,
+        "answer_type": "multiple_choice"
+    },
+    {
+        "_id": "42",
+        "question_number": 42,
+        "practice_set": 58,
+        "category": "Math: Fractions",
+        "difficulty": "easy",
+        "time_estimate": 60,
+        "passage": "pdfData:pdf/2016-released-items-math-g5.pdf",
+        "question_text": "Kim's class voted on a location for a field trip.\n- $\\frac{3}{4}$ of the class voted for the museum\n- $\\frac{1}{8}$ of the class voted for the zoo\nThe rest of the class voted for the nature park. What fraction of the class voted for the nature park?",
+        "options": [
+            "$\\frac{1}{8}$",
+            "$\\frac{1}{2}$",
+            "$\\frac{5}{8}$",
+            "$\\frac{7}{8}$"
+        ],
+        "correct_answer": 0,
+        "answer_type": "multiple_choice"
+    },
+    {
+        "_id": "43",
+        "question_number": 43,
+        "practice_set": 58,
+        "category": "Math: Data Analysis",
+        "difficulty": "medium",
+        "time_estimate": 75,
+        "passage": "pdfData:pdf/2016-released-items-math-g5.pdf",
+        "question_text": "Jen determined the masses of 7 rocks. She recorded the mass of each rock on the line plot below.  What is the total mass, in kilograms, of the 7 rocks?",
+        "options": [
+            "$1\\frac{5}{8}$",
+            "$1\\frac{1}{2}$",
+            "$3\\frac{1}{4}$",
+            "$3\\frac{1}{2}$"
+        ],
+        "correct_answer": 3,
+        "answer_type": "multiple_choice"
+    },
+    {
+        "_id": "44",
+        "question_number": 44,
+        "practice_set": 58,
+        "category": "Math: Fractions",
+        "difficulty": "hard",
+        "time_estimate": 120,
+        "passage": "pdfData:pdf/2016-released-items-math-g5.pdf",
+        "question_text": "To feed his plants, Logan creates a mixture that requires $\\frac{3}{8}$ cup of plant food for every gallon of water. If he uses $10\\frac{1}{2}$ gallons of water, what is the total amount of plant food he needs?",
+        "options": [
+            "$3\\frac{15}{16}$ cups",
+            "$6\\frac{3}{10}$ cups",
+            "$10\\frac{3}{16}$ cups",
+            "$10\\frac{7}{8}$ cups"
+        ],
+        "correct_answer": 0,
+        "answer_type": "multiple_choice"
+    },
+    {
+        "_id": "45",
+        "question_number": 45,
+        "practice_set": 58,
+        "category": "Math: Order of Operations",
+        "difficulty": "easy",
+        "time_estimate": 60,
+        "passage": "pdfData:pdf/2016-released-items-math-g5.pdf",
+        "question_text": "Which expression is equivalent to $4+[4\\times(5-2)]\\div2$?",
+        "options": [
+            "$4+12\\div2$",
+            "$4+18\\div2$",
+            "$8\\times3\\div2$",
+            "$8\\times5-1$"
+        ],
+        "correct_answer": 0,
+        "answer_type": "multiple_choice"
+    },
+    {
+        "_id": "46",
+        "question_number": 46,
+        "practice_set": 58,
+        "category": "Math: Decimals",
+        "difficulty": "medium",
+        "time_estimate": 120,
+        "passage": "pdfData:pdf/2016-released-items-math-g5.pdf",
+        "question_text": "Rearrange the numbers below so that they are listed in numerical order from least to greatest.\n34.039  32.94  34.198  32.102  33.6\n\nThe number 33.01 is added to the list so that the new list is still in numerical order. Between which two numbers should 33.01 be placed?",
+        "options": [],
+        "correct_answer": null,
+        "answer_type": "short_response"
+    },
+    {
+        "_id": "47",
+        "question_number": 47,
+        "practice_set": 58,
+        "category": "Math: Volume",
+        "difficulty": "medium",
+        "time_estimate": 120,
+        "passage": "pdfData:pdf/2016-released-items-math-g5.pdf",
+        "question_text": "A toy company uses the box shown below to package wooden cubes.  Each wooden cube has a volume of $\\frac{1}{8}$ cubic foot. In total, how many wooden cubes will fit in the box?",
+        "options": [],
+        "correct_answer": null,
+        "answer_type": "short_response"
+    },
+    {
+        "_id": "48",
+        "question_number": 48,
+        "practice_set": 58,
+        "category": "Math: Division",
+        "difficulty": "easy",
+        "time_estimate": 90,
+        "passage": "pdfData:pdf/2016-released-items-math-g5.pdf",
+        "question_text": "A library had 6,422 music CDs stored on 26 shelves. If the same number of CDs were stored on each shelf, how many CDs were stored on each shelf?",
+        "options": [],
+        "correct_answer": null,
+        "answer_type": "short_response"
+    },
+    {
+        "_id": "49",
+        "question_number": 49,
+        "practice_set": 58,
+        "category": "Math: Number Theory",
+        "difficulty": "hard",
+        "time_estimate": 120,
+        "passage": "pdfData:pdf/2016-released-items-math-g5.pdf",
+        "question_text": "Describe the relationship between n and 4 that will make the value of the expression $7\\times\\frac{n}{4}$ greater than 7.\n\nDescribe the relationship between a and b that will make the value of the expression $7\\times\\frac{a}{b}$ equal to 7.",
+        "options": [],
+        "correct_answer": null,
+        "answer_type": "short_response"
+    },
+    {
+        "_id": "50",
+        "question_number": 50,
+        "practice_set": 58,
+        "category": "Math: Word Problems",
+        "difficulty": "medium",
+        "time_estimate": 150,
+        "passage": "pdfData:pdf/2016-released-items-math-g5.pdf",
+        "question_text": "Rosalva and Jake walked a certain distance each day. They recorded the distances in the table shown below. [Table of distances walked] What is the difference, in meters, between Rosalva's and Jake's total distances walked over the four days?",
+        "options": [],
+        "correct_answer": null,
+        "answer_type": "short_response"
+    },
+    {
+        "_id": "51",
+        "question_number": 51,
+        "practice_set": 58,
+        "category": "Math: Expressions",
+        "difficulty": "hard",
+        "time_estimate": 120,
+        "passage": "pdfData:pdf/2016-released-items-math-g5.pdf",
+        "question_text": "Antoine wrote the expressions shown below.\n- Expression A: $4 \\times [(1.5+100.25) \\times 3.65]$\n- Expression B: $[  ] \\times [(1.5+100.25) \\times 3.65]$\nThe value of Expression B is eight times the value of Expression A. Without evaluating Expression A, determine what number belongs in the box in Expression B. Explain how you determined this number.",
+        "options": [],
+        "correct_answer": null,
+        "answer_type": "short_response"
+    },
+    {
+        "_id": "52",
+        "question_number": 52,
+        "practice_set": 58,
+        "category": "Math: Fractions",
+        "difficulty": "medium",
+        "time_estimate": 150,
+        "passage": "pdfData:pdf/2016-released-items-math-g5.pdf",
+        "question_text": "In Andy's collection of movie DVDs, $\\frac{3}{5}$ of the DVDs are \"Action,\" and $\\frac{1}{4}$ of the DVDs are \"Comedy.\" Andy said that $\\frac{4}{9}$ of his collection is \"Action\" or \"Comedy.\" Cynthia said that Andy made an error. Explain whether Andy is correct or incorrect and why.\n\nWhat fraction of the DVDs in Andy's collection is not \"Action\" or \"Comedy?\"",
+        "options": [],
+        "correct_answer": null,
+        "answer_type": "short_response"
+    },
+    {
+        "_id": "53",
+        "question_number": 53,
+        "practice_set": 58,
+        "category": "Math: Word Problems",
+        "difficulty": "hard",
+        "time_estimate": 180,
+        "passage": "pdfData:pdf/2016-released-items-math-g5.pdf",
+        "question_text": "Molly bought 12.5 yards of fabric for $4.50 a yard to make dog beds. She uses 2.5 yards of fabric for each dog bed. She sells each dog bed for $17.50. After subtracting the cost of the fabric, how much money does Molly earn if she sells all of the dog beds?",
+        "options": [],
+        "correct_answer": null,
+        "answer_type": "short_response"
+    },
+    {
+        "_id": "54",
+        "question_number": 54,
+        "practice_set": 58,
+        "category": "Math: Fractions",
+        "difficulty": "hard",
+        "time_estimate": 180,
+        "passage": "pdfData:pdf/2016-released-items-math-g5.pdf",
+        "question_text": "In a race that consisted of three parts, the cycling part was $12\\frac{1}{2}$ miles long. The running part of the race was $\\frac{1}{4}$ the distance of the cycling part. The kayaking part of the race was $\\frac{1}{2}$ the distance of the running part. What was the entire distance, in miles, of the race?",
+        "options": [],
+        "correct_answer": null,
+        "answer_type": "short_response"
+    },
+    {
+        "_id": "55",
+        "question_number": 55,
+        "practice_set": 58,
+        "category": "Math: Volume",
+        "difficulty": "hard",
+        "time_estimate": 180,
+        "passage": "pdfData:pdf/2016-released-items-math-g5.pdf",
+        "question_text": "A company puts bottles of lotion into boxes that are three-inch cubes. The boxes were then packed into a shipping crate, shown below.  How many boxes of lotion were packed into the shipping crate to fill it completely?",
+        "options": [],
+        "correct_answer": null,
+        "answer_type": "short_response"
+    }
+]
