@@ -693,6 +693,7 @@ function handleTestTypeChange() {
             <option value="1">Practice Test 1</option>
             <option value="2">Practice Test 2</option>
             <option value="3">Practice Test 3</option>
+            <option value="4">Practice Test 4</option>
         `;
         practiceSetSelect.disabled = false;
     }

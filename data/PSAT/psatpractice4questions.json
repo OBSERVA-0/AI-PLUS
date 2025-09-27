@@ -1,0 +1,1596 @@
+[
+  {
+    "_id": "1",
+    "question_number": 1,
+    "practice_set": "4",
+    "category": "English: Words in Context",
+    "difficulty": "Medium",
+    "time_estimate": 82,
+    "passage": "The researcher's work was considered _______ by her colleagues, as it challenged longstanding assumptions in the field.",
+    "question_text": "Which choice completes the text with the most logical and precise word or phrase?",
+    "options": [
+      "conformist",
+      "iconoclastic",
+      "traditional",
+      "mainstream"
+    ],
+    "correct_answer": 1
+  },
+  {
+    "_id": "2",
+    "question_number": 2,
+    "practice_set": "4",
+    "category": "English: Words in Context",
+    "difficulty": "Hard",
+    "time_estimate": 82,
+    "passage": "The ambassador's _______ diplomacy helped prevent the conflict from escalating, demonstrating the power of quiet, behind-the-scenes negotiation.",
+    "question_text": "Which choice completes the text with the most logical and precise word or phrase?",
+    "options": [
+      "ostentatious",
+      "truculent",
+      "surreptitious",
+      "perfunctory"
+    ],
+    "correct_answer": 2
+  },
+  {
+    "_id": "3",
+    "question_number": 3,
+    "practice_set": "4",
+    "category": "English: Central Ideas and Details",
+    "difficulty": "Medium",
+    "time_estimate": 82,
+    "passage": "Permaculture is a design philosophy that creates sustainable agricultural systems by mimicking patterns found in natural ecosystems. This approach emphasizes working with natural processes rather than against them, reducing the need for external inputs while maintaining soil health and biodiversity.",
+    "question_text": "According to the text, what distinguishes permaculture from conventional agriculture?",
+    "options": [
+      "It produces higher yields with fewer workers",
+      "It focuses solely on organic certification",
+      "It works with natural processes to reduce external inputs",
+      "It eliminates the need for any human intervention"
+    ],
+    "correct_answer": 2
+  },
+  {
+    "_id": "4",
+    "question_number": 4,
+    "practice_set": "4",
+    "category": "English: Structure and Purpose",
+    "difficulty": "Hard",
+    "time_estimate": 82,
+    "passage": "Carbon capture technology offers a promising solution for reducing atmospheric CO2 levels by capturing emissions from industrial sources and storing them underground. However, critics argue that this technology may serve as a justification for continued fossil fuel use rather than incentivizing the transition to renewable energy. The ultimate effectiveness of carbon capture will depend not only on technological advances but also on how it fits within broader climate policy frameworks.",
+    "question_text": "Which choice best describes the function of the final sentence?",
+    "options": [
+      "It dismisses the concerns raised by critics",
+      "It provides technical details about how carbon capture works",
+      "It suggests that success depends on both technology and policy integration",
+      "It argues for immediate implementation regardless of costs"
+    ],
+    "correct_answer": 2
+  },
+  {
+    "_id": "5",
+    "question_number": 5,
+    "practice_set": "4",
+    "category": "English: Textual Evidence",
+    "difficulty": "Medium",
+    "time_estimate": 82,
+    "passage": "A linguistics professor claims that bilingual education enhances cognitive flexibility in children.",
+    "question_text": "Which finding from a research study would best support the professor's claim?",
+    "options": [
+      "Bilingual students showed 25% better performance on problem-solving tasks requiring mental flexibility than monolingual peers.",
+      "Many schools have increased funding for bilingual education programs.",
+      "Parents in diverse communities value bilingual education opportunities.",
+      "Bilingual education requires specially trained teachers and additional resources."
+    ],
+    "correct_answer": 0
+  },
+  {
+    "_id": "6",
+    "question_number": 6,
+    "practice_set": "4",
+    "category": "English: Quantitative Evidence",
+    "difficulty": "Hard",
+    "time_estimate": 82,
+    "passage": "A sustainability initiative at a university reduced energy consumption by 18% in dormitories and 32% in academic buildings over two years. Water usage decreased by 15% campus-wide, while recycling rates increased from 45% to 78% of total waste.",
+    "question_text": "Which choice most effectively uses the data to complete this statement: \"The university's sustainability initiative\"",
+    "options": [
+      "focused primarily on waste reduction rather than energy conservation.",
+      "achieved greater energy savings in academic buildings than in dormitories.",
+      "had minimal impact on overall resource consumption.",
+      "was more successful in reducing water usage than increasing recycling."
+    ],
+    "correct_answer": 1
+  },
+  {
+    "_id": "7",
+    "question_number": 7,
+    "practice_set": "4",
+    "category": "English: Inferences",
+    "difficulty": "Medium",
+    "time_estimate": 82,
+    "passage": "After implementing a mentorship program pairing senior employees with new hires, the company saw employee retention rates increase by 45% and job satisfaction scores improve across all departments. New employees also reported feeling more confident in their roles and better integrated into company culture.",
+    "question_text": "Based on the text, what can be inferred about the mentorship program's impact?",
+    "options": [
+      "It primarily benefited senior employees rather than new hires",
+      "It successfully addressed multiple aspects of employee experience",
+      "It was too expensive to maintain long-term",
+      "It only worked in certain departments"
+    ],
+    "correct_answer": 1
+  },
+  {
+    "_id": "8",
+    "question_number": 8,
+    "practice_set": "4",
+    "category": "English: Cross-Text Connections",
+    "difficulty": "Hard",
+    "time_estimate": 82,
+    "passage": "Text 1:\nUrban agriculture initiatives can provide fresh food access in underserved communities while creating local employment opportunities and strengthening neighborhood social connections.\n\nText 2:\nChallenges to urban farming include limited space, soil contamination issues, zoning restrictions, and the higher costs of producing food in urban environments compared to rural agriculture.",
+    "question_text": "Based on both texts, what perspective on urban agriculture emerges?",
+    "options": [
+      "It offers significant community benefits but faces practical implementation challenges",
+      "It should be abandoned in favor of improving rural food distribution",
+      "It is only viable in wealthy neighborhoods with adequate resources",
+      "Its benefits clearly outweigh any potential difficulties"
+    ],
+    "correct_answer": 0
+  },
+  {
+    "_id": "9",
+    "question_number": 9,
+    "practice_set": "4",
+    "category": "English: Punctuation",
+    "difficulty": "Medium",
+    "time_estimate": 82,
+    "passage": "The research examined three key factors _______ social media usage, sleep patterns, and academic performance.",
+    "question_text": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+    "options": [
+      "specifically:",
+      "specifically;",
+      "specifically,",
+      "specifically"
+    ],
+    "correct_answer": 0
+  },
+  {
+    "_id": "10",
+    "question_number": 10,
+    "practice_set": "4",
+    "category": "English: Number and Tense",
+    "difficulty": "Hard",
+    "time_estimate": 82,
+    "passage": "Neither the principal investigator nor her research assistants _______ aware of the data collection error until the analysis phase.",
+    "question_text": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+    "options": [
+      "were",
+      "was",
+      "are",
+      "is"
+    ],
+    "correct_answer": 1
+  },
+  {
+    "_id": "11",
+    "question_number": 11,
+    "practice_set": "4",
+    "category": "English: Sentence Structure and Organization",
+    "difficulty": "Hard",
+    "time_estimate": 82,
+    "passage": "The marine biologist _______ coral reef ecosystems for two decades, has documented the alarming effects of ocean acidification on marine life.",
+    "question_text": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+    "options": [
+      "studying",
+      ", who has studied",
+      "to study",
+      "studies"
+    ],
+    "correct_answer": 1
+  },
+  {
+    "_id": "12",
+    "question_number": 12,
+    "practice_set": "4",
+    "category": "English: Transitions",
+    "difficulty": "Medium",
+    "time_estimate": 82,
+    "passage": "The renewable energy project showed excellent potential during the planning phase. _______, unexpected regulatory delays have pushed back the implementation timeline by eight months.",
+    "question_text": "Which choice completes the text with the most logical transition?",
+    "options": [
+      "Furthermore",
+      "Similarly",
+      "Unfortunately",
+      "Therefore"
+    ],
+    "correct_answer": 2
+  },
+  {
+    "_id": "13",
+    "question_number": 13,
+    "practice_set": "4",
+    "category": "English: Rhetorical Synthesis",
+    "difficulty": "Hard",
+    "time_estimate": 82,
+    "passage": "While researching a topic, a student has taken the following notes:\n\n• Mycorrhizal fungi form symbiotic relationships with plant roots\n• These fungi extend the root system's reach, improving water and nutrient uptake\n• Plants provide carbohydrates to the fungi in exchange\n• This relationship exists in 90% of plant species\n• Mycorrhizal networks can connect multiple plants, enabling resource sharing\n• These fungal networks are sometimes called the \"wood wide web\"",
+    "question_text": "The student wants to emphasize the widespread and interconnected nature of mycorrhizal relationships. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+    "options": [
+      "Mycorrhizal fungi help plants absorb water and nutrients more effectively than they could alone.",
+      "The symbiotic relationship between mycorrhizal fungi and plant roots benefits both organisms involved.",
+      "Mycorrhizal networks, present in 90% of plant species, create vast underground connections that allow resource sharing across entire forest ecosystems.",
+      "Plants provide carbohydrates to mycorrhizal fungi in exchange for improved access to soil resources."
+    ],
+    "correct_answer": 2
+  },
+  {
+    "_id": "14",
+    "question_number": 14,
+    "practice_set": "4",
+    "category": "English: Words in Context",
+    "difficulty": "Medium",
+    "time_estimate": 82,
+    "passage": "The judge's _______ examination of the evidence revealed inconsistencies that had been overlooked by previous investigators.",
+    "question_text": "Which choice completes the text with the most logical and precise word or phrase?",
+    "options": [
+      "perfunctory",
+      "cursory",
+      "meticulous",
+      "superficial"
+    ],
+    "correct_answer": 2
+  },
+  {
+    "_id": "15",
+    "question_number": 15,
+    "practice_set": "4",
+    "category": "English: Central Ideas and Details",
+    "difficulty": "Hard",
+    "time_estimate": 82,
+    "passage": "Restorative justice programs focus on repairing the harm caused by crime through facilitated dialogue between offenders, victims, and community members. Unlike traditional punitive approaches that emphasize punishment, restorative justice seeks to address underlying causes of criminal behavior while providing opportunities for accountability, healing, and community reintegration.",
+    "question_text": "Based on the text, how does restorative justice differ from traditional criminal justice approaches?",
+    "options": [
+      "It eliminates all consequences for criminal behavior",
+      "It focuses on repairing harm rather than punishing offenders",
+      "It only works with minor, non-violent crimes",
+      "It replaces courts with community-based decision-making"
+    ],
+    "correct_answer": 1
+  },
+  {
+    "_id": "16",
+    "question_number": 16,
+    "practice_set": "4",
+    "category": "English: Structure and Purpose",
+    "difficulty": "Medium",
+    "time_estimate": 82,
+    "passage": "Artificial intelligence has the potential to revolutionize medical diagnosis by analyzing vast amounts of patient data and identifying patterns that human doctors might miss. However, concerns about algorithmic bias, data privacy, and the importance of human judgment in medical decision-making suggest that AI should augment rather than replace physician expertise.",
+    "question_text": "Which choice best states the main purpose of the text?",
+    "options": [
+      "To argue against the use of AI in medical settings",
+      "To present both the potential and limitations of AI in medicine",
+      "To provide technical details about AI diagnostic systems",
+      "To compare AI capabilities with human intelligence"
+    ],
+    "correct_answer": 1
+  },
+  {
+    "_id": "17",
+    "question_number": 17,
+    "practice_set": "4",
+    "category": "English: Textual Evidence",
+    "difficulty": "Hard",
+    "time_estimate": 82,
+    "passage": "An urban planner argues that mixed-income housing developments create more socially cohesive communities than economically segregated neighborhoods.",
+    "question_text": "Which finding would best support the planner's argument?",
+    "options": [
+      "Mixed-income developments often require government subsidies to remain financially viable.",
+      "Residents in mixed-income communities reported 40% higher levels of social trust and civic participation than those in economically homogeneous areas.",
+      "Property values in mixed-income neighborhoods tend to be more stable over time.",
+      "Construction costs for mixed-income housing are comparable to traditional development models."
+    ],
+    "correct_answer": 1
+  },
+  {
+    "_id": "18",
+    "question_number": 18,
+    "practice_set": "4",
+    "category": "English: Inferences",
+    "difficulty": "Medium",
+    "time_estimate": 82,
+    "passage": "A school district's implementation of later start times for high schools resulted in a 23% decrease in student absences and a 15% improvement in standardized test scores. Teachers also reported better student engagement and fewer behavioral issues during morning classes.",
+    "question_text": "Based on the text, what can be inferred about the later start times?",
+    "options": [
+      "They addressed multiple aspects of student well-being and academic performance",
+      "They were unpopular with students and families",
+      "They created transportation challenges for the district",
+      "They only benefited high-achieving students"
+    ],
+    "correct_answer": 0
+  },
+  {
+    "_id": "19",
+    "question_number": 19,
+    "practice_set": "4",
+    "category": "English: Cross-Text Connections",
+    "difficulty": "Medium",
+    "time_estimate": 82,
+    "passage": "Text 1:\nRemote work technologies enable companies to access global talent pools, reduce overhead costs, and offer employees greater work-life balance flexibility.\n\nText 2:\nChallenges of remote work include communication difficulties, reduced spontaneous collaboration, potential social isolation, and the blurring of boundaries between personal and professional life.",
+    "question_text": "Based on both texts, what can be concluded about remote work?",
+    "options": [
+      "It presents both significant advantages and notable challenges",
+      "It should be avoided due to its negative impacts",
+      "It is suitable only for certain types of work",
+      "Its benefits clearly outweigh any disadvantages"
+    ],
+    "correct_answer": 0
+  },
+  {
+    "_id": "20",
+    "question_number": 20,
+    "practice_set": "4",
+    "category": "English: Punctuation",
+    "difficulty": "Easy",
+    "time_estimate": 82,
+    "passage": "The expedition will study several phenomena _______ glacier formation, ice core data, and climate change indicators.",
+    "question_text": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+    "options": [
+      "including:",
+      "including;",
+      "including,",
+      "including"
+    ],
+    "correct_answer": 0
+  },
+  {
+    "_id": "21",
+    "question_number": 21,
+    "practice_set": "4",
+    "category": "English: Number and Tense",
+    "difficulty": "Medium",
+    "time_estimate": 82,
+    "passage": "The team of international scientists _______ collaborating on this research project for three years.",
+    "question_text": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+    "options": [
+      "have been",
+      "has been",
+      "were",
+      "are"
+    ],
+    "correct_answer": 1
+  },
+  {
+    "_id": "22",
+    "question_number": 22,
+    "practice_set": "4",
+    "category": "English: Transitions",
+    "difficulty": "Hard",
+    "time_estimate": 82,
+    "passage": "Initial tests suggested the new drug was highly effective with minimal side effects. _______, longer-term studies revealed concerning cardiovascular risks that led to its withdrawal from clinical trials.",
+    "question_text": "Which choice completes the text with the most logical transition?",
+    "options": [
+      "Similarly",
+      "Consequently",
+      "Subsequently",
+      "Nevertheless"
+    ],
+    "correct_answer": 2
+  },
+  {
+    "_id": "23",
+    "question_number": 23,
+    "practice_set": "4",
+    "category": "English: Sentence Structure and Organization",
+    "difficulty": "Medium",
+    "time_estimate": 82,
+    "passage": "The investigative journalist _______ corruption in local government, has exposed several conflicts of interest among city council members.",
+    "question_text": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+    "options": [
+      "specializing in",
+      ", specializing in",
+      "who specializes in",
+      "specialized in"
+    ],
+    "correct_answer": 2
+  },
+  {
+    "_id": "24",
+    "question_number": 24,
+    "practice_set": "4",
+    "category": "English: Words in Context",
+    "difficulty": "Hard",
+    "time_estimate": 82,
+    "passage": "The architect's design was praised for its _______ integration of the building with the surrounding landscape, creating a structure that seemed to emerge naturally from its environment.",
+    "question_text": "Which choice completes the text with the most logical and precise word or phrase?",
+    "options": [
+      "jarring",
+      "seamless",
+      "conspicuous",
+      "tentative"
+    ],
+    "correct_answer": 1
+  },
+  {
+    "_id": "25",
+    "question_number": 25,
+    "practice_set": "4",
+    "category": "English: Central Ideas and Details",
+    "difficulty": "Medium",
+    "time_estimate": 82,
+    "passage": "Regenerative agriculture practices aim to rebuild soil health through techniques such as cover cropping, diverse crop rotations, and reduced tillage. These methods increase soil organic matter, improve water retention, and enhance carbon sequestration while maintaining agricultural productivity.",
+    "question_text": "According to the text, what are the primary goals of regenerative agriculture?",
+    "options": [
+      "To increase crop yields while reducing labor costs",
+      "To rebuild soil health while maintaining productivity",
+      "To eliminate the need for any agricultural inputs",
+      "To convert farmland back to natural ecosystems"
+    ],
+    "correct_answer": 1
+  },
+  {
+    "_id": "26",
+    "question_number": 26,
+    "practice_set": "4",
+    "category": "English: Rhetorical Synthesis",
+    "difficulty": "Medium",
+    "time_estimate": 82,
+    "passage": "While researching a topic, a student has taken the following notes:\n\n• Octopuses have three hearts and blue blood\n• They possess highly developed nervous systems with 500-600 million neurons\n• Each arm has its own cluster of neurons and can operate semi-independently\n• Octopuses demonstrate problem-solving abilities and use tools\n• They can change color and texture for camouflage and communication\n• Some species show evidence of personality traits and recognition of individual humans",
+    "question_text": "The student wants to highlight the remarkable intelligence of octopuses. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+    "options": [
+      "Octopuses have three hearts and blue blood, making them unique among marine animals.",
+      "With 500-600 million neurons distributed throughout their bodies, octopuses demonstrate sophisticated problem-solving abilities, tool use, and complex behaviors that rival those of many vertebrates.",
+      "Octopuses can change their color and texture for both camouflage and communication purposes.",
+      "Each octopus arm contains its own cluster of neurons, allowing for semi-independent movement."
+    ],
+    "correct_answer": 1
+  },
+  {
+    "_id": "27",
+    "question_number": 27,
+    "practice_set": "4",
+    "category": "English: Words in Context",
+    "difficulty": "Medium",
+    "time_estimate": 82,
+    "passage": "The critic's review was _______, offering detailed analysis while avoiding the harsh judgments that had characterized her earlier work.",
+    "question_text": "Which choice completes the text with the most logical and precise word or phrase?",
+    "options": [
+      "vitriolic",
+      "measured",
+      "dismissive",
+      "superficial"
+    ],
+    "correct_answer": 1
+  },
+  {
+    "_id": "28",
+    "question_number": 28,
+    "practice_set": "4",
+    "category": "English: Structure and Purpose",
+    "difficulty": "Hard",
+    "time_estimate": 82,
+    "passage": "Gene editing technologies like CRISPR offer unprecedented opportunities to treat genetic diseases and improve crop resistance to climate change. However, ethical concerns about editing human embryos, potential unintended consequences, and questions of access and equity require careful consideration. The development of appropriate governance frameworks will be crucial for realizing benefits while minimizing risks.",
+    "question_text": "Which choice best describes the structure of the text?",
+    "options": [
+      "It presents opportunities offered by gene editing followed by ethical considerations and the need for governance",
+      "It argues against the development of gene editing technologies",
+      "It provides a technical explanation of how CRISPR works",
+      "It compares gene editing to other medical treatments"
+    ],
+    "correct_answer": 0
+  },
+  {
+    "_id": "29",
+    "question_number": 29,
+    "practice_set": "4",
+    "category": "English: Textual Evidence",
+    "difficulty": "Medium",
+    "time_estimate": 82,
+    "passage": "A public health researcher claims that community gardens improve both physical and mental health outcomes in urban neighborhoods.",
+    "question_text": "Which finding would best support the researcher's claim?",
+    "options": [
+      "Residents near community gardens consumed 30% more fresh vegetables and reported 20% lower stress levels than those without garden access.",
+      "Community gardens require ongoing maintenance and volunteer coordination.",
+      "Property values tend to increase in neighborhoods with community gardens.",
+      "Garden plots are typically assigned through a lottery system due to high demand."
+    ],
+    "correct_answer": 0
+  },
+  {
+    "_id": "30",
+    "question_number": 30,
+    "practice_set": "4",
+    "category": "English: Quantitative Evidence",
+    "difficulty": "Hard",
+    "time_estimate": 82,
+    "passage": "A city's bike lane expansion project resulted in a 55% increase in cycling commuters, a 28% reduction in cycling accidents, and a 12% decrease in vehicle traffic on affected streets. Air quality measurements showed a 15% improvement in areas with new bike infrastructure.",
+    "question_text": "Which choice most effectively uses the data to complete this statement: \"The bike lane expansion\"",
+    "options": [
+      "had minimal impact on overall transportation patterns.",
+      "successfully increased cycling while improving safety and environmental conditions.",
+      "primarily benefited recreational cyclists rather than commuters.",
+      "was too expensive given the modest improvements achieved."
+    ],
+    "correct_answer": 1
+  },
+  {
+    "_id": "31",
+    "question_number": 31,
+    "practice_set": "4",
+    "category": "English: Inferences",
+    "difficulty": "Hard",
+    "time_estimate": 82,
+    "passage": "A tech company's switch to a results-only work environment eliminated traditional schedules and office requirements, focusing solely on project completion. Employee productivity increased by 35%, voluntary turnover decreased by 50%, and client satisfaction ratings improved significantly.",
+    "question_text": "Based on the text, what can be inferred about the results-only work environment?",
+    "options": [
+      "It was difficult for managers to implement effectively",
+      "It improved multiple aspects of business performance",
+      "It worked only for certain types of employees",
+      "It required significant technology investments"
+    ],
+    "correct_answer": 1
+  },
+  {
+    "_id": "32",
+    "question_number": 32,
+    "practice_set": "4",
+    "category": "English: Cross-Text Connections",
+    "difficulty": "Hard",
+    "time_estimate": 82,
+    "passage": "Text 1:\nLaboratory-grown meat offers the potential to reduce environmental impacts of animal agriculture while addressing ethical concerns about animal welfare.\n\nText 2:\nChallenges facing cultured meat include high production costs, consumer acceptance issues, regulatory hurdles, and questions about nutritional equivalence to conventional meat.",
+    "question_text": "Based on both texts, what perspective on laboratory-grown meat emerges?",
+    "options": [
+      "It represents a promising solution that faces significant implementation challenges",
+      "It should be rejected due to consumer resistance",
+      "It offers only environmental benefits without addressing other concerns",
+      "Its advantages clearly justify immediate widespread adoption"
+    ],
+    "correct_answer": 0
+  },
+  {
+    "_id": "33",
+    "question_number": 33,
+    "practice_set": "4",
+    "category": "English: Punctuation",
+    "difficulty": "Medium",
+    "time_estimate": 82,
+    "passage": "The conference addressed four main themes _______ innovation, sustainability, collaboration, and global impact.",
+    "question_text": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+    "options": [
+      "such as:",
+      "such as;",
+      "such as,",
+      "such as"
+    ],
+    "correct_answer": 0
+  },
+  {
+    "_id": "34",
+    "question_number": 34,
+    "practice_set": "4",
+    "category": "English: Number and Tense",
+    "difficulty": "Easy",
+    "time_estimate": 82,
+    "passage": "Each of the research participants _______ required to complete a comprehensive health assessment before joining the study.",
+    "question_text": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+    "options": [
+      "are",
+      "is",
+      "were",
+      "have been"
+    ],
+    "correct_answer": 1
+  },
+  {
+    "_id": "35",
+    "question_number": 35,
+    "practice_set": "4",
+    "category": "English: Transitions",
+    "difficulty": "Medium",
+    "time_estimate": 82,
+    "passage": "The proposed legislation received strong support from environmental groups. _______, industry representatives raised concerns about potential economic impacts on manufacturing jobs.",
+    "question_text": "Which choice completes the text with the most logical transition?",
+    "options": [
+      "Similarly",
+      "However",
+      "Therefore",
+      "Additionally"
+    ],
+    "correct_answer": 1
+  },
+  {
+    "_id": "36",
+    "question_number": 36,
+    "practice_set": "4",
+    "category": "English: Sentence Structure and Organization",
+    "difficulty": "Hard",
+    "time_estimate": 82,
+    "passage": "The neuroscientist _______ brain plasticity throughout the human lifespan, has challenged long-held assumptions about cognitive decline in aging.",
+    "question_text": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+    "options": [
+      "researching",
+      ", who researches",
+      "to research",
+      "researches"
+    ],
+    "correct_answer": 1
+  },
+  {
+    "_id": "37",
+    "question_number": 37,
+    "practice_set": "4",
+    "category": "English: Words in Context",
+    "difficulty": "Hard",
+    "time_estimate": 82,
+    "passage": "The novelist's prose style is characterized by its _______ complexity, weaving together multiple narrative threads without confusing the reader.",
+    "question_text": "Which choice completes the text with the most logical and precise word or phrase?",
+    "options": [
+      "labyrinthine",
+      "lucid",
+      "simple",
+      "meandering"
+    ],
+    "correct_answer": 1
+  },
+  {
+    "_id": "38",
+    "question_number": 38,
+    "practice_set": "4",
+    "category": "English: Central Ideas and Details",
+    "difficulty": "Hard",
+    "time_estimate": 82,
+    "passage": "Circular economy principles aim to eliminate waste by designing products for reuse, repair, and recycling rather than disposal. This approach requires collaboration across supply chains, changes in consumer behavior, and new business models that prioritize service and sharing over ownership.",
+    "question_text": "According to the text, implementing circular economy principles requires",
+    "options": [
+      "only changes in manufacturing processes",
+      "collaboration, behavioral changes, and new business models",
+      "government regulation of all industries",
+      "elimination of all product ownership"
+    ],
+    "correct_answer": 1
+  },
+  {
+    "_id": "39",
+    "question_number": 39,
+    "practice_set": "4",
+    "category": "English: Rhetorical Synthesis",
+    "difficulty": "Hard",
+    "time_estimate": 82,
+    "passage": "While researching a topic, a student has taken the following notes:\n\n• Mangrove forests grow in coastal saltwater environments\n• They provide crucial protection against storm surges and tsunamis\n• Mangroves support diverse marine ecosystems and nursery habitats\n• These forests store more carbon per acre than tropical rainforests\n• Mangrove deforestation rates are 3-5 times higher than general forest loss\n• Restoration efforts can successfully rebuild mangrove ecosystems",
+    "question_text": "The student wants to argue for urgent mangrove conservation. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+    "options": [
+      "Mangrove forests grow in unique saltwater coastal environments around the world.",
+      "Given their exceptional carbon storage capacity and crucial coastal protection, urgent action is needed to address mangrove deforestation rates that far exceed general forest loss.",
+      "Restoration efforts have shown that damaged mangrove ecosystems can be successfully rebuilt.",
+      "Mangroves provide important nursery habitats for many marine species."
+    ],
+    "correct_answer": 1
+  },
+  {
+    "_id": "40",
+    "question_number": 40,
+    "practice_set": "4",
+    "category": "English: Words in Context",
+    "difficulty": "Medium",
+    "time_estimate": 82,
+    "passage": "The scientist's _______ approach to the research problem led to breakthrough discoveries that had eluded more conventional investigators.",
+    "question_text": "Which choice completes the text with the most logical and precise word or phrase?",
+    "options": [
+      "orthodox",
+      "unorthodox",
+      "timid",
+      "predictable"
+    ],
+    "correct_answer": 1
+  },
+  {
+    "_id": "41",
+    "question_number": 41,
+    "practice_set": "4",
+    "category": "English: Structure and Purpose",
+    "difficulty": "Medium",
+    "time_estimate": 82,
+    "passage": "Precision medicine uses genetic, environmental, and lifestyle information to tailor treatments to individual patients rather than applying one-size-fits-all approaches. This personalized strategy has shown promising results in cancer treatment and rare diseases, though broader implementation faces challenges related to cost, data privacy, and healthcare infrastructure.",
+    "question_text": "Which choice best states the main purpose of the text?",
+    "options": [
+      "To explain how genetic testing works in medical settings",
+      "To describe precision medicine and its current applications and challenges",
+      "To argue against personalized medical treatments",
+      "To compare precision medicine costs with traditional treatments"
+    ],
+    "correct_answer": 1
+  },
+  {
+    "_id": "42",
+    "question_number": 42,
+    "practice_set": "4",
+    "category": "English: Textual Evidence",
+    "difficulty": "Hard",
+    "time_estimate": 82,
+    "passage": "An education researcher claims that project-based learning improves both academic achievement and student engagement compared to traditional lecture-based instruction.",
+    "question_text": "Which finding would best support the researcher's claim?",
+    "options": [
+      "Students in project-based learning classes scored 18% higher on assessments and showed 25% greater classroom participation than peers in traditional classes.",
+      "Project-based learning requires more preparation time from teachers.",
+      "Many schools have invested in technology to support collaborative projects.",
+      "Student preferences for learning styles vary significantly across age groups."
+    ],
+    "correct_answer": 0
+  },
+  {
+    "_id": "43",
+    "question_number": 43,
+    "practice_set": "4",
+    "category": "English: Inferences",
+    "difficulty": "Medium",
+    "time_estimate": 82,
+    "passage": "A museum's shift to digital exhibitions during the pandemic led to a 300% increase in global visitors and 85% higher engagement time compared to traditional physical visits. Post-pandemic, the museum has maintained both digital and physical offerings.",
+    "question_text": "Based on the text, what can be inferred about digital exhibitions?",
+    "options": [
+      "They were created only as a temporary pandemic solution",
+      "They proved valuable enough to continue alongside physical exhibitions",
+      "They completely replaced the need for physical museum spaces",
+      "They were unsuccessful in attracting visitors"
+    ],
+    "correct_answer": 1
+  },
+  {
+    "_id": "44",
+    "question_number": 44,
+    "practice_set": "4",
+    "category": "English: Cross-Text Connections",
+    "difficulty": "Medium",
+    "time_estimate": 82,
+    "passage": "Text 1:\nSolar geoengineering technologies could potentially reduce global temperatures by reflecting sunlight away from Earth, offering a possible intervention for climate change.\n\nText 2:\nCritics warn that solar geoengineering could have unpredictable side effects, might reduce motivation for emissions reduction, and raises complex governance questions about who controls planetary climate systems.",
+    "question_text": "Based on both texts, what can be concluded about solar geoengineering?",
+    "options": [
+      "It offers a potential climate solution but involves significant risks and governance challenges",
+      "It should be implemented immediately to address climate change",
+      "It is completely ineffective for climate intervention",
+      "Its benefits are universally accepted by scientists"
+    ],
+    "correct_answer": 0
+  },
+  {
+    "_id": "45",
+    "question_number": 45,
+    "practice_set": "4",
+    "category": "English: Quantitative Evidence",
+    "difficulty": "Medium",
+    "time_estimate": 82,
+    "passage": "A workplace wellness program reduced employee sick days by 32%, decreased healthcare costs by $1,200 per employee annually, and improved job satisfaction scores from 6.8 to 8.2 on a 10-point scale. Program participation rates reached 78% of eligible employees.",
+    "question_text": "Which choice most effectively uses the data to complete this statement: \"The wellness program\"",
+    "options": [
+      "had limited participation despite significant benefits.",
+      "achieved improvements in health, costs, and satisfaction with high employee engagement.",
+      "was too expensive relative to the savings generated.",
+      "showed better results for healthcare costs than employee satisfaction."
+    ],
+    "correct_answer": 1
+  },
+  {
+    "_id": "46",
+    "question_number": 46,
+    "practice_set": "4",
+    "category": "English: Punctuation",
+    "difficulty": "Easy",
+    "time_estimate": 82,
+    "passage": "The study examined several variables _______ age, income, education level, and geographic location.",
+    "question_text": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+    "options": [
+      "namely:",
+      "namely;",
+      "namely,",
+      "namely"
+    ],
+    "correct_answer": 0
+  },
+  {
+    "_id": "47",
+    "question_number": 47,
+    "practice_set": "4",
+    "category": "English: Number and Tense",
+    "difficulty": "Medium",
+    "time_estimate": 82,
+    "passage": "The collection of rare manuscripts _______ carefully preserved in climate-controlled storage for future researchers.",
+    "question_text": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+    "options": [
+      "were",
+      "was",
+      "are",
+      "is"
+    ],
+    "correct_answer": 3
+  },
+  {
+    "_id": "48",
+    "question_number": 48,
+    "practice_set": "4",
+    "category": "English: Transitions",
+    "difficulty": "Hard",
+    "time_estimate": 82,
+    "passage": "Early trials of the experimental treatment showed remarkable success rates. _______, larger-scale studies revealed significant adverse effects that outweighed the benefits.",
+    "question_text": "Which choice completes the text with the most logical transition?",
+    "options": [
+      "Similarly",
+      "Consequently",
+      "However",
+      "Therefore"
+    ],
+    "correct_answer": 2
+  },
+  {
+    "_id": "49",
+    "question_number": 49,
+    "practice_set": "4",
+    "category": "English: Sentence Structure and Organization",
+    "difficulty": "Medium",
+    "time_estimate": 82,
+    "passage": "The climatologist _______ ice sheet dynamics in Antarctica, predicts accelerated sea level rise based on current melting patterns.",
+    "question_text": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+    "options": [
+      "studying",
+      ", studying",
+      "who studies",
+      "studies"
+    ],
+    "correct_answer": 2
+  },
+  {
+    "_id": "50",
+    "question_number": 50,
+    "practice_set": "4",
+    "category": "English: Words in Context",
+    "difficulty": "Hard",
+    "time_estimate": 82,
+    "passage": "The committee's decision was reached through _______ deliberation, with members carefully weighing evidence from multiple perspectives before reaching consensus.",
+    "question_text": "Which choice completes the text with the most logical and precise word or phrase?",
+    "options": [
+      "cursory",
+      "precipitous",
+      "deliberate",
+      "superficial"
+    ],
+    "correct_answer": 2
+  },
+  {
+    "_id": "51",
+    "question_number": 51,
+    "practice_set": "4",
+    "category": "English: Central Ideas and Details",
+    "difficulty": "Medium",
+    "time_estimate": 82,
+    "passage": "Biomimetic architecture draws inspiration from natural systems to create buildings that are both energy-efficient and environmentally responsive. Examples include structures that mimic termite mounds for natural cooling, building skins that adjust like flower petals to changing light conditions, and foundations inspired by root systems for stability.",
+    "question_text": "According to the text, biomimetic architecture involves",
+    "options": [
+      "using only natural building materials",
+      "copying natural systems to improve building performance",
+      "constructing buildings in natural environments",
+      "replacing all traditional architectural methods"
+    ],
+    "correct_answer": 1
+  },
+  {
+    "_id": "52",
+    "question_number": 52,
+    "practice_set": "4",
+    "category": "English: Rhetorical Synthesis",
+    "difficulty": "Easy",
+    "time_estimate": 82,
+    "passage": "While researching a topic, a student has taken the following notes:\n\n• Bioluminescence occurs in many marine organisms including jellyfish, fish, and plankton\n• This biological light production serves multiple functions\n• Some species use bioluminescence for communication with mates\n• Others employ it as a defense mechanism to startle predators\n• Many deep-sea creatures use bioluminescent lures to attract prey\n• Scientists study bioluminescence for potential medical and technological applications",
+    "question_text": "The student wants to demonstrate the diverse functions of bioluminescence. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+    "options": [
+      "Bioluminescence occurs in many marine organisms and is studied by scientists for various applications.",
+      "Marine organisms use bioluminescence for multiple purposes including mate communication, predator defense, and prey attraction.",
+      "Scientists are interested in bioluminescence for potential medical and technological applications.",
+      "Many deep-sea creatures produce their own light through biological processes."
+    ],
+    "correct_answer": 1
+  },
+  {
+    "_id": "53",
+    "question_number": 53,
+    "practice_set": "4",
+    "category": "English: Words in Context",
+    "difficulty": "Medium",
+    "time_estimate": 82,
+    "passage": "The historian's _______ research methods uncovered previously unknown documents that fundamentally changed understanding of the historical period.",
+    "question_text": "Which choice completes the text with the most logical and precise word or phrase?",
+    "options": [
+      "hasty",
+      "exhaustive",
+      "limited",
+      "biased"
+    ],
+    "correct_answer": 1
+  },
+  {
+    "_id": "54",
+    "question_number": 54,
+    "practice_set": "4",
+    "category": "English: Structure and Purpose",
+    "difficulty": "Hard",
+    "time_estimate": 82,
+    "passage": "Quantum computing promises to solve certain complex problems exponentially faster than classical computers, potentially revolutionizing fields from cryptography to drug discovery. However, significant technical challenges remain, including maintaining quantum coherence, error correction, and scaling up from laboratory prototypes to practical systems. Success will require continued advances in both hardware and software development.",
+    "question_text": "Which choice best describes the function of the last sentence in the overall structure of the text?",
+    "options": [
+      "It dismisses the potential of quantum computing",
+      "It identifies requirements for achieving quantum computing's potential",
+      "It provides technical specifications for quantum computers",
+      "It compares quantum and classical computing speeds"
+    ],
+    "correct_answer": 1
+  },
+  {
+    "_id": "55",
+    "question_number": 55,
+    "practice_set": "4",
+    "category": "Math: Linear Equations",
+    "difficulty": "Medium",
+    "time_estimate": 82,
+    "passage": "",
+    "question_text": "If 6x - 11 = 31, what is the value of x?",
+    "options": [
+      "6",
+      "7",
+      "8",
+      "9"
+    ],
+    "correct_answer": 1
+  },
+  {
+    "_id": "56",
+    "question_number": 56,
+    "practice_set": "4",
+    "category": "Math: Systems of Equations",
+    "difficulty": "Hard",
+    "time_estimate": 82,
+    "passage": "",
+    "question_text": "If 4x + 3y = 26 and 2x - y = 8, what is the value of y?",
+    "options": [],
+    "correct_answer": -2,
+    "answer_type": "fill_in_the_blank"
+  },
+  {
+    "_id": "57",
+    "question_number": 57,
+    "practice_set": "4",
+    "category": "Math: Quadratic Functions",
+    "difficulty": "Hard",
+    "time_estimate": 82,
+    "passage": "",
+    "question_text": "What is the minimum value of the parabola y = 2x² - 8x + 11?",
+    "options": [
+      "2",
+      "3",
+      "4",
+      "5"
+    ],
+    "correct_answer": 1
+  },
+  {
+    "_id": "58",
+    "question_number": 58,
+    "practice_set": "4",
+    "category": "Math: Linear Equations",
+    "difficulty": "Medium",
+    "time_estimate": 82,
+    "passage": "",
+    "question_text": "A line passes through the points (2, -1) and (6, 7). What is the slope of this line?",
+    "options": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "correct_answer": 1
+  },
+  {
+    "_id": "59",
+    "question_number": 59,
+    "practice_set": "4",
+    "category": "Math: Percentages",
+    "difficulty": "Medium",
+    "time_estimate": 82,
+    "passage": "",
+    "question_text": "If 35% of a number is 42, what is 60% of that number?",
+    "options": [],
+    "correct_answer": 72,
+    "answer_type": "fill_in_the_blank"
+  },
+  {
+    "_id": "60",
+    "question_number": 60,
+    "practice_set": "4",
+    "category": "Math: Functions",
+    "difficulty": "Hard",
+    "time_estimate": 82,
+    "passage": "",
+    "question_text": "If f(x) = 3x² - 5x + 2, what is f(-1)?",
+    "options": [
+      "8",
+      "10",
+      "12",
+      "14"
+    ],
+    "correct_answer": 1
+  },
+  {
+    "_id": "61",
+    "question_number": 61,
+    "practice_set": "4",
+    "category": "Math: Geometry",
+    "difficulty": "Medium",
+    "time_estimate": 82,
+    "passage": "",
+    "question_text": "What is the area of a triangle with base 14 units and height 9 units?",
+    "options": [],
+    "correct_answer": 63,
+    "answer_type": "fill_in_the_blank"
+  },
+  {
+    "_id": "62",
+    "question_number": 62,
+    "practice_set": "4",
+    "category": "Math: Statistics",
+    "difficulty": "Hard",
+    "time_estimate": 82,
+    "passage": "",
+    "question_text": "The mean of seven numbers is 18. If six of the numbers are 12, 15, 20, 22, 16, and 19, what is the seventh number?",
+    "options": [
+      "20",
+      "22",
+      "24",
+      "26"
+    ],
+    "correct_answer": 3
+  },
+  {
+    "_id": "63",
+    "question_number": 63,
+    "practice_set": "4",
+    "category": "Math: Exponential Functions",
+    "difficulty": "Hard",
+    "time_estimate": 82,
+    "passage": "",
+    "question_text": "If 2^(x+3) = 64, what is the value of x?",
+    "options": [],
+    "correct_answer": 3,
+    "answer_type": "fill_in_the_blank"
+  },
+  {
+    "_id": "64",
+    "question_number": 64,
+    "practice_set": "4",
+    "category": "Math: Word Problems",
+    "difficulty": "Hard",
+    "time_estimate": 82,
+    "passage": "",
+    "question_text": "A car travels 240 miles. For the first 120 miles, it travels at 60 mph. For the remaining distance, it travels at 40 mph. What is the average speed for the entire trip?",
+    "options": [
+      "48 mph",
+      "50 mph",
+      "52 mph",
+      "54 mph"
+    ],
+    "correct_answer": 0
+  },
+  {
+    "_id": "65",
+    "question_number": 65,
+    "practice_set": "4",
+    "category": "Math: Geometry",
+    "difficulty": "Hard",
+    "time_estimate": 82,
+    "passage": "",
+    "question_text": "In a right triangle, if the hypotenuse is 15 units and one leg is 9 units, what is the length of the other leg?",
+    "options": [
+      "10",
+      "11",
+      "12",
+      "13"
+    ],
+    "correct_answer": 2
+  },
+  {
+    "_id": "66",
+    "question_number": 66,
+    "practice_set": "4",
+    "category": "Math: Absolute Value",
+    "difficulty": "Medium",
+    "time_estimate": 82,
+    "passage": "",
+    "question_text": "What is the value of |−18| - |6| + |−4|?",
+    "options": [],
+    "correct_answer": 16,
+    "answer_type": "fill_in_the_blank"
+  },
+  {
+    "_id": "67",
+    "question_number": 67,
+    "practice_set": "4",
+    "category": "Math: Sequences",
+    "difficulty": "Hard",
+    "time_estimate": 82,
+    "passage": "",
+    "question_text": "In an arithmetic sequence, the first term is 5 and the common difference is 8. What is the 9th term?",
+    "options": [
+      "65",
+      "69",
+      "73",
+      "77"
+    ],
+    "correct_answer": 1
+  },
+  {
+    "_id": "68",
+    "question_number": 68,
+    "practice_set": "4",
+    "category": "Math: Probability",
+    "difficulty": "Hard",
+    "time_estimate": 82,
+    "passage": "",
+    "question_text": "A box contains 5 red balls, 3 blue balls, and 2 green balls. If three balls are drawn without replacement, what is the probability that all three are red? Give answer as a fraction.",
+    "options": [],
+    "correct_answer": "1/12",
+    "answer_type": "fill_in_the_blank"
+  },
+  {
+    "_id": "69",
+    "question_number": 69,
+    "practice_set": "4",
+    "category": "Math: Coordinate Geometry",
+    "difficulty": "Hard",
+    "time_estimate": 82,
+    "passage": "",
+    "question_text": "What is the distance between the points (-2, 5) and (4, -3)?",
+    "options": [
+      "8",
+      "10",
+      "12",
+      "14"
+    ],
+    "correct_answer": 1
+  },
+  {
+    "_id": "70",
+    "question_number": 70,
+    "practice_set": "4",
+    "category": "Math: Inequalities",
+    "difficulty": "Medium",
+    "time_estimate": 82,
+    "passage": "",
+    "question_text": "Solve for x: 7x - 5 ≥ 23",
+    "options": [
+      "x ≥ 3",
+      "x ≥ 4",
+      "x ≥ 5",
+      "x ≥ 6"
+    ],
+    "correct_answer": 1
+  },
+  {
+    "_id": "71",
+    "question_number": 71,
+    "practice_set": "4",
+    "category": "Math: Ratios and Proportions",
+    "difficulty": "Hard",
+    "time_estimate": 82,
+    "passage": "",
+    "question_text": "If the ratio of savings to expenses is 2:7, and total savings is $800, what are the total expenses?",
+    "options": [],
+    "correct_answer": 2800,
+    "answer_type": "fill_in_the_blank"
+  },
+  {
+    "_id": "72",
+    "question_number": 72,
+    "practice_set": "4",
+    "category": "Math: Quadratic Functions",
+    "difficulty": "Hard",
+    "time_estimate": 82,
+    "passage": "",
+    "question_text": "For which value of b does the equation x² + bx + 9 = 0 have exactly one solution?",
+    "options": [
+      "4",
+      "5",
+      "6",
+      "8"
+    ],
+    "correct_answer": 2
+  },
+  {
+    "_id": "73",
+    "question_number": 73,
+    "practice_set": "4",
+    "category": "Math: Geometry",
+    "difficulty": "Hard",
+    "time_estimate": 82,
+    "passage": "",
+    "question_text": "A cylinder has a radius of 5 units and a height of 12 units. What is its volume? (Use π ≈ 3.14)",
+    "options": [],
+    "correct_answer": 942,
+    "answer_type": "fill_in_the_blank"
+  },
+  {
+    "_id": "74",
+    "question_number": 74,
+    "practice_set": "4",
+    "category": "Math: Linear Equations",
+    "difficulty": "Hard",
+    "time_estimate": 82,
+    "passage": "",
+    "question_text": "What is the y-intercept of the line 5x - 2y = 20?",
+    "options": [
+      "(0, -10)",
+      "(0, -8)",
+      "(0, -5)",
+      "(0, -4)"
+    ],
+    "correct_answer": 0
+  },
+  {
+    "_id": "75",
+    "question_number": 75,
+    "practice_set": "4",
+    "category": "Math: Statistics",
+    "difficulty": "Medium",
+    "time_estimate": 82,
+    "passage": "",
+    "question_text": "What is the median of the dataset: 6, 11, 15, 19, 23, 27, 31, 35, 39?",
+    "options": [],
+    "correct_answer": 23,
+    "answer_type": "fill_in_the_blank"
+  },
+  {
+    "_id": "76",
+    "question_number": 76,
+    "practice_set": "4",
+    "category": "Math: Word Problems",
+    "difficulty": "Hard",
+    "time_estimate": 82,
+    "passage": "",
+    "question_text": "A store marks up items by 40% from wholesale cost. If the retail price is $98, what was the wholesale cost?",
+    "options": [
+      "$68",
+      "$70",
+      "$72",
+      "$75"
+    ],
+    "correct_answer": 1
+  },
+  {
+    "_id": "77",
+    "question_number": 77,
+    "practice_set": "4",
+    "category": "Math: Functions",
+    "difficulty": "Hard",
+    "time_estimate": 82,
+    "passage": "",
+    "question_text": "If g(x) = 4x - 3, what is g(g(2))?",
+    "options": [
+      "17",
+      "19",
+      "21",
+      "23"
+    ],
+    "correct_answer": 0
+  },
+  {
+    "_id": "78",
+    "question_number": 78,
+    "practice_set": "4",
+    "category": "Math: Geometry",
+    "difficulty": "Medium",
+    "time_estimate": 82,
+    "passage": "",
+    "question_text": "What is the perimeter of a rectangle with length 13 units and width 8 units?",
+    "options": [],
+    "correct_answer": 42,
+    "answer_type": "fill_in_the_blank"
+  },
+  {
+    "_id": "79",
+    "question_number": 79,
+    "practice_set": "4",
+    "category": "Math: Exponential Functions",
+    "difficulty": "Hard",
+    "time_estimate": 82,
+    "passage": "",
+    "question_text": "If a population doubles every 5 years, what is the growth factor per year? Round to the nearest hundredth.",
+    "options": [
+      "1.14",
+      "1.15",
+      "1.16",
+      "1.17"
+    ],
+    "correct_answer": 1
+  },
+  {
+    "_id": "80",
+    "question_number": 80,
+    "practice_set": "4",
+    "category": "Math: Systems of Equations",
+    "difficulty": "Hard",
+    "time_estimate": 82,
+    "passage": "",
+    "question_text": "For what value of k does the system of equations have no solution?\n\n6x + 3y = 18\n4x + 2y = k",
+    "options": [],
+    "correct_answer": 15,
+    "answer_type": "fill_in_the_blank"
+  },
+  {
+    "_id": "81",
+    "question_number": 81,
+    "practice_set": "4",
+    "category": "Math: Coordinate Geometry",
+    "difficulty": "Hard",
+    "time_estimate": 82,
+    "passage": "",
+    "question_text": "What is the slope of the line perpendicular to the line y = -5/2x + 7?",
+    "options": [
+      "-2/5",
+      "-5/2",
+      "2/5",
+      "5/2"
+    ],
+    "correct_answer": 2
+  },
+  {
+    "_id": "82",
+    "question_number": 82,
+    "practice_set": "4",
+    "category": "Math: Geometry",
+    "difficulty": "Hard",
+    "time_estimate": 82,
+    "passage": "",
+    "question_text": "In a circle with radius 12 units, what is the area of a sector with a central angle of 60°? (Use π ≈ 3.14)",
+    "options": [],
+    "correct_answer": 75.36,
+    "answer_type": "fill_in_the_blank"
+  },
+  {
+    "_id": "83",
+    "question_number": 83,
+    "practice_set": "4",
+    "category": "Math: Probability",
+    "difficulty": "Medium",
+    "time_estimate": 82,
+    "passage": "",
+    "question_text": "If you roll a fair six-sided die three times, what is the probability of getting at least one 6?",
+    "options": [
+      "91/216",
+      "95/216",
+      "125/216",
+      "130/216"
+    ],
+    "correct_answer": 0
+  },
+  {
+    "_id": "84",
+    "question_number": 84,
+    "practice_set": "4",
+    "category": "Math: Quadratic Functions",
+    "difficulty": "Medium",
+    "time_estimate": 82,
+    "passage": "",
+    "question_text": "What are the solutions to the equation x² - 10x + 21 = 0?",
+    "options": [
+      "x = 3, x = 7",
+      "x = 2, x = 8",
+      "x = 4, x = 6",
+      "x = 1, x = 9"
+    ],
+    "correct_answer": 0
+  },
+  {
+    "_id": "85",
+    "question_number": 85,
+    "practice_set": "4",
+    "category": "Math: Word Problems",
+    "difficulty": "Hard",
+    "time_estimate": 82,
+    "passage": "",
+    "question_text": "A recipe calls for 3/4 cup of flour to make 18 cookies. How many cups of flour are needed to make 30 cookies?",
+    "options": [],
+    "correct_answer": 1.25,
+    "answer_type": "fill_in_the_blank"
+  },
+  {
+    "_id": "86",
+    "question_number": 86,
+    "practice_set": "4",
+    "category": "Math: Statistics",
+    "difficulty": "Hard",
+    "time_estimate": 82,
+    "passage": "",
+    "question_text": "In a normal distribution with mean 80 and standard deviation 15, approximately what percentage of data falls within one standard deviation of the mean?",
+    "options": [
+      "68%",
+      "75%",
+      "85%",
+      "95%"
+    ],
+    "correct_answer": 0
+  },
+  {
+    "_id": "87",
+    "question_number": 87,
+    "practice_set": "4",
+    "category": "Math: Geometry",
+    "difficulty": "Hard",
+    "time_estimate": 82,
+    "passage": "",
+    "question_text": "A triangle has sides of length 5, 12, and 13 units. What type of triangle is this?",
+    "options": [
+      "Acute",
+      "Right",
+      "Obtuse",
+      "Scalene"
+    ],
+    "correct_answer": 1
+  },
+  {
+    "_id": "88",
+    "question_number": 88,
+    "practice_set": "4",
+    "category": "Math: Functions",
+    "difficulty": "Medium",
+    "time_estimate": 82,
+    "passage": "",
+    "question_text": "If p(x) = 3x - 8, what is p(7)?",
+    "options": [],
+    "correct_answer": 13,
+    "answer_type": "fill_in_the_blank"
+  },
+  {
+    "_id": "89",
+    "question_number": 89,
+    "practice_set": "4",
+    "category": "Math: Linear Equations",
+    "difficulty": "Hard",
+    "time_estimate": 82,
+    "passage": "",
+    "question_text": "What is the x-intercept of the line 7x + 4y = 28?",
+    "options": [
+      "(4, 0)",
+      "(0, 4)",
+      "(7, 0)",
+      "(0, 7)"
+    ],
+    "correct_answer": 0
+  },
+  {
+    "_id": "90",
+    "question_number": 90,
+    "practice_set": "4",
+    "category": "Math: Percentages",
+    "difficulty": "Hard",
+    "time_estimate": 82,
+    "passage": "",
+    "question_text": "A value increases by 25% in the first year and decreases by 20% in the second year. What is the overall percentage change?",
+    "options": [],
+    "correct_answer": 0,
+    "answer_type": "fill_in_the_blank"
+  },
+  {
+    "_id": "91",
+    "question_number": 91,
+    "practice_set": "4",
+    "category": "Math: Coordinate Geometry",
+    "difficulty": "Hard",
+    "time_estimate": 82,
+    "passage": "",
+    "question_text": "What is the equation of the circle with center (3, -2) and radius 7?",
+    "options": [
+      "(x - 3)² + (y + 2)² = 7",
+      "(x + 3)² + (y - 2)² = 49",
+      "(x - 3)² + (y + 2)² = 49",
+      "(x + 3)² + (y - 2)² = 7"
+    ],
+    "correct_answer": 2
+  },
+  {
+    "_id": "92",
+    "question_number": 92,
+    "practice_set": "4",
+    "category": "Math: Geometry",
+    "difficulty": "Hard",
+    "time_estimate": 82,
+    "passage": "",
+    "question_text": "What is the volume of a rectangular prism with length 8 units, width 6 units, and height 4 units?",
+    "options": [],
+    "correct_answer": 192,
+    "answer_type": "fill_in_the_blank"
+  },
+  {
+    "_id": "93",
+    "question_number": 93,
+    "practice_set": "4",
+    "category": "Math: Inequalities",
+    "difficulty": "Hard",
+    "time_estimate": 82,
+    "passage": "",
+    "question_text": "Solve the compound inequality: -2 ≤ 3x + 4 ≤ 13",
+    "options": [
+      "-2 ≤ x ≤ 3",
+      "-1 ≤ x ≤ 4",
+      "-2 ≤ x ≤ 4",
+      "-1 ≤ x ≤ 3"
+    ],
+    "correct_answer": 0
+  },
+  {
+    "_id": "94",
+    "question_number": 94,
+    "practice_set": "4",
+    "category": "Math: Sequences",
+    "difficulty": "Hard",
+    "time_estimate": 82,
+    "passage": "",
+    "question_text": "In a geometric sequence, the first term is 6 and the common ratio is 2.5. What is the sum of the first 4 terms?",
+    "options": [],
+    "correct_answer": 159,
+    "answer_type": "fill_in_the_blank"
+  },
+  {
+    "_id": "95",
+    "question_number": 95,
+    "practice_set": "4",
+    "category": "Math: Word Problems",
+    "difficulty": "Medium",
+    "time_estimate": 82,
+    "passage": "",
+    "question_text": "If 8 books cost $56, how much do 12 books cost?",
+    "options": [
+      "$78",
+      "$80",
+      "$82",
+      "$84"
+    ],
+    "correct_answer": 3
+  },
+  {
+    "_id": "96",
+    "question_number": 96,
+    "practice_set": "4",
+    "category": "Math: Functions",
+    "difficulty": "Hard",
+    "time_estimate": 82,
+    "passage": "",
+    "question_text": "If f(x) = x² - 4x + 3 and g(x) = 2x - 1, what is f(g(2))?",
+    "options": [
+      "0",
+      "2",
+      "4",
+      "6"
+    ],
+    "correct_answer": 0
+  },
+  {
+    "_id": "97",
+    "question_number": 97,
+    "practice_set": "4",
+    "category": "Math: Absolute Value",
+    "difficulty": "Hard",
+    "time_estimate": 82,
+    "passage": "",
+    "question_text": "Solve for x: |5x - 15| = 25",
+    "options": [],
+    "correct_answer": "x = 8 or x = -2",
+    "answer_type": "fill_in_the_blank"
+  },
+  {
+    "_id": "98",
+    "question_number": 98,
+    "practice_set": "4",
+    "category": "Math: Coordinate Geometry",
+    "difficulty": "Medium",
+    "time_estimate": 82,
+    "passage": "",
+    "question_text": "What is the midpoint of the line segment connecting (4, 9) and (10, 15)?",
+    "options": [
+      "(7, 12)",
+      "(6, 11)",
+      "(8, 13)",
+      "(5, 10)"
+    ],
+    "correct_answer": 0
+  }
+]
