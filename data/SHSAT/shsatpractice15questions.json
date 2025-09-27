@@ -111,10 +111,10 @@
     "_id": "7",
     "question_number": 7,
     "practice_set": "15",
-    "category": "pdfData:pdf/Pearsons2024-2025B_ExerciseLanguage.pdf",
+    "category": "",
     "difficulty": "easy",
     "time_estimate": 95,
-    "passage": "",
+    "passage": "pdfData:pdf/Pearsons2024-2025B_ExerciseLanguage.pdf",
     "question_text": "Which evidence from the excerpt is most relevant to the author’s claim that there are many unanswered questions about the relationship between movement and learning?",
     "options": [
       "the method of the study using one type of exercise and people from one age group",
@@ -950,9 +950,14 @@
     "category": "",
     "difficulty": "easy",
     "time_estimate": 95,
-    "passage": "",
-    "question_text": "",
-    "options": [],
+    "passage": "(1) The International Space Station has been inhabited by crew members since 2000.\n(2) Tourists will soon be allowed to pay for visits to the space station.\n(3) Because the cost is $52–$58 million round trip, few people will be able to take advantage of the opportunity to have a vacation in outer space.",
+    "question_text": "What is the best way to combine these sentences to clarify the relationship between ideas?",
+    "options": [
+      "The International Space Station has been inhabited by crew members since 2000, but tourists will soon be allowed to pay for visits to the space station, which cost $52–$58 million round trip, so few people will be able to take advantage of the opportunity to have a vacation in outer space.",
+      "The International Space Station has been inhabited by crew members since 2000 and will soon allow tourists to pay for visits, but because the cost is $52–$58 million round trip, few people will be able to take advantage of the opportunity to have a vacation in outer space.",
+      "The International Space Station has been inhabited by crew members since 2000, but tourists will soon be allowed to pay for visits to the space station, though the cost is $52–$58 million round trip, so few people will be able to take advantage of the opportunity to have a vacation in outer space.",
+      "The International Space Station has been inhabited by crew members since 2000, and tourists will soon be allowed to pay for visits to the space station because the cost is $52–$58 million round trip, therefore few people will be able to take advantage of the opportunity to have a vacation in outer space."
+    ],
     "correct_answer": null,
     "answer_type": ""
   },
@@ -963,9 +968,14 @@
     "category": "",
     "difficulty": "easy",
     "time_estimate": 95,
-    "passage": "",
-    "question_text": "",
-    "options": [],
+    "passage": "(1) To improve upon a skill, people typically train one skill at a time. (2) It would make sense that one should learn to walk before learning to run to someone who is learning a new skill. (3) Psychologists, however, are finding that this is not always the case. (4) Practicing several skills together, a process called interleaving, produces much better results than working one skill at a time.",
+    "question_text": "Which sentence contains an error in its construction and should be revised?",
+    "options": [
+      "sentence 1",
+      "sentence 2",
+      "sentence 3",
+      "sentence 4"
+    ],
     "correct_answer": null,
     "answer_type": ""
   },
@@ -976,9 +986,14 @@
     "category": "",
     "difficulty": "easy",
     "time_estimate": 95,
-    "passage": "",
-    "question_text": "",
-    "options": [],
+    "passage": "The Appalachian Trail is a really long trail that a lot of people do each year.",
+    "question_text": "Which revision of the sentence uses the most precise language?",
+    "options": [
+      "The Appalachian Trail is an extremely long trail that millions of people do each year",
+      "The Appalachian Trail is a 2,200- mile trail that more than a million people hike each year",
+      "The Appalachian Trail is a 2,200- mile trail that two million people hike each year.",
+      "The Appalachian Trail is a lengthy trail that a couple million people do each year."
+    ],
     "correct_answer": null,
     "answer_type": ""
   },
@@ -989,9 +1004,14 @@
     "category": "",
     "difficulty": "easy",
     "time_estimate": 95,
-    "passage": "",
-    "question_text": "",
-    "options": [],
+    "passage": "(1) Construction of the Eiffel Tower, an iron lattice tower in Paris, France, started in 1887. (2) Shortly after its construction was completed it served as the entrance to the World's Fair in 1889, which honored the 100th anniversary of the storming of the Bastille. (3) Over time, it becomes a popular tourist destination, attracting people from all over the world. (4) Although it is now an architectural icon, it was initially criticized by artists, who believed it was a monstrous construction that violated conventional principles of aesthetics.",
+    "question_text": "Which pair of revisions need to be made in this paragraph?",
+    "options": [
+      "Sentence 1: Delete the comma after 'Tower'.\nSentence 3: Change 'becomes' to 'became'",
+      "Sentence 1: Delete the comma after 'Tower'.\nSentence 4: Change 'believed' to 'had believed'",
+      "Sentence 2: Insert a comma after 'completed'.\nSentence 3: Change 'becomes' to 'became'.",
+      "Sentence 2: Insert a comma after 'completed'.\nSentence 4: Change 'believed' to 'had believed'"
+    ],
     "correct_answer": null,
     "answer_type": ""
   },
@@ -1005,7 +1025,7 @@
     "passage": "image:images/shsatpractice15question58.png",
     "question_text": "After the expression above is simplified, what is the coefficient of x, expressed as a decimal?",
     "options": [],
-    "correct_answer": null,
+    "correct_answer": -0.8,
     "answer_type": "fill_in_the_blank"
   },
   {
@@ -1018,7 +1038,7 @@
     "passage": "",
     "question_text": "Two number cubes have sides labeled 1 through 6. Both number cubes are rolled. How many different outcomes will have a sum of 6?",
     "options": [],
-    "correct_answer": null,
+    "correct_answer": 5,
     "answer_type": "fill_in_the_blank"
   },
   {
@@ -1031,7 +1051,7 @@
     "passage": "image:images/shsatpractice15question60.png",
     "question_text": "The figure above shows a scale drawing of a garden, where 1 centimeter represents 2.5 meters. What is the perimeter of the actual garden in meters?",
     "options": [],
-    "correct_answer": null,
+    "correct_answer": 95,
     "answer_type": "fill_in_the_blank"
   },
   {
@@ -1044,7 +1064,7 @@
     "passage": "",
     "question_text": "At one location, the temperature increased from −7° F to 4° F between 5:00 a.m. and 9:00 a.m. By 11:00 a.m., the temperature was 3.5 times the 9:00 a.m. temperature. What was the total increase in temperature between 5:00 a.m. and 11:00 a.m., in degrees Fahrenheit?",
     "options": [],
-    "correct_answer": null,
+    "correct_answer": 21,
     "answer_type": "fill_in_the_blank"
   },
   {
@@ -1057,7 +1077,7 @@
     "passage": "image:images/shsatpractice15question62.png",
     "question_text": "What is the volume of the figure, in cubic inches?",
     "options": [],
-    "correct_answer": null,
+    "correct_answer": 32,
     "answer_type": "fill_in_the_blank"
   },
   {
@@ -1075,7 +1095,7 @@
       "A pole 4 feet long weighs 1 ounce.",
       "The length increases 4 feet for each 1 ounce of weight."
     ],
-    "correct_answer": null,
+    "correct_answer": 0,
     "answer_type": ""
   },
   {
@@ -1093,7 +1113,7 @@
       "point G",
       "point H"
     ],
-    "correct_answer": null,
+    "correct_answer": 1,
     "answer_type": ""
   },
   {
@@ -1111,7 +1131,7 @@
       "12",
       "16"
     ],
-    "correct_answer": null,
+    "correct_answer": 2,
     "answer_type": ""
   },
   {
@@ -1129,7 +1149,7 @@
       "$14,400",
       "$15,588"
     ],
-    "correct_answer": null,
+    "correct_answer": 0,
     "answer_type": ""
   },
   {
@@ -1147,7 +1167,7 @@
       "2 and 1/3",
       "3 and 1/3"
     ],
-    "correct_answer": null,
+    "correct_answer": 1,
     "answer_type": ""
   },
   {
@@ -1165,7 +1185,7 @@
       "2/3",
       "5/6"
     ],
-    "correct_answer": null,
+    "correct_answer": 1,
     "answer_type": ""
   },
   {
@@ -1183,7 +1203,7 @@
       "10 feet",
       "13 and 1/3 feet"
     ],
-    "correct_answer": null,
+    "correct_answer": 0,
     "answer_type": ""
   },
   {
@@ -1201,7 +1221,7 @@
       "2",
       "3"
     ],
-    "correct_answer": null,
+    "correct_answer": 1,
     "answer_type": ""
   },
   {
@@ -1219,7 +1239,7 @@
       "7",
       "15"
     ],
-    "correct_answer": null,
+    "correct_answer": 1,
     "answer_type": ""
   },
   {
@@ -1237,7 +1257,7 @@
       "15",
       "16"
     ],
-    "correct_answer": null,
+    "correct_answer": 3,
     "answer_type": ""
   },
   {
@@ -1255,7 +1275,7 @@
       "270",
       "275"
     ],
-    "correct_answer": null,
+    "correct_answer": 3,
     "answer_type": ""
   },
   {
@@ -1273,7 +1293,7 @@
       "1/4",
       "3/11"
     ],
-    "correct_answer": null,
+    "correct_answer": 0,
     "answer_type": ""
   },
   {
@@ -1291,7 +1311,7 @@
       "The interquartile range (IQR) of the data is 30.",
       "On about 25% of the days, there were between 12 and 16 fares"
     ],
-    "correct_answer": null,
+    "correct_answer": 3,
     "answer_type": ""
   },
   {
@@ -1309,7 +1329,7 @@
       "y = x + 6",
       "y = x - 1"
     ],
-    "correct_answer": null,
+    "correct_answer": 0,
     "answer_type": ""
   },
   {
@@ -1327,7 +1347,7 @@
       "19,401",
       "19,521"
     ],
-    "correct_answer": null,
+    "correct_answer": 1,
     "answer_type": ""
   },
   {
@@ -1345,7 +1365,7 @@
       "-(1/7)",
       "-1"
     ],
-    "correct_answer": null,
+    "correct_answer": 0,
     "answer_type": ""
   },
   {
@@ -1363,7 +1383,7 @@
       "-1.181818...",
       "-1.818181..."
     ],
-    "correct_answer": null,
+    "correct_answer": 2,
     "answer_type": ""
   },
   {
@@ -1381,7 +1401,7 @@
       "45",
       "200"
     ],
-    "correct_answer": null,
+    "correct_answer": 3,
     "answer_type": ""
   },
   {
@@ -1399,7 +1419,7 @@
       "(1/7)",
       "1/2"
     ],
-    "correct_answer": null,
+    "correct_answer": 3,
     "answer_type": ""
   },
   {
@@ -1417,7 +1437,7 @@
       "G",
       "H"
     ],
-    "correct_answer": null,
+    "correct_answer": 1,
     "answer_type": ""
   },
   {
@@ -1435,7 +1455,7 @@
       "7.25",
       "10.67"
     ],
-    "correct_answer": null,
+    "correct_answer": 3,
     "answer_type": ""
   },
   {
@@ -1453,7 +1473,7 @@
       "10.5x - 9",
       "10.5x - 5"
     ],
-    "correct_answer": null,
+    "correct_answer": 1,
     "answer_type": ""
   },
   {
@@ -1471,7 +1491,7 @@
       "Both groups have an equal number of members who are between 21 and 24 years old.",
       "Group Q has fewer members who are between 19 and 27 years old than Group P has."
     ],
-    "correct_answer": null,
+    "correct_answer": 1,
     "answer_type": ""
   },
   {
@@ -1489,7 +1509,7 @@
       "1/2",
       "4/7"
     ],
-    "correct_answer": null,
+    "correct_answer": 2,
     "answer_type": ""
   },
   {
@@ -1507,7 +1527,7 @@
       "C",
       "D"
     ],
-    "correct_answer": null,
+    "correct_answer": 3,
     "answer_type": ""
   },
   {
@@ -1525,7 +1545,7 @@
       "35x + 10",
       "36x + 10"
     ],
-    "correct_answer": null,
+    "correct_answer": 2,
     "answer_type": ""
   },
   {
@@ -1543,7 +1563,7 @@
       "45π",
       "180π"
     ],
-    "correct_answer": null,
+    "correct_answer": 2,
     "answer_type": ""
   },
   {
@@ -1561,7 +1581,7 @@
       "0.4",
       "4.4"
     ],
-    "correct_answer": null,
+    "correct_answer": 1,
     "answer_type": ""
   },
   {
@@ -1579,7 +1599,7 @@
       "85 and 1/3",
       "128"
     ],
-    "correct_answer": null,
+    "correct_answer": 0,
     "answer_type": ""
   },
   {
@@ -1597,7 +1617,7 @@
       "8.4° F",
       "8.8° F"
     ],
-    "correct_answer": null,
+    "correct_answer": 1,
     "answer_type": ""
   },
   {
@@ -1615,7 +1635,7 @@
       "14",
       "84"
     ],
-    "correct_answer": null,
+    "correct_answer": 1,
     "answer_type": ""
   },
   {
@@ -1633,7 +1653,7 @@
       "Wednesday",
       "Thursday"
     ],
-    "correct_answer": null,
+    "correct_answer": 0,
     "answer_type": ""
   },
   {
@@ -1651,7 +1671,7 @@
       "$12.25",
       "$21.35"
     ],
-    "correct_answer": null,
+    "correct_answer": 2,
     "answer_type": ""
   },
   {
@@ -1669,7 +1689,7 @@
       "7,600",
       "40,000"
     ],
-    "correct_answer": null,
+    "correct_answer": 2,
     "answer_type": ""
   },
   {
@@ -1687,7 +1707,7 @@
       "$22,000",
       "$25,000"
     ],
-    "correct_answer": null,
+    "correct_answer": 2,
     "answer_type": ""
   },
   {
@@ -1705,7 +1725,7 @@
       "256/6,561",
       "16/9"
     ],
-    "correct_answer": null,
+    "correct_answer": 1,
     "answer_type": ""
   },
   {
@@ -1723,7 +1743,7 @@
       "5/1,000",
       "1/200"
     ],
-    "correct_answer": null,
+    "correct_answer": 0,
     "answer_type": ""
   },
   {
@@ -1741,7 +1761,7 @@
       "110",
       "137"
     ],
-    "correct_answer": null,
+    "correct_answer": 3,
     "answer_type": ""
   },
   {
@@ -1759,7 +1779,7 @@
       "x < -2",
       "x > -2"
     ],
-    "correct_answer": null,
+    "correct_answer": 3,
     "answer_type": ""
   },
   {
@@ -1777,7 +1797,7 @@
       "8/27",
       "3/10"
     ],
-    "correct_answer": null,
+    "correct_answer": 2,
     "answer_type": ""
   },
   {
@@ -1795,7 +1815,7 @@
       "480",
       "420"
     ],
-    "correct_answer": null,
+    "correct_answer": 1,
     "answer_type": ""
   },
   {
@@ -1813,7 +1833,7 @@
       "9",
       "27"
     ],
-    "correct_answer": null,
+    "correct_answer": 1,
     "answer_type": ""
   },
   {
@@ -1831,7 +1851,7 @@
       "36 cm",
       "40 cm"
     ],
-    "correct_answer": null,
+    "correct_answer": 3,
     "answer_type": ""
   },
   {
@@ -1849,7 +1869,7 @@
       "y is negative and z is negative.",
       "x and y are negative, and z and w are positive."
     ],
-    "correct_answer": null,
+    "correct_answer": 2,
     "answer_type": ""
   },
   {
@@ -1867,7 +1887,7 @@
       "1/5",
       "7/10"
     ],
-    "correct_answer": null,
+    "correct_answer": 1,
     "answer_type": ""
   },
   {
@@ -1885,7 +1905,7 @@
       "41.33",
       "125"
     ],
-    "correct_answer": null,
+    "correct_answer": 0,
     "answer_type": ""
   },
   {
@@ -1903,7 +1923,7 @@
       "2/5",
       "2/3"
     ],
-    "correct_answer": null,
+    "correct_answer": 0,
     "answer_type": ""
   },
   {
@@ -1921,7 +1941,7 @@
       "G",
       "H"
     ],
-    "correct_answer": null,
+    "correct_answer": 0,
     "answer_type": ""
   },
   {
@@ -1939,7 +1959,7 @@
       "120",
       "160"
     ],
-    "correct_answer": null,
+    "correct_answer": 3,
     "answer_type": ""
   },
   {
@@ -1957,7 +1977,7 @@
       "3,000",
       "4,285"
     ],
-    "correct_answer": null,
+    "correct_answer": 0,
     "answer_type": ""
   },
   {
@@ -1975,7 +1995,7 @@
       "38%",
       "42.5%"
     ],
-    "correct_answer": null,
+    "correct_answer": 2,
     "answer_type": ""
   },
   {
@@ -1993,7 +2013,7 @@
       "-x²y",
       "-xy²"
     ],
-    "correct_answer": null,
+    "correct_answer": 0,
     "answer_type": ""
   }
 ]
