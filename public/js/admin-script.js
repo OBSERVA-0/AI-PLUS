@@ -704,6 +704,7 @@ function handleTestTypeChange() {
             <option value="2">Practice Test 2</option>
             <option value="3">Practice Test 3</option>
             <option value="4">Practice Test 4</option>
+            <option value="5">Practice Test 5 (Hard)</option>
         `;
         practiceSetSelect.disabled = false;
     } else if (testType === 'statetest') {

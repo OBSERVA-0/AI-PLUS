@@ -1,0 +1,1560 @@
+[
+  {
+    "_id": "1",
+    "question_number": 1,
+    "practice_set": "5",
+    "category": "English: Words in Context",
+    "difficulty": "Hard",
+    "time_estimate": 82,
+    "passage": "The scholar's _______ analysis of the ancient text revealed layers of meaning that had remained obscured for centuries, challenging established interpretations.",
+    "question_text": "Which choice completes the text with the most logical and precise word or phrase?",
+    "options": [
+      "perfunctory",
+      "perspicacious",
+      "superficial",
+      "cursory"
+    ],
+    "correct_answer": 1
+  },
+  {
+    "_id": "2",
+    "question_number": 2,
+    "practice_set": "5",
+    "category": "English: Words in Context",
+    "difficulty": "Hard",
+    "time_estimate": 82,
+    "passage": "The diplomat's _______ approach to the negotiations, characterized by subtle maneuvering and indirect communication, ultimately proved more effective than aggressive tactics.",
+    "question_text": "Which choice completes the text with the most logical and precise word or phrase?",
+    "options": [
+      "bellicose",
+      "circumspect",
+      "truculent",
+      "precipitous"
+    ],
+    "correct_answer": 1
+  },
+  {
+    "_id": "3",
+    "question_number": 3,
+    "practice_set": "5",
+    "category": "English: Central Ideas and Details",
+    "difficulty": "Hard",
+    "time_estimate": 82,
+    "passage": "Epigenetic modifications represent a paradigm shift in our understanding of heredity. Unlike genetic mutations that alter DNA sequences, epigenetic changes modify gene expression without changing the underlying genetic code. These modifications can be influenced by environmental factors and may be reversible, challenging the traditional view of genetic determinism.",
+    "question_text": "According to the text, how do epigenetic modifications differ from genetic mutations?",
+    "options": [
+      "They are permanent changes that cannot be reversed",
+      "They alter gene expression without changing DNA sequences",
+      "They only occur in response to specific diseases",
+      "They require direct manipulation of chromosomes"
+    ],
+    "correct_answer": 1
+  },
+  {
+    "_id": "4",
+    "question_number": 4,
+    "practice_set": "5",
+    "category": "English: Structure and Purpose",
+    "difficulty": "Hard",
+    "time_estimate": 82,
+    "passage": "Quantum entanglement presents one of the most counterintuitive phenomena in physics, where particles become correlated in such a way that the quantum state of one particle instantaneously affects another, regardless of distance. While this phenomenon has been experimentally verified, its implications challenge our classical understanding of locality and causality. The potential applications in quantum computing and cryptography are revolutionary, yet significant technical hurdles remain before practical implementation becomes feasible.",
+    "question_text": "Which choice best describes the function of the final sentence in the overall structure of the text?",
+    "options": [
+      "It dismisses the significance of quantum entanglement",
+      "It provides technical details about quantum mechanics",
+      "It acknowledges both the promise and challenges of practical applications",
+      "It explains why quantum entanglement violates physical laws"
+    ],
+    "correct_answer": 2
+  },
+  {
+    "_id": "5",
+    "question_number": 5,
+    "practice_set": "5",
+    "category": "English: Textual Evidence",
+    "difficulty": "Hard",
+    "time_estimate": 82,
+    "passage": "A cognitive scientist argues that multilingual individuals demonstrate superior executive function compared to monolingual speakers.",
+    "question_text": "Which finding from a research study would best support the scientist's argument?",
+    "options": [
+      "Multilingual individuals scored 28% higher on tasks requiring cognitive flexibility and inhibitory control than monolingual participants.",
+      "Many schools have implemented dual-language immersion programs.",
+      "Multilingual communities often preserve cultural traditions more effectively.",
+      "Learning multiple languages requires significant time and effort."
+    ],
+    "correct_answer": 0
+  },
+  {
+    "_id": "6",
+    "question_number": 6,
+    "practice_set": "5",
+    "category": "English: Quantitative Evidence",
+    "difficulty": "Hard",
+    "time_estimate": 82,
+    "passage": "A comprehensive study of urban heat island effects found that cities with extensive green infrastructure showed temperature reductions of 3.2°C compared to areas with minimal vegetation. Additionally, energy consumption for cooling decreased by 35%, while air quality improved with particulate matter reduced by 22% and ozone levels dropping by 18%.",
+    "question_text": "Which choice most effectively uses the data to complete this statement: \"Green infrastructure in urban areas\"",
+    "options": [
+      "primarily benefits air quality rather than temperature regulation.",
+      "provides modest improvements that may not justify implementation costs.",
+      "significantly reduces urban heat while improving energy efficiency and air quality.",
+      "works only in specific climate conditions and geographic locations."
+    ],
+    "correct_answer": 2
+  },
+  {
+    "_id": "7",
+    "question_number": 7,
+    "practice_set": "5",
+    "category": "English: Inferences",
+    "difficulty": "Hard",
+    "time_estimate": 82,
+    "passage": "Following the implementation of a comprehensive mental health support program, the tech company observed a 42% reduction in employee burnout rates, a 38% decrease in turnover, and a 25% increase in innovation metrics. Employee engagement scores rose from 6.1 to 8.4 on a 10-point scale, while productivity measures showed consistent improvement across all departments.",
+    "question_text": "Based on the text, what can be inferred about the relationship between mental health support and workplace performance?",
+    "options": [
+      "Mental health programs are too expensive for most companies to implement",
+      "Improved mental health support correlates with enhanced performance across multiple metrics",
+      "The benefits are limited to certain types of employees or departments",
+      "Mental health initiatives primarily affect employee satisfaction rather than productivity"
+    ],
+    "correct_answer": 1
+  },
+  {
+    "_id": "8",
+    "question_number": 8,
+    "practice_set": "5",
+    "category": "English: Cross-Text Connections",
+    "difficulty": "Hard",
+    "time_estimate": 82,
+    "passage": "Text 1:\nCRISPR gene editing technology offers unprecedented precision in modifying genetic sequences, potentially eliminating hereditary diseases and enhancing crop resistance to climate change.\n\nText 2:\nEthical concerns about CRISPR include the possibility of unintended genetic consequences, questions about consent for future generations, and the risk of exacerbating social inequalities if access remains limited to wealthy populations.",
+    "question_text": "Based on both texts, what perspective on CRISPR technology emerges?",
+    "options": [
+      "It represents a revolutionary tool that requires careful ethical consideration",
+      "It should be banned due to potential risks and moral concerns",
+      "Its benefits clearly outweigh any ethical considerations",
+      "It is primarily useful for agricultural applications rather than human medicine"
+    ],
+    "correct_answer": 0
+  },
+  {
+    "_id": "9",
+    "question_number": 9,
+    "practice_set": "5",
+    "category": "English: Punctuation",
+    "difficulty": "Hard",
+    "time_estimate": 82,
+    "passage": "The interdisciplinary research team investigated multiple variables _______ neuroplasticity, cognitive load, environmental stressors, and genetic predispositions.",
+    "question_text": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+    "options": [
+      "including:",
+      "including;",
+      "including,",
+      "including"
+    ],
+    "correct_answer": 0
+  },
+  {
+    "_id": "10",
+    "question_number": 10,
+    "practice_set": "5",
+    "category": "English: Number and Tense",
+    "difficulty": "Hard",
+    "time_estimate": 82,
+    "passage": "Neither the lead researcher nor her graduate assistants _______ anticipated the profound implications of their discovery for theoretical physics.",
+    "question_text": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+    "options": [
+      "were",
+      "was",
+      "are",
+      "is"
+    ],
+    "correct_answer": 1
+  },
+  {
+    "_id": "11",
+    "question_number": 11,
+    "practice_set": "5",
+    "category": "English: Sentence Structure and Organization",
+    "difficulty": "Hard",
+    "time_estimate": 82,
+    "passage": "The astrophysicist _______ dark matter interactions for over a decade, has proposed a groundbreaking theory that could revolutionize our understanding of cosmic structure formation.",
+    "question_text": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+    "options": [
+      "investigating",
+      ", who has investigated",
+      "to investigate",
+      "investigates"
+    ],
+    "correct_answer": 1
+  },
+  {
+    "_id": "12",
+    "question_number": 12,
+    "practice_set": "5",
+    "category": "English: Transitions",
+    "difficulty": "Hard",
+    "time_estimate": 82,
+    "passage": "Initial clinical trials for the experimental treatment showed remarkable efficacy with minimal side effects. _______, long-term studies revealed concerning complications that necessitated a complete reevaluation of the therapeutic approach.",
+    "question_text": "Which choice completes the text with the most logical transition?",
+    "options": [
+      "Similarly",
+      "Consequently",
+      "Subsequently",
+      "Nevertheless"
+    ],
+    "correct_answer": 2
+  },
+  {
+    "_id": "13",
+    "question_number": 13,
+    "practice_set": "5",
+    "category": "English: Rhetorical Synthesis",
+    "difficulty": "Hard",
+    "time_estimate": 82,
+    "passage": "While researching a topic, a student has taken the following notes:\n\n• Tardigrades are microscopic animals also known as water bears\n• They can survive extreme conditions including space vacuum, radiation, and temperatures from -272°C to 150°C\n• Tardigrades enter cryptobiosis, a state of suspended animation, during harsh conditions\n• They can survive without water for over 10 years in this state\n• Upon rehydration, they resume normal biological functions within hours\n• Scientists study tardigrades to understand extreme survival mechanisms\n• This research has implications for astrobiology and space exploration",
+    "question_text": "The student wants to emphasize the extraordinary survival capabilities of tardigrades and their scientific significance. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+    "options": [
+      "Tardigrades are microscopic animals that can be found in various aquatic environments.",
+      "Tardigrades' ability to survive extreme conditions through cryptobiosis makes them invaluable for astrobiology research and understanding life's limits.",
+      "Scientists have discovered that tardigrades can enter a state called cryptobiosis.",
+      "Water bears are studied by researchers interested in survival mechanisms."
+    ],
+    "correct_answer": 1
+  },
+  {
+    "_id": "14",
+    "question_number": 14,
+    "practice_set": "5",
+    "category": "English: Words in Context",
+    "difficulty": "Hard",
+    "time_estimate": 82,
+    "passage": "The philosopher's argument was characterized by its _______ logic, weaving together complex theoretical frameworks with such precision that even her most ardent critics acknowledged its intellectual rigor.",
+    "question_text": "Which choice completes the text with the most logical and precise word or phrase?",
+    "options": [
+      "specious",
+      "fallacious",
+      "inexorable",
+      "capricious"
+    ],
+    "correct_answer": 2
+  },
+  {
+    "_id": "15",
+    "question_number": 15,
+    "practice_set": "5",
+    "category": "English: Central Ideas and Details",
+    "difficulty": "Hard",
+    "time_estimate": 82,
+    "passage": "Synthetic biology represents a convergence of engineering principles with biological systems, enabling the design and construction of new biological parts, devices, and systems. This field extends beyond traditional genetic engineering by applying standardized, modular approaches to create biological circuits that can perform novel functions. Applications range from producing pharmaceuticals in engineered microorganisms to developing biological sensors for environmental monitoring.",
+    "question_text": "According to the text, how does synthetic biology differ from traditional genetic engineering?",
+    "options": [
+      "It focuses exclusively on pharmaceutical applications",
+      "It applies standardized, modular engineering approaches to biological design",
+      "It works only with naturally occurring biological systems",
+      "It eliminates the need for laboratory-based research"
+    ],
+    "correct_answer": 1
+  },
+  {
+    "_id": "16",
+    "question_number": 16,
+    "practice_set": "5",
+    "category": "English: Structure and Purpose",
+    "difficulty": "Hard",
+    "time_estimate": 82,
+    "passage": "Neuroplasticity research has fundamentally altered our understanding of brain function, revealing that neural networks can reorganize throughout life in response to experience, injury, or environmental changes. This discovery has profound implications for rehabilitation medicine, educational strategies, and our conception of human potential. However, the mechanisms underlying neuroplastic changes remain incompletely understood, and translating research findings into effective therapeutic interventions continues to present significant challenges.",
+    "question_text": "Which choice best describes the structure of the text?",
+    "options": [
+      "It presents neuroplasticity research findings followed by their implications and current limitations",
+      "It argues against the significance of neuroplasticity in medical treatment",
+      "It provides a detailed technical explanation of neural network reorganization",
+      "It compares neuroplasticity research with other neuroscience fields"
+    ],
+    "correct_answer": 0
+  },
+  {
+    "_id": "17",
+    "question_number": 17,
+    "practice_set": "5",
+    "category": "English: Textual Evidence",
+    "difficulty": "Hard",
+    "time_estimate": 82,
+    "passage": "A materials scientist claims that biomimetic design principles lead to more sustainable and efficient engineering solutions than conventional approaches.",
+    "question_text": "Which finding would best support the scientist's claim?",
+    "options": [
+      "Biomimetic materials required 40% less energy to produce and demonstrated 60% greater durability than traditional alternatives in comparative testing.",
+      "Many engineering firms have invested in biomimetic research and development programs.",
+      "Nature provides numerous examples of efficient structural and functional designs.",
+      "Biomimetic approaches often require interdisciplinary collaboration between biologists and engineers."
+    ],
+    "correct_answer": 0
+  },
+  {
+    "_id": "18",
+    "question_number": 18,
+    "practice_set": "5",
+    "category": "English: Inferences",
+    "difficulty": "Hard",
+    "time_estimate": 82,
+    "passage": "A university's transition to competency-based education resulted in a 35% improvement in student retention rates, a 28% increase in graduation rates, and significantly higher employer satisfaction with graduates' practical skills. Traditional lecture-based courses were replaced with project-based learning modules that emphasized real-world application of knowledge.",
+    "question_text": "Based on the text, what can be inferred about competency-based education?",
+    "options": [
+      "It is more expensive to implement than traditional educational models",
+      "It better prepares students for practical application of their knowledge",
+      "It works only for certain academic disciplines",
+      "It reduces the academic rigor of university programs"
+    ],
+    "correct_answer": 1
+  },
+  {
+    "_id": "19",
+    "question_number": 19,
+    "practice_set": "5",
+    "category": "English: Cross-Text Connections",
+    "difficulty": "Hard",
+    "time_estimate": 82,
+    "passage": "Text 1:\nArtificial general intelligence (AGI) could potentially solve complex global challenges such as climate change, disease, and resource scarcity through unprecedented computational capabilities and pattern recognition.\n\nText 2:\nThe development of AGI raises existential concerns about human agency, employment displacement, and the possibility of creating systems whose goals may not align with human values or welfare.",
+    "question_text": "Based on both texts, what can be concluded about artificial general intelligence?",
+    "options": [
+      "It represents both tremendous potential and significant risks that require careful consideration",
+      "Its benefits clearly justify rapid development regardless of potential risks",
+      "It should be abandoned due to existential threats to humanity",
+      "Its primary value lies in solving computational rather than social problems"
+    ],
+    "correct_answer": 0
+  },
+  {
+    "_id": "20",
+    "question_number": 20,
+    "practice_set": "5",
+    "category": "English: Quantitative Evidence",
+    "difficulty": "Hard",
+    "time_estimate": 82,
+    "passage": "A longitudinal study of regenerative agriculture practices found that farms implementing these methods increased soil organic matter by 45%, reduced water usage by 30%, and decreased synthetic fertilizer application by 60% over a five-year period. Crop yields remained stable while production costs decreased by 25%.",
+    "question_text": "Which choice most effectively uses the data to complete this statement: \"Regenerative agriculture practices\"",
+    "options": [
+      "primarily benefit environmental sustainability at the expense of economic viability.",
+      "improve soil health, resource efficiency, and economic outcomes simultaneously.",
+      "work only in specific geographic regions with favorable climate conditions.",
+      "require significant initial investment that outweighs long-term benefits."
+    ],
+    "correct_answer": 1
+  },
+  {
+    "_id": "21",
+    "question_number": 21,
+    "practice_set": "5",
+    "category": "Math: Systems of Equations",
+    "difficulty": "Hard",
+    "time_estimate": 82,
+    "passage": "",
+    "question_text": "If 3x + 2y - z = 14, 2x - y + 3z = 8, and x + 3y - 2z = 6, what is the value of x + y + z?",
+    "options": [],
+    "correct_answer": 8,
+    "answer_type": "fill_in_the_blank"
+  },
+  {
+    "_id": "22",
+    "question_number": 22,
+    "practice_set": "5",
+    "category": "Math: Quadratic Functions",
+    "difficulty": "Hard",
+    "time_estimate": 82,
+    "passage": "",
+    "question_text": "For what value of k does the quadratic equation 2x² + kx + 8 = 0 have exactly one real solution?",
+    "options": [
+      "±6",
+      "±7",
+      "±8",
+      "±9"
+    ],
+    "correct_answer": 2
+  },
+  {
+    "_id": "23",
+    "question_number": 23,
+    "practice_set": "5",
+    "category": "Math: Functions",
+    "difficulty": "Hard",
+    "time_estimate": 82,
+    "passage": "",
+    "question_text": "If f(x) = 2x³ - 3x² + x - 5, what is f(-2)?",
+    "options": [],
+    "correct_answer": -31,
+    "answer_type": "fill_in_the_blank"
+  },
+  {
+    "_id": "24",
+    "question_number": 24,
+    "practice_set": "5",
+    "category": "Math: Exponential Functions",
+    "difficulty": "Hard",
+    "time_estimate": 82,
+    "passage": "",
+    "question_text": "If 4^(2x-1) = 8^(x+2), what is the value of x?",
+    "options": [
+      "5",
+      "6",
+      "7",
+      "8"
+    ],
+    "correct_answer": 2
+  },
+  {
+    "_id": "25",
+    "question_number": 25,
+    "practice_set": "5",
+    "category": "Math: Geometry",
+    "difficulty": "Hard",
+    "time_estimate": 82,
+    "passage": "",
+    "question_text": "A regular hexagon is inscribed in a circle with radius 12 units. What is the area of the hexagon?",
+    "options": [],
+    "correct_answer": 216,
+    "answer_type": "fill_in_the_blank"
+  },
+  {
+    "_id": "26",
+    "question_number": 26,
+    "practice_set": "5",
+    "category": "Math: Statistics",
+    "difficulty": "Hard",
+    "time_estimate": 82,
+    "passage": "",
+    "question_text": "In a normal distribution with mean 85 and standard deviation 12, what percentage of data falls between 61 and 109? (Use the empirical rule)",
+    "options": [
+      "68%",
+      "95%",
+      "99.7%",
+      "50%"
+    ],
+    "correct_answer": 1
+  },
+  {
+    "_id": "27",
+    "question_number": 27,
+    "practice_set": "5",
+    "category": "Math: Word Problems",
+    "difficulty": "Hard",
+    "time_estimate": 82,
+    "passage": "",
+    "question_text": "A tank can be filled by pipe A in 8 hours and by pipe B in 12 hours. Pipe C can empty the full tank in 24 hours. If all three pipes are open simultaneously, how long will it take to fill the empty tank?",
+    "options": [],
+    "correct_answer": 6,
+    "answer_type": "fill_in_the_blank"
+  },
+  {
+    "_id": "28",
+    "question_number": 28,
+    "practice_set": "5",
+    "category": "Math: Coordinate Geometry",
+    "difficulty": "Hard",
+    "time_estimate": 82,
+    "passage": "",
+    "question_text": "What is the equation of the circle that passes through points (0, 0), (8, 0), and (0, 6)?",
+    "options": [
+      "(x - 4)² + (y - 3)² = 25",
+      "(x - 3)² + (y - 4)² = 25",
+      "(x - 4)² + (y - 3)² = 16",
+      "(x - 3)² + (y - 4)² = 16"
+    ],
+    "correct_answer": 0
+  },
+  {
+    "_id": "29",
+    "question_number": 29,
+    "practice_set": "5",
+    "category": "Math: Probability",
+    "difficulty": "Hard",
+    "time_estimate": 82,
+    "passage": "",
+    "question_text": "A committee of 5 people is to be selected from 8 men and 6 women. What is the probability that the committee contains exactly 3 men and 2 women?",
+    "options": [],
+    "correct_answer": 0.4196,
+    "answer_type": "fill_in_the_blank"
+  },
+  {
+    "_id": "30",
+    "question_number": 30,
+    "practice_set": "5",
+    "category": "Math: Sequences",
+    "difficulty": "Hard",
+    "time_estimate": 82,
+    "passage": "",
+    "question_text": "In a geometric sequence, the 3rd term is 24 and the 6th term is 192. What is the sum of the first 8 terms?",
+    "options": [
+      "1020",
+      "1530",
+      "2040",
+      "2550"
+    ],
+    "correct_answer": 1
+  },
+  {
+    "_id": "31",
+    "question_number": 31,
+    "practice_set": "5",
+    "category": "Math: Trigonometry",
+    "difficulty": "Hard",
+    "time_estimate": 82,
+    "passage": "",
+    "question_text": "If sin(θ) = 3/5 and θ is in the second quadrant, what is the value of tan(θ)?",
+    "options": [],
+    "correct_answer": -0.75,
+    "answer_type": "fill_in_the_blank"
+  },
+  {
+    "_id": "32",
+    "question_number": 32,
+    "practice_set": "5",
+    "category": "Math: Complex Numbers",
+    "difficulty": "Hard",
+    "time_estimate": 82,
+    "passage": "",
+    "question_text": "What is the modulus (absolute value) of the complex number 3 + 4i?",
+    "options": [
+      "4",
+      "5",
+      "6",
+      "7"
+    ],
+    "correct_answer": 1
+  },
+  {
+    "_id": "33",
+    "question_number": 33,
+    "practice_set": "5",
+    "category": "Math: Logarithms",
+    "difficulty": "Hard",
+    "time_estimate": 82,
+    "passage": "",
+    "question_text": "If log₂(x) + log₂(x-6) = 4, what is the value of x?",
+    "options": [],
+    "correct_answer": 8,
+    "answer_type": "fill_in_the_blank"
+  },
+  {
+    "_id": "34",
+    "question_number": 34,
+    "practice_set": "5",
+    "category": "Math: Matrices",
+    "difficulty": "Hard",
+    "time_estimate": 82,
+    "passage": "",
+    "question_text": "What is the determinant of the matrix [[3, 2], [5, 4]]?",
+    "options": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "correct_answer": 1
+  },
+  {
+    "_id": "35",
+    "question_number": 35,
+    "practice_set": "5",
+    "category": "Math: Optimization",
+    "difficulty": "Hard",
+    "time_estimate": 82,
+    "passage": "",
+    "question_text": "A rectangular garden has a perimeter of 60 meters. What dimensions maximize the area?",
+    "options": [],
+    "correct_answer": "15 by 15",
+    "answer_type": "fill_in_the_blank"
+  },
+  {
+    "_id": "36",
+    "question_number": 36,
+    "practice_set": "5",
+    "category": "Math: Rational Functions",
+    "difficulty": "Hard",
+    "time_estimate": 82,
+    "passage": "",
+    "question_text": "What is the horizontal asymptote of the function f(x) = (3x² + 2x - 1)/(x² - 4)?",
+    "options": [
+      "y = 0",
+      "y = 1",
+      "y = 2",
+      "y = 3"
+    ],
+    "correct_answer": 3
+  },
+  {
+    "_id": "37",
+    "question_number": 37,
+    "practice_set": "5",
+    "category": "Math: Parametric Equations",
+    "difficulty": "Hard",
+    "time_estimate": 82,
+    "passage": "",
+    "question_text": "Given the parametric equations x = 2t + 1 and y = t² - 3, what is the Cartesian equation?",
+    "options": [],
+    "correct_answer": "y = (x-1)²/4 - 3",
+    "answer_type": "fill_in_the_blank"
+  },
+  {
+    "_id": "38",
+    "question_number": 38,
+    "practice_set": "5",
+    "category": "Math: Vectors",
+    "difficulty": "Hard",
+    "time_estimate": 82,
+    "passage": "",
+    "question_text": "What is the dot product of vectors a = (3, -2, 1) and b = (1, 4, -2)?",
+    "options": [
+      "-7",
+      "-5",
+      "-3",
+      "-1"
+    ],
+    "correct_answer": 0
+  },
+  {
+    "_id": "39",
+    "question_number": 39,
+    "practice_set": "5",
+    "category": "Math: Calculus",
+    "difficulty": "Hard",
+    "time_estimate": 82,
+    "passage": "",
+    "question_text": "What is the derivative of f(x) = x³ - 4x² + 6x - 2?",
+    "options": [],
+    "correct_answer": "3x² - 8x + 6",
+    "answer_type": "fill_in_the_blank"
+  },
+  {
+    "_id": "40",
+    "question_number": 40,
+    "practice_set": "5",
+    "category": "Math: Number Theory",
+    "difficulty": "Hard",
+    "time_estimate": 82,
+    "passage": "",
+    "question_text": "What is the greatest common divisor (GCD) of 168 and 252?",
+    "options": [
+      "12",
+      "24",
+      "36",
+      "84"
+    ],
+    "correct_answer": 3
+  },
+  {
+    "_id": "41",
+    "question_number": 41,
+    "practice_set": "5",
+    "category": "English: Words in Context",
+    "difficulty": "Hard",
+    "time_estimate": 82,
+    "passage": "The artist's latest work was praised for its _______ quality, seamlessly blending disparate cultural elements into a cohesive and harmonious whole.",
+    "question_text": "Which choice completes the text with the most logical and precise word or phrase?",
+    "options": [
+      "discordant",
+      "syncretic",
+      "fragmentary",
+      "derivative"
+    ],
+    "correct_answer": 1
+  },
+  {
+    "_id": "42",
+    "question_number": 42,
+    "practice_set": "5",
+    "category": "English: Central Ideas and Details",
+    "difficulty": "Hard",
+    "time_estimate": 82,
+    "passage": "Metamaterials represent a revolutionary class of artificially structured materials that exhibit properties not found in naturally occurring substances. By precisely engineering the arrangement of subwavelength structures, scientists can create materials with negative refractive indices, perfect absorption characteristics, or cloaking capabilities. These properties emerge from the collective behavior of the engineered structures rather than the intrinsic properties of the constituent materials.",
+    "question_text": "According to the text, what distinguishes metamaterials from natural materials?",
+    "options": [
+      "They are composed of entirely synthetic chemical compounds",
+      "Their properties arise from engineered structural arrangements rather than material composition",
+      "They can only be produced in laboratory environments",
+      "They are significantly more expensive to manufacture than natural alternatives"
+    ],
+    "correct_answer": 1
+  },
+  {
+    "_id": "43",
+    "question_number": 43,
+    "practice_set": "5",
+    "category": "English: Rhetorical Synthesis",
+    "difficulty": "Hard",
+    "time_estimate": 82,
+    "passage": "While researching a topic, a student has taken the following notes:\n\n• Extremophiles are organisms that thrive in extreme environmental conditions\n• They inhabit environments with extreme temperature, pH, salinity, or radiation\n• Examples include thermophiles in hot springs and halophiles in salt lakes\n• Extremophiles have unique biochemical adaptations for survival\n• These adaptations include specialized proteins and metabolic pathways\n• Research on extremophiles informs astrobiology and the search for extraterrestrial life\n• Industrial applications include enzymes for biotechnology and pharmaceuticals",
+    "question_text": "The student wants to demonstrate the scientific and practical significance of extremophile research. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+    "options": [
+      "Extremophiles are organisms that can survive in environments with extreme conditions.",
+      "Extremophile research advances our understanding of life's limits while providing valuable enzymes for biotechnology and insights for astrobiology.",
+      "Thermophiles and halophiles represent two major categories of extremophilic organisms.",
+      "Scientists study extremophiles to understand their unique biochemical adaptations."
+    ],
+    "correct_answer": 1
+  },
+  {
+    "_id": "44",
+    "question_number": 44,
+    "practice_set": "5",
+    "category": "English: Structure and Purpose",
+    "difficulty": "Hard",
+    "time_estimate": 82,
+    "passage": "Optogenetics has emerged as a transformative technique in neuroscience, allowing researchers to control specific neural circuits with unprecedented precision using light-activated proteins. This technology has revolutionized our understanding of brain function and holds promise for treating neurological disorders. However, significant challenges remain in translating optogenetic approaches from laboratory models to clinical applications, including delivery methods, long-term safety, and the complexity of human neural networks.",
+    "question_text": "Which choice best describes the function of the final sentence in the overall structure of the text?",
+    "options": [
+      "It provides technical details about optogenetic procedures",
+      "It acknowledges implementation challenges despite the technology's promise",
+      "It dismisses the potential clinical applications of optogenetics",
+      "It compares optogenetics with other neuroscience techniques"
+    ],
+    "correct_answer": 1
+  },
+  {
+    "_id": "45",
+    "question_number": 45,
+    "practice_set": "5",
+    "category": "English: Cross-Text Connections",
+    "difficulty": "Hard",
+    "time_estimate": 82,
+    "passage": "Text 1:\nNanotechnology enables the manipulation of matter at the atomic and molecular scale, offering revolutionary applications in medicine, electronics, and materials science.\n\nText 2:\nConcerns about nanotechnology include potential environmental and health risks from nanoparticles, ethical questions about human enhancement, and the need for comprehensive regulatory frameworks.",
+    "question_text": "Based on both texts, what perspective on nanotechnology emerges?",
+    "options": [
+      "It represents a promising field that requires careful risk assessment and regulation",
+      "Its risks clearly outweigh any potential benefits",
+      "It should be developed without regulatory constraints to maximize innovation",
+      "Its applications are limited to specific scientific disciplines"
+    ],
+    "correct_answer": 0
+  },
+  {
+    "_id": "46",
+    "question_number": 46,
+    "practice_set": "5",
+    "category": "Math: Advanced Algebra",
+    "difficulty": "Hard",
+    "time_estimate": 82,
+    "passage": "",
+    "question_text": "If (x + 2)³ = 64, what are all possible values of x?",
+    "options": [],
+    "correct_answer": 2,
+    "answer_type": "fill_in_the_blank"
+  },
+  {
+    "_id": "47",
+    "question_number": 47,
+    "practice_set": "5",
+    "category": "Math: Polynomial Functions",
+    "difficulty": "Hard",
+    "time_estimate": 82,
+    "passage": "",
+    "question_text": "What is the remainder when x⁴ - 3x³ + 2x² - x + 5 is divided by (x - 2)?",
+    "options": [
+      "3",
+      "5",
+      "7",
+      "9"
+    ],
+    "correct_answer": 2
+  },
+  {
+    "_id": "48",
+    "question_number": 48,
+    "practice_set": "5",
+    "category": "Math: Conic Sections",
+    "difficulty": "Hard",
+    "time_estimate": 82,
+    "passage": "",
+    "question_text": "What is the equation of the ellipse with center (2, -1), major axis length 10, and minor axis length 6?",
+    "options": [],
+    "correct_answer": "(x-2)²/25 + (y+1)²/9 = 1",
+    "answer_type": "fill_in_the_blank"
+  },
+  {
+    "_id": "49",
+    "question_number": 49,
+    "practice_set": "5",
+    "category": "Math: Combinatorics",
+    "difficulty": "Hard",
+    "time_estimate": 82,
+    "passage": "",
+    "question_text": "In how many ways can 8 people be arranged in a circle if 2 specific people must sit together?",
+    "options": [
+      "1440",
+      "2880",
+      "5040",
+      "10080"
+    ],
+    "correct_answer": 0
+  },
+  {
+    "_id": "50",
+    "question_number": 50,
+    "practice_set": "5",
+    "category": "Math: Mathematical Reasoning",
+    "difficulty": "Hard",
+    "time_estimate": 82,
+    "passage": "",
+    "question_text": "If the sum of the first n positive integers is 210, what is the value of n?",
+    "options": [],
+    "correct_answer": 20,
+    "answer_type": "fill_in_the_blank"
+  },
+  {
+    "_id": "51",
+    "question_number": 51,
+    "practice_set": "5",
+    "category": "English: Words in Context",
+    "difficulty": "Hard",
+    "time_estimate": 82,
+    "passage": "The researcher's _______ methodology challenged conventional approaches, introducing innovative techniques that fundamentally altered the field's trajectory.",
+    "question_text": "Which choice completes the text with the most logical and precise word or phrase?",
+    "options": [
+      "orthodox",
+      "iconoclastic",
+      "pedestrian",
+      "derivative"
+    ],
+    "correct_answer": 1
+  },
+  {
+    "_id": "52",
+    "question_number": 52,
+    "practice_set": "5",
+    "category": "English: Words in Context",
+    "difficulty": "Hard",
+    "time_estimate": 82,
+    "passage": "The critic's review was notably _______, offering neither effusive praise nor harsh condemnation but maintaining a carefully neutral stance throughout.",
+    "question_text": "Which choice completes the text with the most logical and precise word or phrase?",
+    "options": [
+      "vituperative",
+      "laudatory",
+      "equivocal",
+      "categorical"
+    ],
+    "correct_answer": 2
+  },
+  {
+    "_id": "53",
+    "question_number": 53,
+    "practice_set": "5",
+    "category": "English: Central Ideas and Details",
+    "difficulty": "Hard",
+    "time_estimate": 82,
+    "passage": "Bioengineering approaches to tissue regeneration combine principles from materials science, cell biology, and mechanical engineering to create scaffolds that guide the growth of new tissue. These scaffolds must be biocompatible, biodegradable, and possess mechanical properties that match the target tissue while providing appropriate biochemical cues for cellular differentiation and proliferation.",
+    "question_text": "According to the text, what are the essential requirements for tissue regeneration scaffolds?",
+    "options": [
+      "They must be permanent structures that provide long-term support",
+      "They need biocompatibility, biodegradability, and appropriate mechanical and biochemical properties",
+      "They should be made exclusively from synthetic materials",
+      "They require only mechanical strength without biological considerations"
+    ],
+    "correct_answer": 1
+  },
+  {
+    "_id": "54",
+    "question_number": 54,
+    "practice_set": "5",
+    "category": "English: Structure and Purpose",
+    "difficulty": "Hard",
+    "time_estimate": 82,
+    "passage": "Machine learning algorithms have demonstrated remarkable capabilities in pattern recognition, natural language processing, and predictive modeling across diverse domains. However, concerns about algorithmic bias, interpretability, and the potential for unintended consequences highlight the need for responsible AI development practices. The challenge lies in harnessing these powerful tools while ensuring they serve human welfare and maintain ethical standards.",
+    "question_text": "Which choice best describes the function of the final sentence in the overall structure of the text?",
+    "options": [
+      "It dismisses the importance of machine learning applications",
+      "It identifies the central challenge of balancing AI capabilities with ethical considerations",
+      "It provides technical specifications for algorithm development",
+      "It argues for abandoning machine learning research"
+    ],
+    "correct_answer": 1
+  },
+  {
+    "_id": "55",
+    "question_number": 55,
+    "practice_set": "5",
+    "category": "English: Textual Evidence",
+    "difficulty": "Hard",
+    "time_estimate": 82,
+    "passage": "A developmental psychologist claims that early exposure to multiple languages enhances cognitive flexibility and executive function in children.",
+    "question_text": "Which finding from a longitudinal study would best support the psychologist's claim?",
+    "options": [
+      "Children exposed to multiple languages before age 5 demonstrated 32% better performance on cognitive flexibility tasks and showed enhanced executive control compared to monolingual peers at age 10.",
+      "Multilingual education programs have expanded in urban school districts.",
+      "Parents in diverse communities value multilingual learning opportunities.",
+      "Language acquisition requires different cognitive processes at various developmental stages."
+    ],
+    "correct_answer": 0
+  },
+  {
+    "_id": "56",
+    "question_number": 56,
+    "practice_set": "5",
+    "category": "English: Quantitative Evidence",
+    "difficulty": "Hard",
+    "time_estimate": 82,
+    "passage": "A comprehensive analysis of urban forest initiatives found that cities with extensive tree canopy coverage experienced 4.1°C lower average temperatures, 45% reduction in stormwater runoff, and 38% improvement in air quality metrics. Additionally, property values in tree-rich neighborhoods increased by 15% compared to areas with minimal vegetation.",
+    "question_text": "Which choice most effectively uses the data to complete this statement: \"Urban forest initiatives\"",
+    "options": [
+      "primarily benefit property values rather than environmental conditions.",
+      "provide comprehensive environmental and economic benefits across multiple metrics.",
+      "work only in specific climate zones with adequate rainfall.",
+      "require prohibitive maintenance costs that outweigh their benefits."
+    ],
+    "correct_answer": 1
+  },
+  {
+    "_id": "57",
+    "question_number": 57,
+    "practice_set": "5",
+    "category": "English: Inferences",
+    "difficulty": "Hard",
+    "time_estimate": 82,
+    "passage": "Following the implementation of a comprehensive employee wellness program that included mental health resources, flexible scheduling, and fitness facilities, the corporation observed a 48% reduction in healthcare costs, 35% decrease in absenteeism, and 42% improvement in employee satisfaction scores. Productivity metrics increased by 28% while voluntary turnover dropped to historic lows.",
+    "question_text": "Based on the text, what can be inferred about comprehensive wellness programs?",
+    "options": [
+      "They are too expensive for most organizations to implement effectively",
+      "They create positive outcomes across health, satisfaction, and performance metrics",
+      "They benefit only certain categories of employees",
+      "They require external consultants to achieve meaningful results"
+    ],
+    "correct_answer": 1
+  },
+  {
+    "_id": "58",
+    "question_number": 58,
+    "practice_set": "5",
+    "category": "English: Cross-Text Connections",
+    "difficulty": "Hard",
+    "time_estimate": 82,
+    "passage": "Text 1:\nQuantum computing promises to solve certain computational problems exponentially faster than classical computers, potentially revolutionizing cryptography, drug discovery, and optimization.\n\nText 2:\nQuantum computing faces significant technical challenges including quantum decoherence, error rates, and the need for extremely low temperatures, making practical implementation complex and expensive.",
+    "question_text": "Based on both texts, what perspective on quantum computing emerges?",
+    "options": [
+      "It represents transformative potential that faces substantial technical implementation challenges",
+      "Its benefits are overstated and unlikely to materialize",
+      "It should be developed without regard to current technical limitations",
+      "Its applications are limited to theoretical research rather than practical use"
+    ],
+    "correct_answer": 0
+  },
+  {
+    "_id": "59",
+    "question_number": 59,
+    "practice_set": "5",
+    "category": "English: Punctuation",
+    "difficulty": "Hard",
+    "time_estimate": 82,
+    "passage": "The multidisciplinary research initiative examined several interconnected factors _______ genetic predisposition, environmental influences, lifestyle choices, and socioeconomic determinants.",
+    "question_text": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+    "options": [
+      "specifically:",
+      "specifically;",
+      "specifically,",
+      "specifically"
+    ],
+    "correct_answer": 0
+  },
+  {
+    "_id": "60",
+    "question_number": 60,
+    "practice_set": "5",
+    "category": "English: Number and Tense",
+    "difficulty": "Hard",
+    "time_estimate": 82,
+    "passage": "Neither the principal investigator nor her research collaborators _______ prepared for the paradigm-shifting implications of their experimental findings.",
+    "question_text": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+    "options": [
+      "were",
+      "was",
+      "are",
+      "is"
+    ],
+    "correct_answer": 1
+  },
+  {
+    "_id": "61",
+    "question_number": 61,
+    "practice_set": "5",
+    "category": "English: Sentence Structure and Organization",
+    "difficulty": "Hard",
+    "time_estimate": 82,
+    "passage": "The computational biologist _______ protein folding mechanisms using advanced molecular dynamics simulations, has identified novel therapeutic targets for neurodegenerative diseases.",
+    "question_text": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+    "options": [
+      "investigating",
+      ", who investigates",
+      "to investigate",
+      "investigates"
+    ],
+    "correct_answer": 1
+  },
+  {
+    "_id": "62",
+    "question_number": 62,
+    "practice_set": "5",
+    "category": "English: Transitions",
+    "difficulty": "Hard",
+    "time_estimate": 82,
+    "passage": "Preliminary data suggested the novel therapeutic approach would be highly effective with minimal adverse effects. _______, comprehensive phase III trials revealed significant complications that necessitated a fundamental reassessment of the treatment protocol.",
+    "question_text": "Which choice completes the text with the most logical transition?",
+    "options": [
+      "Similarly",
+      "Consequently",
+      "Conversely",
+      "Nevertheless"
+    ],
+    "correct_answer": 2
+  },
+  {
+    "_id": "63",
+    "question_number": 63,
+    "practice_set": "5",
+    "category": "English: Rhetorical Synthesis",
+    "difficulty": "Hard",
+    "time_estimate": 82,
+    "passage": "While researching a topic, a student has taken the following notes:\n\n• CRISPR-Cas9 is a revolutionary gene editing technology\n• It allows precise modification of DNA sequences in living cells\n• Applications include treating genetic diseases and improving crop resistance\n• Ethical concerns involve germline editing and potential unintended consequences\n• Regulatory frameworks are still developing worldwide\n• The technology has democratized genetic research\n• Cost and accessibility issues may create inequalities in treatment availability",
+    "question_text": "The student wants to present a balanced view of CRISPR technology's impact. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+    "options": [
+      "CRISPR-Cas9 represents a revolutionary gene editing technology with applications in medicine and agriculture.",
+      "While CRISPR has democratized genetic research and offers promising therapeutic applications, it raises significant ethical concerns and regulatory challenges.",
+      "Ethical concerns about CRISPR include germline editing and potential unintended consequences.",
+      "The cost and accessibility of CRISPR technology may create inequalities in treatment availability."
+    ],
+    "correct_answer": 1
+  },
+  {
+    "_id": "64",
+    "question_number": 64,
+    "practice_set": "5",
+    "category": "Math: Advanced Systems",
+    "difficulty": "Hard",
+    "time_estimate": 82,
+    "passage": "",
+    "question_text": "If 2x + 3y - z = 11, x - 2y + 4z = 7, and 3x + y - 2z = 5, what is the value of x² + y² + z²?",
+    "options": [],
+    "correct_answer": 14,
+    "answer_type": "fill_in_the_blank"
+  },
+  {
+    "_id": "65",
+    "question_number": 65,
+    "practice_set": "5",
+    "category": "Math: Complex Functions",
+    "difficulty": "Hard",
+    "time_estimate": 82,
+    "passage": "",
+    "question_text": "If f(x) = 3x³ - 2x² + 4x - 1 and g(x) = 2x - 3, what is f(g(2))?",
+    "options": [
+      "23",
+      "25",
+      "27",
+      "29"
+    ],
+    "correct_answer": 0
+  },
+  {
+    "_id": "66",
+    "question_number": 66,
+    "practice_set": "5",
+    "category": "Math: Advanced Geometry",
+    "difficulty": "Hard",
+    "time_estimate": 82,
+    "passage": "",
+    "question_text": "A regular octagon is inscribed in a circle with radius 10 units. What is the area of the octagon?",
+    "options": [],
+    "correct_answer": 282.84,
+    "answer_type": "fill_in_the_blank"
+  },
+  {
+    "_id": "67",
+    "question_number": 67,
+    "practice_set": "5",
+    "category": "Math: Exponential Equations",
+    "difficulty": "Hard",
+    "time_estimate": 82,
+    "passage": "",
+    "question_text": "If 3^(2x+1) = 9^(x-2), what is the value of x?",
+    "options": [
+      "-5",
+      "-4",
+      "-3",
+      "-2"
+    ],
+    "correct_answer": 0
+  },
+  {
+    "_id": "68",
+    "question_number": 68,
+    "practice_set": "5",
+    "category": "Math: Advanced Statistics",
+    "difficulty": "Hard",
+    "time_estimate": 82,
+    "passage": "",
+    "question_text": "In a binomial distribution with n = 20 and p = 0.3, what is the expected value and variance?",
+    "options": [],
+    "correct_answer": "E = 6, Var = 4.2",
+    "answer_type": "fill_in_the_blank"
+  },
+  {
+    "_id": "69",
+    "question_number": 69,
+    "practice_set": "5",
+    "category": "Math: Complex Word Problems",
+    "difficulty": "Hard",
+    "time_estimate": 82,
+    "passage": "",
+    "question_text": "A company's profit P (in thousands) is modeled by P(x) = -2x² + 16x - 24, where x is the number of units produced (in hundreds). What production level maximizes profit?",
+    "options": [],
+    "correct_answer": 400,
+    "answer_type": "fill_in_the_blank"
+  },
+  {
+    "_id": "70",
+    "question_number": 70,
+    "practice_set": "5",
+    "category": "Math: Advanced Coordinate Geometry",
+    "difficulty": "Hard",
+    "time_estimate": 82,
+    "passage": "",
+    "question_text": "What is the equation of the parabola with focus at (3, 2) and directrix y = -2?",
+    "options": [
+      "(x - 3)² = 8(y - 0)",
+      "(x - 3)² = 16(y - 0)",
+      "(x - 3)² = 8(y + 2)",
+      "(x - 3)² = 16(y + 2)"
+    ],
+    "correct_answer": 1
+  },
+  {
+    "_id": "71",
+    "question_number": 71,
+    "practice_set": "5",
+    "category": "Math: Advanced Probability",
+    "difficulty": "Hard",
+    "time_estimate": 82,
+    "passage": "",
+    "question_text": "A bag contains 6 red balls, 4 blue balls, and 5 green balls. If 4 balls are drawn without replacement, what is the probability that exactly 2 are red?",
+    "options": [],
+    "correct_answer": 0.3297,
+    "answer_type": "fill_in_the_blank"
+  },
+  {
+    "_id": "72",
+    "question_number": 72,
+    "practice_set": "5",
+    "category": "Math: Advanced Sequences",
+    "difficulty": "Hard",
+    "time_estimate": 82,
+    "passage": "",
+    "question_text": "In a geometric series, the first term is 3, and the sum of the first 6 terms is 189. What is the common ratio?",
+    "options": [
+      "2",
+      "3",
+      "4",
+      "5"
+    ],
+    "correct_answer": 0
+  },
+  {
+    "_id": "73",
+    "question_number": 73,
+    "practice_set": "5",
+    "category": "Math: Advanced Trigonometry",
+    "difficulty": "Hard",
+    "time_estimate": 82,
+    "passage": "",
+    "question_text": "If cos(θ) = -4/5 and θ is in the third quadrant, what is the value of sin(2θ)?",
+    "options": [],
+    "correct_answer": 0.48,
+    "answer_type": "fill_in_the_blank"
+  },
+  {
+    "_id": "74",
+    "question_number": 74,
+    "practice_set": "5",
+    "category": "Math: Matrix Operations",
+    "difficulty": "Hard",
+    "time_estimate": 82,
+    "passage": "",
+    "question_text": "What is the inverse of the matrix [[2, 1], [3, 2]]?",
+    "options": [
+      "[[2, -1], [-3, 2]]",
+      "[[-2, 1], [3, -2]]",
+      "[[2, -1], [-3, 2]]",
+      "[[-2, 1], [3, -2]]"
+    ],
+    "correct_answer": 0
+  },
+  {
+    "_id": "75",
+    "question_number": 75,
+    "practice_set": "5",
+    "category": "Math: Advanced Calculus",
+    "difficulty": "Hard",
+    "time_estimate": 82,
+    "passage": "",
+    "question_text": "What is the second derivative of f(x) = x⁴ - 6x³ + 9x² - 4x + 1?",
+    "options": [],
+    "correct_answer": "12x² - 36x + 18",
+    "answer_type": "fill_in_the_blank"
+  },
+  {
+    "_id": "76",
+    "question_number": 76,
+    "practice_set": "5",
+    "category": "English: Words in Context",
+    "difficulty": "Hard",
+    "time_estimate": 82,
+    "passage": "The economist's analysis was praised for its _______ approach, integrating multiple theoretical frameworks to provide a comprehensive understanding of market dynamics.",
+    "question_text": "Which choice completes the text with the most logical and precise word or phrase?",
+    "options": [
+      "reductive",
+      "holistic",
+      "superficial",
+      "narrow"
+    ],
+    "correct_answer": 1
+  },
+  {
+    "_id": "77",
+    "question_number": 77,
+    "practice_set": "5",
+    "category": "English: Central Ideas and Details",
+    "difficulty": "Hard",
+    "time_estimate": 82,
+    "passage": "Swarm intelligence emerges from the collective behavior of decentralized, self-organized systems, typically consisting of a population of simple agents interacting locally with one another and their environment. This phenomenon, observed in ant colonies, bee swarms, and bird flocks, has inspired algorithms for solving complex optimization problems in computer science and robotics.",
+    "question_text": "According to the text, what characterizes swarm intelligence?",
+    "options": [
+      "It requires centralized control and complex individual agents",
+      "It emerges from simple agents interacting locally without central coordination",
+      "It can only be observed in biological systems",
+      "It is limited to solving simple computational problems"
+    ],
+    "correct_answer": 1
+  },
+  {
+    "_id": "78",
+    "question_number": 78,
+    "practice_set": "5",
+    "category": "English: Structure and Purpose",
+    "difficulty": "Hard",
+    "time_estimate": 82,
+    "passage": "Personalized medicine represents a paradigm shift from the traditional one-size-fits-all approach to healthcare, utilizing individual genetic, environmental, and lifestyle information to tailor treatments. This approach has shown remarkable success in oncology and rare diseases, where targeted therapies have dramatically improved patient outcomes. However, implementing personalized medicine broadly faces challenges including cost, data privacy concerns, and the need for sophisticated healthcare infrastructure.",
+    "question_text": "Which choice best describes the structure of the text?",
+    "options": [
+      "It defines personalized medicine, highlights its successes, then acknowledges implementation challenges",
+      "It argues against the adoption of personalized medicine approaches",
+      "It provides technical details about genetic testing procedures",
+      "It compares personalized medicine with traditional pharmaceutical research"
+    ],
+    "correct_answer": 0
+  },
+  {
+    "_id": "79",
+    "question_number": 79,
+    "practice_set": "5",
+    "category": "English: Textual Evidence",
+    "difficulty": "Hard",
+    "time_estimate": 82,
+    "passage": "A neuroscientist argues that meditation practice leads to measurable changes in brain structure and function that enhance cognitive performance.",
+    "question_text": "Which finding from a neuroimaging study would best support the scientist's argument?",
+    "options": [
+      "Participants who meditated for 8 weeks showed increased gray matter density in areas associated with attention and emotional regulation, along with improved performance on cognitive flexibility tasks.",
+      "Meditation practices vary significantly across different cultural traditions.",
+      "Many people report feeling more relaxed after meditation sessions.",
+      "Meditation apps have become increasingly popular among smartphone users."
+    ],
+    "correct_answer": 0
+  },
+  {
+    "_id": "80",
+    "question_number": 80,
+    "practice_set": "5",
+    "category": "English: Quantitative Evidence",
+    "difficulty": "Hard",
+    "time_estimate": 82,
+    "passage": "A comprehensive study of renewable energy adoption found that regions with supportive policy frameworks achieved 65% renewable electricity generation, reduced carbon emissions by 42%, and created 35% more clean energy jobs compared to regions without such policies. Energy costs decreased by 18% while grid reliability improved by 25%.",
+    "question_text": "Which choice most effectively uses the data to complete this statement: \"Supportive renewable energy policies\"",
+    "options": [
+      "primarily benefit environmental outcomes rather than economic factors.",
+      "achieve comprehensive improvements across environmental, economic, and reliability metrics.",
+      "work only in regions with abundant natural renewable resources.",
+      "require substantial government investment that outweighs the benefits."
+    ],
+    "correct_answer": 1
+  },
+  {
+    "_id": "81",
+    "question_number": 81,
+    "practice_set": "5",
+    "category": "Math: Advanced Number Theory",
+    "difficulty": "Hard",
+    "time_estimate": 82,
+    "passage": "",
+    "question_text": "What is the least common multiple (LCM) of 84, 126, and 210?",
+    "options": [
+      "420",
+      "630",
+      "840",
+      "1260"
+    ],
+    "correct_answer": 1
+  },
+  {
+    "_id": "82",
+    "question_number": 82,
+    "practice_set": "5",
+    "category": "Math: Advanced Polynomial Functions",
+    "difficulty": "Hard",
+    "time_estimate": 82,
+    "passage": "",
+    "question_text": "If P(x) = x⁴ - 6x³ + 11x² - 6x + 1, what is P(2) + P(1/2)?",
+    "options": [],
+    "correct_answer": 1,
+    "answer_type": "fill_in_the_blank"
+  },
+  {
+    "_id": "83",
+    "question_number": 83,
+    "practice_set": "5",
+    "category": "Math: Advanced Conic Sections",
+    "difficulty": "Hard",
+    "time_estimate": 82,
+    "passage": "",
+    "question_text": "What is the equation of the hyperbola with center (1, -2), vertices at (1, 1) and (1, -5), and foci at (1, 3) and (1, -7)?",
+    "options": [],
+    "correct_answer": "(y+2)²/9 - (x-1)²/16 = 1",
+    "answer_type": "fill_in_the_blank"
+  },
+  {
+    "_id": "84",
+    "question_number": 84,
+    "practice_set": "5",
+    "category": "Math: Advanced Combinatorics",
+    "difficulty": "Hard",
+    "time_estimate": 82,
+    "passage": "",
+    "question_text": "In how many ways can the letters of the word MATHEMATICS be arranged if no two M's are adjacent?",
+    "options": [
+      "1,663,200",
+      "1,814,400",
+      "2,494,800",
+      "3,326,400"
+    ],
+    "correct_answer": 2
+  },
+  {
+    "_id": "85",
+    "question_number": 85,
+    "practice_set": "5",
+    "category": "Math: Advanced Optimization",
+    "difficulty": "Hard",
+    "time_estimate": 82,
+    "passage": "",
+    "question_text": "A rectangular box with a square base has a volume of 500 cubic units. What dimensions minimize the surface area?",
+    "options": [],
+    "correct_answer": "10 × 10 × 5",
+    "answer_type": "fill_in_the_blank"
+  },
+  {
+    "_id": "86",
+    "question_number": 86,
+    "practice_set": "5",
+    "category": "Math: Advanced Rational Functions",
+    "difficulty": "Hard",
+    "time_estimate": 82,
+    "passage": "",
+    "question_text": "What are the vertical asymptotes of f(x) = (x² - 4)/(x³ - 3x² - 4x + 12)?",
+    "options": [
+      "x = 2, x = 3",
+      "x = -2, x = 3",
+      "x = 2, x = -3",
+      "x = -2, x = -3"
+    ],
+    "correct_answer": 0
+  },
+  {
+    "_id": "87",
+    "question_number": 87,
+    "practice_set": "5",
+    "category": "Math: Advanced Parametric Equations",
+    "difficulty": "Hard",
+    "time_estimate": 82,
+    "passage": "",
+    "question_text": "Given x = 3cos(t) + 2 and y = 3sin(t) - 1, what is the Cartesian equation of this curve?",
+    "options": [],
+    "correct_answer": "(x-2)² + (y+1)² = 9",
+    "answer_type": "fill_in_the_blank"
+  },
+  {
+    "_id": "88",
+    "question_number": 88,
+    "practice_set": "5",
+    "category": "Math: Advanced Vector Operations",
+    "difficulty": "Hard",
+    "time_estimate": 82,
+    "passage": "",
+    "question_text": "What is the cross product of vectors u = (2, -1, 3) and v = (1, 2, -2)?",
+    "options": [
+      "(-4, 7, 5)",
+      "(4, -7, -5)",
+      "(-4, -7, 5)",
+      "(4, 7, -5)"
+    ],
+    "correct_answer": 0
+  },
+  {
+    "_id": "89",
+    "question_number": 89,
+    "practice_set": "5",
+    "category": "Math: Advanced Limits",
+    "difficulty": "Hard",
+    "time_estimate": 82,
+    "passage": "",
+    "question_text": "What is the limit of (x³ - 8)/(x - 2) as x approaches 2?",
+    "options": [],
+    "correct_answer": 12,
+    "answer_type": "fill_in_the_blank"
+  },
+  {
+    "_id": "90",
+    "question_number": 90,
+    "practice_set": "5",
+    "category": "English: Inferences",
+    "difficulty": "Hard",
+    "time_estimate": 82,
+    "passage": "A technology company's transition to a fully distributed workforce resulted in a 52% increase in employee productivity, 41% reduction in operational costs, and 38% improvement in work-life balance scores. Employee retention increased by 45% while the company expanded its talent pool globally, accessing expertise previously limited by geographic constraints.",
+    "question_text": "Based on the text, what can be inferred about distributed work models?",
+    "options": [
+      "They create challenges that outweigh their benefits",
+      "They provide advantages across productivity, cost, satisfaction, and talent acquisition",
+      "They work only for technology companies",
+      "They require significant technology investments that limit their viability"
+    ],
+    "correct_answer": 1
+  },
+  {
+    "_id": "91",
+    "question_number": 91,
+    "practice_set": "5",
+    "category": "English: Cross-Text Connections",
+    "difficulty": "Hard",
+    "time_estimate": 82,
+    "passage": "Text 1:\nBrain-computer interfaces (BCIs) offer revolutionary potential for treating paralysis, depression, and other neurological conditions by directly translating neural signals into digital commands.\n\nText 2:\nBCI technology raises profound ethical questions about mental privacy, cognitive enhancement, and the potential for creating new forms of inequality between enhanced and unenhanced individuals.",
+    "question_text": "Based on both texts, what perspective on brain-computer interfaces emerges?",
+    "options": [
+      "They represent promising medical technology that requires careful ethical consideration",
+      "Their risks clearly outweigh any potential therapeutic benefits",
+      "They should be developed rapidly without ethical constraints",
+      "Their applications are limited to treating severe medical conditions"
+    ],
+    "correct_answer": 0
+  },
+  {
+    "_id": "92",
+    "question_number": 92,
+    "practice_set": "5",
+    "category": "English: Rhetorical Synthesis",
+    "difficulty": "Hard",
+    "time_estimate": 82,
+    "passage": "While researching a topic, a student has taken the following notes:\n\n• Photosynthesis converts light energy into chemical energy in plants\n• Artificial photosynthesis mimics this process using synthetic materials\n• Applications include producing hydrogen fuel and reducing atmospheric CO2\n• Current artificial systems have low efficiency compared to natural photosynthesis\n• Research focuses on improving light absorption and catalyst performance\n• Successful implementation could address energy and climate challenges\n• Commercial viability remains years away due to technical hurdles",
+    "question_text": "The student wants to present the current state and future potential of artificial photosynthesis research. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+    "options": [
+      "Artificial photosynthesis mimics natural photosynthesis using synthetic materials to produce hydrogen fuel.",
+      "While artificial photosynthesis currently has low efficiency and faces technical hurdles, successful development could provide solutions for energy production and climate change.",
+      "Research on artificial photosynthesis focuses on improving light absorption and catalyst performance.",
+      "Commercial viability of artificial photosynthesis remains years away due to current technical limitations."
+    ],
+    "correct_answer": 1
+  },
+  {
+    "_id": "93",
+    "question_number": 93,
+    "practice_set": "5",
+    "category": "English: Words in Context",
+    "difficulty": "Hard",
+    "time_estimate": 82,
+    "passage": "The author's narrative technique was characterized by its _______ structure, weaving together multiple timelines and perspectives with such skill that readers never felt disoriented despite the complexity.",
+    "question_text": "Which choice completes the text with the most logical and precise word or phrase?",
+    "options": [
+      "labyrinthine",
+      "coherent",
+      "fragmented",
+      "linear"
+    ],
+    "correct_answer": 1
+  },
+  {
+    "_id": "94",
+    "question_number": 94,
+    "practice_set": "5",
+    "category": "English: Central Ideas and Details",
+    "difficulty": "Hard",
+    "time_estimate": 82,
+    "passage": "Computational fluid dynamics (CFD) uses numerical analysis and algorithms to solve and analyze problems involving fluid flows. By discretizing the governing equations of fluid motion into algebraic equations, CFD enables engineers to predict how fluids behave in complex geometries and under various conditions, revolutionizing fields from aerospace design to weather prediction.",
+    "question_text": "According to the text, how does computational fluid dynamics work?",
+    "options": [
+      "It uses physical models to simulate fluid behavior in laboratory conditions",
+      "It converts fluid motion equations into solvable algebraic equations through numerical methods",
+      "It relies on direct observation of fluid flows in natural environments",
+      "It applies only to simple geometric shapes and basic flow conditions"
+    ],
+    "correct_answer": 1
+  },
+  {
+    "_id": "95",
+    "question_number": 95,
+    "practice_set": "5",
+    "category": "Math: Advanced Integration",
+    "difficulty": "Hard",
+    "time_estimate": 82,
+    "passage": "",
+    "question_text": "What is the definite integral of x²e^x from 0 to 1? (Round to 3 decimal places)",
+    "options": [],
+    "correct_answer": 0.718,
+    "answer_type": "fill_in_the_blank"
+  },
+  {
+    "_id": "96",
+    "question_number": 96,
+    "practice_set": "5",
+    "category": "Math: Advanced Series",
+    "difficulty": "Hard",
+    "time_estimate": 82,
+    "passage": "",
+    "question_text": "What is the sum of the infinite series 1 + 1/4 + 1/16 + 1/64 + ...?",
+    "options": [
+      "4/3",
+      "5/4",
+      "3/2",
+      "5/3"
+    ],
+    "correct_answer": 0
+  },
+  {
+    "_id": "97",
+    "question_number": 97,
+    "practice_set": "5",
+    "category": "Math: Advanced Differential Equations",
+    "difficulty": "Hard",
+    "time_estimate": 82,
+    "passage": "",
+    "question_text": "What is the general solution to the differential equation dy/dx = 2xy?",
+    "options": [],
+    "correct_answer": "y = Ce^(x²)",
+    "answer_type": "fill_in_the_blank"
+  },
+  {
+    "_id": "98",
+    "question_number": 98,
+    "practice_set": "5",
+    "category": "English: Structure and Purpose",
+    "difficulty": "Hard",
+    "time_estimate": 82,
+    "passage": "Synthetic biology represents the convergence of engineering principles with biological systems, enabling the design and construction of new biological parts, devices, and systems for useful purposes. This field has produced remarkable innovations including engineered microorganisms that produce pharmaceuticals, biological sensors for environmental monitoring, and synthetic circuits that can perform logical operations within living cells. However, the power to redesign life itself raises profound questions about safety, ethics, and the potential consequences of releasing engineered organisms into the environment.",
+    "question_text": "Which choice best describes the function of the final sentence in the overall structure of the text?",
+    "options": [
+      "It provides additional examples of synthetic biology applications",
+      "It acknowledges the serious considerations that accompany the field's capabilities",
+      "It dismisses the importance of synthetic biology research",
+      "It explains the technical processes involved in biological engineering"
+    ],
+    "correct_answer": 1
+  }
+]

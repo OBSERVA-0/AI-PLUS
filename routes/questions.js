@@ -19,8 +19,8 @@ const validateGetQuestions = [
     .withMessage('Invalid test type'),
   query('practiceSet')
     .optional()
-    .isIn(['1', '2', '3','4', '5', '6', '7', '8', '9','10', '11', '12', '13', '14', '15', '16', '17', '18', 'diagnostic'])
-    .withMessage('Practice set must be 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, or diagnostic'),
+    .isIn(['1', '2', '3','4', '5', '6', '7', '8', '9','10', '11', '12', '13', '14', '15', '16', '17', '18', '19', '20', '21', '22', '23', '24', '25', 'diagnostic'])
+    .withMessage('Practice set must be 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, or diagnostic'),
   query('sectionType')
     .optional()
     .matches(/^(full|ela|math|g[3-8](ela|math)?)$/)
@@ -33,8 +33,8 @@ const validateSubmitAnswers = [
     .withMessage('Invalid test type'),
   body('practiceSet')
     .optional()
-    .isIn(['1', '2', '3','4', '5', '6', '7', '8', '9','10', '11', '12', '13', '14', '15', '16', '17', '18', 'diagnostic'])
-    .withMessage('Practice set must be 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, or diagnostic'),
+    .isIn(['1', '2', '3','4', '5', '6', '7', '8', '9','10', '11', '12', '13', '14', '15', '16', '17', '18', '19', '20', '21', '22', '23', '24', '25', 'diagnostic'])
+    .withMessage('Practice set must be 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, or diagnostic'),
   body('answers')
     .isArray()
     .withMessage('Answers must be an array'),
