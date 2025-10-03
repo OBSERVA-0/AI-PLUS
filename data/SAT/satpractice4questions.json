@@ -1,0 +1,1528 @@
+[
+  {
+    "_id": "1",
+    "question_text": "Which choice completes the text with the most logical and precise word or phrase?",
+    "passage": "The startup's approach to innovation was remarkably _______, as they consistently challenged conventional wisdom and developed solutions that disrupted entire industries.",
+    "options": [
+      "conservative",
+      "iconoclastic", 
+      "derivative",
+      "predictable"
+    ],
+    "correct_answer": 1,
+    "difficulty": "Medium",
+    "category": "English: Words in Context",
+    "time_estimate": 82,
+    "question_number": 1,
+    "practice_set": "4"
+  },
+  {
+    "_id": "2",
+    "question_text": "Which choice completes the text with the most logical and precise word or phrase?",
+    "passage": "Climate scientists have observed that rising ocean temperatures are causing coral reefs to undergo bleaching events with increasing frequency. This phenomenon occurs when corals _______ the symbiotic algae that provide them with nutrients and vibrant colors.",
+    "options": [
+      "cultivate",
+      "expel",
+      "attract",
+      "nourish"
+    ],
+    "correct_answer": 1,
+    "difficulty": "Easy",
+    "category": "English: Words in Context",
+    "time_estimate": 82,
+    "question_number": 2,
+    "practice_set": "4"
+  },
+  {
+    "_id": "3",
+    "question_text": "Which choice completes the text with the most logical and precise word or phrase?",
+    "passage": "The archaeologist's discovery of intact pottery shards was particularly _______ because previous excavations in the region had yielded only fragmentary remains that provided limited insight into ancient daily life.",
+    "options": [
+      "mundane",
+      "fortuitous",
+      "problematic",
+      "anticipated"
+    ],
+    "correct_answer": 1,
+    "difficulty": "Hard",
+    "category": "English: Words in Context",
+    "time_estimate": 82,
+    "question_number": 3,
+    "practice_set": "4"
+  },
+  {
+    "_id": "4",
+    "question_text": "Which choice completes the text with the most logical and precise word or phrase?",
+    "passage": "The documentary filmmaker's style is characterized by its _______ approach to storytelling, weaving together multiple perspectives and timelines to create a complex narrative that challenges viewers' assumptions.",
+    "options": [
+      "linear",
+      "simplistic",
+      "multifaceted",
+      "conventional"
+    ],
+    "correct_answer": 2,
+    "difficulty": "Medium",
+    "category": "English: Words in Context",
+    "time_estimate": 82,
+    "question_number": 4,
+    "practice_set": "4"
+  },
+  {
+    "_id": "5",
+    "question_text": "Which choice best states the main purpose of the text?",
+    "passage": "The following text is adapted from Zora Neale Hurston's 1937 novel Their Eyes Were Watching God.\n\nSo Janie waited a bloom time, and a green time and an orange time. But when the pollen again gilded the sun and sifted down on the world she began to stand around the gate and expect things. What things? She didn't know exactly. Her breath was gusty and short. She knew things that nobody had ever told her. For instance, the words of the trees and the wind. She often spoke to falling seeds and said, 'Ah hope you fall on soft ground,' because she had heard seeds saying that to each other as they passed.",
+    "options": [
+      "To describe the changing seasons in a rural setting",
+      "To illustrate a character's growing awareness and connection to nature",
+      "To explain the agricultural practices of a particular region",
+      "To demonstrate the importance of patience in achieving goals"
+    ],
+    "correct_answer": 1,
+    "difficulty": "Medium",
+    "category": "English: Structure and Purpose",
+    "time_estimate": 82,
+    "question_number": 5,
+    "practice_set": "4"
+  },
+  {
+    "_id": "6",
+    "question_text": "Which choice best describes the function of the underlined sentence in the text as a whole?",
+    "passage": "Artificial intelligence has transformed numerous industries, from healthcare to finance to transportation. Machine learning algorithms can now diagnose diseases with remarkable accuracy, detect fraudulent transactions in real-time, and enable autonomous vehicles to navigate complex traffic scenarios. <u>However, as AI systems become more sophisticated, concerns about privacy, job displacement, and algorithmic bias have intensified.</u> Addressing these challenges will require careful collaboration between technologists, policymakers, and ethicists to ensure that AI development serves the broader public interest.",
+    "options": [
+      "It provides specific examples of AI applications across different sectors",
+      "It introduces potential negative consequences that balance the positive aspects mentioned earlier",
+      "It explains the technical mechanisms behind machine learning algorithms",
+      "It proposes concrete solutions to the problems created by AI advancement"
+    ],
+    "correct_answer": 1,
+    "difficulty": "Medium",
+    "category": "English: Structure and Purpose",
+    "time_estimate": 82,
+    "question_number": 6,
+    "practice_set": "4"
+  },
+  {
+    "_id": "7",
+    "question_text": "According to the text, what is the primary reason for the decline in bee populations?",
+    "passage": "Bee populations worldwide have experienced dramatic declines over the past two decades, a phenomenon that scientists attribute to a combination of factors. Pesticide use, particularly neonicotinoids, has been shown to impair bees' navigation abilities and weaken their immune systems. Additionally, habitat loss due to urbanization and intensive agriculture has reduced the availability of diverse flowering plants that bees depend on for nutrition. Climate change has further disrupted flowering schedules, creating mismatches between when bees emerge and when their food sources are available.",
+    "options": [
+      "Climate change is the sole cause of bee population decline",
+      "Multiple interconnected factors contribute to the decline",
+      "Urbanization is the primary threat to bee survival",
+      "Pesticides are the only significant factor affecting bees"
+    ],
+    "correct_answer": 1,
+    "difficulty": "Easy",
+    "category": "English: Central Ideas and Details",
+    "time_estimate": 82,
+    "question_number": 7,
+    "practice_set": "4"
+  },
+  {
+    "_id": "8",
+    "question_text": "Based on the text, how does the narrator view their relationship with technology?",
+    "passage": "The following text is adapted from a contemporary essay about digital life.\n\nI find myself caught between two worlds: the analog past of my childhood and the digital present of my adult life. My smartphone buzzes incessantly, demanding attention with each notification, yet I remember summer afternoons when the only sounds were cicadas and distant lawnmowers. I appreciate the convenience of instant communication and access to information, but I mourn the loss of sustained attention and deep contemplation that characterized pre-digital existence. This tension defines my daily experience—grateful for technology's benefits while yearning for the simplicity of a less connected time.",
+    "options": [
+      "Entirely positive and enthusiastic",
+      "Completely negative and resistant",
+      "Ambivalent, recognizing both benefits and drawbacks",
+      "Indifferent and detached"
+    ],
+    "correct_answer": 2,
+    "difficulty": "Medium",
+    "category": "English: Central Ideas and Details",
+    "time_estimate": 82,
+    "question_number": 8,
+    "practice_set": "4"
+  },
+  {
+    "_id": "9",
+    "question_text": "How does the analysis in Text 2 differ from the approach in Text 1?",
+    "passage": "Text 1:\nSocial media platforms have revolutionized how people connect and share information. These digital networks enable instant communication across vast distances, facilitate the formation of communities based on shared interests, and provide unprecedented access to diverse perspectives and real-time news updates.\n\nText 2:\nWhile social media offers connectivity benefits, research reveals concerning patterns in user behavior. Studies show increased rates of anxiety and depression among heavy social media users, particularly teenagers. The constant comparison with others' curated online personas creates unrealistic expectations and diminished self-esteem. Additionally, the spread of misinformation through these platforms poses significant threats to democratic discourse and public health.",
+    "options": [
+      "Text 2 focuses exclusively on technical features while Text 1 examines social impacts",
+      "Text 2 presents a more critical perspective by highlighting negative consequences",
+      "Text 2 provides historical context that Text 1 lacks",
+      "Text 2 offers solutions to problems while Text 1 only identifies benefits"
+    ],
+    "correct_answer": 1,
+    "difficulty": "Medium",
+    "category": "English: Cross-Text Connections",
+    "time_estimate": 82,
+    "question_number": 9,
+    "practice_set": "4"
+  },
+  {
+    "_id": "10",
+    "question_text": "Which quotation from a research study would best support the claim that urban green spaces improve mental health?",
+    "passage": "A public health researcher argues that increasing urban green spaces is essential for improving residents' mental well-being in densely populated cities.",
+    "options": [
+      "\"Urban parks provide recreational opportunities and increase property values in surrounding neighborhoods.\"",
+      "\"Residents living within 300 meters of green spaces showed 25% lower rates of anxiety and depression compared to those in areas without nearby parks.\"",
+      "\"Maintenance costs for urban green spaces vary significantly depending on the types of plants and landscaping features included.\"",
+      "\"Green spaces in cities help reduce air pollution and provide habitat for urban wildlife species.\""
+    ],
+    "correct_answer": 1,
+    "difficulty": "Easy",
+    "category": "English: Textual Evidence",
+    "time_estimate": 82,
+    "question_number": 10,
+    "practice_set": "4"
+  },
+  {
+    "_id": "11",
+    "question_text": "Which choice most effectively uses data from the graph to complete the example?",
+    "passage": "image:images/satpractice4question11.png\n\nRenewable energy adoption has accelerated dramatically in recent years, driven by declining costs and improved technology. Solar and wind power installations have grown exponentially, while traditional fossil fuel plants are being retired at an unprecedented rate. This transition demonstrates that ___________",
+    "options": [
+      "renewable energy costs have remained consistently higher than fossil fuels throughout the study period.",
+      "wind energy installations peaked in 2018 and have declined since then.",
+      "solar energy capacity increased by over 400% between 2015 and 2022.",
+      "fossil fuel capacity has grown at the same rate as renewable energy sources."
+    ],
+    "correct_answer": 2,
+    "difficulty": "Medium",
+    "category": "English: Quantitative Evidence",
+    "time_estimate": 82,
+    "question_number": 11,
+    "practice_set": "4"
+  },
+  {
+    "_id": "12",
+    "question_text": "Which choice most logically completes the text?",
+    "passage": "Neuroscientists studying brain plasticity have discovered that learning new languages creates additional neural pathways and strengthens cognitive flexibility. Adults who become bilingual later in life show improved executive function and enhanced problem-solving abilities. These findings suggest that ___________",
+    "options": [
+      "language learning is only beneficial during childhood development.",
+      "the brain's capacity for adaptation extends well beyond traditional critical periods.",
+      "monolingual individuals cannot develop strong cognitive abilities.",
+      "all forms of learning produce identical neurological changes."
+    ],
+    "correct_answer": 1,
+    "difficulty": "Medium",
+    "category": "English: Inferences",
+    "time_estimate": 82,
+    "question_number": 12,
+    "practice_set": "4"
+  },
+  {
+    "_id": "13",
+    "question_text": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+    "passage": "The research team's groundbreaking study on quantum computing _______ published in three prestigious journals simultaneously, marking a significant milestone in the field.",
+    "options": [
+      "were",
+      "was",
+      "have been",
+      "are"
+    ],
+    "correct_answer": 1,
+    "difficulty": "Easy",
+    "category": "English: Number and Tense",
+    "time_estimate": 82,
+    "question_number": 13,
+    "practice_set": "4"
+  },
+  {
+    "_id": "14",
+    "question_text": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+    "passage": "The museum's new exhibition features artifacts from ancient civilizations _______ pottery, jewelry, and ceremonial masks that provide insight into daily life thousands of years ago.",
+    "options": [
+      "including:",
+      "including;",
+      "including,",
+      "including"
+    ],
+    "correct_answer": 0,
+    "difficulty": "Medium",
+    "category": "English: Punctuation",
+    "time_estimate": 82,
+    "question_number": 14,
+    "practice_set": "4"
+  },
+  {
+    "_id": "15",
+    "question_text": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+    "passage": "The architect _______ sustainable building practices in all her designs, creates structures that minimize environmental impact while maximizing energy efficiency.",
+    "options": [
+      "who incorporates",
+      ", incorporating",
+      "incorporates",
+      "to incorporate"
+    ],
+    "correct_answer": 0,
+    "difficulty": "Hard",
+    "category": "English: Sentence Structure and Organization",
+    "time_estimate": 82,
+    "question_number": 15,
+    "practice_set": "4"
+  },
+  {
+    "_id": "16",
+    "question_text": "Which choice completes the text with the most logical transition?",
+    "passage": "Genetic engineering offers tremendous potential for treating inherited diseases and improving crop yields. _______, ethical concerns about modifying human DNA and creating genetically modified organisms require careful consideration and public dialogue.",
+    "options": [
+      "Similarly",
+      "However", 
+      "Therefore",
+      "Furthermore"
+    ],
+    "correct_answer": 1,
+    "difficulty": "Easy",
+    "category": "English: Transitions",
+    "time_estimate": 82,
+    "question_number": 16,
+    "practice_set": "4"
+  },
+  {
+    "_id": "17",
+    "question_text": "The student wants to emphasize the innovative nature of the artist's work. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+    "passage": "While researching a topic, a student has taken the following notes:\n\n• Frida Kahlo painted over 200 works during her career\n• She developed a unique style blending realism with surreal elements\n• Her self-portraits incorporated Mexican cultural symbols and personal experiences\n• She was one of the first artists to openly depict physical and emotional pain\n• Her work challenged traditional gender roles and beauty standards in art",
+    "options": [
+      "Frida Kahlo created over 200 paintings during her artistic career, many of which were self-portraits.",
+      "Frida Kahlo's unique artistic style blended realism with surreal elements while challenging traditional gender roles and beauty standards.",
+      "Frida Kahlo incorporated Mexican cultural symbols into her self-portraits, reflecting her heritage and personal experiences.",
+      "Frida Kahlo was among the first artists to openly depict physical and emotional pain in her artwork."
+    ],
+    "correct_answer": 1,
+    "difficulty": "Medium",
+    "category": "English: Rhetorical Synthesis",
+    "time_estimate": 82,
+    "question_number": 17,
+    "practice_set": "4"
+  },
+  {
+    "_id": "18",
+    "question_text": "The student wants to highlight the environmental benefits of the technology. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+    "passage": "While researching a topic, a student has taken the following notes:\n\n• Vertical farming uses 95% less water than traditional agriculture\n• Crops can be grown year-round in controlled environments\n• No pesticides or herbicides are needed in vertical farms\n• Vertical farms can produce 365 times more food per square foot than conventional farms\n• Transportation costs are reduced when farms are located in urban areas",
+    "options": [
+      "Vertical farming allows crops to be grown year-round in controlled environments, increasing food production reliability.",
+      "Vertical farming reduces transportation costs by locating food production facilities in urban areas near consumers.",
+      "Vertical farming uses 95% less water than traditional agriculture and eliminates the need for harmful pesticides and herbicides.",
+      "Vertical farms can produce 365 times more food per square foot than conventional farming methods."
+    ],
+    "correct_answer": 2,
+    "difficulty": "Easy",
+    "category": "English: Rhetorical Synthesis",
+    "time_estimate": 82,
+    "question_number": 18,
+    "practice_set": "4"
+  },
+  {
+    "_id": "19",
+    "question_text": "Which choice completes the text with the most logical and precise word or phrase?",
+    "passage": "The philosopher's argument was so _______ that even her harshest critics found themselves reconsidering their positions and acknowledging the validity of her reasoning.",
+    "options": [
+      "contentious",
+      "compelling",
+      "obscure",
+      "superficial"
+    ],
+    "correct_answer": 1,
+    "difficulty": "Medium",
+    "category": "English: Words in Context",
+    "time_estimate": 82,
+    "question_number": 19,
+    "practice_set": "4"
+  },
+  {
+    "_id": "20",
+    "question_text": "Which choice completes the text with the most logical and precise word or phrase?",
+    "passage": "The ancient manuscript's text had become nearly _______ over the centuries, requiring advanced imaging technology and careful restoration work to make the faded words legible once again.",
+    "options": [
+      "indecipherable",
+      "redundant",
+      "contemporary",
+      "accessible"
+    ],
+    "correct_answer": 0,
+    "difficulty": "Hard",
+    "category": "English: Words in Context",
+    "time_estimate": 82,
+    "question_number": 20,
+    "practice_set": "4"
+  },
+  {
+    "_id": "21",
+    "question_text": "Which choice best states the main purpose of the text?",
+    "passage": "Ocean acidification, often called the \"other CO2 problem,\" occurs when seawater absorbs carbon dioxide from the atmosphere, causing chemical changes that make the water more acidic. This process threatens marine ecosystems, particularly organisms that build shells and skeletons from calcium carbonate, such as corals, oysters, and certain types of plankton. As acidity levels increase, these creatures struggle to maintain their protective structures, potentially disrupting entire food webs and marine biodiversity.",
+    "options": [
+      "To explain the chemical process of carbon dioxide absorption in seawater",
+      "To describe how ocean acidification threatens marine life and ecosystems",
+      "To compare ocean acidification with other environmental problems",
+      "To propose solutions for reducing carbon dioxide emissions"
+    ],
+    "correct_answer": 1,
+    "difficulty": "Easy",
+    "category": "English: Structure and Purpose",
+    "time_estimate": 82,
+    "question_number": 21,
+    "practice_set": "4"
+  },
+  {
+    "_id": "22",
+    "question_text": "According to the text, what distinguishes CRISPR technology from previous gene-editing methods?",
+    "passage": "CRISPR-Cas9 technology has revolutionized genetic engineering by providing scientists with an unprecedented level of precision and efficiency in editing DNA. Unlike previous methods that were time-consuming, expensive, and often imprecise, CRISPR allows researchers to make targeted changes to specific genes with remarkable accuracy. This breakthrough has accelerated research in treating genetic diseases, improving crop resistance, and understanding fundamental biological processes.",
+    "options": [
+      "It is the first technology capable of editing genes",
+      "It offers greater precision, efficiency, and cost-effectiveness",
+      "It can only be used for treating genetic diseases",
+      "It requires less advanced laboratory equipment"
+    ],
+    "correct_answer": 1,
+    "difficulty": "Medium",
+    "category": "English: Central Ideas and Details",
+    "time_estimate": 82,
+    "question_number": 22,
+    "practice_set": "4"
+  },
+  {
+    "_id": "23",
+    "question_text": "Which finding from a study would most directly support the researcher's hypothesis?",
+    "passage": "A cognitive scientist hypothesizes that regular meditation practice enhances attention span and reduces mind-wandering during focused tasks.",
+    "options": [
+      "Meditation practitioners report feeling more relaxed and less stressed in their daily lives.",
+      "Brain scans show increased gray matter density in attention-related regions among long-term meditators.",
+      "Individuals who meditated for 8 weeks showed 40% improvement in sustained attention tasks compared to a control group.",
+      "Meditation classes are increasingly popular in schools and corporate wellness programs."
+    ],
+    "correct_answer": 2,
+    "difficulty": "Medium",
+    "category": "English: Textual Evidence",
+    "time_estimate": 82,
+    "question_number": 23,
+    "practice_set": "4"
+  },
+  {
+    "_id": "24",
+    "question_text": "Which choice most logically completes the text?",
+    "passage": "Archaeologists studying ancient trade routes have discovered that certain types of pottery found in widely separated regions share identical manufacturing techniques and decorative patterns. These artifacts suggest that ___________",
+    "options": [
+      "ancient civilizations developed similar technologies independently.",
+      "extensive trade networks connected distant cultures more than previously thought.",
+      "pottery was the primary form of currency in ancient times.",
+      "all ancient civilizations originated from a single location."
+    ],
+    "correct_answer": 1,
+    "difficulty": "Easy",
+    "category": "English: Inferences",
+    "time_estimate": 82,
+    "question_number": 24,
+    "practice_set": "4"
+  },
+  {
+    "_id": "25",
+    "question_text": "Based on both texts, what can be concluded about space exploration?",
+    "passage": "Text 1:\nSpace exploration has yielded numerous technological innovations that benefit life on Earth, including satellite communications, GPS navigation, weather forecasting, and medical devices. These spin-off technologies demonstrate that investments in space research generate valuable returns for society.\n\nText 2:\nCritics argue that the enormous costs of space exploration could be better allocated to addressing urgent terrestrial problems such as poverty, disease, and climate change. They contend that solving Earth's challenges should take priority over exploring distant planets and moons.",
+    "options": [
+      "Space exploration is universally supported by scientists and policymakers",
+      "The debate involves weighing potential benefits against opportunity costs and priorities",
+      "Space exploration has no practical applications for improving life on Earth",
+      "All space exploration funding should be redirected to social programs"
+    ],
+    "correct_answer": 1,
+    "difficulty": "Hard",
+    "category": "English: Cross-Text Connections",
+    "time_estimate": 82,
+    "question_number": 25,
+    "practice_set": "4"
+  },
+  {
+    "_id": "26",
+    "question_text": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+    "passage": "Neither the students nor the professor _______ prepared for the unexpected power outage that disrupted the final examination.",
+    "options": [
+      "were",
+      "was",
+      "are",
+      "is"
+    ],
+    "correct_answer": 1,
+    "difficulty": "Medium",
+    "category": "English: Number and Tense",
+    "time_estimate": 82,
+    "question_number": 26,
+    "practice_set": "4"
+  },
+  {
+    "_id": "27",
+    "question_text": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+    "passage": "The documentary explores three major environmental challenges _______ deforestation, ocean pollution, and species extinction.",
+    "options": [
+      "such as:",
+      "such as;",
+      "such as,",
+      "such as"
+    ],
+    "correct_answer": 0,
+    "difficulty": "Easy",
+    "category": "English: Punctuation",
+    "time_estimate": 82,
+    "question_number": 27,
+    "practice_set": "4"
+  },
+  {
+    "_id": "28",
+    "question_text": "If 4x - 7 = 21, what is the value of x?",
+    "passage": "",
+    "options": [
+      "3.5",
+      "7",
+      "14",
+      "28"
+    ],
+    "correct_answer": 1,
+    "difficulty": "Easy",
+    "category": "Math: Linear Equations",
+    "time_estimate": 82,
+    "question_number": 28,
+    "practice_set": "4"
+  },
+  {
+    "_id": "29",
+    "question_text": "If 3x + 2y = 16 and x - y = 2, what is the value of y?",
+    "passage": "",
+    "options": [],
+    "correct_answer": 2,
+    "answer_type": "fill_in_the_blank",
+    "difficulty": "Medium",
+    "category": "Math: Systems of Equations",
+    "time_estimate": 82,
+    "question_number": 29,
+    "practice_set": "4"
+  },
+  {
+    "_id": "30",
+    "question_text": "What is the vertex of the parabola y = -2(x + 1)² - 3?",
+    "passage": "",
+    "options": [
+      "(-1, -3)",
+      "(1, -3)",
+      "(-1, 3)",
+      "(1, 3)"
+    ],
+    "correct_answer": 0,
+    "difficulty": "Medium",
+    "category": "Math: Quadratic Functions",
+    "time_estimate": 82,
+    "question_number": 30,
+    "practice_set": "4"
+  },
+  {
+    "_id": "31",
+    "question_text": "A line passes through the points (-1, 4) and (3, 12). What is the slope of this line?",
+    "passage": "",
+    "options": [],
+    "correct_answer": 2,
+    "answer_type": "fill_in_the_blank",
+    "difficulty": "Easy",
+    "category": "Math: Linear Equations",
+    "time_estimate": 82,
+    "question_number": 31,
+    "practice_set": "4"
+  },
+  {
+    "_id": "32",
+    "question_text": "If 30% of a number is 24, what is 75% of that same number?",
+    "passage": "",
+    "options": [
+      "18",
+      "32",
+      "60",
+      "80"
+    ],
+    "correct_answer": 2,
+    "difficulty": "Medium",
+    "category": "Math: Percentages",
+    "time_estimate": 82,
+    "question_number": 32,
+    "practice_set": "4"
+  },
+  {
+    "_id": "33",
+    "question_text": "If f(x) = 2x² + 3x - 1, what is f(-2)?",
+    "passage": "",
+    "options": [],
+    "correct_answer": 1,
+    "answer_type": "fill_in_the_blank",
+    "difficulty": "Medium",
+    "category": "Math: Functions",
+    "time_estimate": 82,
+    "question_number": 33,
+    "practice_set": "4"
+  },
+  {
+    "_id": "34",
+    "question_text": "What is the area of a triangle with base 12 units and height 8 units?",
+    "passage": "",
+    "options": [
+      "20",
+      "48",
+      "96",
+      "192"
+    ],
+    "correct_answer": 1,
+    "difficulty": "Easy",
+    "category": "Math: Geometry",
+    "time_estimate": 82,
+    "question_number": 34,
+    "practice_set": "4"
+  },
+  {
+    "_id": "35",
+    "question_text": "The mean of six numbers is 15. If five of the numbers are 12, 14, 16, 18, and 20, what is the sixth number?",
+    "passage": "",
+    "options": [],
+    "correct_answer": 10,
+    "answer_type": "fill_in_the_blank",
+    "difficulty": "Medium",
+    "category": "Math: Statistics",
+    "time_estimate": 82,
+    "question_number": 35,
+    "practice_set": "4"
+  },
+  {
+    "_id": "36",
+    "question_text": "If 3^(x-1) = 81, what is the value of x?",
+    "passage": "",
+    "options": [
+      "3",
+      "4",
+      "5",
+      "6"
+    ],
+    "correct_answer": 2,
+    "difficulty": "Medium",
+    "category": "Math: Exponential Functions",
+    "time_estimate": 82,
+    "question_number": 36,
+    "practice_set": "4"
+  },
+  {
+    "_id": "37",
+    "question_text": "A train travels 180 miles in 3 hours. At this rate, how many miles will it travel in 5 hours?",
+    "passage": "",
+    "options": [],
+    "correct_answer": 300,
+    "answer_type": "fill_in_the_blank",
+    "difficulty": "Easy",
+    "category": "Math: Word Problems",
+    "time_estimate": 82,
+    "question_number": 37,
+    "practice_set": "4"
+  },
+  {
+    "_id": "38",
+    "question_text": "In a right triangle, if one angle measures 35°, what is the measure of the other non-right angle?",
+    "passage": "",
+    "options": [
+      "35°",
+      "45°",
+      "55°",
+      "65°"
+    ],
+    "correct_answer": 2,
+    "difficulty": "Easy",
+    "category": "Math: Geometry",
+    "time_estimate": 82,
+    "question_number": 38,
+    "practice_set": "4"
+  },
+  {
+    "_id": "39",
+    "question_text": "What is the value of |-12| - |5|?",
+    "passage": "",
+    "options": [],
+    "correct_answer": 7,
+    "answer_type": "fill_in_the_blank",
+    "difficulty": "Easy",
+    "category": "Math: Absolute Value",
+    "time_estimate": 82,
+    "question_number": 39,
+    "practice_set": "4"
+  },
+  {
+    "_id": "40",
+    "question_text": "In a geometric sequence, the first term is 4 and the common ratio is 2. What is the 6th term?",
+    "passage": "",
+    "options": [
+      "64",
+      "128",
+      "256",
+      "512"
+    ],
+    "correct_answer": 1,
+    "difficulty": "Medium",
+    "category": "Math: Sequences",
+    "time_estimate": 82,
+    "question_number": 40,
+    "practice_set": "4"
+  },
+  {
+    "_id": "41",
+    "question_text": "A box contains 4 red marbles, 6 blue marbles, and 5 green marbles. If one marble is drawn at random, what is the probability it is blue? Give answer as a fraction.",
+    "passage": "",
+    "options": [],
+    "correct_answer": "2/5",
+    "answer_type": "fill_in_the_blank",
+    "difficulty": "Easy",
+    "category": "Math: Probability",
+    "time_estimate": 82,
+    "question_number": 41,
+    "practice_set": "4"
+  },
+  {
+    "_id": "42",
+    "question_text": "What is the distance between the points (-2, 1) and (4, 9)?",
+    "passage": "",
+    "options": [
+      "8",
+      "10",
+      "12",
+      "14"
+    ],
+    "correct_answer": 1,
+    "difficulty": "Medium",
+    "category": "Math: Coordinate Geometry",
+    "time_estimate": 82,
+    "question_number": 42,
+    "practice_set": "4"
+  },
+  {
+    "_id": "43",
+    "question_text": "Solve for x: 3x - 8 ≥ 10",
+    "passage": "",
+    "options": [
+      "x ≥ 2",
+      "x ≥ 6",
+      "x ≥ 8",
+      "x ≥ 18"
+    ],
+    "correct_answer": 1,
+    "difficulty": "Easy",
+    "category": "Math: Inequalities",
+    "time_estimate": 82,
+    "question_number": 43,
+    "practice_set": "4"
+  },
+  {
+    "_id": "44",
+    "question_text": "If the ratio of cats to dogs in an animal shelter is 2:5, and there are 35 animals total, how many cats are there?",
+    "passage": "",
+    "options": [],
+    "correct_answer": 10,
+    "answer_type": "fill_in_the_blank",
+    "difficulty": "Medium",
+    "category": "Math: Ratios and Proportions",
+    "time_estimate": 82,
+    "question_number": 44,
+    "practice_set": "4"
+  },
+  {
+    "_id": "45",
+    "question_text": "For which value of k does the equation x² - 8x + k = 0 have exactly one solution?",
+    "passage": "",
+    "options": [
+      "8",
+      "12",
+      "16",
+      "64"
+    ],
+    "correct_answer": 2,
+    "difficulty": "Hard",
+    "category": "Math: Quadratic Functions",
+    "time_estimate": 82,
+    "question_number": 45,
+    "practice_set": "4"
+  },
+  {
+    "_id": "46",
+    "question_text": "A sphere has a radius of 3 units. What is its volume? (Use π ≈ 3.14)",
+    "passage": "",
+    "options": [],
+    "correct_answer": 113.04,
+    "answer_type": "fill_in_the_blank",
+    "difficulty": "Hard",
+    "category": "Math: Geometry",
+    "time_estimate": 82,
+    "question_number": 46,
+    "practice_set": "4"
+  },
+  {
+    "_id": "47",
+    "question_text": "What is the y-intercept of the line 2x + 5y = 20?",
+    "passage": "",
+    "options": [
+      "(0, 4)",
+      "(0, 10)",
+      "(4, 0)",
+      "(10, 0)"
+    ],
+    "correct_answer": 0,
+    "difficulty": "Medium",
+    "category": "Math: Linear Equations",
+    "time_estimate": 82,
+    "question_number": 47,
+    "practice_set": "4"
+  },
+  {
+    "_id": "48",
+    "question_text": "What is the mode of the dataset: 3, 7, 9, 7, 12, 7, 15, 9?",
+    "passage": "",
+    "options": [],
+    "correct_answer": 7,
+    "answer_type": "fill_in_the_blank",
+    "difficulty": "Easy",
+    "category": "Math: Statistics",
+    "time_estimate": 82,
+    "question_number": 48,
+    "practice_set": "4"
+  },
+  {
+    "_id": "49",
+    "question_text": "A laptop originally costs $800. After a 15% discount, what is the sale price?",
+    "passage": "",
+    "options": [
+      "$680",
+      "$700",
+      "$720",
+      "$740"
+    ],
+    "correct_answer": 0,
+    "difficulty": "Medium",
+    "category": "Math: Word Problems",
+    "time_estimate": 82,
+    "question_number": 49,
+    "practice_set": "4"
+  },
+  {
+    "_id": "50",
+    "question_text": "If h(x) = 3x + 2, what is h(h(1))?",
+    "passage": "",
+    "options": [],
+    "correct_answer": 17,
+    "answer_type": "fill_in_the_blank",
+    "difficulty": "Medium",
+    "category": "Math: Functions",
+    "time_estimate": 82,
+    "question_number": 50,
+    "practice_set": "4"
+  },
+  {
+    "_id": "51",
+    "question_text": "What is the circumference of a circle with diameter 14 units? (Use π ≈ 3.14)",
+    "passage": "",
+    "options": [
+      "21.98",
+      "43.96",
+      "87.92",
+      "153.86"
+    ],
+    "correct_answer": 1,
+    "difficulty": "Easy",
+    "category": "Math: Geometry",
+    "time_estimate": 82,
+    "question_number": 51,
+    "practice_set": "4"
+  },
+  {
+    "_id": "52",
+    "question_text": "If a population triples every 4 years, what is the growth factor per year? Round to the nearest hundredth.",
+    "passage": "",
+    "options": [],
+    "correct_answer": 1.32,
+    "answer_type": "fill_in_the_blank",
+    "difficulty": "Hard",
+    "category": "Math: Exponential Functions",
+    "time_estimate": 82,
+    "question_number": 52,
+    "practice_set": "4"
+  },
+  {
+    "_id": "53",
+    "question_text": "For what value of c does the system of equations have infinitely many solutions?\n\n3x + 6y = 12\nx + 2y = c",
+    "passage": "",
+    "options": [
+      "2",
+      "3",
+      "4",
+      "6"
+    ],
+    "correct_answer": 2,
+    "difficulty": "Hard",
+    "category": "Math: Systems of Equations",
+    "time_estimate": 82,
+    "question_number": 53,
+    "practice_set": "4"
+  },
+  {
+    "_id": "54",
+    "question_text": "What is the slope of the line parallel to the line y = 4x - 7?",
+    "passage": "",
+    "options": [],
+    "correct_answer": 4,
+    "answer_type": "fill_in_the_blank",
+    "difficulty": "Easy",
+    "category": "Math: Coordinate Geometry",
+    "time_estimate": 82,
+    "question_number": 54,
+    "practice_set": "4"
+  },
+  {
+    "_id": "55",
+    "question_text": "In a regular hexagon, what is the measure of each interior angle?",
+    "passage": "",
+    "options": [
+      "108°",
+      "120°",
+      "135°",
+      "144°"
+    ],
+    "correct_answer": 1,
+    "difficulty": "Medium",
+    "category": "Math: Geometry",
+    "time_estimate": 82,
+    "question_number": 55,
+    "practice_set": "4"
+  },
+  {
+    "_id": "56",
+    "question_text": "If you flip a fair coin three times, what is the probability of getting exactly two heads? Give answer as a fraction.",
+    "passage": "",
+    "options": [],
+    "correct_answer": "3/8",
+    "answer_type": "fill_in_the_blank",
+    "difficulty": "Medium",
+    "category": "Math: Probability",
+    "time_estimate": 82,
+    "question_number": 56,
+    "practice_set": "4"
+  },
+  {
+    "_id": "57",
+    "question_text": "What are the solutions to the equation x² + 2x - 15 = 0?",
+    "passage": "",
+    "options": [
+      "x = 3, x = -5",
+      "x = 5, x = -3",
+      "x = 15, x = -1",
+      "x = 1, x = -15"
+    ],
+    "correct_answer": 0,
+    "difficulty": "Medium",
+    "category": "Math: Quadratic Functions",
+    "time_estimate": 82,
+    "question_number": 57,
+    "practice_set": "4"
+  },
+  {
+    "_id": "58",
+    "question_text": "A recipe calls for 3/4 cup of sugar to make 24 cookies. How many cups of sugar are needed to make 32 cookies?",
+    "passage": "",
+    "options": [],
+    "correct_answer": 1,
+    "answer_type": "fill_in_the_blank",
+    "difficulty": "Medium",
+    "category": "Math: Word Problems",
+    "time_estimate": 82,
+    "question_number": 58,
+    "practice_set": "4"
+  },
+  {
+    "_id": "59",
+    "question_text": "In a standard deck of 52 cards, what is the probability of drawing a face card (Jack, Queen, or King)?",
+    "passage": "",
+    "options": [
+      "3/13",
+      "1/4",
+      "4/13",
+      "1/3"
+    ],
+    "correct_answer": 0,
+    "difficulty": "Easy",
+    "category": "Math: Probability",
+    "time_estimate": 82,
+    "question_number": 59,
+    "practice_set": "4"
+  },
+  {
+    "_id": "60",
+    "question_text": "What is the midpoint of the line segment connecting (-3, 5) and (7, -1)?",
+    "passage": "",
+    "options": [],
+    "correct_answer": "(2, 2)",
+    "answer_type": "fill_in_the_blank",
+    "difficulty": "Easy",
+    "category": "Math: Coordinate Geometry",
+    "time_estimate": 82,
+    "question_number": 60,
+    "practice_set": "4"
+  },
+  {
+    "_id": "61",
+    "question_text": "Solve for x: |3x + 6| = 15",
+    "passage": "",
+    "options": [
+      "x = 3 or x = -7",
+      "x = 5 or x = -5",
+      "x = 9 or x = -3",
+      "x = 7 or x = -3"
+    ],
+    "correct_answer": 0,
+    "difficulty": "Medium",
+    "category": "Math: Absolute Value",
+    "time_estimate": 82,
+    "question_number": 61,
+    "practice_set": "4"
+  },
+  {
+    "_id": "62",
+    "question_text": "In an arithmetic sequence, the first term is 7 and the common difference is 4. What is the 12th term?",
+    "passage": "",
+    "options": [],
+    "correct_answer": 51,
+    "answer_type": "fill_in_the_blank",
+    "difficulty": "Medium",
+    "category": "Math: Sequences",
+    "time_estimate": 82,
+    "question_number": 62,
+    "practice_set": "4"
+  },
+  {
+    "_id": "63",
+    "question_text": "What is the volume of a rectangular prism with length 6 units, width 4 units, and height 5 units?",
+    "passage": "",
+    "options": [
+      "60",
+      "120",
+      "240",
+      "480"
+    ],
+    "correct_answer": 1,
+    "difficulty": "Easy",
+    "category": "Math: Geometry",
+    "time_estimate": 82,
+    "question_number": 63,
+    "practice_set": "4"
+  },
+  {
+    "_id": "64",
+    "question_text": "Solve the compound inequality: -1 ≤ 2x + 3 ≤ 9",
+    "passage": "",
+    "options": [],
+    "correct_answer": "-2 ≤ x ≤ 3",
+    "answer_type": "fill_in_the_blank",
+    "difficulty": "Medium",
+    "category": "Math: Inequalities",
+    "time_estimate": 82,
+    "question_number": 64,
+    "practice_set": "4"
+  },
+  {
+    "_id": "65",
+    "question_text": "In a geometric sequence, the first term is 3 and the common ratio is 1/2. What is the sum of the first 5 terms?",
+    "passage": "",
+    "options": [
+      "93/16",
+      "189/32",
+      "93/8",
+      "189/16"
+    ],
+    "correct_answer": 0,
+    "difficulty": "Hard",
+    "category": "Math: Sequences",
+    "time_estimate": 82,
+    "question_number": 65,
+    "practice_set": "4"
+  },
+  {
+    "_id": "66",
+    "question_text": "If 5 pencils cost $2.25, how much do 12 pencils cost?",
+    "passage": "",
+    "options": [],
+    "correct_answer": 5.40,
+    "answer_type": "fill_in_the_blank",
+    "difficulty": "Easy",
+    "category": "Math: Word Problems",
+    "time_estimate": 82,
+    "question_number": 66,
+    "practice_set": "4"
+  },
+  {
+    "_id": "67",
+    "question_text": "If f(x) = x² - 4x + 3 and g(x) = 2x + 1, what is f(g(3))?",
+    "passage": "",
+    "options": [
+      "24",
+      "28",
+      "32",
+      "36"
+    ],
+    "correct_answer": 1,
+    "difficulty": "Hard",
+    "category": "Math: Functions",
+    "time_estimate": 82,
+    "question_number": 67,
+    "practice_set": "4"
+  },
+  {
+    "_id": "68",
+    "question_text": "What is the equation of the circle with center (-1, 4) and radius 6?",
+    "passage": "",
+    "options": [],
+    "correct_answer": "(x + 1)² + (y - 4)² = 36",
+    "answer_type": "fill_in_the_blank",
+    "difficulty": "Medium",
+    "category": "Math: Coordinate Geometry",
+    "time_estimate": 82,
+    "question_number": 68,
+    "practice_set": "4"
+  },
+  {
+    "_id": "69",
+    "question_text": "A cone has a radius of 5 units and a height of 12 units. What is its volume? (Use π ≈ 3.14)",
+    "passage": "",
+    "options": [
+      "314",
+      "628",
+      "942",
+      "1256"
+    ],
+    "correct_answer": 0,
+    "difficulty": "Hard",
+    "category": "Math: Geometry",
+    "time_estimate": 82,
+    "question_number": 69,
+    "practice_set": "4"
+  },
+  {
+    "_id": "70",
+    "question_text": "A population decreases by 12% each year. If the current population is 2,000, what will it be after 2 years? Round to the nearest whole number.",
+    "passage": "",
+    "options": [],
+    "correct_answer": 1549,
+    "answer_type": "fill_in_the_blank",
+    "difficulty": "Hard",
+    "category": "Math: Percentages",
+    "time_estimate": 82,
+    "question_number": 70,
+    "practice_set": "4"
+  },
+  {
+    "_id": "71",
+    "question_text": "What is the range of the dataset: 4, 8, 12, 6, 15, 3, 9?",
+    "passage": "",
+    "options": [
+      "8",
+      "12",
+      "15",
+      "18"
+    ],
+    "correct_answer": 1,
+    "difficulty": "Easy",
+    "category": "Math: Statistics",
+    "time_estimate": 82,
+    "question_number": 71,
+    "practice_set": "4"
+  },
+  {
+    "_id": "72",
+    "question_text": "If log₂(x) = 5, what is the value of x?",
+    "passage": "",
+    "options": [],
+    "correct_answer": 32,
+    "answer_type": "fill_in_the_blank",
+    "difficulty": "Medium",
+    "category": "Math: Exponential Functions",
+    "time_estimate": 82,
+    "question_number": 72,
+    "practice_set": "4"
+  },
+  {
+    "_id": "73",
+    "question_text": "A triangle has sides of length 8, 15, and 17 units. What type of triangle is this?",
+    "passage": "",
+    "options": [
+      "Acute",
+      "Right",
+      "Obtuse",
+      "Isosceles"
+    ],
+    "correct_answer": 1,
+    "difficulty": "Medium",
+    "category": "Math: Geometry",
+    "time_estimate": 82,
+    "question_number": 73,
+    "practice_set": "4"
+  },
+  {
+    "_id": "74",
+    "question_text": "If k(x) = 2x - 5, what is k⁻¹(7)?",
+    "passage": "",
+    "options": [],
+    "correct_answer": 6,
+    "answer_type": "fill_in_the_blank",
+    "difficulty": "Hard",
+    "category": "Math: Functions",
+    "time_estimate": 82,
+    "question_number": 74,
+    "practice_set": "4"
+  },
+  {
+    "_id": "75",
+    "question_text": "What is the x-intercept of the line 5x - 3y = 15?",
+    "passage": "",
+    "options": [
+      "(3, 0)",
+      "(5, 0)",
+      "(0, 3)",
+      "(0, 5)"
+    ],
+    "correct_answer": 0,
+    "difficulty": "Easy",
+    "category": "Math: Linear Equations",
+    "time_estimate": 82,
+    "question_number": 75,
+    "practice_set": "4"
+  },
+  {
+    "_id": "76",
+    "question_text": "In a normal distribution with mean 80 and standard deviation 5, approximately what percentage of data falls within two standard deviations of the mean?",
+    "passage": "",
+    "options": [],
+    "correct_answer": 95,
+    "answer_type": "fill_in_the_blank",
+    "difficulty": "Medium",
+    "category": "Math: Statistics",
+    "time_estimate": 82,
+    "question_number": 76,
+    "practice_set": "4"
+  },
+  {
+    "_id": "77",
+    "question_text": "A bag contains 3 red balls, 4 blue balls, and 5 green balls. If two balls are drawn without replacement, what is the probability that both balls are green? Give answer as a fraction.",
+    "passage": "",
+    "options": [
+      "5/33",
+      "10/33",
+      "5/36",
+      "25/144"
+    ],
+    "correct_answer": 0,
+    "difficulty": "Hard",
+    "category": "Math: Probability",
+    "time_estimate": 82,
+    "question_number": 77,
+    "practice_set": "4"
+  },
+  {
+    "_id": "78",
+    "question_text": "What is the surface area of a cube with edge length 4 units?",
+    "passage": "",
+    "options": [],
+    "correct_answer": 96,
+    "answer_type": "fill_in_the_blank",
+    "difficulty": "Medium",
+    "category": "Math: Geometry",
+    "time_estimate": 82,
+    "question_number": 78,
+    "practice_set": "4"
+  },
+  {
+    "_id": "79",
+    "question_text": "Solve for x: 2^(2x-1) = 16",
+    "passage": "",
+    "options": [
+      "2",
+      "2.5",
+      "3",
+      "3.5"
+    ],
+    "correct_answer": 1,
+    "difficulty": "Medium",
+    "category": "Math: Exponential Functions",
+    "time_estimate": 82,
+    "question_number": 79,
+    "practice_set": "4"
+  },
+  {
+    "_id": "80",
+    "question_text": "What is the standard deviation of the dataset: 2, 4, 6, 8, 10? Round to the nearest hundredth.",
+    "passage": "",
+    "options": [],
+    "correct_answer": 3.16,
+    "answer_type": "fill_in_the_blank",
+    "difficulty": "Hard",
+    "category": "Math: Statistics",
+    "time_estimate": 82,
+    "question_number": 80,
+    "practice_set": "4"
+  },
+  {
+    "_id": "81",
+    "question_text": "If sin(θ) = 3/5 and θ is in the first quadrant, what is cos(θ)?",
+    "passage": "",
+    "options": [
+      "3/4",
+      "4/5",
+      "5/4",
+      "5/3"
+    ],
+    "correct_answer": 1,
+    "difficulty": "Hard",
+    "category": "Math: Trigonometry",
+    "time_estimate": 82,
+    "question_number": 81,
+    "practice_set": "4"
+  },
+  {
+    "_id": "82",
+    "question_text": "What is the area of a sector of a circle with radius 8 units and central angle 45°? (Use π ≈ 3.14)",
+    "passage": "",
+    "options": [],
+    "correct_answer": 25.12,
+    "answer_type": "fill_in_the_blank",
+    "difficulty": "Hard",
+    "category": "Math: Geometry",
+    "time_estimate": 82,
+    "question_number": 82,
+    "practice_set": "4"
+  },
+  {
+    "_id": "83",
+    "question_text": "If f(x) = 3x + 1 and f(g(x)) = 9x + 4, what is g(x)?",
+    "passage": "",
+    "options": [
+      "g(x) = 3x + 1",
+      "g(x) = 3x - 1", 
+      "g(x) = x + 1",
+      "g(x) = 6x + 3"
+    ],
+    "correct_answer": 0,
+    "difficulty": "Hard",
+    "category": "Math: Functions",
+    "time_estimate": 82,
+    "question_number": 83,
+    "practice_set": "4"
+  },
+  {
+    "_id": "84",
+    "question_text": "A rectangular garden has a length that is 3 meters more than twice its width. If the perimeter is 36 meters, what is the width?",
+    "passage": "",
+    "options": [],
+    "correct_answer": 5,
+    "answer_type": "fill_in_the_blank",
+    "difficulty": "Medium",
+    "category": "Math: Word Problems",
+    "time_estimate": 82,
+    "question_number": 84,
+    "practice_set": "4"
+  },
+  {
+    "_id": "85",
+    "question_text": "What is the sum of the interior angles of a regular octagon?",
+    "passage": "",
+    "options": [
+      "1080°",
+      "1260°",
+      "1440°",
+      "1620°"
+    ],
+    "correct_answer": 0,
+    "difficulty": "Medium",
+    "category": "Math: Geometry",
+    "time_estimate": 82,
+    "question_number": 85,
+    "practice_set": "4"
+  },
+  {
+    "_id": "86",
+    "question_text": "If the probability of rain on any given day is 0.3, what is the probability that it will rain on exactly 2 out of 4 days? Round to the nearest thousandth.",
+    "passage": "",
+    "options": [],
+    "correct_answer": 0.265,
+    "answer_type": "fill_in_the_blank",
+    "difficulty": "Hard",
+    "category": "Math: Probability",
+    "time_estimate": 82,
+    "question_number": 86,
+    "practice_set": "4"
+  },
+  {
+    "_id": "87",
+    "question_text": "What is the equation of the line perpendicular to y = 2x + 3 that passes through the point (4, 1)?",
+    "passage": "",
+    "options": [
+      "y = -1/2x + 3",
+      "y = -1/2x - 1",
+      "y = 2x - 7",
+      "y = -2x + 9"
+    ],
+    "correct_answer": 0,
+    "difficulty": "Hard",
+    "category": "Math: Coordinate Geometry",
+    "time_estimate": 82,
+    "question_number": 87,
+    "practice_set": "4"
+  },
+  {
+    "_id": "88",
+    "question_text": "If matrix A = [2 3; 1 4] and matrix B = [5 1; 2 3], what is A + B?",
+    "passage": "",
+    "options": [],
+    "correct_answer": "[7 4; 3 7]",
+    "answer_type": "fill_in_the_blank",
+    "difficulty": "Medium",
+    "category": "Math: Matrices",
+    "time_estimate": 82,
+    "question_number": 88,
+    "practice_set": "4"
+  },
+  {
+    "_id": "89",
+    "question_text": "What is the length of the diagonal of a rectangle with length 9 units and width 12 units?",
+    "passage": "",
+    "options": [
+      "15",
+      "18",
+      "21",
+      "24"
+    ],
+    "correct_answer": 0,
+    "difficulty": "Easy",
+    "category": "Math: Geometry",
+    "time_estimate": 82,
+    "question_number": 89,
+    "practice_set": "4"
+  },
+  {
+    "_id": "90",
+    "question_text": "If log₃(x + 2) = 2, what is the value of x?",
+    "passage": "",
+    "options": [],
+    "correct_answer": 7,
+    "answer_type": "fill_in_the_blank",
+    "difficulty": "Medium",
+    "category": "Math: Exponential Functions",
+    "time_estimate": 82,
+    "question_number": 90,
+    "practice_set": "4"
+  },
+  {
+    "_id": "91",
+    "question_text": "A company's profit increases by 8% each quarter. If the current quarterly profit is $50,000, what will it be after 3 quarters? Round to the nearest dollar.",
+    "passage": "",
+    "options": [
+      "$62,985",
+      "$63,000", 
+      "$64,000",
+      "$65,000"
+    ],
+    "correct_answer": 0,
+    "difficulty": "Hard",
+    "category": "Math: Word Problems",
+    "time_estimate": 82,
+    "question_number": 91,
+    "practice_set": "4"
+  },
+  {
+    "_id": "92",
+    "question_text": "What is the coefficient of x² in the expansion of (2x - 3)³?",
+    "passage": "",
+    "options": [],
+    "correct_answer": -36,
+    "answer_type": "fill_in_the_blank",
+    "difficulty": "Hard",
+    "category": "Math: Polynomials",
+    "time_estimate": 82,
+    "question_number": 92,
+    "practice_set": "4"
+  },
+  {
+    "_id": "93",
+    "question_text": "In a right triangle, if the hypotenuse is 13 units and one leg is 5 units, what is the length of the other leg?",
+    "passage": "",
+    "options": [
+      "8",
+      "10",
+      "12",
+      "15"
+    ],
+    "correct_answer": 2,
+    "difficulty": "Easy",
+    "category": "Math: Geometry",
+    "time_estimate": 82,
+    "question_number": 93,
+    "practice_set": "4"
+  },
+  {
+    "_id": "94",
+    "question_text": "If f(x) = x³ - 2x² + x - 1, what is f'(2)?",
+    "passage": "",
+    "options": [],
+    "correct_answer": 5,
+    "answer_type": "fill_in_the_blank",
+    "difficulty": "Hard",
+    "category": "Math: Calculus",
+    "time_estimate": 82,
+    "question_number": 94,
+    "practice_set": "4"
+  },
+  {
+    "_id": "95",
+    "question_text": "What is the area of an equilateral triangle with side length 6 units? Round to the nearest hundredth.",
+    "passage": "",
+    "options": [
+      "15.59",
+      "18.00",
+      "20.78",
+      "25.98"
+    ],
+    "correct_answer": 0,
+    "difficulty": "Medium",
+    "category": "Math: Geometry",
+    "time_estimate": 82,
+    "question_number": 95,
+    "practice_set": "4"
+  },
+  {
+    "_id": "96",
+    "question_text": "If the sum of an infinite geometric series is 12 and the first term is 4, what is the common ratio?",
+    "passage": "",
+    "options": [],
+    "correct_answer": "2/3",
+    "answer_type": "fill_in_the_blank",
+    "difficulty": "Hard",
+    "category": "Math: Sequences",
+    "time_estimate": 82,
+    "question_number": 96,
+    "practice_set": "4"
+  },
+  {
+    "_id": "97",
+    "question_text": "A cylindrical tank has a radius of 4 feet and a height of 10 feet. How many gallons can it hold? (1 cubic foot ≈ 7.48 gallons, use π ≈ 3.14)",
+    "passage": "",
+    "options": [
+      "3,768",
+      "4,000",
+      "4,250",
+      "4,500"
+    ],
+    "correct_answer": 0,
+    "difficulty": "Hard",
+    "category": "Math: Word Problems",
+    "time_estimate": 82,
+    "question_number": 97,
+    "practice_set": "4"
+  },
+  {
+    "_id": "98",
+    "question_text": "What is the determinant of the matrix [3 2; 5 4]?",
+    "passage": "",
+    "options": [],
+    "correct_answer": 2,
+    "answer_type": "fill_in_the_blank",
+    "difficulty": "Medium",
+    "category": "Math: Matrices",
+    "time_estimate": 82,
+    "question_number": 98,
+    "practice_set": "4"
+  }
+]
