@@ -14,7 +14,7 @@
       "implying that discarded devices are often disposed of in an inappropriate manner.",
       "suggesting a feeling of doubt about solving the problem of discarded devices."
     ],
-    "correct_answer": null,
+    "correct_answer": 0,
     "answer_type": ""
   },
   {
@@ -32,7 +32,7 @@
       "Paragraph 2 cites statistics that support the claim about technology that is stated at the beginning of paragraph 1.",
       "Paragraph 2 expresses disapproval of the consumers who throw away the products that are discussed in paragraph 1."
     ],
-    "correct_answer": null,
+    "correct_answer": 0,
     "answer_type": ""
   },
   {
@@ -50,7 +50,7 @@
       "“Most smartphone batteries can’t be easily replaced when they stop holding a charge, new laptops don’t accept old cables, and software companies push upgrades that won’t run on old devices.” (paragraph 7)",
       "“Some environmental groups say multibillion- dollar companies . . . should pick up the cost of recycling the devices they sell.” (paragraph 8)"
     ],
-    "correct_answer": null,
+    "correct_answer": 2,
     "answer_type": ""
   },
   {
@@ -68,7 +68,7 @@
       "increased amounts of e-waste will further intensify a problem that is already inadequately addressed.",
       "the methods that are used for disposing of non-electronic waste are inefficient for e-waste."
     ],
-    "correct_answer": null,
+    "correct_answer": 2,
     "answer_type": ""
   },
   {
@@ -86,7 +86,7 @@
       "They imply that manufacturers are willing to comply with regulations that protect the environment.",
       "They shift the focus from a discussion of individual behavior to a discussion of corporate responsibility."
     ],
-    "correct_answer": null,
+    "correct_answer": 3,
     "answer_type": ""
   },
   {
@@ -104,7 +104,7 @@
       "an acknowledgment that electronics stores sometimes profit from e- waste regulations.",
       "a comment that manufacturers are making an effort to recycle even without e- waste regulations."
     ],
-    "correct_answer": null,
+    "correct_answer": 1,
     "answer_type": ""
   },
   {
@@ -122,7 +122,7 @@
       "The diagram implies that most landfills are poorly designed to accommodate e- waste.",
       "The diagram shows that water sources near landfills are endangered by e- waste."
     ],
-    "correct_answer": null,
+    "correct_answer": 1,
     "answer_type": ""
   },
   {
@@ -140,7 +140,7 @@
       "nudibranchs are delicate and have trouble adapting to their environment.",
       "nudibranchs are rare and difficult to find in the ocean."
     ],
-    "correct_answer": null,
+    "correct_answer": 1,
     "answer_type": ""
   },
   {
@@ -158,7 +158,7 @@
       "establishing a struggle with fear that the narrator must overcome.",
       "building tension through indicating that the narrator is going to see something unexpected."
     ],
-    "correct_answer": null,
+    "correct_answer": 3,
     "answer_type": ""
   },
   {
@@ -176,7 +176,7 @@
       "“I waited, but there were no more sounds.”",
       "“I knew the flats well enough to know I could get stuck just about anywhere.”"
     ],
-    "correct_answer": null,
+    "correct_answer": 3,
     "answer_type": ""
   },
   {
@@ -194,7 +194,7 @@
       "The narrator’s knowledge about a variety of sea life encourages a search for more specimens to study.",
       "The narrator’s eagerness about new specimens of sea life outweighs the reality that the area is an unlikely place to find them."
     ],
-    "correct_answer": null,
+    "correct_answer": 1,
     "answer_type": ""
   },
   {
@@ -212,7 +212,7 @@
       "terrified confusion about the creature in the mudflats.",
       "sudden concern about his personal safety."
     ],
-    "correct_answer": null,
+    "correct_answer": 2,
     "answer_type": ""
   },
   {
@@ -230,7 +230,7 @@
       "showing the narrator’s growing realization of the creature’s identity.",
       "comparing the size of the creature to the size of a vehicle."
     ],
-    "correct_answer": null,
+    "correct_answer": 2,
     "answer_type": ""
   },
   {
@@ -248,7 +248,7 @@
       "The slow return of the tide along the mudflats forces the narrator to be patient during his journey.",
       "The barren appearance of the mudflats creates a sense of mystery that unsettles the narrator."
     ],
-    "correct_answer": null,
+    "correct_answer": 0,
     "answer_type": ""
   },
   {
@@ -266,7 +266,7 @@
       "blends in with the surrounding landscape.",
       "produces a large amount of energy and is in an unusual location."
     ],
-    "correct_answer": null,
+    "correct_answer": 3,
     "answer_type": ""
   },
   {
@@ -284,7 +284,7 @@
       "highlight how replacing fossil fuels with solar energy offers more than just financial benefits.",
       "argue that additional solar- power farms should be built in the Anhui province."
     ],
-    "correct_answer": null,
+    "correct_answer": 2,
     "answer_type": ""
   },
   {
@@ -302,7 +302,7 @@
       "It describes the reasons a company chose to transform a lake created by a collapsed coal mine into a solar- power farm that floats on the water.",
       "It presents an overview of how a collapsed coal mine became a productive floating solarpower farm over several years."
     ],
-    "correct_answer": null,
+    "correct_answer": 1,
     "answer_type": ""
   },
   {
@@ -320,7 +320,7 @@
       "It reveals how China’s position on using solar energy changed because of a surplus supply of solar panels.",
       "It depicts how China’s solar- energy industry improved the manufacturing of solar panels in order to increase revenue."
     ],
-    "correct_answer": null,
+    "correct_answer": 2,
     "answer_type": ""
   },
   {
@@ -338,7 +338,7 @@
       "They suggest that constructing solar- power farms is the best way for the Chinese government to put excess solar panels to use.",
       "They imply that solar farms are a good way for the Chinese government to make solar power the main source of energy in China."
     ],
-    "correct_answer": null,
+    "correct_answer": 1,
     "answer_type": ""
   },
   {
@@ -356,7 +356,7 @@
       "details about how the Chinese government encouraged its citizens to use solar energy.",
       "facts indicating that Chinese manufacturing processes helped make solar power more affordable."
     ],
-    "correct_answer": null,
+    "correct_answer": 3,
     "answer_type": ""
   },
   {
@@ -374,7 +374,7 @@
       "statements that present solar power as one of several forms of energy used throughout China.",
       "details that emphasize how China developed its solar- power industry primarily as a means of financial gain"
     ],
-    "correct_answer": null,
+    "correct_answer": 0,
     "answer_type": ""
   },
   {
@@ -392,7 +392,7 @@
       "They reveal that European countries were competing to see which country could reach its renewable- energy goals first.",
       "They suggest that other countries viewed China as a model for constructing solar- power farms in unlikely places."
     ],
-    "correct_answer": null,
+    "correct_answer": 0,
     "answer_type": ""
   },
   {
@@ -410,7 +410,7 @@
       "It highlights why more is known about language learning in children than about language learning in adults.",
       "It explains why adults were the subjects of the study rather than children."
     ],
-    "correct_answer": null,
+    "correct_answer": 3,
     "answer_type": ""
   },
   {
@@ -428,7 +428,7 @@
       "It marks the change from explaining why the study was conducted to explaining how the study was conducted.",
       "It shows how questions were raised that could be addressed in further research."
     ],
-    "correct_answer": null,
+    "correct_answer": 2,
     "answer_type": ""
   },
   {
@@ -446,7 +446,7 @@
       "a better way for learners to absorb the meaning of individual vocabulary words.",
       "more difficult for learners to perform after an extended period of time has passed."
     ],
-    "correct_answer": null,
+    "correct_answer": 0,
     "answer_type": ""
   },
   {
@@ -464,7 +464,7 @@
       "the finding of the study that exercise helps people recall information over a long period of time",
       "the statement from Dr. Sulpizio describing how the results of the study can be applied"
     ],
-    "correct_answer": null,
+    "correct_answer": 0,
     "answer_type": ""
   },
   {
@@ -482,7 +482,7 @@
       "“And at the end of each lesson, the students who had ridden bikes performed better on the subsequent vocabulary tests than did the students who sat still.” (paragraph 13)",
       "“They also became more proficient at recognizing proper sentences than the sedentary students, although that difference did not emerge until after several weeks of instruction.”(paragraph 14)"
     ],
-    "correct_answer": null,
+    "correct_answer": 3,
     "answer_type": ""
   },
   {
@@ -500,7 +500,7 @@
       "while the study was performed appropriately, it is doubtful the results can be duplicated.",
       "though the study was about learning language, its conclusions can be applied to learning in general."
     ],
-    "correct_answer": null,
+    "correct_answer": 0,
     "answer_type": ""
   },
   {
@@ -518,7 +518,7 @@
       "Researchers first had non- English- speaking students sit on stationary bikes and pedal for 20 minutes before instruction and 15 minutes during instruction; then, after a rest period, students indicated whether English sentences made sense.",
       "Researchers asked non- English- speaking students to study English while sitting or biking; then the students’ vocabulary skills were assessed after a short break period and also after a break of a full month without their having studied any of the materials."
     ],
-    "correct_answer": null,
+    "correct_answer": 1,
     "answer_type": ""
   },
   {
@@ -536,7 +536,7 @@
       "desire to prove that particles make up matter.",
       "questions about what tools are needed to study matter."
     ],
-    "correct_answer": null,
+    "correct_answer": 1,
     "answer_type": ""
   },
   {
@@ -554,7 +554,7 @@
       "discussing the methods used to study particles in space to describing how matter is researched on Earth.",
       "describing an environment that feels comfortable to characterizing an environment that seems unstable."
     ],
-    "correct_answer": null,
+    "correct_answer": 0,
     "answer_type": ""
   },
   {
@@ -572,7 +572,7 @@
       "that the particles have a familiar shape.",
       "how the particles can be seen only in darkness."
     ],
-    "correct_answer": null,
+    "correct_answer": 1,
     "answer_type": ""
   },
   {
@@ -590,7 +590,7 @@
       "our understanding of particles is limited by the equipment available to study them.",
       "competing theories about particles provoke scientific debate."
     ],
-    "correct_answer": null,
+    "correct_answer": 1,
     "answer_type": ""
   },
   {
@@ -608,7 +608,7 @@
       "admires the powerful reactions that occur when particles collide.",
       "has a simplistic understanding of how particles collide."
     ],
-    "correct_answer": null,
+    "correct_answer": 2,
     "answer_type": ""
   },
   {
@@ -626,7 +626,7 @@
       "emphasize that the process being used to research particles is still in the early stages of development.",
       "suggest that the scientific language used to describe particles seems silly by making a humorous comparison."
     ],
-    "correct_answer": null,
+    "correct_answer": 3,
     "answer_type": ""
   },
   {
@@ -644,7 +644,7 @@
       "the discoveries about particles provide little information.",
       "the study of particles and the study of objects in space are similar."
     ],
-    "correct_answer": null,
+    "correct_answer": 1,
     "answer_type": ""
   },
   {
@@ -662,7 +662,7 @@
       "Physicists are learning about the unpredictable behavior of particles that break up matter in the universe.",
       "Physicists enthusiastically share the discoveries their research yields because most people can relate to their findings."
     ],
-    "correct_answer": null,
+    "correct_answer": 0,
     "answer_type": ""
   },
   {
@@ -680,7 +680,7 @@
       "interest in physicists and their study of particles.",
       "certainty that physicists are working in secrecy."
     ],
-    "correct_answer": null,
+    "correct_answer": 2,
     "answer_type": ""
   },
   {
@@ -698,7 +698,7 @@
       "the fond feelings that the author has toward her childhood experiences.",
       "the mix of emotions that the author feels toward her work and her mother."
     ],
-    "correct_answer": null,
+    "correct_answer": 2,
     "answer_type": ""
   },
   {
@@ -716,7 +716,7 @@
       "all artistic activities begin with a series of steps",
       "the beadworker tries to imitate art."
     ],
-    "correct_answer": null,
+    "correct_answer": 0,
     "answer_type": ""
   },
   {
@@ -734,7 +734,7 @@
       "emphasizing the time required to fully prepare for and execute the many large and small tasks in the activity of beading.",
       "detailing each step in preparation for beading in order to highlight the author’s enthusiasm for the work."
     ],
-    "correct_answer": null,
+    "correct_answer": 3,
     "answer_type": ""
   },
   {
@@ -752,7 +752,7 @@
       "the author was determined to behave according to her mother’s standards and sought her approval.",
       "the author had great admiration for her mother’s precision and mastery of her craft"
     ],
-    "correct_answer": null,
+    "correct_answer": 3,
     "answer_type": ""
   },
   {
@@ -770,7 +770,7 @@
       "Arrange the beads into groups of colors on a mat; smooth out a double sheet of buckskin and cut it to shape; take a single thread of sinew; pierce the buckskin with an awl; thread the buckskin with the sinew and string it with beads, carefully twisting after every stitch.",
       "Gather beads, buckskin, sinew, and awl and place them on a mat; cut the buckskin into the desired shape; decide on a pattern for the beads and create it using the sinews and the awl; thread the beads onto the sinew in the desired pattern and twist it tight."
     ],
-    "correct_answer": null,
+    "correct_answer": 2,
     "answer_type": ""
   },
   {
@@ -788,7 +788,7 @@
       "the descriptions of the various color combinations that make an attractive moccasin design.",
       "the example of the author successfully and independently using a sharpened rod."
     ],
-    "correct_answer": null,
+    "correct_answer": 0,
     "answer_type": ""
   },
   {
@@ -806,7 +806,7 @@
       "by stating her mother’s instructions on working with quills (paragraph 6)",
       "by stating her mother’s ideas about activities after lessons (paragraph 7)"
     ],
-    "correct_answer": null,
+    "correct_answer": 1,
     "answer_type": ""
   },
   {
@@ -824,7 +824,7 @@
       "It highlights a contrast between the focus and control required while working and the freedom of having fun outside.",
       "It concludes the progression of events in the narrative by describing the sequence of events at the end of the author’s day."
     ],
-    "correct_answer": null,
+    "correct_answer": 2,
     "answer_type": ""
   },
   {
@@ -842,7 +842,7 @@
       "the uniqueness of the cultural tradition that the author learned as a child was eventually recognized in Europe.",
       "the author was able to incorporate color into her craftwork as a result of trade with other peoples."
     ],
-    "correct_answer": null,
+    "correct_answer": 0,
     "answer_type": ""
   },
   {
@@ -968,7 +968,7 @@
       "Sentence 3: Delete the comma after process AND change makes to make.",
       "Sentence 4: Delete the comma after gelato AND change allow to allows."
     ],
-    "correct_answer": null,
+    "correct_answer": 3,
     "answer_type": ""
   },
   {
@@ -986,7 +986,7 @@
       "Scientists now believe that Jupiter may have as many as seventy- nine moons, including one named Io, which has the greatest number of active volcanoes in the solar system.",
       "Io, a moon with the greatest number of active volcanoes in the solar system, is one of Jupiter’s moons, and scientists now believe that Jupiter may have as many as seventy- nine moons."
     ],
-    "correct_answer": null,
+    "correct_answer": 2,
     "answer_type": ""
   },
   {
@@ -1004,7 +1004,7 @@
       "sentence 3",
       "sentence 4"
     ],
-    "correct_answer": null,
+    "correct_answer": 3,
     "answer_type": ""
   },
   {
