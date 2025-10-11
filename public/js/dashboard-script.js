@@ -435,6 +435,9 @@ async function startTest(testType, practiceSet = '1', sectionType = null) {
         alert('This test is coming soon!');
         return;
     }
+    
+    // Reset submission flag when starting a new test
+    isSubmittingTest = false;
 
     try {
         currentTest = testType;
@@ -1054,7 +1057,11 @@ function showEndTestConfirmation() {
         document.body.removeChild(modal);
     });
     
-    document.getElementById('confirm-finish').addEventListener('click', () => {
+    document.getElementById('confirm-finish').addEventListener('click', (e) => {
+        // Prevent double-clicking
+        e.target.disabled = true;
+        e.target.textContent = 'Submitting...';
+        
         document.body.removeChild(modal);
         endTest();
     });
@@ -1077,15 +1084,34 @@ function showEndTestConfirmation() {
     });
 }
 
+// Global flag to prevent duplicate submissions
+let isSubmittingTest = false;
+
 async function endTest() {
-    // Stop timer
+    // Prevent duplicate submissions
+    if (isSubmittingTest) {
+        console.log('⚠️ Test submission already in progress, ignoring duplicate call');
+        return;
+    }
+    
+    // Set submission flag immediately
+    isSubmittingTest = true;
+    
+    // Stop timer immediately to prevent timer-based duplicate calls
     if (testTimer) {
         clearInterval(testTimer);
         testTimer = null;
     }
     
+    // Disable all submission-related buttons
+    const endTestBtn = document.getElementById('end-test-btn');
+    const confirmFinishBtn = document.getElementById('confirm-finish');
+    
+    if (endTestBtn) endTestBtn.disabled = true;
+    if (confirmFinishBtn) confirmFinishBtn.disabled = true;
+    
     try {
-        showLoadingState('Calculating results...');
+        showLoadingState('Submitting test results...');
         
         const answers = Object.entries(userAnswers).map(([questionId, selectedAnswer]) => ({
             questionId,
@@ -1095,7 +1121,7 @@ async function endTest() {
         // Calculate time spent in seconds
         const timeSpent = Math.round((new Date() - testStartTime) / 1000);
         
-        console.log(`📝 Submitting ${answers.length} answers`);
+        console.log(`📝 Submitting ${answers.length} answers (submission protected)`);
         
         const response = await QuestionsService.submitAnswers(
             currentTest,
@@ -1125,6 +1151,11 @@ async function endTest() {
         
         hideLoadingState();
         showSection('test-results');
+        
+        console.log('✅ Test submitted successfully');
+        
+        // Reset submission flag on success (though user will likely navigate away)
+        isSubmittingTest = false;
         
     } catch (error) {
         console.error('❌ Error submitting test:', error);
@@ -1170,6 +1201,14 @@ Your test answers have been recorded locally, but you may need to retake the tes
         showSection('test-results');
         
         alert('There was an issue saving your results, but your score has been calculated.');
+        
+        // Reset submission flag and re-enable buttons on error
+        isSubmittingTest = false;
+        const endTestBtn = document.getElementById('end-test-btn');
+        const confirmFinishBtn = document.getElementById('confirm-finish');
+        
+        if (endTestBtn) endTestBtn.disabled = false;
+        if (confirmFinishBtn) confirmFinishBtn.disabled = false;
     }
 }
 
