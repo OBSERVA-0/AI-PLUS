@@ -55,6 +55,12 @@ class AdminService {
     static async getStudent(userId) {
         return this.makeRequest(`/admin/student/${userId}`);
     }
+
+    static async deleteTestHistory(userId, testId) {
+        return this.makeRequest(`/admin/user/${userId}/test-history/${testId}`, {
+            method: 'DELETE'
+        });
+    }
 }
 
 class AdminTestHistoryManager {
@@ -185,6 +191,34 @@ class AdminTestHistoryManager {
 
         // Logout functionality
         document.getElementById('logout-btn').addEventListener('click', this.handleLogout);
+    }
+
+    async deleteTest(testId, testName) {
+        if (!confirm(`Are you sure you want to delete "${testName}" from this student's test history?\n\nThis action cannot be undone.`)) {
+            return;
+        }
+
+        try {
+            const response = await AdminService.deleteTestHistory(this.studentId, testId);
+            
+            if (response.success) {
+                // Show success message
+                alert(`Test "${testName}" has been successfully deleted from the student's history.`);
+                
+                // Remove the test from local data
+                this.testHistory = this.testHistory.filter(test => test._id !== testId);
+                this.filteredHistory = this.filteredHistory.filter(test => test._id !== testId);
+                
+                // Update stats and re-render
+                this.updateStats();
+                this.renderHistory();
+            } else {
+                throw new Error(response.message || 'Failed to delete test');
+            }
+        } catch (error) {
+            console.error('❌ Failed to delete test:', error);
+            alert(`Failed to delete test: ${error.message}`);
+        }
     }
 
     applyFilters() {
@@ -387,10 +421,29 @@ class AdminTestHistoryManager {
                         <span>Performance:</span>
                         <span class="performance-badge ${performance.class}">${performance.text}</span>
                     </div>
-                    <div>
+                    <div style="display: flex; align-items: center; gap: 15px;">
                         <span style="font-size: 14px; color: #666;">
                             ${test.results.correctCount}/${test.results.totalQuestions} correct
                         </span>
+                        <button 
+                            class="delete-test-btn" 
+                            onclick="window.adminTestHistoryManager.deleteTest('${test._id}', '${test.testName.replace(/'/g, "\\'")}')"
+                            title="Delete this test from student's history"
+                            style="
+                                background: #fee2e2; 
+                                color: #dc2626; 
+                                border: 1px solid #fecaca; 
+                                padding: 4px 8px; 
+                                border-radius: 4px; 
+                                font-size: 12px; 
+                                cursor: pointer; 
+                                transition: all 0.2s;
+                            "
+                            onmouseover="this.style.background='#fecaca'; this.style.borderColor='#f87171';"
+                            onmouseout="this.style.background='#fee2e2'; this.style.borderColor='#fecaca';"
+                        >
+                            🗑️ Delete
+                        </button>
                     </div>
                 </div>
                 
@@ -565,5 +618,5 @@ class AdminTestHistoryManager {
 
 // Initialize when page loads
 document.addEventListener('DOMContentLoaded', () => {
-    new AdminTestHistoryManager();
+    window.adminTestHistoryManager = new AdminTestHistoryManager();
 }); 

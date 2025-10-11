@@ -663,6 +663,85 @@ router.get('/user/:id/test-history', auth, requireAdmin, async (req, res) => {
   }
 });
 
+// @route   DELETE /api/admin/user/:userId/test-history/:testId
+// @desc    Delete a specific test from user's test history (admin only)
+// @access  Private (Admin only)
+router.delete('/user/:userId/test-history/:testId', auth, requireAdmin, async (req, res) => {
+  try {
+    const { userId, testId } = req.params;
+    
+    // Find the user
+    const user = await User.findById(userId);
+    
+    if (!user || user.role !== 'student') {
+      return res.status(404).json({
+        success: false,
+        message: 'Student not found'
+      });
+    }
+    
+    // Find the test in the user's test history
+    const testIndex = user.testHistory.findIndex(test => test._id.toString() === testId);
+    
+    if (testIndex === -1) {
+      return res.status(404).json({
+        success: false,
+        message: 'Test not found in student\'s history'
+      });
+    }
+    
+    // Get test details for logging
+    const testToDelete = user.testHistory[testIndex];
+    
+    // Remove the test from history
+    user.testHistory.splice(testIndex, 1);
+    
+    // Save the updated user first (just removing the test)
+    await user.save();
+    
+    // Now recalculate basic statistics without touching scaled scores
+    await user.recalculateBasicTestProgress();
+    
+    console.log(`🗑️ Admin ${req.user.email} deleted test "${testToDelete.testName}" from user ${user.email}'s history`);
+    
+    res.json({
+      success: true,
+      message: `Test "${testToDelete.testName}" has been deleted from ${user.firstName} ${user.lastName}'s history`,
+      data: {
+        deletedTest: {
+          id: testToDelete._id,
+          testName: testToDelete.testName,
+          testType: testToDelete.testType,
+          completedAt: testToDelete.completedAt,
+          percentage: testToDelete.results.percentage
+        },
+        student: {
+          id: user._id,
+          name: `${user.firstName} ${user.lastName}`,
+          email: user.email
+        }
+      }
+    });
+    
+  } catch (error) {
+    console.error('❌ Delete test history error:', error);
+    
+    // Provide more specific error messages
+    let errorMessage = 'Error deleting test from history';
+    if (error.name === 'ValidationError') {
+      errorMessage = 'Failed to update user statistics after deletion';
+    } else if (error.name === 'CastError') {
+      errorMessage = 'Invalid data format encountered';
+    }
+    
+    res.status(500).json({
+      success: false,
+      message: errorMessage,
+      details: process.env.NODE_ENV === 'development' ? error.message : undefined
+    });
+  }
+});
+
 // @route   DELETE /api/admin/user/:id
 // @desc    Delete a user (admin only)
 // @access  Private (Admin only)

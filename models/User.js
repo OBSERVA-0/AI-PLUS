@@ -513,4 +513,177 @@ userSchema.methods.getMasterySummary = function() {
   return summary;
 };
 
+// Method to recalculate test progress after deleting test history
+userSchema.methods.recalculateTestProgress = function() {
+  console.log(`🔄 Recalculating test progress for user: ${this.email}`);
+  
+  // Initialize progress counters
+  const progress = {
+    shsat: { testsCompleted: 0, totalScore: 0, bestScore: 0, timeSpent: 0, lastAttempt: null, categoryPerformance: new Map() },
+    sat: { testsCompleted: 0, totalScore: 0, bestScore: 0, timeSpent: 0, lastAttempt: null, categoryPerformance: new Map() },
+    stateTest: { testsCompleted: 0, totalScore: 0, bestScore: 0, timeSpent: 0, lastAttempt: null, categoryPerformance: new Map() }
+  };
+  
+  // Process each test in history
+  this.testHistory.forEach(test => {
+    const testType = test.testType === 'state' ? 'stateTest' : test.testType;
+    
+    if (!progress[testType]) return;
+    
+    const testProgress = progress[testType];
+    
+    // Update basic stats
+    testProgress.testsCompleted++;
+    testProgress.totalScore += test.results.percentage;
+    testProgress.bestScore = Math.max(testProgress.bestScore, test.results.percentage);
+    testProgress.timeSpent += Math.round(test.results.timeSpent / 60); // Convert to minutes
+    
+    // Update last attempt
+    if (!testProgress.lastAttempt || new Date(test.completedAt) > new Date(testProgress.lastAttempt)) {
+      testProgress.lastAttempt = test.completedAt;
+    }
+    
+    // Update category performance
+    if (test.results.categoryScores) {
+      const categoryScores = test.results.categoryScores instanceof Map 
+        ? Object.fromEntries(test.results.categoryScores) 
+        : test.results.categoryScores;
+      
+      Object.entries(categoryScores).forEach(([category, scores]) => {
+        const currentData = testProgress.categoryPerformance.get(category) || {
+          totalQuestions: 0,
+          correctAnswers: 0,
+          averageScore: 0,
+          masteryLevel: 0,
+          lastUpdated: new Date()
+        };
+        
+        currentData.totalQuestions += scores.total;
+        currentData.correctAnswers += scores.correct;
+        currentData.averageScore = Math.round((currentData.correctAnswers / currentData.totalQuestions) * 100);
+        currentData.masteryLevel = this.calculateMasteryLevel(currentData.averageScore, currentData.totalQuestions);
+        currentData.lastUpdated = new Date();
+        
+        testProgress.categoryPerformance.set(category, currentData);
+      });
+    }
+  });
+  
+  // Calculate averages and update the user's testProgress
+  Object.keys(progress).forEach(testType => {
+    const testProgress = progress[testType];
+    const averageScore = testProgress.testsCompleted > 0 ? 
+      Math.round(testProgress.totalScore / testProgress.testsCompleted) : 0;
+    
+    // Use default scaled scores - we'll recalculate these properly from test history
+    const defaultScaledScore = testType === 'sat' 
+      ? { math: 0, reading_writing: 0, total: 0 }
+      : { math: 0, english: 0, total: 0 };
+    
+    // Calculate best scaled scores from remaining test history
+    let bestScaledScore = { ...defaultScaledScore };
+    let latestScaledScore = { ...defaultScaledScore };
+    
+    // Find the best and latest scaled scores from remaining tests
+    this.testHistory.forEach(test => {
+      const historyTestType = test.testType === 'state' ? 'stateTest' : test.testType;
+      if (historyTestType === testType && test.scaledScores && test.scaledScores.total) {
+        // Update best scaled score
+        if (test.scaledScores.total > bestScaledScore.total) {
+          bestScaledScore = { ...test.scaledScores };
+        }
+        // Update latest scaled score (most recent)
+        if (!latestScaledScore.total || new Date(test.completedAt) > new Date(latestScaledScore.completedAt || 0)) {
+          latestScaledScore = { ...test.scaledScores, completedAt: test.completedAt };
+        }
+      }
+    });
+    
+    // Remove the completedAt field from latestScaledScore as it's not part of the schema
+    delete latestScaledScore.completedAt;
+    
+    this.testProgress[testType] = {
+      testsCompleted: testProgress.testsCompleted,
+      averageScore: averageScore,
+      bestScore: testProgress.bestScore,
+      timeSpent: testProgress.timeSpent,
+      lastAttempt: testProgress.lastAttempt,
+      latestScaledScore: latestScaledScore,
+      bestScaledScore: bestScaledScore,
+      categoryPerformance: testProgress.categoryPerformance
+    };
+  });
+  
+  console.log(`✅ Test progress recalculated for user: ${this.email}`);
+  console.log(`📊 New progress:`, {
+    shsat: { testsCompleted: this.testProgress.shsat.testsCompleted, averageScore: this.testProgress.shsat.averageScore },
+    sat: { testsCompleted: this.testProgress.sat.testsCompleted, averageScore: this.testProgress.sat.averageScore },
+    stateTest: { testsCompleted: this.testProgress.stateTest.testsCompleted, averageScore: this.testProgress.stateTest.averageScore }
+  });
+  
+  return this;
+};
+
+// Method to recalculate basic test progress without touching scaled scores
+userSchema.methods.recalculateBasicTestProgress = async function() {
+  console.log(`🔄 Recalculating basic test progress for user: ${this.email}`);
+  
+  // Initialize progress counters
+  const progress = {
+    shsat: { testsCompleted: 0, totalScore: 0, bestScore: 0, timeSpent: 0, lastAttempt: null },
+    sat: { testsCompleted: 0, totalScore: 0, bestScore: 0, timeSpent: 0, lastAttempt: null },
+    stateTest: { testsCompleted: 0, totalScore: 0, bestScore: 0, timeSpent: 0, lastAttempt: null }
+  };
+  
+  // Process each test in history
+  this.testHistory.forEach(test => {
+    const testType = test.testType === 'state' ? 'stateTest' : test.testType;
+    
+    if (!progress[testType]) return;
+    
+    const testProgress = progress[testType];
+    
+    // Update basic stats
+    testProgress.testsCompleted++;
+    testProgress.totalScore += test.results.percentage;
+    testProgress.bestScore = Math.max(testProgress.bestScore, test.results.percentage);
+    testProgress.timeSpent += Math.round(test.results.timeSpent / 60); // Convert to minutes
+    
+    // Update last attempt
+    if (!testProgress.lastAttempt || new Date(test.completedAt) > new Date(testProgress.lastAttempt)) {
+      testProgress.lastAttempt = test.completedAt;
+    }
+  });
+  
+  // Update only the basic fields using $set to avoid validation issues
+  const updateFields = {};
+  
+  Object.keys(progress).forEach(testType => {
+    const testProgress = progress[testType];
+    const averageScore = testProgress.testsCompleted > 0 ? 
+      Math.round(testProgress.totalScore / testProgress.testsCompleted) : 0;
+    
+    updateFields[`testProgress.${testType}.testsCompleted`] = testProgress.testsCompleted;
+    updateFields[`testProgress.${testType}.averageScore`] = averageScore;
+    updateFields[`testProgress.${testType}.bestScore`] = testProgress.bestScore;
+    updateFields[`testProgress.${testType}.timeSpent`] = testProgress.timeSpent;
+    updateFields[`testProgress.${testType}.lastAttempt`] = testProgress.lastAttempt;
+  });
+  
+  // Use updateOne to avoid validation issues with scaled scores
+  await this.constructor.updateOne(
+    { _id: this._id },
+    { $set: updateFields }
+  );
+  
+  console.log(`✅ Basic test progress recalculated for user: ${this.email}`);
+  console.log(`📊 New progress:`, {
+    shsat: { testsCompleted: progress.shsat.testsCompleted, averageScore: Math.round(progress.shsat.totalScore / (progress.shsat.testsCompleted || 1)) },
+    sat: { testsCompleted: progress.sat.testsCompleted, averageScore: Math.round(progress.sat.totalScore / (progress.sat.testsCompleted || 1)) },
+    stateTest: { testsCompleted: progress.stateTest.testsCompleted, averageScore: Math.round(progress.stateTest.totalScore / (progress.stateTest.testsCompleted || 1)) }
+  });
+  
+  return this;
+};
+
 module.exports = mongoose.model('User', userSchema); 

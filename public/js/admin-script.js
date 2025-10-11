@@ -52,6 +52,12 @@ class AdminService {
         return this.makeRequest('/admin/dashboard-stats');
     }
 
+    static async deleteTestHistory(userId, testId) {
+        return this.makeRequest(`/admin/user/${userId}/test-history/${testId}`, {
+            method: 'DELETE'
+        });
+    }
+
     static async getStudents(page = 1, search = '', grade = 'all') {
         const params = new URLSearchParams({
             page: page.toString(),
