@@ -2,461 +2,461 @@
   {
     "_id": "1",
     "question_number": 1,
-    "practice_set": "15",
+    "practice_set": "17",
     "category": "English:Reading Comprehension",
     "difficulty": "easy",
     "time_estimate": 95,
-    "passage": "pdfData:pdf/Pearsons2024-2025B_ExerciseLanguage.pdf",
-    "question_text": "How does the author’s use of comparison in paragraphs 4 and 5 contribute to the development of ideas in the excerpt?",
+    "passage": "pdfData:pdf/Pearsons2019-2020B_Ravens.pdf",
+    "question_text": "How does paragraph 1 introduce the ideas that ravens may perceive time and plan for the future?",
     "options": [
-      "It identifies why many adults are never able to learn a second language.",
-      "It demonstrates why the study of adult language learning tries to include physical activity.",
-      "It highlights why more is known about language learning in children than about language learning in adults.",
-      "It explains why adults were the subjects of the study rather than children."
+      "It mentions a poem that considers whether a raven can see the future and then discusses why people have traditionally doubted that ravens have the ability to plan.",
+      "It references a poem about a raven that seems to have insight into the future and then mentions new information that suggests ravens have the ability to plan.",
+      "It mentions a poem that led people to believe that ravens are aware of the future and then explains why scientists want to study ravens’ ability to plan.",
+      "It references a poem about a raven that predicts the future and then describes the importance of differentiating ravens’ instincts from their ability to plan."
     ],
-    "correct_answer": 3,
+    "correct_answer": null,
     "answer_type": ""
   },
   {
     "_id": "2",
     "question_number": 2,
-    "practice_set": "15",
+    "practice_set": "17",
     "category": "English:Reading Comprehension",
     "difficulty": "easy",
     "time_estimate": 95,
-    "passage": "pdfData:pdf/Pearsons2024-2025B_ExerciseLanguage.pdf",
-    "question_text": "Read this sentence from paragraph 6.\n\nTo see what effects exercise might have on this process, the researchers first recruited 40 college-age Chinese men and women who were trying to learn English.\n\nWhich statement describes the function of the sentence in the overall structure of the excerpt?",
+    "passage": "pdfData:pdf/Pearsons2019-2020B_Ravens.pdf",
+    "question_text": "Read these sentences from paragraph 2.\n\nFor example, many animals hoard food so that they will not run out later, but scientists who study animals would not call hoarding a decision to plan for the future. This action is merely instinctual.\n\nWhich statement describes the effect of the phrase “merely instinctual” in the passage?",
     "options": [
-      "It indicates a shift from describing the results of the study to describing the process.",
-      "It introduces the aspect of the research that was most critical to determining the results.",
-      "It marks the change from explaining why the study was conducted to explaining how the study was conducted.",
-      "It shows how questions were raised that could be addressed in further research."
+      "It implies that animals are skilled at finding and saving food for later consumption.",
+      "It conveys that many animals will usually prioritize gathering food over other activities.",
+      "It suggests that animals often store more food than they will be able to consume",
+      "It emphasizes that many animals collect food automatically rather than with true intention."
     ],
-    "correct_answer": 2,
+    "correct_answer": null,
     "answer_type": ""
   },
   {
     "_id": "3",
     "question_number": 3,
-    "practice_set": "15",
+    "practice_set": "17",
     "category": "English:Reading Comprehension",
     "difficulty": "easy",
     "time_estimate": 95,
-    "passage": "pdfData:pdf/Pearsons2024-2025B_ExerciseLanguage.pdf",
-    "question_text": "Which sentence is the best summary of the research procedure used in the study in the excerpt?",
+    "passage": "pdfData:pdf/Pearsons2019-2020B_Ravens.pdf",
+    "question_text": "Read this sentence from paragraph 1.\n\n At Lund University in Sweden, researchers argue that ravens may be able to think ahead and even plan for the future.\n\nWhich sentence from paragraph 4 provides support for this argument?",
     "options": [
-      "Researchers had a group of non-English-speaking students learn new English vocabulary by matching words and images on a computer screen, and also by analyzing words in context; some students exercised and some students sat still while learning.",
-      "Researchers first divided non-English-speaking students into two groups, with one group exercising before and while studying English and the other group studying English without exercising; then, after instruction, student learning was assessed.",
-      "Researchers first had non-English-speaking students sit on stationary bikes and pedal for 20 minutes before instruction and 15 minutes during instruction; then, after a rest period, students indicated whether English sentences made sense.",
-      "Researchers asked non-English-speaking students to study English while sitting or biking; then the students’ vocabulary skills were assessed after a short break period and also after a break of a full month without their having studied any of the materials."
+      "“Once the ravens learned the behavior, the researchers presented the birds with four stones.”",
+      "“A researcher would trade the ravens a large treat for a bottle cap.”",
+      "“Later, the researchers presented the ravens with a group of items, including small treats and the bottle cap.”",
+      "“The ravens chose the bottle cap over the treats and waited for the original researcher to trade with them again so that they could get more treats.”"
     ],
-    "correct_answer": 1,
+    "correct_answer": null,
     "answer_type": ""
   },
   {
     "_id": "4",
     "question_number": 4,
-    "practice_set": "15",
+    "practice_set": "17",
     "category": "English:Reading Comprehension",
     "difficulty": "easy",
     "time_estimate": 95,
-    "passage": "pdfData:pdf/Pearsons2024-2025B_ExerciseLanguage.pdf",
-    "question_text": "In the study described in the excerpt, researchers asked English learners to assess the sense of words in context because that task is",
+    "passage": "pdfData:pdf/Pearsons2019-2020B_Ravens.pdf",
+    "question_text": "In the first experiment described in paragraph 4, which of the ravens’ behaviors provides the strongest evidence for the claim that the birds are capable of planning?",
     "options": [
-      "better at determining the capability learners have of language than simple vocabulary recall.",
-      "consistent with the way earlier research was conducted on adult language learners.",
-      "a better way for learners to absorb the meaning of individual vocabulary words.",
-      "more difficult for learners to perform after an extended period of time has passed."
+      "They accepted treats from the unlocked box.",
+      "They set aside the stones that would unlock the box.",
+      "They learned which stone could open the box.",
+      "They waited for researchers to bring the box."
     ],
-    "correct_answer": 0,
+    "correct_answer": null,
     "answer_type": ""
   },
   {
     "_id": "5",
     "question_number": 5,
-    "practice_set": "15",
+    "practice_set": "17",
     "category": "English:Reading Comprehension",
     "difficulty": "easy",
     "time_estimate": 95,
-    "passage": "pdfData:pdf/Pearsons2024-2025B_ExerciseLanguage.pdf",
-    "question_text": "Read these sentences from paragraph 17.\n\nThese improvements extend beyond simply aiding in memorization, she added. The exercise also deepened language learners’ grasp of how to use their newly acquired words.\n\nWhich sentence from the excerpt best explains why Sulpizio feels confident in the conclusion stated in these sentences?",
+    "passage": "pdfData:pdf/Pearsons2019-2020B_Ravens.pdf",
+    "question_text": "Read this sentence from paragraph 4.\n\nIn both experiments, the ravens waited patiently for up to seventeen hours for the researcher to return.\n\n How does this sentence fit into the overall structure of the passage and contribute to the development of ideas?",
     "options": [
-      "“They were shown 40 words per session, with the sequence repeated several times.” (paragraph 10)",
-      "“They also responded to sentences using the new words, marking whether the sentences were accurate or, in the case of ‘The apple is a dentist,’ nonsensical.” (paragraph 11)",
-      "“And at the end of each lesson, the students who had ridden bikes performed better on the subsequent vocabulary tests than did the students who sat still.” (paragraph 13)",
-      "“They also became more proficient at recognizing proper sentences than the sedentary students, although that difference did not emerge until after several weeks of instruction.” (paragraph 14)"
+      "It concludes the description of the experiments, supporting the idea that ravens can make decisions for the future.",
+      "It establishes the timeline required in experiments designed to determine learned behaviors in ravens.",
+      "It reveals how the ravens solved the problems posed in the experiments, proving that ravens have the ability to plan ahead.",
+      "It indicates that hoarding food is both an instinctual and a learned behavior among ravens."
     ],
-    "correct_answer": 3,
+    "correct_answer": null,
     "answer_type": ""
   },
   {
     "_id": "6",
     "question_number": 6,
-    "practice_set": "15",
+    "practice_set": "17",
     "category": "English:Reading Comprehension",
     "difficulty": "easy",
     "time_estimate": 95,
-    "passage": "pdfData:pdf/Pearsons2024-2025B_ExerciseLanguage.pdf",
-    "question_text": "Paragraph 18 shows that the author’s perspective toward the study described in the excerpt is that",
+    "passage": "pdfData:pdf/Pearsons2019-2020B_Ravens.pdf",
+    "question_text": "With which statement would the author of the passage most likely agree?",
     "options": [
-      "though the study allowed some conclusions to be drawn, these conclusions are limited.",
-      "while the study focused on moderate exercise, it would have been better to focus on difficult exercise.",
-      "while the study was performed appropriately, it is doubtful the results can be duplicated.",
-      "though the study was about learning language, its conclusions can be applied to learning in general."
+      "Scientists are unlikely to be able to conduct an experiment that can genuinely distinguish between instinctual and learned behaviors in animals.",
+      "Scientists should continue researching to find more evidence to support the idea that some animals show signs of advanced intelligence.",
+      "Scientists should be careful about making conclusions about animal intelligence based on experiments that rely on training animals.",
+      "Scientists can confirm data on whether animals have the ability to plan by performing experiments on additional species known for their intelligence."
     ],
-    "correct_answer": 0,
+    "correct_answer": null,
     "answer_type": ""
   },
   {
     "_id": "7",
     "question_number": 7,
-    "practice_set": "15",
+    "practice_set": "17",
     "category": "English:Reading Comprehension",
     "difficulty": "easy",
     "time_estimate": 95,
-    "passage": "pdfData:pdf/Pearsons2024-2025B_ExerciseLanguage.pdf",
-    "question_text": "Which evidence from the excerpt is most relevant to the author’s claim that there are many unanswered questions about the relationship between movement and learning?",
+    "passage": "pdfData:pdf/Pearsons2019-2020B_Ravens.pdf",
+    "question_text": "How does paragraph 5 fit into the overall structure of the passage and contribute to the development of ideas?",
     "options": [
-      "the method of the study using one type of exercise and people from one age group",
-      "the statement from Sulpizio explaining past studies on neurochemicals in the brain",
-      "the finding of the study that exercise helps people recall information over a long period of time",
-      "the statement from Sulpizio describing how the results of the study can be applied"
+      "It introduces a problem with the results of the study at Lund University, suggesting that some scientists believe that further research will not lead to a clear answer.",
+      "It summarizes the final steps of the study at Lund University, emphasizing the difficulties researchers had in differentiating between true planning and practiced actions.",
+      "It provides a conclusion to the information about the Lund University study, indicating that some scientists think further research is needed in order to prove the idea.",
+      "It lists the effects of the study at Lund University, implying that researchers should have designed experiments that better differentiated between planning and instinct."
     ],
-    "correct_answer": 0,
+    "correct_answer": null,
     "answer_type": ""
   },
   {
     "_id": "8",
     "question_number": 8,
-    "practice_set": "15",
+    "practice_set": "17",
     "category": "English:Reading Comprehension",
     "difficulty": "easy",
     "time_estimate": 95,
-    "passage": "pdfData:pdf/Pearsons2024-2025B_NoHarm.pdf",
-    "question_text": "Paragraph 1 contributes to the setting of the excerpt by establishing that",
+    "passage": "pdfData:pdf/Pearsons2019-2020B_Ravens.pdf",
+    "question_text": "The author conveys a point of view on the study of animal intelligence mainly by",
     "options": [
-      "the story’s location is a plentiful place that allows The People to enjoy a comfortable gathering.",
-      "the events in the story occurred in the past and are being remembered by The People.",
-      "the camp in the story is changing and that the changes are causing problems for The People.",
-      "the story’s plot begins as The People are observing their land and what it offers them."
+      "sharing details about experiments that tested the ability of an animal to plan for the future",
+      "comparing the results of different experiments that were designed to test animal intelligence.",
+      "critiquing experiments that aimed to demonstrate that certain animals are capable of planning for the future.",
+      "explaining how modern experiments show that previously held beliefs about animal intelligence are inaccurate"
     ],
-    "correct_answer": 0,
+    "correct_answer": null,
     "answer_type": ""
   },
   {
     "_id": "9",
     "question_number": 9,
-    "practice_set": "15",
+    "practice_set": "17",
     "category": "English:Reading Comprehension",
     "difficulty": "easy",
     "time_estimate": 95,
-    "passage": "pdfData:pdf/Pearsons2024-2025B_NoHarm.pdf",
-    "question_text": "In paragraphs 4 and 6, the beginning of the change in seasons affects the characters mainly by",
+    "passage": "pdfData:pdf/Pearsons2019-2020B_LetterBrooklyn.pdf",
+    "question_text": "How does the structure of the poem affect the poem’s meaning?",
     "options": [
-      "causing them to collect their bounty and feel eager to celebrate before it becomes cold.",
-      "making them want to rest and relax before the challenging work of the harvest begins.",
-      "forcing them to give up leisure time to prepare their camp for the coming winter.",
-      "allowing them to trade the goods they have prepared during the warm months."
+      "The lack of a rhyming pattern suggests that the beauty of each passing day is unique.",
+      "The lengths of the sentences represent the complexity of the thoughts being represented.",
+      "The use of complete sentences implies the speaker’s appreciation for the clear beginning and ending of each season.",
+      "The single long stanza reflects the continuous flow of the speaker’s thoughts."
     ],
-    "correct_answer": 0,
+    "correct_answer": null,
     "answer_type": ""
   },
   {
     "_id": "10",
     "question_number": 10,
-    "practice_set": "15",
+    "practice_set": "17",
     "category": "English:Reading Comprehension",
     "difficulty": "easy",
     "time_estimate": 95,
-    "passage": "pdfData:pdf/Pearsons2024-2025B_NoHarm.pdf",
-    "question_text": "How do paragraphs 7 and 9 convey a central idea of the excerpt?",
+    "passage": "pdfData:pdf/Pearsons2019-2020B_LetterBrooklyn.pdf",
+    "question_text": "Which lines support the idea that a change in the weather will lessen the speaker’s appreciation for the city?",
     "options": [
-      "by explaining that The People often explore different areas, which shows the value of trying new things",
-      "by revealing that The People must complete many tasks, which shows the necessity of being organized",
-      "by suggesting that The People are influenced by the weather, which shows their close relationship with nature",
-      "by demonstrating that The People work together, which shows the importance of contributing to the community"
+      "“as though the air has been forced into intimacy / by the brevity of daylight.” (lines 11– 12)",
+      "“But when it starts darkening at 4, / this closeness, I know, will be a felt distance,” (lines 13– 14)",
+      "“like someone drawing your attention / to their lack of intimacy.” (lines 15– 16)",
+      "“These days I am still walking . . . / beneath the branches bending across avenues,” (lines 17– 18)"
     ],
-    "correct_answer": 3,
+    "correct_answer": null,
     "answer_type": ""
   },
   {
     "_id": "11",
     "question_number": 11,
-    "practice_set": "15",
+    "practice_set": "17",
     "category": "English:Reading Comprehension",
     "difficulty": "easy",
     "time_estimate": 95,
-    "passage": "pdfData:pdf/Pearsons2024-2025B_NoHarm.pdf",
-    "question_text": "In paragraph 8, the author repeats the word “played” most likely to",
+    "passage": "pdfData:pdf/Pearsons2019-2020B_LetterBrooklyn.pdf",
+    "question_text": "Read lines 5– 6 from the poem.\n\nThe weather will turn cold.\nBut that all happens later.\n\nHow do the lines develop a central theme of the poem?",
     "options": [
-      "emphasize how much the adults enjoy observing the children.",
-      "show how everyone finds a way to enjoy being at the gathering.",
-      "indicate the variety of activities available at the gathering.",
-      "characterize the manner in which the children master the work of adults."
+      "They highlight a contrast between the different seasons.",
+      "They show the sequence of the changes that are expected to occur.",
+      "They warn about a problem that requires thoughtful preparation.",
+      "They emphasize the importance of valuing the present"
     ],
-    "correct_answer": 3,
+    "correct_answer": null,
     "answer_type": ""
   },
   {
     "_id": "12",
     "question_number": 12,
-    "practice_set": "15",
+    "practice_set": "17",
     "category": "English:Reading Comprehension",
     "difficulty": "easy",
     "time_estimate": 95,
-    "passage": "pdfData:pdf/Pearsons2024-2025B_NoHarm.pdf",
-    "question_text": "How do paragraphs 11– 13 affect the plot of the excerpt?",
+    "passage": "pdfData:pdf/Pearsons2019-2020B_LetterBrooklyn.pdf",
+    "question_text": "Read lines 7– 9 from the poem.\n\nFor now it is the early edge of fall,\nleaves green still while the air narrows,\nis slightly crisp,\n\nThe word choice in the lines helps convey the speaker’s belief that",
     "options": [
-      "They establish a feeling of mystery by presenting different points of view about the arriving people.",
-      "They contribute to the rising action by developing the idea that the arriving people could present a problem.",
-      "They lead to a turning point by describing the moment that the crowd realizes why the strangers have come.",
-      "They explain the cause of the main conflict by providing background information about the strangers."
+      "the beauty of the current season should still be appreciated.",
+      "the changes in the weather signify the end of the most pleasant season.",
+      "the transition from one season to another happens swiftly and without warning.",
+      "the change in the weather is so subtle that people rarely observe or feel it."
     ],
-    "correct_answer": 1,
+    "correct_answer": null,
     "answer_type": ""
   },
   {
     "_id": "13",
     "question_number": 13,
-    "practice_set": "15",
+    "practice_set": "17",
     "category": "English:Reading Comprehension",
     "difficulty": "easy",
     "time_estimate": 95,
-    "passage": "pdfData:pdf/Pearsons2024-2025B_NoHarm.pdf",
-    "question_text": "In paragraph 20, the phrases “trophies of their hunt” and “paraded around” affect the paragraph by",
+    "passage": "pdfData:pdf/Pearsons2019-2020B_LetterBrooklyn.pdf",
+    "question_text": "The details in lines 9– 12 convey a central idea of the poem by",
     "options": [
-      "suggesting that the hunters are rewarded for their leadership.",
-      "emphasizing that The People are dependent on the hunters for food.",
-      "revealing that the hunters are pleased with their success.",
-      "indicating that The People have gathered specifically to welcome the hunters."
+      "showing that the cool weather makes the speaker reflect more deeply on life.",
+      "suggesting that the speaker feels uncomfortable with what the coming weather signifies.",
+      "implying that the sensations the speaker experiences during the fall season are fleeting.",
+      "suggesting that the thought of fall approaching increases the loneliness the speaker feels."
     ],
-    "correct_answer": 2,
+    "correct_answer": null,
     "answer_type": ""
   },
   {
     "_id": "14",
     "question_number": 14,
-    "practice_set": "15",
+    "practice_set": "17",
     "category": "English:Reading Comprehension",
     "difficulty": "easy",
     "time_estimate": 95,
-    "passage": "pdfData:pdf/Pearsons2024-2025B_NoHarm.pdf",
-    "question_text": "Which quotation from the excerpt best supports the idea that The People feel a connection to members of their group in spite of distance?",
+    "passage": "pdfData:pdf/Pearsons2019-2020B_LetterBrooklyn.pdf",
+    "question_text": "Which idea does the comparison of the brownstone houses to “a pop- up picture book I could have had as a child, / but didn’t” in lines 20– 21 convey?",
     "options": [
-      "“As was their custom since wahk-kee-ma, a time far back beyond the memory of man, they set up their camps in the same locations their parents and grandparents had occupied before them.” (paragraph 5)",
-      "“ ‘Would they have news of the families who had gone long ago to Buffalo Country and never returned?’ ” (paragraph 13)",
-      "“ ‘Looks like hunters,’ the older men agreed. ‘Looks like they had good hunting.’ ”(paragraph 15)",
-      "“But it was the sight of the frail figure of the woman that aroused their curiosity.”(paragraph 21)"
+      "It reveals that some people are still influenced by powerful images from childhood.",
+      "It indicates that the neighborhood the speaker is walking through is charming and appealing.",
+      "It suggests that the speaker has wanted to live in the neighborhood since childhood.",
+      "It suggests that people often experience lingering regret from their past."
     ],
-    "correct_answer": 1,
+    "correct_answer": null,
     "answer_type": ""
   },
   {
     "_id": "15",
     "question_number": 15,
-    "practice_set": "15",
+    "practice_set": "17",
     "category": "English:Reading Comprehension",
     "difficulty": "easy",
     "time_estimate": 95,
-    "passage": "pdfData:pdf/Pearsons2024-2025B_NoHarm.pdf",
-    "question_text": "Read these sentences from paragraph 22.\n\n“Belongs to Red Bear people. Gone then come back.”\n\nHow does this statement affect the villagers in the excerpt?",
+    "passage": "pdfData:pdf/Pearsons2019-2020B_LetterBrooklyn.pdf",
+    "question_text": "Read these lines from the poem.\n\nI can already see how this will end. (line 1)\n\nHow Brooklyn makes me nostalgic\nfor the moment I am walking inside of. (lines 21– 22)\n\nThe lines develop a central idea of the poem by",
     "options": [
-      "It increases their concern about why the woman is in their camp.",
-      "It makes them hopeful that more lost members will return before the winter.",
-      "It causes shock, leading them to grieve for the loss of the woman and her family.",
-      "It inspires amazement, making them want to reconnect with their returned family member."
+      "suggesting the speaker’s desire to find a way to break free from the repetitive pattern of daily life.",
+      "revealing the speaker’s feelings of disappointment over the predictable change in season.",
+      "emphasizing the speaker’s awareness of the future significance of the present moment in the setting.",
+      "showing the speaker’s anticipation of specific emotions caused by an intimate knowledge of the setting."
     ],
-    "correct_answer": 3,
+    "correct_answer": null,
     "answer_type": ""
   },
   {
     "_id": "16",
     "question_number": 16,
-    "practice_set": "15",
+    "practice_set": "17",
     "category": "English:Reading Comprehension",
     "difficulty": "easy",
     "time_estimate": 95,
-    "passage": "pdfData:pdf/Pearsons2024-2025B_NoHarm.pdf",
-    "question_text": "The details in paragraph 5 about the locations of the camps and the details in paragraphs 23– 24 about the reaction to the woman convey a theme of the excerpt by",
+    "passage": "pdfData:pdf/Pearsons2019-2020B_LetterBrooklyn.pdf",
+    "question_text": "The speaker’s thoughts throughout the poem develop a theme by showing that",
     "options": [
-      "revealing the difficulties posed by moving often each year.",
-      "showing the connectedness among The People through the years.",
-      "indicating the value to The People of retelling stories about the past. ",
-      "demonstrating the importance of choosing appropriate names."
+      "although people may hold expectations for the future, some people long for present experiences while they are still happening.",
+      "though people come from different places, most people feel drawn to the special charm a city holds.",
+      "although people can make decisions about their life, there will always be some things beyond their control.",
+      "though general expectations exist, people have no way of knowing what a given day will actually bring."
     ],
-    "correct_answer": 1,
+    "correct_answer": null,
     "answer_type": ""
   },
   {
     "_id": "17",
     "question_number": 17,
-    "practice_set": "15",
+    "practice_set": "17",
     "category": "English:Reading Comprehension",
     "difficulty": "easy",
     "time_estimate": 95,
-    "passage": "pdfData:pdf/Pearsons2024-2025B_Telegraph.pdf",
-    "question_text": "Which statement describes how the author’s use of problem- solution in paragraph 2 contributes to the development of ideas in the passage?",
+    "passage": "pdfData:pdf/Pearsons2019-2020B_LetterBrooklyn.pdf",
+    "question_text": "The poet develops the speaker’s point of view by",
     "options": [
-      "Morse’s discussion on a ship about Faraday’s electromagnet reminded him of the Yale College lectures on electricity, which he had enjoyed but had not fully understood, inspiring him to learn more about electricity from his colleague Gale",
-      "Morse’s discouragement over his lack of knowledge of electricity prompted him to experiment with batteries, magnets, and wires, which led to the development of a new longdistance communication system.",
-      "Morse’s difficulty in understanding how Faraday’s electromagnet worked was frustrating, and it pushed him to create a system for sending signals over wires.",
-      "Morse’s longtime fascination was not enough to make up for his lack of knowledge about electricity, so he eventually sought help from Gale."
+      "providing details about the speaker’s longing to be in a different place.",
+      "showing the speaker’s sense of unease about the passing seasons.",
+      "including details about the speaker’s hope that life will remain unchanged.",
+      "showing the speaker’s desire to treasure and appreciate the changes taking place."
     ],
-    "correct_answer": 3,
+    "correct_answer": null,
     "answer_type": ""
   },
   {
     "_id": "18",
     "question_number": 18,
-    "practice_set": "15",
+    "practice_set": "17",
     "category": "English:Reading Comprehension",
     "difficulty": "easy",
     "time_estimate": 95,
-    "passage": "pdfData:pdf/Pearsons2024-2025B_Telegraph.pdf",
-    "question_text": "The details of the section “The Growth of an Idea” convey a central idea of the passage by suggesting that",
+    "passage": "pdfData:pdf/Pearsons2019-2020B_SpiritHerd.pdf",
+    "question_text": "Which sentence from the excerpt best explains why Wade reserved Peroxide Jim for “emergency work” (paragraph 1)?",
     "options": [
-      "the collaborative efforts of colleagues resulted in successful communication over a wire.",
-      "a great deal of interest and work was devoted to understanding how to use electricity to send signals.",
-      "Faraday’s invention of the electromagnet inspired the invention of the telegraph.",
-      "colleges like Yale played a great role in making new discoveries about electricity and its applications."
+      "“Along with the wagon had come the fresh horses—one of them being Peroxide Jim, a supple, powerful, clean-limbed buckskin, a horse, I think, that had as fine and intelligent an animal-face as any creature I ever saw. ” (paragraph 1)",
+      "“Before him, behind him, beside him, pressing hard upon his horse, galloped the frenzied steers, and beyond them a multitude borne on, and bearing him on, by the heave of the galloping herd.” (paragraph 10)",
+      "“He knew that he was being borne toward the rim, how fast he could not tell, but he knew by the swish of the brush against his tapaderos and the plunging of the horse that the ground was growing stonier, that they were nearing the rocks.” (paragraph 11)",
+      "“From the flash of the lightning the horse had taken the bit, had covered an indescribably perilous path at top speed, had outrun the herd and turned it from the edge of the rim rock, without a false step or a tremor of fear.” (paragraph 16)"
     ],
-    "correct_answer": 1,
+    "correct_answer": null,
     "answer_type": ""
   },
   {
     "_id": "19",
     "question_number": 19,
-    "practice_set": "15",
+    "practice_set": "17",
     "category": "English:Reading Comprehension",
     "difficulty": "easy",
     "time_estimate": 95,
-    "passage": "pdfData:pdf/Pearsons2024-2025B_Telegraph.pdf",
-    "question_text": "Which statement describes how the author’s use of sequencing in paragraph 3 contributes to the overall structure of the passage?",
+    "passage": "pdfData:pdf/Pearsons2019-2020B_SpiritHerd.pdf",
+    "question_text": "Paragraphs 1–2 contribute to the development of the central idea of the excerpt by",
     "options": [
-      "It shows that several people were simultaneously attempting to create an electric telegraph.",
-      "It shows how the invention of the electric telegraph depended on information and techniques discovered by others.",
-      "It shows that multiple means of long- distance communication were being used at the same time.",
-      "It shows how quickly long- distance communication changed from visual signals to electrical signals."
+      "revealing the respect Wade had for his horse.",
+      "emphasizing Wade’s high expectations of his horse and himself.",
+      "indicating that Wade and his horse understood the cattle business.",
+      "demonstrating Wade’s ability to gauge a horse’s competence."
     ],
-    "correct_answer": 1,
+    "correct_answer": null,
     "answer_type": ""
   },
   {
     "_id": "20",
     "question_number": 20,
-    "practice_set": "15",
+    "practice_set": "17",
     "category": "English:Reading Comprehension",
     "difficulty": "easy",
     "time_estimate": 95,
-    "passage": "pdfData:pdf/Pearsons2024-2025B_Telegraph.pdf",
-    "question_text": "Which sentence is the best summary of how Morse obtained the funding necessary to build his telegraph system?",
+    "passage": "pdfData:pdf/Pearsons2019-2020B_SpiritHerd.pdf",
+    "question_text": "How does paragraph 3 convey the effect of the setting on the cattle drive?",
     "options": [
-      "Morse’s application for a federal grant was delayed until 1843, so he spent time traveling in Europe, where he concentrated on obtaining a patent for his system.",
-      "Morse applied for a government grant that required both houses of Congress and the president to pass a bill awarding him $30,000 for his telegraph project.",
-      "Morse applied for a government appropriation and conducted telegraph demonstrations to show that his system could work, and after a delay caused by a financial depression, Congress approved the $30,000 appropriation in 1843.",
-      "Working with Gale and Vail allowed Morse to find flaws in Henry’s work and to develop his own ideas before applying for the federal government appropriation."
+      "It shows how the growing darkness created challenges for the riders in getting the herd to move.",
+      "It describes how the changing elevation contributed to the dangerousness of the environment",
+      "It describes how the desert created a feeling of isolation that caused the riders and the cattle to feel uncomfortable.",
+      "It shows how the steep terrain made it difficult for the cattle to keep moving forward."
     ],
-    "correct_answer": 2,
+    "correct_answer": null,
     "answer_type": ""
   },
   {
     "_id": "21",
     "question_number": 21,
-    "practice_set": "15",
+    "practice_set": "17",
     "category": "English:Reading Comprehension",
     "difficulty": "easy",
     "time_estimate": 95,
-    "passage": "pdfData:pdf/Pearsons2024-2025B_Telegraph.pdf",
-    "question_text": "Read this sentence from paragraph 7.\n\nThe desperate Morse gave the go- ahead, and the line was completed in time for the dramatic and spectacularly successful link between the Supreme Court chamber of the Capitol building and the railroad station in Baltimore.\n\nThe words “dramatic” and “spectacularly” in the sentence convey a",
+    "passage": "pdfData:pdf/Pearsons2019-2020B_SpiritHerd.pdf",
+    "question_text": "Which sentence from the excerpt best reveals the mood on the drive before the lightning struck?",
     "options": [
-      "sense of relief and fulfillment that the line was finished.",
-      "sense of wonder and celebration that the telegraph line was accomplished.",
-      "feeling of excitement about the future possibilities of the telegraph.",
-      "feeling of confidence about being able to continue the work."
+      "“The herd when overtaken by the dusk had been headed for a pass descending to the next lower bench, but was now halted within a mile of the rim rock on the east, where there was a perpendicular fall of about three hundred feet.” (paragraph 3)",
+      "“It was not to soothe their savage breasts that the riders sang to the cattle, but rather to preempt the dreaded silence, to relieve the tension, and so to prevent the shock of any sudden startling noise.” (paragraph 5)",
+      "“So they sang and rode and the night wore on to one o’clock, when Wade, coming up on the rimrock side, felt a cool breeze fan his face, and caught a breath of fresh, moist wind with the taste of water in it.” (paragraph 6)",
+      "“Then the breeze caught the dust and carried it back from the gray-coated, ghostly shapes, and Wade saw that the animals were still moving in a circle.” (paragraph 9)"
     ],
-    "correct_answer": 1,
+    "correct_answer": null,
     "answer_type": ""
   },
   {
     "_id": "22",
     "question_number": 22,
-    "practice_set": "15",
+    "practice_set": "17",
     "category": "English:Reading Comprehension",
     "difficulty": "easy",
     "time_estimate": 95,
-    "passage": "pdfData:pdf/Pearsons2024-2025B_Telegraph.pdf",
-    "question_text": "How does the graph support the ideas in paragraph 8?",
+    "passage": "pdfData:pdf/Pearsons2019-2020B_SpiritHerd.pdf",
+    "question_text": "How does paragraph 9 fit into the overall structure of the excerpt?",
     "options": [
-      "It indicates how welcome the improvement of long- distance communication was in the United States.",
-      "It provides evidence of the dramatic increase in the number of telegraph messages as Morse’s system expanded across the United States.",
-      "It reveals that by the twentieth century millions of people had used the telegraph despite earlier hesitations about the system.",
-      "It shows how improvements that allowed Morse code to be read in real time made relaying telegraph messages faster and increased the system’s usage."
+      "It hints at the change in the setting that caused Wade to suddenly become alert",
+      "It creates a false sense of calm that shows how unprepared the men were for what was about to happen.",
+      "It indicates that Wade was a skillful leader in unpredictable circumstances.",
+      "It presents the incident that caused the main conflict Wade and Peroxide Jim addressed."
     ],
-    "correct_answer": 1,
+    "correct_answer": null,
     "answer_type": ""
   },
   {
     "_id": "23",
     "question_number": 23,
-    "practice_set": "15",
+    "practice_set": "17",
     "category": "English:Reading Comprehension",
     "difficulty": "easy",
     "time_estimate": 95,
-    "passage": "pdfData:pdf/Pearsons2024-2025B_Telegraph.pdf",
-    "question_text": "The idea that, in the mid- nineteenth century, the United States was mostly unaware of the possibilities of electricity is illustrated in the passage mainly through the",
+    "passage": "pdfData:pdf/Pearsons2019-2020B_SpiritHerd.pdf",
+    "question_text": "Read these sentences from the excerpt.\n\nHe was riding to turn the herd, too, back from the rim, as the horse also knew. (paragraph 11)\n\nIt was Peroxide Jim’s, according to Wade, for not by word or by touch of hand or knee had the horse been directed in the run. (paragraph 16)\n\nHow do these sentences develop a central idea in the excerpt?",
     "options": [
-      "description of the government’s initial desire to expand a semaphore signaling system that used either flags or lights along the Atlantic Coast.",
-      "delay by the House of Representatives to pass the bill funding Morse’s telegraph line six years after he first applied for the appropriation.",
-      "discussions of the newly invented electromagnet that sparked the idea of sending codes through wires.",
-      "description of how an electric circuit could be closed to ring a bell at a distance."
+      "They suggest that Wade would have been unable to save the herd without Peroxide Jim.",
+      "They imply that Wade spent many hours training Peroxide Jim to herd cattle",
+      "They show that Peroxide Jim was able to understand a situation and take action.",
+      "They indicate that Peroxide Jim was unafraid of the dangers presented by the stampede and the cliff."
     ],
-    "correct_answer": 0,
+    "correct_answer": null,
     "answer_type": ""
   },
   {
     "_id": "24",
     "question_number": 24,
-    "practice_set": "15",
+    "practice_set": "17",
     "category": "English:Reading Comprehension",
     "difficulty": "easy",
     "time_estimate": 95,
-    "passage": "pdfData:pdf/Pearsons2024-2025B_Telegraph.pdf",
-    "question_text": "With which statement would the author most likely agree?",
+    "passage": "pdfData:pdf/Pearsons2019-2020B_SpiritHerd.pdf",
+    "question_text": "Read this sentence from paragraph 13.\n\n Close on their left bore down the flank of the herd, and on their right, under their very feet, was a precipice, so close that they felt its blackness—its three hundred feet of fall!\n\nThe phrase “bore down the flank of the herd” conveys that Wade",
     "options": [
-      "Morse’s telegraph was successful because the wires were strung aboveground rather than underground as originally planned.",
-      "Understanding the importance of Morse’s telegraph requires detailed knowledge of electrical systems.",
-      "The implementation of Morse’s telegraph system was overly influenced by economic factors.",
-      "Morse’s invention of the telegraph made a great stride toward better connecting people across the United States and across the world."
+      "struggled to see the front of the herd.",
+      "had to ride quickly to keep up with the herd.",
+      "was forced to ride between the edge of the cliff and the herd.",
+      "knew that the drop of the cliff would frighten the herd."
     ],
-    "correct_answer": 3,
+    "correct_answer": null,
     "answer_type": ""
   },
   {
     "_id": "25",
     "question_number": 25,
-    "practice_set": "15",
+    "practice_set": "17",
     "category": "English:Reading Comprehension",
     "difficulty": "easy",
     "time_estimate": 95,
-    "passage": "pdfData:pdf/Pearsons2024-2025B_Telegraph.pdf",
-    "question_text": "How does the map provide additional support for a central idea of the passage?",
+    "passage": "pdfData:pdf/Pearsons2019-2020B_SpiritHerd.pdf",
+    "question_text": "How do the details in paragraphs 14–16 help convey a central idea of the excerpt?",
     "options": [
-      "by demonstrating that Morse’s telegraph system greatly exceeded the limitations of previous long-distance communication systems",
-      "by indicating that Morse was lacking foresight by seeking a patent only in North America",
-      "by proving that Gale’s advice helped Morse extend the telegraph’s range much farther than first thought possible",
-      "by showing that the Morse telegraph had a surprisingly immense influence across the world"
+      "They highlight Peroxide Jim’s natural ability to control the herd.",
+      "They emphasize the danger of the situation from which Peroxide Jim rescued the herd.",
+      "They show that Peroxide Jim’s physical strength allowed him to force the herd to turn.",
+      "They indicate that Peroxide Jim anticipated the herd’s stampede before the men did."
     ],
-    "correct_answer": 0,
+    "correct_answer": null,
     "answer_type": ""
   },
   {
     "_id": "26",
     "question_number": 26,
-    "practice_set": "15",
+    "practice_set": "17",
     "category": "English:Reading Comprehension",
     "difficulty": "easy",
     "time_estimate": 95,
-    "passage": "pdfData:pdf/Pearsons2024-2025B_SnowyMountains.pdf",
+    "passage": "pdfData:pdf/Pearsons2019-2020B_SnowyMountains.pdf",
     "question_text": "The description in the first stanza (lines 1– 7) helps establish a central idea of the poem by",
     "options": [
       "comparing the length of time the mountains have existed with the length of time the city has existed.",
@@ -464,17 +464,17 @@
       "implying that the mountains are a source of inspiration to the people in the city below.",
       "suggesting that the mountains are larger than the people in the city realize."
     ],
-    "correct_answer": 1,
+    "correct_answer": null,
     "answer_type": ""
   },
   {
     "_id": "27",
     "question_number": 27,
-    "practice_set": "15",
+    "practice_set": "17",
     "category": "English:Reading Comprehension",
     "difficulty": "easy",
     "time_estimate": 95,
-    "passage": "pdfData:pdf/Pearsons2024-2025B_SnowyMountains.pdf",
+    "passage": "pdfData:pdf/Pearsons2019-2020B_SnowyMountains.pdf",
     "question_text": "Read line 5 from the poem.\n\nPillars of the sky at rest\n\nThe line helps develop the theme of the poem by suggesting that the mountains",
     "options": [
       "serve a noble and supportive purpose in the world.",
@@ -482,17 +482,17 @@
       "remain untamed through the ages.",
       "provide protection for the people."
     ],
-    "correct_answer": 0,
+    "correct_answer": null,
     "answer_type": ""
   },
   {
     "_id": "28",
     "question_number": 28,
-    "practice_set": "15",
+    "practice_set": "17",
     "category": "English:Reading Comprehension",
     "difficulty": "easy",
     "time_estimate": 95,
-    "passage": "pdfData:pdf/Pearsons2024-2025B_SnowyMountains.pdf",
+    "passage": "pdfData:pdf/Pearsons2019-2020B_SnowyMountains.pdf",
     "question_text": "How does isolating the word “Uprise” in line 7 affect the meaning of the poem?",
     "options": [
       "It creates a contrast between the great plateau and the city buildings.",
@@ -500,17 +500,17 @@
       "It creates a vision of the region before people developed the land.",
       "It emphasizes that the mountains dominate the landscape."
     ],
-    "correct_answer": 3,
+    "correct_answer": null,
     "answer_type": ""
   },
   {
     "_id": "29",
     "question_number": 29,
-    "practice_set": "15",
+    "practice_set": "17",
     "category": "English:Reading Comprehension",
     "difficulty": "easy",
     "time_estimate": 95,
-    "passage": "pdfData:pdf/Pearsons2024-2025B_SnowyMountains.pdf",
+    "passage": "pdfData:pdf/Pearsons2019-2020B_SnowyMountains.pdf",
     "question_text": "Which line from the poem best supports the idea that people have sacrificed priceless natural beauty in order to make a profit?",
     "options": [
       "“Above the dingy city- roofs” (line 3)",
@@ -518,17 +518,17 @@
       "“Tunnels their granite cliffs,” (line 11)",
       "“Plasters their cliffs with soap- advertisements,” (line 13)"
     ],
-    "correct_answer": 3,
+    "correct_answer": null,
     "answer_type": ""
   },
   {
     "_id": "30",
     "question_number": 30,
-    "practice_set": "15",
+    "practice_set": "17",
     "category": "English:Reading Comprehension",
     "difficulty": "easy",
     "time_estimate": 95,
-    "passage": "pdfData:pdf/Pearsons2024-2025B_SnowyMountains.pdf",
+    "passage": "pdfData:pdf/Pearsons2019-2020B_SnowyMountains.pdf",
     "question_text": "How does the poet develop the speaker’s point of view in the second stanza (lines 8– 14)?",
     "options": [
       "by describing images of the mountains’ awe- inspiring size and strength",
@@ -536,17 +536,17 @@
       "by criticizing society for taking careless, harmful courses of action against nature",
       "by demonstrating how the mountains and the people are able to benefit from each other"
     ],
-    "correct_answer": 2,
+    "correct_answer": null,
     "answer_type": ""
   },
   {
     "_id": "31",
     "question_number": 31,
-    "practice_set": "15",
+    "practice_set": "17",
     "category": "English:Reading Comprehension",
     "difficulty": "easy",
     "time_estimate": 95,
-    "passage": "pdfData:pdf/Pearsons2024-2025B_SnowyMountains.pdf",
+    "passage": "pdfData:pdf/Pearsons2019-2020B_SnowyMountains.pdf",
     "question_text": "Which detail from the poem reflects the speaker’s view that people often fail to appreciate what is familiar?",
     "options": [
       "“The mountains from the great plateau” (line 6)",
@@ -554,17 +554,17 @@
       "“Splits down their shining sides,” (line 12)",
       "“To which the future is as was the past,” (line 18)"
     ],
-    "correct_answer": 1,
+    "correct_answer": null,
     "answer_type": ""
   },
   {
     "_id": "32",
     "question_number": 32,
-    "practice_set": "15",
+    "practice_set": "17",
     "category": "English:Reading Comprehension",
     "difficulty": "easy",
     "time_estimate": 95,
-    "passage": "pdfData:pdf/Pearsons2024-2025B_SnowyMountains.pdf",
+    "passage": "pdfData:pdf/Pearsons2019-2020B_SnowyMountains.pdf",
     "question_text": "Read lines 21– 22 from the poem.\n\nBarrier broken down by those who do not need\nThe joy of time- resisting storm- worn stone,\n\nHow do the lines help convey the speaker’s point of view?",
     "options": [
       "They suggest that the speaker wants to remove the obstacles that prevent others from experiencing the wonders of nature.",
@@ -572,17 +572,17 @@
       "They reflect the speaker’s dismay that people destroy the natural landscape without understanding the ramifications of their actions.",
       "They explain that the speaker is confident that nature will never be fully destroyed by people."
     ],
-    "correct_answer": 2,
+    "correct_answer": null,
     "answer_type": ""
   },
   {
     "_id": "33",
     "question_number": 33,
-    "practice_set": "15",
+    "practice_set": "17",
     "category": "English:Reading Comprehension",
     "difficulty": "easy",
     "time_estimate": 95,
-    "passage": "pdfData:pdf/Pearsons2024-2025B_SnowyMountains.pdf",
+    "passage": "pdfData:pdf/Pearsons2019-2020B_SnowyMountains.pdf",
     "question_text": "How do the details in the third stanza (lines 15– 26) most contribute to the development of a theme of the poem?",
     "options": [
       "by reflecting nature’s capacity to resist change",
@@ -590,17 +590,17 @@
       "by exposing how a lack of awareness leads to nature’s ruin",
       "by explaining why people must respect nature"
     ],
-    "correct_answer": 0,
+    "correct_answer": null,
     "answer_type": ""
   },
   {
     "_id": "34",
     "question_number": 34,
-    "practice_set": "15",
+    "practice_set": "17",
     "category": "English:Reading Comprehension",
     "difficulty": "easy",
     "time_estimate": 95,
-    "passage": "pdfData:pdf/Pearsons2024-2025B_SnowyMountains.pdf",
+    "passage": "pdfData:pdf/Pearsons2019-2020B_SnowyMountains.pdf",
     "question_text": "Read lines 23– 26 from the poem.\n\nThe mountains swing along\nThe south horizon of the sky;\nWelcoming with wide floors of blue- green ice\nThe mists that dance and drive before the sun.\n\nThe personification in these concluding lines of the poem suggests that the mountains are",
     "options": [
       "gracious hosts who are untroubled by the actions of people.",
@@ -608,17 +608,17 @@
       "lively entertainers who are amused by the everyday concerns of people.",
       "too proud to reveal their pain."
     ],
-    "correct_answer": 0,
+    "correct_answer": null,
     "answer_type": ""
   },
   {
     "_id": "35",
     "question_number": 35,
-    "practice_set": "15",
+    "practice_set": "17",
     "category": "English:Reading Comprehension",
     "difficulty": "easy",
     "time_estimate": 95,
-    "passage": "pdfData:pdf/Pearsons2024-2025B_PastFutureTrees.pdf",
+    "passage": "pdfData:pdf/Pearsons2019-2020B_PastFutureTrees.pdf",
     "question_text": "What is the effect of comparing groups of bristlecone pines to “a city within a cemetery”(paragraph 2)?",
     "options": [
       "It illustrates that the new tree’s appearance is markedly different from that of mature bristlecone pines.",
@@ -626,17 +626,17 @@
       "It highlights the tree’s capacity for a long life if it is able to survive to maturity.",
       "It reveals that the tree’s dense growth patterns are unusual in arid conditions."
     ],
-    "correct_answer": 1,
+    "correct_answer": null,
     "answer_type": ""
   },
   {
     "_id": "36",
     "question_number": 36,
-    "practice_set": "15",
+    "practice_set": "17",
     "category": "English:Reading Comprehension",
     "difficulty": "easy",
     "time_estimate": 95,
-    "passage": "pdfData:pdf/Pearsons2024-2025B_PastFutureTrees.pdf",
+    "passage": "pdfData:pdf/Pearsons2019-2020B_PastFutureTrees.pdf",
     "question_text": "In paragraph 4, the idea that the bristlecone pine can withstand difficult conditions is illustrated mainly through",
     "options": [
       "a comparison of the bristlecone pine with similar trees that are known for their long lives.",
@@ -644,17 +644,17 @@
       "an explanation of why the White Mountains are the best place for the bristlecone pine to grow.",
       "an examination of why the bristlecone pine has few competitors in the White Mountains."
     ],
-    "correct_answer": 1,
+    "correct_answer": null,
     "answer_type": ""
   },
   {
     "_id": "37",
     "question_number": 37,
-    "practice_set": "15",
+    "practice_set": "17",
     "category": "English:Reading Comprehension",
     "difficulty": "easy",
     "time_estimate": 95,
-    "passage": "pdfData:pdf/Pearsons2024-2025B_PastFutureTrees.pdf",
+    "passage": "pdfData:pdf/Pearsons2019-2020B_PastFutureTrees.pdf",
     "question_text": "Read this sentence from paragraph 5.\n\nEmpires rose and fell; wars raged; . . . and the tree from 2500 B.C. continued its implacable slow-motion existence, adding about two-hundredths of an inch to the diameter of its trunk each year.\n\nThe sentence contributes to the development of ideas in the excerpt by",
     "options": [
       "emphasizing the bristlecone pine’s precise growth pattern.",
@@ -662,17 +662,17 @@
       "describing the pace of the life cycle of the bristlecone pine.",
       "explaining the reason for the bristlecone pine’s longevity."
     ],
-    "correct_answer": 2,
+    "correct_answer": null,
     "answer_type": ""
   },
   {
     "_id": "38",
     "question_number": 38,
-    "practice_set": "15",
+    "practice_set": "17",
     "category": "English:Reading Comprehension",
     "difficulty": "easy",
     "time_estimate": 95,
-    "passage": "pdfData:pdf/Pearsons2024-2025B_PastFutureTrees.pdf",
+    "passage": "pdfData:pdf/Pearsons2019-2020B_PastFutureTrees.pdf",
     "question_text": "Which claim is best supported by the details in paragraph 5 about the bristlecone pine’s treering record?",
     "options": [
       "The bristlecone pine must be protected from extinction so that there is a record of changing Earth conditions.",
@@ -680,17 +680,17 @@
       "The slow growth process of the bristlecone pine allows it to survive in spite of changing Earth conditions.",
       "The bristlecone pine can be used to gather information on changing Earth conditions because of its long life."
     ],
-    "correct_answer": 3,
+    "correct_answer": null,
     "answer_type": ""
   },
   {
     "_id": "39",
     "question_number": 39,
-    "practice_set": "15",
+    "practice_set": "17",
     "category": "English:Reading Comprehension",
     "difficulty": "easy",
     "time_estimate": 95,
-    "passage": "pdfData:pdf/Pearsons2024-2025B_PastFutureTrees.pdf",
+    "passage": "pdfData:pdf/Pearsons2019-2020B_PastFutureTrees.pdf",
     "question_text": "The phrases “clings to life” and “stripped of bark” in paragraph 6 are used to highlight",
     "options": [
       "that the tree is fragile and needs help to avoid becoming extinct.",
@@ -698,17 +698,17 @@
       "how the tree interests observers with its unusual appearance.",
       "that the tree manages to survive even when partially fossilized."
     ],
-    "correct_answer": 3,
+    "correct_answer": null,
     "answer_type": ""
   },
   {
     "_id": "40",
     "question_number": 40,
-    "practice_set": "15",
+    "practice_set": "17",
     "category": "English:Reading Comprehension",
     "difficulty": "easy",
     "time_estimate": 95,
-    "passage": "pdfData:pdf/Pearsons2024-2025B_PastFutureTrees.pdf",
+    "passage": "pdfData:pdf/Pearsons2019-2020B_PastFutureTrees.pdf",
     "question_text": "The details in paragraph 7 convey a central idea of the excerpt by suggesting that",
     "options": [
       "the success of the bristlecone pine lies in its ability to resist climate change.",
@@ -716,17 +716,17 @@
       "the attachment that humans have to the bristlecone pine is understandable.",
       "the longevity of the bristlecone pine continues to encourage experts."
     ],
-    "correct_answer": 3,
+    "correct_answer": null,
     "answer_type": ""
   },
   {
     "_id": "41",
     "question_number": 41,
-    "practice_set": "15",
+    "practice_set": "17",
     "category": "English:Reading Comprehension",
     "difficulty": "easy",
     "time_estimate": 95,
-    "passage": "pdfData:pdf/Pearsons2024-2025B_PastFutureTrees.pdf",
+    "passage": "pdfData:pdf/Pearsons2019-2020B_PastFutureTrees.pdf",
     "question_text": "What is the best summary of the bristlecone pine’s life cycle?",
     "options": [
       "The bristlecone pine takes root as a stubby seedling in the mountains. Over time, it grows slowly in a hostile environment with alkaline soil that ensures little competition from other trees.",
@@ -734,17 +734,17 @@
       "The bristlecone pine grows slowly in an environment hostile to other trees. Over time, its trunk and some branches fossilize, but it funnels water and nutrients to other parts that are still alive.",
       "The bristlecone pine grows only in one location in the mountains. Over time, it develops sparse foliage that fossilizes slowly, but the trunk and branches stay alive, as revealed by ribbons of live bark."
     ],
-    "correct_answer": 2,
+    "correct_answer": null,
     "answer_type": ""
   },
   {
     "_id": "42",
     "question_number": 42,
-    "practice_set": "15",
+    "practice_set": "17",
     "category": "English:Reading Comprehension",
     "difficulty": "easy",
     "time_estimate": 95,
-    "passage": "pdfData:pdf/Pearsons2024-2025B_PastFutureTrees.pdf",
+    "passage": "pdfData:pdf/Pearsons2019-2020B_PastFutureTrees.pdf",
     "question_text": "Throughout the excerpt, the author conveys his point of view mainly by",
     "options": [
       "sharing details about the qualities of the bristlecone pine that make it an unusual tree",
@@ -752,17 +752,17 @@
       "explaining the way the seemingly sickly appearance of the bristlecone pine contrasts with its ability to survive.",
       "arguing that the bristlecone pine has survived past threats to its survival and will continue to thrive"
     ],
-    "correct_answer": 0,
+    "correct_answer": null,
     "answer_type": ""
   },
   {
     "_id": "43",
     "question_number": 43,
-    "practice_set": "15",
+    "practice_set": "17",
     "category": "English:Reading Comprehension",
     "difficulty": "easy",
     "time_estimate": 95,
-    "passage": "pdfData:pdf/Pearsons2024-2025B_TimetoVolunteer.pdf",
+    "passage": "pdfData:pdf/Pearsons2019-2020B_TimetoVolunteer.pdf",
     "question_text": "Which revision of sentence 2 uses the most precise language?",
     "options": [
       "These are the people who spend their free time volunteering at animal shelters, helping with activities in community centers, or cleaning up parks.",
@@ -770,17 +770,17 @@
       "These are the people who spend their free time working at local establishments that help people, animals, or other groups in need of assistance.",
       "These are the people who spend a lot of time volunteering at places where they can help people in many ways."
     ],
-    "correct_answer": 0,
+    "correct_answer": null,
     "answer_type": ""
   },
   {
     "_id": "44",
     "question_number": 44,
-    "practice_set": "15",
+    "practice_set": "17",
     "category": "English:Reading Comprehension",
     "difficulty": "easy",
     "time_estimate": 95,
-    "passage": "pdfData:pdf/Pearsons2024-2025B_TimetoVolunteer.pdf",
+    "passage": "pdfData:pdf/Pearsons2019-2020B_TimetoVolunteer.pdf",
     "question_text": "Which sentence should follow sentence 4 to introduce the main claim of the passage?",
     "options": [
       "With that in mind, high school students should consider engaging in some form of regular volunteerism.",
@@ -788,17 +788,17 @@
       "In fact, studies have confirmed that volunteerism can be beneficial for students, the family, and the community.",
       "For this reason, high school students should learn about how helping others can strengthen their communities."
     ],
-    "correct_answer": 0,
+    "correct_answer": null,
     "answer_type": ""
   },
   {
     "_id": "45",
     "question_number": 45,
-    "practice_set": "15",
+    "practice_set": "17",
     "category": "English:Reading Comprehension",
     "difficulty": "easy",
     "time_estimate": 95,
-    "passage": "pdfData:pdf/Pearsons2024-2025B_TimetoVolunteer.pdf",
+    "passage": "pdfData:pdf/Pearsons2019-2020B_TimetoVolunteer.pdf",
     "question_text": "Which sentence is least relevant to the ideas presented in the second paragraph (sentences 5–10) and should be deleted?",
     "options": [
       "sentence 6",
@@ -806,17 +806,17 @@
       "sentence 8",
       "sentence 9"
     ],
-    "correct_answer": 1,
+    "correct_answer": null,
     "answer_type": ""
   },
   {
     "_id": "46",
     "question_number": 46,
-    "practice_set": "15",
+    "practice_set": "17",
     "category": "English:Reading Comprehension",
     "difficulty": "easy",
     "time_estimate": 95,
-    "passage": "pdfData:pdf/Pearsons2024-2025B_TimetoVolunteer.pdf",
+    "passage": "pdfData:pdf/Pearsons2019-2020B_TimetoVolunteer.pdf",
     "question_text": "Which of these would best follow sentence 12 and support the ideas presented in the third paragraph (sentences 11– 12)?",
     "options": [
       "These students show that they are likely to be responsible, reliable, and helpful young adults. Admissions counselors know that character traits like these will benefit the applicants as well as whomever they interact with.",
@@ -824,17 +824,17 @@
       "The counselors hope that young adults who demonstrate this behavior will go on to volunteer during their college years, working on campus in student government and leadership programs or serving in the community at hospitals, schools, and homeless shelters.",
       "Many colleges are looking for students who are not just academically successful but who also work well with others and care about improving and serving surrounding communities."
     ],
-    "correct_answer": 3,
+    "correct_answer": null,
     "answer_type": ""
   },
   {
     "_id": "47",
     "question_number": 47,
-    "practice_set": "15",
+    "practice_set": "17",
     "category": "English:Reading Comprehension",
     "difficulty": "easy",
     "time_estimate": 95,
-    "passage": "pdfData:pdf/Pearsons2024-2025B_TimetoVolunteer.pdf",
+    "passage": "pdfData:pdf/Pearsons2019-2020B_TimetoVolunteer.pdf",
     "question_text": "Which concluding sentence should replace sentence 22 to provide the best support for the argument presented in the passage?",
     "options": [
       "In every city, there are homeless shelters, food pantries, youth centers, and political campaigns that depend on the support and commitment of hardworking young people",
@@ -842,13 +842,13 @@
       "When students carefully evaluate their activities and prioritize volunteerism, they find a way to work it into their schedule and are soon encouraging their peers to do the same.",
       "Whether they are seeking admission to college, preparing to enter the workforce, or simply looking to reduce stress, high school students who volunteer can help themselves as much as they help others."
     ],
-    "correct_answer": 3,
+    "correct_answer": null,
     "answer_type": ""
   },
   {
     "_id": "48",
     "question_number": 48,
-    "practice_set": "15",
+    "practice_set": "17",
     "category": "English:Reading Comprehension",
     "difficulty": "easy",
     "time_estimate": 95,
@@ -860,13 +860,13 @@
       "The Gotthard Base Tunnel is the world’s longest and deepest railway tunnel, stretching 35.5 miles straight through the base of the Swiss Alps.",
       "The Gotthard Base Tunnel continues to help reduce the number of freight trucks on the roadways in the Swiss Alps."
     ],
-    "correct_answer": 2,
+    "correct_answer": null,
     "answer_type": ""
   },
   {
     "_id": "49",
     "question_number": 49,
-    "practice_set": "15",
+    "practice_set": "17",
     "category": "English:Reading Comprehension",
     "difficulty": "easy",
     "time_estimate": 95,
@@ -878,13 +878,13 @@
       "Engineers had considered making a tunnel under the mountains for many years, but it was impossible to do without modern tunnel- boring machines.",
       "Different types of cutter heads are used with tunnel- boring machines depending on the geology of the area where the tunnel is being created."
     ],
-    "correct_answer": 1,
+    "correct_answer": null,
     "answer_type": ""
   },
   {
     "_id": "50",
     "question_number": 50,
-    "practice_set": "15",
+    "practice_set": "17",
     "category": "English:Reading Comprehension",
     "difficulty": "easy",
     "time_estimate": 95,
@@ -896,13 +896,13 @@
       "between sentences 8 and 9",
       "between sentences 9 and 10"
     ],
-    "correct_answer": 3,
+    "correct_answer": null,
     "answer_type": ""
   },
   {
     "_id": "51",
     "question_number": 51,
-    "practice_set": "15",
+    "practice_set": "17",
     "category": "English:Reading Comprehension",
     "difficulty": "easy",
     "time_estimate": 95,
@@ -914,13 +914,13 @@
       "sentence 15",
       "sentence 16"
     ],
-    "correct_answer": 3,
+    "correct_answer": null,
     "answer_type": ""
   },
   {
     "_id": "52",
     "question_number": 52,
-    "practice_set": "15",
+    "practice_set": "17",
     "category": "English:Reading Comprehension",
     "difficulty": "easy",
     "time_estimate": 95,
@@ -932,13 +932,13 @@
       "Because of the successful completion of the Gotthard Base Tunnel,",
       "As the number of trains using the Gotthard Base Tunnel increases,"
     ],
-    "correct_answer": 2,
+    "correct_answer": null,
     "answer_type": ""
   },
   {
     "_id": "53",
     "question_number": 53,
-    "practice_set": "15",
+    "practice_set": "17",
     "category": "English:Reading Comprehension",
     "difficulty": "easy",
     "time_estimate": 95,
@@ -950,13 +950,13 @@
       "The completion of the Gotthard Base Tunnel shows that people can work together to achieve important goals.",
       "The Swiss government is confident that the economic impact of the Gotthard Base Tunnel will be worth its construction cost."
     ],
-    "correct_answer": 1,
+    "correct_answer": null,
     "answer_type": ""
   },
   {
     "_id": "54",
     "question_number": 54,
-    "practice_set": "15",
+    "practice_set": "17",
     "category": "English:Reading Comprehension",
     "difficulty": "easy",
     "time_estimate": 95,
@@ -968,13 +968,13 @@
       "The International Space Station has been inhabited by crew members since 2000, but tourists will soon be allowed to pay for visits to the space station, though the cost is $52–$58 million round trip, so few people will be able to take advantage of the opportunity to have a vacation in outer space.",
       "The International Space Station has been inhabited by crew members since 2000, and tourists will soon be allowed to pay for visits to the space station because the cost is $52–$58 million round trip, therefore few people will be able to take advantage of the opportunity to have a vacation in outer space."
     ],
-    "correct_answer": 1,
+    "correct_answer": null,
     "answer_type": ""
   },
   {
     "_id": "55",
     "question_number": 55,
-    "practice_set": "15",
+    "practice_set": "17",
     "category": "English:Reading Comprehension",
     "difficulty": "easy",
     "time_estimate": 95,
@@ -986,13 +986,13 @@
       "sentence 3",
       "sentence 4"
     ],
-    "correct_answer": 1,
+    "correct_answer": null,
     "answer_type": ""
   },
   {
     "_id": "56",
     "question_number": 56,
-    "practice_set": "15",
+    "practice_set": "17",
     "category": "English:Reading Comprehension",
     "difficulty": "easy",
     "time_estimate": 95,
@@ -1004,13 +1004,13 @@
       "The Appalachian Trail is a 2,200- mile trail that two million people hike each year.",
       "The Appalachian Trail is a lengthy trail that a couple million people do each year."
     ],
-    "correct_answer": 2,
+    "correct_answer": null,
     "answer_type": ""
   },
   {
     "_id": "57",
     "question_number": 57,
-    "practice_set": "15",
+    "practice_set": "17",
     "category": "English:Reading Comprehension",
     "difficulty": "easy",
     "time_estimate": 95,
@@ -1022,1008 +1022,1008 @@
       "Sentence 2: Insert a comma after 'completed'.\nSentence 3: Change 'becomes' to 'became'.",
       "Sentence 2: Insert a comma after 'completed'.\nSentence 4: Change 'believed' to 'had believed'"
     ],
-    "correct_answer": 2,
+    "correct_answer": null,
     "answer_type": ""
   },
   {
     "_id": "58",
     "question_number": 58,
-    "practice_set": "15",
+    "practice_set": "17",
     "category": "Math:Algebra",
     "difficulty": "easy",
     "time_estimate": 95,
-    "passage": "image:images/shsatpractice15question58.png",
-    "question_text": "After the expression above is simplified, what is the coefficient of x, expressed as a decimal?",
+    "passage": "image:images/shsatpractice17question58.png",
+    "question_text": "The table above shows the number of each type of vehicle sold at a dealership last year. If 1,000 vehicles will be sold next month, what is the best estimate (based on last year’s sales) of the number of two-door cars that will be sold?",
     "options": [],
-    "correct_answer": -0.8,
+    "correct_answer": null,
     "answer_type": "fill_in_the_blank"
   },
   {
     "_id": "59",
     "question_number": 59,
-    "practice_set": "15",
-    "category": "English:Reading Comprehension",
+    "practice_set": "17",
+    "category": "Math:Algebra",
     "difficulty": "easy",
     "time_estimate": 95,
     "passage": "",
-    "question_text": "Two number cubes have sides labeled 1 through 6. Both number cubes are rolled. How many different outcomes will have a sum of 6?",
+    "question_text": "In a scale drawing of a rectangular garden, the length is 15 inches and the width is 9 inches. In the drawing, 2 inches represents 3 yards. What is the width of the actual garden, in yards?",
     "options": [],
-    "correct_answer": 5,
+    "correct_answer": null,
     "answer_type": "fill_in_the_blank"
   },
   {
     "_id": "60",
     "question_number": 60,
-    "practice_set": "15",
+    "practice_set": "17",
     "category": "Math:Algebra",
     "difficulty": "easy",
     "time_estimate": 95,
-    "passage": "image:images/shsatpractice15question60.png",
-    "question_text": "The figure above shows a scale drawing of a garden, where 1 centimeter represents 2.5 meters. What is the perimeter of the actual garden in meters?",
+    "passage": "",
+    "question_text": "A kindergarten teacher has 72 crayons, 60 pencils, and 84 sheets of paper to distribute to the children in her class. If each child receives an equal number of each item and there are no items remaining, what is the greatest possible number of children in the class?",
     "options": [],
-    "correct_answer": 95,
+    "correct_answer": null,
     "answer_type": "fill_in_the_blank"
   },
   {
     "_id": "61",
     "question_number": 61,
-    "practice_set": "15",
+    "practice_set": "17",
     "category": "Math:Algebra",
     "difficulty": "easy",
     "time_estimate": 95,
     "passage": "",
-    "question_text": "At one location, the temperature increased from −7° F to 4° F between 5:00 a.m. and 9:00 a.m. By 11:00 a.m., the temperature was 3.5 times the 9:00 a.m. temperature. What was the total increase in temperature between 5:00 a.m. and 11:00 a.m., in degrees Fahrenheit?",
+    "question_text": "Mr. Smith opened a retirement account with a deposit of $900. This account earns 5% simple interest annually. How many years will it take for his $900 deposit to earn $360 interest?",
     "options": [],
-    "correct_answer": 21,
+    "correct_answer": null,
     "answer_type": "fill_in_the_blank"
   },
   {
     "_id": "62",
     "question_number": 62,
-    "practice_set": "15",
+    "practice_set": "17",
     "category": "Math:Algebra",
     "difficulty": "easy",
     "time_estimate": 95,
-    "passage": "image:images/shsatpractice15question62.png",
-    "question_text": "What is the volume of the figure, in cubic inches?",
+    "passage": "image:images/shsatpractice17question62.png",
+    "question_text": "Solve the equation for x:",
     "options": [],
-    "correct_answer": 32,
+    "correct_answer": null,
     "answer_type": "fill_in_the_blank"
   },
   {
     "_id": "63",
     "question_number": 63,
-    "practice_set": "15",
+    "practice_set": "17",
     "category": "Math:Algebra",
     "difficulty": "easy",
     "time_estimate": 95,
-    "passage": "image:images/shsatpractice15question63.png",
-    "question_text": "What is represented by the point with coordinates (1, 4)?",
+    "passage": "image:images/shsatpractice17question63.png",
+    "question_text": "If the liquid in Glass B is poured into Glass A, what fraction of Glass A will then be filled?",
     "options": [
-      "The unit rate is 4 ounces per foot.",
-      "The y- intercept is 4.",
-      "A pole 4 feet long weighs 1 ounce.",
-      "The length increases 4 feet for each 1 ounce of weight."
+      "5/6",
+      "4/5",
+      "3/4",
+      "1/5"
     ],
-    "correct_answer": 0,
+    "correct_answer": null,
     "answer_type": ""
   },
   {
     "_id": "64",
     "question_number": 64,
-    "practice_set": "15",
+    "practice_set": "17",
     "category": "Math:Algebra",
     "difficulty": "easy",
     "time_estimate": 95,
-    "passage": "image:images/shsatpractice15question64.png",
-    "question_text": "Which point represents the sum of 2.5 + (−4.5) ?",
+    "passage": "",
+    "question_text": "On Fran’s map, 2 centimeters represents 3 kilometers. The points on this map that represent Fran’s home and Bryant State Park are 4.5 centimeters apart. How many kilometers apart are Fran’s home and Bryant State Park, to the nearest kilometer?",
     "options": [
-      "point E",
-      "point F",
-      "point G",
-      "point H"
+      "3",
+      "5",
+      "7",
+      "9"
     ],
-    "correct_answer": 1,
+    "correct_answer": null,
     "answer_type": ""
   },
   {
     "_id": "65",
     "question_number": 65,
-    "practice_set": "15",
+    "practice_set": "17",
     "category": "Math:Algebra",
     "difficulty": "easy",
     "time_estimate": 95,
-    "passage": "image:images/shsatpractice15question65.png",
-    "question_text": "What is the product of x and y?",
-    "options": [
-      "4",
-      "6",
-      "12",
-      "16"
-    ],
-    "correct_answer": 2,
-    "answer_type": ""
-  },
-  {
-    "_id": "66",
-    "question_number": 66,
-    "practice_set": "15",
-    "category": "Math:Algebra",
-    "difficulty": "easy",
-    "time_estimate": 95,
-    "passage": "",
-    "question_text": "A car dealership is having a sale where all cars have a 12% discount. What is the discounted price of a car that originally cost $15,600?",
-    "options": [
-      "$13,728",
-      "$14,300",
-      "$14,400",
-      "$15,588"
-    ],
-    "correct_answer": 0,
-    "answer_type": ""
-  },
-  {
-    "_id": "67",
-    "question_number": 67,
-    "practice_set": "15",
-    "category": "Math:Algebra",
-    "difficulty": "easy",
-    "time_estimate": 95,
-    "passage": "image:images/shsatpractice15question67.png",
-    "question_text": "4 and 2/3 ÷ 2 and 1/2 =",
-    "options": [
-      "15/28",
-      "1 and 13/15",
-      "2 and 1/3",
-      "3 and 1/3"
-    ],
-    "correct_answer": 1,
-    "answer_type": ""
-  },
-  {
-    "_id": "68",
-    "question_number": 68,
-    "practice_set": "15",
-    "category": "Math:Algebra",
-    "difficulty": "easy",
-    "time_estimate": 95,
-    "passage": "image:images/shsatpractice15question68.png",
-    "question_text": "What is the ratio of coaches to assistants?",
-    "options": [
-      "1/4",
-      "1/2",
-      "2/3",
-      "5/6"
-    ],
-    "correct_answer": 1,
-    "answer_type": ""
-  },
-  {
-    "_id": "69",
-    "question_number": 69,
-    "practice_set": "15",
-    "category": "Math:Algebra",
-    "difficulty": "easy",
-    "time_estimate": 95,
-    "passage": "image:images/shsatpractice15question69.png",
-    "question_text": "What is the height of the part of the post that is above the ground?",
-    "options": [
-      "6 and 2/3 feet",
-      "7 and 1/3 feet",
-      "10 feet",
-      "13 and 1/3 feet"
-    ],
-    "correct_answer": 0,
-    "answer_type": ""
-  },
-  {
-    "_id": "70",
-    "question_number": 70,
-    "practice_set": "15",
-    "category": "Math:Algebra",
-    "difficulty": "easy",
-    "time_estimate": 95,
-    "passage": "p + 2r = r(p + 1) + 1",
-    "question_text": "In the equation, if r = 2 , what is the value of p ?",
-    "options": [
-      "0",
-      "1",
-      "2",
-      "3"
-    ],
-    "correct_answer": 1,
-    "answer_type": ""
-  },
-  {
-    "_id": "71",
-    "question_number": 71,
-    "practice_set": "15",
-    "category": "Math:Algebra",
-    "difficulty": "easy",
-    "time_estimate": 95,
-    "passage": "",
-    "question_text": "Karen reads at the rate of 60 pages per day. Martina reads 25% more pages per day than Karen. If the two students begin 1,500- page reading assignments on the same day, how many days sooner will Martina complete the assignment than Karen?",
-    "options": [
-      "4",
-      "5",
-      "7",
-      "15"
-    ],
-    "correct_answer": 1,
-    "answer_type": ""
-  },
-  {
-    "_id": "72",
-    "question_number": 72,
-    "practice_set": "15",
-    "category": "Math:Algebra",
-    "difficulty": "easy",
-    "time_estimate": 95,
-    "passage": "",
-    "question_text": "Claire is running on a circular track. She has already run 650 meters. Each lap around the track is a distance of 120 meters. Her goal is to run at least 2,500 meters in all. How many more laps does she need to complete in order to reach her goal?",
-    "options": [
-      "5",
-      "6",
-      "15",
-      "16"
-    ],
-    "correct_answer": 3,
-    "answer_type": ""
-  },
-  {
-    "_id": "73",
-    "question_number": 73,
-    "practice_set": "15",
-    "category": "Math:Algebra",
-    "difficulty": "easy",
-    "time_estimate": 95,
-    "passage": "",
-    "question_text": "A company with 200 employees grew in size by 25% between 2005 and 2010. The company grew again by 10% between 2010 and 2015. What was the total number of employees in 2015?",
-    "options": [
-      "235",
-      "260",
-      "270",
-      "275"
-    ],
-    "correct_answer": 3,
-    "answer_type": ""
-  },
-  {
-    "_id": "74",
-    "question_number": 74,
-    "practice_set": "15",
-    "category": "Math:Algebra",
-    "difficulty": "easy",
-    "time_estimate": 95,
-    "passage": "",
-    "question_text": "A bowl contains 12 green candies, 4 yellow candies, and some red candies. The probability of choosing a green candy at random is twice as great as the probability of choosing a red candy at random. What is the probability of choosing a yellow candy at random?",
-    "options": [
-      "2/11",
-      "2/9",
-      "1/4",
-      "3/11"
-    ],
-    "correct_answer": 0,
-    "answer_type": ""
-  },
-  {
-    "_id": "75",
-    "question_number": 75,
-    "practice_set": "15",
-    "category": "Math:Algebra",
-    "difficulty": "easy",
-    "time_estimate": 95,
-    "passage": "image:images/shsatpractice15question75.png",
-    "question_text": "Based on the box plot, which statement is a correct interpretation of the data?",
-    "options": [
-      "The data point 2 is an outlier.",
-      "The mean of the data is 16",
-      "The interquartile range (IQR) of the data is 30.",
-      "On about 25% of the days, there were between 12 and 16 fares"
-    ],
-    "correct_answer": 3,
-    "answer_type": ""
-  },
-  {
-    "_id": "76",
-    "question_number": 76,
-    "practice_set": "15",
-    "category": "Math:Algebra",
-    "difficulty": "easy",
-    "time_estimate": 95,
-    "passage": "image:images/shsatpractice15question76.png",
-    "question_text": "Which equation represents the relationship between the length of the race, x miles, and the number of water stations, y ?",
-    "options": [
-      "y = 2/3(x)",
-      "y = 3/2(x)",
-      "y = x + 6",
-      "y = x - 1"
-    ],
-    "correct_answer": 0,
-    "answer_type": ""
-  },
-  {
-    "_id": "77",
-    "question_number": 77,
-    "practice_set": "15",
-    "category": "Math:Algebra",
-    "difficulty": "easy",
-    "time_estimate": 95,
-    "passage": "image:images/shsatpractice15question77.png",
-    "question_text": "The mayor estimates that half the undecided voters will vote in favor of building the park. Based on the survey results, if the mayor is correct, how many of the 24,100 voters will be in favor of building the park?",
-    "options": [
-      "17,111",
-      "18,316",
-      "19,401",
-      "19,521"
-    ],
-    "correct_answer": 1,
-    "answer_type": ""
-  },
-  {
-    "_id": "78",
-    "question_number": 78,
-    "practice_set": "15",
-    "category": "Math:Algebra",
-    "difficulty": "easy",
-    "time_estimate": 95,
-    "passage": "image:images/shsatpractice15question78.png",
-    "question_text": "Which number shown above is the greatest?",
-    "options": [
-      "-(1/49)",
-      "-49",
-      "-(1/7)",
-      "-1"
-    ],
-    "correct_answer": 0,
-    "answer_type": ""
-  },
-  {
-    "_id": "79",
-    "question_number": 79,
-    "practice_set": "15",
-    "category": "Math:Algebra",
-    "difficulty": "easy",
-    "time_estimate": 95,
-    "passage": "image:images/shsatpractice15question79.png",
-    "question_text": "What is the decimal equivalent to -(13/11)",
-    "options": [
-      "-1.18",
-      "-1.118888...",
-      "-1.181818...",
-      "-1.818181..."
-    ],
-    "correct_answer": 2,
-    "answer_type": ""
-  },
-  {
-    "_id": "80",
-    "question_number": 80,
-    "practice_set": "15",
-    "category": "Math:Algebra",
-    "difficulty": "easy",
-    "time_estimate": 95,
-    "passage": "image:images/shsatpractice15question80.png",
-    "question_text": "How many loaves can be made if 40 ounces of salt are used?",
-    "options": [
-      "8",
-      "20",
-      "45",
-      "200"
-    ],
-    "correct_answer": 3,
-    "answer_type": ""
-  },
-  {
-    "_id": "81",
-    "question_number": 81,
-    "practice_set": "15",
-    "category": "Math:Algebra",
-    "difficulty": "easy",
-    "time_estimate": 95,
-    "passage": "image:images/shsatpractice15question81.png",
-    "question_text": "What is the value?",
-    "options": [
-      "-(1/2)",
-      "-(1/7)",
-      "(1/7)",
-      "1/2"
-    ],
-    "correct_answer": 3,
-    "answer_type": ""
-  },
-  {
-    "_id": "82",
-    "question_number": 82,
-    "practice_set": "15",
-    "category": "Math:Algebra",
-    "difficulty": "easy",
-    "time_estimate": 95,
-    "passage": "image:images/shsatpractice15question82.png",
-    "question_text": "Which number line represents the values of x that satisfy the inequality −5 ≤ 1 − 3x ≤ 4 ?",
-    "options": [
-      "E",
-      "F",
-      "G",
-      "H"
-    ],
-    "correct_answer": 1,
-    "answer_type": ""
-  },
-  {
-    "_id": "83",
-    "question_number": 83,
-    "practice_set": "15",
-    "category": "Math:Algebra",
-    "difficulty": "easy",
-    "time_estimate": 95,
-    "passage": "",
-    "question_text": " If 1 sind = 0.75 plunk, how many sinds are equivalent to 8 plunks, rounded to the nearest hundredth?",
-    "options": [
-      "1.33",
-      "6.00",
-      "7.25",
-      "10.67"
-    ],
-    "correct_answer": 3,
-    "answer_type": ""
-  },
-  {
-    "_id": "84",
-    "question_number": 84,
-    "practice_set": "15",
-    "category": "Math:Algebra",
-    "difficulty": "easy",
-    "time_estimate": 95,
-    "passage": "",
-    "question_text": "Simplify: 8x − (7 + 2.5x) + 2",
-    "options": [
-      "5.5x - 9",
-      "5.5x - 5",
-      "10.5x - 9",
-      "10.5x - 5"
-    ],
-    "correct_answer": 1,
-    "answer_type": ""
-  },
-  {
-    "_id": "85",
-    "question_number": 85,
-    "practice_set": "15",
-    "category": "Math:Algebra",
-    "difficulty": "easy",
-    "time_estimate": 95,
-    "passage": "image:images/shsatpractice15question85.png",
-    "question_text": "Which statement about the two groups can be verified based on the box plots?",
-    "options": [
-      "Both groups have at least one member who is exactly 29 years old.",
-      "Group P has more members who are at least 17 years old than Group Q has.",
-      "Both groups have an equal number of members who are between 21 and 24 years old.",
-      "Group Q has fewer members who are between 19 and 27 years old than Group P has."
-    ],
-    "correct_answer": 1,
-    "answer_type": ""
-  },
-  {
-    "_id": "86",
-    "question_number": 86,
-    "practice_set": "15",
-    "category": "Math:Algebra",
-    "difficulty": "easy",
-    "time_estimate": 95,
-    "passage": "image:images/shsatpractice15question86.png",
-    "question_text": "What is the probability of drawing a yellow ball at random from Jar S?",
-    "options": [
-      "1/4",
-      "1/3",
-      "1/2",
-      "4/7"
-    ],
-    "correct_answer": 2,
-    "answer_type": ""
-  },
-  {
-    "_id": "87",
-    "question_number": 87,
-    "practice_set": "15",
-    "category": "Math:Algebra",
-    "difficulty": "easy",
-    "time_estimate": 95,
-    "passage": "image:images/shsatpractice15question87.png",
-    "question_text": "Which other mix has a ratio of pretzels to raisins in the same proportional relationship as Gia’s mix?",
+    "passage": "image:images/shsatpractice17question65.png",
+    "question_text": "Solve for x",
     "options": [
       "A",
       "B",
       "C",
       "D"
     ],
-    "correct_answer": 3,
+    "correct_answer": null,
+    "answer_type": ""
+  },
+  {
+    "_id": "66",
+    "question_number": 66,
+    "practice_set": "17",
+    "category": "Math:Algebra",
+    "difficulty": "easy",
+    "time_estimate": 95,
+    "passage": "",
+    "question_text": "Bryan completed a 100-meter race in 11.74 seconds. Luis completed the same race in 11.69 seconds. What was the difference between their times, expressed as a fraction of a second?",
+    "options": [
+      "1/20",
+      "1/10",
+      "3/20",
+      "1/5"
+    ],
+    "correct_answer": null,
+    "answer_type": ""
+  },
+  {
+    "_id": "67",
+    "question_number": 67,
+    "practice_set": "17",
+    "category": "Math:Algebra",
+    "difficulty": "easy",
+    "time_estimate": 95,
+    "passage": "",
+    "question_text": "A recipe uses '1/4' teaspoon of salt and '2 and 1/2' teaspoons of sugar. What is the ratio of salt to sugar in this recipe?",
+    "options": [
+      "1:20",
+      "1:10",
+      "1:5",
+      "1:4"
+    ],
+    "correct_answer": null,
+    "answer_type": ""
+  },
+  {
+    "_id": "68",
+    "question_number": 68,
+    "practice_set": "17",
+    "category": "Math:Algebra",
+    "difficulty": "easy",
+    "time_estimate": 95,
+    "passage": "image:images/shsatpractice17question68.png",
+    "question_text": "What is the value of n expressed as a fraction?",
+    "options": [
+      "1/3",
+      "11/5",
+      "9/4",
+      "23/10"
+    ],
+    "correct_answer": null,
+    "answer_type": ""
+  },
+  {
+    "_id": "69",
+    "question_number": 69,
+    "practice_set": "17",
+    "category": "Math:Algebra",
+    "difficulty": "easy",
+    "time_estimate": 95,
+    "passage": "",
+    "question_text": "The perimeter of a 12-sided polygon is 100 centimeters. The length of one side is 25 centimeters. The length of another side is 35 centimeters. The remaining sides are equal in length to one another. What is the length of each of the remaining sides, in centimeters?",
+    "options": [
+      "4",
+      "5",
+      "20",
+      "40"
+    ],
+    "correct_answer": null,
+    "answer_type": ""
+  },
+  {
+    "_id": "70",
+    "question_number": 70,
+    "practice_set": "17",
+    "category": "Math:Algebra",
+    "difficulty": "easy",
+    "time_estimate": 95,
+    "passage": "",
+    "question_text": "Shiow-Chen has a box that contains 4 green cards, 7 yellow cards, and 6 red cards. She randomly draws one card at a time from the box and does not return the cards to the box after they have been drawn. The first card she draws is yellow. The second card she draws is green. What is the probability that the third card she draws will also be green?",
+    "options": [
+      "1/5",
+      "4/17",
+      "1/4",
+      "1/3"
+    ],
+    "correct_answer": null,
+    "answer_type": ""
+  },
+  {
+    "_id": "71",
+    "question_number": 71,
+    "practice_set": "17",
+    "category": "Math:Algebra",
+    "difficulty": "easy",
+    "time_estimate": 95,
+    "passage": "",
+    "question_text": "Each number in a sequence is 3 more than twice the number that comes just before it. If 93 is a number in the sequence, what number comes just before it?",
+    "options": [
+      "92",
+      "90",
+      "48",
+      "45"
+    ],
+    "correct_answer": null,
+    "answer_type": ""
+  },
+  {
+    "_id": "72",
+    "question_number": 72,
+    "practice_set": "17",
+    "category": "Math:Algebra",
+    "difficulty": "easy",
+    "time_estimate": 95,
+    "passage": "",
+    "question_text": "On a map, the distance between Deshawn’s house and Xin’s house is 5.4 inches. If 2 inches on the map represents 3 miles, what is the distance between these two houses, in miles?",
+    "options": [
+      "2.6",
+      "3.6",
+      "7.5",
+      "8.1"
+    ],
+    "correct_answer": null,
+    "answer_type": ""
+  },
+  {
+    "_id": "73",
+    "question_number": 73,
+    "practice_set": "17",
+    "category": "Math:Algebra",
+    "difficulty": "easy",
+    "time_estimate": 95,
+    "passage": "image:images/shsatpractice17question73.png",
+    "question_text": "This wheel has 15 spokes, equally spaced. What is the measure of the angle between adjacent spokes?",
+    "options": [
+      "30°",
+      "24°",
+      "15°",
+      "12°"
+    ],
+    "correct_answer": null,
+    "answer_type": ""
+  },
+  {
+    "_id": "74",
+    "question_number": 74,
+    "practice_set": "17",
+    "category": "Math:Algebra",
+    "difficulty": "easy",
+    "time_estimate": 95,
+    "passage": "m • t = 72",
+    "question_text": "For the equation, what is the sum of the values of m when t = 1, when t = 2, and when t = 3?",
+    "options": [
+      "12",
+      "72",
+      "132",
+      "135"
+    ],
+    "correct_answer": null,
+    "answer_type": ""
+  },
+  {
+    "_id": "75",
+    "question_number": 75,
+    "practice_set": "17",
+    "category": "Math:Algebra",
+    "difficulty": "easy",
+    "time_estimate": 95,
+    "passage": "image:images/shsatpractice17question75.png",
+    "question_text": "The diagram shows a rectangle with an inscribed triangle. The triangle’s vertex and base touch the sides of the rectangle as shown. What is the total area of the shaded portion?",
+    "options": [
+      "32 sq ft",
+      "64 sq ft",
+      "96 sq ft",
+      "128 sq ft"
+    ],
+    "correct_answer": null,
+    "answer_type": ""
+  },
+  {
+    "_id": "76",
+    "question_number": 76,
+    "practice_set": "17",
+    "category": "Math:Algebra",
+    "difficulty": "easy",
+    "time_estimate": 95,
+    "passage": "",
+    "question_text": "Orange juice costs $2 per gallon, and grapefruit juice costs $3 per gallon. A recent shipment of equal amounts of the two types of juice costs a total of $250. How many gallons of orange juice are in the shipment?",
+    "options": [
+      "50",
+      "62.5",
+      "100",
+      "125"
+    ],
+    "correct_answer": null,
+    "answer_type": ""
+  },
+  {
+    "_id": "77",
+    "question_number": 77,
+    "practice_set": "17",
+    "category": "Math:Algebra",
+    "difficulty": "easy",
+    "time_estimate": 95,
+    "passage": "",
+    "question_text": "Five consecutive numbers have a sum of 110. What is the least of these consecutive numbers?",
+    "options": [
+      "11",
+      "18",
+      "20",
+      "22"
+    ],
+    "correct_answer": null,
+    "answer_type": ""
+  },
+  {
+    "_id": "78",
+    "question_number": 78,
+    "practice_set": "17",
+    "category": "Math:Algebra",
+    "difficulty": "easy",
+    "time_estimate": 95,
+    "passage": "image:images/shsatpractice17question78.png",
+    "question_text": "If m and n are positive integers, how many of the five expressions above are equivalent to mn?",
+    "options": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "correct_answer": null,
+    "answer_type": ""
+  },
+  {
+    "_id": "79",
+    "question_number": 79,
+    "practice_set": "17",
+    "category": "Math:Algebra",
+    "difficulty": "easy",
+    "time_estimate": 95,
+    "passage": "image:images/shsatpractice17question79.png",
+    "question_text": "Solve",
+    "options": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "correct_answer": null,
+    "answer_type": ""
+  },
+  {
+    "_id": "80",
+    "question_number": 80,
+    "practice_set": "17",
+    "category": "Math:Algebra",
+    "difficulty": "easy",
+    "time_estimate": 95,
+    "passage": "image:images/shsatpractice17question80.png",
+    "question_text": "Peaches made up what percentage of the total number of pieces of fruit sold at Store XYZ, according to the table above?",
+    "options": [
+      "18%",
+      "28%",
+      "36%",
+      "64%"
+    ],
+    "correct_answer": null,
+    "answer_type": ""
+  },
+  {
+    "_id": "81",
+    "question_number": 81,
+    "practice_set": "17",
+    "category": "Math:Algebra",
+    "difficulty": "easy",
+    "time_estimate": 95,
+    "passage": "",
+    "question_text": "Carpenters laid a layer of insulation 6 inches thick to cover a rectangular attic floor that was 32 feet long and 20 feet wide. What was the volume, in cubic feet, of the insulation used to cover the floor?",
+    "options": [
+      "160",
+      "320",
+      "640",
+      "3,840"
+    ],
+    "correct_answer": null,
+    "answer_type": ""
+  },
+  {
+    "_id": "82",
+    "question_number": 82,
+    "practice_set": "17",
+    "category": "Math:Algebra",
+    "difficulty": "easy",
+    "time_estimate": 95,
+    "passage": "",
+    "question_text": "The town of Waterville covers an area of 50 square miles. In 2005, its population was 84,000. In 2006, its population had decreased so that the average population per square mile was equal to 1,500. What was the total decrease in population from 2005 to 2006?",
+    "options": [
+      "7,500",
+      "8,400",
+      "9,000",
+      "9,200"
+    ],
+    "correct_answer": null,
+    "answer_type": ""
+  },
+  {
+    "_id": "83",
+    "question_number": 83,
+    "practice_set": "17",
+    "category": "Math:Algebra",
+    "difficulty": "easy",
+    "time_estimate": 95,
+    "passage": "image:images/shsatpractice17question83.png",
+    "question_text": "According to the number line above, what is the value of y?",
+    "options": [
+      "4",
+      "12",
+      "14",
+      "20"
+    ],
+    "correct_answer": null,
+    "answer_type": ""
+  },
+  {
+    "_id": "84",
+    "question_number": 84,
+    "practice_set": "17",
+    "category": "Math:Algebra",
+    "difficulty": "easy",
+    "time_estimate": 95,
+    "passage": "N = { 6, 7, . . . , 21, 22 }",
+    "question_text": "Set L (not shown) is a list of 25 consecutive integers. The median of the integers in set N is equal to the least integer in set L. What is the median of the integers in set L?",
+    "options": [
+      "25",
+      "26",
+      "27",
+      "28"
+    ],
+    "correct_answer": null,
+    "answer_type": ""
+  },
+  {
+    "_id": "85",
+    "question_number": 85,
+    "practice_set": "17",
+    "category": "Math:Algebra",
+    "difficulty": "easy",
+    "time_estimate": 95,
+    "passage": "",
+    "question_text": "The sum of the numbers x, y, and z is 40. The ratio of x to y is 1:2, and the ratio of y to z is 2:5. What is the value of y?",
+    "options": [
+      "2",
+      "4",
+      "8",
+      "10"
+    ],
+    "correct_answer": null,
+    "answer_type": ""
+  },
+  {
+    "_id": "86",
+    "question_number": 86,
+    "practice_set": "17",
+    "category": "Math:Algebra",
+    "difficulty": "easy",
+    "time_estimate": 95,
+    "passage": "",
+    "question_text": "Which number could be the sum of 4 consecutive integers?",
+    "options": [
+      "-12",
+      "-10",
+      "-8",
+      "-4"
+    ],
+    "correct_answer": null,
+    "answer_type": ""
+  },
+  {
+    "_id": "87",
+    "question_number": 87,
+    "practice_set": "17",
+    "category": "Math:Algebra",
+    "difficulty": "easy",
+    "time_estimate": 95,
+    "passage": "image:images/shsatpractice17question87.png",
+    "question_text": "The table shows the price of a certain video game at 12 different stores. What is the median price of this video game?",
+    "options": [
+      "$10.99",
+      "$11.49",
+      "$11.99",
+      "$12.32"
+    ],
+    "correct_answer": null,
     "answer_type": ""
   },
   {
     "_id": "88",
     "question_number": 88,
-    "practice_set": "15",
+    "practice_set": "17",
     "category": "Math:Algebra",
     "difficulty": "easy",
     "time_estimate": 95,
     "passage": "",
-    "question_text": "If y = 4x, what is the value of 3y + 2 (3y + 5) − x in terms of x ?",
+    "question_text": "If xy = 30, what is the value of 10 ÷ x in terms of y?",
     "options": [
-      "8x + 10",
-      "32x + 10",
-      "35x + 10",
-      "36x + 10"
+      "(1/10)y",
+      "(1/3)y",
+      "3y",
+      "10y"
     ],
-    "correct_answer": 2,
+    "correct_answer": null,
     "answer_type": ""
   },
   {
     "_id": "89",
     "question_number": 89,
-    "practice_set": "15",
+    "practice_set": "17",
     "category": "Math:Algebra",
     "difficulty": "easy",
     "time_estimate": 95,
-    "passage": "image:images/shsatpractice15question89.png",
-    "question_text": "What is the difference between the areas of the two plates, in square inches?",
+    "passage": "image:images/shsatpractice17question89.png",
+    "question_text": "On the number line, how many units longer is QR than PQ?",
     "options": [
-      "6π",
-      "9π",
-      "45π",
-      "180π"
+      "1/6",
+      "1/2",
+      "2/3",
+      "3"
     ],
-    "correct_answer": 2,
+    "correct_answer": null,
     "answer_type": ""
   },
   {
     "_id": "90",
     "question_number": 90,
-    "practice_set": "15",
+    "practice_set": "17",
     "category": "Math:Algebra",
     "difficulty": "easy",
     "time_estimate": 95,
     "passage": "",
-    "question_text": "If x = −4 , what is the sum of x and 10% of |x| ?",
+    "question_text": "The distance from W to X is 70% of the distance from W to Y. If the distance from X to Y is 15 miles, what is the distance, in miles, from W to X?",
     "options": [
-      "-4.4",
-      "-3.6",
-      "0.4",
-      "4.4"
+      "10.5",
+      "35",
+      "45",
+      "50"
     ],
-    "correct_answer": 1,
+    "correct_answer": null,
     "answer_type": ""
   },
   {
     "_id": "91",
     "question_number": 91,
-    "practice_set": "15",
+    "practice_set": "17",
     "category": "Math:Algebra",
     "difficulty": "easy",
     "time_estimate": 95,
     "passage": "",
-    "question_text": "The volume of a cube is 512 cubic centimeters. What is the length, in centimeters, of one edge of this cube?",
+    "question_text": "There are 3 different highways from City W to City X, 4 different highways from City X to City Y, and 3 different highways from City Y to City Z. How many different routes are there for a trip from City W to City X to City Y to City Z?",
     "options": [
-      "8",
-      "42 and 2/3",
-      "85 and 1/3",
-      "128"
+      "10",
+      "12",
+      "24",
+      "36"
     ],
-    "correct_answer": 0,
+    "correct_answer": null,
     "answer_type": ""
   },
   {
     "_id": "92",
     "question_number": 92,
-    "practice_set": "15",
+    "practice_set": "17",
     "category": "Math:Algebra",
     "difficulty": "easy",
     "time_estimate": 95,
     "passage": "",
-    "question_text": "The high temperature on Monday was x° F. On Tuesday, the high temperature was 84° F, which was a 5% increase from Monday’s high temperature. On Wednesday, the high temperature was 10% lower than it was on Monday. How much lower was the high temperature on Wednesday than the high temperature on Monday?",
+    "question_text": "In Center City, the ratio of people to dogs is 4:1, and the ratio of dogs to cats is 3:2. What is the ratio of people to cats?",
     "options": [
-      "4.0° F",
-      "8.0° F",
-      "8.4° F",
-      "8.8° F"
+      "2:1",
+      "7:3",
+      "6:1",
+      "12:1"
     ],
-    "correct_answer": 1,
+    "correct_answer": null,
     "answer_type": ""
   },
   {
     "_id": "93",
     "question_number": 93,
-    "practice_set": "15",
+    "practice_set": "17",
     "category": "Math:Algebra",
     "difficulty": "easy",
     "time_estimate": 95,
     "passage": "",
-    "question_text": "The integers (n − 1), n, and (n + 1) are factors of 168. What is the greatest possible value of n?",
+    "question_text": "The side length of square S is shorter than the side length of square T by 1 centimeter. The area of square S is 9 square centimeters. What is the difference, in square centimeters, between the area of square T and the area of square S?",
     "options": [
       "3",
       "7",
-      "14",
-      "84"
+      "8",
+      "10"
     ],
-    "correct_answer": 1,
+    "correct_answer": null,
     "answer_type": ""
   },
   {
     "_id": "94",
     "question_number": 94,
-    "practice_set": "15",
+    "practice_set": "17",
     "category": "Math:Algebra",
     "difficulty": "easy",
     "time_estimate": 95,
     "passage": "",
-    "question_text": "Raoul gave two musical performances. His second performance occurred 86 days after his first performance. If Raoul’s second performance was on a Tuesday, on what day of the week was his first performance?",
+    "question_text": "If x is an odd number, what is the sum of x and the next 2 odd numbers greater than x?",
     "options": [
-      "Sunday",
-      "Monday",
-      "Wednesday",
-      "Thursday"
+      "x + 4",
+      "2x + 6",
+      "3x + 3",
+      "3x + 6"
     ],
-    "correct_answer": 0,
+    "correct_answer": null,
     "answer_type": ""
   },
   {
     "_id": "95",
     "question_number": 95,
-    "practice_set": "15",
+    "practice_set": "17",
     "category": "Math:Algebra",
     "difficulty": "easy",
     "time_estimate": 95,
-    "passage": "",
-    "question_text": "Michael received a check for $213 for working 20 hours at his part-time job. The amount on the check was his total pay after $32 in taxes was deducted. What was Michael’s hourly pay rate before taxes were deducted?",
+    "passage": "image:images/shsatpractice17question95.png",
+    "question_text": "Solve",
     "options": [
-      "$9.05",
-      "$10.65",
-      "$12.25",
-      "$21.35"
+      "A",
+      "B",
+      "C",
+      "D"
     ],
-    "correct_answer": 2,
+    "correct_answer": null,
     "answer_type": ""
   },
   {
     "_id": "96",
     "question_number": 96,
-    "practice_set": "15",
+    "practice_set": "17",
     "category": "Math:Algebra",
     "difficulty": "easy",
     "time_estimate": 95,
-    "passage": "image:images/shsatpractice15question96.png",
-    "question_text": "What is the total surface area, in square centimeters, of the closed box shown above?",
+    "passage": "",
+    "question_text": "In a certain competition, 1 person finished in first place, 5 people tied for second place, 10 people tied for third place, and the other 4,984 people did not place. What percentage of the people in the competition placed first, second, or third altogether?",
     "options": [
-      "3,800",
-      "5,600",
-      "7,600",
-      "40,000"
+      "0.0032%",
+      "0.032%",
+      "0.32%",
+      "3.2%"
     ],
-    "correct_answer": 2,
+    "correct_answer": null,
     "answer_type": ""
   },
   {
     "_id": "97",
     "question_number": 97,
-    "practice_set": "15",
+    "practice_set": "17",
     "category": "Math:Algebra",
     "difficulty": "easy",
     "time_estimate": 95,
     "passage": "",
-    "question_text": "The value of a particular car decreases at a constant rate. If the car is worth $15,000 three years after its original purchase date and $10,000 five years after its original purchase date, what was the value of the car on its original purchase date?",
+    "question_text": "Angle A and angle B are complementary. If the measure of angle B is three times as great as the measure of angle A, what is the measure of angle B?",
     "options": [
-      "$18,000",
-      "$20,000",
-      "$22,000",
-      "$25,000"
+      "45°",
+      "67.5°",
+      "75°",
+      "135°"
     ],
-    "correct_answer": 2,
+    "correct_answer": null,
     "answer_type": ""
   },
   {
     "_id": "98",
     "question_number": 98,
-    "practice_set": "15",
+    "practice_set": "17",
     "category": "Math:Algebra",
     "difficulty": "easy",
     "time_estimate": 95,
-    "passage": "image:images/shsatpractice15question98.png",
-    "question_text": "What is the probability that she selects all 4 blue disks?",
+    "passage": "",
+    "question_text": "The height of a tree in 2013 is 300% of the height it was in 2003. By what percentage did its height increase over this ten-year period?",
     "options": [
-      "8/2,187",
-      "1/126",
-      "256/6,561",
-      "16/9"
+      "33.33...%",
+      "100%",
+      "200%",
+      "300%"
     ],
-    "correct_answer": 1,
+    "correct_answer": null,
     "answer_type": ""
   },
   {
     "_id": "99",
     "question_number": 99,
-    "practice_set": "15",
+    "practice_set": "17",
     "category": "Math:Algebra",
     "difficulty": "easy",
     "time_estimate": 95,
-    "passage": "image:images/shsatpractice15question99.png",
-    "question_text": "Which expression is not another way to write 1/2%?",
+    "passage": "image:images/shsatpractice17question99.png",
+    "question_text": "What is the value of x?",
     "options": [
-      "0.005/100",
-      "(1/2)/100",
-      "5/1,000",
-      "1/200"
+      "4",
+      "7",
+      "8",
+      "64"
     ],
-    "correct_answer": 0,
+    "correct_answer": null,
     "answer_type": ""
   },
   {
     "_id": "100",
     "question_number": 100,
-    "practice_set": "15",
+    "practice_set": "17",
     "category": "Math:Algebra",
     "difficulty": "easy",
     "time_estimate": 95,
     "passage": "",
-    "question_text": "A community garden had 50 members in 2001. In each of the next three years, the number of members increased by 40% over the number of members from the previous year. How many members were there in 2004? (Round to the nearest whole number.)",
+    "question_text": "A certain square puzzle has an area of 64 square inches, and a cubic block has a volume of 64 cubic inches. What is the ratio of the length of a side of the puzzle to the length of a side of the block?",
     "options": [
-      "70",
-      "98",
-      "110",
-      "137"
+      "1:3",
+      "1:2",
+      "2:3",
+      "2:1"
     ],
-    "correct_answer": 3,
+    "correct_answer": null,
     "answer_type": ""
   },
   {
     "_id": "101",
     "question_number": 101,
-    "practice_set": "15",
+    "practice_set": "17",
     "category": "Math:Algebra",
     "difficulty": "easy",
     "time_estimate": 95,
     "passage": "",
-    "question_text": "Which inequality is equivalent to 6x − 20 < 5x − 2 (5 − 3x)?",
+    "question_text": "In a certain class, Rosa will take a total of 4 tests. She has already taken 2 of the tests and earned scores of 81 and 83. What is the least possible score Rosa can earn on the third test and still be able to finish the class with an average score of 85 on all 4 tests? (Assume that test scores can range from 0 to 100.)",
     "options": [
-      "x < 16",
-      "x < 5/2",
-      "x < -2",
-      "x > -2"
+      "76",
+      "82",
+      "88",
+      "90"
     ],
-    "correct_answer": 3,
+    "correct_answer": null,
     "answer_type": ""
   },
   {
     "_id": "102",
     "question_number": 102,
-    "practice_set": "15",
+    "practice_set": "17",
     "category": "Math:Algebra",
     "difficulty": "easy",
     "time_estimate": 95,
     "passage": "",
-    "question_text": "A box contains a total of 30 paper clips with colors in the ratio red:white:blue = 2:5:3. Suppose that one paper clip of each color is removed from the box and not replaced. What is the probability that the next paper clip chosen will be blue?",
+    "question_text": "The Barnes family and the Ramirez family each have a pizza of equal size. The first pizza is cut into 18 equal slices, and the second pizza is cut into 15 equal slices. If the Barnes family eats 11 slices from the first pizza, what is the greatest number of whole slices from the second pizza that the Ramirez family can eat without eating a greater percentage of a pizza than the Barnes family ate?",
     "options": [
-      "5/27",
-      "2/7",
-      "8/27",
-      "3/10"
+      "6",
+      "7",
+      "8",
+      "9"
     ],
-    "correct_answer": 2,
+    "correct_answer": null,
     "answer_type": ""
   },
   {
     "_id": "103",
     "question_number": 103,
-    "practice_set": "15",
+    "practice_set": "17",
     "category": "Math:Algebra",
     "difficulty": "easy",
     "time_estimate": 95,
-    "passage": "",
-    "question_text": "The least positive integer evenly divisible by the first 6 positive integers is 60. What is the least positive integer evenly divisible by the first 8 positive integers?",
+    "passage": "image:images/shsatpractice17question103.png",
+    "question_text": "What is the value of the expression above, in decimal form?",
     "options": [
-      "1,680",
-      "840",
-      "480",
-      "420"
+      "0",
+      "0.5",
+      "1.5",
+      "2.5"
     ],
-    "correct_answer": 1,
+    "correct_answer": null,
     "answer_type": ""
   },
   {
     "_id": "104",
     "question_number": 104,
-    "practice_set": "15",
+    "practice_set": "17",
     "category": "Math:Algebra",
     "difficulty": "easy",
     "time_estimate": 95,
     "passage": "",
-    "question_text": "Three different colors of paint are available to paint the window frame, the door, and the wall of a house. If no two parts of the house may be painted the same color, how many different ways are there to paint the three parts of the house?",
+    "question_text": "A company wants to study 6 brands of soap by comparing each brand with every other brand. If each comparison costs $2,000, how much will the company spend altogether?",
     "options": [
-      "3",
-      "6",
-      "9",
-      "27"
+      "$13,000",
+      "$20,000",
+      "$30,000",
+      "$60,000"
     ],
-    "correct_answer": 1,
+    "correct_answer": null,
     "answer_type": ""
   },
   {
     "_id": "105",
     "question_number": 105,
-    "practice_set": "15",
+    "practice_set": "17",
     "category": "Math:Algebra",
     "difficulty": "easy",
     "time_estimate": 95,
-    "passage": "image:images/shsatpractice15question105.png",
-    "question_text": "Triangle MNP is similar to triangle XYZ, and MN = NP. What is the perimeter of triangle MNP?",
+    "passage": "image:images/shsatpractice17question105.png",
+    "question_text": "What number is halfway between 1/20 and 1/10 on a number line?",
     "options": [
-      "25 cm",
-      "30 cm",
-      "36 cm",
-      "40 cm"
+      "1/5",
+      "2/15",
+      "1/30",
+      "3/40"
     ],
-    "correct_answer": 3,
+    "correct_answer": null,
     "answer_type": ""
   },
   {
     "_id": "106",
     "question_number": 106,
-    "practice_set": "15",
+    "practice_set": "17",
     "category": "Math:Algebra",
     "difficulty": "easy",
     "time_estimate": 95,
     "passage": "",
-    "question_text": "Suppose that w, x, y, and z are integers, none of which are zero. Under which set of conditions would the product x²yz³|w| always be positive?",
+    "question_text": "A rectangular swimming pool of uniform depth is 20 yards long and 14 yards wide. If the water is 6 feet deep, what is the volume of water in the pool, in cubic yards?",
     "options": [
-      "x is positive and w is positive.",
-      "x is negative and w is negative.",
-      "y is negative and z is negative.",
-      "x and y are negative, and z and w are positive."
+      "40",
+      "286",
+      "560",
+      "1,680"
     ],
-    "correct_answer": 2,
+    "correct_answer": null,
     "answer_type": ""
   },
   {
     "_id": "107",
     "question_number": 107,
-    "practice_set": "15",
+    "practice_set": "17",
     "category": "Math:Algebra",
     "difficulty": "easy",
     "time_estimate": 95,
     "passage": "",
-    "question_text": "Chris has 1 red shirt, 2 white shirts, and 3 black shirts. Chris picks a shirt at random. Without putting the first shirt back, he picks a second shirt at random. What is the probability that the first shirt is black and the second shirt is red?",
+    "question_text": "{3, 4, 5, 6, 7}\n\nA student made a list of all possible products of 2 different numbers in the set above. What fraction of the products are odd?",
     "options": [
-      "1/12",
-      "1/10",
-      "1/5",
-      "7/10"
+      "3/20",
+      "3/10",
+      "1/2",
+      "3/5"
     ],
-    "correct_answer": 1,
+    "correct_answer": null,
     "answer_type": ""
   },
   {
     "_id": "108",
     "question_number": 108,
-    "practice_set": "15",
+    "practice_set": "17",
     "category": "Math:Algebra",
     "difficulty": "easy",
     "time_estimate": 95,
     "passage": "",
-    "question_text": "Rita used 125 small solid cubes to build a large solid cube. The measure of each edge of the small cubes equals 1 inch. What is the measure of each edge of the large cube, in inches?",
+    "question_text": "A number, n, is divided by 25. If the quotient is 10 with a remainder of 5, what is the quotient expressed as a decimal?",
     "options": [
-      "5",
-      "25",
-      "41.33",
-      "125"
+      "10.20",
+      "10.25",
+      "10.50",
+      "10.75"
     ],
-    "correct_answer": 0,
+    "correct_answer": null,
     "answer_type": ""
   },
   {
     "_id": "109",
     "question_number": 109,
-    "practice_set": "15",
+    "practice_set": "17",
     "category": "Math:Algebra",
     "difficulty": "easy",
     "time_estimate": 95,
-    "passage": "image:images/shsatpractice15question109.png",
-    "question_text": "Five numbered balls are placed in two boxes as shown in the figure above. Davina picks one ball at random from Box B and places it in Box A. Then Yusuf picks one ball from Box A without looking. What is the probability that Yusuf will pick a ball with an odd number?",
+    "passage": "image:images/shsatpractice17question109.png",
+    "question_text": "The garden design shown above is created in the shape of three semicircles whose diameters lie on the sides of an equilateral triangle. If each diameter is 2 meters long, what is the perimeter of the garden, in meters?",
     "options": [
-      "2/9",
-      "1/3",
-      "2/5",
-      "2/3"
+      "6",
+      "12",
+      "3π",
+      "6π"
     ],
-    "correct_answer": 0,
+    "correct_answer": null,
     "answer_type": ""
   },
   {
     "_id": "110",
     "question_number": 110,
-    "practice_set": "15",
+    "practice_set": "17",
     "category": "Math:Algebra",
     "difficulty": "easy",
     "time_estimate": 95,
-    "passage": "image:images/shsatpractice15question110.png",
-    "question_text": "Which graph represents the solution to |x + 1| ≥ 2 ?",
+    "passage": "",
+    "question_text": "Micha is playing a game with five cards numbered 1 through 5. He will place the cards in a bag and draw one card at random three times, replacing the card each time. To win a prize, he must draw the number 5 all three times. What is the probability he will draw the number 5 all three times?",
     "options": [
-      "E",
-      "F",
-      "G",
-      "H"
+      "1/125",
+      "3/125",
+      "1/15",
+      "3/5"
     ],
-    "correct_answer": 0,
+    "correct_answer": null,
     "answer_type": ""
   },
   {
     "_id": "111",
     "question_number": 111,
-    "practice_set": "15",
+    "practice_set": "17",
     "category": "Math:Algebra",
     "difficulty": "easy",
     "time_estimate": 95,
     "passage": "",
-    "question_text": "A rectangular kitchen floor is 12 feet long and 7.5 feet wide. It will be covered completely with new square tiles measuring 0.75 foot on each side. How many tiles will cover the floor?",
+    "question_text": "The speed 10 meters per second is equivalent to how many feet per hour? (Use the approximation 1 foot = 0.3 meter.)",
     "options": [
-      "68",
-      "78",
-      "120",
-      "160"
+      "10,800",
+      "12,000",
+      "36,000",
+      "120,000"
     ],
-    "correct_answer": 3,
+    "correct_answer": null,
     "answer_type": ""
   },
   {
     "_id": "112",
     "question_number": 112,
-    "practice_set": "15",
+    "practice_set": "17",
     "category": "Math:Algebra",
     "difficulty": "easy",
     "time_estimate": 95,
-    "passage": "",
-    "question_text": "Typically, an amusement park sells 3 times as many tickets on Sunday as on any weekday, and 4 times as many tickets on Saturday as on Sunday. If the number of tickets sold on Saturday and Sunday totaled 30,000, how many tickets are expected to be sold on the following Monday?",
+    "passage": "image:images/shsatpractice17question112.png",
+    "question_text": "What is the value of the expression above, written as an improper fraction?",
     "options": [
-      "2,000",
-      "2,500",
-      "3,000",
-      "4,285"
+      "24/11",
+      "224/101",
+      "111/50",
+      "20/9"
     ],
-    "correct_answer": 0,
+    "correct_answer": null,
     "answer_type": ""
   },
   {
     "_id": "113",
     "question_number": 113,
-    "practice_set": "15",
+    "practice_set": "17",
     "category": "Math:Algebra",
     "difficulty": "easy",
     "time_estimate": 95,
-    "passage": "",
-    "question_text": "A rectangular field had a length of 80 meters and a width of 50 meters. The field was recently enlarged, with the length increased by 15% and the width increased by 10 meters. By what percentage was the area of the field increased?",
+    "passage": "image:images/shsatpractice17question113.png",
+    "question_text": "Lines s and t intersect at point P (3, 5). What is the area, in square units, of the shaded region in the graph above?",
     "options": [
-      "26.5%",
-      "35%",
-      "38%",
-      "42.5%"
+      "2",
+      "3",
+      "4",
+      "7"
     ],
-    "correct_answer": 2,
+    "correct_answer": null,
     "answer_type": ""
   },
   {
     "_id": "114",
     "question_number": 114,
-    "practice_set": "15",
+    "practice_set": "17",
     "category": "Math:Algebra",
     "difficulty": "easy",
     "time_estimate": 95,
     "passage": "",
-    "question_text": "If x and y are both negative integers with x < y , which expression has the least value?",
+    "question_text": "A box contains 14 red marbles, 10 black marbles, and 16 white marbles. How many more white marbles need to be added to the box so that the probability of randomly drawing a white marble is 3/5?",
     "options": [
-      "x²y",
-      "xy²",
-      "-x²y",
-      "-xy²"
+      "8",
+      "10",
+      "14",
+      "20"
     ],
-    "correct_answer": 0,
+    "correct_answer": null,
     "answer_type": ""
   }
 ]
