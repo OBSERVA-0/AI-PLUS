@@ -6,13 +6,13 @@
     "category": "English:Reading Comprehension",
     "difficulty": "easy",
     "time_estimate": 95,
-    "passage": "pdfData:pdf/Pearsons2024-2025B_ExerciseLanguage.pdf",
-    "question_text": "How does the author’s use of comparison in paragraphs 4 and 5 contribute to the development of ideas in the excerpt?",
+    "passage": "pdfData:pdf/Pearsons2022-2023A_ScribeEgyptian.pdf",
+    "question_text": "Which sentence from the excerpt best supports the idea that there were different levels of education for a scribe?",
     "options": [
-      "It identifies why many adults are never able to learn a second language.",
-      "It demonstrates why the study of adult language learning tries to include physical activity.",
-      "It highlights why more is known about language learning in children than about language learning in adults.",
-      "It explains why adults were the subjects of the study rather than children."
+      "“However, contrary to popular belief, not all Egyptian scribes understood hieroglyphs.” (paragraph 1)",
+      "“For everyday purposes, however, scribes used a shorthand version of the hieroglyphic script known as hieratic, which was quicker to write and more economical of space.” (paragraph 2)",
+      "“This limited the scope for employment but such ‘on the job’ training allowed apprentices to help out at home while learning.” (paragraph 4)",
+      "“For professions such as those of government official, priest or lawyer, a scribe would train for several more years, increasing his vocabulary to perhaps a thousand or more signs.” (paragraph 6)"
     ],
     "correct_answer": null,
     "answer_type": ""
@@ -24,13 +24,13 @@
     "category": "English:Reading Comprehension",
     "difficulty": "easy",
     "time_estimate": 95,
-    "passage": "pdfData:pdf/Pearsons2024-2025B_ExerciseLanguage.pdf",
-    "question_text": "Read this sentence from paragraph 6.\n\nTo see what effects exercise might have on this process, the researchers first recruited 40 college-age Chinese men and women who were trying to learn English.\n\nWhich statement describes the function of the sentence in the overall structure of the excerpt?",
+    "passage": "pdfData:pdf/Pearsons2022-2023A_ScribeEgyptian.pdf",
+    "question_text": "Read this sentence from paragraph 2.\n\n Including both ideograms (which convey a whole word or idea, either concrete or abstract, in a single sign) and phonograms (representing either an alphabetic sound or a group of consonants), [the writing system] was used in formal inscriptions on tomb and temple walls as well as on elaborate funerary papyri.\n\nThe author’s purpose for including the sentence is to",
     "options": [
-      "It indicates a shift from describing the results of the study to describing the process.",
-      "It introduces the aspect of the research that was most critical to determining the results.",
-      "It marks the change from explaining why the study was conducted to explaining how the study was conducted.",
-      "It shows how questions were raised that could be addressed in further research."
+      "explain that hieroglyphs were reserved for royal and religious purposes.",
+      "demonstrate the methods experts use to interpret hieroglyphs.",
+      "clarify the significance of hieroglyphs in language and literature.",
+      "describe the basic features of hieroglyphs and how they were typically used."
     ],
     "correct_answer": null,
     "answer_type": ""
@@ -42,13 +42,13 @@
     "category": "English:Reading Comprehension",
     "difficulty": "easy",
     "time_estimate": 95,
-    "passage": "pdfData:pdf/Pearsons2024-2025B_ExerciseLanguage.pdf",
-    "question_text": "Which sentence is the best summary of the research procedure used in the study in the excerpt?",
+    "passage": "pdfData:pdf/Pearsons2022-2023A_ScribeEgyptian.pdf",
+    "question_text": "Which statement summarizes the process that schools used to train scribes?",
     "options": [
-      "Researchers had a group of non-English-speaking students learn new English vocabulary by matching words and images on a computer screen, and also by analyzing words in context; some students exercised and some students sat still while learning.",
-      "Researchers first divided non-English-speaking students into two groups, with one group exercising before and while studying English and the other group studying English without exercising; then, after instruction, student learning was assessed.",
-      "Researchers first had non-English-speaking students sit on stationary bikes and pedal for 20 minutes before instruction and 15 minutes during instruction; then, after a rest period, students indicated whether English sentences made sense.",
-      "Researchers asked non-English-speaking students to study English while sitting or biking; then the students’ vocabulary skills were assessed after a short break period and also after a break of a full month without their having studied any of the materials."
+      "Boys had to memorize around 450 hieratic signs. Once they had learned these, they were expected to copy literary texts that contained valuable lessons.",
+      "Boys spent at least five years learning hieratic signs, which they practiced by copying texts. During this period, they were also introduced to basic hieroglyphs.",
+      "Boys spent five or six years learning the basics of hieratic script. After this period, they could become apprentices and begin learning hieroglyphics.",
+      "Boys were taught two different scripts. They practiced both types by copying lists and eventually progressed to writing letters, reports, and contracts."
     ],
     "correct_answer": null,
     "answer_type": ""
@@ -60,13 +60,13 @@
     "category": "English:Reading Comprehension",
     "difficulty": "easy",
     "time_estimate": 95,
-    "passage": "pdfData:pdf/Pearsons2024-2025B_ExerciseLanguage.pdf",
-    "question_text": "In the study described in the excerpt, researchers asked English learners to assess the sense of words in context because that task is",
+    "passage": "pdfData:pdf/Pearsons2022-2023A_ScribeEgyptian.pdf",
+    "question_text": "Which claim is best supported by the information presented in paragraphs 3 and 4?",
     "options": [
-      "better at determining the capability learners have of language than simple vocabulary recall.",
-      "consistent with the way earlier research was conducted on adult language learners.",
-      "a better way for learners to absorb the meaning of individual vocabulary words.",
-      "more difficult for learners to perform after an extended period of time has passed."
+      "Education was difficult for the common citizens of Egypt to obtain.",
+      "Once students began studying to become scribes, their future held more possibilities.",
+      "If someone wanted to become a scribe, support from outside sources such as the government or a temple was necessary.",
+      "Becoming a successful scribe required a student’s family to sacrifice time and money in order to ensure the best education."
     ],
     "correct_answer": null,
     "answer_type": ""
@@ -78,13 +78,13 @@
     "category": "English:Reading Comprehension",
     "difficulty": "easy",
     "time_estimate": 95,
-    "passage": "pdfData:pdf/Pearsons2024-2025B_ExerciseLanguage.pdf",
-    "question_text": "Read these sentences from paragraph 17.\n\nThese improvements extend beyond simply aiding in memorization, she added. The exercise also deepened language learners’ grasp of how to use their newly acquired words.\n\nWhich sentence from the excerpt best explains why Sulpizio feels confident in the conclusion stated in these sentences?",
+    "passage": "pdfData:pdf/Pearsons2022-2023A_ScribeEgyptian.pdf",
+    "question_text": "Hieratic script was particularly valuable in a bureaucratic government because",
     "options": [
-      "“They were shown 40 words per session, with the sequence repeated several times.” (paragraph 10)",
-      "“They also responded to sentences using the new words, marking whether the sentences were accurate or, in the case of ‘The apple is a dentist,’ nonsensical.” (paragraph 11)",
-      "“And at the end of each lesson, the students who had ridden bikes performed better on the subsequent vocabulary tests than did the students who sat still.” (paragraph 13)",
-      "“They also became more proficient at recognizing proper sentences than the sedentary students, although that difference did not emerge until after several weeks of instruction.” (paragraph 14)"
+      "using hieratic script was an efficient way for scribes to produce large amounts of documentation.",
+      "many members of the general public could comprehend information that was written in hieratic script.",
+      "knowledge of hieratic script prepared scribes to serve their society in increasingly challenging roles.",
+      "people from different professional backgrounds could easily communicate with one another in hieratic script."
     ],
     "correct_answer": null,
     "answer_type": ""
@@ -96,13 +96,13 @@
     "category": "English:Reading Comprehension",
     "difficulty": "easy",
     "time_estimate": 95,
-    "passage": "pdfData:pdf/Pearsons2024-2025B_ExerciseLanguage.pdf",
-    "question_text": "Paragraph 18 shows that the author’s perspective toward the study described in the excerpt is that",
+    "passage": "pdfData:pdf/Pearsons2022-2023A_ScribeEgyptian.pdf",
+    "question_text": "The diagram after paragraph 6 best provides additional support for the topic of the excerpt by",
     "options": [
-      "though the study allowed some conclusions to be drawn, these conclusions are limited.",
-      "while the study focused on moderate exercise, it would have been better to focus on difficult exercise.",
-      "while the study was performed appropriately, it is doubtful the results can be duplicated.",
-      "though the study was about learning language, its conclusions can be applied to learning in general."
+      "demonstrating the place of scribes in ancient Egyptian social structure.",
+      "depicting the types of tasks performed by each social class.",
+      "indicating that scribes were able to easily improve their social ranking.",
+      "comparing the social positions of each social class in ancient Egypt."
     ],
     "correct_answer": null,
     "answer_type": ""
@@ -114,13 +114,13 @@
     "category": "English:Reading Comprehension",
     "difficulty": "easy",
     "time_estimate": 95,
-    "passage": "pdfData:pdf/Pearsons2024-2025B_ExerciseLanguage.pdf",
-    "question_text": "Which evidence from the excerpt is most relevant to the author’s claim that there are many unanswered questions about the relationship between movement and learning?",
+    "passage": "pdfData:pdf/Pearsons2022-2023A_ScribeEgyptian.pdf",
+    "question_text": "Based on the excerpt, which statement would the author most strongly agree with?",
     "options": [
-      "the method of the study using one type of exercise and people from one age group",
-      "the statement from Sulpizio explaining past studies on neurochemicals in the brain",
-      "the finding of the study that exercise helps people recall information over a long period of time",
-      "the statement from Sulpizio describing how the results of the study can be applied"
+      "Boys in Egypt were encouraged to enter the same profession as older male relatives.",
+      "Knowledge of hieroglyphs was helpful to Egyptians who were interested in becoming scribes.",
+      "Hieratic script was more practical to ancient Egyptians than hieroglyphs were.",
+      "Boys in Egypt who studied for only a few years were unlikely to find employment as scribes"
     ],
     "correct_answer": null,
     "answer_type": ""
@@ -132,13 +132,13 @@
     "category": "English:Reading Comprehension",
     "difficulty": "easy",
     "time_estimate": 95,
-    "passage": "pdfData:pdf/Pearsons2024-2025B_NoHarm.pdf",
-    "question_text": "Paragraph 1 contributes to the setting of the excerpt by establishing that",
+    "passage": "pdfData:pdf/Pearsons2022-2023A_WinterWheat.pdf",
+    "question_text": "Read these sentences from paragraph 2.\n\n Dad always said Mom could make all the dishes he’d had back in Vermont as well as though she were a New Englander herself, instead of a Russian. All of a sudden, I realized that tomorrow when those beans would be ready to eat I’d be going away. It gave me a funny feeling.\n\nThe sentences help develop a theme of the excerpt by",
     "options": [
-      "the story’s location is a plentiful place that allows The People to enjoy a comfortable gathering.",
-      "the events in the story occurred in the past and are being remembered by The People.",
-      "the camp in the story is changing and that the changes are causing problems for The People.",
-      "the story’s plot begins as The People are observing their land and what it offers them."
+      "suggesting that life presents people with many challenges.",
+      "implying that the stress of major life events can cause confusion.",
+      "demonstrating that moving on from the familiar is a common human experience.",
+      "emphasizing the idea that people can easily learn the routines of being part of a new culture."
     ],
     "correct_answer": null,
     "answer_type": ""
@@ -150,13 +150,13 @@
     "category": "English:Reading Comprehension",
     "difficulty": "easy",
     "time_estimate": 95,
-    "passage": "pdfData:pdf/Pearsons2024-2025B_NoHarm.pdf",
-    "question_text": "In paragraphs 4 and 6, the beginning of the change in seasons affects the characters mainly by",
+    "passage": "pdfData:pdf/Pearsons2022-2023A_WinterWheat.pdf",
+    "question_text": "Read this sentence from paragraph 3.\n\n“I’ll be taking the train tomorrow night,” I said aloud, more to hear it myself.\n\nThis remark contributes to the conflict in the excerpt by",
     "options": [
-      "causing them to collect their bounty and feel eager to celebrate before it becomes cold.",
-      "making them want to rest and relax before the challenging work of the harvest begins.",
-      "forcing them to give up leisure time to prepare their camp for the coming winter.",
-      "allowing them to trade the goods they have prepared during the warm months."
+      "revealing Dad’s reasons for wanting to drive to the city.",
+      "causing tension between Mom and Dad.",
+      "leading Ellen to distance herself from both Mom and Dad.",
+      "showing Mom’s reluctance to plan that far in advance."
     ],
     "correct_answer": null,
     "answer_type": ""
@@ -168,13 +168,13 @@
     "category": "English:Reading Comprehension",
     "difficulty": "easy",
     "time_estimate": 95,
-    "passage": "pdfData:pdf/Pearsons2024-2025B_NoHarm.pdf",
-    "question_text": "How do paragraphs 7 and 9 convey a central idea of the excerpt?",
+    "passage": "pdfData:pdf/Pearsons2022-2023A_WinterWheat.pdf",
+    "question_text": "Read this sentence from paragraph 9.\n\nI tried to, and then I just sat still and looked straight at it.\n\nHow does the phrase “looked straight at it” contribute to the meaning of the excerpt?",
     "options": [
-      "by explaining that The People often explore different areas, which shows the value of trying new things",
-      "by revealing that The People must complete many tasks, which shows the necessity of being organized",
-      "by suggesting that The People are influenced by the weather, which shows their close relationship with nature",
-      "by demonstrating that The People work together, which shows the importance of contributing to the community"
+      "It shows that Ellen is willing to deal with a problem directly instead of ignoring it",
+      "It suggests that Ellen studies all parts of an issue and not just its surface.",
+      "It illustrates that Ellen examines both sides of an argument.",
+      "It implies that Ellen is eager to seek wisdom from past experiences."
     ],
     "correct_answer": null,
     "answer_type": ""
@@ -186,13 +186,13 @@
     "category": "English:Reading Comprehension",
     "difficulty": "easy",
     "time_estimate": 95,
-    "passage": "pdfData:pdf/Pearsons2024-2025B_NoHarm.pdf",
-    "question_text": "In paragraph 8, the author repeats the word “played” most likely to",
+    "passage": "pdfData:pdf/Pearsons2022-2023A_WinterWheat.pdf",
+    "question_text": "The words “cold” and “dark” affect the tone in paragraph 10 by",
     "options": [
-      "emphasize how much the adults enjoy observing the children.",
-      "show how everyone finds a way to enjoy being at the gathering.",
-      "indicate the variety of activities available at the gathering.",
-      "characterize the manner in which the children master the work of adults."
+      "highlighting the feeling of unpredictability among the family members.",
+      "showing the feelings of anger and resentment Ellen directs toward her parents.",
+      "exaggerating the feeling of regret Dad experiences when leaving his family.",
+      "emphasizing the feelings of separation and loss that Ellen feels."
     ],
     "correct_answer": null,
     "answer_type": ""
@@ -204,13 +204,13 @@
     "category": "English:Reading Comprehension",
     "difficulty": "easy",
     "time_estimate": 95,
-    "passage": "pdfData:pdf/Pearsons2024-2025B_NoHarm.pdf",
-    "question_text": "How do paragraphs 11– 13 affect the plot of the excerpt?",
+    "passage": "pdfData:pdf/Pearsons2022-2023A_WinterWheat.pdf",
+    "question_text": "Which sentence from the excerpt provides evidence that Ellen has a lot in common with her father?",
     "options": [
-      "They establish a feeling of mystery by presenting different points of view about the arriving people.",
-      "They contribute to the rising action by developing the idea that the arriving people could present a problem.",
-      "They lead to a turning point by describing the moment that the crowd realizes why the strangers have come.",
-      "They explain the cause of the main conflict by providing background information about the strangers."
+      "“He’s the one who gets excited when I do about spring coming or a serial running in the magazine we’re both reading. . . .” (paragraph 1)",
+      "“ ‘We can drive you into town in the afternoon,’ Dad said, dropping his paper on the floor.” (paragraph 4)",
+      "“ ‘Well, we don’t have to decide tonight,’ Dad said, but I knew he wanted to go into Clark City.” (paragraph 6)",
+      "“I wondered how they would get along without me.” (paragraph 25)"
     ],
     "correct_answer": null,
     "answer_type": ""
@@ -222,13 +222,13 @@
     "category": "English:Reading Comprehension",
     "difficulty": "easy",
     "time_estimate": 95,
-    "passage": "pdfData:pdf/Pearsons2024-2025B_NoHarm.pdf",
-    "question_text": "In paragraph 20, the phrases “trophies of their hunt” and “paraded around” affect the paragraph by",
+    "passage": "pdfData:pdf/Pearsons2022-2023A_WinterWheat.pdf",
+    "question_text": "Read these sentences from the excerpt.\n\n Mom seems to think of nothing farther away than today or perhaps yesterday or tomorrow morning. (paragraph 1)\n\nMom was fixing oatmeal for tomorrow morning. (paragraph 19)\n\nThe sentences help develop a central idea of the excerpt by",
     "options": [
-      "suggesting that the hunters are rewarded for their leadership.",
-      "emphasizing that The People are dependent on the hunters for food.",
-      "revealing that the hunters are pleased with their success.",
-      "indicating that The People have gathered specifically to welcome the hunters."
+      "suggesting that practical people focus on current needs rather than worrying about the future.",
+      "showing that parents tend to consider the needs of their children before thinking of themselves.",
+      "revealing that it is sometimes important to plan ahead.",
+      "illustrating that dreaming about the future is a waste of time."
     ],
     "correct_answer": null,
     "answer_type": ""
@@ -240,13 +240,13 @@
     "category": "English:Reading Comprehension",
     "difficulty": "easy",
     "time_estimate": 95,
-    "passage": "pdfData:pdf/Pearsons2024-2025B_NoHarm.pdf",
-    "question_text": "Which quotation from the excerpt best supports the idea that The People feel a connection to members of their group in spite of distance?",
+    "passage": "pdfData:pdf/Pearsons2022-2023A_WinterWheat.pdf",
+    "question_text": "The flashback in paragraphs 10– 24 affects the plot by",
     "options": [
-      "“As was their custom since wahk-kee-ma, a time far back beyond the memory of man, they set up their camps in the same locations their parents and grandparents had occupied before them.” (paragraph 5)",
-      "“ ‘Would they have news of the families who had gone long ago to Buffalo Country and never returned?’ ” (paragraph 13)",
-      "“ ‘Looks like hunters,’ the older men agreed. ‘Looks like they had good hunting.’ ”(paragraph 15)",
-      "“But it was the sight of the frail figure of the woman that aroused their curiosity.”(paragraph 21)"
+      "showing that the departure of one member of the family makes extra work for those left on the farm.",
+      "showing that the bond within the family persists even when its members are apart.",
+      "explaining why Ellen fears that leaving her parents will be too difficult.",
+      "illustrating the close connection Ellen has with both of her parents."
     ],
     "correct_answer": null,
     "answer_type": ""
@@ -258,13 +258,13 @@
     "category": "English:Reading Comprehension",
     "difficulty": "easy",
     "time_estimate": 95,
-    "passage": "pdfData:pdf/Pearsons2024-2025B_NoHarm.pdf",
-    "question_text": "Read these sentences from paragraph 22.\n\n“Belongs to Red Bear people. Gone then come back.”\n\nHow does this statement affect the villagers in the excerpt?",
+    "passage": "pdfData:pdf/Pearsons2022-2023A_WinterWheat.pdf",
+    "question_text": "Which sentence from the excerpt provides evidence that Mom wants Ellen to understand the family’s heritage?",
     "options": [
-      "It increases their concern about why the woman is in their camp.",
-      "It makes them hopeful that more lost members will return before the winter.",
-      "It causes shock, leading them to grieve for the loss of the woman and her family.",
-      "It inspires amazement, making them want to reconnect with their returned family member."
+      "“Mom folded the ironing board and put it inside their bedroom that was just off the kitchen.” (paragraph 2)",
+      "“ ‘There’s no need to go to town; she can catch the train at Gotham just as well.’ ” (paragraph 5)",
+      "“We’d go in right after dinner and go around to the stores, Dad going one way and Mom and I another.” (paragraph 7)",
+      "“ ‘Why, Yeléna, you know that; Anna Petrovna.’ ” (paragraph 22)"
     ],
     "correct_answer": null,
     "answer_type": ""
@@ -276,13 +276,13 @@
     "category": "English:Reading Comprehension",
     "difficulty": "easy",
     "time_estimate": 95,
-    "passage": "pdfData:pdf/Pearsons2024-2025B_NoHarm.pdf",
-    "question_text": "The details in paragraph 5 about the locations of the camps and the details in paragraphs 23– 24 about the reaction to the woman convey a theme of the excerpt by",
+    "passage": "pdfData:pdf/Pearsons2022-2023A_FoodIncubator.pdf",
+    "question_text": "Read this sentence from paragraph 2.\n\nTwo alumnae of its culinary program . . . were even recognized as semi- finalists for prestigious James Beard awards.\n\nThe words “recognized” and “prestigious” in the sentence convey that La Cocina",
     "options": [
-      "revealing the difficulties posed by moving often each year.",
-      "showing the connectedness among The People through the years.",
-      "indicating the value to The People of retelling stories about the past. ",
-      "demonstrating the importance of choosing appropriate names."
+      "makes an effort to identify chefs who have a strong entrepreneurial work ethic.",
+      "has the ability to mentor chefs to reach the highest levels of achievement in their craft.",
+      "is focused on establishing local food entrepreneurs as celebrated professionals in their industry.",
+      "is dedicated to assisting chefs in developing new and innovative products."
     ],
     "correct_answer": null,
     "answer_type": ""
@@ -294,13 +294,13 @@
     "category": "English:Reading Comprehension",
     "difficulty": "easy",
     "time_estimate": 95,
-    "passage": "pdfData:pdf/Pearsons2024-2025B_Telegraph.pdf",
-    "question_text": "Which statement describes how the author’s use of problem- solution in paragraph 2 contributes to the development of ideas in the passage?",
+    "passage": "pdfData:pdf/Pearsons2022-2023A_FoodIncubator.pdf",
+    "question_text": "Paragraph 4 contributes to the development of ideas about La Cocina in paragraph 1 by",
     "options": [
-      "Morse’s discussion on a ship about Faraday’s electromagnet reminded him of the Yale College lectures on electricity, which he had enjoyed but had not fully understood, inspiring him to learn more about electricity from his colleague Gale",
-      "Morse’s discouragement over his lack of knowledge of electricity prompted him to experiment with batteries, magnets, and wires, which led to the development of a new longdistance communication system.",
-      "Morse’s difficulty in understanding how Faraday’s electromagnet worked was frustrating, and it pushed him to create a system for sending signals over wires.",
-      "Morse’s longtime fascination was not enough to make up for his lack of knowledge about electricity, so he eventually sought help from Gale."
+      "specifying how La Cocina helps local food entrepreneurs become successful.",
+      "explaining what kind of goals La Cocina tries to set for local food entrepreneurs.",
+      "providing background information about local food entrepreneurs in San Francisco.",
+      "describing how Caleb Zigas discovered the need to provide assistance to local food entrepreneurs."
     ],
     "correct_answer": null,
     "answer_type": ""
@@ -312,13 +312,13 @@
     "category": "English:Reading Comprehension",
     "difficulty": "easy",
     "time_estimate": 95,
-    "passage": "pdfData:pdf/Pearsons2024-2025B_Telegraph.pdf",
-    "question_text": "The details of the section “The Growth of an Idea” convey a central idea of the passage by suggesting that",
+    "passage": "pdfData:pdf/Pearsons2022-2023A_FoodIncubator.pdf",
+    "question_text": "The quotation from Caleb Zigas in paragraph 6 conveys a central idea of the excerpt by",
     "options": [
-      "the collaborative efforts of colleagues resulted in successful communication over a wire.",
-      "a great deal of interest and work was devoted to understanding how to use electricity to send signals.",
-      "Faraday’s invention of the electromagnet inspired the invention of the telegraph.",
-      "colleges like Yale played a great role in making new discoveries about electricity and its applications."
+      "showing appreciation for the vibrant diversity of La Cocina.",
+      "communicating La Cocina’s goal of helping people of varying abilities.",
+      "describing a typical scenario at La Cocina.",
+      "emphasizing La Cocina’s focus on creating products."
     ],
     "correct_answer": null,
     "answer_type": ""
@@ -330,13 +330,13 @@
     "category": "English:Reading Comprehension",
     "difficulty": "easy",
     "time_estimate": 95,
-    "passage": "pdfData:pdf/Pearsons2024-2025B_Telegraph.pdf",
-    "question_text": "Which statement describes how the author’s use of sequencing in paragraph 3 contributes to the overall structure of the passage?",
+    "passage": "pdfData:pdf/Pearsons2022-2023A_FoodIncubator.pdf",
+    "question_text": "The description of Mariko Grady’s background in paragraph 9 contributes to a central idea in the excerpt by",
     "options": [
-      "It shows that several people were simultaneously attempting to create an electric telegraph.",
-      "It shows how the invention of the electric telegraph depended on information and techniques discovered by others.",
-      "It shows that multiple means of long- distance communication were being used at the same time.",
-      "It shows how quickly long- distance communication changed from visual signals to electrical signals."
+      "demonstrating what people are looking for when they come to La Cocina.",
+      "explaining why La Cocina is the best option for people starting out in the food business",
+      "showing how La Cocina can help people find success in the food business even though they have a background in something different.",
+      "confirming that La Cocina was originally established for small business owners who are looking to expand their services."
     ],
     "correct_answer": null,
     "answer_type": ""
@@ -348,13 +348,13 @@
     "category": "English:Reading Comprehension",
     "difficulty": "easy",
     "time_estimate": 95,
-    "passage": "pdfData:pdf/Pearsons2024-2025B_Telegraph.pdf",
-    "question_text": "Which sentence is the best summary of how Morse obtained the funding necessary to build his telegraph system?",
+    "passage": "pdfData:pdf/Pearsons2022-2023A_FoodIncubator.pdf",
+    "question_text": "Which statement would the author most likely agree with?",
     "options": [
-      "Morse’s application for a federal grant was delayed until 1843, so he spent time traveling in Europe, where he concentrated on obtaining a patent for his system.",
-      "Morse applied for a government grant that required both houses of Congress and the president to pass a bill awarding him $30,000 for his telegraph project.",
-      "Morse applied for a government appropriation and conducted telegraph demonstrations to show that his system could work, and after a delay caused by a financial depression, Congress approved the $30,000 appropriation in 1843.",
-      "Working with Gale and Vail allowed Morse to find flaws in Henry’s work and to develop his own ideas before applying for the federal government appropriation."
+      "The publicity efforts La Cocina engages in will help its business design spread to other cities.",
+      "The variety of exciting food available in San Francisco is due to the work of La Cocina.",
+      "La Cocina offers a method that will guarantee business ownership for qualified entrepreneurs.",
+      "La Cocina does admirable work in supporting the efforts of ambitious cooks who may have few resources."
     ],
     "correct_answer": null,
     "answer_type": ""
@@ -366,13 +366,13 @@
     "category": "English:Reading Comprehension",
     "difficulty": "easy",
     "time_estimate": 95,
-    "passage": "pdfData:pdf/Pearsons2024-2025B_Telegraph.pdf",
-    "question_text": "Read this sentence from paragraph 7.\n\nThe desperate Morse gave the go- ahead, and the line was completed in time for the dramatic and spectacularly successful link between the Supreme Court chamber of the Capitol building and the railroad station in Baltimore.\n\nThe words “dramatic” and “spectacularly” in the sentence convey a",
+    "passage": "pdfData:pdf/Pearsons2022-2023A_FoodIncubator.pdf",
+    "question_text": "Which piece of evidence from the excerpt is most relevant to the author’s claim that La Cocina provides an opportunity to become more established as a business owner?",
     "options": [
-      "sense of relief and fulfillment that the line was finished.",
-      "sense of wonder and celebration that the telegraph line was accomplished.",
-      "feeling of excitement about the future possibilities of the telegraph.",
-      "feeling of confidence about being able to continue the work."
+      "the description of how two alumni of the business incubator have won food awards",
+      "the reference to a storytelling project where chefs relate their own backgrounds and business experiences",
+      "the lists of necessities such as business plans and city permits that La Cocina assists with",
+      "the notations of the criteria that applicants must meet to be endorsed by La Cocina in order to develop a small business"
     ],
     "correct_answer": null,
     "answer_type": ""
@@ -384,13 +384,13 @@
     "category": "English:Reading Comprehension",
     "difficulty": "easy",
     "time_estimate": 95,
-    "passage": "pdfData:pdf/Pearsons2024-2025B_Telegraph.pdf",
-    "question_text": "How does the graph support the ideas in paragraph 8?",
+    "passage": "pdfData:pdf/Pearsons2022-2023A_FoodIncubator.pdf",
+    "question_text": "Which detail would be most important to include in a summary of the excerpt?",
     "options": [
-      "It indicates how welcome the improvement of long- distance communication was in the United States.",
-      "It provides evidence of the dramatic increase in the number of telegraph messages as Morse’s system expanded across the United States.",
-      "It reveals that by the twentieth century millions of people had used the telegraph despite earlier hesitations about the system.",
-      "It shows how improvements that allowed Morse code to be read in real time made relaying telegraph messages faster and increased the system’s usage."
+      "La Cocina produced a cookbook that includes some members’ stories.",
+      "La Cocina provides legal and technical assistance to its members.",
+      "Potential vendors need a market for their food before considering La Cocina.",
+      "There are different types of venues that food vendors from La Cocina use."
     ],
     "correct_answer": null,
     "answer_type": ""
@@ -402,13 +402,13 @@
     "category": "English:Reading Comprehension",
     "difficulty": "easy",
     "time_estimate": 95,
-    "passage": "pdfData:pdf/Pearsons2024-2025B_Telegraph.pdf",
-    "question_text": "The idea that, in the mid- nineteenth century, the United States was mostly unaware of the possibilities of electricity is illustrated in the passage mainly through the",
+    "passage": "pdfData:pdf/Pearsons2022-2023A_FoodIncubator.pdf",
+    "question_text": "The table provides additional support for a central idea of the excerpt by",
     "options": [
-      "description of the government’s initial desire to expand a semaphore signaling system that used either flags or lights along the Atlantic Coast.",
-      "delay by the House of Representatives to pass the bill funding Morse’s telegraph line six years after he first applied for the appropriation.",
-      "discussions of the newly invented electromagnet that sparked the idea of sending codes through wires.",
-      "description of how an electric circuit could be closed to ring a bell at a distance."
+      "showing how La Cocina works with partner organizations to further educate and advance successful applicants within the food industry.",
+      "explaining how applicants are prepared to develop their own businesses once they leave La Cocina.",
+      "establishing that La Cocina is dedicated to its mission to provide delicious food to different communities.",
+      "emphasizing that applicants must be willing to dedicate time to promoting and developing their business with La Cocina."
     ],
     "correct_answer": null,
     "answer_type": ""
@@ -420,13 +420,13 @@
     "category": "English:Reading Comprehension",
     "difficulty": "easy",
     "time_estimate": 95,
-    "passage": "pdfData:pdf/Pearsons2024-2025B_Telegraph.pdf",
-    "question_text": "With which statement would the author most likely agree?",
+    "passage": "pdfData:pdf/Pearsons2022-2023A_WolvesSea.pdf",
+    "question_text": "The details in paragraph 1 contribute to a central idea of the passage by showing that Darimont",
     "options": [
-      "Morse’s telegraph was successful because the wires were strung aboveground rather than underground as originally planned.",
-      "Understanding the importance of Morse’s telegraph requires detailed knowledge of electrical systems.",
-      "The implementation of Morse’s telegraph system was overly influenced by economic factors.",
-      "Morse’s invention of the telegraph made a great stride toward better connecting people across the United States and across the world."
+      "believed the Great Bear Rainforest was an ideal location to study wolves in their natural habitat because it is a protected area.",
+      "values different perspectives, because the information that Starr provided influenced the focus of Darimont’s research.",
+      "thought the Great Bear Rainforest would provide opportunities to study different groups of wolves because the area includes forests and islands.",
+      "understands the importance of respecting local community members, because Darimont sought permission from an elder of the Heiltsuk Nation before starting his research."
     ],
     "correct_answer": null,
     "answer_type": ""
@@ -438,13 +438,13 @@
     "category": "English:Reading Comprehension",
     "difficulty": "easy",
     "time_estimate": 95,
-    "passage": "pdfData:pdf/Pearsons2024-2025B_Telegraph.pdf",
-    "question_text": "How does the map provide additional support for a central idea of the passage?",
+    "passage": "pdfData:pdf/Pearsons2022-2023A_WolvesSea.pdf",
+    "question_text": "Why does the author include details about the conversation between Starr and Darimont in paragraph 2?",
     "options": [
-      "by demonstrating that Morse’s telegraph system greatly exceeded the limitations of previous long-distance communication systems",
-      "by indicating that Morse was lacking foresight by seeking a patent only in North America",
-      "by proving that Gale’s advice helped Morse extend the telegraph’s range much farther than first thought possible",
-      "by showing that the Morse telegraph had a surprisingly immense influence across the world"
+      "to explain why Starr had closely observed the relationship between the two groups of wolves Darimont wanted to study",
+      "to show that Darimont was hoping to work with Starr and to study both groups of wolves in the area",
+      "to highlight that Darimont was unfamiliar with the area and expected Starr to help him find wolves to study",
+      "to emphasize that the question asked by Starr caused Darimont to review his initial assumption about the wolves"
     ],
     "correct_answer": null,
     "answer_type": ""
@@ -456,13 +456,13 @@
     "category": "English:Reading Comprehension",
     "difficulty": "easy",
     "time_estimate": 95,
-    "passage": "pdfData:pdf/Pearsons2024-2025B_SnowyMountains.pdf",
-    "question_text": "The description in the first stanza (lines 1– 7) helps establish a central idea of the poem by",
+    "passage": "pdfData:pdf/Pearsons2022-2023A_WolvesSea.pdf",
+    "question_text": "Read this sentence from paragraph 4.\n\nAfter collecting and analyzing the DNA in 800 samples of gray fur and wolf waste, researchers could produce hard biological evidence that sea wolves had genetic markers that made them distinct from the mainland wolves.\n\nThe phrase “hard biological evidence” conveys that the goal of the research team was to",
     "options": [
-      "comparing the length of time the mountains have existed with the length of time the city has existed.",
-      "contrasting the grandeur of the mountains with the structures in the city below them.",
-      "implying that the mountains are a source of inspiration to the people in the city below.",
-      "suggesting that the mountains are larger than the people in the city realize."
+      "develop a procedure in order to ensure their study yielded plentiful data about the wolves.",
+      "seek definitive scientific proof of the number of wolf species present in the area of the study.",
+      "conduct a study to evaluate multiple theories about the diets of different wolf species.",
+      "discover if the new data would provide information different from that of previous studies."
     ],
     "correct_answer": null,
     "answer_type": ""
@@ -474,13 +474,13 @@
     "category": "English:Reading Comprehension",
     "difficulty": "easy",
     "time_estimate": 95,
-    "passage": "pdfData:pdf/Pearsons2024-2025B_SnowyMountains.pdf",
-    "question_text": "Read line 5 from the poem.\n\nPillars of the sky at rest\n\nThe line helps develop the theme of the poem by suggesting that the mountains",
+    "passage": "pdfData:pdf/Pearsons2022-2023A_WolvesSea.pdf",
+    "question_text": "The author uses the word “admits” in paragraph 5 most likely to",
     "options": [
-      "serve a noble and supportive purpose in the world.",
-      "attract the clouds with their strength and permanence.",
-      "remain untamed through the ages.",
-      "provide protection for the people."
+      "note that Darimont’s genetic research verified a theory based solely on field observations.",
+      "imply that Darimont’s study was disappointing because the conclusion that he reached was not original.",
+      "emphasize that Darimont’s study ultimately confirmed an idea that he had initially doubted.",
+      "highlight that Darimont’s results led him to draw a conclusion from his research that his team did not agree with"
     ],
     "correct_answer": null,
     "answer_type": ""
@@ -492,13 +492,13 @@
     "category": "English:Reading Comprehension",
     "difficulty": "easy",
     "time_estimate": 95,
-    "passage": "pdfData:pdf/Pearsons2024-2025B_SnowyMountains.pdf",
-    "question_text": "How does isolating the word “Uprise” in line 7 affect the meaning of the poem?",
+    "passage": "pdfData:pdf/Pearsons2022-2023A_WolvesSea.pdf",
+    "question_text": "Which sentence from the passage best supports the idea that sea wolves had successfully adapted to living on the islands?",
     "options": [
-      "It creates a contrast between the great plateau and the city buildings.",
-      "It reveals the similarity between the tall buildings in the city and the tall mountains on the horizon.",
-      "It creates a vision of the region before people developed the land.",
-      "It emphasizes that the mountains dominate the landscape."
+      "“While mainland wolves almost exclusively eat meat, such as deer and elk, and teach their young to hunt for land animals, sea wolves get as much as 90 percent of their nutrition from the sea and teach their young to dig for clams and to catch fish.” (paragraph 3)",
+      "“Sea wolves regularly swim between islands and have been known to sneak up on a seal sunning itself on a rock and make a leaping attack from the water.” (paragraph 3)",
+      "“Darimont suspects that some sea wolves live their entire life on the islands.” (paragraph 3)",
+      "“Darimont hypothesizes that a change in habitat led to the eventual genetic differences between sea wolves and mainland wolves.” (paragraph 4)"
     ],
     "correct_answer": null,
     "answer_type": ""
@@ -510,13 +510,13 @@
     "category": "English:Reading Comprehension",
     "difficulty": "easy",
     "time_estimate": 95,
-    "passage": "pdfData:pdf/Pearsons2024-2025B_SnowyMountains.pdf",
-    "question_text": "Which line from the poem best supports the idea that people have sacrificed priceless natural beauty in order to make a profit?",
+    "passage": "pdfData:pdf/Pearsons2022-2023A_WolvesSea.pdf",
+    "question_text": "How did a change in habitat most affect the wolf population of the Great Bear Rainforest over time?",
     "options": [
-      "“Above the dingy city- roofs” (line 3)",
-      "“The world makes war on them,” (line 10)",
-      "“Tunnels their granite cliffs,” (line 11)",
-      "“Plasters their cliffs with soap- advertisements,” (line 13)"
+      "It caused some of the wolves to learn new hunting techniques in order to catch increasingly scarce prey.",
+      "It caused the wolves to form smaller packs and eventually separate, establishing distinct territories.",
+      "It caused some of the wolves to gradually become a new, genetically distinct species as they adapted behaviorally.",
+      "It caused the wolves to adapt their diet as different food sources became available in the area."
     ],
     "correct_answer": null,
     "answer_type": ""
@@ -528,13 +528,13 @@
     "category": "English:Reading Comprehension",
     "difficulty": "easy",
     "time_estimate": 95,
-    "passage": "pdfData:pdf/Pearsons2024-2025B_SnowyMountains.pdf",
-    "question_text": "How does the poet develop the speaker’s point of view in the second stanza (lines 8– 14)?",
+    "passage": "pdfData:pdf/Pearsons2022-2023A_BirdTalk.pdf",
+    "question_text": "Read lines 6– 7 from the poem.\n\nThe birds took their hops and zigzags a little more\n anxious; a home is a home; worms are worms.\n\nWhat idea from the second stanza do the lines help develop?",
     "options": [
-      "by describing images of the mountains’ awe- inspiring size and strength",
-      "by illustrating the differences among the various ways humans can affect the natural environment",
-      "by criticizing society for taking careless, harmful courses of action against nature",
-      "by demonstrating how the mountains and the people are able to benefit from each other"
+      "The birds are eager for the return of warmer months.",
+      "The birds are most likely to thrive during the spring.",
+      "The birds naturally adjust to the seasonal changes.",
+      "The birds instinctively prepare for the future."
     ],
     "correct_answer": null,
     "answer_type": ""
@@ -546,13 +546,13 @@
     "category": "English:Reading Comprehension",
     "difficulty": "easy",
     "time_estimate": 95,
-    "passage": "pdfData:pdf/Pearsons2024-2025B_SnowyMountains.pdf",
-    "question_text": "Which detail from the poem reflects the speaker’s view that people often fail to appreciate what is familiar?",
+    "passage": "pdfData:pdf/Pearsons2022-2023A_BirdTalk.pdf",
+    "question_text": "Read lines 12– 14 from the poem.\n\nAnd it was the leaves with a strong soft wind over them\n that talked most of all and said more than any others\n though speaking the fewest words.\n\nWhat does the phrase “talked most of all” in line 13 convey?",
     "options": [
-      "“The mountains from the great plateau” (line 6)",
-      "“They have been here now for too long a time.” (line 9)",
-      "“Splits down their shining sides,” (line 12)",
-      "“To which the future is as was the past,” (line 18)"
+      "It establishes that the speaker thinks the sound of wind in the leaves is the best indication that the season is changing.",
+      "It introduces the idea that the sound of the wind in the leaves remains constant throughout the seasons.",
+      "It suggests that the speaker is overwhelmed by the sounds of nature that emerge as the season changes.",
+      "It emphasizes that the sounds of nature enable the speaker to appreciate each season of the year."
     ],
     "correct_answer": null,
     "answer_type": ""
@@ -564,13 +564,13 @@
     "category": "English:Reading Comprehension",
     "difficulty": "easy",
     "time_estimate": 95,
-    "passage": "pdfData:pdf/Pearsons2024-2025B_SnowyMountains.pdf",
-    "question_text": "Read lines 21– 22 from the poem.\n\nBarrier broken down by those who do not need\nThe joy of time- resisting storm- worn stone,\n\nHow do the lines help convey the speaker’s point of view?",
+    "passage": "pdfData:pdf/Pearsons2022-2023A_BirdTalk.pdf",
+    "question_text": "How does the repetition of “ ‘This is the beginning of summer’ ” in lines 2– 3 and lines 18– 19 contribute to the meaning of the poem?",
     "options": [
-      "They suggest that the speaker wants to remove the obstacles that prevent others from experiencing the wonders of nature.",
-      "They reveal the speaker’s opinion that some people are too busy to appreciate natural beauty.",
-      "They reflect the speaker’s dismay that people destroy the natural landscape without understanding the ramifications of their actions.",
-      "They explain that the speaker is confident that nature will never be fully destroyed by people."
+      "It suggests that the shift to summer occurs in the same way each year.",
+      "It emphasizes the idea that living things are prepared for the change of season.",
+      "It highlights the idea that the first signs of summer are surprising each year.",
+      "It builds expectations about what the natural world looks like during a change of season"
     ],
     "correct_answer": null,
     "answer_type": ""
@@ -582,13 +582,13 @@
     "category": "English:Reading Comprehension",
     "difficulty": "easy",
     "time_estimate": 95,
-    "passage": "pdfData:pdf/Pearsons2024-2025B_SnowyMountains.pdf",
-    "question_text": "How do the details in the third stanza (lines 15– 26) most contribute to the development of a theme of the poem?",
+    "passage": "pdfData:pdf/Pearsons2022-2023A_BirdTalk.pdf",
+    "question_text": "Which lines from the poem best contrast with the idea of winter’s scarcity and bleakness?",
     "options": [
-      "by reflecting nature’s capacity to resist change",
-      "by showing that nature is capable of influencing human will",
-      "by exposing how a lack of awareness leads to nature’s ruin",
-      "by explaining why people must respect nature"
+      "The shrilling of the frogs was not so shrill as in the / first weeks after the broken winter;”(lines 4– 5)",
+      "“The yellow spreads of the dandelions and buttercups / reached across the green pastures.” (lines 8– 9)",
+      "“Tee whee and tee whee came on the breezes, and the grackles / chuzzled their syllables.” (lines 10– 11)",
+      "“Or if instead of counting up last year as against / this year, they count up this year as against next” (lines 25– 26)"
     ],
     "correct_answer": null,
     "answer_type": ""
@@ -600,13 +600,13 @@
     "category": "English:Reading Comprehension",
     "difficulty": "easy",
     "time_estimate": 95,
-    "passage": "pdfData:pdf/Pearsons2024-2025B_SnowyMountains.pdf",
-    "question_text": "Read lines 23– 26 from the poem.\n\nThe mountains swing along\nThe south horizon of the sky;\nWelcoming with wide floors of blue- green ice\nThe mists that dance and drive before the sun.\n\nThe personification in these concluding lines of the poem suggests that the mountains are",
+    "passage": "pdfData:pdf/Pearsons2022-2023A_BirdTalk.pdf",
+    "question_text": "How do lines 23– 28 contribute to a central idea of the poem?",
     "options": [
-      "gracious hosts who are untroubled by the actions of people.",
-      "unaware of their coming destruction.",
-      "lively entertainers who are amused by the everyday concerns of people.",
-      "too proud to reveal their pain."
+      "They suggest that the speaker is aware of what has been lost in the winter",
+      "They imply that the birds sing the most in the summer.",
+      "They reveal that the birds are subject to the cycles of nature.",
+      "They emphasize that the speaker enjoys observing nature."
     ],
     "correct_answer": null,
     "answer_type": ""
@@ -618,13 +618,13 @@
     "category": "English:Reading Comprehension",
     "difficulty": "easy",
     "time_estimate": 95,
-    "passage": "pdfData:pdf/Pearsons2024-2025B_PastFutureTrees.pdf",
-    "question_text": "What is the effect of comparing groups of bristlecone pines to “a city within a cemetery”(paragraph 2)?",
+    "passage": "pdfData:pdf/Pearsons2022-2023A_BirdTalk.pdf",
+    "question_text": "Throughout the poem, the poet conveys the speaker’s point of view by",
     "options": [
-      "It illustrates that the new tree’s appearance is markedly different from that of mature bristlecone pines.",
-      "It emphasizes the new tree’s ability to use resources left by prior generations of bristlecone pines.",
-      "It highlights the tree’s capacity for a long life if it is able to survive to maturity.",
-      "It reveals that the tree’s dense growth patterns are unusual in arid conditions."
+      "gradually moving the speaker’s attention from one element of nature to another.",
+      "providing the speaker’s motivation for describing the landscape in great detail.",
+      "highlighting the speaker’s emotional response as each season passes.",
+      "shifting the speaker’s focus from external observations to personal reflection"
     ],
     "correct_answer": null,
     "answer_type": ""
@@ -636,13 +636,13 @@
     "category": "English:Reading Comprehension",
     "difficulty": "easy",
     "time_estimate": 95,
-    "passage": "pdfData:pdf/Pearsons2024-2025B_PastFutureTrees.pdf",
-    "question_text": "In paragraph 4, the idea that the bristlecone pine can withstand difficult conditions is illustrated mainly through",
+    "passage": "pdfData:pdf/Pearsons2022-2023A_BirdTalk.pdf",
+    "question_text": "Over the course of the poem, a central idea is developed mainly through the speaker’s",
     "options": [
-      "a comparison of the bristlecone pine with similar trees that are known for their long lives.",
-      "a description of specific qualities of the bristlecone pine that make it suited to its environment.",
-      "an explanation of why the White Mountains are the best place for the bristlecone pine to grow.",
-      "an examination of why the bristlecone pine has few competitors in the White Mountains."
+      "sense of eager anticipation as winter ends.",
+      "description of the changes in nature as the seasons transition.",
+      "observation of the birds’ behavior as summer begins.",
+      "prediction of future alterations in the physical landscape."
     ],
     "correct_answer": null,
     "answer_type": ""
@@ -654,13 +654,13 @@
     "category": "English:Reading Comprehension",
     "difficulty": "easy",
     "time_estimate": 95,
-    "passage": "pdfData:pdf/Pearsons2024-2025B_PastFutureTrees.pdf",
-    "question_text": "Read this sentence from paragraph 5.\n\nEmpires rose and fell; wars raged; . . . and the tree from 2500 B.C. continued its implacable slow-motion existence, adding about two-hundredths of an inch to the diameter of its trunk each year.\n\nThe sentence contributes to the development of ideas in the excerpt by",
+    "passage": "pdfData:pdf/Pearsons2022-2023A_Non-Native.pdf",
+    "question_text": "Which sentence from the excerpt supports the conclusion that Elton’s “militaristic ‘invasion’ metaphor” (paragraph 1) has influenced scientific understanding of non- native species?",
     "options": [
-      "emphasizing the bristlecone pine’s precise growth pattern.",
-      "suggesting that things that seem well established face threats.",
-      "describing the pace of the life cycle of the bristlecone pine.",
-      "explaining the reason for the bristlecone pine’s longevity."
+      "“Among [Olden’s] findings: a substantial number of them said they would immediately eradicate a hypothetical non- native forest plant, even if it were shown to have no effect on the forest.” (paragraph 5)",
+      "“Regardless of what we label them, conservationists will be reluctant to remove them from their new environs— to do so would stymie their chances of adapting to the warmer future we’re creating.” (paragraph 8)",
+      "“A project to rip out and poison the spartina— which grows in dense swaths that exclude many other shorebirds— saw clapper rail numbers go tumbling downward.” (paragraph 10)",
+      "“In some cases we can best serve biodiversity by leaving the non- natives alone or even— brace yourself, now— introducing them on purpose.” (paragraph 14)"
     ],
     "correct_answer": null,
     "answer_type": ""
@@ -672,13 +672,13 @@
     "category": "English:Reading Comprehension",
     "difficulty": "easy",
     "time_estimate": 95,
-    "passage": "pdfData:pdf/Pearsons2024-2025B_PastFutureTrees.pdf",
-    "question_text": "Which claim is best supported by the details in paragraph 5 about the bristlecone pine’s treering record?",
+    "passage": "pdfData:pdf/Pearsons2022-2023A_Non-Native.pdf",
+    "question_text": "Climate change has affected efforts to manage invasive species mainly by causing ecologists to",
     "options": [
-      "The bristlecone pine must be protected from extinction so that there is a record of changing Earth conditions.",
-      "The structure of the bristlecone pine allows scientists to predict changing Earth conditions over time.",
-      "The slow growth process of the bristlecone pine allows it to survive in spite of changing Earth conditions.",
-      "The bristlecone pine can be used to gather information on changing Earth conditions because of its long life."
+      "call upon the public to be more tolerant of the presence of non- native species",
+      "admit that past attempts to eliminate non- native species have damaged the environment.",
+      "find ways of ensuring that native species are not harmed by the arrival of new species.",
+      "acknowledge that it is not realistic for some species to remain in their native habitats."
     ],
     "correct_answer": null,
     "answer_type": ""
@@ -690,13 +690,13 @@
     "category": "English:Reading Comprehension",
     "difficulty": "easy",
     "time_estimate": 95,
-    "passage": "pdfData:pdf/Pearsons2024-2025B_PastFutureTrees.pdf",
-    "question_text": "The phrases “clings to life” and “stripped of bark” in paragraph 6 are used to highlight",
+    "passage": "pdfData:pdf/Pearsons2022-2023A_Non-Native.pdf",
+    "question_text": "Which detail provides the most relevant support for the claim that “climate change is making it harder even to decide who the invaders are” (paragraph 7)?",
     "options": [
-      "that the tree is fragile and needs help to avoid becoming extinct.",
-      "how the tree can be misunderstood because of its appearance.",
-      "how the tree interests observers with its unusual appearance.",
-      "that the tree manages to survive even when partially fossilized."
+      "the mention in paragraph 8 of non- native species that are forced to seek new habitats",
+      "the acknowledgment in paragraph 9 that non- native species include many domestic crops",
+      "the description in paragraph 11 of the interactions between native and non- native species",
+      "the account in paragraph 13 of an ecologist who changed his beliefs about nonnative species"
     ],
     "correct_answer": null,
     "answer_type": ""
@@ -708,13 +708,13 @@
     "category": "English:Reading Comprehension",
     "difficulty": "easy",
     "time_estimate": 95,
-    "passage": "pdfData:pdf/Pearsons2024-2025B_PastFutureTrees.pdf",
-    "question_text": "The details in paragraph 7 convey a central idea of the excerpt by suggesting that",
+    "passage": "pdfData:pdf/Pearsons2022-2023A_Non-Native.pdf",
+    "question_text": "The author’s use of cause and effect in paragraphs 10– 11 mainly emphasizes the idea that",
     "options": [
-      "the success of the bristlecone pine lies in its ability to resist climate change.",
-      "the uncommon appearance of the bristlecone pine is related to its ability to survive.",
-      "the attachment that humans have to the bristlecone pine is understandable.",
-      "the longevity of the bristlecone pine continues to encourage experts."
+      "some non- native species have helped their environments while others have had harmful impacts.",
+      "attempts to remove non- native species have seldom produced desired results.",
+      "some endangered native species have flourished because of the presence of nonnative species.",
+      "interactions between endangered native species and non- native species must be carefully monitored."
     ],
     "correct_answer": null,
     "answer_type": ""
@@ -726,13 +726,13 @@
     "category": "English:Reading Comprehension",
     "difficulty": "easy",
     "time_estimate": 95,
-    "passage": "pdfData:pdf/Pearsons2024-2025B_PastFutureTrees.pdf",
-    "question_text": "What is the best summary of the bristlecone pine’s life cycle?",
+    "passage": "pdfData:pdf/Pearsons2022-2023A_Non-Native.pdf",
+    "question_text": "Which sentence from the excerpt supports the idea that some species are able to adjust to change?",
     "options": [
-      "The bristlecone pine takes root as a stubby seedling in the mountains. Over time, it grows slowly in a hostile environment with alkaline soil that ensures little competition from other trees.",
-      "The bristlecone pine grows up slowly from the fragments of its dead ancestors. Over time, it begins to become contorted in appearance but continues to funnel water and nutrients to its stem.",
-      "The bristlecone pine grows slowly in an environment hostile to other trees. Over time, its trunk and some branches fossilize, but it funnels water and nutrients to other parts that are still alive.",
-      "The bristlecone pine grows only in one location in the mountains. Over time, it develops sparse foliage that fossilizes slowly, but the trunk and branches stay alive, as revealed by ribbons of live bark."
+      "“Native gardens have become increasingly popular, both as ways to celebrate the unique flora of each region and as tiny hot spots of diversity.” (paragraph 3)",
+      "“Many native (and beautiful) Hawaiian flowers are now pollinated by the Japanese white- eye bird— because the native pollinators have been driven extinct by other non- native species.”(paragraph 11)",
+      "“After all, nativeness is just one environmental value, and arguably not as important as preventing extinctions and preserving biodiversity.” (paragraph 14)",
+      "“The islands lost their own large tortoises, and the fruiting plants that formerly had their seeds moved around by these fruit- loving reptiles have been on the decline.” (paragraph 15)"
     ],
     "correct_answer": null,
     "answer_type": ""
@@ -744,13 +744,13 @@
     "category": "English:Reading Comprehension",
     "difficulty": "easy",
     "time_estimate": 95,
-    "passage": "pdfData:pdf/Pearsons2024-2025B_PastFutureTrees.pdf",
-    "question_text": "Throughout the excerpt, the author conveys his point of view mainly by",
+    "passage": "pdfData:pdf/Pearsons2022-2023A_Non-Native.pdf",
+    "question_text": "The details in the section “A Good Thing, Not the Only Thing” convey a central idea of the excerpt by suggesting that",
     "options": [
-      "sharing details about the qualities of the bristlecone pine that make it an unusual tree",
-      "comparing the bristlecone pine to global empires that lasted thousands of years before falling.",
-      "explaining the way the seemingly sickly appearance of the bristlecone pine contrasts with its ability to survive.",
-      "arguing that the bristlecone pine has survived past threats to its survival and will continue to thrive"
+      "some non- native species can replace native species that are unable to survive on their own.",
+      "decisions about whether to keep non- native species should be considered on an individual basis.",
+      "the scientists who study rapidly changing ecosystems agree that non- native species enhance biodiversity.",
+      "a natural habitat that is healthy should be able to support a blend of native and nonnative species."
     ],
     "correct_answer": null,
     "answer_type": ""
@@ -762,13 +762,13 @@
     "category": "English:Reading Comprehension",
     "difficulty": "easy",
     "time_estimate": 95,
-    "passage": "pdfData:pdf/Pearsons2024-2025B_TimetoVolunteer.pdf",
-    "question_text": "Which revision of sentence 2 uses the most precise language?",
+    "passage": "pdfData:pdf/Pearsons2022-2023A_Non-Native.pdf",
+    "question_text": "How does the chart provide additional support for a central idea of the excerpt?",
     "options": [
-      "These are the people who spend their free time volunteering at animal shelters, helping with activities in community centers, or cleaning up parks.",
-      "These are the people who spend their free time helping others in numerous ways at a variety of places, events, or organizations that need support.",
-      "These are the people who spend their free time working at local establishments that help people, animals, or other groups in need of assistance.",
-      "These are the people who spend a lot of time volunteering at places where they can help people in many ways."
+      "by implying that the public becomes aware of non- native species only after removal is impossible",
+      "by showing that the complete removal of non- native species is usually not achievable after a certain period of time",
+      "by demonstrating why non- native species can be destructive if they are not removed from an area immediately",
+      "by explaining how some conservation groups have approached the removal of nonnative species"
     ],
     "correct_answer": null,
     "answer_type": ""
@@ -780,13 +780,13 @@
     "category": "English:Reading Comprehension",
     "difficulty": "easy",
     "time_estimate": 95,
-    "passage": "pdfData:pdf/Pearsons2024-2025B_TimetoVolunteer.pdf",
-    "question_text": "Which sentence should follow sentence 4 to introduce the main claim of the passage?",
+    "passage": "Unlock, Ride, Return\n\n(1) In metropolitan areas around the world, millions of cars, trucks, and taxis pack the streets every day, causing headaches for commuters and polluting the environment. (2) Public transportation eases some of this congestion, but crowding and potential delays are still an issue for many travelers. (3) In recent years, another transportation option has been gaining momentum in some cities. (4) This option is all about sharing bicycles, which is a creative and new idea for some.\n\n(5) The bike share concept is fairly simple. (6) Bike stations are set up at multiple locations in a city. (7) Frequent users can purchase a membership pass, while less-frequent users or tourists can buy a daily permit. (8) Many city bikers prefer bike sharing over ownership. (9) They are not responsible for the bike’s storage or its maintenance. (10) Tourists also benefit from having an affordable way to experience the sites of a city\n\n(11) The largest bike sharing program in the United States today is in New York City. (12) Known as Citi Bike, the program was launched in 2013 and now boasts 10,000 bikes spread across 600 stations in Manhattan, Brooklyn, and Queens. (13) Similarly, in Hangzhou, China, a city of 7 million residents, there are approximately 75,000 bikes offered across 2,700 stations. (14) In 2016, people used Citi Bike for a lot of trips, which turned out to be a huge increase in the number of people taking rides from the previous year. (15) These numbers are likely to increase further, since the program is set to expand into additional neighborhoods soon. (16) According to Citi Bike, the bike sharing concept has gained rapid popularity because it is “faster than walking, cheaper than a taxi, and more fun than the subway.”\n\n(17) New York City officials estimated that in 2016 the bike share program had kept nearly 5,000 tons of carbon dioxide out of the city’s air. (18) Officials in Montreal, Canada, and Lyon, France, have noted similar impacts on air quality.\n\n(19) As populations grow, fuel costs increase, and environmental concerns escalate, people will continue to search for more economical and environmentally friendly ways to travel. (20) Bike sharing is a new mode of transportation.",
+    "question_text": "Which sentence should replace sentence 4 to more clearly introduce the topic of this passage?",
     "options": [
-      "With that in mind, high school students should consider engaging in some form of regular volunteerism.",
-      "Fortunately for students, these benefits are guaranteed to produce both immediate and long-term results.",
-      "In fact, studies have confirmed that volunteerism can be beneficial for students, the family, and the community.",
-      "For this reason, high school students should learn about how helping others can strengthen their communities."
+      "Bike share programs have become an accessible and environmentally friendly solution for many urban travelers.",
+      "Bike share programs are successful because both residents and tourists can use the bicycles to travel within a city.",
+      "Bike share programs offer an alternative form of transportation in urban areas that is faster than using a car or taxi.",
+      "Bike share programs have created an affordable mode of transportation for people in large cities throughout the world."
     ],
     "correct_answer": null,
     "answer_type": ""
@@ -798,13 +798,13 @@
     "category": "English:Reading Comprehension",
     "difficulty": "easy",
     "time_estimate": 95,
-    "passage": "pdfData:pdf/Pearsons2024-2025B_TimetoVolunteer.pdf",
-    "question_text": "Which sentence is least relevant to the ideas presented in the second paragraph (sentences 5–10) and should be deleted?",
+    "passage": "Unlock, Ride, Return\n\n(1) In metropolitan areas around the world, millions of cars, trucks, and taxis pack the streets every day, causing headaches for commuters and polluting the environment. (2) Public transportation eases some of this congestion, but crowding and potential delays are still an issue for many travelers. (3) In recent years, another transportation option has been gaining momentum in some cities. (4) This option is all about sharing bicycles, which is a creative and new idea for some.\n\n(5) The bike share concept is fairly simple. (6) Bike stations are set up at multiple locations in a city. (7) Frequent users can purchase a membership pass, while less-frequent users or tourists can buy a daily permit. (8) Many city bikers prefer bike sharing over ownership. (9) They are not responsible for the bike’s storage or its maintenance. (10) Tourists also benefit from having an affordable way to experience the sites of a city\n\n(11) The largest bike sharing program in the United States today is in New York City. (12) Known as Citi Bike, the program was launched in 2013 and now boasts 10,000 bikes spread across 600 stations in Manhattan, Brooklyn, and Queens. (13) Similarly, in Hangzhou, China, a city of 7 million residents, there are approximately 75,000 bikes offered across 2,700 stations. (14) In 2016, people used Citi Bike for a lot of trips, which turned out to be a huge increase in the number of people taking rides from the previous year. (15) These numbers are likely to increase further, since the program is set to expand into additional neighborhoods soon. (16) According to Citi Bike, the bike sharing concept has gained rapid popularity because it is “faster than walking, cheaper than a taxi, and more fun than the subway.”\n\n(17) New York City officials estimated that in 2016 the bike share program had kept nearly 5,000 tons of carbon dioxide out of the city’s air. (18) Officials in Montreal, Canada, and Lyon, France, have noted similar impacts on air quality.\n\n(19) As populations grow, fuel costs increase, and environmental concerns escalate, people will continue to search for more economical and environmentally friendly ways to travel. (20) Bike sharing is a new mode of transportation.",
+    "question_text": "Which sentence can best follow sentence 6 to help develop the ideas in the second paragraph (sentences 5–10)?",
     "options": [
-      "sentence 6",
-      "sentence 7",
-      "sentence 8",
-      "sentence 9"
+      "Bike sharing stations that are located near tourist destinations or major transportation hubs are the most popular",
+      "A person obtains a bike from one station, rides it for a period of time, and then returns the bike to the original station or to another station within the system.",
+      "A mechanism called a dock keeps each bicycle securely locked to the station until a user comes along, releases the lock, and starts a ride.",
+      "Bike sharing stations have been built in many of the largest cities in the United States, including Boston, San Francisco, Chicago, Minneapolis, and Denver."
     ],
     "correct_answer": null,
     "answer_type": ""
@@ -816,13 +816,13 @@
     "category": "English:Reading Comprehension",
     "difficulty": "easy",
     "time_estimate": 95,
-    "passage": "pdfData:pdf/Pearsons2024-2025B_TimetoVolunteer.pdf",
-    "question_text": "Which of these would best follow sentence 12 and support the ideas presented in the third paragraph (sentences 11– 12)?",
+    "passage": "Unlock, Ride, Return\n\n(1) In metropolitan areas around the world, millions of cars, trucks, and taxis pack the streets every day, causing headaches for commuters and polluting the environment. (2) Public transportation eases some of this congestion, but crowding and potential delays are still an issue for many travelers. (3) In recent years, another transportation option has been gaining momentum in some cities. (4) This option is all about sharing bicycles, which is a creative and new idea for some.\n\n(5) The bike share concept is fairly simple. (6) Bike stations are set up at multiple locations in a city. (7) Frequent users can purchase a membership pass, while less-frequent users or tourists can buy a daily permit. (8) Many city bikers prefer bike sharing over ownership. (9) They are not responsible for the bike’s storage or its maintenance. (10) Tourists also benefit from having an affordable way to experience the sites of a city\n\n(11) The largest bike sharing program in the United States today is in New York City. (12) Known as Citi Bike, the program was launched in 2013 and now boasts 10,000 bikes spread across 600 stations in Manhattan, Brooklyn, and Queens. (13) Similarly, in Hangzhou, China, a city of 7 million residents, there are approximately 75,000 bikes offered across 2,700 stations. (14) In 2016, people used Citi Bike for a lot of trips, which turned out to be a huge increase in the number of people taking rides from the previous year. (15) These numbers are likely to increase further, since the program is set to expand into additional neighborhoods soon. (16) According to Citi Bike, the bike sharing concept has gained rapid popularity because it is “faster than walking, cheaper than a taxi, and more fun than the subway.”\n\n(17) New York City officials estimated that in 2016 the bike share program had kept nearly 5,000 tons of carbon dioxide out of the city’s air. (18) Officials in Montreal, Canada, and Lyon, France, have noted similar impacts on air quality.\n\n(19) As populations grow, fuel costs increase, and environmental concerns escalate, people will continue to search for more economical and environmentally friendly ways to travel. (20) Bike sharing is a new mode of transportation.",
+    "question_text": "What is the best way to combine sentences 8 and 9 to clarify the relationship between the ideas?",
     "options": [
-      "These students show that they are likely to be responsible, reliable, and helpful young adults. Admissions counselors know that character traits like these will benefit the applicants as well as whomever they interact with.",
-      "Volunteering can help students meet new people who can provide references and advice to the students when they are applying to colleges. It can also be an invaluable opportunity for students to meet possible future employers.",
-      "The counselors hope that young adults who demonstrate this behavior will go on to volunteer during their college years, working on campus in student government and leadership programs or serving in the community at hospitals, schools, and homeless shelters.",
-      "Many colleges are looking for students who are not just academically successful but who also work well with others and care about improving and serving surrounding communities."
+      "Although they prefer bike sharing over ownership, many city bikers are not responsible for the bike’s storage or its maintenance",
+      "Many city bikers prefer bike sharing over ownership, and they are not responsible for the bike’s storage or its maintenance.",
+      "Since many city bikers prefer bike sharing over ownership, they are not responsible for the bike’s storage or its maintenance",
+      "Many city bikers prefer bike sharing over ownership because they are not responsible for the bike’s storage or its maintenance."
     ],
     "correct_answer": null,
     "answer_type": ""
@@ -834,13 +834,13 @@
     "category": "English:Reading Comprehension",
     "difficulty": "easy",
     "time_estimate": 95,
-    "passage": "pdfData:pdf/Pearsons2024-2025B_TimetoVolunteer.pdf",
-    "question_text": "Which concluding sentence should replace sentence 22 to provide the best support for the argument presented in the passage?",
+    "passage": "Unlock, Ride, Return\n\n(1) In metropolitan areas around the world, millions of cars, trucks, and taxis pack the streets every day, causing headaches for commuters and polluting the environment. (2) Public transportation eases some of this congestion, but crowding and potential delays are still an issue for many travelers. (3) In recent years, another transportation option has been gaining momentum in some cities. (4) This option is all about sharing bicycles, which is a creative and new idea for some.\n\n(5) The bike share concept is fairly simple. (6) Bike stations are set up at multiple locations in a city. (7) Frequent users can purchase a membership pass, while less-frequent users or tourists can buy a daily permit. (8) Many city bikers prefer bike sharing over ownership. (9) They are not responsible for the bike’s storage or its maintenance. (10) Tourists also benefit from having an affordable way to experience the sites of a city\n\n(11) The largest bike sharing program in the United States today is in New York City. (12) Known as Citi Bike, the program was launched in 2013 and now boasts 10,000 bikes spread across 600 stations in Manhattan, Brooklyn, and Queens. (13) Similarly, in Hangzhou, China, a city of 7 million residents, there are approximately 75,000 bikes offered across 2,700 stations. (14) In 2016, people used Citi Bike for a lot of trips, which turned out to be a huge increase in the number of people taking rides from the previous year. (15) These numbers are likely to increase further, since the program is set to expand into additional neighborhoods soon. (16) According to Citi Bike, the bike sharing concept has gained rapid popularity because it is “faster than walking, cheaper than a taxi, and more fun than the subway.”\n\n(17) New York City officials estimated that in 2016 the bike share program had kept nearly 5,000 tons of carbon dioxide out of the city’s air. (18) Officials in Montreal, Canada, and Lyon, France, have noted similar impacts on air quality.\n\n(19) As populations grow, fuel costs increase, and environmental concerns escalate, people will continue to search for more economical and environmentally friendly ways to travel. (20) Bike sharing is a new mode of transportation.",
+    "question_text": "Which revision of sentence 14 uses the most precise language?",
     "options": [
-      "In every city, there are homeless shelters, food pantries, youth centers, and political campaigns that depend on the support and commitment of hardworking young people",
-      "Clearly, students who volunteer will experience a host of benefits, such as learning new skills, meeting interesting people, opening up opportunities for the future, and gaining a sense of satisfaction.",
-      "When students carefully evaluate their activities and prioritize volunteerism, they find a way to work it into their schedule and are soon encouraging their peers to do the same.",
-      "Whether they are seeking admission to college, preparing to enter the workforce, or simply looking to reduce stress, high school students who volunteer can help themselves as much as they help others."
+      "In 2016, data revealed that Citi Bike was used for millions of trips, which shows that the program had a 40 percent increase in ridership from the previous year.",
+      "In 2016, nearly 14 million trips were recorded by Citi Bike, which adds up to a huge increase in ridership compared with the previous year.",
+      "In 2016, Citi Bike documented nearly 14 million trips, which amounted to an astonishing 40 percent increase in ridership from the previous year.",
+      "In 2016, Citi Bike saw several million trips, which turned out to be a big increase in ridership from the previous year."
     ],
     "correct_answer": null,
     "answer_type": ""
@@ -852,13 +852,13 @@
     "category": "English:Reading Comprehension",
     "difficulty": "easy",
     "time_estimate": 95,
-    "passage": "pdfData:pdf/Pearsons2018-2019A_MovingMountains.pdf",
-    "question_text": "Which sentence should be added after sentence 5 to introduce the main topic of the passage?",
+    "passage": "Unlock, Ride, Return\n\n(1) In metropolitan areas around the world, millions of cars, trucks, and taxis pack the streets every day, causing headaches for commuters and polluting the environment. (2) Public transportation eases some of this congestion, but crowding and potential delays are still an issue for many travelers. (3) In recent years, another transportation option has been gaining momentum in some cities. (4) This option is all about sharing bicycles, which is a creative and new idea for some.\n\n(5) The bike share concept is fairly simple. (6) Bike stations are set up at multiple locations in a city. (7) Frequent users can purchase a membership pass, while less-frequent users or tourists can buy a daily permit. (8) Many city bikers prefer bike sharing over ownership. (9) They are not responsible for the bike’s storage or its maintenance. (10) Tourists also benefit from having an affordable way to experience the sites of a city\n\n(11) The largest bike sharing program in the United States today is in New York City. (12) Known as Citi Bike, the program was launched in 2013 and now boasts 10,000 bikes spread across 600 stations in Manhattan, Brooklyn, and Queens. (13) Similarly, in Hangzhou, China, a city of 7 million residents, there are approximately 75,000 bikes offered across 2,700 stations. (14) In 2016, people used Citi Bike for a lot of trips, which turned out to be a huge increase in the number of people taking rides from the previous year. (15) These numbers are likely to increase further, since the program is set to expand into additional neighborhoods soon. (16) According to Citi Bike, the bike sharing concept has gained rapid popularity because it is “faster than walking, cheaper than a taxi, and more fun than the subway.”\n\n(17) New York City officials estimated that in 2016 the bike share program had kept nearly 5,000 tons of carbon dioxide out of the city’s air. (18) Officials in Montreal, Canada, and Lyon, France, have noted similar impacts on air quality.\n\n(19) As populations grow, fuel costs increase, and environmental concerns escalate, people will continue to search for more economical and environmentally friendly ways to travel. (20) Bike sharing is a new mode of transportation.",
+    "question_text": "Which sentence should be added before sentence 17 to improve the organization of the fourth paragraph (sentences 17–18)?",
     "options": [
-      "The construction of the Gotthard Base Tunnel was approved by Swiss voters in 1992 and was funded by tolls, fuel taxes, and government loans.",
-      "Leaders from several European countries attended the opening ceremonies for the Gotthard Base Tunnel, a Swiss tunnel.",
-      "The Gotthard Base Tunnel is the world’s longest and deepest railway tunnel, stretching 35.5 miles straight through the base of the Swiss Alps.",
-      "The Gotthard Base Tunnel continues to help reduce the number of freight trucks on the roadways in the Swiss Alps."
+      "Experts increasingly want to discuss the positive effects of bike sharing programs, such as Citi Bike, in big cities.",
+      "While bike sharing programs offer clear benefits to riders, some people cite another reason for their support of the bike share model.",
+      "If bike sharing programs are going to continue to increase in popularity, it is important for communities to discuss all the benefits these programs offer.",
+      "Citi Bike is an innovative program that can cite positive statistics about ridership from one year to another."
     ],
     "correct_answer": null,
     "answer_type": ""
@@ -870,13 +870,13 @@
     "category": "English:Reading Comprehension",
     "difficulty": "easy",
     "time_estimate": 95,
-    "passage": "pdfData:pdf/Pearsons2018-2019A_MovingMountains.pdf",
-    "question_text": "Which sentence should be added to follow and support sentence 7?",
+    "passage": "Unlock, Ride, Return\n\n(1) In metropolitan areas around the world, millions of cars, trucks, and taxis pack the streets every day, causing headaches for commuters and polluting the environment. (2) Public transportation eases some of this congestion, but crowding and potential delays are still an issue for many travelers. (3) In recent years, another transportation option has been gaining momentum in some cities. (4) This option is all about sharing bicycles, which is a creative and new idea for some.\n\n(5) The bike share concept is fairly simple. (6) Bike stations are set up at multiple locations in a city. (7) Frequent users can purchase a membership pass, while less-frequent users or tourists can buy a daily permit. (8) Many city bikers prefer bike sharing over ownership. (9) They are not responsible for the bike’s storage or its maintenance. (10) Tourists also benefit from having an affordable way to experience the sites of a city\n\n(11) The largest bike sharing program in the United States today is in New York City. (12) Known as Citi Bike, the program was launched in 2013 and now boasts 10,000 bikes spread across 600 stations in Manhattan, Brooklyn, and Queens. (13) Similarly, in Hangzhou, China, a city of 7 million residents, there are approximately 75,000 bikes offered across 2,700 stations. (14) In 2016, people used Citi Bike for a lot of trips, which turned out to be a huge increase in the number of people taking rides from the previous year. (15) These numbers are likely to increase further, since the program is set to expand into additional neighborhoods soon. (16) According to Citi Bike, the bike sharing concept has gained rapid popularity because it is “faster than walking, cheaper than a taxi, and more fun than the subway.”\n\n(17) New York City officials estimated that in 2016 the bike share program had kept nearly 5,000 tons of carbon dioxide out of the city’s air. (18) Officials in Montreal, Canada, and Lyon, France, have noted similar impacts on air quality.\n\n(19) As populations grow, fuel costs increase, and environmental concerns escalate, people will continue to search for more economical and environmentally friendly ways to travel. (20) Bike sharing is a new mode of transportation.",
+    "question_text": "Which sentence could best follow sentence 18 and support the main point of the fourth paragraph (sentences 17–18)?",
     "options": [
-      "The tunnel- boring machine is helpful to tunnel builders in the modern era and has been an improvement over dynamite.",
-      "These enormous tunnel-boring machines function somewhat like a cheese grater, with the cutter head grinding slowly through rock and stone.",
-      "Engineers had considered making a tunnel under the mountains for many years, but it was impossible to do without modern tunnel- boring machines.",
-      "Different types of cutter heads are used with tunnel- boring machines depending on the geology of the area where the tunnel is being created."
+      "Bike share programs are developed in cities mainly to improve air quality.",
+      "Participating in a bike share program is the main way travelers can improve air quality in cities.",
+      "Cities may begin to experience improved air quality as more travelers use bike share programs.",
+      "Bike share programs may be more effective at improving air quality in some cities than they are in other cities."
     ],
     "correct_answer": null,
     "answer_type": ""
@@ -888,13 +888,13 @@
     "category": "English:Reading Comprehension",
     "difficulty": "easy",
     "time_estimate": 95,
-    "passage": "pdfData:pdf/Pearsons2018-2019A_MovingMountains.pdf",
-    "question_text": "Where should sentence 11 be moved in order to improve the organization of the second paragraph (sentences 6–11)?",
+    "passage": "Unlock, Ride, Return\n\n(1) In metropolitan areas around the world, millions of cars, trucks, and taxis pack the streets every day, causing headaches for commuters and polluting the environment. (2) Public transportation eases some of this congestion, but crowding and potential delays are still an issue for many travelers. (3) In recent years, another transportation option has been gaining momentum in some cities. (4) This option is all about sharing bicycles, which is a creative and new idea for some.\n\n(5) The bike share concept is fairly simple. (6) Bike stations are set up at multiple locations in a city. (7) Frequent users can purchase a membership pass, while less-frequent users or tourists can buy a daily permit. (8) Many city bikers prefer bike sharing over ownership. (9) They are not responsible for the bike’s storage or its maintenance. (10) Tourists also benefit from having an affordable way to experience the sites of a city\n\n(11) The largest bike sharing program in the United States today is in New York City. (12) Known as Citi Bike, the program was launched in 2013 and now boasts 10,000 bikes spread across 600 stations in Manhattan, Brooklyn, and Queens. (13) Similarly, in Hangzhou, China, a city of 7 million residents, there are approximately 75,000 bikes offered across 2,700 stations. (14) In 2016, people used Citi Bike for a lot of trips, which turned out to be a huge increase in the number of people taking rides from the previous year. (15) These numbers are likely to increase further, since the program is set to expand into additional neighborhoods soon. (16) According to Citi Bike, the bike sharing concept has gained rapid popularity because it is “faster than walking, cheaper than a taxi, and more fun than the subway.”\n\n(17) New York City officials estimated that in 2016 the bike share program had kept nearly 5,000 tons of carbon dioxide out of the city’s air. (18) Officials in Montreal, Canada, and Lyon, France, have noted similar impacts on air quality.\n\n(19) As populations grow, fuel costs increase, and environmental concerns escalate, people will continue to search for more economical and environmentally friendly ways to travel. (20) Bike sharing is a new mode of transportation.",
+    "question_text": "Which sentence is irrelevant to the ideas in the third paragraph (sentences 11–16) and should be deleted?",
     "options": [
-      "to the beginning of the paragraph (before sentence 6)",
-      "between sentences 6 and 7",
-      "between sentences 8 and 9",
-      "between sentences 9 and 10"
+      "sentence 12",
+      "sentence 13",
+      "sentence 15",
+      "sentence 16"
     ],
     "correct_answer": null,
     "answer_type": ""
@@ -906,13 +906,13 @@
     "category": "English:Reading Comprehension",
     "difficulty": "easy",
     "time_estimate": 95,
-    "passage": "pdfData:pdf/Pearsons2018-2019A_MovingMountains.pdf",
-    "question_text": "Which sentence presents information that shifts away from the main topic of the third paragraph (sentences 12– 16) and should be removed?",
+    "passage": "Unlock, Ride, Return\n\n(1) In metropolitan areas around the world, millions of cars, trucks, and taxis pack the streets every day, causing headaches for commuters and polluting the environment. (2) Public transportation eases some of this congestion, but crowding and potential delays are still an issue for many travelers. (3) In recent years, another transportation option has been gaining momentum in some cities. (4) This option is all about sharing bicycles, which is a creative and new idea for some.\n\n(5) The bike share concept is fairly simple. (6) Bike stations are set up at multiple locations in a city. (7) Frequent users can purchase a membership pass, while less-frequent users or tourists can buy a daily permit. (8) Many city bikers prefer bike sharing over ownership. (9) They are not responsible for the bike’s storage or its maintenance. (10) Tourists also benefit from having an affordable way to experience the sites of a city\n\n(11) The largest bike sharing program in the United States today is in New York City. (12) Known as Citi Bike, the program was launched in 2013 and now boasts 10,000 bikes spread across 600 stations in Manhattan, Brooklyn, and Queens. (13) Similarly, in Hangzhou, China, a city of 7 million residents, there are approximately 75,000 bikes offered across 2,700 stations. (14) In 2016, people used Citi Bike for a lot of trips, which turned out to be a huge increase in the number of people taking rides from the previous year. (15) These numbers are likely to increase further, since the program is set to expand into additional neighborhoods soon. (16) According to Citi Bike, the bike sharing concept has gained rapid popularity because it is “faster than walking, cheaper than a taxi, and more fun than the subway.”\n\n(17) New York City officials estimated that in 2016 the bike share program had kept nearly 5,000 tons of carbon dioxide out of the city’s air. (18) Officials in Montreal, Canada, and Lyon, France, have noted similar impacts on air quality.\n\n(19) As populations grow, fuel costs increase, and environmental concerns escalate, people will continue to search for more economical and environmentally friendly ways to travel. (20) Bike sharing is a new mode of transportation.",
+    "question_text": "Which concluding sentence should replace sentence 20 to better support the information presented in the passage?",
     "options": [
-      "sentence 13",
-      "sentence 14",
-      "sentence 15",
-      "sentence 16"
+      "Over time, bike sharing may become a routine part of modern urban life.",
+      "Even small- or medium-sized cities can benefit from implementing a bike share program",
+      "Compared with other solutions, bike sharing seems to have the most potential.",
+      "Ultimately, bike sharing is an interesting and unique way for tourists to explore a city"
     ],
     "correct_answer": null,
     "answer_type": ""
@@ -924,13 +924,13 @@
     "category": "English:Reading Comprehension",
     "difficulty": "easy",
     "time_estimate": 95,
-    "passage": "pdfData:pdf/Pearsons2018-2019A_MovingMountains.pdf",
-    "question_text": "Which transition phrase should be added to the beginning of sentence 18?",
+    "passage": "Learning to Embrace the Gap Year\n\n(1) The traditional academic plan for college-bound students in the United States is to complete high school in June and begin college courses in August or September, but some experts wonder whether this plan is appropriate for all students. (2) Young adults are still exhausted from attending secondary school. (3) They are sent to college with little to no transition time. (4) They struggle with a lack of direction, have minimal life experience, and are not adequately prepared to succeed. (5) Many students are simply starting college before they are ready.\n\n(6) A gap year is when a student takes a one- year hiatus from schooling for nonacademic activities. (7) This break in the academic track gives young adults a chance to explore possible program options, gain volunteer experience, and achieve personal growth. (8) Through a variety of opportunities, gap year participants can develop new skills and interests. (9) The break can also help prepare students for the challenges of college coursework by giving them additional time to mature. (10) Succeeding at the college level can be challenging at first, but when determined students adjust and employ good study habits, they will thrive.\n\n(11) Earning money can be a tempting choice, and some young adults may find that they no longer desire a college degree after entering the workforce. (12) While gap year critics do have a valid concern, a 2010 Wall Street Journal article cited research that found that “90% of students who took a gap year had returned to college within a year.” (13) And the Gap Year Association, a worldwide accredited nonprofit that promotes the benefits of a gap year, maintains that “taking a structured gap year invariably serves to develop the individual into a more focused student with a better sense of purpose and engagement in the world.” \n\n(14) The choice to take a gap year may not be for all students, but it could be the best path for some. (15) Students need to know that this is a good choice that will be supported if it is what they want. (16) Taking a gap year could help students become more successful as adults in their community.",
+    "question_text": "Which sentence should follow sentence 5 to introduce the main claim of the passage?",
     "options": [
-      "Although the Gotthard Base Tunnel is mainly for freight trains,",
-      "With the Gotthard Base Tunnel taking ten years to complete,",
-      "Because of the successful completion of the Gotthard Base Tunnel,",
-      "As the number of trains using the Gotthard Base Tunnel increases,"
+      "Taking a gap year away from formal education to determine their personal aspirations is the answer for these students.",
+      "For some students, the benefits of taking a gap year after high school could significantly increase their chances of achieving collegiate success.",
+      "When students are academically and emotionally prepared, they are guaranteed to experience greater success in their higher education endeavors.",
+      "Students who take the time to mature and gain knowledge outside of the classroom will experience more satisfaction, purpose, and accomplishment in their life."
     ],
     "correct_answer": null,
     "answer_type": ""
@@ -942,13 +942,13 @@
     "category": "English:Reading Comprehension",
     "difficulty": "easy",
     "time_estimate": 95,
-    "passage": "pdfData:pdf/Pearsons2018-2019A_MovingMountains.pdf",
-    "question_text": "Which concluding sentence should be added after sentence 18 to support the topic presented in the passage?",
+    "passage": "Learning to Embrace the Gap Year\n\n(1) The traditional academic plan for college-bound students in the United States is to complete high school in June and begin college courses in August or September, but some experts wonder whether this plan is appropriate for all students. (2) Young adults are still exhausted from attending secondary school. (3) They are sent to college with little to no transition time. (4) They struggle with a lack of direction, have minimal life experience, and are not adequately prepared to succeed. (5) Many students are simply starting college before they are ready.\n\n(6) A gap year is when a student takes a one- year hiatus from schooling for nonacademic activities. (7) This break in the academic track gives young adults a chance to explore possible program options, gain volunteer experience, and achieve personal growth. (8) Through a variety of opportunities, gap year participants can develop new skills and interests. (9) The break can also help prepare students for the challenges of college coursework by giving them additional time to mature. (10) Succeeding at the college level can be challenging at first, but when determined students adjust and employ good study habits, they will thrive.\n\n(11) Earning money can be a tempting choice, and some young adults may find that they no longer desire a college degree after entering the workforce. (12) While gap year critics do have a valid concern, a 2010 Wall Street Journal article cited research that found that “90% of students who took a gap year had returned to college within a year.” (13) And the Gap Year Association, a worldwide accredited nonprofit that promotes the benefits of a gap year, maintains that “taking a structured gap year invariably serves to develop the individual into a more focused student with a better sense of purpose and engagement in the world.” \n\n(14) The choice to take a gap year may not be for all students, but it could be the best path for some. (15) Students need to know that this is a good choice that will be supported if it is what they want. (16) Taking a gap year could help students become more successful as adults in their community.",
+    "question_text": "Which revision of sentence 8 uses the most precise language?",
     "options": [
-      "There is proof that underground tunnels such as the Gotthard Base Tunnel are beneficial to the economy of the surrounding area.",
-      "The Gotthard Base Tunnel is an extraordinary example of how human ingenuity and persistence can overcome great obstacles.",
-      "The completion of the Gotthard Base Tunnel shows that people can work together to achieve important goals.",
-      "The Swiss government is confident that the economic impact of the Gotthard Base Tunnel will be worth its construction cost."
+      "Through different experiences and discoveries, gap year participants can develop new skills and interests.",
+      "Through a range of opportunities and training, gap year participants can develop new skills and interests.",
+      "Through internships, work, travel, or volunteerism, gap year participants can develop new skills and interests.",
+      "Through a variety of jobs, programs, and charities, gap year participants can develop new skills and interests."
     ],
     "correct_answer": null,
     "answer_type": ""
@@ -960,13 +960,13 @@
     "category": "English:Reading Comprehension",
     "difficulty": "easy",
     "time_estimate": 95,
-    "passage": "(1) The International Space Station has been inhabited by crew members since 2000.\n(2) Tourists will soon be allowed to pay for visits to the space station.\n(3) Because the cost is $52–$58 million round trip, few people will be able to take advantage of the opportunity to have a vacation in outer space.",
-    "question_text": "What is the best way to combine these sentences to clarify the relationship between ideas?",
+    "passage": "Learning to Embrace the Gap Year\n\n(1) The traditional academic plan for college-bound students in the United States is to complete high school in June and begin college courses in August or September, but some experts wonder whether this plan is appropriate for all students. (2) Young adults are still exhausted from attending secondary school. (3) They are sent to college with little to no transition time. (4) They struggle with a lack of direction, have minimal life experience, and are not adequately prepared to succeed. (5) Many students are simply starting college before they are ready.\n\n(6) A gap year is when a student takes a one- year hiatus from schooling for nonacademic activities. (7) This break in the academic track gives young adults a chance to explore possible program options, gain volunteer experience, and achieve personal growth. (8) Through a variety of opportunities, gap year participants can develop new skills and interests. (9) The break can also help prepare students for the challenges of college coursework by giving them additional time to mature. (10) Succeeding at the college level can be challenging at first, but when determined students adjust and employ good study habits, they will thrive.\n\n(11) Earning money can be a tempting choice, and some young adults may find that they no longer desire a college degree after entering the workforce. (12) While gap year critics do have a valid concern, a 2010 Wall Street Journal article cited research that found that “90% of students who took a gap year had returned to college within a year.” (13) And the Gap Year Association, a worldwide accredited nonprofit that promotes the benefits of a gap year, maintains that “taking a structured gap year invariably serves to develop the individual into a more focused student with a better sense of purpose and engagement in the world.” \n\n(14) The choice to take a gap year may not be for all students, but it could be the best path for some. (15) Students need to know that this is a good choice that will be supported if it is what they want. (16) Taking a gap year could help students become more successful as adults in their community.",
+    "question_text": "Which sentence should be added before sentence 11 to introduce the ideas in the third paragraph (sentences 11 - 13)?",
     "options": [
-      "The International Space Station has been inhabited by crew members since 2000, but tourists will soon be allowed to pay for visits to the space station, which cost $52–$58 million round trip, so few people will be able to take advantage of the opportunity to have a vacation in outer space.",
-      "The International Space Station has been inhabited by crew members since 2000 and will soon allow tourists to pay for visits, but because the cost is $52–$58 million round trip, few people will be able to take advantage of the opportunity to have a vacation in outer space.",
-      "The International Space Station has been inhabited by crew members since 2000, but tourists will soon be allowed to pay for visits to the space station, though the cost is $52–$58 million round trip, so few people will be able to take advantage of the opportunity to have a vacation in outer space.",
-      "The International Space Station has been inhabited by crew members since 2000, and tourists will soon be allowed to pay for visits to the space station because the cost is $52–$58 million round trip, therefore few people will be able to take advantage of the opportunity to have a vacation in outer space."
+      "Some gap year opponents worry that young adults who take a break from academia for activities such as a job may never return.",
+      "In addition to helping students become better prepared for college, a gap year could be useful to those with financial constraints.",
+      "Students complain that there is not enough time between high school and college to earn money for college.",
+      "There is growing concern among some experts that a gap year may be too expensive for many students to even consider."
     ],
     "correct_answer": null,
     "answer_type": ""
@@ -978,13 +978,13 @@
     "category": "English:Reading Comprehension",
     "difficulty": "easy",
     "time_estimate": 95,
-    "passage": "(1) To improve upon a skill, people typically train one skill at a time. (2) It would make sense that one should learn to walk before learning to run to someone who is learning a new skill. (3) Psychologists, however, are finding that this is not always the case. (4) Practicing several skills together, a process called interleaving, produces much better results than working one skill at a time.",
-    "question_text": "Which sentence contains an error in its construction and should be revised?",
+    "passage": "image:images/shsatpractice18question55.png",
+    "question_text": "Which revision corrects the error in sentence structure in the paragraph?",
     "options": [
-      "sentence 1",
-      "sentence 2",
-      "sentence 3",
-      "sentence 4"
+      ";these people, who",
+      "different, because",
+      "head. It",
+      "dream, then,"
     ],
     "correct_answer": null,
     "answer_type": ""
@@ -996,13 +996,13 @@
     "category": "English:Reading Comprehension",
     "difficulty": "easy",
     "time_estimate": 95,
-    "passage": "The Appalachian Trail is a really long trail that a lot of people do each year.",
-    "question_text": "Which revision of the sentence uses the most precise language?",
+    "passage": "(1) In 2019, 15-year-old Cori “Coco” Gauff defeated Venus Williams in the first round of Wimbledon. \n(2) Wimbledon is the world’s most prestigious tennis tournament. \n(3) Gauff made history as the youngest player in almost 30 years to win a women’s singles match at Wimbledon.",
+    "question_text": "What is the best way to combine these sentences to clarify the relationship between ideas?",
     "options": [
-      "The Appalachian Trail is an extremely long trail that millions of people do each year",
-      "The Appalachian Trail is a 2,200- mile trail that more than a million people hike each year",
-      "The Appalachian Trail is a 2,200- mile trail that two million people hike each year.",
-      "The Appalachian Trail is a lengthy trail that a couple million people do each year."
+      "Making history at the world’s most prestigious tennis tournament in 2019, 15-year-old Cori “Coco” Gauff defeated Venus Williams, in the first round, making Gauff the youngest player in almost 30 years to win a women’s singles match at Wimbledon.",
+      "At the world’s most prestigious tennis tournament, Wimbledon, 15-year-old Cori “Coco” Gauff made history in 2019 by defeating Venus Williams in the first round, making the teenager the youngest player in almost 30 years to win a women’s singles match.",
+      "In 2019, 15-year-old Cori “Coco” Gauff made history when she defeated Venus Williams in the first round of Wimbledon, becoming the youngest player in almost 30 years to win a women’s singles match at the world’s most prestigious tennis tournament.",
+      "In 2019, history was made at the first round of Wimbledon, the world’s most prestigious tennis tournament, when 15-year-old Cori “Coco” Gauff defeated Venus Williams to become the youngest player in almost 30 years to win a women’s singles match."
     ],
     "correct_answer": null,
     "answer_type": ""
@@ -1014,13 +1014,13 @@
     "category": "English:Reading Comprehension",
     "difficulty": "easy",
     "time_estimate": 95,
-    "passage": "(1) Construction of the Eiffel Tower, an iron lattice tower in Paris, France, started in 1887. (2) Shortly after its construction was completed it served as the entrance to the World's Fair in 1889, which honored the 100th anniversary of the storming of the Bastille. (3) Over time, it becomes a popular tourist destination, attracting people from all over the world. (4) Although it is now an architectural icon, it was initially criticized by artists, who believed it was a monstrous construction that violated conventional principles of aesthetics.",
-    "question_text": "Which pair of revisions need to be made in this paragraph?",
+    "passage": "image:images/shsatpractice18question57.png",
+    "question_text": "Which edit should be made to correct this sentence?",
     "options": [
-      "Sentence 1: Delete the comma after 'Tower'.\nSentence 3: Change 'becomes' to 'became'",
-      "Sentence 1: Delete the comma after 'Tower'.\nSentence 4: Change 'believed' to 'had believed'",
-      "Sentence 2: Insert a comma after 'completed'.\nSentence 3: Change 'becomes' to 'became'.",
-      "Sentence 2: Insert a comma after 'completed'.\nSentence 4: Change 'believed' to 'had believed'"
+      "Insert a comma after agile.",
+      "Insert a comma after first.",
+      "Insert a comma after only.",
+      "Insert a comma after States."
     ],
     "correct_answer": null,
     "answer_type": ""
