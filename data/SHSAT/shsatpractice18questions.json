@@ -2,7 +2,7 @@
   {
     "_id": "1",
     "question_number": 1,
-    "practice_set": "15",
+    "practice_set": "18",
     "category": "English:Reading Comprehension",
     "difficulty": "easy",
     "time_estimate": 95,
@@ -14,13 +14,13 @@
       "It highlights why more is known about language learning in children than about language learning in adults.",
       "It explains why adults were the subjects of the study rather than children."
     ],
-    "correct_answer": 3,
+    "correct_answer": null,
     "answer_type": ""
   },
   {
     "_id": "2",
     "question_number": 2,
-    "practice_set": "15",
+    "practice_set": "18",
     "category": "English:Reading Comprehension",
     "difficulty": "easy",
     "time_estimate": 95,
@@ -32,13 +32,13 @@
       "It marks the change from explaining why the study was conducted to explaining how the study was conducted.",
       "It shows how questions were raised that could be addressed in further research."
     ],
-    "correct_answer": 2,
+    "correct_answer": null,
     "answer_type": ""
   },
   {
     "_id": "3",
     "question_number": 3,
-    "practice_set": "15",
+    "practice_set": "18",
     "category": "English:Reading Comprehension",
     "difficulty": "easy",
     "time_estimate": 95,
@@ -50,13 +50,13 @@
       "Researchers first had non-English-speaking students sit on stationary bikes and pedal for 20 minutes before instruction and 15 minutes during instruction; then, after a rest period, students indicated whether English sentences made sense.",
       "Researchers asked non-English-speaking students to study English while sitting or biking; then the students’ vocabulary skills were assessed after a short break period and also after a break of a full month without their having studied any of the materials."
     ],
-    "correct_answer": 1,
+    "correct_answer": null,
     "answer_type": ""
   },
   {
     "_id": "4",
     "question_number": 4,
-    "practice_set": "15",
+    "practice_set": "18",
     "category": "English:Reading Comprehension",
     "difficulty": "easy",
     "time_estimate": 95,
@@ -68,13 +68,13 @@
       "a better way for learners to absorb the meaning of individual vocabulary words.",
       "more difficult for learners to perform after an extended period of time has passed."
     ],
-    "correct_answer": 0,
+    "correct_answer": null,
     "answer_type": ""
   },
   {
     "_id": "5",
     "question_number": 5,
-    "practice_set": "15",
+    "practice_set": "18",
     "category": "English:Reading Comprehension",
     "difficulty": "easy",
     "time_estimate": 95,
@@ -86,13 +86,13 @@
       "“And at the end of each lesson, the students who had ridden bikes performed better on the subsequent vocabulary tests than did the students who sat still.” (paragraph 13)",
       "“They also became more proficient at recognizing proper sentences than the sedentary students, although that difference did not emerge until after several weeks of instruction.” (paragraph 14)"
     ],
-    "correct_answer": 3,
+    "correct_answer": null,
     "answer_type": ""
   },
   {
     "_id": "6",
     "question_number": 6,
-    "practice_set": "15",
+    "practice_set": "18",
     "category": "English:Reading Comprehension",
     "difficulty": "easy",
     "time_estimate": 95,
@@ -104,13 +104,13 @@
       "while the study was performed appropriately, it is doubtful the results can be duplicated.",
       "though the study was about learning language, its conclusions can be applied to learning in general."
     ],
-    "correct_answer": 0,
+    "correct_answer": null,
     "answer_type": ""
   },
   {
     "_id": "7",
     "question_number": 7,
-    "practice_set": "15",
+    "practice_set": "18",
     "category": "English:Reading Comprehension",
     "difficulty": "easy",
     "time_estimate": 95,
@@ -122,13 +122,13 @@
       "the finding of the study that exercise helps people recall information over a long period of time",
       "the statement from Sulpizio describing how the results of the study can be applied"
     ],
-    "correct_answer": 0,
+    "correct_answer": null,
     "answer_type": ""
   },
   {
     "_id": "8",
     "question_number": 8,
-    "practice_set": "15",
+    "practice_set": "18",
     "category": "English:Reading Comprehension",
     "difficulty": "easy",
     "time_estimate": 95,
@@ -140,13 +140,13 @@
       "the camp in the story is changing and that the changes are causing problems for The People.",
       "the story’s plot begins as The People are observing their land and what it offers them."
     ],
-    "correct_answer": 0,
+    "correct_answer": null,
     "answer_type": ""
   },
   {
     "_id": "9",
     "question_number": 9,
-    "practice_set": "15",
+    "practice_set": "18",
     "category": "English:Reading Comprehension",
     "difficulty": "easy",
     "time_estimate": 95,
@@ -158,13 +158,13 @@
       "forcing them to give up leisure time to prepare their camp for the coming winter.",
       "allowing them to trade the goods they have prepared during the warm months."
     ],
-    "correct_answer": 0,
+    "correct_answer": null,
     "answer_type": ""
   },
   {
     "_id": "10",
     "question_number": 10,
-    "practice_set": "15",
+    "practice_set": "18",
     "category": "English:Reading Comprehension",
     "difficulty": "easy",
     "time_estimate": 95,
@@ -176,13 +176,13 @@
       "by suggesting that The People are influenced by the weather, which shows their close relationship with nature",
       "by demonstrating that The People work together, which shows the importance of contributing to the community"
     ],
-    "correct_answer": 3,
+    "correct_answer": null,
     "answer_type": ""
   },
   {
     "_id": "11",
     "question_number": 11,
-    "practice_set": "15",
+    "practice_set": "18",
     "category": "English:Reading Comprehension",
     "difficulty": "easy",
     "time_estimate": 95,
@@ -194,13 +194,13 @@
       "indicate the variety of activities available at the gathering.",
       "characterize the manner in which the children master the work of adults."
     ],
-    "correct_answer": 3,
+    "correct_answer": null,
     "answer_type": ""
   },
   {
     "_id": "12",
     "question_number": 12,
-    "practice_set": "15",
+    "practice_set": "18",
     "category": "English:Reading Comprehension",
     "difficulty": "easy",
     "time_estimate": 95,
@@ -212,13 +212,13 @@
       "They lead to a turning point by describing the moment that the crowd realizes why the strangers have come.",
       "They explain the cause of the main conflict by providing background information about the strangers."
     ],
-    "correct_answer": 1,
+    "correct_answer": null,
     "answer_type": ""
   },
   {
     "_id": "13",
     "question_number": 13,
-    "practice_set": "15",
+    "practice_set": "18",
     "category": "English:Reading Comprehension",
     "difficulty": "easy",
     "time_estimate": 95,
@@ -230,13 +230,13 @@
       "revealing that the hunters are pleased with their success.",
       "indicating that The People have gathered specifically to welcome the hunters."
     ],
-    "correct_answer": 2,
+    "correct_answer": null,
     "answer_type": ""
   },
   {
     "_id": "14",
     "question_number": 14,
-    "practice_set": "15",
+    "practice_set": "18",
     "category": "English:Reading Comprehension",
     "difficulty": "easy",
     "time_estimate": 95,
@@ -248,13 +248,13 @@
       "“ ‘Looks like hunters,’ the older men agreed. ‘Looks like they had good hunting.’ ”(paragraph 15)",
       "“But it was the sight of the frail figure of the woman that aroused their curiosity.”(paragraph 21)"
     ],
-    "correct_answer": 1,
+    "correct_answer": null,
     "answer_type": ""
   },
   {
     "_id": "15",
     "question_number": 15,
-    "practice_set": "15",
+    "practice_set": "18",
     "category": "English:Reading Comprehension",
     "difficulty": "easy",
     "time_estimate": 95,
@@ -266,13 +266,13 @@
       "It causes shock, leading them to grieve for the loss of the woman and her family.",
       "It inspires amazement, making them want to reconnect with their returned family member."
     ],
-    "correct_answer": 3,
+    "correct_answer": null,
     "answer_type": ""
   },
   {
     "_id": "16",
     "question_number": 16,
-    "practice_set": "15",
+    "practice_set": "18",
     "category": "English:Reading Comprehension",
     "difficulty": "easy",
     "time_estimate": 95,
@@ -284,13 +284,13 @@
       "indicating the value to The People of retelling stories about the past. ",
       "demonstrating the importance of choosing appropriate names."
     ],
-    "correct_answer": 1,
+    "correct_answer": null,
     "answer_type": ""
   },
   {
     "_id": "17",
     "question_number": 17,
-    "practice_set": "15",
+    "practice_set": "18",
     "category": "English:Reading Comprehension",
     "difficulty": "easy",
     "time_estimate": 95,
@@ -302,13 +302,13 @@
       "Morse’s difficulty in understanding how Faraday’s electromagnet worked was frustrating, and it pushed him to create a system for sending signals over wires.",
       "Morse’s longtime fascination was not enough to make up for his lack of knowledge about electricity, so he eventually sought help from Gale."
     ],
-    "correct_answer": 3,
+    "correct_answer": null,
     "answer_type": ""
   },
   {
     "_id": "18",
     "question_number": 18,
-    "practice_set": "15",
+    "practice_set": "18",
     "category": "English:Reading Comprehension",
     "difficulty": "easy",
     "time_estimate": 95,
@@ -320,13 +320,13 @@
       "Faraday’s invention of the electromagnet inspired the invention of the telegraph.",
       "colleges like Yale played a great role in making new discoveries about electricity and its applications."
     ],
-    "correct_answer": 1,
+    "correct_answer": null,
     "answer_type": ""
   },
   {
     "_id": "19",
     "question_number": 19,
-    "practice_set": "15",
+    "practice_set": "18",
     "category": "English:Reading Comprehension",
     "difficulty": "easy",
     "time_estimate": 95,
@@ -338,13 +338,13 @@
       "It shows that multiple means of long- distance communication were being used at the same time.",
       "It shows how quickly long- distance communication changed from visual signals to electrical signals."
     ],
-    "correct_answer": 1,
+    "correct_answer": null,
     "answer_type": ""
   },
   {
     "_id": "20",
     "question_number": 20,
-    "practice_set": "15",
+    "practice_set": "18",
     "category": "English:Reading Comprehension",
     "difficulty": "easy",
     "time_estimate": 95,
@@ -356,13 +356,13 @@
       "Morse applied for a government appropriation and conducted telegraph demonstrations to show that his system could work, and after a delay caused by a financial depression, Congress approved the $30,000 appropriation in 1843.",
       "Working with Gale and Vail allowed Morse to find flaws in Henry’s work and to develop his own ideas before applying for the federal government appropriation."
     ],
-    "correct_answer": 2,
+    "correct_answer": null,
     "answer_type": ""
   },
   {
     "_id": "21",
     "question_number": 21,
-    "practice_set": "15",
+    "practice_set": "18",
     "category": "English:Reading Comprehension",
     "difficulty": "easy",
     "time_estimate": 95,
@@ -374,13 +374,13 @@
       "feeling of excitement about the future possibilities of the telegraph.",
       "feeling of confidence about being able to continue the work."
     ],
-    "correct_answer": 1,
+    "correct_answer": null,
     "answer_type": ""
   },
   {
     "_id": "22",
     "question_number": 22,
-    "practice_set": "15",
+    "practice_set": "18",
     "category": "English:Reading Comprehension",
     "difficulty": "easy",
     "time_estimate": 95,
@@ -392,13 +392,13 @@
       "It reveals that by the twentieth century millions of people had used the telegraph despite earlier hesitations about the system.",
       "It shows how improvements that allowed Morse code to be read in real time made relaying telegraph messages faster and increased the system’s usage."
     ],
-    "correct_answer": 1,
+    "correct_answer": null,
     "answer_type": ""
   },
   {
     "_id": "23",
     "question_number": 23,
-    "practice_set": "15",
+    "practice_set": "18",
     "category": "English:Reading Comprehension",
     "difficulty": "easy",
     "time_estimate": 95,
@@ -410,13 +410,13 @@
       "discussions of the newly invented electromagnet that sparked the idea of sending codes through wires.",
       "description of how an electric circuit could be closed to ring a bell at a distance."
     ],
-    "correct_answer": 0,
+    "correct_answer": null,
     "answer_type": ""
   },
   {
     "_id": "24",
     "question_number": 24,
-    "practice_set": "15",
+    "practice_set": "18",
     "category": "English:Reading Comprehension",
     "difficulty": "easy",
     "time_estimate": 95,
@@ -428,13 +428,13 @@
       "The implementation of Morse’s telegraph system was overly influenced by economic factors.",
       "Morse’s invention of the telegraph made a great stride toward better connecting people across the United States and across the world."
     ],
-    "correct_answer": 3,
+    "correct_answer": null,
     "answer_type": ""
   },
   {
     "_id": "25",
     "question_number": 25,
-    "practice_set": "15",
+    "practice_set": "18",
     "category": "English:Reading Comprehension",
     "difficulty": "easy",
     "time_estimate": 95,
@@ -446,13 +446,13 @@
       "by proving that Gale’s advice helped Morse extend the telegraph’s range much farther than first thought possible",
       "by showing that the Morse telegraph had a surprisingly immense influence across the world"
     ],
-    "correct_answer": 0,
+    "correct_answer": null,
     "answer_type": ""
   },
   {
     "_id": "26",
     "question_number": 26,
-    "practice_set": "15",
+    "practice_set": "18",
     "category": "English:Reading Comprehension",
     "difficulty": "easy",
     "time_estimate": 95,
@@ -464,13 +464,13 @@
       "implying that the mountains are a source of inspiration to the people in the city below.",
       "suggesting that the mountains are larger than the people in the city realize."
     ],
-    "correct_answer": 1,
+    "correct_answer": null,
     "answer_type": ""
   },
   {
     "_id": "27",
     "question_number": 27,
-    "practice_set": "15",
+    "practice_set": "18",
     "category": "English:Reading Comprehension",
     "difficulty": "easy",
     "time_estimate": 95,
@@ -482,13 +482,13 @@
       "remain untamed through the ages.",
       "provide protection for the people."
     ],
-    "correct_answer": 0,
+    "correct_answer": null,
     "answer_type": ""
   },
   {
     "_id": "28",
     "question_number": 28,
-    "practice_set": "15",
+    "practice_set": "18",
     "category": "English:Reading Comprehension",
     "difficulty": "easy",
     "time_estimate": 95,
@@ -500,13 +500,13 @@
       "It creates a vision of the region before people developed the land.",
       "It emphasizes that the mountains dominate the landscape."
     ],
-    "correct_answer": 3,
+    "correct_answer": null,
     "answer_type": ""
   },
   {
     "_id": "29",
     "question_number": 29,
-    "practice_set": "15",
+    "practice_set": "18",
     "category": "English:Reading Comprehension",
     "difficulty": "easy",
     "time_estimate": 95,
@@ -518,13 +518,13 @@
       "“Tunnels their granite cliffs,” (line 11)",
       "“Plasters their cliffs with soap- advertisements,” (line 13)"
     ],
-    "correct_answer": 3,
+    "correct_answer": null,
     "answer_type": ""
   },
   {
     "_id": "30",
     "question_number": 30,
-    "practice_set": "15",
+    "practice_set": "18",
     "category": "English:Reading Comprehension",
     "difficulty": "easy",
     "time_estimate": 95,
@@ -536,13 +536,13 @@
       "by criticizing society for taking careless, harmful courses of action against nature",
       "by demonstrating how the mountains and the people are able to benefit from each other"
     ],
-    "correct_answer": 2,
+    "correct_answer": null,
     "answer_type": ""
   },
   {
     "_id": "31",
     "question_number": 31,
-    "practice_set": "15",
+    "practice_set": "18",
     "category": "English:Reading Comprehension",
     "difficulty": "easy",
     "time_estimate": 95,
@@ -554,13 +554,13 @@
       "“Splits down their shining sides,” (line 12)",
       "“To which the future is as was the past,” (line 18)"
     ],
-    "correct_answer": 1,
+    "correct_answer": null,
     "answer_type": ""
   },
   {
     "_id": "32",
     "question_number": 32,
-    "practice_set": "15",
+    "practice_set": "18",
     "category": "English:Reading Comprehension",
     "difficulty": "easy",
     "time_estimate": 95,
@@ -572,13 +572,13 @@
       "They reflect the speaker’s dismay that people destroy the natural landscape without understanding the ramifications of their actions.",
       "They explain that the speaker is confident that nature will never be fully destroyed by people."
     ],
-    "correct_answer": 2,
+    "correct_answer": null,
     "answer_type": ""
   },
   {
     "_id": "33",
     "question_number": 33,
-    "practice_set": "15",
+    "practice_set": "18",
     "category": "English:Reading Comprehension",
     "difficulty": "easy",
     "time_estimate": 95,
@@ -590,13 +590,13 @@
       "by exposing how a lack of awareness leads to nature’s ruin",
       "by explaining why people must respect nature"
     ],
-    "correct_answer": 0,
+    "correct_answer": null,
     "answer_type": ""
   },
   {
     "_id": "34",
     "question_number": 34,
-    "practice_set": "15",
+    "practice_set": "18",
     "category": "English:Reading Comprehension",
     "difficulty": "easy",
     "time_estimate": 95,
@@ -608,13 +608,13 @@
       "lively entertainers who are amused by the everyday concerns of people.",
       "too proud to reveal their pain."
     ],
-    "correct_answer": 0,
+    "correct_answer": null,
     "answer_type": ""
   },
   {
     "_id": "35",
     "question_number": 35,
-    "practice_set": "15",
+    "practice_set": "18",
     "category": "English:Reading Comprehension",
     "difficulty": "easy",
     "time_estimate": 95,
@@ -626,13 +626,13 @@
       "It highlights the tree’s capacity for a long life if it is able to survive to maturity.",
       "It reveals that the tree’s dense growth patterns are unusual in arid conditions."
     ],
-    "correct_answer": 1,
+    "correct_answer": null,
     "answer_type": ""
   },
   {
     "_id": "36",
     "question_number": 36,
-    "practice_set": "15",
+    "practice_set": "18",
     "category": "English:Reading Comprehension",
     "difficulty": "easy",
     "time_estimate": 95,
@@ -644,13 +644,13 @@
       "an explanation of why the White Mountains are the best place for the bristlecone pine to grow.",
       "an examination of why the bristlecone pine has few competitors in the White Mountains."
     ],
-    "correct_answer": 1,
+    "correct_answer": null,
     "answer_type": ""
   },
   {
     "_id": "37",
     "question_number": 37,
-    "practice_set": "15",
+    "practice_set": "18",
     "category": "English:Reading Comprehension",
     "difficulty": "easy",
     "time_estimate": 95,
@@ -662,13 +662,13 @@
       "describing the pace of the life cycle of the bristlecone pine.",
       "explaining the reason for the bristlecone pine’s longevity."
     ],
-    "correct_answer": 2,
+    "correct_answer": null,
     "answer_type": ""
   },
   {
     "_id": "38",
     "question_number": 38,
-    "practice_set": "15",
+    "practice_set": "18",
     "category": "English:Reading Comprehension",
     "difficulty": "easy",
     "time_estimate": 95,
@@ -680,13 +680,13 @@
       "The slow growth process of the bristlecone pine allows it to survive in spite of changing Earth conditions.",
       "The bristlecone pine can be used to gather information on changing Earth conditions because of its long life."
     ],
-    "correct_answer": 3,
+    "correct_answer": null,
     "answer_type": ""
   },
   {
     "_id": "39",
     "question_number": 39,
-    "practice_set": "15",
+    "practice_set": "18",
     "category": "English:Reading Comprehension",
     "difficulty": "easy",
     "time_estimate": 95,
@@ -698,13 +698,13 @@
       "how the tree interests observers with its unusual appearance.",
       "that the tree manages to survive even when partially fossilized."
     ],
-    "correct_answer": 3,
+    "correct_answer": null,
     "answer_type": ""
   },
   {
     "_id": "40",
     "question_number": 40,
-    "practice_set": "15",
+    "practice_set": "18",
     "category": "English:Reading Comprehension",
     "difficulty": "easy",
     "time_estimate": 95,
@@ -716,13 +716,13 @@
       "the attachment that humans have to the bristlecone pine is understandable.",
       "the longevity of the bristlecone pine continues to encourage experts."
     ],
-    "correct_answer": 3,
+    "correct_answer": null,
     "answer_type": ""
   },
   {
     "_id": "41",
     "question_number": 41,
-    "practice_set": "15",
+    "practice_set": "18",
     "category": "English:Reading Comprehension",
     "difficulty": "easy",
     "time_estimate": 95,
@@ -734,13 +734,13 @@
       "The bristlecone pine grows slowly in an environment hostile to other trees. Over time, its trunk and some branches fossilize, but it funnels water and nutrients to other parts that are still alive.",
       "The bristlecone pine grows only in one location in the mountains. Over time, it develops sparse foliage that fossilizes slowly, but the trunk and branches stay alive, as revealed by ribbons of live bark."
     ],
-    "correct_answer": 2,
+    "correct_answer": null,
     "answer_type": ""
   },
   {
     "_id": "42",
     "question_number": 42,
-    "practice_set": "15",
+    "practice_set": "18",
     "category": "English:Reading Comprehension",
     "difficulty": "easy",
     "time_estimate": 95,
@@ -752,13 +752,13 @@
       "explaining the way the seemingly sickly appearance of the bristlecone pine contrasts with its ability to survive.",
       "arguing that the bristlecone pine has survived past threats to its survival and will continue to thrive"
     ],
-    "correct_answer": 0,
+    "correct_answer": null,
     "answer_type": ""
   },
   {
     "_id": "43",
     "question_number": 43,
-    "practice_set": "15",
+    "practice_set": "18",
     "category": "English:Reading Comprehension",
     "difficulty": "easy",
     "time_estimate": 95,
@@ -770,13 +770,13 @@
       "These are the people who spend their free time working at local establishments that help people, animals, or other groups in need of assistance.",
       "These are the people who spend a lot of time volunteering at places where they can help people in many ways."
     ],
-    "correct_answer": 0,
+    "correct_answer": null,
     "answer_type": ""
   },
   {
     "_id": "44",
     "question_number": 44,
-    "practice_set": "15",
+    "practice_set": "18",
     "category": "English:Reading Comprehension",
     "difficulty": "easy",
     "time_estimate": 95,
@@ -788,13 +788,13 @@
       "In fact, studies have confirmed that volunteerism can be beneficial for students, the family, and the community.",
       "For this reason, high school students should learn about how helping others can strengthen their communities."
     ],
-    "correct_answer": 0,
+    "correct_answer": null,
     "answer_type": ""
   },
   {
     "_id": "45",
     "question_number": 45,
-    "practice_set": "15",
+    "practice_set": "18",
     "category": "English:Reading Comprehension",
     "difficulty": "easy",
     "time_estimate": 95,
@@ -806,13 +806,13 @@
       "sentence 8",
       "sentence 9"
     ],
-    "correct_answer": 1,
+    "correct_answer": null,
     "answer_type": ""
   },
   {
     "_id": "46",
     "question_number": 46,
-    "practice_set": "15",
+    "practice_set": "18",
     "category": "English:Reading Comprehension",
     "difficulty": "easy",
     "time_estimate": 95,
@@ -824,13 +824,13 @@
       "The counselors hope that young adults who demonstrate this behavior will go on to volunteer during their college years, working on campus in student government and leadership programs or serving in the community at hospitals, schools, and homeless shelters.",
       "Many colleges are looking for students who are not just academically successful but who also work well with others and care about improving and serving surrounding communities."
     ],
-    "correct_answer": 3,
+    "correct_answer": null,
     "answer_type": ""
   },
   {
     "_id": "47",
     "question_number": 47,
-    "practice_set": "15",
+    "practice_set": "18",
     "category": "English:Reading Comprehension",
     "difficulty": "easy",
     "time_estimate": 95,
@@ -842,13 +842,13 @@
       "When students carefully evaluate their activities and prioritize volunteerism, they find a way to work it into their schedule and are soon encouraging their peers to do the same.",
       "Whether they are seeking admission to college, preparing to enter the workforce, or simply looking to reduce stress, high school students who volunteer can help themselves as much as they help others."
     ],
-    "correct_answer": 3,
+    "correct_answer": null,
     "answer_type": ""
   },
   {
     "_id": "48",
     "question_number": 48,
-    "practice_set": "15",
+    "practice_set": "18",
     "category": "English:Reading Comprehension",
     "difficulty": "easy",
     "time_estimate": 95,
@@ -860,13 +860,13 @@
       "The Gotthard Base Tunnel is the world’s longest and deepest railway tunnel, stretching 35.5 miles straight through the base of the Swiss Alps.",
       "The Gotthard Base Tunnel continues to help reduce the number of freight trucks on the roadways in the Swiss Alps."
     ],
-    "correct_answer": 2,
+    "correct_answer": null,
     "answer_type": ""
   },
   {
     "_id": "49",
     "question_number": 49,
-    "practice_set": "15",
+    "practice_set": "18",
     "category": "English:Reading Comprehension",
     "difficulty": "easy",
     "time_estimate": 95,
@@ -878,13 +878,13 @@
       "Engineers had considered making a tunnel under the mountains for many years, but it was impossible to do without modern tunnel- boring machines.",
       "Different types of cutter heads are used with tunnel- boring machines depending on the geology of the area where the tunnel is being created."
     ],
-    "correct_answer": 1,
+    "correct_answer": null,
     "answer_type": ""
   },
   {
     "_id": "50",
     "question_number": 50,
-    "practice_set": "15",
+    "practice_set": "18",
     "category": "English:Reading Comprehension",
     "difficulty": "easy",
     "time_estimate": 95,
@@ -896,13 +896,13 @@
       "between sentences 8 and 9",
       "between sentences 9 and 10"
     ],
-    "correct_answer": 3,
+    "correct_answer": null,
     "answer_type": ""
   },
   {
     "_id": "51",
     "question_number": 51,
-    "practice_set": "15",
+    "practice_set": "18",
     "category": "English:Reading Comprehension",
     "difficulty": "easy",
     "time_estimate": 95,
@@ -914,13 +914,13 @@
       "sentence 15",
       "sentence 16"
     ],
-    "correct_answer": 3,
+    "correct_answer": null,
     "answer_type": ""
   },
   {
     "_id": "52",
     "question_number": 52,
-    "practice_set": "15",
+    "practice_set": "18",
     "category": "English:Reading Comprehension",
     "difficulty": "easy",
     "time_estimate": 95,
@@ -932,13 +932,13 @@
       "Because of the successful completion of the Gotthard Base Tunnel,",
       "As the number of trains using the Gotthard Base Tunnel increases,"
     ],
-    "correct_answer": 2,
+    "correct_answer": null,
     "answer_type": ""
   },
   {
     "_id": "53",
     "question_number": 53,
-    "practice_set": "15",
+    "practice_set": "18",
     "category": "English:Reading Comprehension",
     "difficulty": "easy",
     "time_estimate": 95,
@@ -950,13 +950,13 @@
       "The completion of the Gotthard Base Tunnel shows that people can work together to achieve important goals.",
       "The Swiss government is confident that the economic impact of the Gotthard Base Tunnel will be worth its construction cost."
     ],
-    "correct_answer": 1,
+    "correct_answer": null,
     "answer_type": ""
   },
   {
     "_id": "54",
     "question_number": 54,
-    "practice_set": "15",
+    "practice_set": "18",
     "category": "English:Reading Comprehension",
     "difficulty": "easy",
     "time_estimate": 95,
@@ -968,13 +968,13 @@
       "The International Space Station has been inhabited by crew members since 2000, but tourists will soon be allowed to pay for visits to the space station, though the cost is $52–$58 million round trip, so few people will be able to take advantage of the opportunity to have a vacation in outer space.",
       "The International Space Station has been inhabited by crew members since 2000, and tourists will soon be allowed to pay for visits to the space station because the cost is $52–$58 million round trip, therefore few people will be able to take advantage of the opportunity to have a vacation in outer space."
     ],
-    "correct_answer": 1,
+    "correct_answer": null,
     "answer_type": ""
   },
   {
     "_id": "55",
     "question_number": 55,
-    "practice_set": "15",
+    "practice_set": "18",
     "category": "English:Reading Comprehension",
     "difficulty": "easy",
     "time_estimate": 95,
@@ -986,13 +986,13 @@
       "sentence 3",
       "sentence 4"
     ],
-    "correct_answer": 1,
+    "correct_answer": null,
     "answer_type": ""
   },
   {
     "_id": "56",
     "question_number": 56,
-    "practice_set": "15",
+    "practice_set": "18",
     "category": "English:Reading Comprehension",
     "difficulty": "easy",
     "time_estimate": 95,
@@ -1004,13 +1004,13 @@
       "The Appalachian Trail is a 2,200- mile trail that two million people hike each year.",
       "The Appalachian Trail is a lengthy trail that a couple million people do each year."
     ],
-    "correct_answer": 2,
+    "correct_answer": null,
     "answer_type": ""
   },
   {
     "_id": "57",
     "question_number": 57,
-    "practice_set": "15",
+    "practice_set": "18",
     "category": "English:Reading Comprehension",
     "difficulty": "easy",
     "time_estimate": 95,
@@ -1022,1008 +1022,1008 @@
       "Sentence 2: Insert a comma after 'completed'.\nSentence 3: Change 'becomes' to 'became'.",
       "Sentence 2: Insert a comma after 'completed'.\nSentence 4: Change 'believed' to 'had believed'"
     ],
-    "correct_answer": 2,
+    "correct_answer": null,
     "answer_type": ""
   },
   {
     "_id": "58",
     "question_number": 58,
-    "practice_set": "15",
+    "practice_set": "18",
     "category": "Math:Algebra",
     "difficulty": "easy",
     "time_estimate": 95,
-    "passage": "image:images/shsatpractice15question58.png",
-    "question_text": "After the expression above is simplified, what is the coefficient of x, expressed as a decimal?",
+    "passage": "image:images/shsatpractice18question58.png",
+    "question_text": "What is the area of the shaded region, to the nearest hundredth of a square inch?",
     "options": [],
-    "correct_answer": -0.8,
+    "correct_answer": null,
     "answer_type": "fill_in_the_blank"
   },
   {
     "_id": "59",
     "question_number": 59,
-    "practice_set": "15",
-    "category": "English:Reading Comprehension",
+    "practice_set": "18",
+    "category": "Math:Algebra",
     "difficulty": "easy",
     "time_estimate": 95,
     "passage": "",
-    "question_text": "Two number cubes have sides labeled 1 through 6. Both number cubes are rolled. How many different outcomes will have a sum of 6?",
+    "question_text": "A homeowner has a budget of $135 for the installation of a light fixture. An electrician charges $60 per hour plus a one- time trip charge of $45. What is the greatest amount of time, in hours, the electrician can work on the installation while staying within the homeowner’s budget? Write your answer as a decimal.",
     "options": [],
-    "correct_answer": 5,
+    "correct_answer": null,
     "answer_type": "fill_in_the_blank"
   },
   {
     "_id": "60",
     "question_number": 60,
-    "practice_set": "15",
+    "practice_set": "18",
     "category": "Math:Algebra",
     "difficulty": "easy",
     "time_estimate": 95,
-    "passage": "image:images/shsatpractice15question60.png",
-    "question_text": "The figure above shows a scale drawing of a garden, where 1 centimeter represents 2.5 meters. What is the perimeter of the actual garden in meters?",
+    "passage": "",
+    "question_text": "The list shows the daily low temperatures in a city during six days in the winter.\n\n 7° F , 4° F , 1° F , −2° F , −5° F , 3° F \n\nWhat is the difference between the lowest and highest temperatures, in degrees Fahrenheit, for the six days?",
     "options": [],
-    "correct_answer": 95,
+    "correct_answer": null,
     "answer_type": "fill_in_the_blank"
   },
   {
     "_id": "61",
     "question_number": 61,
-    "practice_set": "15",
+    "practice_set": "18",
     "category": "Math:Algebra",
     "difficulty": "easy",
     "time_estimate": 95,
     "passage": "",
-    "question_text": "At one location, the temperature increased from −7° F to 4° F between 5:00 a.m. and 9:00 a.m. By 11:00 a.m., the temperature was 3.5 times the 9:00 a.m. temperature. What was the total increase in temperature between 5:00 a.m. and 11:00 a.m., in degrees Fahrenheit?",
+    "question_text": "A grocery store sells 1- gallon containers of milk for $3.99. The store also sells orange juice in a 6- pack of 5.5- fluid- ounce bottles for $1.79. Suppose the store wants to sell its orange juice in gallon containers instead. To the nearest dollar, how much more would a gallon of orange juice cost than a gallon of milk?",
     "options": [],
-    "correct_answer": 21,
+    "correct_answer": null,
     "answer_type": "fill_in_the_blank"
   },
   {
     "_id": "62",
     "question_number": 62,
-    "practice_set": "15",
+    "practice_set": "18",
     "category": "Math:Algebra",
     "difficulty": "easy",
     "time_estimate": 95,
-    "passage": "image:images/shsatpractice15question62.png",
-    "question_text": "What is the volume of the figure, in cubic inches?",
+    "passage": "image:images/shsatpractice18question62.png",
+    "question_text": "The box plot shows the average monthly high temperatures in New York City for 12 months. What is the difference between the range and the interquartile range of the temperature data?",
     "options": [],
-    "correct_answer": 32,
+    "correct_answer": null,
     "answer_type": "fill_in_the_blank"
   },
   {
     "_id": "63",
     "question_number": 63,
-    "practice_set": "15",
+    "practice_set": "18",
     "category": "Math:Algebra",
     "difficulty": "easy",
     "time_estimate": 95,
-    "passage": "image:images/shsatpractice15question63.png",
-    "question_text": "What is represented by the point with coordinates (1, 4)?",
+    "passage": "",
+    "question_text": "What is the prime factorization of 756?",
     "options": [
-      "The unit rate is 4 ounces per foot.",
-      "The y- intercept is 4.",
-      "A pole 4 feet long weighs 1 ounce.",
-      "The length increases 4 feet for each 1 ounce of weight."
+      "2² • 3² • 21 ",
+      "2² • 3 • 7 • 9",
+      "2² • 7 • 27 ",
+      "2² • 3³ • 7"
     ],
-    "correct_answer": 0,
+    "correct_answer": null,
     "answer_type": ""
   },
   {
     "_id": "64",
     "question_number": 64,
-    "practice_set": "15",
+    "practice_set": "18",
     "category": "Math:Algebra",
     "difficulty": "easy",
     "time_estimate": 95,
-    "passage": "image:images/shsatpractice15question64.png",
-    "question_text": "Which point represents the sum of 2.5 + (−4.5) ?",
+    "passage": "image:images/shsatpractice18question64.png",
+    "question_text": "What is the value of the expression above if x = −2 and y = 2 ?",
     "options": [
-      "point E",
-      "point F",
-      "point G",
-      "point H"
+      "−64",
+      "-32",
+      "16",
+      "32"
     ],
-    "correct_answer": 1,
+    "correct_answer": null,
     "answer_type": ""
   },
   {
     "_id": "65",
     "question_number": 65,
-    "practice_set": "15",
+    "practice_set": "18",
     "category": "Math:Algebra",
     "difficulty": "easy",
     "time_estimate": 95,
-    "passage": "image:images/shsatpractice15question65.png",
-    "question_text": "What is the product of x and y?",
+    "passage": "",
+    "question_text": "If (8 ÷ m) + 4 = 20 , what is the value of m?",
     "options": [
-      "4",
-      "6",
-      "12",
-      "16"
+      "1/3",
+      "1/2",
+      "2",
+      "3"
     ],
-    "correct_answer": 2,
+    "correct_answer": null,
     "answer_type": ""
   },
   {
     "_id": "66",
     "question_number": 66,
-    "practice_set": "15",
+    "practice_set": "18",
     "category": "Math:Algebra",
     "difficulty": "easy",
     "time_estimate": 95,
     "passage": "",
-    "question_text": "A car dealership is having a sale where all cars have a 12% discount. What is the discounted price of a car that originally cost $15,600?",
+    "question_text": "6x = x − 1,680\n\n What is the value of x in the equation shown above?",
     "options": [
-      "$13,728",
-      "$14,300",
-      "$14,400",
-      "$15,588"
+      "336",
+      "240",
+      "-240",
+      "-336"
     ],
-    "correct_answer": 0,
+    "correct_answer": null,
     "answer_type": ""
   },
   {
     "_id": "67",
     "question_number": 67,
-    "practice_set": "15",
+    "practice_set": "18",
     "category": "Math:Algebra",
     "difficulty": "easy",
     "time_estimate": 95,
-    "passage": "image:images/shsatpractice15question67.png",
-    "question_text": "4 and 2/3 ÷ 2 and 1/2 =",
+    "passage": "",
+    "question_text": "A person buys a used car with a down payment of $1,200 and makes monthly payments of $275 for 3 years. What is the total amount the person pays for the car?",
     "options": [
-      "15/28",
-      "1 and 13/15",
-      "2 and 1/3",
-      "3 and 1/3"
+      "$2,025",
+      "$9,900",
+      "$11,100",
+      "$13,500"
     ],
-    "correct_answer": 1,
+    "correct_answer": null,
     "answer_type": ""
   },
   {
     "_id": "68",
     "question_number": 68,
-    "practice_set": "15",
+    "practice_set": "18",
     "category": "Math:Algebra",
     "difficulty": "easy",
     "time_estimate": 95,
-    "passage": "image:images/shsatpractice15question68.png",
-    "question_text": "What is the ratio of coaches to assistants?",
+    "passage": "image:images/shsatpractice18question68.png",
+    "question_text": "In the parallelogram above, what is the value of x?",
     "options": [
-      "1/4",
-      "1/2",
-      "2/3",
-      "5/6"
+      "36",
+      "18",
+      "6",
+      "5"
     ],
-    "correct_answer": 1,
+    "correct_answer": null,
     "answer_type": ""
   },
   {
     "_id": "69",
     "question_number": 69,
-    "practice_set": "15",
+    "practice_set": "18",
     "category": "Math:Algebra",
     "difficulty": "easy",
     "time_estimate": 95,
-    "passage": "image:images/shsatpractice15question69.png",
-    "question_text": "What is the height of the part of the post that is above the ground?",
+    "passage": "",
+    "question_text": "A bus begins its trip with R occupants (including the driver). At each of the 20 stops, 3 people get on and no one leaves. If there are 3 times as many bus occupants at the end of the 20th stop as there are at the end of the 4th stop, how many occupants did the bus have immediately after the 10th stop?",
     "options": [
-      "6 and 2/3 feet",
-      "7 and 1/3 feet",
-      "10 feet",
-      "13 and 1/3 feet"
+      "12",
+      "24",
+      "30",
+      "42"
     ],
-    "correct_answer": 0,
+    "correct_answer": null,
     "answer_type": ""
   },
   {
     "_id": "70",
     "question_number": 70,
-    "practice_set": "15",
+    "practice_set": "18",
     "category": "Math:Algebra",
     "difficulty": "easy",
     "time_estimate": 95,
-    "passage": "p + 2r = r(p + 1) + 1",
-    "question_text": "In the equation, if r = 2 , what is the value of p ?",
+    "passage": "",
+    "question_text": "Jay sold n tickets. Pilar sold three times as many tickets as Jay did. Together, Jay and Pilar sold ten more tickets than Amie sold. Which expression shows how many tickets Amie sold?",
     "options": [
-      "0",
-      "1",
-      "2",
-      "3"
+      "10 − 4n",
+      "3n² + 10",
+      "4n + 10",
+      "4n − 10"
     ],
-    "correct_answer": 1,
+    "correct_answer": null,
     "answer_type": ""
   },
   {
     "_id": "71",
     "question_number": 71,
-    "practice_set": "15",
+    "practice_set": "18",
     "category": "Math:Algebra",
     "difficulty": "easy",
     "time_estimate": 95,
     "passage": "",
-    "question_text": "Karen reads at the rate of 60 pages per day. Martina reads 25% more pages per day than Karen. If the two students begin 1,500- page reading assignments on the same day, how many days sooner will Martina complete the assignment than Karen?",
+    "question_text": "−12 > 6x\n\nFor what values of x is the above inequality true?",
     "options": [
-      "4",
-      "5",
-      "7",
-      "15"
+      "x > −6",
+      "x < −6",
+      "x < −2",
+      "x > −2"
     ],
-    "correct_answer": 1,
+    "correct_answer": null,
     "answer_type": ""
   },
   {
     "_id": "72",
     "question_number": 72,
-    "practice_set": "15",
+    "practice_set": "18",
     "category": "Math:Algebra",
     "difficulty": "easy",
     "time_estimate": 95,
-    "passage": "",
-    "question_text": "Claire is running on a circular track. She has already run 650 meters. Each lap around the track is a distance of 120 meters. Her goal is to run at least 2,500 meters in all. How many more laps does she need to complete in order to reach her goal?",
+    "passage": "image:images/shsatpractice18question72.png",
+    "question_text": "If 5 (x − 6y) = 50y , what is the value of x in terms of y?",
     "options": [
-      "5",
-      "6",
-      "15",
-      "16"
+      "16y",
+      "15y",
+      "11.40y",
+      "11y"
     ],
-    "correct_answer": 3,
+    "correct_answer": null,
     "answer_type": ""
   },
   {
     "_id": "73",
     "question_number": 73,
-    "practice_set": "15",
+    "practice_set": "18",
     "category": "Math:Algebra",
     "difficulty": "easy",
     "time_estimate": 95,
-    "passage": "",
-    "question_text": "A company with 200 employees grew in size by 25% between 2005 and 2010. The company grew again by 10% between 2010 and 2015. What was the total number of employees in 2015?",
+    "passage": "image:images/shsatpractice18question73.png",
+    "question_text": "A scale drawing of a new pool is shown above. All the corners are right angles. What is the perimeter of the actual pool?",
     "options": [
-      "235",
-      "260",
-      "270",
-      "275"
+      "550 ft",
+      "800 ft",
+      "1,100 ft",
+      "1,500 ft"
     ],
-    "correct_answer": 3,
+    "correct_answer": null,
     "answer_type": ""
   },
   {
     "_id": "74",
     "question_number": 74,
-    "practice_set": "15",
+    "practice_set": "18",
     "category": "Math:Algebra",
     "difficulty": "easy",
     "time_estimate": 95,
     "passage": "",
-    "question_text": "A bowl contains 12 green candies, 4 yellow candies, and some red candies. The probability of choosing a green candy at random is twice as great as the probability of choosing a red candy at random. What is the probability of choosing a yellow candy at random?",
+    "question_text": "Maria rides her bicycle to school at a constant speed of 15 miles per hour. If the distance to school is 6 miles, how many minutes will it take Maria to get to school?",
     "options": [
-      "2/11",
-      "2/9",
-      "1/4",
-      "3/11"
+      "10",
+      "15",
+      "24",
+      "30"
     ],
-    "correct_answer": 0,
+    "correct_answer": null,
     "answer_type": ""
   },
   {
     "_id": "75",
     "question_number": 75,
-    "practice_set": "15",
+    "practice_set": "18",
     "category": "Math:Algebra",
     "difficulty": "easy",
     "time_estimate": 95,
-    "passage": "image:images/shsatpractice15question75.png",
-    "question_text": "Based on the box plot, which statement is a correct interpretation of the data?",
+    "passage": "image:images/shsatpractice18question75.png",
+    "question_text": "What is the value of r?",
     "options": [
-      "The data point 2 is an outlier.",
-      "The mean of the data is 16",
-      "The interquartile range (IQR) of the data is 30.",
-      "On about 25% of the days, there were between 12 and 16 fares"
+      "17",
+      "117",
+      "163",
+      "173"
     ],
-    "correct_answer": 3,
+    "correct_answer": null,
     "answer_type": ""
   },
   {
     "_id": "76",
     "question_number": 76,
-    "practice_set": "15",
+    "practice_set": "18",
     "category": "Math:Algebra",
     "difficulty": "easy",
     "time_estimate": 95,
-    "passage": "image:images/shsatpractice15question76.png",
-    "question_text": "Which equation represents the relationship between the length of the race, x miles, and the number of water stations, y ?",
+    "passage": "image:images/shsatpractice18question76.png",
+    "question_text": "On parallelogram PQRS above, the length of QT is 18 centimeters. What is the area of the parallelogram?",
     "options": [
-      "y = 2/3(x)",
-      "y = 3/2(x)",
-      "y = x + 6",
-      "y = x - 1"
+      "112 sq cm",
+      "396 sq cm",
+      "612 sq cm",
+      "748 sq cm"
     ],
-    "correct_answer": 0,
+    "correct_answer": null,
     "answer_type": ""
   },
   {
     "_id": "77",
     "question_number": 77,
-    "practice_set": "15",
+    "practice_set": "18",
     "category": "Math:Algebra",
     "difficulty": "easy",
     "time_estimate": 95,
-    "passage": "image:images/shsatpractice15question77.png",
-    "question_text": "The mayor estimates that half the undecided voters will vote in favor of building the park. Based on the survey results, if the mayor is correct, how many of the 24,100 voters will be in favor of building the park?",
+    "passage": "",
+    "question_text": "Allison has 5 stamp albums with 576 stamps in each album. If she transfers her stamp collection to 6 albums, each holding 378 stamps, how many stamps will be left over?",
     "options": [
-      "17,111",
-      "18,316",
-      "19,401",
-      "19,521"
+      "198",
+      "612",
+      "620",
+      "632"
     ],
-    "correct_answer": 1,
+    "correct_answer": null,
     "answer_type": ""
   },
   {
     "_id": "78",
     "question_number": 78,
-    "practice_set": "15",
+    "practice_set": "18",
     "category": "Math:Algebra",
     "difficulty": "easy",
     "time_estimate": 95,
-    "passage": "image:images/shsatpractice15question78.png",
-    "question_text": "Which number shown above is the greatest?",
+    "passage": "Start with the number 135.28 and perform the following steps in order:\n\n • Step 1: Multiply by 10.\n\n• Step 2: Add 0.5 to the result of Step 1.\n\n • Step 3: Drop the digits after the decimal point.\n\n • Step 4: Divide by 10.",
+    "question_text": "What is the result?",
     "options": [
-      "-(1/49)",
-      "-49",
-      "-(1/7)",
-      "-1"
+      "13.5",
+      "135",
+      "135.2",
+      "135.3"
     ],
-    "correct_answer": 0,
+    "correct_answer": null,
     "answer_type": ""
   },
   {
     "_id": "79",
     "question_number": 79,
-    "practice_set": "15",
+    "practice_set": "18",
     "category": "Math:Algebra",
     "difficulty": "easy",
     "time_estimate": 95,
-    "passage": "image:images/shsatpractice15question79.png",
-    "question_text": "What is the decimal equivalent to -(13/11)",
+    "passage": "",
+    "question_text": "If x = −2, what is the value of|x + x² + x³| − |x + 2x + 3x| ?",
     "options": [
-      "-1.18",
-      "-1.118888...",
-      "-1.181818...",
-      "-1.818181..."
+      "-18",
+      "-6",
+      "-2",
+      "2"
     ],
-    "correct_answer": 2,
+    "correct_answer": null,
     "answer_type": ""
   },
   {
     "_id": "80",
     "question_number": 80,
-    "practice_set": "15",
+    "practice_set": "18",
     "category": "Math:Algebra",
     "difficulty": "easy",
     "time_estimate": 95,
-    "passage": "image:images/shsatpractice15question80.png",
-    "question_text": "How many loaves can be made if 40 ounces of salt are used?",
+    "passage": "image:images/shsatpractice18question80.png",
+    "question_text": "",
     "options": [
-      "8",
-      "20",
-      "45",
-      "200"
+      "-1",
+      "0",
+      "1/6",
+      "1"
     ],
-    "correct_answer": 3,
+    "correct_answer": null,
     "answer_type": ""
   },
   {
     "_id": "81",
     "question_number": 81,
-    "practice_set": "15",
+    "practice_set": "18",
     "category": "Math:Algebra",
     "difficulty": "easy",
     "time_estimate": 95,
-    "passage": "image:images/shsatpractice15question81.png",
-    "question_text": "What is the value?",
+    "passage": "",
+    "question_text": "12.96 ÷ 0.08 =",
     "options": [
-      "-(1/2)",
-      "-(1/7)",
-      "(1/7)",
-      "1/2"
+      "1.62",
+      "16.2",
+      "162",
+      "1,620"
     ],
-    "correct_answer": 3,
+    "correct_answer": null,
     "answer_type": ""
   },
   {
     "_id": "82",
     "question_number": 82,
-    "practice_set": "15",
+    "practice_set": "18",
     "category": "Math:Algebra",
     "difficulty": "easy",
     "time_estimate": 95,
-    "passage": "image:images/shsatpractice15question82.png",
-    "question_text": "Which number line represents the values of x that satisfy the inequality −5 ≤ 1 − 3x ≤ 4 ?",
+    "passage": "image:images/shsatpractice18question82.png",
+    "question_text": "What is the distance between the midpoints of MN and RS?",
     "options": [
-      "E",
-      "F",
-      "G",
-      "H"
+      "1/2 unit",
+      "1 unit",
+      "1 and 1/2 units",
+      "2 units"
     ],
-    "correct_answer": 1,
+    "correct_answer": null,
     "answer_type": ""
   },
   {
     "_id": "83",
     "question_number": 83,
-    "practice_set": "15",
+    "practice_set": "18",
     "category": "Math:Algebra",
     "difficulty": "easy",
     "time_estimate": 95,
-    "passage": "",
-    "question_text": " If 1 sind = 0.75 plunk, how many sinds are equivalent to 8 plunks, rounded to the nearest hundredth?",
+    "passage": "image:images/shsatpractice18question83.png",
+    "question_text": "If s is a positive integer and t is a negative integer, which of the above expressions must be a positive number?",
     "options": [
-      "1.33",
-      "6.00",
-      "7.25",
-      "10.67"
+      "II only",
+      "I and II only",
+      "II and III only",
+      "I, II, and III"
     ],
-    "correct_answer": 3,
+    "correct_answer": null,
     "answer_type": ""
   },
   {
     "_id": "84",
     "question_number": 84,
-    "practice_set": "15",
+    "practice_set": "18",
     "category": "Math:Algebra",
     "difficulty": "easy",
     "time_estimate": 95,
-    "passage": "",
-    "question_text": "Simplify: 8x − (7 + 2.5x) + 2",
+    "passage": "image:images/shsatpractice18question84.png",
+    "question_text": "What is the value of (-3/4)(-2/5)",
     "options": [
-      "5.5x - 9",
-      "5.5x - 5",
-      "10.5x - 9",
-      "10.5x - 5"
+      "-7/20",
+      "-3/10",
+      "3/10",
+      "7/20"
     ],
-    "correct_answer": 1,
+    "correct_answer": null,
     "answer_type": ""
   },
   {
     "_id": "85",
     "question_number": 85,
-    "practice_set": "15",
+    "practice_set": "18",
     "category": "Math:Algebra",
     "difficulty": "easy",
     "time_estimate": 95,
-    "passage": "image:images/shsatpractice15question85.png",
-    "question_text": "Which statement about the two groups can be verified based on the box plots?",
+    "passage": "image:images/shsatpractice18question85.png",
+    "question_text": "The sum of all transactions was $70. What is the value of p?",
     "options": [
-      "Both groups have at least one member who is exactly 29 years old.",
-      "Group P has more members who are at least 17 years old than Group Q has.",
-      "Both groups have an equal number of members who are between 21 and 24 years old.",
-      "Group Q has fewer members who are between 19 and 27 years old than Group P has."
+      "-$275",
+      "-$85",
+      "$70",
+      "$155"
     ],
-    "correct_answer": 1,
+    "correct_answer": null,
     "answer_type": ""
   },
   {
     "_id": "86",
     "question_number": 86,
-    "practice_set": "15",
+    "practice_set": "18",
     "category": "Math:Algebra",
     "difficulty": "easy",
     "time_estimate": 95,
-    "passage": "image:images/shsatpractice15question86.png",
-    "question_text": "What is the probability of drawing a yellow ball at random from Jar S?",
+    "passage": "",
+    "question_text": "Dakota has four yardsticks and two 12- inch rulers. If she lays all four of the yardsticks and both rulers end- to- end, what is the maximum number of feet she can measure accurately at once?",
     "options": [
-      "1/4",
-      "1/3",
-      "1/2",
-      "4/7"
+      "12 ft",
+      "14 ft",
+      "16 ft",
+      "18 ft"
     ],
-    "correct_answer": 2,
+    "correct_answer": null,
     "answer_type": ""
   },
   {
     "_id": "87",
     "question_number": 87,
-    "practice_set": "15",
+    "practice_set": "18",
     "category": "Math:Algebra",
     "difficulty": "easy",
     "time_estimate": 95,
-    "passage": "image:images/shsatpractice15question87.png",
-    "question_text": "Which other mix has a ratio of pretzels to raisins in the same proportional relationship as Gia’s mix?",
+    "passage": "",
+    "question_text": "In a fruit basket, the ratio of apples to oranges is the same as the ratio of cherries to walnuts. If there are 6 oranges, 16 cherries, and 48 walnuts, how many apples are there?",
+    "options": [
+      "2",
+      "3",
+      "18",
+      "38"
+    ],
+    "correct_answer": null,
+    "answer_type": ""
+  },
+  {
+    "_id": "88",
+    "question_number": 88,
+    "practice_set": "18",
+    "category": "Math:Algebra",
+    "difficulty": "easy",
+    "time_estimate": 95,
+    "passage": "",
+    "question_text": "In a showing of an artist’s works, the ratio of the number of paintings, drawings, and photographs shown is 3:5:4, respectively. If the number of drawings shown was 45, what is the total number of photographs and paintings that were shown?",
+    "options": [
+      "36",
+      "63",
+      "84",
+      "108"
+    ],
+    "correct_answer": null,
+    "answer_type": ""
+  },
+  {
+    "_id": "89",
+    "question_number": 89,
+    "practice_set": "18",
+    "category": "Math:Algebra",
+    "difficulty": "easy",
+    "time_estimate": 95,
+    "passage": "image:images/shsatpractice18question89.png",
+    "question_text": "How many yards of fabric are needed per foot of curtain width?",
+    "options": [
+      "5/16 yd",
+      "29/24 yd",
+      "20/9 yd",
+      "7/2 yd"
+    ],
+    "correct_answer": null,
+    "answer_type": ""
+  },
+  {
+    "_id": "90",
+    "question_number": 90,
+    "practice_set": "18",
+    "category": "Math:Algebra",
+    "difficulty": "easy",
+    "time_estimate": 95,
+    "passage": "image:images/shsatpractice18question90.png",
+    "question_text": "Which straight line is the graph of a proportional relationship?",
+    "options": [
+      "MS",
+      "VP",
+      "VQ",
+      "TR"
+    ],
+    "correct_answer": null,
+    "answer_type": ""
+  },
+  {
+    "_id": "91",
+    "question_number": 91,
+    "practice_set": "18",
+    "category": "Math:Algebra",
+    "difficulty": "easy",
+    "time_estimate": 95,
+    "passage": "image:images/shsatpractice18question91.png",
+    "question_text": "Some friends are buying bags of ice for a picnic. The graph shows the cost of the ice, in dollars, in relation to the weight, in pounds. Which statement about a point on the graph is true?",
+    "options": [
+      "The point (20, 3) means that 3 lb of ice costs $20.00.",
+      "The point (1, 0.15) means that 1 bag of ice costs $0.15.",
+      "The point (10, 1.5) means that 10 lb of ice costs $1.50.",
+      "The point (0, 0) means that 0 lb of ice will be needed if 0 people go to the picnic."
+    ],
+    "correct_answer": null,
+    "answer_type": ""
+  },
+  {
+    "_id": "92",
+    "question_number": 92,
+    "practice_set": "18",
+    "category": "Math:Algebra",
+    "difficulty": "easy",
+    "time_estimate": 95,
+    "passage": "image:images/shsatpractice18question92.png",
+    "question_text": "A clerk enters information on a computer. The graph shows the relationship between time, in hours, and the number of keystrokes the clerk makes. What is the meaning of the point (1.5, 10500) on the graph?",
+    "options": [
+      "The clerk makes 10,500 keystrokes in each 1 hr of entering information.",
+      "The clerk makes 10,500 keystrokes in each 1.5 hr of entering information.",
+      "The clerk makes 15,750 keystrokes in each 1 hr of entering information.",
+      "The clerk makes 15,750 keystrokes in each 1.5 hr of entering information."
+    ],
+    "correct_answer": null,
+    "answer_type": ""
+  },
+  {
+    "_id": "93",
+    "question_number": 93,
+    "practice_set": "18",
+    "category": "Math:Algebra",
+    "difficulty": "easy",
+    "time_estimate": 95,
+    "passage": "image:images/shsatpractice18question93.png",
+    "question_text": "What is the missing digit?",
+    "options": [
+      "0",
+      "2",
+      "3",
+      "6"
+    ],
+    "correct_answer": null,
+    "answer_type": ""
+  },
+  {
+    "_id": "94",
+    "question_number": 94,
+    "practice_set": "18",
+    "category": "Math:Algebra",
+    "difficulty": "easy",
+    "time_estimate": 95,
+    "passage": "image:images/shsatpractice18question94.png",
+    "question_text": "Based on the circle graph, how many pounds of milk and eggs does the average American consume each year?",
+    "options": [
+      "300",
+      "368",
+      "460",
+      "552"
+    ],
+    "correct_answer": null,
+    "answer_type": ""
+  },
+  {
+    "_id": "95",
+    "question_number": 95,
+    "practice_set": "18",
+    "category": "Math:Algebra",
+    "difficulty": "easy",
+    "time_estimate": 95,
+    "passage": "",
+    "question_text": "Out of 2,000 high school seniors, 191 were enrolled in the Honor Society. What percentage of the entire group of 2,000 seniors were in the Honor Society?",
+    "options": [
+      "0.955%",
+      "1.91%",
+      "9.55%",
+      "19.1%"
+    ],
+    "correct_answer": null,
+    "answer_type": ""
+  },
+  {
+    "_id": "96",
+    "question_number": 96,
+    "practice_set": "18",
+    "category": "Math:Algebra",
+    "difficulty": "easy",
+    "time_estimate": 95,
+    "passage": "image:images/shsatpractice18question96.png",
+    "question_text": "The table above shows the number of people who visited Brookside Zoo in one day. The largest of the four groups made up what percentage of all visitors on that day?",
+    "options": [
+      "30%",
+      "28%",
+      "24%",
+      "17%"
+    ],
+    "correct_answer": null,
+    "answer_type": ""
+  },
+  {
+    "_id": "97",
+    "question_number": 97,
+    "practice_set": "18",
+    "category": "Math:Algebra",
+    "difficulty": "easy",
+    "time_estimate": 95,
+    "passage": "",
+    "question_text": "A bag contains 40 tiles that are either red, green, or blue. A tile is selected at random, the color is recorded, and the tile is put back in the bag. This process is carried out 120 times, and 18 of those times a red tile is selected. Based on the information, what is the most likely number of red tiles in the bag?",
+    "options": [
+      "6",
+      "15",
+      "18",
+      "30"
+    ],
+    "correct_answer": null,
+    "answer_type": ""
+  },
+  {
+    "_id": "98",
+    "question_number": 98,
+    "practice_set": "18",
+    "category": "Math:Algebra",
+    "difficulty": "easy",
+    "time_estimate": 95,
+    "passage": "image:images/shsatpractice18question98.png",
+    "question_text": "If 100 individuals will attend the museum next week, what is the best estimate (based on last year’s attendance) of the number of children who will be in that group?",
+    "options": [
+      "30",
+      "34",
+      "35",
+      "50"
+    ],
+    "correct_answer": null,
+    "answer_type": ""
+  },
+  {
+    "_id": "99",
+    "question_number": 99,
+    "practice_set": "18",
+    "category": "Math:Algebra",
+    "difficulty": "easy",
+    "time_estimate": 95,
+    "passage": "image:images/shsatpractice18question99.png",
+    "question_text": "What is the probability that the teacher will select 2 students from Classroom A and 1 student from Classroom B (in any order) for the committee?",
+    "options": [
+      "1/8",
+      "3/8",
+      "1/2",
+      "3/4"
+    ],
+    "correct_answer": null,
+    "answer_type": ""
+  },
+  {
+    "_id": "100",
+    "question_number": 100,
+    "practice_set": "18",
+    "category": "Math:Algebra",
+    "difficulty": "easy",
+    "time_estimate": 95,
+    "passage": "",
+    "question_text": "A bag contains 15 marbles: 11 blue marbles and 4 red marbles. Sarah picks one marble randomly, returns it to the bag, and then randomly picks one marble again. What is the probability that she picks a red marble both times?",
+    "options": [
+      "16/225",
+      "16/121",
+      "8/15",
+      "121/225"
+    ],
+    "correct_answer": null,
+    "answer_type": ""
+  },
+  {
+    "_id": "101",
+    "question_number": 101,
+    "practice_set": "18",
+    "category": "Math:Algebra",
+    "difficulty": "easy",
+    "time_estimate": 95,
+    "passage": "",
+    "question_text": "Anita is assigned to report on 1 topic in each of the 4 subjects shown in the table above. How many different sets of 4 reports are possible, according to the choices available to her?",
+    "options": [
+      "10",
+      "24",
+      "30",
+      "44"
+    ],
+    "correct_answer": null,
+    "answer_type": ""
+  },
+  {
+    "_id": "102",
+    "question_number": 102,
+    "practice_set": "18",
+    "category": "Math:Algebra",
+    "difficulty": "easy",
+    "time_estimate": 95,
+    "passage": "",
+    "question_text": " A deck of 52 playing cards contains 13 hearts. Sara has 12 cards from this deck in her hand, 3 of which are hearts. The other cards remain in the deck. What is the probability that a card drawn at random from the remainder of the deck will be a heart?",
+    "options": [
+      "1/10",
+      "1/4",
+      "3/13",
+      "1/3"
+    ],
+    "correct_answer": null,
+    "answer_type": ""
+  },
+  {
+    "_id": "103",
+    "question_number": 103,
+    "practice_set": "18",
+    "category": "Math:Algebra",
+    "difficulty": "easy",
+    "time_estimate": 95,
+    "passage": "image:images/shsatpractice18question103.png",
+    "question_text": "Which flavor is most likely to be randomly picked?",
+    "options": [
+      "butterscotch",
+      "lemon",
+      "maple",
+      "strawberry"
+    ],
+    "correct_answer": null,
+    "answer_type": ""
+  },
+  {
+    "_id": "104",
+    "question_number": 104,
+    "practice_set": "18",
+    "category": "Math:Algebra",
+    "difficulty": "easy",
+    "time_estimate": 95,
+    "passage": "image:images/shsatpractice18question104.png",
+    "question_text": "What will the formula be if it is solved for w?",
+    "options": [
+      "w = r(p − f)",
+      "w = (1/r)p + f",
+      "w = f + rp",
+      "w = r + p + f"
+    ],
+    "correct_answer": null,
+    "answer_type": ""
+  },
+  {
+    "_id": "105",
+    "question_number": 105,
+    "practice_set": "18",
+    "category": "Math:Algebra",
+    "difficulty": "easy",
+    "time_estimate": 95,
+    "passage": "",
+    "question_text": "A shipment contains 170 small boxes of medical supplies. In a random sample of 20 of these boxes, 8 have damage and the others are undamaged. Based on this sample, what is the best prediction of the number of undamaged boxes in the shipment, not including the boxes in the random sample?",
+    "options": [
+      "60",
+      "68",
+      "90",
+      "102"
+    ],
+    "correct_answer": null,
+    "answer_type": ""
+  },
+  {
+    "_id": "106",
+    "question_number": 106,
+    "practice_set": "18",
+    "category": "Math:Algebra",
+    "difficulty": "easy",
+    "time_estimate": 95,
+    "passage": "In basketball, a player can earn 1 point for making a free throw and 2 points for making another basket. Marcus makes a mean of 8 free throws per game, and he scores a total of at least 25 points per game. The inequality below shows this relationship, where b represents the number of 2- point baskets Marcus makes.\n\n2b + 8 ≥ 25",
+    "question_text": "What is the number of 2- point baskets Marcus needs to make if he wants to score at least his minimum total points for a game and make his mean number of free throws?",
+    "options": [
+      "b ≤ 8",
+      "b ≥ 9",
+      "b ≥ 16",
+      "b ≤ 25"
+    ],
+    "correct_answer": null,
+    "answer_type": ""
+  },
+  {
+    "_id": "107",
+    "question_number": 107,
+    "practice_set": "18",
+    "category": "Math:Algebra",
+    "difficulty": "easy",
+    "time_estimate": 95,
+    "passage": "",
+    "question_text": "Nadia paid $1.00 to mail a letter. The cost to mail a letter is $0.55 for the first ounce of weight plus $0.15 for each additional ounce. What was the weight, in ounces, of the letter Nadia mailed?",
+    "options": [
+      "1.4",
+      "1.5",
+      "3",
+      "4"
+    ],
+    "correct_answer": null,
+    "answer_type": ""
+  },
+  {
+    "_id": "108",
+    "question_number": 108,
+    "practice_set": "18",
+    "category": "Math:Algebra",
+    "difficulty": "easy",
+    "time_estimate": 95,
+    "passage": "image:images/shsatpractice18question108.png",
+    "question_text": "The table shows the cost of oranges. What is the unit rate for the cost per orange?",
+    "options": [
+      "$0.45",
+      "$0.90",
+      "$1.35",
+      "$1.80"
+    ],
+    "correct_answer": null,
+    "answer_type": ""
+  },
+  {
+    "_id": "109",
+    "question_number": 109,
+    "practice_set": "18",
+    "category": "Math:Algebra",
+    "difficulty": "easy",
+    "time_estimate": 95,
+    "passage": "",
+    "question_text": "A softball player bought bottles of water for her team to have at practice. The total number of bottles she bought, b, is proportional to n, the number of players at practice. Which equation represents the relationship between b and n? The constant of proportionality is p.",
+    "options": [
+      "b = pn",
+      "b = p + n",
+      "b + n = p",
+      "b + n + p = 1 "
+    ],
+    "correct_answer": null,
+    "answer_type": ""
+  },
+  {
+    "_id": "110",
+    "question_number": 110,
+    "practice_set": "18",
+    "category": "Math:Algebra",
+    "difficulty": "easy",
+    "time_estimate": 95,
+    "passage": "",
+    "question_text": "Malik earns $10 per hour at his job. He wants to change to a job that will pay $12 per hour. What will be the percent increase in Malik’s hourly pay if he makes this job change?",
+    "options": [
+      "2%",
+      "20%",
+      "83%",
+      "120%"
+    ],
+    "correct_answer": null,
+    "answer_type": ""
+  },
+  {
+    "_id": "111",
+    "question_number": 111,
+    "practice_set": "18",
+    "category": "Math:Algebra",
+    "difficulty": "easy",
+    "time_estimate": 95,
+    "passage": "",
+    "question_text": "A rain gauge shows that 10 centimeters of rain fell yesterday. If 1 inch is equal to approximately 2.5 centimeters, about how many inches of rain fell yesterday?",
+    "options": [
+      "1",
+      "2.5",
+      "4",
+      "10"
+    ],
+    "correct_answer": null,
+    "answer_type": ""
+  },
+  {
+    "_id": "112",
+    "question_number": 112,
+    "practice_set": "18",
+    "category": "Math:Algebra",
+    "difficulty": "easy",
+    "time_estimate": 95,
+    "passage": "",
+    "question_text": "The height of a plant, in millimeters, is proportional to the number of days the plant has grown. The plant has grown 20 millimeters in 8 days. What is the constant of proportionality, in millimeters per day?",
+    "options": [
+      "0.4",
+      "2.5",
+      "12",
+      "20"
+    ],
+    "correct_answer": null,
+    "answer_type": ""
+  },
+  {
+    "_id": "113",
+    "question_number": 113,
+    "practice_set": "18",
+    "category": "Math:Algebra",
+    "difficulty": "easy",
+    "time_estimate": 95,
+    "passage": "image:images/shsatpractice18question113.png",
+    "question_text": "Which table shows a proportional relationship?",
     "options": [
       "A",
       "B",
       "C",
       "D"
     ],
-    "correct_answer": 3,
-    "answer_type": ""
-  },
-  {
-    "_id": "88",
-    "question_number": 88,
-    "practice_set": "15",
-    "category": "Math:Algebra",
-    "difficulty": "easy",
-    "time_estimate": 95,
-    "passage": "",
-    "question_text": "If y = 4x, what is the value of 3y + 2 (3y + 5) − x in terms of x ?",
-    "options": [
-      "8x + 10",
-      "32x + 10",
-      "35x + 10",
-      "36x + 10"
-    ],
-    "correct_answer": 2,
-    "answer_type": ""
-  },
-  {
-    "_id": "89",
-    "question_number": 89,
-    "practice_set": "15",
-    "category": "Math:Algebra",
-    "difficulty": "easy",
-    "time_estimate": 95,
-    "passage": "image:images/shsatpractice15question89.png",
-    "question_text": "What is the difference between the areas of the two plates, in square inches?",
-    "options": [
-      "6π",
-      "9π",
-      "45π",
-      "180π"
-    ],
-    "correct_answer": 2,
-    "answer_type": ""
-  },
-  {
-    "_id": "90",
-    "question_number": 90,
-    "practice_set": "15",
-    "category": "Math:Algebra",
-    "difficulty": "easy",
-    "time_estimate": 95,
-    "passage": "",
-    "question_text": "If x = −4 , what is the sum of x and 10% of |x| ?",
-    "options": [
-      "-4.4",
-      "-3.6",
-      "0.4",
-      "4.4"
-    ],
-    "correct_answer": 1,
-    "answer_type": ""
-  },
-  {
-    "_id": "91",
-    "question_number": 91,
-    "practice_set": "15",
-    "category": "Math:Algebra",
-    "difficulty": "easy",
-    "time_estimate": 95,
-    "passage": "",
-    "question_text": "The volume of a cube is 512 cubic centimeters. What is the length, in centimeters, of one edge of this cube?",
-    "options": [
-      "8",
-      "42 and 2/3",
-      "85 and 1/3",
-      "128"
-    ],
-    "correct_answer": 0,
-    "answer_type": ""
-  },
-  {
-    "_id": "92",
-    "question_number": 92,
-    "practice_set": "15",
-    "category": "Math:Algebra",
-    "difficulty": "easy",
-    "time_estimate": 95,
-    "passage": "",
-    "question_text": "The high temperature on Monday was x° F. On Tuesday, the high temperature was 84° F, which was a 5% increase from Monday’s high temperature. On Wednesday, the high temperature was 10% lower than it was on Monday. How much lower was the high temperature on Wednesday than the high temperature on Monday?",
-    "options": [
-      "4.0° F",
-      "8.0° F",
-      "8.4° F",
-      "8.8° F"
-    ],
-    "correct_answer": 1,
-    "answer_type": ""
-  },
-  {
-    "_id": "93",
-    "question_number": 93,
-    "practice_set": "15",
-    "category": "Math:Algebra",
-    "difficulty": "easy",
-    "time_estimate": 95,
-    "passage": "",
-    "question_text": "The integers (n − 1), n, and (n + 1) are factors of 168. What is the greatest possible value of n?",
-    "options": [
-      "3",
-      "7",
-      "14",
-      "84"
-    ],
-    "correct_answer": 1,
-    "answer_type": ""
-  },
-  {
-    "_id": "94",
-    "question_number": 94,
-    "practice_set": "15",
-    "category": "Math:Algebra",
-    "difficulty": "easy",
-    "time_estimate": 95,
-    "passage": "",
-    "question_text": "Raoul gave two musical performances. His second performance occurred 86 days after his first performance. If Raoul’s second performance was on a Tuesday, on what day of the week was his first performance?",
-    "options": [
-      "Sunday",
-      "Monday",
-      "Wednesday",
-      "Thursday"
-    ],
-    "correct_answer": 0,
-    "answer_type": ""
-  },
-  {
-    "_id": "95",
-    "question_number": 95,
-    "practice_set": "15",
-    "category": "Math:Algebra",
-    "difficulty": "easy",
-    "time_estimate": 95,
-    "passage": "",
-    "question_text": "Michael received a check for $213 for working 20 hours at his part-time job. The amount on the check was his total pay after $32 in taxes was deducted. What was Michael’s hourly pay rate before taxes were deducted?",
-    "options": [
-      "$9.05",
-      "$10.65",
-      "$12.25",
-      "$21.35"
-    ],
-    "correct_answer": 2,
-    "answer_type": ""
-  },
-  {
-    "_id": "96",
-    "question_number": 96,
-    "practice_set": "15",
-    "category": "Math:Algebra",
-    "difficulty": "easy",
-    "time_estimate": 95,
-    "passage": "image:images/shsatpractice15question96.png",
-    "question_text": "What is the total surface area, in square centimeters, of the closed box shown above?",
-    "options": [
-      "3,800",
-      "5,600",
-      "7,600",
-      "40,000"
-    ],
-    "correct_answer": 2,
-    "answer_type": ""
-  },
-  {
-    "_id": "97",
-    "question_number": 97,
-    "practice_set": "15",
-    "category": "Math:Algebra",
-    "difficulty": "easy",
-    "time_estimate": 95,
-    "passage": "",
-    "question_text": "The value of a particular car decreases at a constant rate. If the car is worth $15,000 three years after its original purchase date and $10,000 five years after its original purchase date, what was the value of the car on its original purchase date?",
-    "options": [
-      "$18,000",
-      "$20,000",
-      "$22,000",
-      "$25,000"
-    ],
-    "correct_answer": 2,
-    "answer_type": ""
-  },
-  {
-    "_id": "98",
-    "question_number": 98,
-    "practice_set": "15",
-    "category": "Math:Algebra",
-    "difficulty": "easy",
-    "time_estimate": 95,
-    "passage": "image:images/shsatpractice15question98.png",
-    "question_text": "What is the probability that she selects all 4 blue disks?",
-    "options": [
-      "8/2,187",
-      "1/126",
-      "256/6,561",
-      "16/9"
-    ],
-    "correct_answer": 1,
-    "answer_type": ""
-  },
-  {
-    "_id": "99",
-    "question_number": 99,
-    "practice_set": "15",
-    "category": "Math:Algebra",
-    "difficulty": "easy",
-    "time_estimate": 95,
-    "passage": "image:images/shsatpractice15question99.png",
-    "question_text": "Which expression is not another way to write 1/2%?",
-    "options": [
-      "0.005/100",
-      "(1/2)/100",
-      "5/1,000",
-      "1/200"
-    ],
-    "correct_answer": 0,
-    "answer_type": ""
-  },
-  {
-    "_id": "100",
-    "question_number": 100,
-    "practice_set": "15",
-    "category": "Math:Algebra",
-    "difficulty": "easy",
-    "time_estimate": 95,
-    "passage": "",
-    "question_text": "A community garden had 50 members in 2001. In each of the next three years, the number of members increased by 40% over the number of members from the previous year. How many members were there in 2004? (Round to the nearest whole number.)",
-    "options": [
-      "70",
-      "98",
-      "110",
-      "137"
-    ],
-    "correct_answer": 3,
-    "answer_type": ""
-  },
-  {
-    "_id": "101",
-    "question_number": 101,
-    "practice_set": "15",
-    "category": "Math:Algebra",
-    "difficulty": "easy",
-    "time_estimate": 95,
-    "passage": "",
-    "question_text": "Which inequality is equivalent to 6x − 20 < 5x − 2 (5 − 3x)?",
-    "options": [
-      "x < 16",
-      "x < 5/2",
-      "x < -2",
-      "x > -2"
-    ],
-    "correct_answer": 3,
-    "answer_type": ""
-  },
-  {
-    "_id": "102",
-    "question_number": 102,
-    "practice_set": "15",
-    "category": "Math:Algebra",
-    "difficulty": "easy",
-    "time_estimate": 95,
-    "passage": "",
-    "question_text": "A box contains a total of 30 paper clips with colors in the ratio red:white:blue = 2:5:3. Suppose that one paper clip of each color is removed from the box and not replaced. What is the probability that the next paper clip chosen will be blue?",
-    "options": [
-      "5/27",
-      "2/7",
-      "8/27",
-      "3/10"
-    ],
-    "correct_answer": 2,
-    "answer_type": ""
-  },
-  {
-    "_id": "103",
-    "question_number": 103,
-    "practice_set": "15",
-    "category": "Math:Algebra",
-    "difficulty": "easy",
-    "time_estimate": 95,
-    "passage": "",
-    "question_text": "The least positive integer evenly divisible by the first 6 positive integers is 60. What is the least positive integer evenly divisible by the first 8 positive integers?",
-    "options": [
-      "1,680",
-      "840",
-      "480",
-      "420"
-    ],
-    "correct_answer": 1,
-    "answer_type": ""
-  },
-  {
-    "_id": "104",
-    "question_number": 104,
-    "practice_set": "15",
-    "category": "Math:Algebra",
-    "difficulty": "easy",
-    "time_estimate": 95,
-    "passage": "",
-    "question_text": "Three different colors of paint are available to paint the window frame, the door, and the wall of a house. If no two parts of the house may be painted the same color, how many different ways are there to paint the three parts of the house?",
-    "options": [
-      "3",
-      "6",
-      "9",
-      "27"
-    ],
-    "correct_answer": 1,
-    "answer_type": ""
-  },
-  {
-    "_id": "105",
-    "question_number": 105,
-    "practice_set": "15",
-    "category": "Math:Algebra",
-    "difficulty": "easy",
-    "time_estimate": 95,
-    "passage": "image:images/shsatpractice15question105.png",
-    "question_text": "Triangle MNP is similar to triangle XYZ, and MN = NP. What is the perimeter of triangle MNP?",
-    "options": [
-      "25 cm",
-      "30 cm",
-      "36 cm",
-      "40 cm"
-    ],
-    "correct_answer": 3,
-    "answer_type": ""
-  },
-  {
-    "_id": "106",
-    "question_number": 106,
-    "practice_set": "15",
-    "category": "Math:Algebra",
-    "difficulty": "easy",
-    "time_estimate": 95,
-    "passage": "",
-    "question_text": "Suppose that w, x, y, and z are integers, none of which are zero. Under which set of conditions would the product x²yz³|w| always be positive?",
-    "options": [
-      "x is positive and w is positive.",
-      "x is negative and w is negative.",
-      "y is negative and z is negative.",
-      "x and y are negative, and z and w are positive."
-    ],
-    "correct_answer": 2,
-    "answer_type": ""
-  },
-  {
-    "_id": "107",
-    "question_number": 107,
-    "practice_set": "15",
-    "category": "Math:Algebra",
-    "difficulty": "easy",
-    "time_estimate": 95,
-    "passage": "",
-    "question_text": "Chris has 1 red shirt, 2 white shirts, and 3 black shirts. Chris picks a shirt at random. Without putting the first shirt back, he picks a second shirt at random. What is the probability that the first shirt is black and the second shirt is red?",
-    "options": [
-      "1/12",
-      "1/10",
-      "1/5",
-      "7/10"
-    ],
-    "correct_answer": 1,
-    "answer_type": ""
-  },
-  {
-    "_id": "108",
-    "question_number": 108,
-    "practice_set": "15",
-    "category": "Math:Algebra",
-    "difficulty": "easy",
-    "time_estimate": 95,
-    "passage": "",
-    "question_text": "Rita used 125 small solid cubes to build a large solid cube. The measure of each edge of the small cubes equals 1 inch. What is the measure of each edge of the large cube, in inches?",
-    "options": [
-      "5",
-      "25",
-      "41.33",
-      "125"
-    ],
-    "correct_answer": 0,
-    "answer_type": ""
-  },
-  {
-    "_id": "109",
-    "question_number": 109,
-    "practice_set": "15",
-    "category": "Math:Algebra",
-    "difficulty": "easy",
-    "time_estimate": 95,
-    "passage": "image:images/shsatpractice15question109.png",
-    "question_text": "Five numbered balls are placed in two boxes as shown in the figure above. Davina picks one ball at random from Box B and places it in Box A. Then Yusuf picks one ball from Box A without looking. What is the probability that Yusuf will pick a ball with an odd number?",
-    "options": [
-      "2/9",
-      "1/3",
-      "2/5",
-      "2/3"
-    ],
-    "correct_answer": 0,
-    "answer_type": ""
-  },
-  {
-    "_id": "110",
-    "question_number": 110,
-    "practice_set": "15",
-    "category": "Math:Algebra",
-    "difficulty": "easy",
-    "time_estimate": 95,
-    "passage": "image:images/shsatpractice15question110.png",
-    "question_text": "Which graph represents the solution to |x + 1| ≥ 2 ?",
-    "options": [
-      "E",
-      "F",
-      "G",
-      "H"
-    ],
-    "correct_answer": 0,
-    "answer_type": ""
-  },
-  {
-    "_id": "111",
-    "question_number": 111,
-    "practice_set": "15",
-    "category": "Math:Algebra",
-    "difficulty": "easy",
-    "time_estimate": 95,
-    "passage": "",
-    "question_text": "A rectangular kitchen floor is 12 feet long and 7.5 feet wide. It will be covered completely with new square tiles measuring 0.75 foot on each side. How many tiles will cover the floor?",
-    "options": [
-      "68",
-      "78",
-      "120",
-      "160"
-    ],
-    "correct_answer": 3,
-    "answer_type": ""
-  },
-  {
-    "_id": "112",
-    "question_number": 112,
-    "practice_set": "15",
-    "category": "Math:Algebra",
-    "difficulty": "easy",
-    "time_estimate": 95,
-    "passage": "",
-    "question_text": "Typically, an amusement park sells 3 times as many tickets on Sunday as on any weekday, and 4 times as many tickets on Saturday as on Sunday. If the number of tickets sold on Saturday and Sunday totaled 30,000, how many tickets are expected to be sold on the following Monday?",
-    "options": [
-      "2,000",
-      "2,500",
-      "3,000",
-      "4,285"
-    ],
-    "correct_answer": 0,
-    "answer_type": ""
-  },
-  {
-    "_id": "113",
-    "question_number": 113,
-    "practice_set": "15",
-    "category": "Math:Algebra",
-    "difficulty": "easy",
-    "time_estimate": 95,
-    "passage": "",
-    "question_text": "A rectangular field had a length of 80 meters and a width of 50 meters. The field was recently enlarged, with the length increased by 15% and the width increased by 10 meters. By what percentage was the area of the field increased?",
-    "options": [
-      "26.5%",
-      "35%",
-      "38%",
-      "42.5%"
-    ],
-    "correct_answer": 2,
+    "correct_answer": null,
     "answer_type": ""
   },
   {
     "_id": "114",
     "question_number": 114,
-    "practice_set": "15",
+    "practice_set": "18",
     "category": "Math:Algebra",
     "difficulty": "easy",
     "time_estimate": 95,
     "passage": "",
-    "question_text": "If x and y are both negative integers with x < y , which expression has the least value?",
+    "question_text": "Terry wants to pour cement around the edge of the circular patio in her backyard. The patio has a radius of 5 feet. What is the distance, in feet, around the edge of the patio? Use 3.14 for π.",
     "options": [
-      "x²y",
-      "xy²",
-      "-x²y",
-      "-xy²"
+      "15.7",
+      "31.4",
+      "49.3",
+      "78.5"
     ],
-    "correct_answer": 0,
+    "correct_answer": null,
     "answer_type": ""
   }
 ]
