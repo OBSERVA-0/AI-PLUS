@@ -662,7 +662,7 @@
       "by burning off excess vegetation and increasing the availability of nutrients for the remaining plants",
       "by causing changes to the bison’s migration habits as bison herds fled from the wildfires on the prairie"
     ],
-    "practice_set": null,
+    "practice_set": 0,
     "answer_type": ""
   },
   {
@@ -672,15 +672,15 @@
     "category": "English:Reading Comprehension",
     "difficulty": "easy",
     "time_estimate": 95,
-    "passage": "pdfData:pdf/Pearsons2024-2025B_PastFutureTrees.pdf",
-    "question_text": "Which claim is best supported by the details in paragraph 5 about the bristlecone pine’s treering record?",
+    "passage": "Using Fire to Keep a Prairie Healthy\n\n(1) Inside the 40,000- acre Joseph H. Williams Tallgrass Prairie Preserve in northern Oklahoma, herds of bison roam on the scenic land that is home to hundreds of different species of plants and animals. While one of the greatest threats to the prairie is wildfire, the use of controlled fires is actually an effective way to protect this idyllic landscape.\n\n(2) Fires that are started by lightning or other natural circumstances are inevitable, and the results can be disastrous. However, hundreds of years ago the American Indian people who inhabited the Great Plains area between Minnesota and Texas realized that these fires could also be helpful. The bison in the area seemed to prefer grazing on tender new grass on the recently burned land rather than on grass in the unburned areas. The American Indian people began to deliberately burn areas of land for bison to graze on, which enticed the herds away from the people’s crops.\n\n(3) Today conservationists at the Tallgrass Prairie Preserve and farmers in the Great Plains continue to use controlled burns for land management. Intentionally burning a portion of land can dramatically improve the quality of the vegetation that regrows there. The fires burn away weedy undergrowth and help limit the overcrowding of shrubs and trees in the burn area, creating less competition for water and nutrients. Additionally, the process of burning excess plant matter adds nitrogen, an essential element for plant growth, to the soil.\n\n(4) One common target of controlled burns at the preserve and the surrounding area is the invasive red cedar tree. A single red cedar tree can consume up to 40 gallons of water per day, taking this vital resource away from other plant life. These tall trees also cast shade that prevents sunlight from reaching the plants beneath them. The fast- growing red cedar trees tend to crowd out prairie grasses, the primary food source for wild and domestic animals that make the prairie their home. An imbalance in one component of the prairie’s ecosystem affects the entire web of life. Controlled burns help maintain this ecosystem’s delicate balance.\n\n(5) Of course, these controlled fires are intended to burn only a portion of an area. A total burn, which is a risk with an uncontrolled wildfire, would destroy all wildlife as well as the crops farmers plant for income. The key to using controlled fires is knowing which areas of land to burn and when. Conservation experts at the preserve employ the “patch- burn” approach, meaning they rotate which portion of land is burned each year. They study the land to find out which areas would most benefit from being burned, and then they arrange about a dozen burns over one- third of the land. This patch burning contains the fire within a specific area and allows animals in the burn area to safely relocate. The following year, conservationists will burn a different section of the preserve, while the land burned the previous year regrows healthier than before.\n\n(6) Researchers have tracked and studied the variety of plant species and animals that live on the preserve, and their studies show that the patch- burn approach has restored biodiversity to the area by promoting the growth of species that were at risk of being crowded out. The patch- burn system is so successful that the conservationists at the preserve provide training to prairie farmers about conducting controlled burns on their own land. Burning land to make it healthy may seem counterintuitive, but strategic controlled fires have helped the prairie sustain life for hundreds of years and, with careful management, will continue to do so.",
+    "question_text": "Targeting red cedar trees in controlled burns affects the animals that live on the prairie mostly by",
     "options": [
-      "The bristlecone pine must be protected from extinction so that there is a record of changing Earth conditions.",
-      "The structure of the bristlecone pine allows scientists to predict changing Earth conditions over time.",
-      "The slow growth process of the bristlecone pine allows it to survive in spite of changing Earth conditions.",
-      "The bristlecone pine can be used to gather information on changing Earth conditions because of its long life."
+      "ensuring that the animals’ main food source has the conditions needed for it to thrive.",
+      "endangering the animals that live near the trees scheduled for removal.",
+      "making sure that the water supply for the animals is sufficient.",
+      "reducing the animals’ natural source of shade and protection from the elements."
     ],
-    "practice_set": "null",
+    "practice_set": 0,
     "answer_type": ""
   },
   {
@@ -690,15 +690,15 @@
     "category": "English:Reading Comprehension",
     "difficulty": "easy",
     "time_estimate": 95,
-    "passage": "pdfData:pdf/Pearsons2024-2025B_PastFutureTrees.pdf",
-    "question_text": "The phrases “clings to life” and “stripped of bark” in paragraph 6 are used to highlight",
+    "passage": "Using Fire to Keep a Prairie Healthy\n\n(1) Inside the 40,000- acre Joseph H. Williams Tallgrass Prairie Preserve in northern Oklahoma, herds of bison roam on the scenic land that is home to hundreds of different species of plants and animals. While one of the greatest threats to the prairie is wildfire, the use of controlled fires is actually an effective way to protect this idyllic landscape.\n\n(2) Fires that are started by lightning or other natural circumstances are inevitable, and the results can be disastrous. However, hundreds of years ago the American Indian people who inhabited the Great Plains area between Minnesota and Texas realized that these fires could also be helpful. The bison in the area seemed to prefer grazing on tender new grass on the recently burned land rather than on grass in the unburned areas. The American Indian people began to deliberately burn areas of land for bison to graze on, which enticed the herds away from the people’s crops.\n\n(3) Today conservationists at the Tallgrass Prairie Preserve and farmers in the Great Plains continue to use controlled burns for land management. Intentionally burning a portion of land can dramatically improve the quality of the vegetation that regrows there. The fires burn away weedy undergrowth and help limit the overcrowding of shrubs and trees in the burn area, creating less competition for water and nutrients. Additionally, the process of burning excess plant matter adds nitrogen, an essential element for plant growth, to the soil.\n\n(4) One common target of controlled burns at the preserve and the surrounding area is the invasive red cedar tree. A single red cedar tree can consume up to 40 gallons of water per day, taking this vital resource away from other plant life. These tall trees also cast shade that prevents sunlight from reaching the plants beneath them. The fast- growing red cedar trees tend to crowd out prairie grasses, the primary food source for wild and domestic animals that make the prairie their home. An imbalance in one component of the prairie’s ecosystem affects the entire web of life. Controlled burns help maintain this ecosystem’s delicate balance.\n\n(5) Of course, these controlled fires are intended to burn only a portion of an area. A total burn, which is a risk with an uncontrolled wildfire, would destroy all wildlife as well as the crops farmers plant for income. The key to using controlled fires is knowing which areas of land to burn and when. Conservation experts at the preserve employ the “patch- burn” approach, meaning they rotate which portion of land is burned each year. They study the land to find out which areas would most benefit from being burned, and then they arrange about a dozen burns over one- third of the land. This patch burning contains the fire within a specific area and allows animals in the burn area to safely relocate. The following year, conservationists will burn a different section of the preserve, while the land burned the previous year regrows healthier than before.\n\n(6) Researchers have tracked and studied the variety of plant species and animals that live on the preserve, and their studies show that the patch- burn approach has restored biodiversity to the area by promoting the growth of species that were at risk of being crowded out. The patch- burn system is so successful that the conservationists at the preserve provide training to prairie farmers about conducting controlled burns on their own land. Burning land to make it healthy may seem counterintuitive, but strategic controlled fires have helped the prairie sustain life for hundreds of years and, with careful management, will continue to do so.",
+    "question_text": "Read this sentence from paragraph 6.\n\nThe patch- burn system is so successful that the conservationists at the preserve provide training to prairie farmers about conducting controlled burns on their own land.\n\nThe author includes this sentence to show that",
     "options": [
-      "that the tree is fragile and needs help to avoid becoming extinct.",
-      "how the tree can be misunderstood because of its appearance.",
-      "how the tree interests observers with its unusual appearance.",
-      "that the tree manages to survive even when partially fossilized."
+      "the conservationists are better qualified to lead preservation efforts than farmers are.",
+      "the conservationists are eager to involve others in the preservation of the prairie.",
+      "the conservationists’ efforts will restore the original beauty and biodiversity of the region.",
+      "the conservationists’ training program should serve as a model for other conservation organizations."
     ],
-    "practice_set": "null",
+    "practice_set": 1,
     "answer_type": ""
   },
   {
@@ -708,15 +708,15 @@
     "category": "English:Reading Comprehension",
     "difficulty": "easy",
     "time_estimate": 95,
-    "passage": "pdfData:pdf/Pearsons2024-2025B_PastFutureTrees.pdf",
-    "question_text": "The details in paragraph 7 convey a central idea of the excerpt by suggesting that",
+    "passage": "Using Fire to Keep a Prairie Healthy\n\n(1) Inside the 40,000- acre Joseph H. Williams Tallgrass Prairie Preserve in northern Oklahoma, herds of bison roam on the scenic land that is home to hundreds of different species of plants and animals. While one of the greatest threats to the prairie is wildfire, the use of controlled fires is actually an effective way to protect this idyllic landscape.\n\n(2) Fires that are started by lightning or other natural circumstances are inevitable, and the results can be disastrous. However, hundreds of years ago the American Indian people who inhabited the Great Plains area between Minnesota and Texas realized that these fires could also be helpful. The bison in the area seemed to prefer grazing on tender new grass on the recently burned land rather than on grass in the unburned areas. The American Indian people began to deliberately burn areas of land for bison to graze on, which enticed the herds away from the people’s crops.\n\n(3) Today conservationists at the Tallgrass Prairie Preserve and farmers in the Great Plains continue to use controlled burns for land management. Intentionally burning a portion of land can dramatically improve the quality of the vegetation that regrows there. The fires burn away weedy undergrowth and help limit the overcrowding of shrubs and trees in the burn area, creating less competition for water and nutrients. Additionally, the process of burning excess plant matter adds nitrogen, an essential element for plant growth, to the soil.\n\n(4) One common target of controlled burns at the preserve and the surrounding area is the invasive red cedar tree. A single red cedar tree can consume up to 40 gallons of water per day, taking this vital resource away from other plant life. These tall trees also cast shade that prevents sunlight from reaching the plants beneath them. The fast- growing red cedar trees tend to crowd out prairie grasses, the primary food source for wild and domestic animals that make the prairie their home. An imbalance in one component of the prairie’s ecosystem affects the entire web of life. Controlled burns help maintain this ecosystem’s delicate balance.\n\n(5) Of course, these controlled fires are intended to burn only a portion of an area. A total burn, which is a risk with an uncontrolled wildfire, would destroy all wildlife as well as the crops farmers plant for income. The key to using controlled fires is knowing which areas of land to burn and when. Conservation experts at the preserve employ the “patch- burn” approach, meaning they rotate which portion of land is burned each year. They study the land to find out which areas would most benefit from being burned, and then they arrange about a dozen burns over one- third of the land. This patch burning contains the fire within a specific area and allows animals in the burn area to safely relocate. The following year, conservationists will burn a different section of the preserve, while the land burned the previous year regrows healthier than before.\n\n(6) Researchers have tracked and studied the variety of plant species and animals that live on the preserve, and their studies show that the patch- burn approach has restored biodiversity to the area by promoting the growth of species that were at risk of being crowded out. The patch- burn system is so successful that the conservationists at the preserve provide training to prairie farmers about conducting controlled burns on their own land. Burning land to make it healthy may seem counterintuitive, but strategic controlled fires have helped the prairie sustain life for hundreds of years and, with careful management, will continue to do so.",
+    "question_text": "Which details from the passage best convey the central idea that using the patch- burn method is an effective way to protect and manage prairie land?",
     "options": [
-      "the success of the bristlecone pine lies in its ability to resist climate change.",
-      "the uncommon appearance of the bristlecone pine is related to its ability to survive.",
-      "the attachment that humans have to the bristlecone pine is understandable.",
-      "the longevity of the bristlecone pine continues to encourage experts."
+      "the explanation that conservationists use the alternating burn pattern of the patch- burn method in order to allow the animals in the area to avoid the fire",
+      "the information that conservationists evaluate which land would most benefit from a controlled burn before applying the patch- burn method",
+      "the information that conservationists have determined that the patch- burn method has promoted the growth of species that were at risk of being crowded out",
+      "the explanation that conservationists are able to control the fire in the patch- burn method by arranging separate burns across the designated portion of land"
     ],
-    "practice_set": "null",
+    "practice_set": 2,
     "answer_type": ""
   },
   {
@@ -726,15 +726,15 @@
     "category": "English:Reading Comprehension",
     "difficulty": "easy",
     "time_estimate": 95,
-    "passage": "pdfData:pdf/Pearsons2024-2025B_PastFutureTrees.pdf",
-    "question_text": "What is the best summary of the bristlecone pine’s life cycle?",
+    "passage": "Using Fire to Keep a Prairie Healthy\n\n(1) Inside the 40,000- acre Joseph H. Williams Tallgrass Prairie Preserve in northern Oklahoma, herds of bison roam on the scenic land that is home to hundreds of different species of plants and animals. While one of the greatest threats to the prairie is wildfire, the use of controlled fires is actually an effective way to protect this idyllic landscape.\n\n(2) Fires that are started by lightning or other natural circumstances are inevitable, and the results can be disastrous. However, hundreds of years ago the American Indian people who inhabited the Great Plains area between Minnesota and Texas realized that these fires could also be helpful. The bison in the area seemed to prefer grazing on tender new grass on the recently burned land rather than on grass in the unburned areas. The American Indian people began to deliberately burn areas of land for bison to graze on, which enticed the herds away from the people’s crops.\n\n(3) Today conservationists at the Tallgrass Prairie Preserve and farmers in the Great Plains continue to use controlled burns for land management. Intentionally burning a portion of land can dramatically improve the quality of the vegetation that regrows there. The fires burn away weedy undergrowth and help limit the overcrowding of shrubs and trees in the burn area, creating less competition for water and nutrients. Additionally, the process of burning excess plant matter adds nitrogen, an essential element for plant growth, to the soil.\n\n(4) One common target of controlled burns at the preserve and the surrounding area is the invasive red cedar tree. A single red cedar tree can consume up to 40 gallons of water per day, taking this vital resource away from other plant life. These tall trees also cast shade that prevents sunlight from reaching the plants beneath them. The fast- growing red cedar trees tend to crowd out prairie grasses, the primary food source for wild and domestic animals that make the prairie their home. An imbalance in one component of the prairie’s ecosystem affects the entire web of life. Controlled burns help maintain this ecosystem’s delicate balance.\n\n(5) Of course, these controlled fires are intended to burn only a portion of an area. A total burn, which is a risk with an uncontrolled wildfire, would destroy all wildlife as well as the crops farmers plant for income. The key to using controlled fires is knowing which areas of land to burn and when. Conservation experts at the preserve employ the “patch- burn” approach, meaning they rotate which portion of land is burned each year. They study the land to find out which areas would most benefit from being burned, and then they arrange about a dozen burns over one- third of the land. This patch burning contains the fire within a specific area and allows animals in the burn area to safely relocate. The following year, conservationists will burn a different section of the preserve, while the land burned the previous year regrows healthier than before.\n\n(6) Researchers have tracked and studied the variety of plant species and animals that live on the preserve, and their studies show that the patch- burn approach has restored biodiversity to the area by promoting the growth of species that were at risk of being crowded out. The patch- burn system is so successful that the conservationists at the preserve provide training to prairie farmers about conducting controlled burns on their own land. Burning land to make it healthy may seem counterintuitive, but strategic controlled fires have helped the prairie sustain life for hundreds of years and, with careful management, will continue to do so.",
+    "question_text": "Which sentence supports the idea that farmers and people who manage land may be concerned about using fire as a way to benefit the land?",
     "options": [
-      "The bristlecone pine takes root as a stubby seedling in the mountains. Over time, it grows slowly in a hostile environment with alkaline soil that ensures little competition from other trees.",
-      "The bristlecone pine grows up slowly from the fragments of its dead ancestors. Over time, it begins to become contorted in appearance but continues to funnel water and nutrients to its stem.",
-      "The bristlecone pine grows slowly in an environment hostile to other trees. Over time, its trunk and some branches fossilize, but it funnels water and nutrients to other parts that are still alive.",
-      "The bristlecone pine grows only in one location in the mountains. Over time, it develops sparse foliage that fossilizes slowly, but the trunk and branches stay alive, as revealed by ribbons of live bark."
+      "“While one of the greatest threats to the prairie is wildfire, the use of controlled fires is actually an effective way to protect this idyllic landscape.” (paragraph 1)",
+      "“The American Indian people began to deliberately burn areas of land for bison to graze on, which enticed the herds away from the people’s crops.” (paragraph 2)",
+      "“This patch burning contains the fire within a specific area and allows animals in the burn area to safely relocate.” (paragraph 5)",
+      "“The following year, conservationists will burn a different section of the preserve, while the land burned the previous year regrows healthier than before.” (paragraph 5)"
     ],
-    "practice_set": "null",
+    "practice_set": 0,
     "answer_type": ""
   },
   {
@@ -744,15 +744,15 @@
     "category": "English:Reading Comprehension",
     "difficulty": "easy",
     "time_estimate": 95,
-    "passage": "pdfData:pdf/Pearsons2024-2025B_PastFutureTrees.pdf",
-    "question_text": "Throughout the excerpt, the author conveys his point of view mainly by",
+    "passage": "Using Fire to Keep a Prairie Healthy\n\n(1) Inside the 40,000- acre Joseph H. Williams Tallgrass Prairie Preserve in northern Oklahoma, herds of bison roam on the scenic land that is home to hundreds of different species of plants and animals. While one of the greatest threats to the prairie is wildfire, the use of controlled fires is actually an effective way to protect this idyllic landscape.\n\n(2) Fires that are started by lightning or other natural circumstances are inevitable, and the results can be disastrous. However, hundreds of years ago the American Indian people who inhabited the Great Plains area between Minnesota and Texas realized that these fires could also be helpful. The bison in the area seemed to prefer grazing on tender new grass on the recently burned land rather than on grass in the unburned areas. The American Indian people began to deliberately burn areas of land for bison to graze on, which enticed the herds away from the people’s crops.\n\n(3) Today conservationists at the Tallgrass Prairie Preserve and farmers in the Great Plains continue to use controlled burns for land management. Intentionally burning a portion of land can dramatically improve the quality of the vegetation that regrows there. The fires burn away weedy undergrowth and help limit the overcrowding of shrubs and trees in the burn area, creating less competition for water and nutrients. Additionally, the process of burning excess plant matter adds nitrogen, an essential element for plant growth, to the soil.\n\n(4) One common target of controlled burns at the preserve and the surrounding area is the invasive red cedar tree. A single red cedar tree can consume up to 40 gallons of water per day, taking this vital resource away from other plant life. These tall trees also cast shade that prevents sunlight from reaching the plants beneath them. The fast- growing red cedar trees tend to crowd out prairie grasses, the primary food source for wild and domestic animals that make the prairie their home. An imbalance in one component of the prairie’s ecosystem affects the entire web of life. Controlled burns help maintain this ecosystem’s delicate balance.\n\n(5) Of course, these controlled fires are intended to burn only a portion of an area. A total burn, which is a risk with an uncontrolled wildfire, would destroy all wildlife as well as the crops farmers plant for income. The key to using controlled fires is knowing which areas of land to burn and when. Conservation experts at the preserve employ the “patch- burn” approach, meaning they rotate which portion of land is burned each year. They study the land to find out which areas would most benefit from being burned, and then they arrange about a dozen burns over one- third of the land. This patch burning contains the fire within a specific area and allows animals in the burn area to safely relocate. The following year, conservationists will burn a different section of the preserve, while the land burned the previous year regrows healthier than before.\n\n(6) Researchers have tracked and studied the variety of plant species and animals that live on the preserve, and their studies show that the patch- burn approach has restored biodiversity to the area by promoting the growth of species that were at risk of being crowded out. The patch- burn system is so successful that the conservationists at the preserve provide training to prairie farmers about conducting controlled burns on their own land. Burning land to make it healthy may seem counterintuitive, but strategic controlled fires have helped the prairie sustain life for hundreds of years and, with careful management, will continue to do so.",
+    "question_text": "Read this sentence from paragraph 6.\n\nBurning land to make it healthy may seem counterintuitive, but strategic controlled fires have helped the prairie sustain life for hundreds of years and, with careful management, will continue to do so.\n\nThe words “counterintuitive” and “strategic” in the sentence convey the idea that",
     "options": [
-      "sharing details about the qualities of the bristlecone pine that make it an unusual tree",
-      "comparing the bristlecone pine to global empires that lasted thousands of years before falling.",
-      "explaining the way the seemingly sickly appearance of the bristlecone pine contrasts with its ability to survive.",
-      "arguing that the bristlecone pine has survived past threats to its survival and will continue to thrive"
+      "the safest methods are sometimes the least effective at solving complex challenges.",
+      "thorough investigation of uncommon methodologies can lead to beneficial results.",
+      "detailed planning can ensure that a potentially destructive action has a positive impact.",
+      "plans that entail a certain amount of risk almost always result in success."
     ],
-    "practice_set": "null",
+    "practice_set": 2,
     "answer_type": ""
   },
   {
@@ -762,15 +762,15 @@
     "category": "English:Reading Comprehension",
     "difficulty": "easy",
     "time_estimate": 95,
-    "passage": "pdfData:pdf/Pearsons2024-2025B_TimetoVolunteer.pdf",
-    "question_text": "Which revision of sentence 2 uses the most precise language?",
+    "passage": "Using Fire to Keep a Prairie Healthy\n\n(1) Inside the 40,000- acre Joseph H. Williams Tallgrass Prairie Preserve in northern Oklahoma, herds of bison roam on the scenic land that is home to hundreds of different species of plants and animals. While one of the greatest threats to the prairie is wildfire, the use of controlled fires is actually an effective way to protect this idyllic landscape.\n\n(2) Fires that are started by lightning or other natural circumstances are inevitable, and the results can be disastrous. However, hundreds of years ago the American Indian people who inhabited the Great Plains area between Minnesota and Texas realized that these fires could also be helpful. The bison in the area seemed to prefer grazing on tender new grass on the recently burned land rather than on grass in the unburned areas. The American Indian people began to deliberately burn areas of land for bison to graze on, which enticed the herds away from the people’s crops.\n\n(3) Today conservationists at the Tallgrass Prairie Preserve and farmers in the Great Plains continue to use controlled burns for land management. Intentionally burning a portion of land can dramatically improve the quality of the vegetation that regrows there. The fires burn away weedy undergrowth and help limit the overcrowding of shrubs and trees in the burn area, creating less competition for water and nutrients. Additionally, the process of burning excess plant matter adds nitrogen, an essential element for plant growth, to the soil.\n\n(4) One common target of controlled burns at the preserve and the surrounding area is the invasive red cedar tree. A single red cedar tree can consume up to 40 gallons of water per day, taking this vital resource away from other plant life. These tall trees also cast shade that prevents sunlight from reaching the plants beneath them. The fast- growing red cedar trees tend to crowd out prairie grasses, the primary food source for wild and domestic animals that make the prairie their home. An imbalance in one component of the prairie’s ecosystem affects the entire web of life. Controlled burns help maintain this ecosystem’s delicate balance.\n\n(5) Of course, these controlled fires are intended to burn only a portion of an area. A total burn, which is a risk with an uncontrolled wildfire, would destroy all wildlife as well as the crops farmers plant for income. The key to using controlled fires is knowing which areas of land to burn and when. Conservation experts at the preserve employ the “patch- burn” approach, meaning they rotate which portion of land is burned each year. They study the land to find out which areas would most benefit from being burned, and then they arrange about a dozen burns over one- third of the land. This patch burning contains the fire within a specific area and allows animals in the burn area to safely relocate. The following year, conservationists will burn a different section of the preserve, while the land burned the previous year regrows healthier than before.\n\n(6) Researchers have tracked and studied the variety of plant species and animals that live on the preserve, and their studies show that the patch- burn approach has restored biodiversity to the area by promoting the growth of species that were at risk of being crowded out. The patch- burn system is so successful that the conservationists at the preserve provide training to prairie farmers about conducting controlled burns on their own land. Burning land to make it healthy may seem counterintuitive, but strategic controlled fires have helped the prairie sustain life for hundreds of years and, with careful management, will continue to do so.",
+    "question_text": "With which statement would the author most likely agree?",
     "options": [
-      "These are the people who spend their free time volunteering at animal shelters, helping with activities in community centers, or cleaning up parks.",
-      "These are the people who spend their free time helping others in numerous ways at a variety of places, events, or organizations that need support.",
-      "These are the people who spend their free time working at local establishments that help people, animals, or other groups in need of assistance.",
-      "These are the people who spend a lot of time volunteering at places where they can help people in many ways."
+      "It is important to explain the purposes and the risks of controlled burns to the people living near a proposed burn area.",
+      "It is necessary to thoroughly examine a particular region in order to plan and execute a successful controlled burn.",
+      "Monitoring animals’ reactions after a controlled burn on the prairie is a minor part of scientists’ research.",
+      "Conservationists should consider the helpful aspects of invasive species before executing a controlled burn."
     ],
-    "practice_set": "null",
+    "practice_set": 1,
     "answer_type": ""
   },
   {
@@ -780,15 +780,15 @@
     "category": "English:Reading Comprehension",
     "difficulty": "easy",
     "time_estimate": 95,
-    "passage": "pdfData:pdf/Pearsons2024-2025B_TimetoVolunteer.pdf",
-    "question_text": "Which sentence should follow sentence 4 to introduce the main claim of the passage?",
+    "passage": "image:images/shsatpractice19question44.png",
+    "question_text": "The following question is for the previous passage: 'Using Fire to Keep a Prairie Healthy'.\n\nHow do the diagram and its text provide additional support for the topic presented in the passage?",
     "options": [
-      "With that in mind, high school students should consider engaging in some form of regular volunteerism.",
-      "Fortunately for students, these benefits are guaranteed to produce both immediate and long-term results.",
-      "In fact, studies have confirmed that volunteerism can be beneficial for students, the family, and the community.",
-      "For this reason, high school students should learn about how helping others can strengthen their communities."
+      "by depicting how the landscape in a given area changes as the patch- burn method is applied",
+      "by indicating that patch- burn fires are best suited for use in areas with certain features",
+      "by revealing that the patch- burn method is used primarily on uninhabited areas of land",
+      "by comparing the size of the area burned by the patch- burn method with that of unburned areas"
     ],
-    "practice_set": "null",
+    "practice_set": 0,
     "answer_type": ""
   },
   {
