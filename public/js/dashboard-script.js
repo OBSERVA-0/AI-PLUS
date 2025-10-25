@@ -3136,4 +3136,69 @@ document.addEventListener('DOMContentLoaded', function() {
             window.shsatTestFilter.attachButtonEventListener(button);
         }
     });
+    
+    // SHSAT Test Toggle Functionality - JavaScript-enforced visibility
+    const shsatToggleBtn = document.getElementById('shsat-toggle-btn');
+    const shsatTestButtonsContainer = document.getElementById('shsat-test-buttons-container');
+    
+    if (shsatToggleBtn && shsatTestButtonsContainer) {
+        const allButtons = shsatTestButtonsContainer.querySelectorAll('.start-test-btn');
+        
+        // Function to update button visibility
+        const updateButtonVisibility = (showAll) => {
+            allButtons.forEach((btn, index) => {
+                if (showAll) {
+                    // Show all buttons
+                    btn.style.display = '';
+                    btn.style.removeProperty('display');
+                } else {
+                    // Show only first 6 buttons
+                    if (index < 6) {
+                        btn.style.display = '';
+                        btn.style.removeProperty('display');
+                    } else {
+                        btn.style.display = 'none';
+                    }
+                }
+            });
+        };
+        
+        // Set initial collapsed state
+        console.log('🔧 SHSAT Collapsible: Initializing with', allButtons.length, 'tests');
+        updateButtonVisibility(false);
+        console.log('✅ Initially showing 6 tests, hiding', (allButtons.length - 6));
+        
+        // Toggle functionality
+        shsatToggleBtn.addEventListener('click', function() {
+            const isCollapsed = shsatTestButtonsContainer.classList.contains('collapsed');
+            const toggleText = this.querySelector('.toggle-text');
+            const toggleIcon = this.querySelector('.toggle-icon');
+            
+            if (isCollapsed) {
+                // Expand - show all tests
+                shsatTestButtonsContainer.classList.remove('collapsed');
+                updateButtonVisibility(true);
+                toggleText.textContent = 'Show Less';
+                toggleIcon.textContent = '▲';
+                console.log('📖 Expanded to show all', allButtons.length, 'tests');
+            } else {
+                // Collapse - show only first 6 tests
+                shsatTestButtonsContainer.classList.add('collapsed');
+                updateButtonVisibility(false);
+                toggleText.textContent = 'Show All Tests';
+                toggleIcon.textContent = '▼';
+                console.log('📕 Collapsed to show 6 tests');
+                
+                // Scroll back to the test card for better UX
+                const testCard = shsatTestButtonsContainer.closest('.test-card');
+                if (testCard) {
+                    testCard.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
+                }
+            }
+        });
+        
+        console.log('✅ SHSAT Toggle functionality initialized');
+    } else {
+        console.warn('⚠️ SHSAT toggle elements not found');
+    }
 });

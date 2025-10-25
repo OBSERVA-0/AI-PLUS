@@ -369,37 +369,140 @@ body {
 }
 
 .test-buttons {
-    display: flex;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(160px, 1fr));
     gap: 0.75rem;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-between;
+    position: relative;
 }
 
 .test-buttons .btn {
-    flex: 1;
-    min-width: 140px;
-    max-width: 220px;
     padding: 0.875rem 0.75rem;
-    font-size: 0.85rem;
+    font-size: 0.875rem;
     font-weight: 500;
     text-align: center;
-    white-space: normal;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
     line-height: 1.3;
+}
+
+/* Collapsible Test Grid */
+.test-buttons {
+    transition: all 0.3s ease;
+    position: relative;
+}
+
+.test-buttons.collapsed {
+    padding-bottom: 0.5rem;
+}
+
+.test-buttons.collapsed::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 40px;
+    background: linear-gradient(to bottom, transparent, rgba(248, 250, 252, 0.95));
+    pointer-events: none;
+    border-radius: 0 0 12px 12px;
+}
+
+/* Hide tests 7 and onwards when collapsed - using important for specificity */
+#shsat-test-buttons-container.collapsed .start-test-btn:nth-child(n+7) {
+    display: none !important;
+}
+
+.test-buttons:not(.collapsed) .start-test-btn {
+    animation: fadeIn 0.3s ease;
+}
+
+@keyframes fadeOut {
+    from { opacity: 1; transform: translateY(0); }
+    to { opacity: 0; transform: translateY(-10px); }
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(-10px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
+/* Show More/Less Toggle Button */
+.test-toggle-btn {
+    margin-top: 1rem;
+    width: 100%;
+    background: linear-gradient(135deg, #f8fafc 0%, #e2e8f0 100%);
+    color: #3b82f6;
+    border: 2px solid #e2e8f0;
+    padding: 0.875rem 1.5rem;
+    border-radius: 14px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.25s ease;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+    font-size: 0.9rem;
+}
+
+.test-toggle-btn:hover {
+    background: linear-gradient(135deg, #e2e8f0 0%, #cbd5e1 100%);
+    border-color: #3b82f6;
+    transform: translateY(-1px);
+    box-shadow: 0 2px 8px rgba(59, 130, 246, 0.15);
+}
+
+.test-toggle-btn .toggle-icon {
+    transition: transform 0.3s ease;
+    font-size: 1.1rem;
+}
+
+.test-buttons:not(.collapsed) + .test-toggle-btn .toggle-icon {
+    transform: rotate(180deg);
+}
+
+/* Test count badge */
+.test-count-badge {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    background: #3b82f6;
+    color: white;
+    font-size: 0.75rem;
+    font-weight: 600;
+    padding: 0.25rem 0.5rem;
+    border-radius: 12px;
+    min-width: 24px;
+    margin-left: 0.5rem;
 }
 
 /* Responsive design for test buttons */
 @media (max-width: 768px) {
     .test-buttons {
-        flex-direction: column;
+        grid-template-columns: repeat(auto-fill, minmax(140px, 1fr));
         gap: 0.5rem;
     }
     
     .test-buttons .btn {
-        width: 100%;
-        max-width: none;
-        min-width: auto;
-        font-size: 0.9rem;
+        font-size: 0.85rem;
+        padding: 0.75rem 0.5rem;
+    }
+    
+    .test-toggle-btn {
+        font-size: 0.85rem;
+        padding: 0.75rem 1.25rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .test-buttons {
+        grid-template-columns: 1fr 1fr;
+    }
+    
+    .test-buttons .btn {
+        font-size: 0.8rem;
+        padding: 0.7rem 0.4rem;
     }
 }
 

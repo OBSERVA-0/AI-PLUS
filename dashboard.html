@@ -8,6 +8,27 @@
     <link rel="stylesheet" href="dashboard-styles.css">
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
     <style>
+        /* Inline styles to ensure collapsible works immediately */
+        #shsat-test-buttons-container.collapsed .start-test-btn:nth-child(n+7) {
+            display: none !important;
+        }
+        
+        #shsat-test-buttons-container.collapsed {
+            position: relative;
+            padding-bottom: 0.5rem;
+        }
+        
+        #shsat-test-buttons-container.collapsed::after {
+            content: '';
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            height: 40px;
+            background: linear-gradient(to bottom, transparent, rgba(248, 250, 252, 0.95));
+            pointer-events: none;
+            border-radius: 0 0 12px 12px;
+        }
         /* Additional overscroll prevention */
         html, body {
             overscroll-behavior: none !important;
@@ -139,35 +160,39 @@
                             </div>
                             
                             <!-- Test buttons container -->
-                            <div id="shsat-test-buttons-container" class="test-buttons">
-                                <button class="btn btn-primary start-test-btn" data-practice-set="1" data-test-type="full">Practice 1 (Full)</button>
-                                <button class="btn btn-secondary start-test-btn" data-practice-set="2" data-test-type="full">Practice 2 (Full)</button>
-                                <button class="btn btn-primary start-test-btn" data-practice-set="3" data-test-type="full">Practice 3 (Full)</button>
-                                <button class="btn btn-primary start-test-btn" data-practice-set="4" data-test-type="full">Practice 4 (Full)</button>
-                                <button class="btn btn-primary start-test-btn" data-practice-set="5" data-test-type="full">Practice 5 (Full)</button>
-                                <button class="btn btn-primary start-test-btn" data-practice-set="6" data-test-type="full">Practice 6 (Full)</button>
-                                <button class="btn btn-primary start-test-btn" data-practice-set="7" data-test-type="full">Practice 7 (Full)</button>
-                                <button class="btn btn-primary start-test-btn" data-practice-set="8" data-test-type="full">Practice 8 (Full)</button>
-                                <button class="btn btn-primary start-test-btn" data-practice-set="9" data-test-type="full">Practice 9 (Full)</button>
-                                <button class="btn btn-primary start-test-btn" data-practice-set="10" data-test-type="full">Practice 10 (Full)</button>
-                                <button class="btn btn-primary start-test-btn" data-practice-set="11" data-test-type="full">Practice 11 (Full)</button>
-                                <button class="btn btn-primary start-test-btn" data-practice-set="12" data-test-type="full">Practice 12 (Full)</button>
-                                <button class="btn btn-primary start-test-btn" data-practice-set="13" data-test-type="full">Practice 13 (Full)</button>
-                                <button class="btn btn-primary start-test-btn" data-practice-set="14" data-test-type="full">Practice 14 (Full)</button>
-                                <button class="btn btn-primary start-test-btn" data-practice-set="15" data-test-type="full">Practice 15 (Full)</button>
-                                <button class="btn btn-primary start-test-btn" data-practice-set="16" data-test-type="full">Practice 16 (Full)</button>
-                                <button class="btn btn-primary start-test-btn" data-practice-set="17" data-test-type="full">Practice 17 (Full)</button>
-                                <button class="btn btn-primary start-test-btn" data-practice-set="18" data-test-type="full">Practice 18 (Full)</button>
-                                <button class="btn btn-primary start-test-btn" data-practice-set="19" data-test-type="full">Practice 19 (Full)</button>
-                                <button class="btn btn-primary start-test-btn" data-practice-set="20" data-test-type="full">Practice 20 (Full)</button>
-                                <button class="btn btn-primary start-test-btn" data-practice-set="21" data-test-type="full">Practice 21 (Full)</button>
-                                <button class="btn btn-primary start-test-btn" data-practice-set="22" data-test-type="full">Practice 22 (Full)</button>
-                                <button class="btn btn-primary start-test-btn" data-practice-set="23" data-test-type="full">Practice 23 (Full)</button>
-                                <button class="btn btn-primary start-test-btn" data-practice-set="24" data-test-type="full">Practice 24 (Full)</button>
-                                <button class="btn btn-primary start-test-btn" data-practice-set="25" data-test-type="full">Practice 25 (Full)</button>
-                                <button class="btn btn-diagnostic start-test-btn" data-practice-set="diagnostic" data-test-type="full">Diagnostic Test (Full)</button>
-                                
+                            <div id="shsat-test-buttons-container" class="test-buttons collapsed">
+                                <button class="btn btn-primary start-test-btn" data-practice-set="1" data-test-type="full">Practice 1</button>
+                                <button class="btn btn-secondary start-test-btn" data-practice-set="2" data-test-type="full">Practice 2</button>
+                                <button class="btn btn-primary start-test-btn" data-practice-set="3" data-test-type="full">Practice 3</button>
+                                <button class="btn btn-primary start-test-btn" data-practice-set="4" data-test-type="full">Practice 4</button>
+                                <button class="btn btn-primary start-test-btn" data-practice-set="5" data-test-type="full">Practice 5</button>
+                                <button class="btn btn-primary start-test-btn" data-practice-set="6" data-test-type="full">Practice 6</button>
+                                <button class="btn btn-primary start-test-btn" data-practice-set="7" data-test-type="full">Practice 7</button>
+                                <button class="btn btn-primary start-test-btn" data-practice-set="8" data-test-type="full">Practice 8</button>
+                                <button class="btn btn-primary start-test-btn" data-practice-set="9" data-test-type="full">Practice 9</button>
+                                <button class="btn btn-primary start-test-btn" data-practice-set="10" data-test-type="full">Practice 10</button>
+                                <button class="btn btn-primary start-test-btn" data-practice-set="11" data-test-type="full">Practice 11</button>
+                                <button class="btn btn-primary start-test-btn" data-practice-set="12" data-test-type="full">Practice 12</button>
+                                <button class="btn btn-primary start-test-btn" data-practice-set="13" data-test-type="full">Practice 13</button>
+                                <button class="btn btn-primary start-test-btn" data-practice-set="14" data-test-type="full">Practice 14</button>
+                                <button class="btn btn-primary start-test-btn" data-practice-set="15" data-test-type="full">Practice 15</button>
+                                <button class="btn btn-primary start-test-btn" data-practice-set="16" data-test-type="full">Practice 16</button>
+                                <button class="btn btn-primary start-test-btn" data-practice-set="17" data-test-type="full">Practice 17</button>
+                                <button class="btn btn-primary start-test-btn" data-practice-set="18" data-test-type="full">Practice 18</button>
+                                <button class="btn btn-primary start-test-btn" data-practice-set="19" data-test-type="full">Practice 19</button>
+                                <button class="btn btn-primary start-test-btn" data-practice-set="20" data-test-type="full">Practice 20</button>
+                                <button class="btn btn-primary start-test-btn" data-practice-set="21" data-test-type="full">Practice 21</button>
+                                <button class="btn btn-primary start-test-btn" data-practice-set="22" data-test-type="full">Practice 22</button>
+                                <button class="btn btn-primary start-test-btn" data-practice-set="23" data-test-type="full">Practice 23</button>
+                                <button class="btn btn-primary start-test-btn" data-practice-set="24" data-test-type="full">Practice 24</button>
+                                <button class="btn btn-primary start-test-btn" data-practice-set="25" data-test-type="full">Practice 25</button>
+                                <button class="btn btn-diagnostic start-test-btn" data-practice-set="diagnostic" data-test-type="full">Diagnostic Test</button>
                             </div>
+                            <button class="test-toggle-btn" id="shsat-toggle-btn">
+                                <span class="toggle-text">Show All Tests</span>
+                                <span class="test-count-badge">26</span>
+                                <span class="toggle-icon">▼</span>
+                            </button>
                         </div>
                     </div>
 
@@ -196,9 +221,10 @@
                             </div>
                         </div>
                         <div class="test-buttons">
-                            <button class="btn btn-primary start-test-btn" data-practice-set="1">Start Practice 1</button>
-                            <button class="btn btn-secondary start-test-btn" data-practice-set="2">Start Practice 2</button>
-                            <button class="btn btn-primary start-test-btn" data-practice-set="3">Start Practice 3</button>
+                            <button class="btn btn-primary start-test-btn" data-practice-set="1">Practice 1</button>
+                            <button class="btn btn-secondary start-test-btn" data-practice-set="2">Practice 2</button>
+                            <button class="btn btn-primary start-test-btn" data-practice-set="3">Practice 3</button>
+                            <button class="btn btn-primary start-test-btn" data-practice-set="4">Practice 4</button>
                         </div>
                     </div>
 
@@ -227,11 +253,13 @@
                             </div>
                         </div>
                         <div class="test-buttons">
-                            <button class="btn btn-primary start-test-btn" data-practice-set="1">Start Practice 1</button>
-                            <button class="btn btn-secondary start-test-btn" data-practice-set="2">Start Practice 2</button>
-                            <button class="btn btn-primary start-test-btn" data-practice-set="3">Start Practice 3</button>
-                            <button class="btn btn-primary start-test-btn" data-practice-set="4">Start Practice 4</button>
-                            <button class="btn btn-primary start-test-btn" data-practice-set="5">Start Practice 5 (Hard)</button>
+                            <button class="btn btn-primary start-test-btn" data-practice-set="1">Practice 1</button>
+                            <button class="btn btn-secondary start-test-btn" data-practice-set="2">Practice 2</button>
+                            <button class="btn btn-primary start-test-btn" data-practice-set="3">Practice 3</button>
+                            <button class="btn btn-primary start-test-btn" data-practice-set="4">Practice 4</button>
+                            <button class="btn btn-primary start-test-btn" data-practice-set="5">Practice 5</button>
+                            <button class="btn btn-primary start-test-btn" data-practice-set="6">Practice 6</button>
+                            <button class="btn btn-primary start-test-btn" data-practice-set="7">Practice 7</button>
                         </div>
                     </div>
 
