@@ -7,10 +7,10 @@
 
 body {
     font-family: 'Inter', sans-serif;
-    line-height: 1.6;
-    color: #333;
+    line-height: 1.7;
+    color: #1e293b;
     overflow-x: hidden;
-    background: #f9fafb;
+    background: #f8fafc;
     min-height: 100vh;
 }
 
@@ -22,15 +22,16 @@ body {
 
 /* Header - Simplified for login page */
 .header {
-    background: rgba(255, 255, 255, 0.95);
-    backdrop-filter: blur(10px);
+    background: rgba(255, 255, 255, 0.98);
+    backdrop-filter: blur(12px);
     position: fixed;
     top: 0;
     left: 0;
     right: 0;
     z-index: 1000;
-    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
-    transition: all 0.3s ease;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.06);
+    transition: all 0.25s ease;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.04);
 }
 
 .header .container {
@@ -42,15 +43,16 @@ body {
 
 .nav-brand h1 {
     font-size: 1.5rem;
-    font-weight: 700;
-    color: #2563eb;
+    font-weight: 600;
+    color: #3b82f6;
     margin: 0;
     cursor: pointer;
-    transition: color 0.3s ease;
+    transition: color 0.25s ease;
+    letter-spacing: -0.02em;
 }
 
 .nav-brand h1:hover {
-    color: #1d4ed8;
+    color: #2563eb;
 }
 
 .nav {
@@ -118,7 +120,7 @@ body {
 
 /* Auth Section */
 .auth-section {
-    padding: 120px 0 40px;
+    padding: 140px 0 60px;
     min-height: 100vh;
     display: flex;
     align-items: center;
@@ -130,17 +132,18 @@ body {
     gap: 4rem;
     align-items: center;
     background: white;
-    border-radius: 24px;
-    box-shadow: 0 20px 50px rgba(0, 0, 0, 0.1);
+    border-radius: 32px;
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.08);
+    border: 1px solid rgba(0, 0, 0, 0.05);
     overflow: hidden;
     min-height: 600px;
 }
 
 /* Welcome Side */
 .auth-welcome {
-    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    background: linear-gradient(135deg, #3b82f6 0%, #2563eb 100%);
     color: white;
-    padding: 3rem;
+    padding: 3.5rem;
     display: flex;
     align-items: center;
     min-height: 600px;
@@ -262,9 +265,9 @@ body {
 
 .form-group input:focus,
 .form-group select:focus {
-    border-color: #2563eb;
+    border-color: #3b82f6;
     background: white;
-    box-shadow: 0 0 0 3px rgba(37, 99, 235, 0.1);
+    box-shadow: 0 0 0 3px rgba(59, 130, 246, 0.12);
 }
 
 .form-group label {
@@ -286,7 +289,7 @@ body {
     top: -0.5rem;
     left: 0.75rem;
     font-size: 0.875rem;
-    color: #2563eb;
+    color: #3b82f6;
     background: white;
 }
 
@@ -305,7 +308,7 @@ body {
 }
 
 .password-toggle:hover {
-    color: #2563eb;
+    color: #3b82f6;
 }
 
 /* Form Options */
@@ -342,8 +345,8 @@ body {
 }
 
 .checkbox-container input:checked ~ .checkmark {
-    background-color: #2563eb;
-    border-color: #2563eb;
+    background-color: #3b82f6;
+    border-color: #3b82f6;
 }
 
 .checkmark:after {
@@ -367,45 +370,45 @@ body {
 .forgot-link,
 .terms-link,
 .privacy-link {
-    color: #2563eb;
+    color: #3b82f6;
     text-decoration: none;
     font-size: 0.875rem;
-    transition: color 0.3s ease;
+    transition: color 0.25s ease;
 }
 
 .forgot-link:hover,
 .terms-link:hover,
 .privacy-link:hover {
-    color: #1d4ed8;
+    color: #2563eb;
     text-decoration: underline;
 }
 
 /* Buttons */
 .btn {
-    padding: 1rem 2rem;
-    border-radius: 12px;
+    padding: 1.125rem 2rem;
+    border-radius: 14px;
     font-weight: 600;
     text-decoration: none;
     border: none;
     cursor: pointer;
-    transition: all 0.3s ease;
+    transition: all 0.25s ease;
     font-size: 1rem;
     display: inline-block;
     text-align: center;
 }
 
 .btn-primary {
-    background: #2563eb;
+    background: #3b82f6;
     color: white;
-    box-shadow: 0 4px 15px rgba(37, 99, 235, 0.3);
+    box-shadow: 0 2px 8px rgba(59, 130, 246, 0.2);
     width: 100%;
-    margin-top: 0.5rem;
+    margin-top: 0.75rem;
 }
 
 .btn-primary:hover {
-    background: #1d4ed8;
-    transform: translateY(-2px);
-    box-shadow: 0 8px 25px rgba(37, 99, 235, 0.4);
+    background: #2563eb;
+    transform: translateY(-1px);
+    box-shadow: 0 4px 12px rgba(59, 130, 246, 0.25);
 }
 
 .btn-primary:disabled {
@@ -426,16 +429,16 @@ body {
 .switch-btn {
     background: none;
     border: none;
-    color: #2563eb;
+    color: #3b82f6;
     font-weight: 600;
     cursor: pointer;
     text-decoration: underline;
     margin-left: 0.5rem;
-    transition: color 0.3s ease;
+    transition: color 0.25s ease;
 }
 
 .switch-btn:hover {
-    color: #1d4ed8;
+    color: #2563eb;
 }
 
 /* Form Messages */
