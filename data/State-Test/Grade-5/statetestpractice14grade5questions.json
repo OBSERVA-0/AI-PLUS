@@ -1,0 +1,461 @@
+[
+    {
+        "_id": "3",
+        "question_number": 3,
+        "practice_set": 63,
+        "category": "Math: Division",
+        "difficulty": "easy",
+        "time_estimate": 45,
+        "passage": "pdfData:pdf/2025-released-items-math-g5.pdf",
+        "question_text": "What is the quotient of 2,550 ÷ 25?",
+        "options": [
+            "100",
+            "102",
+            "105",
+            "120"
+        ],
+        "correct_answer": 1,
+        "answer_type": "multiple_choice"
+    },
+    {
+        "_id": "5",
+        "question_number": 5,
+        "practice_set": 63,
+        "category": "Math: Place Value",
+        "difficulty": "easy",
+        "time_estimate": 30,
+        "passage": "pdfData:pdf/2025-released-items-math-g5.pdf",
+        "question_text": "Which number has a 2 in the tens place?",
+        "options": [
+            "0.26",
+            "2.09",
+            "3.726",
+            "425.9"
+        ],
+        "correct_answer": 3,
+        "answer_type": "multiple_choice"
+    },
+    {
+        "_id": "9",
+        "question_number": 9,
+        "practice_set": 63,
+        "category": "Math: Expressions",
+        "difficulty": "easy",
+        "time_estimate": 45,
+        "passage": "pdfData:pdf/2025-released-items-math-g5.pdf",
+        "question_text": "Which expression is equivalent to 3/4 x 7?",
+        "options": [
+            "3 x 4 ÷ 7",
+            "3 x 7 ÷ 4",
+            "3 ÷ 4 ÷ 7",
+            "3 x 7 x 4"
+        ],
+        "correct_answer": 1,
+        "answer_type": "multiple_choice"
+    },
+    {
+        "_id": "10",
+        "question_number": 10,
+        "practice_set": 63,
+        "category": "Math: Volume",
+        "difficulty": "easy",
+        "time_estimate": 60,
+        "passage": "pdfData:pdf/2025-released-items-math-g5.pdf",
+        "question_text": "The first layer of a right rectangular prism is shown below. [Image shows a base layer of 5x3 unit cubes] Each small cube has a volume of 1 cubic unit. The height of the entire right rectangular prism is 6 unit cubes. What is the volume, in cubic units, of this prism?",
+        "options": [
+            "15",
+            "23",
+            "60",
+            "90"
+        ],
+        "correct_answer": 3,
+        "answer_type": "multiple_choice"
+    },
+    {
+        "_id": "11",
+        "question_number": 11,
+        "practice_set": 63,
+        "category": "Math: Fractions",
+        "difficulty": "easy",
+        "time_estimate": 60,
+        "passage": "pdfData:pdf/2025-released-items-math-g5.pdf",
+        "question_text": "A baker has 1/4 of a box of muffin mix. He pours all the muffin mix equally into 3 bowls. What fraction of the whole box of muffin mix is in each bowl?",
+        "options": [
+            "1/12",
+            "3/4",
+            "2 3/4",
+            "3 1/4"
+        ],
+        "correct_answer": 0,
+        "answer_type": "multiple_choice"
+    },
+    {
+        "_id": "13",
+        "question_number": 13,
+        "practice_set": 63,
+        "category": "Math: Fractions",
+        "difficulty": "medium",
+        "time_estimate": 75,
+        "passage": "pdfData:pdf/2025-released-items-math-g5.pdf",
+        "question_text": "Jamie has aquarium rocks that come in bags that weigh 2 2/5 pounds each. She has 1 1/2 bags of rocks. What is the total weight, in pounds, of the aquarium rocks that Jamie has?",
+        "options": [
+            "1 3/5",
+            "3 3/7",
+            "3 3/5",
+            "3 9/10"
+        ],
+        "correct_answer": 2,
+        "answer_type": "multiple_choice"
+    },
+    {
+        "_id": "14",
+        "question_number": 14,
+        "practice_set": 63,
+        "category": "Math: Fractions",
+        "difficulty": "easy",
+        "time_estimate": 45,
+        "passage": "pdfData:pdf/2025-released-items-math-g5.pdf",
+        "question_text": "What is the value of 34/100 + 2/10?",
+        "options": [
+            "54/100",
+            "54/10",
+            "36/100",
+            "36/10"
+        ],
+        "correct_answer": 0,
+        "answer_type": "multiple_choice"
+    },
+    {
+        "_id": "15",
+        "question_number": 15,
+        "practice_set": 63,
+        "category": "Math: Geometry",
+        "difficulty": "easy",
+        "time_estimate": 30,
+        "passage": "pdfData:pdf/2025-released-items-math-g5.pdf",
+        "question_text": "Which shape always has four sides of equal length?",
+        "options": [
+            "rectangle",
+            "rhombus",
+            "parallelogram",
+            "trapezoid"
+        ],
+        "correct_answer": 1,
+        "answer_type": "multiple_choice"
+    },
+    {
+        "_id": "20",
+        "question_number": 20,
+        "practice_set": 63,
+        "category": "Math: Decimals",
+        "difficulty": "easy",
+        "time_estimate": 30,
+        "passage": "pdfData:pdf/2025-released-items-math-g5.pdf",
+        "question_text": "What is 63.4368 rounded to the nearest hundredth?",
+        "options": [
+            "63.4",
+            "63.43",
+            "63.44",
+            "63.437"
+        ],
+        "correct_answer": 2,
+        "answer_type": "multiple_choice"
+    },
+    {
+        "_id": "24",
+        "question_number": 24,
+        "practice_set": 63,
+        "category": "Math: Measurement & Conversion",
+        "difficulty": "medium",
+        "time_estimate": 60,
+        "passage": "pdfData:pdf/2025-released-items-math-g5.pdf",
+        "question_text": "A container had 1 liter of water. Exactly 800 milliliters of the water were removed from the container. Which picture shows the amount of water remaining in the container? (1 liter = 1000 milliliters)",
+        "options": [
+            "[Image A: Beaker showing 200 mL]",
+            "[Image B: Beaker showing 600 mL]",
+            "[Image C: Beaker showing 800 mL]",
+            "[Image D: Beaker showing 1000 mL]"
+        ],
+        "correct_answer": 0,
+        "answer_type": "multiple_choice"
+    },
+    {
+        "_id": "25",
+        "question_number": 25,
+        "practice_set": 63,
+        "category": "Math: Fractions",
+        "difficulty": "easy",
+        "time_estimate": 60,
+        "passage": "pdfData:pdf/2025-released-items-math-g5.pdf",
+        "question_text": "Lori uses 12 pounds of turkey to make 60 sandwiches. Each sandwich has the same amount of turkey. What is the total amount of turkey in each sandwich?",
+        "options": [
+            "1/6 pound",
+            "1/5 pound",
+            "5 pounds",
+            "6 pounds"
+        ],
+        "correct_answer": 1,
+        "answer_type": "multiple_choice"
+    },
+    {
+        "_id": "26",
+        "question_number": 26,
+        "practice_set": 63,
+        "category": "Math: Fractions",
+        "difficulty": "easy",
+        "time_estimate": 60,
+        "passage": "pdfData:pdf/2025-released-items-math-g5.pdf",
+        "question_text": "Sheri walks 1 1/3 miles to the store. From the store she walks 2/5 of a mile to a friend's house. What is the total distance, in miles, that Sheri walks?",
+        "options": [
+            "8/15",
+            "6/8",
+            "1 3/8",
+            "1 11/15"
+        ],
+        "correct_answer": 3,
+        "answer_type": "multiple_choice"
+    },
+    {
+        "_id": "28",
+        "question_number": 28,
+        "practice_set": 63,
+        "category": "Math: Place Value",
+        "difficulty": "medium",
+        "time_estimate": 60,
+        "passage": "pdfData:pdf/2025-released-items-math-g5.pdf",
+        "question_text": "In which number does the digit 6 represent a value that is one tenth the value represented by the digit 6 in the number 506.42?",
+        "options": [
+            "504.26",
+            "540.62",
+            "560.42",
+            "604.25"
+        ],
+        "correct_answer": 1,
+        "answer_type": "multiple_choice"
+    },
+    {
+        "_id": "29",
+        "question_number": 29,
+        "practice_set": 63,
+        "category": "Math: Volume",
+        "difficulty": "easy",
+        "time_estimate": 45,
+        "passage": "pdfData:pdf/2025-released-items-math-g5.pdf",
+        "question_text": "The figure shown below is made of unit cubes. The bottom layer of the figure is identical to the top layer.  What is the volume, in cubic units, of the figure?",
+        "options": [
+            "16",
+            "20",
+            "24",
+            "30"
+        ],
+        "correct_answer": 0,
+        "answer_type": "multiple_choice"
+    },
+    {
+        "_id": "31",
+        "question_number": 31,
+        "practice_set": 63,
+        "category": "Math: Division",
+        "difficulty": "easy",
+        "time_estimate": 60,
+        "passage": "pdfData:pdf/2025-released-items-math-g5.pdf",
+        "question_text": "A company owner spends $1,488 for tickets to a baseball game. The price of each ticket is $24. How many tickets does the company owner buy?",
+        "options": [
+            "62",
+            "68",
+            "74",
+            "75"
+        ],
+        "correct_answer": 0,
+        "answer_type": "multiple_choice"
+    },
+    {
+        "_id": "32",
+        "question_number": 32,
+        "practice_set": 63,
+        "category": "Math: Measurement & Conversion",
+        "difficulty": "medium",
+        "time_estimate": 75,
+        "passage": "pdfData:pdf/2025-released-items-math-g5.pdf",
+        "question_text": "An art teacher makes green paint by combining 2 quarts of yellow paint and 3 pints of blue paint. How much green paint, in cups, does the art teacher make? (1 quart = 2 pints, 1 pint = 2 cups)",
+        "options": [
+            "7",
+            "10",
+            "14",
+            "20"
+        ],
+        "correct_answer": 2,
+        "answer_type": "multiple_choice"
+    },
+    {
+        "_id": "33",
+        "question_number": 33,
+        "practice_set": 63,
+        "category": "Math: Fractions",
+        "difficulty": "medium",
+        "time_estimate": 60,
+        "passage": "pdfData:pdf/2025-released-items-math-g5.pdf",
+        "question_text": "Which expression is equivalent to 1 5/14 - 3/4?",
+        "options": [
+            "15/14 - 13/14",
+            "33/28 - 3/28",
+            "38/28 - 21/28",
+            "19/56 - 3/56"
+        ],
+        "correct_answer": 2,
+        "answer_type": "multiple_choice"
+    },
+    {
+        "_id": "34",
+        "question_number": 34,
+        "practice_set": 63,
+        "category": "Math: Decimals",
+        "difficulty": "easy",
+        "time_estimate": 75,
+        "passage": "pdfData:pdf/2025-released-items-math-g5.pdf",
+        "question_text": "Jaylah is buying her favorite candy at a store. The cost for each piece of candy is $0.63. Jaylah buys 5 pieces of candy. She pays with a $5.00 bill. What is the total amount of money she should get in change?",
+        "options": [
+            "$1.55",
+            "$1.85",
+            "$3.05",
+            "$3.15"
+        ],
+        "correct_answer": 1,
+        "answer_type": "multiple_choice"
+    },
+    {
+        "_id": "35",
+        "question_number": 35,
+        "practice_set": 63,
+        "category": "Math: Geometry",
+        "difficulty": "easy",
+        "time_estimate": 30,
+        "passage": "pdfData:pdf/2025-released-items-math-g5.pdf",
+        "question_text": "Which statement about parallelograms is true?",
+        "options": [
+            "All parallelograms are squares.",
+            "All parallelograms are rectangles.",
+            "All parallelograms are rhombuses.",
+            "All parallelograms are quadrilaterals."
+        ],
+        "correct_answer": 3,
+        "answer_type": "multiple_choice"
+    },
+    {
+        "_id": "36",
+        "question_number": 36,
+        "practice_set": 63,
+        "category": "Math: Volume",
+        "difficulty": "easy",
+        "time_estimate": 90,
+        "passage": "pdfData:pdf/2025-released-items-math-g5.pdf",
+        "question_text": "A right rectangular prism is shown below.  The volume of the prism is 90 cubic feet. What is the width, w, in feet, of the prism?",
+        "options": [],
+        "correct_answer": null,
+        "answer_type": "short_response"
+    },
+    {
+        "_id": "37",
+        "question_number": 37,
+        "practice_set": 63,
+        "category": "Math: Fractions",
+        "difficulty": "medium",
+        "time_estimate": 90,
+        "passage": "pdfData:pdf/2025-released-items-math-g5.pdf",
+        "question_text": "Last week, Nancy hiked 7 3/4 miles. This week, she swam 2/3 the distance she hiked last week. How many miles did Nancy swim this week?",
+        "options": [],
+        "correct_answer": null,
+        "answer_type": "short_response"
+    },
+    {
+        "_id": "38",
+        "question_number": 38,
+        "practice_set": 63,
+        "category": "Math: Fractions",
+        "difficulty": "easy",
+        "time_estimate": 60,
+        "passage": "pdfData:pdf/2025-released-items-math-g5.pdf",
+        "question_text": "Leia has 5 pounds of chocolate that she will put into bags. She puts 1/3 pound of the chocolate into each bag. Into how many bags does Leia put the chocolate?",
+        "options": [],
+        "correct_answer": null,
+        "answer_type": "short_response"
+    },
+    {
+        "_id": "39",
+        "question_number": 39,
+        "practice_set": 63,
+        "category": "Math: Area",
+        "difficulty": "medium",
+        "time_estimate": 120,
+        "passage": "pdfData:pdf/2025-released-items-math-g5.pdf",
+        "question_text": "A diagram of a rectangle with given dimensions is shown below.  What is the area, in square feet, of the rectangle?",
+        "options": [],
+        "correct_answer": null,
+        "answer_type": "short_response"
+    },
+    {
+        "_id": "40",
+        "question_number": 40,
+        "practice_set": 63,
+        "category": "Math: Decimals",
+        "difficulty": "medium",
+        "time_estimate": 120,
+        "passage": "pdfData:pdf/2025-released-items-math-g5.pdf",
+        "question_text": "Write a comparison statement using >, <, or = that shows the relationship between the numbers 157.890 and 157.809. Explain how you know your answer is correct.",
+        "options": [],
+        "correct_answer": null,
+        "answer_type": "short_response"
+    },
+    {
+        "_id": "41",
+        "question_number": 41,
+        "practice_set": 63,
+        "category": "Math: Volume",
+        "difficulty": "hard",
+        "time_estimate": 180,
+        "passage": "pdfData:pdf/2025-released-items-math-g5.pdf",
+        "question_text": "Two right rectangular prisms were combined to make the figure shown below.  What is the total volume, in cubic centimeters, of the figure?",
+        "options": [],
+        "correct_answer": null,
+        "answer_type": "short_response"
+    },
+    {
+        "_id": "42",
+        "question_number": 42,
+        "practice_set": 63,
+        "category": "Math: Number Theory",
+        "difficulty": "medium",
+        "time_estimate": 120,
+        "passage": "pdfData:pdf/2025-released-items-math-g5.pdf",
+        "question_text": "A teacher writes the equation 6 x 3/3 = 6 on the board. A student says the equation is wrong because multiplying 6 by a fraction results in a product that is less than 6. Is the student correct? Explain your answer.",
+        "options": [],
+        "correct_answer": null,
+        "answer_type": "short_response"
+    },
+    {
+        "_id": "43",
+        "question_number": 43,
+        "practice_set": 63,
+        "category": "Math: Data Analysis",
+        "difficulty": "medium",
+        "time_estimate": 150,
+        "passage": "pdfData:pdf/2025-released-items-math-g5.pdf",
+        "question_text": "The Science Club tests paper airplane designs by measuring how far they fly. The results are recorded in the line plot shown below.  What is the difference, in yards, between the longest and shortest flights?",
+        "options": [],
+        "correct_answer": null,
+        "answer_type": "short_response"
+    },
+    {
+        "_id": "44",
+        "question_number": 44,
+        "practice_set": 63,
+        "category": "Math: Decimals",
+        "difficulty": "hard",
+        "time_estimate": 180,
+        "passage": "pdfData:pdf/2025-released-items-math-g5.pdf",
+        "question_text": "Josh is training for a race. The number of miles he runs each month for three months is shown below.\n- Josh runs 12.35 miles in March.\n- Josh runs 3 times as many miles in April as in March.\n- Josh runs 43.1 more miles in May than he ran in March.\nWhat is the total number of miles Josh runs for these three months?",
+        "options": [],
+        "correct_answer": null,
+        "answer_type": "short_response"
+    }
+]

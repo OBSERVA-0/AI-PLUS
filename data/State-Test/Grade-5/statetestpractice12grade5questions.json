@@ -1,0 +1,461 @@
+[
+    {
+        "_id": "1",
+        "question_number": 1,
+        "practice_set": 63,
+        "category": "Math: Fractions",
+        "difficulty": "easy",
+        "time_estimate": 45,
+        "passage": "pdfData:pdf/2023-released-items-math-g5.pdf",
+        "question_text": "There is 7/8 of a whole pizza in Anthony's refrigerator. He eats 3/8 of the whole pizza for lunch. What fraction of the whole pizza is left after Anthony eats pizza for lunch?",
+        "options": [
+            "10/8",
+            "5/8",
+            "4/8",
+            "3/8"
+        ],
+        "correct_answer": 2,
+        "answer_type": "multiple_choice"
+    },
+    {
+        "_id": "2",
+        "question_number": 2,
+        "practice_set": 63,
+        "category": "Math: Decimals",
+        "difficulty": "easy",
+        "time_estimate": 30,
+        "passage": "pdfData:pdf/2023-released-items-math-g5.pdf",
+        "question_text": "What number represents ninety-nine thousandths?",
+        "options": [
+            "0.099",
+            "0.990",
+            "9.900",
+            "99.000"
+        ],
+        "correct_answer": 0,
+        "answer_type": "multiple_choice"
+    },
+    {
+        "_id": "3",
+        "question_number": 3,
+        "practice_set": 63,
+        "category": "Math: Volume",
+        "difficulty": "easy",
+        "time_estimate": 45,
+        "passage": "pdfData:pdf/2023-released-items-math-g5.pdf",
+        "question_text": "A shipping box in the shape of a right rectangular prism has a base with an area of 16 square feet and a height of 6 feet. What is the volume, in cubic feet, of the box?",
+        "options": [
+            "22",
+            "96",
+            "192",
+            "1,536"
+        ],
+        "correct_answer": 1,
+        "answer_type": "multiple_choice"
+    },
+    {
+        "_id": "8",
+        "question_number": 8,
+        "practice_set": 63,
+        "category": "Math: Place Value",
+        "difficulty": "easy",
+        "time_estimate": 45,
+        "passage": "pdfData:pdf/2023-released-items-math-g5.pdf",
+        "question_text": "What number has the same value as 32 x 10^4?",
+        "options": [
+            "3.2",
+            "320",
+            "0.0032",
+            "320,000"
+        ],
+        "correct_answer": 3,
+        "answer_type": "multiple_choice"
+    },
+    {
+        "_id": "9",
+        "question_number": 9,
+        "practice_set": 63,
+        "category": "Math: Area Model",
+        "difficulty": "medium",
+        "time_estimate": 75,
+        "passage": "pdfData:pdf/2023-released-items-math-g5.pdf",
+        "question_text": "Which model is shaded to represent the area of a rectangle that is 4/5 centimeter long and 3/10 centimeter wide?",
+        "options": [
+            "[Image A: 10x10 grid with 4x3 shading]",
+            "[Image B: 10x10 grid with 8x3 shading]",
+            "[Image C: 10x10 grid with 4x5 shading]",
+            "[Image D: 10x10 grid with 8x5 shading]"
+        ],
+        "correct_answer": 1,
+        "answer_type": "multiple_choice"
+    },
+    {
+        "_id": "10",
+        "question_number": 10,
+        "practice_set": 63,
+        "category": "Math: Division",
+        "difficulty": "easy",
+        "time_estimate": 60,
+        "passage": "pdfData:pdf/2023-released-items-math-g5.pdf",
+        "question_text": "A mall parking lot has 2,232 parking spaces. There are 24 parking spaces in each row. How many rows are in the parking lot?",
+        "options": [
+            "89",
+            "93",
+            "94",
+            "97"
+        ],
+        "correct_answer": 1,
+        "answer_type": "multiple_choice"
+    },
+    {
+        "_id": "11",
+        "question_number": 11,
+        "practice_set": 63,
+        "category": "Math: Fractions",
+        "difficulty": "easy",
+        "time_estimate": 60,
+        "passage": "pdfData:pdf/2023-released-items-math-g5.pdf",
+        "question_text": "A teacher has 20 feet of string to use for a class project. She uses all of the string and gives an equal amount to 8 students. How much string, in feet, will each student get?",
+        "options": [
+            "2 1/5",
+            "2 3/10",
+            "2 1/2",
+            "2 3/4"
+        ],
+        "correct_answer": 2,
+        "answer_type": "multiple_choice"
+    },
+    {
+        "_id": "14",
+        "question_number": 14,
+        "practice_set": 63,
+        "category": "Math: Place Value",
+        "difficulty": "easy",
+        "time_estimate": 45,
+        "passage": "pdfData:pdf/2023-released-items-math-g5.pdf",
+        "question_text": "What digit will be in the tens place after 8,642 is divided by 10?",
+        "options": [
+            "2",
+            "4",
+            "6",
+            "8"
+        ],
+        "correct_answer": 2,
+        "answer_type": "multiple_choice"
+    },
+    {
+        "_id": "17",
+        "question_number": 17,
+        "practice_set": 63,
+        "category": "Math: Number Theory",
+        "difficulty": "easy",
+        "time_estimate": 45,
+        "passage": "pdfData:pdf/2023-released-items-math-g5.pdf",
+        "question_text": "Which expression has a value less than 1 1/2?",
+        "options": [
+            "1 1/2 x 3/2",
+            "1 1/2 x 1/2",
+            "1 1/2 x 2",
+            "1 1/2 x 1"
+        ],
+        "correct_answer": 1,
+        "answer_type": "multiple_choice"
+    },
+    {
+        "_id": "18",
+        "question_number": 18,
+        "practice_set": 63,
+        "category": "Math: Volume",
+        "difficulty": "easy",
+        "time_estimate": 60,
+        "passage": "pdfData:pdf/2023-released-items-math-g5.pdf",
+        "question_text": "A diagram of two right rectangular prisms, each made with unit cubes, is shown below.  What is the total volume, in cubic units, of Prism A and Prism B?",
+        "options": [
+            "9",
+            "18",
+            "27",
+            "36"
+        ],
+        "correct_answer": 3,
+        "answer_type": "multiple_choice"
+    },
+    {
+        "_id": "20",
+        "question_number": 20,
+        "practice_set": 63,
+        "category": "Math: Decimals",
+        "difficulty": "easy",
+        "time_estimate": 75,
+        "passage": "pdfData:pdf/2023-released-items-math-g5.pdf",
+        "question_text": "The total snowfall for a town from Friday through Sunday was 34 inches.\n- On Friday, the snowfall was 11.25 inches.\n- On Saturday, the snowfall was 9.9 inches.\nHow many inches of snow fell on Sunday?",
+        "options": [
+            "12.85",
+            "13.15",
+            "20.34",
+            "21.15"
+        ],
+        "correct_answer": 0,
+        "answer_type": "multiple_choice"
+    },
+    {
+        "_id": "21",
+        "question_number": 21,
+        "practice_set": 63,
+        "category": "Math: Fractions",
+        "difficulty": "easy",
+        "time_estimate": 60,
+        "passage": "pdfData:pdf/2023-released-items-math-g5.pdf",
+        "question_text": "Dorian walks at an average speed of 2 1/2 miles per hour. He walks for 3/4 hour. How many miles does he walk?",
+        "options": [
+            "1 3/4",
+            "1 7/8",
+            "2 3/8",
+            "3 1/4"
+        ],
+        "correct_answer": 1,
+        "answer_type": "multiple_choice"
+    },
+    {
+        "_id": "26",
+        "question_number": 26,
+        "practice_set": 63,
+        "category": "Math: Decimals",
+        "difficulty": "easy",
+        "time_estimate": 60,
+        "passage": "pdfData:pdf/2023-released-items-math-g5.pdf",
+        "question_text": "Ms. Roman buys 3.5 pounds of birdseed. She pays $4.28 per pound. How much did Ms. Roman pay for all of the birdseed?",
+        "options": [
+            "$4.28",
+            "$7.78",
+            "$12.84",
+            "$14.98"
+        ],
+        "correct_answer": 3,
+        "answer_type": "multiple_choice"
+    },
+    {
+        "_id": "29",
+        "question_number": 29,
+        "practice_set": 63,
+        "category": "Math: Fractions",
+        "difficulty": "easy",
+        "time_estimate": 75,
+        "passage": "pdfData:pdf/2023-released-items-math-g5.pdf",
+        "question_text": "A store sells packages of black pens, blue pens, and red pens.\n- 4/9 of the packages are black pens\n- 1/6 of the packages are blue pens\nWhat fraction of the packages are red pens?",
+        "options": [
+            "5/15",
+            "7/18",
+            "10/15",
+            "11/18"
+        ],
+        "correct_answer": 1,
+        "answer_type": "multiple_choice"
+    },
+    {
+        "_id": "31",
+        "question_number": 31,
+        "practice_set": 63,
+        "category": "Math: Volume",
+        "difficulty": "easy",
+        "time_estimate": 45,
+        "passage": "pdfData:pdf/2023-released-items-math-g5.pdf",
+        "question_text": "A diagram of a right rectangular prism made of unit cubes is shown below.  What is the volume, in cubic units, of the right rectangular prism?",
+        "options": [
+            "13",
+            "24",
+            "60",
+            "72"
+        ],
+        "correct_answer": 3,
+        "answer_type": "multiple_choice"
+    },
+    {
+        "_id": "32",
+        "question_number": 32,
+        "practice_set": 63,
+        "category": "Math: Division",
+        "difficulty": "easy",
+        "time_estimate": 45,
+        "passage": "pdfData:pdf/2023-released-items-math-g5.pdf",
+        "question_text": "There are 210 apples placed equally into 14 boxes. How many apples are in each box?",
+        "options": [
+            "12",
+            "14",
+            "15",
+            "21"
+        ],
+        "correct_answer": 2,
+        "answer_type": "multiple_choice"
+    },
+    {
+        "_id": "33",
+        "question_number": 33,
+        "practice_set": 63,
+        "category": "Math: Fractions",
+        "difficulty": "easy",
+        "time_estimate": 75,
+        "passage": "pdfData:pdf/2023-released-items-math-g5.pdf",
+        "question_text": "Diane walks 3 3/8 miles on Saturday. She walks 1 5/6 fewer miles on Sunday than she does on Saturday. How many miles does Diane walk on Sunday?",
+        "options": [
+            "1 13/24",
+            "2 11/24",
+            "2 13/24",
+            "5 5/24"
+        ],
+        "correct_answer": 0,
+        "answer_type": "multiple_choice"
+    },
+    {
+        "_id": "34",
+        "question_number": 34,
+        "practice_set": 63,
+        "category": "Math: Geometry",
+        "difficulty": "easy",
+        "time_estimate": 30,
+        "passage": "pdfData:pdf/2023-released-items-math-g5.pdf",
+        "question_text": "Which statement about a rhombus and a square is always true?",
+        "options": [
+            "Both shapes are parallelograms that have four equal sides.",
+            "Both shapes are parallelograms that have four right angles.",
+            "Both shapes are quadrilaterals with exactly two acute angles.",
+            "Both shapes are quadrilaterals with exactly one pair of parallel sides."
+        ],
+        "correct_answer": 0,
+        "answer_type": "multiple_choice"
+    },
+    {
+        "_id": "35",
+        "question_number": 35,
+        "practice_set": 63,
+        "category": "Math: Measurement & Conversion",
+        "difficulty": "easy",
+        "time_estimate": 30,
+        "passage": "pdfData:pdf/2023-released-items-math-g5.pdf",
+        "question_text": "A cook in a restaurant has 13 gallons of milk. How much milk, in quarts, does the cook have? (1 gallon = 4 quarts)",
+        "options": [
+            "17",
+            "26",
+            "42",
+            "52"
+        ],
+        "correct_answer": 3,
+        "answer_type": "multiple_choice"
+    },
+    {
+        "_id": "36",
+        "question_number": 36,
+        "practice_set": 63,
+        "category": "Math: Decimals",
+        "difficulty": "easy",
+        "time_estimate": 60,
+        "passage": "pdfData:pdf/2023-released-items-math-g5.pdf",
+        "question_text": "The heights, in inches, of four towers made from toothpicks are shown below.\n33.1   33.2   29.3   33.3\nWrite a number sentence comparing the heights, in inches, of the two tallest towers. Be sure to include the symbol >, <, or = in your answer.",
+        "options": [],
+        "correct_answer": null,
+        "answer_type": "short_response"
+    },
+    {
+        "_id": "37",
+        "question_number": 37,
+        "practice_set": 63,
+        "category": "Math: Fractions",
+        "difficulty": "easy",
+        "time_estimate": 60,
+        "passage": "pdfData:pdf/2023-released-items-math-g5.pdf",
+        "question_text": "Andre is using a 15-foot piece of ribbon for an art project. He cuts the ribbon into equal-sized pieces 1/3 foot in length. Using all of the ribbon, how many pieces of ribbon does Andre cut?",
+        "options": [],
+        "correct_answer": null,
+        "answer_type": "short_response"
+    },
+    {
+        "_id": "38",
+        "question_number": 38,
+        "practice_set": 63,
+        "category": "Math: Volume",
+        "difficulty": "easy",
+        "time_estimate": 60,
+        "passage": "pdfData:pdf/2023-released-items-math-g5.pdf",
+        "question_text": "What is the volume, in cubic inches, of the cube shown in the diagram below? ",
+        "options": [],
+        "correct_answer": null,
+        "answer_type": "short_response"
+    },
+    {
+        "_id": "39",
+        "question_number": 39,
+        "practice_set": 63,
+        "category": "Math: Division",
+        "difficulty": "medium",
+        "time_estimate": 120,
+        "passage": "pdfData:pdf/2023-released-items-math-g5.pdf",
+        "question_text": "Josiah makes a total of 195 ounces of lemonade. He pours the lemonade into 16-ounce bottles until each bottle is full. What is the greatest number of bottles Josiah can fill completely with the lemonade?",
+        "options": [],
+        "correct_answer": null,
+        "answer_type": "short_response"
+    },
+    {
+        "_id": "40",
+        "question_number": 40,
+        "practice_set": 63,
+        "category": "Math: Number Theory",
+        "difficulty": "medium",
+        "time_estimate": 120,
+        "passage": "pdfData:pdf/2023-released-items-math-g5.pdf",
+        "question_text": "A multiplication problem is shown below.\n42 x 5/8\nA student claims that the product will be greater than 42. Is the student's claim correct? Explain without calculating the product.",
+        "options": [],
+        "correct_answer": null,
+        "answer_type": "short_response"
+    },
+    {
+        "_id": "41",
+        "question_number": 41,
+        "practice_set": 63,
+        "category": "Math: Volume",
+        "difficulty": "hard",
+        "time_estimate": 180,
+        "passage": "pdfData:pdf/2023-released-items-math-g5.pdf",
+        "question_text": "A diagram of a 3-dimensional figure is shown below.  What is the volume, in cubic centimeters, of the figure?",
+        "options": [],
+        "correct_answer": null,
+        "answer_type": "short_response"
+    },
+    {
+        "_id": "42",
+        "question_number": 42,
+        "practice_set": 63,
+        "category": "Math: Place Value",
+        "difficulty": "medium",
+        "time_estimate": 120,
+        "passage": "pdfData:pdf/2023-released-items-math-g5.pdf",
+        "question_text": "A student writes 67.203 in expanded form as shown below.\n(6 x 10) + (7 x 1) + (2 x 1/10) + (3 x 1/100)\nThe student made an error. Where did the student make an error? As part of your answer, write the number in the correct expanded form.",
+        "options": [],
+        "correct_answer": null,
+        "answer_type": "short_response"
+    },
+    {
+        "_id": "43",
+        "question_number": 43,
+        "practice_set": 63,
+        "category": "Math: Fractions",
+        "difficulty": "easy",
+        "time_estimate": 90,
+        "passage": "pdfData:pdf/2023-released-items-math-g5.pdf",
+        "question_text": "Adam opens a 1/2-pound can of tuna. He uses all the tuna to feed his cats. He puts an equal amount of tuna in 4 containers for his cats. How much tuna, in pounds, is in each container?",
+        "options": [],
+        "correct_answer": null,
+        "answer_type": "short_response"
+    },
+    {
+        "_id": "44",
+        "question_number": 44,
+        "practice_set": 63,
+        "category": "Math: Data Analysis",
+        "difficulty": "hard",
+        "time_estimate": 210,
+        "passage": "pdfData:pdf/2023-released-items-math-g5.pdf",
+        "question_text": "The line plot below shows the recorded amount of rain that fell in a city during the month of April. \nWhat was the total amount of rain, in inches, recorded in April?\nThe total amount of rain that fell in the city during the month of August was 8 1/4 inches. What was the difference in total rainfall, in inches, between August and April?",
+        "options": [],
+        "correct_answer": null,
+        "answer_type": "short_response"
+    }
+]

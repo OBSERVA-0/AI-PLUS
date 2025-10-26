@@ -1,0 +1,461 @@
+[
+    {
+        "_id": "1",
+        "question_number": 1,
+        "practice_set": 62,
+        "category": "Math: Decimals",
+        "difficulty": "easy",
+        "time_estimate": 45,
+        "passage": "pdfData:pdf/2024-released-items-math-g5.pdf",
+        "question_text": "Carlos walks 3.65 kilometers on Saturday and 1.46 kilometers on Sunday. How many total kilometers does Carlos walk on Saturday and Sunday?",
+        "options": [
+            "2.19",
+            "2.29",
+            "5.01",
+            "5.11"
+        ],
+        "correct_answer": 3,
+        "answer_type": "multiple_choice"
+    },
+    {
+        "_id": "2",
+        "question_number": 2,
+        "practice_set": 62,
+        "category": "Math: Expressions",
+        "difficulty": "easy",
+        "time_estimate": 45,
+        "passage": "pdfData:pdf/2024-released-items-math-g5.pdf",
+        "question_text": "Which expression is equivalent to 5 x 3/4?",
+        "options": [
+            "5/1 + 3/4",
+            "5/1 - 3/4",
+            "3/4 + 3/4 + 3/4 + 3/4 + 3/4",
+            "3/4 x 3/4 x 3/4 x 3/4 x 3/4"
+        ],
+        "correct_answer": 2,
+        "answer_type": "multiple_choice"
+    },
+    {
+        "_id": "3",
+        "question_number": 3,
+        "practice_set": 62,
+        "category": "Math: Volume",
+        "difficulty": "easy",
+        "time_estimate": 45,
+        "passage": "pdfData:pdf/2024-released-items-math-g5.pdf",
+        "question_text": "A diagram of a right rectangular prism made of unit cubes is shown below.  What measurement for the right rectangular prism is equal to the total number of cubes?",
+        "options": [
+            "area",
+            "height",
+            "perimeter",
+            "volume"
+        ],
+        "correct_answer": 3,
+        "answer_type": "multiple_choice"
+    },
+    {
+        "_id": "4",
+        "question_number": 4,
+        "practice_set": 62,
+        "category": "Math: Decimals",
+        "difficulty": "easy",
+        "time_estimate": 30,
+        "passage": "pdfData:pdf/2024-released-items-math-g5.pdf",
+        "question_text": "What is 34.275 rounded to the nearest hundredth?",
+        "options": [
+            "34.0",
+            "34.3",
+            "34.27",
+            "34.28"
+        ],
+        "correct_answer": 3,
+        "answer_type": "multiple_choice"
+    },
+    {
+        "_id": "7",
+        "question_number": 7,
+        "practice_set": 62,
+        "category": "Math: Fractions",
+        "difficulty": "easy",
+        "time_estimate": 60,
+        "passage": "pdfData:pdf/2024-released-items-math-g5.pdf",
+        "question_text": "A group of 4 gold miners found 10 ounces of gold. The miners shared the gold equally. How much gold, in ounces, did each miner receive?",
+        "options": [
+            "1/4",
+            "4/10",
+            "2 2/10",
+            "2 1/2"
+        ],
+        "correct_answer": 3,
+        "answer_type": "multiple_choice"
+    },
+    {
+        "_id": "9",
+        "question_number": 9,
+        "practice_set": 62,
+        "category": "Math: Volume",
+        "difficulty": "medium",
+        "time_estimate": 120,
+        "passage": "pdfData:pdf/2024-released-items-math-g5.pdf",
+        "question_text": "A diagram of a 3-dimensional figure is shown below.  What is the volume, in cubic inches, of the figure?",
+        "options": [
+            "35",
+            "72",
+            "184",
+            "240"
+        ],
+        "correct_answer": 2,
+        "answer_type": "multiple_choice"
+    },
+    {
+        "_id": "10",
+        "question_number": 10,
+        "practice_set": 62,
+        "category": "Math: Fractions",
+        "difficulty": "easy",
+        "time_estimate": 60,
+        "passage": "pdfData:pdf/2024-released-items-math-g5.pdf",
+        "question_text": "Steven has 3 cups of raisins. He shares all the raisins equally among himself and his friends. If each person gets 1/4 cup of raisins, how many people, in total, get raisins?",
+        "options": [
+            "1",
+            "4",
+            "7",
+            "12"
+        ],
+        "correct_answer": 3,
+        "answer_type": "multiple_choice"
+    },
+    {
+        "_id": "12",
+        "question_number": 12,
+        "practice_set": 62,
+        "category": "Math: Word Problems",
+        "difficulty": "medium",
+        "time_estimate": 90,
+        "passage": "pdfData:pdf/2024-released-items-math-g5.pdf",
+        "question_text": "Saul has $6.00 in quarters. He uses all of the quarters to play video games. If each game requires 3 quarters, what is the total number of video games that Saul plays?",
+        "options": [
+            "2",
+            "8",
+            "12",
+            "18"
+        ],
+        "correct_answer": 1,
+        "answer_type": "multiple_choice"
+    },
+    {
+        "_id": "15",
+        "question_number": 15,
+        "practice_set": 62,
+        "category": "Math: Division",
+        "difficulty": "medium",
+        "time_estimate": 90,
+        "passage": "pdfData:pdf/2024-released-items-math-g5.pdf",
+        "question_text": "A company has an annual employee picnic. The company rents buses to transport the employees to the picnic area. There are 1,320 employees. Each bus carries a total of 54 employees. What is the minimum number of buses the company needs to transport all of the employees to the picnic area?",
+        "options": [
+            "24",
+            "25",
+            "26",
+            "27"
+        ],
+        "correct_answer": 1,
+        "answer_type": "multiple_choice"
+    },
+    {
+        "_id": "16",
+        "question_number": 16,
+        "practice_set": 62,
+        "category": "Math: Decimals",
+        "difficulty": "easy",
+        "time_estimate": 30,
+        "passage": "pdfData:pdf/2024-released-items-math-g5.pdf",
+        "question_text": "Which comparison is true?",
+        "options": [
+            "0.04 > 0.14",
+            "0.83 > 0.92",
+            "0.27 < 0.36",
+            "0.52 < 0.49"
+        ],
+        "correct_answer": 2,
+        "answer_type": "multiple_choice"
+    },
+    {
+        "_id": "19",
+        "question_number": 19,
+        "practice_set": 62,
+        "category": "Math: Geometry",
+        "difficulty": "easy",
+        "time_estimate": 45,
+        "passage": "pdfData:pdf/2024-released-items-math-g5.pdf",
+        "question_text": "Which statement about the relationship between parallelograms and rectangles is true?",
+        "options": [
+            "All parallelograms are rectangles, but not all rectangles are parallelograms.",
+            "All rectangles are parallelograms, but not all parallelograms are rectangles.",
+            "All rectangles are parallelograms, and all parallelograms are rectangles.",
+            "Not all parallelograms are rectangles, and not all rectangles are parallelograms."
+        ],
+        "correct_answer": 1,
+        "answer_type": "multiple_choice"
+    },
+    {
+        "_id": "27",
+        "question_number": 27,
+        "practice_set": 62,
+        "category": "Math: Fractions",
+        "difficulty": "easy",
+        "time_estimate": 45,
+        "passage": "pdfData:pdf/2024-released-items-math-g5.pdf",
+        "question_text": "What is the value of the expression 1/7 ÷ 5?",
+        "options": [
+            "1/35",
+            "1/12",
+            "5/7",
+            "6/7"
+        ],
+        "correct_answer": 0,
+        "answer_type": "multiple_choice"
+    },
+    {
+        "_id": "28",
+        "question_number": 28,
+        "practice_set": 62,
+        "category": "Math: Fractions",
+        "difficulty": "medium",
+        "time_estimate": 90,
+        "passage": "pdfData:pdf/2024-released-items-math-g5.pdf",
+        "question_text": "Marcel has 2 1/3 cups of milk. He uses 2/3 cup for his cereal and 1 1/4 cups for a pancake recipe. How much milk, in cups, does Marcel have remaining?",
+        "options": [
+            "5/12",
+            "7/12",
+            "1 1/12",
+            "1 11/12"
+        ],
+        "correct_answer": 0,
+        "answer_type": "multiple_choice"
+    },
+    {
+        "_id": "30",
+        "question_number": 30,
+        "practice_set": 62,
+        "category": "Math: Area",
+        "difficulty": "medium",
+        "time_estimate": 75,
+        "passage": "pdfData:pdf/2024-released-items-math-g5.pdf",
+        "question_text": "What is the area, in square units, of a rectangle with side lengths 9 1/2 units and 3 3/4 units?",
+        "options": [
+            "13 1/4",
+            "27 3/8",
+            "35 5/8",
+            "47 1/2"
+        ],
+        "correct_answer": 2,
+        "answer_type": "multiple_choice"
+    },
+    {
+        "_id": "31",
+        "question_number": 31,
+        "practice_set": 62,
+        "category": "Math: Decimals",
+        "difficulty": "easy",
+        "time_estimate": 45,
+        "passage": "pdfData:pdf/2024-released-items-math-g5.pdf",
+        "question_text": "Rida is walking on a trail that is 2.5 kilometers long. She has walked 0.72 kilometer of the trail so far. How many more kilometers does Rida still need to walk to complete the trail?",
+        "options": [
+            "0.53",
+            "0.97",
+            "1.78",
+            "3.22"
+        ],
+        "correct_answer": 2,
+        "answer_type": "multiple_choice"
+    },
+    {
+        "_id": "32",
+        "question_number": 32,
+        "practice_set": 62,
+        "category": "Math: Fractions",
+        "difficulty": "easy",
+        "time_estimate": 60,
+        "passage": "pdfData:pdf/2024-released-items-math-g5.pdf",
+        "question_text": "What is the value of the expression shown below?\n\n1/2 + 2/3 - 1/4",
+        "options": [
+            "2/1",
+            "4/9",
+            "11/12",
+            "17/12"
+        ],
+        "correct_answer": 2,
+        "answer_type": "multiple_choice"
+    },
+    {
+        "_id": "33",
+        "question_number": 33,
+        "practice_set": 62,
+        "category": "Math: Geometry",
+        "difficulty": "medium",
+        "time_estimate": 60,
+        "passage": "pdfData:pdf/2024-released-items-math-g5.pdf",
+        "question_text": "Lisa drew a four-sided shape that had exactly one pair of parallel lines and two right angles. Which list correctly classifies the shape Lisa drew?",
+        "options": [
+            "square, rhombus, quadrilateral",
+            "trapezoid, quadrilateral, polygon",
+            "rectangle, parallelogram, polygon",
+            "rhombus, parallelogram, quadrilateral"
+        ],
+        "correct_answer": 1,
+        "answer_type": "multiple_choice"
+    },
+    {
+        "_id": "34",
+        "question_number": 34,
+        "practice_set": 62,
+        "category": "Math: Fractions",
+        "difficulty": "easy",
+        "time_estimate": 60,
+        "passage": "pdfData:pdf/2024-released-items-math-g5.pdf",
+        "question_text": "Elsie has two equal-sized bags of rice. One bag is 1/3 full, and the other bag is 1/5 full. She combines the rice into one of the bags. What fraction of a full bag of rice does Elsie now have after combining the rice?",
+        "options": [
+            "1/2",
+            "1/4",
+            "2/15",
+            "8/15"
+        ],
+        "correct_answer": 3,
+        "answer_type": "multiple_choice"
+    },
+    {
+        "_id": "35",
+        "question_number": 35,
+        "practice_set": 62,
+        "category": "Math: Measurement & Conversion",
+        "difficulty": "easy",
+        "time_estimate": 45,
+        "passage": "pdfData:pdf/2024-released-items-math-g5.pdf",
+        "question_text": "The distance between two houses on a street is 450 meters. What is the distance measured in kilometers?",
+        "options": [
+            "45",
+            "4.5",
+            "0.45",
+            "0.045"
+        ],
+        "correct_answer": 2,
+        "answer_type": "multiple_choice"
+    },
+    {
+        "_id": "36",
+        "question_number": 36,
+        "practice_set": 62,
+        "category": "Math: Volume",
+        "difficulty": "easy",
+        "time_estimate": 90,
+        "passage": "pdfData:pdf/2024-released-items-math-g5.pdf",
+        "question_text": "Calvin has a box in the shape of a right rectangular prism. He packs it with unit cubes to determine its volume. The dimensions of the box are listed below.\n- length: 16 inches\n- width: 7 inches\n- height: 8 inches\nEach unit cube is 1 cubic inch. How many unit cubes will Calvin need to completely fill the box?",
+        "options": [],
+        "correct_answer": null,
+        "answer_type": "short_response"
+    },
+    {
+        "_id": "37",
+        "question_number": 37,
+        "practice_set": 62,
+        "category": "Math: Fractions",
+        "difficulty": "medium",
+        "time_estimate": 120,
+        "passage": "pdfData:pdf/2024-released-items-math-g5.pdf",
+        "question_text": "A family takes a cake to a party. When the family is ready to leave the party, 1/2 of the cake is left. The family leaves 3/4 of the leftover cake at the party and takes the remaining cake home. What fraction of all of the cake does the family take home?",
+        "options": [],
+        "correct_answer": null,
+        "answer_type": "short_response"
+    },
+    {
+        "_id": "38",
+        "question_number": 38,
+        "practice_set": 62,
+        "category": "Math: Division",
+        "difficulty": "easy",
+        "time_estimate": 90,
+        "passage": "pdfData:pdf/2024-released-items-math-g5.pdf",
+        "question_text": "A teacher has 55 sheets of stickers with a total of 1,320 stickers. Each sheet has the same number of stickers. How many stickers are on each sheet?",
+        "options": [],
+        "correct_answer": null,
+        "answer_type": "short_response"
+    },
+    {
+        "_id": "39",
+        "question_number": 39,
+        "practice_set": 62,
+        "category": "Math: Data Analysis",
+        "difficulty": "medium",
+        "time_estimate": 120,
+        "passage": "pdfData:pdf/2024-released-items-math-g5.pdf",
+        "question_text": "Students in a fifth-grade math class measured the lengths of 12 erasers. The line plot below shows the results.  What is the total length, in inches, of all the erasers when they are lined up end to end?",
+        "options": [],
+        "correct_answer": null,
+        "answer_type": "short_response"
+    },
+    {
+        "_id": "40",
+        "question_number": 40,
+        "practice_set": 62,
+        "category": "Math: Area",
+        "difficulty": "medium",
+        "time_estimate": 120,
+        "passage": "pdfData:pdf/2024-released-items-math-g5.pdf",
+        "question_text": "A table top is completely covered with square tiles as shown below.  Each square tile has a side length of 1/2 foot. What is the area, in square feet, of the table top?",
+        "options": [],
+        "correct_answer": null,
+        "answer_type": "short_response"
+    },
+    {
+        "_id": "41",
+        "question_number": 41,
+        "practice_set": 62,
+        "category": "Math: Fractions",
+        "difficulty": "medium",
+        "time_estimate": 120,
+        "passage": "pdfData:pdf/2024-released-items-math-g5.pdf",
+        "question_text": "Rosa and Steve each have a baseball card collection. Steve has 1/8 as many baseball cards in his collection as Rosa. Who has more baseball cards? Be sure to include what you know about fractions in your answer. Explain your answer.",
+        "options": [],
+        "correct_answer": null,
+        "answer_type": "short_response"
+    },
+    {
+        "_id": "42",
+        "question_number": 42,
+        "practice_set": 62,
+        "category": "Math: Place Value",
+        "difficulty": "medium",
+        "time_estimate": 150,
+        "passage": "pdfData:pdf/2024-released-items-math-g5.pdf",
+        "question_text": "A student incorrectly wrote the number three hundred sixty-two and four hundred eight thousandths in expanded form as shown below.\n(3 x 100) + (6 x 10) + (2 x 1) + (4 x 1/10) + (8 x 1/100)\nWhat error did the student make when writing the number in expanded form? Be sure to include the correct number in standard form in your answer. Explain your answer.",
+        "options": [],
+        "correct_answer": null,
+        "answer_type": "short_response"
+    },
+    {
+        "_id": "43",
+        "question_number": 43,
+        "practice_set": 62,
+        "category": "Math: Volume",
+        "difficulty": "medium",
+        "time_estimate": 150,
+        "passage": "pdfData:pdf/2024-released-items-math-g5.pdf",
+        "question_text": "The base of the right rectangular prism shown below is filled with unit cubes.  How many more unit cubes are needed to completely fill the right rectangular prism? Explain how you determined your answer.",
+        "options": [],
+        "correct_answer": null,
+        "answer_type": "short_response"
+    },
+    {
+        "_id": "44",
+        "question_number": 44,
+        "practice_set": 62,
+        "category": "Math: Word Problems",
+        "difficulty": "hard",
+        "time_estimate": 180,
+        "passage": "pdfData:pdf/2024-released-items-math-g5.pdf",
+        "question_text": "Liam makes and sells handmade blankets. He buys 18 yards of fabric at a rate of $6.75 per yard. Liam uses 1.5 yards of fabric to make each blanket, and uses all of the fabric. Liam sells each blanket for $18.75. What is the profit Liam makes after buying the fabric and selling all the blankets?",
+        "options": [],
+        "correct_answer": null,
+        "answer_type": "short_response"
+    }
+]

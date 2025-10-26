@@ -1,0 +1,489 @@
+[
+    {
+        "_id": "1",
+        "question_number": 1,
+        "practice_set": 61,
+        "category": "Math: Volume",
+        "difficulty": "easy",
+        "time_estimate": 60,
+        "passage": "pdfData:pdf/2019-released-items-math-g5.pdf",
+        "question_text": "A gift box is in the shape of a right rectangular prism, as pictured below.  What is the volume, in cubic centimeters, of the gift box?",
+        "options": [
+            "24",
+            "45",
+            "225",
+            "450"
+        ],
+        "correct_answer": 3,
+        "answer_type": "multiple_choice"
+    },
+    {
+        "_id": "2",
+        "question_number": 2,
+        "practice_set": 61,
+        "category": "Math: Fractions",
+        "difficulty": "easy",
+        "time_estimate": 45,
+        "passage": "pdfData:pdf/2019-released-items-math-g5.pdf",
+        "question_text": "What is the sum of 2/10 + 6/100?",
+        "options": [
+            "8/10",
+            "8/100",
+            "26/10",
+            "26/100"
+        ],
+        "correct_answer": 3,
+        "answer_type": "multiple_choice"
+    },
+    {
+        "_id": "3",
+        "question_number": 3,
+        "practice_set": 61,
+        "category": "Math: Fractions",
+        "difficulty": "medium",
+        "time_estimate": 75,
+        "passage": "pdfData:pdf/2019-released-items-math-g5.pdf",
+        "question_text": "On Saturday, Mark sold 2 7/8 gallons of lemonade. On the same day, Regan sold 2/3 as much lemonade as Mark. How much lemonade, in gallons, did Regan sell?",
+        "options": [
+            "1 5/16",
+            "1 11/12",
+            "2 7/12",
+            "4 5/16"
+        ],
+        "correct_answer": 1,
+        "answer_type": "multiple_choice"
+    },
+    {
+        "_id": "4",
+        "question_number": 4,
+        "practice_set": 61,
+        "category": "Math: Number Line",
+        "difficulty": "easy",
+        "time_estimate": 45,
+        "passage": "pdfData:pdf/2019-released-items-math-g5.pdf",
+        "question_text": "Which point on the number line below represents a value of 0.75? ",
+        "options": [
+            "point A",
+            "point B",
+            "point C",
+            "point D"
+        ],
+        "correct_answer": 2,
+        "answer_type": "multiple_choice"
+    },
+    {
+        "_id": "13",
+        "question_number": 13,
+        "practice_set": 61,
+        "category": "Math: Area",
+        "difficulty": "medium",
+        "time_estimate": 90,
+        "passage": "pdfData:pdf/2019-released-items-math-g5.pdf",
+        "question_text": "What is the area, in square feet, of the rectangle shown below? ",
+        "options": [
+            "11 11/20",
+            "24 12/20",
+            "27 4/20",
+            "32 6/20"
+        ],
+        "correct_answer": 3,
+        "answer_type": "multiple_choice"
+    },
+    {
+        "_id": "18",
+        "question_number": 18,
+        "practice_set": 61,
+        "category": "Math: Volume",
+        "difficulty": "medium",
+        "time_estimate": 75,
+        "passage": "pdfData:pdf/2019-released-items-math-g5.pdf",
+        "question_text": "Which expression cannot be used to determine the volume of the rectangular prism pictured below? ",
+        "options": [
+            "12 x 6",
+            "18 x 4",
+            "6 x 3 x 4",
+            "6 x 4 x 6"
+        ],
+        "correct_answer": 3,
+        "answer_type": "multiple_choice"
+    },
+    {
+        "_id": "19",
+        "question_number": 19,
+        "practice_set": 61,
+        "category": "Math: Decimals",
+        "difficulty": "easy",
+        "time_estimate": 30,
+        "passage": "pdfData:pdf/2019-released-items-math-g5.pdf",
+        "question_text": "What is 15.74 rounded to the nearest whole number?",
+        "options": [
+            "10",
+            "15",
+            "16",
+            "20"
+        ],
+        "correct_answer": 2,
+        "answer_type": "multiple_choice"
+    },
+    {
+        "_id": "20",
+        "question_number": 20,
+        "practice_set": 61,
+        "category": "Math: Fractions",
+        "difficulty": "easy",
+        "time_estimate": 60,
+        "passage": "pdfData:pdf/2019-released-items-math-g5.pdf",
+        "question_text": "Jack puts 1/3 pound of birdseed into his bird feeder every time he fills it. How many times can Jack fill his bird feeder with 4 pounds of birdseed?",
+        "options": [
+            "1 1/3",
+            "3 2/3",
+            "11",
+            "12"
+        ],
+        "correct_answer": 3,
+        "answer_type": "multiple_choice"
+    },
+    {
+        "_id": "21",
+        "question_number": 21,
+        "practice_set": 61,
+        "category": "Math: Fractions",
+        "difficulty": "easy",
+        "time_estimate": 75,
+        "passage": "pdfData:pdf/2019-released-items-math-g5.pdf",
+        "question_text": "Carlos makes 1 pound of snack mix using nuts, raisins, and cereal. The list below shows how many pounds of nuts and raisins he uses.\n- 1/3 pound of nuts\n- 2/5 pound of raisins\nHow much cereal, in pounds, does Carlos use?",
+        "options": [
+            "3/8",
+            "5/8",
+            "4/15",
+            "11/15"
+        ],
+        "correct_answer": 2,
+        "answer_type": "multiple_choice"
+    },
+    {
+        "_id": "26",
+        "question_number": 26,
+        "practice_set": 61,
+        "category": "Math: Fractions",
+        "difficulty": "easy",
+        "time_estimate": 45,
+        "passage": "pdfData:pdf/2019-released-items-math-g5.pdf",
+        "question_text": "What is the value of the expression 1/7 ÷ 5?",
+        "options": [
+            "1/12",
+            "1/35",
+            "5/7",
+            "6/7"
+        ],
+        "correct_answer": 1,
+        "answer_type": "multiple_choice"
+    },
+    {
+        "_id": "27",
+        "question_number": 27,
+        "practice_set": 61,
+        "category": "Math: Decimals",
+        "difficulty": "easy",
+        "time_estimate": 60,
+        "passage": "pdfData:pdf/2019-released-items-math-g5.pdf",
+        "question_text": "Cole has a rectangular garden with an area of 16.02 square meters. The length of the garden is 4.5 meters. What is the width, in meters, of the garden?",
+        "options": [
+            "3.56",
+            "11.52",
+            "16.12",
+            "20.52"
+        ],
+        "correct_answer": 0,
+        "answer_type": "multiple_choice"
+    },
+    {
+        "_id": "28",
+        "question_number": 28,
+        "practice_set": 61,
+        "category": "Math: Division",
+        "difficulty": "easy",
+        "time_estimate": 60,
+        "passage": "pdfData:pdf/2019-released-items-math-g5.pdf",
+        "question_text": "A school raised a total of $1,648 to purchase new books. The money raised will be shared equally among 8 different classrooms. What is the total amount of money each classroom will receive?",
+        "options": [
+            "$206",
+            "$207",
+            "$260",
+            "$270"
+        ],
+        "correct_answer": 0,
+        "answer_type": "multiple_choice"
+    },
+    {
+        "_id": "29",
+        "question_number": 29,
+        "practice_set": 61,
+        "category": "Math: Data Analysis",
+        "difficulty": "medium",
+        "time_estimate": 75,
+        "passage": "pdfData:pdf/2019-released-items-math-g5.pdf",
+        "question_text": "The line plot below shows the amount of cereal Shyanne ate in 5 days.  What is the total number of cups of cereal that Shyanne ate in the 5 days?",
+        "options": [
+            "1 1/2",
+            "1 3/4",
+            "1 4/6",
+            "2 1/4"
+        ],
+        "correct_answer": 3,
+        "answer_type": "multiple_choice"
+    },
+    {
+        "_id": "30",
+        "question_number": 30,
+        "practice_set": 61,
+        "category": "Math: Volume",
+        "difficulty": "medium",
+        "time_estimate": 90,
+        "passage": "pdfData:pdf/2019-released-items-math-g5.pdf",
+        "question_text": "Lana used the two blocks pictured in the diagram to build a tower. [Image showing two stacked rectangular prisms with dimensions] What is the total volume, in cubic inches, of the tower Lana built?",
+        "options": [
+            "27",
+            "80",
+            "116",
+            "120"
+        ],
+        "correct_answer": 3,
+        "answer_type": "multiple_choice"
+    },
+    {
+        "_id": "31",
+        "question_number": 31,
+        "practice_set": 61,
+        "category": "Math: Geometry",
+        "difficulty": "easy",
+        "time_estimate": 30,
+        "passage": "pdfData:pdf/2019-released-items-math-g5.pdf",
+        "question_text": "Which statement about rectangles and rhombuses is always true?",
+        "options": [
+            "Both figures are squares.",
+            "Both figures are quadrilaterals.",
+            "Both figures have four right angles.",
+            "Both figures have four congruent sides."
+        ],
+        "correct_answer": 1,
+        "answer_type": "multiple_choice"
+    },
+    {
+        "_id": "32",
+        "question_number": 32,
+        "practice_set": 61,
+        "category": "Math: Fractions",
+        "difficulty": "easy",
+        "time_estimate": 45,
+        "passage": "pdfData:pdf/2019-released-items-math-g5.pdf",
+        "question_text": "What is the value of the expression 2/5 + 3/7?",
+        "options": [
+            "5/35",
+            "6/35",
+            "5/12",
+            "29/35"
+        ],
+        "correct_answer": 3,
+        "answer_type": "multiple_choice"
+    },
+    {
+        "_id": "33",
+        "question_number": 33,
+        "practice_set": 61,
+        "category": "Math: Measurement & Conversion",
+        "difficulty": "easy",
+        "time_estimate": 30,
+        "passage": "pdfData:pdf/2019-released-items-math-g5.pdf",
+        "question_text": "Which measurement is equivalent to 4,000 centimeters?",
+        "options": [
+            "4 meters",
+            "40 meters",
+            "400 meters",
+            "40,000 meters"
+        ],
+        "correct_answer": 1,
+        "answer_type": "multiple_choice"
+    },
+    {
+        "_id": "34",
+        "question_number": 34,
+        "practice_set": 61,
+        "category": "Math: Fractions",
+        "difficulty": "easy",
+        "time_estimate": 60,
+        "passage": "pdfData:pdf/2019-released-items-math-g5.pdf",
+        "question_text": "Zaire is making granola bars. For one batch of bars, the recipe requires 1 2/3 cups of rolled oats, and 1/2 cup raisins. What is the combined amount, in cups, of rolled oats and raisins that is used in one batch of granola bars?",
+        "options": [
+            "1 1/5",
+            "1 3/5",
+            "2 1/3",
+            "2 1/6"
+        ],
+        "correct_answer": 3,
+        "answer_type": "multiple_choice"
+    },
+    {
+        "_id": "35",
+        "question_number": 35,
+        "practice_set": 61,
+        "category": "Math: Decimals",
+        "difficulty": "easy",
+        "time_estimate": 75,
+        "passage": "pdfData:pdf/2019-released-items-math-g5.pdf",
+        "question_text": "In a science class, Paula made a mixture by adding 2.05 milliliters of hydrogen peroxide and 6.15 milliliters of water together. Equal amounts of the whole mixture were poured into 5 empty containers. How much of the mixture, in milliliters, did she pour into each container?",
+        "options": [
+            "0.61",
+            "1.64",
+            "3.2",
+            "13.4"
+        ],
+        "correct_answer": 1,
+        "answer_type": "multiple_choice"
+    },
+    {
+        "_id": "36",
+        "question_number": 36,
+        "practice_set": 61,
+        "category": "Math: Place Value",
+        "difficulty": "easy",
+        "time_estimate": 45,
+        "passage": "pdfData:pdf/2019-released-items-math-g5.pdf",
+        "question_text": "What is 482.073 expressed in word form?",
+        "options": [
+            "four eighty-two and seventy-three thousandths",
+            "four hundred eighty-two thousand seventy-three",
+            "four hundred eighty-two and seventy-three hundredths",
+            "four hundred eighty-two and seventy-three thousandths"
+        ],
+        "correct_answer": 3,
+        "answer_type": "multiple_choice"
+    },
+    {
+        "_id": "37",
+        "question_number": 37,
+        "practice_set": 61,
+        "category": "Math: Fractions",
+        "difficulty": "medium",
+        "time_estimate": 60,
+        "passage": "pdfData:pdf/2019-released-items-math-g5.pdf",
+        "question_text": "Marco bakes cookies for his class. He uses 3/4 cup of butter in each batch of cookies and bakes 2 1/2 batches. Which equation can be used to determine the number of cups of butter Marco uses to bake cookies?",
+        "options": [
+            "5/2 x 3/4 = 1 7/8",
+            "3/2 x 3/4 = 1 1/8",
+            "5/2 x 4/3 = 3 1/3",
+            "3/2 x 4/3 = 2"
+        ],
+        "correct_answer": 0,
+        "answer_type": "multiple_choice"
+    },
+    {
+        "_id": "38",
+        "question_number": 38,
+        "practice_set": 61,
+        "category": "Math: Expressions",
+        "difficulty": "medium",
+        "time_estimate": 60,
+        "passage": "pdfData:pdf/2019-released-items-math-g5.pdf",
+        "question_text": "Which expression is not equivalent to 2/3 x 4?",
+        "options": [
+            "(2 x 4) ÷ 3",
+            "1/3 x (2 x 4)",
+            "(4 x 1/3) x 2",
+            "(2 x 1/3) + (4 x 1/3)"
+        ],
+        "correct_answer": 3,
+        "answer_type": "multiple_choice"
+    },
+    {
+        "_id": "39",
+        "question_number": 39,
+        "practice_set": 61,
+        "category": "Math: Volume",
+        "difficulty": "medium",
+        "time_estimate": 120,
+        "passage": "pdfData:pdf/2019-released-items-math-g5.pdf",
+        "question_text": "Martin is using unit cubes to build a tower in the shape of a right rectangular prism. A description of the tower is listed below.\n- bottom layer is made of 16 unit cubes\n- bottom layer is in the shape of a square prism\n- 9 more equal layers of unit cubes are added on top of the bottom layer\nWhat is the total volume, in cubic units, of the completed tower?",
+        "options": [],
+        "correct_answer": null,
+        "answer_type": "short_response"
+    },
+    {
+        "_id": "40",
+        "question_number": 40,
+        "practice_set": 61,
+        "category": "Math: Fractions",
+        "difficulty": "medium",
+        "time_estimate": 120,
+        "passage": "pdfData:pdf/2019-released-items-math-g5.pdf",
+        "question_text": "Joel has a goal to practice his clarinet for 4 1/2 hours per week. The list below shows the number of hours Joel has practiced so far this week.\n- Monday: 1 1/2 hours\n- Wednesday: 1 1/4 hours\n- Thursday: 1 hour\nHow many more hours does Joel need to practice this week to meet his goal?",
+        "options": [],
+        "correct_answer": null,
+        "answer_type": "short_response"
+    },
+    {
+        "_id": "41",
+        "question_number": 41,
+        "practice_set": 61,
+        "category": "Math: Place Value",
+        "difficulty": "medium",
+        "time_estimate": 120,
+        "passage": "pdfData:pdf/2019-released-items-math-g5.pdf",
+        "question_text": "How does the value of the digit 2 in the number 32,000 compare with the value of the digit 2 in the number 26,000? Explain your answer.",
+        "options": [],
+        "correct_answer": null,
+        "answer_type": "short_response"
+    },
+    {
+        "_id": "42",
+        "question_number": 42,
+        "practice_set": 61,
+        "category": "Math: Fractions",
+        "difficulty": "easy",
+        "time_estimate": 90,
+        "passage": "pdfData:pdf/2019-released-items-math-g5.pdf",
+        "question_text": "There are 5 cups of oatmeal in a container. Stella eats 1/3 cup of the oatmeal every day for breakfast. In how many days will Stella finish all the oatmeal in the container?",
+        "options": [],
+        "correct_answer": null,
+        "answer_type": "short_response"
+    },
+    {
+        "_id": "43",
+        "question_number": 43,
+        "practice_set": 61,
+        "category": "Math: Measurement & Conversion",
+        "difficulty": "medium",
+        "time_estimate": 120,
+        "passage": "pdfData:pdf/2019-released-items-math-g5.pdf",
+        "question_text": "Olga decorates blankets with ribbon. She has 12 yards of ribbon. She uses 22 feet of the ribbon to decorate blankets. After she decorates the blankets, how many feet of ribbon remain?",
+        "options": [],
+        "correct_answer": null,
+        "answer_type": "short_response"
+    },
+    {
+        "_id": "44",
+        "question_number": 44,
+        "practice_set": 61,
+        "category": "Math: Number Theory",
+        "difficulty": "hard",
+        "time_estimate": 120,
+        "passage": "pdfData:pdf/2019-released-items-math-g5.pdf",
+        "question_text": "In the expression 5 x y/7, what value of y would make a product greater than 5? Explain your answer.",
+        "options": [],
+        "correct_answer": null,
+        "answer_type": "short_response"
+    },
+    {
+        "_id": "45",
+        "question_number": 45,
+        "practice_set": 61,
+        "category": "Math: Decimals",
+        "difficulty": "medium",
+        "time_estimate": 150,
+        "passage": "pdfData:pdf/2019-released-items-math-g5.pdf",
+        "question_text": "Diane has pizza dough for making pizzas. She separates the dough into the three portions listed below.\n- Portion A is 8.25 ounces.\n- Portion B is twice as much as portion A.\n- Portion C is twice as much as portion B.\nWhat is the weight, in ounces, of portion B and the weight, in ounces, of portion C?",
+        "options": [],
+        "correct_answer": null,
+        "answer_type": "short_response"
+    }
+]
