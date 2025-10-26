@@ -1584,7 +1584,7 @@
     "difficulty": "easy",
     "time_estimate": 95,
     "passage": "",
-    "question_text": "A large container is partially filled with liters of water. Ito adds 10 liters of water to the container, making it 60% full. If Ignacio adds 6 more liters of water, the container will be 75% full. What is the value of ?",
+    "question_text": "A large container is partially filled with n liters of water. Ito adds 10 liters of water to the container, making it 60% full. If Ignacio adds 6 more liters of water, the container will be 75% full. What is the value of n?",
     "options": [
       "14",
       "15",
