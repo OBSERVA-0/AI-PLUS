@@ -1,0 +1,434 @@
+
+[
+  {
+    "_id": "1",
+    "question_number": 1,
+    "category": "ELA: Literature",
+    "difficulty": "medium",
+    "time_estimate": 60,
+    "passage": "pdfData:pdf/2016-released-items-ela-g4.pdf",
+    "question_text": "In paragraph 1, what does Minna learn from watching Willie?",
+    "options": [
+      "She sees that playing music makes a crowd gather.",
+      "She notices that the music makes others happy.",
+      "She realizes that she wants to have a vibrato.",
+      "She discovers that music makes her sad."
+    ],
+    "correct_answer": null,
+    "answer_type": "multiple_choice"
+  },
+  {
+    "_id": "2",
+    "question_number": 2,
+    "category": "ELA: Literature",
+    "difficulty": "medium",
+    "time_estimate": 60,
+    "passage": "pdfData:pdf/2016-released-items-ela-g4.pdf",
+    "question_text": "What new information about Willie does the reader learn in paragraph 12?",
+    "options": [
+      "He is more than he seems.",
+      "He is a generous person.",
+      "He performs with a vibrato.",
+      "He plays with something in mind."
+    ],
+    "correct_answer": null,
+    "answer_type": "multiple_choice"
+  },
+  {
+    "_id": "3",
+    "question_number": 3,
+    "category": "ELA: Literature",
+    "difficulty": "medium",
+    "time_estimate": 60,
+    "passage": "pdfData:pdf/2016-released-items-ela-g4.pdf",
+    "question_text": "Read these sentences from paragraph 18 of the story.\nHe peered at Minna. \"It is like a light going on over your head.\"\nWhat does the phrase \"a light going on over your head\" mean as it is used in paragraph 18?",
+    "options": [
+      "a new way of understanding",
+      "something that is above you",
+      "a way someone helps you out",
+      "something that happens after hard work"
+    ],
+    "correct_answer": null,
+    "answer_type": "multiple_choice"
+  },
+  {
+    "_id": "4",
+    "question_number": 4,
+    "category": "ELA: Literature",
+    "difficulty": "medium",
+    "time_estimate": 60,
+    "passage": "pdfData:pdf/2016-released-items-ela-g4.pdf",
+    "question_text": "Which statement best reflects a theme of the story?",
+    "options": [
+      "Having something new can make things better.",
+      "With time and practice, a person can achieve a goal.",
+      "A teacher can help you figure out everything you need to know.",
+      "Playing music is fun even when you are still learning how to do it."
+    ],
+    "correct_answer": null,
+    "answer_type": "multiple_choice"
+  },
+  {
+    "_id": "5",
+    "question_number": 5,
+    "category": "ELA: Literature",
+    "difficulty": "hard",
+    "time_estimate": 90,
+    "passage": "pdfData:pdf/2016-released-items-ela-g4.pdf",
+    "question_text": "Read these sentences from the story.\n\"Willie is a fine musician, Minna. And he was a fine musician before he got his vibrato.\" (paragraph 12)\n\"And we will play it wonderfully. In tune. With or without a vibrato.\" (paragraph 26)\nHow do these sentences develop the story overall?",
+    "options": [
+      "They explain why Willie gives back Minna's money.",
+      "They show Minna's eagerness to play with a vibrato.",
+      "They show what Minna learns from Porch about Willie.",
+      "They suggest that Minna does not need a vibrato to play well."
+    ],
+    "correct_answer": null,
+    "answer_type": "multiple_choice"
+  },
+  {
+    "_id": "6",
+    "question_number": 6,
+    "category": "ELA: Literature",
+    "difficulty": "medium",
+    "time_estimate": 60,
+    "passage": "pdfData:pdf/2016-released-items-ela-g4.pdf",
+    "question_text": "Based on the story, which sentence best describes Minna?",
+    "options": [
+      "She plays the cello because she enjoys it.",
+      "She complains about her music lessons.",
+      "She talks with Willie about music only.",
+      "She thinks Mozart is too difficult."
+    ],
+    "correct_answer": null,
+    "answer_type": "multiple_choice"
+  },
+  {
+    "_id": "13",
+    "question_number": 13,
+    "category": "ELA: Informational",
+    "difficulty": "medium",
+    "time_estimate": 60,
+    "passage": "pdfData:pdf/2016-released-items-ela-g4.pdf",
+    "question_text": "Read these sentences from paragraph 1 of the article.\nA thousand years ago, chocolate was a big secret. Only a few people drank it and nobody ate it.\nWhat is the main reason that the author begins with these sentences?",
+    "options": [
+      "to explain that chocolate comes from the jungle",
+      "to explain how chocolate was discovered",
+      "to show that chocolate used to be rare",
+      "to show how old chocolate is"
+    ],
+    "correct_answer": null,
+    "answer_type": "multiple_choice"
+  },
+  {
+    "_id": "14",
+    "question_number": 14,
+    "category": "ELA: Informational",
+    "difficulty": "easy",
+    "time_estimate": 60,
+    "passage": "pdfData:pdf/2016-released-items-ela-g4.pdf",
+    "question_text": "What is the main reason the author includes the story about monkeys at the beginning of the article?",
+    "options": [
+      "to show that animals like chocolate",
+      "to describe the trees where the cacao pods came from",
+      "to explain why the farmers first tasted the cacao pods",
+      "to show how the beans inside cacao pods are eaten"
+    ],
+    "correct_answer": null,
+    "answer_type": "multiple_choice"
+  },
+  {
+    "_id": "15",
+    "question_number": 15,
+    "category": "ELA: Informational",
+    "difficulty": "medium",
+    "time_estimate": 60,
+    "passage": "pdfData:pdf/2016-released-items-ela-g4.pdf",
+    "question_text": "Read the sentence from paragraph 8 of the article.\nBut then, some villagers noticed a delicious smell, drifting up from a pile of rotting beans.\nWhy did the author include the phrases \"delicious smell\" and \"rotting beans\" in the same sentence?",
+    "options": [
+      "to show an unexpected result",
+      "to show what people had planned",
+      "to describe a process as it happens",
+      "to describe a solution to a problem"
+    ],
+    "correct_answer": null,
+    "answer_type": "multiple_choice"
+  },
+  {
+    "_id": "16",
+    "question_number": 16,
+    "category": "ELA: Informational",
+    "difficulty": "easy",
+    "time_estimate": 60,
+    "passage": "pdfData:pdf/2016-released-items-ela-g4.pdf",
+    "question_text": "How did the invention of the steam engine mostly affect the making of chocolate?",
+    "options": [
+      "It improved the taste of the cacao bean.",
+      "It added different ingredients to chocolate.",
+      "It changed the way cacao trees were grown.",
+      "It provided an easier way to make chocolate."
+    ],
+    "correct_answer": null,
+    "answer_type": "multiple_choice"
+  },
+  {
+    "_id": "17",
+    "question_number": 17,
+    "category": "ELA: Informational",
+    "difficulty": "medium",
+    "time_estimate": 60,
+    "passage": "pdfData:pdf/2016-released-items-ela-g4.pdf",
+    "question_text": "Which sentence from the article best shows how the Mayans felt about chocolate?",
+    "options": [
+      "\"But then, some villagers noticed a delicious smell, drifting up from a pile of rotting beans.\" (paragraph 8)",
+      "\"They let the beans rot for a few days under banana leaves... then put them out to dry in the hot sun.\" (paragraph 10)",
+      "\"To avoid hiking into the jungle for pods, the farmers planted cacao trees in their own fields.\" (paragraph 12)",
+      "\"When the Mayans first caught a whiff of rotting cacao beans, they knew they had found something exciting.\" (paragraph 23)"
+    ],
+    "correct_answer": null,
+    "answer_type": "multiple_choice"
+  },
+  {
+    "_id": "18",
+    "question_number": 18,
+    "category": "ELA: Informational",
+    "difficulty": "medium",
+    "time_estimate": 60,
+    "passage": "pdfData:pdf/2016-released-items-ela-g4.pdf",
+    "question_text": "How does the author organize this article?",
+    "options": [
+      "by showing the effects of chocolate on people around the world",
+      "by comparing and contrasting different ways of eating chocolate",
+      "by describing events connected to chocolate in the order they happened",
+      "by presenting the problem with making chocolate and then giving the solution"
+    ],
+    "correct_answer": null,
+    "answer_type": "multiple_choice"
+  },
+  {
+    "_id": "25",
+    "question_number": 25,
+    "category": "ELA: Literature",
+    "difficulty": "medium",
+    "time_estimate": 60,
+    "passage": "pdfData:pdf/2016-released-items-ela-g4.pdf",
+    "question_text": "How does paragraph 5 relate to paragraph 4?",
+    "options": [
+      "Paragraph 5 explains why Sarah feels helpless in paragraph 4.",
+      "Paragraph 5 shows how Sarah is brave even though she is afraid in paragraph 4.",
+      "Paragraph 5 explains why the grandfather is concerned about Sarah in paragraph 4.",
+      "Paragraph 5 reveals how the grandfather keeps Sarah out of the danger described in paragraph 4."
+    ],
+    "correct_answer": null,
+    "answer_type": "multiple_choice"
+  },
+  {
+    "_id": "26",
+    "question_number": 26,
+    "category": "ELA: Literature",
+    "difficulty": "easy",
+    "time_estimate": 45,
+    "passage": "pdfData:pdf/2016-released-items-ela-g4.pdf",
+    "question_text": "In paragraph 7, the word \"croaked\" shows that Sarah",
+    "options": [
+      "does not want the shark to notice her",
+      "does not want to scare the shark away",
+      "has difficulty getting the words out",
+      "wants to hide her feelings"
+    ],
+    "correct_answer": null,
+    "answer_type": "multiple_choice"
+  },
+  {
+    "_id": "27",
+    "question_number": 27,
+    "category": "ELA: Literature",
+    "difficulty": "easy",
+    "time_estimate": 60,
+    "passage": "pdfData:pdf/2016-released-items-ela-g4.pdf",
+    "question_text": "How is Sarah helped by her previous swimming experience?",
+    "options": [
+      "She knows how to get in the water without disturbing the shark.",
+      "She knows which supplies to bring with her on the boat.",
+      "It helps her to pretend that she is the shark.",
+      "It helps her to feel calm in the water."
+    ],
+    "correct_answer": null,
+    "answer_type": "multiple_choice"
+  },
+  {
+    "_id": "28",
+    "question_number": 28,
+    "category": "ELA: Literature",
+    "difficulty": "medium",
+    "time_estimate": 75,
+    "passage": "pdfData:pdf/2016-released-items-ela-g4.pdf",
+    "question_text": "Which detail best shows that the stories about sharks being killers are wrong?",
+    "options": [
+      "\"But he was no fool and knew there were always risks when you were near any wild animal.\" (paragraph 2)",
+      "\"If the shark comes toward us, just stay calm and don't wave your hands or feet in front of him.\" (paragraph 6)",
+      "\"Now she knew a shark was below her.\" (paragraph 8)",
+      "\"The tiger shark rested on the bottom not ten feet from them.\" (paragraph 12)"
+    ],
+    "correct_answer": null,
+    "answer_type": "multiple_choice"
+  },
+  {
+    "_id": "29",
+    "question_number": 29,
+    "category": "ELA: Literature",
+    "difficulty": "medium",
+    "time_estimate": 60,
+    "passage": "pdfData:pdf/2016-released-items-ela-g4.pdf",
+    "question_text": "How does paragraph 12 contribute to the rest of the story?",
+    "options": [
+      "It shows the reason for the change in a character.",
+      "It gives important details about the story's setting.",
+      "It gives new details about the shark's condition.",
+      "It shows why people are able to get close to sharks."
+    ],
+    "correct_answer": null,
+    "answer_type": "multiple_choice"
+  },
+  {
+    "_id": "30",
+    "question_number": 30,
+    "category": "ELA: Literature",
+    "difficulty": "medium",
+    "time_estimate": 60,
+    "passage": "pdfData:pdf/2016-released-items-ela-g4.pdf",
+    "question_text": "Which sentence describes how Sarah's grandfather feels about sharks in the ocean?",
+    "options": [
+      "He thinks sharks will never harm humans who swim with them.",
+      "He respects sharks as wild animals and is careful around them.",
+      "He knows sharks are smarter than humans and can sense fear.",
+      "He admires sharks' ability to eat almost anything they find."
+    ],
+    "correct_answer": null,
+    "answer_type": "multiple_choice"
+  },
+  {
+    "_id": "31",
+    "question_number": 31,
+    "category": "ELA: Literature",
+    "difficulty": "medium",
+    "time_estimate": 90,
+    "passage": "pdfData:pdf/2016-released-items-ela-g4.pdf",
+    "question_text": "Which detail would be most important to include in a summary of the story?",
+    "options": [
+      "Sharks can eat boards and even nails.",
+      "Sharks depend on their strong sense of smell.",
+      "Sarah notices that the shark is bigger than average.",
+      "Sarah is nervous but she is prepared to swim with the shark."
+    ],
+    "correct_answer": null,
+    "answer_type": "multiple_choice"
+  },
+  {
+    "_id": "32",
+    "question_number": 32,
+    "category": "ELA: Informational",
+    "difficulty": "medium",
+    "time_estimate": 600,
+    "passage": "pdfData:pdf/2016-released-items-ela-g4.pdf",
+    "question_text": "How does the first map contribute to the understanding of \"Rushing West\"? Use two details from the article to support your response.",
+    "options": [],
+    "correct_answer": null,
+    "answer_type": "short_response"
+  },
+  {
+    "_id": "33",
+    "question_number": 33,
+    "category": "ELA: Informational",
+    "difficulty": "medium",
+    "time_estimate": 600,
+    "passage": "pdfData:pdf/2016-released-items-ela-g4.pdf",
+    "question_text": "Why is the letter included in paragraph 15 of \"Rushing West\"? Use two details from the article to support your response.",
+    "options": [],
+    "correct_answer": null,
+    "answer_type": "short_response"
+  },
+  {
+    "_id": "34",
+    "question_number": 34,
+    "category": "ELA: Literature",
+    "difficulty": "hard",
+    "time_estimate": 1200,
+    "passage": "pdfData:pdf/2016-released-items-ela-g4.pdf",
+    "question_text": "Jack's feelings about the sheep change at different times in the story. When do his feelings change? Why do his feelings change? Use details from the story to support your response.",
+    "options": [],
+    "correct_answer": null,
+    "answer_type": "extended_response"
+  },
+  {
+    "_id": "35",
+    "question_number": 35,
+    "category": "ELA: Literature",
+    "difficulty": "medium",
+    "time_estimate": 600,
+    "passage": "pdfData:pdf/2016-released-items-ela-g4.pdf",
+    "question_text": "What is the main idea of paragraphs 7 through 9 of \"The Kite Fighters\"? Use two details from the story to support your response.",
+    "options": [],
+    "correct_answer": null,
+    "answer_type": "short_response"
+  },
+  {
+    "_id": "36",
+    "question_number": 36,
+    "category": "ELA: Literature",
+    "difficulty": "medium",
+    "time_estimate": 600,
+    "passage": "pdfData:pdf/2016-released-items-ela-g4.pdf",
+    "question_text": "Which character trait most helps Young-sup fly the kite? Use two details from the story to support your response.",
+    "options": [],
+    "correct_answer": null,
+    "answer_type": "short_response"
+  },
+  {
+    "_id": "37",
+    "question_number": 37,
+    "category": "ELA: Informational",
+    "difficulty": "medium",
+    "time_estimate": 600,
+    "passage": "pdfData:pdf/2016-released-items-ela-g4.pdf",
+    "question_text": "What feeling does the author create in paragraphs 1 and 2? Use two details from the article to support your response.",
+    "options": [],
+    "correct_answer": null,
+    "answer_type": "short_response"
+  },
+  {
+    "_id": "38",
+    "question_number": 38,
+    "category": "ELA: Informational",
+    "difficulty": "medium",
+    "time_estimate": 600,
+    "passage": "pdfData:pdf/2016-released-items-ela-g4.pdf",
+    "question_text": "What is the main idea of paragraphs 15 through 18? Use two details from the article to support your response.",
+    "options": [],
+    "correct_answer": null,
+    "answer_type": "short_response"
+  },
+  {
+    "_id": "39",
+    "question_number": 39,
+    "category": "ELA: Informational",
+    "difficulty": "medium",
+    "time_estimate": 600,
+    "passage": "pdfData:pdf/2016-released-items-ela-g4.pdf",
+    "question_text": "In the section \"Looking for Lizards,\" why are the tools the workers use to study the lizards important? Use two details from the article to support your response.",
+    "options": [],
+    "correct_answer": null,
+    "answer_type": "short_response"
+  },
+  {
+    "_id": "40",
+    "question_number": 40,
+    "category": "ELA: Informational",
+    "difficulty": "hard",
+    "time_estimate": 1200,
+    "passage": "pdfData:pdf/2016-released-items-ela-g4.pdf",
+    "question_text": "Both articles focus on animals that need help. Why do these animals need help? How is the help these animals need similar and different in both articles? Use details from both articles to support your response.",
+    "options": [],
+    "correct_answer": null,
+    "answer_type": "extended_response"
+  }
+]

@@ -1,0 +1,363 @@
+[
+  {
+    "_id": "1",
+    "question_number": 1,
+    "category": "ELA: Literature",
+    "difficulty": "medium",
+    "time_estimate": 60,
+    "passage": "pdfData:pdf/2023 Grade 4 English Language Arts Released Questions.pdf",
+    "question_text": "What does the word \"quest\" mean as used in paragraph 4?",
+    "options": [
+      "difficult assignment",
+      "determined search",
+      "favorite activity",
+      "careful planning"
+    ],
+    "correct_answer": null,
+    "answer_type": "multiple_choice"
+  },
+  {
+    "_id": "2",
+    "question_number": 2,
+    "category": "ELA: Literature",
+    "difficulty": "medium",
+    "time_estimate": 60,
+    "passage": "pdfData:pdf/2023 Grade 4 English Language Arts Released Questions.pdf",
+    "question_text": "Which sentence best states a theme of paragraph 7?",
+    "options": [
+      "Giving someone a gift is just as much fun as receiving a gift.",
+      "Buying a gift from a store is easier than making a gift.",
+      "Cards with messages inside create wonderful memories.",
+      "There are many ways to show someone that you care."
+    ],
+    "correct_answer": null,
+    "answer_type": "multiple_choice"
+  },
+  {
+    "_id": "3",
+    "question_number": 3,
+    "category": "ELA: Literature",
+    "difficulty": "medium",
+    "time_estimate": 75,
+    "passage": "pdfData:pdf/2023 Grade 4 English Language Arts Released Questions.pdf",
+    "question_text": "How does paragraph 14 relate to paragraphs 19 through 22?",
+    "options": [
+      "Paragraph 14 explains the setting in paragraphs 19 through 22.",
+      "Paragraph 14 describes the cause for the events in paragraphs 19 through 22.",
+      "Paragraph 14 introduces a character developed in paragraphs 19 through 22.",
+      "Paragraph 14 gives a problem that is solved in paragraphs 19 through 22."
+    ],
+    "correct_answer": null,
+    "answer_type": "multiple_choice"
+  },
+  {
+    "_id": "4",
+    "question_number": 4,
+    "category": "ELA: Literature",
+    "difficulty": "medium",
+    "time_estimate": 60,
+    "passage": "pdfData:pdf/2023 Grade 4 English Language Arts Released Questions.pdf",
+    "question_text": "In paragraph 18, why does Daisy ask Miss Goldner to try saying the word?",
+    "options": [
+      "She wants Miss Goldner to pronounce the word for the class.",
+      "She wants to make sure Miss Goldner heard the word correctly.",
+      "She wants everyone to see how much Miss Goldner loves the word.",
+      "She wants Miss Goldner to see how fun the word is to say and hear."
+    ],
+    "correct_answer": null,
+    "answer_type": "multiple_choice"
+  },
+  {
+    "_id": "5",
+    "question_number": 5,
+    "category": "ELA: Literature",
+    "difficulty": "medium",
+    "time_estimate": 60,
+    "passage": "pdfData:pdf/2023 Grade 4 English Language Arts Released Questions.pdf",
+    "question_text": "Which detail best shows how Samantha changes from the beginning to the end of the story?",
+    "options": [
+      "Samantha walks home with Daisy and Emma.",
+      "Samantha says that Daisy brought the best gift.",
+      "Samantha worries that Mrs. Joseph will be upset.",
+      "Samantha thinks of different words to describe the day."
+    ],
+    "correct_answer": null,
+    "answer_type": "multiple_choice"
+  },
+  {
+    "_id": "6",
+    "question_number": 6,
+    "category": "ELA: Literature",
+    "difficulty": "medium",
+    "time_estimate": 60,
+    "passage": "pdfData:pdf/2023 Grade 4 English Language Arts Released Questions.pdf",
+    "question_text": "What point is the author making in the story?",
+    "options": [
+      "Words can be powerful.",
+      "Learning can be fun.",
+      "Learning is easier with friends.",
+      "Words should be spoken loudly."
+    ],
+    "correct_answer": null,
+    "answer_type": "multiple_choice"
+  },
+  {
+    "_id": "19",
+    "question_number": 19,
+    "category": "ELA: Informational",
+    "difficulty": "easy",
+    "time_estimate": 45,
+    "passage": "pdfData:pdf/2023 Grade 4 English Language Arts Released Questions.pdf",
+    "question_text": "What is the meaning of the word \"breakthrough\" as it is used in paragraph 2 of the article?",
+    "options": [
+      "funny story",
+      "strange event",
+      "difficult challenge",
+      "important change"
+    ],
+    "correct_answer": null,
+    "answer_type": "multiple_choice"
+  },
+  {
+    "_id": "20",
+    "question_number": 20,
+    "category": "ELA: Informational",
+    "difficulty": "medium",
+    "time_estimate": 60,
+    "passage": "pdfData:pdf/2023 Grade 4 English Language Arts Released Questions.pdf",
+    "question_text": "What is a central idea of paragraph 4?",
+    "options": [
+      "David Greybeard had fun looking through Goodall's campsite.",
+      "Goodall's actions helped her build trust with David Greybeard.",
+      "David Greybeard spent most of each day looking for and eating food.",
+      "Goodall was so still and quiet that David Greybeard was unaware of her."
+    ],
+    "correct_answer": null,
+    "answer_type": "multiple_choice"
+  },
+  {
+    "_id": "21",
+    "question_number": 21,
+    "category": "ELA: Informational",
+    "difficulty": "medium",
+    "time_estimate": 75,
+    "passage": "pdfData:pdf/2023 Grade 4 English Language Arts Released Questions.pdf",
+    "question_text": "How does paragraph 5 support a central idea of the article?",
+    "options": [
+      "By explaining that Goodall's work became easier over time, it shows that repeating her tasks eventually made her an expert.",
+      "By telling that she was able to come close to the chimps, it shows that Goodall's thoughtful and patient study of the animals was a success.",
+      "By demonstrating how Goodall was able to become friendly with David Greybeard, it shows that Goodall learned how to communicate with chimps.",
+      "By detailing the different steps in the process of her work, it shows that Goodall did the same work as other scientists but got better results."
+    ],
+    "correct_answer": null,
+    "answer_type": "multiple_choice"
+  },
+  {
+    "_id": "22",
+    "question_number": 22,
+    "category": "ELA: Informational",
+    "difficulty": "medium",
+    "time_estimate": 60,
+    "passage": "pdfData:pdf/2023 Grade 4 English Language Arts Released Questions.pdf",
+    "question_text": "Which detail from the article shows how Goodall affected future researchers?",
+    "options": [
+      "\"According to Goodall's camp cook, the chimpanzee had spent about an hour eating fruit from one of the oil palms that grew nearby.\" (paragraph 1)",
+      "\"It was the summer of 1961. For a year, Goodall had been studying the chimps living in Gombe Stream Reserve near Lake Tanganyika in Central Africa.\" (paragraph 2)",
+      "\"Goodall's career began as a childhood wish to see African animals in their natural environments.\" (paragraph 6)",
+      "\"She also opened the door for other women to become ethnologists, scientists who study animal behavior.\" (paragraph 6)"
+    ],
+    "correct_answer": null,
+    "answer_type": "multiple_choice"
+  },
+  {
+    "_id": "23",
+    "question_number": 23,
+    "category": "ELA: Informational",
+    "difficulty": "medium",
+    "time_estimate": 75,
+    "passage": "pdfData:pdf/2023 Grade 4 English Language Arts Released Questions.pdf",
+    "question_text": "How does the structure of the article help the reader understand the events?",
+    "options": [
+      "By explaining the sequence of events over time, it shows how each small step was important to Goodall's work.",
+      "By comparing Goodall's thoughts about her work at different times, it shows how she changed her research over time.",
+      "By providing a description of the camp, it shows why Goodall's work was special and important.",
+      "By listing the problems and solutions of studying chimpanzees, it shows why Goodall's work changed ideas in science."
+    ],
+    "correct_answer": null,
+    "answer_type": "multiple_choice"
+  },
+  {
+    "_id": "24",
+    "question_number": 24,
+    "category": "ELA: Informational",
+    "difficulty": "medium",
+    "time_estimate": 600,
+    "passage": "pdfData:pdf/2023 Grade 4 English Language Arts Released Questions.pdf",
+    "question_text": "According to \"Excerpt from A Welcome Thief, why is Goodall excited to learn that David Greybeard took bananas from her tent? Use two details from the article to support your response.",
+    "options": [],
+    "correct_answer": null,
+    "answer_type": "short_response"
+  },
+  {
+    "_id": "25",
+    "question_number": 25,
+    "category": "ELA: Informational",
+    "difficulty": "medium",
+    "time_estimate": 600,
+    "passage": "pdfData:pdf/2023 Grade 4 English Language Arts Released Questions.pdf",
+    "question_text": "In \"Excerpt from A Welcome Thief,\" what evidence does the author give to support the claim that David Greybeard's actions made Goodall's research easier? Use two details from the article to support your response.",
+    "options": [],
+    "correct_answer": null,
+    "answer_type": "short_response"
+  },
+  {
+    "_id": "26",
+    "question_number": 26,
+    "category": "ELA: Informational",
+    "difficulty": "medium",
+    "time_estimate": 60,
+    "passage": "pdfData:pdf/2023 Grade 4 English Language Arts Released Questions.pdf",
+    "question_text": "How does the illustration support the information in paragraph 2?",
+    "options": [
+      "It shows parts of the bird that are usually eaten.",
+      "It shows why the furcula has an unusual name.",
+      "It shows why all birds have wishbones.",
+      "It shows where the furcula is on the body."
+    ],
+    "correct_answer": null,
+    "answer_type": "multiple_choice"
+  },
+  {
+    "_id": "27",
+    "question_number": 27,
+    "category": "ELA: Informational",
+    "difficulty": "medium",
+    "time_estimate": 60,
+    "passage": "pdfData:pdf/2023 Grade 4 English Language Arts Released Questions.pdf",
+    "question_text": "Read this sentence from paragraph 1.\nBut one of the most popular-pulling the wishbone-dates back centuries.\nWhich sentence from the article best supports this claim?",
+    "options": [
+      "\"The winner is the person who ends up with the bigger piece.\" (paragraph 3)",
+      "\"The practice of making a wish on a bird's furcula dates back to the ancient Etruscans, a people who lived in what is today northern Italy.\" (paragraph 4)",
+      "\"Passersby would pick it up, stroke it for good luck, and make a wish.\" (paragraph 4)",
+      "\"Today a wishbone tug-of-war is as much a part of Thanksgiving as is gobbling down turkey smothered in gravy.\" (paragraph 6)"
+    ],
+    "correct_answer": null,
+    "answer_type": "multiple_choice"
+  },
+  {
+    "_id": "28",
+    "question_number": 28,
+    "category": "ELA: Informational",
+    "difficulty": "medium",
+    "time_estimate": 60,
+    "passage": "pdfData:pdf/2023 Grade 4 English Language Arts Released Questions.pdf",
+    "question_text": "How are the details in paragraphs 4 through 6 organized?",
+    "options": [
+      "by presenting descriptions of some points",
+      "by presenting a problem and a solution",
+      "by comparing and contrasting events",
+      "by listing events in the order they happened"
+    ],
+    "correct_answer": null,
+    "answer_type": "multiple_choice"
+  },
+  {
+    "_id": "29",
+    "question_number": 29,
+    "category": "ELA: Informational",
+    "difficulty": "medium",
+    "time_estimate": 60,
+    "passage": "pdfData:pdf/2023 Grade 4 English Language Arts Released Questions.pdf",
+    "question_text": "How does the information in the section \"Through the Ages\" support a central idea of the article?",
+    "options": [
+      "It shows that today turkey and gravy are eaten for Thanksgiving.",
+      "It shows that some people believed birds had unusual powers.",
+      "It shows that there were many wild turkeys in the New World.",
+      "It shows that many people share the history of the wishbone."
+    ],
+    "correct_answer": null,
+    "answer_type": "multiple_choice"
+  },
+  {
+    "_id": "30",
+    "question_number": 30,
+    "category": "ELA: Informational",
+    "difficulty": "medium",
+    "time_estimate": 60,
+    "passage": "pdfData:pdf/2023 Grade 4 English Language Arts Released Questions.pdf",
+    "question_text": "Which sentence best explains how to win at tug-of-war with a turkey wishbone?",
+    "options": [
+      "\"At Thanksgiving, the tradition is for two people to hold one end of the bone, make a wish, and then tug.\" (paragraph 3)",
+      "\"But there are a few tips that may help you get the upper hand.\" (paragraph 7)",
+      "\"The more pressure you can apply to your side of the wishbone, the better chance you have...\" (paragraph 8)",
+      "\"Whether you end up with the larger or the smaller piece of the furcula is ultimately a matter of luck.\" (paragraph 9)"
+    ],
+    "correct_answer": null,
+    "answer_type": "multiple_choice"
+  },
+  {
+    "_id": "31",
+    "question_number": 31,
+    "category": "ELA: Informational",
+    "difficulty": "medium",
+    "time_estimate": 60,
+    "passage": "pdfData:pdf/2023 Grade 4 English Language Arts Released Questions.pdf",
+    "question_text": "Which detail would be most important to include in a summary of the article?",
+    "options": [
+      "Breaking a wishbone is just one of many Thanksgiving traditions.",
+      "All birds have a wishbone that helps to support the birds as they fly.",
+      "Making wishes with a wishbone is a tradition that began thousands of years ago.",
+      "There was once a shortage of chickens in Rome because the wishbone tradition was so popular."
+    ],
+    "correct_answer": null,
+    "answer_type": "multiple_choice"
+  },
+  {
+    "_id": "32",
+    "question_number": 32,
+    "category": "ELA: Informational",
+    "difficulty": "medium",
+    "time_estimate": 600,
+    "passage": "pdfData:pdf/2023 Grade 4 English Language Arts Released Questions.pdf",
+    "question_text": "People who do special things usually have many people helping them. How do the details in \"Excerpt from Walt Disney\" support this idea? Use two details from the article to support your response.",
+    "options": [],
+    "correct_answer": null,
+    "answer_type": "short_response"
+  },
+  {
+    "_id": "33",
+    "question_number": 33,
+    "category": "ELA: Informational",
+    "difficulty": "medium",
+    "time_estimate": 600,
+    "passage": "pdfData:pdf/2023 Grade 4 English Language Arts Released Questions.pdf",
+    "question_text": "What is a central idea of \"Excerpt from Walt Disney\"? Use two details from the article to support your response.",
+    "options": [],
+    "correct_answer": null,
+    "answer_type": "short_response"
+  },
+  {
+    "_id": "34",
+    "question_number": 34,
+    "category": "ELA: Informational",
+    "difficulty": "medium",
+    "time_estimate": 600,
+    "passage": "pdfData:pdf/2023 Grade 4 English Language Arts Released Questions.pdf",
+    "question_text": "What does \"boss\" mean as used in paragraph 2 of \"Excerpt from Edwin Binney\"? Use two details from the article to support your response.",
+    "options": [],
+    "correct_answer": null,
+    "answer_type": "short_response"
+  },
+  {
+    "_id": "35",
+    "question_number": 35,
+    "category": "ELA: Informational",
+    "difficulty": "hard",
+    "time_estimate": 1200,
+    "passage": "pdfData:pdf/2023 Grade 4 English Language Arts Released Questions.pdf",
+    "question_text": "The \"Excerpt from Walt Disney\" and \"Excerpt from Edwin Binney\" both describe successful business owners. How did Disney become successful? How did Binney become successful? Use details from both articles to support your response.",
+    "options": [],
+    "correct_answer": null,
+    "answer_type": "extended_response"
+  }
+]

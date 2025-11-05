@@ -1,0 +1,290 @@
+[
+  {
+    "_id": "1",
+    "question_number": 1,
+    "category": "ELA: Informational",
+    "difficulty": "easy",
+    "time_estimate": 60,
+    "passage": "pdfData:pdf/2022 Grade 4 English Language Arts Released Questions.pdf",
+    "question_text": "Read these sentences from paragraph 1.\nFathers come in all shapes and sizes. In the animal kingdom, fathers have some fascinating (and strange!) ways of helping their young.\nHow does the author support the information in these sentences?",
+    "options": [
+      "by explaining that large and small father animals exist in the wild",
+      "by explaining that father animals can appear unusual",
+      "by showing that father animals know their babies change shape as they grow",
+      "by showing that father animals use different ways to care for their babies"
+    ],
+    "correct_answer": null,
+    "answer_type": "multiple_choice"
+  },
+  {
+    "_id": "2",
+    "question_number": 2,
+    "category": "ELA: Informational",
+    "difficulty": "medium",
+    "time_estimate": 75,
+    "passage": "pdfData:pdf/2022 Grade 4 English Language Arts Released Questions.pdf",
+    "question_text": "Which statement supports a main idea found in both paragraph 4 and paragraph 6?",
+    "options": [
+      "Father animals need help from the mother when they want to eat.",
+      "Father animals have many ways to provide food for their babies.",
+      "Father animals use their bodies to protect their babies from harm.",
+      "Father animals know that keeping the eggs warm is important."
+    ],
+    "correct_answer": null,
+    "answer_type": "multiple_choice"
+  },
+  {
+    "_id": "3",
+    "question_number": 3,
+    "category": "ELA: Informational",
+    "difficulty": "easy",
+    "time_estimate": 45,
+    "passage": "pdfData:pdf/2022 Grade 4 English Language Arts Released Questions.pdf",
+    "question_text": "What does the word \"flap\" mean as it is used in paragraph 6?",
+    "options": [
+      "box closing",
+      "piece of fabric",
+      "loose covering",
+      "part of a book"
+    ],
+    "correct_answer": null,
+    "answer_type": "multiple_choice"
+  },
+  {
+    "_id": "4",
+    "question_number": 4,
+    "category": "ELA: Informational",
+    "difficulty": "medium",
+    "time_estimate": 60,
+    "passage": "pdfData:pdf/2022 Grade 4 English Language Arts Released Questions.pdf",
+    "question_text": "According to the information in paragraph 7, which statement best explains something special the father red fox does for his kits?",
+    "options": [
+      "He watches the kits as they learn to dig for food.",
+      "He stays in the den to make sure the kits are warm.",
+      "He hunts for food and then covers it so the kits have to find it.",
+      "He comes back to the den every few hours to check on the kits."
+    ],
+    "correct_answer": null,
+    "answer_type": "multiple_choice"
+  },
+  {
+    "_id": "5",
+    "question_number": 5,
+    "category": "ELA: Informational",
+    "difficulty": "easy",
+    "time_estimate": 60,
+    "passage": "pdfData:pdf/2022 Grade 4 English Language Arts Released Questions.pdf",
+    "question_text": "How does the table support the information in the article?",
+    "options": [
+      "It compares father and mother animals.",
+      "It shows the number of babies a father animal cares for.",
+      "It gives more information about the sizes of father birds.",
+      "It gives more examples of how animal fathers take care of babies."
+    ],
+    "correct_answer": null,
+    "answer_type": "multiple_choice"
+  },
+  {
+    "_id": "6",
+    "question_number": 6,
+    "category": "ELA: Informational",
+    "difficulty": "medium",
+    "time_estimate": 60,
+    "passage": "pdfData:pdf/2022 Grade 4 English Language Arts Released Questions.pdf",
+    "question_text": "Which statement best summarizes the main idea of the article?",
+    "options": [
+      "Frog fathers sometimes care for a large number of babies.",
+      "Animal fathers have unusual ways of helping their young.",
+      "Animal fathers sometimes care for their young in groups.",
+      "Fox fathers need many skills to keep their kits healthy."
+    ],
+    "correct_answer": null,
+    "answer_type": "multiple_choice"
+  },
+  {
+    "_id": "19",
+    "question_number": 19,
+    "category": "ELA: Informational",
+    "difficulty": "medium",
+    "time_estimate": 60,
+    "passage": "pdfData:pdf/2022 Grade 4 English Language Arts Released Questions.pdf",
+    "question_text": "In paragraph 4 of the article, what is the most likely reason the author sends his work to an editor at Random House?",
+    "options": [
+      "The author likes the illustrations in the story.",
+      "His second grade teacher suggests that he send the story to the editor.",
+      "The author thinks his story is one that people would like to read.",
+      "His mother helps him send the story to the editor."
+    ],
+    "correct_answer": null,
+    "answer_type": "multiple_choice"
+  },
+  {
+    "_id": "20",
+    "question_number": 20,
+    "category": "ELA: Informational",
+    "difficulty": "medium",
+    "time_estimate": 75,
+    "passage": "pdfData:pdf/2022 Grade 4 English Language Arts Released Questions.pdf",
+    "question_text": "Read these sentences from paragraph 5.\nNow I tell young writers, \"Keep trying. If you work hard and make your writing the best you can, you'll be published too.\"\nThe author best supports these sentences by including",
+    "options": [
+      "information about how he wrote stories for family members",
+      "the point about how the book he wrote in second grade was turned down",
+      "a story about why his brother draws for his books",
+      "the fact that he and his brother sent out four books before one was accepted"
+    ],
+    "correct_answer": null,
+    "answer_type": "multiple_choice"
+  },
+  {
+    "_id": "21",
+    "question_number": 21,
+    "category": "ELA: Informational",
+    "difficulty": "easy",
+    "time_estimate": 45,
+    "passage": "pdfData:pdf/2022 Grade 4 English Language Arts Released Questions.pdf",
+    "question_text": "Read this sentence from paragraph 6.\nSuddenly, I was a published writer!\nWhat does \"published writer\" mean as it is used in this sentence?",
+    "options": [
+      "someone who has original ideas when writing",
+      "someone who has written work printed to share with the public",
+      "someone who likes to retell written works by changing the events",
+      "someone who writes stories to give away as gifts"
+    ],
+    "correct_answer": null,
+    "answer_type": "multiple_choice"
+  },
+  {
+    "_id": "22",
+    "question_number": 22,
+    "category": "ELA: Informational",
+    "difficulty": "medium",
+    "time_estimate": 60,
+    "passage": "pdfData:pdf/2022 Grade 4 English Language Arts Released Questions.pdf",
+    "question_text": "How is the information in paragraph 6 organized?",
+    "options": [
+      "Details are presented in the order they happened.",
+      "An effect and its cause are mentioned.",
+      "Different events are compared and contrasted.",
+      "A problem and its solution are presented."
+    ],
+    "correct_answer": null,
+    "answer_type": "multiple_choice"
+  },
+  {
+    "_id": "23",
+    "question_number": 23,
+    "category": "ELA: Informational",
+    "difficulty": "medium",
+    "time_estimate": 60,
+    "passage": "pdfData:pdf/2022 Grade 4 English Language Arts Released Questions.pdf",
+    "question_text": "The purpose of the information in paragraph 7 is to show that",
+    "options": [
+      "the author continues to enjoy seeing his work in print and on the screen",
+      "the author's favorite part of a movie is what happens at the end",
+      "the author wants his writing to be in magazines and newspapers",
+      "the author's work is very good when his name appears on the screen"
+    ],
+    "correct_answer": null,
+    "answer_type": "multiple_choice"
+  },
+  {
+    "_id": "24",
+    "question_number": 24,
+    "category": "ELA: Informational",
+    "difficulty": "medium",
+    "time_estimate": 60,
+    "passage": "pdfData:pdf/2022 Grade 4 English Language Arts Released Questions.pdf",
+    "question_text": "Which sentence from the article best supports the main idea of \"Sharing My Story\"?",
+    "options": [
+      "\"The editor at Random House didn't buy my story.\" (paragraph 5)",
+      "\"I had my first story printed in a newspaper when I was in third grade.\" (paragraph 6)",
+      "\"However long it takes, there are great rewards.\" (paragraph 7)",
+      "\"I never met the editor who told me to keep writing, but she was a friend to me.\" (paragraph 8)"
+    ],
+    "correct_answer": null,
+    "answer_type": "multiple_choice"
+  },
+  {
+    "_id": "25",
+    "question_number": 25,
+    "category": "ELA: Informational",
+    "difficulty": "medium",
+    "time_estimate": 600,
+    "passage": "pdfData:pdf/2022 Grade 4 English Language Arts Released Questions.pdf",
+    "question_text": "According to paragraphs 2 through 4 of the article \"Human Homes that Master the Weather,\" how does the sun affect the way people live in Matmata, Tunisia? Use two details from the article to support your response.",
+    "options": [],
+    "correct_answer": null,
+    "answer_type": "short_response"
+  },
+  {
+    "_id": "26",
+    "question_number": 26,
+    "category": "ELA: Informational",
+    "difficulty": "medium",
+    "time_estimate": 600,
+    "passage": "pdfData:pdf/2022 Grade 4 English Language Arts Released Questions.pdf",
+    "question_text": "Read this sentence from paragraph 6 of \"Human Homes that Master the Weather.\"\nThe homes in this \"water village\" stand on stilts several feet above the water.\nHow does this detail support the main idea of paragraphs 5 through 7? Use two details from the article to support your response.",
+    "options": [],
+    "correct_answer": null,
+    "answer_type": "short_response"
+  },
+  {
+    "_id": "27",
+    "question_number": 27,
+    "category": "ELA: Informational",
+    "difficulty": "medium",
+    "time_estimate": 600,
+    "passage": "pdfData:pdf/2022 Grade 4 English Language Arts Released Questions.pdf",
+    "question_text": "What does the word \"migrate\" mean as it is used in paragraph 8 of the article? Use two details from the article to support your response.",
+    "options": [],
+    "correct_answer": null,
+    "answer_type": "short_response"
+  },
+  {
+    "_id": "28",
+    "question_number": 28,
+    "category": "ELA: Literature",
+    "difficulty": "medium",
+    "time_estimate": 600,
+    "passage": "pdfData:pdf/2022 Grade 4 English Language Arts Released Questions.pdf",
+    "question_text": "How does the information in paragraph 1 of \"The Fox and the Crow\" help the reader's understanding of the rest of the story? Use two details from the story to support your response.",
+    "options": [],
+    "correct_answer": null,
+    "answer_type": "short_response"
+  },
+  {
+    "_id": "29",
+    "question_number": 29,
+    "category": "ELA: Literature",
+    "difficulty": "medium",
+    "time_estimate": 600,
+    "passage": "pdfData:pdf/2022 Grade 4 English Language Arts Released Questions.pdf",
+    "question_text": "What does the fox think about himself in \"The Otters and the Fox\"? Use two details from the story to support your response.",
+    "options": [],
+    "correct_answer": null,
+    "answer_type": "short_response"
+  },
+  {
+    "_id": "30",
+    "question_number": 30,
+    "category": "ELA: Literature",
+    "difficulty": "medium",
+    "time_estimate": 600,
+    "passage": "pdfData:pdf/2022 Grade 4 English Language Arts Released Questions.pdf",
+    "question_text": "What is a theme of \"The Otters and the Fox\"? Use two details from the story to support your response.",
+    "options": [],
+    "correct_answer": null,
+    "answer_type": "short_response"
+  },
+  {
+    "_id": "31",
+    "question_number": 31,
+    "category": "ELA: Literature",
+    "difficulty": "hard",
+    "time_estimate": 1200,
+    "passage": "pdfData:pdf/2022 Grade 4 English Language Arts Released Questions.pdf",
+    "question_text": "In both \"The Fox and the Crow\" and \"The Otters and the Fox,\" one character plays a trick on other characters. Why does one character in each story play a trick on other characters? How are the tricks the characters play alike? How are the tricks the characters play different? Use details from both stories to support yourT response.",
+    "options": [],
+    "correct_answer": null,
+    "answer_type": "extended_response"
+  }
+]
