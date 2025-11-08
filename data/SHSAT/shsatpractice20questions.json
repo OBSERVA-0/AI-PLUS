@@ -942,13 +942,13 @@
     "category": "English:Reading Comprehension",
     "difficulty": "easy",
     "time_estimate": 95,
-    "passage": "pdfData:pdf/Pearsons2018-2019A_MovingMountains.pdf",
-    "question_text": "Which concluding sentence should be added after sentence 18 to support the topic presented in the passage?",
+    "passage": "",
+    "question_text": "(1) A contagious respiratory infection, people infected with the seasonal flu virus feel miserable with fever, chills, muscle aches, and fatigue. (2) Within two weeks, the symptoms of the flu disappear, and most people get better. (3) However, some people may develop serious complications, such as pneumonia. ( 4) Each year, seasonal influenza sickens millions and causes thousands of hospitalizations and flu-related deaths.\n\nWhich sentence should be revised to correct an error in construction?",
     "options": [
-      "There is proof that underground tunnels such as the Gotthard Base Tunnel are beneficial to the economy of the surrounding area.",
-      "The Gotthard Base Tunnel is an extraordinary example of how human ingenuity and persistence can overcome great obstacles.",
-      "The completion of the Gotthard Base Tunnel shows that people can work together to achieve important goals.",
-      "The Swiss government is confident that the economic impact of the Gotthard Base Tunnel will be worth its construction cost."
+      "Sentence 1",
+      "Sentence 2",
+      "Sentence 3",
+      "Sentence 4"
     ],
     "correct_answer": null,
     "answer_type": ""
@@ -960,13 +960,13 @@
     "category": "English:Reading Comprehension",
     "difficulty": "easy",
     "time_estimate": 95,
-    "passage": "(1) The International Space Station has been inhabited by crew members since 2000.\n(2) Tourists will soon be allowed to pay for visits to the space station.\n(3) Because the cost is $52–$58 million round trip, few people will be able to take advantage of the opportunity to have a vacation in outer space.",
-    "question_text": "What is the best way to combine these sentences to clarify the relationship between ideas?",
+    "passage": "",
+    "question_text": "The heavy, bulky box contained an invaluable relic that could be traced to the ancient Egyptians but John, unaware of its contents, broke it by sitting on the box. \n\n Which edit should be made to correct this sentence? ",
     "options": [
-      "The International Space Station has been inhabited by crew members since 2000, but tourists will soon be allowed to pay for visits to the space station, which cost $52–$58 million round trip, so few people will be able to take advantage of the opportunity to have a vacation in outer space.",
-      "The International Space Station has been inhabited by crew members since 2000 and will soon allow tourists to pay for visits, but because the cost is $52–$58 million round trip, few people will be able to take advantage of the opportunity to have a vacation in outer space.",
-      "The International Space Station has been inhabited by crew members since 2000, but tourists will soon be allowed to pay for visits to the space station, though the cost is $52–$58 million round trip, so few people will be able to take advantage of the opportunity to have a vacation in outer space.",
-      "The International Space Station has been inhabited by crew members since 2000, and tourists will soon be allowed to pay for visits to the space station because the cost is $52–$58 million round trip, therefore few people will be able to take advantage of the opportunity to have a vacation in outer space."
+      "Delete the comma after heavy",
+      "Insert a comma after relic",
+      "Insert a comma after Egyptians",
+      "Delete the comma after John."
     ],
     "correct_answer": null,
     "answer_type": ""
@@ -1014,13 +1014,13 @@
     "category": "English:Reading Comprehension",
     "difficulty": "easy",
     "time_estimate": 95,
-    "passage": "(1) Construction of the Eiffel Tower, an iron lattice tower in Paris, France, started in 1887. (2) Shortly after its construction was completed it served as the entrance to the World's Fair in 1889, which honored the 100th anniversary of the storming of the Bastille. (3) Over time, it becomes a popular tourist destination, attracting people from all over the world. (4) Although it is now an architectural icon, it was initially criticized by artists, who believed it was a monstrous construction that violated conventional principles of aesthetics.",
-    "question_text": "Which pair of revisions need to be made in this paragraph?",
+    "passage": "",
+    "question_text": "(1) Jupiter is the fifth planet from our Sun and the largest planet in the solar system. (2) Its stripes and swirls are cold windy clouds of ammonia and water. (3) The atmosphere is mostly hydrogen and helium, and its iconic Great Red Spot is a giant storm bigger than Earth that has raged for hundreds of years. ( 4) Scientists have observed, however, that the Great Red Spot is shrinking in length but growing in height.\n\nWhich edit should be made to correct this sentence? ",
     "options": [
-      "Sentence 1: Delete the comma after 'Tower'.\nSentence 3: Change 'becomes' to 'became'",
-      "Sentence 1: Delete the comma after 'Tower'.\nSentence 4: Change 'believed' to 'had believed'",
-      "Sentence 2: Insert a comma after 'completed'.\nSentence 3: Change 'becomes' to 'became'.",
-      "Sentence 2: Insert a comma after 'completed'.\nSentence 4: Change 'believed' to 'had believed'"
+      "Add a comma after Sun in sentence I.",
+      "Add a comma after cold sentence 2.",
+      "Delete the comma after helium in sentence 3.",
+      "Delete the comma after however in sentence 4."
     ],
     "correct_answer": null,
     "answer_type": ""
