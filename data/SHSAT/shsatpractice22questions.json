@@ -2,325 +2,325 @@
   {
     "_id": "1",
     "question_number": 1,
-    "practice_set": "15",
+    "practice_set": "20",
     "category": "English:Reading Comprehension",
     "difficulty": "easy",
     "time_estimate": 95,
     "passage": "pdfData:pdf/Pearsons2024-2025B_ExerciseLanguage.pdf",
-    "question_text": "How does the author’s use of comparison in paragraphs 4 and 5 contribute to the development of ideas in the excerpt?",
+    "question_text": "Which statement best describes the central idea of the passage?",
     "options": [
-      "It identifies why many adults are never able to learn a second language.",
-      "It demonstrates why the study of adult language learning tries to include physical activity.",
-      "It highlights why more is known about language learning in children than about language learning in adults.",
-      "It explains why adults were the subjects of the study rather than children."
-    ],
-    "correct_answer": 3,
+    "Technology is the primary driver of human knowledge.",
+    "The Wound Man was a mysterious figure whose origin and purpose remains unknown.",
+    "The Wound Man reveals the lack of knowledge that people in the Middle Ages possessed.",
+    "The Wound Man was a useful tool that aided both medical procedures and medical knowledge."
+  ]
+    "correct_answer": null,
     "answer_type": ""
   },
   {
     "_id": "2",
     "question_number": 2,
-    "practice_set": "15",
+    "practice_set": "20",
     "category": "English:Reading Comprehension",
     "difficulty": "easy",
     "time_estimate": 95,
     "passage": "pdfData:pdf/Pearsons2024-2025B_ExerciseLanguage.pdf",
-    "question_text": "Read this sentence from paragraph 6.\n\nTo see what effects exercise might have on this process, the researchers first recruited 40 college-age Chinese men and women who were trying to learn English.\n\nWhich statement describes the function of the sentence in the overall structure of the excerpt?",
+    "question_text": "Which of the following statements best describe the function of paragraphs 1 and 2?",
     "options": [
-      "It indicates a shift from describing the results of the study to describing the process.",
-      "It introduces the aspect of the research that was most critical to determining the results.",
-      "It marks the change from explaining why the study was conducted to explaining how the study was conducted.",
-      "It shows how questions were raised that could be addressed in further research."
-    ],
-    "correct_answer": 2,
+    "They provide an image of the Wound Man to help the reader visualize the object to be discussed in detail.",
+    "They convey the idea that the Wound Man was a terrible representation of life in the Middle Ages.",
+    "They highlight the grotesque monstrosity that reflected the brutal life of the Middle Ages.",
+    "They introduce the idea that life in the Middle Ages was difficult and filled with violence."
+  ]
+    "correct_answer": null,
     "answer_type": ""
   },
   {
     "_id": "3",
     "question_number": 3,
-    "practice_set": "15",
+    "practice_set": "20",
     "category": "English:Reading Comprehension",
     "difficulty": "easy",
     "time_estimate": 95,
     "passage": "pdfData:pdf/Pearsons2024-2025B_ExerciseLanguage.pdf",
-    "question_text": "Which sentence is the best summary of the research procedure used in the study in the excerpt?",
+    "question_text": "Which sentence from paragraph 1 and 2 best supports the idea that the series of descriptions are not those of a real human being?",
     "options": [
-      "Researchers had a group of non-English-speaking students learn new English vocabulary by matching words and images on a computer screen, and also by analyzing words in context; some students exercised and some students sat still while learning.",
-      "Researchers first divided non-English-speaking students into two groups, with one group exercising before and while studying English and the other group studying English without exercising; then, after instruction, student learning was assessed.",
-      "Researchers first had non-English-speaking students sit on stationary bikes and pedal for 20 minutes before instruction and 15 minutes during instruction; then, after a rest period, students indicated whether English sentences made sense.",
-      "Researchers asked non-English-speaking students to study English while sitting or biking; then the students’ vocabulary skills were assessed after a short break period and also after a break of a full month without their having studied any of the materials."
-    ],
-    "correct_answer": 1,
+    "“Staring impassively out of the page, he bears a multitude of graphic wounds.” (paragraph 1)",
+    "“His skin is covered in bleeding cuts and lesions, stabbed and sliced by knives, spears, and swords of varying sizes, many of which remain in the skin, protruding porcupine-like from his body.” (paragraph 1)",
+    "“His neck, armpits, and groin sport rounded blue buboes, swollen glands suggesting that the figure has contracted plague.” (paragraph 2)",
+    "“A dog, snake, and scorpion bite at his ankles, a bee stings his elbow, and even inside the cavity of his stomach a toad aggravates his innards.” (paragraph 2)"
+  ]
+    "correct_answer": null,
     "answer_type": ""
   },
   {
     "_id": "4",
     "question_number": 4,
-    "practice_set": "15",
+    "practice_set": "20",
     "category": "English:Reading Comprehension",
     "difficulty": "easy",
     "time_estimate": 95,
     "passage": "pdfData:pdf/Pearsons2024-2025B_ExerciseLanguage.pdf",
-    "question_text": "In the study described in the excerpt, researchers asked English learners to assess the sense of words in context because that task is",
+    "question_text": "In paragraph 3, the word “alive” is used to highlight",
     "options": [
-      "better at determining the capability learners have of language than simple vocabulary recall.",
-      "consistent with the way earlier research was conducted on adult language learners.",
-      "a better way for learners to absorb the meaning of individual vocabulary words.",
-      "more difficult for learners to perform after an extended period of time has passed."
-    ],
-    "correct_answer": 0,
+    "how realistic the illustration appears to the viewer.",
+    "how dynamic and exciting life was in the Middle Ages.",
+    "how important the image is to medieval medicine.",
+    "how fortunate a person can be despite all the wounds."
+  ]
+    "correct_answer": null,
     "answer_type": ""
   },
   {
     "_id": "5",
     "question_number": 5,
-    "practice_set": "15",
+    "practice_set": "20",
     "category": "English:Reading Comprehension",
     "difficulty": "easy",
     "time_estimate": 95,
     "passage": "pdfData:pdf/Pearsons2024-2025B_ExerciseLanguage.pdf",
-    "question_text": "Read these sentences from paragraph 17.\n\nThese improvements extend beyond simply aiding in memorization, she added. The exercise also deepened language learners’ grasp of how to use their newly acquired words.\n\nWhich sentence from the excerpt best explains why Sulpizio feels confident in the conclusion stated in these sentences?",
+    "question_text": "Read the following sentence from paragraph 4.\n\n A remarkable image of the Wound Man from Wellcome library depicts a figure that is penetrated not only by weapons but also by text.\n\nHow does this sentence fit into the overall structure of the passage?",
     "options": [
-      "“They were shown 40 words per session, with the sequence repeated several times.” (paragraph 10)",
-      "“They also responded to sentences using the new words, marking whether the sentences were accurate or, in the case of ‘The apple is a dentist,’ nonsensical.” (paragraph 11)",
-      "“And at the end of each lesson, the students who had ridden bikes performed better on the subsequent vocabulary tests than did the students who sat still.” (paragraph 13)",
-      "“They also became more proficient at recognizing proper sentences than the sedentary students, although that difference did not emerge until after several weeks of instruction.” (paragraph 14)"
-    ],
-    "correct_answer": 3,
+    "It emphasizes the brutality of war in the Middle Ages.",
+    "It presents an explanation for the importance of the Wellcome Library.",
+    "It supports a previously made assertion about the role of the Wound Man.",
+    "It indicates that the Wellcome Library is the only place one can see the remarkable image of the Wound Man."
+  ]
+    "correct_answer": null,
     "answer_type": ""
   },
   {
     "_id": "6",
     "question_number": 6,
-    "practice_set": "15",
+    "practice_set": "20",
     "category": "English:Reading Comprehension",
     "difficulty": "easy",
     "time_estimate": 95,
     "passage": "pdfData:pdf/Pearsons2024-2025B_ExerciseLanguage.pdf",
-    "question_text": "Paragraph 18 shows that the author’s perspective toward the study described in the excerpt is that",
+    "question_text": "Paragraph 5 contributes to the development of the topic mainly by",
     "options": [
-      "though the study allowed some conclusions to be drawn, these conclusions are limited.",
-      "while the study focused on moderate exercise, it would have been better to focus on difficult exercise.",
-      "while the study was performed appropriately, it is doubtful the results can be duplicated.",
-      "though the study was about learning language, its conclusions can be applied to learning in general."
-    ],
-    "correct_answer": 0,
+    "listing the most typical disorders and physical problems encountered by most people in the Middle Ages.",
+    "providing examples of the ways in which Wound Men appeared in publications.",
+    "revealing that the Wound Men were at first limited to cures for spiders and treatment of arrow wounds.",
+    "demonstrating how limited the early Wound Men were in comparison to modern medical texts."
+  ]
+    "correct_answer": null,
     "answer_type": ""
   },
   {
     "_id": "7",
     "question_number": 7,
-    "practice_set": "15",
+    "practice_set": "20",
     "category": "English:Reading Comprehension",
     "difficulty": "easy",
     "time_estimate": 95,
     "passage": "pdfData:pdf/Pearsons2024-2025B_ExerciseLanguage.pdf",
-    "question_text": "Which evidence from the excerpt is most relevant to the author’s claim that there are many unanswered questions about the relationship between movement and learning?",
+   "question_text": "The author mentions the Wound Man’s “popular inclusion” in paragraph 6 mainly to",
     "options": [
-      "the method of the study using one type of exercise and people from one age group",
-      "the statement from Sulpizio explaining past studies on neurochemicals in the brain",
-      "the finding of the study that exercise helps people recall information over a long period of time",
-      "the statement from Sulpizio describing how the results of the study can be applied"
-    ],
-    "correct_answer": 0,
+    "criticize the failure of most people to recognize the Wound Man’s importance.",
+    "support the claim that the Wound Man was well known to people of the Middle Ages.",
+    "emphasize the idea that the Wound Man was perceived to be a useful tool.",
+    "highlight the fact that the image of the Wound Man grew more complex over time."
+  ]
+    "correct_answer": null,
     "answer_type": ""
   },
   {
     "_id": "8",
     "question_number": 8,
-    "practice_set": "15",
+    "practice_set": "20",
     "category": "English:Reading Comprehension",
     "difficulty": "easy",
     "time_estimate": 95,
     "passage": "pdfData:pdf/Pearsons2024-2025B_NoHarm.pdf",
-    "question_text": "Paragraph 1 contributes to the setting of the excerpt by establishing that",
+    "question_text": "Which sentence is the best summary of the impact the Wound Man had on helping us understand the Middle Ages?",
     "options": [
-      "the story’s location is a plentiful place that allows The People to enjoy a comfortable gathering.",
-      "the events in the story occurred in the past and are being remembered by The People.",
-      "the camp in the story is changing and that the changes are causing problems for The People.",
-      "the story’s plot begins as The People are observing their land and what it offers them."
+      "By carefully listing all the types of cures, the Wound Man helped us modify our own medical practices.",
+      "It reminds us that war and violence has no place in the modern world.",
+      "Because of its specific references to various types of wounds and diseases, the Wound Man enabled us to gain a greater understanding of war.",
+      "It helps us to gain a greater appreciation of the technological advancements of the Middle Ages."
     ],
-    "correct_answer": 0,
+    "correct_answer": null,
     "answer_type": ""
   },
   {
     "_id": "9",
     "question_number": 9,
-    "practice_set": "15",
+    "practice_set": "20",
     "category": "English:Reading Comprehension",
     "difficulty": "easy",
     "time_estimate": 95,
     "passage": "pdfData:pdf/Pearsons2024-2025B_NoHarm.pdf",
-    "question_text": "In paragraphs 4 and 6, the beginning of the change in seasons affects the characters mainly by",
-    "options": [
-      "causing them to collect their bounty and feel eager to celebrate before it becomes cold.",
-      "making them want to rest and relax before the challenging work of the harvest begins.",
-      "forcing them to give up leisure time to prepare their camp for the coming winter.",
-      "allowing them to trade the goods they have prepared during the warm months."
-    ],
-    "correct_answer": 0,
+    "question_text": "Which sentence best supports the idea that the Wound Man continues to have an important influence in society today?",
+  "options": [
+    "“Despite this horrendous cumulative barrage of injuries, however, the Wound Man is very much alive.” (paragraph 3)",
+    "“Accompanying a text known as the ‘Wundarznei’ (The Surgery), these first Wound Men effectively functioned as a human table of contents for the cures contained within the relevant treatise.” (paragraph 4)",
+    "“It was living proof of the efficacy of the surgical enterprise, and a popular inclusion in medical works alongside a wide variety of related images that plotted diseases, the zodiac signs, bloodletting points, and anatomical schemes onto a similarly arranged human body.” (paragraph 6)",
+    "“Living on today in libraries from Copenhagen to Munich, the strange figure of the Wound Man gives modern viewers a glimpse of the worrying injuries that the medieval body could receive through war, accident, and epidemic.” (paragraph 7)"
+  ]
+    "correct_answer": null,
     "answer_type": ""
   },
   {
     "_id": "10",
     "question_number": 10,
-    "practice_set": "15",
+    "practice_set": "20",
     "category": "English:Reading Comprehension",
     "difficulty": "easy",
     "time_estimate": 95,
     "passage": "pdfData:pdf/Pearsons2024-2025B_NoHarm.pdf",
-    "question_text": "How do paragraphs 7 and 9 convey a central idea of the excerpt?",
-    "options": [
-      "by explaining that The People often explore different areas, which shows the value of trying new things",
-      "by revealing that The People must complete many tasks, which shows the necessity of being organized",
-      "by suggesting that The People are influenced by the weather, which shows their close relationship with nature",
-      "by demonstrating that The People work together, which shows the importance of contributing to the community"
-    ],
-    "correct_answer": 3,
+    "question_text": "In paragraph 1, the phrase “rumor had it” is used to highlight",
+  "options": [
+    "the dangers of consuming chocolate in the seventeenth century.",
+    "the miraculous effects chocolate was supposed to possess.",
+    "the unfounded claims that were not based on facts.",
+    "the belief that chocolate was considered food and not drugs."
+]
+    "correct_answer": null,
     "answer_type": ""
   },
   {
     "_id": "11",
     "question_number": 11,
-    "practice_set": "15",
+    "practice_set": "20",
     "category": "English:Reading Comprehension",
     "difficulty": "easy",
     "time_estimate": 95,
     "passage": "pdfData:pdf/Pearsons2024-2025B_NoHarm.pdf",
-    "question_text": "In paragraph 8, the author repeats the word “played” most likely to",
+    "question_text": "The seventeenth-century European attitude toward chocolate was most influenced by",
     "options": [
-      "emphasize how much the adults enjoy observing the children.",
-      "show how everyone finds a way to enjoy being at the gathering.",
-      "indicate the variety of activities available at the gathering.",
-      "characterize the manner in which the children master the work of adults."
-    ],
-    "correct_answer": 3,
+      "the brews of foreign beans.",
+      "wonder and danger of far-away lands.",
+      "pharmacists and physicians.",
+      "the abuse of hot beverages."
+    ]
+    "correct_answer": null,
     "answer_type": ""
   },
   {
     "_id": "12",
     "question_number": 12,
-    "practice_set": "15",
+    "practice_set": "20",
     "category": "English:Reading Comprehension",
     "difficulty": "easy",
     "time_estimate": 95,
     "passage": "pdfData:pdf/Pearsons2024-2025B_NoHarm.pdf",
-    "question_text": "How do paragraphs 11– 13 affect the plot of the excerpt?",
+    "question_text": "Which statement best describes professional reactions to chocolate?",
     "options": [
-      "They establish a feeling of mystery by presenting different points of view about the arriving people.",
-      "They contribute to the rising action by developing the idea that the arriving people could present a problem.",
-      "They lead to a turning point by describing the moment that the crowd realizes why the strangers have come.",
-      "They explain the cause of the main conflict by providing background information about the strangers."
-    ],
-    "correct_answer": 1,
+    "They were generally positive, proclaiming its many health benefits.",
+    "They were generally negative, warning consumers about its potential for mischief.",
+    "They were mixed, resulting in competing evaluations about its usefulness.",
+    "They were generally ignored by the public, which prioritized taste over benefits to health."
+  ]
+    "correct_answer": null,
     "answer_type": ""
   },
   {
     "_id": "13",
     "question_number": 13,
-    "practice_set": "15",
+    "practice_set": "20",
     "category": "English:Reading Comprehension",
     "difficulty": "easy",
     "time_estimate": 95,
     "passage": "pdfData:pdf/Pearsons2024-2025B_NoHarm.pdf",
-    "question_text": "In paragraph 20, the phrases “trophies of their hunt” and “paraded around” affect the paragraph by",
+     "question_text": "How did Colmenero's work “enter the pharmaceutical annals” in Europe?",
     "options": [
-      "suggesting that the hunters are rewarded for their leadership.",
-      "emphasizing that The People are dependent on the hunters for food.",
-      "revealing that the hunters are pleased with their success.",
-      "indicating that The People have gathered specifically to welcome the hunters."
-    ],
-    "correct_answer": 2,
+    "by using the descriptions of chocolate made by Cortés",
+    "by acquiring his degree in medicine from a Jesuit mission in the colonies",
+    "by contextualizing his work in a specialized branch of science",
+    "by acting as the main importer of chocolate"
+  ]
+    "correct_answer": null,
     "answer_type": ""
   },
   {
     "_id": "14",
     "question_number": 14,
-    "practice_set": "15",
+    "practice_set": "20",
     "category": "English:Reading Comprehension",
     "difficulty": "easy",
     "time_estimate": 95,
     "passage": "pdfData:pdf/Pearsons2024-2025B_NoHarm.pdf",
-    "question_text": "Which quotation from the excerpt best supports the idea that The People feel a connection to members of their group in spite of distance?",
+    "question_text": "It can be inferred that Hippocrates would agree with which of the following statements?",
     "options": [
-      "“As was their custom since wahk-kee-ma, a time far back beyond the memory of man, they set up their camps in the same locations their parents and grandparents had occupied before them.” (paragraph 5)",
-      "“ ‘Would they have news of the families who had gone long ago to Buffalo Country and never returned?’ ” (paragraph 13)",
-      "“ ‘Looks like hunters,’ the older men agreed. ‘Looks like they had good hunting.’ ”(paragraph 15)",
-      "“But it was the sight of the frail figure of the woman that aroused their curiosity.”(paragraph 21)"
-    ],
-    "correct_answer": 1,
+    "Chocolate presents both the hot and cold characteristics.",
+    "Humoralism can be applied to the study of chocolates.",
+    "An excess of phlegm can lead to a sickness.",
+    "Fire is the strongest of all elements." 
+  ],
+    "correct_answer": null,
     "answer_type": ""
   },
-  {
+ {
     "_id": "15",
     "question_number": 15,
-    "practice_set": "15",
+    "practice_set": "20",
     "category": "English:Reading Comprehension",
     "difficulty": "easy",
     "time_estimate": 95,
-    "passage": "pdfData:pdf/Pearsons2024-2025B_NoHarm.pdf",
-    "question_text": "Read these sentences from paragraph 22.\n\n“Belongs to Red Bear people. Gone then come back.”\n\nHow does this statement affect the villagers in the excerpt?",
+    "passage": "",
+    "question_text": "The author includes the details about “humoralism” in order to",
     "options": [
-      "It increases their concern about why the woman is in their camp.",
-      "It makes them hopeful that more lost members will return before the winter.",
-      "It causes shock, leading them to grieve for the loss of the woman and her family.",
-      "It inspires amazement, making them want to reconnect with their returned family member."
+      "describe the origin of European medicine.",
+      "explain how people develop sicknesses.",
+      "highlight the problems in the logic behind ancient medicinal theories.",
+      "reveal why ideas about chocolate were subject to disagreements."
     ],
-    "correct_answer": 3,
+    "correct_answer": null,
     "answer_type": ""
   },
   {
     "_id": "16",
     "question_number": 16,
-    "practice_set": "15",
+    "practice_set": "20",
     "category": "English:Reading Comprehension",
     "difficulty": "easy",
     "time_estimate": 95,
-    "passage": "pdfData:pdf/Pearsons2024-2025B_NoHarm.pdf",
-    "question_text": "The details in paragraph 5 about the locations of the camps and the details in paragraphs 23– 24 about the reaction to the woman convey a theme of the excerpt by",
+    "passage": "",
+    "question_text": "Which statement best supports the idea that Colmenero had a large role in shaping the way people viewed chocolate?",
     "options": [
-      "revealing the difficulties posed by moving often each year.",
-      "showing the connectedness among The People through the years.",
-      "indicating the value to The People of retelling stories about the past. ",
-      "demonstrating the importance of choosing appropriate names."
+      "“Colmenero's work dates from the era when Spain was the main importer of chocolate.” (paragraph 3)",
+      "“Colmenero's work introduced chocolate to Europe as a drug by appealing to the science of the humors, or essential bodily fluids.” (paragraph 3)",
+      "“Colmenero endeavored to make its mystery at least debatable in terms readily accessible across the countries of Western Europe.” (paragraph 5)",
+      "“Because Colmenero was a doctor and surgeon who was said to have traveled to the West Indies, his work was received as medical lore.” (paragraph 5)"
     ],
-    "correct_answer": 1,
+    "correct_answer": null,
     "answer_type": ""
   },
   {
     "_id": "17",
     "question_number": 17,
-    "practice_set": "15",
+    "practice_set": "20",
     "category": "English:Reading Comprehension",
     "difficulty": "easy",
     "time_estimate": 95,
-    "passage": "pdfData:pdf/Pearsons2024-2025B_Telegraph.pdf",
-    "question_text": "Which statement describes how the author’s use of problem- solution in paragraph 2 contributes to the development of ideas in the passage?",
+    "passage": "",
+    "question_text": "Which sentence from the excerpt best shows that Colmenero's contributions were not limited to medicine?",
     "options": [
-      "Morse’s discussion on a ship about Faraday’s electromagnet reminded him of the Yale College lectures on electricity, which he had enjoyed but had not fully understood, inspiring him to learn more about electricity from his colleague Gale",
-      "Morse’s discouragement over his lack of knowledge of electricity prompted him to experiment with batteries, magnets, and wires, which led to the development of a new longdistance communication system.",
-      "Morse’s difficulty in understanding how Faraday’s electromagnet worked was frustrating, and it pushed him to create a system for sending signals over wires.",
-      "Morse’s longtime fascination was not enough to make up for his lack of knowledge about electricity, so he eventually sought help from Gale."
+      "“Chocolate was the first of the three to enter the pharmaceutical annals in Europe through Antonio Colmenero de Ledesma.” (paragraph 3)",
+      "“Colmenero's short treatise dates from the era when Spain was the main importer of chocolate.” (paragraph 3)",
+      "“Colmenero endeavored to make its mystery at least debatable in terms readily accessible across the countries of Western Europe.” (paragraph 5)",
+      "“It also supplied the very first recipe for hot chocolate on the European continent.” (paragraph 5)"
     ],
-    "correct_answer": 3,
+    "correct_answer": null,
     "answer_type": ""
   },
   {
     "_id": "18",
     "question_number": 18,
-    "practice_set": "15",
+    "practice_set": "20",
     "category": "English:Reading Comprehension",
     "difficulty": "easy",
     "time_estimate": 95,
-    "passage": "pdfData:pdf/Pearsons2024-2025B_Telegraph.pdf",
-    "question_text": "The details of the section “The Growth of an Idea” convey a central idea of the passage by suggesting that",
+    "passage": "",
+    "question_text": "Read the following sentence from paragraph 5.\n\n“Colmenero endeavored to make its mystery at least debatable in terms readily accessible across the countries of Western Europe.”\n\nHow does the sentence contribute to the development of the central idea?",
     "options": [
-      "the collaborative efforts of colleagues resulted in successful communication over a wire.",
-      "a great deal of interest and work was devoted to understanding how to use electricity to send signals.",
-      "Faraday’s invention of the electromagnet inspired the invention of the telegraph.",
-      "colleges like Yale played a great role in making new discoveries about electricity and its applications."
+      "It reveals Colmenero's argumentative personality that set off many debates in Western Europe.",
+      "It suggests that Colmenero wanted higher supplies of chocolate available to the people of Western Europe.",
+      "It identifies one impact of Colmenero's research.",
+      "It highlights the mystery chocolate caused among the people of Western Europe."
     ],
-    "correct_answer": 1,
+    "correct_answer": null,
     "answer_type": ""
   },
   {
