@@ -2,835 +2,835 @@
   {
     "_id": "1",
     "question_number": 1,
-    "practice_set": "15",
+    "practice_set": "20",
     "category": "English:Reading Comprehension",
     "difficulty": "easy",
     "time_estimate": 95,
     "passage": "pdfData:pdf/Pearsons2024-2025B_ExerciseLanguage.pdf",
-    "question_text": "How does the author’s use of comparison in paragraphs 4 and 5 contribute to the development of ideas in the excerpt?",
+    "question_text": "Which statement best describes the central idea of the passage?",
     "options": [
-      "It identifies why many adults are never able to learn a second language.",
-      "It demonstrates why the study of adult language learning tries to include physical activity.",
-      "It highlights why more is known about language learning in children than about language learning in adults.",
-      "It explains why adults were the subjects of the study rather than children."
-    ],
-    "correct_answer": 3,
+    "Technology is the primary driver of human knowledge.",
+    "The Wound Man was a mysterious figure whose origin and purpose remains unknown.",
+    "The Wound Man reveals the lack of knowledge that people in the Middle Ages possessed.",
+    "The Wound Man was a useful tool that aided both medical procedures and medical knowledge."
+  ]
+    "correct_answer": null,
     "answer_type": ""
   },
   {
     "_id": "2",
     "question_number": 2,
-    "practice_set": "15",
+    "practice_set": "20",
     "category": "English:Reading Comprehension",
     "difficulty": "easy",
     "time_estimate": 95,
     "passage": "pdfData:pdf/Pearsons2024-2025B_ExerciseLanguage.pdf",
-    "question_text": "Read this sentence from paragraph 6.\n\nTo see what effects exercise might have on this process, the researchers first recruited 40 college-age Chinese men and women who were trying to learn English.\n\nWhich statement describes the function of the sentence in the overall structure of the excerpt?",
+    "question_text": "Which of the following statements best describe the function of paragraphs 1 and 2?",
     "options": [
-      "It indicates a shift from describing the results of the study to describing the process.",
-      "It introduces the aspect of the research that was most critical to determining the results.",
-      "It marks the change from explaining why the study was conducted to explaining how the study was conducted.",
-      "It shows how questions were raised that could be addressed in further research."
-    ],
-    "correct_answer": 2,
+    "They provide an image of the Wound Man to help the reader visualize the object to be discussed in detail.",
+    "They convey the idea that the Wound Man was a terrible representation of life in the Middle Ages.",
+    "They highlight the grotesque monstrosity that reflected the brutal life of the Middle Ages.",
+    "They introduce the idea that life in the Middle Ages was difficult and filled with violence."
+  ]
+    "correct_answer": null,
     "answer_type": ""
   },
   {
     "_id": "3",
     "question_number": 3,
-    "practice_set": "15",
+    "practice_set": "20",
     "category": "English:Reading Comprehension",
     "difficulty": "easy",
     "time_estimate": 95,
     "passage": "pdfData:pdf/Pearsons2024-2025B_ExerciseLanguage.pdf",
-    "question_text": "Which sentence is the best summary of the research procedure used in the study in the excerpt?",
+    "question_text": "Which sentence from paragraph 1 and 2 best supports the idea that the series of descriptions are not those of a real human being?",
     "options": [
-      "Researchers had a group of non-English-speaking students learn new English vocabulary by matching words and images on a computer screen, and also by analyzing words in context; some students exercised and some students sat still while learning.",
-      "Researchers first divided non-English-speaking students into two groups, with one group exercising before and while studying English and the other group studying English without exercising; then, after instruction, student learning was assessed.",
-      "Researchers first had non-English-speaking students sit on stationary bikes and pedal for 20 minutes before instruction and 15 minutes during instruction; then, after a rest period, students indicated whether English sentences made sense.",
-      "Researchers asked non-English-speaking students to study English while sitting or biking; then the students’ vocabulary skills were assessed after a short break period and also after a break of a full month without their having studied any of the materials."
-    ],
-    "correct_answer": 1,
+    "“Staring impassively out of the page, he bears a multitude of graphic wounds.” (paragraph 1)",
+    "“His skin is covered in bleeding cuts and lesions, stabbed and sliced by knives, spears, and swords of varying sizes, many of which remain in the skin, protruding porcupine-like from his body.” (paragraph 1)",
+    "“His neck, armpits, and groin sport rounded blue buboes, swollen glands suggesting that the figure has contracted plague.” (paragraph 2)",
+    "“A dog, snake, and scorpion bite at his ankles, a bee stings his elbow, and even inside the cavity of his stomach a toad aggravates his innards.” (paragraph 2)"
+  ]
+    "correct_answer": null,
     "answer_type": ""
   },
   {
     "_id": "4",
     "question_number": 4,
-    "practice_set": "15",
+    "practice_set": "20",
     "category": "English:Reading Comprehension",
     "difficulty": "easy",
     "time_estimate": 95,
     "passage": "pdfData:pdf/Pearsons2024-2025B_ExerciseLanguage.pdf",
-    "question_text": "In the study described in the excerpt, researchers asked English learners to assess the sense of words in context because that task is",
+    "question_text": "In paragraph 3, the word “alive” is used to highlight",
     "options": [
-      "better at determining the capability learners have of language than simple vocabulary recall.",
-      "consistent with the way earlier research was conducted on adult language learners.",
-      "a better way for learners to absorb the meaning of individual vocabulary words.",
-      "more difficult for learners to perform after an extended period of time has passed."
-    ],
-    "correct_answer": 0,
+    "how realistic the illustration appears to the viewer.",
+    "how dynamic and exciting life was in the Middle Ages.",
+    "how important the image is to medieval medicine.",
+    "how fortunate a person can be despite all the wounds."
+  ]
+    "correct_answer": null,
     "answer_type": ""
   },
   {
     "_id": "5",
     "question_number": 5,
-    "practice_set": "15",
+    "practice_set": "20",
     "category": "English:Reading Comprehension",
     "difficulty": "easy",
     "time_estimate": 95,
     "passage": "pdfData:pdf/Pearsons2024-2025B_ExerciseLanguage.pdf",
-    "question_text": "Read these sentences from paragraph 17.\n\nThese improvements extend beyond simply aiding in memorization, she added. The exercise also deepened language learners’ grasp of how to use their newly acquired words.\n\nWhich sentence from the excerpt best explains why Sulpizio feels confident in the conclusion stated in these sentences?",
+    "question_text": "Read the following sentence from paragraph 4.\n\n A remarkable image of the Wound Man from Wellcome library depicts a figure that is penetrated not only by weapons but also by text.\n\nHow does this sentence fit into the overall structure of the passage?",
     "options": [
-      "“They were shown 40 words per session, with the sequence repeated several times.” (paragraph 10)",
-      "“They also responded to sentences using the new words, marking whether the sentences were accurate or, in the case of ‘The apple is a dentist,’ nonsensical.” (paragraph 11)",
-      "“And at the end of each lesson, the students who had ridden bikes performed better on the subsequent vocabulary tests than did the students who sat still.” (paragraph 13)",
-      "“They also became more proficient at recognizing proper sentences than the sedentary students, although that difference did not emerge until after several weeks of instruction.” (paragraph 14)"
-    ],
-    "correct_answer": 3,
+    "It emphasizes the brutality of war in the Middle Ages.",
+    "It presents an explanation for the importance of the Wellcome Library.",
+    "It supports a previously made assertion about the role of the Wound Man.",
+    "It indicates that the Wellcome Library is the only place one can see the remarkable image of the Wound Man."
+  ]
+    "correct_answer": null,
     "answer_type": ""
   },
   {
     "_id": "6",
     "question_number": 6,
-    "practice_set": "15",
+    "practice_set": "20",
     "category": "English:Reading Comprehension",
     "difficulty": "easy",
     "time_estimate": 95,
     "passage": "pdfData:pdf/Pearsons2024-2025B_ExerciseLanguage.pdf",
-    "question_text": "Paragraph 18 shows that the author’s perspective toward the study described in the excerpt is that",
+    "question_text": "Paragraph 5 contributes to the development of the topic mainly by",
     "options": [
-      "though the study allowed some conclusions to be drawn, these conclusions are limited.",
-      "while the study focused on moderate exercise, it would have been better to focus on difficult exercise.",
-      "while the study was performed appropriately, it is doubtful the results can be duplicated.",
-      "though the study was about learning language, its conclusions can be applied to learning in general."
-    ],
-    "correct_answer": 0,
+    "listing the most typical disorders and physical problems encountered by most people in the Middle Ages.",
+    "providing examples of the ways in which Wound Men appeared in publications.",
+    "revealing that the Wound Men were at first limited to cures for spiders and treatment of arrow wounds.",
+    "demonstrating how limited the early Wound Men were in comparison to modern medical texts."
+  ]
+    "correct_answer": null,
     "answer_type": ""
   },
   {
     "_id": "7",
     "question_number": 7,
-    "practice_set": "15",
+    "practice_set": "20",
     "category": "English:Reading Comprehension",
     "difficulty": "easy",
     "time_estimate": 95,
     "passage": "pdfData:pdf/Pearsons2024-2025B_ExerciseLanguage.pdf",
-    "question_text": "Which evidence from the excerpt is most relevant to the author’s claim that there are many unanswered questions about the relationship between movement and learning?",
+   "question_text": "The author mentions the Wound Man’s “popular inclusion” in paragraph 6 mainly to",
     "options": [
-      "the method of the study using one type of exercise and people from one age group",
-      "the statement from Sulpizio explaining past studies on neurochemicals in the brain",
-      "the finding of the study that exercise helps people recall information over a long period of time",
-      "the statement from Sulpizio describing how the results of the study can be applied"
-    ],
-    "correct_answer": 0,
+    "criticize the failure of most people to recognize the Wound Man’s importance.",
+    "support the claim that the Wound Man was well known to people of the Middle Ages.",
+    "emphasize the idea that the Wound Man was perceived to be a useful tool.",
+    "highlight the fact that the image of the Wound Man grew more complex over time."
+  ]
+    "correct_answer": null,
     "answer_type": ""
   },
   {
     "_id": "8",
     "question_number": 8,
-    "practice_set": "15",
+    "practice_set": "20",
     "category": "English:Reading Comprehension",
     "difficulty": "easy",
     "time_estimate": 95,
     "passage": "pdfData:pdf/Pearsons2024-2025B_NoHarm.pdf",
-    "question_text": "Paragraph 1 contributes to the setting of the excerpt by establishing that",
+    "question_text": "Which sentence is the best summary of the impact the Wound Man had on helping us understand the Middle Ages?",
     "options": [
-      "the story’s location is a plentiful place that allows The People to enjoy a comfortable gathering.",
-      "the events in the story occurred in the past and are being remembered by The People.",
-      "the camp in the story is changing and that the changes are causing problems for The People.",
-      "the story’s plot begins as The People are observing their land and what it offers them."
+      "By carefully listing all the types of cures, the Wound Man helped us modify our own medical practices.",
+      "It reminds us that war and violence has no place in the modern world.",
+      "Because of its specific references to various types of wounds and diseases, the Wound Man enabled us to gain a greater understanding of war.",
+      "It helps us to gain a greater appreciation of the technological advancements of the Middle Ages."
     ],
-    "correct_answer": 0,
+    "correct_answer": null,
     "answer_type": ""
   },
   {
     "_id": "9",
     "question_number": 9,
-    "practice_set": "15",
+    "practice_set": "20",
     "category": "English:Reading Comprehension",
     "difficulty": "easy",
     "time_estimate": 95,
     "passage": "pdfData:pdf/Pearsons2024-2025B_NoHarm.pdf",
-    "question_text": "In paragraphs 4 and 6, the beginning of the change in seasons affects the characters mainly by",
-    "options": [
-      "causing them to collect their bounty and feel eager to celebrate before it becomes cold.",
-      "making them want to rest and relax before the challenging work of the harvest begins.",
-      "forcing them to give up leisure time to prepare their camp for the coming winter.",
-      "allowing them to trade the goods they have prepared during the warm months."
-    ],
-    "correct_answer": 0,
+    "question_text": "Which sentence best supports the idea that the Wound Man continues to have an important influence in society today?",
+  "options": [
+    "“Despite this horrendous cumulative barrage of injuries, however, the Wound Man is very much alive.” (paragraph 3)",
+    "“Accompanying a text known as the ‘Wundarznei’ (The Surgery), these first Wound Men effectively functioned as a human table of contents for the cures contained within the relevant treatise.” (paragraph 4)",
+    "“It was living proof of the efficacy of the surgical enterprise, and a popular inclusion in medical works alongside a wide variety of related images that plotted diseases, the zodiac signs, bloodletting points, and anatomical schemes onto a similarly arranged human body.” (paragraph 6)",
+    "“Living on today in libraries from Copenhagen to Munich, the strange figure of the Wound Man gives modern viewers a glimpse of the worrying injuries that the medieval body could receive through war, accident, and epidemic.” (paragraph 7)"
+  ]
+    "correct_answer": null,
     "answer_type": ""
   },
   {
     "_id": "10",
     "question_number": 10,
-    "practice_set": "15",
+    "practice_set": "20",
     "category": "English:Reading Comprehension",
     "difficulty": "easy",
     "time_estimate": 95,
     "passage": "pdfData:pdf/Pearsons2024-2025B_NoHarm.pdf",
-    "question_text": "How do paragraphs 7 and 9 convey a central idea of the excerpt?",
-    "options": [
-      "by explaining that The People often explore different areas, which shows the value of trying new things",
-      "by revealing that The People must complete many tasks, which shows the necessity of being organized",
-      "by suggesting that The People are influenced by the weather, which shows their close relationship with nature",
-      "by demonstrating that The People work together, which shows the importance of contributing to the community"
-    ],
-    "correct_answer": 3,
+    "question_text": "In paragraph 1, the phrase “rumor had it” is used to highlight",
+  "options": [
+    "the dangers of consuming chocolate in the seventeenth century.",
+    "the miraculous effects chocolate was supposed to possess.",
+    "the unfounded claims that were not based on facts.",
+    "the belief that chocolate was considered food and not drugs."
+]
+    "correct_answer": null,
     "answer_type": ""
   },
   {
     "_id": "11",
     "question_number": 11,
-    "practice_set": "15",
+    "practice_set": "20",
     "category": "English:Reading Comprehension",
     "difficulty": "easy",
     "time_estimate": 95,
     "passage": "pdfData:pdf/Pearsons2024-2025B_NoHarm.pdf",
-    "question_text": "In paragraph 8, the author repeats the word “played” most likely to",
+    "question_text": "The seventeenth-century European attitude toward chocolate was most influenced by",
     "options": [
-      "emphasize how much the adults enjoy observing the children.",
-      "show how everyone finds a way to enjoy being at the gathering.",
-      "indicate the variety of activities available at the gathering.",
-      "characterize the manner in which the children master the work of adults."
-    ],
-    "correct_answer": 3,
+      "the brews of foreign beans.",
+      "wonder and danger of far-away lands.",
+      "pharmacists and physicians.",
+      "the abuse of hot beverages."
+    ]
+    "correct_answer": null,
     "answer_type": ""
   },
   {
     "_id": "12",
     "question_number": 12,
-    "practice_set": "15",
+    "practice_set": "20",
     "category": "English:Reading Comprehension",
     "difficulty": "easy",
     "time_estimate": 95,
     "passage": "pdfData:pdf/Pearsons2024-2025B_NoHarm.pdf",
-    "question_text": "How do paragraphs 11– 13 affect the plot of the excerpt?",
+    "question_text": "Which statement best describes professional reactions to chocolate?",
     "options": [
-      "They establish a feeling of mystery by presenting different points of view about the arriving people.",
-      "They contribute to the rising action by developing the idea that the arriving people could present a problem.",
-      "They lead to a turning point by describing the moment that the crowd realizes why the strangers have come.",
-      "They explain the cause of the main conflict by providing background information about the strangers."
-    ],
-    "correct_answer": 1,
+    "They were generally positive, proclaiming its many health benefits.",
+    "They were generally negative, warning consumers about its potential for mischief.",
+    "They were mixed, resulting in competing evaluations about its usefulness.",
+    "They were generally ignored by the public, which prioritized taste over benefits to health."
+  ]
+    "correct_answer": null,
     "answer_type": ""
   },
   {
     "_id": "13",
     "question_number": 13,
-    "practice_set": "15",
+    "practice_set": "20",
     "category": "English:Reading Comprehension",
     "difficulty": "easy",
     "time_estimate": 95,
     "passage": "pdfData:pdf/Pearsons2024-2025B_NoHarm.pdf",
-    "question_text": "In paragraph 20, the phrases “trophies of their hunt” and “paraded around” affect the paragraph by",
+     "question_text": "How did Colmenero's work “enter the pharmaceutical annals” in Europe?",
     "options": [
-      "suggesting that the hunters are rewarded for their leadership.",
-      "emphasizing that The People are dependent on the hunters for food.",
-      "revealing that the hunters are pleased with their success.",
-      "indicating that The People have gathered specifically to welcome the hunters."
-    ],
-    "correct_answer": 2,
+    "by using the descriptions of chocolate made by Cortés",
+    "by acquiring his degree in medicine from a Jesuit mission in the colonies",
+    "by contextualizing his work in a specialized branch of science",
+    "by acting as the main importer of chocolate"
+  ]
+    "correct_answer": null,
     "answer_type": ""
   },
   {
     "_id": "14",
     "question_number": 14,
-    "practice_set": "15",
+    "practice_set": "20",
     "category": "English:Reading Comprehension",
     "difficulty": "easy",
     "time_estimate": 95,
     "passage": "pdfData:pdf/Pearsons2024-2025B_NoHarm.pdf",
-    "question_text": "Which quotation from the excerpt best supports the idea that The People feel a connection to members of their group in spite of distance?",
+    "question_text": "It can be inferred that Hippocrates would agree with which of the following statements?",
     "options": [
-      "“As was their custom since wahk-kee-ma, a time far back beyond the memory of man, they set up their camps in the same locations their parents and grandparents had occupied before them.” (paragraph 5)",
-      "“ ‘Would they have news of the families who had gone long ago to Buffalo Country and never returned?’ ” (paragraph 13)",
-      "“ ‘Looks like hunters,’ the older men agreed. ‘Looks like they had good hunting.’ ”(paragraph 15)",
-      "“But it was the sight of the frail figure of the woman that aroused their curiosity.”(paragraph 21)"
-    ],
-    "correct_answer": 1,
+    "Chocolate presents both the hot and cold characteristics.",
+    "Humoralism can be applied to the study of chocolates.",
+    "An excess of phlegm can lead to a sickness.",
+    "Fire is the strongest of all elements." 
+  ],
+    "correct_answer": null,
     "answer_type": ""
   },
-  {
+ {
     "_id": "15",
     "question_number": 15,
-    "practice_set": "15",
+    "practice_set": "20",
     "category": "English:Reading Comprehension",
     "difficulty": "easy",
     "time_estimate": 95,
-    "passage": "pdfData:pdf/Pearsons2024-2025B_NoHarm.pdf",
-    "question_text": "Read these sentences from paragraph 22.\n\n“Belongs to Red Bear people. Gone then come back.”\n\nHow does this statement affect the villagers in the excerpt?",
+    "passage": "",
+    "question_text": "The author includes the details about “humoralism” in order to",
     "options": [
-      "It increases their concern about why the woman is in their camp.",
-      "It makes them hopeful that more lost members will return before the winter.",
-      "It causes shock, leading them to grieve for the loss of the woman and her family.",
-      "It inspires amazement, making them want to reconnect with their returned family member."
+      "describe the origin of European medicine.",
+      "explain how people develop sicknesses.",
+      "highlight the problems in the logic behind ancient medicinal theories.",
+      "reveal why ideas about chocolate were subject to disagreements."
     ],
-    "correct_answer": 3,
+    "correct_answer": null,
     "answer_type": ""
   },
   {
     "_id": "16",
     "question_number": 16,
-    "practice_set": "15",
+    "practice_set": "20",
     "category": "English:Reading Comprehension",
     "difficulty": "easy",
     "time_estimate": 95,
-    "passage": "pdfData:pdf/Pearsons2024-2025B_NoHarm.pdf",
-    "question_text": "The details in paragraph 5 about the locations of the camps and the details in paragraphs 23– 24 about the reaction to the woman convey a theme of the excerpt by",
+    "passage": "",
+    "question_text": "Which statement best supports the idea that Colmenero had a large role in shaping the way people viewed chocolate?",
     "options": [
-      "revealing the difficulties posed by moving often each year.",
-      "showing the connectedness among The People through the years.",
-      "indicating the value to The People of retelling stories about the past. ",
-      "demonstrating the importance of choosing appropriate names."
+      "“Colmenero's work dates from the era when Spain was the main importer of chocolate.” (paragraph 3)",
+      "“Colmenero's work introduced chocolate to Europe as a drug by appealing to the science of the humors, or essential bodily fluids.” (paragraph 3)",
+      "“Colmenero endeavored to make its mystery at least debatable in terms readily accessible across the countries of Western Europe.” (paragraph 5)",
+      "“Because Colmenero was a doctor and surgeon who was said to have traveled to the West Indies, his work was received as medical lore.” (paragraph 5)"
     ],
-    "correct_answer": 1,
+    "correct_answer": null,
     "answer_type": ""
   },
   {
     "_id": "17",
     "question_number": 17,
-    "practice_set": "15",
+    "practice_set": "20",
     "category": "English:Reading Comprehension",
     "difficulty": "easy",
     "time_estimate": 95,
-    "passage": "pdfData:pdf/Pearsons2024-2025B_Telegraph.pdf",
-    "question_text": "Which statement describes how the author’s use of problem- solution in paragraph 2 contributes to the development of ideas in the passage?",
+    "passage": "",
+    "question_text": "Which sentence from the excerpt best shows that Colmenero's contributions were not limited to medicine?",
     "options": [
-      "Morse’s discussion on a ship about Faraday’s electromagnet reminded him of the Yale College lectures on electricity, which he had enjoyed but had not fully understood, inspiring him to learn more about electricity from his colleague Gale",
-      "Morse’s discouragement over his lack of knowledge of electricity prompted him to experiment with batteries, magnets, and wires, which led to the development of a new longdistance communication system.",
-      "Morse’s difficulty in understanding how Faraday’s electromagnet worked was frustrating, and it pushed him to create a system for sending signals over wires.",
-      "Morse’s longtime fascination was not enough to make up for his lack of knowledge about electricity, so he eventually sought help from Gale."
+      "“Chocolate was the first of the three to enter the pharmaceutical annals in Europe through Antonio Colmenero de Ledesma.” (paragraph 3)",
+      "“Colmenero's short treatise dates from the era when Spain was the main importer of chocolate.” (paragraph 3)",
+      "“Colmenero endeavored to make its mystery at least debatable in terms readily accessible across the countries of Western Europe.” (paragraph 5)",
+      "“It also supplied the very first recipe for hot chocolate on the European continent.” (paragraph 5)"
     ],
-    "correct_answer": 3,
+    "correct_answer": null,
     "answer_type": ""
   },
   {
     "_id": "18",
     "question_number": 18,
-    "practice_set": "15",
+    "practice_set": "20",
     "category": "English:Reading Comprehension",
     "difficulty": "easy",
     "time_estimate": 95,
-    "passage": "pdfData:pdf/Pearsons2024-2025B_Telegraph.pdf",
-    "question_text": "The details of the section “The Growth of an Idea” convey a central idea of the passage by suggesting that",
+    "passage": "",
+    "question_text": "Read the following sentence from paragraph 5.\n\n“Colmenero endeavored to make its mystery at least debatable in terms readily accessible across the countries of Western Europe.”\n\nHow does the sentence contribute to the development of the central idea?",
     "options": [
-      "the collaborative efforts of colleagues resulted in successful communication over a wire.",
-      "a great deal of interest and work was devoted to understanding how to use electricity to send signals.",
-      "Faraday’s invention of the electromagnet inspired the invention of the telegraph.",
-      "colleges like Yale played a great role in making new discoveries about electricity and its applications."
+      "It reveals Colmenero's argumentative personality that set off many debates in Western Europe.",
+      "It suggests that Colmenero wanted higher supplies of chocolate available to the people of Western Europe.",
+      "It identifies one impact of Colmenero's research.",
+      "It highlights the mystery chocolate caused among the people of Western Europe."
     ],
-    "correct_answer": 1,
+    "correct_answer": null,
     "answer_type": ""
   },
   {
     "_id": "19",
     "question_number": 19,
-    "practice_set": "15",
+    "practice_set": "20",
     "category": "English:Reading Comprehension",
     "difficulty": "easy",
     "time_estimate": 95,
-    "passage": "pdfData:pdf/Pearsons2024-2025B_Telegraph.pdf",
-    "question_text": "Which statement describes how the author’s use of sequencing in paragraph 3 contributes to the overall structure of the passage?",
+    "passage": "",
+    "question_text": "Which statement best describes the central idea of this passage?",
     "options": [
-      "It shows that several people were simultaneously attempting to create an electric telegraph.",
-      "It shows how the invention of the electric telegraph depended on information and techniques discovered by others.",
-      "It shows that multiple means of long- distance communication were being used at the same time.",
-      "It shows how quickly long- distance communication changed from visual signals to electrical signals."
+      "John L. Sullivan was a muscular boxer who rarely lost a boxing match.",
+      "John L. Sullivan lost to Corbett because he was unprepared for the fight.",
+      "John L. Sullivan was one of the most popular Americans in history whose popularity continued to last even after his loss.",
+      "John L. Sullivan became a rich boxer because of all the money he had won from his fights."
     ],
-    "correct_answer": 1,
+    "correct_answer": null,
     "answer_type": ""
   },
   {
     "_id": "20",
     "question_number": 20,
-    "practice_set": "15",
+    "practice_set": "20",
     "category": "English:Reading Comprehension",
     "difficulty": "easy",
     "time_estimate": 95,
-    "passage": "pdfData:pdf/Pearsons2024-2025B_Telegraph.pdf",
-    "question_text": "Which sentence is the best summary of how Morse obtained the funding necessary to build his telegraph system?",
+    "passage": "",
+    "question_text": "In paragraph 1, how do the words “horde” and “steal” affect the tone of the first part of the excerpt?",
     "options": [
-      "Morse’s application for a federal grant was delayed until 1843, so he spent time traveling in Europe, where he concentrated on obtaining a patent for his system.",
-      "Morse applied for a government grant that required both houses of Congress and the president to pass a bill awarding him $30,000 for his telegraph project.",
-      "Morse applied for a government appropriation and conducted telegraph demonstrations to show that his system could work, and after a delay caused by a financial depression, Congress approved the $30,000 appropriation in 1843.",
-      "Working with Gale and Vail allowed Morse to find flaws in Henry’s work and to develop his own ideas before applying for the federal government appropriation."
+      "It creates a threatening tone by suggesting that many people wanted to hurt John L. Sullivan.",
+      "It introduces an aggressive tone by showing that people were initially hostile to John L. Sullivan.",
+      "It suggests an excited tone by highlighting the anticipation for John L. Sullivan.",
+      "It establishes an angry tone by pointing out problematic behaviors of mobs."
     ],
-    "correct_answer": 2,
+    "correct_answer": null,
     "answer_type": ""
   },
   {
     "_id": "21",
     "question_number": 21,
-    "practice_set": "15",
+    "practice_set": "20",
     "category": "English:Reading Comprehension",
     "difficulty": "easy",
     "time_estimate": 95,
-    "passage": "pdfData:pdf/Pearsons2024-2025B_Telegraph.pdf",
-    "question_text": "Read this sentence from paragraph 7.\n\nThe desperate Morse gave the go- ahead, and the line was completed in time for the dramatic and spectacularly successful link between the Supreme Court chamber of the Capitol building and the railroad station in Baltimore.\n\nThe words “dramatic” and “spectacularly” in the sentence convey a",
+    "passage": "",
+    "question_text": "Read the following sentence.\n\n“Muscular without being muscle-bound, the 'Boston Strong Boy' was constructed like a pugilistic product of the Industrial Age, a 'wonderful engine of destruction' manifest in flesh and blood.”\n\nWhat do the quoted references in this sentence emphasize?",
     "options": [
-      "sense of relief and fulfillment that the line was finished.",
-      "sense of wonder and celebration that the telegraph line was accomplished.",
-      "feeling of excitement about the future possibilities of the telegraph.",
-      "feeling of confidence about being able to continue the work."
+      "Sullivan's arrogance by highlighting the qualities that enabled it",
+      "Descriptions of Sullivan's physique to characterize him within his time period",
+      "The materialistic shallowness of the Industrial Age",
+      "The notion that violence and boxing were a product of the Industrial Age"
     ],
-    "correct_answer": 1,
+    "correct_answer": null,
     "answer_type": ""
   },
   {
     "_id": "22",
     "question_number": 22,
-    "practice_set": "15",
+    "practice_set": "20",
     "category": "English:Reading Comprehension",
     "difficulty": "easy",
     "time_estimate": 95,
-    "passage": "pdfData:pdf/Pearsons2024-2025B_Telegraph.pdf",
-    "question_text": "How does the graph support the ideas in paragraph 8?",
+    "passage": "",
+    "question_text": "Which sentence from the excerpt best supports the claim that Sullivan was a remarkable boxer?",
     "options": [
-      "It indicates how welcome the improvement of long- distance communication was in the United States.",
-      "It provides evidence of the dramatic increase in the number of telegraph messages as Morse’s system expanded across the United States.",
-      "It reveals that by the twentieth century millions of people had used the telegraph despite earlier hesitations about the system.",
-      "It shows how improvements that allowed Morse code to be read in real time made relaying telegraph messages faster and increased the system’s usage."
+      "“Heads craned and tilted as hordes of Bostonians attempted to steal a passing glance of their hometown hero through the open doorway.” (paragraph 1)",
+      "“Sullivan's pristine skin, full set of even teeth, and straight nose belied his profession and visibly testified to the inability of foes to lay a licking on him.” (paragraph 2)",
+      "“After guzzling the praise inside his saloon on the evening of September 26, 1883, the hard-hitting, hard-drinking Sullivan waded through the throng of fawning fans outside and stepped into a waiting carriage that sprinted him away to a waiting train.” (paragraph 3)",
+      "“For the next eight months, Sullivan would circle the United States with a troupe of the world's top professional fighters.” (paragraph 4)"
     ],
-    "correct_answer": 1,
+    "correct_answer": null,
     "answer_type": ""
   },
   {
     "_id": "23",
     "question_number": 23,
-    "practice_set": "15",
+    "practice_set": "20",
     "category": "English:Reading Comprehension",
     "difficulty": "easy",
     "time_estimate": 95,
-    "passage": "pdfData:pdf/Pearsons2024-2025B_Telegraph.pdf",
-    "question_text": "The idea that, in the mid- nineteenth century, the United States was mostly unaware of the possibilities of electricity is illustrated in the passage mainly through the",
+    "passage": "",
+    "question_text": "Read the following sentence from paragraph 4.\n\n“In nearly 150 locales, John L. would spar with his fellow boxers but also present a sensational novelty act worthy of his contemporary, the showman P.T. Barnum.”\n\nHow does this sentence contribute to the development of the narrative?",
     "options": [
-      "description of the government’s initial desire to expand a semaphore signaling system that used either flags or lights along the Atlantic Coast.",
-      "delay by the House of Representatives to pass the bill funding Morse’s telegraph line six years after he first applied for the appropriation.",
-      "discussions of the newly invented electromagnet that sparked the idea of sending codes through wires.",
-      "description of how an electric circuit could be closed to ring a bell at a distance."
+      "It shows that Sullivan sparred with both boxers and other showmen like P.T. Barnum.",
+      "It reveals that Sullivan wanted to spar with anyone he could fight.",
+      "It highlights the entertaining aspect of Sullivan's exhibitions.",
+      "It suggests that boxing exhibitions of the time required novelty acts."
     ],
-    "correct_answer": 0,
+    "correct_answer": null,
     "answer_type": ""
   },
   {
     "_id": "24",
     "question_number": 24,
-    "practice_set": "15",
+    "practice_set": "20",
     "category": "English:Reading Comprehension",
     "difficulty": "easy",
     "time_estimate": 95,
-    "passage": "pdfData:pdf/Pearsons2024-2025B_Telegraph.pdf",
-    "question_text": "With which statement would the author most likely agree?",
+    "passage": "",
+    "question_text": "Which sentence is the best summary of paragraph 5?",
     "options": [
-      "Morse’s telegraph was successful because the wires were strung aboveground rather than underground as originally planned.",
-      "Understanding the importance of Morse’s telegraph requires detailed knowledge of electrical systems.",
-      "The implementation of Morse’s telegraph system was overly influenced by economic factors.",
-      "Morse’s invention of the telegraph made a great stride toward better connecting people across the United States and across the world."
+      "Defeating Sullivan was an impossible dare that no one ever took up.",
+      "John Sullivan was being unpatriotic by challenging Americans to a fight.",
+      "John Sullivan challenged the ideals of what it meant to be American.",
+      "John Sullivan's tour reflected the ideas about himself as well as those about America."
     ],
-    "correct_answer": 3,
+    "correct_answer": null,
     "answer_type": ""
   },
   {
     "_id": "25",
     "question_number": 25,
-    "practice_set": "15",
+    "practice_set": "20",
     "category": "English:Reading Comprehension",
     "difficulty": "easy",
     "time_estimate": 95,
-    "passage": "pdfData:pdf/Pearsons2024-2025B_Telegraph.pdf",
-    "question_text": "How does the map provide additional support for a central idea of the passage?",
+    "passage": "",
+    "question_text": "In paragraph 6, how does the phrase “drawing card” contribute to the development of the paragraph?",
     "options": [
-      "by demonstrating that Morse’s telegraph system greatly exceeded the limitations of previous long-distance communication systems",
-      "by indicating that Morse was lacking foresight by seeking a patent only in North America",
-      "by proving that Gale’s advice helped Morse extend the telegraph’s range much farther than first thought possible",
-      "by showing that the Morse telegraph had a surprisingly immense influence across the world"
+      "It acknowledges the great contributions that illustrative talents made in promoting Sullivan's fights.",
+      "It emphasizes the random nature of Sullivan's fame.",
+      "It supports the idea that Sullivan was extremely popular wherever he went.",
+      "It highlights the fact that Sullivan was a difficult man to beat in the ring."
     ],
-    "correct_answer": 0,
+    "correct_answer": null,
     "answer_type": ""
   },
   {
     "_id": "26",
     "question_number": 26,
-    "practice_set": "15",
+    "practice_set": "20",
     "category": "English:Reading Comprehension",
     "difficulty": "easy",
     "time_estimate": 95,
-    "passage": "pdfData:pdf/Pearsons2024-2025B_SnowyMountains.pdf",
-    "question_text": "The description in the first stanza (lines 1– 7) helps establish a central idea of the poem by",
+    "passage": "",
+    "question_text": "In paragraph 7, which sentence best supports the idea that some of Sullivan's fans were more interested in Sullivan the man and not Sullivan the boxer?",
     "options": [
-      "comparing the length of time the mountains have existed with the length of time the city has existed.",
-      "contrasting the grandeur of the mountains with the structures in the city below them.",
-      "implying that the mountains are a source of inspiration to the people in the city below.",
-      "suggesting that the mountains are larger than the people in the city realize."
+        "“Accounts of the financial receipts from the tour vary, but Sullivan likely pocketed tens of thousands of dollars, and his earnings probably approached or surpassed the $50,000 annual salary earned by President Chester A. Arthur.”",
+        "“While the exact size of his financial windfall may not be known, it's certain that Sullivan earned an incredible level of superstardom by traversing the continent.”",
+        "“The 'Boston Strong Boy' proved to be a drawing card around America due to both his prowess in the ring and his personal magnetism.”",
+        "“On Sullivan's tour stop in St. Louis, five thousand people paid just to see him pitch five lackluster innings in an exhibition game for baseball's St. Louis Browns.”"
     ],
-    "correct_answer": 1,
+    "correct_answer": null,
     "answer_type": ""
-  },
+},
   {
     "_id": "27",
     "question_number": 27,
-    "practice_set": "15",
+    "practice_set": "20",
     "category": "English:Reading Comprehension",
     "difficulty": "easy",
     "time_estimate": 95,
-    "passage": "pdfData:pdf/Pearsons2024-2025B_SnowyMountains.pdf",
-    "question_text": "Read line 5 from the poem.\n\nPillars of the sky at rest\n\nThe line helps develop the theme of the poem by suggesting that the mountains",
+    "passage": "",
+    "question_text": "Which sentence from the passage best conveys the author's perspective regarding the legacy of Sullivan's accomplishment?",
     "options": [
-      "serve a noble and supportive purpose in the world.",
-      "attract the clouds with their strength and permanence.",
-      "remain untamed through the ages.",
-      "provide protection for the people."
+        "“A dense ocean of humanity lapped up to the doorstep of John L. Sullivan's gilded liquor palace.” (paragraph 1)",
+        "“The man who had captured the heavyweight championship nineteen months prior had departed on many journeys before, but no man had ever set out on such an ambitious adventure as the one he was about to undertake.” (paragraph 2)",
+        "“Americans paid money not just to see John L. Sullivan box, but just to see John L. Sullivan.” (paragraph 7)",
+        "“He became an American celebrity of the highest order as well as the first sports superstar, and his fame would endure even after he lost the heavyweight championship to 'Gentleman Jim' Corbett in 1892.” (paragraph 8)"
     ],
-    "correct_answer": 0,
+    "correct_answer": null,
     "answer_type": ""
-  },
+},
   {
     "_id": "28",
     "question_number": 28,
-    "practice_set": "15",
+    "practice_set": "20",
     "category": "English:Reading Comprehension",
     "difficulty": "easy",
     "time_estimate": 95,
-    "passage": "pdfData:pdf/Pearsons2024-2025B_SnowyMountains.pdf",
-    "question_text": "How does isolating the word “Uprise” in line 7 affect the meaning of the poem?",
+    "passage": "",
+    "question_text": "In the first paragraph, how does the phrase “in consideration of the crumbs” contribute to the plot?",
     "options": [
-      "It creates a contrast between the great plateau and the city buildings.",
-      "It reveals the similarity between the tall buildings in the city and the tall mountains on the horizon.",
-      "It creates a vision of the region before people developed the land.",
-      "It emphasizes that the mountains dominate the landscape."
+      "It highlights the importance of being observant of the smallest details at a royal table.",
+      "It points out the conditions under which jesters were expected to perform.",
+      "It emphasizes the point that jesters were growing more fashionable.",
+      "It indicates the times at which jesters were expected to be witty."
     ],
-    "correct_answer": 3,
+    "correct_answer": null,
     "answer_type": ""
   },
   {
     "_id": "29",
     "question_number": 29,
-    "practice_set": "15",
+    "practice_set": "20",
     "category": "English:Reading Comprehension",
     "difficulty": "easy",
     "time_estimate": 95,
-    "passage": "pdfData:pdf/Pearsons2024-2025B_SnowyMountains.pdf",
-    "question_text": "Which line from the poem best supports the idea that people have sacrificed priceless natural beauty in order to make a profit?",
+    "passage": "",
+    "question_text": "Paragraph 2 suggests that the king believed his ministers were",
     "options": [
-      "“Above the dingy city- roofs” (line 3)",
-      "“The world makes war on them,” (line 10)",
-      "“Tunnels their granite cliffs,” (line 11)",
-      "“Plasters their cliffs with soap- advertisements,” (line 13)"
+      "hopelessly foolish.",
+      "artistically grim.",
+      "relatively popular.",
+      "overly serious."
     ],
-    "correct_answer": 3,
+    "correct_answer": null,
     "answer_type": ""
   },
   {
     "_id": "30",
     "question_number": 30,
-    "practice_set": "15",
+    "practice_set": "20",
     "category": "English:Reading Comprehension",
     "difficulty": "easy",
     "time_estimate": 95,
-    "passage": "pdfData:pdf/Pearsons2024-2025B_SnowyMountains.pdf",
-    "question_text": "How does the poet develop the speaker’s point of view in the second stanza (lines 8– 14)?",
+    "passage": "",
+    "question_text": "How does paragraph 3 contribute to the development of the plot?",
     "options": [
-      "by describing images of the mountains’ awe- inspiring size and strength",
-      "by illustrating the differences among the various ways humans can affect the natural environment",
-      "by criticizing society for taking careless, harmful courses of action against nature",
-      "by demonstrating how the mountains and the people are able to benefit from each other"
+      "It shifts the focus of the narrative.",
+      "It provides a historical background.",
+      "It discusses a possibility to be dismissed.",
+      "It builds on an idea touched upon in the previous paragraph."
     ],
-    "correct_answer": 2,
+    "correct_answer": null,
     "answer_type": ""
   },
   {
     "_id": "31",
     "question_number": 31,
-    "practice_set": "15",
+    "practice_set": "20",
     "category": "English:Reading Comprehension",
     "difficulty": "easy",
     "time_estimate": 95,
-    "passage": "pdfData:pdf/Pearsons2024-2025B_SnowyMountains.pdf",
-    "question_text": "Which detail from the poem reflects the speaker’s view that people often fail to appreciate what is familiar?",
+    "passage": "",
+    "question_text": "Read the following statement from paragraph 3.\n\n“days are rather longer at court than elsewhere”\n\nHow does this statement contribute to the plot?",
     "options": [
-      "“The mountains from the great plateau” (line 6)",
-      "“They have been here now for too long a time.” (line 9)",
-      "“Splits down their shining sides,” (line 12)",
-      "“To which the future is as was the past,” (line 18)"
+      "It illustrates an abstract concept.",
+      "It offers an explanation.",
+      "It defines a term.",
+      "It challenges an assumption."
     ],
-    "correct_answer": 1,
+    "correct_answer": null,
     "answer_type": ""
   },
   {
     "_id": "32",
     "question_number": 32,
-    "practice_set": "15",
+    "practice_set": "20",
     "category": "English:Reading Comprehension",
     "difficulty": "easy",
     "time_estimate": 95,
-    "passage": "pdfData:pdf/Pearsons2024-2025B_SnowyMountains.pdf",
-    "question_text": "Read lines 21– 22 from the poem.\n\nBarrier broken down by those who do not need\nThe joy of time- resisting storm- worn stone,\n\nHow do the lines help convey the speaker’s point of view?",
+    "passage": "",
+    "question_text": "The effect of the sentence beginning with “But although” in paragraph 5 is to",
     "options": [
-      "They suggest that the speaker wants to remove the obstacles that prevent others from experiencing the wonders of nature.",
-      "They reveal the speaker’s opinion that some people are too busy to appreciate natural beauty.",
-      "They reflect the speaker’s dismay that people destroy the natural landscape without understanding the ramifications of their actions.",
-      "They explain that the speaker is confident that nature will never be fully destroyed by people."
+      "lighten the tone by introducing the cheery aspect of the character.",
+      "express an opinion that is not supported by facts.",
+      "provide a clue to the narrator's bias.",
+      "balance a description of limitations with one of positive attributes."
     ],
-    "correct_answer": 2,
+    "correct_answer": null,
     "answer_type": ""
   },
   {
     "_id": "33",
     "question_number": 33,
-    "practice_set": "15",
+    "practice_set": "20",
     "category": "English:Reading Comprehension",
     "difficulty": "easy",
     "time_estimate": 95,
-    "passage": "pdfData:pdf/Pearsons2024-2025B_SnowyMountains.pdf",
-    "question_text": "How do the details in the third stanza (lines 15– 26) most contribute to the development of a theme of the poem?",
+    "passage": "",
+    "question_text": "In paragraph 7, the phrase “close intimacy” can best be described as",
     "options": [
-      "by reflecting nature’s capacity to resist change",
-      "by showing that nature is capable of influencing human will",
-      "by exposing how a lack of awareness leads to nature’s ruin",
-      "by explaining why people must respect nature"
+      "avoidable.",
+      "admirable.",
+      "expected.",
+      "horrifying."
     ],
-    "correct_answer": 0,
+    "correct_answer": null,
     "answer_type": ""
   },
   {
     "_id": "34",
     "question_number": 34,
-    "practice_set": "15",
+    "practice_set": "20",
     "category": "English:Reading Comprehension",
     "difficulty": "easy",
     "time_estimate": 95,
-    "passage": "pdfData:pdf/Pearsons2024-2025B_SnowyMountains.pdf",
-    "question_text": "Read lines 23– 26 from the poem.\n\nThe mountains swing along\nThe south horizon of the sky;\nWelcoming with wide floors of blue- green ice\nThe mists that dance and drive before the sun.\n\nThe personification in these concluding lines of the poem suggests that the mountains are",
+    "passage": "",
+    "question_text": "Which of the following best describes Trippetta's attitude toward Hop-Frog?",
     "options": [
-      "gracious hosts who are untroubled by the actions of people.",
-      "unaware of their coming destruction.",
-      "lively entertainers who are amused by the everyday concerns of people.",
-      "too proud to reveal their pain."
+      "cold",
+      "disgusted",
+      "kind",
+      "respectful"
     ],
-    "correct_answer": 0,
+    "correct_answer": null,
     "answer_type": ""
   },
   {
     "_id": "35",
     "question_number": 35,
-    "practice_set": "15",
+    "practice_set": "20",
     "category": "English:Reading Comprehension",
     "difficulty": "easy",
     "time_estimate": 95,
-    "passage": "pdfData:pdf/Pearsons2024-2025B_PastFutureTrees.pdf",
-    "question_text": "What is the effect of comparing groups of bristlecone pines to “a city within a cemetery”(paragraph 2)?",
+    "passage": "",
+    "question_text": "Read lines 1 and 2.\n\n“It is not growing like a tree\nIn bulk doth make Man better be;”\n\nHow do the lines contribute to the central idea of the poem?",
     "options": [
-      "It illustrates that the new tree’s appearance is markedly different from that of mature bristlecone pines.",
-      "It emphasizes the new tree’s ability to use resources left by prior generations of bristlecone pines.",
-      "It highlights the tree’s capacity for a long life if it is able to survive to maturity.",
-      "It reveals that the tree’s dense growth patterns are unusual in arid conditions."
+        "They dismiss one criterion used to evaluate humanity.",
+        "They suggest that growing large makes a man better.",
+        "They reveal that men do not grow like trees.",
+        "They reveal that men are better than trees."
     ],
-    "correct_answer": 1,
+    "correct_answer": null,
     "answer_type": ""
-  },
+},
   {
     "_id": "36",
     "question_number": 36,
-    "practice_set": "15",
+    "practice_set": "20",
     "category": "English:Reading Comprehension",
     "difficulty": "easy",
     "time_estimate": 95,
-    "passage": "pdfData:pdf/Pearsons2024-2025B_PastFutureTrees.pdf",
-    "question_text": "In paragraph 4, the idea that the bristlecone pine can withstand difficult conditions is illustrated mainly through",
+    "passage": "",
+    "question_text": "Read lines 3 and 4.\n\n“Or standing long an oak, three hundred year,\nTo fall a log at last, dry, bald, and sere:”\n\nHow do the lines contribute to the ideas in lines 1 and 2?",
     "options": [
-      "a comparison of the bristlecone pine with similar trees that are known for their long lives.",
-      "a description of specific qualities of the bristlecone pine that make it suited to its environment.",
-      "an explanation of why the White Mountains are the best place for the bristlecone pine to grow.",
-      "an examination of why the bristlecone pine has few competitors in the White Mountains."
+        "They suggest that growing older is better than growing bigger.",
+        "They suggest that growing bigger is better than growing older.",
+        "They point out the negative aspects of living a long time.",
+        "They point out that oaks live up to about three hundred years old."
     ],
-    "correct_answer": 1,
+    "correct_answer": null,
     "answer_type": ""
-  },
+},
   {
     "_id": "37",
     "question_number": 37,
-    "practice_set": "15",
+    "practice_set": "20",
     "category": "English:Reading Comprehension",
     "difficulty": "easy",
     "time_estimate": 95,
-    "passage": "pdfData:pdf/Pearsons2024-2025B_PastFutureTrees.pdf",
-    "question_text": "Read this sentence from paragraph 5.\n\nEmpires rose and fell; wars raged; . . . and the tree from 2500 B.C. continued its implacable slow-motion existence, adding about two-hundredths of an inch to the diameter of its trunk each year.\n\nThe sentence contributes to the development of ideas in the excerpt by",
+    "passage": "",
+    "question_text": "Lines 5 to 8 convey the central idea of the poem by",
     "options": [
-      "emphasizing the bristlecone pine’s precise growth pattern.",
-      "suggesting that things that seem well established face threats.",
-      "describing the pace of the life cycle of the bristlecone pine.",
-      "explaining the reason for the bristlecone pine’s longevity."
+        "implying that everything must ultimately come to an end.",
+        "illustrating the temporary nature of beauty.",
+        "emphasizing the power of nature to command respect.",
+        "highlighting the diversity of nature in the world."
     ],
-    "correct_answer": 2,
+    "correct_answer": null,
     "answer_type": ""
-  },
+},
   {
     "_id": "38",
     "question_number": 38,
-    "practice_set": "15",
+    "practice_set": "20",
     "category": "English:Reading Comprehension",
     "difficulty": "easy",
     "time_estimate": 95,
-    "passage": "pdfData:pdf/Pearsons2024-2025B_PastFutureTrees.pdf",
-    "question_text": "Which claim is best supported by the details in paragraph 5 about the bristlecone pine’s treering record?",
+    "passage": "",
+    "question_text": "Read lines 9 and 10.\n\n“In small proportions we just beauties see;\nAnd in short measures life may perfect be.”\n\nWhich of the following supports what is implied in these lines?",
     "options": [
-      "The bristlecone pine must be protected from extinction so that there is a record of changing Earth conditions.",
-      "The structure of the bristlecone pine allows scientists to predict changing Earth conditions over time.",
-      "The slow growth process of the bristlecone pine allows it to survive in spite of changing Earth conditions.",
-      "The bristlecone pine can be used to gather information on changing Earth conditions because of its long life."
+        "“It is not growing like a tree/In bulk doth make Man better be” (lines 1-2)",
+        "“Or standing long an oak, three hundred year,/To fall a log at last, dry, bald, and sere” (lines 3-4)",
+        "“A lily of a day/Is fairer far in May” (lines 5-6)",
+        "“Although it fall and die that night-/It was the plant and flower of light.” (lines 7-8)"
     ],
-    "correct_answer": 3,
+    "correct_answer": null,
     "answer_type": ""
-  },
+},
   {
     "_id": "39",
     "question_number": 39,
-    "practice_set": "15",
+    "practice_set": "20",
     "category": "English:Reading Comprehension",
     "difficulty": "easy",
     "time_estimate": 95,
-    "passage": "pdfData:pdf/Pearsons2024-2025B_PastFutureTrees.pdf",
-    "question_text": "The phrases “clings to life” and “stripped of bark” in paragraph 6 are used to highlight",
+    "passage": "",
+    "question_text": "How does the form of the poem contribute to its meaning?",
     "options": [
-      "that the tree is fragile and needs help to avoid becoming extinct.",
-      "how the tree can be misunderstood because of its appearance.",
-      "how the tree interests observers with its unusual appearance.",
-      "that the tree manages to survive even when partially fossilized."
+        "The number of words in each line depends on the importance of the image.",
+        "The lack of regular rhyme reflects the lack of regularity in life.",
+        "The contrasting characteristics between a tree and a flower serve to emphasize a key point.",
+        "It uses unusual capitalization to suggest the unusual nature of life."
     ],
-    "correct_answer": 3,
+    "correct_answer": null,
     "answer_type": ""
-  },
+},
   {
     "_id": "40",
     "question_number": 40,
-    "practice_set": "15",
+    "practice_set": "20",
     "category": "English:Reading Comprehension",
     "difficulty": "easy",
     "time_estimate": 95,
-    "passage": "pdfData:pdf/Pearsons2024-2025B_PastFutureTrees.pdf",
-    "question_text": "The details in paragraph 7 convey a central idea of the excerpt by suggesting that",
+    "passage": "",
+    "question_text": "Which sentence from paragraph 1 best illustrates the response to Doyle's claim about fairies?",
     "options": [
-      "the success of the bristlecone pine lies in its ability to resist climate change.",
-      "the uncommon appearance of the bristlecone pine is related to its ability to survive.",
-      "the attachment that humans have to the bristlecone pine is understandable.",
-      "the longevity of the bristlecone pine continues to encourage experts."
+      "“In the winter of 1920, readers of the popular British magazine the Strand found a curious headline on the cover of their Christmas issues.”",
+      "“The Strand's readership was well acquainted with Sir Arthur Conan Doyle”",
+      "“most of it was of the 'what can he be thinking?' variety.”",
+      "“Let us proceed, Holmes-like, to examine the question.”"
     ],
-    "correct_answer": 3,
+    "correct_answer": null,
     "answer_type": ""
   },
   {
     "_id": "41",
     "question_number": 41,
-    "practice_set": "15",
+    "practice_set": "20",
     "category": "English:Reading Comprehension",
     "difficulty": "easy",
     "time_estimate": 95,
-    "passage": "pdfData:pdf/Pearsons2024-2025B_PastFutureTrees.pdf",
-    "question_text": "What is the best summary of the bristlecone pine’s life cycle?",
+    "passage": "",
+    "question_text": "Why did Doyle believe that the two girls were not responsible for creating a fake photo of fairies?",
     "options": [
-      "The bristlecone pine takes root as a stubby seedling in the mountains. Over time, it grows slowly in a hostile environment with alkaline soil that ensures little competition from other trees.",
-      "The bristlecone pine grows up slowly from the fragments of its dead ancestors. Over time, it begins to become contorted in appearance but continues to funnel water and nutrients to its stem.",
-      "The bristlecone pine grows slowly in an environment hostile to other trees. Over time, its trunk and some branches fossilize, but it funnels water and nutrients to other parts that are still alive.",
-      "The bristlecone pine grows only in one location in the mountains. Over time, it develops sparse foliage that fossilizes slowly, but the trunk and branches stay alive, as revealed by ribbons of live bark."
+      "The photo company told him that girls would not be able to master such skills.",
+      "The girls did not possess a camera.",
+      "Their social class suggested that they would not have the necessary abilities.",
+      "Doyle believed that the girls were incapable of dishonesty."
     ],
-    "correct_answer": 2,
+    "correct_answer": null,
     "answer_type": ""
   },
   {
     "_id": "42",
     "question_number": 42,
-    "practice_set": "15",
+    "practice_set": "20",
     "category": "English:Reading Comprehension",
     "difficulty": "easy",
     "time_estimate": 95,
-    "passage": "pdfData:pdf/Pearsons2024-2025B_PastFutureTrees.pdf",
-    "question_text": "Throughout the excerpt, the author conveys his point of view mainly by",
+    "passage": "",
+    "question_text": "Which of the following lines from paragraph 3 most strongly suggests that Gardner was not the ideal person for the 'mission'?",
     "options": [
-      "sharing details about the qualities of the bristlecone pine that make it an unusual tree",
-      "comparing the bristlecone pine to global empires that lasted thousands of years before falling.",
-      "explaining the way the seemingly sickly appearance of the bristlecone pine contrasts with its ability to survive.",
-      "arguing that the bristlecone pine has survived past threats to its survival and will continue to thrive"
+      "“Conan Doyle's next step was an on-the-scene investigation”",
+      "“Instead, he enlisted a far-from-impartial surrogate...”",
+      "“Gardner had already talked to several people who had assured him the girls had played with fairies and elves since babyhood.”",
+      "“He had already written to Elsie Wright's mother begging her to get her 'little girl' to take more photos.”"
     ],
-    "correct_answer": 0,
+    "correct_answer": null,
     "answer_type": ""
   },
   {
     "_id": "43",
     "question_number": 43,
-    "practice_set": "15",
+    "practice_set": "20",
     "category": "English:Reading Comprehension",
     "difficulty": "easy",
     "time_estimate": 95,
-    "passage": "pdfData:pdf/Pearsons2024-2025B_TimetoVolunteer.pdf",
-    "question_text": "Which revision of sentence 2 uses the most precise language?",
+    "passage": "",
+    "question_text": "Paragraph 4 contributes to the development of the narrative of the passage by",
     "options": [
-      "These are the people who spend their free time volunteering at animal shelters, helping with activities in community centers, or cleaning up parks.",
-      "These are the people who spend their free time helping others in numerous ways at a variety of places, events, or organizations that need support.",
-      "These are the people who spend their free time working at local establishments that help people, animals, or other groups in need of assistance.",
-      "These are the people who spend a lot of time volunteering at places where they can help people in many ways."
+      "revealing a promise that the two girls would later break.",
+      "providing an explanation for the girls' actions.",
+      "demonstrating the idea that most people will lie when they are forced to.",
+      "highlighting the evil nature of even the purest people."
     ],
-    "correct_answer": 0,
+    "correct_answer": null,
     "answer_type": ""
   },
   {
     "_id": "44",
     "question_number": 44,
-    "practice_set": "15",
+    "practice_set": "20",
     "category": "English:Reading Comprehension",
     "difficulty": "easy",
     "time_estimate": 95,
-    "passage": "pdfData:pdf/Pearsons2024-2025B_TimetoVolunteer.pdf",
-    "question_text": "Which sentence should follow sentence 4 to introduce the main claim of the passage?",
+    "passage": "",
+    "question_text": "Which statement best describes Doyle's and Gardner's response to the third photo?",
     "options": [
-      "With that in mind, high school students should consider engaging in some form of regular volunteerism.",
-      "Fortunately for students, these benefits are guaranteed to produce both immediate and long-term results.",
-      "In fact, studies have confirmed that volunteerism can be beneficial for students, the family, and the community.",
-      "For this reason, high school students should learn about how helping others can strengthen their communities."
+        "They were convinced that the girls faked the image.",
+        "They were motivated by a desire for fame that the photo would bring.",
+        "They were not convinced by the girls' thoughts about the photo.",
+        "They were not thrilled to learn that it was not a fake."
     ],
-    "correct_answer": 0,
+    "correct_answer": null,
     "answer_type": ""
-  },
-  {
+},
+ {
     "_id": "45",
     "question_number": 45,
-    "practice_set": "15",
+    "practice_set": "20",
     "category": "English:Reading Comprehension",
     "difficulty": "easy",
     "time_estimate": 95,
-    "passage": "pdfData:pdf/Pearsons2024-2025B_TimetoVolunteer.pdf",
-    "question_text": "Which sentence is least relevant to the ideas presented in the second paragraph (sentences 5–10) and should be deleted?",
+    "passage": "",
+    "question_text": "Which of the following sentences most strongly supports the idea that the girls did not want to take additional fairy pictures?",
     "options": [
-      "sentence 6",
-      "sentence 7",
-      "sentence 8",
-      "sentence 9"
+        "“He had already written to Elsie Wright's mother begging her to get her 'little girl' to take more photos.” (paragraph 3)",
+        "“Elsie insisted that wasn't possible because Frances had to be there... ” (paragraph 4)",
+        "“Both girls thought at the time it was just a bird's nest, some rainwater, some shapes and shadows...” (paragraph 5)",
+        "“The man who had created the world's greatest detective never knew how badly astray his own investigation had gone.” (paragraph 6)"
     ],
-    "correct_answer": 1,
+    "correct_answer": null,
     "answer_type": ""
-  },
+},
   {
     "_id": "46",
     "question_number": 46,
-    "practice_set": "15",
+    "practice_set": "20",
     "category": "English:Reading Comprehension",
     "difficulty": "easy",
     "time_estimate": 95,
-    "passage": "pdfData:pdf/Pearsons2024-2025B_TimetoVolunteer.pdf",
-    "question_text": "Which of these would best follow sentence 12 and support the ideas presented in the third paragraph (sentences 11– 12)?",
+    "passage": "",
+    "question_text": "With which statement would the author most likely agree?",
     "options": [
-      "These students show that they are likely to be responsible, reliable, and helpful young adults. Admissions counselors know that character traits like these will benefit the applicants as well as whomever they interact with.",
-      "Volunteering can help students meet new people who can provide references and advice to the students when they are applying to colleges. It can also be an invaluable opportunity for students to meet possible future employers.",
-      "The counselors hope that young adults who demonstrate this behavior will go on to volunteer during their college years, working on campus in student government and leadership programs or serving in the community at hospitals, schools, and homeless shelters.",
-      "Many colleges are looking for students who are not just academically successful but who also work well with others and care about improving and serving surrounding communities."
+        "Since Doyle wrote about mysteries, he was the best person to solve them.",
+        "Doyle never realized the truth about the photos.",
+        "Elsie and Frances never revealed the truth about the photos.",
+        "Gardner figured out that the photos were fake."
     ],
-    "correct_answer": 3,
+    "correct_answer": null,
     "answer_type": ""
-  },
+},
   {
     "_id": "47",
     "question_number": 47,
-    "practice_set": "15",
+    "practice_set": "20",
     "category": "English:Reading Comprehension",
     "difficulty": "easy",
     "time_estimate": 95,
@@ -842,13 +842,13 @@
       "When students carefully evaluate their activities and prioritize volunteerism, they find a way to work it into their schedule and are soon encouraging their peers to do the same.",
       "Whether they are seeking admission to college, preparing to enter the workforce, or simply looking to reduce stress, high school students who volunteer can help themselves as much as they help others."
     ],
-    "correct_answer": 3,
+    "correct_answer": null,
     "answer_type": ""
   },
   {
     "_id": "48",
     "question_number": 48,
-    "practice_set": "15",
+    "practice_set": "20",
     "category": "English:Reading Comprehension",
     "difficulty": "easy",
     "time_estimate": 95,
@@ -860,13 +860,13 @@
       "The Gotthard Base Tunnel is the world’s longest and deepest railway tunnel, stretching 35.5 miles straight through the base of the Swiss Alps.",
       "The Gotthard Base Tunnel continues to help reduce the number of freight trucks on the roadways in the Swiss Alps."
     ],
-    "correct_answer": 2,
+    "correct_answer": null,
     "answer_type": ""
   },
   {
     "_id": "49",
     "question_number": 49,
-    "practice_set": "15",
+    "practice_set": "20",
     "category": "English:Reading Comprehension",
     "difficulty": "easy",
     "time_estimate": 95,
@@ -878,13 +878,13 @@
       "Engineers had considered making a tunnel under the mountains for many years, but it was impossible to do without modern tunnel- boring machines.",
       "Different types of cutter heads are used with tunnel- boring machines depending on the geology of the area where the tunnel is being created."
     ],
-    "correct_answer": 1,
+    "correct_answer": null,
     "answer_type": ""
   },
   {
     "_id": "50",
     "question_number": 50,
-    "practice_set": "15",
+    "practice_set": "20",
     "category": "English:Reading Comprehension",
     "difficulty": "easy",
     "time_estimate": 95,
@@ -896,13 +896,13 @@
       "between sentences 8 and 9",
       "between sentences 9 and 10"
     ],
-    "correct_answer": 3,
+    "correct_answer": null,
     "answer_type": ""
   },
   {
     "_id": "51",
     "question_number": 51,
-    "practice_set": "15",
+    "practice_set": "20",
     "category": "English:Reading Comprehension",
     "difficulty": "easy",
     "time_estimate": 95,
@@ -914,13 +914,13 @@
       "sentence 15",
       "sentence 16"
     ],
-    "correct_answer": 3,
+    "correct_answer": null,
     "answer_type": ""
   },
   {
     "_id": "52",
     "question_number": 52,
-    "practice_set": "15",
+    "practice_set": "20",
     "category": "English:Reading Comprehension",
     "difficulty": "easy",
     "time_estimate": 95,
@@ -932,13 +932,13 @@
       "Because of the successful completion of the Gotthard Base Tunnel,",
       "As the number of trains using the Gotthard Base Tunnel increases,"
     ],
-    "correct_answer": 2,
+    "correct_answer": null,
     "answer_type": ""
   },
   {
     "_id": "53",
     "question_number": 53,
-    "practice_set": "15",
+    "practice_set": "20",
     "category": "English:Reading Comprehension",
     "difficulty": "easy",
     "time_estimate": 95,
@@ -950,13 +950,13 @@
       "The completion of the Gotthard Base Tunnel shows that people can work together to achieve important goals.",
       "The Swiss government is confident that the economic impact of the Gotthard Base Tunnel will be worth its construction cost."
     ],
-    "correct_answer": 1,
+    "correct_answer": null,
     "answer_type": ""
   },
   {
     "_id": "54",
     "question_number": 54,
-    "practice_set": "15",
+    "practice_set": "20",
     "category": "English:Reading Comprehension",
     "difficulty": "easy",
     "time_estimate": 95,
@@ -968,13 +968,13 @@
       "The International Space Station has been inhabited by crew members since 2000, but tourists will soon be allowed to pay for visits to the space station, though the cost is $52–$58 million round trip, so few people will be able to take advantage of the opportunity to have a vacation in outer space.",
       "The International Space Station has been inhabited by crew members since 2000, and tourists will soon be allowed to pay for visits to the space station because the cost is $52–$58 million round trip, therefore few people will be able to take advantage of the opportunity to have a vacation in outer space."
     ],
-    "correct_answer": 1,
+    "correct_answer": null,
     "answer_type": ""
   },
   {
     "_id": "55",
     "question_number": 55,
-    "practice_set": "15",
+    "practice_set": "20",
     "category": "English:Reading Comprehension",
     "difficulty": "easy",
     "time_estimate": 95,
@@ -986,13 +986,13 @@
       "sentence 3",
       "sentence 4"
     ],
-    "correct_answer": 1,
+    "correct_answer": null,
     "answer_type": ""
   },
   {
     "_id": "56",
     "question_number": 56,
-    "practice_set": "15",
+    "practice_set": "20",
     "category": "English:Reading Comprehension",
     "difficulty": "easy",
     "time_estimate": 95,
@@ -1004,13 +1004,13 @@
       "The Appalachian Trail is a 2,200- mile trail that two million people hike each year.",
       "The Appalachian Trail is a lengthy trail that a couple million people do each year."
     ],
-    "correct_answer": 2,
+    "correct_answer": null,
     "answer_type": ""
   },
   {
     "_id": "57",
     "question_number": 57,
-    "practice_set": "15",
+    "practice_set": "20",
     "category": "English:Reading Comprehension",
     "difficulty": "easy",
     "time_estimate": 95,
@@ -1022,7 +1022,7 @@
       "Sentence 2: Insert a comma after 'completed'.\nSentence 3: Change 'becomes' to 'became'.",
       "Sentence 2: Insert a comma after 'completed'.\nSentence 4: Change 'believed' to 'had believed'"
     ],
-    "correct_answer": 2,
+    "correct_answer": null,
     "answer_type": ""
   },
   {
