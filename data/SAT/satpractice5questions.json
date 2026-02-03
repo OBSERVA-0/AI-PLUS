@@ -171,8 +171,8 @@
   },
   {
     "_id": "11",
-    "question_text": "Which choice best describes data from the graph that weaken the student's claim?",
-    "passage": "image:images/satpractice5question11.png\n\nTo measure whether countries in free trade agreements (FTAs)—agreements among nations to reduce tariffs, duties, and other trade barriers—experience changes in total agricultural exports, economist Kayode Ajewole and colleagues calculated average export growth rates for several countries over the five years before and the five years after entering an FTA with the United States. The graph shows the results for three countries in the study. Consulting the graph, a student claims that joining an FTA increases the rate of growth of a country's total agricultural exports.",
+    "question_text": "To measure whether countries in free trade agreements (FTAs) --- agreements among nations to reduce tariffs,duties, and other trade barriers --- experience changes in total agricultural exports, economist KayodeAjewole and colleagues calculated average export growth rates for several countries over the five years before and the five years after entering an ITA with the United States. The graph shows the results for three countries in the study. Consulting, the graph, a student claims that joining an FTA increases the rate of growth of a country's total agricultural exports.Which choice best describes data from the graph that weaken the student's claim?",
+    "passage": "image:images/satpractice5question11.png\n\n",
     "options": [
       "Although agricultural exports from Nicaragua grew over the five years after Nicaragua joined CAFTA-DR, their growth rate was even higher in the five years before CAFTA-DR.",
       "All the countries shown had positive growth in agricultural exports over the five years after joining their respective FTAs, but their rates of export growth varied.",
@@ -308,7 +308,7 @@
   {
     "_id": "19",
     "question_text": "Which choice completes the text so that it conforms to the conventions of Standard English?",
-    "passage": "On February 1, 2018, a Florida-based research team—Martha A. Scholl, Maoya Bassiouni, and Angel J. Torres Sanchez—compiled climate data from several sites in Puerto Rico's Luquillo Mountains. At 8:30 a.m., the air temperature was $16^{\\circ}C$ at site CC1, the site with the highest _______ it had shifted to $16.8^{\\circ}C$ by 11:00 p.m.",
+    "passage": "On February 1, 2018, a Florida-based research team—Martha A. Scholl, Maoya Bassiouni, and Angel J. Torres Sanchez—compiled climate data from several sites in Puerto Rico's Luquillo Mountains. At 8:30 a.m., the air temperature was $16 degree celsius at site CC1, the site with the highest _______ it had shifted to $16.8 degree celsius 11:00 p.m.",
     "options": [
       "elevation and",
       "elevation",
@@ -461,7 +461,7 @@
   {
     "_id": "28",
     "question_text": "What is the total amount of money, in dollars, he plans to save in 10 weeks?",
-    "passage": "The equation $d=33w+100$ gives the total amount of money d, in dollars, that James plans to save w weeks after he starts to save.",
+    "passage": "The equation d=33w+100 gives the total amount of money d, in dollars, that James plans to save w weeks after he starts to save.",
     "options": [
       "380",
       "430",
