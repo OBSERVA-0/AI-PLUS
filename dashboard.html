@@ -29,36 +29,10 @@
             pointer-events: none;
             border-radius: 0 0 12px 12px;
         }
-        /* Additional overscroll prevention */
-        html, body {
-            overscroll-behavior: none !important;
-            overscroll-behavior-y: none !important;
-            overscroll-behavior-x: none !important;
-            touch-action: pan-y;
-            -webkit-overflow-scrolling: touch;
-        }
-        
-        /* Prevent pull-to-refresh */
-        body {
-            position: relative;
-            overflow-x: hidden;
-        }
-        
+        /* Prevent pull-to-refresh on mobile only */
         @media (max-width: 768px) {
-            html {
-                position: fixed;
-                height: 100%;
-                width: 100%;
-                overflow: hidden;
-            }
-            
             body {
-                position: fixed;
-                height: 100%;
-                width: 100%;
-                overflow-y: auto;
-                overflow-x: hidden;
-                -webkit-overflow-scrolling: touch;
+                overscroll-behavior-y: contain;
             }
         }
     </style>
@@ -225,6 +199,7 @@
                             <button class="btn btn-secondary start-test-btn" data-practice-set="2">Practice 2</button>
                             <button class="btn btn-primary start-test-btn" data-practice-set="3">Practice 3</button>
                             <button class="btn btn-primary start-test-btn" data-practice-set="4">Practice 4</button>
+                            <button class="btn btn-secondary start-test-btn" data-practice-set="5">Practice 5</button>
                         </div>
                     </div>
 

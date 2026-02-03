@@ -3,14 +3,13 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    scroll-behavior: smooth;
 }
 
 html {
-    overscroll-behavior-y: none !important;
-    overscroll-behavior-x: none !important;
     scroll-behavior: smooth;
     overflow-x: hidden;
+    overflow-y: auto;
+    height: auto;
     background-color: #f0f2f5; /* A light grey for the main background */
 }
 
@@ -20,29 +19,23 @@ body {
     color: #1e293b;
     background: #f8fafc;
     min-height: 100vh;
-    overscroll-behavior-y: none !important;
-    overscroll-behavior-x: none !important;
-    overscroll-behavior: none !important;
     scroll-behavior: smooth;
     overflow-x: hidden;
+    overflow-y: auto;
     position: relative;
 }
 
-/* Prevent overscroll on all elements */
+/* Box sizing reset */
 *,
 *::before,
 *::after {
-    overscroll-behavior: none !important;
-    overscroll-behavior-y: none !important;
-    overscroll-behavior-x: none !important;
+    box-sizing: border-box;
 }
 
-/* Prevent overscroll on main containers */
 .container {
     max-width: 1200px;
     margin: 0 auto;
     padding: 0 20px;
-    overscroll-behavior: none !important;
 }
 
 /* Warning banner for save failures */
@@ -69,7 +62,6 @@ body {
 .main-content {
     padding: 2rem 0;
     min-height: calc(100vh - 100px);
-    overscroll-behavior: none !important;
 }
 
 /* Header Styles */
@@ -2426,46 +2418,23 @@ body {
     }
 }
 
-/* Additional scroll lock for mobile */
+/* Mobile scroll improvements */
 @media (max-width: 768px) {
-    html {
+    html, body {
         width: 100%;
-        overscroll-behavior: none !important;
         overflow-x: hidden;
+        overflow-y: auto;
     }
     
     body {
-        width: 100%;
         min-height: 100vh;
-        overflow-x: hidden;
-        overscroll-behavior: none !important;
+        overscroll-behavior-y: contain;
         -webkit-overflow-scrolling: touch;
     }
     
     .main-content {
         min-height: calc(100vh - 80px);
         overflow-x: hidden;
-        overscroll-behavior: none !important;
-        -webkit-overflow-scrolling: touch;
-    }
-    
-    /* Prevent pull-to-refresh */
-    .container {
-        overscroll-behavior-y: none !important;
-        touch-action: pan-y;
-    }
-}
-
-/* Prevent overscroll on all touch devices */
-@media (pointer: coarse) {
-    * {
-        overscroll-behavior: none !important;
-        -webkit-overflow-scrolling: touch;
-    }
-    
-    html, body {
-        touch-action: pan-y;
-        overscroll-behavior: none !important;
     }
 }
 
@@ -2493,34 +2462,29 @@ body {
 
 /* iOS Safari specific fixes */
 @supports (-webkit-touch-callout: none) {
-    html {
+    html, body {
         width: 100%;
-        overscroll-behavior: none !important;
         overflow-x: hidden;
+        -webkit-overflow-scrolling: touch;
     }
     
     body {
-        width: 100%;
         min-height: 100vh;
-        overflow-x: hidden;
-        -webkit-overflow-scrolling: touch;
-        overscroll-behavior: none !important;
+        overscroll-behavior-y: contain;
     }
 }
 
-/* Enhanced scroll lock for scrollable elements */
+/* Smooth scrolling for scrollable elements */
 .passage-side,
 .question-container,
 .detailed-review,
 .mastery-grid {
-    overscroll-behavior: none !important;
     scroll-behavior: smooth;
 }
 
-/* Prevent bounce scrolling on iOS */
+/* iOS scrollable container fix */
 .passage-side {
     -webkit-overflow-scrolling: touch;
-    overscroll-behavior: none !important;
 }
 
 /* Visual feedback for scroll boundaries */

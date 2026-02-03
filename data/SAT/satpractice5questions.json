@@ -1,0 +1,1157 @@
+[
+  {
+    "_id": "1",
+    "question_text": "Which choice completes the text with the most logical and precise word or phrase?",
+    "passage": "Folk and traditional art can take a wide variety of forms, including arts as _______ one another as storytelling and quilting. The National Heritage Fellowship was created to honor people for their accomplishments in these diverse arts and includes among its winners the Puerto Rican stringed-instrument maker Diomedes Matos.",
+    "options": [
+      "confused with",
+      "humble about",
+      "useful to",
+      "different from"
+    ],
+    "correct_answer": 3,
+    "difficulty": "Medium",
+    "category": "English: Words in Context",
+    "time_estimate": 60,
+    "question_number": 1,
+    "practice_set": "5"
+  },
+  {
+    "_id": "2",
+    "question_text": "As used in the text, what does the word \"display\" most nearly mean?",
+    "passage": "The following text is adapted from John Matheus's 1926 short story, \"Mr. Bradford Teaches Sunday School.\" Mr. Bradford is driving through the countryside in Florida. The moss in the towering, water oaks had become enlivened with a verdant sheen of silver and hung like festoons of carnival or like funeral decorations for the mourning of the dead. The pine green was resplendent. The bald cypresses spread themselves along the water courses while the willows wept as they always did. Mr. Bradford was conscious of this gorgeous display of nature.",
+    "options": [
+      "Resemblance",
+      "Exhibition",
+      "Falsehood",
+      "Pretentiousness"
+    ],
+    "correct_answer": 1,
+    "difficulty": "Easy",
+    "category": "English: Words in Context",
+    "time_estimate": 60,
+    "question_number": 2,
+    "practice_set": "5"
+  },
+  {
+    "_id": "3",
+    "question_text": "Which choice completes the text with the most logical and precise word or phrase?",
+    "passage": "Possessing an outstanding collection of public art, Chicago has everything from monumental sculptures like Joan Miró's Chicago at sites like Brunswick Plaza to innovative street art like Justus Roe's mural South Shore located on South Exchange Avenue. The public art on display in the city can thus satisfy any art lover's _______.",
+    "options": [
+      "breadth of",
+      "controversy over",
+      "confusion about",
+      "apathy toward"
+    ],
+    "correct_answer": 0,
+    "difficulty": "Medium",
+    "category": "English: Words in Context",
+    "time_estimate": 60,
+    "question_number": 3,
+    "practice_set": "5"
+  },
+  {
+    "_id": "4",
+    "question_text": "Which choice completes the text with the most logical and precise word or phrase?",
+    "passage": "As with other river deltas, the Paraná River delta is _______: it is a constantly evolving network of channels and strips of land that change in size and shape as the river deposits new sedimentary particles where the river meets the waters of the Atlantic Ocean.",
+    "options": [
+      "dynamic",
+      "immutable",
+      "sustainable",
+      "unrivaled"
+    ],
+    "correct_answer": 0,
+    "difficulty": "Medium",
+    "category": "English: Words in Context",
+    "time_estimate": 60,
+    "question_number": 4,
+    "practice_set": "5"
+  },
+  {
+    "_id": "5",
+    "question_text": "Which choice best describes the overall structure of the text?",
+    "passage": "The San Pedro is just one of approximately three million known historical shipwrecks spread throughout the world's oceans, and their impact on sea life and underwater ecosystems is of great interest to researchers. Leila Hamdan and colleagues were particularly curious about the effects of wooden shipwrecks on seafloor microbial communities. The researchers studied two wooden shipwrecks in the Gulf of Mexico by placing pieces of pine and oak between zero and 200 meters away from each shipwreck to collect samples of three kinds of microbes: bacteria, archaea, and fungi. They found that across the three microbial communities, peak diversity and richness was observed on pine and oak samples placed approximately 125 meters from the shipwrecks.",
+    "options": [
+      "It introduces a study of microbial communities near shipwrecks that has received significant scholarly attention, summarizes the results of that study, and then describes a research team's reaction to the study.",
+      "It notes a general scientific interest in shipwrecks' ecological effects, describes a specific study related to that interest, and then states one of the study's findings.",
+      "It states the number of known shipwrecks, describes the historical significance of one of those shipwrecks, and then comments on the various microbes found at the shipwreck site.",
+      "It names a famous historical shipwreck, describes the type of wood used to build that ship, and then explains how that wood type influences underwater microbial communities."
+    ],
+    "correct_answer": 1,
+    "difficulty": "Hard",
+    "category": "English: Structure and Purpose",
+    "time_estimate": 82,
+    "question_number": 5,
+    "practice_set": "5"
+  },
+  {
+    "_id": "6",
+    "question_text": "Which choice best describes the overall structure of the text?",
+    "passage": "The Federalist Papers are a collection of 85 essays written by Alexander Hamilton, John Jay and James Madison. They were published pseudonymously in the Independent Journal and other New York newspapers in 1787-88 and argue that New Yorkers should vote to ratify the proposed United States Constitution. Though the authorship of most of the individual essays is certain, that of a few is in question: for instance, while No. 15, \"The Insufficiency of the Present Confederation to preserve the Union,\" was surely penned by Hamilton, No. 52, \"The House of Representatives,\" may have been written by either Hamilton or Madison.",
+    "options": [
+      "The text mentions a collection of essays and then points out something about these essays that is not completely known.",
+      "The text summarizes an argument made in a collection of essays and then suggests that the essays' authors didn't unanimously agree with the argument.",
+      "The text lists the authors of a collection of essays and then notes that some of the essays were written by one person, while others were written by two people.",
+      "The text describes why a collection of essays is notable and then details its publication history."
+    ],
+    "correct_answer": 0,
+    "difficulty": "Medium",
+    "category": "English: Structure and Purpose",
+    "time_estimate": 82,
+    "question_number": 6,
+    "practice_set": "5"
+  },
+  {
+    "_id": "7",
+    "question_text": "Which choice best describes the overall structure of the text?",
+    "passage": "Community science, which involves professional scientists collaborating with amateur science enthusiasts to study a topic, is often an effective and engaging way to conduct research. It can offer insight into the daily life of a scientist, spark youth interest in science, and increase the amount of data researchers can collect. This approach was essential to the success of a study by biologist Abbigail Merrill and colleagues of how weather relates to a butterfly's flower choice, which included findings from hundreds of students and community members in northwestern Arkansas.",
+    "options": [
+      "It describes the development of a type of scientific collaboration, shows how that type of collaboration has been used in a particular field of study, and then suggests future collaborative projects.",
+      "It introduces the topic of a scientific study, describes the study's importance, and then presents the study's results.",
+      "It identifies a particular approach to research, lists some benefits of that approach, and then mentions a study in which that approach was used.",
+      "It argues for a new approach to scientific research, comments on the public's opinion about the approach, and then describes how that approach was applied in a certain study."
+    ],
+    "correct_answer": 2,
+    "difficulty": "Medium",
+    "category": "English: Structure and Purpose",
+    "time_estimate": 82,
+    "question_number": 7,
+    "practice_set": "5"
+  },
+  {
+    "_id": "8",
+    "question_text": "Which choice best states the main idea of the text?",
+    "passage": "The following text is adapted from Jerome K. Jerome's 1889 novel Three Men in a Boat (To Say Nothing of the Dog). The narrator is traveling by boat with Harris and another friend.\n\n[Harris] told us anecdotes of how he had gone across the [English] Channel when it was so rough that the passengers had to be tied into their [beds], and he and the captain were the only two living souls on board who were not ill. Sometimes it was he and the second mate who were not ill; but it was generally he and one other man. If not he and another man, then it was he by himself.",
+    "options": [
+      "During a previous boat trip, Harris spent more time with the other passengers than with the captain.",
+      "Harris has a hard time remembering his first trip across the English Channel when his friends ask about it.",
+      "When Harris speaks of an earlier trip, he often changes the details but always brags about his own wellness.",
+      "Harris is worried that he and his friends will encounter rough waters during their boat trip."
+    ],
+    "correct_answer": 2,
+    "difficulty": "Medium",
+    "category": "English: Central Ideas and Details",
+    "time_estimate": 82,
+    "question_number": 8,
+    "practice_set": "5"
+  },
+  {
+    "_id": "9",
+    "question_text": "The author makes which point about the Spanish language?",
+    "passage": "\"Coyote\" is an example of a loanword—that is, a word that originated in one language and was later adopted by another. The word came to English indirectly from coyote, the Spanish word for the wild canine species. Spanish had borrowed it from Nahuatl, an Indigenous language of Central Mexico, in which the word's original form is coyotl. \"Condor\" is also Indigenous in origin and entered English through Spanish. But in this case the original source was Quechua, a language of South America, in which the word for the large vulture species is kuntur.",
+    "options": [
+      "It has served as a medium through which Indigenous languages have influenced English.",
+      "Its contribution to English vocabulary roughly equals the collective contribution by Indigenous languages.",
+      "It has borrowed words from Indigenous languages and contributed words to them.",
+      "It adopted Nahuatl and Quechua words in approximately equal numbers."
+    ],
+    "correct_answer": 0,
+    "difficulty": "Hard",
+    "category": "English: Central Ideas and Details",
+    "time_estimate": 82,
+    "question_number": 9,
+    "practice_set": "5"
+  },
+  {
+    "_id": "10",
+    "question_text": "Which choice best states the main idea of the text?",
+    "passage": "Postcranial skeletal pneumaticity (PSP), a system of skeletal air sacs, occurred in three Cretaceous clades, including theropods (e.g., Tyrannosaurus); past studies have hypothesized that the trait was homologous (originating from a shared ancestor). With this in mind, Flávio A. Pretto et al. examined fossils of common ancestors of the clades using micro-tomography, finding openings in bones—a possible indicator of PSP—but of sizes inconsistent with PSP. The team reported other findings contradicting the homology hypothesis as well, concluding that PSP likely evolved independently in each clade.",
+    "options": [
+      "Pretto et al. found openings in bones in fossils of common ancestors of theropods and two other Cretaceous clades, but the team determined that the sizes of the openings were too varied to be indicative of PSP thereby weakening the homology hypothesis.",
+      "Previous studies hypothesized that PSP originated in a shared ancestor of theropods and two other clades, but the findings of Pretto et al. suggest that PSP evolved independently in theropods and was subsequently inherited by the other two clades.",
+      "Pretto et al. found that theropods and two other Cretaceous clades with PSP likely lacked a common ancestor with the trait, leading the team to posit a different evolutionary origin for PSP than that posited in earlier studies.",
+      "Although past studies by paleontologists concluded that PSP in theropods and two other Cretaceous clades was likely attributable to a common ancestor those paleontologists lacked access to technology that led Pretto et al. to reach a different conclusion."
+    ],
+    "correct_answer": 0,
+    "difficulty": "Hard",
+    "category": "English: Central Ideas and Details",
+    "time_estimate": 82,
+    "question_number": 10,
+    "practice_set": "5"
+  },
+  {
+    "_id": "11",
+    "question_text": "Which choice best describes data from the graph that weaken the student's claim?",
+    "passage": "image:images/satpractice5question11.png\n\nTo measure whether countries in free trade agreements (FTAs)—agreements among nations to reduce tariffs, duties, and other trade barriers—experience changes in total agricultural exports, economist Kayode Ajewole and colleagues calculated average export growth rates for several countries over the five years before and the five years after entering an FTA with the United States. The graph shows the results for three countries in the study. Consulting the graph, a student claims that joining an FTA increases the rate of growth of a country's total agricultural exports.",
+    "options": [
+      "Although agricultural exports from Nicaragua grew over the five years after Nicaragua joined CAFTA-DR, their growth rate was even higher in the five years before CAFTA-DR.",
+      "All the countries shown had positive growth in agricultural exports over the five years after joining their respective FTAs, but their rates of export growth varied.",
+      "Although agricultural exports from Mexico decreased over the five years before NAFTA, a reversal in this trend was observed over the five years after Mexico joined NAFTA.",
+      "Over the five years after El Salvador joined CAFTA-DR, agricultural exports from El Salvador grew at a rate of about 21.8 percent, which is higher than the rate over the five years before El Salvador joined the agreement."
+    ],
+    "correct_answer": 0,
+    "difficulty": "Hard",
+    "category": "English: Quantitative Evidence",
+    "time_estimate": 90,
+    "question_number": 11,
+    "practice_set": "5"
+  },
+  {
+    "_id": "12",
+    "question_text": "Which choice best describes data from the graph that support Martinez and colleagues hypothesis?",
+    "passage": "image:images/satpractice5question12.png\n\nAuxins are a class of hormones that influence plant growth, including leaf orientation (the tendency of leaves to be larger on one side of their long central axis than the other). University of California, Berkeley biologist Ciera Martinez and colleagues noted that in certain plants in which leaves grow in pairs, auxins will typically be concentrated in opposite sides of each leaf in the pair (e.g. on the left side of one leaf in the pair and the right side of the other). Accordingly, they hypothesized that paired leaves should tend to show opposite side orientation, and they tested their hypothesis by examining paired leaves from several species of grapevines.",
+    "options": [
+      "The number of leaf pairs showing opposite side orientation is fairly high in the July grape, but not as high as it is in the graybark grape.",
+      "Although the number of leaf pairs showing same side orientation is fairly high in the July grape, it is much lower in both the frost grape and graybark grape.",
+      "Although the exact ratio varies by species, the graybark grape, frost grape, and July grape all show more leaf pairs with opposite side orientations than with same side orientations.",
+      "In the graybark grape, frost grape, and July grape, all the leaf pairs show opposite side orientation."
+    ],
+    "correct_answer": 2,
+    "difficulty": "Hard",
+    "category": "English: Quantitative Evidence",
+    "time_estimate": 90,
+    "question_number": 12,
+    "practice_set": "5"
+  },
+  {
+    "_id": "13",
+    "question_text": "Which choice most logically completes the text?",
+    "passage": "Researchers have noted that people with clinically typical hearing perceive sounds they believe to be meaningful as quieter than sounds of the same volume that they believe to be noise (i.e. meaningless to the listener). In a recent study, Antonia Olivia Dolan and colleagues allowed participants to listen to (and adjust the volume of) recordings of music in popular genres like acoustic folk and orchestral, as well as recordings of nature sounds. The researchers noted that participants may have treated the nature sounds as noise, which suggests that if a participant was exposed to Jose Gonzalez's \"Heartbeats\" and the nature sounds at a volume of 61.5 decibels, the participant likely would have",
+    "options": [
+      "adjusted the volume of the nature sounds to be greater than 61.5 decibels.",
+      "believed that neither the nature sounds nor \"Heartbeats\" were at a volume of 61.5 decibels.",
+      "experienced the nature sounds as louder than \"Heartbeats\" even though they were not.",
+      "perceived the nature sounds and \"Heartbeats\" to be comparably meaningful despite perceiving the music to be quieter."
+    ],
+    "correct_answer": 2,
+    "difficulty": "Hard",
+    "category": "English: Inferences",
+    "time_estimate": 82,
+    "question_number": 13,
+    "practice_set": "5"
+  },
+  {
+    "_id": "14",
+    "question_text": "Which choice most logically completes the text?",
+    "passage": "Evan MacLean and colleagues evaluated behavioral and genetic data from over 14,000 dogs, representing more than 100 breeds, and found that variations in behavior between breeds can be attributed to genetic variations between those breeds, suggesting a genetic basis for breed differences in behavior. This was the case for both separation problems and energy but was especially pronounced for trainability, which can be seen when a dog demonstrates willingness to fetch objects. In a different study, researchers found that, with regard to trainability, the English mastiff behaves in notably different ways than the Yorkshire terrier. Together these findings imply that",
+    "options": [
+      "the English mastiff and the Yorkshire terrier will likely become more genetically similar over time.",
+      "the English mastiff and the Yorkshire terrier differ with respect to the genetic underpinnings for trainability.",
+      "individual English mastiffs may display higher levels of trainability than individual Yorkshire terriers.",
+      "English mastiffs and Yorkshire terriers show a greater tendency toward trainability than most other dog breeds do."
+    ],
+    "correct_answer": 1,
+    "difficulty": "Medium",
+    "category": "English: Inferences",
+    "time_estimate": 82,
+    "question_number": 14,
+    "practice_set": "5"
+  },
+  {
+    "_id": "15",
+    "question_text": "Which choice most logically completes the text?",
+    "passage": "The jade hawkmoth, a large bodied moth, defends itself against Brandt's myotis and other insect-eating bats, which use echolocation to hunt, by emitting ultrasonic clicks that can, for instance, signal the moths' unpleasant taste. To investigate moths' defensive ultrasound—which researchers had thought was exclusive to tiger moths, hawkmoths, and one species of geometer moths—Jesse R. Barber et al. recorded the responses of moths from 252 genera, representing most families of large bodied moths, to audio playback of bat echolocation. The researchers found that 52 of the genera, including several genera belonging to the geometer family, produced defensive ultrasonic clicks. This result suggests that",
+    "options": [
+      "unlike the 52 moth genera that emit ultrasonic clicks, most moth genera have likely not developed defenses specifically against bat attacks.",
+      "some genera of large bodied moths may use ultrasonic signaling for purposes other than avoiding capture by predators such as Brandt's myotis.",
+      "ultrasound production is only one of a diverse range of effective strategies moths employ to evade bat attacks.",
+      "anti-bat ultrasound production may be a more prevalent defense strategy among large bodied moths than previously known to researchers."
+    ],
+    "correct_answer": 3,
+    "difficulty": "Medium",
+    "category": "English: Inferences",
+    "time_estimate": 82,
+    "question_number": 15,
+    "practice_set": "5"
+  },
+  {
+    "_id": "16",
+    "question_text": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+    "passage": "The cities of Kisumu, Ternate, and Nueva Loja are all located almost directly on the equator. However they are each in different countries: Indonesia, Kenya, and Ecuador, respectively.",
+    "options": [
+      "Ternate;",
+      "Ternate,",
+      "Ternate:",
+      "Ternate"
+    ],
+    "correct_answer": 1,
+    "difficulty": "Easy",
+    "category": "English: Punctuation",
+    "time_estimate": 60,
+    "question_number": 16,
+    "practice_set": "5"
+  },
+  {
+    "_id": "17",
+    "question_text": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+    "passage": "In the periodic table, an element's atomic number indicates how many protons there are in an atom of the element. For example, a chlorine atom _______ 17 protons. Professor Raymond Chang explains this concept in more detail in the textbook Chemistry.",
+    "options": [
+      "has",
+      "has had",
+      "had",
+      "is having"
+    ],
+    "correct_answer": 0,
+    "difficulty": "Easy",
+    "category": "English: Grammar and Usage",
+    "time_estimate": 60,
+    "question_number": 17,
+    "practice_set": "5"
+  },
+  {
+    "_id": "18",
+    "question_text": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+    "passage": "Directed by the Chumash filmmaker Rose Ramirez, the short documentary Saging the World is one of many films by indigenous women _______ featured in film festivals in recent years.",
+    "options": [
+      "were being",
+      "are being",
+      "to have been",
+      "had been"
+    ],
+    "correct_answer": 2,
+    "difficulty": "Medium",
+    "category": "English: Grammar and Usage",
+    "time_estimate": 60,
+    "question_number": 18,
+    "practice_set": "5"
+  },
+  {
+    "_id": "19",
+    "question_text": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+    "passage": "On February 1, 2018, a Florida-based research team—Martha A. Scholl, Maoya Bassiouni, and Angel J. Torres Sanchez—compiled climate data from several sites in Puerto Rico's Luquillo Mountains. At 8:30 a.m., the air temperature was $16^{\\circ}C$ at site CC1, the site with the highest _______ it had shifted to $16.8^{\\circ}C$ by 11:00 p.m.",
+    "options": [
+      "elevation and",
+      "elevation",
+      "elevation,",
+      "elevation, and"
+    ],
+    "correct_answer": 3,
+    "difficulty": "Medium",
+    "category": "English: Sentence Structure",
+    "time_estimate": 60,
+    "question_number": 19,
+    "practice_set": "5"
+  },
+  {
+    "_id": "20",
+    "question_text": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+    "passage": "Two of the most celebrated examples of visual allegory in painting, The Four Elements: Air by Joachim Beuckelaer and Ceres (Summer) by Antoine Watteau, were completed in 1570 and _______ such allegorical artwork was particularly popular from the 15th through the late 18th centuries.",
+    "options": [
+      "1712 respectively,",
+      "1712, respectively;",
+      "1712, respectively,",
+      "1712; respectively,"
+    ],
+    "correct_answer": 1,
+    "difficulty": "Hard",
+    "category": "English: Punctuation",
+    "time_estimate": 60,
+    "question_number": 20,
+    "practice_set": "5"
+  },
+  {
+    "_id": "21",
+    "question_text": "Which choice completes the text with the most logical transition?",
+    "passage": "A blend of gabardine and wool, the material for Elvis Presley's Silver Phoenix jumpsuit was flexible enough to allow the singer to perform his signature dance moves. _______ the added weight of the suit's embroidered silver bird likely limited Elvis's mobility to some degree.",
+    "options": [
+      "For this reason,",
+      "Firstly,",
+      "In other words,",
+      "However,"
+    ],
+    "correct_answer": 3,
+    "difficulty": "Easy",
+    "category": "English: Transitions",
+    "time_estimate": 60,
+    "question_number": 21,
+    "practice_set": "5"
+  },
+  {
+    "_id": "22",
+    "question_text": "Which choice completes the text with the most logical transition?",
+    "passage": "When it was completed in 1889, the Eiffel Tower in Paris, France, was criticized—even protested—for the novelty of its unique spire-like silhouette. _______ the design is commonplace, found in everything from Eiffel Tower replicas like the one in Paris, Tennessee, to structures like the Tokyo Tower in Tokyo, Japan.",
+    "options": [
+      "On the contrary,",
+      "In conclusion,",
+      "Furthermore,",
+      "Nowadays,"
+    ],
+    "correct_answer": 3,
+    "difficulty": "Medium",
+    "category": "English: Transitions",
+    "time_estimate": 60,
+    "question_number": 22,
+    "practice_set": "5"
+  },
+  {
+    "_id": "23",
+    "question_text": "Which choice completes the text with the most logical transition?",
+    "passage": "Scientists studying asteroid deflection have focused on secondary objects such as S/2012 (461852), a moonlet orbiting the near-Earth asteroid 2007 LE. In 2022 NASA intentionally crashed a probe into just such an object, successfully altering its orbit. Scientists have yet to demonstrate, _______ that 2007 LE and other primary objects would be similarly affected.",
+    "options": [
+      "for example,",
+      "though,",
+      "likewise,",
+      "moreover,"
+    ],
+    "correct_answer": 1,
+    "difficulty": "Medium",
+    "category": "English: Transitions",
+    "time_estimate": 60,
+    "question_number": 23,
+    "practice_set": "5"
+  },
+  {
+    "_id": "24",
+    "question_text": "The student wants to emphasize a similarity between the Columbia Trail and the Flint Hills Trail. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+    "passage": "While researching a topic, a student has taken the following notes:\n- The Columbia Trail is a rail trail.\n- It is located in New Jersey.\n- The Flint Hills Trail is a rail trail\n- It is located in Kansas.\n- Rail trails are former railroad corridors that have been converted into public paths.",
+    "options": [
+      "A public path created from a former railroad corridor can be found in Kansas.",
+      "A former railroad corridor, the Columbia Trail is located in New Jersey.",
+      "Both the Columbia Trail and the Flint Hills Trail are rail trails.",
+      "The Columbia Trail is in New Jersey, whereas the Flint Hills Trail is in Kansas."
+    ],
+    "correct_answer": 2,
+    "difficulty": "Easy",
+    "category": "English: Rhetorical Synthesis",
+    "time_estimate": 60,
+    "question_number": 24,
+    "practice_set": "5"
+  },
+  {
+    "_id": "25",
+    "question_text": "The student wants to compare the disadvantages of the geothermal systems used at the Wairakei and Traunreut plants. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+    "passage": "While researching a topic, a student has taken the following notes:\n- The Wairakei geothermal power plant in New Zealand uses a flash steam system to generate electricity.\n- Flash steam technology requires geothermal reservoir temperatures above $180^{\\circ}C$. The use of flash steam systems worldwide is limited because many geothermal reservoirs aren't hot enough.\n- The Traunreut geothermal power plant in Germany uses a binary cycle system.\n- Binary cycle technology can generate energy from lower-temperature (less than $180^{\\circ}C$) geothermal reservoirs.\n- Binary cycle systems involve higher maintenance costs than flash steam systems.",
+    "options": [
+      "Unlike the Traunreut plant, the Wairakei plant uses a flash steam system, which requires a less common resource: geothermal reservoirs with temperatures above $180^{\\circ}C$.",
+      "Compared with the system used at the Wairakei plant, the system used at the Traunreut plant has a notable disadvantage: its cost.",
+      "The system used at the Traunreut plant overcomes the temperature limitations of the Wairakei plant's system but is more costly to maintain.",
+      "The system at the Wairakei plant requires temperatures above $180^{\\circ}C$ while the system at the Traunreut plant can operate at lower temperatures."
+    ],
+    "correct_answer": 2,
+    "difficulty": "Hard",
+    "category": "English: Rhetorical Synthesis",
+    "time_estimate": 60,
+    "question_number": 25,
+    "practice_set": "5"
+  },
+  {
+    "_id": "26",
+    "question_text": "The student wants to contrast the two plants. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+    "passage": "While researching a topic, a student has taken the following notes:\n- Most of the plant and bird species in Oahu, Hawaii, are non-native.\n- In a 2019 study, researchers wanted to know what role non-native birds play in dispersing plant seeds in Oahu.\n- Researchers catalogued plant seeds found in fecal samples from non-native birds.\n- Leptecophylla tameiameiae, a flowering shrub, was one of fifteen native species catalogued.\n- Schinus terebinthifolia, a tree, was one of twenty nine non-native species catalogued.\n- Researchers concluded that non-native birds play a vital role in dispersing the seeds of native and non-native plants.",
+    "options": [
+      "In Oahu, Hawaii, seeds from Leptecophylla tameiameiae and Schinus terebinthifolia plants were found in the fecal samples of non-native birds.",
+      "Most plant species found in Oahu, Hawaii, like Schinus terebinthifolia, are nonnative.",
+      "Leptecophylla tameiameiae, a species of shrub, is native to Oahu, Hawaii, but Schinus terebinthifolia, a species of tree, is not.",
+      "The plants Leptecophylla tameiameiae and Schinus terebinthifolia can be found in Oahu, Hawaii."
+    ],
+    "correct_answer": 2,
+    "difficulty": "Medium",
+    "category": "English: Rhetorical Synthesis",
+    "time_estimate": 60,
+    "question_number": 26,
+    "practice_set": "5"
+  },
+  {
+    "_id": "27",
+    "question_text": "The student wants to emphasize a difference between the two lighthouse keepers. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+    "passage": "While researching a topic, a student has taken the following notes:\n- Lighthouses send out crucial light signals to help ships and other watercraft navigate at night.\n- Before automation, lighthouses were run by lighthouse keepers.\n- Barbara Mabrity was the lighthouse keeper at Key West Light in Florida.\n- She held this position from 1832 to 1862.\n- Flora McNeil was the lighthouse keeper at Bridgeport Breakwater Light in Connecticut.\n- She held this position from 1904 to 1920.",
+    "options": [
+      "Barbara Mabrity and Flora McNeil both played crucial roles in ensuring safe navigation for watercraft in past centuries.",
+      "From 1832 to 1862, the nighttime waters of Florida were made more navigable thanks to Barbara Mabrity.",
+      "Barbara Mabrity worked as a lighthouse keeper in an earlier century than did Flora McNeil.",
+      "As the lighthouse keeper at Bridgeport Breakwater Light, Flora McNeil helped watercraft navigate at night."
+    ],
+    "correct_answer": 2,
+    "difficulty": "Medium",
+    "category": "English: Rhetorical Synthesis",
+    "time_estimate": 60,
+    "question_number": 27,
+    "practice_set": "5"
+  },
+  {
+    "_id": "28",
+    "question_text": "What is the total amount of money, in dollars, he plans to save in 10 weeks?",
+    "passage": "The equation $d=33w+100$ gives the total amount of money d, in dollars, that James plans to save w weeks after he starts to save.",
+    "options": [
+      "380",
+      "430",
+      "480",
+      "530"
+    ],
+    "correct_answer": 1,
+    "difficulty": "Easy",
+    "category": "Math: Algebra",
+    "time_estimate": 60,
+    "question_number": 55,
+    "practice_set": "5"
+  },
+  {
+    "_id": "29",
+    "question_text": "Which equation defines f?",
+    "passage": "For the linear function f, the graph of $y=f(x)$ in the xy-plane has a slope of -2 and passes through the point $(0,-19)$.",
+    "options": [
+      "$f(x)=-19x$",
+      "$f(x)=-2x$",
+      "$f(x)=-2x-19$",
+      "$f(x)=2x+19$"
+    ],
+    "correct_answer": 2,
+    "difficulty": "Easy",
+    "category": "Math: Linear Equations",
+    "time_estimate": 60,
+    "question_number": 56,
+    "practice_set": "5"
+  },
+  {
+    "_id": "30",
+    "question_text": "Which expression is equivalent to $63x^2$?",
+    "passage": "",
+    "options": [
+      "$63(1+x^2)$",
+      "$(7x)(9x)$",
+      "$(7x^2)(9x^2)$",
+      "$(63x^2)(x)$"
+    ],
+    "correct_answer": 1,
+    "difficulty": "Easy",
+    "category": "Math: Algebra",
+    "time_estimate": 60,
+    "question_number": 57,
+    "practice_set": "5"
+  },
+  {
+    "_id": "31",
+    "question_text": "If Sophia bought 10 packages of confetti, how many balloons did she buy?",
+    "passage": "Sophia bought confetti and balloons for $56. Each package of confetti cost $3, and each balloon cost $1.",
+    "options": [],
+    "correct_answer": "26",
+    "answer_type": "fill_in_the_blank",
+    "difficulty": "Medium",
+    "category": "Math: Word Problems",
+    "time_estimate": 90,
+    "question_number": 58,
+    "practice_set": "5"
+  },
+  {
+    "_id": "32",
+    "question_text": "In triangle FGH, the measures of angle F and angle G are each $39^{\\circ}$. What is the measure of angle H?",
+    "passage": "",
+    "options": [
+      "$78^{\\circ}$",
+      "$102^{\\circ}$",
+      "$129^{\\circ}$",
+      "$141^{\\circ}$"
+    ],
+    "correct_answer": 1,
+    "difficulty": "Easy",
+    "category": "Math: Geometry",
+    "time_estimate": 60,
+    "question_number": 59,
+    "practice_set": "5"
+  },
+  {
+    "_id": "33",
+    "question_text": "If $(1/6)x+5=8$, what is the value of 6x?",
+    "passage": "",
+    "options": [
+      "108",
+      "258",
+      "318",
+      "468"
+    ],
+    "correct_answer": 0,
+    "difficulty": "Medium",
+    "category": "Math: Algebra",
+    "time_estimate": 60,
+    "question_number": 60,
+    "practice_set": "5"
+  },
+  {
+    "_id": "34",
+    "question_text": "Line p is defined by $y=6x-8$. Line s is parallel to line p in the xy-plane. What is the slope of line s?",
+    "passage": "",
+    "options": [],
+    "correct_answer": "6",
+    "answer_type": "fill_in_the_blank",
+    "difficulty": "Easy",
+    "category": "Math: Linear Equations",
+    "time_estimate": 60,
+    "question_number": 61,
+    "practice_set": "5"
+  },
+  {
+    "_id": "35",
+    "question_text": "In the given scatter plot, a line of best fit for the data is shown. Which of the following is closest to the slope of this line of best fit?",
+    "passage": "image:images/satpractice5question35.png",
+    "options": [
+      "-7",
+      "-0.7",
+      "0.7",
+      "7"
+    ],
+    "correct_answer": 1,
+    "difficulty": "Medium",
+    "category": "Math: Data Analysis",
+    "time_estimate": 90,
+    "question_number": 62,
+    "practice_set": "5"
+  },
+  {
+    "_id": "36",
+    "question_text": "The table shows the distribution of height, in centimeters, of 25 objects. Which of the following could be the median height of these objects?",
+    "passage": "**Height | Frequency**\n0 to 100 | 8\n101 to 200 | 6\n201 to 300 | 5\n301 to 400 | 4\n401 to 500 | 2",
+    "options": [
+      "355",
+      "255",
+      "155",
+      "55"
+    ],
+    "correct_answer": 2,
+    "difficulty": "Medium",
+    "category": "Math: Statistics",
+    "time_estimate": 90,
+    "question_number": 63,
+    "practice_set": "5"
+  },
+  {
+    "_id": "37",
+    "question_text": "Based on the function, what is the estimated height, in feet, of the acorn before it fell from the tree?",
+    "passage": "$f(x)=-16x^2+99$\nThe function f gives the estimated height, in feet, of an acorn x seconds after the acorn fell from a tree.",
+    "options": [],
+    "correct_answer": "99",
+    "answer_type": "fill_in_the_blank",
+    "difficulty": "Easy",
+    "category": "Math: Functions",
+    "time_estimate": 60,
+    "question_number": 64,
+    "practice_set": "5"
+  },
+  {
+    "_id": "38",
+    "question_text": "The y-intercept of the graph of $5x+2y=-18$ in the xy-plane is (0, y). What is the value of y?",
+    "passage": "",
+    "options": [],
+    "correct_answer": "-9",
+    "answer_type": "fill_in_the_blank",
+    "difficulty": "Easy",
+    "category": "Math: Linear Equations",
+    "time_estimate": 60,
+    "question_number": 65,
+    "practice_set": "5"
+  },
+  {
+    "_id": "39",
+    "question_text": "What is the area, in square centimeters, of square M?",
+    "passage": "The length of one side of square M is 9 times the length of one side of square N. The area of square N is 25 square centimeters.",
+    "options": [
+      "2,025",
+      "810",
+      "405",
+      "225"
+    ],
+    "correct_answer": 0,
+    "difficulty": "Medium",
+    "category": "Math: Geometry",
+    "time_estimate": 60,
+    "question_number": 66,
+    "practice_set": "5"
+  },
+  {
+    "_id": "40",
+    "question_text": "What is the positive solution to the given equation?",
+    "passage": "$x(x-15)=34$",
+    "options": [],
+    "correct_answer": "17",
+    "answer_type": "fill_in_the_blank",
+    "difficulty": "Hard",
+    "category": "Math: Quadratic Equations",
+    "time_estimate": 90,
+    "question_number": 67,
+    "practice_set": "5"
+  },
+  {
+    "_id": "41",
+    "question_text": "If $j/k=62$ and $(96j)/(12\\times k)=x$, what is the value of x?",
+    "passage": "",
+    "options": [
+      "1/8",
+      "6/31",
+      "8",
+      "496"
+    ],
+    "correct_answer": 2,
+    "difficulty": "Medium",
+    "category": "Math: Algebra",
+    "time_estimate": 90,
+    "question_number": 68,
+    "practice_set": "5"
+  },
+  {
+    "_id": "42",
+    "question_text": "Which of the following would be the most likely effect of using the larger random sample compared to the smaller random sample?",
+    "passage": "A researcher is designing a study to investigate the average number of hours students at a high school spend reading per day. The researcher will report an estimated average number of hours students at the high school spend reading per day with an associated margin of error. The researcher is considering using a random sample of either 105 or 210 students from the high school.",
+    "options": [
+      "The reported margin of error would be lower.",
+      "The reported margin of error would be higher.",
+      "The reported average number of hours would be lower.",
+      "The reported average number of hours would be higher."
+    ],
+    "correct_answer": 0,
+    "difficulty": "Medium",
+    "category": "Math: Statistics",
+    "time_estimate": 60,
+    "question_number": 69,
+    "practice_set": "5"
+  },
+  {
+    "_id": "43",
+    "question_text": "The functions g and h are defined by the equations shown. Which expression is equivalent to $g(x)\\cdot h(x)$?",
+    "passage": "$g(x)=(2/7)x+8/5$\n$h(x)=5x-7$\nimage:images/satpractice5question43.png",
+    "options": [
+      "$(10x^2)/7-56/5$",
+      "$(10x^2)/7+16x/6-56/5$",
+      "$(10x^2)/7-6x-56/5$",
+      "$(10x^2)/7+6x-56/5$"
+    ],
+    "correct_answer": 3,
+    "difficulty": "Medium",
+    "category": "Math: Functions",
+    "time_estimate": 90,
+    "question_number": 70,
+    "practice_set": "5"
+  },
+  {
+    "_id": "44",
+    "question_text": "The height of a right circular cylinder is 6 inches longer than its radius, and the surface area of the cylinder is 1,080$\\pi$ square inches. What is the cylinder's radius, in inches?",
+    "passage": "",
+    "options": [
+      "15",
+      "18",
+      "21",
+      "24"
+    ],
+    "correct_answer": 0,
+    "difficulty": "Hard",
+    "category": "Math: Geometry",
+    "time_estimate": 90,
+    "question_number": 71,
+    "practice_set": "5"
+  },
+  {
+    "_id": "45",
+    "question_text": "In triangle JKL, $\\cos(K)=36/60$ and angle J is a right angle. What is the value of $\\cos(L)$?",
+    "passage": "",
+    "options": [],
+    "correct_answer": "4/5",
+    "answer_type": "fill_in_the_blank",
+    "difficulty": "Medium",
+    "category": "Math: Trigonometry",
+    "time_estimate": 60,
+    "question_number": 72,
+    "practice_set": "5"
+  },
+  {
+    "_id": "46",
+    "question_text": "For how many values of x does $f(x)=0$?",
+    "passage": "The graph of $y=f(x)$ is shown, where $f(x)=ab^x+c$, and a, b, and c are constants.\nimage:images/satpractice5question46.png",
+    "options": [
+      "Three",
+      "Two",
+      "One",
+      "Zero"
+    ],
+    "correct_answer": 3,
+    "difficulty": "Medium",
+    "category": "Math: Exponential Functions",
+    "time_estimate": 60,
+    "question_number": 73,
+    "practice_set": "5"
+  },
+  {
+    "_id": "47",
+    "question_text": "Based on this average, if there were 6.32 pheasants per mile of road in this state in 2005, which of the following best approximates the number of pheasants per mile of road in 2015?",
+    "passage": "In a certain state, the population of pheasants, a type of bird, is estimated each year by counting the number of pheasants observed along certain roads in the state. On average, each year from 2005 to 2015 the number of pheasants counted per mile of road decreased by 3.5% of the number of pheasants per mile of road the previous year.",
+    "options": [
+      "$6.32(0.965)^{10}$",
+      "$1.035(6.32)^{10}$",
+      "$6.32(0.035)^{10}$",
+      "$6.32(0.965)^{10}$"
+    ],
+    "correct_answer": 3,
+    "difficulty": "Hard",
+    "category": "Math: Exponential Functions",
+    "time_estimate": 90,
+    "question_number": 74,
+    "practice_set": "5"
+  },
+  {
+    "_id": "48",
+    "question_text": "The graph of the equation $y=5^x+k$ is shown, where k is a constant. What is the value of k?",
+    "passage": "image:images/satpractice5question48.png",
+    "options": [
+      "-8",
+      "-7",
+      "7",
+      "8"
+    ],
+    "correct_answer": 0,
+    "difficulty": "Medium",
+    "category": "Math: Exponential Functions",
+    "time_estimate": 60,
+    "question_number": 75,
+    "practice_set": "5"
+  },
+  {
+    "_id": "49",
+    "question_text": "Which equation could be the second equation in this system?",
+    "passage": "$2x=20y-8$\nOne of the two equations in a system of linear equations is given. The system has no solution.",
+    "options": [
+      "$x=5y$",
+      "$(1/2)x=5y$",
+      "$x=10y-4$",
+      "$(1/2)x=10y-4$"
+    ],
+    "correct_answer": 1,
+    "difficulty": "Hard",
+    "category": "Math: Systems of Equations",
+    "time_estimate": 90,
+    "question_number": 76,
+    "practice_set": "5"
+  },
+  {
+    "_id": "50",
+    "question_text": "In the right triangle shown, what is the value of x?",
+    "passage": "image:images/satpractice5question50.png",
+    "options": [
+      "$\\sqrt{2}$",
+      "$\\sqrt{37}$",
+      "$\\sqrt{74}$",
+      "$37\\sqrt{2}$"
+    ],
+    "correct_answer": 3,
+    "difficulty": "Easy",
+    "category": "Math: Geometry",
+    "time_estimate": 60,
+    "question_number": 77,
+    "practice_set": "5"
+  },
+  {
+    "_id": "51",
+    "question_text": "How many distinct real solutions does the given equation have?",
+    "passage": "$x^2-100=0$",
+    "options": [
+      "Zero",
+      "Exactly one",
+      "Exactly two",
+      "Infinitely many"
+    ],
+    "correct_answer": 2,
+    "difficulty": "Easy",
+    "category": "Math: Quadratic Equations",
+    "time_estimate": 60,
+    "question_number": 78,
+    "practice_set": "5"
+  },
+  {
+    "_id": "52",
+    "question_text": "Which inequality represents the possible heights h, in centimeters, for a tall perennial flower species?",
+    "passage": "A plant nursery classifies a perennial flower species as tall if its typical height when fully grown is more than 100 centimeters. Each of the following inequalities represents the possible heights h, in centimeters, for a specific perennial flower species when fully grown.",
+    "options": [
+      "$107 < h < 158$",
+      "$76 < h < 100$",
+      "$41 < h < 95$",
+      "$16 < h < 91$"
+    ],
+    "correct_answer": 0,
+    "difficulty": "Easy",
+    "category": "Math: Inequalities",
+    "time_estimate": 60,
+    "question_number": 79,
+    "practice_set": "5"
+  },
+  {
+    "_id": "53",
+    "question_text": "The solution to the given system of equations is (x, y). What is the value of 30x?",
+    "passage": "$3y=8x+18$\n$-3y=7x-26$",
+    "options": [
+      "-16",
+      "-8",
+      "8",
+      "16"
+    ],
+    "correct_answer": 3,
+    "difficulty": "Medium",
+    "category": "Math: Systems of Equations",
+    "time_estimate": 90,
+    "question_number": 80,
+    "practice_set": "5"
+  },
+  {
+    "_id": "54",
+    "question_text": "Which value is a solution to the given equation?",
+    "passage": "$x/((x-1)(x+1)) = 81/(56x)$",
+    "options": [
+      "1/5",
+      "9/25",
+      "1",
+      "9/5"
+    ],
+    "correct_answer": 3,
+    "difficulty": "Hard",
+    "category": "Math: Rational Equations",
+    "time_estimate": 90,
+    "question_number": 81,
+    "practice_set": "5"
+  },
+  {
+    "_id": "55",
+    "question_text": "Which statement is the best interpretation of the point (1, 500) in this context?",
+    "passage": "The graph models the number of online newsletter subscribers at the end of every six-month period, where x is the number of six-month periods since the end of January 1994 and $0\\le x\\le4$. image:images/satpractice5question55.png",
+    "options": [
+      "The estimated number of online newsletter subscribers at the end of the first six-month period was 500.",
+      "The estimated number of online newsletter subscribers increased every six months by 500 subscribers.",
+      "The estimated number of online newsletter subscribers at the end of January 1994 was 500.",
+      "The estimated number of online newsletter subscribers at the end of January 1995 was 500."
+    ],
+    "correct_answer": 0,
+    "difficulty": "Medium",
+    "category": "Math: Functions",
+    "time_estimate": 60,
+    "question_number": 82,
+    "practice_set": "5"
+  },
+  {
+    "_id": "56",
+    "question_text": "Which of the following equations has exactly one solution?",
+    "passage": "",
+    "options": [
+      "$1/44+x=x$",
+      "$1/44+x=-x-1/44$",
+      "$1/44-x=1/44-x$",
+      "$1/44-x=-x$"
+    ],
+    "correct_answer": 1,
+    "difficulty": "Medium",
+    "category": "Math: Linear Equations",
+    "time_estimate": 60,
+    "question_number": 83,
+    "practice_set": "5"
+  },
+  {
+    "_id": "57",
+    "question_text": "According to this equation, what volume, in gallons, of the 20% saltwater solution could be mixed with 50.0 gallons of the 10% saltwater solution to produce a 19% saltwater solution?",
+    "passage": "$0.10x+0.20y=0.19(x+y)$\nThe equation gives a volume x, in gallons, of a 10% saltwater solution that could be mixed with a volume y, in gallons, of a 20% saltwater solution to produce a 19% saltwater solution. (Assume that the volume of the mixture is the sum of the volumes of the two solutions before they were mixed.)",
+    "options": [],
+    "correct_answer": "450",
+    "answer_type": "fill_in_the_blank",
+    "difficulty": "Medium",
+    "category": "Math: Word Problems",
+    "time_estimate": 90,
+    "question_number": 84,
+    "practice_set": "5"
+  },
+  {
+    "_id": "58",
+    "question_text": "The function f is defined by the given equation. For what value of x does f(x) reach its maximum?",
+    "passage": "$f(x)=-(x-6)^2+4$",
+    "options": [],
+    "correct_answer": "6",
+    "answer_type": "fill_in_the_blank",
+    "difficulty": "Medium",
+    "category": "Math: Quadratic Functions",
+    "time_estimate": 60,
+    "question_number": 85,
+    "practice_set": "5"
+  },
+  {
+    "_id": "59",
+    "question_text": "The graph of $y=f(x)-11$ is shown. Which equation defines the linear function f?",
+    "passage": "image:images/satpractice5question59.png",
+    "options": [
+      "$f(x)=-15x-11$",
+      "$f(x)=-4x+9$",
+      "$f(x)=-15x+9$",
+      "$f(x)=-4x-11$"
+    ],
+    "correct_answer": 1,
+    "difficulty": "Medium",
+    "category": "Math: Linear Functions",
+    "time_estimate": 90,
+    "question_number": 86,
+    "practice_set": "5"
+  },
+  {
+    "_id": "60",
+    "question_text": "The variables x and y have a quadratic relationship. When $x=0$, $y=45$. When $x=6$, $y=81$. When $x=15$, $y=0$. Which equation represents this relationship?",
+    "passage": "",
+    "options": [
+      "$y=x^2-18x+45$",
+      "$y=-x^2+12x+45$",
+      "$y=x^2+45$",
+      "$y=-3x^2+48x-45$"
+    ],
+    "correct_answer": 1,
+    "difficulty": "Hard",
+    "category": "Math: Quadratic Functions",
+    "time_estimate": 90,
+    "question_number": 87,
+    "practice_set": "5"
+  },
+  {
+    "_id": "61",
+    "question_text": "To study fluctuations in leaf water potential, samples of wood were taken from 26 trees and cut in the shape of a cube. The length of the edge of one of these cubes is 2.00 centimeters. If this cube has a mass of 5.12 grams, what is the density of this cube, in grams per cubic centimeter?",
+    "passage": "",
+    "options": [],
+    "correct_answer": "0.64",
+    "answer_type": "fill_in_the_blank",
+    "difficulty": "Medium",
+    "category": "Math: Geometry",
+    "time_estimate": 90,
+    "question_number": 88,
+    "practice_set": "5"
+  },
+  {
+    "_id": "62",
+    "question_text": "Which statement best compares the mean and median of the new data set to the mean and median of the original data set?",
+    "passage": "The frequency table summarizes a data set of the weights, rounded to the nearest pound, of 71 Ardeotis kori birds. A weight of 32 pounds is added to the original data set, creating a new data set of the weights, rounded to the nearest pound, of 72 Ardeotis kori birds.\n**Weight | Frequency**\n13 | 12\n14 | 10\n15 | 3\n16 | 5\n17 | 7\n18 | 12\n19 | 13\n20 | 9",
+    "options": [
+      "The mean of the new data set is greater than the mean of the original data set, and the median of the new data set is greater than the median of the original data set.",
+      "The mean of the new data set is greater than the mean of the original data set, and the medians of the two data sets are equal.",
+      "The mean of the new data set is less than the mean of the original data set, and the median of the new data set is less than the median of the original data set.",
+      "The mean of the new data set is less than the mean of the original data set, and the medians of the two data sets are equal."
+    ],
+    "correct_answer": 1,
+    "difficulty": "Hard",
+    "category": "Math: Statistics",
+    "time_estimate": 120,
+    "question_number": 89,
+    "practice_set": "5"
+  },
+  {
+    "_id": "63",
+    "question_text": "In the given equation, a and b are positive constants. A solution to the equation is $x=42$. What is the value of a?",
+    "passage": "$x(9x-2a)+b(9x-2a)-(x+b)=0$",
+    "options": [],
+    "correct_answer": "188.5",
+    "answer_type": "fill_in_the_blank",
+    "difficulty": "Hard",
+    "category": "Math: Algebra",
+    "time_estimate": 90,
+    "question_number": 90,
+    "practice_set": "5"
+  },
+  {
+    "_id": "64",
+    "question_text": "The shaded region shown represents the solutions to $rx+ty\\ge-77$ where r and t are constants. What is the value of $r+t$?",
+    "passage": "image:images/satpractice5question64.png",
+    "options": [
+      "8",
+      "6",
+      "-6",
+      "-7"
+    ],
+    "correct_answer": 0,
+    "difficulty": "Hard",
+    "category": "Math: Inequalities",
+    "time_estimate": 90,
+    "question_number": 91,
+    "practice_set": "5"
+  },
+  {
+    "_id": "65",
+    "question_text": "In the given equation, c is a constant. A solution to the equation is $(-11+\\sqrt{433})/6$. What is the value of c?",
+    "passage": "$3w^2+11w-c=0$",
+    "options": [],
+    "correct_answer": "26",
+    "answer_type": "fill_in_the_blank",
+    "difficulty": "Hard",
+    "category": "Math: Quadratic Equations",
+    "time_estimate": 90,
+    "question_number": 92,
+    "practice_set": "5"
+  },
+  {
+    "_id": "66",
+    "question_text": "Based on these approximations, to the nearest tenth, how many kilograms of this buffalo's composition was bone?",
+    "passage": "The composition of an animal is defined as the muscles, bones, and fat of the animal. A scientist studied the composition of one young swamp buffalo and determined the buffalo had 139.2 kilograms of muscle, which made up approximately 67.7% of its composition. Of the remaining composition of this buffalo, approximately 51.4% was bone, and the remainder was fat.",
+    "options": [],
+    "correct_answer": "34.1",
+    "answer_type": "fill_in_the_blank",
+    "difficulty": "Hard",
+    "category": "Math: Word Problems",
+    "time_estimate": 90,
+    "question_number": 93,
+    "practice_set": "5"
+  },
+  {
+    "_id": "67",
+    "question_text": "A line intersects two parallel lines, forming four acute angles and four obtuse angles. The measure of one of the acute angles is $(7x-610)^{\\circ}$. The sum of the measures of one of the acute angles and three of the obtuse angles is $(-14x+w)^{\\circ}$. What is the value of w?",
+    "passage": "",
+    "options": [],
+    "correct_answer": "1760",
+    "answer_type": "fill_in_the_blank",
+    "difficulty": "Hard",
+    "category": "Math: Geometry",
+    "time_estimate": 90,
+    "question_number": 94,
+    "practice_set": "5"
+  },
+  {
+    "_id": "68",
+    "question_text": "The given equation relates the positive variables p, q, r, and s. Which of the following is equivalent to q?",
+    "passage": "$49/p=49/q-49/r-49/s$",
+    "options": [
+      "$p+r+s$",
+      "$49(p+r+s)$",
+      "$prs/(pr+ps+rs)$",
+      "$prs/(49p+49r+49s)$"
+    ],
+    "correct_answer": 2,
+    "difficulty": "Hard",
+    "category": "Math: Rational Equations",
+    "time_estimate": 90,
+    "question_number": 95,
+    "practice_set": "5"
+  },
+  {
+    "_id": "69",
+    "question_text": "If the radius of the circle is 252 millimeters and the perimeter of quadrilateral GMHN is 5,784 millimeters, what is the distance, in millimeters, between points G and H?",
+    "passage": "A circle has center G, and points M and N lie on the circle. Line segments MH and NH are tangent to the circle at points M and N, respectively.",
+    "options": [
+      "252",
+      "2,628",
+      "2,640",
+      "2,652"
+    ],
+    "correct_answer": 3,
+    "difficulty": "Hard",
+    "category": "Math: Geometry",
+    "time_estimate": 90,
+    "question_number": 96,
+    "practice_set": "5"
+  },
+  {
+    "_id": "70",
+    "question_text": "Which function f gives the total charge, in dollars, for a tour group with n people, where $n \\ge 25$?",
+    "passage": "For groups of 25 or more people, a museum charges $22 per person for the first 25 people and $14 for each additional person.",
+    "options": [
+      "$f(n)=14n+200$",
+      "$f(n)=14n+22$",
+      "$f(n)=14n+550$",
+      "$f(n)=36n-350$"
+    ],
+    "correct_answer": 0,
+    "difficulty": "Medium",
+    "category": "Math: Word Problems",
+    "time_estimate": 90,
+    "question_number": 97,
+    "practice_set": "5"
+  },
+  {
+    "_id": "71",
+    "question_text": "Which expression represents the surface area, in cm^2, of the right rectangular prism?",
+    "passage": "A right rectangular prism has a base area of 28p square centimeters (cm^2). The length of the base of the rectangular prism is 12 cm, and the height of the rectangular prism is 4 cm.",
+    "options": [
+      "$512p/3$",
+      "$224p/3+96$",
+      "$56p+192$",
+      "$560p+96$"
+    ],
+    "correct_answer": 1,
+    "difficulty": "Hard",
+    "category": "Math: Geometry",
+    "time_estimate": 90,
+    "question_number": 98,
+    "practice_set": "5"
+  }
+]

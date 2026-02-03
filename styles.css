@@ -3,15 +3,9 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    overscroll-behavior: none !important;
-    overscroll-behavior-y: none !important;
-    overscroll-behavior-x: none !important;
 }
 
 html {
-    overscroll-behavior-y: none !important;
-    overscroll-behavior-x: none !important;
-    overscroll-behavior: none !important;
     scroll-behavior: smooth;
     overflow-x: hidden;
 }
@@ -21,29 +15,16 @@ body {
     line-height: 1.75;
     color: #1e293b;
     overflow-x: hidden;
-    overscroll-behavior-y: none !important;
-    overscroll-behavior-x: none !important;
-    overscroll-behavior: none !important;
     scroll-behavior: smooth;
     position: relative;
     min-height: 100vh;
     background: #f8fafc;
 }
 
-/* Prevent overscroll on all elements */
-*,
-*::before,
-*::after {
-    overscroll-behavior: none !important;
-    overscroll-behavior-y: none !important;
-    overscroll-behavior-x: none !important;
-}
-
 .container {
     max-width: 1200px;
     margin: 0 auto;
     padding: 0 20px;
-    overscroll-behavior: none !important;
 }
 
 /* Header */
