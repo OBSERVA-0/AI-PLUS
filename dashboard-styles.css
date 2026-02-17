@@ -2423,18 +2423,21 @@ body {
     html, body {
         width: 100%;
         overflow-x: hidden;
-        overflow-y: auto;
+        overflow-y: auto !important;
     }
     
     body {
         min-height: 100vh;
         overscroll-behavior-y: contain;
         -webkit-overflow-scrolling: touch;
+        /* Ensure touch scrolling works on mobile */
+        touch-action: pan-y;
     }
     
     .main-content {
         min-height: calc(100vh - 80px);
         overflow-x: hidden;
+        overflow-y: visible;
     }
 }
 

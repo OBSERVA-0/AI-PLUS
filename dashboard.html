@@ -29,10 +29,11 @@
             pointer-events: none;
             border-radius: 0 0 12px 12px;
         }
-        /* Prevent pull-to-refresh on mobile only */
+        /* Prevent pull-to-refresh on mobile while allowing scroll */
         @media (max-width: 768px) {
             body {
                 overscroll-behavior-y: contain;
+                touch-action: pan-y;
             }
         }
     </style>

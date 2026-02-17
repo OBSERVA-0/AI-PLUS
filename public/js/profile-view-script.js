@@ -53,6 +53,8 @@ class AuthService {
 }
 
 // Scroll Lock Utility for Profile Page
+// Fixed: Removed aggressive touchmove preventDefault calls that were blocking page scrolling
+// Now using only CSS overscroll-behavior which prevents bounce effects without blocking scroll
 class ScrollLock {
     constructor() {
         this.isLocked = false;
@@ -61,118 +63,28 @@ class ScrollLock {
     }
 
     init() {
-        // Apply CSS overscroll prevention
+        // Apply CSS overscroll prevention - this is safe and doesn't block scrolling
         this.applyCSSOverscrollPrevention();
         
-        // Prevent overscroll on touch devices
-        this.preventOverscroll();
-        
-        // Handle scroll boundaries
+        // Handle scroll boundaries for visual feedback only (no scroll blocking)
         this.handleScrollBoundaries();
         
-        // Prevent elastic scrolling on iOS
-        this.preventElasticScrolling();
-        
-        // Prevent overscroll on all scroll events
-        this.preventAllOverscroll();
+        // NOTE: Removed preventOverscroll(), preventAllOverscroll(), and preventElasticScrolling()
+        // These methods were calling e.preventDefault() on touchmove events which blocked scrolling
     }
 
     applyCSSOverscrollPrevention() {
-        // Apply overscroll prevention to document elements
-        document.documentElement.style.overscrollBehavior = 'none';
-        document.documentElement.style.overscrollBehaviorY = 'none';
-        document.documentElement.style.overscrollBehaviorX = 'none';
+        // Apply overscroll prevention via CSS - prevents bounce without blocking scroll
+        // Using 'contain' instead of 'none' to allow normal scrolling while preventing overscroll
+        document.documentElement.style.overscrollBehavior = 'contain';
+        document.documentElement.style.overscrollBehaviorY = 'contain';
         
-        document.body.style.overscrollBehavior = 'none';
-        document.body.style.overscrollBehaviorY = 'none';
-        document.body.style.overscrollBehaviorX = 'none';
-    }
-
-    preventAllOverscroll() {
-        // Prevent overscroll on window scroll
-        window.addEventListener('scroll', (e) => {
-            if (window.scrollY <= 0) {
-                window.scrollTo(0, 0);
-            }
-            
-            const maxScroll = document.body.scrollHeight - window.innerHeight;
-            if (window.scrollY >= maxScroll) {
-                window.scrollTo(0, maxScroll);
-            }
-        }, { passive: false });
-
-        // Prevent overscroll on touchmove
-        document.addEventListener('touchmove', (e) => {
-            const target = e.target;
-            const scrollableParent = this.getScrollableParent(target);
-            
-            if (!scrollableParent || scrollableParent === document.body) {
-                // Prevent overscroll on body
-                if (window.scrollY <= 0 || window.scrollY >= document.body.scrollHeight - window.innerHeight) {
-                    e.preventDefault();
-                    e.stopPropagation();
-                    return false;
-                }
-            }
-        }, { passive: false });
-
-        // Prevent overscroll on wheel events
-        document.addEventListener('wheel', (e) => {
-            const target = e.target;
-            const scrollableParent = this.getScrollableParent(target);
-            
-            if (!scrollableParent || scrollableParent === document.body) {
-                const delta = e.deltaY;
-                
-                // Prevent scroll at boundaries
-                if ((delta < 0 && window.scrollY <= 0) || 
-                    (delta > 0 && window.scrollY >= document.body.scrollHeight - window.innerHeight)) {
-                    e.preventDefault();
-                    e.stopPropagation();
-                    return false;
-                }
-            }
-        }, { passive: false });
-    }
-
-    preventOverscroll() {
-        // Prevent overscroll behavior on the main document
-        document.addEventListener('touchmove', (e) => {
-            if (this.isAtScrollBoundary(e.target)) {
-                e.preventDefault();
-                e.stopPropagation();
-            }
-        }, { passive: false });
-
-        // Prevent overscroll on wheel events
-        document.addEventListener('wheel', (e) => {
-            if (this.isAtScrollBoundary(e.target)) {
-                const delta = e.deltaY;
-                const element = this.getScrollableParent(e.target);
-                
-                if (element) {
-                    const { scrollTop, scrollHeight, clientHeight } = element;
-                    
-                    // Prevent scroll at top boundary
-                    if (delta < 0 && scrollTop <= 0) {
-                        e.preventDefault();
-                        e.stopPropagation();
-                        return false;
-                    }
-                    
-                    // Prevent scroll at bottom boundary
-                    if (delta > 0 && scrollTop + clientHeight >= scrollHeight) {
-                        e.preventDefault();
-                        e.stopPropagation();
-                        return false;
-                    }
-                }
-            }
-        }, { passive: false });
+        document.body.style.overscrollBehavior = 'contain';
+        document.body.style.overscrollBehaviorY = 'contain';
     }
 
     handleScrollBoundaries() {
-        // Handle scroll boundaries for specific elements
+        // Handle scroll boundaries for specific elements - visual feedback only
         const scrollableElements = document.querySelectorAll('.mastery-grid, .stats-grid, .test-progress-grid');
         
         scrollableElements.forEach(element => {
@@ -189,46 +101,8 @@ class ScrollLock {
                 } else {
                     e.target.classList.remove('at-top', 'at-bottom');
                 }
-            });
+            }, { passive: true });
         });
-    }
-
-    preventElasticScrolling() {
-        // Prevent elastic scrolling on iOS Safari
-        let startY = 0;
-        let startX = 0;
-        
-        document.addEventListener('touchstart', (e) => {
-            startY = e.touches[0].clientY;
-            startX = e.touches[0].clientX;
-        }, { passive: true });
-        
-        document.addEventListener('touchmove', (e) => {
-            const currentY = e.touches[0].clientY;
-            const currentX = e.touches[0].clientX;
-            const element = this.getScrollableParent(e.target);
-            
-            if (!element || element === document.body) {
-                const isScrollingUp = currentY > startY;
-                const isScrollingDown = currentY < startY;
-                
-                // Prevent overscroll at document boundaries
-                if ((isScrollingUp && window.scrollY <= 0) || 
-                    (isScrollingDown && window.scrollY + window.innerHeight >= document.body.scrollHeight)) {
-                    e.preventDefault();
-                    e.stopPropagation();
-                    return false;
-                }
-            }
-        }, { passive: false });
-    }
-
-    isAtScrollBoundary(element) {
-        const scrollableParent = this.getScrollableParent(element);
-        if (!scrollableParent) return false;
-        
-        const { scrollTop, scrollHeight, clientHeight } = scrollableParent;
-        return scrollTop <= 0 || scrollTop + clientHeight >= scrollHeight;
     }
 
     getScrollableParent(element) {
@@ -252,7 +126,7 @@ class ScrollLock {
         document.body.style.position = 'fixed';
         document.body.style.top = `-${this.scrollPosition}px`;
         document.body.style.width = '100%';
-        document.body.style.overscrollBehavior = 'none';
+        document.body.style.overscrollBehavior = 'contain';
         this.isLocked = true;
     }
 
@@ -262,7 +136,7 @@ class ScrollLock {
         document.body.style.position = '';
         document.body.style.top = '';
         document.body.style.width = '';
-        document.body.style.overscrollBehavior = 'none';
+        document.body.style.overscrollBehavior = 'contain';
         window.scrollTo(0, this.scrollPosition);
         this.isLocked = false;
     }
