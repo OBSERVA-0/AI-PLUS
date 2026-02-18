@@ -3,33 +3,57 @@ const mongoose = require('mongoose');
 const cors = require('cors');
 const helmet = require('helmet');
 const rateLimit = require('express-rate-limit');
+const compression = require('compression');
 const path = require('path');
 require('dotenv').config();
 
 const app = express();
+
+// Enable gzip compression for all responses
+// This typically reduces payload size by 60-80%
+app.use(compression({
+    level: 6,                  // Balanced compression level (1-9, 6 is default)
+    threshold: 1024,           // Only compress responses > 1KB
+    filter: (req, res) => {
+        // Compress all text-based responses
+        if (req.headers['x-no-compression']) {
+            return false;
+        }
+        return compression.filter(req, res);
+    }
+}));
 
 // Security middleware
 app.use(helmet({
     contentSecurityPolicy: false // We'll handle CSP in our HTML files
 }));
 
-// Rate limiting
+// Rate limiting with reasonable production values
+// Note: 1000 requests per 15 min allows for ~10 concurrent users per IP (schools/offices)
 const limiter = rateLimit({
-    windowMs: 30 * 60 * 1000, // 30 minutes
-    max: 1000000, // limit each IP to a million requests per windowMs
+    windowMs: 15 * 60 * 1000, // 15 minutes
+    max: 1000,                 // 1000 requests per 15 minutes per IP (allows shared IPs like schools)
+    standardHeaders: true,     // Return rate limit info in headers
+    legacyHeaders: false,      // Disable X-RateLimit headers
     handler: function (req, res) {
         res.status(429).json({
             success: false,
             message: 'Too many requests from this IP, please try again later.'
         });
+    },
+    skip: (req) => {
+        // Skip rate limiting for health checks
+        return req.path === '/api/health';
     }
 });
 app.use('/api/', limiter);
 
-// Auth rate limiting (more restrictive)
+// Auth rate limiting (more restrictive to prevent brute force)
 const authLimiter = rateLimit({
-    windowMs: 30 * 60 * 1000, // 30 minutes
-    max: 1000000, // limit each IP requests per windowMs for auth endpoints
+    windowMs: 15 * 60 * 1000, // 15 minutes
+    max: 20,                   // 20 auth attempts per 15 minutes (login, signup, etc.)
+    standardHeaders: true,
+    legacyHeaders: false,
     handler: function (req, res) {
         res.status(429).json({
             success: false,
@@ -65,24 +89,46 @@ app.use(cors({
 app.use(express.json({ limit: '10mb' }));
 app.use(express.urlencoded({ extended: true, limit: '10mb' }));
 
-// Serve static files from the public directory
+// Serve static files from the public directory with optimized caching
 app.use(express.static(path.join(__dirname, 'public'), {
-    maxAge: '1h' // Cache static assets for 1 hour
+    maxAge: '1d',              // Cache JS/CSS for 1 day (they're versioned by content)
+    etag: true,                // Enable ETag for cache validation
+    lastModified: true,        // Enable Last-Modified header
+    immutable: false,          // Allow revalidation
+    setHeaders: (res, filePath) => {
+        // Set longer cache for immutable assets (fonts, images)
+        if (filePath.match(/\.(woff2?|ttf|eot|ico|png|jpg|jpeg|gif|svg)$/)) {
+            res.setHeader('Cache-Control', 'public, max-age=2592000, immutable'); // 30 days
+        }
+    }
 }));
 
-// Serve HTML files from the root directory
+// Serve HTML files from the root directory (shorter cache since they may change)
 app.use(express.static(path.join(__dirname), {
-    maxAge: '1h',
-    index: false // Disable automatic serving of index.html
+    maxAge: '10m',             // Cache HTML for 10 minutes
+    etag: true,
+    lastModified: true,
+    index: false               // Disable automatic serving of index.html
 }));
 
-// MongoDB connection
+// MongoDB connection with optimized pooling for production performance
 const MONGODB_URI = process.env.MONGODB_URI;
 
-mongoose.connect(MONGODB_URI)
+mongoose.connect(MONGODB_URI, {
+    // Connection pool settings for better concurrency
+    maxPoolSize: 50,           // Maximum connections in pool (default: 100)
+    minPoolSize: 10,           // Minimum connections to maintain
+    maxIdleTimeMS: 30000,      // Close idle connections after 30 seconds
+    serverSelectionTimeoutMS: 5000,  // Timeout for server selection
+    socketTimeoutMS: 45000,    // Timeout for socket operations
+    // Performance optimizations
+    compressors: ['zlib'],     // Enable compression for network traffic
+    retryWrites: true,         // Automatic retry on transient errors
+    retryReads: true,
+})
     .then(() => {
         console.log('✅ Connected to MongoDB successfully');
-        console.log(`📊 Database: ${MONGODB_URI}`);
+        console.log(`📊 Connection pool: 10-50 connections`);
     })
     .catch((error) => {
         console.error('❌ MongoDB connection error:', error);

@@ -247,9 +247,15 @@ const userSchema = new mongoose.Schema({
 // Indexes for better performance
 userSchema.index({ createdAt: -1 });
 userSchema.index({ lastLogin: -1 });
+// Role index for admin queries (used frequently in admin dashboard)
+userSchema.index({ role: 1 });
+// Compound index for admin student listings
+userSchema.index({ role: 1, createdAt: -1 });
+userSchema.index({ role: 1, grade: 1 });
 // Test history indexes for better query performance
 userSchema.index({ 'testHistory.completedAt': -1 });
 userSchema.index({ 'testHistory.testType': 1, 'testHistory.completedAt': -1 });
+userSchema.index({ 'testHistory.testType': 1, 'testHistory.practiceSet': 1 });
 
 // Virtual for full name
 userSchema.virtual('fullName').get(function() {

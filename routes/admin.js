@@ -42,6 +42,7 @@ router.get('/students', auth, requireAdmin, async (req, res) => {
     }
     
     // Get students with pagination
+    // Note: Can't use lean() here because we need Mongoose methods (getStats, getMasterySummary)
     const students = await User.find(query)
       .select('firstName lastName email grade createdAt lastLogin testProgress isActive')
       .sort({ createdAt: -1 })
@@ -141,6 +142,7 @@ router.get('/students/test-scores', auth, requireAdmin, async (req, res) => {
     }
     
          // Get all students with test history for the specific test
+     // Using lean() for faster query - returns plain JS objects instead of Mongoose documents
      const students = await User.find({
        role: 'student',
        'testHistory': {
@@ -149,7 +151,9 @@ router.get('/students/test-scores', auth, requireAdmin, async (req, res) => {
            practiceSet: practiceSet
          }
        }
-     }).select('firstName lastName email grade testHistory testProgress isActive');
+     })
+     .select('firstName lastName email grade testHistory testProgress isActive')
+     .lean();
     
          // Process students and extract their best score for this specific test
      let studentScores = students.map(student => {
@@ -284,10 +288,17 @@ router.get('/students/test-scores', auth, requireAdmin, async (req, res) => {
            timeSpent: latestAttempt.results.timeSpent
          } : null,
          overallStats: {
-           totalTests: student.testProgress.shsat.testsCompleted + 
-                      student.testProgress.sat.testsCompleted + 
-                      student.testProgress.stateTest.testsCompleted,
-           averageScore: student.getStats().averageScore
+           totalTests: (student.testProgress?.shsat?.testsCompleted || 0) + 
+                      (student.testProgress?.sat?.testsCompleted || 0) + 
+                      (student.testProgress?.stateTest?.testsCompleted || 0),
+           // Calculate average score inline since we're using lean()
+           averageScore: (() => {
+             let total = 0, count = 0;
+             if (student.testProgress?.shsat?.testsCompleted > 0) { total += student.testProgress.shsat.averageScore || 0; count++; }
+             if (student.testProgress?.sat?.testsCompleted > 0) { total += student.testProgress.sat.averageScore || 0; count++; }
+             if (student.testProgress?.stateTest?.testsCompleted > 0) { total += student.testProgress.stateTest.averageScore || 0; count++; }
+             return count > 0 ? Math.round(total / count) : 0;
+           })()
          }
        };
          }).filter(student => student !== null); // Remove students without scaled scores
@@ -809,10 +820,13 @@ router.get('/question-analytics', auth, requireAdmin, async (req, res) => {
     console.log('📊 Admin requesting question analytics...');
     
     // Get all students with test history
+    // Using lean() for faster query - returns plain JS objects (3-5x faster)
     const students = await User.find({ 
       role: 'student',
       'testHistory.0': { $exists: true } // Only students with test history
-    }).select('testHistory firstName lastName');
+    })
+    .select('testHistory firstName lastName')
+    .lean();
     
     console.log(`📊 Found ${students.length} students with test history`);
     
@@ -1002,6 +1016,7 @@ router.get('/question-analytics/:testType/:practiceSet', auth, requireAdmin, asy
     console.log(`📊 Admin requesting detailed analytics for ${testType} - ${practiceSet}`);
     
     // Get all students who took this specific test
+    // Using lean() for faster query - returns plain JS objects (3-5x faster)
     const students = await User.find({
       role: 'student',
       'testHistory': {
@@ -1010,7 +1025,9 @@ router.get('/question-analytics/:testType/:practiceSet', auth, requireAdmin, asy
           practiceSet: practiceSet
         }
       }
-    }).select('testHistory firstName lastName email grade');
+    })
+    .select('testHistory firstName lastName email grade')
+    .lean();
     
     console.log(`📊 Found ${students.length} students who took ${testType} - ${practiceSet}`);
     

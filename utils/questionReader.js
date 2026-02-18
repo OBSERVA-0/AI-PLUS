@@ -1,7 +1,78 @@
 const fs = require('fs').promises;
 const path = require('path');
 
+// In-memory cache for question data to avoid repeated filesystem reads
+// Cache structure: { key: { data: questions[], timestamp: Date, hits: number } }
+const questionCache = new Map();
+const CACHE_TTL_MS = 30 * 60 * 1000; // 30 minutes cache TTL
+const MAX_CACHE_SIZE = 50; // Maximum number of cached question sets
+
+/**
+ * Get cache key for a specific question set
+ */
+function getCacheKey(testType, practiceSet, sectionType) {
+  return `${testType}_${practiceSet}_${sectionType || 'full'}`;
+}
+
+/**
+ * Clean expired cache entries and enforce size limit
+ */
+function cleanCache() {
+  const now = Date.now();
+  
+  // Remove expired entries
+  for (const [key, entry] of questionCache.entries()) {
+    if (now - entry.timestamp > CACHE_TTL_MS) {
+      questionCache.delete(key);
+    }
+  }
+  
+  // If still over limit, remove least recently used entries
+  if (questionCache.size > MAX_CACHE_SIZE) {
+    const entries = Array.from(questionCache.entries())
+      .sort((a, b) => a[1].timestamp - b[1].timestamp);
+    
+    const toRemove = entries.slice(0, questionCache.size - MAX_CACHE_SIZE);
+    toRemove.forEach(([key]) => questionCache.delete(key));
+  }
+}
+
+/**
+ * Get questions from cache or load from file
+ */
 async function readQuestionsFromJSON(testType, practiceSet = '1', sectionType = null) {
+  const cacheKey = getCacheKey(testType, practiceSet, sectionType);
+  
+  // Check cache first
+  const cached = questionCache.get(cacheKey);
+  if (cached && (Date.now() - cached.timestamp < CACHE_TTL_MS)) {
+    cached.hits++;
+    // Return a copy to prevent mutation
+    return JSON.parse(JSON.stringify(cached.data));
+  }
+  
+  // Clean cache periodically (every 10th miss)
+  if (Math.random() < 0.1) {
+    cleanCache();
+  }
+  
+  // Load from file
+  const questions = await loadQuestionsFromFile(testType, practiceSet, sectionType);
+  
+  // Store in cache
+  questionCache.set(cacheKey, {
+    data: questions,
+    timestamp: Date.now(),
+    hits: 0
+  });
+  
+  return questions;
+}
+
+/**
+ * Internal function to load questions from filesystem
+ */
+async function loadQuestionsFromFile(testType, practiceSet = '1', sectionType = null) {
   let filePath;
   
   if (testType === 'shsat' && practiceSet === 'diagnostic') {
@@ -128,6 +199,32 @@ async function readQuestionsFromJSON(testType, practiceSet = '1', sectionType = 
   }
 }
 
+/**
+ * Clear the question cache (useful for admin operations or testing)
+ */
+function clearQuestionCache() {
+  questionCache.clear();
+  console.log('📚 Question cache cleared');
+}
+
+/**
+ * Get cache statistics for monitoring
+ */
+function getCacheStats() {
+  let totalHits = 0;
+  for (const entry of questionCache.values()) {
+    totalHits += entry.hits;
+  }
+  return {
+    size: questionCache.size,
+    totalHits,
+    maxSize: MAX_CACHE_SIZE,
+    ttlMinutes: CACHE_TTL_MS / 60000
+  };
+}
+
 module.exports = {
-  readQuestionsFromJSON
+  readQuestionsFromJSON,
+  clearQuestionCache,
+  getCacheStats
 }; 

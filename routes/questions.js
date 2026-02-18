@@ -12,6 +12,14 @@ const { auth } = require('../middleware/auth');
 
 const router = express.Router();
 
+// Environment-aware logging to reduce overhead in production
+const isDev = process.env.NODE_ENV === 'development';
+const log = {
+  debug: isDev ? console.log.bind(console) : () => {},
+  info: console.log.bind(console),
+  error: console.error.bind(console)
+};
+
 // Validation middleware
 const validateGetQuestions = [
   query('testType')
@@ -65,25 +73,11 @@ const handleValidationErrors = (req, res, next) => {
 // @access  Public (temporarily)
 router.get('/test', validateGetQuestions, handleValidationErrors, async (req, res) => {
   try {
-    console.log('🔍 Raw query params received:', req.query);
     const { testType, practiceSet = '1', sectionType = null } = req.query;
-    console.log('🔍 Extracted params:', { testType, practiceSet, sectionType });
+    log.debug(`🎯 Fetching questions: ${testType} set ${practiceSet}${sectionType ? ` (${sectionType})` : ''}`);
     
-    console.log(`🎯 Fetching questions from JSON: ${testType} practice set ${practiceSet}${sectionType ? ` (${sectionType})` : ''}`);
-    
-    // Read questions from JSON file
+    // Read questions from JSON file (with caching)
     const questions = await readQuestionsFromJSON(testType, practiceSet, sectionType);
-    
-    // Debug: count fill-in-the-blank questions
-    const fillInBlankCount = questions.filter(q => q.answer_type === 'fill_in_the_blank').length;
-    console.log(`📝 Found ${fillInBlankCount} fill-in-the-blank questions out of ${questions.length} total`);
-    
-    // Debug: log first few questions to verify structure
-    console.log('First question sample:', JSON.stringify(questions[0], null, 2));
-    if (fillInBlankCount > 0) {
-      const firstFillInBlank = questions.find(q => q.answer_type === 'fill_in_the_blank');
-      console.log('First fill-in-the-blank question:', JSON.stringify(firstFillInBlank, null, 2));
-    }
 
     if (!questions || questions.length === 0) {
       return res.status(404).json({
@@ -106,13 +100,7 @@ router.get('/test', validateGetQuestions, handleValidationErrors, async (req, re
       answer_type: q.answer_type
     }));
     
-    // Debug: check what's being sent to frontend
-    const sentFillInBlankCount = questionsWithoutAnswers.filter(q => q.answer_type === 'fill_in_the_blank').length;
-    console.log(`📤 Sending ${sentFillInBlankCount} fill-in-the-blank questions to frontend`);
-    if (sentFillInBlankCount > 0) {
-      const firstSentFillInBlank = questionsWithoutAnswers.find(q => q.answer_type === 'fill_in_the_blank');
-      console.log('First sent fill-in-the-blank question:', JSON.stringify(firstSentFillInBlank, null, 2));
-    }
+    log.debug(`📤 Sending ${questionsWithoutAnswers.length} questions to frontend`);
     
     res.json({
       success: true,
@@ -143,13 +131,11 @@ router.post('/submit', auth, validateSubmitAnswers, handleValidationErrors, asyn
   try {
     const { testType, practiceSet = '1', answers, timeSpent, sectionType = null } = req.body;
     
-    console.log(`📝 Checking answers for test: ${testType} practice set ${practiceSet}${sectionType ? ` (${sectionType})` : ''}`);
-    
     // Add timeout protection to prevent crashes
     const startTime = Date.now();
     const SCORING_TIMEOUT = 95000; // 95 seconds (increased for high load)
     
-    // Get questions from JSON to check answers
+    // Get questions from JSON to check answers (with caching)
     const questions = await readQuestionsFromJSON(testType, practiceSet, sectionType);
     
     // Calculate results
@@ -194,7 +180,6 @@ router.post('/submit', auth, validateSubmitAnswers, handleValidationErrors, asyn
     // Create question lookup map for O(1) performance instead of O(n)
     const questionMap = new Map();
     questions.forEach(q => questionMap.set(q._id, q));
-    console.log(`📋 Created question lookup map for ${questions.length} questions`);
     
     // Check for timeout during processing
     const checkTimeout = () => {
@@ -323,9 +308,9 @@ router.post('/submit', auth, validateSubmitAnswers, handleValidationErrors, asyn
     
     const percentage = answers.length > 0 ? Math.round((correctCount / answers.length) * 100) : 0;
     
-    // Log performance metrics
+    // Log performance metrics (only in development)
     const processingTime = Date.now() - startTime;
-    console.log(`⚡ Score calculation completed in ${processingTime}ms for ${answers.length} answers`);
+    log.debug(`⚡ Score calculation: ${processingTime}ms for ${answers.length} answers`);
     
     const responseData = {
       results: {
@@ -428,7 +413,67 @@ router.post('/submit', auth, validateSubmitAnswers, handleValidationErrors, asyn
       };
     }
 
-    // Save test attempt to user's test history with retry logic
+    // Build test history entry ONCE before save attempts
+    // This avoids rebuilding on each retry and reduces logging overhead
+    const testHistoryEntry = {
+      testType: testType === 'statetest' ? 'state' : testType,
+      practiceSet,
+      testName,
+      completedAt: new Date(),
+      results: {
+        percentage,
+        correctCount,
+        totalQuestions: answers.length,
+        timeSpent,
+        categoryScores: new Map(Object.entries(categoryScores))
+      },
+      detailedResults: detailedResults.map((result, index) => ({
+        questionId: result.questionId,
+        questionNumber: result.question_number || (index + 1),
+        isCorrect: result.isCorrect,
+        userAnswer: result.userAnswer,
+        category: result.category,
+        hasAnswer: result.hasAnswer
+      }))
+    };
+
+    // Add scaled scores if available
+    if (testType === 'shsat' && responseData.results.shsatScores) {
+      testHistoryEntry.scaledScores = {};
+      if (responseData.results.shsatScores.totalScaledScore !== undefined) {
+        testHistoryEntry.scaledScores.total = responseData.results.shsatScores.totalScaledScore;
+      }
+      if (responseData.results.shsatScores.math?.scaledScore !== undefined) {
+        testHistoryEntry.scaledScores.math = responseData.results.shsatScores.math.scaledScore;
+      }
+      if (responseData.results.shsatScores.english?.scaledScore !== undefined) {
+        testHistoryEntry.scaledScores.english = responseData.results.shsatScores.english.scaledScore;
+      }
+    } else if (testType === 'sat' && responseData.results.satScores) {
+      testHistoryEntry.scaledScores = {
+        total: responseData.results.satScores.totalScaledScore
+      };
+      if (responseData.results.satScores.math?.scaledScore !== undefined) {
+        testHistoryEntry.scaledScores.math = responseData.results.satScores.math.scaledScore;
+      }
+      if (responseData.results.satScores.reading_writing?.scaledScore !== undefined) {
+        testHistoryEntry.scaledScores.reading_writing = responseData.results.satScores.reading_writing.scaledScore;
+      }
+    } else if (testType === 'psat' && responseData.results.psatScores) {
+      testHistoryEntry.scaledScores = {
+        total: responseData.results.psatScores.totalScaledScore
+      };
+      if (responseData.results.psatScores.math?.scaledScore !== undefined) {
+        testHistoryEntry.scaledScores.math = responseData.results.psatScores.math.scaledScore;
+      }
+      if (responseData.results.psatScores.reading_writing?.scaledScore !== undefined) {
+        testHistoryEntry.scaledScores.reading_writing = responseData.results.psatScores.reading_writing.scaledScore;
+      }
+    }
+
+    // PERFORMANCE OPTIMIZATION: Use atomic $push instead of findById + save
+    // This avoids loading the entire user document (which grows with test history)
+    // and directly appends to the testHistory array in a single database operation
     let saveAttempts = 0;
     const maxRetries = 3;
     let saveSuccessful = false;
@@ -437,132 +482,34 @@ router.post('/submit', auth, validateSubmitAnswers, handleValidationErrors, asyn
     while (saveAttempts < maxRetries && !saveSuccessful) {
       try {
         saveAttempts++;
-        console.log(`🔍 Attempting to save test history for user ID: ${req.user._id} (attempt ${saveAttempts}/${maxRetries})`);
         
-        const user = await User.findById(req.user._id);
-        if (!user) {
-          console.error(`❌ User not found when saving test history: ${req.user._id}`);
+        // Use findByIdAndUpdate with $push for atomic, efficient update
+        // This is O(1) regardless of testHistory size, vs O(n) with save()
+        const updateResult = await User.findByIdAndUpdate(
+          req.user._id,
+          { $push: { testHistory: testHistoryEntry } },
+          { 
+            new: true, 
+            runValidators: true,
+            maxTimeMS: 15000 // 15 second timeout
+          }
+        ).select('_id email testHistory');
+        
+        if (!updateResult) {
           throw new Error('User not found');
         }
-      
-      console.log(`📋 User found: ${user.email}, current test history count: ${user.testHistory ? user.testHistory.length : 0}`);
-      console.log(`📝 Using test name: ${testName}`);
-      console.log(`📊 Test results: ${answers.length} answers, ${correctCount} correct (${percentage}%)`);
-      
-      // Create test history entry
-      const testHistoryEntry = {
-        testType: testType === 'statetest' ? 'state' : testType, // Normalize testType for database
-        practiceSet,
-        testName,
-        completedAt: new Date(),
-        results: {
-          percentage,
-          correctCount,
-          totalQuestions: answers.length,
-          timeSpent,
-          categoryScores: new Map(Object.entries(categoryScores))
-        },
-        // Store detailed question results for the visual breakdown
-        detailedResults: detailedResults.map((result, index) => {
-          const questionNum = result.question_number || (index + 1);
-          console.log(`📝 Processing question ${questionNum}: ${result.category}, correct: ${result.isCorrect}`);
-          return {
-            questionId: result.questionId,
-            questionNumber: questionNum,
-            isCorrect: result.isCorrect,
-            userAnswer: result.userAnswer,
-            category: result.category,
-            hasAnswer: result.hasAnswer
-          };
-        })
-      };
-
-      console.log(`📋 Test history entry created with ${testHistoryEntry.detailedResults.length} detailed results`);
-
-      // Add scaled scores if available
-      if (testType === 'shsat' && responseData.results.shsatScores) {
-        testHistoryEntry.scaledScores = {};
         
-        // Add total score if available
-        if (responseData.results.shsatScores.totalScaledScore !== undefined) {
-          testHistoryEntry.scaledScores.total = responseData.results.shsatScores.totalScaledScore;
-        }
-        
-        // Add math scores if available (full test or math-only)
-        if (responseData.results.shsatScores.math && responseData.results.shsatScores.math.scaledScore !== undefined) {
-          testHistoryEntry.scaledScores.math = responseData.results.shsatScores.math.scaledScore;
-        }
-        
-        // Add English scores if available (full test or ELA-only)
-        if (responseData.results.shsatScores.english && responseData.results.shsatScores.english.scaledScore !== undefined) {
-          testHistoryEntry.scaledScores.english = responseData.results.shsatScores.english.scaledScore;
-        }
-        
-        console.log(`📊 Added SHSAT scaled scores: ${testHistoryEntry.scaledScores.math ? `Math ${testHistoryEntry.scaledScores.math}` : 'No Math'}, ${testHistoryEntry.scaledScores.english ? `English ${testHistoryEntry.scaledScores.english}` : 'No English'}, Total ${testHistoryEntry.scaledScores.total || 'N/A'}`);
-      } else if (testType === 'sat' && responseData.results.satScores) {
-        testHistoryEntry.scaledScores = {
-          total: responseData.results.satScores.totalScaledScore
-        };
-        
-        // Add math score if available
-        if (responseData.results.satScores.math && responseData.results.satScores.math.scaledScore !== undefined) {
-          testHistoryEntry.scaledScores.math = responseData.results.satScores.math.scaledScore;
-        }
-        
-        // Add reading/writing score if available
-        if (responseData.results.satScores.reading_writing && responseData.results.satScores.reading_writing.scaledScore !== undefined) {
-          testHistoryEntry.scaledScores.reading_writing = responseData.results.satScores.reading_writing.scaledScore;
-        }
-        
-        console.log(`📊 Added SAT scaled scores: Math ${testHistoryEntry.scaledScores.math || 'N/A'}, Reading/Writing ${testHistoryEntry.scaledScores.reading_writing || 'N/A'}, Total ${testHistoryEntry.scaledScores.total}`);
-      }
-
-      // Initialize testHistory array if it doesn't exist
-      if (!user.testHistory) {
-        user.testHistory = [];
-        console.log(`📋 Initialized empty test history array for user ${user.email}`);
-      }
-
-      // Add to user's test history
-      console.log(`📝 Adding test history entry to user's history (current count: ${user.testHistory.length})`);
-      user.testHistory.push(testHistoryEntry);
-      console.log(`📝 Test history array now has ${user.testHistory.length} entries`);
-      
-        // Save user with validation and timeout protection
-        console.log(`💾 Saving user with updated test history...`);
-        
-        // Add save timeout to prevent hanging
-        const savePromise = user.save();
-        const timeoutPromise = new Promise((_, reject) => {
-          setTimeout(() => reject(new Error('Database save timeout')), 15000); // 15 second timeout
-        });
-        
-        const savedUser = await Promise.race([savePromise, timeoutPromise]);
-        console.log(`✅ User saved successfully. Final test history count: ${savedUser.testHistory.length}`);
-        
-        console.log(`✅ Test history saved for user ${user.email}: ${testName}`);
-        console.log(`📊 Detailed results count: ${testHistoryEntry.detailedResults.length}`);
-        
+        console.log(`✅ Test history saved for user ${req.user._id}: ${testName} (${updateResult.testHistory.length} total tests)`);
         saveSuccessful = true;
         
       } catch (historyError) {
         lastError = historyError;
-        console.error(`❌ Error saving test history (attempt ${saveAttempts}/${maxRetries}):`, historyError);
-        console.error('❌ Error details:', {
-          name: historyError.name,
-          message: historyError.message,
-          stack: historyError.stack
-        });
+        console.error(`❌ Error saving test history (attempt ${saveAttempts}/${maxRetries}):`, historyError.message);
         
-        // Log validation errors specifically
-        if (historyError.name === 'ValidationError') {
-          console.error('❌ Validation errors:', historyError.errors);
-        }
-        
-        // If this isn't the last attempt, wait before retrying
         if (saveAttempts < maxRetries) {
-          console.log(`⏳ Waiting 2 seconds before retry...`);
-          await new Promise(resolve => setTimeout(resolve, 2000));
+          // Exponential backoff: 1s, 2s, 4s
+          const backoffMs = Math.pow(2, saveAttempts - 1) * 1000;
+          await new Promise(resolve => setTimeout(resolve, backoffMs));
         }
       }
     }

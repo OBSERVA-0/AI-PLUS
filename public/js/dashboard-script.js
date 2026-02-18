@@ -1,7 +1,15 @@
 // Import API configuration
 import { API_BASE_URL } from './config.js';
 
-// Add at the top of the file after the API_BASE_URL declaration
+// Performance: Debug logging toggle - disable in production for better performance
+// Set to true only when debugging issues
+const DEBUG_MODE = false;
+const log = {
+  debug: DEBUG_MODE ? console.log.bind(console) : () => {},
+  info: console.log.bind(console),
+  error: console.error.bind(console)
+};
+
 // Application State
 let currentUser = null;
 let currentTest = null;
