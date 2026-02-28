@@ -493,7 +493,13 @@ async function startTest(testType, practiceSet = '1', sectionType = null) {
         
         // Calculate total time based on question estimates
         const totalEstimatedTime = testQuestions.reduce((total, q) => total + (q.timeEstimate || 90), 0);
-        timeLimit = Math.max(totalEstimatedTime, 10 * 60); // At least 10 minutes
+        
+        // Set fixed 2-hour time limit for state tests, otherwise use estimated time
+        if (testType === 'statetest') {
+            timeLimit = 3 * 60 * 60; // 3 hours for state tests
+        } else {
+            timeLimit = Math.max(totalEstimatedTime, 10 * 60); // At least 10 minutes for other tests
+        }
         
         // Update test info
         const testTitle = testType === 'shsat' 
