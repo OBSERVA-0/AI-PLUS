@@ -140,6 +140,7 @@ router.post('/submit', auth, validateSubmitAnswers, handleValidationErrors, asyn
     
     // Calculate results
     let correctCount = 0;
+    let scorableQuestionCount = 0; // Track questions that can be auto-scored
     const categoryScores = {};
     const detailedResults = [];
     const shsatSectionScores = {
@@ -201,39 +202,57 @@ router.post('/submit', auth, validateSubmitAnswers, handleValidationErrors, asyn
       
       // Handle different question types
       let isCorrect = false;
-      if (question.answer_type === 'fill_in_the_blank') {
-        // For fill-in-the-blank, compare with correct_answer_value
-        const userAnswer = String(answer.selectedAnswer).trim().toLowerCase();
-        const correctAnswer = String(question.correct_answer_value || question.correct_answer).trim().toLowerCase();
-        isCorrect = userAnswer === correctAnswer;
-      } else if (question.answer_type === 'multiple_answers') {
-        // For multiple answers, check if user selected all correct options and no incorrect ones
-        const userAnswers = Array.isArray(answer.selectedAnswer) ? answer.selectedAnswer : [];
-        const correctAnswers = Array.isArray(question.correct_answer) ? question.correct_answer : [question.correct_answer];
-        
-        // Sort both arrays for comparison
-        const sortedUserAnswers = [...userAnswers].sort((a, b) => a - b);
-        const sortedCorrectAnswers = [...correctAnswers].sort((a, b) => a - b);
-        
-        // Check if arrays are identical
-        isCorrect = sortedUserAnswers.length === sortedCorrectAnswers.length &&
-                   sortedUserAnswers.every((answer, index) => answer === sortedCorrectAnswers[index]);
-      } else {
-        // For single multiple choice, compare with correct_answer index
-        isCorrect = answer.selectedAnswer === question.correct_answer;
+      let isScorable = true; // Track if this question can be auto-scored
+      
+      // Check if question has a valid correct_answer for scoring
+      // Short response and extended response questions cannot be auto-scored
+      if (question.answer_type === 'short_response' || question.answer_type === 'extended_response') {
+        isScorable = false;
+      } else if (question.correct_answer === null || question.correct_answer === undefined) {
+        // Question is missing correct_answer data - cannot score
+        isScorable = false;
+        log.debug(`⚠️ Question ${question._id} has null correct_answer - skipping scoring`);
       }
       
-      if (isCorrect) {
-        correctCount++;
+      if (isScorable) {
+        scorableQuestionCount++;
+        
+        if (question.answer_type === 'fill_in_the_blank') {
+          // For fill-in-the-blank, compare with correct_answer_value
+          const userAnswer = String(answer.selectedAnswer).trim().toLowerCase();
+          const correctAnswer = String(question.correct_answer_value || question.correct_answer).trim().toLowerCase();
+          isCorrect = userAnswer === correctAnswer;
+        } else if (question.answer_type === 'multiple_answers') {
+          // For multiple answers, check if user selected all correct options and no incorrect ones
+          const userAnswers = Array.isArray(answer.selectedAnswer) ? answer.selectedAnswer : [];
+          const correctAnswers = Array.isArray(question.correct_answer) ? question.correct_answer : [question.correct_answer];
+          
+          // Sort both arrays for comparison
+          const sortedUserAnswers = [...userAnswers].sort((a, b) => a - b);
+          const sortedCorrectAnswers = [...correctAnswers].sort((a, b) => a - b);
+          
+          // Check if arrays are identical
+          isCorrect = sortedUserAnswers.length === sortedCorrectAnswers.length &&
+                     sortedUserAnswers.every((answer, index) => answer === sortedCorrectAnswers[index]);
+        } else {
+          // For single multiple choice, compare with correct_answer index
+          isCorrect = answer.selectedAnswer === question.correct_answer;
+        }
+        
+        if (isCorrect) {
+          correctCount++;
+        }
       }
       
-      // Track by category
-      if (!categoryScores[question.category]) {
-        categoryScores[question.category] = { correct: 0, total: 0 };
-      }
-      categoryScores[question.category].total++;
-      if (isCorrect) {
-        categoryScores[question.category].correct++;
+      // Track by category (only for scorable questions)
+      if (isScorable) {
+        if (!categoryScores[question.category]) {
+          categoryScores[question.category] = { correct: 0, total: 0 };
+        }
+        categoryScores[question.category].total++;
+        if (isCorrect) {
+          categoryScores[question.category].correct++;
+        }
       }
 
       const categoryLower = question.category.toLowerCase();
@@ -300,22 +319,31 @@ router.post('/submit', auth, validateSubmitAnswers, handleValidationErrors, asyn
         answer_type: question.answer_type,
         userAnswer: answer.selectedAnswer,
         isCorrect,
+        isScorable, // Track if this question was scorable
         category: question.category,
         question_number: question.question_number,
         hasAnswer: answer.selectedAnswer !== undefined && answer.selectedAnswer !== null && answer.selectedAnswer !== ''
       });
     }
     
-    const percentage = answers.length > 0 ? Math.round((correctCount / answers.length) * 100) : 0;
+    // Calculate percentage based only on scorable questions (excludes short_response, extended_response, and questions with null correct_answer)
+    const percentage = scorableQuestionCount > 0 ? Math.round((correctCount / scorableQuestionCount) * 100) : 0;
+    
+    // Log warning if some questions couldn't be scored due to missing correct_answer
+    const unscoredCount = answers.length - scorableQuestionCount;
+    if (unscoredCount > 0) {
+      console.log(`⚠️ ${unscoredCount} of ${answers.length} questions could not be auto-scored (missing correct_answer or essay type)`);
+    }
     
     // Log performance metrics (only in development)
     const processingTime = Date.now() - startTime;
-    log.debug(`⚡ Score calculation: ${processingTime}ms for ${answers.length} answers`);
+    log.debug(`⚡ Score calculation: ${processingTime}ms for ${answers.length} answers (${scorableQuestionCount} scorable)`);
     
     const responseData = {
       results: {
         correctCount,
         totalQuestions: answers.length,
+        scorableQuestions: scorableQuestionCount, // Add this for transparency
         percentage,
         timeSpent,
         categoryScores
@@ -424,6 +452,7 @@ router.post('/submit', auth, validateSubmitAnswers, handleValidationErrors, asyn
         percentage,
         correctCount,
         totalQuestions: answers.length,
+        scorableQuestions: scorableQuestionCount,
         timeSpent,
         categoryScores: new Map(Object.entries(categoryScores))
       },
@@ -431,6 +460,7 @@ router.post('/submit', auth, validateSubmitAnswers, handleValidationErrors, asyn
         questionId: result.questionId,
         questionNumber: result.question_number || (index + 1),
         isCorrect: result.isCorrect,
+        isScorable: result.isScorable,
         userAnswer: result.userAnswer,
         category: result.category,
         hasAnswer: result.hasAnswer
